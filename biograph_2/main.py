@@ -23,7 +23,7 @@ def set_bg_from_local(image_path):
         background-attachment: fixed;
     }}
     .block-container {{
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         padding: 2rem;
         box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -93,12 +93,12 @@ st.markdown("""
 # =====================
 # CONTEÚDO PRINCIPAL
 # =====================
-st.markdown("<h1 class='main-title'>Find and understand research better</h1>", unsafe_allow_html=True)
-st.markdown("<p class='subtitle'>Search using keywords, titles, authors, or DOIs</p>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>BioKnow</h1>", unsafe_allow_html=True)
+st.markdown("<p class='subtitle'>From search to insight</p>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 4, 1])
 with col2:
-    keyword = st.text_input("", placeholder="Search using keywords, titles, authors, or DOIs", label_visibility="collapsed", key="search_input")
+    keyword = st.text_input("", placeholder="Search using keywords", label_visibility="collapsed", key="search_input")
     st.markdown("<div class='search-button' style='text-align:center;'>", unsafe_allow_html=True)
     if st.button("🔍 Search"):
         st.session_state.keyword = keyword
@@ -118,7 +118,7 @@ with col_a:
         st.session_state.page = "page1"
         st.rerun()
 with col_b:
-    if st.button("View Graph 🕸️", key="p2"):
+    if st.button("View Graph", key="p2"):
         st.switch_page("pages/graph.py")
         st.session_state.page = "page2"
         st.rerun()
