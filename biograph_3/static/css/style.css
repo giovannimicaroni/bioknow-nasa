@@ -1,7 +1,7 @@
 /* --- Reset Básico e Estilos Globais --- */
 * { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;     
     box-sizing: border-box; 
 }
 
@@ -20,7 +20,7 @@ body {
 
 /* --- Estilo do Fundo (Página Inicial) --- */
 body:not(.graph-body) {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/gif_tunnel.gif');
     background-size: cover;
     background-position: center;
 }
@@ -35,10 +35,29 @@ header {
     border-bottom: 1px solid #333;
     flex-shrink: 0; 
 }
-.logo { display: flex; align-items: center; gap: 15px; font-size: 1.2rem; font-weight: 500; }
-.logo img { height: 40px; }
-nav { display: flex; gap: 30px; }
-nav a { color: white; text-decoration: none; font-size: 1rem; }
+.logo { 
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+    font-size: 1.2rem; 
+    font-weight: 500; 
+}
+.logo img { 
+    height: 40px; 
+}
+nav { 
+    display: flex; 
+    gap: 30px; 
+}
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #4ade80;
+}
 
 /* --- Seção Hero (Página Inicial) --- */
 .hero-section { 
@@ -46,29 +65,66 @@ nav a { color: white; text-decoration: none; font-size: 1rem; }
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    padding-bottom: 10%; 
-}
-.search-form { width: 100%; max-width: 600px; }
-.search-container { position: relative; }
-.search-icon { position: absolute; top: 50%; left: 20px; transform: translateY(-50%); color: #888; }
-input[type="text"] {
-    width: 100%; 
-    padding: 18px 20px 18px 50px; 
-    border-radius: 30px;
-    border: 1px solid #555; 
-    background-color: rgba(255,255,255,0.9);
-    color: #333; 
-    font-size: 1.1rem; 
-    outline: none;
+    padding: 40px 20px;
 }
 
-/* --- Página do Grafo (COM AS CORREÇÕES) --- */
+.cta-container {
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    background: linear-gradient(135deg, #ffffff 0%, #4ad4de 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+    line-height: 1.6;
+    width: fit-content; 
+    white-space: nowrap; 
+}
+
+/* --- Botão Explore --- */
+.explore-btn {
+    display: inline-block;
+    padding: 18px 50px;
+    background: linear-gradient(135deg, #22a7c5 0%, #155e80 100%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(34, 167, 197, 0.6);
+}
+
+.explore-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(34, 167, 197, 0.6);
+    background: linear-gradient(135deg, #22a7c5 0%, #155e80 100%);
+}
+
+.explore-btn:active {
+    transform: translateY(0);
+}
+
+/* --- Página do Grafo --- */
 .graph-body { 
     background-color: #000; 
 }
 
 .graph-section { 
-    flex-grow: 1; /* Faz a seção principal crescer */
+    flex-grow: 1;
     display: flex; 
     flex-direction: column; 
     padding: 20px; 
@@ -76,12 +132,12 @@ input[type="text"] {
 }
 
 .graph-container {
-    flex-grow: 1; /* FAZ O CONTAINER DO GRAFO CRESCER DENTRO DA SEÇÃO */
+    flex-grow: 1;
     border: 1px solid #333; 
     border-radius: 8px;
     overflow: hidden; 
     position: relative;
-    background-color: #000; /* Garante o fundo preto */
+    background-color: #000;
 }
 
 iframe { 
@@ -98,4 +154,32 @@ iframe {
     color: #aaa;
     flex-shrink: 0;
 }
-.zoom-controls { display: flex; gap: 20px; }
+
+.zoom-controls { 
+    display: flex; 
+    gap: 20px; 
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .explore-btn {
+        font-size: 1rem;
+        padding: 16px 40px;
+    }
+    
+    header {
+        padding: 15px 20px;
+    }
+    
+    nav {
+        gap: 15px;
+    }
+}
