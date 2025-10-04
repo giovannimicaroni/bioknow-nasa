@@ -5,6 +5,7 @@ import streamlit.components.v1 as components
 import tempfile
 import os
 import json
+import pickle
 
 # ==================== GRAPH INITIALIZATION ====================
 @st.cache_resource
@@ -13,56 +14,8 @@ def load_knowledge_graph():
     Initialize your knowledge graph here.
     Replace this sample data with your actual graph construction.
     """
-    G = nx.Graph()
-    
-    # Example: Building a sample knowledge graph
-    # Add nodes with attributes
-    G.add_node("Alice", type="Person", role="Developer", age=30)
-    G.add_node("Bob", type="Person", role="Designer", age=25)
-    G.add_node("Charlie", type="Person", role="Manager", age=35)
-    G.add_node("Diana", type="Person", role="Data Scientist", age=28)
-    G.add_node("Eve", type="Person", role="Developer", age=27)
-    
-    G.add_node("TechCorp", type="Company", industry="Technology", size="Large")
-    G.add_node("DataInc", type="Company", industry="Analytics", size="Medium")
-    G.add_node("StartupXYZ", type="Company", industry="AI", size="Small")
-    
-    G.add_node("Python", type="Technology", category="Language")
-    G.add_node("JavaScript", type="Technology", category="Language")
-    G.add_node("Neo4j", type="Technology", category="Database")
-    G.add_node("React", type="Technology", category="Framework")
-    G.add_node("TensorFlow", type="Technology", category="Library")
-    
-    G.add_node("KnowledgeGraph", type="Project", status="Active")
-    G.add_node("WebApp", type="Project", status="Active")
-    G.add_node("MLPipeline", type="Project", status="Planning")
-    
-    # Add edges with relationship types
-    G.add_edge("Alice", "Bob", relationship="COLLABORATES_WITH")
-    G.add_edge("Alice", "Diana", relationship="COLLABORATES_WITH")
-    G.add_edge("Bob", "Eve", relationship="COLLABORATES_WITH")
-    G.add_edge("Charlie", "Alice", relationship="MANAGES")
-    G.add_edge("Charlie", "Bob", relationship="MANAGES")
-    G.add_edge("Charlie", "Eve", relationship="MANAGES")
-    
-    G.add_edge("Alice", "TechCorp", relationship="WORKS_AT")
-    G.add_edge("Bob", "TechCorp", relationship="WORKS_AT")
-    G.add_edge("Eve", "TechCorp", relationship="WORKS_AT")
-    G.add_edge("Diana", "DataInc", relationship="WORKS_AT")
-    G.add_edge("Charlie", "StartupXYZ", relationship="WORKS_AT")
-    
-    G.add_edge("Alice", "Python", relationship="USES")
-    G.add_edge("Alice", "React", relationship="USES")
-    G.add_edge("Bob", "JavaScript", relationship="USES")
-    G.add_edge("Bob", "React", relationship="USES")
-    G.add_edge("Diana", "Python", relationship="USES")
-    G.add_edge("Diana", "TensorFlow", relationship="USES")
-    G.add_edge("Eve", "Python", relationship="USES")
-    
-    G.add_edge("Alice", "KnowledgeGraph", relationship="WORKS_ON")
-    G.add_edge("Bob", "WebApp", relationship="WORKS_ON")
-    G.add_edge("Diana", "MLPipeline", relationship="WORKS_ON")
-    G.add_edge("Eve", "KnowledgeGraph", relationship="WORKS_ON")
+    with open("assets/grafo_keywords.gpickle", "rb") as f:
+        G = pickle.load(f)
     
     return G
 
@@ -135,11 +88,11 @@ def visualize_graph(G, title="Knowledge Graph"):
     
     # Configure physics for organic layout
     net.barnes_hut(
-        gravity=-3000,
-        central_gravity=0.3,
+        gravity=-200,
+        central_gravity=0,
         spring_length=150,
-        spring_strength=0.004,
-        damping=0.09
+        spring_strength=0,
+        damping=0
     )
     
     # Color scheme inspired by Network Science book
@@ -207,7 +160,7 @@ def visualize_graph(G, title="Knowledge Graph"):
             "enabled": true,
             "stabilization": {
                 "enabled": true,
-                "iterations": 200
+                "iterations": 1
             }
         },
         "interaction": {

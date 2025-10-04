@@ -33,7 +33,7 @@ def set_bg_from_local(image_path):
     st.markdown(css, unsafe_allow_html=True)
 
 # ===== CHAME AQUI SUA IMAGEM =====
-set_bg_from_local("/Users/laura/Documents/Others/NASA_2025/versions/biograph_2/assets/background.png")  # ← altere para o caminho da sua imagem
+set_bg_from_local("assets/background.png")  # ← altere para o caminho da sua imagem
 
 # Ocultar barra lateral
 st.markdown("<style>[data-testid='stSidebarNav']{display:none;}</style>", unsafe_allow_html=True)
