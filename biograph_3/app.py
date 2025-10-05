@@ -6,12 +6,15 @@ import pickle
 # Inicializa o aplicativo Flask
 app = Flask(__name__)
 
-# Função para criar um grafo de exemplo baseado em uma busca
-# Dentro do app.py
-
-# Dentro do app.py
+# Cache global para o grafo HTML
+graph_cache = {}
 
 def create_graph(query=""):
+    # Usa o cache se a query já foi gerada
+    cache_key = query.lower()
+    if cache_key in graph_cache:
+        return graph_cache[cache_key]
+    
     # Carrega o grafo a partir do arquivo .gpickle
     with open("grafo_keywords.gpickle", "rb") as f:
         g = pickle.load(f)
@@ -45,17 +48,21 @@ def create_graph(query=""):
     # 4. Adiciona todas as arestas (conexões)
     net.add_edges(g.edges())
 
-    # Aplica as opções de física que já tínhamos
+    # Aplica as opções de física - SEM estabilização inicial para carregamento instantâneo
     net.set_options("""
     var options = {
       "physics": {
+        "enabled": true,
         "barnesHut": {
           "gravitationalConstant": -40000,
           "centralGravity": 0.05,
           "springLength": 150
         },
         "minVelocity": 0.75,
-        "solver": "barnesHut"
+        "solver": "barnesHut",
+        "stabilization": {
+          "enabled": false
+        }
       },
       "interaction": {
         "hover": true,
@@ -64,7 +71,27 @@ def create_graph(query=""):
     }
     """)
     
-    return net.generate_html()
+    # Gera e armazena no cache
+    graph_html = net.generate_html()
+    
+    # Injeta CSS customizado para esconder a barra de loading
+    custom_css = """
+    <style>
+        #loadingBar {
+            display: none !important;
+        }
+        #mynetwork {
+            background-color: #000000;
+        }
+    </style>
+    """
+    
+    # Insere o CSS antes do </head>
+    graph_html = graph_html.replace('</head>', custom_css + '</head>')
+    
+    graph_cache[cache_key] = graph_html
+    
+    return graph_html
 
 # Rota para a página inicial
 @app.route('/')
@@ -89,4 +116,9 @@ def get_graph_data():
 
 
 if __name__ == '__main__':
+    # Pré-carrega o grafo vazio ao iniciar o servidor
+    # print("Preloading default graph...")
+    create_graph("")
+    # print("Graph preloaded and ready!")
+    
     app.run(debug=True)

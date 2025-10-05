@@ -145,6 +145,15 @@ iframe {
     height: 100%; 
     border: none; 
 }
+/* Hide the Pyvis loading bar */
+iframe::after {
+    content: '';
+    display: block;
+}
+
+#graph-iframe {
+    background-color: #000;
+}
 
 .graph-controls {
     display: flex; 
