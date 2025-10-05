@@ -1,28 +1,39 @@
-/* Articles Browser Styles */
+/* Articles Browser - Extends BioKnowdes styles - Updated */
 
-.articles-container {
-    max-width: 1400px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+/* Override main-content to be full width for articles */
+.main-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
     gap: 2rem;
+    width: 100%;
 }
 
-/* Search Section */
+/* Search Section - Following sidebar pattern from bioknowdes */
 .search-section {
+    width: 100%;
     background: var(--bg-secondary);
-    backdrop-filter: blur(10px);
     border-radius: 16px;
-    padding: 2rem;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    height: fit-content;
     border: 1px solid var(--border-primary);
 }
 
 .search-card h2 {
     color: var(--text-primary);
     margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-card h2 i {
+    color: var(--accent-primary);
 }
 
 .search-controls {
@@ -39,10 +50,10 @@
 
 .search-input {
     flex: 1;
-    padding: 0.875rem 1.25rem;
-    border: 2px solid var(--border-secondary);
-    border-radius: 12px;
-    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    font-size: 0.9rem;
     outline: none;
     transition: border-color 0.3s ease;
     background: var(--bg-tertiary);
@@ -59,26 +70,26 @@
 
 .search-actions {
     display: flex;
-    gap: 0.75rem;
+    gap: 0.5rem;
     justify-content: flex-end;
 }
 
-/* Results Section */
+/* Results Section - Following chat container pattern from bioknowdes */
 .results-section {
     background: var(--bg-secondary);
-    backdrop-filter: blur(10px);
     border-radius: 16px;
-    padding: 2rem;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
     border: 1px solid var(--border-primary);
-    min-height: 500px;
+    flex: 1;
 }
 
 .results-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--border-primary);
 }
@@ -86,19 +97,21 @@
 .results-header h3 {
     color: var(--text-primary);
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .results-info {
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 /* Articles Grid */
 .articles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+    flex: 1;
 }
 
 .loading-articles {
@@ -114,12 +127,12 @@
     color: var(--accent-primary);
 }
 
-/* Article Card */
+/* Article Card - Following document card pattern from bioknowdes */
 .article-card {
     background: var(--bg-tertiary);
-    border: 2px solid var(--border-primary);
-    border-radius: 12px;
-    padding: 1.5rem;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    padding: 1rem;
     transition: all 0.3s ease;
     cursor: pointer;
     position: relative;
@@ -127,72 +140,48 @@
 
 .article-card:hover {
     border-color: var(--border-secondary);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
 }
 
 .article-card.selected {
     border-color: var(--accent-primary);
     background: rgba(96, 165, 250, 0.05);
-    box-shadow: 0 4px 16px rgba(96, 165, 250, 0.2);
+    box-shadow: 0 2px 12px rgba(96, 165, 250, 0.15);
 }
 
 .article-checkbox {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 20px;
-    height: 20px;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 18px;
+    height: 18px;
     accent-color: var(--accent-primary);
     cursor: pointer;
-}
-
-.pagination-info {
-    grid-column: 1 / -1;
-    background: var(--bg-secondary);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    color: var(--text-secondary);
-    border: 1px solid var(--border-light);
-    margin-top: 1rem;
-}
-
-.pagination-info p {
-    margin: 0;
-    font-size: 0.9rem;
 }
 
 .article-title {
     font-weight: 600;
     color: var(--text-primary);
-    font-size: 1rem;
+    font-size: 0.95rem;
     line-height: 1.4;
     margin-bottom: 0.75rem;
-    margin-right: 2rem; /* Space for checkbox */
+    margin-right: 2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.article-filename {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    margin-bottom: 1rem;
-    font-family: 'Courier New', monospace;
-    background: var(--bg-primary);
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    border: 1px solid var(--border-primary);
-}
-
-.article-actions {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
 
 .article-links {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-primary);
 }
 
 .link-badge {
@@ -200,8 +189,8 @@
     align-items: center;
     gap: 0.25rem;
     padding: 0.25rem 0.5rem;
-    border-radius: 8px;
-    font-size: 0.75rem;
+    border-radius: 6px;
+    font-size: 0.7rem;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.2s ease;
@@ -227,16 +216,21 @@
     background: rgba(16, 185, 129, 0.2);
 }
 
-/* Header Updates */
-.header-actions .btn-primary {
+/* Pagination Info */
+.pagination-info {
+    grid-column: 1 / -1;
+    background: var(--bg-tertiary);
+    padding: 1rem;
     border-radius: 8px;
-    width: auto;
-    height: auto;
-    padding: 0.75rem 1.5rem;
+    text-align: center;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-primary);
+    margin-top: 1rem;
 }
 
-#selectedCount {
-    font-weight: 600;
+.pagination-info p {
+    margin: 0;
+    font-size: 0.85rem;
 }
 
 /* Empty State */
@@ -258,16 +252,54 @@
     color: var(--text-primary);
 }
 
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-overlay.hidden {
+    display: none;
+}
+
+.loading-content {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-primary);
+}
+
+.loading-content i {
+    font-size: 2rem;
+    color: var(--accent-primary);
+    margin-bottom: 1rem;
+}
+
+.loading-content p {
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-    .articles-container {
-        margin: 1rem auto;
-        padding: 0 0.5rem;
+    .main-content {
+        padding: 1rem;
+        gap: 1rem;
     }
     
     .search-section,
     .results-section {
-        padding: 1.5rem;
+        padding: 1rem;
     }
     
     .search-input-group {

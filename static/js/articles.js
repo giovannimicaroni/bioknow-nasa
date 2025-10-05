@@ -152,8 +152,6 @@ class ArticlesBrowser {
                 
                 <h4 class="article-title">${article.title || article.display_name}</h4>
                 
-                <div class="article-filename">${article.filename}</div>
-                
                 <div class="article-links">
                     ${article.download_url ? `
                         <a href="${article.download_url}" target="_blank" class="link-badge pdf">

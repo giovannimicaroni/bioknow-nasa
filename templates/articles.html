@@ -5,9 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article Browser - BioKnowdes</title>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bioknowdes.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/articles.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Force styles to ensure they're applied */
+        body { background: #1a1a1a !important; }
+        .app-container { background: #1a1a1a !important; }
+        .main-content { 
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 2rem;
+            width: 100%;
+        }
+        .search-section {
+            background: #2d2d2d;
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid #404040;
+        }
+        .results-section {
+            background: #2d2d2d;
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid #404040;
+            flex: 1;
+        }
+        .article-card {
+            background: #3a3a3a;
+            border: 1px solid #404040;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        
+        /* Load Selected Button - Override circular style */
+        #loadSelectedBtn {
+            background: #60a5fa !important;
+            color: white !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            border: none !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        #loadSelectedBtn:hover:not(:disabled) {
+            background: #3b82f6 !important;
+            transform: translateY(-1px) !important;
+        }
+        
+        #loadSelectedBtn:disabled {
+            background: #666666 !important;
+            cursor: not-allowed !important;
+            transform: none !important;
+        }
+        
+        #selectedCount {
+            font-weight: 600 !important;
+        }
+        
+        /* Back to Chat Button - Override circular style */
+        .header-actions .btn-secondary {
+            background: #3a3a3a !important;
+            color: #ffffff !important;
+            border: 1px solid #404040 !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .header-actions .btn-secondary:hover {
+            background: #404040 !important;
+            border-color: #525252 !important;
+            transform: translateY(-1px) !important;
+        }
+        
+        /* Search Buttons - Override circular style */
+        #searchBtn {
+            background: #60a5fa !important;
+            color: white !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            border: none !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        #searchBtn:hover {
+            background: #3b82f6 !important;
+            transform: translateY(-1px) !important;
+        }
+        
+        /* Clear Search Button */
+        #clearSearchBtn {
+            background: #3a3a3a !important;
+            color: #ffffff !important;
+            border: 1px solid #404040 !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        #clearSearchBtn:hover {
+            background: #404040 !important;
+            border-color: #525252 !important;
+            transform: translateY(-1px) !important;
+        }
+        
+        /* Select All / Deselect All Buttons */
+        #selectAllBtn, #deselectAllBtn {
+            background: #3a3a3a !important;
+            color: #ffffff !important;
+            border: 1px solid #404040 !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.5rem 1rem !important;
+            justify-content: flex-start !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+            font-size: 0.8rem !important;
+        }
+        
+        #selectAllBtn:hover, #deselectAllBtn:hover {
+            background: #404040 !important;
+            border-color: #525252 !important;
+            transform: translateY(-1px) !important;
+        }
+    </style>
 </head>
 <body>
     <div class="app-container">
@@ -27,7 +170,7 @@
         </header>
 
         <!-- Main Content -->
-        <div class="articles-container">
+        <div class="main-content">
             <!-- Search Section -->
             <div class="search-section">
                 <div class="search-card">

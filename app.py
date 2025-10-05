@@ -82,6 +82,19 @@ print(f"🤖 Model: {LM_STUDIO_MODEL}")
 graph_cache = {}
 
 # ============================================================================
+# AWS S3 FUNCTIONS
+# ============================================================================
+
+def get_s3_pdf_url(pdf_filename):
+    """
+    Gera URL do S3 para um PDF
+    """
+    # Remove espaços e caracteres especiais, substitui por %20
+    encoded_filename = pdf_filename.replace(' ', '%20')
+    s3_url = f"https://nasa-spaceapps-25.s3.us-east-1.amazonaws.com/{encoded_filename}"
+    return s3_url
+
+# ============================================================================
 # HELPER FUNCTIONS - BioKnowdes
 # ============================================================================
 
@@ -748,7 +761,11 @@ def get_documents():
             }
             
             if 'download_url' in doc:
-                doc_info['download_url'] = doc['download_url']
+                # Usar URL do S3 se houver pdf_filename
+                if 'pdf_filename' in doc and doc['pdf_filename']:
+                    doc_info['download_url'] = get_s3_pdf_url(doc['pdf_filename'])
+                else:
+                    doc_info['download_url'] = doc['download_url']
             if 'pmc_link' in doc:
                 doc_info['pmc_link'] = doc['pmc_link']
             if 'pdf_filename' in doc:
@@ -856,7 +873,11 @@ def load_articles():
                 
                 if filename in articles_map:
                     doc_info['pdf_filename'] = articles_map[filename]['pdf_filename']
-                    doc_info['download_url'] = articles_map[filename]['download_url']
+                    # Usar URL do S3 para download
+                    if articles_map[filename]['pdf_filename']:
+                        doc_info['download_url'] = get_s3_pdf_url(articles_map[filename]['pdf_filename'])
+                    else:
+                        doc_info['download_url'] = articles_map[filename]['download_url']
                     doc_info['pmc_link'] = articles_map[filename]['pmc_link']
                     doc_info['title'] = articles_map[filename]['title']
                 
@@ -944,6 +965,9 @@ def articles_list():
                 
                 if filename in articles_map:
                     article_info.update(articles_map[filename])
+                    # Usar URL do S3 para download se houver pdf_filename
+                    if 'pdf_filename' in articles_map[filename] and articles_map[filename]['pdf_filename']:
+                        article_info['download_url'] = get_s3_pdf_url(articles_map[filename]['pdf_filename'])
                 
                 articles.append(article_info)
         
