@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Send message function
-    function sendMessage() {
+    async function sendMessage() {
         const message = chatInput.value.trim();
         if (!message) return;
 
@@ -462,11 +462,88 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add user message
         addMessage(message, 'user');
         chatInput.value = '';
-        // INTEGRAR O CHATBOT AQUI
-        // Simulate bot response (replace with actual API call)
-        setTimeout(() => {
-            addMessage('Thanks for your message! I\'m still learning. Check back soon for full chat capabilities!', 'bot');
-        }, 1000);
+        
+        // Show loading indicator
+        const loadingMessage = addMessage('Lumi is thinking...', 'bot', false, 'loading');
+        
+        try {
+            // Use the new homepage-chat endpoint
+            const response = await fetch('/homepage-chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question: message })
+            });
+            
+            if (response.ok) {
+                const data = await response.json();
+                
+                // Remove loading message
+                const loadingMsg = chatMessages.querySelector('.loading');
+                if (loadingMsg) {
+                    loadingMsg.remove();
+                }
+                
+                // Add response
+                let responseText = data.answer;
+                
+                // Add retrieved articles info if available
+                if (data.retrieved_articles && data.retrieved_articles.length > 0) {
+                    const articleCount = data.retrieved_articles.length;
+                    responseText += `\n\n📚 **${articleCount} relevant articles selected:**\n`;
+                    
+                    const articleNames = [];
+                    // Show first 5 articles in detail, then summarize the rest
+                    const articlesToShow = Math.min(5, data.retrieved_articles.length);
+                    
+                    for (let i = 0; i < articlesToShow; i++) {
+                        const article = data.retrieved_articles[i];
+                        const score = article.score || article.relevance_score || 0;
+                        const scoreIcon = score > 0.6 ? '🟢' : score > 0.4 ? '🟡' : '🔴';
+                        responseText += `${i + 1}. ${scoreIcon} ${article.article} (${score.toFixed(3)})\n`;
+                        articleNames.push(article.article);
+                    }
+                    
+                    // Add remaining articles to the list but don't display details
+                    for (let i = articlesToShow; i < data.retrieved_articles.length; i++) {
+                        articleNames.push(data.retrieved_articles[i].article);
+                    }
+                    
+                    if (data.retrieved_articles.length > articlesToShow) {
+                        responseText += `... and ${data.retrieved_articles.length - articlesToShow} more articles\n`;
+                    }
+                    
+                    // Add button to open these articles in Ask Lumi
+                    const articleNamesJson = JSON.stringify(articleNames).replace(/"/g, '&quot;');
+                    responseText += `\n<button class="demo-button" onclick="loadRecommendedArticlesInLumi(${articleNamesJson})">
+                        <i class="fas fa-rocket"></i> Open all ${articleCount} articles in Ask Lumi
+                    </button>`;
+                }
+                
+                addMessage(responseText, 'bot', true);
+            } else {
+                throw new Error('Chat service not available');
+            }
+        } catch (error) {
+            console.log('Chat service error, using fallback response');
+            
+            // Remove loading message
+            const loadingMsg = chatMessages.querySelector('.loading');
+            if (loadingMsg) {
+                loadingMsg.remove();
+            }
+            
+            // Fallback response
+            const fallbackResponses = [
+                "Hello! I'm Lumi, your space research assistant. 🚀\n\nI'm currently learning about NASA experiments. You can explore the connections graph or visit the 'Ask Lumi' page for a more complete experience!",
+                "Interesting question! 🌟\n\nFor detailed analysis, I recommend using the 'Ask Lumi' page where I can access a more complete database of scientific articles.",
+                "I'm Lumi, space research specialist! 🛸\n\nFor specific questions about experiments, try the 'Ask Lumi' functionality which has access to more resources."
+            ];
+            
+            const randomResponse = fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
+            addMessage(randomResponse, 'bot');
+        }
     }
 
     // Add message to chat
@@ -486,15 +563,13 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight;
     }
 
-    // Add demo message with external articles button
+
+    // Add simple welcome message
     function addDemoMessage() {
         const demoHTML = `
-            Olá! Sou Lumi, seu assistente de pesquisa espacial. 🚀<br><br>
-            Além de responder suas perguntas, posso carregar artigos de sistemas externos. 
-            Quer ver um exemplo?<br>
-            <button class="demo-button" onclick="loadExternalArticlesFromChat()">
-                <i class="fas fa-download"></i> Carregar Artigos Demo (5)
-            </button>
+            Hello! I'm Lumi, your space research assistant. 🚀<br><br>
+            I can answer your questions about NASA experiments and space research. 
+            For detailed analysis, visit the 'Ask Lumi' page!
         `;
         
         // Remove empty state
@@ -522,22 +597,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// Global function for loading external articles from chat
-function loadExternalArticlesFromChat() {
-    // Example articles list - up to 10 articles as documentation
-    const selectedArticles = [
-        'Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells',
-        'Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a_p21',
-        'Stem Cell Health and Tissue Regeneration in Microgravity',
-        'Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart',
-        'Beyond low-Earth orbit_ Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice.'
-    ];
-
-    // Create URL parameters with article names
+// Global function for loading recommended articles from chat bot
+function loadRecommendedArticlesInLumi(articleNames) {
+    // Create URL parameters with the recommended article names
     const params = new URLSearchParams({
-        articles: selectedArticles.join('|'), // Use | as separator
-        source: 'external_system',
-        message: `✨ ${selectedArticles.length} artigos carregados do sistema externo via chat demo!`
+        articles: articleNames.join('|'), // Use | as separator
+        source: 'lumi_recommendation',
+        message: `✨ ${articleNames.length} articles recommended by Lumi!`
     });
 
     // Redirect to ask-lumi with articles

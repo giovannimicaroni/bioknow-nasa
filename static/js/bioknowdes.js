@@ -48,9 +48,19 @@ class BioKnowdes {
         
         // Handle new format with articles list
         if (articles) {
-            const articleList = articles.split('|').filter(a => a.trim());
+            const articleList = articles.split('|')
+                .filter(a => a.trim())
+                .map(article => {
+                    // URL decode the article name (replace + with spaces and decode other chars)
+                    let decoded = decodeURIComponent(article.replace(/\+/g, ' '));
+                    // Remove .pdf extension if present
+                    if (decoded.endsWith('.pdf')) {
+                        decoded = decoded.slice(0, -4);
+                    }
+                    return decoded.trim();
+                });
             const displayMessage = message ? decodeURIComponent(message) : 
-                `✨ ${articleList.length} artigos carregados${source === 'external_system' ? ' do sistema externo' : ''}!`;
+                `✨ ${articleList.length} articles loaded${source === 'external_system' ? ' from external system' : ''}!`;
             
             this.loadArticlesByNames(articleList);
             this.showSuccessMessage(displayMessage);
@@ -127,11 +137,11 @@ class BioKnowdes {
                 console.log(`Successfully loaded ${result.loaded_count} articles`);
             } else {
                 console.error('Error loading articles:', result.error);
-                this.showErrorMessage(`Erro ao carregar artigos: ${result.error}`);
+                this.showErrorMessage(`Error loading articles: ${result.error}`);
             }
         } catch (error) {
             console.error('Error loading articles:', error);
-            this.showErrorMessage(`Erro ao carregar artigos: ${error.message}`);
+            this.showErrorMessage(`Error loading articles: ${error.message}`);
         }
     }
 
@@ -258,6 +268,8 @@ class BioKnowdes {
             
             if (data.response) {
                 this.addMessage('assistant', data.response);
+            } else if (data.error) {
+                this.addMessage('assistant', `Error: ${data.error}`);
             } else {
                 this.addMessage('assistant', 'Sorry, I encountered an error processing your request.');
             }

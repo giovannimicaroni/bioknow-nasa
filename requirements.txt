@@ -25,3 +25,10 @@ node2vec==0.4.3
 google-generativeai==0.8.3
 openai==1.50.2
 anthropic==0.34.2
+# AmandaChatbot dependencies
+langchain>=0.3.0
+langchain-ollama>=0.2.0
+langchain-core>=0.3.0
+sentence-transformers>=5.1.0
+scikit-learn>=1.7.0
+pydantic>=2.5.0

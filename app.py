@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, session, send_file, abort
+from flask import Flask, render_template, request, jsonify, session, send_file, redirect
 from flask_cors import CORS
 from pyvis.network import Network
 import networkx as nx
@@ -15,9 +15,18 @@ import subprocess
 from werkzeug.utils import secure_filename
 import PyPDF2
 import docx
-from sklearn.metrics.pairwise import cosine_similarity
 import random 
 
+# AmandaChatbot imports
+from typing import List, Dict, Any
+from langchain.agents import AgentExecutor, create_openai_tools_agent
+from langchain.tools import BaseTool
+from langchain_ollama import ChatOllama
+from langchain.memory import ConversationBufferMemory
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from pydantic import BaseModel, Field
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # AI Provider imports
 try:
@@ -85,6 +94,791 @@ print(f"🤖 Model: {LM_STUDIO_MODEL}")
 graph_cache = {}
 
 # ============================================================================
+# AMANDACHATBOT CLASSES
+# ============================================================================
+
+class ArticleRanker:
+    """Loads and ranks articles from keywords_resultados.jsonl using semantic similarity."""
+    
+    def __init__(self, jsonl_path: str, model_name: str = 'all-MiniLM-L6-v2'):
+        self.articles = []
+        self.load_articles(jsonl_path)
+        print(f"Loading embedding model: {model_name}...")
+        self.embedding_model = SentenceTransformer(model_name)
+        print(f"✓ Model loaded. {len(self.articles)} articles ready.")
+        
+    def load_articles(self, jsonl_path: str):
+        """Load articles from JSONL file."""
+        with open(jsonl_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                article = json.loads(line)
+                keywords = [kw[0] for kw in article['keywords']]
+                self.articles.append({
+                    'article': article['article'],
+                    'keywords': keywords,
+                    'keywords_with_scores': article['keywords']
+                })
+    
+    def rank_by_embeddings(self, query_keywords: List[str], top_n: int = 5) -> List[Dict]:
+        """
+        Rank articles using semantic embeddings.
+        
+        Returns:
+            List of dicts with article metadata and relevance scores
+        """
+        query_text = " ".join(query_keywords)
+        query_embedding = self.embedding_model.encode([query_text])
+        
+        scores = []
+        for idx, article in enumerate(self.articles):
+            article_text = " ".join(article['keywords'])
+            article_embedding = self.embedding_model.encode([article_text])
+            
+            similarity = cosine_similarity(query_embedding, article_embedding)[0][0]
+            scores.append({
+                'id': idx,
+                'article': article['article'],
+                'score': float(similarity),
+                'keywords': article['keywords'][:10],
+                'keywords_with_scores': article['keywords_with_scores'][:10]
+            })
+        
+        scores.sort(key=lambda x: x['score'], reverse=True)
+        return scores[:top_n]
+    
+    def get_article_by_id(self, article_id: int) -> Dict:
+        """Retrieve full article metadata by ID."""
+        if 0 <= article_id < len(self.articles):
+            return self.articles[article_id]
+        return None
+
+
+class ArticleSearchInput(BaseModel):
+    """Input schema for article search."""
+    query_keywords: List[str] = Field(description="Keywords to search for relevant NASA research articles")
+    top_n: int = Field(default=5, description="Number of top articles to return")
+
+
+class NASAArticleSearchTool(BaseTool):
+    """Tool to search NASA research articles from local database."""
+    
+    name: str = "nasa_article_search"
+    description: str = """
+    Search for relevant NASA research articles from the curated database.
+    Use this when researchers ask questions about space, aeronautics, or scientific research.
+    
+    Input: List of keywords related to the research topic
+    Output: Top ranked articles with relevance scores and keywords
+    """
+    args_schema: type[BaseModel] = ArticleSearchInput
+    ranker: Any = Field(default=None)
+    
+    def __init__(self, ranker):
+        super().__init__(ranker=ranker)
+    
+    def _run(self, query_keywords: List[str], top_n: int = 5) -> str:
+        """Execute article search and return formatted results."""
+        results = self.ranker.rank_by_embeddings(query_keywords, top_n)
+        
+        formatted_results = []
+        for result in results:
+            formatted_results.append({
+                "id": result['id'],
+                "article": result['article'],
+                "relevance_score": round(result['score'], 4),
+                "keywords": result['keywords'],
+                "confidence": self._classify_score(result['score'])
+            })
+        
+        return json.dumps(formatted_results, indent=2, ensure_ascii=False)
+    
+    def _classify_score(self, score: float) -> str:
+        """Classify relevance strength."""
+        if score >= 0.7:
+            return "HIGH"
+        elif score >= 0.5:
+            return "MEDIUM"
+        elif score >= 0.3:
+            return "LOW"
+        return "VERY_LOW"
+
+
+class HomePageArticleShowInput(BaseModel):
+    """Input schema for showing articles on homepage."""
+    query_keywords: List[str] = Field(description="Keywords to search for relevant NASA research articles")
+    top_n: int = Field(default=5, description="Number of top articles to return")
+    
+
+class HomePageArticleShowTool(BaseTool):
+    """Tool to find and present NASA articles for homepage chat with user-friendly response."""
+    
+    name: str = "homepage_show_articles"
+    description: str = """
+    Use this tool when you want to show specific NASA research articles to the user on the homepage chat.
+    This should be used when:
+    1. The user has asked a specific research question
+    2. You believe there are relevant articles that would help them
+    3. You want to provide concrete research articles instead of just general guidance
+    
+    This tool will search for articles and return them in a format ready for the homepage chat.
+    Use this when the conversation has progressed enough that showing specific articles would be valuable.
+    """
+    args_schema: type[BaseModel] = HomePageArticleShowInput
+    ranker: Any = Field(default=None)
+    
+    def __init__(self, ranker):
+        super().__init__(ranker=ranker)
+    
+    def _run(self, query_keywords: List[str], top_n: int = 5) -> str:
+        """Search for articles and return them formatted for homepage display."""
+        results = self.ranker.rank_by_embeddings(query_keywords, top_n)
+        
+        # Filter for good quality articles
+        good_articles = [r for r in results if r.get('score', 0) > 0.25]
+        
+        if not good_articles:
+            return "NO_ARTICLES_FOUND"
+        
+        # Ensure we have exactly 5 articles
+        if len(good_articles) < 5:
+            good_articles = results[:5]  # Take top 5 if not enough good ones
+        else:
+            good_articles = good_articles[:5]  # Limit to 5
+        
+        formatted_results = []
+        for result in good_articles:
+            formatted_results.append({
+                "article": result['article'],
+                "score": round(result.get('score', 0), 4),
+                "keywords": result.get('keywords', [])[:5]
+            })
+        
+        return json.dumps({
+            "articles_found": len(formatted_results),
+            "articles": formatted_results,
+            "should_show_button": True
+        }, ensure_ascii=False)
+
+
+class NASAResearchAgent:
+    """NASA Research Assistant Agent with conversational memory."""
+    
+    def __init__(
+        self, 
+        article_ranker: ArticleRanker, 
+        model: str = "llama3.1:8b",
+        base_url: str = "http://localhost:11434"
+    ):
+        self.ranker = article_ranker
+        self.last_retrieved_articles = []  # Store last search results
+        
+        # Configure LLM
+        self.llm = ChatOllama(
+            model=model,
+            temperature=0.3,
+            base_url=base_url,
+        )
+        
+        # Configure memory
+        self.memory = ConversationBufferMemory(
+            memory_key="chat_history",
+            return_messages=True,
+            input_key="input",
+            output_key="output"
+        )
+        
+        # Configure tools
+        self.tools = [NASAArticleSearchTool(ranker=self.ranker)]
+        
+        # Configure prompt
+        self.prompt = self._create_prompt()
+        
+        # Create agent
+        self.agent = create_openai_tools_agent(
+            llm=self.llm,
+            tools=self.tools,
+            prompt=self.prompt
+        )
+        
+        # Create executor
+        self.agent_executor = AgentExecutor(
+            agent=self.agent,
+            tools=self.tools,
+            memory=self.memory,
+            verbose=True,
+            return_intermediate_steps=True,
+            max_iterations=5,
+            handle_parsing_errors=True
+        )
+    
+    def _create_prompt(self) -> ChatPromptTemplate:
+        """Create system prompt for NASA research assistant."""
+        system_message = """You are Lumi, a NASA Research Assistant specialized in helping researchers find and understand relevant scientific articles.
+
+YOUR ROLE:
+- Help researchers find the most relevant NASA articles from the curated database
+- Provide clear, informative summaries of research findings
+- Recommend specific articles that best address the user's question
+- Always mention which articles are most useful for deeper study
+
+TOOL USAGE:
+- Use 'nasa_article_search' to find relevant articles for every question
+- Extract meaningful keywords from user questions (focus on scientific terms, concepts, research areas)
+- Always search for and cite specific articles with their relevance scores
+
+RESPONSE FORMAT:
+1. Provide a helpful answer based on the found articles
+2. Always search for relevant articles using extracted keywords
+3. Mention the most relevant articles by name with their relevance scores
+4. Explain why these articles are particularly useful for the question
+5. Keep responses informative but concise
+
+ARTICLE RECOMMENDATIONS:
+- ALWAYS recommend 2-5 specific articles that are most relevant to the question
+- Mention article titles clearly so users can identify them
+- Focus on articles with HIGH or MEDIUM confidence scores when available
+- Explain briefly what each recommended article contributes to answering the question
+
+IMPORTANT:
+- Every response should include article recommendations when relevant articles are found
+- Be specific about which articles are most valuable for the user's research
+- Keep responses engaging and research-focused
+- Always cite article names clearly for easy identification"""
+
+        return ChatPromptTemplate.from_messages([
+            ("system", system_message),
+            MessagesPlaceholder(variable_name="chat_history"),
+            ("human", "{input}"),
+            MessagesPlaceholder(variable_name="agent_scratchpad"),
+        ])
+    
+    def research(self, question: str, settings: Dict = None) -> Dict[str, Any]:
+        """Execute research query and return results with retrieved articles."""
+        if settings:
+            return self.research_with_settings(question, settings)
+        
+        # Default Langchain behavior
+        result = self.agent_executor.invoke({"input": question})
+        
+        # Extract retrieved article IDs from intermediate steps
+        retrieved_ids = []
+        if result.get("intermediate_steps"):
+            for step in result["intermediate_steps"]:
+                if len(step) >= 2:
+                    action, observation = step[0], step[1]
+                    if action.tool == "nasa_article_search":
+                        try:
+                            articles_data = json.loads(observation)
+                            retrieved_ids = [article['id'] for article in articles_data]
+                            self.last_retrieved_articles = articles_data
+                        except:
+                            pass
+        
+        return {
+            "answer": result["output"],
+            "retrieved_article_ids": retrieved_ids,
+            "retrieved_articles": self.last_retrieved_articles
+        }
+    
+    def research_with_settings(self, question: str, settings: Dict) -> Dict[str, Any]:
+        """Research using configured LLM providers (OpenAI, Anthropic, etc.)"""
+        # Extract keywords from the question using simple keyword extraction
+        keywords = self.extract_keywords_from_question(question)
+        
+        # Get relevant articles with intelligent selection
+        relevant_articles = self.ranker.rank_by_embeddings(keywords, top_n=5)
+        self.last_retrieved_articles = relevant_articles
+        
+        # Filter for high-quality articles to avoid noise
+        high_quality_articles = [
+            article for article in relevant_articles 
+            if article.get('score', 0) > 0.3
+        ]
+        
+        # If we have good quality articles, use them; otherwise use top 5
+        selected_articles = high_quality_articles[:5] if high_quality_articles else relevant_articles[:5]
+        
+        print(f"📚 Selected {len(selected_articles)} articles from {len(relevant_articles)} candidates")
+        
+        # Create context from selected articles
+        context = self.create_context_from_articles(selected_articles)
+        
+        # Prepare messages for API call
+        system_prompt = f"""You are a NASA Research Assistant specialized in helping researchers find and understand relevant scientific articles.
+
+Based on the following relevant articles from the NASA database, answer the user's question:
+
+{context}
+
+Always cite the specific articles you're referencing and mention their relevance scores when applicable."""
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": question}
+        ]
+        
+        # Call the appropriate API based on settings with automatic fallback
+        provider = settings.get('provider', 'lm_studio')
+        providers_to_try = [provider]
+        
+        # Add fallback providers if primary fails
+        if provider != 'lm_studio':
+            providers_to_try.append('lm_studio')
+        
+        response = None
+        last_error = None
+        
+        for current_provider in providers_to_try:
+            try:
+                print(f"🔄 [ASK-LUMI] Trying provider: {current_provider}")
+                
+                if current_provider == 'openai':
+                    response = call_openai_api(messages, settings)
+                elif current_provider == 'anthropic':
+                    response = call_anthropic_api(messages, settings)
+                elif current_provider == 'gemini':
+                    response = call_gemini_api(messages, settings)
+                else:
+                    response = call_lm_studio_api(messages)
+                
+                print(f"✅ [ASK-LUMI] Successfully got response from {current_provider}")
+                break
+                
+            except Exception as e:
+                last_error = e
+                print(f"❌ [ASK-LUMI] Failed with {current_provider}: {str(e)}")
+                continue
+        
+        if response is not None:
+            return {
+                "answer": response,
+                "retrieved_article_ids": [article['id'] for article in relevant_articles],
+                "retrieved_articles": relevant_articles
+            }
+        else:
+            print(f"🔄 [ASK-LUMI] All providers failed, falling back to Langchain")
+            # Fallback to Langchain if all API providers fail
+            return self.research(question)
+    
+    def extract_keywords_from_question(self, question: str) -> List[str]:
+        """Extract meaningful keywords from the question"""
+        import re
+        
+        # Expanded list of common words to filter out
+        common_words = {
+            'what', 'how', 'when', 'where', 'why', 'who', 'can', 'does', 'is', 'are', 'the', 'a', 'an', 
+            'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'about', 'from',
+            'that', 'this', 'they', 'them', 'their', 'there', 'these', 'those', 'some', 'any', 'all',
+            'want', 'need', 'would', 'could', 'should', 'will', 'shall', 'may', 'might', 'must',
+            'know', 'tell', 'help', 'find', 'get', 'give', 'make', 'take', 'see', 'look', 'show',
+            'more', 'most', 'much', 'many', 'very', 'quite', 'rather', 'really', 'just', 'only',
+            'also', 'even', 'still', 'yet', 'now', 'then', 'here', 'you', 'your', 'me', 'my'
+        }
+        
+        # Extract words, convert to lowercase
+        words = re.findall(r'\b[a-zA-Z]{2,}\b', question.lower())
+        
+        # Filter out common words but keep important terms
+        keywords = []
+        for word in words:
+            if word not in common_words:
+                keywords.append(word)
+        
+        # Handle compound terms and important phrases
+        question_lower = question.lower()
+        
+        # Space station variations
+        if 'iss' in question_lower or 'space station' in question_lower:
+            keywords.extend(['iss', 'space', 'station'])
+        
+        # Microorganism variations
+        if any(term in question_lower for term in ['bacteria', 'microorganism', 'microbe', 'pathogen']):
+            keywords.extend(['bacteria', 'microorganisms'])
+        
+        # Research context terms
+        research_terms = {
+            'microgravity': ['microgravity', 'gravity'],
+            'astronaut': ['astronaut', 'crew'],
+            'experiment': ['experiment', 'research'],
+            'health': ['health', 'medical', 'medicine'],
+            'biology': ['biology', 'biological'],
+            'growing': ['growth', 'growing'],
+            'effects': ['effects', 'impact']
+        }
+        
+        for key, variants in research_terms.items():
+            if any(variant in question_lower for variant in variants):
+                keywords.append(key)
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_keywords = []
+        for keyword in keywords:
+            if keyword not in seen and len(keyword) >= 2:
+                seen.add(keyword)
+                unique_keywords.append(keyword)
+        
+        return unique_keywords[:12]  # Limit to top 12 keywords
+    
+    def create_context_from_articles(self, articles: List[Dict]) -> str:
+        """Create enhanced context string from retrieved articles with summaries"""
+        if not articles:
+            return "No relevant articles found for this query."
+            
+        context_parts = []
+        for i, article in enumerate(articles, 1):
+            confidence = article.get('confidence', 'UNKNOWN')
+            score = article.get('score', 0)
+            keywords = ', '.join(article.get('keywords', [])[:5])
+            
+            # Try to get article content for better context
+            article_id = article.get('id')
+            content_preview = ""
+            
+            if article_id:
+                try:
+                    full_article = self.get_article_by_id(article_id)
+                    if full_article and 'content' in full_article:
+                        # Create intelligent preview
+                        content = full_article['content']
+                        sentences = content.split('. ')[:3]  # First 3 sentences
+                        content_preview = '. '.join(sentences) + '...' if len(sentences) >= 3 else content[:200] + '...'
+                except:
+                    content_preview = "Content preview not available"
+            
+            context_parts.append(f"""
+Article {i}: {article['article']}
+Relevance Score: {score:.4f} (Confidence: {confidence})
+Key Keywords: {keywords}
+Preview: {content_preview}
+""")
+        
+        total_articles = len(articles)
+        return f"Found {total_articles} relevant articles:\n" + '\n'.join(context_parts)
+    
+    def is_specific_research_request(self, question: str, keywords: List[str]) -> bool:
+        """Determine if the user is making a specific research request vs exploring topics"""
+        question_lower = question.lower()
+        
+        # Direct research indicators (strong signals)
+        strong_research_indicators = [
+            'research', 'study', 'studies', 'articles', 'papers', 'find', 'looking for',
+            'information about', 'data on', 'experiments on', 'analysis', 'evidence',
+            'effects of', 'impact of', 'results', 'findings', 'show me'
+        ]
+        
+        # Weaker research indicators that still suggest research intent
+        weak_research_indicators = [
+            'about', 'on', 'in', 'regarding', 'concerning', 'related to',
+            'want to know', 'need to know', 'interested in', 'curious about'
+        ]
+        
+        # Space/science specific terms that indicate research context
+        science_terms = [
+            'iss', 'space station', 'microgravity', 'astronaut', 'spacecraft', 'orbit',
+            'bacteria', 'microorganisms', 'biology', 'experiment', 'nasa', 'space',
+            'gravity', 'radiation', 'medicine', 'health', 'bone', 'muscle', 'cell'
+        ]
+        
+        # Check for strong research indicators
+        has_strong_indicators = any(indicator in question_lower for indicator in strong_research_indicators)
+        
+        # Check for weak research indicators
+        has_weak_indicators = any(indicator in question_lower for indicator in weak_research_indicators)
+        
+        # Check for science/space context
+        has_science_context = any(term in question_lower for term in science_terms)
+        
+        # Check if question has meaningful keywords
+        has_meaningful_keywords = len(keywords) >= 1 and any(len(k) >= 3 for k in keywords)
+        
+        # Simple greetings that should not trigger research
+        simple_greetings = ['hi', 'hello', 'hey', 'good morning', 'good afternoon']
+        is_simple_greeting = any(greeting == question_lower.strip() for greeting in simple_greetings)
+        
+        # Very general questions that need more refinement
+        very_general = [
+            'help', 'what can you do', 'how are you', 'who are you', 'what is this',
+            'can you help', 'help me', 'what do you know'
+        ]
+        is_very_general = any(pattern in question_lower for pattern in very_general)
+        
+        # Decision logic
+        if is_simple_greeting or is_very_general:
+            return False
+            
+        # If has strong research indicators with any keywords
+        if has_strong_indicators and has_meaningful_keywords:
+            return True
+            
+        # If has science context and weak indicators
+        if has_science_context and (has_weak_indicators or has_meaningful_keywords):
+            return True
+            
+        # If question is longer and has scientific keywords
+        if len(question.split()) > 3 and has_science_context and has_meaningful_keywords:
+            return True
+            
+        return False
+    
+    def generate_research_guidance(self, question: str, keywords: List[str]) -> str:
+        """Generate guidance to help users refine their research topics"""
+        question_lower = question.lower()
+        
+        # Check what type of guidance to provide
+        if any(word in question_lower for word in ['hello', 'hi', 'help']):
+            return ("Hello! I'm Lumi, your NASA research assistant. 🚀 I can help you find relevant NASA articles for your research. "
+                   "What specific space or NASA-related topic are you interested in exploring? "
+                   "For example, you could ask about microgravity effects, space medicine, or spacecraft engineering.")
+        
+        elif any(word in question_lower for word in ['what', 'explain', 'tell me about']) and len(keywords) <= 2:
+            # User is asking about general topics
+            if keywords:
+                sample_articles = self.ranker.rank_by_embeddings(keywords, top_n=3)
+                if sample_articles and sample_articles[0].get('score', 0) > 0.2:
+                    main_topic = keywords[0] if keywords else "this topic"
+                    return (f"I can help you explore {main_topic} research! NASA has conducted extensive studies in this area. "
+                           f"To find the most relevant articles, could you be more specific? For example: "
+                           f"Are you interested in the biological effects, engineering applications, experimental methods, "
+                           f"or perhaps the historical development of {main_topic} research?")
+                else:
+                    return ("That's an interesting area! To help you find the most relevant NASA research, "
+                           "could you tell me more specifically what aspect interests you? "
+                           "For example, are you looking at biological effects, engineering challenges, "
+                           "experimental procedures, or something else?")
+            else:
+                return ("I'd love to help you explore NASA research! Could you tell me what specific topic or area you're interested in? "
+                       "For example: microgravity effects on humans, spacecraft materials, planetary exploration, or space medicine?")
+        
+        elif len(keywords) >= 1:
+            # User mentioned some keywords but might need refinement
+            # Check if we can find any articles for guidance
+            sample_articles = self.ranker.rank_by_embeddings(keywords, top_n=5)
+            
+            if sample_articles and sample_articles[0].get('score', 0) > 0.15:
+                # We found some related articles - use them to suggest more specific directions
+                main_topics = set()
+                for article in sample_articles[:3]:
+                    article_keywords = article.get('keywords', [])[:3]
+                    main_topics.update(article_keywords)
+                
+                topic_suggestions = list(main_topics)[:5]
+                
+                return (f"I see you're interested in {', '.join(keywords[:3])}. I found some related NASA research in this area! "
+                       f"To help you find the most relevant articles, you might want to be more specific. "
+                       f"Based on available research, you could explore: {', '.join(topic_suggestions[:4])}. "
+                       f"Try asking about a specific aspect that interests you most!")
+            else:
+                return (f"I see you're interested in {', '.join(keywords[:3])}. That's a fascinating area! "
+                       f"To help you find the most relevant NASA research, could you be more specific? "
+                       f"For example, are you interested in biological effects, engineering applications, "
+                       f"experimental methods, or safety considerations?")
+        
+        else:
+            # Generic response
+            return ("I'm here to help you find relevant NASA research articles! "
+                   "What space or NASA-related topic interests you? "
+                   "The more specific you can be, the better I can help you find exactly what you're looking for.")
+    
+    def get_article_details(self, article_id: int) -> Dict:
+        """Get full details of a specific article."""
+        return self.ranker.get_article_by_id(article_id)
+    
+    def clear_memory(self):
+        """Clear conversation history."""
+        self.memory.clear()
+
+
+class HomePageChatAgent:
+    """Lightweight chat agent for homepage interactions with AI-driven conversation flow."""
+    
+    def __init__(self, ranker):
+        self.ranker = ranker
+        self.tools = [HomePageArticleShowTool(ranker=ranker)]
+    
+    def research_with_settings(self, question: str, settings=None):
+        """Use AI to handle homepage chat with access to article tools."""
+        if not settings:
+            settings = {'provider': 'lm_studio'}
+        
+        # Create system prompt for homepage chat
+        system_prompt = """You are Lumi, a friendly NASA space research assistant on the BioKnowdes homepage.
+
+Your role:
+- Help users explore NASA research topics in a conversational way
+- Guide users to refine their research interests 
+- Provide relevant articles when users express specific research interests
+- Be conversational, encouraging, and helpful
+
+Guidelines for conversation:
+- Welcome users warmly and ask what space/NASA topic interests them
+- Listen to their interests and ask follow-up questions to understand their focus
+- Help them discover specific research areas they might not know about
+- Be encouraging about their curiosity and research goals
+- Keep responses concise but engaging (2-3 sentences ideal)
+- Use emojis sparingly but appropriately 🚀 🌟 🛸
+
+When to provide articles:
+- When users mention specific research topics, experiments, or effects
+- When they ask about particular space phenomena, missions, or studies
+- After you've helped them narrow down their interests
+- NOT for general greetings or casual questions
+
+Conversation examples:
+User: "Hi there" 
+You: "Hello! I'm Lumi, your NASA research assistant. 🚀 What space research topic sparks your curiosity today?"
+
+User: "I'm interested in space radiation" 
+You: "Space radiation is fascinating! Are you curious about its effects on astronauts, spacecraft equipment, or perhaps how we study it in different missions?"
+
+User: "Effects on astronauts"
+You: [Search for radiation + astronaut + effects articles and present them]
+
+Remember: Your goal is to help users discover and explore NASA research in a natural, conversational way."""
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": question}
+        ]
+        
+        # Call the appropriate API based on settings with automatic fallback
+        provider = settings.get('provider', 'lm_studio')
+        providers_to_try = [provider]
+        
+        # Add fallback providers if primary fails
+        if provider != 'lm_studio':
+            providers_to_try.append('lm_studio')
+        
+        response = None
+        last_error = None
+        
+        for current_provider in providers_to_try:
+            try:
+                print(f"🔄 Trying provider: {current_provider}")
+                
+                if current_provider == 'openai':
+                    response = call_openai_api(messages, settings)
+                elif current_provider == 'anthropic':
+                    response = call_anthropic_api(messages, settings)
+                elif current_provider == 'gemini':
+                    response = call_gemini_api(messages, settings)
+                else:
+                    response = call_lm_studio_api(messages)
+                
+                print(f"✅ Successfully got response from {current_provider}")
+                break
+                
+            except Exception as e:
+                last_error = e
+                print(f"❌ Failed with {current_provider}: {str(e)}")
+                continue
+        
+        if response is None:
+            raise Exception(f"All providers failed. Last error: {str(last_error)}")
+            
+        # Determine if we should show articles based on conversation context
+        keywords = self._extract_keywords(question)
+        should_show_articles = self._should_show_articles(question, response, keywords)
+        
+        if should_show_articles and keywords:
+            tool_result = self.tools[0]._run(keywords, 5)
+            
+            if tool_result != "NO_ARTICLES_FOUND":
+                import json
+                article_data = json.loads(tool_result)
+                articles = article_data.get('articles', [])
+                
+                if articles and articles[0].get('score', 0) > 0.3:  # Only show if good relevance
+                    enhanced_response = f"{response}\n\n📚 I found {len(articles)} relevant NASA articles for your research:"
+                    
+                    return {
+                        "answer": enhanced_response,
+                        "retrieved_articles": [
+                            {
+                                "article": a["article"],
+                                "score": a["score"]
+                            } for a in articles
+                        ]
+                    }
+        
+        return {
+            "answer": response,
+            "retrieved_articles": []
+        }
+    
+    def _extract_keywords(self, question: str):
+        """Extract meaningful keywords from the question."""
+        import re
+        
+        common_words = {
+            'what', 'how', 'when', 'where', 'why', 'who', 'can', 'does', 'is', 'are', 'the', 'a', 'an', 
+            'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'about', 'from',
+            'that', 'this', 'they', 'them', 'their', 'there', 'these', 'those', 'some', 'any', 'all'
+        }
+        
+        words = re.findall(r'\b[a-zA-Z]{2,}\b', question.lower())
+        keywords = [word for word in words if word not in common_words and len(word) > 2]
+        
+        return keywords[:5]  # Return top 5 keywords
+    
+    def _should_show_articles(self, question: str, ai_response: str, keywords: list) -> bool:
+        """Determine if we should show articles based on the conversation context."""
+        question_lower = question.lower()
+        response_lower = ai_response.lower()
+        
+        # Don't show articles for greetings or general questions
+        greeting_patterns = ['hi', 'hello', 'hey', 'what can you do', 'help', 'how are you']
+        if any(pattern in question_lower for pattern in greeting_patterns) and len(question.split()) < 5:
+            return False
+        
+        # Show articles if user mentions specific research topics
+        research_indicators = [
+            'research', 'study', 'studies', 'experiment', 'experiments', 'effects', 'impact', 
+            'radiation', 'gravity', 'microgravity', 'astronaut', 'space', 'mars', 'moon',
+            'mission', 'missions', 'data', 'results', 'findings', 'analysis', 'testing'
+        ]
+        
+        # Show if question contains research indicators AND has meaningful keywords
+        if any(indicator in question_lower for indicator in research_indicators) and len(keywords) > 0:
+            return True
+        
+        # Show if AI response suggests we should show articles
+        if any(phrase in response_lower for phrase in ['articles', 'research', 'studies', 'found']):
+            return True
+        
+        # Show if user is asking specific "what", "how", "why" questions about space topics
+        if question_lower.startswith(('what', 'how', 'why', 'tell me about', 'explain')) and len(keywords) > 1:
+            return True
+        
+        return False
+
+
+# Global AmandaChatbot agent instance
+amanda_agent = None
+homepage_agent = None
+
+def initialize_amanda_agent():
+    """Initialize the AmandaChatbot agent and homepage chat agent."""
+    global amanda_agent, homepage_agent
+    try:
+        print("Initializing AmandaChatbot...")
+        ranker = ArticleRanker("keywords_resultados.jsonl")
+        amanda_agent = NASAResearchAgent(
+            article_ranker=ranker,
+            model="llama3.1:8b",
+            base_url="http://localhost:11434"
+        )
+        
+        # Initialize homepage chat agent
+        homepage_agent = HomePageChatAgent(ranker)
+        
+        print("✓ AmandaChatbot and Homepage Agent ready!")
+        return True
+    except Exception as e:
+        print(f"❌ Error initializing agents: {e}")
+        return False
+
+# ============================================================================
 # AWS S3 FUNCTIONS
 # ============================================================================
 
@@ -125,15 +919,42 @@ def extract_text_from_file(file_path, filename):
     
     return text
 
-def truncate_text_for_context(text, max_chars=8000):
-    """Truncate text to fit within token limits"""
+def estimate_tokens(text):
+    """Rough estimation of tokens (1 token ≈ 4 characters)"""
+    return len(text) // 4
+
+# Simplified context handling - no complex optimization to avoid text corruption
+
+def truncate_text_for_context(text, max_chars=10000):
+    """Truncate text to fit within token limits - optimized for larger context windows"""
     if len(text) <= max_chars:
         return text
     
-    first_part = text[:max_chars//2]
-    last_part = text[-max_chars//2:]
+    # For very long texts, take beginning and end
+    if len(text) > max_chars * 2:
+        first_part = text[:max_chars//2]
+        last_part = text[-max_chars//2:]
+        return f"{first_part}\n\n[... content truncated (original: {len(text)} chars) ...]\n\n{last_part}"
+    else:
+        # For moderately long texts, just take the beginning
+        return f"{text[:max_chars]}\n\n[... truncated at {max_chars} chars from {len(text)} total chars ...]"
+
+
+def validate_total_context(context, max_total_chars=80000):
+    """
+    Validate and truncate total context size to prevent API errors
+    80000 chars ≈ 20000 tokens, leaving room for system prompt and response
+    """
+    if len(context) <= max_total_chars:
+        return context
     
-    return f"{first_part}\n\n[... conteúdo truncado ...]\n\n{last_part}"
+    print(f"⚠️  Warning: Context too large ({len(context)} chars), truncating to {max_total_chars} chars")
+    
+    # Truncate intelligently - keep beginning and end
+    first_part = context[:max_total_chars//2]
+    last_part = context[-max_total_chars//2:]
+    
+    return f"{first_part}\n\n[... LARGE CONTEXT TRUNCATED ({len(context)} → {max_total_chars} chars) ...]\n\n{last_part}"
 
 def load_articles_mapping():
     """Load the articles mapping from TSV file"""
@@ -188,6 +1009,17 @@ def search_articles_by_keywords(keywords):
     return results
 
 # AI Provider Functions
+def clean_thinking_tags(response: str) -> str:
+    """Remove thinking tags from AI responses"""
+    import re
+    # Remove <think>...</think> tags and their content
+    response = re.sub(r'<think>(.*?)</think>', '', response, flags=re.DOTALL)
+    # Remove <thinking>...</thinking> tags and their content  
+    response = re.sub(r'<thinking>(.*?)</thinking>', '', response, flags=re.DOTALL)
+    # Clean up extra whitespace
+    response = re.sub(r'\n\s*\n', '\n\n', response.strip())
+    return response.strip()
+
 def process_ai_response(ai_response):
     """Process AI response to extract thinking and final content"""
     thinking_content = ""
@@ -225,7 +1057,7 @@ def call_openai_api(messages, settings):
         messages=messages
     )
     
-    return response.choices[0].message.content
+    return clean_thinking_tags(response.choices[0].message.content)
 
 def call_anthropic_api(messages, settings):
     """Call Anthropic API"""
@@ -255,12 +1087,12 @@ def call_anthropic_api(messages, settings):
     
     response = client.messages.create(
         model=model,
-        max_tokens=4096,
+        max_tokens=8192,
         system=system_message if system_message else anthropic.NOT_GIVEN,
         messages=anthropic_messages
     )
     
-    return response.content[0].text
+    return clean_thinking_tags(response.content[0].text)
 
 def call_gemini_api(messages, settings):
     """Call Google Gemini API"""
@@ -288,7 +1120,7 @@ def call_gemini_api(messages, settings):
     chat = model.start_chat(history=gemini_messages[:-1])
     response = chat.send_message(gemini_messages[-1]['parts'][0])
     
-    return response.text
+    return clean_thinking_tags(response.text)
 
 def call_lm_studio_api(messages):
     """Call LM Studio local API"""
@@ -299,7 +1131,7 @@ def call_lm_studio_api(messages):
                 "model": LM_STUDIO_MODEL,
                 "messages": messages,
                 "temperature": 0.7,
-                "max_tokens": 4096
+                "max_tokens": 8192
             },
             headers={"Content-Type": "application/json"},
             timeout=120
@@ -307,7 +1139,8 @@ def call_lm_studio_api(messages):
         
         if response.status_code == 200:
             data = response.json()
-            return data['choices'][0]['message']['content']
+            content = data['choices'][0]['message']['content']
+            return clean_thinking_tags(content)
         else:
             raise Exception(f"LM Studio API error: {response.status_code} - {response.text}")
     
@@ -690,6 +1523,11 @@ def chat():
 def settings():
     return render_template('settings.html')
 
+@app.route('/articles')
+def articles_redirect():
+    """Redirect /articles to /ask-lumi/articles"""
+    return redirect('/ask-lumi/articles')
+
 @app.route('/ask-lumi/articles')
 def articles_browser():
     """Article browser page"""
@@ -777,9 +1615,14 @@ def ask_lumi():
         if not session_id:
             return jsonify({'error': 'No session found'}), 400
         
+        # Ensure sessions directory exists
+        sessions_dir = 'sessions'
+        if not os.path.exists(sessions_dir):
+            os.makedirs(sessions_dir)
+        
         session_file = f'sessions/{session_id}.json'
         if not os.path.exists(session_file):
-            return jsonify({'error': 'No documents loaded'}), 400
+            return jsonify({'error': 'No documents loaded. Please load some articles first.'}), 400
         
         with open(session_file, 'r', encoding='utf-8') as f:
             session_data = json.load(f)
@@ -794,6 +1637,9 @@ def ask_lumi():
             f"Document: {doc['filename']}\n\n{truncate_text_for_context(doc['content'])}"
             for doc in selected_docs
         ])
+        
+        # Validate total context size to prevent API errors
+        context = validate_total_context(context)
         
         settings_file = f'sessions/{session_id}_settings.json'
         settings = {}
@@ -1099,11 +1945,119 @@ def api_settings():
         
         return jsonify({'success': True})
 
+
+# ============================================================================
+# AMANDACHATBOT ENDPOINTS
+# ============================================================================
+
+@app.route('/ask-lumi/amanda-chat', methods=['POST'])
+def amanda_chat():
+    """Endpoint for AmandaChatbot research assistant"""
+    if not amanda_agent:
+        return jsonify({'error': 'AmandaChatbot not initialized'}), 500
+    
+    data = request.json
+    question = data.get('question', '')
+    
+    if not question:
+        return jsonify({'error': 'No question provided'}), 400
+    
+    try:
+        # Get session settings (same as ask-lumi)
+        session_id = session.get('session_id')
+        settings = {}
+        
+        if session_id:
+            settings_file = f'sessions/{session_id}_settings.json'
+            if os.path.exists(settings_file):
+                with open(settings_file, 'r') as f:
+                    settings = json.load(f)
+        
+        # Use settings if available, otherwise fallback to default Langchain
+        result = amanda_agent.research(question, settings if settings else None)
+        return jsonify({
+            'answer': result['answer'],
+            'retrieved_articles': result['retrieved_articles']
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/ask-lumi/amanda-clear', methods=['POST'])
+def amanda_clear():
+    """Clear AmandaChatbot conversation history"""
+    if not amanda_agent:
+        return jsonify({'error': 'AmandaChatbot not initialized'}), 500
+    
+    try:
+        amanda_agent.clear_memory()
+        return jsonify({'status': 'success', 'message': 'Conversation cleared'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/ask-lumi/amanda-status', methods=['GET'])
+def amanda_status():
+    """Check AmandaChatbot status"""
+    return jsonify({
+        'initialized': amanda_agent is not None,
+        'status': 'ready' if amanda_agent else 'not_initialized'
+    })
+
+@app.route('/homepage-chat', methods=['POST'])
+def homepage_chat():
+    """Simple chat endpoint for homepage chatbot using AmandaChatbot"""
+    data = request.json
+    question = data.get('question', '')
+    
+    if not question:
+        return jsonify({'error': 'No question provided'}), 400
+    
+    # Use the AI-driven homepage agent for intelligent conversation flow
+    if homepage_agent:
+        try:
+            # Get current settings from session or use defaults
+            settings = session.get('chat_settings', {'provider': 'lm_studio'})
+            
+            # Let the AI handle the entire conversation flow
+            result = homepage_agent.research_with_settings(question, settings)
+            
+            return jsonify({
+                'answer': result['answer'],
+                'retrieved_articles': result.get('retrieved_articles', [])
+            })
+        except Exception:
+            pass
+    
+    # Fallback responses if AmandaChatbot is not available
+    fallback_responses = [
+        "Hello! I'm Lumi, your space research assistant. 🚀\n\nI'm currently learning about NASA experiments. You can explore the connections graph or visit the 'Ask Lumi' page for a more complete experience!",
+        "Interesting question! 🌟\n\nFor detailed analysis, I recommend using the 'Ask Lumi' page where I can access a more complete database of scientific articles.",
+        "I'm Lumi, space research specialist! 🛸\n\nFor specific questions about experiments, try the 'Ask Lumi' functionality which has access to more resources."
+    ]
+    
+    import random
+    response = random.choice(fallback_responses)
+    return jsonify({
+        'answer': response,
+        'retrieved_articles': []
+    })
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
 
 if __name__ == '__main__':
     create_graph("")
-    port = int(os.environ.get('PORT', 3000))
+    
+    # Initialize AmandaChatbot
+    print("🚀 Starting BioKnowdes with AmandaChatbot integration...")
+    amanda_initialized = initialize_amanda_agent()
+    if amanda_initialized:
+        print("✅ AmandaChatbot successfully integrated!")
+    else:
+        print("⚠️  AmandaChatbot not available (Ollama not running or dependencies missing)")
+    
+    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
