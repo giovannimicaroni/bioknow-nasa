@@ -5,6 +5,15 @@
     box-sizing: border-box; 
 }
 
+main {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    min-height: calc(100vh - 80px); /* 100% da tela menos header, ajuste se necessário */
+    flex-direction: column;
+    
+}
+
 html {
     height: 100vh;
     overflow: hidden;
@@ -77,6 +86,7 @@ nav a:hover {
     justify-content: center; 
     align-items: center; 
     padding: 40px 20px;
+    text-align: center;
 }
 
 .cta-container {
@@ -568,4 +578,109 @@ header {
 .dropdown.open .dropdown-menu {
     opacity: 1;
     transform: translate(-50%, 0);
+}
+
+#chat-bot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#chat-bot-balloon {
+    background-color: #1d4ed8; /* azul NASA */
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#chat-bot-window {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid #1d4ed8;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+
+#chat-header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chat-close {
+    cursor: pointer;
+}
+
+#chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+#chat-input {
+    border: none;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#chat-bot-balloon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000;
+
+  /* Para centralizar conteúdo interno se quiser adicionar ícone depois */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Efeito hover */
+#chat-bot-balloon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+/* A pontinha do balão */
+#chat-bot-balloon::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #ffffff;
 }
