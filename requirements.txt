@@ -32,3 +32,4 @@ langchain-core>=0.3.0
 sentence-transformers>=5.1.0
 scikit-learn>=1.7.0
 pydantic>=2.5.0
+python-dotenv>=1.0.0

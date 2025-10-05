@@ -1,5 +1,50 @@
 # 🔄 Atualização de Rotas - BioKnowdes
 
+## 🔧 Configuração de Variáveis de Ambiente
+
+### 📋 Configuração Inicial
+
+1. **Copie o template de variáveis de ambiente:**
+   ```bash
+   cp env.template .env
+   ```
+
+2. **Configure suas chaves de API no arquivo `.env`:**
+   ```bash
+   # Edite o arquivo .env com suas chaves reais
+   nano .env
+   ```
+
+3. **Variáveis obrigatórias para produção:**
+   ```env
+   # OpenAI API (obrigatório para funcionalidade completa)
+   OPENAI_API_KEY=sk-your-openai-key-here
+   
+   # Chave secreta do Flask (obrigatório para sessões)
+   FLASK_SECRET_KEY=your-secret-key-here
+   
+   # Outras APIs (opcionais)
+   ANTHROPIC_API_KEY=your-anthropic-key-here
+   GEMINI_API_KEY=your-gemini-key-here
+   ```
+
+### 🔒 Segurança em Produção
+
+- ✅ **Nunca commite o arquivo `.env`** (já está no `.gitignore`)
+- ✅ **Use chaves diferentes** para desenvolvimento e produção
+- ✅ **Rotacione suas chaves** periodicamente
+- ✅ **Configure variáveis de ambiente** no seu provedor de hosting
+
+### 🚀 Deploy em Produção
+
+Para plataformas como Heroku, Railway, ou Vercel:
+```bash
+# Configure as variáveis de ambiente no painel do provedor
+OPENAI_API_KEY=sk-your-production-key
+FLASK_SECRET_KEY=your-production-secret-key
+FLASK_ENV=production
+```
+
 ## ✅ Mudanças Aplicadas
 
 Todas as rotas do BioKnowdes agora estão sob o prefixo `/ask-lumi`:

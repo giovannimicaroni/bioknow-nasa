@@ -15,7 +15,11 @@ import subprocess
 from werkzeug.utils import secure_filename
 import PyPDF2
 import docx
-import random 
+import random
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv() 
 
 # AmandaChatbot imports
 from typing import List, Dict, Any
@@ -45,7 +49,8 @@ except ImportError:
     genai = None
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+# Use environment variable for secret key in production, fallback to random for development
+app.secret_key = os.getenv('FLASK_SECRET_KEY', os.urandom(24))
 
 # Enable CORS for external integrations
 CORS(app, resources={
