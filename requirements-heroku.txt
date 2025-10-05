@@ -1,3 +1,4 @@
+# Flask Core
 Flask==3.0.0
 Flask-CORS==4.0.0
 Jinja2==3.1.2
@@ -6,11 +7,13 @@ Werkzeug==3.0.1
 itsdangerous==2.1.2
 click==8.1.7
 
+# File Processing
 PyPDF2==3.0.1
 python-docx==1.1.0
 requests==2.32.5
 gunicorn==21.2.0
 
+# Data Science (lightweight versions)
 matplotlib==3.8.2
 seaborn==0.13.0
 plotly==5.17.0
@@ -21,16 +24,18 @@ networkx==3.2.1
 pyvis==0.3.2
 node2vec==0.4.3
 
+# AI APIs
 google-generativeai==0.8.3
 openai>=2.1.0
 anthropic==0.34.2
-# AmandaChatbot dependencies
-# PyTorch CPU-only (economiza ~3.5GB vs versão CUDA)
+
+# PyTorch CPU-only (para Heroku - economiza ~3.5GB)
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==2.1.0+cpu
 torchaudio==2.1.0+cpu
 torchvision==0.16.0+cpu
 
+# Langchain e dependências
 langchain>=0.3.0
 langchain-ollama>=0.2.0
 langchain-core>=0.3.0
@@ -38,3 +43,4 @@ sentence-transformers>=5.1.0
 scikit-learn>=1.7.0
 pydantic>=2.5.0
 python-dotenv>=1.0.0
+
