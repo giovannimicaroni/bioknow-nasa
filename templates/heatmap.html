@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioKnowdes - Heatmap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="{{ url_for('static', filename='images/nasa-logo.png') }}" alt="NASA Logo">
+            </a>
+            <span>NASA Space Apps Challenge</span>
+        </div>
+
+        <nav class="dropdown-nav">
+            <div class="dropdown">
+                <button class="dropdown-toggle">Explore ▾</button>
+                <div class="dropdown-menu">
+                    <a href="/">Home</a>
+                    <a href="/graph">Search</a>
+                    <a href="/heatmap" class="heatmap-link">Heatmap</a>
+                    <a href="/asklumi">AskLumi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <div class="heatmap-container">
+            <div class="heatmap-header">
+                <h1 class="heatmap-title">Similarity Heatmap</h1>
+                <p class="heatmap-subtitle">Interactive visualization of the similarity between the 30 most connected articles in the network</p>
+            </div>
+            
+            <div class="heatmap-chart">
+                {{ heatmap_div|safe }}
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <div id="chat-bot-container">
+        <div id="chat-bot-balloon"></div>
+        <div id="chat-bot-window">
+            <div id="chat-header">
+                <h3>Chat with Lumi</h3>
+                <button id="chat-close">✕</button>
+            </div>
+            <div id="chat-messages">
+                <div class="chat-empty-state">
+                    <div class="chat-empty-state-icon">🤖</div>
+                    <div class="chat-empty-state-text">
+                        Hi! I'm Lumi, your space research assistant.<br>
+                        Ask me anything about the experiments!
+                    </div>
+                </div>
+            </div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask a question..." />
+                <button id="chat-send">➤</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
