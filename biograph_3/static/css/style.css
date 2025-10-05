@@ -181,6 +181,15 @@ nav a:hover {
     padding: 0 !important;
     background: #000 !important;
 }
+/* Hide the Pyvis loading bar */
+iframe::after {
+    content: '';
+    display: block;
+}
+
+#graph-iframe {
+    background-color: #000;
+}
 
 .graph-controls {
     display: flex; 
