@@ -1,0 +1,626 @@
+BRIEF COMMUNICATION
+OPEN
+Acceleration proﬁles and processing methods for parabolic
+ﬂight
+Christopher E. Carr
+1,2, Noelle C. Bryan1, Kendall N. Saboda1, Srinivasa A. Bhattaru3, Gary Ruvkun2 and Maria T. Zuber1
+Parabolic ﬂights provide cost-effective, time-limited access to “weightless” or reduced gravity conditions, facilitating research and
+validation activities that complement infrequent and costly access to space. Although parabolic ﬂights have been conducted for
+decades, reference acceleration proﬁles and processing methods are not widely available. Here we present a solution for collecting,
+analyzing, and classifying the altered gravity environments experienced during parabolic ﬂights, which we validated during a
+Boeing 727-200F ﬂight with 20 parabolas. All data and analysis code are freely available. Our solution can be integrated with diverse
+experimental designs, does not depend upon accelerometer orientation, and allows unsupervised classiﬁcation of all phases of
+ﬂight, providing a consistent and open-source approach to quantifying gravito-inertial accelerations (GIA), or g levels. As academic,
+governmental, and commercial use of space advances, data availability and validated processing methods will enable better
+planning, execution, and analysis of parabolic ﬂight experiments, and thus facilitate future space activities.
+npj Microgravity  (2018) 4:14 ; doi:10.1038/s41526-018-0050-3
+INTRODUCTION
+Parabolic ﬂights are cost-effective, ground-based analogs that
+achieve variable g (Earth-relative GIA) level environments that
+recreate conditions experienced during space ﬂight.1,2 Specialized
+aircraft can maintain approximately 20–30 s of a 0 g, freefall
+environment before an increased GIA recovery phase (Fig. 1a).
+Modiﬁed trajectories can achieve reduced g levels experienced on
+the lunar surface or on Mars (0.17 and 0.38 g, respectively).
+Parabolic ﬂights serve as valuable proving grounds for experi-
+mental efforts
+to maximize the
+research
+potential
+of the
+International Space Station3,4 and to accommodate increasing
+interest in commercial space ﬂight.5,6
+Here we address the limited availability of open access
+acceleration datasets containing parabolic ﬂight proﬁles and
+enable unsupervised and precise characterization of timing and
+g levels for all ﬂight phases. We demonstrate this approach using a
+small (65 g) battery powered commercially available acceler-
+ometer and vibration measurement system. Together, these tools
+and products reﬂect a comprehensive solution for experiment
+planning, execution, and analysis of g level and vibrations during
+parabolic ﬂight.
+RESULTS
+Flight operations were conducted on November 17, 2017 onboard
+a Boeing 727-200F aircraft (G-Force One®, Zero Gravity Corpora-
+tion). Four sets of parabolas were performed with 5, 6, 4, and 5
+parabolas, respectively. The ﬁrst set targeted, in order, Mars g,
+Mars g, Lunar g, 0 g, and 0 g. All other parabolas targeted 0 g. Data
+were collected for 1.77 h during all phases of ﬂight from a Slam
+Stick X™(Mide Technology Corp.) mounted in the rear of the
+research section (Fig. 1b-c). Direct Current (DC) acceleration was
+recorded at 411 Hz. Additional data, calibration, and calibration
+error ( < 2%) assessment are described in Methods.
+In any given experiment, one accelerometer orientation may be
+more appropriate than another. Thus, our phase of ﬂight
+identiﬁcation is based on a metric that is independent of
+accelerometer orientation: the Euclidean norm of the acceler-
+ometer (x,y,z) axes, which we refer to as g level or g (Methods).
+To facilitate our analysis (Fig. 1d, Methods, Supplementary Figs.
+1-5), acceleration data were ﬁltered (Fig. 1e) using a zero-delay,
+low-pass ﬁlter prior to parabola identiﬁcation using change point
+detection.7,8 Conceptually, this process ﬁnds the point for which a
+statistical property (e.g., mean), has minimum total residual error
+summed across two groups, e.g., before and after the change
+point. Here residual error is the difference between an observed
+value and the statistical property for the group.
+Change point detection was ﬁrst applied to the ﬁltered g level,
+gﬁlt, to identify differences in mean g levels in an unsupervised
+manner (Fig. 1f). To break down the ﬂight into regions of stable g
+levels, data within 10 s of each change point was subjected to
+secondary change point detection using a linear slope metric,
+which segmented the ﬂight into regions of rapid “transition”
+(indicated by dotted lines, Fig. 1g-i) and more stable regimes. Non-
+transition periods were subsequently classiﬁed into “parabola,”
+“hypergravity,” and “other” based on their duration and g level
+(Fig. 2a-b; Methods). These “hypergravity” periods result from
+entry into and exit from the “parabola” periods.
+DISCUSSION
+Parabolic ﬂights provide the opportunity to perform simulated
+space research in a cost-effective manner. Recently, Lambot and
+Received: 4 January 2018 Revised: 25 June 2018 Accepted: 3 July 2018
+1Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA; 2Department of Molecular Biology, Massachusetts
+General Hospital, Boston, MA, USA and 3Department of Aeronautics and Astronautics, Massachusetts Institute of Technology, Cambridge, MA, USA
+Correspondence: Christopher E. Carr (chrisc@mit.edu)
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Ord (2016) evaluated data from over 400 parabolic ﬂights and
+assessed the quality of reduced g datasets.9 Although consider-
+able effort was dedicated to identifying the highest quality, low g
+time periods (with variations less than ± 0.01 g) from these ﬂights,
+neither the acquisition hardware, the raw data, nor the code
+implemented for analysis, are currently available to the public.
+Indeed, when reviewing the literature, we found no such easily
+accessible parabolic ﬂight acceleration data nor published analysis
+methodology.
+Here, we provide the following: (1) a commercially available
+hardware solution for data acquisition; (2) raw and calibrated data
+for all phases of ﬂight; (3) data analysis methodology that is
+independent of accelerometer orientation, and (4) characteriza-
+tion of g levels and durations achieved for 20 parabolas. In
+addition, the code implementing our methodology to categorize
+all phases of ﬂight and characterize g levels and durations of
+parabolas is publicly available in order to facilitate future parabolic
+ﬂight research. In addition, our methods could be adapted to
+analysis of data from suborbital ﬂights, drop towers, or studies
+involving launch and landing accelerations.
+Our hardware solution, the Slam Stick X™, offers a compact,
+ﬂexible, low-power, high resolution solution for acceleration and
+vibration monitoring with favorable comparison to alternatives
+(Methods). The small size facilitates integration into experiments
+and measurement of the local GIA environment, which is not
+constant across the aircraft. In addition, mounting with double-
+sided tape is simple, robust, and does not impact the frequency
+response (Methods).
+0
+0
+5
+3
+0
+0
+0
+3
+0
+0
+5
+2
+0
+0
+0
+2
+0
+0
+5
+1
+0
+0
+0
+1
+Time (s)
+0
+0.5
+1
+1.5
+g filt
+1250
+1260
+1270
+1280
+1290
+Time (s)
+0
+0.5
+1
+1.5
+g filt
+1330
+1340
+1350
+1360
+1370
+Time (s)
+0
+0.5
+1
+1.5
+g filt
+1410
+1420
+1430
+1440
+1450
+Time (s)
+0
+0.5
+1
+1.5
+g filt
+0
+0
+0
+6
+0
+0
+0
+5
+0
+0
+0
+4
+0
+0
+0
+3
+0
+0
+0
+2
+0
+0
+0
+1
+0
+Time (s)
+0
+0.5
+1
+1.5
+g filt
+a
+45°
+20-30 s
+1.5-3 km
+"Zero G"
+b
+c
+Baseplate 
+to aircraft tail
+to aircraft nose
+50.8 cm
+AN6 bolt points
+d
+e
+f
+i
+h
+g
+g
+h
+i
+3 m
+x
+y
+z
+x
+y
+z
+x
+y
+z
+x
+y
+z
+Raw Data
+Calibrate
+Low Pass Filter
+Compute g level (norm)
+Power Spectral Density
+Optimize
+Filter
+Compute filtered  
+g level (norm)
+Change point detection 
+of g level transitions
+Segment flight into period s
+Classify
+Characterize 
+g level,
+duration
+Other
+Hypergravity
+Parabola
+18 m
+Fig. 1
+Parabolic ﬂight acceleration data and analysis methodology. a Typical ﬂight path during a single parabola. b Research section of aircraft
+with baseplate location during ﬂight. c Accelerometer orientation on baseplate. d Overview of analysis method. e Measured accelerations
+after low-pass ﬁltering (gﬁlt). f Change points (vertical lines) for mean g levels as measured by gﬁlt. g–i Second-level linear change points
+(vertical dotted lines) deﬁne transition regions for a Mars, a lunar, and a 0 g parabola, respectively. Individual parabolas corresponding to g–i
+are labeled in f. For accelerations during each of the 20 parabolas, see Supplementary Figs. 6–7
+Acceleration proﬁles and processing methods for parabolic ﬂight
+CE Carr et al.
+2
+npj Microgravity (2018)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+Lambot and Ord9 identiﬁed a “sweet zone” in the middle of the
+parabola with low acceleration deviation. Our data are consistent
+with this conclusion (Supplementary Fig. 8), although Lambot and
+Ord9 used, after unspeciﬁed low-pass ﬁltering, a much more
+stringent tolerance (± 0.01 g) that was not met by our ﬁltered data.
+We encourage future parabolic ﬂight experimenters to release raw
+data as well as to provide data processing details (ideally including
+in executable form) to facilitate validation and improvement of
+processing algorithms, as well as reﬁne expected g levels and
+support planning and analysis that can be tailored to speciﬁc
+experimenter needs.
+Due to the limited availability and high cost of actual space
+environments, it is imperative that we continue to utilize parabolic
+ﬂights as a means to simulate space – and to understand the
+accuracy and limitations of this modality. By making our data and
+methods available we hope to enable others to better plan,
+execute, and analyze parabolic ﬂight experiments, and thus to
+help facilitate future space activities.
+METHODS
+Device Selection
+The Slam Stick X™(Mide Technology Corp., www.mide.com) was
+selected based on its size (76 mm × 30 mm × 15 mm), low mass
+(65 g), integrated battery, manual and USB interfaces, and
+combination DC (Analog Devices ADXL345) and piezoelectric (TE
+832M1) accelerometers to enable accuracy at both low (e.g., down
+to 0 Hz) and high frequencies (up to 20 kHz sample frequency).
+The aluminum body was selected to provide improved high
+frequency
+response.
+Additional
+integrated
+sensors
+included
+temperature and pressure (NXP MPL3115) and control pad
+temperature and pressure (TE MS8607).
+Alternative data acquisition systems include many commercial
+off the shelf (COTS) accelerometers, as well as the NASA Suborbital
+Flight Environment Monitor (SFEM)9. There may be potential
+beneﬁts of using the SFEM, although the Slam Stick X™offers
+comparable or longer recording time, DC and piezoelectric
+accelerometers (enabling both g level and high frequency
+vibration measurements), higher sampling frequencies, a wider
+operating temperature range (−40 °C to + 80˚C) and much lower
+( > 10 × ) mass and volume. Another COTS option is the Lansmont
+3X90 , although the Slam Stick X™speciﬁcations provide beneﬁts
+in several areas (size, mass, sampling rates, and temperature
+range).
+One consideration for parabolic ﬂight experiments is that the
+GIA environment is not constant across the aircraft. In some cases,
+it may be adequate to have a single reference ﬂight proﬁle to be
+used by multiple experiment teams. However, some applications
+may be better served through measurement of the local GIA
+environment of a given experimental apparatus. Here, the small
+size of our solution facilitates direct incorporation into a payload,
+as well as placement in the desired location or orientation.
+When selecting a data acquisition solution, it is also important
+to consider how the mounting of the accelerometer itself may
+impact the frequency response; in our case, use of double-sided
+sticky tape represents both an extremely practical and low bias
+option, enabled by the low device mass. Because no additional
+materials separate the accelerometer from the aircraft, there is no
+need to correct for the frequency response of the mounting
+interface.
+Device mounting and data acquisition
+Zero Gravity Corporation (ZGC) utilizes a standard system of
+mounting hardware to the aircraft structure consisting of a
+baseplate (61 cm × 61 cm × 1.27 cm aluminum plate, e.g., McMas-
+ter Carr 86825K25) bolted to the aircraft structure using four
+clearance holes at the corners of a square with 50.8 cm (20 in)
+sides, centered on the baseplate. Washers (McMaster Carr
+92503A230) were used for mounting in combination with AN-6
+steel bolts (3/8 inch) provided by ZGC. The Slam Stick X™was
+mounted to a standard baseplate with double-sided sticky tape
+(3 M 950), which is the preferred mounting method due to its
+vibration frequency response (near unity) and robustness: this
+method has previously been validated during vibration testing at
+over 75 g at 1 kHz1. The Slam Stick X™was conﬁgured using Slam
+Stick Lab 1.8. Acquisition was initiated and terminated manually
+using the control pad on the device. Sampling rates were 5 kHz
+(piezoelectric vibration sensor), 411 Hz (DC acceleration), and 1 Hz
+(pressure and temperature).
+Data calibration
+The raw IDE ﬁle generated by the Slam Stick X™was converted to
+calibrated MAT (MATLAB, The Mathworks, Natick, MA) ﬁles using
+the ide2csv.exe command line utility (Mide Technology Corp.)
+using the factory calibration. Note that data calibration and export
+functions can also be performed directly using Slam Stick Lab.
+Here we focus on data from the DC accelerometer. We note that
+temperature varied less than 1 °C and pressure showed a typical
+regulated
+proﬁle
+and
+was
+highly
+stable
+during
+parabolas
+(Supplementary Fig. 5).
+Orientation-independent approach
+In any given experiment, one accelerometer orientation may be
+more appropriate than another. Thus, we based our phase of ﬂight
+identiﬁcation method (below) on a measure that is independent
+of the accelerometer orientation: the Euclidean norm of the x, y,
+and z axes, which we hereafter refer to as the g level or g. As this
+variable is a positive scalar, it does not capture directional
+ﬂuctuations in the gravity vector. Thus, for characterization of
+phases of ﬂight, vector-based statistics should be used. For
+example, we estimated the mean g level during a 0 g parabola by
+averaging the x, y, and z components, and then computing the
+norm.
+Calibration veriﬁcation
+The expected value of the g level is unity on Earth under non-
+accelerated conditions; as a veriﬁcation of our accelerometer
+calibration, we found the norm under lab bench conditions (14.2 s
+recording) to be 0.9840 (rms) and 0.9840 ± 0.0055 (mean ± SD),
+consistent with < 2% error. This is a lower bound when vibration
+or speciﬁc force other than that caused by gravity is present,
+consistent with the rms value (1.07) observed during ﬂight.
+Speciﬁc force was concentrated in the z axis as measured by root
+mean square (rms) values (0.0466, 0.0775, 1.0662 for x, y, and z
+axes, respectively), consistent with the accelerometer orientation
+(Fig. 1c). Calibration accuracy was also assessed after ﬁltering (see
+below).
+Phase of ﬂight characterization
+For parabola identiﬁcation, we ﬁrst ﬁltered the raw data using a
+zero-phase 12th order Butterworth ﬁlter using the designﬁlt()
+function using a half power frequency (HPF) as described below.
+Next, we utilized change point detection7,8 as implemented by the
+MATLAB FindChangePts() function.
+Change point detection was ﬁrst applied to the ﬁltered g level
+gﬁlt to identify differences in mean g levels. A known number of
+change points was speciﬁed based on the parabola number within
+each set, e.g., two times the number of parabolas, plus two
+additional transitions (ﬁrst pre-parabola pull up; last post-parabola
+pull up) for each set of parabolas. In our case sets of 5, 6, 4, and 5
+(20 total) parabolas become 12, 14, 10, and 12 change points. This
+total
+number
+of
+change
+points
+(48)
+was
+speciﬁed
+and
+Acceleration proﬁles and processing methods for parabolic ﬂight
+CE Carr et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2018)  14 
+
+FindChangePts() identiﬁed all g level change points in an
+unsupervised manner (Fig. 1f).
+We desire to break down the ﬂight into regions of stable g
+levels. Thus, for each change point, we used a secondary change
+point detection to identify differences in the slope of the g level
+vs. time curves. Data within 10 s of each change point was
+subjected to this secondary change point detection using a linear
+slope metric. This step successfully segmented the ﬂight into
+regions of rapid “transition” (indicated by dotted lines, Fig. 1g-i)
+and more stable regimes. This resulted in 97 ﬂight periods (2 × the
+number of change points + 1).
+Classiﬁcation of non-“transition” ﬂight periods into “parabola,”
+“hypergravity,” and “other” (which includes straight and level ﬂight
+as well as standard rate turns) was then performed, ﬁrst by
+categorizing any periods with duration > 100 s as “other”, then by
+segmenting
+data
+according
+to
+g
+level
+(“parabola” ≤0.9 g,
+0.9 < “other” ≤1.1 g, “hypergravity > 1.1 g). Despite its simplicity,
+this classiﬁer achieved good separation between classes (Fig. 2a).
+Parabola durations (mean ± s.d.) were 19.5 ± 1.4 s (0 g, N = 17,
+range 17 to 24 s), 23.7 s (Lunar g; N = 1), and 28.9 ± 0.7 s (Mars g; N
+= 2). The g levels achieved were 0.041 ± 0.005 g (0 g) and 0.159 g
+(lunar g). Both Mars parabolas achieved 0.356 g, indicating high
+consistency between parabolas targeting similar g levels. Higher g
+levels were signiﬁcantly associated with longer-duration parabolas
+(Supplementary Fig. 4a), although not when lunar and Mars data
+were excluded (Supplemental Fig. 4b).
+Some limitations are inherent in our study, which focused solely
+on one ﬂight and 20 parabolas. If analyzing multiple ﬂights, with
+parabolas performed under more varied conditions, it is possible a
+slightly more complex classiﬁcation strategy might be required;
+however, based on the wide separation between “parabola,”
+“hypergravity,” and “other” classes, this is not expected to present
+a signiﬁcant challenge to standard unsupervised classiﬁcation
+approaches (e.g., k-means).
+Filter optimization
+To optimize the ﬁlter, we selected a HPF based on the g level
+power spectral density (PSD, Supplementary Fig. 2a). The PSD was
+computed
+via
+the
+MATLAB
+pwelch()
+function
+with
+default
+parameters. To select the HPF, we examined the cumulative sum
+of the PSD (Supplementary Fig. 2b), which revealed a sharp
+increase in power above 0.01 Hz. We chose this value (HPF =
+0.01 Hz) to maximize the low frequency content of the ﬁltered
+data while rejecting as much spectral power from higher
+frequencies as possible. As an example, ﬁltering at HPF = 0.01 Hz
+preserves parabola dynamics, whereas ﬁltering at HPF = 0.001 Hz
+does not (Supplementary Fig. 2c). Our selected value provides the
+smoothest data for identifying parabolas, while still accurately
+representing g level transitions. A manual procedure identiﬁed
+similar values, e.g., adjusting the HPF toward DC until the rapid
+transitions between g levels showed systematic bias, then setting
+the HPF to 10 × this value, also gave HPF = 0.01 Hz.
+Filtering reduced the root mean square speciﬁc force in the
+lateral (x) direction but little in other directions (0.0161, 0.0681,
+1.0623 for x, y, z, respectively), consistent with low frequency
+aircraft accelerations mainly due to pitch maneuvers. The g level
+was near unity during periods of relative calm (Supplemental Fig.
+3a-b), including the ﬁrst 1000 s of data collected during largely
+straight and level ﬂight (rms 0.9919 and 0.9856, raw and ﬁltered,
+respectively). This unﬁltered estimate is 0.8% higher than under
+lab bench conditions, and both are consistent with accurate
+sensor calibration at DC to lower than 2% error, based on the
+factory calibration.
+Regression analysis
+Regression of parabola g level on duration was performed using
+the MATLAB ﬁtlm() function. Conﬁdence intervals were deter-
+mined using the MATLAB coefCI() function.
+Code availability
+The MATLAB scripts implementing our analysis are available at:
+https://github.com/CarrCE/zerog.
+Data availability
+Raw and calibrated data are available via the Open Science
+Framework at: https://osf.io/nk2w4/.
+ACKNOWLEDGEMENTS
+We thank the MIT Media Lab Space Exploration Initiative for providing the parabolic
+ﬂight. This work was supported by NASA award NNX15AF85G. N.C.B. was supported
+by NASA Postdoctoral Fellowship award 80NSSC17K0688.
+AUTHOR CONTRIBUTIONS
+C.E.C. designed the experiment. C.E.C., K.S., S.A.B., and N.C.B. built and tested the
+hardware. N.C.B. and M.T.Z. collected the data. C.E.C. and N.C.B. processed the data. G.
+R. advised on the experiment design. C.E.C. and N.C.B. wrote, and all authors edited
+and approved, the paper. C.E.C. is the guarantor.
+ADDITIONAL INFORMATION
+Supplementary information accompanies the paper on the npj Microgravity website
+(https://doi.org/10.1038/s41526-018-0050-3).
+Competing interests: The authors declare no competing interest.
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+Mean g level 
+Mean g level 
+100
+101
+102
+103
+104
+Duration (s)
+Transition
+Parabola
+Hypergravity
+Other
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+15
+20
+25
+30
+35
+Duration (s)
+0 g
+(N=17)
+Lunar
+(N=1)
+Mars 
+(N=2)
+Turns &
+setup for
+last set of
+parabolas
+Straight & 
+level flight
+a
+b
+Fig. 2
+Phases of ﬂight classiﬁcation and characterization. a After
+identifying transitions, non-transition events were classiﬁed as
+duration < 100 s (horizontal line) and by mean g level (vertical
+dotted lines) into “parabola,” “hypergravity,” and “other.” The subset
+of “hypergravity” periods with lower duration were identiﬁed as
+those at the start or end of a set of parabolas. All phases of ﬂight
+were unambiguously classiﬁed. b Parabola characteristics (see also:
+Supplementary Information). Error bars: mean ± SD
+Acceleration proﬁles and processing methods for parabolic ﬂight
+CE Carr et al.
+4
+npj Microgravity (2018)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+REFERENCES
+1. Karmali, F. & Shelhamer, M. The dynamics of parabolic ﬂight: ﬂight characteristics
+and passenger percepts. Acta Astronaut. 63, 594–602 (2008).
+2. Shelhamer, M. Parabolic ﬂight as a spaceﬂight analog. J. Appl. Physiol. 120,
+1442–1448 (2016).
+3. Rai, A. et al. Expanded beneﬁts for humanity from the International Space Station.
+Acta Astronaut. 126, 463–474 (2016).
+4. Shelhamer, M. Why send humans into space? Science and non-science motivations
+for human space ﬂight. Space Policy, https://doi.org/10.1016/j.spacepol.2017.10.001
+(2017).
+5. Smith, L. Commercial space ﬂight. Congr. Dig. 96, 30–31 (2017).
+6. Musk, E. Making humans a multi-planetary species. New Space 5, 46–61 (2017).
+7. Lavielle, M. Using penalized contrasts for the change-point problem. Signal Pro-
+cess. 85, 1501–1510 (2005).
+8. Killick, R., Fearnhead, P. & Eckley, I. A. Optimal detection of change points with a
+linear computational cost. J. Am. Stat. Assoc. 107, 1590–1598 (2012).
+9. Lambot, T. & Ord, S. F. Analysis of the quality of parabolic ﬂight. Next-Generation
+Suborbital Researchers Conference, https://ntrs.nasa.gov/search.jsp?R=20160007932
+(2016).
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2018
+Acceleration proﬁles and processing methods for parabolic ﬂight
+CE Carr et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2018)  14 

@@ -1,0 +1,1011 @@
+ARTICLE
+OPEN
+Bioreactor development for skeletal muscle hypertrophy and
+atrophy by manipulating uniaxial cyclic strain: proof of
+concept
+Khaled Y. Kamal
+1✉, Mariam Atef Othman
+1, Joo-Hyun Kim1 and John M. Lawler1,2
+Skeletal muscles overcome terrestrial, gravitational loading by producing tensile forces that produce movement through joint
+rotation. Conversely, the microgravity of spaceﬂight reduces tensile loads in working skeletal muscles, causing an adaptive muscle
+atrophy. Unfortunately, the design of stable, physiological bioreactors to model skeletal muscle tensile loading during spaceﬂight
+experiments remains challenging. Here, we tested a bioreactor that uses initiation and cessation of cyclic, tensile strain to induce
+hypertrophy and atrophy, respectively, in murine lineage (C2C12) skeletal muscle myotubes. Uniaxial cyclic stretch of myotubes was
+conducted using a StrexCell® (STB-1400) stepper motor system (0.75 Hz, 12% strain, 60 min day^-1). Myotube groups were assigned
+as follows: (a) quiescent over 2- or (b) 5-day (no stretch), (c) experienced 2-days (2dHY) or (d) 5-days (5dHY) of cyclic stretch, or (e)
+2-days of cyclic stretch followed by a 3-day cessation of stretch (3dAT). Using ß-sarcoglycan as a sarcolemmal marker, mean
+myotube diameter increased signiﬁcantly following 2dAT (51%) and 5dAT (94%) vs. matched controls. The hypertrophic, anabolic
+markers talin and Akt phosphorylation (Thr308) were elevated with 2dHY but not in 3dAT myotubes. Inﬂammatory, catabolic
+markers IL-1ß, IL6, and NF-kappaB p65 subunit were signiﬁcantly higher in the 3dAT group vs. all other groups. The ratio of
+phosphorylated FoxO3a/total FoxO3a was signiﬁcantly lower in 3dAT than in the 2dHY group, consistent with elevated catabolic
+signaling during unloading. In summary, we demonstrated proof-of-concept for a spaceﬂight research bioreactor, using uniaxial
+cyclic stretch to produce myotube hypertrophy with increased tensile loading, and myotube atrophy with subsequent cessation of
+stretch.
+npj Microgravity  (2024) 10:62 ; https://doi.org/10.1038/s41526-023-00320-0
+INTRODUCTION
+Mitigating the adverse effects of spaceﬂight requires a better
+mechanistic understanding of the profound challenges that are
+imposed upon astronauts, including the upcoming missions to
+Mars and the moon. Extended spaceﬂight missions that travel
+beyond the cocoon of the Earth’s magnetosphere subject
+astronauts to microgravity and outer space radiation. Risks
+inherent to the mechanical unloading of microgravity include
+degeneration of musculoskeletal tissue and the cardiovascular
+system. The microgravity of spaceﬂight indeed causes substantial
+wasting of skeletal muscle and weakness1–4. Mounting evidence
+indicates that altered mechanotransduction, oxidative stress, and
+impaired stress response contribute to mechanical unloading-
+induced atrophy and remodeling of musculoskeletal tissue4–8.
+Therefore, the identiﬁcation of mechanosensing pathways during
+the unloading of spaceﬂight, and thus the effect on musculoske-
+letal morphology and contractile function, continues as one of
+NASA’s long-term mission objectives.
+Skeletal muscles are dynamic tissues that drive body move-
+ment, protect joints and bones, serve as the primary glucose sink,
+and are central to systemic energy metabolism. Skeletal muscles
+adapt readily to changes in various stimuli, including changes in
+loading9,10. Indeed, skeletal muscles remodel their morphology in
+response to changes in the mechanical, nutrient, and energy-
+sensing environments11–15. Load-bearing skeletal muscles adapt
+to changes in the mechanical environment, allowing mature
+muscle ﬁbers to hypertrophy in response to increased loading and
+atrophy when presented with decreased loading. For example,
+when humans participate in resistance exercise, skeletal muscles
+can undergo increased mass through hypertrophy of muscle
+ﬁbers16,17. In response to mechanical unloading that occurs during
+the microgravity of spaceﬂight, chronic bedrest, or casting,
+skeletal muscles adapt rapidly by degrading contractile protein
+into constitutive amino acids, suppressing protein synthesis, and
+thus reducing muscle ﬁber cross-sectional area4,6. A common
+teleological argument for skeletal muscle atrophy as a biological
+response to unloading is that extreme disuse would accompany a
+signiﬁcant injury or disease, both of which require an increased
+demand for amino acids and protein18–20. However, the skeletal
+muscle wasting or atrophy that occurs with microgravity21,
+disuse22, cancer23, and aging24 compromises physical function
+and systemic health.
+Rotating wall vessel bioreactors are frequently utilized in tissue
+engineering and cell culture research to simulate spaceﬂight
+microgravity conditions25–27. These bioreactors produce a low-
+shear, three-dimensional culture environment that mimics certain
+aspects of weightlessness27. However, they are not suitable for
+inducing tensile mechanical loading in skeletal muscle ﬁbers
+experience during exercise in spaceﬂight. Although tumbler
+bioreactors create a low-shear environment through rotation,
+they largely produce compression rather than tension on skeletal
+muscle ﬁbers. Therefore, tumbler or centrifugal fail to accurately
+reproduce the changes in tensile mechanical forces encountered
+by skeletal muscles during weightlessness and exercise.
+1Redox Biology & Cell Signaling Laboratory, Department of Health and Kinesiology, Graduate Faculty of Nutrition, Texas A&M University, College Station, TX, USA. 2Department of
+Nutrition, Texas A&M University, College Station, TX, USA. ✉email: kymoustafa@tamu.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+Skeletal muscles produce and transfer tensile loads to attached
+tendons and bones by two mechanisms: (1) in series through
+muscle ﬁbers and (2) in parallel through transverse loading of
+z-discs and linked costamere interaction with surrounding layers
+of connective tissue (e.g., endomysium, perimysium)28. Skeletal
+muscles are organized as multinucleated myoﬁbers, whose
+function is to generate length and velocity-dependent forces for
+movement and stability. Skeletal muscle contractions and outside
+resistance produce net tension down a skeletal muscle’s long axis.
+Indeed, skeletal muscles respond to dyanamic alterations in
+mechanical loading by adapting muscle mass, ﬁber cross-sectional
+area29,30, and shifting the % of slow-twitch ﬁbers31,32. Unloading
+induced skeletal muscle atrophy is believed to be a function of
+both elevated protein degradation coupled with decreased
+protein anabolism8. In addition, there is an increase in connective
+tissue in unloaded skeletal muscle as well33. Thus, maintaining
+mechanical loading, such as tension and stretch, is crucial for
+muscle health and function. Therefore, the development of a
+bioreactor for experimental use of skeletal muscle cells (i.e.,
+myotubes) to simulate spaceﬂight or exercise during spaceﬂight
+should impose similar uniaxial tensile loading or stretch, that
+cannot be currently reproduced with rotating wall vessels
+bioreactors.
+Ergo, to study the physiological responses of skeletal muscle
+ﬁbers to tensile loading, myoblasts were seeded and differentiated
+into myotubes on an laminin-coated elastic membrane, which was
+then stretched to observe the cellular responses34. Based upon
+our ﬁndings we propose a microgravity bioreactor for the cellular
+stretch that is an analog of the FlexCell® system, which uses a
+vacuum instead to stretch the silastic membrane, eliciting radial
+loading35. Instead, we employed a StrexCell® system ﬁtted that
+includes a stepper motor to produce true uniaxial, cyclic stretch
+while eliciting tensile loading on myoblasts or myotubes. There-
+fore, the purpose of this study is to use cyclic stretch and cessation
+protocols with the StrexCell system on skeletal muscle myo-
+tubes36,37 as a potential bioreactor for microgravity and re-entry
+into gravitational environments.
+RESULTS
+Myotube morphology in response to cyclic stretch, cessation
+of daily stretch
+To study the effects of cyclic stretch and cessation of stretch on
+skeletal muscle myotube morphology and size, we used C2C12
+mouse lineage myoblasts to generate myotubes, and mounted on
+laminin. β-sarcoglycan immunoﬂuorescence positive staining was
+used as a membrane marker to calculate the myotube diameter as
+a marker of hypertrophy and atrophy (Fig. 1). Confocal immuno-
+ﬂuorescence quantiﬁcation revealed a signiﬁcant increase of 51%
+and 94% in mean myotube diameter following 2 and 5 days of a
+cyclic stretch, compared to the 2-day and 5-day quiescent
+controls, respectively (Fig. 1b). When myotubes underwent three
+days without cyclic stretch in myotubes, following 2 days of cyclic
+stretch, then myotube diameter was 32% lower compared to the
+loaded, stretched myotubes (Fig. 1b). Quantiﬁcation of the total
+nuclei population per ﬁeld revealed a signiﬁcant reduction as a
+result of 2 and 5 days of cyclic stretching compared to the controls
+(Fig. 1c), indicating an increase in ﬁber size while the nuclear
+number was relatively static. The fusion index was found to be
+increased signiﬁcantly by the 2, and 5 days stretching protocol
+compared with quiescent controls (Fig. 1d). However, three days
+of cessation of daily bouts of cyclic stretch (3dAT), did not alter the
+fusion index compared to the 2 days cyclic stretching.
+Functional protein turnover marker with cyclic stretching and
+cessation of stretch
+We then determined the effects of (1) uniaxial cyclic stretching
+and (2) release from or cessation of daily bouts of cyclic stretch on
+markers of protein synthesis and proteolysis commonly used in
+muscle atrophy and hypertrophy studies35,38,39. Protein abun-
+dance of the focal adhesion complex and cytoskeletal protein talin
+was chosen as a muscle hypertrophy marker, while the activity of
+calpains was chosen as a proteolytic marker (Fig. 2). Our ﬁndings
+revealed that both 2 and 5 days of cyclic stretching signiﬁcantly
+elevated the levels of talin protein compared to the control levels
+(Fig. 2a). There was no statistically signiﬁcant difference between 2
+and 5 days of stretch on talin protein levels.
+However, three days of cessation of daily bouts of cyclic stretch
+(3dAT) resulted in a signiﬁcantly lower level of talin than 2 and 5
+days of daily cyclic stretch. Talin protein levels were not
+statistically different from quiescent myotubes that experienced
+no daily stress and strain due to stretch.
+In contrast, calpain activity that was measured by ﬂuorescence
+revealed a signiﬁcant increase in activity in the 2dHY and 5dHY
+groups, indicating that daily bouts of cyclic stretch elevated
+calpain levels and presumably remodeling (Fig. 2b). Myotubes that
+completed stretch cessation myotubes displayed calpain levels
+that were not statistically different than the no-stretch and 2dHY
+groups. Calpain activity was signiﬁcantly lower in the 3dAT group
+vs. 5dHY myotubes.
+Akt and Foxo3a signaling is altered by cyclic stretch and
+removal of cyclic stretch
+The Akt activation pathway has been involved in regulating
+muscle hypertrophy and atrophy. To reveal the effects of daily
+cyclic stretch and subsequent cessation of daily bouts of cyclic
+stretch, we measured total Akt, phosphorylated Akt at Thr308,
+total protein levels for FoxO3a, phosphorylated FoxO3a, and the p-
+FoxO3a/total FoxO3a ratio (Fig. 3). Our data revealed that
+phosphorylated Akt levels were elevated after daily bouts of
+cyclic stretch (Fig. 4b). The phosphorylated Akt to total Akt activity
+ratio trended upwards with 2 days of a daily cyclic stretch but was
+not different from than controls (Fig. 3c). Akt phosphorylation
+levels were signiﬁcantly lower in 3dAT than in 2dHY but were no
+different than controls (Fig. 3b). pAkt/total Akt for 3dAT was
+similar to the no stretch control group.
+The FoxO3a transcription factor can be phosphorylated and
+inactivated by Akt phosphorylation or conversely dephosphory-
+lated and stimulated by pro-inﬂammatory signaling. Total protein
+levels for FoxO3a were elevated by almost 3-fold after cessation of
+daily cyclic stretch compared with the no stretch, 2dHY and 5dHY
+groups (Fig. 3d). However, the p-FoxO3a/total FoxO3a levels were
+signiﬁcantly lower in the 3dAT group than in controls and trended
+lower than in the myotubes subjected to daily bouts of cyclic
+strain (Fig. 3f). The data suggest that FoxO3a levels are elevated,
+and the proportion of dephosphorylated FoxO3a and thus
+activated FoxO3a is upregulated with when daily bouts of cyclic
+stretch are removed.
+Catabolic, inﬂammatory signaling in response to daily cyclic
+stretch and cessation of stretch
+In order to understand whether the cessation of cyclic strain and
+subsequent atrophy was linked with catabolic, inﬂammatory
+signaling, we interrogated three canonical inﬂammatory proteins
+that contribute to skeletal muscle ﬁber atrophy during unloading.
+For this purpose, we measured myotube levels of the inﬂamma-
+tory cytokines interleukin-1ß (IL-1ß) and interleukin-6 (IL-6), as well
+as
+the
+p65
+subunit
+of
+the
+pro-inﬂammatory,
+pro-oxidant
+transcription
+factor
+nuclear
+factor
+kappa-B
+(NF-κB).
+Protein
+abundance
+detected
+through
+immunoblotting
+revealed
+no
+K.Y. Kamal et al.
+2
+npj Microgravity (2024)  62 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+statistical difference in IL-1ß, IL-6, and p65 among myotubes
+subjected to no stretch, 2 days of cyclic stretch, and 5 days of
+cyclic stretch (Fig. 4). However, there was a 2–3 fold increase in IL-
+1ß, IL-6, and p65 compared with 2dHY, 5dHY, and the no stretch
+controls, similar to the pattern observed in total FoxO3a levels.
+These data suggest a signiﬁcant role of key pro-inﬂammatory
+cytokines and NF-kappaB in myotube atrophy following the
+removal of daily bouts of cyclic stretch.
+DISCUSSION
+In the current study, we examined the efﬁcacy of the application
+and withdrawal of uniaxial cyclic stretch on myotubes as a
+prospective bioreactor for use in spaceﬂight research. The uniaxial
+cyclic stretch produced tensile loading on myotubes with some
+shear in anchoring interface with laminin on the dish or
+membrane. Withdrawal from cyclic stretch elicits an ‘off-transient’
+period that our data suggest mimics unloading-microgravity. The
+cyclic stretch protocol (12% sinusoidal stretch, 0.7 Hz waveform
+frequency, 1 hour/day) over 2 and 5 days produced marked
+hypertrophy of skeletal muscle myotubes, accompanied by
+elevated anabolic markers (talin, Akt phosphorylation at Thr308).
+In contrast, withdrawal and cessation of cyclic stretch resulted in
+substantial atrophy on myotube diameter, concomitant with
+reduced Akt phosphorylation, and elevation of catabolic, pro-
+inﬂammatory markers (e.g., IL-1ß, IL-6, NF-kappaB subunit p65) as
+well as proteolytic signaling (e.g., reduced FoxO3a phosphoryla-
+tion/total FoxO3a ratio, elevated total FoxO3a). A discussion of the
+physiological and technological development relevance follows.
+These ﬁndings have a number of parallels with the data
+published by Soltow, et al. (2013)35 using the FlexCell® as a model
+for overloading and unloading (e.g., microgravity). The FlexCell®’s
+Fig. 1
+Effect of cyclic stretching and cessation of stretching periods on myotubes size. a Confocal ﬂuorescence staining images for C2C12
+myotubes. Immunoﬂuorescence staining for ß-sarcoglycan in green was used as a membrane marker with DAPI staining in Blue.
+b Quantiﬁcation of the Confocal ﬂuorescence staining images for myotubes diameter. c Total number of nuclei based on the DAPI staining
+quantiﬁcations. d Fusion index of muscle myotubes. Myotubes were divided into the following groups (n = 4/group): 2 days quiescent control
+(no stretch (2d), 5 days quiescent control (no stretch (5d), 2 days cyclic stretch (2dHY), 5 days cyclic stretch (5dHY), and 2-days of cyclic stretch
+followed by a 3-day cessation of stretch (3dAT). (a) = statistically signiﬁcant difference from no-stretch (2d); (b) = signiﬁcantly different than
+no-stretch (5d); (c) = signiﬁcantly different than 2dHY; (d) = signiﬁcantly different than 5dHY. (p ≤0.05) Values are presented as Box plots ±SD.
+Scale bar = 10 μm. The boxplots illustrate the interquartile range (25th–75th percentiles) displayed with whiskers spanning from the 10th to
+the 90th percentiles. The median of the data is indicated by the central line.
+K.Y. Kamal et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2024)  62 
+
+2 days cyclic stretching
+protocol
+(12%, 0.7 Hz,1 h/d)
+using
+collagen-coated plates increased myotube diameter, talin levels,
+Akt phosphorylation activity, and FoxO3a phosphorylation leading
+to stretch-induced muscle hypertrophy and growth. In contrast,
+48 h after the removal of bouts of cyclic stretch resulted in
+decreased anabolic signaling, increased FoxO3a dephosphoryla-
+tion, thus activating pro-inﬂammatory and muscle atrophic
+signaling and causing smaller myotube diameter. These data
+suggest that uniaxial stretch and cessation of stretch can be
+validly used to test myotube responses to both increased and
+decreased mechanical loading.
+In contrast, rotating wall vessels bioreactors are commonly used
+in tissue engineering and cell culture research to simulate
+microgravity
+conditions.
+These
+bioreactors
+create
+a
+three-
+dimensional culture environment with low shear forces, mimick-
+ing some aspects of weightlessness. However, they are not
+effective in inducing the primary consequence of weightlessness
+on skeletal muscles, which is a dramatically reduced tensile load.
+Furthermore, centrifugation adds compressive stress to alleviate
+microgravity, a far different loading proﬁle that skeletal muscles
+and attached tendons experience (e.g., tension along the long
+axis) in a terrestrial environment.
+Increased tensile stress and strain in skeletal muscle ﬁbers
+promote muscle growth by elevating protein synthesis and
+altering protein degradation, thus initiating muscle hypertro-
+phy40–42. Recent reports also characterized an increase in myotube
+diameter
+ex
+vivo
+in
+response
+to
+mechanical
+stretch
+and
+stimulation35,43,44. In our StrexCell application, the uniaxial cyclic
+stretching protocol for 2 days and 5 days produced tensile loading
+on myotubes, which resulted in muscle ﬁber hypertrophy. Thus,
+loading of tensile force stimulated an increased myotube diameter
+and size, conﬁrming that cyclic stretch in myotubes elicits
+hypertrophy of the muscle ﬁbers (Fig. 1). Overloading produced
+by cyclic stretch induced muscle hypertrophy that was directly
+linked to increased markers of anabolism and hypertrophy,
+including upregulation of talin and increased Akt phosphorylation
+at Thr308. Akt activation is a causal regulator in protein synthesis
+signaling in skeletal muscle45,46. For example, the overexpression
+of active Akt levels previously elicited skeletal muscle myotube
+hypertrophy47. Furthermore, we found that bouts cyclic stretch
+activated Akt through phosphorylation at Thr308, which was
+linked to an elevated phosphorylated FoxO3a/total FoxO3a ratio
+which could suppress catabolism. Consistently, we previously
+demonstrated that the antioxidant enzyme mimetic EUK-134
+relieved unloading induced decrease in Akt phosphorylation
+(deactivation)
+and
+decrease
+in
+FoxO3a
+phosphorylation
+(activation)5.
+Withdrawal and cessation of the cyclic stretching protocol affect
+skeletal
+muscle
+myotubes
+producing
+mechanical
+unloading
+alterations. Using the StrexCell system to release from daily cyclic
+stretch, C2C12 myotubes underwent a signiﬁcant reduction in
+myotube size after 3 days cessation of cyclic stretch (Fig. 1). A
+rapid reduction in skeletal muscle size mimics the muscle disuse
+atrophy that occurs with mechanical unloading4,6,35. Indeed,
+mechanical unloading and spaceﬂight lead to both a suppression
+of anabolic signaling and an elevation of proteolytic pathways,
+thus leading to muscle ﬁber atrophy1,12. FoxO3a is an atrophy-
+associated transcription factor that is translocated to the nucleus
+in its active form during skeletal muscle unloading. Indeed,
+nuclear accumulation of active FoxO3a is the atrophy-associated
+transcription factor FoxO3a is linked to muscle atrophy48,49. In our
+StrexCell protocol, withdrawal of daily cyclic stretching led to
+increased
+levels
+of
+unphosphorylated
+(i.e.,
+active)
+FoxO3a,
+consistent with protein degradation’s role in muscle atrophy
+(Fig. 3). The total amount of FoxO3a was nearly tripled, also
+suggesting potential stimulation of catabolic signaling. There was
+Fig. 2
+Markers of protein turnover: Talin protein levels and calpain activity assay. a Protein abundance for talin protein levels. Protein
+abundance quantiﬁcation was determined using Western immunoblotting with Ponceau stain as a protein loading control and quantiﬁed
+using ImageJ for talin. b Calpain Activity is expressed as ﬂuorogenic values (RFU/mg/min). Myotubes were divided into the following groups
+(n = 4/group): 2 days quiescent control (no stretch (2d), 2 days cyclic stretch (2dHY), 5 days cyclic stretch (5dHY), and 2-days of cyclic stretch
+followed by a 3-day cessation of stretch (3dAT). (a) = statistically signiﬁcant difference from no-stretch (2d); (b) = signiﬁcantly different than
+2dHY; (c) = signiﬁcantly different than 5dHY. (p ≤0.05) Values are presented as Box plots ±SD. The boxplots illustrate the interquartile range
+(25th–75th percentiles) displayed with whiskers spanning from the 10th to the 90th percentiles. The median of the data is indicated by the
+central line.
+K.Y. Kamal et al.
+4
+npj Microgravity (2024)  62 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+a smaller 40% increase in phosphorylated Foxo3a. thus was a
+statistically signiﬁcant decrease (more than 50%) in the p-FoxO3a/
+total FoxO3a ratio, consistent with greater potential for rapid
+protein degradation and myotube ﬁber atrophy. Notably, space-
+ﬂight microgravity lowered the Akt activity pathway by down-
+regulating the eIF4/p70S6K signaling50. Furthermore, Bodine and
+Baehr (2014)51 reported that the FoxO3a transcription factor
+regulates the MuRF1 and MAFbx expression involved in the
+protein degradation process leading to muscle atrophy52.
+Akt activation is a well-known causal regulator of protein
+synthesis signaling in skeletal muscle45,46. Downregulation of the
+Akt activation pathway, which is associated with dephosphoryla-
+tion of Akt and 4E-BP1, has been consistently reported in muscle
+atrophy53–55. Our laboratory previously reported downregulation
+of Akt and mTOR phosphorylation in response the mechanical
+unloading, prevented by EUK-134 an antioxidant mimetic of
+superoxide dismutase and catalase8. In this study, Akt phosphor-
+ylation was signiﬁcantly decreased when daily cyclic stretch was
+withdrawn for three days. This observation would be consistent
+with reduced protein synthesis and thus muscle atrophy.
+Simultaneous activation of FoxO3a and suppression of an Akt-
+mTOR pathways with skeletal muscle wasting, including mechan-
+ical unloading has been a frequent observation12,40,46,56–58.
+Indeed, historical and recent studies have consistently documen-
+ted increased proteolysis59 coupled with decreased skeletal
+muscle protein synthesis in response to hindlimb unloading of
+hindlimb muscles13,60. Furthermore, we previously documented
+greater dephosphorylation of FoxO3a, accompanied by down-
+regulation of an Akt-mTOR pathway with unloading-induced
+skeletal muscle atrophy8. This is consistent with the argument that
+dephosphorylation of Akt can activate FoxO3a and thus enhance
+proteolysis during unloading-induced atrophy8,61. Integration of
+Akt1 and FoxO3a signaling illustrated
+the role of Akt in
+simultaneously regulating muscle protein synthesis and protein
+degradation62.
+Various pro-inﬂammatory signaling pathways activated by
+cytokines, inﬂammatory transcription factors, and inﬂammatory
+substrates have been implicated in muscle atrophy by affecting
+muscle protein turnover or myonuclear turnover63,64. Unloading-
+induced muscle atrophy has been consistently linked to an
+elevation of inﬂammatory cytokines including interleukin-1-beta
+(IL-1ß), interleukin-6 (IL-6), interferon-gamma (IFN-γ), and tumor
+necrosis factor (TNF-α)65. Furthermore, the transcription factor NF-
+kappaB (NF-κB) is often elevated during mechanical unloading
+and may contribute to the atrophy process12. We found that the
+inﬂammatory cytokines IL-1ß and IL-6 and the p65 subunit of NF-
+kappaB were markedly higher in the muscle myotubes after daily
+cyclic stretching had been discontinued for three days (Fig. 4). The
+large magnitude of upregulation for IL-2, IL-6, and p65 while
+myotubes were in a humoral free medium clearly indicated that
+circulating cytokines and endocrine factors could not exclusively
+account for the marked elevation of inﬂammatory signaling.
+Indeed, these
+data
+support
+the
+hypothesis
+that
+much
+of
+inﬂammatory medication in unloaded muscle ﬁbers could be
+localized within the muscle ﬁbers. Therefore, upregulation of
+inﬂammatory mediators during the loading period must be a
+result of mechanosensing within the myotubes, rather than
+circulatory factors.
+Physiologically, a 2–3 fold elevation of IL-1ß and IL-6 would be
+expected to stimulate pro-inﬂammatory signaling, oxidative stress,
+protein degradation, and muscle atrophy66. Spaceﬂight and
+hindlimb unloading-induced atrophy are not surprisingly char-
+acterized by increased levels of IL-1ß and IL-667,68. Given that IL-1ß
+and IL-6 can activate or be activated by NF-κB57, thus it was
+expected that NF-kappaB subunit p65 would also upregulated
+following cessation of daily cyclic stretch (Fig. 4C). NF-κB has
+previously found to be involved in mechanical unloading-induced
+Fig. 3
+Levels of Akt, anabolic signaling and levels of FoxO3a, catabolic signaling. a Total Akt activity. b Phosphorylation level of Akt
+(Thr308). c Ratio between phosphorylation Akt (Thr32) and total Akt levels. d Total FOXO3a activity. e Phosphorylation level of FoxO3a. f Ratio
+between phosphorylation FoxO3a and total FoxO3a levels. Protein abundance quantiﬁcation was determined using Western immunoblotting
+with Ponceau stain as a protein loading control and quantiﬁed using ImageJ. Myotubes were divided into the following groups (n = 4/group):
+2 days quiescent control (no stretch (2d), 2 days cyclic stretch (2dHY), 5 days cyclic stretch (5dHY), and 2-days of cyclic stretch followed by a
+3-day cessation of stretch (3dAT). (a) = statistically signiﬁcant difference from no-stretch (2d); (b) = signiﬁcantly different than 2dHY. (p ≤0.05)
+Values are presented as Box plots ±SD. The boxplots illustrate the interquartile range (25th–75th percentiles) displayed with whiskers
+spanning from the 10th to the 90th percentiles. The median of the data is indicated by the central line.
+K.Y. Kamal et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2024)  62 
+
+muscle atrophy69–71. Upregulation of NF-κB, IL-1ß, and IL-6 can
+lead to a decrease in phosphorylation of Akt and FoxO3
+phosphorylation, consistent with a shift toward catabolic signal-
+ing72. Therefore, it is likely that the large elevation of IL-1ß, IL-5,
+and p65 contributed to suppression of anabolism, elevation of
+catabolic signaling, and thus atrophy of the myotubes.
+This study has some limitations, while the unloaded/micro-
+gravity model was not free ﬂoating we argue that there is a
+tradeoff is being able to induce cyclic tensile strain and release of
+cyclic stretch bouts as a reasonable simulation of the unloading of
+microgravity. Skeletal muscles are complex tissues that generate
+tensile forces to produce body movement and stability. Muscles
+adapt to changes in tensile loading by adjusting their mass and
+cross-sectional area. When mechanical tensile loading is dimin-
+ished or absent in vivo (e.g., spaceﬂight, casting, bedrest) during
+periods of immobility or inactivity, muscle ﬁber cross-sectional
+area is decreased in response. Even with the limitations outlined
+above, myotubes in this study responded signiﬁcantly to bouts of
+cycle stretch by myotube hypertrophy and underwent atrophy
+when unloaded. Thus, our StrexCell model of increased and
+release of tensile loading resulted in biological responses that
+would be predictable given the physiological responses to
+overloading and unloading in vivo.
+While tensile loading produces stretch on the myotubes, there
+is a limitation of a lack of contractile activity during stretch.
+Indeed, StrexCell modules may not fully mimic resistive training
+bouts, and there could be signiﬁcant differences in mechanosen-
+sing, Ca2+ homeostasis, etc. the response of calpains to both
+loading and unloading recapitulate in vivo responses to exercise
+and disuse (Hyatt & Powers 2020). In addition, anabolic, catabolic,
+and inﬂammatory responses would be predictable and consistent
+with in vivo loading and unloading data.
+While calpain activity is accepted as an important indicator of
+cellular Ca2+ overload, we were unable to measure cellular Ca2+
+directly, using a ﬂuorescence probe (e.g., ﬂuo-4), We will measure
+[Ca2+] levels in future as well as additional, important markers of
+Ca2+ overload such as SERCA1, SERCA2a, sarcolipin, etc.
+In conclusion the development of a uniaxial bioreactor for
+skeletal muscle will assist future studies, on the ground and during
+spaceﬂight, to elucidate mechanisms that cause skeletal muscle
+atrophy and remodeling during spaceﬂight. In addition, the
+StrexCell bioreactor would allow direct testing of countermeasure
+strategies against the adverse effects of spaceﬂight, including
+microgravity and radiation. In this study, we tested and developed
+an alternative bioreactor to mimic the effects of both overloading
+and microgravity-induced skeletal muscle atrophy by imposing
+and withdrawing periods of cyclic tensile strain, using a StrexCell
+Fig. 4
+Levels of catabolic, pro-inﬂammatory markers. a Interleukin-1ß (IL-1ß) levels. b Interleukin-6 (IL-6) levels. c p65 subunit of the pro-
+inﬂammatory transcription factor nuclear factor kappa-B (NF-kB). Protein abundance quantiﬁcation was determined using Western
+immunoblotting with Ponceau stain as a protein loading control and quantiﬁed using ImageJ. Myotubes were divided into the following
+groups (n = 4/group): 2 days quiescent control (no stretch (2d), 2 days cyclic stretch (2dHY), 5 days cyclic stretch (5dHY), and 2-days of cyclic
+stretch followed by a 3-day cessation of stretch (3dAT). (a) = statistically signiﬁcant difference from no-stretch (2d); (b) = signiﬁcantly different
+than 2dHY; (c) = signiﬁcantly different than 5dHY. (p ≤0.05) Values are presented as Box plots ±SD. The boxplots illustrate the interquartile
+range (25th–75th percentiles) displayed with whiskers spanning from the 10th to the 90th percentiles. The median of the data is indicated by
+the central line.
+K.Y. Kamal et al.
+6
+npj Microgravity (2024)  62 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+uniaxial stretch system. The withdrawal of cyclic stretch was used
+to demonstrate that mechanical inactivity turns off signaling for
+muscle
+hypertrophy,
+while
+elevating
+pro-inﬂammatory,
+pro-
+catabolic pathways that drive protein degradation, thus causing
+myotube atrophy. Therefore, we conclude that the StrexCell
+uniaxial stretch system is a viable alternative bioreactor to study
+spaceﬂight and re- (over)loading in skeletal muscle cells.
+METHODS
+Cell culture proliferation and differential protocol
+We used a commonly used immortal cell line (C2C12) (American
+Type Culture Collection; Manassas, VA, USA) derived from mouse
+skeletal muscle, generously provide by Dr. James Fluckey’s Muscle
+Biology Laboratory at Texas A&M University. C2C12 cells were
+capable of differentiation and are a widely used model to study
+differentiated skeletal muscle cells. The C2C12 myoblasts were
+cultured in a 10 cm2 chamber ﬁlled with Dulbecco’s modiﬁed
+Eagle’s medium, growth medium (DMEM + NA Pyruvate), supple-
+mented with 10% fetal bovine serum (FBS) and 1% penicillin/
+streptomycin at 37 °C and 5% CO235,73. Once the myoblast cultures
+reached 60–65% conﬂuency, the myoblasts were then trypsinized
+and re-cultured in 4 well-2 cm2 silicone chambers coated by
+laminin at 37 °C and 5% CO2, using 1 ml per well. Once the cells
+reached 70–80% conﬂuency, myotube differentiation was initiated
+by switching to differentiation medium DMEM (-) NA Pyruvate,
+supplemented with 2% horse serum, 1% penicillin/streptomycin,
+and 0.4% insulin-transferrin-selenium. To study the effects of
+increased and decreased mechanical stress in C2C12 myotubes,
+we maintained myotubes on laminin-coated silastic membrane
+and initiated stretch through a StrexCell® system, then observed
+the effects of stretch and cessation of stretch on cellular
+responses34. Twelve hours after beginning differentiation, the
+myotube
+silicone
+chambers
+were
+exposed
+to
+the
+uniaxial
+stretching using the StrexCell® unit. The differentiation medium
+was refreshed daily under sterilized conditions.
+StrexCell loading and unloading protocol
+Cyclic stretch of skeletal muscle cell cultures or “myotubes” has
+been used to mimic the loading pattern of skeletal muscle-
+induced hypertrophy and atrophy74. However, several limitations
+for the FlexCell system that could impair compatibility for research
+in spaceﬂight, including the necessity of a powerful vacuum
+pump, considerable weight, and difﬁculty generating true uniaxial
+stretch. StrexCell® uses a stepper motor and modular contractile
+cartridges to generate uniaxial stretch on muscle ﬁbers mounted
+on the silastic membrane. StrexCell is automated and computer-
+controlled, which enables precise control of the strain levels on
+the cells, providing a consistent stretch at high and low
+frequencies of 1–20%.
+Myoblasts and myotubes on a StrexCell system were exposed to
+uniaxial stress/tensile loads and release of tensile loading. While
+the myotubes were not free ﬂoating, they are plated on laminin
+that simulates the extracellular matrix/endothelium normally
+attached to muscle ﬁbers surrounding myocytes. The myoblast
+and myotubes were then suspended in an aqueous medium,
+which induces equal pressure on all sides. At the micron level,
+gravity is a relatively weak force compared with adhesions, ion
+afﬁnity, intermolecular forces, and ﬂuid dynamics, especially in an
+aqueous medium that surrounds the myoblasts and myotubes.
+Importantly, adhesion to laminin allows controlled levels of
+uniaxial stretch to be exercise on myotubes that simulates tensile
+loading in an aqueous environment.
+Fig. 5
+StrexCell proof of concept testing experimental design. a STB-1400-10 model: Automated Cell uniaxial stretching system including
+silicone chamber ((STB-CH-10) 10 cm² stretch chambers, C2C12 myotubes in growth medium), and the static controls (chambers outside the
+system). b Cyclic stretch and cessation protocol timeline and sampling periods. c Strain programs rage between 1–20% at frequencies
+between 1–60 cycle/min using a sine wave pattern.
+K.Y. Kamal et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2024)  62 
+
+We used a StrexCell® STB-1400 (B-Bridge International, Inc.,
+Cupertino, CA, USA) to apply a cyclic uniaxial stretch on C2C12
+myotubes (Fig. 5a). The stretch instrument employs a computer-
+controlled stepper motor to drive two metal frames apart. A
+ﬂexible silicone chamber was attached to both frames, and the
+chamber
+was
+stretched
+and
+released
+in
+a
+programmable
+sinusoidal oscillation. STB-1400 includes a 10 cm2 stretch chamber
+model (Culture area: 3.2 × 3.2 × 1.0 cm), which supports up to 6
+chambers simultaneously. The C2C12 cells (2 × 105 cells) were
+seeded in silicon stretch chambers coated with laminin (Fig. 5a).
+The amount of strain experienced by the myotubes was measured
+as the percent change in the stretch from the starting position
+(Fig. 5b). Based on the preliminary validation experiments and the
+published report of Soltow, et al. (2013)35, the strain program was
+set at 0.7 Hz frequency, 12% stretch using a sinusoidal wave
+pattern for 1 hour/day for 2 or 5 days. Exposure to the uniaxial
+cyclic
+stretching
+was
+utilized
+to
+induce
+hypertrophy
+with
+increased
+loading.
+Conversely,
+cyclic
+stretch
+cessation
+was
+deemed off-transient unloading to induce myotube atrophy
+release of cyclic tensile loads, with replicate control cultures
+maintained under quiescent conditions with no applied cyclic
+strain.
+Twenty-four-hour-old myotubes were used at the commence-
+ment of this experiment. Five different groups were assigned
+(n = 4/group): (a) 2 days no stretch controls (no Stretch 2d), (b)
+5 days no Stretch controls (no Stretch 5d), (c) 2 days cyclic
+stretching (1 h/d) (2dHY), (d) 5 days cyclic stretching (1 h/d)
+(5dHY), (e) 2 days cyclic stretching (1 h/d) + 3 days cessation of
+stretching (3dAT). Myotubes cultures were collected at the end of
+each group protocol to be ﬁxed for immunoﬂuorescence imaging
+or homogenized using lysis buffer for western blot analysis.
+Immunoﬂuorescence and confocal microscopy
+Immunoﬂuorescence imaging was performed to observe cell
+morphology. C2C12 myotubes were ﬁxed in a 4% paraformalde-
+hyde (PFA) solution for 30 min at 4 °C. Then, the myotubes were
+washed three times with 1X PBS. Cell membranes were solubilized
+for intracellular assays using a 0.5% Triton-X-100 for 3 min until
+washed with 1X PBS. Myotubes were blocked with 1X PBS with
+0.05% Tween20 and 5% goat serum for 30 min at RT. Myotubes
+were then incubated with β-sarcoglycan (membrane marker)
+primary antibody (1:200 β-sarcoglycan mouse mAb, abcam, Cat #
+ab55683) for 1 h at RT, and subsequently washed with 1X PBS
+(3 × 5 min). Myotubes were then incubated with the appropriate
+secondary antibody (1:250 goat anti-mouse IgG, Alexa Flour 488,
+ThermoFisher, Cat # A-11029) for 1 h at RT, followed by washing
+with 1X PBS (3 × 5 min) and then counterstaining with 1 µg/µl
+DAPI. After washing with 1X PBS (3 × 5 min) and then double-
+distilled water (2 × 5 min), slides were mounted with antifade
+mounting medium (ProLong™Gold Antifade, Invitrogen, cat #
+P36930). Myotubes immunoﬂuorescence staining was visualized
+using a Leica SP8 confocal laser scanning microscope (Leica SP8
+Confocal Lightning GPU-based Deconvolution (20X, zoom 2.25,
+emission wavelength 450–500 nm) in the Texas A&M Image
+Analysis Core Laboratory. Images were analyzed using Leica LAS X
+software v.4.3 and NIH ImageJ (Fiji. ImageJ v.1.53k) software for
+ﬁber diameter assessment and nucleus quantiﬁcation.
+Western immunoblot
+Protein abundance was as described by Lawler et al. (2021)4 and
+determined by Western immunoblot analysis. The whole-cell lysate
+was collected using TRIS HCL lysis buffer for 30 min at 4 °C. The
+protein concentration was measured using Bradford assay using a
+microplate reader (Beckman Coulter DTX 880 Multimode Detector).
+Twenty µg of protein samples were loaded on SDS-PAGE gels and
+electrophoresed at 120 V for 75 min using a Bio-Rad Protein III gel
+box onto a nitrocellulose membrane (Bio-Rad: Hercules, CA). The
+membranes were then blocked in a non-fat milk buffer (5% non-fat
+milk in TBS) for 1 h. Following blocking, membranes were incubated
+overnight (4 °C) in a blocking buffer with the appropriate primary
+antibodies: Anabolic signaling (anti-total Akt (rabbit mAb; 1:500; Cell
+Signaling Cat# 4691 S), anti-Akt phosphorylation at Thr308 (rabbit
+pAb; 1:500; Cell Signaling Cat# 9271 S), anti-Talin (rabbit mAb; 1:500;
+Cell Signaling Cat# 4021); Catabolic signaling with anti-Foxo3a
+(rabbit mAb; 1:500; Cell Signaling Cat# 12829 S) and anti-phospho-
+Foxo3a at Ser473 (rabbit pAb; 1:300; Cell Signaling Cat# 9464 L);
+inﬂammatory markers anti-IL-1β (rabbit mAb; 1:1,000; Cell Signaling,
+Cat #12703), anti-IL-6 (rabbit mAb; 1:1,000; Cell Signaling, Cat
+#12912), and anti-P65 (mouse mAb; 1:500; abcam, Cat# ab32536).
+Then, the membranes were washed with T-TBS (3 × 5 min) and
+incubated with the secondary antibody for 1 h at 4 °C.
+Proteins were visualized using Clarity Western ECL Substrate
+(BioRad, cat# 1705061) enhanced chemiluminescence detection
+and developed using a Cytiva Amersham ImageQuant™800
+Western Blot Imaging System (Cytiva). Quantiﬁcation was per-
+formed by ImageQuant™TL10 v.10.2 and NIH ImageJ software
+with Ponceau-S staining serving as a loading control.
+Calpain activity
+Calpain activity was performed using a Calpain Activity Assay
+Fluorometric Kit (Abcam # ab65308) according to the manufac-
+turer’s instructions, using 20 µg of the whole-cell lysate (mixed
+with lysis buffer provided with the kit). Calpain activities for each
+sample were expressed as relative ﬂuorescence units (RFUs) per
+milligram of protein per minute (RFU/μg/min). The ﬂuorescence
+signal was detected at 400 nm excitation and 505 nm emission
+using a microplate reader (Beckman Coulter DTX 880 Multimode
+Detector).
+Statistical approach
+Results were collected and processed for statistical analysis using
+Prism 9.0 (GraphPad). One-way ANOVAs with Tukey’s post-hoc
+analysis was performed to distinguish among group mean
+differences and between the different variables with signiﬁcance
+set at P < 0.05. A nested ANOVA design was used to quantify
+myotube diameter.
+Reporting summary
+Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+DATA AVAILABILITY
+All data generated or analyzed during this study are included in this published article.
+Received: 2 January 2023; Accepted: 15 August 2023;
+REFERENCES
+1. Bodine, S. C. Disuse-induced muscle wasting. Int. J. Biochem. Cell Biol. 45,
+2200–2208 (2013).
+2. Suzuki, N. et al. NO production results in suspension-induced muscle atrophy
+through dislocation of neuronal NOS. J. Clin. Invest. 117, 2468–2476 (2007).
+3. Hord, J. M. et al. Nox2 signaling and muscle ﬁber remodeling are attenuated by
+losartan administration during skeletal muscle unloading. Physiol. Rep. 9, e14606
+(2021).
+4. Lawler, J. M. et al. Nox2 inhibition regulates stress response and mitigates skeletal
+muscle ﬁber atrophy during simulated microgravity. Int. J. Mol. Sci. 22, 3252
+(2021).
+5. Wesolowski, L. T. et al. The impact of SRT2104 on skeletal muscle mitochondrial
+function, redox biology, and loss of muscle mass in hindlimb unloaded rats. Int. J.
+Mol. Sci. 24, 11135 (2023).
+K.Y. Kamal et al.
+8
+npj Microgravity (2024)  62 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+6. Hord, J. M. et al. Nox2 signaling and muscle ﬁber remodeling are attenuated by
+losartan administration during skeletal muscle unloading. Physiolog. Rep. 9,
+e14606 (2021).
+7. Min, K. et al. Mitochondrial-targeted antioxidants protect skeletal muscle against
+immobilization-induced muscle atrophy. J. Appl. Physiol. 111, 1459–1466 (2011).
+8. Kuczmarski, J. M. et al. Effect of Eukarion-134 on Akt-mTOR signalling in the rat
+soleus during 7 days of mechanical unloading. Exp. Physiol. 103, 545–558 (2018).
+9. Ambrosio, F. et al. The effect of muscle loading on skeletal muscle regenerative
+potential: an update of current research ﬁndings relating to aging and neuro-
+muscular pathology. Am. J. Phys. Med. Rehabil. 88, 145 (2009).
+10. Ohira, T., Kawano, F., Ohira, T., Goto, K. & Ohira, Y. Responses of skeletal muscles
+to gravitational unloading and/or reloading. J. Physiol. Sci. 65, 293–310 (2015).
+11. Franchi, M. V., Reeves, N. D. & Narici, M. V. Skeletal muscle remodeling in response
+to eccentric vs. concentric loading: morphological, molecular, and metabolic
+adaptations. Front. Physiol. 8, 447 (2017).
+12. Gao, Y., Arfat, Y., Wang, H. & Goswami, N. Muscle atrophy induced by mechanical
+unloading: mechanisms and potential countermeasures. Front. Physiol. 9, 235
+(2018).
+13. Shimkus, K. L. et al. Responses of skeletal muscle size and anabolism are repro-
+ducible with multiple periods of unloading/reloading. J. Appl. Physiol. 125,
+1456–1467 (2018).
+14. Krause, A. R., Speacht, T. A., Steiner, J. L., Lang, C. H. & Donahue, H. J. Mechanical
+loading recovers bone but not muscle lost during unloading. npj Microgravity 6,
+36 (2020).
+15. Magnusson, S. P. & Kjaer, M. The impact of loading, unloading, ageing and injury
+on the human tendon. J. Physiol. 597, 1283–1298 (2019).
+16. Mobley, C. B. et al. Effects of whey, soy or leucine supplementation with 12 weeks
+of resistance training on strength, body composition, and skeletal muscle and
+adipose tissue histological attributes in college-aged males. Nutrients 9, 972
+(2017).
+17. Møller, A. B. et al. Immobilization decreases FOXO3a phosphorylation and
+increases autophagy-related gene and protein expression in human skeletal
+muscle. Front. Physiol. 10, 736 (2019).
+18. Ferrando, A. A., Paddon-Jones, D. & Wolfe, R. R. Alterations in protein metabolism
+during space ﬂight and inactivity. Nutrition 18, 837–841 (2002).
+19. Biolo, G., Maggi, S. P., Williams, B. D., Tipton, K. D. & Wolfe, R. R. Increased rates of
+muscle protein turnover and amino acid transport after resistance exercise in
+humans. Am. J. Physiol. - Endocrinol. Metab. 268, E514–E520 (1995).
+20. Ferrando, A. A., Tipton, K. D., Bamman, M. M. & Wolfe, R. R. Resistance exercise
+maintains skeletal muscle protein synthesis during bed rest. J. Appl. Physiol. 82,
+807–810 (1997).
+21. Fitts, R. H., Riley, D. R. & Widrick, J. J. Functional and structural adaptations of
+skeletal muscle to microgravity. J. Exp. Biol. 204, 3201–3208 (2001).
+22. Powers, S. K., Lynch, G. S., Murphy, K. T., Reid, M. B. & Zijdewind, I. Disease-
+induced skeletal muscle atrophy and fatigue. Med. Sci. Sports Exerc. 48, 2307
+(2016).
+23. Bowen, T. S., Schuler, G. & Adams, V. Skeletal muscle wasting in cachexia and
+sarcopenia: molecular pathophysiology and impact of exercise training. J.
+Cachexia Sarcopenia Muscle 6, 197–207 (2015).
+24. Wilkinson, D. J., Piasecki, M. & Atherton, P. J. The age-related loss of skeletal
+muscle mass and function: measurement and physiology of muscle ﬁbre atrophy
+and muscle ﬁbre loss in humans. Ageing Res. Rev. 47, 123–132 (2018).
+25. Qiu, Q.-Q., Ayyaswamy, P. & Ducheyne, P. Formation and differentiation of three-
+dimensional rat marrow stromal cell culture on microcarriers in a rotating-wall
+vessel. Tissue Eng. 4, 19–34 (2017).
+26. Radtke, A. L. & Herbst-Kralovetz, M. M. Culturing and applications of rotating
+wall vessel bioreactor derived 3D epithelial cell models. J. Vis. Exp. 62, e3868
+(2012).
+27. Granet, C., Laroche, N., Vico, L., Alexandre, C. & Lafage-Proust, M. Rotating-wall
+vessels, promising bioreactors for osteoblastic cell culture: comparison with other
+3D conditions. Med. Biol. Eng. Comput. 36, 513–519 (1998).
+28. Ramaswamy, K. S. et al. Lateral transmission of force is impaired in skeletal
+muscles of dystrophic mice and very old rats. J. Physiol. 589, 1195–1208
+(2011).
+29. Cannavino, J., Brocca, L., Sandri, M., Bottinelli, R. & Pellegrino, M. A. PGC1‐α over‐
+expression prevents metabolic alterations and soleus muscle atrophy in hindlimb
+unloaded mice. J. Physiol. 592, 4575–4589 (2014).
+30. Fitts, R. H. et al. The deleterious effects of bed rest on human skeletal muscle
+ﬁbers are exacerbated by hypercortisolemia and ameliorated by dietary sup-
+plementation. Am. J. Physiol. Cell Physiol. 293, C313–C320 (2007).
+31. Desaphy, J.-F. et al. Antioxidant treatment of hindlimb-unloaded mouse coun-
+teracts ﬁber type transition but not atrophy of disused muscles. Pharmacol. Res.
+61, 553–563 (2010).
+32. Edgerton, V. R., Roy, R. R., Allen, D. L. & Monti, R. J. Adaptations in skeletal muscle
+disuse or decreased-use atrophy. Am. J. Phys. Med. Rehabil. 81, S127–S147 (2002).
+33. Hord, J. M., Botchlett, R. & Lawler, J. M. Age-related alterations in the sarcolemmal
+environment are attenuated by lifelong caloric restriction and voluntary exercise.
+Exp. Gerontol. 83, 148–157 (2016).
+34. Su, F., Wu, C. & Chien, S. Review: roles of microenvironment and mechanical
+forces in cell and tissue remodeling. J. Med. Biol. Eng. 31, 233–244 (2011).
+35. Soltow, Q. A., Zeanah, E. H., Lira, V. A. & Criswell, D. S. Cessation of cyclic stretch
+induces atrophy of C2C12 myotubes. Biochem. Biophys. Res. Commun. 434,
+316–321 (2013).
+36. Hatakeyama, J. et al. Effects of cyclic tensile strain and microgravity on the
+distribution of actin ﬁber and Fat1 cadherin in murine articular chondrocytes. J.
+Biomech. 129, 110774 (2021).
+37. Mochida, Y. et al. Piezo2 expression and its alteration by mechanical forces in
+mouse mesangial cells and renin-producing cells. Sci. Rep. 12, 1–14 (2022).
+38. Powers, S. K., Ozdemir, M. & Hyatt, H. Redox control of proteolysis during inactivity-
+induced skeletal muscle atrophy. Antioxid. Redox Signal. 33, 559–569 (2020).
+39. Thomason, D. B., Biggs, R. B. & Booth, F. W. Protein metabolism and beta-myosin
+heavy-chain mRNA in unweighted soleus muscle. Am. J. Physiol. Regul. Integr.
+Comp. Physiol. 257, R300–R305 (1989).
+40. Sandri, M. Signaling in muscle atrophy and hypertrophy. Physiology 23, 160–170
+(2008).
+41. Fernandes, T., Soci, Ú. P., Melo, S. F., Alves, C. R. & Oliveira, E. M. in Skeletal Muscle-
+From Myogenesis to Clinical Relations (IntechOpen, 2012).
+42. Sartori, R., Romanello, V. & Sandri, M. Mechanisms of muscle atrophy and
+hypertrophy: implications in health and disease. Nat. Commun. 12, 1–12 (2021).
+43. Halle, J. L., Counts-Franch, B. R., Prince, R. M. & Carson, J. A. The effect of
+mechanical stretch on myotube growth suppression by Colon-26 tumor-derived
+factors. Front. Cell Dev. Biol. 9, 690452 (2021).
+44. Terrie, L., Burattini, M., Van Vlierberghe, S., Fassina, L. & Thorrez, L. Enhancing
+myoblast fusion and myotube diameter in human 3D skeletal muscle constructs
+by electromagnetic stimulation. Front. Bioeng. Biotechnol. 10, 892287 (2022).
+45. Schiafﬁno, S. & Mammucari, C. Regulation of skeletal muscle growth by the IGF1-
+Akt/PKB pathway: insights from genetic models. Skelet. Muscle 1, 1–14 (2011).
+46. Yoon, M.-S. mTOR as a key regulator in maintaining skeletal muscle mass. Front.
+Physiol. 8, 788 (2017).
+47. Rommel, C. et al. Mediation of IGF-1-induced skeletal myotube hypertrophy by PI (3)
+K/Akt/mTOR and PI (3) K/Akt/GSK3 pathways. Nat. Cell Biol. 3, 1009–1013 (2001).
+48. Senf, S. M., Dodd, S. L. & Judge, A. R. FOXO signaling is required for disuse muscle
+atrophy and is directly regulated by Hsp70. Am. J. Physiol. Cell Physiol. 298,
+C38–C45 (2010).
+49. Kang, S.-H. et al. Forkhead box O3 plays a role in skeletal muscle atrophy through
+expression of E3 ubiquitin ligases MuRF-1 and atrogin-1 in Cushing’s syndrome.
+Am. J. Physiol. - Endocrinol. Metab. 312, E495–E507 (2017).
+50. Kwok, A. T. et al. Spaceﬂight and hind limb unloading induces an arthritic phe-
+notype in knee articular cartilage and menisci of rodents. Sci. Rep. 11, 1–17
+(2021).
+51. Bodine, S. C. & Baehr, L. M. Skeletal muscle atrophy and the E3 ubiquitin ligases
+MuRF1 and MAFbx/atrogin-1. Am. J. Physiol. - Endocrinol. Metab. 307, E469–E484
+(2014).
+52. Foletta, V. C., White, L. J., Larsen, A. E., Léger, B. & Russell, A. P. The role and
+regulation of MAFbx/atrogin-1 and MuRF1 in skeletal muscle atrophy. Pﬂug. Arch.
+Eur. J. Physiol. 461, 325–335 (2011).
+53. Bodine, S. C. et al. Akt/mTOR pathway is a crucial regulator of skeletal muscle
+hypertrophy and can prevent muscle atrophy in vivo. Nat. Cell Biol. 3, 1014–1019
+(2001).
+54. Kelleher, A. R., Kimball, S. R., Dennis, M. D., Schilder, R. J. & Jefferson, L. S. The
+mTORC1 signaling repressors REDD1/2 are rapidly induced and activation of
+p70S6K1 by leucine is defective in skeletal muscle of an immobilized rat hin-
+dlimb. Am. J. Physiol. - Endocrinol. Metab. 304, E229–E236 (2013).
+55. Liu, X. et al. Evaluation of Akt/mTOR activity in muscle atrophy after rotator cuff
+tears in a rat model. J. Orthop. Res. 30, 1440–1446 (2012).
+56. Gordon, B. S., Kelleher, A. R. & Kimball, S. R. Regulation of muscle protein synthesis
+and the effects of catabolic states. Int. J. Biochem. Cell Biol. 45, 2147–2157 (2013).
+57. Zhao, J. et al. FoxO3 coordinately activates protein degradation by the autop-
+hagic/lysosomal and proteasomal pathways in atrophying muscle cells. Cell
+Metab. 6, 472–483 (2007).
+58. Tang, H. et al. mTORC1 promotes denervation-induced muscle atrophy through a
+mechanism involving the activation of FoxO and E3 ubiquitin ligases. Sci. Signal 7,
+ra18–ra18 (2014).
+59. Baehr, L. M. et al. Muscle-speciﬁc and age-related changes in protein synthesis
+and protein degradation in response to hindlimb unloading in rats. J. Appl.
+Physiol. 122, 1336–1350 (2017).
+60. Mirzoev, T., Tyganov, S., Vilchinskaya, N., Lomonosova, Y. & Shenkman, B. Key
+markers of mTORC1-dependent and mTORC1-independent signaling pathways
+regulating protein synthesis in rat soleus muscle during early stages of hindlimb
+unloading. Cell. Physiol. Biochem. 39, 1011–1020 (2016).
+K.Y. Kamal et al.
+9
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2024)  62 
+
+61. Brunet, A. et al. Akt promotes cell survival by phosphorylating and inhibiting a
+Forkhead transcription factor. Cell 96, 857–868 (1999).
+62. Hoffman, E. P. & Nader, G. A. Balancing muscle hypertrophy and atrophy. Nat.
+Med. 10, 584–585 (2004).
+63. Webster, J. M., Kempen, L. J., Hardy, R. S. & Langen, R. C. Inﬂammation and
+skeletal muscle wasting during cachexia. Front. Physiol. 11, 597675 (2020).
+64. Ji, Y. et al. Inﬂammation: roles in skeletal muscle atrophy. Antioxidants 11, 1686
+(2022).
+65. da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals mitochondrial
+stress as a central biological hub for spaceﬂight impact. Cell 183, 1185–1201.
+e1120 (2020).
+66. Haddad, F., Zaldivar, F., Cooper, D. M. & Adams, G. R. IL-6-induced skeletal muscle
+atrophy. J. Appl. Physiol. 98, 911–917 (2005).
+67. Metzger, C. E. et al. Differential responses of mechanosensitive osteocyte proteins
+in fore-and hindlimbs of hindlimb-unloaded rats. Bone 105, 26–34 (2017).
+68. Guo, T.-Z. et al. Immobilization contributes to exaggerated neuropeptide sig-
+naling, inﬂammatory changes, and nociceptive sensitization after fracture in rats.
+J. Pain. 15, 1033–1045 (2014).
+69. Hunter, R. B. et al. Activation of an alternative NF‐κB pathway in skeletal muscle
+during disuse atrophy. FASEB J. 16, 529–538 (2002).
+70. Cai, D. et al. IKKβ/NF-κB activation causes severe muscle wasting in mice. Cell 119,
+285–298 (2004).
+71. Yoshihara, T. et al. Long-term physical inactivity exacerbates hindlimb unloading-
+induced muscle atrophy in young rat soleus muscle. J. Appl. Physiol. 130,
+1214–1225 (2021).
+72. Chen, M.-C., Hsu, W.-L., Hwang, P.-A., Chen, Y.-L. & Chou, T.-C. Combined
+administration of fucoidan ameliorates tumor and chemotherapy-induced ske-
+letal muscle atrophy in bladder cancer-bearing mice. Oncotarget 7, 51608 (2016).
+73. Chang, Y. J. et al. Cyclic stretch facilitates myogenesis in C2C12 myoblasts and
+rescues thiazolidinedione-inhibited myotube formation. Front. Bioeng. Biotechnol.
+4, 27 (2016).
+74. Soltow, Q. A. et al. Nitric oxide regulates stretch-induced proliferation in C2C12
+myoblasts. J. Muscle Res. Cell Motil. 31, 215–225 (2010).
+ACKNOWLEDGEMENTS
+The authors thank all the Redox Biology & Cell Signaling Laboratory members for
+their technical support. Furthermore, thank you to Dr. James Fluckey for his
+laboratory equipment’s support and use and for providing the C2C12 cell culture.
+Special thanks to Amuza Inc. for granting the availability and technical support of the
+StrexCell unit (STB-1400) to the pilot experiments. This work was generously
+supported by grants from NASA (80NSSC19K0432, NNX13AE45G) to J.M.L., the
+Hufﬁnes Institute (J.M.L., K.Y.M.), the School of Education and Human Development
+(R3 Grant) to J.M.L., and the Texas A&M University Ofﬁce of the President (T3 Grant) to
+J.M.L.
+AUTHOR CONTRIBUTIONS
+K.Y.K. and J.M.L. conceived and designed the experiment; K.Y.K. and M.O. managed
+protocols and performed experiments; K.Y.K. and J.H.K. performed the western blot
+analysis. K.Y.K. and J.M.L. analyzed and interpreted the results of experiments; K.Y.K.
+and J.M.H. drafted the manuscript; all the authors edited and revised the manuscript.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-023-00320-0.
+Correspondence and requests for materials should be addressed to Khaled Y. Kamal.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from
+the
+copyright
+holder.
+To
+view
+a
+copy
+of
+this
+licence,
+visit
+http://
+creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2024
+K.Y. Kamal et al.
+10
+npj Microgravity (2024)  62 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

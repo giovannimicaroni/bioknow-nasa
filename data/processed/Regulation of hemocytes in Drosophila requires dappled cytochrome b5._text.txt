@@ -1,0 +1,1148 @@
+Regulation of Hemocytes in Drosophila Requires
+dappled Cytochrome b5
+Kurt Kleinhesselink • Corinna Conway •
+David Sholer • Irvin Huang • Deborah A. Kimbrell
+Received: 23 September 2010 / Accepted: 20 December 2010 / Published online: 30 January 2011
+ The Author(s) 2011. This article is published with open access at Springerlink.com
+Abstract
+A major category of mutant hematopoietic phenotypes in Drosophila is
+melanotic tumors or nodules, which consist of abnormal and overproliferated blood
+cells, similar to granulomas. Our analyses of the melanotic mutant dappled have
+revealed a novel type of gene involved in blood cell regulation. The dappled gene is
+an essential gene that encodes cytochrome b5, a conserved hemoprotein that par-
+ticipates in electron transfer in multiple biochemical reactions and pathways. Viable
+mutations of dappled cause melanotic nodules and hemocyte misregulation during
+both hematopoietic waves of development. The sexes are similarly affected, but
+hemocyte number is different in females and males of both mutants and wild type.
+Additionally, initial tests show that curcumin enhances the dappled melanotic
+phenotype and establish screening of endogenous and xenobiotic compounds as a
+route for analysis of cytochrome b5 function. Overall, dappled provides a tractable
+genetic model for cytochrome b5, which has been difﬁcult to study in higher
+organisms.
+Keywords
+Hemocytes  dappled  Cytochrome b5  Melanotic tumors 
+Granulomas
+GenBank Accession Number HQ864711 dappled.
+K. Kleinhesselink  C. Conway  D. Sholer  I. Huang  D. A. Kimbrell (&)
+Department of Molecular and Cellular Biology, University of California,
+1 Shields Avenue, Davis, CA 95616, USA
+e-mail: dakimbrell@ucdavis.edu
+Present Address:
+K. Kleinhesselink
+Seminis Corporation, Woodland, CA, USA
+Present Address:
+D. Sholer
+Genentech Inc., Vacaville, CA, USA
+123
+Biochem Genet (2011) 49:329–351
+DOI 10.1007/s10528-010-9411-7
+
+Introduction
+Drosophila is well studied as a model of innate immunity in humans and has been
+instrumental in establishing principles of defense and gene signaling pathways that
+involve both immune induction and hematopoiesis (Lemaitre and Hoffmann 2007).
+The Drosophila Toll pathway mediates the response to microbial infections, and
+humans were subsequently found to have a family of Toll receptors that also
+respond to infections. Other shared immune signaling pathways are the Imd
+(immune deﬁciency)/TNF1 (tumor necrosis factor 1), JNK (Jun kinase), and JAK-
+STAT (Janus kinase-STAT transcription factor) pathways. Activation of NFkB
+transcription factors, which regulate target genes such as cytokines and antimicro-
+bial proteins, is a key shared feature (Wang and Ligoxygakis 2006). Like the
+signaling pathways, the cell and tissue components of the Drosophila and human
+immune systems are analogous (Kimbrell and Beutler 2001). In Drosophila, the
+hemocytes and the fat body mediate, respectively, the major cellular and humoral
+arms of the response. Hemocytes participate in immune signaling to the fat body,
+phagocytosis, damaged tissue surveillance, encapsulation of foreign intruders, and
+remodeling of cells during development and also respond to aberrant self-cells to
+form melanotic tumors/pseudotumors (Babcock et al. 2008; Brennan et al. 2007;
+Gateff 1994; Rizki and Rizki 1983; Tepass et al. 1994; Vass and Nappi 2000). The
+fat body, like the mammalian liver, produces abundant humoral response molecules,
+including antimicrobial peptides released into the hemolymph (Aggrawal and
+Silverman 2007).
+Drosophila produces three types of hemocytes: plasmatocytes, lamellocytes, and
+crystal cells (Crozatier and Meister 2007). Plasmatocytes account for *95% of total
+blood cells and most functions. In particular, plasmatocytes are responsible for the
+phagocytosis of microorganisms during an infection and apoptotic cells during
+development. Lamellocytes are produced only in response to parasites or by
+mutations that produce melanotic tumors. Crystal cells constitute *5% of total
+blood cells and are involved in melanization. As in vertebrates, Drosophila blood
+cells also have two developmental origins: one early in the embryonic head
+mesoderm and another during larval development in the lymph gland (Evans et al.
+2003). Molecular cascades and factors regulating hematopoiesis are also shared with
+humans and involve many pathways, for example, Toll, JAK/STAT, Hedgehog,
+Notch, GATA, and Runx (Evans and Banerjee 2003; Mandal et al. 2007).
+A major category of mutant hematopoietic phenotypes in Drosophila is that of
+melanotic tumors or nodules. Melanotic nodules may be in the hemocoel or
+associated with the lymph glands and consist of abnormal and overproliferated
+blood cells that are covered by lamellocytes and melanized, similar to the immune
+response to a parasitic wasp egg (Luo et al. 1995; Meister and Lagueux 2003;
+Minakhina and Steward 2006b; Stofanko et al. 2008). Mutations in a variety of
+genes and genetic pathways have been found to produce this phenotype, such as
+JAK–STAT, which is also associated with blood cell overproliferation in humans,
+the Toll pathway, and Ras/MAPK (Asha et al. 2003; Li 2008; Minakhina and
+Steward 2006a; Zettervall et al. 2004). Some other genes with this mutant
+phenotype are air8, encoding ribosomal protein s6 (Watson et al. 1992); black pearl,
+330
+Biochem Genet (2011) 49:329–351
+123
+
+encoding a DnaJ homolog (Becker et al. 2001); l(3)malignant blood neoplasm,
+encoding a protein with human cytokeratin homology (Gateff 1994); yantar,
+encoding a conserved arginine-rich protein (Sinenko et al. 2004); and the Polycomb
+group gene multi sex combs (Remillieux-Leschelle et al. 2002). The melanotic
+tumor genes are an important category to identify and deﬁne in order to understand
+blood cell function and regulation.
+In a P-element enhancer detector screen concentrating on immune-related tissues
+and phenotypes, we identiﬁed the melanotic tumor gene dappled (dpld) (Rodriguez
+et al. 1996). Enhancer detector expression of dappled was high in the fat body,
+oenocytes, ring gland, and gut. Lethal and viable mutations of dappled produced
+melanotic tumors, and lethal mutation was also associated with aberrant tissue
+morphology, for example, of the fat body and gut (Rodriguez et al. 1996). A
+distinguishing feature of dappled mutants is consistent melanotic tumor formation,
+in contrast to other melanotic tumor mutants, which typically have low and variable
+rates. We now report identiﬁcation of dappled as a member of the cytochrome b5
+family. Cytochrome b5 is a conserved, ubiquitous, small hemoprotein that
+participates in electron transfer in multiple biochemical reactions and pathways,
+such as fatty acid desaturation, cytochrome P450-catalyzed reactions, sterol
+metabolism, and conversion of methemoglobin (Schenkman and Jansson 2003).
+Cytochrome b5 is thus involved in processes such as metabolism of endogenous and
+xenobiotic compounds, maintenance of oxygen levels, and production of steroid
+hormones (Locuson et al. 2007; Miller 2005; Yamazaki and Shimada 2006).
+Cytochrome b5 genetics in higher organisms has not been very amenable to study,
+and dappled provides a new avenue of approach for study of cytochrome b5
+functions. In this report, we characterize the dappled mutant hemocyte phenotype
+and present the potential to study cytochrome b5 function by screening for
+compounds that affect the dappled hemocyte phenotype.
+Materials and Methods
+Drosophila Stocks and Rearing
+Oregon R ﬂies were used as the standard wild-type strain. The dappled mutants are
+the dpldMLB (97/16) and dpldEJL (142/2) strains of Rodriguez et al. (1996).
+Experiments were performed using dpldMLB/dpldEJL transheterozygotes or dpld
+mutants hemizygous with Df(2R)ST1 (Bloomington Stock Center). The hemese-
+Gal4 strain is that of Zettervall et al. (2004). The UAS-dappled transgenic strain was
+made using the cDNA clone RE66521 from the Bloomington Drosophila Genome
+Project, which matched our splice product for dappled mRNA (see below). The
+insert of plasmid RE66521 was isolated using the EcoRI and BamHI restriction
+enzyme sites, ligated into the EcoRI and XbaI sites of the pUAST vector using
+BamHI/XbaI linkers, and transgenic strains made by Genetic Services, Inc. Insertion
+strains of UAS-dappled into chromosomes X, 2, and 3 were recovered. All stocks
+were raised on the Bloomington Stock Center food recipe in a 25C incubator.
+For the curcumin-raised ﬂies, the food, before cooling, was supplemented with
+Biochem Genet (2011) 49:329–351
+331
+123
+
+20 mg/ml curcumin (Sigma), and parents were placed onto the food for mating and
+egg laying. Compare with Gupta et al. (2009), in which doses for mice were 5, 30,
+and 60 mg/kg orally, daily for 19 days, and note that at 100 mg/ml, ﬂies had high
+lethality in addition to developmental delay.
+Molecular Genetic Analysis
+Genomic DNA fragments ﬂanking the dappled 97/16 (k09716) and 142/2 (k14202)
+P-element insertion sites were recovered by the plasmid rescue technique (Wilson
+et al. 1989), sequenced (Davis Sequencing), and aligned to the genome (Blast). The
+PCR primers used to compare the 88/15 (k08815) strain P-element insertion
+sequences AQ034113 and AQ025871 (Tweedie et al. 2009) to wild-type sequences
+were TATCGTCGCTGTGCTTACAGAT (60, forward) and CTAAACCTCCAA
+TTCGGCTATG (61, reverse) at the AQ034113 end and CTCCACGCGTAATA
+TACCCATT (58, forward) and AGTCATGGATGCGTAGTCACAC (59, reverse)
+at the AQ025871 end. In order to conﬁrm the 88/15 insertion site, PCR fragments
+that resulted from the P-element end primer RsyII (Tweedie et al. 2009) in
+combination with primers 59 and 60 were sequenced. The PCR primers used to test
+for possible alternative splicing of CG2140/dappled were sequences 55, 56, and 57
+(Fig. 1). The sequence of the single transcript detected was translated to an amino
+acid sequence and placed into the cytochrome b5 family by Blast comparison.
+Clustal W was used to align the dappled cytochrome b5 sequence to selected other
+cytochrome b5 proteins.
+Northern Blot Analysis
+Total RNA was isolated using the Totally RNA kit (Ambion), and poly-A RNA was
+isolated using the Oligotex Direct mRNA Puriﬁcation kit (Qiagen). The RNA was
+run on formaldehyde gels and transferred overnight using Ambion Northern Max
+reagents. The dappled probe was 642 bp deﬁned by the primers 55 and 57 (Fig. 1).
+This 642 bp PCR fragment was subcloned using the TA cloning kit (Invitrogen),
+following the manufacturer’s protocol. After blue/white screening to select the
+colony, PCR and sequencing were used to conﬁrm the insert and determine
+orientation. Transcription used T7 polymerase and 32P-labeled UTP and the Ambion
+Strip EZ kit following the manufacturer’s protocol. The rp49 probe was made using
+Fig. 1 The dappled locus. a Four P-element insertions in dappled/CG2140 produce mutations with a
+melanotic tumor phenotype (k09716, k00107, k14202, and 01857). These four dappled insertions and the
+03427 and 05643 insertions are included within the k08815 deletion. Insertions 03610 and 08492 are
+outside the dappled and k08815 regions. One dappled mRNA transcript has been detected, and it has one
+intron spanning from ?120 to ?1712 (dotted line). The numbers 55, 56, and 57 indicate the positions of
+PCR primers used to test for alternative mRNA splicing products; only the 55–57 pair produced a PCR
+product. Black bars indicate the dappled protein coding region. b Sequence of the dappled/CG2140 gene.
+The sequence of the PCR fragment obtained from primers 55 and 57 to total adult RNA was combined
+with the sequence data for CG2140 at Flybase (Tweedie et al. 2009). Transcribed sequence with 50 UTR
+and 30 UTR is shown in capital letters. The protein encoding sequence is underlined, with the ATG start
+site shaded gray, and the translated amino acid sequence is below the underline. Bold and italicized
+sequences indicate the primers 55, 56, and 57
+c
+332
+Biochem Genet (2011) 49:329–351
+123
+
+-106
++120
+ATG
+-65
+-24 -19
+k09716
+k00107 k14202
++1
+ATG
++1712
++2059
++2326
+TAG
++792
+01857
+55
+7
+5
+6
+5
+340
+350
+345
+(a)
+(b)
+355
+03610
+5’ 
+k08815
+05643
+3’ 
+k08815
+08492
+CG1624
+dappled/CG2140
+03427
+Biochem Genet (2011) 49:329–351
+333
+123
+
+the primers TCCTTCCAGCTTCAAGATGACC (forward) and AGAAGTTCCTG
+GTGCACAACGT (reverse). Hybridization was overnight, and a Fuji phosphoim-
+ager and ImageJ were used to analyze the hybridization signal.
+Blood Cell Counts
+Third-instar larvae were developmentally staged as early versus late wandering
+phase based on retention in the gut of food dye (Zettervall et al. 2004). The Bright-
+Line Counting Chamber (Fisher) hemocytometer was used to count blood cells
+stained with monochlorobimane dye (Tirouvanziam et al. 2004) or GFP-expressing
+blood cells as in Zettervall et al. (2004), except that instead of red food color we
+used blue (Deep Blue Shade, Esco Foods, Inc.). Siblings that were heterozygous for
+dappled were distinguished based on either a CyO balancer with the marker y?
+(i.e., y; ?/dpld vs. y; ?/CyO, y?) or B-galactosidase staining to indicate presence or
+absence of a dpld enhancer trap (Rodriguez et al. 1996). Separate counts of blood
+cells in y versus y? larvae established that y did not affect the blood cell counts.
+Determination of sex was by the size of the gonads or by marking the sexes with
+y versus y?. Hemocyte counts from different samples were compared using the
+t test, and P values were calculated using VassarStats (http://faculty.vassar.edu/
+lowry/VassarStats.html).
+Results
+Cytochrome b5, the Encoded Product of dappled
+The original dappled alleles, dpldEJL and dpldMLB, result from the P-element
+insertions (P-lacW) in strains 142/2 (k14202) and 97/16 (k09716), respectively
+(Rodriguez et al. 1996). The dpldEJL allele is homozygous and hemizygous lethal,
+and dpldMLB is homozygous and hemizygous viable. Heteroallelic dpldEJL/dpldMLB
+is also viable and, like dpldEJL and dpldMLB homozygotes and hemizygotes, has
+melanotic tumors (Rodriguez et al. 1996). In order to identify the gene associated
+with the melanotic tumor phenotype, we molecularly cloned and sequenced the
+dappled gene. We used the technique of plasmid rescue to isolate the genomic DNA
+ﬂanking the k14202 and k09716 insertions. Sequencing of the ﬂanking DNA and
+alignment to the genome placed both insertions into the 50 UTR of CG2140
+(Tweedie et al. 2009), with k09716 46 bp farther upstream than k14202 (Fig. 1).
+In contrast to our results, genome annotation assigned dappled as CG1624 based
+on the position of the lethal P-element insertion 88/15 (k08815), which did not
+complement the 142/2 insertion (Spradling et al. 1999). We therefore investigated
+this discrepancy in the identiﬁcation of dappled. The 50 and 30 ﬂanking sequences
+for the k08815 insertion are 30-AQ034113 and 50-AQ025871. Alignment of these
+ﬂanking sequences on the latest Drosophila genome sequence, however, places
+them 176,059 bp apart. There are several potential causes for this gap in the
+sequence: multiple insertions, an error in data reporting, or a large deletion. To test
+for the accuracy of the k08815 ﬂanking sequence, primers were designed to (1) ﬂank
+334
+Biochem Genet (2011) 49:329–351
+123
+
+the 30 and 50 insertion sites of the k08815 transposon and (2) extend from a
+P-element end primer (pRsyII) into a ﬂanking sequence. The resultant PCR
+fragments supported the published ﬂanking sequences, as wild-type products were
+not observed in the mutant strain and both insertion sites were veriﬁed with the
+P-element end primer (Fig. 1). Finally, these PCR products were sequenced to
+provide conﬁrmation of the ﬂanking sequences. These results indicate that k08815 is
+not a simple insertion but is associated with additional disruption at its genomic
+position. We set out to differentiate between either multiple insertions or a large
+deletion by performing complementation tests with other lethal insertion strains in
+the region. Complementation tests conﬁrmed that a large deletion accompanies the
+k08815 insertion (Fig. 1). Complementation and mapping also placed two more
+insertions, k00107 and 01857, into the 50 UTR and intron of CG2140/dappled,
+respectively (Fig. 1).
+We tested these various dappled mutants for alterations in transcription, further
+conﬁrming that the dappled phenotype results from an effect on CG2140, by
+performing Northern blot analysis using RNA from dappled mutants. This analysis
+showed a decrease in CG2140 transcript levels in the dappled mutants compared
+with the Oregon R controls (Fig. 2). The dappled strains are hypomorphic, with the
+lethal alleles stronger. The lethal allele dpldEJL expresses approximately 10% of
+wild-type embryonic RNA levels, whereas the viable allele dpldMLB has *80% of
+wild-type adult RNA levels. Analysis of the transcripts by RT-PCR and sequencing
+showed one splice variant, with a single intron (Fig. 1).
+(b) 1
+  2
+3
+ 4
+  5
+1
+2 
+ 3
+(a)
+Fig. 2 The dappled transcript levels are reduced in dappled mutants. Northern blot analysis of dappled
+transcripts shows reduced levels in mutants compared with wild type. Upper panels: Northern blots after
+probing with labeled dappled. Lower panels: control for loading of RNA in each lane by reprobing the
+blots with labeled rp49. a Adult total RNA from Oregon R (lane 1), dpldMLB/dpldEJL transheterozygotes
+(lane 2), and dpldMLB homozygotes (lane 3). b Embryonic total RNA from Oregon R (lane 1) and
+dpld01857 homozygotes (lane 2); embryonic poly-A RNA from Oregon R (lane 4), and dpldEJL
+homozygotes (lane 5). Lane 3 contains no RNA. Embryos from the homozygous lethal strains dpldEJL and
+dpld01857 were sorted via a Balancer chromosome expressing GFP (CyO, Kr-GFP), in order to select for
+the homozygous mutant embryos. Quantitation after correcting for loading using rp49 shows reduced
+levels of dappled RNA in all mutants. Compared with wild type, approximate levels are (a) 65% in lane 2
+and 80% in lane 3; (b) 40% in lane 2 and 10% in lane 5
+Biochem Genet (2011) 49:329–351
+335
+123
+
+Based on sequence homology from our alignments and the Flybase Genome
+Annotation, Drosophila gene CG2140/dappled encodes a microsomal cytochrome
+b5 (Fig. 1; http://ﬂybase.org/reports/FBgn0033189.html). Genome annotation has
+identiﬁed CG2140 as the only cytochrome b5 in Drosophila. One related
+Drosophila sequence has been identiﬁed, cytochrome b5-related (Cyt-b5-r; http://
+ﬂybase.org/reports/FBgn0000406.html). Cyt-b5-r has 436 residues (there are only
+134 for Dappled and 135 for human cytochrome b5), and only 30 of the Cyt-b5-r
+residues are identical to the Dappled sequence. In a comparison of the dappled
+encoded amino acid sequence with a selection of other cytochrome b5 proteins from
+mammals and insects, Dappled has 45% identity with human cytochrome b5 and
+76% identity with houseﬂy cytochrome b5 (Fig. 3). Overall, the selected mammals
+and insects have 32% identity. Cytochrome b5 is a highly conserved, ubiquitous
+family of small hemoproteins that participate in electron transfer in multiple bio-
+chemical reactions. These reactions are involved in many biological processes, such
+Fig. 3 Cytochrome b5 sequences. The sequences of Dappled and selected other cytochrome b5 proteins
+from insects and mammals are compared using Clustal W for alignment and consensus generation (Prim.
+Cons.). See Wang et al. (2007) for an X-ray crystal structure comparison of the heme binding domain,
+residues 6–95. Note the high sequence identity within this region, which is 82% for residues 40–73.
+Sequence accession numbers are Rattus norvegicus GenBank AAB67610.1; Mus musculus Swiss-Prot
+P56395.2; Sus scrofa Swiss-Prot P00172.3, Homo sapiens GenBank AAA35729.1; Drosophila dap-
+pled GenBank HQ864711; Musca domestica GenBank AAA56985.1; Anopheles gambiae GenBank
+AAO24766.1
+336
+Biochem Genet (2011) 49:329–351
+123
+
+as conversion of methemoglobin, sterol metabolism, fatty acid desaturation, and
+cytochrome P450-catalyzed reactions (Schenkman and Jansson 2003).
+Hemocyte Misregulation and Melanotic Nodule Formation in dappled Mutants
+The dpldMLB insertion has made analysis possible, as in addition to producing
+consistent melanotic tumor formation, it is the only viable allele. Maintenance of
+dpldMLB homozygotes as a stock, however, was not feasible because of effects on
+fertility. Homozygous dpldMLB or transheterozygous dpldMLB/dpldEJL females and
+males produced few progeny, even when mated with wild-type ﬂies (\5 progeny/
+dappled parent), and mutant females laid few eggs (*50/female). It is unlikely that
+this fertility problem is due simply to physical obstruction in the abdomen, because
+ﬂies with less obtrusive tumors (i.e., small tumors near the thorax) also show low
+fertility. To avoid the effects of accumulation of second site mutations by
+maintaining the dpldMLB chromosome over a balancer, all experiments were done on
+progeny from crosses that produced transheterozygotes or hemizygotes.
+The development of the Gal4–UAS system (Brand and Perrimon 1993) to include
+drivers for the hematopoietic system makes it more feasible to be able to investigate
+the blood cell phenotypes of mutant genes, for example, Kimbrell et al. (2002) and
+Zettervall et al. (2004). The hemese-Gal4 construct drives expression in blood cells
+of the plasmatocyte and lamellocyte classes (Zettervall et al. 2004). Strains with
+hemese-Gal4 UAS-GFP thus have the blood cells marked with GFP, enabling
+hemocyte counting and phenotype analysis in various genetic strains (Zettervall
+et al. 2004). We used hemese-Gal4 UAS-GFP to investigate the blood cells of
+dappled melanotic tumor mutants. In melanotic tumors of dpldEJL/dpldMLB; hemese-
+Gal4 UAS-GFP larvae, all of the cells in the masses were found to ﬂuoresce
+strongly for GFP (Fig. 4). Cell counts of circulating plasmatocytes and lamellocytes
+showed large numbers of circulating lamellocytes (Fig. 4). Lamellocytes are not
+found in normal, healthy larvae, whereas in melanotic nodule mutants lamellocytes
+are abundant (Crozatier and Meister 2007). The dappled melanotic tumors are thus
+speciﬁcally designated as melanotic nodules, which consist of hemocytes, as
+opposed to melanizations, which are non-blood cell tissues that have melanized
+(Minakhina and Steward 2006b).
+Mutant dappled larvae were categorized based on the relative size of the
+melanotic nodules. Larvae with small versus large melanotic nodules showed
+different numbers of circulating plasmatocytes and lamellocytes (Fig. 4). Notably,
+lamellocytes are more prevalent in small tumors, whereas plasmatocytes are more
+abundant in large nodules. One possible interpretation of the higher number of
+lamellocytes in smaller nodules is that these nodules are still actively forming, and
+lamellocytes are still being recruited to the nodules. During normal larval
+development, the number of plasmatocytes typically increases two- to threefold
+from the early wandering (early) to the late wandering (late) stage of the third instar
+(Crozatier and Meister 2007; Zettervall et al. 2004). Plasmatocyte representation
+from early to late stage wandering was different for small and large tumors. Larvae
+with large tumors showed an increase from early to late stage, whereas larvae with
+Biochem Genet (2011) 49:329–351
+337
+123
+
+small tumors did not (Fig. 4), and this may also reﬂect the dynamic nature of
+dappled melanotic nodule formation.
+Heterozygosity of dappled does not produce tumors, but it does have a dominant
+effect on blood cell number. The dappled heterozygotes (Bal/dpld) have a
+signiﬁcantly higher number of plasmatocytes than wild-type larvae (?/?). This
+difference was conﬁrmed by counting hemocytes of dappled heterozygotes (dpld/?)
+and their control siblings (Bal/?) (Fig. 5). Further, counts of siblings showed that
+the increase in plasmatocytes is present both early and late in the third instar. The
+Fig. 4 Hemocytes of dappled viable mutants. a Hemocytes visualized by GFP expression show (left)
+melanotic tumors/nodules in a third-instar larva as clumps of hemocytes that are partially melanized,
+along with circulating plasmatocytes, and (right), at higher magniﬁcation, lamellocytes. Lamellocytes are
+approximately four times larger than plasmatocytes. GFP expression is driven by the hemese-Gal4 driver.
+b Cell counts of circulating hemocytes in early and late wandering third-instar larvae show high levels of
+lamellocytes and characterize the dynamic process of melanotic tumor formation by comparing mutants
+with small (left bars) versus large (right bars) melanotic nodules. Error bars show 0.95 conﬁdence limits.
+N C 15 for each category. (Color ﬁgure online)
+338
+Biochem Genet (2011) 49:329–351
+123
+
+relative numbers of lamellocytes in dappled heterozygotes is less clear, as the
+average was very low, many larvae had no lamellocytes, and the number did not
+increase from early to late stage (Fig. 5). Thus, although the lamellocyte data are
+statistically signiﬁcant (P \ 0.05), dappled heterozygosity at most yields a very
+weak induction of lamellocyte differentiation.
+Rescue of Hemocyte Phenotype but Not Lethality by Wild-Type dappled
+in Blood Cells
+We next asked if the dappled phenotype could be rescued by expressing wild-type
+dappled only in blood cells. We constructed a plasmid containing UAS-dpld, which
+was used to make transgenic strains with UAS-dpld in different chromosomal
+locations. The hemese-Gal4 was then used to drive UAS-dpld, and the rates of
+melanotic nodule formation were compared in dappled mutants and controls. In
+addition to hemocytes, hemese-Gal4 drives strong expression in the salivary glands,
+0%
+50%
+100%
+150%
+200%
+250%
+early late
+% dpld/+ early
+Bal/+
+dpld/+
+0%
+50%
+100%
+150%
+200%
+250%
+early
+late
+% control late
+Bal/+
+dpld/+
+0%
+50%
+100%
+150%
+200%
++/+
+dpld/+
+Bal/+
+Bal/dpld
+% control
+(a)
+(b)
+(c)
+Fig. 5 Plasmatocytes and lamellocytes are increased in dappled heterozygotes. a Cell counts of
+plasmatocytes during late third instar of dappled heterozygotes, over a Balancer (Bal) or wild-type (?)
+chromosome, show signiﬁcantly more plasmatocytes than wild-type (?/?) and Balancer (Bal/?)
+controls. Counts were normalized across three experiments to the percentage of controls. The average for
+control ?/? was 5,697 cells/larva and Bal/? was 4,935 cells/larva. P \ 0.01 for dpld/? versus Bal/?,
+and P \ 0.05 for Bal/dpld versus ?/?. b Cell counts of plasmatocytes of dappled heterozygotes and
+controls that are siblings show that the increase in plasmatocytes has already occurred by early wandering
+third instar. Additionally, dappled heterozygotes show a normal increase, which is approximately two- to
+threefold, in plasmatocyte number from early to late stage. Counts were normalized across three
+experiments to the percentage of control Bal/? late, which averaged 4,125 cells/larva. P \ 0.01 for both
+early and late of dpld/? versus Bal/?. c Cell counts of the larvae (b) show that lamellocytes are also
+increased. Control Bal/? larvae had no lamellocytes in any sample. P \ 0.05 for both early and late dpld/
+? versus Bal/?. The average number of cells in early dappled heterozygotes was 5, with high variability
+and no signiﬁcant difference from late dappled heterozygotes (P [ 0.05). N C 15 per genotype for each
+experiment
+Biochem Genet (2011) 49:329–351
+339
+123
+
+so a control salivary gland driver, sgs3-Gal4, was also used to drive UAS-dpld. To
+test for rescue of lethality by ubiquitous expression, the da-Gal4 driver (Pili-Floury
+et al. 2004) was used.
+The dappled mutants with hemese-Gal4, but not sgs3-Gal4, driving UAS-dpld are
+rescued from the melanotic phenotype. Three different UAS-dpld insertions were
+tested with hemese-Gal4, and all showed similar rates of rescue (Table 1).
+Dissections were performed to determine if blood cell nodules might be forming but
+not melanizing. The dissections conﬁrmed that blood cell nodule formation without
+accompanying melanization did not occur.
+The dominant effect of heterozygous dappled on plasmatocyte number is also
+rescued by adding dappled expression to blood cells. Hemocyte counts of dappled
+heterozygotes with hemese-Gal4 driving UAS-dpld had, on average, reduced
+numbers of hemocytes, compared with control dappled heterozygotes (Fig. 6).
+The number of lamellocytes in heterozygotes was also reduced on average, but
+with the small number and variability in lamellocytes, was not signiﬁcantly
+different (Fig. 6). These results do not necessarily rule out other tissues as
+important for the dappled mutant blood cell phenotypes, but rather emphasize that
+the level of dappled expression in the blood cells regulates number and
+differentiation.
+Expression of wild-type dappled in blood cells did not rescue the mutant
+lethality. In contrast, ubiquitous expression of wild-type dappled completely
+rescued the mutant lethality, producing normal adults with no tumors (Table 2).
+These results are consistent with the aberrant tissue morphology of lethal dappled
+(Rodriguez et al. 1996) and establish the importance of dappled transcript levels for
+normal function in other tissues.
+Table 1 Melanotic tumor phenotype is rescued by dappled expression in hemocytes
+Cell type
+Gal4; UAS
+Percentage (n) of adultsa with melanotic nodules Total N
+Negative
+controlb
+Positive
+controlc
+Rescue testd
+Blood cells hemese-Gal4; UAS-dpld line 1 0% (352)
+87.5% (32)
+5% (121)
+505
+hemese-Gal4; UAS-dpld
+line 3a
+0% (526)
+94.1% (43)
+7.5% (105)
+674
+hemese-Gal4; UAS-dpld
+line 9b
+0% (353)
+93% (17)
+5.7% (106)
+476
+Control
+sgs3-Gal4; UAS-dplde
+0% (514)
+89.3% (75)
+81.6% (103)
+692
+a Adults are progeny from crosses of w; CyO/dpldMLB; Gal4 females with w/Y; CyO/dpldEJL; TM3,Sb
+or UAS-dpld/UAS-dpld males
+b All genotypes with CyO/dpldMLB or EJL. Two thirds of the progeny are expected to be in this category
+c dpld transheterozygotes with Gal4 or UAS
+d dpld transheterozygotes with both Gal4 and UAS
+e Results with all three UAS-dpld lines
+340
+Biochem Genet (2011) 49:329–351
+123
+
+Effect of dappled on Hematopoietic Waves During Development
+The dappled nodules form early in larval development, which is more consistent
+with an increase of plasmatocytes from the ﬁrst hematopoietic wave (embryonic
+origin) rather than the second hematopoietic wave (lymph gland origin at the end of
+the third instar). As noted above, plasmatocytes in dappled tumors express the
+hemese-Gal4 driver, which does not express in the lymph glands, further indicating
+an early developmental origin for these cells. Additionally, the lymph glands appear
+normal, at least at a gross level, and only one dappled enhancer trap expresses in the
+lymph glands (Rodriguez et al. 1996). We analyzed 1 kb of the dappled upstream
+region for potential binding by blood cell, lymph gland, and other transcription
+factors using the Transfac database (Wingender 2008) provided by Biobase
+Biological Databases (http://www.biobase-international.com/index.php?id=home).
+Among the transcription factor binding sites are many that are predicted to be T cell
+factor/pan binding sites (Brunner et al. 1997), consistent with blood cell expression,
+and tinman/Nkx2.5 binding sites (Kimbrell et al. 2002), suggesting lymph gland
+expression (Table 3).
+0%
+20%
+40%
+60%
+80%
+100%
+UASdpld
+% Bal/dpld
+0%
+20%
+40%
+60%
+80%
+100%
+UASdpld
+% Bal/dpld
+(a)
+(b)
+Fig. 6 Rescue of dappled heterozygote phenotype by expression of wild-type dappled in hemocytes. The
+dappled heterozygotes with UAS-dpld driven by hemese-Gal4 (Bal/dpld UAS-dpld) were compared with
+controls without UAS and Gal4 (Bal/dpld and Bal/?). Counts were normalized across three experiments
+to the percentage of Bal/dpld. Plasmatocyte counts (a) are signiﬁcantly reduced in rescued larvae
+compared with Bal/dpld (P \ 0.05), but not compared with Bal/? (P [ 0.05). Lamellocyte counts (b) are
+reduced on average in rescued larvae, but not to a signiﬁcant extent (P [ 0.05, compared with both Bal/
+dpld and Bal/?). N C 15 per genotype for each experiment
+Table 2 Hemocyte expression of dappled is insufﬁcient for rescue of lethality
+Expression type
+Gal4; UAS
+Percentage (n) survival of adultsa
+Total N
+Controlb
+Rescue testc
+Ubiquitous
+daughterless-Gal4; UAS-dpld
+84.6% (1503)
+15.4% (273)
+1776
+Blood cells
+hemese-Gal4; UAS-dpld
+100% (1086)
+0% (0)
+1086
+a Adults are progeny from crosses of w; CyO/dpldEJL;TM3,Sb or UAS-dpld/UAS-dpld females with w/Y;
+CyO/Df1888;TM3,Sb/Gal4 males
+b CyO/dpldEJL or CyO/Df(2R)ST1 with Gal4 or UAS. 85% of the total progeny are expected to be in this
+category
+c dpldEJL/Df(2R)ST1 with both Gal4 and UAS. 15% of the total progeny are expected to be in this
+category
+Biochem Genet (2011) 49:329–351
+341
+123
+
+We tested for dappled effects in both hematopoietic waves by counting
+plasmatocytes at a time in development when cells of both hematopoietic waves
+are present. Cells of the two waves were differentiated by (1) using hemese-Gal4
+to drive UAS-GFP in cells from the ﬁrst wave of development, so that ﬁrst-wave
+cells ﬂuoresced green, and (2) staining all hemocytes with monochlorobimane
+dye, so that the second-wave hemocytes ﬂuoresced blue but not green. The
+developmental stage selected to have both sets of hemocytes was white prepupae,
+age 0–3 h postformation as white prepupae. These results show that heterozy-
+gosity of dappled increases the number of plasmatocytes from both hematopoietic
+waves (Table 4).
+Mutation of dappled affects both sexes similarly, and our results show both sexes
+together (Figs. 4, 5, 6). Similar numbers of the sexes are needed per sample,
+Table 3 Predicted T cell factor/
+pangolin and Nkx 2.5/tinman
+sites
+Predicted by Transfac
+Professional Match 2009.3,
+provided by Biobase Biological
+Databases
+T cell factor/pangolin
+-730
+(?) 1.000 0.994 gcgtaTCAAAagcaca TCF
+-687
+(-) 0.964 0.946 gcttagTTTGTtgtta TCF
+-611
+(-) 0.928 0.919 gactgtTTTTAttgaa TCF
+-440
+(-) 0.928 0.929 atacatTTTTAttaat TCF
+-430
+(?) 0.928 0.922 attaaTGAAAtggtct TCF
+-408
+(-) 0.957 0.938 aataaaTTTGCttacg TCF
+-395
+(-) 0.964 0.948 acgaatTTTGTttgta TCF
+-383
+(-) 0.928 0.922 tgtacaTTTCAtttga TCF
+-170
+(?) 0.964 0.944 tgtaaACAAAttataa TCF
+Nkx 2.5/tinman
+-939
+(-) 0.801 0.786 tgattgAAGTTggcaa NKX2.5
+-935
+(?) 0.869 0.828 tgAAGTT NKX2.5
+-923
+(-) 0.869 0.870 AACTTaa NKX2.5
+-896
+(?) 1.000 0.859 cccgtCACTTgaatta NKX2.5
+-894
+(?) 1.000 0.971 cgtCACTTga NKX2.5
+-891
+(-) 1.000 1.000 CACTTga NKX2.5
+-795
+(?) 0.844 0.805 taggcCACTCcaggat NKX2.5
+-780
+(?) 0.800 0.819 tgcCAATTgc NKX2.5
+-761
+(-) 0.869 0.823 AACTTac NKX2.5
+-711
+(?) 1.000 0.741 gccgtCACTTatcaat NKX2.5
+-709
+(?) 1.000 0.906 cgtCACTTat NKX2.5
+-706
+(-) 1.000 0.939 CACTTat NKX2.5
+-677
+(?) 0.801 0.732 ttgttAACTTgaattg NKX2.5
+-672
+(-) 0.869 0.884 AACTTga NKX2.5
+-551
+(?) 0.869 0.828 tgAAGTC NKX2.5
+-429
+(-) 0.788 0.751 ttaatgAAATGgtctg NKX2.5
+-377
+(?) 0.800 0.815 tttCATTTga NKX2.5
+-374
+(-) 0.783 0.808 CATTTga NKX2.5
+-235
+(?) 0.833 0.818 tgatcCACTAtacaat NKX2.5
+-145
+(?) 0.869 0.823 atAAGTT NKX2.5
+342
+Biochem Genet (2011) 49:329–351
+123
+
+however, as the sexes differ in the number of hemocytes. For the experiment
+depicted in Table 4, we separated the sexes in order to demonstrate this ﬁnding
+and test for a sex difference in the second hematopoietic wave as well. The
+results are that in both wild type and dappled there is a signiﬁcant difference
+between males and females in the number of hemocytes for both hematopoietic
+waves.
+Curcumin Enhancement of the dappled Melanotic Phenotype
+Cytochrome b5 is widely studied for its effects on drug metabolism, and conversely,
+various drugs are investigated for alteration of cytochrome b5 levels (El-Lakkany
+et al. 2004; Juvonen et al. 1992; Portoles et al. 1989; Schenkman and Jansson 1999;
+Sheweita 2004; Yamaori et al. 2003; Yamazaki et al. 2002). We hypothesized that
+modulation of the dappled phenotype could be used as an in vivo assay for
+cytochrome b5 related effects of endogenous and xenobiotic compounds. We are
+therefore screening compounds with a known connection to cytochrome P450s and/
+or anti-inﬂammatory and anticarcinogenic properties for enhancement or suppres-
+sion of the dappled melanotic phenotype. Initial studies with aspirin and the
+corticosteroid dexamethasone are negative (data not shown), whereas curcumin, the
+active ingredient in the spice turmeric, has consistently shown an enhancement of
+the melanotic phenotype (Table 5; Fig. 7). Adult dappled mutants that have been
+raised (egg to adult) on curcumin-supplemented food have an enhanced melanotic
+phenotype, showing more and/or larger melanotic tumors (Table 5). The enhanced
+phenotype of the dappled mutants is already evident in the larval stages (Fig. 7).
+Adult dappled heterozygotes, however, do not develop a melanotic phenotype when
+raised on curcumin (Table 5). Since both the heterozygotes and heteroallelic
+mutants have some reduction in dappled transcript levels, the effects of curcumin
+may depend on the exact amount of cytochrome b5 protein that is produced.
+Table 4 Hemocyte number differs by sex during development in wild type and dappled
+Genotype
+Sex
+Number of hemocytes (±95% conﬁdence interval)
+Average for
+embryonic origin
+Average for lymph
+gland origin
+Total cells
+Wild type
+Male
+3380 (±753)
+4610 (±942)
+7990 (±1237)
+Female
+5413 (±1492)
+6956 (±1505)
+12369 (±2109)
+P, male vs. female
+\0.01
+\0.001
+\0.01
+dplda
+Male
+6455 (±1128)
+6675 (±1268)
+13130 (±1716)
+Female
+8628 (±1879)
+8987 (±1374)
+17615 (±3013)
+P, male vs. female
+\0.05
+\0.01
+\0.01
+Wild type vs. dplda
+P, male vs. male
+\0.001
+\0.01
+\0.001
+P, female vs. female
+\0.01
+\0.05
+\0.01
+a dpld heterozygotes, dpldEJL/?
+Biochem Genet (2011) 49:329–351
+343
+123
+
+Discussion
+We have identiﬁed dappled as a member of the conserved, ubiquitous cytochrome
+b5 family. The complexities of cytochrome b5 function, through its participation in
+electron transfer in multiple biochemical reactions, are reﬂected in the difﬁculties
+and limited study of its genetics in higher organisms. Characterizations in humans
+have shown that cytochrome b5 mutation causes methemoglobinemia, which
+interferes with the balance between hemoglobin and methemoglobin, thus affecting
+oxygenation and inﬂammation (Hegesh et al. 1986; Umbreit 2007). Mutation of
+cytochrome b5 reductase also causes methemoglobinemia and is more common
+(Davis et al. 2004). In addition, one case of cytochrome b5 methemoglobinemia
+may also have been associated with hormonal defects (Giordano et al. 1994). With
+the exception of a porcine mutation associated with an altered androstenone level
+(Lin et al. 2005), cytochrome b5 mutations in other organisms have not been
+identiﬁed. In mice, cytochrome b5 deletion is also lethal, but experiments with a
+tissue-speciﬁc knockout have allowed liver function to be addressed (Finn et al.
+2008). With our studies of dappled, Drosophila now provides a tractable genetic
+model for the study of cytochrome b5 in blood cells and other tissues.
+Hemocytes are particularly sensitive to mutation of dappled and show that
+cytochrome b5 functions to produce normal differentiation and numbers of
+hemocytes. Mutation of one copy of dappled results in a signiﬁcant increase in
+the number of circulating hemocytes, and mutation of both copies results in the
+formation of melanotic nodules. The formation of dappled melanotic nodules is a
+Class 2 reaction in the classiﬁcation of Watson et al. (1991), in which Class 2
+represents alteration of immune cells and Class 1 represents normal immune cells
+responding to other cell types that are aberrant. The dominant effect on blood cell
+number emphasizes that wild-type levels of cytochrome b5 are needed for full
+normal functions. In humans, levels of cytochrome b5 have been implicated as
+important with respect to xenobiotic metabolism and health. Kurian et al. (2007)
+hypothesized that functionally signiﬁcant genetic variability in cytochrome b5
+occurs in individuals without clinical symptoms. They investigated processing
+of hydroxylamines, which are oxidative products of arylamine drugs and
+Table 5 Curcumin enhances the melanotic tumor phenotype of dappled
+Diet
+Percentage of adultsa with melanotic tumors
+Genotypeb (N)
+Melanotic nodule severity (%)c
+Balancer
+dpld
+1
+2
+3
+4
+5
+6
+Normal
+0% (373)
+90.3% (154)
+0.6
+3.9
+59.1
+25.3
+1.3
+9.7
+Curcumin supplement
+0% (762)
+87.1% (310)
+1.6
+26.8
+56.1
+1.3
+1.3
+12.9
+a Adults are progeny from crosses between w; CyO/dpldMLB and w; CyO/dpldEJL
+b ‘‘Balancer’’ indicates heterozygous CyO/dpldMLB or EJL. ‘‘dpld’’ indicates transheterozygous
+dpldMLB/dpldEJL
+c Severity decreases left to right. Category 1 is deﬁned as multiple small nodules; 2, single large or[1
+typical nodule; 3, typical nodule; 4, small nodule; 5, very small nodule; 6, no nodule
+344
+Biochem Genet (2011) 49:329–351
+123
+
+environmental carcinogens, by the mutant cytochrome b5 of one heterozygous
+individual and found, in vitro, altered afﬁnity for hydroxylamine substrates and
+dramatically reduced cytochrome b5 expression (Kurian et al. 2007).
+Expression of wild-type dappled in hemocytes rescued both the increase in blood
+cell number and the formation of melanotic nodules. The driver used was hemese-
+Gal4, which is active in circulating plasmatocytes and sessile hemocytes, but not the
+lymph glands (Markus et al. 2009; Zettervall et al. 2004). Interestingly, the sessile
+hemocytes are a newly discovered hematopoietic site and appear to be the main
+developmental origin of lamellocytes (Markus et al. 2009). This site of expression
+may be the key factor in rescuing the dappled melanotic nodule phenotype. Rescue
+Fig. 7 Curcumin enhances the dappled melanotic phenotype. The dappled mutants on the left (a, c, and
+e) were raised on curcumin-supplemented food. Those on the right (b and d) were raised on normal food.
+f Free-ﬂoating melanotic tumors from a curcumin-fed adult. (Color ﬁgure online)
+Biochem Genet (2011) 49:329–351
+345
+123
+
+of the plasmatocyte increase in dappled heterozygotes is expected to result from the
+hemese-Gal4 expression in circulating blood cells of the ﬁrst hematopoietic wave,
+both because of the age of the larvae (prerelease of lymph gland cells) and because
+hemese-Gal4 does not express in lymph glands. However, dappled also increased
+the number of hemocytes from the second hematopoietic wave. Hemocytes from
+both developmental origins, embryonic and lymph gland, require dappled in order
+to be produced in normal amounts. It is an interesting question as to whether the
+plasmatocyte increase in dappled mutants can be independently controlled in the
+ﬁrst and second hematopoietic waves.
+Does the increase in plasmatocytes indicate overproliferation or less apoptosis?
+Since dappled encodes a cytochrome b5, the obvious choice would be apoptosis
+rather than overproliferation. There are two problems with this choice: it is
+mitochondrial cytochrome b5 that is established in the canonical cytochrome C
+signaling apoptotic pathway, and the use of that pathway by Drosophila is
+controversial (Kornbluth and White 2005; Means and Hays 2007; Oberst et al. 2008;
+Ow et al. 2008). Microsomal cytochrome b5, however, has also been suggested to
+be involved in cytochrome C mediated apoptosis (Davydov 2001), and Drosophila
+may have its own version of apoptotic signaling that uses the dappled cytochrome
+b5. Further, blood cells are well described for their role in response to apoptotic
+cells, but the role of their own apoptosis in development and infection is not clear
+(Bruckner et al. 2004; Crozatier and Meister 2007; Lemaitre and Hoffmann 2007).
+The sensitivity of hemocytes (compared with other cell types) to dappled
+mutation may result from blood cell mitotic cell division continuing during
+development (Crozatier and Meister 2007). There are many potential mechanisms
+for dappled to affect overproliferation, especially given the increasingly complex
+functions of plasmatocytes (Charroux and Royet 2009). One option consistent with
+cytochrome b5 function, and potentially the dappled effects on fertility, is that
+hormonal signaling of hematopoiesis is affected. In that case, however, rescue of the
+dappled blood cell phenotype would be predicted by adding back wild-type dappled
+expression in the steroid-producing ring gland (Gilbert 2004) rather than hemocytes.
+Alternatively, dappled expression could rescue a steroid-processing step in the
+hemocytes.
+An intriguing option is that cytochrome b5 has a new, previously unidentiﬁed
+role in blood cell signaling pathways, for example, through JAK/Stat or JNK. More
+speciﬁcally, a candidate to mediate the effects of dappled is TNF-receptor
+associated factor 6 (Traf6), which is predicted from protein studies to interact with
+cytochrome b5 (Drosophila Interactions Database, http://www.droidb.org). Among
+its activities, Traf6 is an upstream activator of nuclear factor-kappaB, and mutants
+are immune response defective (Cha et al. 2003; Wu and Arron 2003). Cytochrome
+b5 involvement with Traf6 is a testable hypothesis through analysis of genetic
+interaction between dappled and Traf6 mutants.
+Our results with curcumin demonstrate that screening of endogenous and
+xenobiotic compounds for effects on the dappled phenotypes can be done as an in
+vivo approach for analysis of cytochrome b5. Curcumin is widely studied for its
+potential as a nutritional pharmaceutical (Duvoix et al. 2005; Jagetia and Aggarwal
+2007). Among its many activities, which are mainly anti-inﬂammatory and
+346
+Biochem Genet (2011) 49:329–351
+123
+
+anticancer, curcumin inhibits cytochrome P450s, down-regulates NFkB, and affects
+apoptosis and the cell cycle (Alpers 2008; Appiah-Opong et al. 2007; Kwon et al.
+2007; Sa and Das 2008). Curcumin enhanced the melanotic phenotype of dappled
+mutants. This effect of curcumin is consistent with NFkB involvement, but there are
+other alternatives, in particular, cytochrome P450 processing in the fat body.
+Mutation of dappled showed similar effects in females and males, but an
+unexpected consequence of our studies is the ﬁnding that females and males differ
+signiﬁcantly in the number of circulating blood cells. In humans, a difference
+between the sexes in the numbers of blood cell types is well established, but the
+effects are unclear (Blum and Pabst 2007; Huppert et al. 1998; Reichert et al. 1991).
+In both humans and Drosophila, there are differences in the immune responses
+between the sexes that affect health (Dale et al. 2006; Marriott and Huet-Hudson
+2006; Shames 2002; Taylor and Kimbrell 2007; Ye et al. 2009; Zandman-Goddard
+et al. 2007), and the blood cell number differential may be part of mediating the
+immune response differences. Recently, Drosophila hemocytes have been shown to
+directly signal immune induction of the fat body, and a reduced number of
+hemocytes resulted in less immune induction (Shia et al. 2009). In Drosophila, the
+increase in hemocytes of dappled and females may result in higher immune
+induction, which may or may not provide a healthier condition. For example, human
+females typically have a more robust immune response but also a higher incidence
+of autoimmune disorders (Dale et al. 2006; Zandman-Goddard et al. 2007).
+Cytochrome b5 expression is critical for survival, and its importance to
+hemocytes and additional tissues is emphasized by the ﬁnding that ubiquitous, but
+not hemocyte, expression of wild-type dappled rescued lethality. The functions of
+cytochrome b5 are open for testing in a wide range of tissue types using dappled. In
+all respects, genetic interaction and drug screens for suppressors and enhancers of
+dappled will be useful ways to discern the many roles of cytochrome b5 function.
+Acknowledgments
+We thank the Bloomington Stock Center for ﬂy strains and Dan Hultmark for the
+hemese-Gal4 stock. We are grateful to Kathleen Beckingham, Jeanette Natzle, Ylva Engstrom, and John
+Kiger for discussions and comments on the manuscript. We are also grateful to Chyong-Yi Wu and
+Edward Yonter for early work on plasmid rescue and fertility, Katherine Taylor for assistance with tumor
+rescue tests, and Genetic Services, Inc., for transgenic strains. This work was supported by grants NIH
+R01GM61458, NASA NNA04CC76A, and American Cancer Society IM697B/9302006CIM to DAK.
+Open Access
+This article is distributed under the terms of the Creative Commons Attribution Non-
+commercial License which permits any noncommercial use, distribution, and reproduction in any med-
+ium, provided the original author(s) and source are credited.
+References
+Aggrawal K, Silverman N (2007) Peptidoglycan recognition in Drosophila. Biochem Soc Trans
+35:1496–1500
+Alpers DH (2008) The potential use of curcumin in management of chronic disease: too good to be true?
+Curr Opin Gastroenterol 24:173–175
+Appiah-Opong R, Commandeur JN, van Vugt-Lussenburg B, Vermeulen NP (2007) Inhibition of human
+recombinant cytochrome P450s by curcumin and curcumin decomposition products. Toxicology
+235:83–91
+Biochem Genet (2011) 49:329–351
+347
+123
+
+Asha H, Nagy I, Kovacs G, Stetson D, Ando I, Dearolf CR (2003) Analysis of Ras-induced
+overproliferation in Drosophila hemocytes. Genetics 163:203–215
+Babcock DT, Brock AR, Fish GS, Wang Y, Perrin L, Krasnow MA, Galko MJ (2008) Circulating blood
+cells function as a surveillance system for damaged tissue in Drosophila larvae. Proc Natl Acad Sci
+USA 105:10017–10022
+Becker S, Gehrsitz A, Bork P, Buchner S, Buchner E (2001) The black-pearl gene of Drosophila deﬁnes a
+novel conserved protein family and is required for larval growth and survival. Gene 262:15–22
+Blum KS, Pabst R (2007) Lymphocyte numbers and subsets in the human blood. Do they mirror the
+situation in all organs? Immunol Lett 108:45–51
+Brand AH, Perrimon N (1993) Targeted gene expression as a means of altering cell fates and generating
+dominant phenotypes. Development 118:401–415
+Brennan CA, Delaney JR, Schneider DS, Anderson KV (2007) Psidin is required in Drosophila blood
+cells for both phagocytic degradation and immune activation of the fat body. Curr Biol 17:67–72
+Bruckner K, Kockel L, Duchek P, Luque CM, Rorth P, Perrimon N (2004) The PDGF/VEGF receptor
+controls blood cell survival in Drosophila. Dev Cell 7:73–84
+Brunner E, Peter O, Schweizer L, Basler K (1997) Pangolin encodes a Lef-1 homologue that acts
+downstream of Armadillo to transduce the Wingless signal in Drosophila. Nature 385:829–833
+Cha GH, Cho KS, Lee JH, Kim M, Kim E, Park J, Lee SB, Chung J (2003) Discrete functions of TRAF1
+and TRAF2 in Drosophila melanogaster mediated by c-Jun N-terminal kinase and NF-kappaB-
+dependent signaling pathways. Mol Cell Biol 23:7982–7991
+Charroux B, Royet J (2009) Elimination of plasmatocytes by targeted apoptosis reveals their role in
+multiple aspects of the Drosophila immune response. Proc Natl Acad Sci USA 106:9797–9802
+Crozatier M, Meister M (2007) Drosophila haematopoiesis. Cell Microbiol 9:1117–1126
+Dale E, Davis M, Faustman DL (2006) A role for transcription factor NF-kappaB in autoimmunity:
+possible interactions of genes, sex, and the immune response. Adv Physiol Educ 30:152–158
+Davis CA, Crowley LJ, Barber MJ (2004) Cytochrome b5 reductase: the roles of the recessive congenital
+methemoglobinemia mutants P144L, L148P, and R159*. Arch Biochem Biophys 431:233–244
+Davydov DR (2001) Microsomal monooxygenase in apoptosis: another target for cytochrome c
+signaling? Trends Biochem Sci 26:155–160
+Duvoix A, Blasius R, Delhalle S, Schnekenburger M, Morceau F, Henry E, Dicato M, Diederich M
+(2005) Chemopreventive and therapeutic effects of curcumin. Cancer Lett 223:181–190
+El-Lakkany NM, Seif el-Din SH, Badawy AA, Ebeid FA (2004) Effect of artemether alone and in
+combination with grapefruit juice on hepatic drug-metabolising enzymes and biochemical aspects in
+experimental Schistosoma mansoni. Int J Parasitol 34:1405–1412
+Evans CJ, Banerjee U (2003) Transcriptional regulation of hematopoiesis in Drosophila. Blood Cells Mol
+Dis 30:223–228
+Evans CJ, Hartenstein V, Banerjee U (2003) Thicker than blood: conserved mechanisms in Drosophila
+and vertebrate hematopoiesis. Dev Cell 5:673–690
+Finn RD, McLaughlin LA, Ronseaux S, Rosewell I, Houston JB, Henderson CJ, Wolf CR (2008)
+Deﬁning the in vivo role for cytochrome b5 in cytochrome P450 function through the conditional
+hepatic deletion of microsomal cytochrome b5. J Biol Chem 283:31385–31393
+Gateff E (1994) Tumor-suppressor genes, hematopoietic malignancies and other hematopoietic disorders
+of Drosophila melanogaster. Ann N Y Acad Sci 712:260–279
+Gilbert LI (2004) Halloween genes encode P450 enzymes that mediate steroid hormone biosynthesis in
+Drosophila melanogaster. Mol Cell Endocrinol 215:1–10
+Giordano SJ, Kaftory A, Steggles AW (1994) A splicing mutation in the cytochrome b5 gene from a
+patient with congenital methemoglobinemia and pseudohermaphrodism. Hum Genet 93:568–570
+Gupta A, Vij G, Sharma S, Tirkey N, Rishi P, Chopra K (2009) Curcumin, a polyphenolic antioxidant,
+attenuates chronic fatigue syndrome in murine water immersion stress model. Immunobiology
+214:33–39
+Hegesh E, Hegesh J, Kaftory A (1986) Congenital methemoglobinemia with a deﬁciency of cytochrome
+b5. N Engl J Med 314:757–761
+Huppert FA, Solomou W, O’Connor S, Morgan K, Sussams P, Brayne C (1998) Aging and lymphocyte
+subpopulations: whole-blood analysis of immune markers in a large population sample of healthy
+elderly individuals. Exp Gerontol 33:593–600
+Jagetia GC, Aggarwal BB (2007) ‘‘Spicing up’’ of the immune system by curcumin. J Clin Immunol
+27:19–35
+348
+Biochem Genet (2011) 49:329–351
+123
+
+Juvonen RO, Iwasaki M, Negishi M (1992) Roles of residues 129 and 209 in the alteration by cytochrome
+b5 of hydroxylase activities in mouse 2A P450S. Biochemistry 31:11519–11523
+Kimbrell DA, Beutler B (2001) The evolution and genetics of innate immunity. Nat Rev Genet 2:256–267
+Kimbrell DA, Hice C, Bolduc C, Kleinhesselink K, Beckingham K (2002) The Dorothy enhancer has
+Tinman binding sites and drives hopscotch-induced tumor formation. Genesis 34:23–28
+Kornbluth S, White K (2005) Apoptosis in Drosophila: neither ﬁsh nor fowl (nor man, nor worm). J Cell
+Sci 118:1779–1787
+Kurian JR, Longlais BJ, Trepanier LA (2007) Discovery and characterization of a cytochrome b5 variant
+in humans with impaired hydroxylamine reduction capacity. Pharmacogenet Genomics 17:597–603
+Kwon KH, Barve A, Yu S, Huang MT, Kong AN (2007) Cancer chemoprevention by phytochemicals:
+potential molecular targets, biomarkers and animal models. Acta Pharmacol Sin 28:1409–1421
+Lemaitre B, Hoffmann J (2007) The host defense of Drosophila melanogaster. Annu Rev Immunol
+25:697–743
+Li WX (2008) Canonical and non-canonical JAK-STAT signaling. Trends Cell Biol 18:545–551
+Lin Z, Lou Y, Peacock J, Squires EJ (2005) A novel polymorphism in the 50 untranslated region of the
+porcine cytochrome b5 (CYB5) gene is associated with decreased fat androstenone level. Mamm
+Genome 16:367–373
+Locuson CW, Wienkers LC, Jones JP, Tracy TS (2007) CYP2C9 protein interactions with cytochrome
+b(5): effects on the coupling of catalysis. Drug Metab Dispos 35:1174–1181
+Luo H, Hanratty WP, Dearolf CR (1995) An amino acid substitution in the Drosophila hopTum-l Jak
+kinase causes leukemia-like hematopoietic defects. EMBO J 14:1412–1420
+Mandal L, Martinez-Agosto JA, Evans CJ, Hartenstein V, Banerjee U (2007) A Hedgehog- and
+Antennapedia-dependent
+niche
+maintains
+Drosophila
+haematopoietic
+precursors.
+Nature
+446:320–324
+Markus R, Laurinyecz B, Kurucz E, Honti V, Bajusz I, Sipos B, Somogyi K, Kronhamn J, Hultmark D,
+Ando I (2009) Sessile hemocytes as a hematopoietic compartment in Drosophila melanogaster. Proc
+Natl Acad Sci USA 106:4805–4809
+Marriott I, Huet-Hudson YM (2006) Sexual dimorphism in innate immune responses to infectious
+organisms. Immunol Res 34:177–192
+Means JC, Hays R (2007) Mitochondrial membrane depolarization in Drosophila apoptosis. Cell Death
+Differ 14:383–385
+Meister M, Lagueux M (2003) Drosophila blood cells. Cell Microbiol 5:573–580
+Miller WL (2005) Minireview: regulation of steroidogenesis by electron transfer. Endocrinology
+146:2544–2550
+Minakhina S, Steward R (2006a) Nuclear factor-kappa B pathways in Drosophila. Oncogene
+25:6749–6757
+Minakhina S, Steward R (2006b) Melanotic mutants in Drosophila: pathways and phenotypes. Genetics
+174:253–263
+Oberst A, Bender C, Green DR (2008) Living with death: the evolution of the mitochondrial pathway of
+apoptosis in animals. Cell Death Differ 15:1139–1146
+Ow YP, Green DR, Hao Z, Mak TW (2008) Cytochrome c: functions beyond respiration. Nat Rev Mol
+Cell Biol 9:532–542
+Pili-Floury S, Leulier F, Takahashi K, Saigo K, Samain E, Ueda R, Lemaitre B (2004) In vivo RNA
+interference analysis reveals an unexpected role for GNBP1 in the defense against Gram-positive
+bacterial infection in Drosophila adults. J Biol Chem 279:12848–12853
+Portoles MT, Diaz-Laviada I, Ainaga MJ, Pagani R, Municio AM (1989) Involvement of cytochrome b5
+in the cytotoxic response to Escherichia coli lipopolysaccharide. Mol Cell Biochem 87:79–84
+Reichert T, DeBruyere M, Deneys V, Totterman T, Lydyard P, Yuksel F, Chapel H, Jewell D, Van Hove
+L, Linden J (1991) Lymphocyte subset reference ranges in adult Caucasians. Clin Immunol
+Immunopathol 60:190–208
+Remillieux-Leschelle N, Santamaria P, Randsholt NB (2002) Regulation of larval hematopoiesis in
+Drosophila melanogaster: a role for the multi sex combs gene. Genetics 162:1259–1274
+Rizki TM, Rizki RM (1983) Blood cell surface changes in Drosophila mutants with melanotic tumors.
+Science 220:73–75
+Rodriguez A, Zhou Z, Tang ML, Meller S, Chen J, Bellen H, Kimbrell DA (1996) Identiﬁcation of
+immune system and response genes, and novel mutations causing melanotic tumor formation in
+Drosophila melanogaster. Genetics 143:929–940
+Sa G, Das T (2008) Anti cancer effects of curcumin: cycle of life and death. Cell Div 3:14
+Biochem Genet (2011) 49:329–351
+349
+123
+
+Schenkman JB, Jansson I (1999) Interactions between cytochrome P450 and cytochrome b5. Drug Metab
+Rev 31:351–364
+Schenkman JB, Jansson I (2003) The many roles of cytochrome b5. Pharmacol Ther 97:139–152
+Shames RS (2002) Gender differences in the development and function of the immune system. J Adolesc
+Health 30:59–70
+Sheweita SA (2004) Carcinogen-metabolizing enzymes and insecticides. J Environ Sci Health B
+39:805–818
+Shia AK, Glittenberg M, Thompson G, Weber AN, Reichhart JM, Ligoxygakis P (2009) Toll-dependent
+antimicrobial responses in Drosophila larval fat body require Spatzle secreted by haemocytes. J Cell
+Sci 122:4505–4515
+Sinenko SA, Kim EK, Wynn R, Manfruelli P, Ando I, Wharton KA, Perrimon N, Mathey-Prevot B (2004)
+Yantar, a conserved arginine-rich protein is involved in Drosophila hemocyte development. Dev
+Biol 273:48–62
+Spradling AC, Stern D, Beaton A, Rhem EJ, Laverty T, Mozden N, Misra S, Rubin GM (1999) The
+Berkeley Drosophila genome project gene disruption project: single P-element insertions mutating
+25% of vital Drosophila genes. Genetics 153:135–177
+Stofanko M, Kwon SY, Badenhorst P (2008) A misexpression screen to identify regulators of Drosophila
+larval hemocyte development. Genetics 180:253–267
+Taylor K, Kimbrell DA (2007) Host immune response and differential survival of the sexes in
+Drosophila. Fly (Austin) 1:197–204
+Tepass U, Fessler LI, Aziz A, Hartenstein V (1994) Embryonic origin of hemocytes and their relationship
+to cell death in Drosophila. Development 120:1829–1837
+Tirouvanziam R, Davidson CJ, Lipsick JS, Herzenberg LA (2004) Fluorescence-activated cell sorting
+(FACS) of Drosophila hemocytes reveals important functional similarities to mammalian
+leukocytes. Proc Natl Acad Sci USA 101:2912–2917
+Tweedie S, Flybase Consortium (2009) FlyBase: enhancing Drosophila gene ontology annotations.
+Nucleic Acids Res 37:D555–D559
+Umbreit J (2007) Methemoglobin—it’s not just blue: a concise review. Am J Hematol 82:134–144
+Vass E, Nappi AJ (2000) Developmental and immunological aspects of Drosophila-parasitoid
+relationships. J Parasitol 86:1259–1270
+Wang L, Ligoxygakis P (2006) Pathogen recognition and signalling in the Drosophila innate immune
+response. Immunobiology 211:251–261
+Wang L, Cowley AB, Terzyan S, Zhang X, Benson DR (2007) Comparison of cytochromes b5 from
+insects and vertebrates. Proteins 67:293–304
+Watson KL, Johnson TK, Denell RE (1991) Lethal(1) aberrant immune response mutations leading to
+melanotic tumor formation in Drosophila melanogaster. Dev Genet 12:173–187
+Watson KL, Konrad KD, Woods DF, Bryant PJ (1992) Drosophila homolog of the human S6 ribosomal
+protein is required for tumor suppression in the hematopoietic system. Proc Natl Acad Sci USA
+89:11302–11306
+Wilson C, Pearson RK, Bellen HJ, O’Kane CJ, Grossniklaus U, Gehring WJ (1989) P-element-mediated
+enhancer detection: an efﬁcient method for isolating and characterizing developmentally regulated
+genes in Drosophila. Genes Dev 3:1301–1313
+Wingender E (2008) The Transfac project as an example of framework technology that supports the
+analysis of genomic regulation. Brief Bioinform 9:326–332
+Wu H, Arron JR (2003) TRAF6, a molecular bridge spanning adaptive immunity, innate immunity and
+osteoimmunology. Bioessays 25:1096–1105
+Yamaori S, Yamazaki H, Suzuki A, Yamada A, Tani H, Kamidate T, Fujita K, Kamataki T (2003) Effects
+of cytochrome b(5) on drug oxidation activities of human cytochrome P450 (CYP) 3As: similarity
+of CYP3A5 with CYP3A4 but not CYP3A7. Biochem Pharmacol 66:2333–2340
+Yamazaki H, Shimada T (2006) Cytochrome P450 reconstitution systems. Methods Mol Biol 320:
+61–71
+Yamazaki H, Nakamura M, Komatsu T, Ohyama K, Hatanaka N, Asahi S, Shimada N, Guengerich FP,
+Shimada T, Nakajima M, Yokoi T (2002) Roles of NADPH-P450 reductase and apo- and holo-
+cytochrome b5 on xenobiotic oxidations catalyzed by 12 recombinant human cytochrome P450s
+expressed in membranes of Escherichia coli. Protein Expr Purif 24:329–337
+Ye YH, Chenoweth SF, McGraw EA (2009) Effective but costly, evolved mechanisms of defense against
+a virulent opportunistic pathogen in Drosophila melanogaster. PLoS Pathog 5:e1000385
+350
+Biochem Genet (2011) 49:329–351
+123
+
+Zandman-Goddard G, Peeva E, Shoenfeld Y (2007) Gender and autoimmunity. Autoimmun Rev
+6:366–372
+Zettervall CJ, Anderl I, Williams MJ, Palmer R, Kurucz E, Ando I, Hultmark D (2004) A directed screen
+for genes involved in Drosophila blood cell activation. Proc Natl Acad Sci USA 101:14192–14197
+Biochem Genet (2011) 49:329–351
+351
+123

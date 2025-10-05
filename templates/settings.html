@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - BioKnowdes</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-cog"></i> Settings</h1>
+                <a href="/ask-lumi" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Chat
+                </a>
+            </div>
+        </header>
+
+        <!-- Settings Content -->
+        <div class="settings-container">
+            <div class="settings-card">
+                <h2><i class="fas fa-robot"></i> AI Provider</h2>
+                <p class="settings-description">Choose which AI service to use for analyzing your documents.</p>
+                
+                <form id="settingsForm" class="settings-form">
+                    <!-- OpenAI -->
+                    <div class="provider-option">
+                        <input type="radio" id="openai" name="provider" value="openai">
+                        <label for="openai" class="provider-label">
+                            <div class="provider-header">
+                                <i class="fas fa-brain provider-icon openai-icon"></i>
+                                <div class="provider-info">
+                                    <h3>OpenAI</h3>
+                                    <p>GPT-4, GPT-3.5-turbo</p>
+                                </div>
+                                <span class="provider-badge cloud">Cloud</span>
+                            </div>
+                        </label>
+                        <div class="provider-config" id="openai-config">
+                            <div class="form-group">
+                                <label for="openai-key">API Key:</label>
+                                <input type="password" id="openai-key" placeholder="sk-..." class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="openai-model">Modelo:</label>
+                                <select id="openai-model" class="form-select">
+                                    <option value="gpt-4">GPT-4</option>
+                                    <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                                    <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Anthropic -->
+                    <div class="provider-option">
+                        <input type="radio" id="anthropic" name="provider" value="anthropic">
+                        <label for="anthropic" class="provider-label">
+                            <div class="provider-header">
+                                <i class="fas fa-atom provider-icon anthropic-icon"></i>
+                                <div class="provider-info">
+                                    <h3>Anthropic Claude</h3>
+                                    <p>Claude-3 Sonnet, Haiku, Opus</p>
+                                </div>
+                                <span class="provider-badge cloud">Cloud</span>
+                            </div>
+                        </label>
+                        <div class="provider-config" id="anthropic-config">
+                            <div class="form-group">
+                                <label for="anthropic-key">API Key:</label>
+                                <input type="password" id="anthropic-key" placeholder="sk-ant-..." class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="anthropic-model">Modelo:</label>
+                                <select id="anthropic-model" class="form-select">
+                                    <option value="claude-3-sonnet-20240229">Claude-3 Sonnet</option>
+                                    <option value="claude-3-opus-20240229">Claude-3 Opus</option>
+                                    <option value="claude-3-haiku-20240307">Claude-3 Haiku</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Google Gemini -->
+                    <div class="provider-option">
+                        <input type="radio" id="gemini" name="provider" value="gemini">
+                        <label for="gemini" class="provider-label">
+                            <div class="provider-header">
+                                <i class="fas fa-gem provider-icon gemini-icon"></i>
+                                <div class="provider-info">
+                                    <h3>Google Gemini</h3>
+                                    <p>Gemini Pro, Gemini Pro Vision</p>
+                                </div>
+                                <span class="provider-badge cloud">Cloud</span>
+                            </div>
+                        </label>
+                        <div class="provider-config" id="gemini-config">
+                            <div class="form-group">
+                                <label for="gemini-key">API Key:</label>
+                                <input type="password" id="gemini-key" placeholder="AIza..." class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="gemini-model">Modelo:</label>
+                                <select id="gemini-model" class="form-select">
+                                    <option value="gemini-pro">Gemini Pro</option>
+                                    <option value="gemini-pro-vision">Gemini Pro Vision</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Local (LM Studio/Ollama) -->
+                    <div class="provider-option">
+                        <input type="radio" id="local" name="provider" value="local" checked>
+                        <label for="local" class="provider-label">
+                            <div class="provider-header">
+                                <i class="fas fa-server provider-icon local-icon"></i>
+                                <div class="provider-info">
+                                    <h3>Local (LM Studio/Ollama)</h3>
+                                    <p>Local models, full privacy</p>
+                                </div>
+                                <span class="provider-badge local">Local</span>
+                            </div>
+                        </label>
+                        <div class="provider-config" id="local-config">
+                            <div class="form-group">
+                                <label for="local-url">Server URL:</label>
+                                <input type="text" id="local-url" placeholder="http://localhost:1234" class="form-input" value="http://172.28.160.1:3000">
+                            </div>
+                            <div class="form-group">
+                                <label for="local-model">Model:</label>
+                                <input type="text" id="local-model" placeholder="deepseek/deepseek-r1..." class="form-input" value="deepseek/deepseek-r1-0528-qwen3-8b">
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="testConnection" class="btn btn-secondary">
+                                    <i class="fas fa-plug"></i> Test Connection
+                                </button>
+                                <span id="connectionStatus" class="connection-status"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Settings -->
+                    <div class="advanced-settings">
+                        <h3><i class="fas fa-sliders-h"></i> Advanced Settings</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="temperature">Temperature:</label>
+                                <input type="range" id="temperature" min="0" max="1" step="0.1" value="0.7" class="form-range">
+                                <span class="range-value">0.7</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="max-tokens">Max Tokens:</label>
+                                <input type="number" id="max-tokens" value="1000" min="100" max="4000" class="form-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Save Button -->
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-save">
+                            <i class="fas fa-save"></i> Save Settings
+                        </button>
+                        <button type="button" id="resetDefaults" class="btn btn-secondary">
+                            <i class="fas fa-undo"></i> Reset Defaults
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Status Messages -->
+                <div id="statusMessage" class="status-message hidden"></div>
+            </div>
+
+            <!-- Help Section -->
+            <div class="help-section">
+                <h3><i class="fas fa-question-circle"></i> Help</h3>
+                <div class="help-content">
+                    <h4>How to get API Keys:</h4>
+                    <ul>
+                        <li><strong>OpenAI:</strong> <a href="https://platform.openai.com/api-keys" target="_blank">platform.openai.com/api-keys</a></li>
+                        <li><strong>Anthropic:</strong> <a href="https://console.anthropic.com/" target="_blank">console.anthropic.com</a></li>
+                        <li><strong>Google:</strong> <a href="https://makersuite.google.com/app/apikey" target="_blank">makersuite.google.com/app/apikey</a></li>
+                    </ul>
+                    
+                    <h4>Local Models:</h4>
+                    <ul>
+                        <li><strong>LM Studio:</strong> Download at <a href="https://lmstudio.ai/" target="_blank">lmstudio.ai</a></li>
+                        <li><strong>Ollama:</strong> Install with <code>curl -fsSL https://ollama.ai/install.sh | sh</code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+ 
+Currents at different voltages (45 mV, 30 mV, 25 mV, 20 mV, 15 mV, 0 mV, -20 mV, -25 mV, -
+30 mV, -35 mV, -40 mV, and -50 mV) in one representative experiment are measured by all-
+points histograms; what we interpret as the fully open current values are marked with filled 
+triangles. After G26C MscL is treated with MTSET+, it displays a spontaneous opening and 
+seldom closes, therefore a baseline peak is not observed. At membrane potentials of 20 mV, 15 
+mV, 0 mV and -20 mV, G26C MscL is mostly in what appears to be a fully open state. At 
+membrane potentials above 25 mV and below -25 mV, full openings can still be observed (see 
+filled triangles), but they can be eclipsed by dominating substates (as shown here in the more 
+negative membrane potentials).  

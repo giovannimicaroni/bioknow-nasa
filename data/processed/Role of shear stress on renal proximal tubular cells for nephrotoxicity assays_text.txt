@@ -1,0 +1,645 @@
+Citation: Kim, K.; Jeong, B.; Lee,
+Y.-M.; Son, H.-E.; Ryu, J.-Y.; Park, S.;
+Jeong, J.C.; Chin, H.J.; Kim, S.
+Three-Dimensional
+Kidney-on-a-Chip Assessment of
+Contrast-Induced Kidney Injury:
+Osmolality and Viscosity.
+Micromachines 2022, 13, 688. https://
+doi.org/10.3390/mi13050688
+Academic Editor: Stephen
+Edward Saddow
+Received: 24 March 2022
+Accepted: 27 April 2022
+Published: 28 April 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+micromachines
+Article
+Three-Dimensional Kidney-on-a-Chip Assessment of
+Contrast-Induced Kidney Injury: Osmolality and Viscosity
+Kipyo Kim 1, Beomgyun Jeong 2, Yun-Mi Lee 3, Hyung-Eun Son 3, Ji-Young Ryu 3, Seokwoo Park 3,4,
+Jong Cheol Jeong 3, Ho Jun Chin 3,5 and Sejoong Kim 3,5,*
+1
+Division of Nephrology and Hypertension, Department of Internal Medicine, Inha University College of
+Medicine, Incheon 22332, Korea; kpkidney@inha.ac.kr
+2
+Research Center for Materials Analysis, Korea Basic Science Institute, Daejeon 34133, Korea; bjeong@kbsi.re.kr
+3
+Department of Internal Medicine, Seoul National University Bundang Hospital, Seongnam 13620, Korea;
+yunmi1202@hanmail.net (Y.-M.L.); she0817@naver.com (H.-E.S.); jyryu1022@gmail.com (J.-Y.R.);
+no1seokwoo@gmail.com (S.P.); jcj0425@empal.com (J.C.J.); mednep@snubh.org (H.J.C.)
+4
+Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Korea
+5
+Department of Internal Medicine, Seoul National University College of Medicine, Seoul 03080, Korea
+*
+Correspondence: sejoong@snubh.org; Tel.: +82-31-787-7051; Fax: +82-31-787-4052
+Abstract: Increased viscosity of concentrated contrast media (CM) in the renal tubules can perturb
+renal hemodynamics and have a detrimental effect on tubular epithelial cells. However, the effects of
+viscosity on contrast-induced nephropathy (CIN) remain poorly understood. Conventional in vitro
+culture studies do not reﬂect the rheological properties of CM. Therefore, we investigated the effects
+of CM viscosity on renal tubules using a kidney-on-a-chip and two different types of CM. Renal
+proximal tubule epithelial cells (RPTEC) were cultured in a three-dimensional microﬂuidic culture
+platform under bidirectional ﬂuid shear stress. We treated the RPTEC with two types of CM: low-
+(LOCM, iopromide) and iso-osmolar contrast media (IOCM, iodixanol). Renal tubular cell injury
+induced by LOCM and IOCM was examined under different iodine concentrations (50–250 mgI/mL)
+and shear-stress conditions. LOCM showed a signiﬁcant dose-dependent cytotoxic effect, which
+was signiﬁcantly higher than that of IOCM under static and low-to-moderate shear stress conditions.
+However, high shear-stress resulted in reduced cell viability in IOCM; no difference between IOCM
+and LOCM was found under high shear-stress conditions. The cytotoxic effects were pronounced at
+a mean shear stress of 1 dyn/cm2 or higher. The high viscosity of IOCM slowed the ﬂuid ﬂow rate
+and augmented ﬂuid shear-stress. We suggest an alternative in vitro model of CIN using the three-
+dimensional kidney-on-a-chip. Our results indicate a vital role of viscosity-induced nephrotoxicity
+under high shear-stress conditions, contrary to the ﬁndings of conventional in vitro studies.
+Keywords: contrast-induced nephropathy; kidney-on-a-chip; acute kidney injury; contrast media
+1. Introduction
+Contrast-induced nephropathy (CIN) is a major health problem that manifests as
+an abrupt decline in renal function after iodine contrast exposure. CIN is known as the
+third most common cause of hospital-acquired acute kidney injury [1]. CIN contributes to
+chronic kidney disease (CKD) progression and prolonged length of hospital stay. Moreover,
+the rapidly increasing use of computed tomography scans or interventions using contrast
+agents, such as angiography, is raising concerns regarding CIN. In addition, there are
+limited options for the prevention and treatment of CIN, including ﬂuid therapy and
+avoidance of additional nephrotoxins. Potential pathogenic mechanisms of CIN include
+vasoconstriction, medullary hypoxia, direct cytotoxicity, oxidative stress, and increased
+tubular ﬂuid viscosity [2]. Previous experimental studies have mainly focused on direct
+tubular toxicity, vasoconstriction, and oxidative stress following contrast exposure [3].
+Micromachines 2022, 13, 688. https://doi.org/10.3390/mi13050688
+https://www.mdpi.com/journal/micromachines
+
+Micromachines 2022, 13, 688
+2 of 12
+Many researchers have linked the physicochemical properties of iodinated contrast
+materials to CIN. The administered volume, osmolality, and viscosity of contrast media
+(CM) may be related to nephrotoxicity [4]. Indeed, high-osmolar ionic CM is no longer
+used because of the high risk of adverse drug reactions and renal toxicity [5]. Currently,
+two types of contrast agents are widely used in clinical practice: high-viscosity iso-osmolar
+contrast media (IOCM) and low-viscosity low-osmolar contrast media (LOCM). IOCM has
+an osmolality similar to that of blood (290 mOsm/kg), while LOCM has a higher osmolality
+(600–900 mOsm/kg) than IOCM. Some studies have suggested the superiority of IOCM
+over LOCM in the prevention of CIN [6,7]. However, there was no difference in the overall
+risk of CIN according to the type of CM in meta-analyses [8,9]. It still remains unclear
+which of these two types of CM is better for renal safety.
+To date, the effect of CM viscosity on renal function has not been fully investigated
+due to the difﬁculty in experimental methodology. Accurately controlling and measur-
+ing ﬂuid viscosity and shear stress is challenging in conventional experimental designs.
+Under in vivo conditions, the high viscosity of IOCM can be harmful to renal function.
+IOCM is further concentrated in the renal medulla with increasing viscosity, particularly in
+dehydrated individuals, which increases intraluminal pressure and decreases the glomeru-
+lar ﬁltration rate (GFR) [10]. Nevertheless, previous in vitro studies in static conditions
+showed that LOCM has more cytotoxic effects than IOCM [11]. However, this static con-
+dition does not reﬂect the rheological effects of CM. Given that animal models for CIN
+are not well established and clinical trials are much harder to implement due to high cost
+and ethical issues [12], alternative experimental approaches are warranted. In the ﬁeld
+of nephrology, organ-on-a-chip technology is gradually being utilized for physiological
+in vitro disease models [13]. One of the key features of the organ-on-a-chip is the exposure
+of cells to easily controlled microﬂuidic conditions, which could enable rheological studies.
+Therefore, organ-on-a-chip experiments could be an alternative approach to bridge the
+gap between the in vitro and in vivo ﬁndings in CIN. In the present study, we aimed to
+evaluate the nephrotoxic effects of the rheological factors of LOCM and IOCM using a
+kidney-on-a-chip platform.
+2. Materials and Methods
+2.1. Cell Culture and Microﬂuid Device
+Human renal proximal tubule epithelial cells (RPTEC; CC-2553, Lonza, Basel, Switzer-
+land) were purchased and used to evaluate the nephrotoxicity of iodinated CM. RPTEC
+were cultured in renal epithelial growth medium (REGM CC-3191, Lonza) supplemented
+with 0.5% FBS (CC-4127, Lonza) and GA-1000 (30 mg/mL gentamicin and 15 µg/mL
+amphotericin). We used a three-lane OrganoPlate (Mimetas BV, 4003 400B) with a chan-
+nel width of 400 µm and height of 220 µm to construct three-dimensional tubular struc-
+tures (Figure 1A). Before cell seeding, 1.6 µL of collagen 1 (AMSbio cultrex, 3447-020-01,
+4 mg/mL) was injected into the middle inlet of the chip with 100 mM HEPES (15630, Life
+Technologies, CA, USA) and 3.7 mg/dL NaHCO3 (S5761, Sigma, St. Louis, MO, USA),
+and the chip was subsequently incubated at 37 ◦C overnight. RPTEC were seeded at
+2 × 107/mL into each upper inlet of the plate. To facilitate cell attachment to the extracellu-
+lar matrix, we maintained the inclination of the chip at 70◦for 4 h before placement on an
+interval rocker. RPTEC were perfused at an angle of 7◦and at intervals of 8 min using a
+rocker at 37 ◦C in a humidiﬁed 5% CO2 atmosphere. Under our experimental conditions,
+the cells reached conﬂuence 10 days after rocking perfusion. Before administration of the
+test solutions, we examined whether the three-dimensional tubular structure was well
+formed within the chips. Three-dimensional reconstructed ﬂuorescent images revealed
+a well-demarcated tubular lumen with a conﬂuent epithelial monolayer (Figure 1B). For
+comparison with static culture conditions, RPTEC was also cultured in 96-well plates
+without ﬂuid shear stress in a 37 ◦C incubator with 5% CO2.
+
+Micromachines 2022, 13, 688
+3 of 12
+Figure 1. Schematic diagram of modeling a three-dimensional (3D) tubular structure in the three-lane
+OrganoPlate. (A) The three-lane OrganoPlate consists of 40 microﬂuidic channel units based on a
+384-well plate format. After gravity-driven bidirectional perfusion for 10 days, a 3D tubular structure
+is formed. The basal channel is ﬁlled with culture media. (B) Image of 3D reconstruction of a single
+unit of the kidney-on-a-chip. ECM, extracellular matrix; DAPI, 4′,6-diamidino-2-phenylindole.
+2.2. Chemicals and Reagents
+The test solutions were IOCM iodixanol (Visipaque 320 mgI/mL, GE Healthcare,
+Chicago, IL, USA), LOCM iopromide (Ultravist 300 mgI/mL, Bayer Healthcare, Berlin,
+Germany), 6% hydroxyethyl starch 130/0.4 (viscosity control; Volulyte, Fresenius Kabi,
+Bad Homburg, Germany), and 15% mannitol (osmolality control; JW Pharmaceutical,
+Seoul, Korea). The characteristic parameters of the test solutions are listed in Table 1. To
+simulate the urine concentration process, we tested different CM concentrations. The
+dynamic viscosity of CM specimens according to the preselected iodine concentrations
+was measured with an SV-10 viscometer (A&D, Japan) at a temperature of 37 ◦C with
+three replicates per group. As shown in Figure 2, the viscosity of each contrast agent
+increased exponentially with iodine concentration. The viscosities of LOCM and IOCM
+differed substantially at high iodine concentrations. Cell viability was determined using
+the CCK-8 assay (Dojindo Laboratories, Kumamoto, Japan) performed according to a
+standard protocol, and the absorbance of the samples was measured at 450 nm using a
+ﬂuorescence microplate reader (Gemini EM, Molecular Devices, San Jose, CA, USA). Cells
+were detached from the OrganoPlate using Accutase (A6964, Sigma) and lysed in ice-cold
+cell lysis buffer (9803, Cell Signaling, Danvers, MA, USA). Protein lysates were centrifuged
+at 14,000× g, 4 ◦C for 10 min, and the supernatant was collected. Protein extracts were
+quantiﬁed using a Pierce BCA Protein Assay kit (23227, Thermo Fisher Scientiﬁc, Rockford,
+IL, USA) and separated with 10% polyacrylamide gel electrophoresis (PAGE) followed by
+transfer to polyvinylidene ﬂuoride membranes (1704156, Bio-Rad, Hercules, CA, USA). The
+membrane was incubated with primary antibodies against GAPDH (Santa Cruz, 47724),
+Akt (Cell Signaling, 9272), phospho-Akt (p-Akt; Ser473; 9271, Cell Signaling), extracellular
+signal-regulated kinase1/2 (Erk1/2; 9102, Cell Signaling), and phospho-Erk1/2 (p-Erk1/2;
+Thr202/Tyr204; 9101, Cell Signaling), followed by the corresponding secondary antibodies
+(7074 and 7076, Cell Signaling). Each protein band was developed using SuperSignal West
+Pico PLUS Chemiluminescent Substrate (34577, Thermo Fisher Scientiﬁc) and detected
+using the ChemiDoc Touch Imaging System (Bio-Rad).
+
+Micromachines 2022, 13, 688
+4 of 12
+Table 1. Characteristics of test solutions.
+Iodixanol
+(Visipaque™)
+Iopromide
+(Ultravist™)
+6%HES
+(VOLULYTE®)
+15%
+Mannitol
+Negative
+Control
+(Culture Media)
+Iodine concentration
+(mgI/dL)
+320
+290
+-
+-
+-
+Osmolality
+(mOsm/kg)
+290
+607
+283
+823
+288
+Viscosity (cP, at 37 ◦C)
+11.8
+4.9
+2
+1
+0.8
+Values other than those of the control were based on the data provided by the manufacturers.
+HES—
+hydroxyethyl starch.
+Figure 2. Viscosity of contrast media according to different iodine concentrations.
+2.3. Experimental Model
+In the present study, we investigated CM-induced nephrotoxicity under shear-stress
+conditions using kidney-on-a-chip models compared to that under static conditions. RPTEC
+was treated with varying iodine concentrations of IOCM and LOCM, which reﬂect renal
+concentrating process. Because IOCM and LOCM have different osmolalities and viscosities,
+we compared the nephrotoxic effects of each contrast agent in terms of physicochemical
+stress and performed mathematical simulations. IOCM and LOCM were used to evaluate
+the effects of high viscosity and osmolality on renal tubular cells, respectively. We tested
+each experimental group under different shear-stress conditions. Fluid shear-stress in vivo
+in human proximal tubules is estimated to be 0.1–1 dyn/cm2 [14–16]; however, it was
+applied differently depending on the experimental conditions [17]. In a rectangular pipe-
+shaped channel of the OrganoPlate, the ﬂuid shear-stress (τ) can be calculated as τ = 6µQ
+bh2 ,
+where b and h represent the width and height of the channel, respectively, Q represents
+the ﬂow rate, and µ denotes the ﬂuid viscosity. The ﬂuid shear-stress is approximately
+0.13 dyn/cm2 when the rocker is set at an inclination of ±7◦and an interval of 8 min [18].
+Given that a single nephron glomerular ﬁltrate directly reaches the initial part of the
+proximal tubule, a single nephron glomerular ﬁltration rate (SNGFR) can be used for
+the calculation of shear stress. The SNGFR of healthy adults has been reported to be
+80 ± 40 nL/min [19], and the diameter of the proximal tubule has been reported to be
+~60 µm [20,21]. The ﬂuid shear-stress at the proximal tubular wall can be calculated as
+τ = 4µQ
+πR2 under the assumption of a laminar, incompressible Newtonian ﬂow of urine ﬁltrate
+through a cylindrical tube, where R represents the radius of the proximal tubule. Since about
+60–70% of the ﬁltered water and sodium is reabsorbed in the proximal tubule [22], ﬂuid
+shear-stress in the human proximal tubule ranges from approximately 0.44 (initial part) to
+0.13 (distal part) dyn/cm2 (at 37 ◦C), which is comparable to that in the OrganoPlate. CKD
+is accompanied by a progressive loss of functioning glomeruli in the kidneys. Depending
+
+Micromachines 2022, 13, 688
+5 of 12
+on renal disease, nephron loss induces an increase in the SNGFR of remaining nephrons [23].
+These phenomena are particularly observed in post-nephrectomy animal models [24]. To
+mimic progressive nephron loss, we designed different mean ﬂow rate conditions with
+varying rocker intervals (8 min, 4 min, and 2 min) applied to the chips.
+2.4. Mathematical Simulation
+Mathematical simulation was performed using Python (Python Software Foundation,
+Wilmington, DE, USA) and gnuplot to examine the ﬂow rate and shear stress in the upper
+channel of the chip. The test ﬂuids, including iodinated CMs, were regarded as Newtonian
+ﬂuids with constant viscosity and incompressibility. Parameters such as the dimensions
+of the OrganoPlate provided by the manufacturer were used. Mass density and dynamic
+viscosity at 37 ◦C were used for the calculations. Different viscosities of test ﬂuids and
+rocking conditions were also considered. The shear stress and ﬂuid ﬂow rate at each time
+point during a single cycle of rocking were calculated. The time-averaged shear-stress
+and ﬂow rate were calculated from the average of each value over multiple cycles of
+bidirectional ﬂows.
+2.5. Image and Statistical Analysis
+Three-dimensional images were reconstructed using the ImageJ software (NIH, USA).
+Graph plotting and data analysis were performed using GraphPad Prism 9 (GraphPad
+Software, Inc., San Diego, CA, USA). Data are presented as the mean ± standard error
+of the mean (SEM). Each experiment was performed and analyzed in triplicate. Differ-
+ences between experimental groups were compared using ANOVA and Bonferroni t-tests.
+p values < 0.05 were considered statistically signiﬁcant.
+3. Results
+3.1. Mathematical simulation
+As the viscosity of CM increased with concentration, the mean ﬂow rate of CM de-
+creased, particularly at high iodine concentrations of more than 200 mg/dL, which was
+pronounced at 2 min rocking intervals (Figure 3A–C). The ﬂow rate of IOCM was substan-
+tially reduced due to its relatively higher viscosity compared to LOCM. The difference
+in ﬂow rate between IOCM and LOCM was apparent at higher iodine concentrations
+and shorter rocking intervals (Figure 3D). Notably, the ﬂow rate of IOCM at an iodine
+concentration of 300 mgI/mL and 2 min intervals was less than half of that of LOCM.
+Since shear stress is linearly proportional to the product of ﬂuid viscosity and ﬂow rate,
+the peak shear-stress is theoretically not different between IOCM and LOCM. However,
+time-averaged shear-stress was greater in IOCM than in LOCM due to the slower ﬂuid
+ﬂow rate (Supplementary Figures S1 and S2). This indicates that IOCM is retained longer
+than LOCM, which also implies longer exposure to CM-induced nephrotoxicity. In the
+human kidney, urinary ﬂow is not bidirectional; thus, we additionally examined the
+shear stress and ﬂuid ﬂow-rate versus time within a single cycle (Figure 3E,F). Depending
+on the viscosity of the test ﬂuid, time durations of shear stress above 1 dyn/cm2 were
+0.23 min (media), 0.67 min (iopromide), and 4.52 min (iodixanol; Figure 3E). Peak ﬂow
+rates were 48.08 µL/min (media), 24.82 µL/min (iopromide), and 3.82 µL/min (iodixanol;
+Figure 3F). Iodixanol ﬂows more slowly than iopromide and causes a higher shear-stress
+for a longer duration.
+
+Micromachines 2022, 13, 688
+6 of 12
+Figure 3. Mathematical simulation of ﬂuid ﬂow rates and shear stresses of iopromide and iodixanol.
+(A) Mean ﬂow rate with a rocker interval of 8 min; (B) mean ﬂow rate with a rocker interval of 4 min;
+(C) mean ﬂow rate with a rocker interval of 2 min; (D) ratio of ﬂow rate (iodixanol to iopromide);
+(E) ﬂuid shear-stress during a single cycle of rocking. The concentrations of iodixanol and iopromide
+were selected on the assumption that IOCM is approximately two times more concentrated than
+LOCM through the renal tubule. (F) Fluid ﬂow rate during a single cycle of rocking.
+3.2. Modeling of Contrast-Induced Nephropathy in Kidney-on-a-Chip
+In the static condition, the overall cytotoxicity was higher for both LOCM and IOCM
+compared to the control (Figure 4). In particular, LOCM showed a marked dose-dependent
+cytotoxic effect, which was signiﬁcantly higher than that of IOCM at concentrations of
+100 mgI/mL or higher. This ﬁnding was consistent with a previous study [11]. Under
+shear-stress conditions using bidirectional rocker perfusion at 8 min intervals, there was no
+difference in cell viability between IOCM and the control across all iodine concentrations.
+However, LOCM induced greater cytotoxicity than IOCM. LOCM signiﬁcantly decreased
+cell viability in the range of 100–250 mgI/mL, with corresponding osmolalities of 393,
+447, 501, and 555 mOsm/kg, whereas those of IOCM ranged from 286 to 290 mOsm/kg.
+These patterns remained unchanged at 4 min rocking intervals; LOCM was more cytotoxic
+than IOCM at the same range of concentrations. Interestingly, increased cell viability was
+observed in some high-viscosity experimental groups, such as the HES and IOCM groups.
+However, at 2 min rocking intervals, there was no difference in cytotoxicity between LOCM
+and IOCM. Both LOCM and IOCM induced signiﬁcant cytotoxicity at concentrations of
+150 mgI/mL or higher. Mean shear-stress at the ranges showing cytotoxic effects was
+estimated from 0.89 dyn/cm2 (iodixanol concentration of 150 mgI/mL) to 1.23 dyn/cm2
+(iodixanol concentration of 250 mgI/mL) from the mathematical simulation. The corre-
+sponding mean ﬂow rate of iodixanol ranged from 8.59 µL/min to 2.09 µL/min. Under the
+same experimental conditions, we performed Western blot analysis of signaling molecules
+reported to be associated with CIN, including Erk1/2, and Akt (Figure 5) [25]. During
+the 8 min rocking interval, LOCM signiﬁcantly induced a decrease in the phosphorylation
+of Erk1/2, especially at high concentrations. A similar pattern was observed when cells
+were treated with the high-osmolar agent mannitol. However, there was no change in
+the expression of these molecules in IOCM groups. This pattern was similar when ap-
+plying the 2 min rocking interval. LOCM inhibited the phosphorylation of Erk1/2 in a
+dose-dependent manner. IOCM did not induce any signiﬁcant changes in the expression of
+signaling molecules at any concentration.
+
+Micromachines 2022, 13, 688
+7 of 12
+Figure 4. Cell viability according to the different ﬂuid viscosity and shear-stress conditions at (A) static
+condition, (B) a rocker interval of 8 min, (C) a rocker interval of 4 min, and (D) a rocker interval of
+2 min. CM—contrast media; Man—mannitol; HES—hydroxyethyl starch; Con—negative control
+group. Data are represented as the mean ± SEM. ### p < 0.001 versus control (0 mgI/mL); # p < 0.05
+versus control (0 mgI/mL); ** p < 0.01 versus iopromide group of the same iodine concentration;
+*** p < 0.001 versus iopromide group of the same iodine concentration.
+Figure 5. Representative immunoblots of Akt, p-Akt, Erk1/2, p-Erk1/2, and β-actin at (A) a rocker
+interval of 8 min and (B) a rocker interval of 2 min. (C) Ratio of p-Erk1/2/Erk1/2. (D) Ratio of
+p-Akt/Akt. Data are represented as the mean ± SEM. * p < 0.05 versus control of 2 min interval,
+# p < 0.05 versus control of 8 min interval. LOCM—low-osmolar contrast media; IOCM—iso-osmolar
+contrast media; Con—control; Man—mannitol; HES—hydroxyethyl starch; N.S.—nonsigniﬁcant.
+4. Discussion
+In the present study, we suggest an alternative in vitro model of CIN using a three-
+dimensional proximal tubule-on-a-chip. Renal tubular cell injury induced by IOCM and
+LOCM was examined under different iodine concentrations and shear-stress conditions,
+which represent urine concentrations depending on the hydration status and SNGFR. The
+
+Micromachines 2022, 13, 688
+8 of 12
+high viscosity of the concentrated IOCM noticeably slowed the tubular ﬂow rate and
+increased the mean shear-stress levels. We identiﬁed signiﬁcant cytotoxic effects from
+the increased viscosity of IOCM within a three-dimensionally perfused channel, which
+was not apparent under low-shear-stress conditions. LOCM was cytotoxic, even under
+static or low-shear-stress conditions, and the cytotoxicity was possibly mediated by Erk1/2
+inactivation. However, nephrotoxicity was comparable between LOCM and IOCM under
+high-shear-stress conditions.
+To date, researchers have suggested that the high viscosity of CM is one of the
+pathogenic mechanisms of CIN. In particular, IOCM has physiological osmolality at the
+cost of increased viscosity, and thus, its high viscosity could have detrimental effects on
+the kidney. However, the rheological aspects of CM have not been fully addressed in
+the pathophysiology of CIN. A previous in vitro study revealed that LOCM is more cy-
+totoxic than IOCM under static conditions, which is inconsistent with clinical data [11].
+The implementation of the microenvironment in a single nephron was not feasible using
+conventional in vitro experiments. The physicochemical properties of CM have been eval-
+uated using indirect methods, such as dialysis [26]. We constructed the CIN-on-a-chip
+using the OrganoPlate platform, which contains an extracellular matrix and forms a 3D
+perfused tubular structure, mimicking an in vivo environment [18]. Functional studies of
+transporters, biomarkers, and gene expression using the OrganoPlate have already been
+tested and validated [27]. Given that renal tubular epithelial cells are continuously exposed
+to the ﬂuid shear-stress of urine ﬁltrate [28], kidney-on-a-chip may be an indispensable tool
+for the rheological study of renal diseases. To the best of our knowledge, this is the ﬁrst
+study on CIN using an organ-on-a-chip platform.
+Overall, our ﬁndings showed nephrotoxic effects of CM under shear-stress conditions
+which were distinct from those under static conditions. Under static conditions, higher
+cytotoxicity was observed even at low concentrations of CM compared to that of the control,
+which is not seen under in vivo conditions and in clinical settings. Since CIN mainly occurs
+when high-dose CM are used in patients with risk factors [29], our results under shear-
+stress conditions are more similar to the clinical situations. These ﬁndings may indicate the
+beneﬁcial effects of ﬂuid shear-stress within physiological levels. Shear stress is reported
+to activate Nrf2 expression in the renal proximal tubules, resulting in a protective role in
+CIN [30,31]. However, our ﬁndings also highlight the critical role of the high viscosity of
+IOCM in CIN. Increased viscosity of CM could contribute to tubular cell damage through
+ﬂow-derived stresses such as tubular stretching, increased shear stress, and transmural
+pressure [32]. Similarly, renal tubular injury in urinary tract obstruction models is also
+mediated mainly through cellular stretching and altered shear-stress [33]. Fluid shear-
+stress beyond physiological levels could cause renal epithelial damage. Although the exact
+mechanisms are yet to be elucidated, there has been some evidence related to the harmful
+effects of increased shear-stress on the cells. Studies on microﬂuidic platforms suggest
+that excessive shear-stress has detrimental effects on cells by detaching or disrupting the
+cytoskeleton [29,30]. Exposure of HK2 cells to high shear-stress (5 dyne/cm2) for 48 h
+caused structural derangement, including the loss of tight junctions, adherent junctions,
+and primary cilia [17]. Therefore, most microﬂuidic studies with renal tubular epithelial
+cells have used a physiological shear-stress of 0.2–1 dyn/cm2. As observed in our ﬁndings,
+viscosity-induced cytotoxicity was pronounced at a mean shear-stress of 1 dyn/cm2 or
+higher. Additionally, a study by Garvin et al. suggested the vital role of tubular cell
+stretching in producing reactive oxygen species [34], which is a key pathogenesis in CIN.
+With a typical dose of CM, the plasma concentration is less than 20 mgI/mL [35].
+However, CM are not reabsorbed in the renal tubules, and their intraluminal concentration
+increase along the renal tubules, with a peak concentration up to 100 times higher than
+that in plasma [36]. IOCM are approximately two times more concentrated due to their
+lower osmolality, which further exponentially increases urine viscosity (Figure 6A) [26]. In
+our mathematical simulation, the time constant of exponential decay for the ﬂuid ﬂow-rate
+is proportional to the ﬂuid viscosity; therefore, it is much greater with IOCM. As a result,
+
+Micromachines 2022, 13, 688
+9 of 12
+IOCM is excreted more slowly than LOCM, exerting high levels of shear stress on the
+tubular cells for a longer duration (Figure 6B,C). We showed that when assuming that the
+iodixanol and iopromide concentrations at the corticomedullary junction are 300 mgI/mL
+and 150 mgI/mL, respectively, the peak ﬂow rate of iodixanol was six times slower than
+that of iopromide, and the time during which the shear stress level is above 1 dyn/cm2
+was also seven times longer with iodixanol than with iopromide. These ﬁndings are in line
+with the results of some in vivo studies that related highly viscous CM to increased tubular
+pressure, prolonged CM retention, and subsequent decreased GFR and hypoxia [10]. A
+micropuncture study in rats by Ueda et al. showed that the viscosity of IOCM (iotrolan) was
+signiﬁcantly higher than that of other LOCMs with slower urinary excretion [37]. Iotrolan
+also induced high intratubular hydrostatic pressure for a longer duration than LOCMs [38].
+The high viscosity of iodixanol induces prolonged reduction in medullary oxygenation [39],
+which is a key feature of CIN. Nevertheless, these animal studies require sophisticated
+techniques and lack reproducibility; thus, similar ﬁndings have only been identiﬁed in a
+few studies.
+Figure 6. Overview of the proposed models of contrast-induced nephropathy. (A) Iso-osmolar
+contrast media are twice as concentrated as low-osmolar contrast media and have a much greater
+viscosity. Data from Jost et al. [26]. The concentration and viscosity of CM are obtained from an
+in vitro dialysis model using polyethylene glycol solution with different osmolalities (290, 500, and
+1000 mOsm/kg, which represents the mean osmolality of the renal cortex, outer medulla, and inner
+medulla, respectively). (B) Overall mechanisms of contrast-induced nephropathy. (C) Comparison
+of iso-osmolar and low-osmolar contrast media in our model. CM—contrast media; LOCM—low-
+osmolar contrast media; IOCM—iso-osmolar contrast media; GFR—glomerular ﬁltration rate.
+Urine viscosity can vary signiﬁcantly with urine volume, which is closely associated
+with an individual’s hydration status. The effect of dehydration on renal concentration
+is more pronounced when using IOCM [10]. We assumed that CM was moderately to
+highly concentrated in the renal tubules. In addition, given that patients with CKD are
+at a greater risk of CIN, different shear-stress conditions were investigated to reﬂect the
+
+Micromachines 2022, 13, 688
+10 of 12
+effect of nephron loss and increased SNGFR. Our ﬁndings indirectly showed that highly
+concentrated CM and nephron loss could contribute to increased shear-stress and renal
+toxicity, which is consistent with the results of a uninephrectomy mouse model [17]. We
+treated RPTEC with CM for 24 h, which also reﬂected the CKD condition. Patients with
+CKD usually show a longer retention of CM. Cortical retention of CM was observed in
+patients with CKD 24 h after CM administration, which was more pronounced in patients
+later diagnosed with CIN [40]. Conventionally, the high osmolality of CM is considered
+a major determinant of CIN. However, the role of osmolality in CIN pathogenesis has
+not been clearly determined. Rather, LOCM can confer beneﬁcial effects on tubular cells
+by inducing osmotic diuresis and subsequently lowering urine viscosity. Indeed, LOCM
+causes a two-fold higher urine output than IOCM due to osmotic diuresis [41]. In this
+regard, the higher osmolality of LOCM relative to IOCM may serve as a protective factor
+against viscosity-induced renal toxicity.
+Additionally, we evaluated some pathway molecules that have been reported to be
+linked to CIN. Akt and Erk1/2 are among the molecules involved in cell survival and
+proliferation [25]. A previous in vitro study of CIN showed that both IOCM and LOCM
+induced dephosphorylation of Akt and Erk1/2 [25]. In particular, IOCM caused a greater
+decrease in p-Erk 1/2 in HK2 cells. However, we revealed that decreased phosphorylation
+of Erk1/2 was only observed in the LOCM group under shear-stress conditions, and there
+was no difference in p-Akt levels between groups. Although our study was not designed to
+evaluate the exact mechanistic pathways of CIN, our ﬁndings possibly suggest that osmolar
+stress is associated with dephosphorylation of Erk1/2 or viscosity-related stress induces
+the activation of Erk1/2. Mechanical stretching of renal proximal tubular cells activates
+Erk1/2 signaling [42], and high-osmolar CM diatrizoate causes greater dephosphorylation
+of Erk1/2 compared to iopromide [43].
+Collectively, viscosity-mediated nephrotoxicity was prominent under high shear-stress
+conditions. We found no difference between IOCM and LOCM under high ﬂuid-shear-
+stress, which was similar to the clinical data. These ﬁndings suggest that the risk of CIN
+does not differ between IOCM and LOCM in patients with CKD. Even in a study showing
+a better effect of IOCM on renal toxicity, superiority of IOCM was not signiﬁcant in the
+subgroup with lower GFR (<45 or 60 mL/min/1.73 m2) [44]. In this context, the kidney-
+on-a-chip microﬂuidic platform could be a potential alternative in vitro model, which can
+provide easier control of various physical parameters.
+Our study has some limitations. This study highlights the critical role of the rheo-
+logical effects of CM in terms of tubulodynamics. However, detailed mechanisms that
+mediate viscosity-induced tubular injury still remain elusive. More sophisticated method-
+ology is warranted to determine the main contributing factors to viscosity-related injury.
+High viscosity also affects the hemodynamics in peritubular vessels. Therefore, extended
+microﬂuidic models combining vascular compartments with tubular counterparts would
+be useful. In addition, the limitations of the assumptions of the experimental design should
+be considered. We mathematically regarded the renal tubule as a rigid channel; however, it
+was highly elastic and deformable. In addition, the bidirectional pulsatile ﬂow used in our
+model was not the same as the unilateral ﬂuid ﬂow in the renal tubules.
+5. Conclusions
+We demonstrated the application of a three-dimensional kidney-on-a-chip model
+to evaluate the physicochemical factors of CM in CIN. Overall, our CIN model under
+shear-stress conditions reliably reﬂected in vivo situations. Our results highlight the role of
+viscosity-induced nephrotoxicity under high-shear-stress conditions and are quite different
+from the ﬁndings of conventional in vitro studies. LOCM showed higher cytotoxicity than
+IOCM in a dose-dependent manner under physiological shear-stress conditions. However,
+under high-shear-stress conditions, IOCM caused renal tubular cell damage comparable to
+that caused by LOCM, decreasing the urine ﬂow rate and exposing cells to high shear-stress
+for a longer duration.
+
+Micromachines 2022, 13, 688
+11 of 12
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/mi13050688/s1, Figure S1: Mathematical simulation of bidi-
+rectional ﬂows in iopromide groups; Figure S2: Mathematical simulation of bidirectional ﬂows in
+iodixanol groups.
+Author Contributions: K.K. performed the experiments and wrote the manuscript; B.J. designed
+mathematical simulations. Y.-M.L. performed experiments. H.-E.S. and J.-Y.R. participated in the
+data analysis. S.P., J.C.J. and H.J.C. contributed to data analysis and interpretation. S.K. designed and
+supervised the study. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was supported by a grant from the Korean Society of Nephrology (Chong Kun
+Dang 2018), the grant No. 13-2018-003 from the SNUBH Research Fund, the grand No. 2019R1A2C1085411
+from the National Research Foundation, and the Technology Innovation Program (20008413, Devel-
+opment of disease models based on 3D microenvironmental platform mimicking multiple organs and
+evaluation of drug efﬁcacy) funded by the Ministry of Trade, Industry and Energy (MOTIE, Korea).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Nash, K.; Hafeez, A.; Hou, S. Hospital-acquired renal insufﬁciency. Am. J. Kidney Dis. 2002, 39, 930–936. [CrossRef] [PubMed]
+2.
+Seeliger, E.; Sendeski, M.; Rihal, C.S.; Persson, P.B. Contrast-induced kidney injury: Mechanisms, risk factors, and prevention.
+Eur. Heart J. 2012, 33, 2007–2015. [CrossRef] [PubMed]
+3.
+Kusirisin, P.; Chattipakorn, S.C.; Chattipakorn, N. Contrast-induced nephropathy and oxidative stress: Mechanistic insights for
+better interventional approaches. J. Transl. Med. 2020, 18, 400. [CrossRef]
+4.
+Mohammed, N.M.; Mahfouz, A.; Achkar, K.; Raﬁe, I.M.; Hajar, R. Contrast-induced Nephropathy. Heart Views 2013, 14, 106–116.
+[CrossRef]
+5.
+Barrett, B.J.; Carlisle, E.J. Metaanalysis of the relative nephrotoxicity of high- and low-osmolality iodinated contrast media.
+Radiology 1993, 188, 171–178. [CrossRef]
+6.
+Aspelin, P.; Aubry, P.; Fransson, S.G.; Strasser, R.; Willenbrock, R.; Berg, K.J.; NEPHRIC Study Investigators. Nephrotoxic effects
+in high-risk patients undergoing angiography. N. Engl. J. Med. 2003, 348, 491–499. [CrossRef]
+7.
+Jo, S.H.; Youn, T.J.; Koo, B.K.; Park, J.S.; Kang, H.J.; Cho, Y.S.; Chung, W.Y.; Joo, G.W.; Chae, I.H.; Choi, D.J.; et al. Renal
+toxicity evaluation and comparison between visipaque (iodixanol) and hexabrix (ioxaglate) in patients with renal insufﬁciency
+undergoing coronary angiography: The RECOVER study: A randomized controlled trial. J. Am. Coll. Cardiol. 2006, 48, 924–930.
+[CrossRef]
+8.
+Eng, J.; Wilson, R.F.; Subramaniam, R.M.; Zhang, A.; Suarez-Cuervo, C.; Turban, S.; Choi, M.J.; Sherrod, C.; Hutﬂess, S.; Iyoha,
+E.E.; et al. Comparative Effect of Contrast Media Type on the Incidence of Contrast-Induced Nephropathy: A Systematic Review
+and Meta-analysis. Ann. Intern. Med. 2016, 164, 417–424. [CrossRef]
+9.
+From, A.M.; Al Badarin, F.J.; McDonald, F.S.; Bartholmai, B.J.; Cha, S.S.; Rihal, C.S. Iodixanol versus low-osmolar contrast media
+for prevention of contrast induced nephropathy: Meta-analysis of randomized, controlled trials. Circ. Cardiovasc. Interv. 2010, 3,
+351–358. [CrossRef]
+10.
+Fahling, M.; Seeliger, E.; Patzak, A.; Persson, P.B. Understanding and preventing contrast-induced acute kidney injury. Nat. Rev.
+Nephrol. 2017, 13, 169–180. [CrossRef]
+11.
+Netti, G.S.; Prattichizzo, C.; Montemurno, E.; Simone, S.; Caﬁero, C.; Rascio, F.; Stallone, G.; Ranieri, E.; Grandaliano, G.; Gesualdo,
+L. Exposure to low- vs iso-osmolar contrast agents reduces NADPH-dependent reactive oxygen species generation in a cellular
+model of renal injury. Free Radic. Biol. Med. 2014, 68, 35–42. [CrossRef] [PubMed]
+12.
+Lakhal, K.; Ehrmann, S.; Robert-Edan, V. Iodinated contrast medium: Is there a re(n)al problem? A clinical vignette-based review.
+Crit. Care 2020, 24, 641. [CrossRef] [PubMed]
+13.
+Lee, J.; Kim, K.; Kim, S. Kidney on chips. Methods Cell Biol. 2018, 146, 85–104. [CrossRef] [PubMed]
+14.
+Jang, K.J.; Suh, K.Y. A multi-layer microﬂuidic device for efﬁcient culture and analysis of renal tubular cells. Lab Chip 2010, 10,
+36–42. [CrossRef] [PubMed]
+15.
+Duan, Y.; Gotoh, N.; Yan, Q.; Du, Z.; Weinstein, A.M.; Wang, T.; Weinbaum, S. Shear-induced reorganization of renal proximal
+tubule cell actin cytoskeleton and apical junctional complexes. Proc. Natl. Acad. Sci. USA 2008, 105, 11418–11423. [CrossRef]
+16.
+Miravete, M.; Klein, J.; Besse-Patin, A.; Gonzalez, J.; Pecher, C.; Bascands, J.L.; Mercier-Bonin, M.; Schanstra, J.P.; Bufﬁn-Meyer,
+B. Renal tubular ﬂuid shear stress promotes endothelial cell activation. Biochem. Biophys. Res. Commun. 2011, 407, 813–817.
+[CrossRef]
+17.
+Maggiorani, D.; Dissard, R.; Belloy, M.; Saulnier-Blache, J.S.; Casemayou, A.; Ducasse, L.; Gres, S.; Belliere, J.; Caubet, C.; Bascands,
+J.L.; et al. Shear Stress-Induced Alteration of Epithelial Organization in Human Renal Tubular Cells. PLoS ONE 2015, 10, e0131416.
+[CrossRef]
+18.
+Vormann, M.K.; Gijzen, L.; Hutter, S.; Boot, L.; Nicolas, A.; van den Heuvel, A.; Vriend, J.; Ng, C.P.; Nieskens, T.T.G.; van Duinen,
+V.; et al. Nephrotoxicity and Kidney Transport Assessment on 3D Perfused Proximal Tubules. AAPS J. 2018, 20, 90. [CrossRef]
+
+Micromachines 2022, 13, 688
+12 of 12
+19.
+Denic, A.; Mathew, J.; Lerman, L.O.; Lieske, J.C.; Larson, J.J.; Alexander, M.P.; Poggio, E.; Glassock, R.J.; Rule, A.D. Single-Nephron
+Glomerular Filtration Rate in Healthy Adults. N. Engl. J. Med. 2017, 376, 2349–2357. [CrossRef]
+20.
+Liebich, H.-G. Funktionelle Histologie der Haussäugetiere und Vögel: Lehrbuch und Farbatlas fur Studium und Praxis; Schattauer:
+Stuttgart, Germany, 2010.
+21.
+Ganong, W.F. Review of Medical Physiology; McGraw-Hill: New York, NY, USA, 2005.
+22.
+Lote, C.J. Principles of Renal Physiology; Springer: New York, NY, USA, 2012.
+23.
+Fattah, H.; Layton, A.; Vallon, V. How Do Kidneys Adapt to a Deﬁcit or Loss in Nephron Number? Physiology 2019, 34, 189–197.
+[CrossRef]
+24.
+Kaufman, J.M.; DiMeola, H.J.; Siegel, N.J.; Lytton, B.; Kashgarian, M.; Hayslett, J.P. Compensatory adaptation of structure and
+function following progressive renal ablation. Kidney Int. 1974, 6, 10–17. [CrossRef] [PubMed]
+25.
+Michael, A.; Faga, T.; Pisani, A.; Riccio, E.; Bramanti, P.; Sabbatini, M.; Navarra, M.; Andreucci, M. Molecular mechanisms of renal
+cellular nephrotoxicity due to radiocontrast media. BioMed. Res. Int. 2014, 2014, 249810. [CrossRef] [PubMed]
+26.
+Jost, G.; Lengsfeld, P.; Lenhard, D.C.; Pietsch, H.; Hutter, J.; Sieber, M.A. Viscosity of iodinated contrast agents during renal
+excretion. Eur. J. Radiol. 2011, 80, 373–377. [CrossRef] [PubMed]
+27.
+Howard, M.A. Nephroscreen: A diagnostic test for predicting acute renal failure? Expert Rev. Mol. Diagn. 2005, 5, 633–642.
+[CrossRef]
+28.
+Grabias, B.M.; Konstantopoulos, K. The physical basis of renal ﬁbrosis: Effects of altered hydrodynamic forces on kidney
+homeostasis. Am. J. Physiol. Ren. Physiol. 2014, 306, F473–F485. [CrossRef]
+29.
+Cho, E.; Ko, G.J. The Pathophysiology and the Management of Radiocontrast-Induced Nephropathy. Diagnostics 2022, 12, 180.
+[CrossRef]
+30.
+Liang, R.; Zhao, Q.; Jian, G.; Cheng, D.; Wang, N.; Zhang, G.; Wang, F. Tanshinone IIA Attenuates Contrast-Induced Nephropathy
+via Nrf2 Activation in Rats. Cell. Physiol. Biochem. 2018, 46, 2616–2623. [CrossRef]
+31.
+Zhao, Z.; Liao, G.; Zhou, Q.; Lv, D.; Holthfer, H.; Zou, H. Sulforaphane Attenuates Contrast-Induced Nephropathy in Rats via
+Nrf2/HO-1 Pathway. Oxidative Med. Cell. Longev. 2016, 2016, 9825623. [CrossRef]
+32.
+Sendeski, M.M. Pathophysiology of renal tissue damage by iodinated contrast media. Clin. Exp. Pharmacol. Physiol. 2011, 38,
+292–299. [CrossRef]
+33.
+Washino, S.; Hosohata, K.; Miyagawa, T. Roles Played by Biomarkers of Kidney Injury in Patients with Upper Urinary Tract
+Obstruction. Int. J. Mol. Sci. 2020, 21, 5490. [CrossRef]
+34.
+Garvin, J.L.; Hong, N.J. Cellular stretch increases superoxide production in the thick ascending limb. Hypertension 2008, 51,
+488–493. [CrossRef] [PubMed]
+35.
+Hardiek, K.; Katholi, R.E.; Ramkumar, V.; Deitrick, C. Proximal tubule cell response to radiographic contrast media. Am. J. Physiol.
+Ren. Physiol. 2001, 280, F61–F70. [CrossRef] [PubMed]
+36.
+Berg, K.J. Nephrotoxicity related to contrast media. Scand. J. Urol. Nephrol. 2000, 34, 317–322. [CrossRef] [PubMed]
+37.
+Ueda, J.; Nygren, A.; Sjöquist, M.; Jacobsson, E.; Ulfendahl, H.R.; Araki, Y. Iodine concentrations in the rat kidney measured by
+X-ray microanalysis. Acta Radiol. 1998, 39, 90–95. [CrossRef] [PubMed]
+38.
+Ueda, J.; Nygren, A.; Hansell, P.; Erikson, U. Inﬂuence of contrast media on single nephron glomerular ﬁltration rate in rat kidney.
+A comparison between diatrizoate, iohexol, ioxaglate, and iotrolan. Acta Radiol. 1992, 33, 596–599. [CrossRef]
+39.
+Seeliger, E.; Flemming, B.; Wronski, T.; Ladwig, M.; Arakelyan, K.; Godes, M.; Mockel, M.; Persson, P.B. Viscosity of contrast
+media perturbs renal hemodynamics. J. Am. Soc. Nephrol. 2007, 18, 2912–2920. [CrossRef]
+40.
+Love, L.; Johnson, M.S.; Bresler, M.E.; Nelson, J.E.; Olson, M.C.; Flisak, M.E. The persistent computed tomography nephrogram:
+Its signiﬁcance in the diagnosis of contrast-associated nephrotoxicity. Br. J. Radiol. 1994, 67, 951–957. [CrossRef]
+41.
+Widmann, G.; Bale, R.; Ulmer, H.; Putzer, D.; Schullian, P.; Wiedermann, F.J.; Lederer, W. Systemic Hypotension Following
+Intravenous Administration of Nonionic Contrast Medium during Computed Tomography: Iopromide Versus Iodixanol. Anesth.
+Analg. 2018, 126, 769–775. [CrossRef]
+42.
+Alexander, L.D.; Alagarsamy, S.; Douglas, J.G. Cyclic stretch-induced cPLA2 mediates ERK 1/2 signaling in rabbit proximal
+tubule cells. Kidney Int. 2004, 65, 551–563. [CrossRef]
+43.
+Andreucci, M.; Fuiano, G.; Presta, P.; Esposito, P.; Faga, T.; Bisesti, V.; Procino, A.; Altieri, V.; Tozzo, C.; Memoli, B.; et al.
+Radiocontrast media cause dephosphorylation of Akt and downstream signaling targets in human renal proximal tubular cells.
+Biochem. Pharmacol. 2006, 72, 1334–1342. [CrossRef]
+44.
+Du, M.; Jiang, L.; Tang, X.; Gao, Z.; Xu, B.; Yuan, J. Contrast Induced Nephropathy and 2-Year Outcomes of Iso-Osmolar
+Compared with Low-Osmolar Contrast Media after Elective Percutaneous Coronary Intervention. Korean Circ. J. 2021, 51, 174–181.
+[CrossRef] [PubMed]

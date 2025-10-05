@@ -1,0 +1,2281 @@
+iScience
+Article
+RNAseq Analysis of Rodent Spaceﬂight
+Experiments Is Confounded by Sample Collection
+Techniques
+San-Huei Lai Polo,
+Amanda M.
+Saravia-Butler,
+Valery Boyko, ...,
+Rick B. Chen,
+Sylvain V. Costes,
+Jonathan M.
+Galazka
+sylvain.v.costes@nasa.gov
+(S.V.C.)
+jonathan.m.galazka@nasa.gov
+(J.M.G.)
+HIGHLIGHTS
+Experimentation is
+necessary to understand
+how organisms respond to
+space
+Specialized protocols are
+used for preserving
+biological samples on the
+ISS
+RNAseq datasets are
+impacted by preservation
+protocols used on the ISS
+Impacts can be alleviated
+with improved carcass
+preservation protocols
+Lai Polo et al., iScience 23,
+101733
+December 18, 2020
+https://doi.org/10.1016/
+j.isci.2020.101733
+ll
+OPEN ACCESS
+
+iScience
+Article
+RNAseq Analysis of Rodent Spaceﬂight
+Experiments Is Confounded by Sample
+Collection Techniques
+San-Huei Lai Polo,1,2,8 Amanda M. Saravia-Butler,2,3,8 Valery Boyko,2,4 Marie T. Dinh,2,3 Yi-Chun Chen,1,2
+Homer Fogle,2,4 Sigrid S. Reinsch,2 Shayoni Ray,5 Kaushik Chakravarty,6 Oana Marcu,7 Rick B. Chen,1,2
+Sylvain V. Costes,2,* and Jonathan M. Galazka2,9,*
+SUMMARY
+To understand the physiological changes that occur in response to spaceﬂight, mice
+are transported to the International Space Station (ISS) and housed for variable pe-
+riods of time before euthanasia on-orbit or return to Earth. Sample collection under
+such difﬁcult conditions introduces confounding factors that need to be identiﬁed
+and addressed. We found large changes in the transcriptome of mouse tissues
+dissected and preserved on-orbit compared with tissues from mice euthanized
+on-orbit, preserved, and dissected after return to Earth. Changes due to preserva-
+tion method eclipsed those between ﬂight and ground samples, making it difﬁcult
+to identify spaceﬂight-speciﬁc changes. Follow-on experiments to interrogate the
+roles of euthanasia methods, tissue and carcass preservation protocols, and library
+preparation methods suggested that differences due to preservation protocols are
+exacerbated when coupled with polyA selection. This has important implications for
+the interpretation of existing datasets and the design of future experiments.
+INTRODUCTION
+Spaceﬂightplacesmultiplestressesuponthehuman bodyincludingalteredgravityﬁeldsandexposuretocosmic
+radiation, which lead to health risks for spacefaring humans (Institute of Medicine, 2008). Decades of research on
+astronauts has begun to reveal how humans respond to the spaceﬂight environment (Garrett-Bakelman et al.,
+2019) but physiological monitoring of astronauts is still limited. Thus, rodent models have been essential for
+advancing our understanding of how mammals—including humans—respond to spaceﬂight. This includes the
+impact of spaceﬂight on muscle structure (Shen et al., 2017; Spatz et al., 2017; Tascher et al., 2017), liver (Beheshti
+et al., 2019; Jonscher et al., 2016), and immune functions (Pecaut et al., 2017; Rettig et al., 2017; Ward et al., 2018).
+Despite success of the rodent model, sample collection under such difﬁcult conditions introduces confounding
+factors that need to be identiﬁed and addressed. These are related to hardware limitations, small sample size,
+and severe restraints on astronaut crew availability. Successful experiments must work within these constraints to
+produce meaningful insights. In response, the ﬁrst Rodent Research (RR) mission established new capabilities for
+conducting reliable long-duration experiments using rodents with on-orbit sample collection. Animals can either
+be euthanized onboard the ISS or returned to Earth alive. Both approaches introduce confounding factors. The
+former is experimentally challenging but preserves the sample during exposure to microgravity, whereas the
+latter exposes the animal to re-entry stresses, and sampling occurs only after a variable lag between landing
+and euthanasia—essentially sampling re-adaptation to Earth conditions in addition to the response to space-
+ﬂight. Inconsistent handling of samples necessitates a clear understanding of how dissection and preservation
+protocols affect downstream data generation.
+We previously showed, using transcriptomic, proteomic, and immunohistochemical data from the Rodent
+Research-1 (RR-1), Rodent Research-3 (RR-3), and Space Transportation System (STS)-135 missions, that lip-
+otoxic pathways are activated in rodent liver in two different strains of mice that were ﬂown for as long as
+42 days in space (Beheshti et al., 2019). Because animals in the RR-1 and RR-3 experiments were euthanized
+in space, this work suggested that space alone was the most likely cause for similar changes previously
+observed in liver samples from mice ﬂown during the STS-135 experiments where animals returned alive
+1KBR, NASA Ames Research
+Center, Moffett Field, CA
+94035, USA
+2NASA Ames Research
+Center, Moffett Field, CA
+94035, USA
+3Logyx, LLC, Mountain View,
+CA 94043, USA
+4The Bionetics Corporation,
+NASA Ames Research
+Center, Moffett Field, CA
+94035, USA
+5NGM Biopharmaceuticals,
+South San Francisco, CA
+94080, USA
+6VeriSIM Life, San Francisco,
+CA 94104, USA
+7Carl Sagan Center, SETI
+Institute, Mountain View, CA
+94043, USA
+8These authors contributed
+equally
+9Lead Contact
+*Correspondence:
+sylvain.v.costes@nasa.gov
+(S.V.C.),
+jonathan.m.galazka@nasa.
+gov (J.M.G.)
+https://doi.org/10.1016/j.isci.
+2020.101733
+iScience 23, 101733, December 18, 2020
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+1
+ll
+OPEN ACCESS
+
+to Earth (Jonscher et al., 2016). The lipotoxic effect is stronger with duration and may have ramiﬁcations for
+astronauts’ health during long missions. This analysis did not include two ﬂight and two ground animals
+from RR-1, as these animals were dissected immediately after euthanasia on-orbit as opposed to the
+rest, which were ﬁrst returned to Earth as intact frozen carcasses for later dissection.
+Here we now compare RNA-sequencing (RNAseq) datasets generated from livers preserved using these distinct
+protocols (Table 1). We ﬁnd large changes in the transcriptome of tissues dissected and preserved on-orbit
+compared with tissues from mice euthanized on-orbit, preserved intact by freezing on-orbit, and dissected after
+return to Earth. To identify and mediate how the preservation method could have such a large effect on differ-
+ential gene expression (DGE) results, we performed follow-on experiments to interrogate the role of euthanasia
+methods, tissue and carcass preservation protocols, and library preparation methods on DGE changes. Our ﬁnd-
+ings have important implications for interpreting existing datasets and the design of future experiments.
+RESULTS
+Preservation Method Is the Primary Driver of Gene Expression Variance in RR-1 Liver
+Samples
+To assess gene expression differences in liver samples from the RR-1 NASA Validation mission (Cadena
+et al., 2019; Globus and Galazka, 2015; Ronca et al., 2019), RNA was extracted from livers dissected from
+spaceﬂight (FLT) and ground control (GC) animals either immediately after euthanasia (immediate preser-
+vation, I) or from frozen carcasses after partial thawing (carcass preservation, C) and sequenced following
+polyA selection (Figure S1). Principal component analysis (PCA) revealed preservation method (C versus I)
+as the primary driver of variance among samples rather than spaceﬂight (FLT versus GC) (Figure 1A).
+Furthermore, there was an order of magnitude difference in the number of differentially expressed genes
+(DEGs) identiﬁed in FLT versus GC carcass samples than was observed in FLT versus GC immediate sam-
+ples, and only 4 DEGs overlapped between the two preservation methods (Figure 1B). Gene set enrichment
+analysis of FLT versus GC immediate- (Figure 2A) and carcass-derived (Figure 2B) samples showed no over-
+lap in enriched gene ontology (GO) terms (Figure 2C), showing that any gene expression changes in the
+liver as a result of spaceﬂight exposure were confounded by the sample preservation method used.
+Since livers from only 2 FLT and 2 GC animals in the RR-1 NASA Validation mission were preserved via the
+immediate method, RNA from livers prepared via the immediate method from two additional studies, the
+RR-1 CASIS mission (Figure S1) (Cadena et al., 2019; Globus et al., 2015; Ronca et al., 2019) and a ground-
+based preservation and storage study (Figure S2) (Choi et al., 2016; GeneLab, 2016), were also sequenced
+following polyA selection. Despite multiple different experimental factors in RR-1 NASA, RR-1 CASIS, and
+the ground-based preservation studies, PCA continued to show preservation method as the primary driver
+of variance among samples in these datasets (Figure S3).
+Carcass-Preserved Samples Exhibit Less Uniform Transcript Coverage than Immediate-
+Preserved Samples
+To further investigate the observed differences in preservation method, RR-1 NASA FLT and GC liver sam-
+ples derived from the carcass preservation method were grouped together (C) and FLT and GC liver sam-
+ples derived from the immediate preservation method were grouped together (I). DGE was evaluated in
+carcass versus immediate samples. Many more genes were differentially expressed in carcass versus imme-
+diate samples (2,934 DEGs) than in either FLT-C versus GC-C (619 DEGs) or in FLT-I versus GC-I (67 DEGs)
+samples, further supporting preservation method as the primary driver of variance in RR-1 NASA liver sam-
+ples (Figure 3A). Gene set enrichment analysis revealed that several of the gene ontologies enriched in
+carcass samples (when compared with immediate samples) involved RNA regulation and processing (Fig-
+ure 3B). Despite similarly high RNA Integrity Number (RIN) values (Figure S4), carcass samples exhibited
+signiﬁcantly less 50 to 30 gene body coverage than immediate samples as indicated by their 50 to 30 transcript
+integrity ratios. The 50 to 30 transcript integrity ratios were determined by dividing the percent coverage
+indicated in the 50-shaded region by that in the 30-shaded region for each sample (Figures 3C and D).
+Expression of Genes Involved in 50-Methylguanosine Decapping and PolyA Removal Is
+Affected by Preservation Condition
+Given the differences in gene body coverage between carcass and immediate samples, we evaluated the
+expression of 50-methylguanosine decapping and polyA removal genes in these groups from the RNAseq
+ll
+OPEN ACCESS
+2
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+data. In mammals, eight genes have decapping activity in vitro and/or in cells: Dcp2 (Nudt20), Nudt3,
+Nudt16, Nudt2, Nudt12, Nudt15, Nudt17, Nudt19. In addition, Dxo acts on partially capped mRNAs (Grud-
+zien-Nogalska and Kiledjian, 2017). Two of these genes—Dxo and Nudt2—were signiﬁcantly more ex-
+pressed in the carcass samples, whereas another two—Nudt15 and Dcp2 (Nudt20)—were signiﬁcantly
+more expressed in immediate samples (Figure S5). Removal of polyA tails from mRNA is catalyzed by
+two complexes. The ﬁrst, CCR4-NOT, consists of CNOT1, CNOT2, CNOT3, CNOT4, CNOT9, CNOT10,
+CNOT6, CNOT6L, CNOT7, and CNOT8. The second, PAN2-PAN3, consists of PAN2 and PAN3 (Siwaszek
+GLDS #
+Tissue
+Study
+Type
+Preservation
+Method
+Library
+Preparation
+How the Dataset was
+Used in the Present
+Study
+Relevant Figures &
+Tables
+GLDS-47
+Liver
+Spaceﬂight
+Immediate
+PolyA
+To compare global gene
+expression in immediate
+versus carcass samples
+Figure S1
+GLDS-48
+Liver
+Spaceﬂight
+Immediate and Carcass
+PolyA
+To evaluate gene
+expression and RNA
+integrity differences in
+immediate versus carcass
+samples and in samples
+prepared via polyA-
+selection versus ribo-
+depletion
+Figures 1, 2, 3, 4, S1, S2, and
+S3
+GLDS-49
+Liver
+Ground
+Immediate
+PolyA
+To compare global gene
+expression in immediate
+versus carcass samples
+Figure S1
+GLDS-
+168
+Liver
+Spaceﬂight
+Carcass
+Ribodepletion
+To evaluate gene
+expression and RNA
+integrity differences in
+samples prepared via
+polyA-selection vs. ribo-
+depletion
+Figure 4
+GLDS-
+235
+Liver
+Ground
+Immediate and Carcass
+Ribodepletion
+To determine a means of
+carcass preservation that is
+most consistent with
+standard laboratory
+practices in the context of
+gene expression and RNA
+integrity and to evaluate the
+effects of euthanasia and
+tissue storage methods on
+gene expression
+Figures 5A, 5B, S5A, S5C,
+S5E, and S5F, Tables 2, S3,
+and S4
+GLDS-
+236
+Quadriceps
+Ground
+Immediate and Carcass
+Ribodepletion
+To determine if the means
+of carcass preservation that
+is most consistent with
+standard laboratory
+practices in the context of
+gene expression and RNA
+integrity and if the effects of
+euthanasia on gene
+expression are tissue
+speciﬁc
+Figures 5C, 5D, S5B, and
+S5D, Tables 3, S5, and S6
+Table 1. GLDS (GeneLab Data Systems) Datasets Used in This Study
+Immediate = tissues that were dissected immediately after euthanasia and Carcass = tissues that were dissected from frozen carcasses after partial thawing.
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+3
+iScience
+Article
+
+et al., 2014). In the case of the 10 subunit CCR4-NOT complex, we observed 5 genes that were more highly
+expressed in the immediate group (Cnot1, Cnot2, Cnot9, Cnot6, Cnot6L) and 3 that were more highly ex-
+pressed in the carcass group (Cnot3, Cnot10, Cnot7) (Figure 3E). In the case of the PAN2-PAN3 complex,
+both Pan2 and Pan3 were more highly expressed in the carcass group (Figure 3E).
+Samples Sequenced Following Ribodepletion Exhibit More Uniform Transcript Coverage
+than Samples Prepared with PolyA Selection
+The polyA selection library preparation method, which was initially used to evaluate gene expression dif-
+ferences in RR-1 NASA Validation mission liver samples, requires intact RNA to minimize bias (Kumar et al.,
+2017; Petrova et al., 2017). Because our data suggest that the carcass samples were more degraded than
+the immediate samples (Figures 3C and 3D), the total RNA isolated from the RR-1 NASA Validation mission
+carcass liver samples was used to prepare libraries with the ribodepletion method to minimize transcript
+integrity bias, then re-sequenced. PCA showed a more distinct separation of FLT and GC carcass samples
+when the samples were prepared via the ribodepletion method (Figure 4A) than by polyA selection (FLT-C
+and GC-C samples in Figure 1A). DEGs were identiﬁed in FLT versus GC carcass samples prepared with the
+ribodepletion method and compared with those from polyA-prepared carcass samples. Although hun-
+dreds of DEGs in FLT versus GC carcass samples overlap between ribodepleted and polyA-prepared
+samples, more DEGs were identiﬁed in FLT versus GC samples prepared with the ribodepletion method
+(Figure 4B), suggesting this method may be more sensitive. There was no overlap of enriched gene
+ontology terms in FLT versus GC samples processed by ribodepletion and polyA enrichment (Figures
+4C and 4D).
+Next, transcript integrity was evaluated in the ribodepletion-prepared FLT and GC carcass samples and
+compared with polyA-selection-prepared carcass samples. Samples prepared with the polyA selection
+method exhibited less coverage of the 50 portion of transcripts compared with ribodepletion-prepared
+samples (Figures 4E and 4F). Thus, ribodepletion was used to further investigate the effects of preservation
+method (Carcass versus Immediate) on gene-expression in a ground-based tissue preservation study.
+Total RNA Sequencing Mitigates the Impact of Preservation Method on Gene Expression
+Changes in the Liver
+We designed a ground-based tissue preservation study to determine the best approach to mitigate the
+impact of preservation method on gene expression and to identify other confounding variables important
+for interpreting data from other RR missions. We tested euthanasia and preservation techniques used in
+A
+B
+Carcass
+DE genes (FLT vs. GC)
+Immediate
+615
+63
+4
+PCA RR-1 NASA FLT & GC
+48_GC_C
+48_GC_I
+48_FLT_C
+48_FLT_I
+PC2 (9.0%)
+60
+40
+20
+0
+20
+40
+60
+80
+100
+PC1 (36.6%)
+50
+0
+50
+100
+150
+200
+Figure 1. Gene Expression Differences in RR-1 NASA Spaceﬂight and Ground Control Liver Samples Prepared via
+polyA Selection
+(A) Principal component analysis of global gene expression in RR-1 NASA spaceﬂight (FLT) and respective ground control
+(GC) liver samples dissected immediately after euthanasia (I) or from frozen carcasses (C). Percent variance for each
+principal component (PC) is shown.
+(B) Venn diagram showing the number of similar and unique differentially expressed genes, spaceﬂight (FLT) versus
+ground control (GC), in Carcass (blue) and Immediate (red) samples (adj. p value < 0.05). Data are from GLDS-48.
+ll
+OPEN ACCESS
+4
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+different RR missions and compared them with standard laboratory protocols for tissue preservation. In
+addition to liver samples, we also analyzed quadriceps to determine whether sample preservation methods
+also confounded DGE analysis in this tissue.
+Mice of the same age, sex, strain, and source as those used in the RR-1 NASA Validation mission were used
+in the ground-based tissue preservation study. Mice were evenly divided into one of six groups as shown in
+Figure S6. The mice in groups 1–4 were euthanized with pentobarbital/phenytoin (Euthasol) as in RR-1
+(Choi et al., 2020), then subjected to various preservation protocols to evaluate the phenomena observed
+in RR-1 NASA carcass and immediate liver samples. Livers and quadriceps were dissected immediately af-
+ter euthanasia from mice in group 1. These tissues were divided into thirds and preserved in one of three
+ways: (1) freezing in dry ice to mimic the cold stowage container that was used to freeze the immediate liver
+samples in the RR-1 mission, (2) submersion in LN2, or (3) with RNAlater. After preservation, all tissues were
+stored at 80C until further processing.
+Although it is a common practice to dissect mice immediately after euthanasia, due to limitations in crew
+time for spaceﬂight experiments, immediate dissection is not always possible. Thus, most tissues are pre-
+served in situ within the carcass. We therefore sought to determine the most effective way to preserve car-
+casses that would minimize unintended gene expression changes in tissues preserved in situ. Mice in
+groups 2–4 were used to test three different carcass preservation methods: (1) slow freezing in dry ice
+(DI) to mimic the most common method of carcass preservation used in RR missions to date, (2) snap
+40
+220
+400
+Count
+FDR
+0
+0.05
+Neurotransmitter receptor complex
+Reg. of glutamate receptor signaling pathway
+Pos. reg. of synaptic transmission
+Calcium ion regulated exocytosis
+Neg. of synatptic transmission glutamatergic
+Regulation of behavior
+Keratinization
+Keratinocyte differentiation
+Structural constituent of muscle
+Actin mediated cell contraction
+I band
+Sarcoplasm
+Sarcomere organization
+Epidermal cell differentiation
+Striated muscle contraction
+Skin development
+Regulation of cholesterol biosynthetic process
+Striated muscle adaptation
+Epidermis development
+Cell. component assem. involved in morphogenesis
+Cardiac muscle contraction
+Muscle contraction
+Multicellular organismal movement
+Regulation of striated muscle contraction
+Muscle system process
+Cellular glucan metabolic process
+Skeletal muscle contraction
+Intracellular lipid transport
+Sterol biosynthetic process
+Regulation of cardiac conduction
+Regulation of sodium ion transmembrane transport
+Regulation of cholesterol metabolic process
+Regulation of action potential
+Enrichment score
+0.5
+0
+0.5
+Carcass
+Enriched GO terms (FLT vs. GC)
+C
+Immediate
+15
+63
+A
+B
+0
+0.05
+40
+70
+100
+Count
+FDR
+Endopeptidase complex
+Mito. elec. trans. NADH to ubiquinone
+Negative reg. of viral process
+Reponse to type I interferon
+NADH dehydrogenase activity
+Neg. reg. of viral genome replication
+Neg. reg. of viral life cycle
+Anti. proc. & pres. of exog. peptide anti. via MHC class I
+Retrograde vesicle trans. golgi to ER
+Complement activation
+Fatty acid beta oxidation
+Lipid oxidation
+Enrichment score
+0.5
+0
+0.5
+Enriched GO Immediate (FLT vs. GC)
+Enriched GO Carcass (FLT vs. GC)
+Figure 2. Enriched Gene Ontology (GO) Terms between the RR-1 NASA Spaceﬂight and Ground Control Groups
+(A) Enriched GO terms between the spaceﬂight (FLT) and ground control (GC) immediate samples identiﬁed by Gene Set
+Enrichment Analysis (gene set permutation).
+(B) Enriched GO terms between the spaceﬂight (FLT) and ground control (GC) carcass samples identiﬁed by Gene Set
+Enrichment Analysis (gene set permutation). In both A and B, the more positive or negative the enrichment scores, the
+higher the expression in spaceﬂight or ground control samples, respectively. Dot size indicates number of genes within
+each GO term. Dot color indicates false discovery rate (FDR). GO terms displayed met the thresholds of FDR <0.05, NOM
+p < 0.01, gene set size >40.
+(C) Venn diagram of the number of enriched GO terms identiﬁed in Carcass (blue) and Immediate (red) samples when
+comparing spaceﬂight (FLT) and ground control (GC) samples. GO terms in Venn diagram met the threshold of FDR
+<0.05, NOM p < 0.01. Data are from GLDS-48.
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+5
+iScience
+Article
+
+freezing by submersion in liquid nitrogen (LN2), and (3) segmenting the carcass into thirds and preserving
+in RNAlater, mimicking the preservation method used in the Rodent Research-7 mission. After preserva-
+tion, all carcasses were stored at 80C until further processing.
+Carcasses from mice in groups 2–4 were partially thawed, and quadriceps and livers were dissected, then
+snap frozen, and stored at 80C until RNA extraction to mimic the protocol most commonly implemented
+when carcasses return from spaceﬂight missions, including RR-1. A summary of all liver and quadriceps tis-
+sues evaluated in the present ground-based tissue preservation study are summarized in Tables S1 and S2,
+respectively. Total RNA was extracted from all liver and quadriceps tissue samples and prepared for
+sequencing using the ribodepletion method and sequenced.
+Global gene expression and transcript integrity were evaluated in liver samples from groups 1–4 to identify
+differences in DGE resulting from the carcass and immediate preservation protocols. PCA showed overlap
+among immediate samples despite differences in tissue preservation methods (Figure 5A). Similar to RR-1
+carcass and immediate samples (Figures 1A and S3), the dry ice-preserved carcass and immediate samples,
+which mimic the RR-1 preservation conditions, clustered away from each other, albeit to a much lesser
+A
+B
+D
+E
+C
+Figure 3. Gene Expression Changes and Transcript Integrity in Carcass versus Immediate RR-1 NASA Liver Samples
+(A) Volcano plot showing 2,934 differentially expressed genes in all carcass (both spaceﬂight and ground control) versus all immediate (both spaceﬂight and
+ground control) samples (adj. p value < 0.05 and 1.5 < Log2 fold change < 1.5).
+(B) Common parent terms of enriched gene ontology (GO) terms identiﬁed by Gene Set Enrichment Analysis of all carcass (C) versus all immediate (I) samples
+(phenotype normalized, FDR <0.3, NOM p < 0.01).
+(C) Gene body coverage in Carcass (black) and Immediate (red) spaceﬂight and ground control samples.
+(D) The percent coverage of the 50- and 30-shaded regions in panel C were used to calculate the 50 to 30 transcript integrity ratio for each sample. All Carcass
+(blue) and Immediate (red) samples are grouped together (** = p < 0.01, Mann–Whitney U test).
+(E) Average expression of polyA removal genes in Carcass (blue) and Immediate (red) groups from RNAseq data. Cnot1, Cnot2, Cnot3, Cnot4, Cnot9,
+Cnot10, Cnot6, Cnot6l, Cnot7, and Cnot8 are part of the CCR4-NOT complex. Pan2 and Pan3 are part of the PAN2-PAN3 complex. Error bars indicate
+standard deviation (* = adj. p < 0.05, ** = adj. p < 0.01, *** = adj. p < 0.001, ns = not signiﬁcant, Wald test). Data are from GLDS-48.
+ll
+OPEN ACCESS
+6
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+degree than that observed with the polyA-prepared RR-1 samples (Figure 5A). Furthermore, the dry-ice-
+preserved carcass samples exhibited less 50 gene body coverage than the dry-ice-preserved immediate
+samples (Figure 5B). Although this observation is consistent with that observed in RR-1 carcass and imme-
+diate samples (prepared using the polyA selection method) (Figures 3C and 3D), the difference was less
+dramatic. Therefore, using the ribodepletion method appears to partially alleviate the differences
+observed in transcript integrity between carcass and immediate samples.
+Carcass Preservation by LN2 or RNAlater Immersion Most Closely Mimic Standard Tissue
+Preservation Protocols
+Livers dissected from carcasses preserved in either RNAlater or LN2 exhibit more overlap with immediate
+preserved liver samples than those from carcasses preserved in dry ice (Figure 5A). Unlike livers dissected
+from slow (dry ice) or snap (LN2) frozen carcasses, livers dissected from carcasses preserved in RNAlater
+showed no difference in 50 to 30 transcript coverage when compared with livers dissected immediately after
+euthanasia (Figure 5B). These data suggest that carcass segmentation and preservation in RNAlater may
+protect the liver from transcript degradation when preserved in situ.
+B
+A
+D
+E
+polyA
+Ribo(-)
+polyA enrich.
+ribodepleted
+3,739
+304
+315
+DE genes (FLT vs. GC)
+polyA enrich.
+ribodepleted
+Enriched GO terms (FLT vs. GC)
+C
+***
+89
+6
+F
+0
+0.5
+15
+200
+408
+Count
+FDR
+polysome
+viral gene expression
+nuclear transcribed mrna catabolic process
+ubiquitin protein transferase regulator activity
+establishment of protein localization to membrane
+intrinsic component of mitochondrial outer membrane
+ATPase act. coupl. to transmembrane mov. of ions rot. mech.
+nuc. transc. mRNA catabolic proc. NMD
+protein targeting to membrane
+rna catabolic process
+translational initiation
+ribosomal small subunit biogenesis
+protein targeting
+protein localization to endoplasmic reticulum
+histone mrna metabolic process
+polysomal ribosome
+deoxyribose phosphate catabolic process
+cytosolic small ribosomal subunit
+intestinal absorption
+regulation of ubiquitin protein transferase activity
+protein targeting to mitochondrion
+translation initiation factor binding
+protein localization to mitochondrion
+phosphatidylglycerol metabolic process
+proton transmembrane transport
+mitochondrial membrane organization
+mitochondrial transport
+peroxisomal transport
+protein maturation
+cotranslational protein targeting to membrane
+positive regulation of apoptotic signaling pathway
+cellular aldehyde metabolic process
+protein homotetramerization
+nucleoside metabolic process
+bloc complex
+sterol binding
+ceramide metabolic process
+regulation of lipid catabolic process
+ribosome biogenesis
+regulation of intrinsic apoptotic signaling pathway
+cobalamin metabolic process
+cytosolic large ribosomal subunit
+structural constituent of ribosome
+Enrichment score
+0.8
+0.6
+0.4
+Transcript integrity (Ratio of 5' to 3' coverage)
+0
+0.5
+1.0
+1.5
+168_C_Ribo(-)
+48_C_polyA
+Coverage (%)
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+Relative position in gene body (%)
+0
+20
+40
+60
+80
+100
+PCA Ribo(-) FLT & GC
+Gene body coverage
+Transcript integrity
+Enriched GO Ribo(-) (FLT vs. GC)
+168_FLT_C_Ribo(-)
+168_GC_C_Ribo(-)
+PC2 (18.5%)
+50
+0
+50
+100
+PC1 (36.4%)
+50
+0
+50
+100
+150
+200
+Figure 4. Evaluation of Gene Expression and Transcript Integrity in RR-1 NASA Carcass-dissected FLT and GC Samples Prepared via polyA
+Selection and Ribodepletion Methods
+(A) Principal component analysis of global gene expression in RR-1 NASA spaceﬂight (FLT) and ground control (GC) liver samples dissected from frozen
+carcasses (C) and prepared via ribodepletion (Ribo()). Percent variance for each principal component (PC) are shown.
+(B) Venn diagram of differentially expressed (DE) genes between spaceﬂight (FLT) and ground control (GC) samples prepared with ribodepletion (black) or
+polyA selection (red) methods (adj. p value < 0.05).
+(C) Venn diagram of the number of similar and unique enriched gene ontology (GO) terms (spaceﬂight (FLT) versus ground control (GC)) identiﬁed in
+ribodepleted (black) and polyA selected (red) prepared samples (NOM p < 0.01, FDR <0.5, phenotype permutation).
+(D) Enriched GO terms between the spaceﬂight (FLT) and ground control (GC) carcass samples prepared with ribodepletion identiﬁed by Gene Set
+Enrichment Analysis (phenotype permutation). The more positive or negative the enrichment scores, the higher the expression in spaceﬂight or ground
+control samples, respectively. Dot size indicates number of genes within GO term. Dot color indicates false discovery rate (FDR). GO terms displayed met the
+thresholds of FDR <0.5, NOM p < 0.01, 1.6 < NES < 1.6.
+(E) Gene body coverage of ribodepleted (Ribo()) and polyA selected (polyA) spaceﬂight and ground control carcass (C) samples.
+(F) The percent coverage of the 50- and 30-shaded regions in panel E were used to calculate the transcript integrity ratio for each sample (*** = p < 0.001,
+Mann–Whitney U test). Data are from GLDS-48 and -168.
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+7
+iScience
+Article
+
+We next assessed the effects of various carcass freezing methods on gene expression changes in the
+liver when compared with livers that were dissected immediately after euthanasia, then preserved in
+either RNAlater or LN2. Only a few genes were differentially expressed between livers dissected imme-
+diately and preserved on dry ice, in RNAlater, or in LN2 (Table S3). Similarly, pairwise gene set enrich-
+ment analysis showed no signiﬁcantly enriched GO terms between these tissue preservation methods
+(Table S3), suggesting that for immediately dissected livers, the tissue preservation method had minimal
+impact on gene expression. Livers dissected from slow (dry ice) frozen carcasses, which most closely
+mimics the carcass preservation method used in RR-1 NASA Validation and several other RR missions
+(including RR-3 and Rodent Research-6), exhibited the most DEGs when compared with immediately
+dissected livers preserved in either LN2 or RNAlater (Tables 2 and S4, respectively). In contrast, livers
+dissected from carcasses preserved in either RNAlater or LN2 exhibited hundreds fewer DEGs when
+compared with immediately dissected livers preserved in either LN2 or RNAlater (Tables 2 and S4,
+respectively). These data indicate that carcass segmentation and preservation in RNAlater or preserving
+carcasses by submersion in LN2 more closely mimic the common preservation methods used in terres-
+trial laboratories, than does the slow freeze carcass preservation method used in the RR-1 NASA Valida-
+tion study.
+A
+B
+D
+C
+Figure 5. Gene Expression and Transcript Integrity Analysis of Preservation Methods for Liver and Quadriceps
+Samples
+Liver and quadriceps samples were dissected from mice immediately after euthanasia with pentobarbital/phenytoin
+(Euthasol) then preserved in dry ice (I_DI), liquid nitrogen (I_LN2), or RNAlater (I_RNAlat) before RNAseq analysis.
+Alternatively, liver and quadriceps samples were dissected from partially thawed frozen carcasses of mice that were
+euthanized with pentobarbital/phenytoin (Euthasol) and then preserved in dry ice (C_DI), liquid nitrogen (C_LN2), or
+segmented into thirds and preserved in RNAlater (C_RNAlat) before RNAseq analysis.
+(A) Principal component analysis of liver samples. Percent variance for each principal component (PC) is shown.
+(B) Uniformity of gene body coverage in liver samples.
+(C) Principal component analysis of quadriceps samples. Percent variance for each principal component (PC) is shown.
+(D) Uniformity of gene body coverage in quadriceps samples. (*** = p < 0.001, ** = p < 0.01, * = p < 0.05, ns = no
+signiﬁcance, Mann–Whitney U test). Data are from GLDS-235 (liver) and -236 (quadriceps).
+ll
+OPEN ACCESS
+8
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+The Impact of Preservation Method on Gene Expression Is Tissue Dependent
+To determine if the observed differences in gene expression due to carcass preservation method are
+unique to the liver, gene expression and transcript integrity were also evaluated in quadriceps from
+mice in groups 1–4 (Figure S6 and Table S2). PCA showed more overlap among carcass and immediate
+quadriceps samples (Figure 5C) than among carcass and immediate liver samples (Figure 5A), suggesting
+that gene expression in the quadriceps is less sensitive to preservation methods. Unlike liver samples,
+almost no signiﬁcant differences were observed in 50 to 30 gene body coverage in quadriceps samples pre-
+pared using different preservation methods (Figure 5D).
+Fewer DEGs were identiﬁed in carcass versus immediate quadriceps samples than carcass versus immedi-
+ate liver samples for almost every preservation method tested (Tables 3, S5, and S6), further supporting that
+gene expression in the quadriceps is less sensitive to different types of preservation methods. Although
+there are fewer differences over-all, similar to what was observed in liver samples, cutting the carcass
+into thirds and then preserving in RNAlater resulted in the fewest DEGs when compared with immediate
+dissection followed by tissue preservation in LN2 or RNAlater (Tables 3 and S6, respectively).
+Gene Expression in Select Tissues Was Not Affected by the Method of Euthanasia
+Because the most common euthanasia method used in RR missions to date is intraperitoneal (IP) injection
+of ketamine/xylazine and the most common euthanasia method used in standard laboratories is CO2 inha-
+lation, these methods were used to euthanize mice in groups 5 and 6, respectively, to determine if eutha-
+nasia method is another confounding variable that could affect gene expression in select tissues (Figure S6,
+Tables S1 and S2). Gene expression was evaluated in livers and quadriceps dissected from mice in groups 2,
+5, and 6 (Figures S7A–S7D). PCA showed no distinct differences in global gene expression in liver (Fig-
+ure S7A) or quadriceps (Figure S7B) samples dissected from mice euthanized with different methods. Pair-
+wise differential gene expression analysis and gene set enrichment analysis also identiﬁed few, if any, DEGs
+and enriched GO terms among liver (Figure S7C) and quadriceps (Figure S7D) samples. These data suggest
+that the types of euthanasia methods evaluated here do not impact gene expression in select tissues.
+DISCUSSION
+Herein, we show that protocols used to preserve mouse carcasses on-orbit have large effects on gene
+expression patterns as measured by RNAseq. Indeed, changes in gene expression due to preservation
+Comparison
+# DEG
+(adj. p <
+0.05)
+# DEG (adj. p <
+0.05 & |Log2 FC|
+> 1.5)
+# Enriched GO
+Terms (NOM
+p < 0.01)
+# Enriched GO
+Terms (FDR
+<0.5 & NOM p <
+0.01)
+# Enriched GO
+Terms (FDR
+<0.25 & NOM
+p < 0.01)
+Euth_C_DI (n = 6)
+vs. Euth_I_LN2
+(n = 6)
+3798
+3143
+16, 0
+0, 0
+0, 0
+Euth_C_LN2 (n =
+5) vs. Euth_I_LN2
+(n = 6)
+784
+515
+30, 0
+0, 0
+0, 0
+Euth_C_RL (n = 5)
+vs. Euth_I_LN2
+(n = 6)
+2118
+1952
+22, 0
+0, 0
+0, 0
+Table 2. Comparisons of Carcass Preservation Methods to Immediate Liquid Nitrogen Method on Gene Expression
+in Livers
+The number of differentially expressed genes (DEG) and enriched gene ontology (GO) terms identiﬁed by Gene Set Enrich-
+ment Analysis (phenotype permutation) were evaluated pairwise in liver samples from different carcass preservation methods
+compared with immediate samples preserved in liquid nitrogen. For GO terms, number on the left corresponds to the group
+to the left of the ‘‘versus’’, and number on the right corresponds to the group to the right of the ‘‘versus’’ in the ‘‘Comparison’’
+column. n numbers, p values, log2 fold changes, and FDR values are indicated. Euth = euthanasia by pentobarbital/
+phenytoin, I = tissue dissected immediately after euthanasia, C = tissue dissected from frozen carcass that has been partially
+thawed, DI = dry ice, LN2 = liquid nitrogen, RL = RNAlater. Data are from GLDS-235.
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+9
+iScience
+Article
+
+condition overwhelmed those due to spaceﬂight. Gene set enrichment analysis showed that many GO
+terms enriched due to carcass preservation were involved in RNA processing. This correlated with reduced
+transcript integrity (relatively poor coverage of the 50 end of transcripts) in samples from carcasses pre-
+served on-orbit when these were sequenced with a polyA enrichment RNAseq protocol.
+Although RNAseq following polyA selection can more efﬁciently quantify gene expression (Kumar et al.,
+2017), ribodepletion methods are more effective on degraded RNA samples (Li et al., 2014; Schuierer
+et al., 2017). However, although the RNA used in this study was of good quality (RIN >7), we observed a
+severe bias in transcript coverage following polyA selection depending upon the tissue preservation con-
+dition utilized. Speciﬁcally, samples taken from carcasses that were slow-frozen on-orbit exhibited a lower
+50 to 30 coverage ratio as compared with samples taken from immediately dissected tissues. Although re-
+sequencing of the carcass ﬂight samples with a ribodepletion protocol produced a more even 50 to 30
+coverage ratio, our follow-on studies that directly compared slow carcass freezing with immediate dissec-
+tion revealed a similar (albeit reduced) 50 to 30 coverage bias. Taken together, this suggests that slow
+carcass freezing causes transcript degradation that in-turn leads to reduced 50 coverage.
+mRNA degradation starts with the removal of the polyA tail, at which point degradation continues either from
+the 30 end via the exosome complex or the 50 end following removal of the 50-methylguanosine cap. Deadeny-
+lation of cytoplasmic mRNA is the rate-limiting step in mRNA degradation and is catalyzed by one of two com-
+plexes: the CCR4-NOT complex, which consists of 10 subunits (CNOT1, CNOT2, CNOT3, CNOT4, CNOT6,
+CNOT6l, CNOT7, CNOT8, CNOT9, CNOT10), and the PAN2-PAN3 deadenylation complex consisting of two
+subunits (PAN2, PAN3) (Siwaszek et al., 2014). We observed transcriptional changes to multiple subunits in
+each of these complexes when comparing carcass and immediate samples. Most striking was the coordinated
+upregulation of both Pan2 and Pan3 in the carcass samples from the RR-1 NASA Validation mission, which sug-
+gests an increase in PAN2-PAN3 deadenylation activity, which could result in loss of polyA tails in some tran-
+scripts. This could lead to poor mRNA capture by our polyA enrichment protocol and result in some of the dif-
+ferences seen between the polyA enrichment and ribodepletion protocols.
+Three proteins—Dcp2 (Nudt20), Nudt3, Nudt16—have decapping activity both in vitro and in cells,
+whereas an additional ﬁve—Nudt2, Nudt12, Nudt15, Nudt17, Nudt19—have decapping activity in vitro.
+In addition, the Dxo family of proteins acts on partially capped mRNAs (Grudzien-Nogalska and Kiledjian,
+2017). Although regulation of these proteins is complex and involves subcellular localization and post-
+Comparison
+# DEG
+(adj. p <
+0.05)
+# DEG (adj. p <
+0.05 & |Log2 FC|
+> 1.5)
+# Enriched GO
+Terms (NOM
+p < 0.01)
+# Enriched GO
+Terms (FDR
+<0.5 & NOM p <
+0.01)
+# Enriched GO
+Terms (FDR
+<0.25 & NOM
+p < 0.01)
+Euth_C_DI (n = 6)
+vs. Euth_I_LN2
+(n = 6)
+2
+0
+15, 17
+0, 0
+0, 0
+Euth_C_LN2 (n =
+6) vs. Euth_I_LN2
+(n = 6)
+36
+24
+24, 24
+0, 22
+0, 11 (26 with
+p < 0.05)
+Euth_C_RL (n = 6)
+vs. Euth_I_LN2
+(n = 6)
+2
+2
+30, 9
+1, 2
+0, 0
+Table 3. Comparisons of Carcass Preservation Methods to Immediate Liquid Nitrogen Method on Gene Expression
+in Quadriceps
+The number of differentially expressed genes (DEG) and enriched gene ontology (GO) terms identiﬁed by Gene Set Enrich-
+ment Analysis (phenotype permutation) were evaluated pairwise in quadriceps samples from different carcass preservation
+methods compared with immediate samples preserved in liquid nitrogen. For GO terms, the ﬁrst number corresponds to the
+group to the left of the ‘‘versus’’, and the second number corresponds to the group to the right of the ‘‘versus’’ in the ‘‘Com-
+parison’’ column. n numbers, p values, log2 fold changes, and FDR values are indicated. Euth = euthanasia by pentobarbital/
+phenytoin, I = tissue dissected immediately after euthanasia, C = tissue dissected from frozen carcass that has been partially
+thawed, DI = dry ice, LN2 = liquid nitrogen, RL = RNAlater. Data are from GLDS-236.
+ll
+OPEN ACCESS
+10
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+translation modiﬁcation, we observed evidence for altered expression of these decapping enzymes: Dxo
+and Nudt2 were more abundant in carcass samples, whereas Nudt15 and Dcp2 (Nudt20) were more abun-
+dant in immediate samples. Although these changes are not coordinated, they do point to altered decapp-
+ing activity within the carcass samples. As decapping precedes mRNA degradation via the 50 exonuclease,
+XRN1, this could alternatively explain the relatively poor 50 transcript coverage seen in both polyA enriched
+and ribodepleted carcass liver samples. Additional experimentation will be necessary to conﬁrm the
+changes to decapping and deadenylation enzymes seen here and to understand their role in the 50 to 30
+coverage bias observed.
+We observed a marked difference in the 50 to 30 coverage bias between liver and quadriceps samples.
+Although liver samples were sensitive to carcass preservation via slow- or snap-freeze, quadriceps samples
+were not. There are a number of possible explanations for this. First, it could be due to the surface exposure
+of the quadriceps, which would lead to more rapid quenching of biochemical processes. Second, inherent
+differences in the transcript pool, mRNA half-lives, and enzymatic complement of liver and quadriceps
+could offer a biological answer. Although we cannot distinguish between these mechanisms, our observa-
+tions are consistent with previous results showing that postmortem changes to mRNA is tissue dependent
+(Inoue et al., 2002; Lee et al., 2005; Miyatake et al., 2004).
+The poor transcript integrity in slow-frozen carcasses sequenced with a polyA enrichment protocol was not
+evident in pre-sequencing QC analyses. Indeed, all samples had RIN values >7, and there was no correla-
+tion between the gene expression differences and RIN. This distinguishes our results from previous studies
+showing a strong correlation between RIN values and loss of 50 coverage (Davila et al., 2016; Sigurgeirsson
+et al., 2014). Therefore, additional pre-sequencing QC analyses capable of detecting these issues would be
+useful. Low throughput sequencing is rapid, decreasing in cost, and being adopted as a QC step but does
+not provide the coverage necessary to detect the biases seen here.
+Alternatively, if effective pre-sequencing QC metrics cannot be developed, a number of analytical ap-
+proaches could be utilized. In one category are methods that calculate additional metrics such as mRIN
+(Feng et al., 2015) and TIN (Wang et al., 2016) to allow assessment of transcript integrity and exclusion
+of problematic samples. In a second category are processes that account for variable transcript integrity
+by considering only reads that occur near the 30 end of transcripts (Sigurgeirsson et al., 2014), controlling
+for the effects of RIN using a linear model framework (Gallego Romero et al., 2014), or by calculating ideal-
+ized coverage curves on a gene-by-gene basis and using these for normalization (Xiong et al., 2019). Addi-
+tional analyses are necessary to determine if these approaches can mitigate the issue observed here.
+Although we do not have a complete picture of the mechanisms resulting in the apparent gene expression
+change resulting from slow carcass freezing, we were able to identify effective mitigation strategies (our sugges-
+tions are summarized in Figure 6). Foremost among these is the utilization of a ribodepletion protocol in place of
+polyA enrichment. In this study, ribodepletion resulted in more even gene body coverage and was not as sen-
+sitive to slow freezing of carcasses. This is in agreement with previous studies that found that ribodepletion is less
+prone to bias introduced by poor RNA quality (Li et al., 2014) and less prone to 30 coverage bias (Schuierer et al.,
+2017). Beyond this, we found that two carcass preservation methods generated acceptable results, with few
+DEGs and enriched GO terms when compared with the immediate dissection of tissues and preservation in
+liquid nitrogen—the de facto gold standard. The ﬁrst is rapid freeze of carcasses in liquid nitrogen and subse-
+quent storage at 80C, followed by partial thaw, dissection, and tissue preservation in liquid nitrogen. Although
+this led to some loss of 50 transcript coverage, it had the fewest DEGs (515, adj. p < 0.05 & |Log2 FC| > 1.5) and no
+enriched GO terms (FDR <0.25, NOM <0.01) when compared with immediate dissection. Alternatively, segmen-
+tation of carcasses and immersion in RNAlater and subsequent storage at 80C, followed by partial thaw,
+dissection, and tissue preservation in liquid nitrogen resulted in better maintenance of 50 transcript coverage
+but an increased number of DEGs (1952, adj. p < 0.05 & |Log2 FC| > 1.5), although no GO terms were enriched
+(FDR <0.25, NOM <0.01). As euthanasia protocols can change serum biomarkers (Pierozan et al., 2017) and
+mRNA expression levels (Staib-Lasarzik et al., 2014), we were reassured to ﬁnd that the euthanasia protocols
+used here did not affect gene expression in liver or quadriceps.
+To conclude, our results indicate that care must be taken in choosing sample preservation protocols that
+preserve transcriptional patterns and other embedded information but that are also feasible in resource-
+constrained environments such as those found in space.
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+11
+iScience
+Article
+
+Limitations of the Study
+This study directly assessed the effects of preservation protocols on mouse liver and quadriceps, thus
+extrapolation to other tissues should be done with caution. Moreover, this study is not capable of identi-
+fying the molecular mechanisms responsible for the observed effects, and additional experimentation is
+required to conﬁrm that the changes to decapping enzyme expression are responsible for changes in tran-
+script integrity and apparent gene expression.
+Resource Availability
+Lead Contact
+Jonathan M. Galazka, NASA Ames Research Center, jonathan.m.galazka@nasa.gov.
+Materials Availability
+This study did not generate unique materials. When applicable, excess RNA is available for request from
+the NASA Institutional Scientiﬁc Collection (https://www.nasa.gov/ames/research/space-biosciences/isc-
+bsp).
+Data and Code Availability
+All sequencing data are available at NASA GeneLab (www.genelab.nasa.gov) (Ray et al., 2019). polyA-
+enrichment-based data from the RR-1 NASA Validation mission samples are at GLDS-48 (Globus and Gal-
+azka, 2015). polyA-enrichment-based data from the RR-1 CASIS samples are at GLDS-47 (Globus et al.,
+2015). Data from ground-based study of tissue storage conditions are at GLDS-49 (GeneLab, 2016). Ribo-
+depletion-based resequencing data from the RR-1 NASA Validation mission samples are at GLDS-168 (Gal-
+azka, 2018). Liver data from ground-based freezing study are at GLDS-235 (Galazka, 2019a). Quadriceps
+data from ground-based freezing study are at GLDS-236 (Galazka, 2019b). Raw data used to generate all
+PCA, DGE, GSEA, and gene body coverage analyses shown here are available on Mendeley Data:
+https://doi.org/10.17632/5hzrgfgxct.1. Scripts used for processing RNAseq data are available at https://
+github.com/nasa/GeneLab_Data_Processing.
+METHODS
+All methods can be found in the accompanying Transparent Methods supplemental ﬁle.
+SUPPLEMENTAL INFORMATION
+Supplemental Information can be found online at Mendeley Data: https://doi.org/10.17632/5hzrgfgxct.1.
+ACKNOWLEDGMENTS
+We thank Rebecca A. Klotz and Vandana Verma for dissection instructions; Candice G. T. Tahimic for help
+with IACUC protocol drafting; and Samrawit G. Gebre for help with sample processing. This work was
+funded by the NASA Space Biology program within the NASA Science Mission Directorate’s (SMD) Biolog-
+ical and Physical Sciences (BPS) Division.
+Figure 6. Sample Preservation and Preparation Recommendations
+Recommendations are provided for euthanasia, carcass and tissue preservation, library preparation, and quality control
+(QC) analysis methods based on observations made from liver and quadricep samples.
+ll
+OPEN ACCESS
+12
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+AUTHOR CONTRIBUTIONS
+Formal analysis, AS.M.B, H.F, J.M.G; Investigation, K.C., R.B.C, O.M., S.L.P, V.B., M.T.D, Y.C., S.R.; Project
+administration, A.M.SB., S.V.C., J.M.G.; Visualization, A.M.SB, J.M.G; Writing—original draft, A.M.SB,
+S.V.C, J.M.G, S.L.P; Writing—review and editing, Y.C., A.M.SB, S.S.R., J.M.G., S.L.P; Conceptualization,
+S.L.P., J.M.G, S.V.C, S.S.R.; Data curation, A.M.SB., S.L.P., Y.C.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+Received: July 3, 2020
+Revised: October 4, 2020
+Accepted: October 22, 2020
+Published: December 18, 2020
+REFERENCES
+Beheshti, A., Chakravarty, K., Fogle, H., Fazelinia,
+H., Silveira, W.A.da, Boyko, V., Polo, S.-H.L.,
+Saravia-Butler, A.M., Hardiman, G., Taylor, D.,
+et al. (2019). Multi-omics analysis of multiple
+missions to space reveal a theme of lipid
+dysregulation in mouse liver. Sci. Rep. 9, 19195.
+Cadena, S.M., Zhang, Y., Fang, J., Brachat, S.,
+Kuss, P., Giorgetti, E., Stodieck, L.S., Kneissel, M.,
+and Glass, D.J. (2019). Skeletal muscle in MuRF1
+null mice is not spared in low-gravity conditions,
+indicating atrophy proceeds by unique
+mechanisms in space. Sci. Rep. 9, 9397.
+Choi, S., Ray, H.E., Lai, S.-H., Alwood, J.S., and
+Globus, R.K. (2016). Preservation of multiple
+mammalian tissues to maximize science return
+from ground based and spaceﬂight experiments.
+PLoS One 11, e0167391.
+Choi, S.Y., Saravia-Butler, A., Shirazi-Fard, Y.,
+Leveson-Gower, D., Stodieck, L.S., Cadena, S.M.,
+Beegle, J., Solis, S., Ronca, A., and Globus, R.K.
+(2020). Validation of a new rodent experimental
+System to investigate consequences of long
+duration space habitation. Sci. Rep. 10, 2336.
+Davila, J.I., Fadra, N.M., Wang, X., McDonald,
+A.M., Nair, A.A., Crusan, B.R., Wu, X., Blommel,
+J.H., Jen, J., Rumilla, K.M., et al. (2016). Impact of
+RNA degradation on fusion detection by RNA-
+seq. BMC Genomics 17, 814.
+Feng, H., Zhang, X., and Zhang, C. (2015). mRIN
+for direct assessment of genome-wide and gene-
+speciﬁc mRNA integrity from large-scale RNA-
+sequencing data. Nat. Commun. 6, 7816.
+Galazka, J. (2019a). Transcriptomic Analysis of
+Liver from Mice Subjected to Simulated
+Spaceﬂight Euthanasia, Freezing, and Tissue
+Preservation Protocols (GeneLab). .Version 4.
+https://doi.org/10.26030/qn9j-pv85.
+Galazka, J. (2019b). Transcriptomic Analysis of
+Quadriceps from Mice Subjected to Simulated
+Spaceﬂight Euthanasia, Freezing, and Tissue
+Preservation Protocols (GeneLab). .Version 5.
+https://doi.org/10.26030/r1hr-jv04.
+Galazka, J. (2018). RR-1 and RR-3 Mouse Liver
+Transcriptomics with and without ERCC Control
+RNA Spike-Ins (GeneLab). .Version 8. https://doi.
+org/10.26030/rwyp-9325.
+Gallego Romero, I., Pai, A.A., Tung, J., and Gilad,
+Y. (2014). RNA-seq: impact of RNA degradation
+on transcript quantiﬁcation. BMC Biol. 12, 42.
+Garrett-Bakelman, F.E., Darshi, M., Green, S.J.,
+Gur, R.C., Lin, L., Macias, B.R., McKenna, M.J.,
+Meydan, C., Mishra, T., Nasrini, J., et al. (2019).
+The NASA Twins Study: a multidimensional
+analysis of a year-long human spaceﬂight.
+Science 364, eaau8650.
+GeneLab, N. (2016). Multi-omic Investigations of
+Mouse Liver Subjected to Simulated Spaceﬂight
+Freezing and Storage Protocols (GeneLab).
+.Version 4. https://doi.org/10.26030/1190-my17.
+Globus, R., Cadena, S., and Galazka, J. (2015).
+Rodent Research-1 (RR1) National Lab Validation
+Flight: Mouse Liver Transcriptomic, Proteomic,
+and Epigenomic Data (GeneLab). .Version 10.
+https://doi.org/10.26030/k5c1-jd05.
+Globus, R., and Galazka, J.M. (2015). Rodent
+Research-1 (RR1) NASA Validation Flight: Mouse
+Liver Transcriptomic, Proteomic, and Epigenomic
+Data (GeneLab). .Version 8. https://doi.org/10.
+26030/jq04-0n51.
+Grudzien-Nogalska, E., and Kiledjian, M. (2017).
+New insights into decapping enzymes and
+selective mRNA decay8 (Wiley Interdiscip Rev
+RNA).
+Inoue, H., Kimura, A., and Tuji, T. (2002).
+Degradation proﬁle of mRNA in a dead rat body:
+basic semi-quantiﬁcation study. Forensic Sci. Int.
+130, 127–132.
+Institute of Medicine (2008). Review of NASA’s
+Human Research Program Evidence Books: A
+Letter Report (The National Academies Press).
+Jonscher, K.R., Alfonso-Garcia, A., Suhalim, J.L.,
+Orlicky, D.J., Potma, E.O., Ferguson, V.L.,
+Bouxsein, M.L., Bateman, T.A., Stodieck, L.S.,
+Levi, M., et al. (2016). Spaceﬂight activates
+lipotoxic pathways in mouse liver. PLoS One 11,
+e0152877.
+Kumar, A., Kankainen, M., Parsons, A.,
+Kallioniemi, O., Mattila, P., and Heckman, C.A.
+(2017). The impact of RNA sequence library
+construction protocols on transcriptomic
+proﬁling of leukemia. BMC Genomics 18, 629.
+Lee, J., Hever, A., Willhite, D., Zlotnik, A., and
+Hevezi, P. (2005). Effects of RNA degradation on
+gene expression analysis of human postmortem
+tissues. FASEB J. 19, 1356–1358.
+Li, S., Tighe, S.W., Nicolet, C.M., Grove, D., Levy,
+S., Farmerie, W., Viale, A., Wright, C., Schweitzer,
+P.A., Gao, Y., et al. (2014). Multi-platform
+assessment of transcriptome proﬁling using RNA-
+seq in the ABRF next-generation sequencing
+study. Nat. Biotechnol. 32, 915–925.
+Miyatake, Y., Ikeda, H., Michimata, R., Koizumi, S.,
+Ishizu, A., Nishimura, N., and Yoshiki, T. (2004).
+Differential modulation of gene expression
+among rat tissues with warm ischemia. Exp. Mol.
+Pathol. 77, 222–230.
+Pecaut, M.J., Mao, X.W., Bellinger, D.L.,
+Jonscher, K.R., Stodieck, L.S., Ferguson, V.L.,
+Bateman, T.A., Mohney, R.P., and Gridley, D.S.
+(2017). Is spaceﬂight-induced immune
+dysfunction linked to systemic changes in
+metabolism? PLoS One 12, e0174174.
+Petrova, O.E., Garcia-Alcalde, F., Zampaloni, C.,
+and Sauer, K. (2017). Comparative evaluation of
+rRNA depletion procedures for the improved
+analysis of bacterial bioﬁlm and mixed pathogen
+culture transcriptomes. Sci. Rep. 7, 41114.
+Pierozan, P., Jernere´ n, F., Ransome, Y., and
+Karlsson, O. (2017). The choice of euthanasia
+method affects metabolic serum biomarkers.
+Basic Clin. Pharmacol. Toxicol. 121, 113–118.
+Ray, S., Gebre, S., Fogle, H., Berrios, D.C., Tran,
+P.B., Galazka, J.M., and Costes, S.V. (2019).
+GeneLab: omics database for spaceﬂight
+experiments. Bioinformatics 35, 1753–1759.
+Rettig, T.A., Ward, C., Pecaut, M.J., and Chapes,
+S.K. (2017). Validation of methods to assess the
+immunoglobulin gene repertoire in tissues
+obtained from mice on the international space
+station. Gravit. Space Res. 5, 2–23.
+Ronca, A.E., Moyer, E.L., Talyansky, Y., Lowe, M.,
+Padmanabhan, S., Choi, S., Gong, C., Cadena,
+S.M., Stodieck, L., and Globus, R.K. (2019).
+Behavior of mice aboard the international space
+station. Sci. Rep. 9, 4717.
+Schuierer, S., Carbone, W., Knehr, J., Petitjean, V.,
+Fernandez, A., Sultan, M., and Roma, G. (2017). A
+comprehensive assessment of RNA-seq
+ll
+OPEN ACCESS
+iScience 23, 101733, December 18, 2020
+13
+iScience
+Article
+
+protocols for degraded and low-quantity
+samples. BMC Genomics 18, 442.
+Shen, H., Lim, C., Schwartz, A.G., Andreev-
+Andrievskiy, A., Deymier, A.C., and
+Thomopoulos, S. (2017). Effects of spaceﬂight on
+the muscles of the murine shoulder. FASEB J. 31,
+5466–5477.
+Sigurgeirsson, B., Emanuelsson, O., and
+Lundeberg, J. (2014). Sequencing degraded RNA
+addressed by3’Tag counting.PLoSOne9, e91851.
+Siwaszek, A., Ukleja, M., and Dziembowski, A.
+(2014). Proteins involved in the degradation of
+cytoplasmic mRNA in the major eukaryotic model
+systems. RNA Biol. 11, 1122–1136.
+Spatz, J.M., Ellman, R., Cloutier, A.M., Louis, L.,
+van Vliet, M., Dwyer, D., Stolina, M., Ke, H.Z., and
+Bouxsein, M.L. (2017). Sclerostin antibody inhibits
+skeletal deterioration in mice exposed to partial
+weight-bearing. Life Sci. Space Res. (Amst) 12,
+32–38.
+Staib-Lasarzik, I., Kriege, O., Timaru-Kast, R.,
+Pieter, D., Werner, C., Engelhard, K., and Thal, S.C.
+(2014). Anesthesia for euthanasia inﬂuences mRNA
+expression in healthy mice and after Traumatic
+brain injury. J. Neurotrauma 31, 1664–1671.
+Tascher, G., Brioche, T., Maes, P., Chopard, A.,
+O’Gorman, D., Gauquelin-Koch, G., Blanc, S., and
+Bertile, F. (2017). Proteome-wide adaptations of
+mouse skeletal muscles during a full month in
+space. J. Proteome Res. 16, 2623–2638.
+Wang, L., Nie, J., Sicotte, H., Li, Y., Eckel-Passow,
+J.E., Dasari, S., Vedell, P.T., Barman, P., Wang, L.,
+Weinshiboum, R., et al. (2016). Measure transcript
+integrity using RNA-seq data. BMC
+Bioinformatics 17, 58.
+Ward, C., Rettig, T.A., Hlavacek, S., Bye, B.A.,
+Pecaut, M.J., and Chapes, S.K. (2018). Effects of
+spaceﬂight on the immunoglobulin repertoire of
+unimmunized C57BL/6 mice. Life Sci. Space Res.
+(Amst) 16, 63–75.
+Xiong, B., Yang, Y., Fineis, F.R., and Wang,
+J.-P. (2019). DegNorm: normalization of
+generalized transcript degradation improves
+accuracy in RNA-seq analysis. Genome Biol.
+20, 75.
+ll
+OPEN ACCESS
+14
+iScience 23, 101733, December 18, 2020
+iScience
+Article
+
+iScience, Volume 23
+Supplemental Information
+RNAseq Analysis of Rodent Spaceﬂight
+Experiments Is Confounded by Sample
+Collection Techniques
+San-Huei Lai Polo, Amanda M. Saravia-Butler, Valery Boyko, Marie T. Dinh, Yi-Chun
+Chen, Homer Fogle, Sigrid S. Reinsch, Shayoni Ray, Kaushik Chakravarty, Oana
+Marcu, Rick B. Chen, Sylvain V. Costes, and Jonathan M. Galazka
+
+ 
+Supplemental Figures 
+ 
+Figure S1. RR-1 mission timeline. Related to Figures 1-4. Timeline indicating major events in the Rodent 
+Research-1 (RR-1) mission relative to the launch date (L). A minus sign (-) indicates time in days (d) before 
+launch and a plus sign (+) indicates time in days (d) or months (m) after launch. Age-matched ground 
+control animals were processed on similar timeline but on a 4-day delay to mimic spaceflight conditions. 
+KSC = Kennedy Space Center; ISS = International Space Station; CASIS = Center for the Advancement 
+of Science in Space; NASA = National Aeronautics and Space Administration. 
+ 
+ 
+L-27d
+Mice arrive at 
+KSC and 
+begin 
+acclimation
+L-2d
+Mice are 
+loaded into the 
+Transporter, 
+which is then 
+loaded into 
+Dragon 
+capsule
+L
+L+2d
+Dragon 
+capsule docks 
+with ISS
+Mice are 
+transferred to 
+RR Habitats 
+aboard the ISS
+L+4d
+10 RR-1 CASIS mice euthanized, 
+tissues (including liver) dissected 
+then preserved and stored at < -75˚C 
+L+21&22d
+L+35d
+RR-1 CASIS 
+samples 
+returned to 
+Earth and kept 
+at < -70˚C 
+10 RR-1 NASA mice euthanized, 
+tissues (including liver) dissected 
+from 2 mice then preserved and 
+stored at -80˚C
+8 remaining intact carcasses frozen 
+and stored at < -75˚C
+L+37d
+RR-1 NASA 
+samples 
+returned to 
+Earth and kept 
+at < -70˚C 
+RR-1 NASA frozen 
+carcasses partially thawed
+and tissues (including liver) 
+dissected then preserved 
+and stored at < -75˚C
+L+140d
+~L+8m
+L+>9m
+RNA extracted 
+from RR-1 
+NASA and 
+CASIS liver 
+samples and 
+sequenced
+
+ 
+ 
+ 
+Figure S2. GLDS-49 Experimental Design. Related to Figure 1. Diagram of the ground-based 
+preservation study comparing livers collected using standard laboratory protocols with livers collected 
+from simulated spaceflight dissection flow and storage methods. Liver samples from twelve-week old 
+female C57BL/6J mice were either snap frozen (n=3), snap frozen after a 25 min delay and stored for 3 
+days (n=3), or snap frozen after a 25 min delay and stored for 1 year (n=3). RNA-seq data were then 
+generated using a polyA enrichment protocol. 
+ 
+ 
+C57BL/6J 
+Female
+12 weeks
+Euthasol
+IP Injection
+Store at -80°C for 3 
+days
+Store at -80°C for 1 year
+Store at -80°C for 1 year
+ASAP
+(~2 
+minutes)
+25 
+minutes
+Liver
+Liquid 
+Nitrogen
+Dry Ice
+
+ 
+ 
+Figure S3. Carcass liver samples cluster together and away from immediate liver samples across 
+datasets. Related to Figure 1. Principal component analysis containing data from RR-1 NASA spaceflight 
+(FLT) and respective ground control (GC) carcass (48_FLT_C and 48_GC_C) and immediate (48_FLT_I 
+and 48_GC_I) samples (GLDS-48), RR-1 CASIS FLT (47_FLT_I) and GC (47_GC_I) immediate samples 
+(GLDS-47), and samples from a ground-based study (GLDS-49) in which livers were dissected 
+immediately after euthanasia then frozen on either dry ice or submerged in liquid nitrogen then stored at 
+-80 ºC for 3 days or 1 year prior to processing (49_Other_I). Fill colors represent carcass (blue) or 
+immediate (red) samples and the outline colors represent the GLDS dataset each sample came from (no 
+outline = GLDS-47, black outline = GLDS-48, and blue outline = GLDS-49). Data are from GLDS-47, -48, 
+and -49. 
+ 
+ 
+47_GC_I
+47_FLT_I
+48_GC_C
+48_FLT_C
+48_GC_I
+48_FLT_I
+49_Other_I
+PC1 (10.9%)
+−50
+0
+50
+100
+PC1 (24.7%)
+−100
+−50
+0
+50
+100
+Outline:
+None = GLDS-47
+Black = GLDS-48
+Blue = GLDS-49 
+Fill:
+Red = Immediate (I)
+Blue = Carcass (C)
+Shape:
+Triangle = Flight (FLT)
+Circle = Ground control (GC)
+Square = Other ground study (Other)
+
+ 
+ 
+Figure S4. RNA Integrity Number analysis of Carcass and Immediate Liver samples. Related to Figures 
+1&3. RNA Integrity Numbers (RIN) for spaceflight (FLT) and ground control (GC) immediate (I) and 
+carcass (C) samples plotted against principal component 1 (PC1) calculated from gene expression data. 
+Data are from GLDS-48.  
+ 
+ 
+Figure S5. Expression of decapping enzymes. Related to Figure 3. Average (mean) expression of 
+decapping enzymes in Carcass (blue) and Immediate (red) samples. Error bars indicate standard 
+deviation (* = adj. p < 0.05, ** = adj. p < 0.01, *** = adj. p < 0.001, ns = not significant, Wald test). Data 
+are from GLDS-48.  
+ 
+48_GC_C
+48_GC_I
+48_FLT_C
+48_FLT_I
+RIN
+0
+2
+4
+6
+8
+10
+PC1 (36.6%)
+−50
+0
+50
+100
+150
+200
+***
+*
+ns
+ns
+ns
+***
+ns
+ns
+*
+48_Carcass
+48_Immediate
+Mean expression
+0
+500
+1000
+1500
+Dxo
+Nudt2
+Nudt3
+Nudt12
+Nudt15
+Nudt16
+Nudt17
+Nudt19
+Dcp2 (Nudt20)
+(Normalized counts)
+
+ 
+ 
+Figure S6. Ground-based tissue preservation study workflow. Related to Figure 5 and Tables 2&3. 
+Diagram of the ground-based tissue preservation study to evaluate differences in indicated euthanasia 
+and carcass and tissue preservation methods. Mice were euthanized with either pentobarbital/phenytoin 
+(EuthasolÒ) or ketamine/xylazine injection, or CO2 inhalation. Intact carcasses were preserved by freezing 
+in liquid nitrogen or on dry ice, or by segmentation (head, chest, abdomen) and immersion in an 
+ammonium sulfate solution (RNAlaterÔ). Carcasses were then thawed, and livers and quadriceps 
+dissected and preserved in liquid nitrogen or guanidinium thiocyanate solution (QiagenÒ RLT buffer). 
+Alternatively, livers and quadriceps were dissected immediately and preserved by freezing in liquid 
+nitrogen or on dry ice, or by immersion in an ammonium sulfate solution (RNAlaterÔ).  
+ 
+Animal      
+Euthanasia     Group/Carcass Treatment    Tissue/Preservation 
+C57BL/6J 
+Female
+20-21weeks
+CO2
+Inhalation
+Ketamine
+/
+xylazine
+IP 
+Injection
+Euthasol
+IP 
+Injection
+1
+6
+Liver
+Dry Ice
+Quadriceps
+Liquid Nitrogen
+Group ID
+1
+RLT 
+Buffer
+RNAlater
+RNAlater
+None
+5
+4
+3
+2
+
+ 
+ 
+Comparison of euthanasia methods for Carcass liver samples (GLDS-235)
+Comparison
+# DEG 
+(adj. p < 
+0.05)
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5)
+# Enriched GO terms 
+(NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.5 & 
+NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.25 & 
+NOM p < 0.01)
+CO2_C_DI (n=6) v Euth_C_DI (n=6) 
+192
+168
+0, 42
+0, 0
+0, 0
+CO2_C_DI (n=6) v Ket-Xyl_C_DI (n=6) 
+0
+0
+0, 51
+0, 0
+0, 0
+Euth_C_DI (n=6) v Ket-Xyl_C_DI (n=6) 
+67
+49
+37, 0
+1, 0
+0, 0
+A
+C
+B
+Comparison of euthanasia methods for Carcass quadriceps samples (GLDS-236)
+Comparison
+# DEG 
+(adj. p < 
+0.05)
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5)
+# Enriched GO terms 
+(NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.5 & 
+NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.25 & 
+NOM p < 0.01)
+CO2_C_DI (n=6) v Euth_C_DI (n=6) 
+2
+2
+8, 23
+2, 0
+1, 0
+CO2_C_DI (n=6) v Ket-Xyl_C_DI (n=6) 
+0
+0
+5, 100
+2, 99
+0, 4
+Euth_C_DI (n=6) v Ket-Xyl_C_DI (n=6) 
+3
+3
+3, 64
+0, 10
+0, 0
+D
+Tissue storage methods vs. RNAlat and LN2 preserved Immediate liver samples (GLDS-235)
+Comparison
+# DEG 
+(adj. p < 
+0.05)
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5)
+# Enriched GO terms 
+(NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.5 & 
+NOM p < 0.01)
+# Enriched GO terms 
+(FDR < 0.25 & 
+NOM p < 0.01)
+Euth_C_DI_RLT-70d (n=4) v Euth_C_DI_RLT-
+0d (n=6) 
+284
+174
+3, 110
+0, 31
+0, 2
+Euth_C_DI_RLT-70d (n=4) v Euth_I_LN2 (n=6) 
+1523
+1250
+67, 14
+0, 0
+0, 0
+Euth_C_DI_RLT-70d (n=4) v Euth_I_RL (n=6) 
+1003
+752
+62, 18
+3, 0
+0, 0
+Euth_C_DI_RLT-0d (n=6) v Euth_I_LN2 (n=6) 
+3798
+3143
+16, 0
+0, 0
+0, 0
+Euth_C_DI_RLT-0d (n=6) v Euth_I_RL (n=6) 
+930
+718
+40, 1
+1, 0
+1, 0
+E
+F
+235_CO2
+235_Euthasol
+235_Ket/Xyl
+PC2 (10.3%)
+−50
+0
+50
+100
+PC1 (34.6%)
+−300
+−200
+−100
+0
+100
+236_CO2
+236_Euthasol
+236_Ketamine
+PC2 (9.1%)
+−50
+0
+50
+100
+150
+PC1 (30.0%)
+−100
+0
+100
+200
+235_Euth_C_DI_RLT_0d
+235_Euth_C_DI_RLT_70d
+PC2 (10.7%)
+−80
+−60
+−40
+−20
+0
+20
+40
+60
+80
+PC1 (46.1%)
+−200
+−100
+0
+100
+
+ 
+Figure S7. Comparison of gene expression and gene ontology in liver and quadriceps samples derived 
+from mice euthanized with different methods. Related to Figure 5 and Tables 2&3. Liver and quadriceps 
+samples dissected from partially thawed frozen carcasses of mice that were euthanized with 
+pentobarbital/phenytoin (EuthasolÒ), ketamine/xylazine, or carbon dioxide inhalation were evaluated for 
+global gene expression differences via principal component analysis (A, liver and B, quadriceps), and the 
+number of differentially expressed genes (DEG) and enriched gene ontology (GO) terms identified by 
+Gene Set Enrichment Analysis via pairwise comparisons (phenotype permutation) (C, liver and D, 
+quadriceps). Liver samples dissected from partially thawed frozen carcasses of mice that were euthanized 
+with pentobarbital/phenytoin (EuthasolÒ), then snap frozen in liquid nitrogen and stored at -80 ºC or 
+homogenized in RLT buffer then stored for 70 d at -80 ºC were evaluated for E) global gene expression 
+differences via principal component analysis, and F) the number of differentially expressed genes (DEG) 
+and enriched gene ontology (GO) terms identified by Gene Set Enrichment Analysis (phenotype 
+permutation) via pairwise comparisons with immediate samples preserved in liquid nitrogen or RNAlater. 
+For GO terms, the number on the left corresponds to the group to the left of the ‘vs.’, and number on 
+the right corresponds to the group to the right of the ‘vs.’ in the “Comparison” column. n numbers, p 
+values, log2 fold changes, and FDR values are indicated. Euth=euthanasia by pentobarbital/phenytoin 
+(EuthasolÒ), Ket-Xyl= euthanasia by ketamine/xylazine, CO2=euthanasia by carbon dioxide inhalation, 
+C=tissue dissected from frozen carcass that has been partially thawed, I=tissue dissected immediately 
+after euthanasia, DI=dry ice, LN2=liquid nitrogen, RL=RNAlater™. Liver and quadriceps data are from 
+GLDS-235 and GLDS-236, respectively.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Supplementary Tables 
+Table S1. Liver samples analyzed in the ground-based tissue preservation study (GLDS-235). Related to 
+Figure 5A&B and Table 2.  
+Group 
+Euthanasia 
+Carcass preservation 
+Tissue preservation 
+Mouse ID 
+1 
+Pentobarbital/phenytoin 
+None 
+Liquid nitrogen n=6 
+M1-M6 
+RNAlaterÔ n=6 
+Dry ice n=6 
+2 
+Pentobarbital/phenytoin 
+Dry ice 
+Liquid nitrogen n=6 
+M7-M12 
+RLT buffer 70d at -80 °C 
+3 
+Pentobarbital/phenytoin 
+Liquid nitrogen 
+Liquid nitrogen n=5 
+M13-M18 
+4 
+Pentobarbital/phenytoin 
+RNAlaterÔa 
+Liquid nitrogen n=5 
+M19-M24 
+5 
+Ketamine/xylazine 
+Dry ice 
+Liquid nitrogen n=6 
+M25-M30 
+6 
+Carbon dioxide 
+Dry ice 
+Liquid nitrogen n=6 
+M31-M36 
+a. Post carcass segmentation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Table S2. Quadriceps samples analyzed in the ground-based tissue preservation study (GLDS-236). 
+Related to Figure 5C&D and Table 3. 
+Group 
+Euthanasia 
+Carcass preservation 
+Tissue preservation 
+Mouse ID 
+1 
+Pentobarbital/phenytoin 
+None 
+Liquid nitrogen n=6 
+M1-M6 
+RNAlaterÔ n=6 
+Dry ice n=6 
+2 
+Pentobarbital/phenytoin 
+Dry ice 
+Liquid nitrogen n=6 
+M7-M12 
+3 
+Pentobarbital/phenytoin 
+Liquid nitrogen 
+Liquid nitrogen n=6 
+M13-M18 
+4 
+Pentobarbital/phenytoin 
+RNAlaterÔa 
+Liquid nitrogen n=6 
+M19-M24 
+5 
+Ketamine/xylazine 
+Dry ice 
+Liquid nitrogen n=6 
+M25-M30 
+6 
+Carbon dioxide 
+Dry ice 
+Liquid nitrogen n=6 
+M31-M36 
+a. Post carcass segmentation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Table S3. Comparisons of immediate preservation methods on gene expression in livers. Related to 
+Figure 5A&B and Table 2. The number of differentially expressed genes (DEG) and enriched gene 
+ontology (GO) terms identified by Gene Set Enrichment Analysis (phenotype permutation) were 
+evaluated pairwise in liver samples from different immediate preservation methods. For GO terms, the 
+first number corresponds to the group to the left of the ‘vs.’, and second number corresponds to the 
+group to the right of the ‘vs.’ in the “Comparison” column. n numbers, p values, log2 fold changes, and 
+FDR values are indicated. Euth=euthanasia by pentobarbital/phenytoin, I=tissue dissected immediately 
+after euthanasia, DI=dry ice, LN2=liquid nitrogen, RL=RNAlaterÔ. Data are from GLDS-235.  
+Comparison 
+# DEG 
+(adj. p < 
+0.05) 
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5) 
+# Enriched 
+GO terms 
+(NOM p < 
+0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.5 & 
+NOM p < 0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.25 & 
+NOM p < 0.01) 
+Euth_I_DI (n=6) vs. 
+Euth_I_LN2 (n=6) 
+16 
+16 
+31, 6 
+7, 0 
+0, 0 
+Euth_I_DI (n=6) vs. 
+Euth_I_RL (n=6) 
+0 
+0 
+14, 8 
+0, 0 
+0, 0 
+Euth_I_LN2 (n=6) vs. 
+Euth_I_RL (n=6) 
+14 
+14 
+3, 15 
+0, 0 
+0, 0 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Table S4. Comparisons of carcass preservation methods to immediate RNAlaterÔ method on gene 
+expression in livers. Related to Figure 5A&B and Table 2. The number of differentially expressed genes 
+(DEG) and enriched gene ontology (GO) terms identified by Gene Set Enrichment Analysis (phenotype 
+permutation) were evaluated pairwise in liver samples from different carcass preservation methods 
+compared with immediate samples preserved in RNAlaterÔ. For GO terms, the first number 
+corresponds to the group to the left of the ‘vs.’, and the second number corresponds to the group to 
+the right of the ‘vs.’ in the “Comparison” column. n numbers, p values, log2 fold changes, and FDR 
+values are indicated. Euth=euthanasia by pentobarbital/phenytoin, I=tissue dissected immediately after 
+euthanasia, C=tissue dissected from frozen carcass that has been partially thawed, DI=dry ice, 
+LN2=liquid nitrogen, RL= RNAlaterÔ. Data are from GLDS-235.  
+Comparison 
+# DEG 
+(adj. p < 
+0.05) 
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5) 
+# Enriched 
+GO terms 
+(NOM p < 
+0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.5 & 
+NOM p < 0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.25 & 
+NOM p < 0.01) 
+Euth_C_DI (n=6) 
+vs. Euth_I_RL 
+(n=6) 
+930 
+718 
+40, 1 
+1, 0 
+1, 0 
+Euth_C_LN2 (n=5) 
+vs. Euth_I_RL 
+(n=6) 
+197 
+118 
+90, 0 
+2, 0 
+0, 0 
+Euth_C_RL (n=5) 
+vs. Euth_I_RL 
+(n=6) 
+131 
+123 
+65, 0 
+0, 0 
+0, 0 
+ 
+ 
+ 
+ 
+
+ 
+Table S5. Comparisons of immediate preservation methods on gene expression in quadriceps. Related 
+to Figure 5C&D and Table 3. The number of differentially expressed genes (DEG) and enriched gene 
+ontology (GO) terms identified by Gene Set Enrichment Analysis (phenotype permutation) were 
+evaluated pairwise in quadriceps samples from different immediate preservation methods. For GO terms, 
+number on the left corresponds to the group to the left of the ‘vs.’, and number on the right corresponds 
+to the group to the right of the ‘vs.’ in the “Comparison” column. n numbers, p values, log2 fold 
+changes, and FDR values are indicated. Euth=euthanasia by pentobarbital/phenytoin, I=tissue dissected 
+immediately after euthanasia, DI=dry ice, LN2=liquid nitrogen, RL= RNAlaterÔ. Data are from GLDS-236.  
+Comparison 
+# DEG 
+(adj. p < 
+0.05) 
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5) 
+# Enriched 
+GO terms 
+(NOM p < 
+0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.5 & 
+NOM p < 0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.25 & 
+NOM p < 0.01) 
+Euth_I_DI (n=6) 
+vs. Euth_I_LN2 
+(n=6) 
+2 
+1 
+2, 51 
+1, 2 
+0, 2 
+Euth_I_DI (n=6) 
+vs. Euth_I_RL 
+(n=6) 
+14 
+9 
+25, 26 
+6, 0 
+2, 0 
+Euth_I_LN2 
+(n=6) vs. 
+Euth_I_RL (n=6) 
+0 
+0 
+66, 3 
+51, 0 
+0, 0 
+ 
+ 
+ 
+ 
+
+ 
+Table S6. Comparisons of carcass preservation methods to immediate RNAlaterÔ method on gene 
+expression in quadriceps. Related to Figure 5C&D and Table 3. The number of differentially expressed 
+genes (DEG) and enriched gene ontology (GO) terms identified by Gene Set Enrichment Analysis 
+(phenotype permutation) were evaluated pairwise in quadriceps samples from different carcass 
+preservation methods compared with immediate samples preserved in RNAlaterÔ. For GO terms, number 
+on the left corresponds to the group to the left of the ‘vs.’, and number on the right corresponds to the 
+group to the right of the ‘vs.’ in the “Comparison” column. n numbers, p values, log2 fold changes, and 
+FDR values are indicated. Euth=euthanasia by pentobarbital/phenytoin, I=tissue dissected immediately 
+after euthanasia, C=tissue dissected from frozen carcass that has been partially thawed, DI=dry ice, 
+LN2=liquid nitrogen, RL= RNAlaterÔ. Data are from GLDS-236.  
+Comparison 
+# DEG 
+(adj. p < 
+0.05) 
+# DEG 
+(adj. p < 0.05 & 
+|Log2 FC| > 1.5) 
+# Enriched 
+GO terms 
+(NOM p < 
+0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.5 & 
+NOM p < 0.01) 
+# Enriched GO 
+terms 
+(FDR < 0.25 & 
+NOM p < 0.01) 
+Euth_C_DI (n=6) 
+vs. Euth_I_RL 
+(n=6) 
+50 
+27 
+80, 5 
+67, 1 
+33 (41 with p < 
+0.05), 0 
+Euth_C_LN2 
+(n=6) vs. 
+Euth_I_RL (n=6) 
+282 
+139 
+54, 8 
+4, 0 
+0, 0 
+Euth_C_RL (n=6) 
+vs. Euth_I_RL 
+(n=6) 
+59 
+40 
+135, 3 
+135, 1 
+34 (41 with p < 
+0.05), 0 
+ 
+ 
+ 
+
+ 
+Transparent Methods 
+Rodent Research-1 (RR-1) Study 
+Animals 
+As described previously (Choi et al., 2020), the study followed recommendations in the Guide for the 
+Care and Use of Laboratory Animals (National Research Council, 2011) and was approved on May 21, 
+2014 by the Institutional Animal Care and Use Committee (IACUC) at NASA Ames Research Center and 
+Kennedy Space Center (Protocol number NAS-13-002-Y1). 
+Spaceflight Mission 
+Rodent Research-1 (RR-1) was the first mission in which animals were maintained on the ISS for a long 
+duration mission in the Rodent Habitat modified from heritage Animal Enclosure Module (AEM) 
+hardware.  Complete details were published previously (Choi et al., 2020). In short, RR-1 consisted of 
+two experiments: ISS National Lab study (RR-1 CASIS) and NASA Validation study (RR-1 NASA).  In the 
+ISS National Lab Study, ten 32-week-old female C57BL/6NTac mice (Taconic Biosciences, Rensselaer, 
+NY) were flown to space for 20-21 days then euthanized via IP injection of pentobarbital/phenytoin 
+(EuthasolÒ) and dissected onboard the ISS.  Livers were dissected then inserted into cryovials, which 
+were then frozen in a cold stowage container that was pre-chilled to -130 °C before transferring to the 
+Minus Eighty-Degree Laboratory Freezer (MELFI) at the end of each dissection session (-80 °C). In the 
+NASA Validation study, ten 16-week-old female C57BL/6J mice (Jackson laboratories, Bar harbor, ME) 
+were flown to the ISS for 37 days before euthanasia and subsequent dissection.  Due to crew time 
+constraint, only two (out of ten) mice were dissected immediately after euthanasia via IP injection of 
+pentobarbital/phenytoin (EuthasolÒ) to recover spleen and liver tissues on the ISS.  Isolated livers were 
+preserved by using the same method as the ISS National Lab study livers.  The remaining eight animals 
+were euthanized, then intact carcasses were wrapped in aluminum foil, put in Ziploc bags, placed in a 
+pre-chilled cold stowage container and stored in the MELFI.  For both the ISS National Lab study and 
+the NASA Validation study, there were respective cohorts of age-matched basal animals which were 
+euthanized one day after launch as a baseline control as well as age-matched ground control animals 
+kept in an ISS Environmental Simulator at Kennedy Space Center (KSC) on a 4-day delay to mimic 
+spaceflight conditions.  In addition, the NASA Validation study also had a cohort of age-matched 
+vivarium control animals that were housed in the vivarium cages and followed the same experimental 
+timeline and process as the spaceflight animals. A timeline indicating major events in the RR-1 mission is 
+shown in Figure S1.    
+Sample Collection 
+The frozen intact carcasses from the NASA Validation study were partially thawed then dissected at 
+NASA Ames Research Center upon return to Earth.  One lobe of liver from each carcass was removed, 
+immediately homogenized in RLT buffer (Qiagen, Valencia, CA) followed by snap freezing the tissue 
+homogenates in LN2. Quadriceps were snap frozen upon collection. Tissues were stored at -80 °C until 
+extraction. 
+RNA Isolation 
+RNA was isolated from all liver and quadriceps samples using the following methods.  For the liver 
+samples, RNA was extracted with the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA) following the 
+
+ 
+manufacturer’s protocol. Briefly, homogenization buffer was made by adding 1:100 volume ratio of beta-
+mercaptoethanol to RLT buffer and kept on ice until use. Approximately 30 mg of tissue was cut using a 
+sterile scalpel and immediately placed in 800 µL of the RLT buffer solution.  Each sample was then 
+homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld 
+homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates 
+were centrifuged for 3 minutes at room temperature at 15,000 RPM to remove cell debris.  The 
+supernatant from each sample was used to isolate and purify RNA following the manufacturer's protocol 
+including on-column DNase treatment with RNase-free DNase (Qiagen, Valencia, CA).  RNA was eluted 
+twice per sample in 30 µL RNase- and DNase-free H2O per elution.  For quadriceps samples, RNA was 
+extracted using TRIzol reagents (Thermo Fisher Scientific, Waltham, MA) according to the manufacturer’s 
+protocol, and the isolated RNA samples were then treated on column with RNase-free DNase (Qiagen, 
+Valencia, CA) and RNeasy Mini kit (Qiagen, Valencia, CA). Concentration and absorbance ratios of all the 
+isolated liver and quadriceps RNA samples were measured using the NanoDrop 2000 
+spectrophotometer (Thermo Fisher Scientific, Waltham, MA). RNA quality was assessed using the Agilent 
+2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit or Agilent RNA 6000 Pico Kit (Agilent 
+Technologies, Santa Clara, CA).   
+Library Preparation and RNA-Sequencing 
+Samples with RNA Integrity Number (RIN) of 6 or above were sent to the University of California (UC), 
+Davis Genome Center where the libraries were constructed, and RNA-sequencing was performed. All 
+the RR-1 RNA-sequencing data analyzed in this manuscript were obtained from the NASA GeneLab Data 
+Repository (https://genelab.nasa.gov/), including GLDS-47, GLDS-48, and GLDS-168. The RR-1 liver RNA 
+samples were sequenced twice. First, libraries were generated using the Illumina TruSeq Stranded RNA 
+library prep kit (Illumina, San Diego, CA) after polyA selection, and sequencing was done with 50 bp 
+single end reads on the Illumina HiSeq 3000 platform (GLDS-47 and GLDS-48).  Second, selected RNA 
+samples were spiked in with ERCC ExFold RNA Spike-In Mixes (Thermo Fisher Scientific, Waltham, MA) 
+before shipping to the UC Davis Genome Center. Ribosomal RNA was removed with the Illumina 
+RiboZero Gold ribodepletion kit then RNA sequencing libraries were constructed using the KAPA RNA 
+HyperPrep kit (Roche, Basel, Switzerland) and the sequencing was done with 150 bp paired end reads on 
+the Illumina HiSeq 4000 platform (GLDS-168). 
+ 
+Ground-based Tissue Preservation Study 
+Animals 
+20- to 21-week-old female C57BL/6J mice (Jackson laboratories, Bar harbor, ME) were shipped to the 
+NASA Ames Research Center Animal Care Facility and were randomly housed in the standard vivarium 
+cages with up to five mice per cage.  The animals were acclimated for five days before the start of 
+procedures to ensure recovery from the transportation stress.  During acclimation, the animals were 
+maintained on a 12h light/dark cycle and were provided with standard chow and water access ad 
+libitum.  One day before euthanasia, animal body weights were measured and used to distribute the 
+animals into six groups (n=6/group) with similar average body weights. Animal health status, water and 
+food intake were monitored daily. The study followed recommendations in the Guide for the Care and 
+Use of Laboratory Animals (National Research Council, 2011) and was approved on February 8, 2018 by 
+the Institutional Animal Care and Use Committee (IACUC) at NASA Ames Research Center (Protocol 
+number NAS-17-006-Y1). 
+
+ 
+Animal Euthanasia and Dissection 
+The detailed descriptions and rationale of each group are as follows as well as outlined in Figure S6 and 
+Tables S1 and S2. Group 1 (M1-M6) animals were euthanized by intraperitoneal injection of 
+pentobarbital/phenytoin (EuthasolÒ) (80 mg in 0.2 ml) (Virbac, West Lake, TX) followed by cervical 
+dislocation.  Dissection was performed immediately after euthanasia without freezing the carcasses.  Left 
+lobes of livers and quadriceps were subdivided into three sections and each tissue section was 
+preserved either by freezing on dry ice, snap freezing in liquid nitrogen, or preserved in RNAlaterÔ 
+solution (Thermo Fisher Scientific, Waltham, WA). For the tissue sections preserved in RNAlaterÔ, tissue 
+sections were submerged in RNAlaterÔ at 4 °C for 3 days then frozen and stored at -80 °C. Note that 
+this is the only group of animals that were dissected upon euthanasia. Carcasses from animals in 
+subsequent groups were preserved intact using various methods then dissected at a later date. Group 1 
+tissue sections that were preserved by freezing on dry ice most closely mimics the process that was used 
+to generate RR-1 NASA and CASIS immediate samples. 
+Group 2 (M7-M12) animals were euthanized by intraperitoneal injection of pentobarbital/phenytoin 
+(EuthasolÒ) followed by cervical dislocation.  The carcasses were wrapped in foil and preserved by 
+freezing on dry ice, similar to the intact carcass preservation method used for the RR-1 NASA Validation 
+Study.  Once frozen, the carcasses were stored at -80 °C.  On the day of dissection, mouse carcasses 
+were removed from the -80 °C freezer and thawed at room temperature for 15 to 20 minutes prior to 
+dissection.  Left lobes of livers were removed and divided into two: one piece was snap frozen in liquid 
+nitrogen then stored at -80 °C; the other piece was homogenized in RLT buffer (Qiagen, Valencia, CA) 
+and the tissue homogenate was snap frozen in liquid nitrogen then stored at -80 °C for 70 days before 
+RNA extraction to simulate the process used to generate the RR-1 NASA “carcass” liver samples. This 
+extended storage did not result in a substantial number of DEG (Figure S7E&F).  Quadriceps were snap 
+frozen in liquid nitrogen after dissection then stored at -80 °C. 
+Group 3 (M13-M18) animals were euthanized by intraperitoneal injection of pentobarbital/phenytoin 
+(EuthasolÒ) followed by cervical dislocation.  The intact carcasses were wrapped in foil and preserved by 
+snap freezing in liquid nitrogen followed by storage at -80 °C.  On the day of dissection, mouse 
+carcasses were removed from the -80 °C freezer and thawed at room temperature for 15 to 20 minutes 
+prior to dissection.  Left lobes of livers and quadriceps were collected and snap frozen in liquid nitrogen 
+then stored at -80 °C. 
+Group 4 (M19-M24) animals were euthanized by intraperitoneal injection of pentobarbital/phenytoin 
+(EuthasolÒ) followed by cervical dislocation.  The carcasses were sectioned into 3 sections, head, chest, 
+and abdomen with tail removed and discarded and each part was submerged in RNAlaterÔ solution 
+(Thermo Fisher Scientific, Waltham, WA) and placed at 4 °C for 3 days to allow thorough permeation 
+before being stored at -80 °C. On the day of dissection, mouse carcasses were removed from the -80 °C 
+freezer and thawed at room temperature for 15 to 20 minutes prior to dissection.  Left lobes of livers and 
+quadriceps were collected and snap frozen in liquid nitrogen then stored at -80 °C.  This group was used 
+to simulate the procedure done in the RR-7 mission and to test if gene expression signals could be 
+better preserved using an RNA-specific preservative. 
+Group 5 (M25-30) animals were euthanized by intraperitoneal injection of ketamine/xylazine (10mg/mL / 
+3mg/mL in 0.3mL PBS) followed by cervical dislocation.  The intact carcasses were wrapped in foil and 
+preserved by freezing on dry ice then stored at -80 °C.  On the day of dissection, mouse carcasses were 
+removed from the -80 °C freezer and thawed at room temperature for 15 to 20 minutes prior to 
+
+ 
+dissection.  Left lobes of livers and quadriceps were collected and snap frozen in liquid nitrogen then 
+stored at -80 °C.  The euthanasia and preservation methods used in this group mimics the process used 
+to generate RR-3 carcass liver samples (Smith et al., 2017).  Ketamine/xylazine is currently the most 
+common euthanasia method used in RR missions. 
+Group 6 (M31-M36) animals were euthanized by carbon dioxide inhalation followed by cervical 
+dislocation.  The carcasses were wrapped in foil and preserved by freezing on dry ice then stored at -80 
+°C.  On the day of dissection, mouse carcasses were removed from the -80 °C freezer and thawed at 
+room temperature for 15 to 20 minutes prior to dissection.  Left lobes of livers and quadriceps were 
+collected and snap frozen in liquid nitrogen then stored at -80 °C.  This group represents the euthanasia 
+method commonly used in terrestrial laboratories and was used to evaluate any effects on gene 
+expression due to the drug-induced euthanasia methods that have been used in RR missions. 
+RNA Isolation 
+RNA was isolated from partial left liver lobe and partial quadriceps muscle tissues using the AllPrep 
+DNA/RNA Mini Kit (Qiagen, Valencia, CA). Briefly, homogenization buffer was made by adding 1:100 
+volume ratio of beta-mercaptoethanol to RLT buffer and kept on ice until use. On average, 48.85 mg of 
+left liver lobe and 20.08 mg of left or right quadriceps was cut using a sterile scalpel and immediately 
+placed in 600 µL of the RLT buffer solution. Complete tissue dispersion was achieved using the hand-
+held Polytron PT1300D homogenizer with 5 mm standard dispersing aggregate by implementing 20 
+second homogenization periods at a speed of 20,000 RPM. Homogenized samples were centrifuged for 
+3 minutes at room temperature at 15,000 RPM to remove cell debris. The supernatant from each sample 
+was used to isolate and purify RNA following the manufacturer's protocol.  RNA was treated with RNase-
+Free DNase (Qiagen, Valencia, CA) and eluted in 50 µL of RNase- and DNase-free H2O molecular grade 
+water. RNA concentration was measured using Qubit 3.0 Fluorimeter (Thermo Fisher Scientific, Waltham, 
+MA). RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit 
+or Agilent RNA 6000 Pico Kit (Agilent Technologies, Santa Clara, CA).   
+Library Preparation and Sequencing 
+Three microliters of Mix 1 or Mix 2 of ERCC ExFold RNA Spike-In (Thermo Fisher Scientific, Waltham, 
+MA) at a dilution of 1:100 was added to 1.5 µg aliquots of RNA immediately after extraction. The two 
+mixes were randomly distributed within the six experimental groups. In addition, Universal Human and 
+Mouse Reference RNA samples (Agilent Technologies, Santa Clara, CA) were included as control 
+samples in the library construction and sequencing. 
+Library construction was performed using 500 ng of ERCC-spiked total RNA with an average RIN of 7.8 
+for liver samples and 9.8 for quadriceps samples. Total RNA was depleted of the ribosomal fraction and 
+libraries were constructed with TruSeq Stranded Total RNA with Ribo-Zero Gold kit (Illumina, San Diego, 
+CA). Libraries were indexed using 1.5 µM Unique Dual Index adapters with Unique Molecular Identifiers 
+(Integrated DNA Technologies, Coralville, IA) and 15 cycles of amplification were performed to reach 
+desired library concentration. Library size was assessed with 4200 TapeStation (Agilent Technologies, 
+Santa Clara, CA), targeting average size of 300 nt. 
+Libraries were multiplexed then quantified using Universal qPCR Master Mix (Kapa Biosystems, 
+Wilmington, MA). The library pool was sequenced on an iSeq 100 (Illumina, San Diego, CA) to assess 
+sample quality and pool balancing before large-scale sequencing. The final library pool (with 1% PhiX 
+
+ 
+spike-in for instrument control) was sequenced on a NovaSeq 6000 using one S4 and one S2 Reagent Kit 
+(Illumina, San Diego, CA), paired-end and 149 bp reads, targeting 60 million clusters for each 
+experimental sample. 
+ 
+GLDS-49 Ground-based Freezing Study 
+Animals 
+As described previously (Choi et al., 2020), the study followed recommendations in the Guide for the 
+Care and Use of Laboratory Animals (National Research Council, 2011) and was approved on May 21, 
+2014 by the Institutional Animal Care and Use Committee (IACUC) at NASA Ames Research Center and 
+Kennedy Space Center (Protocol number NAS-13-002-Y1). 
+To compare standard laboratory protocols for tissue freezing and storage with a spaceflight timeline-
+simulated liver dissection and long-term storage, liver samples from twelve-week old female C57BL/6J 
+mice (Jackson laboratories, Bar harbor, ME) were either immediately snap frozen (in liquid nitrogen), 
+snap frozen after a 25 min delay and stored for 3 days, or snap frozen after a 25 min delay and stored for 
+1 year (Figure S2). 
+Sample Collection 
+The liver tissues of twelve-week-old C57BL/6J mice (Jackson laboratories, Bar harbor, ME) were received 
+from the Rodent Research project collected in a ground-based preservation and storage study (Choi et 
+al., 2016). Three groups of livers were included: 1) Liver tissues dissected and frozen on dry ice 25 min 
+after euthanizing with pentobarbital/phenytoin (EuthasolÒ) followed by cervical dislocation. At the time 
+of RNA extraction, the liver tissues had been stored at -80 °C for around 1-year; 2) Liver tissues dissected 
+3 min after euthanizing with pentobarbital/phenytoin (EuthasolÒ) followed by cervical dislocation and 
+snap-freezing in liquid nitrogen. At the time of RNA extraction, the liver tissues had been stored at -80 
+°C for around 1-year; 3) Liver tissues dissected 3 minutes after euthanizing with pentobarbital/phenytoin 
+(EuthasolÒ) followed by cervical dislocation and snap-freezing in liquid nitrogen. At the time of RNA 
+extraction, the liver tissues had been stored at -80 ºC for only 3 days. This group served as a positive 
+control for delayed dissection and long-term storage.  
+RNA Isolation 
+RNA was isolated using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA) following the 
+manufacturer’s protocol. Briefly, homogenization buffer was made by adding 1:100 volume ratio of beta-
+mercaptoethanol to RLT buffer and kept on ice until use. Approximately 30 mg of tissue was cut using a 
+sterile scalpel and immediately placed in 800 µL of the RLT buffer solution. Each sample was then 
+homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld 
+homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates 
+were centrifuged for 3 minutes at room temperature at 15,000 RPM to remove cell debris. The 
+supernatant from each sample was used to isolate and purify RNA following the manufacturer's protocol 
+including on-column DNase treatment with RNase-free DNase (Qiagen, Valencia, CA). RNA was eluted 
+twice per sample in 30 µL RNase- and DNase-free H2O per elution. Concentration and absorbance ratios 
+were measured using the NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA). 
+
+ 
+RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit 
+(Agilent Technologies, Santa Clara, CA).   
+Library Preparation and RNA-Sequencing 
+Samples with RNA Integrity Number (RIN) of 9 or above were sent to the University of California (UC), 
+Davis Genome Center where the libraries were constructed, and RNA-sequencing was performed. 
+Libraries were generated using the Illumina TruSeq Stranded RNA library prep kit (Illumina, San Diego, 
+CA) after polyA selection, and sequencing was done with 50 bp single end reads on the Illumina HiSeq 
+3000 platform. 
+ 
+RNA Sequencing Data Analysis 
+Raw RNA sequence data from the RR-1 NASA Validation flight liver (GLDS-48 and GLDS-168) samples, 
+RR-1 CASIS liver samples (GLDS-47), and the ground-based studies designed to simulate and assess 
+spaceflight euthanasia, carcass and tissue preservation, and/or storage protocols, GLDS-49, GLDS-235, 
+and GLDS-236 were analyzed using the GeneLab standard RNAseq analysis pipeline 
+(https://github.com/nasa/GeneLab_Data_Processing/tree/master/RNAseq). First, adapters were 
+removed with Cutadapt (v2.3) (Martin, 2011) using the Trim Galore! (v0.6.2) wrapper. Raw and trimmed 
+read quality were evaluated with FastQC (v0.11.8), and MultiQC (v1.7) was used to generate MultiQC 
+reports. Mus musculus STAR and RSEM references were built using STAR (v2.7.1a) and RSEM (v1.3.1) (Li 
+and Dewey, 2011), respectively, with ensembl genome version mm10-GRCm38 
+(Mus_musculus.GRCm38.dna.toplevel.fa), and the following gtf annotation file: 
+Mus_musculus.GRCm38.96.gtf. Trimmed reads were aligned to the Mus musculus STAR reference with 
+STAR (v2.7.1a) (Dobin et al., 2013) and aligned reads were quantified using RSEM (v1.3.1) (Li and Dewey, 
+2011).  
+The following samples were used for downstream analyses (abbreviations are consistent with the 
+respective sample names in the GLDS Data Repository); GLDS-47: FLT and GC; GLDS-48: FLT_C, FLT_I, 
+GC_C, and GC_I; GLDS-49: LN2_3d, LN2_1y, DI_1y; GLDS-168: RR1_FLT_wERCC and RR1_GC_wERCC; 
+for GLDS-235 and GLDS-236, all samples indicated in Figure S6 and Tables S1 and S2 were included. 
+For each GLDS dataset, quantification data from select samples were imported to R (v3.6.0) with 
+tximport (v1.14.0) (Soneson et al., 2016) and normalized with DESeq2 (v1.26.0) (Love et al., 2014). All 
+ERCC genes were removed prior to normalization. Differential expression analysis was performed in R 
+(v3.6.0) using DESeq2 (v1.26.0) (Love et al., 2014); all groups were compared using the Wald test and 
+the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned 
+using the following Bioconductor and annotation packages: STRINGdb (Szklarczyk et al., 2019), 
+PANTHER.db (Muller, 2017), and org.Mm.eg.db (Carlson, 2017). 
+ 
+Transcript Integrity Analysis 
+The geneBody_coverage.py function from RSeQC (v3.0.1) (Wang et al., 2012) was used to assess 
+coverage across the median 1000 expressed genes across all datasets. A transcript integrity metric was 
+defined as the ratio between the coverage in a window corresponding to position 10-30% and 80-100% 
+
+ 
+(relative to the entire gene length) and used in boxplots. To determine significance between groups the 
+nonparametric Mann–Whitney U test was used as distributions were not normal. 
+ 
+Gene Set Enrichment Analysis 
+Pairwise gene set enrichment analysis (GSEA) was performed on the normalized counts from select 
+samples in GLDS-48, GLDS-168, GLDS-235, and GLDS-236 using the C5: Gene Ontology (GO) gene set 
+(MSigDB v7.1) as described (Subramanian et al., 2005). All comparisons were performed using the 
+phenotype permutation, except those involving GLDS-48 immediate samples, which used the gene set 
+permutation due to low sample size. The ranked lists of genes were defined by the signal-to-noise 
+metric, and the statistical significance were determined by 1000 permutations of the gene set. FDR £ 
+0.25 and FDR £ 0.05 were considered significant for comparisons using the phenotype and gene set 
+permutations, respectively, according to the authors’ recommendation. 
+Supplemental References 
+Carlson, M. (2017). org.Mm.eg.db. Bioconductor. https://doi.org/10.18129/B9.BIOC.ORG.MM.EG.DB 
+Dobin, A., Davis, C.A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., Gingeras, 
+T.R. (2013). STAR: ultrafast universal RNA-seq aligner. Bioinformatics 29, 15–21. 
+Li, B., Dewey, C.N. (2011). RSEM: accurate transcript quantification from RNA-Seq data with or without a 
+reference genome. BMC Bioinformatics 12, 323. 
+Love, M.I., Huber, W., Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-
+seq data with DESeq2. Genome Biol 15, 550. 
+Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput sequencing reads. 
+EMBnet j. 17, 10. 
+Muller, J. (2017). PANTHER.db. Bioconductor. https://doi.org/10.18129/B9.BIOC.PANTHER.DB 
+National Research Council. (2011). Guide for the care and use of laboratory animals (National Academies 
+Press). 
+Smith, R., Cramer, M., Globus, R., Galazka, J. (2017). Rodent Research-3-CASIS: Mouse liver 
+transcriptomic, proteomic, and epigenomic data. GeneLab, Version 4, 
+http://doi.org/10.26030/9k6w-4c28. 
+Soneson, C., Love, M.I., Robinson, M.D. (2016). Differential analyses for RNA-seq: transcript-level 
+estimates improve gene-level inferences. F1000Res 4, 1521. 
+Subramanian, A., Tamayo, P., Mootha, V.K., Mukherjee, S., Ebert, B.L., Gillette, M.A., Paulovich, A., 
+Pomeroy, S.L., Golub, T.R., Lander, E.S., Mesirov, J.P. (2005). Gene set enrichment analysis: A 
+knowledge-based approach for interpreting genome-wide expression profiles. Proceedings of 
+the National Academy of Sciences 102, 15545–15550. 
+
+ 
+Szklarczyk, D., Gable, A.L., Lyon, D., Junge, A., Wyder, S., Huerta-Cepas, J., Simonovic, M., Doncheva, 
+N.T., Morris, J.H., Bork, P., Jensen, L.J., Mering, C. von. (2019). STRING v11: protein–protein 
+association networks with increased coverage, supporting functional discovery in genome-wide 
+experimental datasets. Nucleic Acids Research 47, D607–D613. 
+Wang, L., Wang, S., Li, W. (2012). RSeQC: quality control of RNA-seq experiments. Bioinformatics 28, 
+2184–2185. 
+ 

@@ -1,0 +1,91 @@
+Correction for Vangay et al., “Microbiome Metadata Standards:
+Report of the National Microbiome Data Collaborative’s
+Workshop and Follow-On Activities”
+Pajau Vangay,a
+Josephine Burgin,b Anjanette Johnston,c
+Kristen L. Beck,d
+Daniel C. Berrios,e
+Kai Blumberg,f
+Shane Canon,a Patrick Chain,g
+John-Marc Chandonia,a Danielle Christianson,a Sylvain V. Costes,e Joan Damerow,a
+William D. Duncan,a
+Jose Pablo Dundore-Arias,h Kjiersten Fagnan,a
+Jonathan M. Galazka,e
+Sean M. Gibbons,i,j David Hays,a
+Judson Hervey,k
+Bin Hu,g
+Bonnie L. Hurwitz,f
+Pankaj Jaiswal,l Marcin P. Joachimiak,a Linda Kinkel,m Joshua Ladau,a
+Stanton L. Martin,n
+Lee Ann McCue,o
+Kayd Miller,a Nigel Mouncey,a Chris Mungall,a
+Evangelos Paﬁlis,p
+T. B. K. Reddy,a
+Lorna Richardson,b
+Simon Roux,q Lynn M. Schriml,w
+Justin P. Shaffer,r
+Jagadish Chandrabose Sundaramurthi,a
+Luke R. Thompson,s,t
+Ruth E. Timme,u
+Jie Zheng,v
+Elisha M. Wood-Charlson,a
+Emiley A. Eloe-Fadrosha
+aLawrence Berkeley National Laboratory, Berkeley, California, USA
+bEuropean Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK
+cNational Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA
+dIBM Almaden Research Center, San Jose, California, USA
+eNASA Ames Research Center, Moffett Field, California, USA
+fBiosystems Engineering Department, University of Arizona, Tucson, Arizona, USA
+gLos Alamos National Laboratory, Los Alamos, New Mexico, USA
+hCalifornia State University, Monterey Bay, California, USA
+iInstitute for Systems Biology, Seattle, Washington, USA
+jDepartment of Bioengineering, University of Washington, Seattle, Washington, USA
+kCenter for Bio/Molecular Science & Engineering, Naval Research Laboratory, Washington, DC, USA
+lDepartment of Botany and Plant Pathology, Oregon State University, Corvallis, Oregon, USA
+mDepartment of Plant Pathology, University of Minnesota, St. Paul, Minnesota, USA
+nOak Ridge National Laboratory, Oak Ridge, Tennessee, USA
+oPaciﬁc Northwest National Laboratory, Richland, Washington, USA
+pInstitute of Marine Biology Biotechnology and Aquaculture, Hellenic Centre for Marine Research, Heraklion,
+Crete, Greece
+qDepartment of Energy Joint Genome Institute, Berkeley, California, USA
+rDepartment of Pediatrics, School of Medicine, University of California, San Diego, California, USA
+sNorthern Gulf Institute, Mississippi State University, Mississippi State, Mississippi, USA
+tOcean Chemistry and Ecosystems Division, Atlantic Oceanographic and Meteorological Laboratory,
+National Oceanic and Atmospheric Administration, Miami, Florida, USA
+uUS Food and Drug Administration, Center for Food Safety and Applied Nutrition, College Park, Maryland, USA
+vDepartment of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia,
+Pennsylvania, USA
+wUniversity of Maryland School of Medicine, Institute for Genome Sciences, Baltimore, Maryland, USA
+Volume 6, no. 1, e01194-20, 2021, https://doi.org/10.1128/mSystems.01194-20. The
+article byline and afﬁliation line should read as given in this correction.
+Citation Vangay P, Burgin J, Johnston A, Beck
+KL, Berrios DC, Blumberg K, Canon S, Chain P,
+Chandonia J-M, Christianson D, Costes SV,
+Damerow J, Duncan WD, Dundore-Arias JP,
+Fagnan K, Galazka JM, Gibbons SM, Hays D,
+Hervey J, Hu B, Hurwitz BL, Jaiswal P,
+Joachimiak MP, Kinkel L, Ladau J, Martin SL,
+McCue LA, Miller K, Mouncey N, Mungall C,
+Paﬁlis E, Reddy TBK, Richardson L, Roux S,
+Schriml LM, Shaffer JP, Sundaramurthi JC,
+Thompson LR, Timme RE, Zheng J, Wood-
+Charlson EM, Eloe-Fadrosh EA. 2021. Correction
+for Vangay et al., “Microbiome metadata
+standards: report of the National Microbiome
+Data Collaborative’s workshop and follow-on
+activities.” mSystems 6:e00273-21. https://doi
+.org/10.1128/mSystems.00273-21.
+Copyright © 2021 Vangay et al. This is an
+open-access article distributed under the terms
+of the Creative Commons Attribution 4.0
+International license.
+Address correspondence to Emiley A. Eloe-
+Fadrosh, eaeloefadrosh@lbl.gov.
+Published 4 May 2021
+May/June 2021
+Volume 6
+Issue 3
+e00273-21
+msystems.asm.org
+1
+AUTHOR CORRECTION

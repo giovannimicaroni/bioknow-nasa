@@ -1,0 +1,977 @@
+Research Article
+A Tissue Retrieval and Postharvest Processing
+Regimen for Rodent Reproductive Tissues Compatible with
+Long-Term Storage on the International Space Station and
+Postflight Biospecimen Sharing Program
+Vijayalaxmi Gupta,1 Lesya Holets-Bondar,1 Katherine F. Roby,2,3
+George Enders,2 and Joseph S. Tash1
+1Department of Molecular & Integrative Physiology, University of Kansas Medical Center, Mail Stop 3050, 3901 Rainbow Boulevard,
+HLSIC 3098, Kansas City, KS 66160, USA
+2Department of Anatomy and Cell Biology, University of Kansas Medical Center, Kansas City, KS 66160, USA
+3Institute for Reproductive Health and Regenerative Medicine, University of Kansas Medical Center, Kansas City, KS 66160, USA
+Correspondence should be addressed to Joseph S. Tash; jtash@kumc.edu
+Received 6 June 2014; Revised 18 September 2014; Accepted 20 October 2014
+Academic Editor: Jack J. W. A. Van Loon
+Copyright © 2015 Vijayalaxmi Gupta et al. This is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly
+cited.
+Collection and processing of tissues to preserve space flight effects from animals after return to Earth is challenging. Specimens
+must be harvested with minimal time after landing to minimize postflight readaptation alterations in protein expression/translation,
+posttranslational modifications, and expression, as well as changes in gene expression and tissue histological degradation after
+euthanasia. We report the development of a widely applicable strategy for determining the window of optimal species-specific and
+tissue-specific posteuthanasia harvest that can be utilized to integrate into multi-investigator Biospecimen Sharing Programs. We
+also determined methods for ISS-compatible long-term tissue storage (10 months at −80∘C) that yield recovery of high quality
+mRNA and protein for western analysis after sample return. Our focus was reproductive tissues. The time following euthanasia
+where tissues could be collected and histological integrity was maintained varied with tissue and species ranging between 1 and
+3 hours. RNA quality was preserved in key reproductive tissues fixed in RNAlater up to 40 min after euthanasia. Postfixation
+processing was also standardized for safe shipment back to our laboratory. Our strategy can be adapted for other tissues under
+NASA’s Biospecimen Sharing Program or similar multi-investigator tissue sharing opportunities.
+1. Introduction
+With the current paucity of opportunities for studying whole
+animal mammalian physiology in space flight, the Biospec-
+imen Sharing Program (BSP) for postflight tissue collection
+offers the opportunity to broaden access to biological samples
+shortly after return and maximize the data generated from
+flight animal payloads. The logistics of space flight experi-
+ments involving live animals often requires harvesting tissues
+at a remote site, followed by shipping the specimens to the
+Principle Investigators’ laboratories for detailed analysis. Fur-
+thermore, as the capabilities to house rodent and other animals
+on the International Space station (ISS), and to conduct long-
+term space flight experiments using animals are enabled, the
+need to harvest and fix tissues for long-term storage on ISS
+that will retain high quality RNA and protein for subsequent
+analysis in laboratories on Earth is also required. These
+approaches to live animal experimentation in space flight
+that include tissue harvest for multiple investigators require
+determination of (1) tissue-specific windows of time between
+euthanasia and tissue fixation that retain quality of histology
+and (2) tissue-specific windows of time for tissue fixation that
+retain high quality protein and RNA for subsequent analysis.
+Determination of these windows provides a quantitative,
+logical approach to generate appropriately prioritized and
+optimized tissue harvest and fixation logistics in a multi-
+investigator Biospecimen Sharing Program scenario, be it on
+Earth or during tissue harvest on the ISS. In addition, tissue
+Hindawi Publishing Corporation
+BioMed Research International
+Volume 2015, Article ID 475935, 12 pages
+http://dx.doi.org/10.1155/2015/475935
+
+2
+BioMed Research International
+storage methods should retain high sample quality under
+long-term storage, as samples may be harvested and stored on
+the ISS but may not be returned to Earth for many months,
+depending on ISS to Earth flight frequency and payload
+capacities. This issue has been addressed for preserving plant
+material for gene expression analysis [1], but there is no
+data available for animal tissues. Our participation in the
+BSP program involved tissue harvest from female mice at
+Kennedy Space Center, Florida, USA (KSC) for animals flown
+for 12–15 days in orbit on three space shuttle flights: STS-131,
+STS-133, and STS-135. In addition, we harvested tissues from
+male mice at the Institute for Biomedical Problems (IMBP)
+laboratory in Moscow, RU for animals flown for 30 days
+in orbit on the BION M1 satellite. Both the STS and BION
+series of flight experiments involved age- and time-matched
+ground control groups of animals. During the early flight
+planning phase of BION, there were possibilities that male
+or female mice would be flown and that male gerbil tissues
+may also be provided to the BSP. Thus, to be prepared for any
+of these possibilities, we undertook to determine the optimal
+tissue harvest windows for all of the species and reproductive
+tissues that we might be able to obtain. Our participation
+in these multi-investigator specimen sharing efforts covering
+four different primary flight PI experimental designs and
+harvest logistics necessitated a determination of the window
+of time between euthanasia and harvest and preservation of
+our tissues of interest that would allow us sufficient flexibility
+to obtain the highest possible quality of tissue for histopathol-
+ogy, RNA for gene-transcription analysis, and protein for
+expression and posttranslational modification analysis. A
+determination of these time windows is essential, since the
+tissues that are made available to the BSP investigators are
+provided after the primary flight PI’s have obtained their tis-
+sues. Knowledge of the optimal windows for all of the tissues
+of interest aids in the preparation of targeted tissue harvest
+flow logistics that can provide each of the BSP team members
+the highest possible quality tissue, respectively. Therefore, as
+we report here, we developed a strategy to determine the
+window of time between euthanasia and fixation for retention
+of high quality histology for male and female reproductive
+organs. We also determined methods for long-term tissue
+storage for 10 months that provide for recovery of both high
+quality protein and RNA. These strategies are adaptable and
+can be applied to harvest and storage of other time-sensitive
+labile tissues from animals and plants. Furthermore, these
+methods can be used to optimize logistics and data collection
+under multi-investigator tissue harvest and sharing programs
+operated by any space agency, commercial entity, or flight
+platform.
+2. Materials and Methods
+2.1. Animals. Approximately 8 wk old male and female
+C57Bl/6J (Jackson Lab, Bar Harbor, ME) and ∼10-month old
+male and female Mongolian gerbils (Charles River, Wilming-
+ton, MA) were used throughout this study. All animal use
+protocols were approved by the University of Kansas Insti-
+tutional Animal Care and Use Committee (IACUC). Animals
+were maintained in standard cages with 12 : 12 h dark : light
+cycle, and standard food and water were provided ad libitum.
+All animals were euthanized using CO2 asphyxiation fol-
+lowed by cervical dislocation prior to tissue harvest.
+2.2. Determination of the Limit of Time and
+Temperature between Euthanasia and Tissue Fixation
+2.2.1. Male Mice. Our protocol consisted of three groups of
+six mice each, with one mouse for each time point. In group
+A, all mice were euthanized at one time and the testes and
+epididymides were harvested and separated and then imme-
+diately placed in Ham’s F-10 medium (Sigma Aldrich, St.
+Louis, MO) on ice. At time intervals of 0, 0.5, 1.0, 1.5, 2.0, and
+2.5 hr each testis (one mouse per time point) and epididymis
+(2 mice per time point) were separated and then transferred
+from Ham’s F-10 medium to Bouin’s fixative (Sigma Aldrich,
+St. Louis, MO) at room temperature (RT; 21∘C). In group B,
+the same procedure was followed, except that the testes and
+epididymides, separated, were placed in Ham’s F-10 medium
+at RT until transfer to Bouin’s at the same time interval as
+above. In group C, all mice were euthanized at one time, the
+carcasses were maintained at (RT), and then at time 0, 0.5, 1.0,
+1.5, 2.0, and 2.5 hr, the testis and epididymis were harvested
+from the carcasses, respectively. At each of the time points
+above, group C testes were placed in Bouin’s solution and pro-
+cessed as per standard histology protocols, as detailed below.
+For all groups, the tissues fixed in Bouin’s were processed as
+detailed in Section 2.3, below. At the same time point, group
+C epididymides were processed to obtain cauda sperm to
+assess sperm motility by computer assisted sperm analysis
+(CASA) [2]. For animals used for collection of cauda epi-
+didymal sperm for motility analysis, two animals were used at
+each time point.
+2.2.2. Female Mice. Female mice were euthanized (carcasses
+maintained at RT as per group C, above) and their ovaries and
+uteri were harvested at 0, 0.5, 1.0, 1.5, 2.0, 2.5, and 3.0 hr after
+euthanasia (one animal per time point). At the times indi-
+cated, the tissues were fixed at RT in Bouin’s overnight and
+then processed for histology as detailed below (Section 2.3).
+2.2.3. Mongolian Gerbils. The six male gerbils were euth-
+anized at one time, and the carcasses were kept at room
+temperature. At 0, 0.5, 1.0, 1.5, 2.0, and 3.0 hr after euthanasia,
+testis and epididymis were harvested from the carcasses and
+separated, respectively (one animal per time point). Similarly,
+all six female gerbils were euthanized and the carcasses were
+kept at RT. Ovaries and uterine horns were harvested from
+each carcass at the same time interval as the males. At the
+times indicated above, the tissues were placed in Bouin’s fixa-
+tive at RT and then processed for histology, as detailed below
+(Section 2.3). Sperm were immediately harvested from cauda
+epididymis as mentioned above, and sperm motility analysis
+was carried out using CASA, as described above [2].
+2.3. Postharvest Processing of Mouse Testicular Tissues. Testes
+and epididymides from the mature mice were harvested, as
+
+BioMed Research International
+3
+detailed above. Unless indicated otherwise, all procedures
+were done at RT. Tissues were fixed in Bouin’s solution for
+48 h, washed in 70% ethanol (ETOH) until the yellow color
+of Bouin’s disappeared (∼48 hr with frequent changes of 70%
+ETOH and gentle agitation), and divided into four groups:
+Control group: tissue was stored in 70% ETOH until paraffin
+embedding; Rapid transition: 70% ETOH was immediately
+replaced with PBS (Sigma Aldrich, St. Louis, MO), pH 7.4
+for one wk, and then rapidly replaced with 70% ETOH;
+Slow Re-ETOH only: 70% ETOH was immediately replaced
+with PBS for one wk and then sequentially replaced at 2 hr
+intervals with each of 10%, 30%, 50%, and 70% ETOH; Slow
+rehydration-dehydration: 70% ETOH was sequentially (70%,
+50%, 30%, 10%, then PBS, at 2 hr each) substituted with PBS
+for one wk and then replaced at 2 hr intervals with each of
+10%, 30%, 50%, and 70% ETOH. To prevent contamination,
+we kept tissue in PBS at 4∘C, and ETOH replacement was
+completed at RT with 2 hr intervals between changes, as
+detailed above. After each of the respective final dehydration
+steps above, the tissues were paraffin-embedded and pro-
+cessed for histology and hematoxylin and eosin staining (HE)
+using standard methods as performed previously [3].
+2.4. Total RNA Extraction and Preservation. Freshly harves-
+ted mouse testes were immediately stabilized in 10 volumes
+of TRIzol reagent (Invitrogen, Carlsbad, CA) or RNAlater
+solution (Ambion, Austin, TX). The samples placed in
+RNAlater were stored for (1) two wks at 4∘C; (2) one wk at RT
+and one wk at 4∘C; or (3) two wks at RT. Before RNA
+extraction, tissues were retrieved from RNAlater solution
+with sterile forceps and then submerged in TRIzol reagent.
+RNA was isolated with TRIzol reagent according to the manu-
+facturer’s instructions. Time of placement into RNAlater was
+noted to determine if RNA quality was related to the duration
+of window from euthanasia to placement in RNAlater. RNA
+integrity and quantity were determined using Agilent RNA
+kit and Agilent Bioanalyzer 2100 (Santa Clara, CA). One 𝜇g of
+RNA was subjected to RT PCR with the primers specific for
+mouse GAPDH (Forward: 5󸀠CCTTCATTGACCTCAAC-
+TAC; Reverse: 5󸀠ATGACAAGCTTCCCATTCTC), and inte-
+rleukin-1alpha (IL-1𝛼) (Forward: 5󸀠ACTTGTTTGAAGAC-
+CTAAAG; Reverse: 5󸀠GTTTCAGAGGTTCTCAGAG). Pri-
+mers were designed using online Primer Design Tool Primer
+3. Uteri and ovaries from STS-135 were harvested in RNAlater
+solution and stored at −80∘C for 10 months. Total RNA was
+isolated from ovaries and uterine horns with Gene Elute
+Mammalian RNA kit (Sigma Aldrich, St. Louis, MO). PCR
+products were verified on 3.0% agarose gels using standard
+procedures.
+2.5. Protein Extraction from Ovaries and Uterus Tissue Pre-
+served in RNAlater. Ovaries stabilized in RNAlater for one
+wk at RT and two wks at 4∘C were used for protein extrac-
+tion. The tissue was removed from RNAlater, briefly rinsed
+with ice-cold PBS, pH 7.4, and then homogenized in RIPA
+buffer containing protease inhibitor cocktail (all from Sigma
+Aldrich, St. Louis, MO) or ProteoJet Mammalian Cell Lysis
+Reagent (Fermentas, Pittsburgh, PA). Uteri from STS-135
+mission mice were preserved in RNAlater for 10 months at
+−80∘C, prior to processing in RIPA as described above. Pro-
+tein concentration was determined using the DC Assay (Bio-
+Rad, Hercules, CA), and 15 𝜇g protein was electrophoresed
+under denaturing conditions on 4–15% polyacrylamide gel
+and transferred to nitrocellulose membrane (Bio-Rad, Her-
+cules, CA). The membranes were blocked for 1 hr with 5%
+nonfat milk in TBS-T (Tris buffered saline with Tween-20,
+Sigma Aldrich, St Louis, MO) and probed with 1 𝜇g/mL rabbit
+anti-mouse estrogen receptor alpha (ER𝛼) antibody (Santa
+Cruz Biotechnology, CA). To verify equal loading of proteins,
+membranes were stripped and reprobed with a goat anti-𝛽-
+actin antibody (Santa Cruz Biotechnology, CA). Incubations
+with primary antibodies were carried out overnight at 4∘C.
+After washing in TBS-T and probing with the corresponding
+horseradish peroxidase-labeled secondary antibody (Pierce
+Biotechnology, Rockford, IL), bound antibodies were iden-
+tified using Amersham ACL Plus Western Blotting Detection
+Reagents (GE Healthcare, Pittsburgh, PA) and luminography.
+Western blots were quantitated by densitometric analysis.
+3. Results
+3.1. Effect of Delayed Processing on Quality of Mouse and
+Gerbil Reproductive Tissue Histology
+3.1.1. Male Mouse. Testes harvested any time between time
+0 after euthanasia up to 2.5 hr after euthanasia showed
+histological properties comparable to the time 0-harvested
+mice. For comparative purposes, the 0 min harvested testes
+represent the control for subsequent time points for each
+storage treatment, respectively. Histological quality of the
+testes was excellent in all postharvest treatment procedures;
+namely, tissues were kept in the carcass until fixation or fixed
+in Bouin’s immediately or stored in Hams F10 on ice or RT
+before fixation. Testis tubules appeared normal in all treat-
+ment groups compared to the 0 min controls, with no
+shrinkage of tissue and complete retention of histologic archi-
+tectural details (Figures 1(a), 1(b), and 1(c)).
+Total motility and progressive motility of cauda epididymal
+mouse sperm at times 0, 0.5, 1.0, 1.5, 2.0, and 2.5 hr were not
+significantly different between any of the tissue harvest time
+points and also not significantly different between the three
+tissue harvest scenarios. Table 1 shows the percent progressive
+motility for each time point under all three tissue storage
+conditions. Table 2 shows the percent total motility for each
+time point under all three tissue storage conditions. Based on
+comparable results between the three tissue harvest regimens,
+we focused on the “tissue in carcass” at RT regimen for
+subsequent experiments with female mice, as well as male and
+female gerbils.
+3.1.2. Male Gerbil. Testis showed normal distinct histological
+details with all spermatogenic cells arranged in a normal pat-
+tern in the tubule when collected up to 2.5 hr after euthanasia
+(Figure 2). Total motility of the gerbil cauda epididymal
+sperm harvested at each at time point was analyzed and is
+presented in Table 3. Since the data represent a single animal,
+
+4
+BioMed Research International
+(a)
+(b)
+(c)
+Figure 1: Effect of delayed processing on C57Bl/6J testicular morphology. Each panel represents light microscopy (40x objective) of sections
+of adult mouse testis stained with hematoxylin and eosin (HE) (magnification bar is 100 𝜇m). (a) Tissues kept on ice for 0 to 2.5 hr after
+harvesting; (b) tissues allowed to remain in the carcass for 0 to 2.5 hr; (c) tissues removed and kept at RT for 0 to 2.5 hr in Ham’s F10 after
+harvesting.
+
+BioMed Research International
+5
+Figure 2: Gerbil testicular morphology (40x objective) at various time points after tissue harvest from the carcass (magnification bar is 50 𝜇m).
+All gerbils were euthanized at once and tissues were harvested from the carcass at 0.5 hr interval from 0 to 2.5 hr. HE staining demonstrated
+the retention of histological features at every time point.
+Table 1: Percent progressive motility (±SD) of mouse cauda epididy-
+mal sperm after exposure of epididymis to various conditions.
+Time after
+euthanasia
+In carcass
+On ice∗
+∗At room
+temperature
+0 h
+23 ± 18
+25 ± 26
+26 ± 19
+0.5 h
+28 ± 13
+22 ± 13
+27 ± 12
+1.0 h
+31 ± 3
+32 ± 19
+31 ± 9
+1.5 h
+27 ± 6
+47 ± 9
+30 ± 11
+2.0 h
+26 ± 7
+18 ± 9
+28 ± 14
+2.5 h
+26 ± 9
+23 ± 12
+25 ± 16
+∗Tissue was submerged in Ham’s F-10 medium in a 15 mL tissue culture tube
+which was placed on ice or at room temperature. Values are mean ± standard
+deviation (𝑛= 2 mice at each time point). There was no significant difference
+in motility between the three testing conditions at each time point.
+statistical analysis cannot be done. Given the variation in
+motility with time, the data suggest that motility was relatively
+stable at all time points, except with perhaps a drop at 2.5 hr.
+3.1.3. Female Mouse. The ovaries (Figure 3(a)) and uteri
+(Figure 3(b)) harvested from female mice up to 3 hr after
+euthanasia showed excellent histological properties devoid of
+apparent tissue degradation.
+3.1.4. Female Gerbil. Gerbil ovaries (Figure 3(c)) harvested up
+to 1 hr after euthanasia showed normal healthy follicles and
+Table 2: Percent total motility (±SD) of mouse cauda epididymal
+sperm after exposure of epididymis to various posteuthanasia
+conditions.
+Time after
+euthanasia
+In carcass
+On ice∗
+∗At room
+temperature
+0 h
+48 ± 18
+49 ± 29
+45 ± 21
+0.5 h
+51 ± 12
+47 ± 11
+50 ± 15
+1.0 h
+53 ± 6
+60 ± 21
+40 ± 9
+1.5 h
+57 ± 12
+67 ± 16
+54 ± 11
+2.0 h
+51 ± 14
+46 ± 14
+43 ± 14
+2.5 h
+50 ± 17
+49 ± 18
+52 ± 12
+∗Tissue was submerged in Ham’s F-10 medium in a 15 mL culture tube which
+was placed on ice or at room temperature as indicated. Values are mean ±
+standard deviation (𝑛= 2 mice at each time point). There was no significant
+difference in motility between the three testing conditions at each time point.
+Table 3: Percent total motility of gerbil cauda epididymal sperm
+recovered from the epididymis after storage in the carcass at RT for
+the times indicated (𝑛= 1 at each time point).
+Time after
+euthanasia
+Total motility
+(%)
+Progressive
+motility (%)
+0 h
+98.3
+85.0
+0.5 h
+82.4
+58.0
+1.0 h
+82.6
+61.0
+1.5 h
+95.2
+86.2
+2.0 h
+87.9
+73.2
+2.5 h
+75.6
+47.5
+Since we used one animal per time point, standard deviation could not be
+determined.
+
+6
+BioMed Research International
+(a)
+(b)
+(c)
+(d)
+(e)
+Figure 3: Mouse and gerbil ovarian and uterine horn histology. HE staining was used to evaluate quality of oocyte and follicles. Rows
+represent HE staining of: (a) mouse ovary up to 3 hr after euthanasia (4x objective, magnification bar is 500 𝜇m); (b) mouse uteri up to
+3 hr after euthanasia (10x objective, magnification bar is 500 𝜇m); (c) gerbil ovary up to 1.5 hr after euthanasia (4x objective; magnification
+bar is 500 𝜇m); (d) significantly high number of vacuoles are indicated in the yellow circles in gerbil ovaries from 1.5 h after euthanasia (40x
+objective, magnification bar is 100 𝜇m); (e) gerbil uteri up to 2.5 hr after euthanasia (10x objective, magnification bar is 500 𝜇m).
+healthy oocytes devoid of signs of tissue degradation; how-
+ever at 1.5 hr after euthanasia high numbers of unhealthy fol-
+licles and shrunken oocytes were seen, suggesting tissue dete-
+rioration due to the delay in fixation process after euthanasia.
+Significantly high numbers of “vacuoles-like” structures were
+also seen at 1.5 hr after euthanasia (Figure 3(d)), which is
+indicative of tissue degradation (indicated by the yellow cir-
+cles). Control (0 min) gerbil ovaries had negligible “vacuoles”
+(indicated by two black arrows). The ovary harvested after
+1.5 hr did not sustain the histological processing as they were
+too fragile and degraded, implying that gerbil ovaries were
+more sensitive and should be harvested within 1 hr of euth-
+anasia. Uterine histology indicated tissues were intact and
+comparable to control at all tested time points (Figure 3(e)).
+3.2. Effect of Different Postfixation Procedures on Quality of
+Testicular Histology. Testicular and epididymis morphology
+
+BioMed Research International
+7
+60x
+(a)
+60x
+(b)
+(c)
+(d)
+Figure 4: Morphological analysis of mouse testis after different postfixative manipulations. Sections of adult mouse testis were stained with
+HE (all at 60x; magnification bar is 40 𝜇m). (a) Control; (b) slow rehydration-dehydration stepwise replacement of ETOH-PBS-ETOH; (c)
+slow Re-ETOH only stepwise replacement; (d) rapid ETOH-PBS-ETOH transition. Sertoli cell (Se), spermatogonia (Sp), spermatocytes (Sc),
+spermatids (Sd), and Leydig cell (L). Black arrows—abnormal open spaces in seminiferous epithelium; yellow arrows—abnormal wavy and
+thinner basement membrane.
+was evaluated for histological changes after different post-
+fixation processing (Figures 4 and 5). In control testicular
+tissue (Figure 4(a)), all types of spermatogenic cells, sper-
+matogonia (Sp), Sertoli cells (Se), spermatocytes (Sc), and
+spermatids (Sd), were evident. Lymphatic spaces between
+seminiferous tubules and adjacent to Leydig cells (L) clusters
+are clearly defined. After the slow rehydration-dehydration
+stepwise replacement with ETOH, testis tubules appeared
+normal with histological architecture similar to the control
+group (Figure 4(b)). Although all types of spermatogenic cell
+were identified after slow rehydration-dehydration stepwise
+replacement, spermatogonia and Sertoli cell nuclei were more
+difficult to distinguish compared to control. The quality of
+testicular histology observed after slow Re-ETOH only (Fig-
+ure 4(c)) was similar to that observed in the slow rehydration-
+dehydration stepwise replacement group. However, open
+spaces (black arrows) were observed within portions of
+seminiferous tubules in the slow Re-ETOH only group, and
+the seminiferous tubule basement membrane in this group
+often appeared wavy and thinner (yellow arrows) compared
+to the control (Figure 4(a)). The histologic quality was poor in
+the group treated by single step (rapid transition) change of
+solution (Figure 4(d)), as evidenced by a diffuse appearance of
+the tissue (not due to focus) and limited clarity of nuclear
+details in spermatogonia and Sertoli cells. In addition, the
+seminiferous tubule basement membrane was occasionally
+indistinct and some spermatid artifactual loss of residual
+bodies is also observed.
+We found epididymal tissue to be sensitive to dehy-
+dration/rehydration shock (Figure 5). Slow rehydration-
+dehydration ETOH replacement had no visible negative effect
+on the quality of epididymal morphology (Figure 5(b)); how-
+ever histological examination revealed differences in epi-
+didymal morphology after slow Re-ETOH only (Figure 5(c))
+and rapid transition procedures (Figure 5(d)), compared to
+control (Figure 5(a)). The differences included alterations in
+the thickness of columnar epithelium, and basal and principal
+cells are not very sharp. The slow rehydration-dehydration
+caused less destruction of testicular and epididymal tissue
+than the rapid single-step changes of solution and has an
+overall better morphological detail preservation compared to
+the rapid ETOH-PBS solution change.
+3.3. Total RNA and Protein Evaluation after Tissue
+Preservation in RNAlater under Long-Term Storage
+3.3.1. RNA Stability. We compared RNA integrity after
+preservation testicular tissue in TRIzol reagent and RNAlater
+(Figure 6(a)). Total RNA integrity analysis demonstrated high
+quality RNA after storing tissue in RNAlater for 1-2 wk at RT
+or 4∘C compared to TRIzol preservation. Distinct 28S and 18S
+ribosomal RNA and absence of degraded RNA were observed
+on the gel. RT-PCR analysis of RNA with primers for GAPDH
+and IL-1𝛼indicated high quality of expected PCR products in
+all analyzed samples (Figure 6(b)). Integrity analysis of total
+RNA isolated from STS-131 ground controls (G10, G11, and
+G12) and flight (F10, F11, and F12) mouse uteri after 30 to
+40 min after euthanasia demonstrate high RNA quality in
+these samples (Figure 6(c)). We found no differences in RNA
+quality between all analyzed uteri and ovaries samples placed
+into RNAlater from 15 min to 40 min after euthanasia.
+
+8
+BioMed Research International
+40x
+(a)
+40x
+(b)
+(c)
+(d)
+Figure 5: Morphological analysis of mouse epididymis after different postfixative modifications. Sections of adult mouse epididymis were
+stained with HE (all at 40x; magnification bar is 50 𝜇m). (a) Control; (b) slow rehydration-dehydration stepwise replacement of ETOH-PBS-
+ETOH; (c) slow Re-ETOH only replacement; (d) rapid ETOH-PBS-ETOH transition. Epithelium (E), sperm (S), basal cell (B), and principal
+cell (P).
+3.3.2. Long-Term Storage for RNA Analysis. Using ovary and
+uteri harvested from STS 135 mice, we also determined the
+effect of long-term (10 months) preservation in RNAlater on
+RNA and protein quality (Figure 7). This time frame was
+chosen to mimic a possible storage scenario that could occur
+on the ISS. Ovaries and uterus from STS-135 ground controls
+stabilized in RNAlater for 10 months showed excellent RNA
+quality (Figure 7(a)) and yield in range 6–8 𝜇g.
+3.3.3. Protein Stability. Although not commonly done, tissue
+stabilized in RNAlater can be used for subsequent protein
+extraction. Protein obtained from samples stored in RNAlater
+is suitable for western blotting or 2D gel electrophoresis, but
+not for applications that require native protein (Ambion
+Guideline for RNAlater). We optimized the protocol for pro-
+tein extraction from ovaries preserved in RNAlater for one
+wk at RT or two wks at 4∘C by using RIPA buffer or ProteoJet
+Lysis reagent (LR). Western analysis of 𝛽-actin integrity
+demonstrated that one wk ambient storage of testicular tissue
+in RNAlater did not affect actin integrity as evidenced by the
+absence of proteolytic fragments and consistent signal inten-
+sity in replicate samples (Figure 6(d)).
+3.3.4. Long-Term Storage for Protein Analysis. Protein from
+uteri stabilized in RNAlater for 10 months after STS-135
+mission was extracted with RIPA buffer. Immunoblot for
+ER𝛼and 𝛽-actin verified excellent expression levels of both
+proteins with no evidence of proteolytic degradation of both
+proteins (Figure 7(b)). Quantitative densitometry analysis of
+western blots indicated reduced levels ER𝛼in mostly flight
+animals. These results demonstrate that RNAlater is an
+effective sample collection and stabilization reagent for pro-
+tecting both RNA and protein under long-term conditions
+compatible for the ISS.
+4. Discussion
+We report here a logical method to determine the optimal
+time window of tissue harvest and fixation after euthanasia
+for use in multi-investigator tissue harvest programs that is
+compatible with processing of tissue sample obtained from
+space flight animals. We also demonstrate here a long-term
+storage regimen for animal tissues compatible with recovery
+of high quality RNA and protein under conditions similar to
+that on the ISS, when there may be many months between
+sample collection and return to Earth. The procedures set
+forth also include methods for tissue harvest at the site of
+return and for safe shipment to external laboratories for
+further processing for histopathology and recovery of protein
+and RNA. Several fixation/preservation studies have been
+carried out for plant samples [1, 4, 5]. One European Space
+Agency report included a brief discussion on fixation of
+mammalian cells in tissue culture for microscopy [6]. Freidin
+et al. [7] have demonstrated significant alterations on gene
+expression in lung carcinoma tissues collected about 30
+minutes after harvest. Durrenberger et al. [8] reported that,
+in human brain samples collected from several brain banks,
+antemortem events appeared to negatively affect the RNA
+quality, but postmortem delays caused no significant dete-
+rioration. This observation supported earlier report that
+
+BioMed Research International
+9
+Ladder
+1
+2
+3
+(s)
+70
+65
+60
+55
+50
+45
+40
+35
+30
+25
+20
+4
+𝛽-Actin
+RIPA-R
+RIPA-4∘C
+LR-RT
+LR-4∘C
+IL-1𝛼
+GAPDH
+1
+2
+3
+4
+1
+2
+3
+4
+Ladder
+G10 ut
+G11 ut
+G12 ut
+F10 ut
+F11 ut
+F12 ut
+4000
+2000
+1000
+500
+200
+25
+(nt)
+(a)
+(b)
+(d)
+(c)
+Figure 6: Effect of different extraction and storage methods on RNA and protein quality in ovaries, and testes extracted and/or stabilized in
+TRIzol or RNAlater. (a) Total RNA integrity analysis. Total RNA was isolated from mouse testis and stabilized in TRIzol reagent (RNA yield
+and quality control (lane 1); RNAlater for 2 wks at 4∘C (lane 2); RNAlater for 1 wk at room temperature and 1 wk at 4∘C (lane 3); RNAlater for
+2 wks at RT (lane 4). (b) Agarose gel electrophoresis of PCR products with primers for IL-1𝛼and GAPDH. For RT PCR total RNA was used
+after stabilization in TRIzol reagent (lane 1); RNAlater for 2 wks at 4∘C (lane 2); RNAlater for 1 wk at RT and 1 wk at 4∘C (lane 3); RNAlater for
+2 wks at RT (lane 4). (c) Total RNA integrity analysis STS-131 ground (G10, G11, and G12) and flight (F10, F11, and F12) uteri fixed in RNAlater
+after 30–40 min after euthanasia. (d) Comparison of buffers to remove RNAlater for subsequent western analysis of 𝛽-actin integrity in
+ovaries. Mouse ovaries were stored at RNAlater for 1 wk at RT or 2 wk at 4∘C; tissues were homogenized in RIPA lysis buffer (lanes 1, 2) or
+ProteoJET Lysis reagent (LR) (lanes 3, 4). Total cell lysates were prepared and subjected to SDS-PAGE. Western for 𝛽-actin is presented.
+postmortem delay had negligible effect on RNA quality [9].
+Human stomach has been described as the tissue showing
+the earliest sign of postmortem [10]. Presnell and Cina
+described stomach and pancreas as the earliest human tissues
+to deteriorate following death [11]. The significance of quick
+processing of histopathological specimen in a clinical setting
+has been identified by Rohr et al. [12]. However, we have
+not come across similar studies for animal tissues used in
+biomedical research. Prior to our study reported here, there
+was a significant knowledge gap in the literature for methods
+to process animal tissues compatible for multi-investigator
+Biospecimen Sharing Programs for space flight logistical sce-
+narios. For our flight studies, using male and female mice on
+three different space shuttle flights and the BION M1 flight, it
+was critical to determine the optimum conditions of tissue
+harvest and processing for tissues of our interest, namely,
+testis, epididymis, ovary, and uteri.
+Space flight studies usually comprise remotely dispersed
+multi-investigator collaborations. Thus, there is a need to ship
+tissue samples from the site of collection at the return-to-
+Earth laboratory facility for initial tissue harvest to the site of
+final processing and detailed data collection. With respect to
+collection of RNA samples, TRIzol reagent gives excellent
+RNA integrity; however it is a phenol-based solution and
+tissue preserved in TRIzol cannot be shipped internationally
+due to airline safety restrictions. Lyophilization of fresh tissue
+specimen has been shown to preserve RNA and protein qual-
+ity and levels by Wu et al. [13]. Though lyophilization makes
+shipping easier, especially across international borders, it
+is not a viable option for preservation of highest quality
+histological analysis. To obtain optimum RNA and protein
+quality, our results demonstrate that mouse testicular tissue
+can be submerged in RNAlater and stored successfully for
+analysis at a later time point, at least 10 months at −80∘C. It
+should be noted that 10 months represents a minimum limit,
+and longer storage intervals would still need to be directly
+assessed. Given the current estimate for ISS SpaceX Dragon
+flights at approximately 3-month intervals, this would span
+
+10
+BioMed Research International
+(nt)
+Ladder
+G16 OV
+G18 OV
+G20 OV
+G22 OV
+G24 OV
+G26 OV
+G16 ut
+G18 ut
+G20 ut
+G22 ut
+G24 ut
+G26 ut
+L
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12
+4000
+2000
+1000
+500
+200
+25
+(a)
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+G16
+G18
+G20
+G22
+G24
+G26
+G28
+G32
+G34
+G40
+G42
+G44
+F46
+F50
+F52
+F54
+F56
+F58
+F60
+F62
+F64
+F66
+F68
+F70
+Ground control group
+Flight group
+Relative ER𝛼/𝛽-actin protein expression
+G1618 20 22 24 26 G28 32 38 40 42 44 F46
+F60
+50 52 54 56 58
+62 64 66 68 70
+ER𝛼
+𝛽-Actin
+(b)
+Figure 7: RNA and protein quality of STS-135 uteri and ovaries stabilized in RNAlater for 10 months at −80∘C. (a) STS-135 ground control
+(G16–G26) ovarian and uterine RNA integrity analysis. Total RNA was extracted and examined for RNA quality; (b) Western blot analysis of
+ER𝛼and actin in STS-135 mouse uterus. Total cell lysates were prepared and subjected to SDS-PAGE (15 𝜇g/lane). Western blot analysis was
+performed using the corresponding antibodies to check expression levels of the proteins. Representative Immunoblot (top) and its graphical
+presentation (bottom). Densitometric intensities of specific protein bands were digitally obtained and normalized to 𝛽-actin.
+three opportunities for sample return after an experiment
+is terminated and ensure maintenance of RNA and protein
+sample quality. It is known that, in order to isolate high quality
+RNA and protein from mammalian tissue, the tissue must
+be processed directly after harvest. We determined, for our
+tissues of interest, that excellent RNA stability was achieved if
+the tissue samples were placed into RNAlater up to 40 min
+after euthanasia. RNAlater is a popular reagent that inac-
+tivates all cellular enzymes, including RNAses; thus RNA
+expression profiles can be preserved in situations when
+immediate RNA isolation is not feasible. The tissue can be
+stored in RNAlater for a long time without nucleic acid deg-
+radation. RNAlater has been used by investigators for col-
+lection of human tissue [14] and used in RNA expression
+microarrays [15]. Our results indicated that RNAlater enables
+long-term tissue preservation for RNA and protein extraction
+compatible with delayed sample return from flight. This
+process should be evaluated for use on other tissues to max-
+imize optimal histology and gene transcription data collec-
+tion in the primary flight experiments as well as the Biospec-
+imen Sharing Programs (BSP) investigators. Freidin et al. [7]
+have confirmed the significance of RNAlater as a medium to
+preserve gene expression of lung tissues. Tissue processing
+methods should be standardized for best storage and analysis
+of harvested tissues. Our methods for tissue fixation, long-
+term storage, and recovery of protein and RNA are compati-
+ble for planned in-flight tissue harvest on ISS.
+With regard to obtaining the best possible tissue fixation
+for histology collected under a multi-investigator Biospec-
+imen Sharing Program, obtaining many tissues of interest
+to the participating investigators has to be considered in an
+integrated way to accommodate the scientific requirements
+of the overarching flight project, as well as the natural degra-
+dation process that tissues undergo as soon as euthanasia has
+occurred. Depending on the tissue and species, different
+windows of time from euthanasia to fixation may exist within
+which histological architecture (as well as RNA and protein
+integrity) is stable. In the study design reported here, we have
+determined the window of time and temperature for optimal
+postharvest maintenance of male and female tissue quality
+(testis, epididymis, ovary, and uterine horn) and sperm via-
+bility in mice and gerbils. These harvest protocols provide a
+logical method for integrating the tissue flow logistics for
+postflight animals for any project involving multiple inves-
+tigators. Protocols compatible with investigators who require
+more rapid tissue retrieval can be identified and prioritized to
+ensure data preservation. We determined that mouse testes
+were able to retain excellent histological details when pro-
+cessed up to 3 hr after euthanasia. Sperm motility showed
+gradual decline with time. The authors would reiterate as
+mentioned in the Results section that sperm motility is a
+highly sensitive and variable parameter. It is normal to see
+major differences in motility of sperm obtained from not only
+one mouse to another, but also within samples obtained from
+the same mouse or gerbil. Nonetheless, even within the span
+of variability seen, our results indicate that, in case of mouse,
+there was no major difference in sperm motility between any
+of the time points, whereas in case of gerbil, we saw sug-
+gestions of a slight drop at 2.5 hr after harvest. Future studies
+for flight will require analysis of larger 𝑛’s during definition
+
+BioMed Research International
+11
+phase, if gerbils will be used. Of the tissues studied here,
+Mongolian gerbil ovaries appear most sensitive to delay in
+processing, and require more rapid posteuthanasia process-
+ing than mouse ovaries. Determining optimum conditions
+for tissue handling after harvest is very crucial and can help in
+maximizing tissue retrieval form animal models thereby
+maximizing data output. Based on the time-sensitivity, inves-
+tigators may be able to plan the sequence in which the tissues
+are harvested starting with the most sensitive tissue to least
+sensitive.
+Finally, with regard to the requirement to ship tis-
+sues fixed for histopathology, airline and ground transport
+providers (especially international carriers) have specific
+safety regulations that prohibit shipment of samples contain-
+ing many widely used fixatives and preservatives of tissue
+histologic integrity. Science requirements may present chal-
+lenges in using alternative fixatives. In this regard, Bouin’s
+fixative (which contains picric acid) is the best fixative for the
+testis if the tissue is to be embedded in paraffin [16]. However,
+in space flight experiments, safety regulations prevent its use
+on flight platforms and its presence in tissue samples being
+shipped. Thus, we optimized protocols for fixative removal
+and storage of tissues in PBS for safe shipping, as well as
+reconstitution protocols for storing tissues in 70% ethanol to
+retain excellent histology.
+5. Conclusion
+Optimal time frames for harvesting testis, epididymis, ovary,
+and uteri without compromising the histological quality,
+sperm motility, and RNA quality have been determined.
+Differences in tissue-specific optimal fixation time windows
+were noted between mice and gerbils. We provide here new
+methods for (1) fixative removal and transfer of tissues into
+aqueous media for safe shipping and (2) reconstitution proto-
+cols into 70% ethanol that retains excellent histology. We con-
+clude that stepwise replacement of ETOH-PBS-ETOH caused
+less degradation of histological quality of tissue than a single-
+step change of solution. Our results demonstrate that male
+and female mouse reproductive tissues stored in RNAlater
+solution were stable and gave high quality RNA and protein
+after 10 months of storage at −80∘C. Thus, we have determined
+methods for postharvest tissue processing to replace Bouin’s
+with 70% ethanol for safe shipping across USA and also
+replace 70% ethanol with PBS to enable shipping of tissues
+across international borders. These protocols will facilitate
+integration of tissue harvest logistics in multi-investigator
+Biospecimen Sharing Programs for optimal tissue histology
+and retention of high quality RNA and protein recovery from
+animal tissues on long-term space flight experiments on ISS
+as well as other flight platforms.
+Abbreviations
+TBS-T: Tris buffered saline with 0.1% Tween 20
+BSP:
+Biospecimen Sharing Program
+ETOH: Ethyl alcohol
+STS:
+Space Transport System
+PBS:
+Phosphate buffered saline
+ISS:
+International Space Station
+CASA:
+Computer assisted sperm analysis
+Wk:
+Week
+RT:
+Room temperature
+IACUC: Institutional Animal Care and Use Committee
+KSC:
+Kennedy Space Center
+RNA:
+Ribonucleic acid
+CO2:
+Carbon dioxide.
+Conflict of Interests
+The authors declare that there is no conflict of interests
+regarding the publication of this paper.
+Acknowledgments
+This study is supported by NASA Grant NNX09AP04G to
+Joseph S. Tash. The authors wish to acknowledge the excellent
+support for the project from Richard Boyle, Paula Dumars,
+Vera Vizir, Gwo-Shing, and Kenny Vassigh from Ames
+Research Center, NASA, and from Stacy Engel, Ashleigh
+Ruggles, and Ramona Bobber, at Kennedy Space Center,
+Florida. The authors thank Stanton Fernald of the KUMC
+Imaging Core for assistance in preparation of final figures.
+References
+[1] A.-L. Paul, H. G. Levine, W. McLamb et al., “Plant molecular
+biology in the space station era: utilization of KSC fixation tubes
+with RNAlater,” Acta Astronautica, vol. 56, no. 6, pp. 623–628,
+2005.
+[2] J. Luo, V. Gupta, B. Kern et al., “Role of FYN kinase in
+spermatogenesis: defects characteristic of FYN-null sperm in
+mice,” Biology of Reproduction, vol. 86, no. 1, article 22, 2012.
+[3] J. S. Tash, B. Attardi, S. A. Hild, R. Chakrasali, S. R. Jakkaraj, and
+G. I. Georg, “A novel potent indazole carboxylic acid derivative
+blocks spermatogenesis and is contraceptive in rats after a single
+oral dose,” Biology of Reproduction, vol. 78, no. 6, pp. 1127–1138,
+2008.
+[4] M. Braun, B. Buchen, and A. Sievers, “Fixation procedure for
+transmission electron microscopy of Chara rhizoids under mic-
+rogravity in a Spacelab (IML-2),” Journal of Biotechnology, vol.
+47, no. 2-3, pp. 245–251, 1996.
+[5] V. D. Kern, F. D. Sack, N. J. White, K. Anderson, W. Wells, and
+C. Martin, “Spaceflight hardware allowing unilateral irradiation
+and chemical fixation in petri dishes.,” Advances in Space
+Research, vol. 24, no. 6, pp. 775–778, 1999.
+[6] F. J. Medina, A. Cogoli, C. Dournon et al., “Preservation of
+samples during space experiments,” in Topical Teams in the
+Life & Physical Sciences: Towards New Research Applications in
+Space, pp. 200–208, European Space Agency, 2005.
+[7] M. B. Freidin, N. Bhudia, E. Lim, A. G. Nicholson, W. O.
+Cookson, and M. F. Moffatt, “Impact of collection and storage of
+lung tumor tissue on whole genome expression profiling,”
+Journal of Molecular Diagnostics, vol. 14, no. 2, pp. 140–148, 2012.
+[8] P. F. Durrenberger, S. Fernando, S. N. Kashefi et al., “Effects of
+antemortem and postmortem variables on human brain mRNA
+quality: a brainNet Europe study,” Journal of Neuropathology &
+Experimental Neurology, vol. 69, no. 1, pp. 70–81, 2010.
+
+12
+BioMed Research International
+[9] J. F. Ervin, E. L. Heinzen, K. D. Cronin et al., “Postmortem
+delay has minimal effect on brain RNA integrity,” Journal of
+Neuropathology and Experimental Neurology, vol. 66, no. 12, pp.
+1093–1099, 2007.
+[10] A. R. Thomas, A Practical Guide for Making Post-Mortem
+Examinations, BiblioBazaar, 2009.
+[11] S. E. Presnell and S. J. Cina, “Postmortem changes,” Medscape
+Drugs & Diseases, 2013, http://emedicine.medscape.com/article/
+1680032-overview.
+[12] L. R. Rohr, L. J. Layfield, D. Wallin, and D. Hardy, “A comparison
+of routine and rapid microwave tissue processing in a surgical
+pathology laboratory: quality of histologic sections and advan-
+tages of microwave processing,” The American Journal of Clini-
+cal Pathology, vol. 115, no. 5, pp. 703–708, 2001.
+[13] Y. Wu, M. Wu, Y. Zhang et al., “Lyophilization is suitable for stor-
+age and shipment of fresh tissue samples without altering RNA
+and protein levels stored at room temperature,” Amino Acids,
+vol. 43, no. 3, pp. 1383–1388, 2012.
+[14] S. R. Florell, C. M. Coffin, J. A. Holden et al., “Preservation of
+RNA for functional genomic studies: a multidisciplinary tumor
+bank protocol,” Modern Pathology, vol. 14, no. 2, pp. 116–128,
+2001.
+[15] G. L. Mutter, D. Zahrieh, C. Liu et al., “Comparison of frozen
+and RNALater solid tissue storage methods for use in RNA
+expression microarrays,” BMC Genomics, vol. 5, article 88, 2004.
+[16] L. D. Russell, R. A. Ettlin, H. A. Sinha, and E. D. Clegg, Eds.,
+Histological and Histopathological Evaluation of the Testis, Cache
+River Press, Clearwater, Fla, USA, 1990.

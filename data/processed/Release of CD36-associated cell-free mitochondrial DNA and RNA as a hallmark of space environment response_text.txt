@@ -1,0 +1,2160 @@
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Release of CD36-associated cell-free
+mitochondrial DNA and RNA as a hallmark
+of space environment response
+Nailil Husna1,2, Tatsuya Aiba
+3, Shin-Ichiro Fujita1,7, Yoshika Saito4, Dai Shiba
+3,
+Takashi Kudo
+5,6, Satoru Takahashi
+5,6, Satoshi Furukawa
+3 &
+Masafumi Muratani
+1,5
+A detailed understanding of how spaceﬂight affects human health is essential
+for long-term space exploration. Liquid biopsies allow for minimally-invasive
+multi-omics assessments that can resolve the molecular heterogeneity of
+internal tissues. Here, we report initial results from the JAXA Cell-Free Epi-
+genome Study, a liquid biopsy study with six astronauts who resided on the
+International Space Station (ISS) for more than 120 days. Analysis of plasma
+cell-free RNA (cfRNA) collected before, during, and after spaceﬂight conﬁrms
+previously reported mitochondrial dysregulation in space. Screening with 361
+cell surface marker antibodies identiﬁes a mitochondrial DNA-enriched frac-
+tion associated with the scavenger receptor CD36. RNA-sequencing of the
+CD36 fraction reveals tissue-enriched RNA species, suggesting the plasma
+mitochondrial components originated from various tissues. We compare our
+plasma cfRNA data to mouse plasma cfRNA data from a previous JAXA mission,
+which had used on-board artiﬁcial gravity, and discover a link between
+microgravity and the observed mitochondrial responses.
+A detailed understanding of how the human body responds to
+spaceﬂight will be important to develop countermeasures for long-
+term space exploration1. Without effective solutions for aerospace
+health ailments, increasingly critical challenges will manifest as
+humanity ventures into crewed interplanetary travel. Solid biopsies
+have traditionally served as the gold standard for molecular monitor-
+ing of human physiology, but such invasive procedures require spe-
+cialized equipment and carry an increased risk of infection and
+regional pain. To circumvent these difﬁculties, researchers on Earth
+have started to use blood or ﬂuid samples, which are simpler to per-
+form and require little to no recovery time, allowing for increased
+temporal resolution of sampling. These minimally invasive “liquid
+biopsies” permit the extraction of cell-free nucleic acids2,3, which are
+thought
+to
+detect
+changes
+earlier
+than
+conventional
+protein
+biomarkers4 and to better resolve molecular heterogeneity than stan-
+dard tissue biopsies5. Cell-free nucleic acids have emerged as potential
+space-relevant biomarkers of psychosocial and physical stress6, aging7,
+metabolic disorders8, and inﬂammation9, and have already been suc-
+cessfully utilized in various terrestrial healthcare contexts, including
+screening for infections10, diagnosing cancer11, and monitoring cancer
+recurrence and therapy12. On a similar note, cell-free nucleic acids can
+infer well-documented spaceﬂight responses, such as DNA damage13,14,
+in distal tissues without the need for invasive tissue biopsies15, which
+would be particularly difﬁcult to conduct in orbit.
+Longitudinal and full-body molecular proﬁling using cell-free
+nucleic acids isolated from liquid biopsies is hence one viable avenue
+Received: 9 December 2022
+Accepted: 20 September 2023
+Check for updates
+1Department of Genome Biology, Institute of Medicine, University of Tsukuba, Ibaraki 305-8575, Japan. 2Program in Humanics, University of Tsukuba, Ibaraki
+305-8573, Japan. 3Human Spaceﬂight Technology Directorate, Japan Aerospace Exploration Agency (JAXA), Ibaraki 305-8505, Japan. 4Faculty of Medicine,
+Kyoto University, Kyoto 606-8303, Japan. 5Transborder Medical Research Center, University of Tsukuba, Ibaraki 305-8575, Japan. 6Department of Anatomy
+and Embryology, Institute of Medicine, University of Tsukuba, Ibaraki 305-8575, Japan. 7Present address: Department of Neurobiology, Northwestern
+University, Evanston, IL 60201, USA.
+e-mail: muratani@md.tsukuba.ac.jp
+Nature Communications|   (2024) 15:4814 
+1
+1234567890():,;
+1234567890():,;
+
+for advancing space healthcare. This approach may grant a detailed
+understanding of how the human body responds to the space envir-
+onment and the development of modern countermeasures. Consent-
+ing astronauts could participate in lifetime surveillance through annual
+liquid biopsies, which could reveal the degree of full recovery from
+spaceﬂight responses, such as DNA damage and clonal hematopoiesis
+(CH), the latter of which causes increased lifelong risk of cardiovas-
+cular disease and blood cancers16,17. Liquid biopsies may be particularly
+constructive during interplanetary spaceﬂight missions, in which
+orbital healthcare autonomy will need to be optimized due to the large
+distance away from Earth. With the advent of the portable, nanopore-
+based Oxford Nanopore Technologies MinION, nucleic acids could
+potentially be extracted and directly sequenced in-ﬂight by crew to
+monitor their own health in near real time18–20.
+The NASA Twins Study provided a unique opportunity to perform
+a multi-omics analysis with monozygotic twin astronauts, where one
+participant resided on the ISS for 340 days, and the other remained on
+Earth16. The past few years have now welcomed the ﬁrst studies to
+examine cell-free DNA (cfDNA) in astronauts, using data from the
+NASA Twins Study21 and data collected 20 years prior with 14 astro-
+nauts on short-term missions22. These studies highlighted a theme of
+mitochondrial stress as a consistent spaceﬂight phenotype23, with bulk
+RNA-sequencing (RNA-seq) of peripheral blood mononuclear cells
+(PBMCs) revealing mitochondrial RNA (mtRNA) spikes during ﬂight,
+the levels of which were correlated to time spent on the ISS24, and
+plasma analysis revealing cell-free mitochondrial DNA (cf-mtDNA)
+spikes during ﬂight21 and in the immediate days after return22.
+Here, we report an independent study with six astronaut partici-
+pants, where we examined plasma cfRNA proﬁles that reﬂect the
+longitudinal responses of internal tissues to the spaceﬂight environ-
+ment. To disentangle microgravity from the various factors of the
+spaceﬂight environment, we directly compared our human plasma
+cfRNA data to mouse plasma cfRNA data from a published JAXA
+spaceﬂight mission that incorporated an artiﬁcial gravity device
+installed on the Japanese ISS Kibo Experiment Module25. Through this
+process, minimally invasive approaches were used in both species to
+gain a comprehensive overview of conserved environmental responses
+to microgravity, with increased mitochondrial components in plasma
+being one such prominent response.
+Results
+Plasma cfRNA analysis of six astronauts
+Blood samples were collected from six astronauts before, during, and
+after spaceﬂight on the ISS. An 11-time point sampling course was
+designed to capture the pre-ﬂight baseline, the early to late phases of
+more than 120 days on the ISS, and the early to late phases of read-
+aptation in the ﬁrst 120 days after ﬂight (Fig. 1a). Total cfRNA and
+cfDNA were puriﬁed from plasma samples and their yields were
+determined (Supplementary Fig. 1). To verify overall sample quality,
+real-time PCR analysis was performed to measure the ratio of chro-
+mosomal to mitochondrial DNA in total cfDNA. Relative copy numbers
+of mitochondrial DNA in plasma signiﬁcantly increased during space-
+ﬂight but returned to baseline levels in post-ﬂight samples (Fig. 1b),
+similar to previous reports21.
+All 66 cfRNA samples were processed for RNA-seq analysis. Data
+quality was assessed based on visualization of mapped reads and
+principal component analysis (PCA) plots (Supplementary Figs. 2, 3).
+Two samples (one pre- and one post-ﬂight) were removed from further
+analysis due to low sequencing library yield and poor mapping quality.
+PCA plots indicated variations between the six astronauts in the pre-
+ﬂight phase. As these variations caused difﬁculties in deﬁning pre-ﬂight
+baselines, pairwise comparisons of cfRNA proﬁles using pre-ﬂight
+baseline samples were not effective (Supplementary Fig. 4 and Sup-
+plementary Data 1). However, RNA proﬁles showed distinct differences
+between in-ﬂight and post-ﬂight samples. This allowed us to effectively
+identify altered RNA species between in-ﬂight and post-ﬂight phases,
+even with the relatively small number of six astronauts participating in
+our study (Fig. 1c, d). All time points were consolidated into pre-, in-,
+and post-ﬂight groups. Statistical analysis was performed to identify
+466 differentially represented cfRNAs (DRRs) (ANOVA tool in CLC
+Genomics Workbench, FDR-adjusted P-value < 0.05, |fold change| > 2, |
+difference| > 50, Supplementary Data 2). Groups of genes with similar
+fold-change values were identiﬁed through scatterplots, where they
+formed quasi-straight lines that deviated from the 45-degree diagonal
+(Fig. 1d). Prominent examples included cfRNAs from mitochondrial
+genes (13 DRRs) and cfRNAs from mucin family genes (8 DRRs), which
+were increased and decreased respectively during spaceﬂight (Fig. 1d).
+Subplots e–j in Fig. 1 show normalized quantiﬁcation values for indi-
+vidual cfRNA species based on mapped genes throughout the time
+course. cfRNAs from a subset of mitochondria-encoded genes were
+consistently elevated from in-ﬂight +5 days, reaching a peak at in-ﬂight
++30 days, and decreasing at post-ﬂight +3 days. cfRNAs from mucin
+gene family members decreased during spaceﬂight and increased
+transiently during the post-ﬂight phase.
+Molecular pathways affected by spaceﬂight
+cfRNA provides a unique opportunity to estimate molecular changes
+occurring in the internal tissues of the human body. To explore the
+functional categories of altered cfRNAs, a pathway analysis was per-
+formed using Metascape 3.526. Consistent with the alteration of mito-
+chondrial RNAs, enrichment of pathways related to reactive oxygen
+species (ROS) was detected (Fig. 2a). Identiﬁcation of pathways related
+to the nervous system, including behavior, regulation of synapse
+organization, modulation of chemical synaptic transmission, and the
+neuronal system, indicated that blood sampling successfully mon-
+itored molecular responses in nervous tissues. Tissue-speciﬁcity ana-
+lysis further supported the alteration of skeletal muscle and the
+cerebellum (Fig. 2b). Correlation analysis of the 466 DRRs indicated
+two major coregulated cfRNA clusters (Supplementary Fig. 5 and
+Supplementary Data 3). Mitochondrial RNAs were clustered together,
+but cfRNAs linked to other pathway terms did not show clear
+segregation.
+Time-course proﬁles of cfRNAs linked to these tissue processes
+indicated that baseline levels of these RNAs tended to decrease
+during spaceﬂight and recover during post-ﬂight phases (Fig. 2c–k).
+Cerebellum-related genes calcium voltage-gated channel subunit
+alpha1 A (CACNA1A), HR (HR lysine demethylase and nuclear
+receptor corepressor), immunoglobulin superfamily member 9B
+(IGSF9B), and paired box 6 (PAX6) and skeletal muscle-related
+genes immunoglobulin-like and ﬁbronectin type III domain con-
+taining 1 (IGFN1), ryanodine receptor 1 (RYR), and xin actin-binding
+repeat containing 1 (XIRP1) showed reduction during spaceﬂight.
+RNA levels of these genes showed a rapid increase at post-ﬂight +3
+days and decreased by post-ﬂight +120 days. Skeletal muscle-
+related genes MAP3K7CL (MAP3K7 C-terminal like) and SH3BGRL
+(SH3 domain binding glutamate-rich protein like) showed opposite
+changes, with increased representation during spaceﬂight. Similar
+to mitochondrial RNAs, there were delays in the changes of RNA
+levels for tissue-speciﬁc genes during the transition from pre-ﬂight
+to in-ﬂight phases, but re-adaptation responses to the ground
+environment were faster.
+cfRNAs from genes involved in the vitamin D receptor signaling
+pathway, KANK2 (KN motif and ankyrin repeat domains 2), MN1 (MN1
+proto-oncogene, transcriptional regulator), RXRA (retinoid X receptor
+alpha), and TRIM24 (tripartite motif containing 24), included a nuclear
+receptor and co-regulators. These RNA species were also altered in
+opposite directions between in-ﬂight and post-ﬂight phases (Fig. 2l–o).
+Vitamin D plays a central role in inter-organ communication through
+hormones secreted by the parathyroid gland, which regulates skeletal
+and muscular health27. Changes in cfRNAs derived from these
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+2
+
+regulatory genes may indicate systemic shifts in mineral and metabolic
+homeostasis in space.
+To further evaluate the feasibility of cfRNA-based internal tissue
+monitoring, we decided to detect tissue- or cell-type-speciﬁc genes in
+the cfRNA-seq data using more strict criteria. As comprehensive
+human gene expression databases combined with single-cell RNA-seq,
+lists of genes with tissue-enriched and tissue-restricted expression
+were obtained from the Human Protein Atlas (HPA)28. Out of the 466
+genes derived from our cfRNA analysis, 57 genes were tissue-enriched
+and 10 of them were detected in a single tissue (Fig. 3a).The majority of
+cfRNAs from these genes showed relatively low counts, likely due to
+the minor contribution of cfRNAs originating from each tissue type,
+but they did show consistent changes throughout the sampling time
+course (Fig. 3b–f) among the six astronauts. Mapped reads were
+Pre-flight
+In-flight
+Post-flight
+5  30     60           120 days
+3  30     60         120 days
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+MT-ND4
+MT-ND5
+MT-CO1
+MT-CYB
+MUC4
+MUC16
++5 +30 +60 +120
++3 +30 +60 +120
+0
+5
+10
+15
+20
+   Flight                  Post-flight
+Relative mtDNA copy number
+(Pre-flight mean = 1)
+✱
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+50000
+100000
+Normalized count
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+50000
+100000
+Normalized count
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+20000
+40000
+60000
+Normalized count
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+20000
+40000
+60000
+Normalized count
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+5000
+10000
+15000
+Normalized count
+Pre
+FL+5
+FL+30
+FL+60
+FL+120
+Post+3
+Post+30
+Post+60
+Post+120
+0
+500
+1000
+1500
+Normalized count
+DRR Flight vs Post
+MT-genes
+MUC-genes
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+3
+
+visually inspected (Fig. 3g–k) as we did not have enough materials to
+perform PCR-based validation for multiple RNA species. To verify
+tissue-speciﬁcity with an independent database, tissue-speciﬁc genes
+from the HPA were compared to the Genotype-Tissue Expression
+(GTEx, https://gtexportal.org/) database record (Fig. 3l–p). RNA
+expressions from the DNM3 (dynamin 3), C1QL3 (complement C1q 3),
+and AMER2 (APC member recruitment protein 2) genes were highly
+enriched in the brain and pituitary. RNAs from the KRT2 (keratin 2) and
+MUC5B (mucin 5B) genes were expressed speciﬁcally in the skin and
+minor salivary glands among the tissues and cell types included in the
+HPA and GTEx database. These results support that our cfRNA-based
+liquid biopsy approach allowed for the detection of spaceﬂight-
+associated responses in non-blood tissues.
+Isolation of mitochondrial fraction
+An increase in plasma cell-free mitochondrial DNA and RNA indicated
+the presence of extracellular mitochondria (exMT) or the release of
+cytosolic mitochondrial components into the bloodstream during
+spaceﬂight. As unprotected nucleic acids in plasma are expected to be
+highly unstable, we hypothesized that cfDNA and cfRNA derived from
+mitochondria may be protected inside extracellular vesicles (EVs). We
+decided to isolate such EVs based on cell surface antigens for further
+characterization, as previously described29. To identify potential sur-
+face markers of EVs containing mitochondrial components, a panel of
+361 antibodies was screened for enrichment of mtDNA (Fig. 4a).
+Antibodies were pooled and mixed with in-ﬂight and post-ﬂight plasma
+samples, and antibody-bound materials were puriﬁed. Real-time PCR
+was used to evaluate the recovery of mtDNA in each puriﬁed material.
+Through three rounds of antibody screenings, only one antibody, the
+anti-CD36 antibody, consistently enriched mtDNA (Fig. 4b–d). This
+enrichment was speciﬁc to in-ﬂight plasma samples, consistent with
+the idea that mitochondrial components released in space are asso-
+ciated with CD36 as a surface molecular marker.
+exMT release and inter-organ trafﬁcking have been reported in
+the context of metabolic stress responses and internal tissue damage
+associated with ischemia in the heart, adipose tissue, kidney, lung, and
+brain30–36. Cytosolic release of mitochondrial components has been
+reported in the context of various mitochondrial dysfunctions, which
+could be subsequently released as EVs during cell death37. To investi-
+gate the potential tissue origins of the mitochondrial components in
+plasma, RNA was isolated from the puriﬁed fraction and analyzed by
+RNA-seq. RNAs from 406 genes were enriched in the CD36 fraction
+(Fig. 4e, CLC Genomics Workbench, Empirical analysis of DGE, FDR-
+adjusted P-value < 0.05, |fold change| > 2, Supplementary Data 4). A
+tissue-speciﬁcity analysis using Database for Annotation, Visualization
+and Integrated Discovery (DAVID) tools38,39 revealed that the RNAs in
+the CD36 fraction isolated from in-ﬂight plasma samples were derived
+from genes with diverse tissue-speciﬁcities. The list of tissues included
+the brain, skeletal and heart muscles, and relatively minor tissue types,
+including the retina, choroid plexus, tongue, skin, and neuroendocrine
+organs, namely, the pituitary, thyroid, and parathyroid glands (Fig. 4f,
+Supplementary Data 5). Some of these tissue types have not been
+previously analyzed, even in mouse spaceﬂight missions. One advan-
+tage of plasma fractionation using the anti-CD36 antibody was the
+successful identiﬁcation of enriched RNAs that were not detectable
+using bulk cfRNA-seq. For example, RNAs encoded by retinal pigment
+epithelium-speciﬁc
+65 kDa
+protein,
+retinoid
+isomerohydrolase
+(RPE65), a component of the visual cycle of the retina thatis mutated in
+hereditary retinal dystrophy40, and photoreceptor cell components
+peripherin 2 (PRPH2) and cyclic nucleotide-gated channel subunit beta
+1 (CNGB1), both associated with retinitis pigmentosa41,42, were speciﬁ-
+cally found in the CD36 fraction.
+To estimate the tissue-speciﬁcity of the RNAs, expression proﬁles
+of RNAs enriched in the CD36 fraction were obtained from the GTEx
+database. The resulting heatmap revealed subsets of genes highly
+speciﬁc to the cerebellum and brain (Fig. 4g). Other RNAs were also
+speciﬁc to the heart, kidney, liver, muscle, pituitary gland, skin, thyroid
+gland, and arteries. When the CD36 fraction was puriﬁed from post-
+ﬂight plasma samples, platelet, and megakaryocyte-related RNAs were
+co-puriﬁed as veriﬁed by RNA-seq analysis (data not shown). These
+results indicated that mitochondrial components were released into
+the plasma during spaceﬂight as components of CD36-marked EVs, but
+that this fraction was distinct from EVs derived from platelet
+degranulation43,44. It is also noted that none of the antibodies against
+other established platelet surface markers included in the antibody
+panel could enrich mtDNA in our screening45.
+Although CD36 is known as a membrane-bound cell surface pro-
+tein, it is unclear if the cell-free mtDNA and RNAs were derived from
+intact exMT or cytosolic mitochondrial components, as is reported in
+cells under various states of stress37. To characterize the CD36 fraction,
+we examined the status of the mtDNA by sequencing the cfDNA in the
+CD36 fraction. Fig. 5a shows that the entire mitochondrial genome was
+contained in the CD36 fraction, which was also supported by the
+overall similarity of the sequencing read representation between the
+input and the CD36 fraction. However, it was noticed that the read
+coverage was higher around the Termination Associated Sequences
+(TAS) adjacent to the Displacement-loop (D-loop) region. This region
+contains multiple regulatory cis-elements, including the Conserved
+Sequence Block (CSB) and promoters for mitochondrial gene
+transcription46–48. Altered sequencing coverage in this region could be
+due to differences in the regulatory status of the mitochondrial gen-
+ome. Differences in DNase accessibility may result in shifts in the
+fragmentation status of puriﬁed cfDNA, which affects the efﬁciency of
+cfDNA conversion into sequencing libraries (see the “Methods” section
+for DNA size selection procedures). The D-loop is also reported to
+show altered DNA accessibility in high-resolution mitochondrial DNA
+packaging proﬁles49.
+Mitochondrial
+RNAs
+are
+under
+transcriptional
+and
+post-
+transcriptional control and are correlated with cell types and disease
+conditions50–52. We performed RNA-seq analysis on the CD36 fraction
+with extended samples to cover six astronauts over pre-, in-, and post-
+ﬂight phases. Fig. 5b shows the normalized quantiﬁcation values for all
+the mtRNAs from genes encoding core subunits of the oxidative
+phosphorylation (OXPHOS) system. Clustering these mtRNAs indi-
+cated different tendencies between the RNAs from the MT-ATP8, MT-
+ND3, MT-ND4L, and MT-ND6 genes. Direct plotting of normalized RNA
+quantiﬁcation values in Fig. 5c–n showed that ratios among mtRNAs
+were different between the bulk plasma cfRNA samples and the RNAs
+puriﬁed from the CD36 fraction in a subset of genes. For example,
+ratios of normalized quantiﬁcation values between MT-ND4 and MT-
+Fig. 1 | Study outline and astronaut cfRNA proﬁling. a Time-course sample col-
+lection from six astronaut participants. Blood samples were collected at 11 time
+points before, during, and after spaceﬂight on the ISS. b Real-time PCR quantiﬁ-
+cation of mitochondrial DNA copy number. Quantiﬁcation values for the MT-ND1
+gene were divided by the corresponding globin gene signals. *P-value = 0.019,
+Nested one-way ANOVA by GraphPad Prism 9.3.1 software. c PCA plot of the RNA-
+seq quantiﬁcation results for 64 samples after the removal of two outlier samples.
+d Scatterplot of normalized quantiﬁcation values for in-ﬂight and post-ﬂight sam-
+ples. The 64 samples consisted of three groups (pre-, in-, and post-ﬂight). Indicated
+are 466 differentially regulated genes (DRRs, red), 13 mitochondrial genes (MT-
+genes, green), and 8 mucin family genes (MUC-genes, brown). e–j Normalized
+quantiﬁcation values from RNA-seq for mitochondrial genes and mucin family
+genes with mean value (solid line) and standard error of the mean (SEM, error bars).
+SEM values were calculated from n = 17 biologically independent samples, includ-
+ing six astronauts for pre-ﬂight, six astronauts for in-ﬂight, and six astronauts for
+post-ﬂight, except for one Post+120 time point for which one sample was removed
+due to poor data quality.
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+4
+
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+o
+n
+m
+l
+30
+11
+4
+R-HSA-76002: Platelet activation, signaling and aggregation
+hsa05208: Chemical carcinogenesis - reactive oxygen species
+GO:0034330: cell junction organization
+GO:0001667: ameboidal-type cell migration
+GO:0007610: behavior
+GO:0098660: inorganic ion transmembrane transport
+GO:1901888: regulation of cell junction assembly
+GO:0000902: cell morphogenesis
+GO:0050807: regulation of synapse organization
+R-HSA-5083625: Defective GALNT3 causes HFTC
+GO:0050804: modulation of chemical synaptic transmission
+GO:1902414: protein localization to cell junction
+GO:0045794: negative regulation of cell volume
+GO:0001894: tissue homeostasis
+R-HSA-112316: Neuronal System
+GO:0051668: localization within membrane
+WP4396: Nonalcoholic fatty liver disease
+GO:0070562: regulation of vitamin D receptor signaling pathway
+GO:0008285: negative regulation of cell population proliferation
+GO:0048762: mesenchymal cell differentiation
+17
+8
+4
+Placenta
+Skeletal muscle
+Cerebellum
+Bone marrow
+Prostate cancer
+Fig. 2 | Pathway analysis of DRRs from cfRNA analysis. a Enriched terms for the
+466 DRRs from the cfRNA analysis with LogP, gene count, and gene ratio (the
+number of genes in each term divided by the number of genes in the same category
+in the database) based on our Metascape enrichment analysis. b Enriched tissue
+types of the 466 DRRs based on our Metascape PaGenBase analysis. c–k Relative
+expression values obtained by RNA-seq for DRRs under neurological and skeletal
+muscle terms throughout the time course. Mean value (solid line) and −/+ SEM
+(error bar) from the same biologically independent samples used for Fig. 1e–j are
+shown. l–o Relative expression values obtained by RNA-seq for DRRs under vitamin
+D receptor signaling pathways throughout the time course. Mean values (solid line)
+and SEM (error bar) were calculated from the same biologically independent
+samples as (c–k).
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+5
+
+Adipose - Subcutaneous
+Adipose - Visceral (Omentum)
+Adrenal Gland
+Artery - Aorta
+Artery - Coronary
+Artery - Tibial
+Bladder
+Brain - Amygdala
+Brain - Anterior cingulate cortex (BA24)
+Brain - Caudate (basal ganglia)
+Brain - Cerebellar Hemisphere
+Brain - Cerebellum
+Brain - Cortex
+Brain - Frontal Cortex (BA9)
+Brain - Hippocampus
+Brain - Hypothalamus
+Brain - Nucleus accumbens (basal ganglia)
+Brain - Putamen (basal ganglia)
+Brain - Spinal cord (cervical c-1)
+Brain - Substantia nigra
+Breast - Mammary Tissue
+Colon - Sigmoid
+Colon - Transverse
+Esophagus - Gastroesophageal Junction
+Esophagus - Mucosa
+Esophagus - Muscularis
+Heart - Atrial Appendage
+Heart - Left Ventricle
+Kidney - Cortex
+Kidney - Medulla
+Liver
+Lung
+Minor Salivary Gland
+Muscle - Skeletal
+Nerve - Tibial
+Pancreas
+Pituitary
+Skin - Not Sun Exposed (Suprapubic)
+Skin - Sun Exposed (Lower leg)
+Small Intestine - Terminal Ileum
+Spleen
+Stomach
+Thyroid
+Whole Blood
+HPA tissue enriched (3106)
+HPA detected in single tissue
+                   (1065)
+Space
+response  
+  (466)
+2182
+867
+409
+188
+47
+10
+0
+ALAS2
+AMER2
+AQP6
+ASGR2
+B3GAT1
+BSN
+C1QL3
+CACNA1A
+CCDC175
+CCDC78
+CHADL
+CNTNAP4
+COX6B2
+DNM3
+EPPK1
+FAM131B
+FAM186A
+FOXE1
+GOLGA6L2
+GPR179
+GRAP2
+HBA1
+IGFN1
+KRT2
+KRT78
+KRT9
+LEPR
+MED12L
+MUC12
+MUC2
+MUC5B
+NFIC
+NRGN
+OBSCN
+ODF3L1
+PANX2
+RYR1
+SHISA7
+SLC34A1
+SLC4A1
+SRCIN1
+SRGN
+TCHH
+TMEFF1
+TRIM71
+YPEL5
+ZNF541
+ANKRD30BL
+BEND2
+CACNG8
+CCER1
+GOLGA6L1
+GPR26
+GRM2
+GRM4
+MORC1
+RP1L1
+chr1:
+200 kb
+172,000,000
+Pre
+2500 -
+0 _
+Flight
+2500 -
+0 _
+Post
+2500 -
+0 _
+0
+20
+40
+60
+80
+Median TPM
+0
+1
+2
+3
+4
+DNM3
+Relative expression value
+(Pre-flight mean = 1)
+chr10:
+20 kb
+16,540,000
+16,570,000
+Pre
+600 -
+0 _
+Flight
+600 -
+0 _
+Post
+600 -
+0 _
+0
+5
+10
+15
+Median TPM
+0
+5
+10
+C1QL3
+Relative expression value
+(Pre-flight mean = 1)
+chr12:
+5 kb
+53,040,000
+53,045,000
+Pre
+300 -
+0 _
+Flight
+300 -
+0 _
+Post
+300 -
+0 _
+0
+2000
+4000
+6000
+8000
+Median TPM
+0
+2
+4
+6
+8
+KRT2
+Relative expression value
+(Pre-flight mean = 1)
+chr11:
+20 kb
+1,250,000
+1,280,000
+Pre
+800 -
+0 _
+Flight
+800 -
+0 _
+Post
+800 -
+0 _
+0
+200
+400
+600
+800
+Median TPM
+0
+1
+2
+3
+4
+5
+MUC5B
+Relative expression value
+(Pre-flight mean = 1)
+DNM3
+C1QL3
+PTER
+KRT2
+MUC5B
+a
+g
+b
+l
+c
+h
+m
+0
+10
+20
+30
+40
+50
+Median TPM
+0
+2
+4
+6
+8
+10
+AMER2
+Relative expression value
+(Pre-flight mean = 1)
+chr13:
+5 kb
+25,740,000
+25,745,000
+Pre
+350 -
+0 _
+Flight
+350 -
+0 _
+Post
+350 -
+0 _
+AMER2
+d
+i
+n
+e
+j
+o
+f
+k
+p
+Fig. 3 | Validation of candidate tissue-speciﬁc cfRNAs. a Venn diagram compar-
+ing the 466 space response DRRs and the two gene lists from the HPA database.
+Gene names for overlapping parts are listed. b–f Normalized quantiﬁcation values
+from bulk plasma cfRNA-seq for the DNM3, C1QL3, AMER2, KRT2, and MUC5B
+genes with mean values (solid lines) and SEM (error bars) calculated from the same
+biologically independent samples used for Fig. 1e–j. g–k Visualization of mapped
+cfRNA-seq reads for the genes shown in panels (b–f). Reads from pre-, in-, and post-
+ﬂight samples were pooled and loaded to the UCSC Genome Browser with repre-
+sentative Ensemble transcript annotations. l–p Tissue expression proﬁles for genes
+in panels b–f were obtained from the GTEx database. The horizontal axis represents
+the corresponding tissue types listed above the graphs.
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+6
+
+ND5 (Fig. 5l) were comparable. In contrast, ratios between MT-ND4 and
+MT-ND6 normalized quantiﬁcation values in the CD36 fraction were
+2.57-fold larger than in the bulk plasma cfRNA (Fig. 5d). ND6 has been
+reported as an important factor in human diseases52,53, and speciﬁc
+transcriptional
+and
+port-transcriptional
+regulation
+has
+been
+reported50,51. These results indicate a speciﬁc molecular status of the
+mitochondrial DNAs and RNAs contained in the CD36 fraction.
+Cross-species comparison of blood samples
+Blood is an important sample type that can directly link humans and
+other species in a minimally invasive fashion. Sample collection in
+humans is highly limited in space, but time-course sampling from the
+same astronaut compensates for the small number of participants and
+creates biological replicates for each subject. The increased sample
+volume in humans is also advantageous for multi-omics analysis and
+a
+c
+d
+e
+f
+g
+1 2 3 4 5 6 1 2 3 4 5 6 
+A
+B
+C
+D
+E
+F
+G
+H
+361 antibodies in 4 plates
+Astronaut
+plasma
+samples
+Immuno
+puriﬁcation
+DNA extraction
+real-time PCR
+b
+row min
+row max
+Adipose - Subcutaneous
+Adipose - Visceral (Omentum)
+Adrenal Gland
+Artery - Aorta
+Artery - Coronary
+Artery - Tibial
+Bladder
+Brain - Amygdala
+Brain - Anterior cingulate cortex (BA24)
+Brain - Caudate (basal ganglia)
+Brain - Cerebellar Hemisphere
+Brain - Cerebellum
+Brain - Cortex
+Brain - Frontal Cortex (BA9)
+Brain - Hippocampus
+Brain - Hypothalamus
+Brain - Nucleus accumbens (basal ganglia)
+Brain - Putamen (basal ganglia)
+Brain - Spinal cord (cervical c-1)
+Brain - Substantia nigra
+Colon - Sigmoid
+Colon - Transverse
+Esophagus - Gastroesophageal Junction
+Esophagus - Mucosa
+Esophagus - Muscularis
+Heart - Atrial Appendage
+Heart - Left Ventricle
+Kidney - Cortex
+Kidney - Medulla
+Liver
+Lung
+Minor Salivary Gland
+Muscle - Skeletal
+Nerve - Tibial
+Pancreas
+Pituitary
+Skin - Not Sun Exposed (Suprapubic)
+Skin - Sun Exposed (Lower leg)
+Small Intestine - Terminal Ileum
+Spleen
+Stomach
+Thyroid
+Whole Blood
+Input
+CD36
+row min - max
+406 genes enriched by CD36 IP
+MT-ND1
+HGB
+MT-ND1
+HGB
+MT-ND1
+HGB
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+7
+
+the fractionation of plasma and other components. Model organism
+data can provide samples from genetically consistent backgrounds,
+and time-course sampling can again reduce the number of subjects
+and hardware needed. In addition to these technical improvements,
+blood sampling reduces localized pain and infection rates compared
+to more invasive methods, and hence, it may bring fewer ethical
+complications compared to traditional techniques16.
+We compared our astronaut blood samples to mouse blood
+samples from a published 35-day Mouse-Habitat Unit-1 (MHU-1)
+2016 JAXA mission to the ISS [25] (Fig. 6a). Ground control (GC)
+samples had been derived from the same genetic background.
+Artiﬁcial gravity (AG) conditions used rotating platforms to create
+1-G gravity controls on the ISS, allowing for the evaluation of gravity
+effects, while controlling for other ﬂight-related environmental
+stress factors, such as CO2 concentration, air pressure, isolation,
+and noise levels.
+RNA-seq analysis was performed on the plasma cfRNA mouse
+data. Similar to our human data, RNAs encoded by mitochondrial
+genes MT-Cytb (cytochrome b, mitochondrial), MT-Nd1, and MT-Nd4
+(mitochondrially encoded NADH dehydrogenase 1 and 4) were upre-
+gulated in the MG condition compared to the AG condition (Fig. 6b–d).
+By pairwise comparisons among GC, AG, and MG groups, 467 DRRs
+were identiﬁed (Fig. 6e, CLC Genomics Workbench, Empirical Analysis
+of DGE, P-value < 0.05, |fc| > 1.5, Supplementary Data 6).
+To evaluate common molecular changes between species, the 467
+mouse cfRNA DRRs were converted into 444 human homologs using
+Metascape gene ID conversion. However, only 14 genes (3.1%) were
+common to the 466 DRRs identiﬁed in our human cfRNA analysis. To
+compare DRRs at the pathway level, enrichment of human disease
+terms for DRRs between AG vs. MG and GC vs. MG, which are expected
+to represent the impact of gravity change and the general spaceﬂight
+environment respectively, was performed using the DisGeNET data-
+base analysis in Metascape. We found that 60 out of 121 (49.6%) AG vs
+MG (gravity-linked) disease terms were also observed in our human
+analysis (Fig. 6f). In contrast, 16 out of 91 (17.6%) GC vs MG (general
+spaceﬂight-linked) disease terms were observed in our human analysis
+(Fig. 6f). These results indicated the presence of common disease-
+related molecular changes as being speciﬁcally associated with the
+microgravity factor of spaceﬂight. These disease terms contained
+previously reported space-related health risks, including muscle atro-
+phy and impairments to the visual system, cardiovascular system, and
+neurological system54–58 (Fig. 6g).
+Discussion
+Consistent with reports from the NASA Twins Study21, we found a
+signiﬁcant increase in relative mitochondrial DNA copy numbers
+within cfDNA during spaceﬂight but a return to baseline levels in post-
+ﬂight samples (Fig. 1b). Another recent study similarly found a sig-
+niﬁcant increase in cell-free mitochondrial DNA in the plasma of 14
+astronauts shortly after landing, although the authors only examined
+three time points (10 days before launch, day of landing, and 3 days
+after return)22. Our results indicated that the samples collected in our
+study could be a promising resource to further characterize molecular
+events associated with spaceﬂight across a wider range and larger
+number of time points.
+Here, we also show prominent changes in the cfRNA proﬁles of six
+astronauts undergoing long-duration spaceﬂight on the ISS. An
+increase in plasma mitochondrial components was supported by
+plasma mtDNA copy numbers and RNAs from mitochondrial genes.
+Screening with antibodies recognizing cell surface markers identiﬁed
+CD36, and the isolated plasma fraction contained RNA species from
+genes representing a broad range of tissue speciﬁcities. These results
+not only support the practical use of relatively less invasive blood
+sampling and liquid biopsy analysis to monitor physiological changes
+in astronauts but also provide insights into previously uncharacterized
+tissue types and molecular processes in the human body affected by
+spaceﬂight.
+cfRNA proﬁles indicated two distinct modes of molecular changes
+associated with spaceﬂight. One group of cfRNAs was represented by
+mtRNAs which increased in plasma during spaceﬂight. Another group
+of cfRNAs was represented by RNAs encoded by mucin genes which
+decreased during spaceﬂight. As DNA and RNA molecules exposed to
+plasma are thought to be highly unstable due to the nuclease activity,
+we speculated cell-free mtDNAs and mtRNAs in plasma may exist as
+contents of EVs. Through screening a panel of antibodies, we identiﬁed
+anti-CD36 antibodies that enriched cf-mtDNA from spaceﬂight plasma
+samples. In this study, we could not obtain conclusive results to
+determine whether plasma mitochondrial components represented
+intact exMTs or cytosolic mitochondrial DNAs and RNAs included in
+EVs. exMT release into plasma under metabolic stress and tissue injury
+has been proposed as a defensive mechanism, whereby damaged
+mitochondria are ejected to protect host cells32,59. Mitochondrial DNA
+released into the cytosol is posited as one of the damage-associated
+molecular patterns (DAMPs) that activate innate immune pathways60.
+Multiple studies suggest inter-cellular trafﬁcking of damaged mito-
+chondria and ROS as a signal to induce resistance against metabolic
+stress in distal cells and organs31,61. Our results support that a broad
+range of tissues release mitochondrial components into the plasma
+during spaceﬂight, which may indicate systemic metabolic stress
+responses in the human body under microgravity. Although the
+mechanisms and biological signiﬁcance are unclear, mitochondrial
+components and tissue-speciﬁc RNAs could serve as candidate bio-
+markers to evaluate internal tissue responses in space, and potentially
+shed light on recent proposals that mitochondrial dysregulation is a
+central feature that accelerates spaceﬂight health risks23.
+CD36 has been well studied as a scavenger receptor expressed on
+various cell types. Although a direct link between CD36-expressing EVs
+and the release of mitochondrial components has not been reported,
+CD36 EVs have been described in the context of tissue injury and stress
+responses62. The release of CD36-expressing EVs from endothelial cells
+and skeletal muscles has been reported63,64. Therefore, it is reasonable
+to infer that the CD36 fractions isolated from spaceﬂight plasma
+samples represent CD36 EVs that contain mtRNA and other RNAs
+derived from the nuclear genomes in their corresponding cells of
+origin. Our DNA and RNA-seq analysis of the CD36 fraction indicated
+qualitative differences in the mtDNAs and mtRNAs between the bulk
+plasma and CD36 fraction samples. Given that transcriptional and
+post-transcriptional regulation of mitochondrial gene expression has
+been described in the context of tissue-speciﬁcity and disease
+conditions50–52, further characterization of the CD36 fraction may
+Fig. 4 | Identiﬁcation and characterization of exMT-enriched CD36 fraction.
+a Screening of an antibody panel against cell-surface markers. Antibodies from four
+96-well plates were pooled and mixed with in-ﬂight or post-ﬂight astronaut plasma
+samples. Created with BioRender.com. b Puriﬁed DNA from each immunopur-
+iﬁcation was analyzed by real-time PCR using the MT-ND1 and globin (HGB) gene.
+Red arrows indicate lower PCR cycle threshold (Ct) values, indicating the speciﬁc
+recovery of mtDNA from ﬂight plasma samples (#56 and #63) but not from post-
+ﬂight samples (#47), through antibody pool G. c Second round of antibody
+screening in which antibodies contained in pool G were subdivided into 6 pools.
+Pool 2 speciﬁcally enriched mtDNA from in-ﬂight samples (#52 and #55) but not
+from post-ﬂight samples (#47). d Third round of antibody screening, which iden-
+tiﬁed the anti-CD36 antibody. e Heatmap of differentially puriﬁed RNAs between
+anti-CD36 immunopuriﬁcation (IP) and input plasma. IP was performed using three
+different in-ﬂight plasma samples. f Tissue enrichment analysis of the 406 CD36-
+enriched genes against the Human Protein Atlas Tissue Gene Expression Database
+using DAVID software. g RNA expression proﬁle for the 406 CD36-enriched genes
+obtained from the Genotype-Tissue Expression (GTEx) database.
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+8
+
+Bulk
+CD36 IP
+FL+120
+FL+30
+FL+5
+FL+60
+Post+120
+Post+3
+Post+30
+Post+60
+Pre
+7
+10
+16
+13
+MT-CO1
+MT-CO2
+MT-ATP6
+MT-CO3
+MT-CYB
+MT-ND4
+MT-ND5
+MT-ND1
+MT-ND2
+MT-ATP8
+MT-ND3
+MT-ND4L
+MT-ND6
+Log 2 normalized count
+b
+0
+50,000
+100,000
+0
+50,000
+100,000
+150,000
+MT-ND4
+MT-ND1
+0
+50,000
+100,000
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+MT-ND4
+MT-ND5
+0
+50,000
+100,000
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+MT-ND4
+MT-ND6
+0
+50,000
+100,000
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+MT-ND4
+MT-ND4L
+0
+50,000
+100,000
+0
+20,000
+40,000
+MT-ND4
+MT-ATP6
+0
+50,000
+100,000
+0
+10,000
+20,000
+30,000
+40,000
+MT-ND4
+MT-ATP8
+0
+50,000
+100,000
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+MT-ND4
+MT-CO1
+0
+50,000
+100,000
+0
+20,000
+40,000
+60,000
+MT-ND4
+MT-CO2
+0
+50,000
+100,000
+0
+10,000
+20,000
+30,000
+40,000
+50,000
+MT-ND4
+MT-CO3
+0
+50,000
+100,000
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+MT-ND4
+MT-CYB
+0
+50,000
+100,000
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+MT-ND4
+MT-ND2
+0
+50,000
+100,000
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+MT-ND4
+MT-ND3
+Slope
+IP/ bulk = 0.74
+2.57
+1.50
+1.30
+1.74
+1.12
+1.54
+1.38
+1.61
+1.00
+1.06
+2.34
+Pre
+FL
+Post
+CD36 Pre
+CD36 FL
+CD36 Post
+CD36 IP
+Bulk
+Normalized count
+Normalized count
+Normalized count
+Normalized count
+Normalized count
+Normalized count
+Normalized count
+c
+g
+f
+e
+d
+h
+i
+j
+k
+l
+m
+n
+chrM:
+5 kb
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+14,000
+16,000
+MT-TF
+MT-RNR1
+MT-TV
+MT-RNR2
+MT-TL1
+MT-ND1
+MT-TI
+MT-TQ
+MT-TM
+MT-ND2
+MT-TW
+MT-TA
+MT-TN
+MT-TC
+MT-TY
+MT-CO1
+MT-TS1
+MT-TD
+MT-CO2
+MT-TK
+MT-ATP8
+MT-ATP6
+MT-CO3
+MT-TG
+MT-ND3
+MT-TR
+MT-ND4L
+MT-ND4
+MT-TH
+MT-TS2
+MT-TL2
+MT-ND5
+MT-ND6
+MT-TE
+MT-CYB
+MT-TT
+MT-TP
+#55 Flight input
+3200 -
+0 _
+         IP CD36
+3200 -
+0 _
+a
+TAS
+D-loop
+D-loop
+Fig. 5 | mtDNA and mtRNA proﬁles in CD36 fraction. a UCSC Genome Browser
+view of DNA-seq reads mapped to the mitochondrial genome in bulk plasma cfDNA
+(input) and DNA puriﬁed from the CD36 plasma fraction (IP αCD36). Note that the
+read coverage peak is seen in the input proﬁle as overlapping with the TAS region of
+the D-loop, but not in the CD36 fraction. Proﬁles from sample #55 (Fig. 4d) are
+shown, and the read coverage peak speciﬁc for the input samplewas also conﬁrmed
+for sample #63 input/IP pair (not shown). b Heatmap showing normalized
+quantiﬁcation values for mtRNAs in the RNA-seq results for bulk plasma cfRNAs and
+RNAs puriﬁed from the CD36 fraction. An additional set of RNA-seq was performed
+for the CD36 fraction to cover six astronauts for pre-, in- and post-ﬂight phases, and
+results were combined with the bulk cfRNA-seq results used for the Fig. 1 analysis.
+c–n Plots showing normalized counts for mtRNAs in plasma cfRNA-seq (bulk) and
+CD36 fractions (IP). Trend lines were created using GraphPad PRISM 9.3.1, and
+ratios of the slopes between IP and bulk samples are shown in each panel.
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+9
+
+a
+d
+e
+f
+b
+c
+Flight
+35 days
+Space flight:
+    Artificial 1G (AG)
+    Microgravity (MG)
+Ground control (GC)
+17
+8
+4
+-LogP
+Gene count
+30
+20
+10
+Human flight
+Mouse AG vs MG
+Mouse GC vs MG
+g
+Mouse
+AG vs MG
+Mouse
+GC vs MG
+Human
+Flight
+52
+9
+6
+54
+132
+10
+66
+0
+3
+16
+10
+Log2 normalized count
+AG1
+AG2
+AG3
+AG4
+AG5
+AG6
+GC1
+GC2
+GC5
+GC3
+GC4
+MG3
+MG2
+MG1
+MG5
+MG4
+MG6
+C0007194: Hypertrophic Cardiomyopathy
+C0003811: Cardiac Arrhythmia
+C3203102: Idiopathic pulmonary arterial hypertension
+C0019209: Hepatomegaly
+C0011853: Diabetes Mellitus, Experimental
+C2973725: Pulmonary arterial hypertension
+C0271196: Scotoma, Centrocecal
+C1860475: Renal vascular tortuosity
+C4021569: Central renal vessel vascular tortuosity
+C0559106: Ventricular preexcitaon
+C0032915: Preexcitaon Syndrome
+C0154835: Renal telangiectasia
+C2751582: Mitochondrial respiratory chain defects
+C1557375: Blurred Vision, CTCAE
+C1853141: Slow decrease in visual acuity
+C0344232: Blurred vision
+C0152191: Scotoma, Central
+C0917796: Opc Atrophy, Hereditary, Leber
+C0234378: Stac Tremor
+C3275417: Ragged-red muscle ﬁbers
+C2931092: Maternally Inherited Leigh Syndrome
+C4021795: Abnormality of Krebs cycle metabolism
+C4022013: Mulple glomerular cysts
+C4025585: Laccaciduria
+C1857287: Stroke-like episode
+C1839532: Low plasma citrulline
+C4022012: Death in early adulthood
+C0020578: Hypervenlaon
+C0151786: Muscle Weakness
+C0152025: Polyneuropathy
+C0030554: Paresthesia
+C0494475: Tonic - clonic seizures
+C3665386: Abnormal vision
+C0233794: Memory impairment
+C0162671: MELAS Syndrome
+C3665346: Unspeciﬁed visual loss
+C0268630: Hyper-beta-alaninemia
+C0023264: Leigh Disease
+C0013384: Dyskinec syndrome
+C0542476: Forgeul
+C0270685: Cerebral calciﬁcaon
+C0025286: Meningioma
+C0003486: Aorc Aneurysm
+C0029124: Opc Atrophy
+C0027726: Nephroc Syndrome
+C0020676: Hypothyroidism
+C0020534: Orbital separaon excessive
+C1112256: Sensorimotor neuropathy
+C0522214: Abnormal visual evoked potenal
+C0006625: Cachexia
+C0038002: Splenomegaly
+C4553765: Memory Impairment, CTCAE 5.0
+C1963167: Memory Impairment, CTCAE 3.0
+C1527349: Ductal Breast Carcinoma
+C0011334: Dental caries
+C0000737: Abdominal Pain
+C0013421: Dystonia
+C0018021: Goiter
+C0024523: Malabsorpon Syndrome
+C0270922: Peripheral demyelinang neuropathy
+C0026848: Myopathy
+C0007193: Cardiomyopathy, Dilated
+C0004936: Mental disorders
+C0555198: Malignant Glioma
+C0149721: Le Ventricular Hypertrophy
+C0027796: Neuralgia
+C0151650: Renal ﬁbrosis
+C0278488: Carcinoma breast stage IV
+C1535926: Neurodevelopmental Disorders
+C0009806: Conspaon
+C1708349: Hereditary Diﬀuse Gastric Cancer
+C1449563: Cardiomyopathy, Familial Idiopathic
+C0598935: Tumor Iniaon
+C0153381: Malignant neoplasm of mouth
+C0521158: Recurrent tumor
+C4529962: Fay Liver Disease
+C4721453: Peripheral Nervous System Diseases
+C0008370: Cholestasis
+C0002726: Amyloidosis
+Fig. 6 | Comparing our human plasma cfRNA with mouse plasma cfRNA from a
+spaceﬂight mission. a Sampling scheme of the MHU-1 spaceﬂight mission. The 35-
+day mission in 2016 included six spaceﬂights (microgravity, MG), six artiﬁcial 1-G in-
+ﬂight controls (AG), and six ground control (GC) mice. Created with BioR-
+ender.com. b–d Mouse cfRNA sequencing results for mitochondrial genes with
+normalized RPKM (Reads Per Kilobase of transcript per Million reads mapped)
+values. Solid lines show mean value derived from n = 6 (for AG and MG) and n = 5
+(for GC) biologically independent samples. Results of Mann–Whitney test are
+shown by ** for two-tailed exact P-value < 0.01 and * for <0.05. e Heatmap of the 418
+DRRs between the GC, AG, and MG conditions. GC samples were collected only
+from ﬁve mice due to a technical problem in blood sampling. f Venn diagram
+showing overlapping DisGeNET terms among DRRs in the AG vs. MG comparison,
+GC vs. MG comparison, and human cfRNA analysis. g Comprehensive list of over-
+lapping DisGeNET terms from the panel g Venn diagram.
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+10
+
+provide clues to understanding spaceﬂight-associated mitochondrial
+responses.
+Tissue-speciﬁc RNAs identiﬁed space environmental responses in
+previously not well-characterized tissue types. The pituitary gland,
+thyroid gland, and parathyroid gland are thought to play central roles
+in the maintenance and alteration of homeostasis in space, but their
+small tissue sizes typically prevent their molecular analysis in animal
+models. These tissues are also inaccessible by direct sampling. It
+should be noted that the changes in the cfRNA proﬁles may represent
+altered tissue contributions as well as RNA expression changes in
+internal tissues, but our current study has limitations in distinguishing
+these possibilities.
+cfRNAs from mucin family genes were previously not well char-
+acterized in the context of spaceﬂight response. The mucin genes
+detected in our study revealed a broad range of tissue-speciﬁcities,
+including the highly tissue-restricted MUC5B (Fig. 3p). Mucins are
+known to play protective roles in epithelial tissues65. Gravity imposes
+mechanical loading on the entire body, and mucin is expected to be
+one of the critical components of biolubricants66. Therefore, the
+changes in mucins that we observed may be related to gravity
+responses. Mucins are also important for functioning as barriers
+against external pathogens and for protecting tissues against dehy-
+dration and adhesion. Our results could highlight the signiﬁcance of
+mucins in the maintenance of tissue integrity, and in the controlling of
+immunological, physical anti-friction, and anti-adhesion functions,
+through the maintenance of surface tension under the altered gravity
+environment.
+It is unclear if the two modes of cfRNA responses to spaceﬂight, an
+increase in mitochondrial components in plasma cfDNA and cfRNA
+and a decrease in other cfRNAs derived from internal tissues, are
+mechanistically related. It is also interesting that the tissue-speciﬁcity
+proﬁles of both groups of cfRNAs are similar, with brain and skeletal
+muscle as the most prominent tissue types. One of the potential
+explanations could be altered properties of blood–tissue barrier (BTB)
+functions. Recent studies reported altered integrity of the blood–brain
+barrier and blood–retinal barrier in space67,68. It is intriguing to note
+that both studies showed an association between oxidative stress and
+altered BTB-related molecular processes in space. Murakami et al. have
+reported seminal studies that directly linked gravity and environ-
+mental stressors to BTB regulation and inﬂammatory responses in the
+central nervous system (CNS), a process called the gateway reﬂex69–71.
+Thus, it is possible that the reduced release of cfRNAs from the brain
+into the plasma could be caused by a reduction in the BTB exchange of
+cfRNA-containing EVs triggered by microgravity or environmental
+stresses. As the gateway reﬂex is linked to pro-inﬂammatory signals
+through “IL-6-ampliﬁer activation”, potential correlations to neuro-
+inﬂammatory responses in the brain and retinal tissues could be the
+targets for further analysis.
+Although the fractionation process in our study was limited by the
+panel of antibodies used, our results motivate future developments
+and applications of high-deﬁnition liquid biopsies combined with the
+fractionation of EVs. As more cell-speciﬁc surface markers become
+annotated, the resolution of fractionation will likely improve. Sup-
+porting these ideas, we performed another attempt at screening using
+nuclear-encoded RNAs and identiﬁed multiple antibodies that enri-
+ched different RNA contents from in-ﬂight and post-ﬂight plasma
+samples (unpublished results). Either way, improvement in these bio-
+molecular technologies will in turn enable the detection of cell-type-
+speciﬁc gene expression through liquid biopsies, which can be applied
+for minimally invasive health monitoring and clinical sample analysis
+on Earth and in space.
+As a speciﬁc clinical example, the plasma mtDNA-enriched CD36
+fraction isolated from in-ﬂight plasma samples contained tissue-
+speciﬁc RNAs indicating eye-related origins (Fig. 4f), and visual dis-
+eases were also represented among the gravity-linked terms (Fig. 6g).
+These ﬁndings indicate a possibility that liquid biopsies could be useful
+to detect early molecular events associated with retina tissue damage.
+Spaceﬂight-associated neuro-ocular syndrome (SANS) is one of the
+puzzling health issues in astronauts55. SANS is present in some astro-
+nauts after short and long duration spaceﬂight55 and is deﬁned as a
+constellation of unusual clinical ﬁndings, including optic disc edema,
+globe ﬂattening, choroidal and retinal folds, hyperopic refractive error
+shifts, and nerve ﬁber layer infarcts72. The cause of SANS remains
+elusive, but two main hypotheses include elevated intracranial pres-
+sure (ICP) and compartmentalization of cerebrospinal ﬂuid (CSF) to
+the area behind the globe73. Our study allowed for the resolution of
+gene expression in tissues that are traditionally difﬁcult to access in
+humans, such as the retina and choroid plexus, both of which may be
+relevant to the study of SANS pathophysiology. Mitochondrial
+responses and ROS have been reported as characteristic features of
+neuro-inﬂammation in CNS and retinal diseases74. These changes have
+also been observed in mouse spaceﬂight experiments67,75. These stu-
+dies, collectively, could suggest mitochondria-related processes,
+including the ROS and OXPHOS systems, as potential targets for
+countermeasure development to prevent health problems associated
+with spaceﬂight76,77. Overall, this example underlines that minimally
+invasive liquid biopsies could elucidate new perspectives on the cause
+of and countermeasures for unique space-related ailments.
+This study provided a unique opportunity to compare plasma
+cfRNA between mammalian species in a minimally invasive manner.
+The space environment consists of many factors, including micro-
+gravity, radiation, conﬁnement, noise, altered air pressure and com-
+position, and stress factors associated with launch and return. The use
+of on-board artiﬁcial 1-G controls in the published MHU-1 mission
+allowed us to identify gene categories speciﬁcally affected by the
+factor of microgravity, and nearly half (49.6%) of the enriched human
+disease terms were also observed in our human ﬂight data. These
+gravity-linked terms were not limited to conventional disuse functions,
+such as bone and muscle loss, but also included metabolic stress
+responses, neurological disorders, and importantly, ocular and cardi-
+ovascular dysfunctions. With the development of sophisticated liquid
+biopsy technologies combined with multi-omics approaches, the rapid
+development of human research in space is expected to provide
+important
+insights
+that
+beneﬁt
+human
+health
+both
+on
+and
+beyond Earth.
+Methods
+Study registration and ethics
+The current human spaceﬂight study was proposed to and supported
+by the 2014 International Life Sciences Research Announcements,
+JAXA, and the National Aeronautics and Space Administration (NASA).
+Ethics committee approvals were obtained at the University of Tsu-
+kuba, Institute of Medicine, Ethics Committee (No. 251, November 27,
+2015), JAXA Institutional Review Board for Human Research (JX-IRBA-
+20–071, August 30, 2016), NASA Institutional Review Board (Pro1995,
+February 28, 2017), and European Space Agency (ESA) Medical Board
+(2017_04_09, April 20, 2017). Informed consent was obtained by the
+personal information manager of the study, and de-identiﬁed samples
+were made available to researchers who performed sample processing
+and data analysis. The study design and conduct complied with all
+relevant regulations regarding the use of human study participants
+and was conducted in accordance with the criteria set by the
+Declaration of Helsinki. The previously published Mouse Habitat Unit-1
+(MHU-1) spaceﬂight mission is described by Shiba et al.25.
+Sample collection and transportation
+Human blood samples were collected using Vacutainer EDTA-plasma
+separate gel collection tubes (BD, cat. no. 362788) and frozen at −95 °C
+(ISS) or −80 °C (ground) after centrifugation for 30 min at 1239×g
+(3800 rpm, ISS) or 1600×g (ground). Frozen samples were transported
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+11
+
+to the University of Tsukuba after all samples were collected from the
+six astronauts. Mouse blood samples were collected from the inferior
+vena cava under anesthesia, and transferred into a 1.5 ml microfuge
+tube containing EDTA-2K for a ﬁnal concentration of 5 mM. Plasma was
+obtained by centrifugation at 1500×g for 10 min, and collected into a
+fresh tube. A 100 μl aliquot was frozen and transported to the Uni-
+versity of Tsukuba.
+RNA puriﬁcation
+Plasma sample tubes were thawed on ice, aliquoted, and frozen at
+−80 °C. Plasma sample aliquots (120 μl) were thawed on ice, and cen-
+trifuged at 2000×g for 10 min at 4 °C to remove cellular debris, and
+100 μl supernatants were transferred into fresh tubes with 1 ml TRIzol-
+LS (Life Technologies, cat. no. 10296028). 200 μl of chloroform was
+added to the TRIzol sample, vortex mixed, and spun at 16,000×g for
+15 min at 4 °C. Supernatants were transferred into fresh tubes with 1 μl
+of glycogen (10 mg/ml stock, Roche, cat. no. 1091393001). 500 μl of
+isopropanol was added, mixed, and incubated for 10 min at room
+temperature. RNA pellets were recovered following centrifugation at
+16,000×g for 15 min and the removal of supernatants. Pellets were
+washed twice with 80% ethanol. RNA was resuspended in 8 μl of water.
+RNA concentrations were measured using the Qubit RNA HS Assay Kit
+(Invitrogen, cat. no. Q32852). Mouse plasma RNA was puriﬁed using
+the same method as human plasma RNA, except that, after the removal
+of cell debris, 50 μl of plasma aliquots were resuspended with 750 μl of
+TRIzol-LS and 200 μl of water.
+DNA puriﬁcation
+Cell debris was removed from the 120 μl plasma aliquot as described
+for the RNA puriﬁcation, and 150 μl of SDS-Lysis Buffer (50 mM
+Tris–HCl pH 8.0, 10 mM EDTA, 1% SDS), 250 μl of TE Buffer (10 mM
+Tris–HCl pH 7.5, 1 mM EDTA), and 10 μl of Pronase stock (Pronase from
+Streptomyces griseus, Roche Diagnostics, cat. no. 10165913103, dis-
+solved in water at 20 mg/ml) were added and incubated at 42 °C for 1 h.
+To extract DNA, 500 μl of Phenol-CHCl3-Isoamylalchol (Wako, cat. no.
+311-90151) was added and vortex mixed. The mixture was spun for
+5 min at 16,000×g. The supernatant was transferred into a fresh 1.5 ml
+tube with 15 μl of 5 M NaCl and 1 μl of glycogen (10 mg/ml stock,
+Roche, cat. no. 1091393001). 1 ml of ethanol was added, mixed, and
+incubated for 30 min at room temperature. The DNA pellet was
+recovered by centrifugation at 16,000×g for 30 min. The supernatant
+was removed, and the pellet was washed with 80% ethanol. DNA was
+resuspended in 20 μl of water. The DNA concentration was measured
+by the Qubit 1X dsDNA HS Assay Kit (Invitrogen, cat. no. Q33230). The
+quality of the puriﬁed RNA was examined by the RNA 6000 Pico Kit
+(Agilent Technologies, cat. no. 5067-1513).
+Mitochondrial DNA quantiﬁcation and statistical analysis
+As described previously78, mitochondrial DNA and host cell genome
+copy numbers were quantiﬁed using the following primer pairs:
+MT-ND1 gene, ND1 forward, 5′-CCCTAAAACCCGCCACATCT-3′; ND1
+reverse, 5′-GAGCGATGGTGAGAGCTAAGGT-3′; human globulin gene,
+HGB-1 forward, 5′-GTGCACCTGACTCCTGAGGAGA-3′;
+and HGB-2
+reverse, 5′-CCTTGATACCAACCTGCCCAG-3′. Relative copy numbers
+against pre-ﬂight means were estimated by the differences in the cycle
+threshold values from the same volumes of puriﬁed DNA. Relative
+quantiﬁcation values were plotted, and statistical analysis was per-
+formed using the GraphPad Prism 9.3.1 software.
+RNA sequencing
+Each sequencing library preparation used 2.5 μl of puriﬁed RNA. For
+the human plasma RNA and CD36-enriched RNA fractions, the SMART-
+seq Stranded Kit (Takara Bio, cat. no. 634443) was used at a half-
+volume scale following the user manual. The template amount was
+veriﬁed before the second PCR step by performing real-time PCR with
+the Fast SYBR Green Master Mix (Thermo Fisher Scientiﬁc, cat. no.
+4385612) on a 1 μl aliquot of library reaction in order to adjust the PCR
+cycle for library ampliﬁcation. PCR products were puriﬁed and eluted
+in 16 μl of Stranded Elution Buffer diluted with water at a 1:1 ratio.
+Mouse plasma RNA sequencing using the NEBNext Small RNA Library
+Kit (New England Biolabs, cat. no. E7330S) and 2 × 36 base paired-end
+sequencing with NextSeq500 (Illumina) were performed as described
+previously79.
+Sequencing data analysis
+Reads in FASTQ ﬁles were imported into CLC Genomics Workbench
+(CLC-GW, ver.10.1.1, Qiagen), mapped to human (hg19) or mouse
+(mm10) reference genomes, and quantiﬁed using a 57,773-gene
+(human) or 49,585-gene (mouse) annotation set (downloaded from the
+CLC-GW server) to obtain the total count values, which were combined
+into a table. To plot normalized expression values, total counts were
+normalized by the scaling option in CLC-GW (normalization value =
+mean, reference = median mean, trimming 5%). Normalized total count
+values were log-2 transformed after adding a pseudocount of unity.
+ANOVAs and Empirical analyses of DRRs as described in ﬁgure legends
+were performed in CLC-GW.
+DNA sequencing
+DNA was puriﬁed from input plasma and the CD36 fraction was soni-
+cated with Bioruptor II (Sonic Bio) on the high setting for 10 min and
+converted to sequencing libraries using the NEBNext Ultra II DNA
+Library Prep Kit (New England Biolabs, cat no. E7645) at half-scale.
+Library products with insert sizes smaller than ~500 bp were selected
+using AMPureXPbeads (Backman Coulter, cat. no.A63882). According
+to our examination, the majority of mtDNA were included in high-
+molecular-weight (>500 bp insert size) fractions in both total plasma
+cfDNA and DNA puriﬁed from the CD36 fraction. 2 × 36 base paired-
+end sequencing was performed, and FASTQ ﬁles were imported and
+mapped to the hg19 human reference genome by CLC-GW.
+Visualization of mapped RNA-seq and DNA-seq reads
+All the mapped RNA-seq reads for each sample were combined into
+pre-, in-, and post-ﬂight groups. Due to variations in the data quantity
+and sample numbers in each phase, we decided to use all the reads for
+visualization. Mapped RNA-seq and DNA-seq reads were exported
+from CLC-GW as BAM format ﬁles, converted into bedGraph format
+ﬁles, and the sections corresponding to the mitochondrial genome
+were then selected and uploaded to the UCSC Genome Browser
+(https://genome.ucsc.edu/).
+Correlation analysis
+Normalized quantiﬁcation values of bulk cfRNA-seq for 466 genes
+from 64 samples (six astronauts, 11 time points, two samples removed)
+were imported to GraphPad Prism 9.3.1. A Pearson correlation matrix
+was created, and results were imported into Morpheus to draw a
+heatmap. Gene annotations for pathways and tissue terms were
+obtained from the Metascape output, including all genes in each
+summary category.
+Antibody screening and immunopuriﬁcation of plasma fraction
+An antibody panel of 361 surface markers (LEGENDScreen Human
+PE Kit, BioLegend, cat. no. 700007, lot no. B328253) was used. Each
+antibody was reconstituted by adding 25 μl of water. For screening,
+1 μl of each antibody was pooled. For the ﬁrst round, 48 wells from
+rows A to H of four plates were pooled. For the second round, col-
+umns 1–6 and 8–12 of row G were combined into 6 pools. For the
+third round, antibodies from columns 2 and 8 in row G from four
+plates were used individually. For each round of screening, 120 μl of
+plasma aliquot was diluted with 750 μl of PBS, and 100 μl of diluted
+plasma was combined with pooled antibodies. The mixture was
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+12
+
+rotated at 4 °C for 1 h. At this incubation step, the dilution of each
+antibody was 1:100. For each immunopuriﬁcation, 20 μl of Dyna-
+beads Protein G (Invitrogen, cat. no. 1004D) were washed twice with
+PBS and resuspended in 30 μl of PBS with 1 μl of monoclonal goat
+anti-mouse IgM (Abcam, cat. no. ab9167, lot no. GR125217-5) and
+0.1 mg/ml of BSA (New England Biolabs, B9001S). Washed Protein G
+beads were added to the plasma samples with antibodies and
+incubated at 4 °C for 30 min. At this incubation step, the dilution of
+the IgM antibody combined with Protein G beads was 1:130. After
+binding, beads were washed twice with ice-cold PBS. Then, 25 μl of
+SDS–Lysis buffer, 25 μl of TE buffer, and 5 μl of pronase stock were
+added to the beads and incubated at 42 °C for 30 min. Eluted DNA
+was combined with 150 μl of TE. DNA was then puriﬁed following the
+plasma DNA puriﬁcation protocol at half-scale. Antibody clone
+information and plate layout are provided by the manufacturer at
+https://www.biolegend.com/Files/Images/media_assets/pro_detail/
+datasheets/700011_Hu_LEGENDScreen_Layouts.xlsx.
+Puriﬁcation of CD36 plasma fraction and RNA extraction
+The 120 μl plasma aliquot was centrifuged to remove cell debris. The
+100 μl supernatant was transferred into a fresh tube and combined
+with 650 μl of PBS, and 125 μl of the result was kept as input. The rest of
+the diluted plasma was combined with a diluted anti-CD36 antibody
+(2 μl of antibody and 40 μl of PBS with 1 × BSA per puriﬁcation). The
+mixture was rotated at 4 °C for 1 h. Then, 20 μl of washed protein G
+beads combined with the goat anti-IgM antibody was added and
+rotated at 4 °C for 1 h. The supernatant was removed, and the beads
+were washed twice. Next, 1 ml of 1 × TRIzol (diluted TRIzol-LS with H2O
+at 3:1 for 1× concentration) was added to the washed beads. 850 μl of
+TRIzol-LS was added to the input. RNA was puriﬁed following the
+plasma RNA puriﬁcation protocol.
+Pathway and tissue-speciﬁcity analysis
+Metascape 3.5 (https://metascape.org/gp/index.html) analysis was
+performed on ﬁltered gene lists using default settings. Mouse genes
+were imported as mouse genes and analyzed as human genes. DAVID
+2021 (https://david.ncifcrf.gov/tools.jsp) analysis was performed using
+default settings. Human gene expression proﬁles were obtained from
+the GTEx Portal (https://gtexportal.org/home) with the ﬁle that con-
+tains median gene-level transcript per million (TPM) by tissue
+“GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct.gz”.
+Genes that matched within the ﬁltered gene lists were selected for
+clustering and visualization.
+Plots, heatmaps, and visualization
+PCA plots, scatterplots, and normalized value plots were produced
+using the GraphPad Prism 9.3.1 software. Metascape and DAVID ana-
+lysis output values and pathway terms were visualized using the bub-
+ble plot option in GraphPad Prism 9.3.1. Heatmaps were created using
+Morpheus (https://software.broadinstitute.org/morpheus/). Normal-
+ized log-2 total count values for ﬁltered genes were exported from
+CLC-GW to Morpheus in Excel format. Clustering trees were produced
+using the One-minus Pearson option in the Morpheus clustering
+software.
+DisGeNET analysis
+DisGeNET human disease term enrichment results were obtained from
+Metascape. Lists of DRRs (human, pre-, in-, post-ﬂight), 215 DRRs
+(mouse, AG vs. MG), and 162 DRRs (mouse, MG vs. GC) were uploaded
+to the Metascape webtool and analyzed as human genes by default
+settings. DisGeNET80 result ﬁles were downloaded, and human disease
+terms were ﬁltered by LogP < −4. The Venn diagram in Fig. 4f was
+produced using Venny 2.1 (https://bioinfogp.cnb.csic.es/tools/venny/
+index.html). Overlapping parts of the Venn diagram (total 79 terms)
+were depicted in Fig. 4g using −LogP (circle size) and gene counts
+(color) after sorting by overlap group and LogP values using the
+bubble plot option in GraphPad Prism 9.3.1.
+Data availability
+The processed ﬁles for human RNA-seq data generated in this study
+have been deposited in the GeneLab database under accession code
+OSD-530. Mouse raw and processed RNA-seq data sets have been
+deposited in the GeneLab database with accession code OSD-532 and
+in the Gene Expression Omnibus database under accession code
+GSE213808. Since astronauts who belong to space agencies are highly
+identiﬁable persons, individual medical and ﬂight-related records were
+retained by personal information managers and not released to the
+researchers who performed sample processing and data analysis. RNA-
+seq raw datasets, which contain genome sequence information, are
+not publicly available according to the approved conditions of this
+study. Data access requires ethics committee approvals for the addi-
+tion of researchers to the study plan. MM is responsible for explaining
+further details about the ethical circumstances and controlled access
+for RNA-seq raw data in response to requests within 4 weeks.
+References
+1.
+Schmidt, M. A. & Goodwin, T. J. Personalized medicine in human
+space ﬂight: using Omics based analyses to develop individualized
+countermeasures that enhance astronaut safety and performance.
+Metabolomics 9, 1134–1156 (2013).
+2.
+Heitzer, E., Haque, I. S., Roberts, C. E. S. & Speicher, M. R. Current
+and future perspectives of liquid biopsies in genomics-driven
+oncology. Nat. Rev. Genet. 20, 71–88 (2019).
+3.
+Siravegna, G., Marsoni, S., Siena, S. & Bardelli, A. Integrating liquid
+biopsies into the management of cancer. Nat. Rev. Clin. Oncol. 14,
+531–548 (2017).
+4.
+Dawson, S. J. et al. Analysis of circulating tumor DNA to monitor
+metastatic breast cancer. N. Engl. J. Med. 368, 1199–1209 (2013).
+5.
+Murtaza, M. et al. Non-invasive analysis of acquired resistance to
+cancer therapy by sequencing of plasma DNA. Nature 497,
+108–112 (2013).
+6.
+Hummel, E. M. et al. Cell-free DNA release under psychosocial and
+physical stress conditions. Transl. Psychiatry 8, 236 (2018).
+7.
+Teo, Y. V. et al. Cell-free DNA as a biomarker of aging. Aging Cell 18,
+e12890 (2019).
+8.
+Drag, M. H. & Kilpelainen, T. O. Cell-free DNA and RNA-
+measurement and applications in clinical diagnostics with focus on
+metabolic disorders. Physiol. Genom. 53, 33–46 (2021).
+9.
+Zwirner, K. et al. Circulating cell-free DNA: a potential biomarker to
+differentiate inﬂammation and infection during radio-
+chemotherapy. Radiother. Oncol. 129, 575–581 (2018).
+10.
+Burnham, P. et al. Urinary cell-free DNA is a versatile analyte for
+monitoring infections of the urinary tract. Nat. Commun. 9,
+2412 (2018).
+11.
+Bettegowda, C. et al. Detection of circulating tumor DNA in early-
+and late-stage human malignancies. Sci. Transl. Med. 6,
+224ra224 (2014).
+12.
+Birkenkamp-Demtroder, K. et al. Genomic alterations in liquid
+biopsies from patients with bladder cancer. Eur. Urol. 70,
+75–82 (2016).
+13.
+Pariset, E. et al. DNA damage baseline predicts resilience to space
+radiation and radiotherapy. Cell Rep. 33, 108434 (2020).
+14.
+Brojakowska, A. et al. Retrospective analysis of somatic mutations
+and clonal hematopoiesis in astronauts. Commun. Biol. 5,
+828 (2022).
+15.
+Newman, A. M. et al. Integrated digital error suppression for
+improved detection of circulating tumor DNA. Nat. Biotechnol. 34,
+547–555 (2016).
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+13
+
+16.
+Cope, H. et al. Routine omics collection is a golden opportunity for
+European human research in space and analog environments.
+Patterns Prejudice 3, 100550 (2022).
+17.
+Charvat, J. M. et al. Long-term cardiovascular risk in astronauts:
+comparing NASA mission astronauts with a healthy cohort from the
+Cooper Center Longitudinal Study. Mayo Clin. Proc. 97,
+1237–1246 (2022).
+18.
+Castro-Wallace, S. L. et al. Nanopore DNA sequencing and genome
+assembly on the international space station. Sci. Rep. 7,
+18022 (2017).
+19.
+McIntyre, A. B. R. et al. Nanopore sequencing in microgravity. NPJ
+Microgravity 2, 16035 (2016).
+20. Burton, A. S. et al. Off earth identiﬁcation of bacterial populations
+using 16S rDNA nanopore sequencing. Genes 11, 76 (2020).
+21.
+Bezdan, D. et al. Cell-free DNA (cfDNA) and exosome proﬁling from
+a year-long human spaceﬂight reveals circulating biomarkers.
+iScience 23, 101844 (2020).
+22. Bisserier, M. et al. Cell‐free mitochondrial DNA as a potential bio-
+marker for astronauts’. Health J. Am. Heart Assoc. 10,
+e022055 (2021).
+23. da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals
+mitochondrial stress as a central biological hub for spaceﬂight
+impact. Cell 183, 1185–1201.e1120 (2020).
+24. Garrett-Bakelman, F. E. et al. The NASA Twins Study: a multi-
+dimensional analysis of a year-long human spaceﬂight. Science
+364, eaau8650 (2019).
+25. Shiba, D. et al. Development of new experimental platform ‘MARS’-
+Multiple Artiﬁcial-gravity Research System-to elucidate the impacts
+of micro/partial gravity on mice. Sci. Rep. 7, 10837 (2017).
+26. Zhou, Y. et al. Metascape provides a biologist-oriented resource for
+the analysis of systems-level datasets. Nat. Commun. 10,
+1523 (2019).
+27.
+Thacher, T. D. & Clarke, B. L. Vitamin D insufﬁciency. Mayo Clin.
+Proc. 86, 50–60 (2011).
+28. Uhlen, M. et al. Proteomics. Tissue-based map of the human pro-
+teome. Science 347, 1260419 (2015).
+29. Jiang,L. et al. Determining the contents and cell origins of apoptotic
+bodies by ﬂow cytometry. Sci. Rep. 7, 14444 (2017).
+30. Cowan, D. B. et al. Transit and integration of extracellular mito-
+chondria in human heart cells. Sci. Rep. 7, 17450 (2017).
+31.
+Crewe, C. et al. Extracellular vesicle-based interorgan transport of
+mitochondria from energetically stressed adipocytes. Cell Metab.
+33, 1853–1868 e1811 (2021).
+32. Rosina, M. et al. Ejection of damaged mitochondria and their
+removal by macrophages ensure efﬁcient thermogenesis in brown
+adipose tissue. Cell Metab. 34, 533–548 e512 (2022).
+33. Zou, X. et al. Renal scattered tubular-like cells confer protective
+effects in the stenotic murine kidney mediated by release of
+extracellular vesicles. Sci. Rep. 8, 1263 (2018).
+34. Letsiou, E. et al. Microvesicles released from pneumolysin-
+stimulated lung epithelial cells carry mitochondrial cargo and
+suppress neutrophil oxidative burst. Sci. Rep. 11, 9529 (2021).
+35. Youn, D. H. et al. Mitochondrial dysfunction associated with
+autophagy and mitophagy in cerebrospinal ﬂuid cells of patients
+with delayed cerebral ischemia following subarachnoid hemor-
+rhage. Sci. Rep. 11, 16512 (2021).
+36. D’Acunzo, P. et al. Mitovesicles are a novel population of extra-
+cellular vesicles of mitochondrial origin altered in Down syndrome.
+Sci. Adv. 7, eabe5085 (2021).
+37. Perez-Trevino, P., Velasquez, M. & Garcia, N. Mechanisms of mito-
+chondrial DNA escape and its relationship with different metabolic
+diseases. Biochim. Biophys. Acta Mol. Basis Dis. 1866,
+165761 (2020).
+38. Huang da, W., Sherman, B. T. & Lempicki, R. A. Systematic and
+integrative analysis of large gene lists using DAVID bioinformatics
+resources. Nat. Protoc. 4, 44–57 (2009).
+39. Sherman, B. T. et al. DAVID: a web server for functional enrichment
+analysis and functional annotation of gene lists (2021 update).
+Nucleic Acids Res. 50, W216–W221 (2022).
+40. Sallum, J. M. F. et al. Epidemiology of mutations in the 65-kDa retinal
+pigment epithelium (RPE65) gene-mediated inherited retinal dys-
+trophies: a systematic literature review. Adv. Ther. 39,
+1179–1198 (2022).
+41.
+Boon, C. J. F. et al. The spectrum of retinal dystrophies caused by
+mutations in the peripherin/RDS gene. Prog. Retin. Eye Res. 27,
+213–235 (2008).
+42. Hull, S. et al. Clinical characterization of CNGB1-related autosomal
+recessive retinitis pigmentosa. JAMA Ophthalmol. 135,
+137–144 (2017).
+43. Cox, D. R. A. et al. High speed centrifugation before frozen storage
+of plasma is critical for quantitative analysis of mitochondrial-
+derived cell-free DNA. Clin. Chem. 66, 1111–1114 (2020).
+44. Melki, I. et al. Platelets release mitochondrial antigens in systemic
+lupus erythematosus. Sci. Transl. Med. 13, eaav5928 (2021).
+45. van Velzen, J. F., Laros-van Gorkom, B. A., Pop, G. A. & van Heerde,
+W. L. Multicolor ﬂow cytometry for evaluation of platelet surface
+antigens and activation markers. Thromb. Res. 130, 92–98
+(2012).
+46. Mercer, T. R. et al. The human mitochondrial transcriptome. Cell
+146, 645–658 (2011).
+47. Jemt, E. et al. Regulation of DNA replication at the end of the
+mitochondrial D-loop involves the helicase TWINKLE and a con-
+served sequence element. Nucleic Acids Res. 43,
+9262–9275 (2015).
+48. Rackham, O. & Filipovska, A. Organization and expression of the
+mammalian mitochondrial genome. Nat. Rev. Genet. 23,
+606–623 (2022).
+49. Isaac, R. S. et al. Singlenucleoid architecture reveals hetero-
+geneous packaging of mitochondrial DNA. Nat. Struct. Mol. Biol.
+in press https://doi.org/10.1101/2022.09.25.509398 (2022).
+50. Popow, J. et al. FASTKD2 is an RNA-binding protein required for
+mitochondrial RNA processing and translation. RNA 21,
+1873–1884 (2015).
+51.
+Jourdain, A. A. et al. A mitochondria-speciﬁc isoform of FASTK is
+present in mitochondrial RNA granules and regulates gene
+expression and function. Cell Rep. 10, 1110–1121 (2015).
+52. Cao, K. et al. Hypermethylation of hepatic mitochondrial ND6 pro-
+vokes systemic insulin resistance. Adv. Sci. (Weinh.) 8,
+2004507 (2021).
+53. Chinnery, P. F. et al. The mitochondrial ND6 gene is a hot spot for
+mutations that cause Leber’s hereditary optic neuropathy. Brain
+124, 209–218 (2001).
+54. Roberts, D. R. et al. Effects of spaceﬂight on astronaut brain struc-
+ture as indicated on MRI. N. Engl. J. Med. 377, 1746–1753 (2017).
+55. Lee, A. G. et al. Spaceﬂight associated neuro-ocular syndrome
+(SANS) and the neuro-ophthalmologic effects of microgravity: a
+review and an update. NPJ Microgravity 6, 7 (2020).
+56. Roy-O’Reilly, M., Mulavara, A. & Williams, T. A review of alterations
+to the brain during spaceﬂight and the potential relevance to crew
+in long-duration space exploration. NPJ Microgravity 7, 5 (2021).
+57. Zu Eulenburg, P. et al. Changes in blood biomarkers of brain injury
+and degeneration following long-duration spaceﬂight. JAMA Neu-
+rol. 78, 1525–1527 (2021).
+58. Barisano, G. et al. The effect of prolonged spaceﬂight on cere-
+brospinal ﬂuid and perivascular spaces of astronauts and cosmo-
+nauts. Proc. Natl Acad. Sci. USA 119, e2120439119 (2022).
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+14
+
+59. Tan, H. W. S. et al. A degradative to secretory autophagy switch
+mediates mitochondria clearance in the absence of the mATG8-
+conjugation machinery. Nat. Commun. 13, 3720 (2022).
+60. Todkar, K. et al. Selective packaging of mitochondrial proteins into
+extracellular vesicles prevents the release of mitochondrial DAMPs.
+Nat. Commun. 12, 1971 (2021).
+61.
+Peruzzotti-Jametti, L. et al. Neural stem cells trafﬁc functional
+mitochondria via extracellular vesicles. PLoS Biol. 19,
+e3001166 (2021).
+62. Chen, Y., Zhang, J., Cui, W. & Silverstein, R. L. CD36, a signaling
+receptor and fatty acid transporter that regulates immune cell
+metabolism and fate. J. Exp. Med. 219, e20211314 (2022).
+63. Alkhatatbeh, M. J., Enjeti, A. K., Acharya, S., Thorne, R. F. & Lincz, L.
+F. The origin of circulating CD36 in type 2 diabetes. Nutr. Diabetes 3,
+e59 (2013).
+64. Nielsen, M. H., Sabaratnam, R., Pedersen, A. J. T., Hojlund, K. &
+Handberg, A. Acute exercise increases plasma levels of muscle-
+derived microvesicles carrying fatty acid transport proteins. J. Clin.
+Endocrinol. Metab. 104, 4804–4814 (2019).
+65. McGuckin, M. A., Linden, S. K., Sutton, P. & Florin, T. H. Mucin
+dynamics and enteric pathogens. Nat. Rev. Microbiol. 9,
+265–278 (2011).
+66. Hollingsworth, M. A. & Swanson, B. J. Mucins in cancer: protection
+and control of the cell surface. Nat. Rev. Cancer 4, 45–60 (2004).
+67. Mao, X. W. et al. Impact of spaceﬂight and artiﬁcial gravity on the
+mouse retina: biochemical and proteomic analysis. Int. J. Mol. Sci.
+19, 2546 (2018).
+68. Mao, X. W. et al. Spaceﬂight induces oxidative damage to
+blood–brain barrier integrity in a mouse model. FASEB J. 34,
+15516–15530 (2020).
+69. Arima, Y. et al. Regional neural activation deﬁnes a gateway for
+autoreactive T cells to cross the blood-brain barrier. Cell 148,
+447–457 (2012).
+70. Stofkova, A. et al. Photopic light-mediated down-regulation of local
+alpha(1A)-adrenergic signaling protects blood–retina barrier in
+experimental autoimmune uveoretinitis. Sci. Rep. 9, 2353 (2019).
+71.
+Tanaka, Y., Arima, Y., Kamimura, D. & Murakami, M. The gateway
+reﬂex, a novel neuro-immune interaction for the regulation of
+regional vessels. Front. Immunol. 8, 1321 (2017).
+72.
+Lee, A. G., Mader, T. H., Robert Gibson, C., Brunstetter, T. J. & Tarver,
+W. J. Space ﬂight-associated neuro-ocular syndrome (SANS). Eye
+32, 1164–1167 (2018).
+73. Martin Paez, Y., Mudie, L. I. & Subramanian, P. S. Spaceﬂight asso-
+ciated neuro-ocular syndrome (SANS): a systematic review and
+future directions. Eye Brain 12, 105–117 (2020).
+74. Kerur, N. et al. cGAS drives noncanonical-inﬂammasome activation
+in age-related macular degeneration. Nat. Med. 24, 50–61 (2018).
+75. Holley, J. M. et al. Characterization of gene expression proﬁles in
+the mouse brain after 35 days of spaceﬂight mission. NPJ Micro-
+gravity 8, 35 (2022).
+76. Singh, A., Faccenda, D. & Campanella, M. Pharmacological advan-
+ces in mitochondrial therapy. EBioMedicine 65, 103244 (2021).
+77.
+Decout, A., Katz, J. D., Venkatraman, S. & Ablasser, A. The cGAS-
+STING pathway as a therapeutic target in inﬂammatory diseases.
+Nat. Rev. Immunol. 21, 548–569 (2021).
+78. Zhou, W. et al. Peripheral blood mitochondrial DNA copy number is
+associated with prostate cancer risk and tumor burden. PLoS ONE
+9, e109470 (2014).
+79. Yoshida, K. et al. Intergenerational effect of short-term spaceﬂight
+in mice. iScience 24, 102773 (2021).
+80. Pinero, J., Sauch, J., Sanz, F. & Furlong, L. I. The DisGeNET cytoscape
+app: exploring and visualizing disease genomics data. Comput.
+Struct. Biotechnol. J. 19, 2960–2967 (2021).
+Acknowledgements
+We thank the Japan Space Forum for project management, and N. Inoue,
+K. Murakami, and M. Shirakawa for advice. This study was supported by
+JAXA, NASA, and JSPS KAKENHI JP20H03234, JP23H02458. The MHU-1
+experiment, which provided mouse plasma samples, was supported by
+JAXA and 14YPTK-005512. Figures 1a and 6a were created with images
+from the NASA Image Gallery.
+Author contributions
+M.M., S.F., S.T., T.K., D.S., and T.A. designed and supervised the study.
+M.M. performed sample processing and data collection. M.M., N.H.,
+S.-I.F., and Y.S. analyzed data and discussed relevant literature to
+develop results and discussion sections. M.M. wrote the manuscript.
+All authors viewed and approved the manuscript before submission.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-023-41995-z.
+Correspondence and requests for materials should be addressed to
+Masafumi Muratani.
+Peer review information Nature Communications thanks Atsushi
+Higashitani, Anna Krichevsky and the other, anonymous, reviewer for
+their contribution to the peer review of this work. A peer review ﬁle is
+available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article
+https://doi.org/10.1038/s41467-023-41995-z
+Nature Communications|   (2024) 15:4814 
+15

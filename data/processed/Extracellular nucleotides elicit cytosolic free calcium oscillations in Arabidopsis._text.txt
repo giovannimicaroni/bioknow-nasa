@@ -1,0 +1,390 @@
+©2011 Landes Bioscience.
+Do not distribute.
+www.landesbioscience.com	
+Plant Signaling & Behavior	
+1855
+Plant Signaling & Behavior 6:11, 1855-1857; November 2011; © 2011 Landes Bioscience
+article addendum
+Addendum to: Demidchik V, Shang ZL, Shin R, 
+Colaço R, Laohavisit A, Shabala S, Davies JM.  
+Receptor-like activity evoked by extracellular 
+ADP in Arabidopsis thaliana root epidermal plas-
+ma membrane.  Plant Physiol 2011; 156:1375–85; 
+PMID: 21562328; DOI:dx.10.1104/pp111.174722.
+Keywords: ATP, ADP, abscisic acid,  
+calcium, channel, glutamate, root
+Submitted: 07/17/11
+Accepted: 08/08/11
+DOI: 10.4161/psb.6.11.17014
+*Correspondence to: Julia M. Davies; 
+Email: jmd32@cam.ac.uk
+E
+xtracellular purine nucleotides appear 
+capable of regulating plant devel-
+opment, defense and stress responses 
+by acting in part as agonists of plasma 
+membrane calcium channels. Factors 
+stimulating ATP release include wound-
+ing, osmotic stress and elicitors. Here we 
+show that exogenous abscisic acid and 
+l-glutamate can also cause ATP accumu-
+lation around Arabidopsis thaliana roots. 
+Release of ADP from root epidermis 
+would trigger ionotropic receptor-like 
+activity in the plasma membrane, result-
+ing in transient elevation of cytosolic 
+free calcium. Root epidermal protoplasts 
+(expressing aequorin as a cytosolic free 
+calcium reporter) can support an extracel-
+lular ADP-induced cytosolic calcium ele-
+vation in the presence of an extracellular 
+reductant. This confirms that ADP could 
+elicit calcium-based responses distinct to 
+those of ATP, which have been shown pre-
+viously to involve production of extracel-
+lular reactive oxygen species.
+Extracellular purine nucleotides can regu-
+late plant cell growth, stress responses, 
+immunity and symbiotic events.1,2 Their 
+activity at the plasma membrane elic-
+its increased production of nitric oxide 
+(NO), activation of NADPH oxidases to 
+produce reactive oxygen species (ROS), 
+and transient elevations of cytosolic free 
+calcium ([Ca2+]cyt).3-9 Although there 
+are no equivalents to animal ionotropic 
+or metabotropic purinoreceptor genes 
+apparent in higher plant genomes, plant 
+responses to extracellular purine nucleo-
+tides are sensitive to antagonists of animal 
+purinoceptors.1,10-12 Arabidopsis thaliana 
+plasma membrane Ca2+ channel activity 
+was recently found to be activated rapidly 
+Release of extracellular purines from plant roots and effect on ion fluxes
+Adeeba Dark,1 Vadim Demidchik,2 Siân L. Richards,1 Sergey Shabala3 and Julia M. Davies1,*
+1Department of Plant Sciences; University of Cambridge; Cambridge, UK; 2Department of Biology; University of Essex; Colchester, UK;  
+3School of Agricultural Sciences; University of Tasmania;Hobart, TAS Australia
+by extracellular ADP, consistent with 
+the presence of an ionotropic receptor.13 
+Parallels with animal cells also extend to 
+a conserved mechanism of ATP and ADP 
+hydrolysis by extracellular apyrase,14 plus 
+release of ATP by exocytosis15 and an ABC 
+transporter.16
+ATP is released at plant wound and 
+growth points, in response to touch, elici-
+tors and hyperosmotic stress imposed by 
+salts.1,17,18 Here, wounding, hyperosmotic 
+or sodicity stress resulted in distinct lev-
+els and time courses of ATP accumula-
+tion around excised roots of A. thaliana 
+(Fig. 1). Recovery of ATP levels to con-
+trol values was evident at the 30 min 
+time point after wounding but remained 
+significantly elevated in response to abi-
+otic stresses (30 min time point; NaCl, 
+p < 0.001; sorbitol, p < 0.036, Student’s 
+t-test). The stress response hormone 
+abscisic acid (ABA) at 1 and 10 μM also 
+promoted ATP accumulation around 
+excised roots (Fig. 2A), albeit to a lower 
+level. Accumulation above the ethanol 
+control was significant for both concen-
+trations at 10 and 15 min. Application 
+of 10 μM ABA inhibits A. thaliana pri-
+mary root growth, a response involving a 
+plasma membrane NADPH oxidase and 
+plasma membrane proline-rich extensin-
+like receptor kinase (PERK4).19,20 PERK4 
+directs the activation of plasma membrane 
+Ca2+ influx channels.20 As extracellu-
+lar ATP activates root epidermal plasma 
+membrane Ca2+ influx channels via acti-
+vation of an NADPH oxidase, it becomes 
+feasible that ABA inhibition involves ATP 
+release and sensing upstream of NADPH 
+oxidases and PERKs, resulting in an 
+inhibitory Ca2+ influx. High [Ca2+]cyt can 
+act as a “brake” to root hair elongation 
+
+©2011 Landes Bioscience.
+Do not distribute.
+1856	
+Plant Signaling & Behavior	
+Volume 6 Issue 11
+and perhaps this may also hold for elon-
+gation of primary roots.21 Production of 
+ROS by NADPH oxidases also promotes 
+root cell elongation by activating plasma 
+membrane Ca2+ channels.22 Thus, the 
+dose-dependent stimulation or inhibition 
+of growth by extracellular ATP may be 
+effected by the levels of ROS production 
+and channel activation.
+Extracellular glutamate can also ele-
+vate root [Ca2+]cyt by activating plasma 
+membrane glutamate receptor-like (GLR) 
+channels.23,24 As shown in Figure 2B, 
+1 μM l-glutamate caused transient ATP 
+accumulation but equimolar D-glutamate 
+did not, indicating stereospecificity of the 
+response. Exposure to 10 μM l-glutamate 
+was less effective than 1 μM, suggest-
+ing a biphasic response. At these con-
+centrations, glutamate is unlikely to be 
+transported into roots by the low affin-
+ity amino acid permease AAP1 or by 
+H+-coupled symport25,26 and so should be 
+acting extracellularly. l-glutamate at 10 
+μM and above inhibits A. thaliana pri-
+mary root growth,27 and it will be interest-
+ing to see how this relates, if at all, to ATP 
+functions. Perception of extracellular glu-
+tamate at the epidermis upstream of ATP 
+release could be mediated by GLR2.1, 3.3, 
+3.5 and 5 as the most highly expressed of 
+the gene family in this cell file. Across the 
+meristematic region GLR2.4, 3.3, 3.6,5 
+are the most highly expressed while across 
+the elongation zone, GLR 1.4, 2.1, 3.3, 3.5 
+and 3.6 predominate.28
+Once purine nucleotides are released 
+from roots, they can activate plasma 
+membrane 
+Ca2+-permeable 
+channels 
+directly (ADP)13 or via production of 
+extracellular ROS (ATP).11 Accordingly, 
+ATP activation of root epidermal plasma 
+membrane Ca2+-permeable channels can 
+be prevented by applying dithiothrei-
+tol (DTT) as a reductant.11 Here, ADP-
+induced [Ca2+]cyt elevation of A. thaliana 
+root epidermal protoplasts (measured 
+as in ref. 13) was unaffected by incuba-
+tion in DTT (1 mM) (0.1 mM ADP; 
+0.45 ± 0.04 μM [Ca2+]cyt, n = 6: ADP + 
+DTT; 0.52 ± 0.03 μM [Ca2+]cyt, n = 9), 
+confirming that extracellular ROS are not 
+involved in ADP activation of Ca2+ influx.
+Addition of purine nucleotides to 
+A. thaliana root epidermis causes transient 
+changes in net Ca2+ and K+ fluxes down-
+stream of the initial sensing event.13 ADP 
+promotes net Ca2+ influx but ATP and 
+the weakly hydrolysable analog adenosine 
+5′-(α,β-methylene)triphosphate (αβATP) 
+only promote influx when applied up to 
+100 μM, above which Ca2+ efflux is pro-
+moted.13 Under control conditions used in 
+reference 13, there is a net K+ efflux from 
+both elongation zone (-235 ± 16  nmol 
+m-2  s-1; n = 33) and mature epidermis 
+(-44 ± 3 nmol m-2 s-1; n = 25) detected by 
+extracellular vibrating K+-selective micro-
+electrodes. From the data presented in 
+reference 13, this indicates that in the elon-
+gation zone, ADP, ATP and αβATP up to 
+approximately 10 μM would decrease net 
+K+ efflux and promote Ca2+ influx. Above 
+10 μM, K+ efflux would be promoted. At 
+the mature epidermis ADP up to 10 μM 
+and ATP/αβATP up to approximately 
+100 μM would decrease K+ efflux while 
+promoting Ca2+ influx. Above these lev-
+els, K+ efflux would be promoted. At pres-
+ent the contribution of underlying cells 
+and the walls are unknown. If the origin 
+were the epidermal plasma membrane, the 
+results indicate involvement of K+ efflux 
+pathways and it will be interesting to test 
+whether the epidermal K+ efflux channel 
+AtGORK is involved.29 How the cation 
+fluxes are generated and what their con-
+sequences are now need to be elucidated.
+Acknowledgments
+Financial 
+support 
+was 
+from 
+the 
+Leverhulme Trust and the Alexander 
+James Keith Fund.
+References
+1.	 Tanaka K, Gilroy S, Jones AM, Stacey G. Extracellular 
+ATP signaling in plants. Trends Cell Biol 2010; 
+20:601-8; 
+PMID:20817461; 
+DOI:10.1016/j.
+tcb.2010.07.005.
+2.	 Chivasa S, Murphy AM, Hamilton JM, Lindsey K, 
+Carr JP, Slabas AR. Extracellular ATP is a regula-
+tor of pathogen defence in plants. Plant J 2009; 
+60:436-48; PMID:19594709; DOI:10.1111/j.1365-
+313X.2009.03968.x.
+3.	 Foresi NP, Laxalt AM, Tonón CV, Casalongué CA, 
+Lamattina L. Extracellular ATP induces nitric oxide 
+production in tomato cell suspensions. Plant Physiol 
+2007; 145:589-92; PMID:17984199; DOI:10.1104/
+pp.107.106518.
+4.	 Wu SJ, Wu JY. Extracellular ATP-induced NO pro-
+duction and its dependence on membrane Ca2+ flux 
+in Salvia miltiorrhiza hairy roots. J Exp Bot 2008; 
+59:4007-16; PMID:18977749; DOI:10.1093/jxb/
+ern242.
+5.	 Reichler SA, Torres J, Rivera AL, Cintolesi VA, Clark 
+G, Roux SJ. Intersection of two signaling pathways: 
+extracellular nucleotides regulate pollen germination 
+and pollen tube growth via nitric oxide. J Exp Bot 
+2009; 60:2129-38; PMID:19363208; DOI:10.1093/
+jxb/erp091.
+Figure 1. Wounding and abiotic stress cause ATP accumulation around A. thaliana roots. A. thaliana 
+(Col-0) was grown for 7 d as described previously on MS medium with 1% (w/v) sucrose.13 Eight 
+roots of similar lengths were placed in the well of a 96-well plate containing sterile liquid MS/1% 
+(w/v) sucrose, with or without test substances. ATP content of samples was determined with a 
+luciferin/luciferase assay (Molecular Probes), using a Fluostar Optima plate reading luminometer. 
+Wounding was inflicted by moving a gloved finger up and down the roots to damage root hairs 
+prior to immersion in assay medium. Results are mean ± SEM from three independent trials.
+
+©2011 Landes Bioscience.
+Do not distribute.
+www.landesbioscience.com	
+Plant Signaling & Behavior	
+1857
+6.	 Clark G, Wu M, Wat N, Onyirimba J, Pham T, 
+Herz N, et al. Both the stimulation and inhibi-
+tion of root hair growth induced by extracellular 
+nucleotides in Arabidopsis are mediated by nitric 
+oxide and reactive oxygens species. Plant Mol Biol 
+2010; 74:423-35; PMID:20820881; DOI:10.1007/
+s11103-010-9683-7.
+7.	
+Sueldo DJ, Foresi NP, Casalongué CA, Lamattina L, 
+Laxalt AM. Phosphatidic acid formation is required 
+for extracellular ATP-mediated nitric oxide produc-
+tion in suspension-cultured tomato cells. New Phytol 
+2010; 185:909-16; PMID:20356346; DOI:10.1111/
+j.1469-8137.2009.03165.x.
+8.	 Terrile MC, Tonón C, Iglesias MJ, Lamattina 
+L, Casalongué CA. Extracellular ATP and nitric 
+oxide signaling pathways regulate redox-dependent 
+responses associated to root hair growth in eti-
+olated Arabidopsis seedlings. Plant Signal Behav 
+2010; 5:698-701; PMID:20404565; DOI:10.4161/
+psb.5.6.11579.
+9.	 Tonón C, Terrile MC, Iglesias MJ, Lamattina L, 
+Casalongué CA. Extracellular ATP, nitric oxide 
+and superoxide act co-ordinately to regulate hypo-
+cotyl growth in etiolated Arabidopsis seedlings. J 
+Plant Physiol 2010; 167:540-6; PMID:19962212; 
+DOI:10.1016/j.jplph.2009.11.002.
+10.	 Demidchik V, Nichols C, Dark AM, Olynyk M, 
+Glover BJ, Davies JM. Is ATP a signaling agent 
+in plants? Plant Physiol 2003; 133:456-61; 
+PMID:14555773; DOI:10.1104/pp.103.024091.
+11.	 Demidchik V, Shang Z, Shin R, Thompson E, Rubio 
+L, Laohavisit A, et al. Plant extracellular ATP signal-
+ing by plasma membrane NADPH oxidase and Ca2+ 
+channels. Plant J 2009; 58:903-13; PMID:19220789; 
+DOI:10.1111/j.1365-313X.2009.03830.x.
+12.	 Tanaka K, Swanson SJ, Gilroy S, Stacey G. 
+Extracellular nucleotides elicit cytosolic free cal-
+cium oscillations in Arabidopsis. Plant Physiol 
+2010; 154:705-19; PMID:20671112; DOI:10.1104/
+pp.110.162503.
+13.	 Demidchik V, Shang ZL, Shin R, Colaço R, 
+Laohavisit A, Shabala S, et al. Receptor-like activity 
+evoked by extracellular ADP in Arabidopsis thaliana 
+root epidermal plasma membrane. Plant Physiol 
+2011; 156:1375-85; PMID:21562328; DOI:10.1104/
+pp.111.174722.
+14.	 Riewe D, Grosman L, Fernie AR, Wucke C, 
+Geigenberger P. The potato-specific apyrase is 
+apoplastically localized and has influence on gene 
+expression, growth and development. Plant Physiol 
+2008; 146:1579-98; PMID:18305207; DOI:10.1104/
+pp.108.115758.
+15.	 Kim SY, Sivaguru M, Stacey G. Extracellular ATP 
+in plants: Visualisation, localization and analysis of 
+physiological significance in growth and signaling. 
+Plant Physiol 2006; 142:984-92; PMID:16963521; 
+DOI:10.1104/pp.106.085670.
+16.	 Thomas C, Rajagopal A, Windsor B, Dudler R, 
+Lloyd A, Roux SJ. A role for ectoapyrase in xeno-
+biotic resistance. Plant Cell 2000; 12:519-33; 
+PMID:10760241.
+17.	 Kim S-H, Yang SH, Kim T-J, Han J-S, Suh J-W. 
+Hypertonic stress increased extracellular ATP lev-
+els and the expression of stress-responsive genes in 
+Arabidopsis thaliana seedlings. Biosci Biotechnol 
+Biochem 2009; 73:1252-6; PMID:19502745; 
+DOI:10.1271/bbb.80660.
+18.	 Weerasinghe RR, Swanson SJ, Okada SF, Garrett 
+MB, Kim SY, Stacey G, et al. Touch induces ATP 
+release in Arabidopsis roots that is modulated by the 
+heterotrimeric G-protein complex. FEBS Lett 2009; 
+583:2521-6; PMID:19596005; DOI:10.1016/j.febs-
+let.2009.07.007.
+19.	 Kwak JM, Mori IC, Pei Z-M, Leonhardt N, Torres 
+MA, Dangl JL, et al. NADPH oxidase AtrbohD and 
+AtrbohF genes function in ROS-dependent ABA sig-
+nalling in Arabidopsis. EMBO J 2003; 22:2623-33; 
+PMID:12773379; DOI:10.1093/emboj/cdg277.
+20.	 Bai L, Zhang G, Zhou Y, Zhang Z, Wang W, 
+Du Y, et al. Plasma membrane-associated proline-
+rich extensin-like receptor kinase 4, a novel regula-
+tor of Ca2+ signalling, is required for abscisic acid 
+responses in Arabidopsis thaliana. Plant J 2009; 
+60:314-27; PMID:19566594; DOI:10.1111/j.1365-
+313X.2009.03956.x.
+21.	 Monshausen GB, Messerli MA, Gilroy S. Imaging of 
+the yellow cameleon 3.6 indicator reveals that eleva-
+tions in cytosolic Ca2+ follow oscillating increases in 
+growth in root hairs of Arabidopsis. Plant Physiol 
+2008; 147:1690-8; PMID:18583529; DOI:10.1104/
+pp.108.123638.
+22.	 Foreman J, Demidchik V, Bothwell JH, Mylona P, 
+Miedema H, Torres MA, et al. Reactive oxygen spe-
+cies produced by NADPH oxidase regulate plant cell 
+growth. Nature 2003; 422:442-6; PMID:12660786; 
+DOI:10.1038/nature01485.
+23.	 Qi Z, Stephens NR, Spalding EP. Calcium entry 
+mediated by GLR3.3, an Arabidopsis glutamate 
+receptor with a broad agonist profile. Plant Physiol 
+2006; 142:963-71; PMID:17012403; DOI:10.1104/
+pp.106.088989.
+24.	 Demidchik V, Essah PA, Tester M. Glutamate activates 
+cation currents in the plasma membrane of Arabidopsis 
+root cells. Planta 2004; 219:167-75; PMID:14767768; 
+DOI:10.1007/s00425-004-1207-8.
+25.	 Lee Y-H, Foster J, Chen J, Voll LM, Weber APM, 
+Tegeder M. AAP1 transports uncharged amino 
+acids into roots of Arabidopsis. Plant J 2007; 
+50:305-19; PMID:17419840; DOI:10.1111/j.1365-
+313X.2007.03045.x.
+Figure 2. ABA and l-glutamate cause ATP accumulation around A. thaliana roots. Roots were 
+exposed to (A) ABA with 0.025% (v/v) ethanol (EtOH) as the solvent carrier control and (B) l- or d-
+glutamate. Conditions as in Figure 1. Results are mean ± SEM from three independent trials.
+26.	 Svennerstam H, Ganeteg U, Bellini C. Näsholm. 
+Comprehensive screening of Arabidopsis mutants 
+suggests the lysine histidine transporter 1 to be 
+involved in plant uptake of amino acids. Plant Physiol 
+2007; 143:1853-60; PMID:17293438; DOI:10.1104/
+pp.106.092205.
+27.	 Walch-Liu P, Liu L-H, Remans T, Tester M, Forde 
+BG. Evidence that L-glutamate can act as an exog-
+enous signal to modulate root growth and branching 
+in Arabidopsis thaliana. Plant Cell Physiol 2006; 
+47:1045-57; PMID:16816406; DOI:10.1093/pcp/
+pcj075.
+28.	 Dinneny JR, Long TA, Wang JY, Jung JW, Mace D, 
+Pointer S, et al. Cell identity mediates the response 
+of Arabidopsis roots to abiotic stress. Science 2008; 
+320:942-5; PMID:18436742; DOI:10.1126/sci-
+ence.1153795.
+29.	 Demidchik V, Cuin TA, Svistunenko D, Smith SJ, 
+Miller AJ, Shabala S, et al. Arabidopsis root K+-efflux 
+conductance activated by hydroxyl radicals: single-
+channel properties, genetic basis and involvement in 
+stress-induced death. J Cell Sci 2010; 123:1468-79; 
+PMID:20375061; DOI:10.1242/jcs.064352.

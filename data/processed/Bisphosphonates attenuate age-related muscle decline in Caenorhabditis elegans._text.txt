@@ -1,0 +1,1052 @@
+Bisphosphonates attenuate age-related muscle decline
+in Caenorhabditis elegans
+Luke Slade1,2
+, Shelby E. Bollen3, Joseph J. Bass3, Bethan E. Phillips3, Kenneth Smith3, Daniel J. Wilkinson3,
+Nathaniel J. Szewczyk4, Philip J. Atherton3 & Timothy Etheridge2*
+1University of Exeter Medical School, Exeter, UK; 2Faculty of Health and Life Sciences, University of Exeter, Exeter, UK; 3Centre of Metabolism, Ageing & Physiology (COMAP),
+MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research (CMAR), Unit of Injury, Recovery and Inﬂammation Sciences (IRIS), School of Medicine, University of
+Nottingham, Derby, UK; 4Ohio Musculoskeletal and Neurological Institute, Heritage College of Osteopathic Medicine, Athens, OH, USA
+Abstract
+Background
+Age-related muscle decline (sarcopenia) associates with numerous health risk factors and poor quality of
+life. Drugs that counter sarcopenia without harmful side effects are lacking, and repurposing existing pharmaceuticals
+could expedite realistic clinical options. Recent studies suggest bisphosphonates promote muscle health; however, the
+efﬁcacy of bisphosphonates as an anti-sarcopenic therapy is currently unclear.
+Methods
+Using Caenorhabditis elegans as a sarcopenia model, we treated animals with 100 nM, 1, 10, 100 and 500 μM
+zoledronic acid (ZA) and assessed lifespan and healthspan (movement rates) using a microﬂuidic chip device. The ef-
+fects of ZA on sarcopenia were examined using GFP-tagged myoﬁbres or mitochondria at days 0, 4 and 6 post-
+adulthood. Mechanisms of ZA-mediated healthspan extension were determined using combined ZA and targeted RNAi
+gene knockdown across the life-course.
+Results
+We found 100 nM and 1 μM ZA increased lifespan (P < 0.001) and healthspan [954 ± 53 (100 nM) and
+963 ± 48 (1 μM) vs. 834 ± 59% (untreated) population activity AUC, P < 0.05]. 10 μM ZA shortened lifespan
+(P < 0.0001) but not healthspan (758.9 ± 37 vs. 834 ± 59, P > 0.05), whereas 100 and 500 μM ZA were larval lethal.
+ZA (1 μM) signiﬁcantly improved myoﬁbrillar structure on days 4 and 6 post-adulthood (83 and 71% well-organized
+myoﬁbres, respectively, vs. 56 and 34% controls, P < 0.0001) and increased well-networked mitochondria at day 6
+(47 vs. 16% in controls, P < 0.01). Genes required for ZA-mediated healthspan extension included fdps-1/FDPS-1
+(278 ± 9 vs. 894 ± 17% population activity AUC in knockdown + 1 μM ZA vs. untreated controls, respectively,
+P < 0.0001), daf-16/FOXO (680 ± 16 vs. 894 ± 17%, P < 0.01) and agxt-2/BAIBA (531 ± 23 vs. 552 ± 8%,
+P > 0.05). Life/healthspan was extended through knockdown of igdb-1/FNDC5 (635 ± 10 vs. 523 ± 10% population
+activity AUC in gene knockdown vs. untreated controls, P < 0.01) and sir-2.3/SIRT-4 (586 ± 10 vs. 523 ± 10%,
+P < 0.05), with no synergistic improvements in ZA co-treatment vs. knockdown alone [651 ± 12 vs. 635 ± 10%
+(igdb-1/FNDC5) and 583 ± 9 vs. 586 ± 10% (sir-2.3/SIRT-4), both P > 0.05]. Conversely, let-756/FGF21 and sir-
+2.2/SIRT-4 were dispensable for ZA-induced healthspan [630 ± 6 vs. 523 ± 10% population activity AUC in
+knockdown + 1 μM ZA vs. untreated controls, P < 0.01 (let-756/FGF21) and 568 ± 9 vs. 523 ± 10%, P < 0.05 (sir-
+2.2/SIRT-4)].
+Conclusions
+Despite lacking an endoskeleton, ZA delays Caenorhabditis elegans sarcopenia, which translates to im-
+proved neuromuscular function across the life course. Bisphosphonates might, therefore, be an immediately exploitable
+anti-sarcopenia therapy.
+Keywords
+Healthspan; Lifespan; Muscle; Sarcopenia; Zoledronic acid
+Received: 17 March 2023; Revised: 17 July 2023; Accepted: 21 August 2023
+*Correspondence to: Timothy Etheridge, Faculty of Health and Life Sciences, University of Exeter, Exeter, UK. Email: t.etheridge@exeter.ac.uk
+ORIGINAL ARTICLE
+© 2023 The Authors. Journal of Cachexia, Sarcopenia and Muscle published by Wiley Periodicals LLC.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the
+original work is properly cited.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+Published online 18 September 2023 in Wiley Online Library (wileyonlinelibrary.com) DOI: 10.1002/jcsm.13335
+
+Introduction
+Age-related muscle decline, termed ‘sarcopenia’, is classiﬁed
+as a speciﬁc disease associated with numerous health risk fac-
+tors in the elderly, prevalent in at least 10% of older
+populations1 and up to 31% as a co-morbidity.2 Despite asso-
+ciated annual healthcare costs that run into the billions3 and
+signiﬁcant impacts on individual quality of life and all-cause
+mortality,4 efﬁcacious treatment strategies against sarcope-
+nia remain limited.
+Physical activity plus targeted nutrition represents the
+most effective chronic modiﬁable lifestyle strategy against
+sarcopenia.5 However, ageing muscle growth responses to
+these interventions are sub-optimal,6 and certain older indi-
+viduals can be unable (i.e., through injury and/or access to ex-
+ercise facilities) or unwilling to participate in regular vigorous
+activity. Indeed, ~50–70% of those aged 75+ years are physi-
+cally inactive,7 meaning complementary pharmaceutical ther-
+apies are relevant to a signiﬁcant portion of the ageing pop-
+ulation. Established drugs that modify human muscle ageing
+are limited, and importantly, many of these drugs display var-
+iable
+therapeutic
+efﬁcacy
+and
+associate
+with
+harmful
+side-effect proﬁles that render them inappropriate for
+long-term clinical use. For example, rapamycin holds variable
+efﬁcacy against sarcopenia indices across health and disease8
+but is a potent immunosuppressant9 unsuitable for chronic
+use in otherwise healthy humans. Drug identiﬁcation efforts
+might instead focus on repurposing existing clinically ap-
+proved compounds for sarcopenic indications as a realistic,
+immediately employable approach to therapeutic discovery.
+Bisphosphonates are chemically stable derivatives of en-
+dogenous inorganic pyrophosphate, a metabolite of multiple
+biosynthetic reactions and present in most tissues, including
+muscle.10 Recapitulating the effects of inorganic pyrophos-
+phate, bisphosphonates inhibit calciﬁcation and lower hy-
+droxyapatite degradation,11 while also promoting osteoclast
+apoptosis to effectively protect against bone loss. As such,
+bisphosphonates have become a standard clinical strategy
+against osteoporosis and a variety of skeletal conditions.12
+Yet skeletal muscle health and bone function are inextricably
+linked:
+Effective
+mechanical
+coupling
+and
+endocrine
+muscle-bone communication is essential to muscle and bone
+health,13 with sarcopenia and osteoporosis often presenting
+together.14 Osteoporosis patients prescribed alendronate or
+pamidronate (the most popular ﬁrst-line bisphosphonates)
+for between 6 months and 3 years display signiﬁcant in-
+creases in muscle strength15 and total muscle mass.16 Recent
+reports on the most potent bisphosphonate, zoledronic acid
+(ZA), show improved muscle morphology, strength and mass
+in rodent models of cancer cachexia,17 Duchenne muscular
+dystrophy18 and denervation-induced muscle atrophy.19 Ret-
+rospective analysis of osteoporosis patients prescribed ZA
+for 3 years also exhibit signiﬁcant increases in total lean mus-
+cle mass, compared with a loss of muscle mass in untreated
+controls.20 In the ageing context, ZA-treated fruit ﬂies
+displayed increased survival and improved climbing ability
+across the life course, suggesting improved neuromuscular
+ageing.21 However, the direct anti-sarcopenic efﬁcacy of ZA
+has not been established.
+The nematode Caenorhabditis elegans is an established
+model of ageing, displaying ordered, progressive age-related
+deterioration
+of
+multiple
+tissues,
+including
+muscle.22
+C. elegans muscle is also highly morphologically and metabol-
+ically similar to human muscle and has high genetic orthology
+(60–85%) of sub-muscular systems with people.23 As with
+fruit ﬂies, C. elegans are invertebrates that do not possess
+clear orthologues of mammalian bone secretory factors
+(‘osteokines’).24 C. elegans are, therefore, an excellent
+system for understanding muscle-speciﬁc mechanisms of
+bisphosphonates,
+independently
+of
+bone-derived
+con-
+founders. We thus employed C. elegans as a genomic model
+of ageing muscle decline to establish the bone-independent
+effects, and mechanisms of, bisphosphonates on sarcopenia
+progression as part of an ageing drug translational pipeline
+with realistic, near-term applicability in the clinic.
+Methods
+Assessing zoledronic acid effects on Caenorhabditis
+elegans lifespan and healthspan
+Wild-type (N2 stain) animals were age synchronized by grav-
+ity ﬂotation and ~80 L1 larvae were placed on 33 mm petri
+dishes (20 L1 per 33 mm plate) containing 2 mL NGM agar
+[50 mM NaCl, 0.25% (w/v) bacteriological peptone, 1.7%
+(w/v) agar, 1 mM CaCl2, 1 mM MgSO4, 25 mM KH2PO4
+(pH 6), 12.9 μM cholesterol] and seeded with 200 μL of
+OP50 Escherichia coli bacteria. For ZA treatments, 100 μL of
+dilute compound (i.e. – 100 μL of 2.3 μM, 23 μM, 230 μM,
+2.3 mM and 11.5 μM intermediate dilutions in ddH2O for
+100 nM, 1 μM, 10 μM, 100 μM and 500 μM concentrations,
+respectively) were diluted into a 2.3 mL plate volume to
+achieve the desired ﬁnal concentration. Control animals were
+grown on plates seeded with 100 μL of ddH2O to account for
+any diluting of bacterial lawns. Animals were grown on petri
+dishes for ~48 h at 20°C to reach young adulthood, then
+washed off using 3 mL M9 buffer (3 g KH2PO4, 6 g
+Na2HPO4, 5 g NaCl, 1 mL 1 M MgSO4 per litre) and pooled
+into 60 cm petri dishes. From these pooled samples, ~70
+young adults were collected and loaded into microﬂuidic
+chips (Inﬁnity chips; Nemalife Inc., TX) using a 2.5 mL syringe,
+where the animals remained throughout the rest of the life
+course. Using the Inﬁnity screening system (Nemalife Inc.,
+TX), on every day of the life course, chips were washed for
+90 s with liquid NGM to remove progeny followed by a fur-
+ther 90 s recording for subsequent computational analysis
+2614
+L. Slade et al.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+of animal survival and locomotion. Chips were then injected
+with ~200 μL of 20 mg/mL OP50 supplemented with ZA or
+ddH2O. Speciﬁcally, 980 μL of 20 mg/mL OP50 was supple-
+mented with 20 μL of the required ZA intermediate dilution
+(i.e., 5 μM, 50 μM and 500 μM intermediates for 100 nM,
+1 μM and 10 μM of ZA, respectively) or 20 μL of ddH2O for
+controls. Chips were then stored in petri dishes at 20°C for
+the next 24 h with a damp, sterile tissue and paraﬁlmed to
+avoid the microﬂuidic arena drying out.
+Lifespan was performed using the Inﬁnity system screening
+platform (Nemalife Inc., TX). Speciﬁcally, 90 s videos were
+split into three still image frames (frames 1, 300 and 900),
+and the Inﬁnity screening system automates a bounding box
+around every (~70–80) whole animal in the microﬂuidic chip.
+Using the Inﬁnity system software (Nemalife Inc., TX), compu-
+tational coefﬁcients determine animal displacements from
+outside this bounding box and were used for both lifespan
+and healthspan analysis. Animals were deemed dead if coef-
+ﬁcients were <0.01 (no movement) and alive if values were
+>0.01. For healthspan analysis, movement rate was em-
+ployed as one of the most robust measures of animal
+healthspan.25 For quantiﬁcation, animals that obtained coef-
+ﬁcients of 0.01–0.40 (i.e., unable to move more than half its
+body length between subsequent frames) were deemed inac-
+tive. Animals with scores of 0.41–1 were classed as ‘active’
+animals (i.e., moving half of, or more than its full body-length
+in displacement between subsequent frames).
+Both lifespan and healthspan were determined every day
+using videos of microﬂuidic-housed populations. Average
+values were taken from movement scores between all three
+frames. In addition to software automation, each video was
+manually corrected for any false positives/box deformations
+that could skew movement scores. Daily mean movement
+values were converted to area under the curve to denote to-
+tal population movement scores across the entire life course.
+Zoledronic acid effects on sarcopenia dystrophic
+progression with age
+The anti-sarcopenic effects of ZA (1 μM) was visualized and
+quantiﬁed using transgenic strains expressing green ﬂuores-
+cent protein (GFP)-tagged sarcomeres (PJ727 strain: jls01
+(myo-3:: GFP, rol-6 (su1006)); unc-54::lacZ V) or GFP-tagged
+mitochondria (CB5600 strain: ccIs4251 (Pmyo-3:: Ngfp-lacZ;
+Pmyo-3:: Mtgfp) I; him-8 (e1489) IV). Strains were grown on
+33 mm plates containing 2 mL NGM agar seeded with
+200 μL of OP50 ± ZA, as detailed above. Animals were trans-
+ferred onto fresh plates every 2 days after young adult stage
+to remove progeny and prevent population starvation. To im-
+age sarcomere and mitochondrial structure, ~30 animals per
+condition/time point were picked into 20 μL of M9 buffer
+on a microscope slide (VWR Superfrost, UK) with a cover slip
+placed on top and imaged immediately using an upright
+epiﬂourescent microscope (BX43, Olympus Life Science, UK).
+Images of the body wall muscles were captured from
+the head and tail region of each animal (avoiding the
+mid-animal/vulva region that exhibits frequent egg-laying
+induced
+tissue
+disruption)
+using
+an
+Orca-spark
+camera
+(Hamamatsu, Japan) set to 50 ms exposure rate and a gain of
+3.4 dB for all acquired images. Approximately 10 individual mus-
+cle cells were scored per animal equating to ~300 muscle cells
+per condition/replicate and scored as either well networked,
+moderately fragmented or severely fragmented muscle sarco-
+mere or mitochondria structures as previously described26
+(see Figure S1 for representative images of each class of
+structural defect). Analysis was carried out in ImageJ, and the
+number of well networked, moderately fragmented or severely
+fragmented muscles were expressed as a percentage of total
+muscle cells visible and analysed within each animal.
+RNA interference and combined zoledronic acid
+treatments for lifespan and healthspan analysis
+The effects of RNAi treatments on animal lifespan/healthspan
+were determined using bacterial feeding vectors and per-
+formed in the Inﬁnity screening system, as described above.
+All bacterial lawns expressing double-stranded RNA were
+grown from the MRC Ahringer Library of bacterial clones to
+target (fdps-1: R06C1.2; daf-16: R13H8.1; agxt-2: T09B4.8;
+igdb-1: T04A11.3; let-756: C05D11.4; sir-2.2: F46G10.7: sir-
+2.3: F46G10.3). Each clone was streaked onto LB plates sup-
+plemented
+with
+50
+μg/mL
+ampicillin
+and
+25
+μg/mL
+carbenicillin and grown overnight at 37°C. Single colonies
+were then picked into sterile LB broth supplemented with
+50 μg/mL ampicillin and grown for 16 h with shaking at
+180 rpm at 37°C. After 16 h incubation, 0.4 mM isopropyl
+β-D-1-thiogalactopyranoside was added for RNAi induction,
+with further shaking at 180 rpm for 2 h at 37°C as described
+previously.27 After 18 h incubation, tubes were spun at
+3000 g for 10 min to obtain bacterial pellets. Liquid NGM
+was added to each bacterial pellet to reach a ﬁnal bacteria
+concentration of 20 mg/mL, adding isopropyl β-D-1-thio-
+galactopyranoside to a ﬁnal 1 mM concentration before
+use. For combined ZA treatments, the same bacterial prepa-
+ration was performed, but with 20 μL of dilute ZA supple-
+mented to 1 mL of 20 mg/mL OP50 in NGM for a ﬁnal con-
+centration of 1 μM. On every day of the life course, after
+washing/recording using the Inﬁnity system as detailed
+above, ~200 μL of RNAi bacteria ± ZA (1 μM) was injected into
+the microﬂuidic chips before storing in petri dishes at 20°C
+for 24 h until washing/refeeding the next day (with drug
+dilution/control). All bacteria and drug solutions were
+prepared fresh daily until cessation of life. RNAi experiments
+were always conducted alongside empty vector controls
+(PL4440).
+Bisphosphonates in sarcopenia
+2615
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+Statistics
+Lifespan analysis was performed using Kaplan–Meier curves
+assessed
+by
+the
+log-rank
+(Mantell–Cox)
+test.
+Multiple
+comparisons of survival curves were performed manually
+using the Bonferroni-corrected threshold. For movement
+rate, area under the curve (AUC) was performed on mean
+movement values across each day of adulthood (averages
+taken from across all three frames). AUC values and standard
+deviations obtained from replicate screens were then
+assessed by one-way ANOVA in GraphPad, Prism. Both mito-
+chondrial and sarcomere quantiﬁcation were analysed by
+two-way ANOVA using the percentage classiﬁcation score
+from individual animals across biological repeats. All statistics
+were performed in GraphPad, Prism (San Diego, California
+USA).
+Results
+Zoledronic acid extends Caenorhabditis elegans
+lifespan and healthspan
+Higher ZA concentrations (500 and 100 μM) were larval le-
+thal, and 10 μM ZA shortened lifespan (median survival = 11
+vs. 14 days for controls, P < 0.0001; Figure 1A) without sig-
+Figure 1 Zoledronic acid acts dose-dependently to improve C. elegans survival and movement capacity. (A) Animals exposed to 10 μM zoledronic acid
+(ZA) exhibit signiﬁcant declines in survivability (top) to untreated controls (median survival: 10 vs. 14 days, respectively, P < 0.0001), however, show no
+signiﬁcant impairment in movement capacity (bottom) across whole life (P = 0.208). Conversely, both 1 μM (B) and 100 nM (C) were beneﬁcial to an-
+imal survival (1 μM median survival: 16 days, P < 0.001; 100 nM: 16 days, P < 0.0001), with paralleled improvements in movement capacity through-
+out the life course. (D) Graphical overlay of lifespan curves from each ZA concentration versus untreated controls. (E) Overlay of life course movement
+rates between ZA doses displayed as % mean AUC. Data are mean + SEM of three biological repeats, with ~225–300 animals per condition/time point.
+Asterisks denote signiﬁcance to N2 controls. *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 0.0001.
+2616
+L. Slade et al.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+niﬁcantly
+impairing
+healthspan
+(animal
+movement
+AUC = 758.9 ± 37.08 vs. 833.9 ± 59.91 for controls,
+P > 0.05; Figure 1A). Conversely, lifespan extension was ob-
+served
+with
+lower
+ZA
+doses
+of
+1
+μM
+(median
+survival = 16 days, P < 0.001; Figure 1B) and 100 nM (me-
+dian survival = 16 days, P < 0.0001; Figure 1C). These
+lifespan-promoting
+ZA
+doses
+also
+associated
+with
+healthspan extension at 1 μM (AUC = 963.1 ± 48.74,
+P < 0.05; Figure 1B) and 100 nM (AUC = 953.8 ± 53.77,
+P < 0.05; Figure 1C) treatments. Additionally, signiﬁcant
+movement decline onset became apparent in day 9 control
+animals (P > 0.01 vs. day 1 adults), which was upheld
+across all ZA treatment doses at this single time point
+(+22.2, +31.8 and +17.6% population activity on day 9 vs.
+untreated controls in 10 μM, 1 μM and 100 nM, respec-
+tively). ZA thus acts dose-dependently to augment animal
+longevity and health across the life course.
+Zoledronic acid delays age-related declines in
+muscle sarcomere and mitochondrial integrity
+To understand the effects of ZA on progressive sarcomere
+dystrophy across age, transgenic C. elegans expressing
+GFP-tagged myosin were treated with 1 μM ZA. Corroborat-
+ing previous reports on the temporal age-related loss of
+sub-cellular muscle structures,22 untreated wild-type animals
+displayed a signiﬁcant 35.6% decline in organized myoﬁbril-
+lar structure by day 4 post-adulthood (P < 0.0001; Figure 2A,
+B), which worsened to 58.0% by day 6 post-adulthood
+(P < 0.0001). ZA delayed loss of organized sarcomeres until
+day 6 post-adulthood (15.6%, P < 0.01), and signiﬁcantly in-
+creased the number of muscle cells displaying organized sar-
+comeres versus untreated controls at days 4 (83.9% vs.
+54.4%) and 6 (71.1% vs. 31.4%) post-adulthood (both
+P < 0.0001, Figure 2A,B). ZA also decreased muscle cells cat-
+Figure 2 Zoledronic acid attenuates age-related loss of sarcomere integrity. (A) Onset of myoﬁbrillar disorganization occurred at days 4 and 6
+post-adulthood in untreated animals and was signiﬁcantly attenuated in zoledronic treated (1 μM) animals (all P < 0.0001). (B) Representative images
+of untreated (top) and zoledronic acid treated (bottom) myoﬁbres. Data are means of two biological repeats, with ~50–60 animals per condition/time
+point, and images taken from head and tail regions of each animal (~120–150 muscle cells per condition/time point). Asterisks denote signiﬁcance
+between zoledronic acid and untreated animals within each structural category (**P < 0.01, ****P < 0.0001).‘¥’ denotes signiﬁcant loss of myoﬁbrillar
+structure for within-condition comparisons versus day 0 values (¥¥¥P < 0.001, ¥¥¥¥P < 0.0001).
+Bisphosphonates in sarcopenia
+2617
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+egorized as ‘moderately disorganized’ on days 4 (17.0% vs.
+38.2%, P < 0.01) and 6 (27.6 vs. 53.4%, P < 0.0001)
+post-adulthood and reduced the number of ‘severely disorga-
+nized’ muscles on day 6 post-adulthood (1.8% vs. 13.1%,
+P < 0.0001).
+We next examined the effects of ZA on mitochondrial in-
+tegrity, given the strong associations of mitochondrial struc-
+ture and function with ageing animal health. In line with pre-
+vious
+wild-type
+ageing
+studies,22
+loss
+of
+networked
+mitochondria occurred by day 2 post-adulthood (Figure S2),
+which
+progressively
+worsened
+at
+day
+4
+(42.6%,
+P
+<
+0.0001)
+and
+day
+6
+post-adulthood
+(67.0%,
+P < 0.0001; Figure 3A,B). ZA treatment did not delay the on-
+set of well-networked mitochondria loss at day 2 (Figure S2)
+or day 4 post-adulthood (51.8%, P < 0.0001). However, ZA
+prevented progressive mitochondrial fragmentation at day 6
+post-adulthood (46.7%, P > 0.05 vs. day 4), which was also
+signiﬁcantly higher than in untreated animals (46.7 vs.
+16.1%, P < 0.01).
+Zoledronic acid-mediated healthspan extension
+acts through multiple mechanisms
+The lifespan extending effects of ZA have previously been at-
+tributed to the mevalonate cholesterol/isoprenoid lipid bio-
+synthesis pathway and the FOXO family of transcription
+factors,21 but their role in ZA-induced healthspan extension
+is unknown. RNAi knockdown (KD) of fdps-1, an orthologue
+of farnesyl diphosphate synthetase involved in the biosynthe-
+sis of farnesyl diphosphate intermediates from mevalonate,
+impaired survival (median survival = 6 vs. 14 days for controls,
+P < 0.0001) and healthspan (AUC = 287 ± 9 vs. 894 ± 17% pop-
+ulation activity for controls, P < 0.0001), which was not im-
+proved by co-treatment with 1 μM ZA (Figure 4A). Similarly,
+RNAi KD of the daf-16/FOXO stress response pathway im-
+paired survivability (median survival = 12 vs. 14 days for con-
+trols, P < 0.0001) and healthspan (AUC = 680.5 ± 23.6 vs.
+894.2 ± 17.4 for empty vector, P < 0.01) and prevented the
+beneﬁcial effects of ZA treatment (Figure 4B).
+Figure 3 Zoledronic acid attenuates age-related loss of muscle mitochondrial structure. (A) Untreated animals displayed progressive declines in
+well-networked mitochondria across days 0, 4 and 6 post-adulthood (for each time point, P < 0.0001). Zoledronic acid treatment (1 μM) animals
+saw a similar decline by day 4; however, no further decline was evident by day 6 post-adulthood, showing signiﬁcant improvement when compared
+to untreated animals at this time point (P < 0.01). (B) Representative images of untreated (top) and zoledronic acid treated (bottom) data are means
+of two biological repeats with ~50–60 animals per condition/time point, and images taken from head and tail regions of each animal (~120–150 muscle
+cells per condition/time point). Asterisks denote signiﬁcance between zoledronic acid and untreated animals within each structural category
+(**P < 0.01). ‘¥’ denotes signiﬁcant loss of myoﬁbrillar structure for within-condition comparisons versus day 0 values (¥¥¥¥P < 0.0001).
+2618
+L. Slade et al.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+The FOXO pathway is a global stress response system, in-
+ducible by a wide array of stimuli and a generic transcription
+factor regulating cellular responses across multiple drug
+families28 that integrates multiple upstream signals to inﬂu-
+ence worm ageing.29 Alternative, muscle-centric mechanisms
+thus also likely contribute to the healthspan beneﬁts of ZA.
+To
+probe
+potential
+muscle-derived
+mechanisms
+of
+ZA-induced healthspan extension, we examined the role of
+three putative myokines that exhibit altered expression
+across age and implicated in muscle-bone crosstalk: agxt-2/
+BAIBA, igdb-1/FNDC5 and let-756/FGF21.24 Lifespan and
+healthspan
+were
+unaffected
+by
+KD
+of
+agxt-2/BAIBA
+(β-aminoisobutyric acid), a muscle-borne bone protective
+factor30; however, combined agxt-2 KD with ZA treatment
+was unable to confer life/healthspan extension (Figure 4C).
+Conversely, the inhibition of igdb-1 extended lifespan (me-
+dian survival = 11 vs. 7 days for controls, P < 0.05) and im-
+proved healthspan (AUC = 634.5 ± 10.5 vs. 523 ± 10.0 for con-
+trols, P < 0.01), with similar life/healthspan extension
+observed upon co-treatment with ZA (Figure 5A). Addition-
+ally, let-756 appears dispensable for ZA-induced healthspan
+effects: KD alone caused no signiﬁcant alterations in survival
+or movement, whereas increased lifespan and healthspan
+was retained with combined let-756 KD and ZA treatment
+(Figure 5B).
+Recent rodent work shows bisphosphonates attenuate
+denervation-induced muscle atrophy via downregulation of
+sirtuin-3 (SIRT3), one of the nicotinamide adenine dinucleo-
+tide (NAD+)-dependent deacetylase family members.19 Be-
+cause SIRT3 is primarily mitochondrially localized,31 we exam-
+ined the role of two C. elegans mitochondrial sirtuins, sir-2.2
+and sir-2.3,32 for their role in ZA-mediated lifespan and
+healthspan extension. Reinforcing a mitochondrial role of
+sir-2.2 and sir-2.3, RNAi KD of each gene caused increased mi-
+tochondrial fragmentation at day 0 post-adulthood (Figure
+S3). While sir-2.2 KD did not alter animal survival or
+healthspan, loss of sir-2.2 blocked ZA’s life extending proper-
+ties but ZA-induced healthspan extension remained (Figure
+5C). Additionally, and in line with previous reports in
+C. elegans,33 we ﬁnd that knockdown of sir-2.3 extends
+lifespan (Figure 5D) and healthspan (Figure 5H), which re-
+mains with combined ZA treatment but is not synergistically
+beneﬁcial.
+Discussion
+Despite the socio-economic implications, treatment options
+for sarcopenia remain mostly limited to modiﬁable lifestyle
+changes such as diet and exercise, which are incompletely
+effective.34 Complementary drug interventions would, there-
+fore, beneﬁt a signiﬁcant portion of the ageing population,
+yet effectual compounds that are safe for long-term
+use remain elusive. Identifying drugs in clinical use and
+repurposing for sarcopenia indications could provide immedi-
+Figure 4 FDPS, FOXO and BAIBA orthologues are required for the healthspan effects of zoledronic acid. Knockdown of FDPS-1 (FDPS) with ZA
+co-treatment (1 μM) prevents ZA mediated lifespan (top) and healthspan (bottom) extension (A). Similarly, knockdown of daf-16 (FOXO) decreases
+survival and movement, with no improvement with ZA co-treatment (B). The conserved bone-muscle ortholog agxt-2 (BAIBA) is required for ZA me-
+diated improvement in survival and movement (C). Data are mean + SD of two repeats, with ~140–160 animals per condition/time point. Asterisks
+denote signiﬁcance to empty vector. **P < 0.01, ****P < 0.0001.
+Bisphosphonates in sarcopenia
+2619
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+ately exploitable pharmaceuticals for the general population.
+Bisphosphonates have been used to safely treat osteoporosis
+for decades.35 Here, we report that bisphosphonates (ZA) ex-
+tend C. elegans lifespan and healthspan, which associates with
+delayed onset of muscle sarcomere and mitochondrial de-
+cline. While general stress response pathways, such as FOXO,
+regulate these positive healthspan responses to ZA, we estab-
+lish muscle-centric myokines (agxt-2 and igdb-1) and mito-
+chondrial sirtuin (sir-2.3) as previously unknown regulators
+of bisphosphonate effects on ageing muscle health.
+Growing pre-clinical17–19 and human20 evidence suggest
+that bisphosphonates not only preserve bone integrity but
+also exert muscle promoting effects across a variety of condi-
+tions. A recent study in fruit ﬂies suggest similar effects might
+extend to the ageing process, where bisphosphonate treat-
+ment prolonged lifespan and animal healthspan.21 We pro-
+vide the ﬁrst in vivo evidence for a direct role of chronic bis-
+phosphonate administration in delaying age-related muscle
+structural decline. Because ageing muscle architectural alter-
+ations are a hallmark of human sarcopenia that relate to
+lowered motility in animals,22 bisphosphonate-mediated sar-
+comere preservation could translate to reduced sarcopenia in
+higher animals and people. ZA also attenuated ageing muscle
+mitochondrial decline. Mitochondrial health is strongly linked
+with sarcopenic progression across species and mitochondrial
+structure corresponds with oxidative function23; therefore,
+bisphosphonates might hold dual, and possibly interrelated,
+efﬁcacy for maintaining muscle metabolic health and sarco-
+meric integrity. While we assessed animals at, and beyond,
+the point of onset of age-related sub-muscular decline, the
+anti-sarcopenic efﬁcacy of bisphosphonates into very old
+age remains to be determined. Nonetheless, using our micro-
+ﬂuidic healthspan device27 and animal movement rate as a
+robust index of health,25 we demonstrate that early- to
+mid-life muscle preservation translates to improved animal
+health across the entire life course. Bisphosphonates thus
+represent a promising strategy for maintaining muscle, and
+whole animal health into older age.
+In fruit ﬂies, bisphosphonates increase lifespan through
+inhibition
+of
+the
+mevalonate
+metabolic
+pathway
+and
+downstream
+FOXO
+activation.21
+We
+extend
+this
+by
+implicating the mevalonate-FOXO system as necessary for
+bisphosphonate-mediated health improvements across the
+life course. The sterol and non-sterol isoprenoids synthesized
+via mevalonate localize to plasma membranes and inﬂuence
+several vital cellular processes, the dysfunction of which asso-
+ciate with wide ranging pathologies including cardiovascular
+disease,
+autoimmune
+disease,
+cancer
+and
+Alzheimer’s
+disease.36 Our data suggest that sarcopenia can be added to
+this list, whereby knockdown of a key enzyme in mevalonate
+metabolism, farnesyl diphosphate synthetase (fdps-1), allows
+normal larval development to adulthood and young adult
+(day 1) movement rates, corroborating earlier reports of nor-
+mal L4 larvae muscle architecture upon fdps-1 RNAi.37 There-
+after, downregulation of fdps-1 causes rapid neuromuscular
+functional decline (i.e., animal motility), likely indicative of
+accelerated sarcopenia. Because zoledronic acid is unable
+to improve lifespan and healthspan in fdps-1 or daf-16
+Figure 5 Genes either dispensable, or that associate with ZA’s healthspan effects. Knockdown of igdb-1 (FNDC5) signiﬁcantly increased survival and
+healthspan, where ZA co-treatment (1 μM) was not synergistic, but displayed similar improvements in lifespan (top) and healthspan (bottom) suggest-
+ing igdb-1 might exhibit ZA-induced downregulation (A), or act independently to increase healthspan. Conversely, let-756 (FGF21, B) is dispensable for
+both lifespan and healthspan extension with ZA. The mitochondrial sirtuins displayed opposing effects; sir-2.2 (SIRT-4, C) is dispensable for ZA’s
+healthspan effects, whereas sir-2.3 (SIRT-4) knockdown increased survival and movement (D), as did ZA co-treatment, suggesting sir-2.3 downregula-
+tion might mediate ZA’s healthspan effects. Asterisks denote signiﬁcance to empty vector controls. *P < 0.05, **P < 0.01, ****P < 0.0001. ‘#’ denote
+signiﬁcance between ZA co-treatments and gene inhibition alone. #P < 0.05, ##P < 0.01.
+2620
+L. Slade et al.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+knockdown
+animals,
+the
+mevalonate-FOXO
+pathway
+is
+strongly implicated in the ageing neuromuscular health bene-
+ﬁts of bisphosphonates.
+Bi-directional communication between muscle and bone
+has long been established, including mechanical coupling
+and endocrine muscle-bone signalling.13,24 We, therefore, ex-
+amined the mechanistic role of three putative muscle-derived
+signalling
+factors
+(‘myokines’)
+involved
+in
+muscle-bone
+crosstalk that exhibit altered age-related function.24 Of these,
+agxt-2/BAIBA was necessary for the positive healthspan ef-
+fects of ZA, while agxt-2 KD alone was not harmful to animal
+longevity or health. BAIBA promotes insulin sensitivity, anti-
+inﬂammation38 and osteocyte survival in mice,39 and its ex-
+pression does not decline with age39; thus, BAIBA-mediated
+muscle/health beneﬁts of bisphosphonates would be antici-
+pated to remain in older age. Knockdown of igdb-1/FNDC5
+extended worm lifespan and healthspan, countering human
+studies implicating low circulating FNDC5 as a sarcopenia
+biomarker.40 The healthspan effects of igdb-1 KD were also
+comparable with ZA co-treatment. This inability of idgb-1
+KD to neither ablate nor synergistically augment the positive
+effects
+of
+ZA
+could
+be
+interpreted
+as
+ZA
+exerting
+healthspan-promoting inhibitory effects on igdb-1 or, alterna-
+tively, acting through igdb-1 independent pathways. Con-
+versely, let-756/FGF21 appears dispensable for ZA-induced
+lifespan and healthspan extension. Because C. elegans lack
+an endoskeleton, these ﬁndings espouse agxt-2/BAIBA and
+igdb-1/FNDC5 as muscle-intrinsic, bone-independent mecha-
+nisms of bisphosphonate action on improving sarcopenia.
+Recent rodent work showed that bisphosphonates attenu-
+ate
+denervation
+atrophy
+by
+down-regulating
+sirtuin-3
+(SIRT3),19 a mitochondrially localized NAD+-dependent de-
+acetylase
+with
+important
+roles
+in
+regulating
+skeletal
+muscle metabolism. We observed that knocking-down a
+C. elegans mitochondrial sirtuin, sir-2.3, improved life- and
+healthspan, whereas mitochondrial sir-2.2 KD had no effect,
+as reported by others.33 Because sir-2.3 KD with combined
+ZA was neither inhibitory nor synergistically beneﬁcial
+to lifespan or healthspan, this supports the model of
+bisphosphonate-mediated mitochondrial sirtuin inhibition as
+a regulator of mammalian muscle health19 and now sarcope-
+nia. Loss of sir-2.2 was, however, dispensable for the positive
+effects of ZA. Along with improved mitochondrial structure
+observed herein, growing evidence thus suggests that
+bisphosphonates act at least partially through mitochondrial
+mechanisms to lessen the effects of sarcopenia.
+In conclusion,
+chronic bisphosphonate administration
+delays the onset of muscle structural and mitochondrial
+decline in a C. elegans model of sarcopenia, and this translates
+to improved animal health across the entire life course.
+The mechanisms regulating the positive ageing/muscle
+effects of bisphosphonates appear to be conserved across
+species
+and
+include
+the
+mevalonate-FOXO
+metabolic
+axis, mitochondrial sirtuins and muscle-derived cytokines.
+Because worms lack an endoskeleton, these mechanisms of
+bisphosphonates can also be muscle-intrinsic. By directly im-
+plicating bisphosphonates in attenuating the consequences
+of sarcopenia, this study adds to a growing body of evidence
+that bisphosphonates are a clinically safe, immediately exploit-
+able anti-sarcopenia therapeutic.
+Acknowledgements
+L.S. was supported by the United Mitochondrial Disease
+Foundation
+Grant
+PI-19-0985
+and
+the
+University
+of
+Exeter Diamond Jubilee Scholarship, and L.S. and T.E.
+were supported by the US Army Research Ofﬁce (74014-LS).
+S.E.B., J.J.B., P.J.A., B.E.P., K.S. and D.J.W. were supported
+by
+the
+Medical
+Research
+Council,
+UK
+(grant
+no.
+MR/P021220/1) as part of the MRC-Versus Arthritis Centre
+for
+Musculoskeletal
+Ageing
+Research
+awarded
+to
+the
+Universities of Nottingham and Birmingham, and the National
+Institute for Health Research (NIHR), Nottingham Biomedical
+Research Centre, UK. N.J.S. was supported by grants from
+NASA (NSSC22K0250 and NSSC22K0278) and acknowledges
+the
+support
+of
+the
+Osteopathic
+Heritage
+Foundation
+through funding for the Osteopathic Heritage Foundation
+Ralph S. Licklider, D.O., Research Endowment in the Heritage
+College of Osteopathic Medicine.
+Conﬂict of interest
+The authors declare no competing interests.
+Online supplementary material
+Additional supporting information may be found online in the
+Supporting Information section at the end of the article.
+References
+1. Shaﬁee G, Keshtkar A, Soltani A, Ahadi Z,
+Larijani B, Heshmat R. Prevalence of sar-
+copenia in the world: a systematic review
+and meta- analysis of general population
+studies. J Diabetes Metab Disord 2017;
+16:21.
+2. Paciﬁco J, Geerlings MAJ, Reijnierse EM,
+Phassouliotis
+C,
+Lim
+WK,
+Maier
+AB.
+Prevalence of sarcopenia as a comorbid
+disease:
+a
+systematic
+review
+and
+meta-analysis.
+Exp
+Gerontol
+2020;131:
+110801.
+3. Pinedo-Villanueva R, Westbury LD, Syddall
+HE, Sanchez-Santos MT, Dennison EM,
+Robinson SM, et al. Health care costs
+associated with muscle weakness: a UK
+population-based estimate. Calcif Tissue
+Int 2019;104:137–144.
+Bisphosphonates in sarcopenia
+2621
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335
+
+4. Liu P, Hao Q, Hai S, Wang H, Cao L, Dong B.
+Sarcopenia as a predictor of all-cause mor-
+tality among community-dwelling older
+people: a systematic review and meta-
+analysis. Maturitas 2017;103:16–22.
+5. Wu PY, Huang KS, Chen KM, Chou CP, Tu
+YK. Exercise, nutrition, and combined exer-
+cise and nutrition in older adults with sar-
+copenia: a systematic review and network
+meta-analysis. Maturitas 2021;145:38–48.
+6. Brook MS, Wilkinson DJ, Mitchell WK, Lund
+JN, Phillips BE, Szewczyk NJ, et al. Synchro-
+nous deﬁcits in cumulative muscle protein
+synthesis and ribosomal biogenesis under-
+lie age-related anabolic resistance to exer-
+cise
+in
+humans.
+J
+Physiol
+2016;594:
+7399–7417.
+7. AgeUK. Later life in the United Kingdom.
+2019. p. 12.
+8. Lin H, Salech F, Lim A, Vogrin S, Duque G.
+The effect of rapamycin and its analogues
+on age-related musculoskeletal diseases: a
+systematic review. Aging Clin Exp Res
+2022;34:2317–2333.
+9. Waldner M, Fantus D, Solari M, Thomson
+AW. New perspectives on mTOR inhibitors
+(rapamycin, rapalogs and TORKinibs) in
+transplantation. Br J Clin Pharmacol 2016;
+82:1158–1170.
+10. Morita JI, Yasui T. Subcellular localization of
+inorganic pyrophosphatases in rabbit skel-
+etal muscle and some properties of a mi-
+crosomal acid pyrophosphatase. Agric Biol
+Chem 1985;49:1397–1403.
+11. Fleisch H, Russell RG, Straumann F. Effect
+of pyrophosphate on hydroxyapatite and
+its implications in calcium homeostasis.
+Nature 1966;212:901–903.
+12. Drake MT, Clarke BL, Khosla S. Bisphospho-
+nates: mechanism of action and role in clin-
+ical practice. Mayo Clin Proc 2008;83:
+1032–1045.
+13. Kirk B, Zanker J, Duque G. Osteosarco-
+penia:
+epidemiology,
+diagnosis,
+and
+treatment-facts and numbers. J Cachexia
+Sarcopenia Muscle 2020;11:609–618.
+14. Walsh MC, Hunter GR, Livingstone MB. Sar-
+copenia in premenopausal and postmeno-
+pausal women with osteopenia, osteoporo-
+sis and normal bone mineral density.
+Osteoporos Int 2006;17:61–67.
+15. Park JH, Park KH, Cho SH, Choi YS, Seo SK,
+Lee BS, et al. Concomitant increase in mus-
+cle strength and bone mineral density with
+decreasing IL-6 levels after combination
+therapy with alendronate and calcitriol in
+postmenopausal
+women.
+Menopause
+2013;20:747–753.
+16. Harada A, Ito
+S, Matsui Y, Sakai
+Y,
+Takemura M, Tokuda H, et al. Effect of
+alendronate on muscle mass: investigation
+in patients with osteoporosis. Osteoporos
+Sarcopenia 2015;1:53–58.
+17. Hain BA, Jude B, Xu H, Smuin DM, Fox EJ,
+Elfar JC, et al. Zoledronic acid improves
+muscle function in healthy mice treated
+with chemotherapy. J Bone Miner Res
+2020;35:368–381.
+18. Yoon
+SH,
+Sugamori
+KS,
+Grynpas
+MD,
+Mitchell
+J.
+Positive
+effects
+of
+bisphosphonates on bone and muscle in a
+mouse model of Duchenne muscular dystro-
+phy. Neuromuscul Disord 2016;26:73–84.
+19. Chiu HC, Chiu CY, Yang RS, Chan DC, Liu SH,
+Chiang CK. Preventing muscle wasting by
+osteoporosis drug alendronate in vitro
+and in myopathy models via sirtuin-3
+down-regulation. J Cachexia Sarcopenia
+Muscle 2018;9:585–602.
+20. Huang CF, Shiao MS, Mao TY. Retrospec-
+tive study of the effects of zoledronic acid
+on muscle mass in osteoporosis patients.
+Drug Des Devel Ther 2021;15:3711–3715.
+21. Chen Z, Cordero J, Alqarni AM, Slack C,
+Zeidler MP, Bellantuono I. Zoledronate ex-
+tends health span and survival via the
+mevalonate
+pathway
+in
+a
+FOXO-dependent manner. J Gerontol A Biol
+Sci Med Sci 2022;77:1494–1502.
+22. Gaffney
+CJ,
+Pollard
+A,
+Barratt
+TF,
+Constantin-Teodosiu
+D,
+Greenhaff
+PL,
+Szewczyk NJ. Greater loss of mitochondrial
+function with ageing is associated with ear-
+lier onset of sarcopenia in C. elegans. Ag-
+ing (Albany NY) 2018;10:3382–3396.
+23. Etheridge T, Rahman M, Gaffney CJ, Shaw
+D, Shephard F, Magudia J, et al. The
+integrin-adhesome is required to maintain
+muscle structure, mitochondrial ATP pro-
+duction,
+and
+movement
+forces
+in
+Caenorhabditis elegans. FASEB J 2015;29:
+1235–1246.
+24. He C, He W, Hou J, Chen K, Huang M, Yang
+M, et al. Bone and muscle crosstalk in ag-
+ing. Front Cell Dev Biol 2020;8:585644.
+25. Bansal A, Zhu LJ, Yen K, Tissenbaum HA.
+Uncoupling lifespan and healthspan in
+Caenorhabditis elegans longevity mutants.
+Proc Natl Acad Sci U S A 2015;112:
+E277–E286.
+26. Ellwood RA, Slade L, Lewis J, Torregrossa R,
+Sudevan S, Piasecki M, et al. Sulfur amino
+acid supplementation displays therapeutic
+potential
+in
+a
+C.
+elegans
+model
+of
+Duchenne muscular dystrophy. Commun
+Biol 2022;5:1255.
+27. Rahman M, Edwards H, Birze N, Gabrilska
+R, Rumbaugh KP, Blawzdziewicz J, et al.
+NemaLife chip: a micropillar-based micro-
+ﬂuidic culture device optimized for aging
+studies in crawling C. elegans. Sci Rep
+2020;10:16190.
+28. Farina F, Lambert E, Commeau L, Lejeune
+FX, Roudier N, Fonte C, et al. The stress re-
+sponse factor daf-16/FOXO is required for
+multiple compound families to prolong
+the function of neurons with Huntington’s
+disease. Sci Rep 2017;7:4014.
+29. Sun X, Chen WD, Wang YD. DAF-16/FOXO
+transcription factor in aging and longevity.
+Front Pharmacol 2017;8:548.
+30. Kitase Y, Vallejo JA, Gutheil W, Vemula H,
+Jähn K, Yi J, et al. Beta-aminoisobutyric
+acid, l-BAIBA, is a muscle-derived osteocyte
+survival
+factor.
+Cell
+Rep
+2018;22:
+1531–1544.
+31. Marcus JM, Andrabi SA. SIRT3 Regulation
+under cellular stress: making sense of the
+ups and downs. Front Neurosci 2018;12:
+799.
+32. Wirth M, Karaca S, Wenzel D, Ho L, Tishkoff
+D,
+Lombard
+DB,
+et
+al.
+Mitochondrial
+SIRT4-type
+proteins
+in
+Caenorhabditis
+elegans and mammals interact with pyru-
+vate carboxylase and other acetylated
+biotin-dependent carboxylases. Mitochon-
+drion 2013;13:705–720.
+33. Chang SM, McReynolds MR, Hanna-Rose
+W. Mitochondrial sirtuins sir-2.2 and sir-
+2.3 regulate lifespan in C. elegans bioRxiv
+2017.
+34. Phillips BE,Williams JP, Greenhaff PL, Smith
+K, Atherton PJ. Physiological adaptations to
+resistance exercise as a function of age. JCI
+Insight 2017;2.
+35. Ott SM. Long-term safety of bisphospho-
+nates. J Clin Endocrinol Metab 2005;90:
+1897–1899.
+36. Buhaescu I, Izzedine H. Mevalonate path-
+way: a review of clinical and therapeutical
+implications.
+Clin
+Biochem
+2007;40:
+575–584.
+37. Zuela N, Zwerger M, Levin T, Medalia O,
+Gruenbaum Y. Impaired mechanical re-
+sponse of an EDMD mutation leads to mo-
+tility phenotypes that are repaired by loss
+of
+prenylation.
+J
+Cell
+Sci
+2016;129:
+1781–1791.
+38. Jung TW, Hwang HJ, Hong HC, Yoo HJ, Baik
+SH, Choi KM. BAIBA attenuates insulin re-
+sistance and inﬂammation induced by pal-
+mitate or a high fat diet via an AMPK-
+PPARdelta-dependent pathway in mice.
+Diabetologia 2015;58:2096–2105.
+39. Kitase Y, Vallejo JA, Gutheil W, Vemula H,
+Jähn K, Yi J, et al. β-aminoisobutyric acid,
+L-BAIBA, is a muscle-derived osteocyte sur-
+vival factor. Cell Rep 2018;6:1531–1544.
+40. Chang JS, Kim TH, Nguyen TT, Park KS, Kim
+N, Kong ID. Circulating irisin levels as a pre-
+dictive biomarker for sarcopenia: a cross-
+sectional community-based study. Geriatr
+Gerontol Int 2017;17:2266–2273.
+2622
+L. Slade et al.
+Journal of Cachexia, Sarcopenia and Muscle 2023; 14: 2613–2622
+DOI: 10.1002/jcsm.13335

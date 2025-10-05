@@ -1,0 +1,1075 @@
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Ethical considerations for the age of
+non-governmental space exploration
+Allen Seylani1,28, Aman Singh Galsinh
+2,28, Alexia Tasoula3,4,28, Anu R I5,6,
+Andrea Camera7, Jean Calleja-Agius
+8, Joseph Borg
+9, Chirag Goel10,
+JangKeun Kim
+11, Kevin B. Clark12,13,14, Saswati Das15, Shehbeel Arif16,
+Michael Boerrigter17, Caroline Coffey
+4, Nathaniel Szewczyk
+4,
+Christopher E. Mason
+11, Maria Manoli
+18,29, Fathi Karouia
+19,20,21,29,
+Hansjörg Schwertz
+22,23,24,29
+, Afshin Beheshti
+25,26,29
+&
+Dana Tulodziecki
+27,29
+Mounting ambitions and capabilities for public and private, non-government
+sector crewed space exploration bring with them an increasingly diverse set of
+space travelers, raising new and nontrivial ethical, legal, and medical policy
+and practice concerns which are still relatively underexplored. In this piece, we
+lay out several pressing issues related to ethical considerations for selecting
+space travelers and conducting human subject research on them, especially in
+the context of non-governmental and commercial/private space operations.
+It has been over 50 years since the ﬁrst human walked on the Moon.
+Since then, most commercialized spaceﬂights have been contracts
+granted to private companies by various governments to launch
+satellites, e.g., communication and GPS devices, into Earth’s orbit. In
+recent years, the deﬁnition of commercial spaceﬂight has expanded to
+include human transportation between Earth and habitats in Low Earth
+Orbit and future lunar or other extraterrestrial outposts. Once
+considered nearly impossible, commercial space travel is now a reality,
+due to rapid technological advancement in the private sector, large-
+scale investment from governments, and continued public interest.
+With the ﬁrst crewed launch of SpaceX Dragon to the International
+Space Station (ISS), on May 30, 20201, a new era of public-private
+spaceﬂight partnership has emerged. Private companies such as Boe-
+ing, Virgin Galactic, Axiom, Sierra Space, and Blue Origin now create a
+Received: 11 December 2022
+Accepted: 5 December 2023
+Check for updates
+1School of Medicine, University of California, Riverside. 92521 Botanical Garden Dr, Riverside, CA 92507, USA. 2School of Medicine, Medical Sciences and
+Nutrition, University of Aberdeen, Aberdeen AB24 3FX, UK. 3Department of Life Science Engineering, FH Technikum, Vienna, Austria. 4Heritage College of
+Osteopathic Medicine, Ohio University, Athens, OH, USA. 5Department of Cancer Biology and Therapeutics, MVR Cancer Centre and Research Institute,
+Calicut, India. 6Department of Clinical Biochemistry, MVR Cancer Centre and Research Institute, Calicut, India. 7Department of Molecular Medicine,
+Institute of Basic Medical Sciences, University of Oslo, Oslo, Norway. 8Department of Anatomy, Faculty of Medicine and Surgery, University of Malta,
+MSD2080 Msida, Malta. 9Department of Applied Biomedical Science, Faculty of Health Sciences, University of Malta, MSD2080 Msida, Malta. 10North-
+western University Feinberg School of Medicine, Chicago, IL, USA. 11Department of Physiology & Biophysics, Weill Cornell Medicine, New York, NY, USA.
+12Cures Within Reach, Chicago, IL 60602, USA. 13Peace Innovation Institute, The Hague 2511, Netherlands & Stanford University, Palo Alto, CA 94305, USA.
+14Biometrics and Nanotechnology Councils, Institute for Electrical and Electronics Engineers, New York, NY 10016-5997, USA. 15Department of Bio-
+chemistry, Atal Bihari Vajpayee Institute of Medical Sciences, New Delhi, India. 16Center for Data-Driven Discovery in Biomedicine, Children’s Hospital of
+Philadelphia, Philadelphia, PA, USA. 17Deep Space Biology, San Francisco, CA, USA. 18School of Law, University of Aberdeen, Aberdeen AB24 3UB, UK.
+19Blue Marble Space Institute for Science, Exobiology Branch, NASA Ames Research Center, Moffett Field, CA, USA. 20Space Research Within Reach, San
+Francisco, CA, USA. 21Center for Space Medicine, Baylor College of Medicine, Houston, TX, USA. 22Molecular Medicine Program at the University of Utah,
+Salt Lake City, UT 84112, USA. 23Division of Occupational Medicine at the University of Utah, Salt Lake City, UT 84112, USA. 24Occupational Medicine at
+Billings Clinic Bozeman, Bozeman, MT 59715, USA. 25Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+26Blue Marble Space Institute of Science, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA, US. 27Department of Philosophy,
+Purdue University, West Lafayette, IN, USA. 28These authors contributed equally: Allen Seylani, Aman Singh Galsinh, Alexia Tasoula. 29These authors jointly
+supervised this work: Maria Manoli, Fathi Karouia, Hansjörg Schwertz, Afshin Beheshti, Dana Tulodziecki.
+e-mail: hansjorg.schwertz@u2m2.utah.edu;
+afshin.beheshti@bmsis.org; dtulodzi@purdue.edu
+Nature Communications|   (2024) 15:4774 
+1
+1234567890():,;
+1234567890():,;
+
+steep commercial demand for crewed spaceﬂight, both for technolo-
+gical and recreational purposes. NASA has further partnered with
+Axiom Space for commercial utilization of the ISS until the world’s ﬁrst
+commercial space station is built by 20282. There is currently a wide
+range of private/commercial spaceﬂights, ranging from suborbital
+ﬂights lasting mere minutes to Axiom’s 1-2 week ISS missions to the
+ﬁrst all-civilian orbital commercial spaceﬂight mission referred to as
+‘Inspiration4’ (I4), comparable in duration (and health risks) to orbital
+shuttle missions1–3.
+Historically, government-sponsored spaceﬂights were mission-
+based and geared towards national interests, e.g., technological lea-
+dership, improving national security, creating high-quality jobs, or
+advancements in research. After the Cold War era and the “Space
+Race,” government investment in space exploration declined. In con-
+trast, the idea of commercial spaceﬂight continues to gain signiﬁcant
+popularity and the economic opportunities linked to this are enor-
+mous. This has been accompanied by an inﬂux of investment and the
+development of new technology, such as initial viable Reusable Launch
+Vehicle models by SpaceX4. Despite this rapid technology develop-
+ment, governmental regulation of commercial spaceﬂight lags behind.
+There are some requirements commercial spaceﬂight providers have
+to meet, including requirements concerning environmental safety,
+payload, payload re-entry, ﬁnancial stability, and coverage for max-
+imum probable loss5. Yet, there has been only limited regulation
+concerning the selection and training of non-government-sponsored
+astronauts and no formal oversight governing medical research on
+such crews, whether orbital or suborbital. The United Nations Ofﬁce
+for Outer Space Affairs has collated national space laws relating to
+space activities from 42 countries6. While the regulations listed there
+cover a wide range of ﬁelds, such as objects in space, radio-
+communication, and space activities, there is a general lack of health-
+associated regulations. This is a symptom of a bigger problem where
+there is little oversight of private sector spaceﬂight participants which,
+with Inspiration4, dearMoon7, and the upcoming Polaris program8, are
+already a reality.
+An increase in commercial/private and civilian space missions
+with a more diverse crew may provide an opportunity to collect data
+on health issues in space. While these data could shape medical stan-
+dards and improve treatment choices for prolonged spaceﬂight, their
+collection and management should require strict regulation. At the
+same time, as spacefarers shift from professionally trained astronauts
+to private individuals without rigorous preparation or with existing
+medical conditions, there is a need to reﬁne selection criteria and
+training for non-governmental space travelers. Yet, despite their
+importance and urgency, these considerations have gone relatively
+unexplored9.
+In this paper, we will lay out several pressing issues related to
+ethical considerations for selecting space travelers and research
+practices, especially in the context of non-governmental and private
+space operations. Although there are many other ethical issues related
+to space exploration – both commercial and otherwise10–19– our focus
+here is on ethical considerations regarding selection and human sub-
+ject research. Note that while some of the issues we raise might be
+covered by guidelines, regulations, or law, this does not diminish the
+ethical considerations we discuss. A good example illustrating this
+point is NASA’s recent decision to unify the effective radiation expo-
+sure for male and female astronauts so as to not exceed 600 mSv,
+which translates to having to remain below 3% mean risk of cancer
+mortality above the non-exposed baseline mean, despite differences in
+male and female radiation-based cancer risk20,21. This decision is highly
+controversial, precisely because it is viewed by many as ethically pro-
+blematic. Likewise, signing a consent form to undertake a certain
+activity (whether employer-mandated or not) does not make the
+proposed activity or consent process ethically unquestionable21.
+Indeed, our point here is that ethical considerations resulting from the
+increase in private and commercial spaceﬂight arise despite estab-
+lished rules and guidelines22,23.
+A note on terminology: SpaceX, Axiom, and others refer to their
+travelers as ‘crew’. This has important consequences since the limited
+Federal Aviation Administration (FAA) guidelines24 that are applicable
+to non-professional astronauts are somewhat more stringent for crew
+than ‘ordinary’ spaceﬂight occupants. To bypass ambiguity, we prefer
+the term ‘spaceﬂight occupants’ (SOs), using it to refer to non-
+professional space travelers lacking substantial spaceﬂight training.
+Further, we use the terms ‘laws’ and ‘regulations’ to refer to binding law
+and the neutral terms ‘guidelines’, ‘recommendations’, and ‘policy’ to
+refer to non-binding guiding instruments.
+Considerations on governmental vs. non-
+governmental spaceﬂight
+Biological hazards of spaceﬂight
+The selection of professional astronauts is highly regulated because
+space travel and habitation are demanding and dangerous. Current
+space missions to the ISS in Low Earth Orbit and future missions
+pushing the boundaries of human space exploration towards the
+Moon and Mars are characterized by exposure to space radiation, such
+as galactic cosmic rays (GCR), solar particle events (SPE), and trapped
+radiation25,
+changing
+gravity
+ﬁelds,
+acceleration/deceleration
+phenomena26, isolation, and conﬁnement27 in a hostile and closed
+environment28 and, ﬁnally, the increasingly far distance from Earth
+(Fig. 1). Exposure to GCR/SPE is potentially the most signiﬁcant single
+health hazard for Low Earth Orbit; for deep-space crewed missions
+beyond the Earth’s protective magnetic ﬁeld this risk proﬁle increases
+dramatically28. Recently, NASA increased an individualastronaut’s total
+career effective radiation dose (independent of age at exposure and
+sex) due to spaceﬂight radiation exposure to less than 600 mSv,
+translating into a mean risk increase of cancer mortality (REID) of
+below 3% above the non-exposed baseline mean21. This change was
+implemented following a study carried out under the auspices of the
+National Academies of Sciences29. However, these standards remain
+controversial, especially in light of predicted REID ranging between 6-
+10% for females exposed at ages 20, 40, and 60 years for a simulated
+Mars Mission20. Of note, most international partners use a higher
+career dose limit of 1,000mSV (independent of sex and age).
+Health concerns and ethical considerations regarding commercial
+space travel are of great importance considering that the aforemen-
+tioned potential hazards can severely interfere with many physiologi-
+cal processes, such as physiological homeostasis on a cellular and
+Distance
+Confinement
+Hostile and closed 
+environments
+Changing 
+gravity fields
+Galactic cosmic rays
+Fig. 1 | The Five Hazards in Space Contributing to Increased Health Risks. The
+ﬁgure exempliﬁes the main space ﬂight hazards as used by NASA for the Human
+Research Road Map, such as distance, conﬁnement, hostile and closed environ-
+ments, galactic cosmic rays and space radiation, and changing gravity ﬁelds.
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+2
+
+molecular level (Fig. 2), leading to microbiome shifts30,31, inducing
+dysregulated mitochondrial function32, and causing oxidative stress33.
+Furthermore, several space hazards cause DNA damage28,30, affect
+telomere length30, induce signiﬁcant differences in DNA methylation,
+and alter accessibility of chromatin regions and speciﬁc DNA
+epitopes30,34. Such cellular and molecular effects lead to serious
+pathophysiology and health consequences25, including but not limited
+to: changes in the cardiovascular system including ﬂuid shifts, ortho-
+static intolerance, reduced ventricle size, thrombus formation28,35–39,
+musculoskeletal defects deﬁned as
+muscle
+atrophy and bone
+loss30,40–42, central nervous system alterations including ﬂuid shifts,
+neurocognitive and psychiatric alteration and Space-Associated
+Neuro-ocular Syndrome (SANS)43,44, immune system dysfunction,
+initiation of malignant processes45 due to loss of DNA integrity, failed
+DNA
+repair
+mechanisms,
+mutations,
+and
+chromosomal
+rearrangements46. Nevertheless, while knowledge mounts, there
+remains a lack of data addressing individual differences among
+astronauts, such as age, sex, and genetic background, contributing to
+the challenges of accurately predicting radiation hazards and
+outcomes28.
+Ethical issues related to the dangers and selection of SOs
+Given these signiﬁcant spaceﬂight hazards, stringent selection criteria
+are important to protect astronaut and SO health and to help ensure
+that missions can be completed successfully. For instance, the ISS
+Multilateral Space Medicine Board provides guidance about travel to
+the ISS by private individuals47,48 and NASA has signiﬁcantly strength-
+ened its health-oriented recommendations and guidelines over the last
+two decades. Similarly, independent organizations such as the Aero-
+space Medical Association, have issued policies and guidelines taking
+into consideration not just the physical health of SOs but also their
+mental health49. There are not only expansive rules and guidelines at
+the selection and annual re-evaluation stage for astronauts, but also
+stringent health monitoring before, during, and after spaceﬂight50.
+However, with increasing commercial and private spaceﬂight oppor-
+tunities, it is no longer just trained and pre-screened astronauts who
+travel to space. Since existing guidance in its various forms applies
+mostly to government-sponsored or -employed professional astro-
+nauts, the question arises as to who determines whether the potential
+health risks associated with spaceﬂight are acceptable or not in the
+case of SOs.
+Current guidance on its own is not in a good position to resolve
+some of the issues that will arise in these new contexts. Both medical
+and scientiﬁc research communities as well as a number of govern-
+ments have long and carefully deliberated about medical and ethical
+scenarios and questions that might arise during spaceﬂight. However,
+while some of their guidelines might apply to certain instances of, say,
+paying SOs (for example, private astronauts travelling to the ISS and
+therefore covered by ISS rules), there is still a relative dearth of dis-
+cussion concerning how to extend these important deliberations to
+the new types of SO that we are likely to see in the coming decades.
+Moreover, since existing law and policy frameworks were
+designed mostly with government-employed or -sponsored astronauts
+in mind, their scope does not always extend neatly to their non-
+governmental counterparts. For instance, federal space agencies form
+an employer-employee relationship with their astronauts. While this
+might be applicable to some kinds of potential commercial SOs, it will
+not be applicable to private SOs. For example, while the International
+Commission on Radiological Protection stresses the importance of
+radiological protection, in the U.S. the National Council on Radiation
+Protection and Measurements (NCRP)51 explicitly states that its pur-
+view is “NASA selection of astronauts for participation in space mis-
+sions” and that “the measures suggested in this Report may be unique
+to NASA and not generalizable”. Although the reﬁnements proposed
+by the NCRP to NASA’s shared decision-making framework do not
+directly pertain to commercial and private SOs, their relevance is evi-
+dent and should be taken into consideration.
+One might think that general documents of medical research
+ethics could provide some help here. For example, the World Medical
+Association’s (WMA) “Declaration of Helsinki” (DoH)52 is one of the
+most inﬂuential and important sets of ethical principles concerning
+medical research involving human subjects. While the WMA has no
+formal authority or binding status, it is still often expected that
+guidelines concerning research ethics will look to the DoH as a guiding
+document. However, the DoH is neither accepted by all countries nor
+uncontroversial. For example, Schüklenk and Ashcroft53 have high-
+lighted both the “absence of a consensus over the actual content of the
+Declaration and its status”, and stressed its “continuing lack of a ser-
+ious consultation with the relevant stakeholders”, while also empha-
+sizing
+the
+more
+general
+“absence
+of
+a
+consensus
+among
+knowledgeable, well-intentioned bioethicists, scientists and political
+activists over the central issue of research ethics standards”. There is
+also a heated debate about whether there exists an international
+consensus opinion that violates and diverges from the DoH’s
+principles54,55. Macklin has argued that, even with revisions, the DoH
+“cannot resolve ongoing controversies”, since “it simply does not
+address other aspects of international research about which people
+disagree”56. Macklin has further stressed conﬂicts between the DoH
+and “ofﬁcial regulations promulgated by a federal agency, with
+enforcement mechanisms and sanctions for noncompliance” and
+pointed out that “it is hardly surprising that researchers, ethical review
+bodies, and governmental agencies do not consider the Declaration of
+Helsinki to be a necessary adjunct to the “ofﬁcial” CommonRule, which
+governs most federally funded research in the United States”56. Indeed,
+the US FDA ﬁrst rejected the 2000 and later revisions, before elim-
+inating all references to the DoH in 200657. The situation is not dis-
+similar in many other countries and regions. Documents such as the
+Altered 
+microbiome 
+composition
+Mitochondrial 
+dysregulation
+Epigenetic
+changes
+Oxidative 
+stress
+Telomeric length
+changes
+DNA
+damage
+Cardiovascular
+changes
+CNS alteration
+Musculoskeletal
+changes
+Immune system
+dysfunction
+Altered 
+circadian
+rhythm
+Increased 
+cancer risk
+Fig. 2 | Biological and Health Features of Spaceﬂight. Space hazards, as outlined
+in Fig. 1, drive a diverse array of molecular and cellular changes observed during
+spaceﬂight, including DNA damage, oxidative stress, mitochondrial dysregulation,
+alteration in the microbiome composition, epigenetic changes, and telomere
+length changes. Such features will have the potential to induce pathophysiologic
+system changes affecting the central nervous system, the cardiovascular system,
+immune functions, musculoskeletal dynamics, the circadian rhythm, and cancer
+risk in SOs.
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+3
+
+DoH – regardless of its controversies – are much too general to resolve
+particular ethical conundrums related to human space travel. Thus,
+while they might provide some necessary restrictions and sometimes
+even positive guidance, the question of how such general principles
+apply to speciﬁc and concrete cases, especially when there is little
+precedent, requires further examination. This of course is just one
+reason why agencies around the world spend enormous efforts on
+crafting guidelines and recommendations about the ethics of human
+subject research in space. But who will do the same for those space
+travelers to whom these do not apply?
+The relevant international legal framework, i.e. the ﬁve UN Space
+Treaties, do not speciﬁcally address the health of astronauts or other
+spaceﬂight participants6. The Outer Space Treaty (OST) of 1967
+introduces the concept of “envoys of mankind” for astronauts58; the
+Rescue and Return Agreement (RRA) extends this protection to “per-
+sonnel of spacecraft”. However, neither of these terms is clearly
+deﬁned and terminological inconsistencies have led to a broad inter-
+pretation, suggesting that the Agreement extends to human life in
+outer space or spaceﬂight generally, covering both professional and
+non-professional space travelers, including tourists. However, these
+agreements were drafted at a time when activities such as space
+tourism were unforeseen, posing challenges in predicting and reg-
+ulating health concerns for modern space activities. Thus, these
+agreements lack explicit health regulations for individuals that are part
+of the private space industry and, even if such regulations existed,
+enforcing them would be challenging due to the absence of robust
+enforcement mechanisms in international law.
+To address issues such as these at the US-level, the FAA59 and
+NASA entered a Memorandum of Understanding in June 2012, to
+coordinate standards for commercial government or non-government
+astronaut transport to and from Low Earth Orbit and the ISS. The goal
+was to foster both public and crew safety, avoid conﬂicting rules and
+guidelines, as well as to provide a framework for the American space
+industry. Despite this, the clearance of ‘ordinary’ SOs for spaceﬂight is
+currently the responsibility of commercial providers, with limited
+oversight, and a lack of standardized screening procedures and
+protocols60. The US is currently the main country providing such
+guidance in the form of the FAA Recommended Practices for Human
+Space Flight Occupant Safety. However, due to the limits of FAA jur-
+isdiction, these guidelines only apply to launch and reentry61. Further,
+the FAA guidance comes not in the form of mandatory requirements
+but rather as (minimal) recommendations, suggesting merely that “[p]
+roximate to ﬂight, the operator should require each space ﬂight par-
+ticipant to consult with a physician, trained or experienced in aero-
+space medicine, to ascertain their personal medical risks from the
+space ﬂight proﬁle and vehicle” (2023: B. 4.4.2). It also explicitly states
+that “[t]his document does not include any speciﬁc medical criteria
+that would limit who should ﬂy in space as a space ﬂight participant.”
+(2023: A. 6.1). Thus, given that medical consultation is only a recom-
+mendation, in principle anyone capable of giving written informed
+consent can ﬂy, regardless of their health proﬁle, as long as they meet
+speciﬁed spaceﬂight operator criteria (Fig. 3). This raises a number of
+issues.
+First, if an SO fails to be cleared by one physician, can they get
+clearance from a more lenient provider elsewhere?62 As Langston
+points out, “[m]edical forum shopping is a foreseeable ethical and legal
+concern where regulatory standardization is lacking or is inconsistent
+between jurisdictions… [which] could lead to increased risk of harm
+for the individual (in-ﬂight/post-ﬂight), spaceﬂight and crew, as well as
+uninvolved third parties”63. This scenario parallels a situation seen in
+the Federal Motor Carrier Safety Administration64, where a disqualiﬁed
+driver can apply for a resolution if a disagreement exists in regard to
+the medical qualiﬁcation exam. However, to oversee potential medical
+forum shopping, all results from medical examinations have to be
+entered into the centralized National Registry, preventing the con-
+tinued medical examination until a desired result is achieved and
+certiﬁed.
+Second, there might be tension between the potential clearance
+requirements desirable for a commercial spaceﬂight operator or pro-
+vider – who might have an interest in lenient requirements to sell as
+many seats as possible to the limited pool of individuals who can afford
+them – and those desirable from the health standpoint of a particular
+SO. One might argue that SOs should undergo relevant medical con-
+sultations and decide on the risks they are willing to take, similar to
+making choices about risky adventures on Earth. So why should they
+not be in a position to make similar decisions for space? Nonetheless,
+Variable Health Status
+Stringent astronaut 
+selection criteria as defined 
+by NASA / ESA / JAXA
+Less defined selection 
+criteria for commercial 
+space travelers
+Stringent government-driven selection criteria vs. minimal oversight for private SOs 
+Established policies and ethical guidelines vs. lack of comprehensive regulations
+Regulatory framework for astronaut health vs. uncertainties and inconsistencies in SOs' health assessments
+Fig. 3 | Differential Approaches to Selecting SOs. Stringent selection criteria
+(green) for government-sponsored astronauts (i.e., NASA, ESA, JAXA), including a
+hard stop mechanism are depicted on the right of the schematic (right dashed red
+line). Less deﬁned commercial space traveler criteria for civilians (red) ﬁnally
+leading to rejection (left dashed red line) are indicated. The green-red color-coded
+middle area symbolizes the health-related risks, where the array of potential
+commercial space selection criteria is located.
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+4
+
+while legal and social norms allow people to engage in some risks, the
+same norms do not give blanket allowance for people to do anything
+they want, instead exercising various degrees of paternalistic oversight
+both in people’s private and public lives (for an overview of paternal-
+ism and its issues, see Dworkin 2020)65. For example, many govern-
+ments require drivers and passengers to wear seatbelts, they require
+motorcyclists to wear helmets, forbid the sale of certain drugs, they
+forbid people to enter into certain kinds of contracts (for selling
+organs, gambling debts, etc.). Questions thus arise about the appro-
+priate degree of paternalistic oversight for space travel, as well as
+questions about who has the power to enforce relevant policies and
+regulations. A further complication – and again one that speaks in
+favor of increased guidance or regulation – is that compromised SO
+health might also affect fellow passengers. In fact, the September 2023
+revisions of the FAA recommendations now recognize this problem at
+least partially, stating that “[m]edical consultation for space ﬂight
+participants is recommended … to help prevent them from endan-
+gering other occupants …. [and] commercial operators will be chal-
+lenged to control hazards to space ﬂight participants from other space
+ﬂight participants with medical conditions.”61 This is, of course, also a
+problem with respect to various forms of ground and air transporta-
+tion; however, it is exacerbated in the case of space travel. For one,
+providing assistance in space is more difﬁcult than on the ground or in
+the air, thus putting fellow travelers in a position in which they are
+more likely to compromise their own safety during the course of
+providing help, especially in the absence of mandatory training. Fur-
+ther, space travel has inherent limits about the amount and kind of
+medical equipment that can be transported and effectively used in a
+spaceﬂight environment.
+Third, even if stringent screening requirements are in place,
+substantial uncertainties remain regarding the various health con-
+sequences of space travel, making it virtually impossible for speciﬁc
+individuals to understand what their actual health risks are, even if
+advised by someone “trained or experienced in aerospace medicine”61.
+Current data insufﬁciently address individual differences among
+astronauts such as age, sex, and genetic background66, which trans-
+lates into signiﬁcant uncertainty in predicting individualized space
+radiation hazards and outcomes for both astronauts and SOs67. In
+addition, while it is known that individuals metabolize drugs and
+supplements differently in space68–70, little to nothing is known about
+the physiology underlying these changes. Limited available data70
+suggests that even relatively common prescription drugs might work
+differently in space. Furthermore, the reduced and often unknown
+stability of pharmacologic ingredients and supplements over the
+course of exploration-rated space missions becomes even more
+critical70. Specially prepared space medications, appropriate repacka-
+ging to improve pharmaceutical stability, and more insight into indi-
+vidual pharmacokinetics are needed to supply both astronauts and
+SOs with effective pharmaceuticals and/or other treatment options.
+All of these considerations strongly suggest that some guidance
+and/or oversight with respect to potential SO screening and clearance
+would be highly beneﬁcial (Fig. 3). In fact, this is not just so for the SOs,
+but also for the commercial providers who agree to transport them.
+While SOs are currently required to sign liability waivers, the legal
+status of these waivers is unclear, and so binding rules might also
+provide a way for providers to indemnify themselves against future
+lawsuits71. However, such rules should be sensitive to the diversity and
+variety of potential spaceﬂight endeavors: there is a difference
+between a private citizen enjoying a suborbital ﬂight and a commercial
+crew member spending prolonged time in space for research pur-
+poses, perhaps on a commercial space station.
+Human subject research
+As our technical and research abilities evolve, so do the ethical con-
+siderations for using human subjects for research. While NASA
+estimated the chance of survival of the ﬁrst mission to the Moon
+(Apollo 8) at 50-50, such odds for harm would not be accepted for any
+present-day study involving human subjects (recollection quoted from
+Ref. 72). NASA’s ethical principles are deﬁned to ensure human
+research subject welfare and minimize health risks. Further, research
+protocols can be implemented only if a risk/beneﬁt analysis demon-
+strates that the risks to the subjects are reasonable in relation to the
+anticipated beneﬁts and the expected importance of new knowledge.
+This will become even more important for missions to Mars73. In
+addition to the prevention of direct harm, other important con-
+siderations include protecting privacy, ensuring strict data security,
+and maximizing the positive social impacts of research.
+Human Subject Research projects in space, supported or other-
+wise subject to regulation by any US federal department or agency, are
+strictly regulated under the Code of Federal Regulations (14 CFR pt
+123069). Based on this, the implementation, procedures, and
+requirements to conduct space-related research involving human
+subjects is tightly controlled within a binding framework. NASA Insti-
+tutional Review Board (IRB) committees review such research propo-
+sals to guarantee enforcement of these policies and the ethical, safe,
+and equitable treatment of human research subjects. In addition, the
+Ofﬁce of Research Assurance ensures that all activities comply with
+applicable federal regulations and guidelines, ensuring that human
+subject welfare and minimal health risk are prioritized for all decisions.
+Such analysis will not take into account potential long-term effects on
+public policies. An interesting variation from non-NASA research pro-
+tocols is the requirement that the responsible ﬂight surgeon maintains
+the duty to intervene and terminate ongoing research if the health and
+welfare of astronaut research subjects is in question.
+While the NASA IRB process adheres to standard practices for
+IRBs, it has unique aspects focused on human subjects’ well-being
+beyond typical standards. The highest level of concern involves human
+subject research studies involving genetic testing. NASA deﬁnes
+genetic testing based on the Genetic Information Nondiscrimination
+Act74. Studies involving genetic testing in human subjects are deemed
+of the highest concern and automatically categorized as “greater than
+minimal risk”, according to NASA75. These studies require additional
+measures to protect the research subjects, including policies that
+prohibit the public release of genetic data without prior approval from
+the individual or their direct family members, in accordance with NASA
+policy. NASA enforces strict rules as genetic data must be stored
+separately, and cross-referencing is forbidden without IRB approval.
+After genetic testing, all electronic data is deleted and given solely to
+NASA. However, commercial institutions or providers using services at
+NASA facilities to launch a space vehicle do not have to adhere to such
+rules in the same way.
+While the above-described scenarios are focused on NASA, the
+processes for international ISS partner research are not demon-
+strating signiﬁcant national differences. In general, plans for research
+involving human research subjects are carefully examined by the
+ethics committee of the researcher’s university or institute, the space
+agency proposing the research, and the space agency of the astro-
+naut subject. Furthermore, the Human Research Multilateral Review
+Board (HRMRB), comprising the representatives of space agencies
+involved in the ISS (NASA, ESA, CSA, JAXA), is tasked with investi-
+gating and reviewing ethical matters on the ISS. For all research
+conducted on an astronaut, the HRMRB looks at whether the safety
+and health of the astronaut are assured and whether the appropriate
+ethical considerations have been made. As necessary, the HRMRB
+then issues recommendations or modiﬁcation requests. While
+government-sponsored human subject research is strictly regulated,
+it is still unclear whether future commercial SOs will be covered
+under such regulations, or if adherence to government regulations
+needs to be amended to reﬂect the new reality of space human
+subject research.
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+5
+
+Ethical considerations
+To date, our knowledge regarding the effects of spaceﬂight on
+humans, as well as the efﬁcacy and safety of select medical interven-
+tions and pharmaceuticals in space, comes from government-
+sponsored missions, a small number of astronauts, and, more
+recently, civilians (Inspiration4, MS-20, Axiom-1)76,77. Increasing this
+type of knowledge is vital to ensuring the safety of future astronauts
+and SOs, especially considering the limited opportunities for medical
+treatment in space. It is therefore likely that astronauts and SOs will
+need to monitor, diagnose, and treat themselves at least part of the
+time. Increased commercial and private spaceﬂight opportunities will
+bring with them an expanding diversity of SOs with different health
+proﬁles, most of them likely not in the same physical and psychological
+shape as highly trained career astronauts78–80. By necessity, increasing
+knowledge about the effects of the spaceﬂight environment on human
+molecular biology, physiology, and psychology, as well as on the
+chemical composition of pharmaceuticals, involves human subject
+research. With the success of the recent Inspiration4 mission in
+deﬁning a wide range of biomedical data, the role of commercial and
+private SOs in such research is likely to increase.
+As
+previously
+outlined,
+government-sponsored
+spaceﬂights
+adhere to stringent criteria with respect to human subject research,
+through their respective IRBs, ethics committees, and groups. In the
+case of Inspiration4, research was conducted through Weill Cornell
+Medicine, the Translational Research Institute for Space Health of the
+Baylor College of Medicine81, California Institute of Technology, and
+Massachusetts Institute of Technology and underwent similarly rig-
+orous approval processes82. As the general standard for human subject
+research requires compliance with ethics approvals, it is expected that
+commercial spaceﬂight-based human subject research will continue to
+follow these and other applicable internationally ratiﬁed pro-
+cesses (Fig. 4).
+However, commercial spaceﬂight also raises new ethical issues. In
+the past, human subject research in space was mostly a secondary
+concern of overall missions whereas now missions are increasingly
+conducted explicitly for this purpose. Ethical recruitment for biome-
+dical
+research
+requires
+informed
+consent.
+For
+space
+travel,
+this requires participants to have a good understanding of the space
+environment, the nature of associated environmental hazards, as well
+as the potential side effects of any drugs under study51. But to what
+extent is such consent really possible with respect to space travel?83
+Exposure to high radiation, microgravity, and galactic rays may com-
+promise participant safety in a number of unknown ways. Further, the
+effect of radiation and other extra-terrestrial factors on the chemical
+composition of pharmaceutical ingredients is largely unknown, thus
+making it especially difﬁcult to inform potential subjects about likely
+side effects. The US Code of Regulations for informed consent requires
+a “description of any reasonably foreseeable risks or discomforts to the
+subject” (Title 45, A.A. Part 46.116, b282). In the case of space travel,
+where many or most risks are unknown, it is unclear to what extent – if
+at all – this requirement can be met. Thus, there is a need to incor-
+porate new and emerging ethical issues into existing frameworks in
+ways that are based on the same underlying ethical principles that gave
+rise to these and similar regulations in the ﬁrst place and that are
+applicable to space travel. This is all the more urgent since civilians are
+already involved in such research51. Note also that the aforementioned
+problems are exacerbated for non-astronaut SOs: most of the existing
+data is not from a random population, but rather from an elite force
+Fig. 4 | Human Subject Research Ethical and Operational Guidelines. A sche-
+matic for the ethical framework for space human subject research. This framework
+deﬁnes the key existing principles and regulations that currently exist in human
+research (in blue), the implementation of these ethical standards in the clinic and
+research laboratory (in yellow), and the challenges that should be considered and
+will arise for human research in space (in orange).
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+6
+
+markedly dissimilar to average citizens in terms of training, age, health,
+and biomedical and behavioral proﬁles. Additionally, it has been
+established that even highly trained individuals respond quite differ-
+ently to the zero-gravity environment84. Moreover, existing research
+was conducted on a population with a high degree of sex, gender, and
+ethnic homogeneity and relatively low diversity. Currently, it is
+therefore unclear to what extent this research generalizes to SOs
+beyond the relatively narrow population that has been studied so far.
+Furthermore, principles of health ethics encompass avoiding
+harm,
+beneﬁcence,
+achieving
+a
+favorable
+risk-beneﬁt
+balance,
+respecting autonomy, fairness, and ﬁdelity85. Terrestrial clinical trials
+rely on large participant numbers, secure drug storage, and timely
+sample collection, which are difﬁcult to replicate in space. How to
+ensure compliance with these principles in space thus remains
+uncertain. There are also some concerns about individual principles:
+For example, human subject research in space may violate a partici-
+pant’s autonomy, should the individual decide to withdraw from the
+study. In terrestrial medical research, subjects may at any time with-
+draw their consent, even if the study is already in progress. Such
+withdrawal, however, is much more complicated in space. Even if
+individuals are able to drop out, return to Earth will not be immediate.
+There is also no way for individuals to withdraw from the possible
+(unknown) long-term effects of the spaceﬂight environment, and any
+consent thus involves not just consent to the study itself, but consent
+to any future effects that might result from spaceﬂight activities. This
+might also lead to violating the Avoiding Harm principle, since
+remaining in space is unhealthy for participants, especially if the
+desired withdrawal occurs as the result of unforeseen health problems.
+In turn, these conditions might then violate the Favorable Risk and
+Beneﬁt Balance, due to the changing circumstances during the course
+of research. In NASA’s case, the responsible ﬂight surgeon can inter-
+rupt trials. However, in the absence of ofﬁcial, government-sanctioned
+ﬂight surgeons with extensive spaceﬂight experience, who assumes
+the equivalent responsibilities for SO healthcare, ensuring subjects’
+best interests are met?
+These problems represent only a small subset of issues, demon-
+strating the urgent need for guidance on non-government space
+research on human subjects (for further issues relating to privacy and
+behavioral health, see86,87). Such research should follow strict ethics
+committee review and otherwise meet the same stringent standards
+that NASA, ESA, and JAXA currently adhere to88, including following
+suggestions by international medical research bodies, such as the DoH,
+The Council for International Organizations of Medical Sciences’
+International Ethical Guidelines for Health-Related Research Involving
+Humans89, and others.
+Conclusion
+We are entering an exciting new era of space exploration previously
+only thought of as science ﬁction. Commercial/private and civilian
+spaceﬂights, such as Inspiration4 and the Polaris missions are no
+longer just a possibility but a reality. Exciting as these opportunities
+are, they also come with the burden of ensuring that future space
+travel will be as safe and ethical as possible. While governmental
+oversight has historically governed space activities, the emergence of
+non-governmental initiatives calls for uniﬁed ethical guidelines, safe-
+guarding human well-being during selection, research, and decision-
+making in space. Since non-governmental outﬁts are not bound by the
+same rules in the same way, we as a community must ensure that the
+guidelines we set will guide space exploration according to the highest
+ethical and medical standards for humans that are currently possible,
+including selection of SOs, medical research ranging from human
+subject research to discussion of in-ﬂight triage decisions. The added
+difﬁculties of non-universal terminology referring to different kinds of
+space travelers and of making guidelines sensitive to the diversity and
+variety of potential spaceﬂight endeavors will add further layers of
+complexity. The earlier and better any such guidelines can be imple-
+mented, the better the chances that space travel can be performed
+according to the safest and most optimal standards.
+References
+1.
+Inspiration4 - Home. Inspiration4 https://inspiration4.com,
+https://inspiration4.com.
+2.
+NASA Selects First Commercial Destination Module for International
+Space Station - NASA. https://www.nasa.gov/news-release/nasa-
+selects-ﬁrst-commercial-destination-module-for-international-
+space-station/.
+3.
+Available Flight Platforms - NASA. https://www.nasa.gov/stmd-
+ﬂight-opportunities/available-ﬂight-platforms/.
+4.
+Falcon 9: First Orbital Class Rocket Capable of Reﬂight. SpaceX
+https://www.spacex.com/vehicles/falcon-9/.
+5.
+Rep. Akaka, D. K. [D-H.−2. H.R.3942 −98th Congress (1983-1984):
+Commercial Space Launch Act. https://www.congress.gov/bill/
+98th-congress/house-bill/3942 (1984).
+6.
+United Nations Ofﬁce for Outer Space Affairs. United Nations
+Treaties and Principles on Outer Space. Doc. Outer Space
+Law (2008).
+7.
+Meet the dearMoon Crew! Meet the dearMoon Crew! https://
+dearmoon.earth/.
+8.
+Polaris Program. Polaris Program https://polarisprogram.com/.
+9.
+Kluge, G. et al. Commercial suborbital space tourism-proposal on
+passenger’s medical selection. Acta Astronaut. 92, 187–192 (2013).
+10.
+Arnould, J. Icarus’ Second Chance: The Basis and Perspectives of
+Space Ethics. vol. 6 (Springer, 2011).
+11.
+Coleman, D. S. & Miller, C. D. L. Military Space Ethics. (Howgate
+Publishing Limited, 2022).
+12.
+Galliott, J. Commercial Space Exploration: Ethics, Policy and Gov-
+ernance. (Routledge, 2016). https://doi.org/10.4324/9781315572857.
+13.
+Green, B. Space Ethics. (Rowman & Littleﬁeld, 2021).
+14.
+Schwartz, J. S. J. & Milligan, T. The Ethics of Space Exploration.
+(Springer, 2016).
+15.
+Steer, C. & Hersch, M. War and Peace in Outer Space: Law, Policy,
+and Ethics. (Oxford University Press, 2021).
+16.
+Lawton, A., Wal, Z. van der & Huberts, L. Ethics in Public Policy and
+Management: A global research companion. (Routledge, 2015).
+17.
+Rycroft, M. J. Beyond the International Space Station: The Future of
+Human Spaceﬂight: Proceedings of an International Symposium,
+4–7 June 2002, Strasbourg, France. (Springer, 2013).
+18.
+Gibson, T. M. The bioethics of enhancing human performance for
+spaceﬂight. J. Med. Ethics 32, 129–132 (2006).
+19.
+Milligan, T. Nobody Owns the Moon: The Ethics of Space Exploita-
+tion. (McFarland & Company, 2015).
+20. Cucinotta, F. A., Cacao, E., Kim, M.-H. Y. & Saganti, P. B. Cancer and
+circulatory disease risks for a human mission to Mars: Private mis-
+sion considerations. Acta Astronaut 166, 529–536 (2020).
+21.
+NASA Spaceﬂight Human-System Standard Volume 1, Crew Health |
+Standards. https://standards.nasa.gov/standard/NASA/NASA-STD-
+3001-VOL-1.
+22. Langston, S. M. Space Travel: Risk, Ethics, and Governance in
+Commercial Human Spaceﬂight. N. Space 4, 83–97 (2016).
+23. Langston, S. M. Commercial space travel understanding the legal,
+ethical and medical implications for commercial spaceﬂight parti-
+cipants and crew. in 2017 8th International Conference on Recent
+Advances in Space Technologies (RAST) 489–494 https://doi.org/
+10.1109/RAST.2017.8002956 (2017).
+24. 14 C. F. R. Part 460 -- Human Space Flight Requirements. https://
+www.ecfr.gov/current/title-14/part-460.
+25. Nelson, G. A. Space radiation and human exposures, a primer.
+Radiat. Res. 185, 349–358 (2016).
+26. Demontis, G. C. et al. Human pathophysiological adaptations to the
+space environment. Front. Physiol. 8, 547 (2017).
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+7
+
+27.
+Pagel, J. I. & Choukèr, A. Effects of isolation and conﬁnement on
+humans-implications for manned space explorations. J. Appl. Phy-
+siol. 120, 1449–1457 (2016).
+28. Afshinnekoo, E. et al. Fundamental biological features of space-
+ﬂight: advancing the ﬁeld to enable deep-space exploration. Cell
+183, 1162–1184 (2020).
+29. Space Radiation and Astronaut Health: Managing and Commu-
+nicating Cancer Risks. (National Academies Press, 2021). https://doi.
+org/10.17226/26155.
+30. Garrett-Bakelman, F. E. et al. The NASA twins study: a multi-
+dimensional analysis of a year-long human spaceﬂight. Science
+364, eaau8650 (2019).
+31.
+Voorhies, A. A. et al. Study of the impact of long-duration space
+missions at the International Space Station on the astronaut
+microbiome. Sci. Rep. 9, 9911 (2019).
+32. da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals
+mitochondrial stress as a central biological hub for spaceﬂight
+impact. Cell 183, 1185–1201 e20 (2020).
+33. Goodwin, T. J. & Christoﬁdou-Solomidou, M. Oxidative stress and
+space biology: an organ-based approach. Int. J. Mol. Sci. 19,
+959 (2018).
+34. Gertz, M. L. et al. Multi-omic, single-cell, and biochemical proﬁles of
+astronauts guide pharmacological strategies for returning to grav-
+ity. Cell Rep. 33, 108429 (2020).
+35. Patel, S. The effects of microgravity and space radiation on cardi-
+ovascular health: From low-Earth orbit and beyond. Int. J. Cardiol.
+Heart Vasc. 30, 100595 (2020).
+36. Ricci, F., De Caterina, R. & Fedorowski, A. Orthostatic Hypotension:
+Epidemiology, Prognosis, and Treatment. J. Am. Coll. Cardiol. 66,
+848–860 (2015).
+37. van Loon, L. M., Steins, A., Schulte, K.-M., Gruen, R. & Tucker, E. M.
+Computational modeling of orthostatic intolerance for travel to
+Mars. Npj Microgravity 8, 1–10 (2022).
+38. Auñón-Chancellor, S. M., Pattarini, J. M., Moll, S. & Sargsyan, A.
+Venous Thrombosis during Spaceﬂight. N. Engl. J. Med. 382,
+89–90 (2020).
+39. Marshall-Goebel, K. et al. Assessment of jugular venous blood ﬂow
+stasis and thrombosis during spaceﬂight. JAMA Netw. Open 2,
+e1915011 (2019).
+40. Prasad, B. et al. Inﬂuence of microgravity on apoptosis in cells,
+tissues, and other systems in vivo and in vitro. Int. J. Mol. Sci. 21,
+9373 (2020).
+41.
+Grimm, D. et al. The impact of microgravity on bone in humans.
+Bone 87, 44–56 (2016).
+42. Orwoll, E. S. et al. Skeletal health in long-duration astronauts: nat-
+ure, assessment, and management recommendations from the
+NASA Bone. Summit J. Bone Miner. Res. J. Am. Soc. Bone Miner. Res.
+28, 1243–1255 (2013).
+43. Lee, A. G. et al. Spaceﬂight associated neuro-ocular syndrome
+(SANS) and the neuro-ophthalmologic effects of microgravity: a
+review and an update. Npj Microgravity 6, 1–10 (2020).
+44. Patel, Z. S. et al. Red risks for a journey to the red planet: the highest
+priority human health risks for a mission to Mars. Npj Microgravity 6,
+1–13 (2020).
+45. Guo, Z., Zhou, G. & Hu, W. Carcinogenesis induced by space
+radiation: a systematic review. Neoplasia N. Y. N. 32, 100828
+(2022).
+46. Costes, S. V., Chiolo, I., Pluth, J. M., Barcellos-Hoff, M. H. & Jakob, B.
+Spatiotemporal characterization of ionizing radiation induced DNA
+damage foci and their relation to chromatin organization. Mutat.
+Res. 704, 78–87 (2010).
+47. Bogomolov, V. V. et al. International space Station medical stan-
+dards and certiﬁcation for space ﬂight participants. Aviat. Space
+Environ. Med. 78, 1162–1169 (2007).
+48. Garcia, A. M. Multilateral Coordination Board Joint Statement.
+https://blogs.nasa.gov/spacestation/2022/08/10/multilateral-
+coordination-board-joint-statement/ (2022).
+49. Aerospace medical association commercial spaceﬂight working
+group. Suborbital commercial spaceﬂight crewmember medical
+issues. Aviat. Space Environ. Med. 82, 475–484 (2011).
+50. Zheng, M. et al. Time-resolved molecular measurements reveal
+changes in astronauts during spaceﬂight. Front. Physiol. 14,
+1219221 (2023).
+51.
+Brooks, A. et al. Report No. 167 – Potential Impact of Individual
+Genetic Susceptibility and Previous Radiation Exposure on Radiation
+Risk for Astronauts (2010) - NCRP | Bethesda, MD. https://
+ncrponline.org/shop/reports/report-no-167-potential-impact-of-
+individual-genetic-susceptibility-and-previous-radiation-exposure-
+on-radiation-risk-for-astronauts/ (2018).
+52. WMA - The world medical association-declaration of helsinki. https://
+www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/.
+53. Schücklenk, U. & Ashcroft, R. International research ethics.
+Bioethics 14, 158–172 (2000).
+54. Lie, R. K., Emanuel, E., Grady, C. & Wendler, D. The standard of care
+debate: the Declaration of Helsinki versus the international con-
+sensus opinion. J. Med. Ethics 30, 190–193 (2004).
+55. Schüklenk, U. The standard of care debate: against the myth of an
+“international consensus opinion”. J. Med. Ethics 30,
+194–197 (2004).
+56. Macklin, R. After Helsinki: unresolved issues in international
+research. Kennedy Inst. Ethics J. 11, 17–36 (2001).
+57. Wolinsky, H. The battle of Helsinki: Two troublesome paragraphs in
+the Declaration of Helsinki are causing a furore over medical
+research ethics. EMBO Rep. 7, 670–672 (2006).
+58. Outer Space Treaty. https://www.unoosa.org/oosa/en/ourwork/
+spacelaw/treaties/outerspacetreaty.html.
+59. Pace, S. Alternative futures for crewed space cooperation after the
+international space station. J. Space Saf. Eng. 10, 88–94 (2023).
+60. Crowther, R. The regulatory challenges of ensuring commercial
+human spaceﬂight safety. Space Policy 27, 74–76 (2011).
+61.
+Federal aviation administration. Recommended Practices for
+Human Space Flight Occupant Safety - Version 2.0. 102 https://
+www.faa.gov/media/71481 (2023).
+62. Grenon, S. M., Saary, J., Gray, G., Vanderploeg, J. M. & Hughes-
+Fulford, M. Can I take a space ﬂight? Considerations for doctors.
+BMJ 345, e8124 (2012).
+63. Langston, S. Reimagining Icarus: Ethics, law and policy considera-
+tions for commercial human spaceﬂight. Space Journey Hum.
+Adapt Live Microgravity https://doi.org/10.5772/intechopen.74716
+(2018).
+64. 49 CFR 391.47 -- Resolution of conﬂicts of medical evaluation.
+https://www.ecfr.gov/current/title-49/part-391/section-391.47.
+65. Dworkin, G. Paternalism. in The Stanford Encyclopedia of Philosophy
+(2002).
+66. Locke, P. A. & Weil, M. M. Personalized cancer risk assessments for
+space radiation exposures. Front. Oncol. 6, 38 (2016).
+67. Rosenfeld, J. A., Mason, C. E. & Smith, T. M. Limitations of the human
+reference genome for personalized genomics. PLOS ONE 7,
+e40294 (2012).
+68. Putcha, L., Berens, K. L., Marshburn, T. H., Ortega, H. J. & Billica, R. D.
+Pharmaceutical use by U.S. astronauts on space shuttle missions.
+Aviat. Space Environ. Med. 70, 705–708 (1999).
+69. Barger, L. K. et al. Prevalence of sleep deﬁciency and use of hyp-
+notic drugs in astronauts before, during, and after spaceﬂight: an
+observational study. Lancet Neurol. 13, 904–912 (2014).
+70. Blue, R. S. et al. Supplying a pharmacy for NASA exploration
+spaceﬂight: challenges and current understanding. Npj Micro-
+gravity 5, 1–12 (2019).
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+8
+
+71.
+Langston, S. M. Suborbital Flights: a comparative analysis of
+national and international law. J. Space Law 37, 299 (2011).
+72.
+Kluger, J. Apollo 8: The Thrilling Story of the First Mission to the
+Moon. (Henry Holt and Co., 2017).
+73. Nangle, S. N. et al. The case for biotech on Mars. Nat. Biotechnol. 38,
+401–407 (2020).
+74. The Genetic Information Nondiscrimination Act of 2008. US EEOC
+https://www.eeoc.gov/statutes/genetic-information-nondiscrim
+ination-act-2008.
+75. NASA Policy Directive - Use of Human Research Genetic Testing.
+https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&c=7170&s=1
+(2017).
+76. Pagnini, F. et al. Human behavior and performance in deep space
+exploration: next challenges and research gaps. NPJ Microgravity 9,
+27 (2023).
+77.
+Sishc, B. J. et al. The need for biological countermeasures to miti-
+gate the risk of space radiation-induced carcinogenesis, cardio-
+vascular disease, and central nervous system deﬁciencies. Life Sci.
+Space Res 35, 4–8 (2022).
+78. Blue, R. S., Jennings, R. T., Antunano, M. J. & Mathers, C. H. Com-
+mercial spaceﬂight: progress and challenges in expanding human
+access to space. REACH 7–8, 6–13 (2017).
+79. Jennings, R. T. et al. Medical qualiﬁcation of a commercial space-
+ﬂight participant: not your average astronaut. Aviat. Space Environ.
+Med. 77, 475–484 (2006).
+80. Barratt, M. R. Comments on medical qualiﬁcation of space tourists.
+Aviat. Space Environ. Med. 77, 485 (2006).
+81.
+Bokhari, R. S. et al. Looking on the horizon; potential and unique
+approaches to developing radiation countermeasures for deep
+space travel. Life Sci. Space Res 35, 105–112 (2022).
+82. Federal policy for the protection of human subjects. Federal Reg-
+ister https://www.federalregister.gov/documents/2017/01/19/
+2017-01058/federal-policy-for-the-protection-of-human-
+subjects (2017).
+83. Marsh, M. Ethical and medical dilemmas of space tourism. Adv.
+Space Res. 37, 1823–1827 (2006).
+84. Pavez Loriè, E. et al. The future of personalized medicine in space:
+from observations to countermeasures. Front. Bioeng. Biotechnol.
+9, 739747 (2021).
+85. Health Standards for Long Duration and Exploration Spaceﬂight:
+Ethics Principles, Responsibilities, and Decision Framework.
+(National Academies Press, 2014). https://doi.org/10.17226/18576.
+86. Ritsher, J., Kanas, N. & Saylor, S. Maintaining Privacy During Psy-
+chosocial Research on the International Space Station. J. Hum.
+Perform. Extreme Environ. 8, Article 3 (2005).
+87. Reed, R. D. & Antonsen, E. L. Should NASA Collect Astronauts’
+Genetic Information for Occupational Surveillance and Research?
+AMA J. Ethics 20, 849–856 (2018).
+88. NASA Guidelines for Promoting Scientiﬁc and Research Integrity.
+https://www.nasa.gov/sites/default/ﬁles/atoms/ﬁles/nasa_
+guidelines_for_promoting_scientiﬁc_and_research_integrity-july_
+2018.pdf (2018).
+89. Council for International Organizations of Medical Sciences
+(CIOMS). 2016 International ethical guidelines for health-related
+research involving humans. (Geneva, 2016).
+Acknowledgements
+We thank Diana Lim for the preparation of the ﬁgures, critical comments,
+and consultation regarding the effective display of the images. The
+preparation of this manuscript was supported by the National Aero-
+nautics and Space Administration (NASA, Space Biology
+80NSSC22K0255 to HS). CEM thanks the WorldQuant Foundation,
+NASA (NNX14AH50G, NNX17AB26G, 80NSSC22K0254,
+NNH18ZTT001N-FG2), the National Institutes of Health (R01MH117406,
+P01CA214274 R01CA249054), and the LLS (MCL7001-18, LLS 9238-16,
+7029-23). NS was supported by grants from NASA [NSSC22K0250;
+NSSC22K0278]. A.B. was supported by NASA grant 16-ROSBFP_GL-
+0005: NNH16ZTT001N-FG Appendix G: Solicitation of Proposals for
+Flight and Ground Space Biology Research (Award Number:
+80NSSC19K0883) and The Translational Research Institute for Space
+Health through NASA Cooperative Agreement NNX16AO69A (T-0404).
+The material contained in this document is based upon work supported
+by a National Aeronautics and Space Administration (NASA) grant or
+cooperative agreement. Any opinions, ﬁndings, conclusions, or recom-
+mendations expressed in this material are those of the author and do not
+necessarily reﬂect the views of NASA.
+Author contributions
+Conceptualization: A.B., D.T., C.E.M., and H.S.; Investigation: D.T., H.S.,
+F.K., A.T., A.S.G., A.B., M.M., and A.S.; Original Draft: D.T., H.S., A.B.,
+A.S.G., F.K., A.T., and A.S.; Review & Editing: A.R.I., A.C., J.C., J.B., C.G.,
+J.K., K.B.C., S.D., S.A., M.B., C.E.M., C.C., N.S., D.T., H.S., F.K., A.T., A.S.G.,
+A.S., M.M., and A.B.; Figures and Visualization: H.S, A.S.G., A.B., C.C.,
+N.S., and A.T.; Funding Acquisition: H.S.; Supervision: A.B., D.T., and H.S.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to
+Hansjörg Schwertz, Afshin Beheshti or Dana Tulodziecki.
+Peer review information Nature Communications thanks Volker
+Damann, Sara Langston and the other, anonymous, reviewer(s) for their
+contribution to the peer review of this work.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons license and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Perspective
+https://doi.org/10.1038/s41467-023-44357-x
+Nature Communications|   (2024) 15:4774 
+9

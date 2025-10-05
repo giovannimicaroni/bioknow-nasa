@@ -1,0 +1,1182 @@
+Research Article
+Genes Required for Survival in Microgravity
+Revealed by Genome-Wide Yeast Deletion Collections
+Cultured during Spaceflight
+Corey Nislow,1 Anna Y. Lee,2 Patricia L. Allen,3 Guri Giaever,1
+Andrew Smith,2 Marinella Gebbia,2 Louis S. Stodieck,4 Jeffrey S. Hammond,5
+Holly H. Birdsall,6,7 and Timothy G. Hammond3,6,8,9
+1Faculty of Pharmaceutical Sciences, The University of British Columbia, Vancouver, BC, Canada V6T 1Z3
+2Donnelly CCBR, University of Toronto, Toronto, ON, Canada M5S 3E1
+3Durham VA Medical Center, Research & Development Service, Durham, NC 27705, USA
+4Bioserve Space Technologies, University of Colorado, Boulder, CO 80309, USA
+5The Institute for Medical Research, Durham, NC 27705, USA
+6Department of Veterans Affairs Office of Research and Development, Washington, DC 20420, USA
+7Departments of Otorhinolaryngology, Immunology, and Psychiatry, Baylor College of Medicine, Houston, TX 77030, USA
+8Nephrology Division, Department of Internal Medicine, Duke University School of Medicine, Durham, NC 27705, USA
+9Nephrology Section, Department of Internal Medicine, George Washington University School of Medicine,
+Washington, DC 20052, USA
+Correspondence should be addressed to Timothy G. Hammond; grumpy70115@yahoo.com
+Received 15 May 2014; Revised 30 September 2014; Accepted 15 October 2014
+Academic Editor: Jack J. W. A. Van Loon
+Copyright © 2015 Corey Nislow et al. This is an open access article distributed under the Creative Commons Attribution License,
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Spaceflight is a unique environment with profound effects on biological systems including tissue redistribution and musculoskeletal
+stresses. However, the more subtle biological effects of spaceflight on cells and organisms are difficult to measure in a systematic,
+unbiased manner. Here we test the utility of the molecularly barcoded yeast deletion collection to provide a quantitative assessment
+of the effects of microgravity on a model organism. We developed robust hardware to screen, in parallel, the complete collection
+of ∼4800 homozygous and ∼5900 heterozygous (including ∼1100 single-copy deletions of essential genes) yeast deletion strains,
+each carrying unique DNA that acts as strain identifiers. We compared strain fitness for the homozygous and heterozygous yeast
+deletion collections grown in spaceflight and ground, as well as plus and minus hyperosmolar sodium chloride, providing a second
+additive stressor. The genome-wide sensitivity profiles obtained from these treatments were then queried for their similarity to a
+compendium of drugs whose effects on the yeast collection have been previously reported. We found that the effects of spaceflight
+have high concordance with the effects of DNA-damaging agents and changes in redox state, suggesting mechanisms by which
+spaceflight may negatively affect cell fitness.
+1. Introduction
+Physical effects of microgravity during spaceflight can often
+be described by equations that allow their quantification
+[1, 2]. For example, microgravity has well-defined effects on
+sedimentation in association with reduced terminal velocity
+and shear in suspension culture [3] and reduced gravity-
+dependent convection of gases [4]. Biological effects of
+spaceflight on cells and organisms, on the other hand, are
+much harder to define [1, 2]. For example, spaceflight also
+entails radiation exposure, which has been studied in diverse
+systems but whose effects are not fully understood [5]. What
+is needed is a robust, unbiased, quantifiable system that is
+relevant for translation to ground-based applications and
+that is able to clearly distinguish spaceflight effects. It is
+our premise that yeast deletion collections are ideally suited
+Hindawi Publishing Corporation
+BioMed Research International
+Volume 2015, Article ID 976458, 10 pages
+http://dx.doi.org/10.1155/2015/976458
+
+2
+BioMed Research International
+for this type of analysis as yeast can be precisely controlled
+genetically and readily grown under spaceflight conditions.
+Biological responses of yeast strains during spaceflight can
+be quantified and compared to well-established databases
+of ground-based stressors and the comparisons can reveal
+features that are unique to microgravity as well as features
+that are shared with ground-based perturbations. While yeast
+cannot completely reflect the complexities of mammalian
+cells organized into tissues, the high degree of homology
+shared with human (∼70% of all essential yeast genes have
+a significant human homolog) provides hypotheses for the
+mechanism of many responses of interest [6, 7].
+Previous studies have attempted to identify, isolate, and
+offset the various physical factors changing during spaceflight
+to demonstrate their effects in an iterative fashion [8–10].
+Earlier studies on the effects of space radiation on yeast failed
+to find any change in point mutation rates, DNA replication
+and/or repair, heritable damage, or colony morphology [5,
+8, 11, 12]. However, those studies were limited by assay
+sensitivity. Here we applied the yeast deletion collection as
+a biological reporter to understand the metabolic pathways
+affecting survival during culture in spaceflight. In this fash-
+ion, we are able to make genome-wide comparisons and test
+for concordance against an extensive library of more than
+3200 physical and pharmacological stressors [13].
+Yeast is the first, and to date only, organism for which
+a complete, genome-wide knockdown collection is available.
+This collection is comprised of a genome-wide set of strains
+where each strain carries a precise deletion of a single gene
+[14]. Assembled over a four-year period by a consortium of
+35 laboratories, this collection has been used by hundreds
+of laboratories to test thousands of different environmental
+stressors to define the genes required for survival in those
+conditions (see [15] for review). The molecular barcodes
+present in each strain allow the yeast deletion collection to
+be grown as a pool in the presence or absence of the stressor
+of interest after which the relative abundance of each strain
+is subsequently quantified [16]. Strains carrying a deletion of
+a gene required for survival in the presence of the stressor
+grow more slowly and thus exhibit a fitness defect reflected
+by their reduced abundance at the end of the culture period.
+In this manner, all genes required for growth can be readily
+identified in a single experiment, revealing the genes and
+associated pathways affected by the stressor.
+To identify the metabolic and genomic pathways affected
+by spaceflight, the homozygous and heterozygous yeast
+deletion collections were grown in spaceflight and ground
+control conditions, with and without hyperosmolar sodium
+chloride, providing a second stressor. In spaceflight alone,
+the homozygous deletion collection revealed the importance
+of processes linked to mitochondria, while the heterozygous
+collection highlighted genes involved in regulating transla-
+tion and ribosomal RNA transport. Both homozygous and
+heterozygous collections highlighted DNA repair. With the
+addition of NaCl, the homozygous collection also revealed
+the importance of RNA-related processes including ribosome
+assembly and biogenesis and mRNA processing and decay, as
+well as modification of tRNAs. Moreover, the NaCl addition
+highlighted replication processes more clearly (compared to
+the homozygous collection without NaCl), suggesting that
+spaceflight has measurable effects on these core and evolu-
+tionarily conserved processes. With the heterozygous collec-
+tion, the addition of NaCl led to the identification of a nuclear
+pore organization gene, potentially providing additional
+insight into how RNA transport is affected by spaceflight.
+Taken together, the deletion collections identified several
+biological processes associated with spaceflight, and the addi-
+tional hyperosmolar stress emphasized the importance of
+related processes.
+In a follow-up analysis, we queried the effects of space-
+flight against a database of drug effects on yeast to search for
+those that are most concordant, thereby suggesting similar
+mechanisms of perturbation. Not only do the effects of
+spaceflight have relatively high concordance with the effects
+of DNA-damaging agents, but also there is tight agreement
+amongst multiple therapeutic agents in this drug class,
+providing additional support for these findings.
+2. Materials and Methods
+2.1.
+Overall
+Design. The
+Opticell
+Processing
+Module,
+described below, was used to perform a series of ∼21 genera-
+tion pooled growth experiments on two yeast deletion
+collections: (i) ∼4800 homozygous strains and (ii) ∼5900
+heterozygous strains (including ∼1100 single-copy deletions
+of essential genes), each carrying unique DNA barcodes that
+act as strain identifiers. Experiments were performed in both
+rich media and rich media supplemented with 0.5 M NaCl
+to assess the additional effect of osmotic stress on survival.
+The samples flew sortie on space shuttle mission STS-135
+to the International Space Station (ISS). Parallel control
+experiments were performed in static 1G terrestrial controls
+in the Orbital Environmental Simulator at Kennedy Space
+Center to match temperature, humidity, air composition,
+and volatile organic compounds. Ground controls were
+conducted in a 24-hour asynchronous fashion to allow
+matching of the experimental timelines on ISS as relayed
+through air-to-ground communication by the flight crew. At
+the end of the growth period, the fitness of each strain in each
+experimental pool was assessed as described [17]. Briefly,
+genomic DNA was extracted from each sample, the barcodes
+in each pool were amplified by PCR, and the abundance of
+each barcode was quantified by next generation sequencing.
+A barcode count reflects the abundance of the corresponding
+strain at the end of the experiment, that is, a quantification of
+the relative requirement of the deleted gene for growth in the
+tested condition. In total, the experiment results in a count
+for each gene resulting in a gene list rank ordered by their
+importance for growth in the tested condition.
+2.2. Yeast Deletion Pool Construction. The yeast deletion col-
+lections were stored as individual strains in YPD containing
+7% DMSO at −80∘C, in 96-well plates. The plates were
+thawed, mixed, and robotically pinned onto YPD agar plates
+as an array of 384 strains. After two days of growth at 30∘C,
+colonies were consolidated (four plates of 384 to one plate
+of 1536 colonies) and robotically pinned in triplicate. Cells
+were grown in 30∘C for 2-3 days until colonies formed. Slow
+
+BioMed Research International
+3
+growing strains were grown separately for 2-3 additional days.
+All plates were then flooded with 5–7 mL of media, scraped
+and pooled in YPD + 7% DMSO to a final concentration of
+OD600 = 0.84, and frozen at −80∘C until use, as described [17].
+2.3. Construction of Opticell Culture System and Spaceflight
+Experiment. In this study, we designed the Opticell Pro-
+cessing Module or OPM (Figure 1) that was capable of
+maintaining the yeast deletion collection as a pool grown
+in liquid culture for at least 20 generations in microgravity.
+The hardware comprised a liquid-sealed system of growth
+chambers (Opticells) that allowed for gas exchange across
+polystyrene membranes. Each OPM consisted of three Nunc
+Opticells held together with a common manifold and valve
+system that is autoclaved and attached with watertight O-
+ring seals. A 3 mL syringe connected to the manifold with
+a Luer fitting is used to transfer liquid between chambers
+and mix without breaking sterility and with minimal operator
+intervention. The valve on the manifold has four settings that
+connect the syringe to the following port locations 1: Off
+position, 2: Opticell A, 3: Opticell B, or 4: Opticell C. The
+OPM allows propagation of each deletion collection for a
+combined ∼21 generations of growth when three chambers
+are used and the inoculum and transfer volumes are 0.5 mL.
+To perform a growth assay in the OPM, each of the
+three chambers was prefilled with 7 mL of sterile growth
+media. Deletion collection aliquots were preloaded into
+each syringe and shipped to Kennedy Space Center, frozen
+in media containing 7% DMSO (v/v) as a cryoprotectant.
+During final integration at Kennedy Space Center, the OPMs
+were prechilled to 4∘C. Each deletion collection aliquot
+was thawed, attached to an OPM manifold, injected, and
+mixed into chamber A. Cultures were maintained at 4∘C and
+flown to the International Space Station (ISS). The growth
+experiment was initiated on orbit by warming the OPMs to
+30∘C. After 16–24 h at 30∘C, a 0.5 mL sample was removed
+from chamber A using the same syringe and inoculated into
+chamber B. The process was repeated 16–24 hours later to
+inoculate 0.5 mL of sample from chamber B into chamber
+C. After an additional 16–24 hours, the OPMs were cooled
+back down to 4∘C to greatly reduce any further growth
+and preserve the samples for return to Earth and postflight
+analysis. Exponential yeast growth leads to early depletion
+of growth media nutrients and significant retardation of
+further growth well before 16–24 hours. Growth is limited
+by media volume and strain distribution within the yeast
+deletion library reaches a steady state within that Opticell.
+2.4. Next Generation Sequencing. The flight samples that
+returned from the ISS were handled in parallel with the
+ground control set. The OPM was disassembled into its three
+Opticells, and the entire contents were transferred to a storage
+tube using a blunt needle connected to a 20 mL syringe. One
+mL of each sample (at a final OD600 of 1.0-2.0) was pro-
+cessed to extract genomic DNA. Purified deletion pool DNA
+was amplified in two separate PCR reactions as described
+[17] and the amplicons purified prior to sequencing on an
+Illumina HiSeq2000. Each purified amplicon library was
+sequenced to a minimum depth of 500 counts/strain/sample
+Syringe with yeast
+3-way stopcock
+Opticell A
+Opticell B
+Opticell C
+Figure 1: The Opticell Processing Module (OPM) designed for
+propagation of each deletion collection for ∼21 generations of
+growth. The OPM comprises three commercially available optically
+clear chambers (Opticells, Nunc) that are joined by a manifold and
+scaffold that can be autoclaved and assembled rapidly. The manifold
+contains a multiway valve unit which mates to each Opticell or to
+an the off position using O-ring seals. The opposite side of the valve
+contains a Luer fitting into which a standard 3cc syringe is attached.
+To perform a growth assay in the OPM, each of the three chambers is
+filled with 7 mL of sterile growth media. Deletion pools are loaded
+into the inoculation syringe and then injected into Chamber A of
+the OPM, precooled to 4∘C. Growth is initiated by warming the
+unit to 30∘C. After 16–24 h, 0.5 mL is removed from Chamber A and
+injected and mixed into Chamber B using the same syringe. This is
+repeated to continue multigenerational growth in Chamber C.
+as described [18]. Duplicate experiments were performed for
+all conditions, to ensure that at least one complete time course
+was collected for each pool (heterozygote and homozygote)
+and each condition. Due to failures in sample processing,
+several time points were not recovered or did not meet
+our in-house quality metrics (e.g., if sequence counts/strain
+were below threshold values). Accordingly, we focused on
+evaluating each experimental condition using singleton data
+as described in Table 1.
+2.5. Data Analysis. All computational analyses were per-
+formed using 𝑅[19] unless otherwise indicated.
+2.5.1. Normalization of Sequence Counts. Sequence counts
+for each strain in each experiment were quantified and nor-
+malized according to [18]. Briefly, each 20-mer barcode was
+amplified with primers comprised of the common barcode
+primers in addition to the sequences required for cluster
+formation on the Illumina flow cell. For multiplexed Illumina
+sequencing, 5-mer tag sequences were incorporated into each
+primer between the Illumina and barcode primer sequences.
+This multiplexing tag allowed postsequencing assignment of
+each amplicon to a particular experiment. Results for the
+7-generation time point of the heterozygous deletion pool
+grown in spaceflight without NaCl did not pass our quality
+
+4
+BioMed Research International
+Table 1: Experimental samples collected and available for analysis.
+Condition
+Zygosity
+Generations
+Ground
+Homozygous
+7, 14, 21
+Ground + 0.5 M NaCl
+Homozygous
+7, 14, 21
+Flight
+Homozygous
+7, 14, 21
+Flight + 0.5 M NaCl
+Homozygous
+7, 14, 21
+Ground
+Heterozygous
+14, 21∗
+Ground + 0.5 M NaCl
+Heterozygous
+7, 14, 21
+Flight
+Heterozygous
+14, 21∗
+Flight + 0.5 M NaCl
+Heterozygous
+7, 14, 21
+∗7-generation samples from the indicated condition were not available for
+analysis due to failures in sample processing or failure to meet in-house
+quality metrics as described in Methods.
+control and, consequently, that time point was omitted from
+analyses of the heterozygous pool without NaCl. All other
+counts were mean-normalized between experiments such
+that each experiment had the same mean count. We added
+ten pseudocounts to all sequence tag tallies (and, thus, all
+subsequent gene tallies) to prevent division by zero during
+data analyses (see Table S1 and Table S2 for mean normalized
+counts in Supplementary Materials available online at http://
+dx.doi.org/10.1155/2014/976458).
+2.5.2. Barcode Selection for Each Strain. For each strain, we
+used signal from only the upstream or the downstream
+barcode (relative to the deletion site). First, we assumed that
+barcode counts close to zero represent background noise (e.g.,
+possibly due to incorrect mapping of reads to barcodes). We
+thus selected a background threshold (bgThreshold = 100;
+see Parameter Selection), assuming that counts below it do
+not accurately reflect strain abundance. Then, for each time
+course, we filtered out barcodes where the average (normal-
+ized) count for the first 14 generations (the earliest time point
+with usable data in all experiments) was below bgThreshold.
+This filtering removed all barcodes for ∼650–3200 strains
+(depending on the time course), and these strains were
+omitted from subsequent analyses; see Supplementary Tables
+S3 (homozygous strains) and S4 (heterozygous strains).
+For time courses that only had two time points (and
+thus an inefficient number to compute fits), strains that
+still had two barcodes after filtering were represented by
+their upstream barcodes due to their overall better behavior
+observed in a previous study [20]. For other time courses,
+linear fits (with and without the time logged) were computed
+for each remaining barcode. We defined the best fit as the fit
+with the lowest residual sum of squares (RSS) and used the
+𝐹-test to compute a 𝑃value estimating the significance with
+which the fitted model is better than the null model (of a flat
+line at the average count value). The Benjamini and Hochberg
+method was used to correct the 𝑃for multiple comparisons
+and generate FDR values [21]. Strains with two remaining
+barcodes were represented by the barcode with the higher 𝑅2
+(a measure of the amount of variation in the data explained by
+the fitted model), because they manifest less noise and better
+fit the data.
+2.5.3.
+Parameter
+Selection. The
+selected
+normalization
+method (tested mean and quartile normalization) and
+bgThreshold (tested 50, 100, and 150) is the combination that
+resulted in the most significant enrichment of slow growing
+strains identified in the heterozygous deletion pool, sampled
+every two generations for 20 generations (data not shown),
+with slow growers identified in a previous study [22]. Briefly,
+we defined slow growers as those exhibiting sizable decreases
+in abundance over time. The significance of the decrease was
+estimated with FDR values (see Barcode Selection for Each
+Strain), and the magnitude was estimated with ΔAUC =
+(⟨area under the growth curve⟩−⟨area under the flat growth
+curve⟩)/(𝑡max −𝑡0), where the flat growth curve is fixed at the
+𝑡0 abundance level, and the area under a curve is estimated
+using the trapezoid method. Also, if at some time point the
+abundance of a strain is less than or equal to bgThreshold and
+remains at negligible levels for the rest of the time course, we
+identified the strain as slow growing.
+2.5.4. Identification of Significant Fitness Defects in Time
+Point Comparisons. To identify strains that exhibited sig-
+nificant fitness defects at a later time point (14 or 21 gen-
+erations) compared to the first time point (7 generations),
+normalized counts less than bgThreshold were first forced
+to equal bgThreshold. Then, for each strain, we comput-
+ed log2ratio = log2(abundance7G/abundance14G/21G) where
+abundanceyG is the count of the strain at 𝑦generations.
+For a given time point, robust 𝑍scores were computed
+from the set of log2ratios; for example, 𝑍𝑖= (log2ratio𝑖−
+⟨log2ratio median⟩)/⟨log2ratio MAD⟩for strain 𝑖. Each 𝑍𝑖
+was then used to obtain 𝑃𝑖from the standard normal
+distribution, and we assume that strains with low 𝑃values
+are outliers in the distribution of log2ratios. Moreover, strains
+with counts above bgThreshold at the first time point and
+counts equivalent to bgThreshold at the later time point of
+interest are defined as having dropped out. Taken together,
+we define strains with significant fitness defects at a specific
+time point as strains with log2ratio ≥1 and 𝑃≤0.001 and/or
+strains that dropped out (Table S5, Table S6).
+2.5.5. Spaceflight versus Ground Comparisons. For compar-
+isons involving specific time points, we identified the set of
+strains that exhibited significant fitness defects (relative to
+the first time point) in the flight condition but not in the
+ground condition. This set is then further restricted to the set
+of strains with useable data in both conditions.
+2.5.6. Gene Ontology (GO) Enrichment Analysis. We obtained
+gene ontology (GO) annotations of yeast genes from the
+Saccharomyces Genome Database (downloaded on May 26,
+2012). GO biological processes that were too specific (con-
+taining less than five genes) or too general (containing greater
+than 300 genes) were excluded from the analysis.
+Given a query set of genes (e.g., genes deleted from a set
+of (flight-ground) strains), we used the hypergeometric test to
+obtain a 𝑃value estimating the significance with which the set
+is enriched with genes annotated to a given biological process,
+relative to a gene universe defined as the set of genes with
+usable data for both flight and ground conditions. Due to a
+
+BioMed Research International
+5
+limited number of significantly enriched processes following
+correction for multiple comparisons (FDR ≤0.1), here we
+report significantly enriched processes prior to the correction
+(𝑃≤0.01).
+We visualized GO enrichment results with enrichment
+maps shown in Figures 2 and 3 that were generated using an
+approach similar to the Enrichment Map Cytoscape Plugin
+v1.1 [23, 24]. In contrast to the plugin, the nodes in each
+map were clustered with MCL (inflation = 2), using the
+overlap coefficient computed by the plugin as the similarity
+metric (coefficients less than 0.5 were set to zero). Nodes in
+the same cluster were assigned the same node color, and a
+cluster label was determined based on common themes in
+the processes within the cluster. Moreover, the size of a node
+was made to be proportional to the significance with which
+the corresponding process is enriched [−log10(𝑃)]. Each bar
+plot summarizes the genes that contribute the most to the
+enrichment of processes with the same node color as the plot
+border. Specifically, a plot shows the flight-associated genes
+that are annotated to the largest number of relevant processes
+(if more than 10 genes, only the top 10 are shown). For each
+gene, the bar length is proportional to a fitness defect measure
+(i.e., log2ratio).
+The enrichment maps also combine two sets of enrich-
+ment results, with the processes enriched in one set shown
+with circle nodes, the processes enriched in the second set
+shown with square nodes, and the processes enriched in both
+sets shown with diamond nodes.
+2.5.7. Similarity between Flight-Associated Genes and Com-
+pound-Associated Genes. We previously treated pools of
+yeast deletion strains with ∼3200 compounds separately
+[13]. Each compound was subsequently associated with a
+set of genes deleted from strains that exhibited significant
+fitness defects induced by the compound. Like sets of flight-
+associated genes in this study, sets of compound-associated
+genes were assessed for enrichment of genes annotated to
+specific biological processes (as described above), resulting
+in an “enrichment profile” for each condition of interest. In
+each profile, each process is associated with a 𝑃measuring
+the significance of enrichment. Similarity between a pair
+of enrichment profiles was computed by concordance of
+−log10(𝑃) across all processes common to both profiles,
+where concordance is like Pearson correlation except that
+scale is not ignored. Compounds with enrichment profiles
+that are most similar to a given flight enrichment profile may
+induce cellular responses that are most similar to the response
+induced by flight.
+3. Results and Discussion
+Because we cannot distinguish the individual parameters that
+include flight, lack of gravity, and increased radiation, for the
+purposes of this paper, these are referred to collectively as
+“spaceflight” throughout the text. To measure the effects of
+spaceflight on the rate of yeast growth in the Opticell, we
+inoculated 0.5 mL of a yeast deletion pool into 7 mL of YPD,
+resulting in a starting OD600 of ∼0.06/mL and incubated at
+30∘C. Following growth for ∼24 hr (∼7 generations), 0.5 mL of
+the saturated culture was inoculated into the second chamber.
+This process was repeated for the final growth phase in the
+third chamber. Population doubling time was ∼100 min in
+microgravity compared to ∼90 min in ground-based controls.
+Each sample was grown for seven generations/Opticell for a
+total of 21 generations (Table 1). Doubling times were back-
+calculated using the OD600 of the samples collected at each
+time point.
+The morphology of Opticell-grown yeast in spaceflight
+was indistinguishable from static controls when observed
+by light microscopy; for example, budding pattern, overall
+shape, and size were not detectably different in the two
+conditions. On scanning electron microscopy, there were
+budding polarity and ruffling changes in every field, but there
+were no consistent differences (data not shown).
+We assessed the yeast deletion collection samples for
+patterns of strain sensitivity in the following manner: barcode
+counts for each strain in each sample were measured and
+normalized as described in Methods. The counts were used to
+rank each strain in each sample in order of their importance
+for growth. Four different samples were available from both
+spaceflight and ground cultures: (1) homozygous deletion col-
+lection in YPD, (2) homozygous deletion collection in YPD
+plus 0.5 M NaCl, (3) heterozygous deletion collection in YPD,
+and (4) heterozygous deletion collection in YPD plus 0.5 M
+NaCl. Each culture was sampled at three different time points,
+7 generations, 14 generations, and 21 generations, and shown
+in Table 1. Samples from ground controls were compared to
+the corresponding samples grown in microgravity on the ISS.
+We analyzed changes in strain abundance by comparing
+each time point to a later time point. Using this approach
+allowed us to capture those strains that became depleted in
+any seven-generation interval. Strains with sizable decreases
+in measured abundance or with abundances that drop to
+background levels (and remain there) were identified as
+exhibiting fitness defects (FDs). Moreover, strains with flight-
+specific FDs were identified by subtracting the strains with
+FDs in the ground condition.
+For the purposes of our gene ontology (GO; http://amigo
+.geneontology.org) enrichment analysis, we considered the
+homozygous and heterozygous data separately. Based on a
+wealth of published data [14, 15], the homozygous, nonessen-
+tial deletion collection tends to reveal a similar set of genes
+involved in pathways required for resistance to/survival in
+multiple environmental conditions, whereas the heterozy-
+gous collection of all strains tends to be more specific,
+identifying essential proteins uniquely required for growth in
+a specific condition [13].
+For the homozygous deletion collection, strains that
+were depleted from the pool specifically in spaceflight con-
+ditions are significantly enriched for genes in biological
+processes related to different aspects of RNA metabolism
+and catabolism, including ribosome biogenesis, regulation
+of ribosomal protein transcription, cytoplasmic RNA trans-
+lation, rRNA processing, tRNA modification, and mRNA
+decay (Table 2, Figure 2, and Table S5). We also found that
+processes related to DNA integrity were required for survival
+in spaceflight. In particular, the linked processes of DNA
+repair and DNA recombination and replication as well as
+
+6
+BioMed Research International
+0.0
+0.4
+0.8
+1.2
+GIR2
+RPL27A
+RPS12
+RPL20A
+RPL21A
+FD score
+x
+x
+x
+x
+x
+14G
+0.0
+1.0
+2.0
+PEX19
+MON1
+AFG3
+SAM37
+VPS9
+MMM1
+VPS3
+FD score
+x
+x
+x
+x
+x
+x
+21G
+0.0
+1.0
+2.0
+TRM7
+SIT4
+NCS2
+ELP6
+TGS1
+ELP2
+URM1
+FD score
+x
+x
+x
+21G
+0.0
+1.0
+2.0
+MGM1
+MMM1
+RPO41
+MRPL8
+GGC1
+FD score
+x
+x
+21G
+0.0
+1.0
+2.0
+RPS11A
+RPS17A
+RPS11B
+SSF1
+RPS27B
+FD score
+x
+x
+x
+x
+21G
+0.0
+1.0
+2.0
+SRB2
+HMO1
+FD score
+x 21G
+0.0
+1.0
+2.0
+BOI1
+BEM4
+SLG1
+FD score
+x
+x
+21G
+0.0
+1.0
+2.0
+PEX19
+VPS9
+VPS3
+MDM31
+FD score
+x
+21G
+0.0
+1.0
+2.0
+MON1
+FD score
+x
+21G
+0.0
+1.0
+2.0
+SNF2
+MUS81
+MMS1
+IRC19
+RAD54
+RAD27
+RAD51
+ARP8
+FD score
+x
+x
+x
+x
+x
+x
+21G
+0.0
+1.0
+2.0
+NOP12
+RPL35A
+FD score
+x
+x
+21G
+0.0
+1.0
+2.0
+RPS9B
+RPS11A
+RPS17A
+SLX9
+RPS11B
+RPS16B
+HCR1
+RPS21A
+RPS27B
+FD score
+x
+x
+x
+x
+x
+21G
+0.0
+1.0
+2.0
+SNF2
+PHO2
+NHP10
+RAD54
+ARP8
+FD score
+x
+x
+x
+21G
+Ribosome
+assembly
+DNA repair,
+recombination
+Cytoplasmic
+translation
+rRNA processing
+Rho protein
+signal
+transduction
+Organelle inheritance
+Regulation of
+ribosomal protein
+gene transcription
+Mitochondrial
+genome maintenance
+Chromatin remodeling
+Maturation of
+large subunit rRNA
+Vesicle docking
+tRNA modification
+Protein localization
+in mitochondrion
+SAC3
+TOF1
+BUD21
+VAM3
+SAC3
+LOA1
+TOM5
+Figure 2: Biological processes enriched amongst genes associated with flight-specific fitness defects at different time points in the homozygous
+deletion series. Each node represents a significantly enriched gene ontology (GO) biological process (hypergeometric test 𝑃≤0.01). A circle
+node indicates enrichment at 14 generations compared to 7 generations (the first time point), a square node indicates enrichment at 21
+generations compared to 7 generations, and a diamond node indicates enrichment at both 14 generations and 21 generations (see Methods).
+Node size is proportional to the significance of enrichment [−log10(𝑃)]. Node color indicates processes that share genes (see Methods) and
+summary labels are shown for nodes of the same color. Edges indicate ≥50% gene overlap between connected processes; width is proportional
+to the degree of overlap. Each bar plot provides fitness defect (FD) scores for genes that contribute to the enrichment of processes with the same
+node color as the plot border. Specifically, the length of a bar is proportional to the log2(abundance7G/abundance14G/21G), where abundanceyG
+represents the abundance of the corresponding gene deletion strain at 𝑦generations (see Methods). An “𝑥” on the bar indicates that the
+abundance of the strain lowers to background level at later time point.
+chromatin remodeling were all required for resistance to the
+effects of spaceflight. Finally, these DNA repair requirements
+extend to the mitochondria, which, by virtue of its small
+genome, is hypersensitive to DNA damage. Consistent with
+this, we found that genes required for both mitochondrial
+maintenance and proper protein localization to the mito-
+chondria were enriched in the homozygous samples.
+The enrichment of these particular processes is consistent
+with a general induction of DNA damage, which, in turn,
+perturbs RNA biogenesis [25]. Interestingly we have previ-
+ously observed this phenomenon with a class of therapeutics
+that act as nucleotide analogs, such as 5-fluorouridine and
+fluorocytosine (described in detail below). Additionally, it is
+particularly noteworthy that, although we do see evidence
+of a requirement for RNA and DNA processing genes
+in spaceflight alone, the requirement is exacerbated when
+spaceflight is combined with the additional hyperosmotic
+stress imposed by the addition of 0.5 M NaCl (Table S6).
+
+BioMed Research International
+7
+0.0
+1.0
+2.0
+SPE1
+HYP2
+FD score
+x
+0.0
+1.0
+2.0
+EPT1
+SPE1
+FD score
+x
+x
+14G
+14G
+0.0
+0.5
+1.0
+1.5
+EPT1
+KAP95
+PSD1
+FD score
+x
+x
+x
+21G
+0.0
+0.5
+1.0
+1.5
+KAP95
+NUP57
+BIK1
+POM33
+FD score
+x
+x
+x
+x
+0.0
+0.5
+1.0
+1.5
+MSH3
+FD score
+x
+x
+21G
+21G
+0.0
+0.5
+1.0
+1.5
+RAP1
+PLC1
+YKU80
+FD score
+x
+x
+x
+21G
+Modified
+amino acid
+biosynthesis
+Phosphatidylcholine
+metabolism
+Biogenic amine
+metabolism
+Nuclear pore
+organization
+DNA catabolism
+Protein
+localization
+to chromosome
+MAG1
+Figure 3: Biological processes enriched amongst genes associated with flight-specific fitness defects in the presence of NaCl, at different
+time points in heterozygous deletion samples. Each node represents a significantly enriched gene ontology (GO) biological process
+(hypergeometric test 𝑃≤0.01). Nodes, edges, and plots are as specified for Figure 2.
+Table 2: Effects of spaceflight on yeast genome responses identified
+with the homozygous deletion series.
+General pathway
+GO biological process
+RNA metabolism
+and catabolism
+(i) Ribosome biogenesis
+(ii) Regulation of ribosomal protein
+transcription
+(iii) Cytoplasmic RNA translation
+(iv) rRNA processing
+(v) tRNA modification
+(vi) mRNA decay
+DNA integrity
+(i) DNA repair
+(ii) Recombination and replication
+(iii) Chromatin remodeling
+(iv) Mitochondrial maintenance
+(v) Proper protein localization to the
+mitochondria
+We speculate that the added salt stress potentiates the DNA-
+damaging effects of spaceflight via the induction of reactive
+oxygen species (ROS). The ability of salt stress to induce ROS
+and subsequent DNA damage has been previously reported
+[26] and, in particular, the yeast mitochondria appears to be
+hypersensitive to this type of stress, consistent with its small
+genome being susceptible to the effects of DNA damage [27].
+Furthermore, mitochondrial protein abundance has been
+shown to rapidly increase upon osmotic shock, and therefore
+the enrichment for mitochondrial protein localization we
+observe may reflect this requirement.
+To gain further insight into the pathways that modulate
+the response to both microgravity stress and combined space-
+flight and salt stress, we used the GO enrichment profiles to
+query a database of over 3200 distinct drug treatments of the
+yeast deletion collections [13]. Specifically we quantified the
+similarity between the GO enrichments by computing the
+concordance of −log10(𝑃) between any two profiles, where
+𝑃measures the significance of enrichment of a single GO
+category. These concordance values are similar to Pearson
+correlation values; that is, values closer to one indicate greater
+similarity between profiles, except that high concordance also
+requires the scale of values to be similar between the profiles.
+When calculating concordance, we focused on GO biological
+process enrichment profiles (Table S7).
+One of the strong concordances was observed with 5-
+fluorouridine (0.42), an FDA-approved anticancer drug that
+is thought to also act by two mechanisms: (i) inhibiting
+thymidylate synthetase and (ii) through metabolism into
+cytotoxic ribonucleotides and deoxyribonucleotides that can
+be incorporated into DNA and RNA (Table 3) [14]. In
+addition to being incorporated in DNA and RNA, we and
+others have shown that the drug has been shown to inhibit the
+essential ribonuclease activity of the exosome complex [28].
+Similarly, carmofur, a derivative of 5-fluorouracil, displays
+a concordance of 0.34. A similar concordance is seen with
+
+8
+BioMed Research International
+Table 3: Concordance between drug effects and spaceflight effects
+on yeast genome responses identified with the homozygous deletion
+series (+NaCl).
+Drug (concordance)
+Biological function
+5-Fluorouridine (0.42)
+5-Fluorouracil (0.36)
+Carmofur (0.34)
+5-Fluorocytosine (0.35)
+Pyrimidine analogs that inhibit
+thymidylate synthase and are
+metabolized into cytotoxic
+ribonucleotides and
+deoxyribonucleotides that can be
+incorporated into DNA and RNA
+8-Methoxypsoralen
+(0.32)
+DNA-damaging agent
+Diallyl disulfide (0.4)
+Increased glutathione-S-transferase
+changes redox state by binding
+electrophilic toxins
+5-fluorocytosine (5-FC), whose activity is identical to 5-
+fluorouracil (5-FU). Finally, 8-methoxypsoralen, a DNA-
+damaging agent that, upon photoactivation, conjugates and
+forms covalent bonds with DNA, shows a congruence of 0.32.
+This compound causes the formation of both monofunctional
+(addition to a single strand of DNA) and bifunctional adducts
+(crosslinking of psoralen to both strands of DNA) that
+ultimately result in cell death.
+We also found high concordance to the diallyl disulfide
+profile (0.40), an agent that has been demonstrated to be
+efficient for detoxification of a variety of cells. Diallyl disulfide
+and related garlic derivatives have been shown to signifi-
+cantly increase the production of the enzyme glutathione S-
+transferase (GST), which binds electrophilic toxins in the
+cell. Overloading the cell with inhibitory doses of diallyl
+disulfide reveals genes required for survival in the presence
+of increased reactive oxygen species (ROS) [29].
+In the case of the heterozygous collection, we found
+significant GO enrichments for the following categories: lipid
+metabolism, DNA catabolism, and regulation of transla-
+tion and posttranslational modification (specifically protein
+phosphorylation) (Figure 3). As expected (based on previous
+studies of the heterozygous collection), both the number of
+genes associated with FDs and the number of enriched cate-
+gories are considerably smaller than those derived from the
+homozygous collection [30]. This likely reflects two related
+phenomena: first, genes that when deleted in heterozygotes
+are sensitive to spaceflight encode proteins that participate in
+the pathways identified in the homozygous collection, where
+the fitness defect is stronger because the gene is completely
+absent. Second, none of these heterozygote strains encode a
+direct target of the perturbation.
+Interestingly, when we searched for drug profiles with
+high concordance with the spaceflight profiles derived from
+the heterozygous collection, we detected modest concor-
+dance with two human chemotherapeutics, mitoxantrone
+(concordance = 0.19), and Epirubicin (congruence 0.142).
+Both of these agents damage DNA by intercalating into
+the DNA double helix and also by stabilizing the cleavable
+complex that is the substrate of topoisomerase II [31–33].
+4. Conclusions
+The experiments presented here represent a proof of prin-
+ciple for conducting full genome environmental screens in
+spaceflight using robust hardware that can recapitulate a full
+automation suite with environmental control in the space of a
+small suitcase. The performance of this platform is significant
+for spaceflight studies and promises to enable terrestrial
+experiments in extreme environments that will have direct
+application to microbial bioprocessing for manufacturing,
+alternative fuel development, and basic research. The results
+from these experiments suggest that spaceflight has subtle but
+significant effects on core cellular processes including growth
+control via RNA and ribosomal biogenesis, metabolism,
+modification, and decay pathways. Furthermore, significant
+roles for DNA repair and replication, response to pH signal-
+ing, control of gene expression, and mitochondrial function
+were observed. The yeast chemogenetic analysis of spaceflight
+samples presented here strongly implicates DNA and RNA
+damage as the major ground-based analogs of spaceflight
+stress. Given the unique and substantial radiation exposure
+in space, this is consistent with major radiation-mediated
+effects. Unfortunately a 1 g control on ISS that might have
+allowed better discrimination between the contributions of
+space radiation versus the effects of microgravity on yeast
+responses was not available to us at this time. Current on-
+going experiments are designed explore these effects and
+dissect them from other potentially confounding variables.
+The high concordance to the profile induced by diallyl disul-
+fide suggests increased glutathione S-transferase, binding of
+electrophilic toxins, increased reactive oxygen species, and
+change in redox state. These pathways, which are required for
+survival in spaceflight, can guide future experiments in two
+fundamental ways: firstly by suggesting environmental mod-
+ifications that can bolster cellular and organismal integrity by
+avoiding further stress to these pathways, and secondly, by
+identifying drug stresses that can exacerbate these pathway
+requirements in an effort to control pathological cell growth
+in the case of proliferative diseases.
+Abbreviations
+AUC:
+Area under the curve
+BP:
+Biologic processes
+DMSO: Dimethyl sulfoxide
+FD:
+Fitness defect
+FDR:
+False discovery rate
+GO:
+Gene ontology
+GST:
+Glutathione S-transferase
+ISS:
+International Space Station
+MAD:
+Median absolute deviation
+MCL:
+Markov Clustering Algorithm
+OD:
+Optical density
+OPM:
+Opticell Processing Module
+PCR:
+Polymerase chain reaction
+ROS:
+Reactive oxygen species
+RSS:
+Residual sum of squares
+YPD:
+Yeast peptone dextrose.
+
+BioMed Research International
+9
+Conflict of Interests
+None of the authors have any commercial associations that
+might create a conflict of interests.
+Acknowledgments
+These
+studies
+were
+supported
+by
+NASA
+Grant
+no.
+NNX10AP01G. The authors thank NASA for spaceflight
+access under the auspices of the International Space Station
+National Lab Pathfinder program. This material is the result
+of work supported with resources and the use of facilities at
+the Durhan Veterans Affairs Medical Center and the Office
+of Research and Development, Department of Veterans
+Affairs, Veterans Health Administration. Sequencing was
+performed, in part at UBCSeq, Vancouver. Contents do not
+represent the views of the Department of Veterans Affairs or
+the United States of America.
+References
+[1] R. Herranz, R. Anken, J. Boonstra et al., “Ground-based
+facilities for simulation of microgravity: organism-specific rec-
+ommendations for their use, and recommended terminology,”
+Astrobiology, vol. 13, no. 1, pp. 1–17, 2013.
+[2] J. J. van Loon, E. H. T. E. Folgering, C. V. C. Bouten, J. P.
+Veldhuijzen, and T. H. Smit, “Inertial shear forces and the use
+of centrifuges in gravity research. What is the proper control?”
+Journal of Biomechanical Engineering, vol. 125, no. 3, pp. 342–
+346, 2003.
+[3] T. G. Hammond and J. M. Hammond, “Optimized suspension
+culture: the rotating-wall vessel,” American Journal of Physiol-
+ogy: Renal Physiology, vol. 281, no. 1, pp. F12–F25, 2001.
+[4] M. R. Benoit, R. B. Brown, P. Todd, E. S. Nelson, and D. M.
+Klaus, “Buoyant plumes from solute gradients generated by
+non-motile Escherichia coli,” Physical Biology, vol. 5, no. 4,
+Article ID 046007, 2008.
+[5] J. Kiefer and H. D. Pross, “Space radiation effects and micro-
+gravity,” Mutation Research, vol. 430, no. 2, pp. 299–305, 1999.
+[6] D. Botstein, S. A. Chervitz, and J. M. Cherry, “Yeast as a model
+organism,” Science, vol. 277, no. 5330, pp. 1259–1260, 1997.
+[7] D. Botstein and G. R. Fink, “Yeast: an experimental organism
+for 21st century biology,” Genetics, vol. 189, no. 3, pp. 695–704,
+2011.
+[8] P. Todd, “Overview of the spaceflight radiation environment
+and its impact on cell biology experiments,” Journal of Gravi-
+tational Physiology, vol. 11, no. 1, pp. 11–16, 2004.
+[9] J. J. W. A. van Loon, “Micro-gravity and mechanomics,” Gravi-
+tational and Space Biology, vol. 20, no. 2, pp. 3–18, 2007.
+[10] M. Hughes-Fulford, “To infinity... and beyond! Human space-
+flight and life science,” FASEB Journal, vol. 25, no. 9, pp. 2858–
+2864, 2011.
+[11] T. Fukuda, K. Fukuda, A. Takahashi et al., “Analysis of deletion
+mutations of the rpsL gene in the yeast Saccharomyces cerevisiae
+detected after long-term flight on the Russian space station
+Mir,” Mutation Research: Genetic Toxicology and Environmental
+Mutagenesis, vol. 470, no. 2, pp. 125–132, 2000.
+[12] A. Takahashi, K. Ohnishi, S. Takahashi et al., “The effects
+of microgravity on induced mutation in Escherichia coli and
+Saccharomyces cerevisiae,” Advances in Space Research, vol. 28,
+no. 4, pp. 555–561, 2001.
+[13] A. Y. Lee, R. P. St.Onge, M. J. Proctor et al., “Mapping the
+cellular response to small molecules using chemogenomic
+fitness signatures,” Science, vol. 344, no. 6186, pp. 208–211, 2014.
+[14] G. Giaever, P. Flaherty, J. Kumm et al., “Chemogenomic profil-
+ing: identifying the functional interactions of small molecules
+in yeast,” Proceedings of the National Academy of Sciences of the
+United States of America, vol. 101, no. 3, pp. 793–798, 2004.
+[15] G. Giaever and C. Nislow, “The yeast deletion collection: a
+decade of functional genomics,” Genetics, vol. 197, no. 2, pp. 451–
+465, 2014.
+[16] T. Roemer, J. Davies, G. Giaever, and C. Nislow, “Bugs, drugs
+and chemical genomics,” Nature Chemical Biology, vol. 8, no. 1,
+pp. 46–56, 2012.
+[17] S. E. Pierce, R. W. Davis, C. Nislow, and G. Giaever, “Genome-
+wide analysis of barcoded Saccharomyces cerevisiae gene-
+deletion mutants in pooled cultures,” Nature Protocols, vol. 2,
+no. 11, pp. 2958–2974, 2007.
+[18] A. M. Smith, L. E. Heisler, J. Mellor et al., “Quantitative
+phenotyping via deep barcode sequencing,” Genome Research,
+vol. 19, no. 10, pp. 1836–1842, 2009.
+[19] Development Core Team, R: A Language and Environment for
+Statistical Computing, R Foundation for Statistical Computing,
+Vienna, Austria, 2011.
+[20] A. C. Douglas, A. M. Smith, S. Sharifpoor et al., “Functional
+analysis with a barcoder yeast gene overexpression system,” G3,
+vol. 2, no. 10, pp. 1279–1289, 2012.
+[21] Y. Benjamini and Y. Hochberg, “Controlling the false discovery
+rate: a practical and powerful approach to multiple testing,”
+Journal of the Royal Statistical Society Series B, vol. 57, no. 1, pp.
+289–300, 1995.
+[22] A. M. Deutschbauer, D. F. Jaramillo, M. Proctor et al., “Mecha-
+nisms of haploinsufficiency revealed by genome-wide profiling
+in yeast,” Genetics, vol. 169, no. 4, pp. 1915–1925, 2005.
+[23] D. Merico, R. Isserlin, O. Stueker, A. Emili, and G. D.
+Bader, “Enrichment map: a network-based method for gene-set
+enrichment visualization and interpretation,” PLoS ONE, vol. 5,
+no. 11, Article ID e13984, 2010.
+[24] M. E. Smoot, K. Ono, J. Ruscheinski, P.-L. Wang, and T. Ideker,
+“Cytoscape 2.8: new features for data integration and network
+visualization,” Bioinformatics, vol. 27, no. 3, pp. 431–432, 2011.
+[25] S. Llanos and M. Serrano, “Depletion of ribosomal protein L37
+occurs in response to DNA damage and activates p53 through
+the L11/MDM2 pathway,” Cell Cycle, vol. 9, no. 19, pp. 4005–4012,
+2010.
+[26] G. F. Ribeiro, M. Cˆorte-Real, and B. Johansson, “Characteriza-
+tion of DNA damage in yeast apoptosis induced by hydrogen
+peroxide, acetic acid, and hyperosmotic shock,” Molecular
+Biology of the Cell, vol. 17, no. 10, pp. 4584–4591, 2006.
+[27] N. A. Doudican, B. Song, G. S. Shadel, and P. W. Doetsch,
+“Oxidative DNA damage causes mitochondrial genomic insta-
+bility in Saccharomyces cerevisiae,” Molecular and Cellular Biol-
+ogy, vol. 25, no. 12, pp. 5196–5204, 2005.
+[28] F. Fang, J. Hoskins, and J. S. Butler, “5-fluorouracil enhances
+exosome-dependent accumulation of polyadenylated rRNAs,”
+Molecular and Cellular Biology, vol. 24, no. 24, pp. 10766–10776,
+2004.
+[29] Y.-T. Lin, J.-S. Yang, S.-Y. Lin et al., “Diallyl disulfide (DADS)
+induces apoptosis in human cervical cancer Ca Ski cells via
+reactive oxygen species and Ca2+-dependent mitochondria-
+dependent pathway,” Anticancer Research, vol. 28, no. 5, pp.
+2791–2799, 2008.
+
+10
+BioMed Research International
+[30] M. E. Hillenmeyer, E. Fung, J. Wildenhain et al., “The chemical
+genomic portrait of yeast: uncovering a phenotype for all genes,”
+Science, vol. 320, no. 5874, pp. 362–365, 2008.
+[31] L. Capolongo, G. Belvedere, and M. D’Incalci, “DNA dam-
+age and cytotoxicity of mitoxantrone and doxorubicin in
+doxorubicin-sensitive and -resistant human colon carcinoma
+cells,” Cancer Chemotherapy and Pharmacology, vol. 25, no. 6,
+pp. 430–434, 1990.
+[32] B. Bellosillo, D. Colomer, G. Pons, and J. Gil, “Mitoxantrone,
+a topoisomerase II inhibitor, induces apoptosis of B-chronic
+lymphocytic leukaemia cells,” British Journal of Haematology,
+vol. 100, no. 1, pp. 142–146, 1998.
+[33] P. Vejpongsa and E. T. H. Yeh, “Topoisomerase 2𝛽: a promising
+molecular target for primary prevention of anthracycline-
+induced cardiotoxicity,” Clinical Pharmacology and Therapeu-
+tics, vol. 95, no. 1, pp. 45–52, 2014.

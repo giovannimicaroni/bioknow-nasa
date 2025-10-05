@@ -1,0 +1,656 @@
+ARTICLE
+OPEN
+Spaceﬂight-induced vertebral bone loss in ovariectomized rats
+is associated with increased bone marrow adiposity and no
+change in bone formation
+Jessica A Keune1, Kenneth A Philbrick1, Adam J Branscum2, Urszula T Iwaniec1,3 and Russell T Turner1,3
+There is often a reciprocal relationship between bone marrow adipocytes and osteoblasts, suggesting that marrow adipose tissue
+(MAT) antagonizes osteoblast differentiation. MAT is increased in rodents during spaceﬂight but a causal relationship between MAT
+and bone loss remains unclear. In the present study, we evaluated the effects of a 14-day spaceﬂight on bone mass, bone
+resorption, bone formation, and MAT in lumbar vertebrae of ovariectomized (OVX) rats. Twelve-week-old OVX Fischer 344 rats were
+randomly assigned to a ground control or ﬂight group. Following ﬂight, histological sections of the second lumbar vertebrae
+(n = 11/group) were stained using a technique that allowed simultaneous quantiﬁcation of cells and preﬂight ﬂuorochrome label.
+Compared with ground controls, rats ﬂown in space had 32% lower cancellous bone area and 306% higher MAT. The increased
+adiposity was due to an increase in adipocyte number (224%) and size (26%). Mineral apposition rate and osteoblast turnover were
+unchanged during spaceﬂight. In contrast, resorption of a preﬂight ﬂuorochrome and osteoclast-lined bone perimeter were
+increased (16% and 229%, respectively). The present ﬁndings indicate that cancellous bone loss in rat lumbar vertebrae during
+spaceﬂight is accompanied by increased bone resorption and MAT but no change in bone formation. These ﬁndings do not support
+the hypothesis that increased MAT during spaceﬂight reduces osteoblast activity or lifespan. However, in the context of ovarian
+hormone deﬁciency, bone formation during spaceﬂight was insufﬁcient to balance increased resorption, indicating defective
+coupling. The results are therefore consistent with the hypothesis that during spaceﬂight mesenchymal stem cells are diverted to
+adipocytes at the expense of forming osteoblasts.
+npj Microgravity (2016) 2, 16016; doi:10.1038/npjmgrav.2016.16; published online 28 April 2016
+INTRODUCTION
+The adult skeleton undergoes continuous bone remodeling, a
+sequential process that involves bone resorption followed by
+bone formation. Bone mineral density (BMD), a commonly used
+index of bone mass in adults, is maintained over time when bone
+formation is efﬁciently coupled to the prevailing rate of bone
+resorption. Bone loss occurs when there is an imbalance between
+bone formation and bone resorption where resorption predomi-
+nates. Bone loss is a common occurrence among astronauts
+during long-duration spaceﬂight. The reduction of BMD is
+generally associated with an increase in biochemical markers of
+bone resorption with no change in biochemical markers in bone
+formation.1–3 These ﬁndings suggest that spaceﬂight results in
+a defect in the coupling of bone formation to bone resorption.4
+The precise mechanism for this is unknown.
+Bone marrow adipose tissue (MAT) has generated considerable
+recent
+interest
+as
+a
+putative
+negative
+regulator
+of
+bone
+formation.5 Fat accumulates in bone marrow during prolonged
+bed rest,6 a ground-based human model for spaceﬂight. Although
+fat accumulation in bone marrow has not been veriﬁed in
+astronauts, an increase in MAT has been observed in rodents
+following spaceﬂight.7,8 Adipocytes and osteoblasts are derived
+from mesenchymal stromal cells. Based primarily on cell culture
+studies,
+some
+investigators
+have
+concluded
+that
+increased
+adipocyte differentiation inevitably occurs at the expense of
+osteoblast differentiation.9–11 If correct, then the increase in bone
+marrow adiposity during spaceﬂight may reﬂect a shift in the
+differentiation program of stromal cells from osteoblasts to
+adipocytes. This may prevent normal coupling of bone formation
+to the prevailing level of bone resorption and thus have a
+causative role in the negative bone remodeling balance. The
+anticipated consequence of this mechanism is reduced generation
+of osteoblasts.
+There is an alternative, non-mutually exclusive mechanism by
+which increased MAT can negatively inﬂuence bone metabolism.
+More than 50 adipocyte-derived adipokines, growth factors, and
+proinﬂammatory cytokines have been identiﬁed, including inter-
+leukin 1 beta (IL-1β). IL-1β inhibits bone formation and stimulates
+bone resorption,12 and mRNA levels for IL-1β were shown to be
+increased in tibia in rats ﬂown aboard STS-62 (ref. 13). Thus, factors
+produced in bone marrow during spaceﬂight could reduce bone
+formation by (1) slowing the rate of osteoblast appearance onto
+bone surfaces, (2) increasing the rate of osteoblast disappearance
+from bone surfaces, or (3) inhibiting osteoblast activity.
+One or both mechanisms could perpetuate a cycle where
+increasing MAT would lead to progressive bone loss during
+prolonged
+spaceﬂight.
+The
+present
+study,
+using
+archived
+vertebrae from rats ﬂown on STS-62, utilized a novel approach
+to challenge these mechanisms by evaluating the association
+1Skeletal Biology Laboratory, School of Biological and Population Health Sciences, Oregon State University, Corvallis, OR, USA; 2Biostatistics Program, School of Biological and
+Population Health Sciences, Oregon State University, Corvallis, OR, USA and 3Center for Healthy Aging Research, Oregon State University, Corvallis, OR, USA.
+Correspondence: RT Turner (russell.turner@oregonstate.edu)
+Received 4 November 2015; revised 10 February 2016; accepted 13 March 2016
+www.nature.com/npjmgrav
+All rights reserved 2373-8065/16
+© 2016 Macmillan Publishers Limited
+
+between bone resorption, MAT accumulation, and osteoblast
+kinetics in sexually mature ovariectomized (OVX) rats subjected to
+a 14-day spaceﬂight.
+RESULTS
+Bone resorption increased during spaceﬂight
+Compared with ground controls, ﬂight animals had 32% lower
+cancellous bone area fraction (Figure 1a), 16% lower ﬂuorochrome
+label length (indicative of greater resorption of preﬂight label;
+Figure 1b), and 229% greater osteoclast perimeter (Figure 1c).
+Indices of osteoblast kinetics were not altered during spaceﬂight
+Signiﬁcant differences between ground control and ﬂight animals
+were not detected for continuous bone formation (ﬂuorochrome
+label with adjacent osteoblasts; Figure 2a), ceased bone formation
+(ﬂuorochrome label with no adjacent osteoblasts; Figure 2b),
+newly initiated bone formation (osteoblasts with no adjacent
+ﬂuorochrome
+label;
+Figure
+2c),
+or
+mineral
+apposition
+rate
+(Figure 2d).
+Bone marrow adiposity increased during spaceﬂight
+Percent total tissue area occupied by adipocytes was 306%
+greater in the ﬂight animals compared with ground controls
+(Figure 3a). The increase in MAT was associated with increases in
+adipocyte number (224%; Figure 3b) as well as adipocyte size
+(26%; Figure 3c).
+DISCUSSION
+Fourteen days of spaceﬂight resulted in reduced cancellous bone
+in the lumbar vertebrae of OVX rats. The bone loss was associated
+with increased osteoclast-lined bone perimeter and decreased
+preﬂight ﬂuorochrome label length. In addition, spaceﬂight
+resulted in increased vertebral MAT due to increased adipocyte
+number and adipocyte size. In contrast, spaceﬂight had no effect
+on indices of osteoblast differentiation, turnover, or activity.
+Lumbar vertebrae were not available from animals killed on the
+day of launch. As baseline bone measurements were not obtained,
+it is possible that the lower cancellous bone in the ﬂight animals
+was due to reduced accrual of cancellous bone during ﬂight.
+However, this possibility is remote as it is well established that
+cancellous bone does not increase following OVX in 3-month-old
+rats.14 Therefore, the lower cancellous bone in the ﬂight rats likely
+represents bone loss over and above that due to OVX. This
+conclusion is further supported by the previously documented
+reduction in cancellous bone in tibia in the same animals where
+baseline bones were available for analysis.15
+On the basis of the increase in osteoclast perimeter and
+reduced length of the preﬂight ﬂuorochrome label, the cancellous
+bone loss during spaceﬂight occurred as a consequence of
+increased bone resorption. OVX rats experience greatly elevated
+cancellous bone turnover and ﬂuorochrome label resorption as
+clearly illustrated by the presence of osteoclasts adjacent to the
+preﬂight label (Figure 4). Increased resorption of a preﬂight
+0
+5
+10
+15
+20
+25
+30
+35
+Ground
+Control
+Flight
+Bone Volume Fraction (%)
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+Ground
+Control
+Flight
+Label Length (mm/mm2)
+0.0
+1.0
+2.0
+3.0
+Ground
+Control
+Flight
+Osteoclast Perimeter (%)
+*
+*
+*
+Figure 1.
+Effects of spaceﬂight on cancellous bone area fraction
+(a) and indices of bone resorption including ﬂuorochrome label
+length/tissue area (b) and osteoclast perimeter (c). Data are
+mean ± s.e., n = 11 per group. *Different from ground control,
+Po0.05.
+0.0
+0.3
+0.5
+0.8
+1.0
+1.3
+1.5
+Ground
+Control
+Flight
+Mineral Apposition Rate
+(µm/day)
+0
+5
+10
+15
+20
+25
+30
+Ground
+Control
+Flight
+Continuous Bone Formation
+(%)
+0
+5
+10
+15
+20
+25
+Ground
+Control
+Flight
+Ceased Bone Formation
+(%)
+0
+3
+6
+9
+12
+15
+Ground
+Control
+Flight
+Newly Initiated Formation
+(%)
+Figure 2.
+Effects of spaceﬂight on indices of bone formation
+including continuous bone formation (a), ceased bone formation
+(b), newly initiated formation (c), and mineral apposition rate (d).
+Data are mean ± s.e., n = 11 per group.
+Bone loss during spaceﬂight
+JA Keune et al
+2
+npj Microgravity (2016) 16016
+© 2016 Macmillan Publishers Limited
+
+ﬂuorochrome label during spaceﬂight was previously reported in
+tibia in same animals.15 Furthermore, Vico et al.16 reported
+increased osteoclast numbers in pregnant rats following a 5-day
+spaceﬂight. We are unaware of other studies investigating the
+effects of spaceﬂight on bone metabolism in female rats.
+The effects of spaceﬂight on MAT have not been studied in
+detail. Spaceﬂight was reported to increase MAT in growing male
+rats but adipocyte number and size were not determined in these
+studies.7,8,17 In the present study, the increase in MAT was
+primarily due to an increase in number of adipocytes. We interpret
+this as evidence that spaceﬂight results in increased differentiation
+of progenitor cells to adipocytes. There was, however, an increase
+in size that contributed to the overall increase in adiposity. This
+may be relevant because increased adipocyte size is associated
+with adipocyte dysfunction.18
+Spaceﬂight had no effect on mineral apposition rate, suggesting
+that the activity of osteoblasts present on bone surfaces at launch
+was not altered. Spaceﬂight had no effect on bone perimeter with
+osteoblasts adjacent to ﬂuorochrome label, suggesting that the
+interval during which osteoblasts deposit matrix onto bone
+surfaces was not altered. Last, spaceﬂight did not alter the extent
+of bone perimeter lined by osteoblasts with no adjacent label. We
+interpret this as evidence that spaceﬂight did not alter the rate of
+appearance of new osteoblasts onto bone surface. These results
+are consistent with and extend those of Cavolina et al., where no
+changes in osteoblast perimeter, bone formation or expression of
+genes related to osteoblast function were observed following
+spaceﬂight.15 In addition, spaceﬂight increased interferon gamma
+(IFNγ) expression in tibia in these animals.12 IFNγ is produced by
+mesenchymal cells as well as innate and adaptive cells in the
+immune system and has been reported to increase bone
+formation and inhibit fat inﬁltration into bone marrow in OVX
+mice.19 Taken together, these ﬁndings indicate that MAT inﬂux
+during spaceﬂight does not reduce osteoblast differentiation,
+activity or lifespan. Potentially, this is due to counter regulatory
+increases in cytokines that oppose adipogenesis and promote
+osteoblastogenesis.
+OVX typically results in increased turnover of cancellous bone.
+OVX-induced bone loss is limited to skeletal sites, such as the
+proximal
+tibial
+metaphysis
+and
+lumbar
+vertebra,
+where
+the increase in bone formation is inadequate to compensate for
+the increase in bone resorption.20,21 In contrast, spaceﬂight
+resulted in an increase in bone resorption with no increase in
+bone formation in lumbar vertebra and in proximal tibia
+metaphysis.15 These ﬁndings support the possibility that lineage
+redirection of stromal cells to adipocytes during spaceﬂight
+contributes to defective coupling of bone formation to increased
+bone resorption.
+The effects of spaceﬂight on cancellous bone turnover may be
+inﬂuenced by endocrine status. Bone turnover in normal female
+rats has not been evaluated following spaceﬂight. However, OVX
+and ovary-intact rats have been evaluated following hindlimb
+unloading, a ground-based model that replicates some of the
+skeletal effects of spaceﬂight.22 Although hindlimb unloading
+resulted in bone loss in OVX as well as ovary-intact rats, the
+cellular mechanisms were not identical. Speciﬁcally, cancellous
+bone loss in OVX rats was predominantly due to increased bone
+resorption, whereas bone loss in ovary-intact rats was due to a
+combination of increased bone resorption and reduced bone
+formation.23,24 A reduction in estrogen signaling in the skeleton
+results in increased bone turnover and cancellous bone loss.25
+Reproductive changes during or post ﬂight have not been
+systematically studied in women, but in female adult mice
+spaceﬂight induced cessation of cycling, loss of corpora lutea,
+and reduced estrogen receptor mRNA levels in the uterus.26
+Most spaceﬂight studies have been performed using growing
+male rats. Reduced bone formation from decreased osteoblast
+number and activity has been observed in these animals.8,27–29
+Although no spaceﬂight experiments comparing gender have
+been conducted, direct comparison of the skeletal response of
+normal male and female rats approaching skeletal maturity
+(6 months old) to hindlimb unloading did not detect gender
+differences.23 Therefore, it seems more likely high cancellous bone
+turnover rate and/or change in endocrine status induced by OVX
+modiﬁes how bone cells respond to microgravity. This is in
+agreement with previous studies reporting that estrogen regulates
+the rate of bone turnover independent of gravitational loading.
+The difference in response may be important because endocrine
+status could inﬂuence the efﬁcacy of pharmacological and
+non-pharmacological interventions to prevent bone loss during
+long-duration spaceﬂight.21
+In summary, we conclude that the increase in MAT during short-
+duration spaceﬂight does not impair osteoblast activity, reduce
+the interval osteoblasts are present on bone surfaces or decrease
+generation of new osteoblasts. These ﬁndings argue against the
+hypothesis that increased MAT produces factors that suppress
+bone
+formation.
+Although
+increased
+MAT
+did
+not
+impact
+osteoblast kinetics or bone formation, it is important to note that
+bone formation did not increase during spaceﬂight to compensate
+for the increase in bone resorption. This ﬁnding is consistent
+with the hypothesis that, in the context of ovarian hormone
+deﬁciency, osteoblast precursors are diverted to adipocytes
+instead of osteoblasts during spaceﬂight.
+MATERIALS AND METHODS
+Experimental design
+The experimental protocol was approved by the NASA Animal Care and
+Use Committee, and animals were maintained in accordance with the NIH
+0
+15
+30
+45
+60
+75
+90
+Ground
+Control
+Flight
+Adipocyte Number (#/mm2) 
+0
+200
+400
+600
+800
+1000
+Ground
+Control
+Flight
+Adipocyte Size (µm2)
+0
+2
+4
+6
+8
+10
+Ground
+Control
+Flight
+Adipocyte Area (%)
+*
+*
+*
+Figure 3.
+Effects of spaceﬂight on marrow adipose tissue (MAT)
+area (a), adipocyte number (b) and adipocyte size (c). Data are
+mean ± s.e., n = 11 per group. *Different from ground control,
+Po0.05.
+Bone loss during spaceﬂight
+JA Keune et al
+3
+© 2016 Macmillan Publishers Limited
+npj Microgravity (2016) 16016
+
+Guide for the Care and Use of Laboratory Animals. Twelve-week-old female
+Fischer 344 rats (Taconic Farms, Germantown, NY, USA) were used in the
+study. The rats were OVX 14 days prior to launch and randomly assigned to
+one of two treatment groups (n = 12 per group): (1) ground-based control
+(ground control) or (2) spaceﬂight (ﬂight). The ﬂight animals were ﬂown on
+the Space Shuttle Columbia (STS-62) for 14 days. All animals were housed
+in animal enclosure modules (AEM) with 6 rats per AEM. The AEMs were
+maintained at 28 °C. Food (Teklad L356 food bars; Teklad, Madison, WI,
+USA) and water were provided ad libitum to all animals. Rats received one
+calcein injection (20 mg/kg, intraperitoneal) one day prior to launch to
+label mineralizing bone matrix. The rats were killed by decapitation on the
+day of landing and bones were collected and placed in 70% ethanol for
+analysis.
+Histomorphometry
+Second lumbar vertebrae from 11 rats per group were available for
+evaluation.
+The
+bones
+were
+prepared
+for
+histological
+analysis
+as
+described.30 In brief, specimens were dehydrated in increased concentra-
+tions of ethanol and embedded in a mixture of methyl methacrylate and
+2-hydroxyethyl-methacrylate
+(in
+a
+12.5:1
+ratio).
+Five-micrometer-thin
+sections were then cut on a microtome (model 2065, Reichert-Jung,
+Heidelberg, Germany) and stained with toluidine blue (Sigma Chemical,
+St Louis, MO, USA). The staining technique allowed simultaneous
+quantiﬁcation of cells and ﬂuorochrome label.
+The effects of spaceﬂight on bone resorption and osteoblast turnover
+(Figure 4) were evaluated using a novel approach. Speciﬁcally, the preﬂight
+ﬂuorochrome label was used to identify bone perimeter undergoing
+mineralization in preﬂight animals experiencing normal weight bearing.
+Because preﬂight ﬂuorochrome label perimeter is assumed to be similar in
+the rats randomly assigned to a group (ground control or ﬂight), post-ﬂight
+differences in label length represent intergroup differences in bone
+resorption during ﬂight. In turn, the perimeter bounded by preﬂight label
+with adjacent osteoblasts represents continuous bone formation through-
+out the duration of ﬂight (Figure 4a), whereas ﬂuorochrome label with no
+adjacent osteoblasts reﬂects sites undergoing bone mineralization at the
+time of label administration but not subsequently (ceased bone formation;
+Figure 4b). In contrast, bone perimeter bounded by osteoblasts with no
+adjacent label represents sites where bone formation was newly initiated
+during ﬂight (i.e., following administration of the preﬂight label; Figure 4c).
+Cell and ﬂuorochrome data were simultaneously collected by viewing
+the sections under combined visible light and ultraviolet light using the
+OsteoMeasure
+System
+(OsteoMetrics,
+Atlanta,
+GA,
+USA).
+Endpoints
+evaluated included bone area fraction (bone area/tissue area, area of total
+tissue evaluated occupied by cancellous bone, %), ﬂuorochrome label
+length (length/tissue area, mm/mm2) and osteoclast perimeter (osteoclast
+perimeter/bone perimeter, %). Fluorochrome-based indices of bone
+formation included measurements of continuous bone formation during
+ﬂight (percentage of bone lined with osteoblasts associated with the single
+label; %), ceased bone formation during ﬂight (percentage of bone
+perimeter with label not associated with osteoblasts, %), newly initiated
+bone formation during ﬂight (percentage of osteoblast perimeter not
+associated with label, %) and mineral apposition rate (mean distance
+between the ﬂuorochrome marker and osteoblast-lined perimeter divided
+by number of days between the label injection and killing (15 days),
+μm/day). MAT (% tissue area) and adipocyte number (#/mm2) were
+measured and adipocyte size (μm2) was determined by dividing MAT by
+adipocyte number.
+Statistical analysis
+Mean
+responses
+were
+compared
+using
+independent
+two-sample
+t-tests (ground control versus ﬂight). The required conditions for valid
+use of t-tests were assessed using Levene’s test for homogeneity of
+variance
+and
+the
+Anderson–Darling
+test
+for
+normality.
+When
+the
+assumption of equal variance was violated, Welch’s two-sample t-test was
+used for comparisons.31 When the assumption for normality was
+violated, the Wilcoxon–Mann–Whitney test was performed. The Hochberg
+adjustment method was used to control for multiple comparisons by
+maintaining the familywise error rate at 5% (Hochberg 1988). Differences
+were considered statistically signiﬁcant at Po0.05. All data are expressed
+as mean ± s.e.
+ACKNOWLEDGMENTS
+This work was supported by the National Science Foundation Research Traineeship
+Program (DGE-0956280) and a grant from the National Aeronautics and Space
+Administration (NNX12AL24G). Grant Sponsors: NASA (NNX12AL24G) and NSF
+(DGE-0956280).
+CONTRIBUTIONS
+Data collection: K.A.P., R.T.T. Data analysis: J.A.K., A.J.B. Data interpretation: J.A.K.,
+K.A.P., A.J.B., U.T.I., R.T.T. Drafting manuscript: J.A.K., U.T.I., R.T.T. Approving ﬁnal
+version of manuscript: J.A.K., K.A.P., A.J.B., U.T.I., R.T.T. R.T.T. takes responsibility for the
+integrity of the data analysis.
+COMPETING INTERESTS
+The authors declare no conﬂict of interest.
+REFERENCES
+1. Orwoll, E. S. et al. Skeletal health in long-duration astronauts: nature, assessment,
+and management recommendations from the NASA Bone Summit. J. Bone Miner.
+Res. 28, 1243–1255 (2013).
+Label
+Osteoclast 
+(resorbing 
+label)
+Label
+Osteoblasts
+Osteoid
+MAR
+Adipocytes
+Osteoblasts
+Osteoid
+Ceased 
+Bone Formation
+Continuous 
+Bone Formation
+Newly Initiated 
+Bone Formation
+Figure 4.
+Photomicrographs depicting continuous bone formation (ﬂuorochrome label with adjacent osteoblasts) (a), ceased bone formation
+(ﬂuorochrome label with no adjacent osteoblasts) (b), and newly initiated bone formation (osteoblasts with no adjacent ﬂuorochrome label)
+(c). Also shown are the distance between a ﬂuorochrome label and osteoblast-lined perimeter used to calculate mineral apposition rate (MAR)
+(a), an osteoclast resorbing label (b), and marrow adipocytes (c).
+Bone loss during spaceﬂight
+JA Keune et al
+4
+npj Microgravity (2016) 16016
+© 2016 Macmillan Publishers Limited
+
+2. Sibonga, J. D. Spaceﬂight-induced bone loss: is there an osteoporosis risk?
+Curr. Osteoporos. Rep. 11, 92–98 (2013).
+3. Turner, R. T. Invited review: what do we know about the effects of spaceﬂight
+on bone? J. Appl. Physiol. (1985) 89, 840–847 (2000).
+4. Erben, R. G. Hypothesis: coupling between resorption and formation in cancel-
+lous bone remodeling is a mechanically controlled event. Front. Endocrinol.
+(Lausanne) 6, 82 (2015).
+5. Scheller, E. L. & Rosen, C. J. What's the matter with MAT? Marrow adipose tissue,
+metabolism, and skeletal health. Ann. N. Y. Acad. Sci. 1311, 14–30 (2014).
+6. Trudel, G. et al. Bone marrow fat accumulation after 60 days of bed rest persisted
+1 year after activities were resumed along with hemopoietic stimulation: the
+Women International Space Simulation for Exploration study. J. Appl. Physiol.
+(1985) 107, 540–548 (2009).
+7. Wronski, T. J., Morey-Holton, E. & Jee, W. S. Cosmos 1129: spaceﬂight and bone
+changes. Physiologist 23, S79–S82 (1980).
+8. Jee, W. S., Wronski, T. J., Morey, E. R. & Kimmel, D. B. Effects of spaceﬂight on
+trabecular bone in rats. Am. J. Physiol. 244, R310–R314 (1983).
+9. Verma, S., Rajaratnam, J. H., Denton, J., Hoyland, J. A. & Byers, R. J. Adipocytic
+proportion of bone marrow is inversely related to bone formation in osteo-
+porosis. J. Clin. Pathol. 55, 693–698 (2002).
+10. Gimble, J. M. & Nuttall, M. E. Bone and fat: old questions, new insights. Endocrine
+23, 183–188 (2004).
+11. Smitka, K. & Maresova, D. Adipose tissue as an endocrine organ: an update on
+pro-inﬂammatory and anti-inﬂammatory microenvironment. Prague Med. Rep.
+116, 87–111 (2015).
+12. Conde, J. et al. Basic aspects of adipokines in bone metabolism. Clin. Rev. Bone
+Miner. Metab. 13, 11–19 (2015).
+13. Zhang, M. & Turner, R. T. The effects of spaceﬂight on mRNA levels for cytokines in
+proximal tibia of ovariectomized rats. Aviat. Space Environ. Med. 69, 626–629 (1998).
+14. Wronski, T. J., Dann, L. M. & Horner, S. L. Time course of vertebral osteopenia in
+ovariectomized rats. Bone 10, 295–301 (1989).
+15. Cavolina, J. M. et al. The effects of orbital spaceﬂight on bone histomorphometry and
+messenger ribonucleic acid levels for bone matrix proteins and skeletal signaling
+peptides in ovariectomized growing rats. Endocrinology 138, 1567–1576 (1997).
+16. Vico, L. et al. Effects of weightlessness on bone mass and osteoclast number
+in
+pregnant
+rats
+after
+a
+ﬁve-day
+spaceﬂight
+(COSMOS
+1514).
+Bone
+8,
+95–103 (1987).
+17. Wronski, T. J. & Morey, E. R. Skeletal abnormalities in rats induced by simulated
+weightlessness. Metab. Bone Dis. Relat. Res. 4, 69–75 (1982).
+18. Xiao, L. et al. Large adipocytes function as antigen presenting cells to
+activate CD4+ T cells via up-regulating MHCII in obesity. Int. J. Obes. 40,
+112–120 (2015).
+19. Vidal, C. et al. Interferon gamma inhibits adipogenesis in vitro and prevents
+marrow
+fat
+inﬁltration
+in
+oophorectomized
+mice.
+Stem
+Cells
+30,
+1042–1048 (2012).
+20. Jee, W. S. & Yao, W. Overview: animal models of osteopenia and osteoporosis.
+J. Musculoskelet. Neuronal. Interact. 1, 193–207 (2001).
+21. Westerlind, K. C. et al. Estrogen regulates the rate of bone turnover but bone
+balance in ovariectomized rats is modulated by prevailing mechanical strain.
+Proc. Natl Acad. Sci. USA 94, 4199–4204 (1997).
+22. Morey, E. R., Sabelman, E. E., Turner, R. T. & Baylink, D. J. A new rat model
+simulating some aspects of space ﬂight. Physiologist 22, S23–S24 (1979).
+23. Hefferan, T. E. et al. Effect of gender on bone turnover in adult rats during
+simulated weightlessness. J. Appl. Physiol. (1985) 95, 1775–1780 (2003).
+24. Turner, R. T., Evans, G. L., Cavolina, J. M., Halloran, B. & Morey-Holton, E. Pro-
+grammed administration of parathyroid hormone increases bone formation and
+reduces bone loss in hindlimb-unloaded ovariectomized rats. Endocrinology 139,
+4086–4091 (1998).
+25. Turner, R. T., Riggs, B. L. & Spelsberg, T. C. Skeletal effects of estrogen. Endocr. Rev.
+15, 275–300 (1994).
+26. Ronca, A. E. et al. Effects of sex and gender on adaptations to space:
+reproductive health. J. Womens Health (Larchmt) 23, 967–974 (2014).
+27. Wronski, T. J., Morey-Holton, E. R., Doty, S. B., Maese, A. C. & Walsh, C. C. Histo-
+morphometric analysis of rat skeleton following spaceﬂight. Am. J. Physiol. 252,
+R252–R255 (1987).
+28. Vico, L., Bourrin, S., Genty, C., Palle, S. & Alexandre, C. Histomorphometric analyses
+of cancellous bone from COSMOS 2044 rats. J. Appl. Physiol. (1985) 75,
+2203–2208 (1993).
+29. Bikle, D. D., Harris, J., Halloran, B. P. & Morey-Holton, E. Altered skeletal pattern of
+gene expression in response to spaceﬂight and hindlimb elevation. Am. J. Physiol.
+267, E822–E827 (1994).
+30. Iwaniec, U. T., Wronski, T. J. & Turner, R. T. Histological analysis of bone. Methods
+Mol. Biol. 447, 325–341 (2008).
+31. Welch, B. On the comparison of several mean values: an alternative approach.
+Biometrika 38, 330–336 (1951).
+This work is licensed under a Creative Commons Attribution-
+NonCommercial-NoDerivatives 4.0 International License. The images
+or other third party material in this article are included in the article’s Creative Commons
+license, unless indicated otherwise in the credit line; if the material is not included under
+the Creative Commons license, users will need to obtain permission from the license
+holder to reproduce the material. To view a copy of this license, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/
+Bone loss during spaceﬂight
+JA Keune et al
+5
+© 2016 Macmillan Publishers Limited
+npj Microgravity (2016) 16016

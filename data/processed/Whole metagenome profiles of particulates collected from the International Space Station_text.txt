@@ -1,0 +1,41 @@
+ERRATUM
+Open Access
+Erratum to: Whole metagenome profiles of
+particulates collected from the International
+Space Station
+Nicholas A. Be1, Aram Avila-Herrera2, Jonathan E. Allen2, Nitin Singh3, Aleksandra Checinska Sielaff3,4,
+Crystal Jaing1 and Kasthuri Venkateswaran3*
+Erratum
+Following publication of the original article [1], the
+authors reported that the X-axis label was missing
+from Fig. 4. The new Fig. 4 is attached.
+Author details
+1Physical and Life Sciences Directorate, Lawrence Livermore
+NationalLaboratory, Livermore, CA, USA. 2Computation Directorate, Lawrence
+Livermore National Laboratory, Livermore, CA, USA. 3Biotechnology and
+Planetary Protection Group, Jet Propulsion Laboratory, California Institute of
+Technology, M/S 89-2, 4800 Oak Grove Dr, Pasadena, CA 91109, USA.
+4Present Address: Department of Ecology, Evolution and Organismal Biology,
+Iowa State University, Ames, IA, USA.
+Received: 23 August 2017 Accepted: 23 August 2017
+Reference
+1.
+Be NA, Avila-Herrera A, Allen JE, Singh N, Sielaff AC, Jaing C, Venkateswaran K.
+Microbiome. 2017;5:81. doi:10.1186/s40168-017-0292-4.
+* Correspondence: kjvenkat@jpl.nasa.gov
+3Biotechnology and Planetary Protection Group, Jet Propulsion Laboratory,
+California Institute of Technology, M/S 89-2, 4800 Oak Grove Dr, Pasadena,
+CA 91109, USA
+© The Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Be et al. Microbiome  (2017) 5:111 
+DOI 10.1186/s40168-017-0330-2
+
+Fig. 4 Microbial gene pathways observed in the whole metagenomes of ISS and SAF samples. Reads matching microbial gene targets above an
+identity threshold of 0.9 were assigned to KEGG orthologies. KO number was used to assign a gene function category, shown along the vertical
+axis. Read abundance is graphically represented on a square-root scale. Absolute read counts are shown adjacent to each corresponding circle
+Be et al. Microbiome  (2017) 5:111 
+Page 2 of 2

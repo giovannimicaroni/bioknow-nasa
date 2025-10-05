@@ -1,0 +1,669 @@
+Citation: Sharma, P.; Dwivedi, R.;
+Ray, P.; Shukla, J.; Pomin, V.H.;
+Tandon, R. Inhibition of
+Cytomegalovirus by Pentacta pygmaea
+Fucosylated Chondroitin Sulfate
+Depends on Its Molecular Weight.
+Viruses 2023, 15, 859. https://
+doi.org/10.3390/v15040859
+Academic Editors: Michael McVoy
+and Thomas Stamminger
+Received: 14 December 2022
+Revised: 13 March 2023
+Accepted: 24 March 2023
+Published: 28 March 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+viruses
+Article
+Inhibition of Cytomegalovirus by Pentacta pygmaea Fucosylated
+Chondroitin Sulfate Depends on Its Molecular Weight
+Poonam Sharma 1, Rohini Dwivedi 2, Priya Ray 1, Jayanti Shukla 1, Vitor H. Pomin 2
+and Ritesh Tandon 1,2,3,*
+1
+Center for Immunology and Microbial Research, Department of Cell and Molecular Biology,
+University of Mississippi Medical Center, 2500 North State Street, Jackson, MS 39216, USA
+2
+Department of Biomolecular Sciences, University of Mississippi, Oxford, MS 38655, USA
+3
+Department of Medicine, University of Mississippi Medical Center, 2500 North State Street, Jackson, MS 39216, USA
+*
+Correspondence: rtandon@umc.edu; Tel.: +1-601-984-1705
+Abstract: Many viruses attach to host cells by ﬁrst interacting with cell surface proteoglycans
+containing heparan sulfate (HS) glycosaminoglycan chains and then by engaging with speciﬁc
+receptor, resulting in virus entry. In this project, HS–virus interactions were targeted by a new
+fucosylated chondroitin sulfate from the sea cucumber Pentacta pygmaea (PpFucCS) in order to block
+human cytomegalovirus (HCMV) entry into cells. Human foreskin ﬁbroblasts were infected with
+HCMV in the presence of PpFucCS and its low molecular weight (LMW) fractions and the virus yield
+at ﬁve days post-infection was assessed. The virus attachment and entry into the cells were visualized
+by labeling the puriﬁed virus particles with a self-quenching ﬂuorophore octadecyl rhodamine B (R18).
+The native PpFucCS exhibited potent inhibitory activity against HCMV speciﬁcally blocking virus
+entry into the cell and the inhibitory activities of the LMW PpFucCS derivatives were proportional
+to their chain lengths. PpFucCS and the derived oligosaccharides did not exhibit any signiﬁcant
+cytotoxicity; moreover, they protected the infected cells from virus-induced lytic cell death. In
+conclusion, PpFucCS inhibits the entry of HCMV into cells and the high MW of this carbohydrate is a
+key structural element to achieve the maximal anti-viral effect. This new marine sulfated glycan can
+be developed into a potential prophylactic and therapeutic antiviral agent against HCMV infection.
+Keywords: herpesviruses; marine sulfated glycans; virus entry
+1. Introduction
+Betaherpesviruses, including human cytomegalovirus (HCMV), are common human
+pathogens, yet only a small percentage of infected people experience acute illness [1]. In
+people with impaired immune systems, HCMV-mediated infections can be life-threatening.
+Despite signiﬁcant advancements in diagnostic and therapeutic management of the dis-
+ease, HCMV poses a serious threat in solid organ and hematopoietic stem cell transplant
+recipients as well as in acquired immunodeﬁciency syndrome patients [2]. In addition,
+HCMV infection in utero is the leading cause of congenital infection that can result in
+developmental abnormalities, including sensorineural hearing loss, developmental delays,
+and even fetal death [3–5].
+There are currently no commercially available vaccines to prevent HCMV infection [6]
+and only a small number of drugs, including ganciclovir, valganciclovir, cidofovir, foscarnet,
+maribavir, and letermovir, have been Food and Drug Administration approved for the
+treatment/prophylaxis of HCMV infection and disease [7,8]. Moreover, drug resistance is
+increasingly common with circulating strains acquiring UL54 (polymerase) and/or UL97
+(kinase) mutations that confer resistance to commonly available drugs [9–11]. Therefore,
+the identiﬁcation of newer anti-HCMV drugs with improved efﬁcacy and novel modes of
+action are essentially needed.
+Heparan sulfate (HS) is present on the cell surface as well as in the extracellular
+matrix of most mammalian tissues [12,13]. Numerous viruses including HCMV attach to
+Viruses 2023, 15, 859. https://doi.org/10.3390/v15040859
+https://www.mdpi.com/journal/viruses
+
+Viruses 2023, 15, 859
+2 of 12
+host cells by ﬁrst engaging with cell surface HS glycosaminoglycan chains, followed by
+interaction with the speciﬁc protein receptors, which results in virus entry [14,15]. HCMV
+can infect different types of cells and tissues indicating that it can engage with a wide
+variety of host cell receptors to enter the cell and establish an infection [16–19]. Speciﬁc viral
+glycoproteins engage these structurally and functionally distinct receptors that include
+the platelet-derived growth factor receptor alpha, cellular integrins, neuropilin-2, and
+epidermal growth factor receptor [20–26].
+Earlier, our group showed that HCMV preferentially binds to uniquely sulfated and
+polymerized HS using its surface glycoprotein B (gB) [15]. HS mimetics, including heparin,
+bind to gB and inhibit HCMV infection by competitively inhibiting virus attachment to the
+cell surface [15,27]. Heparin is composed of disaccharide-repeating units (Figure 1A) and
+is an efﬁcient anticoagulant; it can cause excessive bleeding and thrombocytopenia that
+necessitate close patient observation and, if necessary, the administration of an antidote
+(protamine) [28,29]. Two potential solutions to these anticoagulant side effects are using
+either the naturally potent anti-viral sulfated glycans with lower anticoagulant properties
+or the dissociation of the anticoagulant and anti-viral properties of the existing heparin.
+We were able to provide instances of both in our earlier work [28,30,31]. In contrast to
+heparin, a newly discovered fucosylated chondroitin sulfate (FucCS) from the body wall
+of the sea cucumber Pentacta pygmaea (PpFucCS) was found to have signiﬁcantly lower
+anticoagulant activity but signiﬁcant antiviral efﬁcacy against severe acute respiratory
+syndrome coronavirus 2 (SARS-CoV-2) [28]. The PpFucCS anticoagulant activity can be
+further reduced by hydrolysis into oligosaccharide fractions [30].
+In the current investigation, PpFucCS (Figure 1B) was used to target HS–virus interac-
+tion and prevent HCMV entry into cells. We show that PpFucCS has signiﬁcant antiviral
+activity against HCMV and that, when hydrolyzed into fractions, the oligosaccharides lose
+their anti-HCMV activity in a size-dependent manner.
+ 
+ 
+(A) 
+(B) 
+Figure 1. Structural representation of sulfated glycans assayed for anti-HCMV activity. (A) Unfrac-
+tionated heparin (UFH) is mostly composed of repeating disaccharide units of [→4)-α-GlcN-(1→4)-
+α-IdoA-(1→] where GlcN is glucosamine and IdoA is iduronic acid. Sulfation occurs frequently at
+the N- and C6-positions of GlcN and C2 position of IdoA. (B) PpFucCS is constituted of a chondroitin
+sulfate backbone that alternates N-acetylgalactosamine (GalNAc) and glucuronic acid (GlcA) in
+repeating disaccharide units of [→3)-β-GalNAc-(1→4)-β-GlcA-(1→], where the GalNAc units are
+primarily 4-sulfated (80%) and, to a very less degree, 4,6-disulfated (10%) or nonsulfated (10%).
+The GlcA units are replaced at the C3 position by three different forms of α-fucose (Fuc) branches:
+Fuc2,4S-(1→(40%), Fuc2,4S-(1→4)-Fuc-(1→(30%), and Fuc4S-(1→(30%); where S = SO3−.
+
+Viruses 2023, 15, 859
+3 of 12
+2. Materials and Methods
+PpFucCS extraction and puriﬁcation: As previously reported [30], PpFucCS was re-
+covered from the body wall of the sea cucumber P. pygmaea (Gulf Specimen Lab Gulf of Mex-
+ico,
+Florida
+Keys)
+by
+performing
+proteolytic
+digestion
+using
+papain
+(Sigma,
+St. Louis, MO, USA). Using anion exchange chromatography, the dry crude extract was
+fractionated on a 1.5 cm × 20 cm column packed with DEAE-Sephacel resin (Sigma). It
+was then eluted using a linear gradient of NaCl in 0.1 M NaOAc at pH 6.0 from 0 M to
+3 M with a ﬂow rate of 0.5 mL/min. 1,9-dimethyl methylene blue (DMB) reagent was
+used to monitor each fraction. The polysaccharide fractions that were detected using the
+DMB assay were combined, dialyzed three times against water, and then lyophilized to
+concentrate for preservation and transportation. The dialyzed sugars were then subjected
+to puriﬁcation using a Sephadex G15 (Sigma) column (1 cm × 30 cm) with water as the
+mobile phase for cleanup. The lyophilization was performed to purify the sugar. To es-
+timate the concentration of the samples in the various assays, dry weight measurements
+were collected.
+PpFucCS Depolymerization: PpFucCS was depolymerized using a modiﬁed Fenton
+technique that has been demonstrated to be extremely selective for the breakage of GlcA
+and GalNAc bonds found in the backbone of this class of polysaccharides [30]. A previously
+described methodology that had been slightly changed was used to carry out the reaction;
+40 mg of dry-weight PpFucCS was weighed and dissolved at a concentration of 2 mg/mL
+in 0.1 M sodium acetate at a pH of 6.0 to optimize the reaction conditions; 0.02 mM copper
+(II) acetate (ﬁnal concentration) was then added to the dissolved polysaccharide solution.
+The reaction was carried out for 180 min at 60 ◦C with constant stirring after the addition
+of 200 mM H2O2 in drops to the reaction liquid. By removing the copper ions from the
+reaction mixture using Chelex (50–100 mesh size) resin, the reaction was quenched by
+adding Chelex resin that had been pre-equilibrated using 0.1 M sodium acetate buffer, pH
+6.0, and keeping it on an end-to-end rotor for 2 h at room temperature. The suspension was
+centrifuged at 3000 rpm for 10 min after 2 h. The supernatant was lyophilized and desalted.
+Fractionation of PpFucCS oligosaccharides: The dried depolymerized mixture of Pp-
+FucCS was fractionated depending on the size in a Bio-Gel P-10 column (1.5 cm × 170 cm), at a
+ﬂow rate of 1.0 mL/15 min. A 10% ethanol solution containing 1.0 M NaCl was used to
+fractionate the mixture. Hydrolyzed PpFucCS (HdPpFucCS) is native PpFucCS that has
+been subjected to depolymerization The fractions obtained were assayed for the presence
+of PpFucCS oligosaccharides using DMB. The eluted oligosaccharides were divided into
+4 fractions (Fr1–Fr4) based on the DMB proﬁle and their corresponding retention times
+on the Bio-Gel P-10 column. Before any analysis, all the fractions were desalted on the
+Sephadex G-15 column and then lyophilized. See [30].
+Distribution of PpFucCS oligosaccharides: Polyacrylamide gel electrophoresis (PAGE)
+was used to analyze the oligosaccharide distribution of the depolymerized PpFucCS
+fractions [30].
+PpFucCS oligosaccharides structural integrity determination: The structural integrity of
+the PpFucCS oligosaccharides produced was investigated using one-dimensional proton
+nuclear magnetic resonance (1D 1H NMR) spectroscopy [30].
+Cells: The human foreskin ﬁbroblasts (HFF) were cultured in Dulbecco’s modiﬁed
+Eagle’s medium (DMEM) (Corning, Manassas, VA, USA, catalog No. 10-013-CM) with
+10% fetal bovine serum (FBS) (Gibco, Life Technologies, Grand Island, NY, USA, catalog
+No. 10437-028), 2 mM L-glutamine, and 100 U/mL penicillin-streptomycin (Corning,
+Manassas, VA, USA; catalog No. 30-002-CI) at 37 ◦C along with 5% CO2 [32].
+
+Viruses 2023, 15, 859
+4 of 12
+Virus: HCMV (TowneBAC strain) tagged with a green ﬂuorescent protein (GFP) [33]
+was grown on the HFF cells. The virus stock was prepared in 3X autoclaved milk, son-
+icated three times for 10 s with a 30 s gap, and stored at −80 ◦C. For the preparation of
+the autoclaved milk, we dissolved Nestle Carnation instant nonfat dry milk powder in
+nanopure water at neutral pH to obtain 10% milk [6,15,34], which was then autoclaved
+three consecutive times before storage at 4 ◦C.
+Virus infections: For infecting the HFFs, the media was removed from the wells of
+the cell culture plates, washed with serum-free medium DMEM, and appropriately diluted
+virus stock was absorbed on the cells in DMEM without serum. The cells were incubated for
+1 h with gentle shaking every 10 min followed by washing thrice with serum-free DMEM.
+Fresh complete DMEM was added, and the cells were incubated until the endpoint.
+IC50 assay and percent inhibition calculation: To determine the half-maximal in-
+hibitory concentration (IC50) of PpFucCS, its hydrolyzed form, and its fractions, the HFFs
+were pretreated for 1 h with a range of concentrations (50 µg/mL, 25 µg/mL, 12.5 µg/mL,
+6.25 µg/mL, 3.12 µg/mL, 1.56 µg/mL, and 0.78 µg/mL), UFH, or mock, and then infected
+with HCMV at a multiplicity of infection (MOI) of 0.1. The cells were ﬁxed at 5 days
+post-infection (dpi), and the number of GFP-positive cells for each concentration was
+enumerated using the Cytation 5 automated microscope (BioTek Instruments, Inc., Agilent,
+Santa Clara, CA, USA). The experiment was repeated three times in order to conﬁrm the
+reproducibility of the measurements. The data were normalized in GraphPad Prism 9.0,
+using the number of GFP-positive cells in the mock wells as 0% inhibition and the number
+‘0′ as 100% inhibition. The percentage (%) inhibition was plotted against the concentration
+range. The relative IC50s were calculated using a ﬁxed top limit of the average vehicle-only
+control and a ﬂoating bottom limit.
+For virus yield reduction assays, the HFFs were pretreated for 1 h with a range of
+concentrations (50 µg/mL, 25 µg/mL, 12.5 µg/mL, 6.25 µg/mL, 3.12 µg/mL, 1.56 µg/mL,
+and 0.78 µg/mL), of PpFucCS and mock (in duplicates of two independent experiments),
+and then infected with HCMV at a MOI of 3. The samples were harvested within the
+medium at 5 dpi by scraping the cells and stored at −80 ◦C before titration. On the day
+of titration, the harvested samples were sonicated three times for 10 s each with a 30 s
+gap. The monolayers of the HFFs were grown in 12-well tissue culture plates, and serial
+dilutions of the sonicated samples in the DMEM (without any additional compounds) were
+absorbed onto them for 1 h (in duplicates), followed by washing thrice with serum-free
+DMEM. For the viral titers, fresh DMEM containing 10% FBS and gamma immunoglobulin
+was added to the HFFs. At this step, no native PpFucCS was added to the overlayed
+medium, and the cells were incubated for from 9 to 10 dpi. At the endpoint, the DMEM
+overlay was removed, and the cells were washed 2X using PBS. The infected HFFs were
+then ﬁxed in 100% methanol for 5 min. The HFFs were immediately stained using Modiﬁed
+Giemsa stain (Sigma-Aldrich, Milli-pore Sigma, Burlington, MA, USA, catalog No. GS1L)
+for 15 minutes. the plates were then washed with tap water and air dried, and the dark
+stained plaques were quantiﬁed.
+Octadecyl rhodamine B (R18) labeling and entry assay: The appropriate amount of
+virus was incubated using R18 (20 ng/L) (Thermo Fisher Scientiﬁc, Invitrogen, Waltham,
+Massachusetts, USA, catalog No. O246) at 4 ◦C for 1 h. An equal volume of DMEM was
+added and the tube was centrifuged at 28,000 rpm for 1 h at 4 ◦C to pellet the labeled
+virus, which was resuspended in 200 µL of DMEM. The native PpFucCS (50 µg/mL) was
+overlayed on the cells (HFF) for 1 h at 37 ◦C, and the plate was then incubated at 4 ◦C for
+15 min. The puriﬁed virus, labeled with R18, was added to the plate and incubated for 1 h
+at 4 ◦C with the pre-treated cells to allow for virus attachment. Thereafter, the unbound
+virus was washed off using PBS and the plate was moved to 37 ◦C to allow for virus entry.
+The plates were ﬁxed for staining with Hoechst dye at different time points after the 37 ◦C
+move. The mock-treated cells with the labeled and unlabeled virus were used as controls.
+
+Viruses 2023, 15, 859
+5 of 12
+Microscopy: The samples were prepared using the established protocols for ﬂuores-
+cence microscopy. Brieﬂy, the HFF cells were grown on coverslip inserts in 24-well tissue
+culture plates. The cells were pretreated using PpFucCS at 50 µg/mL concentration for
+1 h and cooled at 4 ◦C for 15 min before infection using R18-labeled HCMV at a MOI of
+3.0. The plate was then incubated at 37 ◦C along with 5% CO2 for 1 h. At the different
+time points (0, 1, 2, 5, 10, 20, 40, and 60 min) after the shift to 37 ◦C, the cells were ﬁxed
+in 3.7% formaldehyde for 10 min and incubated in 50 mM NH4Cl in phosphate-buffered
+saline (PBS) for 10 min to reduce autoﬂuorescence and washed using 2X PBS. Finally, the
+cells were incubated in Hoechst solution (ThermoFisher Scientiﬁc, Waltham, MA, USA,
+Catalog No. 33342) in PBS (1:3000) for 10 min to stain the nucleus, followed by a PBS wash.
+The coverslips were retrieved from the wells and were mounted on glass slides with a
+drop of mounting medium (2.5% DABCO in Fluoromont G) and air dried for two hours
+before imaging. The images were acquired on an EVOS-FL epiﬂuorescent microscope
+(ThermoFisher Scientiﬁc, Waltham, MA, USA).
+Cell viability: The HFFs were plated in 24-well tissue culture plates and grown to
+conﬂuency (in triplicates). The cells were pretreated for 1 h with the highest concentration of
+test compounds and controls and then infected with HCMV at a MOI of 3.0 or mock infected.
+The medium was removed at 5 dpi, and the HFFs were harvested using trypsinization.
+The cell viability was determined using trypan blue exclusion using a TC20 automated cell
+counter (BioRad Laboratories, Hercules, CA, USA) following the manufacturer’s protocol.
+The test was also performed using the native PpFucCS at 500 µg/mL via the trypan blue
+exclusion assay along with the ATP release assay. We performed the bioluminescent
+ATP assay by overlaying the compounds for ﬁve days on the conﬂuent HFF in an opaque-
+walled 96-well tissue culture plate with blank controls using a CellTiter-Glo 2.0 Cell Viability
+Assay kit (Promega Corporation, Madison, WI, USA, Catalog No. G9242) according to
+the manufacturer’s protocol. The ATP luminescence was measured using a Cytation 7
+automated microscope (BioTek Instruments, Inc.) with the Endpoint/Kinetic read type
+using a single wavelength with the appropriate gain. The viability experiments were
+repeated two times to conﬁrm the measurements.
+Statistics: The data were plotted in Graphpad Prism (Version 9.0, GraphPad Software,
+San Diego, CA, USA, www.graphpad.com, accessed on 3 March 2023). The standard
+error of the mean was plotted as error bars. A p-value of less than 0.05 was considered
+signiﬁcant. An asterisk (*) denotes a signiﬁcant inhibition compared to the mock. The data
+were evaluated using one-way ANOVA in GraphPad Prism 9.0 for multiple comparisons,
+and the differences between the groups were considered signiﬁcant at a p-value of less
+than 0.05.
+3. Results
+3.1. Inhibition of HCMV by PpFucCS and Its Fractions
+Here, we investigated the inhibitory activity of both native PpFucCS and its LMW
+fractions against HCMV. The LMW PpFucCS oligosaccharides studied here were used
+to establish a structural activity relationship and the inﬂuence of MW distribution on its
+anti-viral activity against HCMV.
+The native PpFucCS exhibited potent and efficacious inhibitory activity against HCMV
+while the PpFucCS fractions showed decreased activity in both potency and efficacy (Figure 2A).
+Comparing the mean inhibition at the highest concentration used (50 µg/mL), we show
+that the efﬁcacy of native PpFucCS along with the unfractionated but hydrolyzed PpFucCS
+oligosaccharide mixture (HdPpFucCS) and Fr1 was comparable to UFH, but it was signiﬁ-
+cantly lower in the case of Fr2, Fr3, and Fr4 (Figure 2B). Additionally, the native PpFucCS
+had the least half maximal inhibitory concentration (IC50) value amongst all the tests and
+was comparable to that of UFH (Table 1). Thus, based on the comparison of low MW
+PpFucCS products, it is evident that HdPpFucCS and Fr1 maintain better antiviral activity
+than Fr2, Fr3, and Fr4 while displaying only slightly less activity than native PpFucCS
+and UFH. Earlier, our 1D 1H NMR spectra showed the presence of four fucose units in
+
+Viruses 2023, 15, 859
+6 of 12
+Fr1–Fr3 that were similar to the native PpFucCS structure: α- Fuc2,4S, α-Fuc2,4S, α-Fuc4S,
+and α-Fuc0S [30]. This indicates that, although Fr1–Fr3 differ in size, they have similar
+structures. The Fuc anomeric peaks in fraction 4 showed an upﬁeld 1H shift, which may
+indicate desulfation. Interestingly, the Fenton chemistry demonstrated a preserved struc-
+tural integrity of the native PpFucCS in the majority of the oligosaccharides produced
+(Fr1–Fr3), and only a small percentage of the very low MW (Fr4) showed more chemical
+modiﬁcations [30]. Combining these recently published results with the current results, it is
+evident that PpFucCS oligosaccharides lose their anti-HCMV activity in a size-dependent
+manner and that structural features play a crucial role in their anti-viral activity.
+To study the inhibition of progeny virion formation and virus growth, we performed
+a virus yield reduction assay (at MOI 3.0). The IC50 obtained by performing this assay
+(2.957 µg/mL) (Figure S1) is very close to the IC50 (3.6 µg/mL) determined by the GFP
+reduction assay conducted at a low MOI (0.01) (Table 1), thus indicating that the inhibitory
+properties of PpFucCS against HCMV do not depend on the MOI.
+ 
+(A) 
+(B) 
+Figure 2. Anti-HCMV activity of PpFucCS oligosaccharides. PpFucCS oligosaccharides were assayed
+for their potential to inhibit the HCMV (GFP-tagged TowneBAC strain) infection in HFFs (MOI
+0.1) by enumerating the cells expressing GFP. (A) Normalized values from the assay were analyzed
+by nonlinear regression to ﬁt a dose–response curve using the least squares method considering
+each repeated measure as an individual point. The plotted curve shows the percentage of HCMV
+inhibition in a (log) concentration-dependent manner. Curves in the plot represent the following:
+PpFucCS (red), HdPpFucCS (green), Fr1 (navy), Fr2 (purple), Fr3 (blue), Fr4 (brown), and UFH (black).
+(B) Using the normalized values from the same assay, we calculated the percentage inhibition at the
+maximum concentration used (Imax) and compared with the UFH at the same concentration (50
+µg/mL) by performing one-way ANOVA test with multiple comparisons by comparing the means
+of each test with control UFH, and corrected using a Dunnett’s post hoc test, showing signiﬁcant
+differences among the means. The results are representative of three independent experiments. The
+standard error of the mean was plotted as error bars. The ***, **, and ns (non-signiﬁcant) indicate
+p-value < 0.001, from 0.001 to 0.01, and ≥0.05, respectively.
+
+Viruses 2023, 15, 859
+7 of 12
+Table 1. IC50 values of anti-viral activities of PpFucCS and its oligosaccharides. The IC50 values
+of anti-HCMV inhibitory activity of PpFucCS and its oligosaccharides were determined in HFFs.
+Considering the role of avidity often found in protein–glycosaminoglycan (GAG) interactions and the
+broad range of molecular weights of the compounds, IC50 values were measured in terms of µg/mL
+rather than the molar units. ND, not detected.
+Compounds
+IC50 (µg/mL)
+SEM (µg/mL)
+Lower 95% Conf.
+Limit (µg/mL)
+Upper 95% Conf.
+Limit (µg/mL)
+PpFucCS
+3.6
+0.3
+3.0
+4.2
+HdPpFucCS
+37.8
+4.7
+27.7
+47.9
+Fraction1
+15.7
+5.4
+4.2
+27.3
+Fraction2
+83.1
+39.9
+0
+166.7
+Fraction3
+ND
+ND
+ND
+ND
+Fraction4
+ND
+ND
+ND
+ND
+UFH
+0.9
+1.946
+0
+4.9
+3.2. PpFucCS Speciﬁcally Inhibits HCMV Entry into Cells
+To assess whether PpFucCS inhibits the entry of HCMV into cells (HFFs), we utilized
+the TowneBAC strain of the HCMV labeled with a self-quenching ﬂuorescent label (R18
+ﬂuorescence assay). The ﬂuorescence was recorded at different time intervals starting from
+0 to 60 min post infection (Figure 3). The R18 dye transitions from one monolayer of a
+ﬂuid-state phospholipid bilayer membrane to another in a potential-dependent manner,
+somewhat relieving the quenching of its ﬂuorescence [35]. The ﬂuorescence from the HCMV
+virus particles that have been labeled with high quantities of R18 is highly self-quenched
+and their fusion with the host cell membrane leads to an increase in ﬂuorescence, which is
+often visible only after the virus has entered the cell. A signiﬁcantly higher number of virus
+particles entered the mock-treated cells compared to the cells treated with native PpFucCS
+at 60 min post infection (Figure 3A,B).
+(A) 
+Figure 3. Cont.
+
+Viruses 2023, 15, 859
+8 of 12
+(B) 
+Figure 3. Inhibition of HCMV entry into the HFF cells by native PpFucCS. The primary HFF were
+challenged by the unlabeled (a) or R18 labeled (b–i) TowneBAC strain of HCMV at a MOI of 3.0. The
+HFFs were either mock treated (a–c) or pretreated for one hour using PpFucCS (50 µg/mL) (d–i). The
+number of ﬂuorescent virus particles were enumerated at different time points post infection and
+plotted in Graphpad Prism 9. The HFFs were either mock treated and infected with the unlabeled
+virus at ‘60′ min (a), or mock treated and infected with the R18 labeled virus at ‘0′ min (b), ‘60′ min (c),
+or PpFucCS-treated and infected with the R18 labeled virus at ‘0′ min (d), ‘5′ min (e), ‘10′ min (f), ‘20′
+min (g), ‘40′ min (h), and ‘60′ min (i). (A) Images showing the different groups either treated or mock
+treated. The cell nuclei appear blue ﬂuorescent while the red ﬂuorescent virus particles are indicated
+by the circle and arrows. (B) Bar plot represents the number of ﬂuorescent virus particles per image
+ﬁeld for treatment groups at different time points. The results are representative of four independent
+experiments and were analyzed by performing one-way ANOVA test with multiple comparisons
+(comparing the means of each test with mock-treated control at ‘60′ min). The standard error of the
+mean was plotted as error bars. The ***, and ns indicate p-value < 0.001, and ≥0.05, respectively.
+3.3. Effect of PpFucCS and Its Oligosaccharides Treatment on Cell Viability
+PpFucCS and its oligosaccharides do not exhibit any signiﬁcant cytotoxicity against
+primary HFF cells when examined at the highest concentration used in the antiviral assay
+(50 µg/mL) (Figure 4A) and show a protective effect against virus-induced cell death at
+ﬁve days post infection (Figure 4B) when examined using a trypan blue exclusion assay.
+Notably, the Fr3 and Fr4 that did not show any signiﬁcant antiviral activity (Figure 2) also
+did not show any signiﬁcant protection from virus-induced cell death. Furthermore, we
+
+Viruses 2023, 15, 859
+9 of 12
+did not see any cytotoxic effect on the HFFs when treated with the native PpFucCS at
+500 µg/mL for ﬁve days using the trypan blue exclusion assay (Figure S2). To corroborate
+these ﬁndings, we treated the HFFs with the native PpFucCS at 500 µg/mL and 50 µg/mL
+along with heparin control for ﬁve days and performed the ATP release assay (Figure S3).
+ 
+(A) 
+(B) 
+Figure 4. Effect of treatment of PpFucCS and its oligosaccharides on cell viability of HFF cells. The
+primary HFF were pretreated for one hour using PpFucCS and its oligosaccharides at the highest
+concentration used for inhibition assays (50 µg/mL) along with heparin (UFH) control. The HFFs
+were either mock infected (A) or infected with HCMV at a MOI of 3.0 (B) in the presence of test
+compounds. Cells were harvested at 5 days post-infection and cell viability was assessed using a
+trypan blue exclusion assay. The results are representative of two independent experiments. The
+standard error of the mean was plotted as error bars. The **, *, and ns indicate p-value between 0.001
+and 0.01, between 0.01 and 0.05, and ≥0.05, respectively.
+4. Discussion
+In this study, we demonstrated that PpFucCS and its hydrolyzed fractions efﬁciently
+inhibit the HCMV infection of primary human ﬁbroblasts, speciﬁcally blocking virus entry
+into the cells. The treatment of HFFs with native PpFucCS and its oligosaccharides did
+not affect the cell viability for the duration of treatment, thus conﬁrming that the observed
+reduction in the virus titer was not because of cytotoxicity. Moreover, when the HFFs were
+pretreated and maintained in these marine glycans throughout the course of infection, the
+cells resisted infection-induced cell death. To conﬁrm that PpFucCS has a direct impact on
+virus entry, we used HCMV labeled with self-quenching dye that only ﬂuoresces when
+the virus fuses with the cell membrane. This experiment showed the signiﬁcant effect of
+PpFucCS on HCMV entry.
+GAGs are composed of repeating disaccharide units that contain an amino sugar (either
+GalNAc or GlcNAc) and a uronic acid (either IdoA or GlcA) or the neutral sugar galactose.
+GAGs have a variety of biological functions, including cell signaling, proliferation, and
+wound healing, as a result of their structural diversity, and are ubiquitously found on
+the surface of cells, where they act as receptors and signals for cellular and pathogenic
+processes [36]. Viruses or other pathogens utilize this structural diversity of GAGs to
+selectively bind and enter the cells [37]. The virion attachment caused by GAG binding
+and eventual entry are usually independent events, with attachment assumed to be mostly
+nonspeciﬁc and charge-dependent but, instead, entry is thought to be driven by highly
+speciﬁc protein–protein interactions. We have recently shown that HS–virus interactions are
+speciﬁc and depend on a deﬁned structural functional relationship [12,15,28]. Interactions
+with HS are a frequent prerequisite for many viral infections [38,39]. As a result, inhibitors
+targeting virus–HS interactions have the potential to function as broad-spectrum antivirals
+that could have a signiﬁcant inﬂuence on global health.
+
+Viruses 2023, 15, 859
+10 of 12
+Many compounds including small organic and inorganic compounds, as well as
+polycationic peptides, have been employed to bind to HS and thereby protect the cells
+from viral attachment [40–43]. Conversely, inhibitors may bind to virion components to
+sequester and inactivate the virions very similarly to neutralizing antibodies [44]. These are
+mostly HS mimetics, and many of them have broad-spectrum antiviral action. In this study,
+we investigated the anti-HMCV activities of two GAGs: (i) heparin, a highly sulfated linear
+GAG widely exploited as in research [45], and (ii) PpFucCS, a unique marine branched
+GAG. From our results, we were able to compare the anti-HCMV activity of PpFucCS
+and its LWW fractions with the commonly used control heparin. Since the use of heparin
+can lead to excessive bleeding and heparin-induced thrombocytopenia, PpFucCS offers a
+reasonable alternative to be developed as an antiviral.
+The inhibitory activities of the LMW PpFucCS derivatives were proportional to their
+chain lengths. The native high MW structure is necessary to achieve maximum HMCV
+inhibition. Upon hydrolysis (depolymerization) to generate the oligosaccharide mixture
+(HdPpFuCS), the activity was considerably decreased. However, Fr1 had more anti-HMCV
+activity compared to HdPpFucCS, most likely because HdPpFucCS has signiﬁcant amounts
+of less active components (Fr2–Fr4: nearly 3/4 of the amount). Moreover, Fr4 has a
+degraded structure. All the PpFucCS fractions (Fr1–Fr3) show the same 1D 1H NMR
+spectral proﬁle as the native, therefore indicating they have the same structure [30]. The
+only exception is Fr4, which was spectrally different and structurally degraded.
+We recently observed a similar behavior of MW dependence on anticoagulation and
+anti-SARS-CoV-2 actions of PpFucCS [30]. However, for the sulfated galactan from the
+red alga Botryocladia occidentalis (BoSG), the reduction in the chain length was able to
+dissociate the anticoagulant and anti-SARS-CoV-2 activities [31]. The results from this
+current work support the ﬁrst case, in which the high MW of the marine sulfated glycan, in
+this case PpFucCS, is a key element for the biological activity. The current results regarding
+the anti-HCMV activity of PpFucCS perfectly match our recent ﬁndings regarding the
+anticoagulation and anti-SARS-CoV-2 action of PpFucCS [30].
+5. Conclusions
+The current results demonstrate the antiviral activities of marine sulfated glycan Pp-
+FucCS against HCMV, which is an enveloped DNA virus. Earlier, our group successfully
+used a copper-based Fenton approach for the free-radical depolymerization of PpFucCS to
+produce oligosaccharides with shorter chain lengths but preserved the structural integrity,
+so it was similar to the native PpFucCS [30]. Our ﬁndings imply that a native PpFucCS
+structure with a large MW is essential for achieving the greatest anti-HCMV activity. The
+retained effective inhibitory potential of high MW structures derived from PpFucCS sug-
+gests this marine glycan is a promising candidate for further evaluation and development
+as a potential antiviral.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/v15040859/s1, Figure S1: Anti-HCMV activity of native PpFucCS;
+Figure S2: Effect of cytotoxicity of PpFucCS at a higher concentration on HFF cells; Figure S3:
+Assessing the cytotoxicity of PpFucCS by quantifying the ATP release.
+Author Contributions: R.T. and V.H.P. designed and guided the experiments; P.S., R.D., P.R., J.S.,
+V.H.P. and R.T. performed the experiments and analyzed the data. R.T., P.S., and V.H.P. wrote
+and edited the manuscript. Conceptualization, R.T., V.H.P. and P.S.; methodology, R.T., V.H.P., P.S.
+and R.D.; software, P.S. and R.T.; validation, R.T., P.S. and V.H.P.; formal analysis, R.T. and P.S.;
+investigation, R.T., P.S. and V.H.P.; resources, R.T. and V.H.P.; writing—original draft preparation,
+P.S.; writing—review and editing, R.T. and V.H.P.; supervision, R.T.; project administration, R.T.;
+funding acquisition, R.T. and V.H.P. All authors have read and agreed to the published version of the
+manuscript.
+Funding: V.H.P. acknowledges funds from the National Institutes of Health 1P20GM130460-01A1
+subproject 7936 and 1R03NS110996-01A1, and the University of Mississippi. R.T. is funded by the
+
+Viruses 2023, 15, 859
+11 of 12
+National Aeronautics and Space Administration (NASA), grant number 80NSSC19K1603. The content
+of the information does not necessarily reﬂect the position or the policy of the sponsors, and no
+ofﬁcial endorsement should be inferred. The content is solely the responsibility of the authors and
+does not necessarily represent the ofﬁcial views of the National Institutes of Health and NASA.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: All data are included in the manuscript itself.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Mocarski, E.S.J.; Shenk, T.; Pass, R.F. Fields Virology, 5th ed.; Wilkins, L.W., Ed.; Wolters Kluwer Health: Philadelphia, PA, USA, 2006.
+2.
+Torres-Madriz, G.; Boucher, H.W. Immunocompromised hosts: Perspectives in the treatment and prophylaxis of cytomegalovirus
+disease in solid-organ transplant recipients. Clin. Infect. Dis. 2008, 47, 702–711. [CrossRef] [PubMed]
+3.
+Britt, W.J. Congenital Human Cytomegalovirus Infection and the Enigma of Maternal Immunity. J. Virol. 2017, 91, e02392-16.
+[CrossRef] [PubMed]
+4.
+Grifﬁths, P.; Reeves, M. Pathogenesis of human cytomegalovirus in the immunocompromised host. Nat. Rev. Microbiol. 2021,
+19, 759–773. [CrossRef] [PubMed]
+5.
+Maschke, M.; Kastrup, O.; Diener, H.C. CNS manifestations of cytomegalovirus infections: Diagnosis and treatment. CNS Drugs
+2002, 16, 303–315. [CrossRef]
+6.
+Mitra, D.; Hasan, M.H.; Bates, J.T.; Bidwell, G.L., 3rd; Tandon, R. Tegument Protein pp150 Sequence-Speciﬁc Peptide Blocks
+Cytomegalovirus Infection. Viruses 2021, 13, 2277. [CrossRef]
+7.
+Hodowanec, A.C.; Pikis, A.; Singer, M.E. The Development of Therapeutics for the Treatment and Prevention of CMV Disease in
+the Transplant Population: A Regulatory Perspective. J. Infect. Dis. 2020, 221, S109–S112. [CrossRef]
+8.
+Voelker, R. A Treatment Advance for Patients with Posttransplant CMV. JAMA 2022, 327, 27. [CrossRef]
+9.
+Lurain, N.S.; Chou, S. Antiviral drug resistance of human cytomegalovirus. Clin. Microbiol. Rev. 2010, 23, 689–712. [CrossRef]
+10.
+Chou, S. Approach to drug-resistant cytomegalovirus in transplant recipients. Curr. Opin. Infect. Dis. 2015, 28, 293–299. [CrossRef]
+11.
+El Chaer, F.; Shah, D.P.; Chemaly, R.F. How I treat resistant cytomegalovirus infection in hematopoietic cell transplantation
+recipients. Blood 2016, 128, 2624–2636. [CrossRef]
+12.
+Tandon, R.; Sharp, J.S.; Zhang, F.; Pomin, V.H.; Ashpole, N.M.; Mitra, D.; McCandless, M.G.; Jin, W.; Liu, H.; Sharma, P.; et al.
+Effective Inhibition of SARS-CoV-2 Entry by Heparin and Enoxaparin Derivatives. J. Virol. 2021, 95, e01987-20. [CrossRef]
+13.
+Sarrazin, S.; Lamanna, W.C.; Esko, J.D. Heparan sulfate proteoglycans. Cold Spring Harb. Perspect. Biol. 2011, 3, a004952. [CrossRef]
+[PubMed]
+14.
+Shukla, D.; Spear, P.G. Herpesviruses and heparan sulfate: An intimate relationship in aid of viral entry. J. Clin. Investig. 2001,
+108, 503–510. [CrossRef]
+15.
+Mitra, D.; Hasan, M.H.; Bates, J.T.; Bierdeman, M.A.; Ederer, D.R.; Parmar, R.C.; Fassero, L.A.; Liang, Q.; Qiu, H.; Tiwari, V.; et al.
+The degree of polymerization and sulfation patterns in heparan sulfate are critical determinants of cytomegalovirus entry into
+host cells. PLoS Pathog. 2021, 17, e1009803. [CrossRef]
+16.
+Stein, K.R.; Gardner, T.J.; Hernandez, R.E.; Kraus, T.A.; Duty, J.A.; Ubarretxena-Belandia, I.; Moran, T.M.; Tortorella, D. CD46
+facilitates entry and dissemination of human cytomegalovirus. Nat. Commun. 2019, 10, 2699. [CrossRef] [PubMed]
+17.
+Gerna, G.; Kabanova, A.; Lilleri, D. Human Cytomegalovirus Cell Tropism and Host Cell Receptors. Vaccines 2019, 7, 70.
+[CrossRef] [PubMed]
+18.
+Farrell, H.E.; Stevenson, P.G. Cytomegalovirus host entry and spread. J. Gen. Virol. 2019, 100, 545–553. [CrossRef]
+19.
+Vanarsdall, A.L.; Johnson, D.C. Human cytomegalovirus entry into cells. Curr. Opin. Virol. 2012, 2, 37–42. [CrossRef]
+20.
+Compton, T.; Nowlin, D.M.; Cooper, N.R. Initiation of human cytomegalovirus infection requires initial interaction with cell
+surface heparan sulfate. Virology 1993, 193, 834–841. [CrossRef]
+21.
+Borst, E.M.; Ständker, L.; Wagner, K.; Schulz, T.F.; Forssmann, W.G.; Messerle, M. A peptide inhibitor of cytomegalovirus infection
+from human hemoﬁltrate. Antimicrob. Agents Chemother. 2013, 57, 4751–4760. [CrossRef]
+22.
+Baldwin, J.; Maus, E.; Zanotti, B.; Volin, M.V.; Tandon, R.; Shukla, D.; Tiwari, V. A role for 3-O-sulfated heparan sulfate in
+promoting human cytomegalovirus infection in human iris cells. J. Virol. 2015, 89, 5185–5192. [CrossRef]
+23.
+Nguyen, C.C.; Kamil, J.P. Pathogen at the Gates: Human Cytomegalovirus Entry and Cell Tropism. Viruses 2018, 10, 704.
+[CrossRef] [PubMed]
+24.
+Vanarsdall, A.L.; Pritchard, S.R.; Wisner, T.W.; Liu, J.; Jardetzky, T.S.; Johnson, D.C. CD147 Promotes Entry of Pentamer-Expressing
+Human Cytomegalovirus into Epithelial and Endothelial Cells. mBio 2018, 9, e00781-18. [CrossRef] [PubMed]
+25.
+Kim, J.H.; Collins-McMillen, D.; Buehler, J.C.; Goodrum, F.D.; Yurochko, A.D. Human Cytomegalovirus Requires Epidermal
+Growth Factor Receptor Signaling to Enter and Initiate the Early Steps in the Establishment of Latency in CD34+ Human
+Progenitor Cells. J. Virol. 2017, 91, e01206-16. [CrossRef] [PubMed]
+
+Viruses 2023, 15, 859
+12 of 12
+26.
+Xiaofei, E.; Meraner, P.; Lu, P.; Perreira, J.M.; Aker, A.M.; McDougall, W.M.; Zhuge, R.; Chan, G.C.; Gerstein, R.M.;
+Caposio, P.; et al. OR14I1 is a receptor for the human cytomegalovirus pentameric complex and deﬁnes viral epithelial cell
+tropism. Proc. Natl. Acad. Sci. USA 2019, 116, 7043–7052. [CrossRef]
+27.
+Cagno, V.; Tseligka, E.D.; Jones, S.T.; Tapparel, C. Heparan Sulfate Proteoglycans and Viral Attachment: True Receptors or
+Adaptation Bias? Viruses 2019, 11, 596. [CrossRef]
+28.
+Dwivedi, R.; Samanta, P.; Sharma, P.; Zhang, F.; Mishra, S.K.; Kucheryavy, P.; Kim, S.B.; Aderibigbe, A.O.; Linhardt, R.J.; Tandon,
+R.; et al. Structural and kinetic analyses of holothurian sulfated glycans suggest potential treatment for SARS-CoV-2 infection. J.
+Biol. Chem. 2021, 297, 101207. [CrossRef]
+29.
+Hirsh, J.; Anand, S.S.; Halperin, J.L.; Fuster, V. Guide to anticoagulant therapy: Heparin: A statement for healthcare professionals
+from the American Heart Association. Circulation 2001, 103, 2994–3018. [CrossRef]
+30.
+Dwivedi, R.; Sharma, P.; Eilts, F.; Zhang, F.; Linhardt, R.J.; Tandon, R.; Pomin, V.H. Anti-SARS-CoV-2 and anticoagulant properties
+of Pentacta pygmaea fucosylated chondroitin sulfate depend on high molecular weight structures. Glycobiology 2023, 33, 75–85.
+[CrossRef] [PubMed]
+31.
+Kim, S.B.; Zoepﬂ, M.; Samanta, P.; Zhang, F.; Xia, K.; Thara, R.; Linhardt, R.J.; Doerksen, R.J.; McVoy, M.A.; Pomin, V.H.
+Fractionation of sulfated galactan from the red alga Botryocladia occidentalis separates its anticoagulant and anti-SARS-CoV-2
+properties. J. Biol. Chem. 2022, 298, 101856. [CrossRef]
+32.
+Oh, J.H.; Martinez, A.D.; Cao, H.; George, G.W.; Cobb, J.S.; Sharma, P.; Fassero, L.A.; Arole, K.; Carr, M.A.; Lovell, K.M.; et al.
+Radio Frequency Heating of Washable Conductive Textiles for Bacteria and Virus Inactivation. ACS Appl. Mater. Interfaces 2022,
+14, 43732–43740. [CrossRef]
+33.
+Dunn, W.; Chou, C.; Li, H.; Hai, R.; Patterson, D.; Stolc, V.; Zhu, H.; Liu, F. Functional proﬁling of a human cytomegalovirus
+genome. Proc. Natl. Acad. Sci. USA 2003, 100, 14223–14228. [CrossRef] [PubMed]
+34.
+Malenovská, H. The inﬂuence of stabilizers and rates of freezing on preserving of structurally different animal viruses during
+lyophilization and subsequent storage. J. Appl. Microbiol. 2014, 117, 1810–1819. [CrossRef] [PubMed]
+35.
+Invitrogen. A Guide to Fluorescent Probes and Labeling Technologies. In Molecular Probes Handbook, 11th ed.; TF Scientiﬁc, Ed.;
+Invitrogen: Waltham, MA, USA, 2010; pp. 579–585.
+36.
+Gandhi, N.S.; Mancera, R.L. The structure of glycosaminoglycans and their interactions with proteins. Chem. Biol. Drug Des. 2008,
+72, 455–482. [CrossRef]
+37.
+Aquino, R.S.; Park, P.W. Glycosaminoglycans and infection. Front. Biosci. Landmark Ed. 2016, 21, 1260–1277. [CrossRef] [PubMed]
+38.
+Zoepﬂ, M.; Dwivedi, R.; Taylor, M.C.; Pomin, V.H.; McVoy, M.A. Antiviral activities of four marine sulfated glycans against
+adenovirus and human cytomegalovirus. Antivir. Res. 2021, 190, 105077. [CrossRef]
+39.
+Yan, L.; Song, Y.; Xia, K.; He, P.; Zhang, F.; Chen, S.; Pouliot, R.; Weiss, D.J.; Tandon, R.; Bates, J.T.; et al. Heparan sulfates from bat
+and human lung and their binding to the spike protein of SARS-CoV-2 virus. Carbohydr. Polym. 2021, 260, 117797. [CrossRef]
+40.
+Badani, H.; Garry, R.F.; Wimley, W.C. Peptide entry inhibitors of enveloped viruses: The importance of interfacial hydrophobicity.
+Biochim. Biophys. Acta 2014, 1838, 2180–2197. [CrossRef]
+41.
+De Paiva, R.E.F.; Marçal Neto, A.; Santos, I.A.; Jardim, A.C.G.; Corbi, P.P.; Bergamini, F.R.G. What is holding back the development
+of antiviral metallodrugs? A literature overview and implications for SARS-CoV-2 therapeutics and future viral outbreaks. Dalton
+Trans. 2020, 49, 16004–16033. [CrossRef]
+42.
+Hao, C.; Yu, G.; He, Y.; Xu, C.; Zhang, L.; Wang, W. Marine glycan-based antiviral agents in clinical or preclinical trials. Rev. Med.
+Virol. 2019, 29, e2043. [CrossRef]
+43.
+Jin, W.; Zhang, W.; Mitra, D.; McCandless, M.G.; Sharma, P.; Tandon, R.; Zhang, F.; Linhardt, R.J. The structure-activity relationship
+of the interactions of SARS-CoV-2 spike glycoproteins with glucuronomannan and sulfated galactofucan from Saccharina japonica.
+Int. J. Biol. Macromol. 2020, 163, 1649–1658. [CrossRef] [PubMed]
+44.
+Xiao, Y.; Dong, X.; Chen, Y.H. Neutralizing antibodies mechanism of neutralization and protective activity against HIV-1. Immunol.
+Res. 2002, 25, 193–200. [CrossRef] [PubMed]
+45.
+Pomin, V.H.; Mulloy, B. Current structural biology of the heparin interactome. Curr. Opin. Struct. Biol. 2015, 34, 17–25. [CrossRef]
+[PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

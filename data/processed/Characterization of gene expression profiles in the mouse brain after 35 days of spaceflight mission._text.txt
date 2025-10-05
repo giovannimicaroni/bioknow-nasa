@@ -1,0 +1,1487 @@
+ARTICLE
+OPEN
+Characterization of gene expression proﬁles in the mouse brain
+after 35 days of spaceﬂight mission
+Jacob M. Holley
+1, Seta Stanbouly1, Michael J. Pecaut
+1, Jeffrey S. Willey2, Michael Delp3 and Xiao Wen Mao
+1✉
+It has been proposed that neuroinﬂammatory response plays an important role in the neurovascular remodeling in the brain after stress.
+The goal of the present study was to characterize changes in the gene expression proﬁles associated with neuroinﬂammation, neuronal
+function, metabolism and stress in mouse brain tissue. Ten-week old male C57BL/6 mice were launched to the International Space
+Station (ISS) on SpaceX-12 for a 35-day mission. Within 38 ± 4 h of splashdown, mice were returned to Earth alive. Brain tissues were
+collected for analysis. A novel digital color-coded barcode counting technology (NanoStringTM) was used to evaluate gene expression
+proﬁles in the spaceﬂight mouse brain. A set of 54 differently expressed genes (p < 0.05) signiﬁcantly segregates the habitat ground
+control (GC) group from ﬂight (FLT) group. Many pathways associated with cellular stress, inﬂammation, apoptosis, and metabolism were
+signiﬁcantly altered by ﬂight conditions. A decrease in the expression of genes important for oligodendrocyte differentiation and myelin
+sheath maintenance was observed. Moreover, mRNA expression of many genes related to anti-viral signaling, reactive oxygen species
+(ROS) generation, and bacterial immune response were signiﬁcantly downregulated. Here we report that signiﬁcantly altered immune
+reactions may be closely associated with spaceﬂight-induced stress responses and have an impact on the neuronal function.
+npj Microgravity  (2022) 8:35 ; https://doi.org/10.1038/s41526-022-00217-4
+INTRODUCTION
+The spaceﬂight environment is characterized mainly by ultraviolet
+and ionizing radiation, microgravity, and physiological/psychologi-
+cal stressors. These conditions present a signiﬁcant hazard to
+spaceﬂight crews during the course of mission activities. The
+susceptibility of the central nervous system (CNS) to spaceﬂight-
+induced changes can be particularly devastating to the health,
+mission performance, and quality of life of the spaceﬂight crew
+both acutely and chronically. The health risk from spaceﬂight-
+induced neuronal damage and potential adverse neurovascular
+effects are a chief concern, examples are intracranial ﬂuid
+redistribution results in alteration of brain perfusion, neurovestib-
+ular problems, and cognitive alterations in astronauts1,2 caused by
+microgravity and/or strong gravitational changes during ascent and
+re-entry. Long-duration spaceﬂights reportedly induce immune
+dysregulation, which is considered a risk to astronaut safety and
+mission success3. Studies to date have demonstrated the altered
+distribution of peripheral leukocytes, a diminished function of
+speciﬁc leukocyte subpopulations, and skewed cytokine proﬁles in
+many astronauts3. Many biomarkers associated with neuroinﬂam-
+mation following space radiation and space stressors in rodents
+and humans have been identiﬁed4–8. However, the precise nature
+of immune dysregulation during spaceﬂight is not well understood.
+Evidence suggests that acute exposure to galactic cosmic rays
+(GCRs) induce detrimental CNS changes including an increased
+level of neuroinﬂammation, neuronal damage and cognitive
+deﬁcits similar to accelerated aging9–12. Ionizing radiation has been
+shown to elicit neuroinﬂammation through direct activation of
+microglia cells13 and through the increased inﬁltration of immune
+and inﬂammatory cells through the damaged blood-brain barrier
+(BBB)14. Study also showed that both microgravity encountered by
+astronauts in space and simulated microgravity on earth induce
+changes in brain structure and function15. Microgravity induces a
+tremendous shift in body ﬂuids, an increase in brain ﬂuid and
+alterations in tissue perfusion16. Space microgravity modulates the
+expression of cellular molecules, and alters pro-inﬂammation
+cytokine secretion17. Neuroinﬂammation is also a central patholo-
+gical feature of several acute and chronic brain diseases, including
+Alzheimer’s disease (AD), Parkinson disease, amyotrophic lateral
+sclerosis, and multiple sclerosis18.
+The CNS is sensitive to oxidative injury due to its high oxygen
+consumption19, the content of oxidizable unsaturated lipids20 and
+low levels of anti-oxidant defenses21. Oxidative injury has been
+implicated as a causative or contributory factor in a number of
+neurodegenerative conditions, including aging, and ischemic,
+traumatic damage22–26. Our preliminary studies have shown that
+spaceﬂight and ionizing radiation cause prolonged oxidative
+stress and endothelial dysfunction that may lead to chronic
+inﬂammation and adverse remodeling27–30. However, our knowl-
+edge about the mechanism and consequences of spaceﬂight
+condition-induced neuroinﬂammation is very limited. Because of
+the complexity of the processes and pathways that lead to
+neuroinﬂammation, an in-depth “omics” approach will potentially
+provide insight to understanding the impact of environmental
+insults on the CNS and the immune function that may have a
+long-lasting impact.
+The goal of this study was to characterize changes in gene
+expression using a neuroinﬂammatory assay panel to investigate
+inﬂammation, neuronal function, growth, metabolism, and stress
+in mouse brain tissue after spaceﬂight.
+RESULTS
+Changes of gene expression in neuroinﬂammation panel
+A set of 54 differently expressed genes (DEG) signiﬁcantly (p < 0.05) by
+one-way analysis of variance (ANOVA) and Tukey’s HSD (honestly
+1Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA. 2Department of
+Radiation Oncology, Wake Forest University, School of Medicine, Winston-Salem, NC 27101, USA. 3Department of Nutrition, Food and Exercise Sciences, Florida State
+University, Tallahassee, FL 32306, USA. ✉email: xmao@llu.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+signiﬁcant difference) test segregates the ground control (GC) group
+from the ﬂight (FLT) group (Table 1). Clusters of genes related to
+neuronal function, neuronal cell support, immune function, and
+cellular growth and stress were signiﬁcantly altered and organized
+based on their protein’s role. SIN3A (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_001110350), SLC2A5 (https://www.ncbi.nlm.nih.g
+ov/gene/?term=NM_019741), MERTK (https://www.ncbi.nlm.nih.
+gov/gene/?term=NM_008587), TREM2 (https://www.ncbi.nlm.nih.
+gov/gene/?term=NM_025864), RIPK1 (https://www.ncbi.nlm.nih.g
+ov/gene/?term=NM_009068) are listed in multiple tables as they
+are found to play various roles.
+Changes of gene expression associated with neuronal
+function
+Genes directly involved with neuronal function were universally
+downregulated and are summarized in Table 2 and Fig. 1. Overall, a
+picture of decreased neuron plasticity and signaling dysfunction is
+painted. Those genes that are involved in neuron support cell
+function were also found to be broadly downregulated and are
+summarized in Table 3 and Fig. 2. Microglial cell and oligodendrocyte
+dysfunction were most pronounced along with the inhibition of
+myelin sheath maintenance. Levels of immune and inﬂammation
+related gene expression were grossly downregulated except for two
+upregulated
+genes,
+H2-T23
+(https://www.ncbi.nlm.nih.gov/gene/?
+term=NM_010398) and SOX4 (https://www.ncbi.nlm.nih.gov/gene/?
+term=NM_009238). The summary is presented in Table 4 and Fig. 3.
+Generally, we see the impairment of genes related to microbial
+defense with generalized dysfunction of immunity and disinhibition
+of inappropriate inﬂammation. And ﬁnally, genes with roles in cellular
+stress and growth are shown in Fig. 4 with downregulation in all
+genes with exception of HSPB1 (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_013560), GADD45G (https://www.ncbi.nlm.nih
+.gov/gene/?term=NM_011817), CCNG2 (https://www.ncbi.nlm.n
+ih.gov/gene/?term=NM_007635), SESN1 (https://www.ncbi.nlm.
+nih.gov/gene/?term=NM_001013370),
+and
+CDC25A
+(https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_007658)
+which
+were
+signiﬁcantly upregulated. In general, we see an increased
+cellular stress response, growth arrest, and a possible trend
+toward more inﬂammatory-associated cell death.
+Spaceﬂight-induced changes of pathways
+Many pathways associated with cellular stress, inﬂammation,
+apoptosis, and metabolism were altered by ﬂight condition using
+DEG identiﬁed by Nanostring’s Advanced Analysis module path-
+way scoring through correlation-guided gene subsetting, which
+functionally annotated groups of genes followed by unsupervised
+clustering of samples31. Higher scores compared to normalized
+gene expression general means upregulation while lower scores
+represent downregulation. Figure 5 summarized pathway results
+in a plot of all pathway scores compared to GC controls. Among
+these pathways, scores for angiogenesis, cytokine signaling,
+epigenetic regulation, and notch signaling were signiﬁcantly
+increased which may indicate upregulation of the pathway
+(p < 0.05), while scores for innate immune response and oligoden-
+drocyte function were greatly reduced in the ﬂight group
+compared to the controls which may indicate downregulation of
+the pathways (p < 0.05) by one-way ANOVA and Tukey’s HSD test
+(Fig. 6a–f). The score for microglia function was also decreased but
+with trending signiﬁcance (p = 0.07) (Fig. 6g).
+DISCUSSION
+Our data showed robust changes in gene expression proﬁles after
+spaceﬂight. Genes supporting neuronal synaptic signaling and
+migration were signiﬁcantly downregulated. Decreased expression
+of genes important for oligodendrocyte differentiation and myelin
+sheath maintenance was observed. Downregulation of microglial
+gene expression that is important for apoptotic cell clearance,
+phagocytosis, and proliferation were evident. Genes supporting
+innate immune responses were also downregulated regarding anti-
+viral signaling, reactive oxygen species (ROS) generation, and
+bacterial immune response. Expression of genes that are correlated
+with DNA damage and cellular stress were upregulated. Many of
+these observed changes are in line with our previous ﬁndings in the
+brains exposed to simulated spaceﬂight condition. Following
+combined exposure of simulated microgravity and radiation, path-
+ways involved in neurogenesis, neuroplasticity, the regulation of
+neuropeptides, neuronal structure, stress, and cellular signaling are
+signiﬁcantly altered29. Gene expression in the brain that was
+analyzed after 90 days of simulated microgravity showed many
+genes related to catalytic and oxidoreductase activities were
+downregulated32. However, in contrary to our ﬁndings, many genes
+related to stress, immune response, metabolic process, and/or
+inﬂammatory response were signiﬁcantly upregulated in their study.
+Duration of environmental stress may play a role in different
+response of gene expression proﬁles and pathway regulation.
+We saw uniform downregulation of gene expression in our
+mouse brain samples directly related to neuron function. NRGN
+(https://www.ncbi.nlm.nih.gov/gene/?term=NM_022029)
+coding
+for a postsynaptic kinase called neurogranin was found to be
+signiﬁcantly reduced in expression. When neurogranin binds
+calmodulin, the concentration of calcium needed to transduce a
+signal is increased33. Given the downregulation of NRGN (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_022029)
+and
+possible
+decrease in availability of neurogranin, neurons may become
+more sensitive to ﬁring. KCND1(https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_008423) codes for a potassium voltage-gated
+channel involved in neurotransmitter release which has been
+shown to be inhibited by some types of ROS generating
+treatments34–36. Environmental stressor-induced ROS may be
+provoking
+the
+down
+regulation
+of
+KCND1(https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_008423). DLG4 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001109752)
+is
+tran-
+scribed into a protein associated with glutamatergic receptor
+signaling while also potentially participating in dendritogenesis37.
+Its downregulation observed in our assay has the potential to
+affect
+glutamatergic
+neuron
+signaling,
+and
+affect
+dendritic
+morphology leading to further dysfunction. NLGN2 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_198862)
+codes
+for
+a
+molecule which selectively mediates inhibitory synapses38. Its
+downregulation may contribute to dysfunction at inhibitory
+neuron synapses. Previous study has shown that inﬂammation
+induced loss of inhibitory nerve terminals or a redistribution of
+presynaptic machinery in inhibitory neurons may increase risk for
+developing neurological disease and psychiatric illness, including
+seizures and schizophrenia39.
+Regarding genes involved in neuron function and plasticity, we
+continue to see universal downregulation in the ﬂight tissue
+compared
+to
+GC
+controls.
+The
+gene
+SIN3A
+(https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001110350) behaves as
+a transcriptional repressor involved in cortical neuron differentia-
+tion40. In past studies the silencing of this gene in mice has
+shown decreased memory consolidation41. It is possible that
+downregulation may have similar, albeit reduced effects on mice
+in spaceﬂight. RELN (https://www.ncbi.nlm.nih.gov/gene/?term=
+NM_011261) codes for an extracellular matrix serine protease
+that regulates microtubule function and plays a role in the
+layering of neurons in the cerebral cortex, among other
+structures42. Its enzymatic activity that is important for cell
+adhesion and reduced transcription, as seen in our ﬂight mice,
+could lead to further reduction of nervous system plasticity.
+SLC2A5 (https://www.ncbi.nlm.nih.gov/gene/?term=NM_019741)
+in a gene responsible for the GLUT5 (https://www.ncbi.nl
+m.nih.gov/gene/2700445) fructose transporter that has been
+found
+in
+numerous
+areas
+including
+the
+BBB,
+and
+the
+J.M. Holley et al.
+2
+npj Microgravity (2022)  35 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+Table 1.
+Summary of the 54 differentially expressed genes in ﬂight (FLT) mice brains relative to habitat ground controls (GC).
+Gene name (mRNA)
+Functions
+Log2 fold Δ LC limit (log2)
+UC limit (log2)
+p value
+Optn
+Autophagy, cell cycle, microglia function
+−0.435
+−0.547
+−0.324
+1.72E−05
+Mertk
+Autophagy, microglia function
+−0.368
+−0.499
+−0.237
+0.000256
+Cd74
+Adaptive immune response, inﬂammatory signaling
+−1
+−1.45
+−0.548
+0.00146
+Plp1
+Oligodendrocyte function
+−0.363
+−0.54
+−0.187
+0.00238
+Sox4
+Microglia function, Wnt
+0.314
+0.156
+0.473
+0.00304
+H2-T23
+Adaptive immune response, astrocyte function, inﬂammatory signaling,
+innate immune response, matrix remodeling
+0.357
+0.165
+0.548
+0.00447
+Irf7
+Apoptosis, inﬂammatory signaling, innate immune response
+−1.06
+−1.63
+−0.487
+0.00544
+Reln
+Growth factor signaling, matrix remodeling
+−0.535
+−0.836
+−0.235
+0.00583
+Prkar2b
+Apoptosis, cell cycle, growth factor signaling
+−0.32
+−0.503
+−0.137
+0.00641
+Agt
+Astrocyte function
+0.432
+0.184
+0.679
+0.00657
+Aldh1l1
+Astrocyte function
+−0.345
+−0.542
+−0.147
+0.00659
+Brd2
+Epigenetic regulation
+−0.182
+−0.286
+−0.0773
+0.00667
+Ccng2
+Cell cycle, DNA damage
+0.292
+0.119
+0.465
+0.00785
+Hspb1
+Angiogenesis, astrocyte function, cellular stress, growth factor
+0.706
+0.284
+1.13
+0.00825
+Dlg4
+Adaptive immune response, angiogenesis, cytokine signaling, growth
+factor signaling, neurons and neurotransmission
+−0.279
+−0.45
+−0.108
+0.00947
+Cd6
+Matrix remodeling
+−0.972
+−1.56
+−0.388
+0.00978
+Csk
+Adaptive immune response, angiogenesis, growth factor
+−0.236
+−0.384
+−0.0878
+0.0108
+F3
+Microglia function
+−0.304
+−0.496
+−0.113
+0.011
+Csf1r
+Cytokine signaling, growth factor signaling, microglia function
+−0.209
+−0.341
+−0.0771
+0.0111
+Uty
+Epigenetic regulation
+0.308
+0.113
+0.502
+0.0112
+Kcnd1
+Microglia function, neurons and neurotransmission
+−0.893
+−1.45
+−0.337
+0.0117
+Cyp27a1
+Inﬂammatory signaling
+−0.805
+−1.32
+−0.292
+0.0132
+Slc2a5
+Microglia function
+−0.623
+−1.02
+−0.226
+0.0132
+Sin3a
+Epigenetic regulation
+−0.43
+−0.715
+−0.146
+0.0142
+E2f1
+Apoptosis, cell cycle, cellular stress, notch
+−0.709
+−1.17
+−0.25
+0.0143
+Egfr
+Adaptive immune response, angiogenesis, astrocyte function
+−0.509
+−0.841
+−0.177
+0.0149
+Tmem206
+Microglia function
+−0.239
+−0.407
+−0.0701
+0.0196
+C5ar1
+Inﬂammatory signaling, neurons and neurotransmission
+−0.851
+−1.44
+−0.259
+0.0201
+Opalin
+Oligodendrocyte function
+−0.546
+−0.935
+−0.157
+0.0205
+Ncf1
+Adaptive immune response, angiogenesis, cellular stress
+−0.539
+−0.918
+−0.159
+0.0214
+Mre11a
+DNA damage
+−0.383
+−0.665
+−0.1
+0.0241
+Ikbkg
+Adaptive immune response, apoptosis, inﬂammatory signaling
+−0.27
+−0.47
+−0.0697
+0.0246
+Prkaca
+Adaptive immune response, angiogenesis, apoptosis, Wnt
+−0.144
+−0.251
+−0.0371
+0.0248
+Apoe
+Astrocyte function, cellular stress, lipid metabolism, microglia
+0.296
+0.072
+0.521
+0.027
+St8sia6
+Microglia function
+−0.479
+−0.835
+−0.123
+0.0272
+Gpr62
+Oligodendrocyte function
+−0.418
+−0.736
+−0.1
+0.0276
+Hpgds
+Lipid metabolism
+−0.527
+−0.922
+−0.132
+0.0282
+Sesn1
+DNA damage
+0.226
+0.0509
+0.4
+0.0298
+Cdc25a
+Cell cycle, DNA damage
+0.218
+0.0481
+0.389
+0.0307
+Lmna
+Apoptosis, cell cycle, microglia function
+−0.284
+−0.507
+−0.0596
+0.0324
+Map2k4
+Adaptive immune response, apoptosis, cellular stress
+−0.2
+−0.359
+−0.041
+0.0334
+Irf8
+Inﬂammatory signaling, microglia function
+−0.51
+−0.914
+−0.106
+0.0352
+Trem2
+Adaptive immune response, inﬂammatory signaling, microglia
+−0.461
+−0.833
+−0.088
+0.0359
+Mpeg1
+Inﬂammatory signaling
+−0.292
+−0.528
+−0.0551
+0.0363
+Rhoa
+Angiogenesis, autophagy, growth factor signaling, Wnt
+0.196
+0.0351
+0.357
+0.0381
+Tarbp2
+Epigenetic regulation
+0.195
+0.0346
+0.355
+0.0384
+Ripk1
+Apoptosis, innate immune response, NF-kB
+−0.63
+−1.14
+−0.119
+0.0389
+Gadd45g
+Cell cycle, DNA damage, growth factor signaling
+0.392
+0.0686
+0.716
+0.0389
+Brd3
+Epigenetic regulation
+−0.305
+−0.557
+−0.0526
+0.0394
+Nrgn
+Neurons and neurotransmission
+−0.16
+−0.295
+−0.0261
+0.0413
+Nlgn2
+Matrix remodeling, neurons and neurotransmission
+−0.306
+−0.562
+−0.0486
+0.042
+Bbc3
+Apoptosis, DNA damage
+−0.538
+−0.987
+−0.0897
+0.0432
+Rgl1
+Growth factor signaling, microglia function
+0.105
+0.0146
+0.196
+0.0462
+Creb1
+Adaptive immune response, carbohydrate metabolism, DNA damage,
+innate immune response, notch
+0.235
+0.0291
+0.44
+0.0493
+LC lower conﬁdence, UC upper conﬁdence.
+J.M. Holley et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2022)  35 
+1234567890():,;
+
+hippocampus43,44. The downregulation of this gene suggests the
+decreased ability of cells to utilize fructose as a potential energy
+source.
+Level of gene expression related to neuron support cells, like
+microglial cells and oligodendrocytes were also seen universally
+downregulated. Microglia are the resident phagocytes of the innate
+immune system in the brain and play an important role in cytokine
+production45. Their activation is closely associated with environmental
+stress and microglial dysfunction is implicated in many neurological
+disorders and diseases46. CSF1R (https://www.ncbi.nlm.nih.gov/gene/?
+term=NM_001037859) is a gene coding for a cell-surface receptor
+which
+binds
+to
+colony
+stimulating
+factor-1
+(CSF1)
+(https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001113529) and interleukin-
+34
+(IL-34)
+(https://www.ncbi.nlm.nih.gov/gene/?term=NM_0011
+35100)47. CSF1R null mice have been shown to have fewer phagocytic
+cells and reduced survival48. Given these ﬁndings we suggest that
+ﬂight mice may have a reduced capacity to generate microglial cells
+in the nervous system. MERTK (https://www.ncbi.nlm.nih.gov/gene/?
+term=NM_008587) creates a kinase protein in innate immune cells
+which mediates engulfment of apoptotic cells and acts as a negative
+regulator of inﬂammation49–51. Downregulation of this gene may
+contribute to immune dysregulation in our ﬂight mice. TREM2
+(https://www.ncbi.nlm.nih.gov/gene/?term=NM_031254) codes for a
+regulator of microglial chemotaxis and phagocytosis of apoptotic52,53.
+In previous in vivo studies with microglial lacking TREM2, decreased
+migration to areas of apoptotic neurons was shown54. NCF1 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001286037) codes for a key
+subunit of the phagocyte NADPH oxidase system55,56. Downregula-
+tion suggests a reduced capacity for microglial cells to generate an
+effective microbial defense. SLC2A5 codes for the GLUT5 fructose
+transporter, as described previously43. With reduced activity, micro-
+glial cells may have less capacity to utilize fructose as an energy
+source and may be more prone to suffer from metabolic related
+dysfunction.
+Oligodendrocytes are the myelin-forming cells of the CNS. It
+plays critical roles in axonal metabolic support, myelination, and
+providing nutritional support to neurons57,58. A couple of key
+genes involved in the oligodendrocyte function have been
+signiﬁcantly downregulated in the ﬂight mice. PLP1 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_011123)
+codes
+for
+a
+major myelin protein that plays an important role in its formation
+and maintenance59. The implication of signiﬁcantly downregu-
+lated PLP1 indicates impaired neuron axonal function with the
+possibility of long-term neurodegeneration. OPALIN (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_153520) plays a role in
+oligodendrocyte cytoskeletal remolding and morphology. Down-
+regulation of this gene observed in our study may be an indication
+of decreased activity of oligodendrocytes. These ﬁndings are
+further reinforced by a signiﬁcantly decreased oligodendrocyte
+function pathway score (Fig. 6a).
+In terms of gene expression that associated with general
+immune functions and inﬂammation, only two genes were found
+to be signiﬁcantly upregulated in our ﬂight mice population, H2-
+T23 (https://www.ncbi.nlm.nih.gov/gene/?term=NM_010398) and
+SOX4
+(https://www.ncbi.nlm.nih.gov/gene/?term=NM_009238).
+H2-T23 expression is essential for immunological protection and
+regulation60. HT-T23 dependent T-cell inhibitory interactions aid in
+preventing expansion of autoreactive CD4 T-cells and collateral
+autoimmune diseases61. Upregulation of this gene may be a
+protective response to generalized inﬂammation in the ﬂight
+mice. SOX4 directly regulates Innate-like γδ T-cell (Tγδ17), a major
+source of interleukin-17 (IL-17) (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_010552). Increased SOX4 expression may lead
+to an increase of this cytokine expression in the ﬂight mice62.
+The gene RIPK1 (https://www.ncbi.nlm.nih.gov/gene/?term=NM
+_009068) has been shown to be a promotor of survival, apoptotic
+and inﬂammatory signaling pathways63,64. However, mice deﬁ-
+cient in RIPK1 demonstrated loss of inhibition of a necroptosis
+pathway which promoted the release of necroptotic damage-
+associated
+molecular
+patterns65.
+Downregulation
+of
+RIPK1
+observed in our study may lead to a similar reduction of
+appropriate apoptosis and an increase in necroptosis resulting in
+undesirable
+inﬂammation.
+Overall,
+taking
+these
+ﬁndings
+in
+conjunction with a signiﬁcantly increased cytokine signaling
+pathway score (Fig. 6b), inﬂammatory signaling appears to be
+signiﬁcantly dysregulated in our spaceﬂight mice.
+Immune dysfunction is further illustrated via the downregulation
+of two genes important for antimicrobial defense. MPEG1 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_010821) is a pore-forming
+bactericidal molecule of the innate immune system. It has been
+shown to be required for the activity of ROS and nitric oxide and
+their antibacterial effects66,67. OPTN (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_181848) codes for a protein that plays a key role
+in bacterial autophagic clearance. Deﬁcient mice have also been
+Fig. 1
+Spaceﬂight-induced changes of gene expression related to
+neuronal function. Bar graph summarizing log2 fold-changes of
+signiﬁcantly differentially expressed genes (DEG) (p < 0.05) in the
+ﬂight (FLT) group compared to the ground control (GC) group in
+genes directly related to neuronal function. N = 6/group. p values
+are calculated using one-way analysis of variance (ANOVA) and
+Tukey’s HSD (honestly signiﬁcant difference) test. Source data are
+provided as a Source Data ﬁle.
+Table 2.
+Summary of signiﬁcantly altered gene expressions by spaceﬂight related to neuronal function.
+Gene
+p value
+Log2 fold Δ
+Related molecule function
+NRGN
+0.0413
+−0.16
+A Ca2+ dependent intracellular charge transducer.
+DLG4
+0.00947
+−0.279
+Postsynaptic density protein associated with glutamatergic receptor signaling.
+NLGN2
+0.042
+−0.306
+Postsynaptic cell adhesion molecule mediating inhibitory synapses.
+SIN3A
+0.0142
+−0.43
+Involved in cortical neuron differentiation and callosal axon elongation.
+RELN
+0.00583
+−0.535
+Regulates microtubule function in neurons and neuronal migration.
+SLC2A5
+0.0132
+−0.623
+Fructose transporter found in Purkinje cells and the blood-brain barrier.
+KCND1
+0.0117
+−0.893
+K+ voltage-gated channel involved in neurotransmitter release.
+J.M. Holley et al.
+4
+npj Microgravity (2022)  35 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+shown
+to
+have
+impaired
+interferon
+regulatory
+factors
+(https://www.ncbi.nlm.nih.gov/gene/?term=NM_001159393)
+sig-
+naling and reduced response to toll-like receptor stimulation68. In
+summary, these results imply the impaired antibacterial capabilities
+and increased viral susceptibility in the ﬂight mouse brain
+compared to GC group.
+Our data indicate that the regulation of innate immune
+response was impaired following spaceﬂight. The pathway score
+for the innate immune response was signiﬁcantly reduced in the
+ﬂight group compared to GCs (Fig. 6c). The cell type score for
+exhausted CD8 cells is also greatly reduced for the ﬂight group
+compared to controls and may indicate a dysfunctional pheno-
+type in CD8 T-cell response. T-cell exhaustion represents an
+adaptive response to conditions of chronic antigen stimulation
+and inﬂammation69, as well as promoting tissue repair following
+an inﬂammatory injury70. Functionally exhausted CD8+ cells may
+result in a severely compromised innate immune response71.
+Cytochrome P450 27A1 (CYP27A1) (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_024264) plays an important role in the metabolism
+of cholesterol and cholesterol-related compounds72. In humans,
+complete CYP27A1 deﬁciency leads to nodule formation in the brain
+which may lead to dementia, cerebellar ataxia, and spinal cord
+paresis73. This altered cholesterol metabolism closely associates with
+inﬂammatory responses involved in the pathogenesis of AD
+progression74. In deﬁcient mice, a signiﬁcant increase in cholestanol
+in the brain is observed75. Downregulation of CYP27A1, as seen in
+our ﬂight mice, may lead to neurodegeneration and inﬂammation in
+more chronic settings or to a milder degree.
+Fourteen genes that were signiﬁcantly altered in the ﬂight mice
+compared to GCs were found to have direct roles in cellular growth,
+proliferation, and stress response. Two upregulated genes play an
+important part in cell cycle arrest during times of cellular stress.
+GADD45G (https://www.ncbi.nlm.nih.gov/gene/?term=NM_011817)
+has been found to play a role in activating checkpoints in the cell
+cycle following exposure of cells to irradiation76. CCNG2 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_007635) contributes to cell
+cycle arrest during DNA damage and is upregulated in response to
+diverse stimuli, including hypoxia77. Additionally, expression of
+CCNG2 is found to be signiﬁcantly increased in cell cycle-arrested
+and terminally differentiated cells78. Upregulation of these genes
+may be due to exposure to irradiation, among other stressors,
+during spaceﬂight.
+The downregulation of genes involved in promoting transcrip-
+tion and cell cycle progression was also seen. BRD2 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_010238)
+codes
+for
+a
+nuclear kinase involved in regulating the expression of cell cycle
+genes via binding to multiple E2Fs, a family of transcription
+factors79. E2F1 (https://www.ncbi.nlm.nih.gov/gene/?term=NM_
+007891)
+regulates
+activation
+of
+DNA
+replication
+and
+G1/S
+transition when interacting with BRD280. BRD2 also interacts with
+BRD3, a chromatin reader with roles in regulating transcription81.
+BRD3 (https://www.ncbi.nlm.nih.gov/gene/?term=NM_001113573
+) further regulates transcription by promoting the binding of the
+transcription
+factors
+to
+their
+targets82.
+SIN3A
+(https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001110350) codes for a
+transcription factor which regulates cell cycle progression by
+repressing gene expression for cell cycle inhibitor40. It has been
+linked to functional cellular changes in proliferation, cell cycle, and
+stem cell function in mice models83. Downregulation of these
+genes involved in the promotion of cellular proliferation may
+further amplify the upregulation of genes with roles in cell cycle
+arrest. These changes are similarly reinforced by a signiﬁcantly
+increased epigenetic regulation pathway score (Fig. 6e) indicating
+that there may be an increased level of modulating and checks
+being implemented during transcription, due to spaceﬂight. A
+recent study has shown that cell cycle regulation is closely linked
+to hippocampal neurogenesis which plays critical roles in memory
+and learning84. Neurogenesis is a dynamic process that involves
+proliferation and differentiation of stem and progenitor cells, or
+survival and maturation of newborn neurons84. Environmental
+stressors have been shown to modulate cell cycle progression,
+particular in the G1 phase85. These observed changes of gene
+expression related to the cell cycle in our study may indicate
+altered regulation of neurogenesis.
+Many downregulated genes were known to be involved in
+cellular stress responses. MAP2K4 (https://www.ncbi.nlm.nih.gov/
+gene/?term=NM_009157) is a kinase involved with responses to
+cellular stress including apoptosis, inﬂammation, cellular prolifera-
+tion, and neurodegeneration. A deﬁciency of MAP2K4 has been
+shown
+to
+result
+in cellular
+susceptibility
+to stress-induced
+apoptosis and growth inhibition86. However, it has been demon-
+strated that disruption of both MAP2K4 and MAP2K7 (https://
+www.ncbi.nlm.nih.gov/gene/?term=NM_001042557) genes was
+Table 3.
+Summary of signiﬁcantly altered gene expressions by spaceﬂight related to neuronal support cell function.
+Gene
+p value
+Log2 fold Δ
+Related molecule function
+CSF1R
+0.0111
+−0.209
+Cell-surface receptor regulating development, proliferation and differentiation.
+PLP1
+0.00283
+−0.363
+Major myelin protein in the CNS.
+MERTK
+0.000256
+−0.368
+Signaling protein in innate immune cells mediating engulfment of apoptotic cells.
+TREM2
+0.0359
+−0.461
+Regulates microglial chemotaxis and phagocytosis of apoptotic neurons.
+NCF1
+0.0214
+−0.539
+Subunit of NADPH oxidase required for superoxidase production.
+OPALIN
+0.0205
+−0.546
+Regulator of oligodendrocyte cytoskeletal remolding and morphology.
+SLC2A5
+0.0132
+−0.623
+Fructose transporter found in microglial cells.
+Fig. 2
+Spaceﬂight-induced changes of gene expression related to
+neuronal support cell function. Bar graph summarizing log2 fold-
+changes
+of
+signiﬁcantly
+differentially
+expressed
+genes
+(DEG)
+(p < 0.05) in the ﬂight (FLT) group compared to the ground control
+(GC) group in genes directly related to neuronal supporting cell
+function. N = 6/group. P values are calculated using one-way
+analysis of variance (ANOVA) and Tukey’s HSD (honestly signiﬁcant
+difference) test. Source data are provided as a Source Data ﬁle.
+J.M. Holley et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2022)  35 
+
+Fig. 4
+Spaceﬂight-induced changes of gene expression related to cellular stress and growth function. Bar graph summarizing log2 fold-
+changes of signiﬁcantly differentially expressed genes (DEG) (p < 0.05) in the ﬂight (FLT) group relative to the ground control (GC) group in
+genes directly related to cellular stress and growth function. N = 6/group. p values are calculated using one-way analysis of variance (ANOVA)
+and Tukey’s HSD (honestly signiﬁcant difference) test. Source data are provided as a Source Data ﬁle.
+Fig. 3
+Spaceﬂight-induced changes of gene expression related to immune function and inﬂammation. Bar graph summarizing log2 fold-
+changes of signiﬁcantly differentially expressed genes (DEG) (p < 0.05) in the ﬂight (FLT) group compared to the ground control (GC) group in
+genes directly related to immune function and inﬂammation. N = 6/group. p values are calculated using one-way analysis of variance (ANOVA)
+and Tukey’s HSD (honestly signiﬁcant difference) test. Source data are provided as a Source Data ﬁle.
+Table 4.
+Summary of signiﬁcantly altered gene expressions by spaceﬂight related to immune function and inﬂammation.
+Gene
+p value
+Log2 fold Δ
+Related molecular function
+H2-T23
+0.00447
+0.357
+Immune regulation and protection through NK and T-cell suppression.
+SOX4
+0.00304
+0.314
+Transcription factor regulating key genes in Thelper17 cells.
+CSK
+0.0108
+−0.236
+Negative regulator of T-cell receptor signaling.
+IKBKG
+0.0246
+−0.27
+Subunit of IKK complex with cardinal role in stimulating NF-κB regulation.
+MPEG1
+0.0363
+−0.292
+Pore-forming bactericidal effector molecule of the innate immune system.
+MERTK
+0.000256
+−0.368
+Signaling protein in innate immunity for a negative regulator of inﬂammation.
+OPTN
+0.0000172
+−0.435
+Ubiquitin-binding protein important for bacterial autophagic clearance.
+TREM2
+0.0359
+−0.461
+Inhibitor of neuroinﬂammation via suppression of NF-kB signaling.
+ST8SIA6
+0.0272
+−0.479
+A sialyltransferase important for immune suppression and modulation.
+IRF8
+0.0352
+−0.51
+Transcription factor for anti-viral dendritic cells and IFN-inducible genes.
+HPGDS
+0.0282
+−0.527
+Enzymatic mediator of prostaglandin D2 creation.
+RIPK1
+0.0389
+−0.63
+Promotor of survival, apoptotic and inﬂammatory signaling pathways.
+CYP27A1
+0.0132
+−0.805
+Cytochrome P450 enzyme important in the metabolism of cholestrol.
+C5AR1
+0.0201
+−0.852
+Receptor for the chemotactic and inﬂammatory anaphylatoxin, C5a.
+CD6
+0.00978
+−0.972
+Stimulatory molecule promoting T-cell activation, proliferation, and adhesion.
+CD74
+0.00146
+−1
+Chaperone protein involved with MHC class II antigen presentation.
+IRF7
+0.00544
+−1.06
+Transcriptional regulator of type I interferon dependent immune responses.
+J.M. Holley et al.
+6
+npj Microgravity (2022)  35 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+required to thoroughly block cellular growth caused by environ-
+mental stressors87. MRE11A (https://www.ncbi.nlm.nih.gov/gene/?
+term=NM_018736), a part of an exonuclease complex central to
+the cellular DNA damage response was downregulated. The MRE11
+complex is essential to vertebrates and defects lead to sensitivity to
+DNA damage and cell cycle checkpoints deﬁciency88. Its down-
+regulation may point to a certain level of dysfunction leading to an
+impaired response to cellular stress leaving the ﬂight mice more
+vulnerable to DNA damage.
+Different brain regions have different vulnerability to environ-
+mental stressors due to structural and biological heterogeneity of the
+regions, cell types and molecular networks89. Regional differences of
+protein biomarkers in response to stressors were observed in a
+previous ﬂight study41. Given this ﬁnding, gene expression proﬁles in
+speciﬁc regions of the brain in response to spaceﬂight will be
+investigated in future studies. More recently, single-cell sequencing
+technologies, including transcriptomics, are available by directly
+measuring multiple molecular signatures in speciﬁc brain cells,
+providing robust molecular identity of speciﬁc cell types90.
+Brain tissues were dissected and prepared for analysis within 60 h
+after landing. It is possible that observed changes in gene expression
+proﬁles in neuroinﬂammation are a compensatory acute response to
+the acceleration and intense noise of launch or reﬂect changes to the
+combined response of spaceﬂight environment and the landing.
+Fig. 5
+Spaceﬂight-induced changes of pathway scores. Summarized pathway scores in ﬂight (FLT) group vs. ground control (GC).
+*Signiﬁcantly upregulated pathways (p < 0.05), include:
+cytokine signaling,
+Angiogenesis,
+Epigenetic regulation, and
+Notch. **Signiﬁcantly (p < 0.05) or strong trend (p = 0.07) downregulated pathways, include:
+Oligodendrocyte function,
+Innate
+immune response, and
+Microglia function. p values are by one-way ANOVA and Tukey’s post hoc test. Source data are provided as a
+Source Data ﬁle.
+Fig. 6
+Spaceﬂight-induced changes in nueroinﬂammation pathway scores among ﬂight (FLT) and ground controls (GC) groups. Boxplots
+depict pathway scores on the y-axis and the experimental conditions on the x-axis. N = 5–6 /group. p values are calculated using one-way
+analysis of variance (ANOVA) and Tukey’s HSD (honestly signiﬁcant difference) test. a Oligodendrocyte function score p < 0.05, b cytokine
+signaling score p < 0.05, c innate immune response score p < 0.05, d angiogenesis score p < 0.05, e epigenetic regulation score p < 0.05, f notch
+score p < 0.01, and g Microglia function score p = 0.07. Boxes are the range between ﬁrst (25%) and the third (75%) quartile, the center line is
+the median, the whiskers include the variability those quartiles. Source data are provided as a Source Data ﬁle.
+J.M. Holley et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2022)  35 
+
+In order to evaluate the immune response to spaceﬂight environ-
+ment, in the further study, mice will be euthanized in the orbit and
+brain tissues will be immediately preserved for analysis on the
+ground. Furthermore, in order to test the hypothesis that neuroin-
+ﬂammation plays an important role in developing spaceﬂight-
+induced stress response in the brain, an anti-oxidant or anti-
+inﬂammatory compound will be injected to mouse before or during
+the ﬂight to determine the protective effect against oxidative
+damage in the brain.
+It is noted from our study that among those genes which
+expression were signiﬁcantly altered by spaceﬂight, markedly more
+gene expressions are being downregulated than upregulated. It is
+speculated that many genes may be upregulated during spaceﬂight
+and the early phase after landing as an adaptation response. During
+re-adaptation, the expression of these previous upregulated genes
+could be then downregulated as a compensatory response, or when
+protein synthesis from upregulated genes has been completed,
+these genes expression may be downregulated32.
+Collectively, changes noted in our study indicate that exposure
+to the spaceﬂight environment induces signiﬁcant changes in
+gene expression and signaling pathways related to neuronal
+function, immune regulation, growth and metabolic function.
+Study showed that chronically dysfunctional and deregulated
+pathways, including cytokine signaling (Fig. 6b), epigenetic
+regulation (Fig. 6e), and notch signaling (Fig. 6f) play important
+roles in disease development91, and have been associated with
+several progressive neurodegenerative diseases92. Our observed
+changes of a dysregulated inﬂammatory response, downregulated
+T-cell response, and reduced microglia signaling (Fig. 6g) might
+also have an impact on brain structure and function, and further
+lead to chronic neuroinﬂammation. It has been shown that here
+are strong correlations between neuroinﬂammatory biomarkers,
+brain
+morphology
+and
+behavioral
+outcomes93.
+It
+may
+be
+hypothesized that chronical changes of observed gene expression
+proﬁles could have long-term effects on brain morphology and
+organism behavior.
+MATERIALS AND METHODS
+Flight and ground control conditions
+Ten-weeks-old male C57BL/6 mice (Jackson Laboratories, Inc. Bar
+Harbor, ME) at the time of launch, were ﬂown for NASA’s ninth
+Rodent Research experiment (RR-9) on SpaceX-12 for a 35-day
+mission and
+lived
+in NASA’s Rodent
+Habitats
+aboard
+the
+International Space Station. All FLT mice were maintained at an
+ambient temperature of 26–28 °C with a 12-h light/dark cycle
+during the ﬂight. Habitat GC mice were kept under similar housing
+conditions, including temperature, humidity and carbon dioxide
+(CO2) levels using 48-h delayed telemetry data from the FLT
+group. Water and food bar diet speciﬁcally designed by NASA
+were provided ad libitum to FLT and GC groups. All mice received
+the same access to food and water. NASA-Ames Research Center
+and KSC Institutional Animal Care and Use Committees approved
+this ﬂight study. The study has been done in strict accordance
+with the recommendations in the Guide for the Care and Use of
+Laboratory Animals of the National Institute of Health.
+Mouse brain dissection after spaceﬂight
+Within 38 ± 4 h of splashdown, the FLT mice were rapidly
+euthanized in 100% CO2. The GC mice were euthanized with the
+same method after 38 days of GC housing. Shortly after
+euthanasia, brains were removed and bisected along the midline
+and coronally within the half hemispheres. The right caudal half
+hemisphere of the brain (containing mid- and hindbrain) from
+each mouse (n = 5–6 per group) was placed in a sterile cryovial,
+snap frozen in liquid nitrogen and kept at −80 °C prior to use.
+RNA isolation and gene expression proﬁling
+Isolation of total RNA from the brain tissues was performed using
+DNA/RNA/miRNA Universal Kit (Qiagen, # 80224) according to the
+manufacturer’s instruction. Brieﬂy, tissue homogenization was
+performed using 1.5 mm beads (Benchmark, # 1032-15) on Minilys
+homogenizer (Bertin Technologies) in RLT Plus buffer. The purity and
+concentration of the eluted RNA were measured using Nanodrop
+2000 (Thermo Fisher Scientiﬁc, Waltham, MA) and stored at −80 °C
+until further analysis. RNA samples (20 ng/ul) were then shipped to
+Nanostring (Technologies Seattle, WA) and gene expression proﬁling
+of brain tissues was conducted using the nCounter® neuroﬂamma-
+tion pathways panel. The panel includes 757 genes covering the
+core pathways and processes that deﬁne neuroimmune interactions
+and 13 potential housekeeping genes for normalization. RNA
+samples (100 ng each) on 2 cartridges were used for the Gene
+Expression Assay with Mouse Neuroinﬂammation panel performed
+on the nCounter MAX system (https://nanostring.com/wp-content/
+uploads/MAN-C0035_nCounter_Analysis_System_MAX_FLEX.pdf), a
+multi-channel epiﬂuorescence scanner with Nanostring Advanced
+Analysis Module plugin for QC, normalization, and differential
+expression analysis (DE). Data ﬁles generated from nCounter system
+were analyzed using nSolver 4.0 software with the Advanced
+Analysis module for QC (quality control), normalization, DE analysis,
+and gene-set enrichment analysis. Data normalization included
+2 steps: Positive control normalization to correct platform-associated
+variation and Codeset content normalization using the house-
+keeping (HK) genes to correct variability of input samples. Geometric
+means of selected HK probes were used to normalize counts of the
+samples and DEGs were generated from the normalized counts.
+Statistical analysis
+Gene expression proﬁling data were analyzed using nSolver
+analysis and the advanced analysis module software. Advanced
+analysis module software uses open-source R program for
+pathway scoring and gene-set enrichment analysis. Using the
+Reactome pathway database annotations, pathway scores are
+derived by calculating the ﬁrst principle component of pathway
+genes’ normalized expression86 and data are summarized from
+changes of a gene set within a given pathway into a single score.
+To further analyze the associated pathways of the DEGs, Kyoto
+Encyclopedia of Genes and Genomes (KEGG) pathways analysis
+was performed using biological process database to identify the
+annotated sets of genes based on the biological processes in
+which they participate. Signiﬁcantly differential expression genes
+were presented in the tables with individual genes using log10
+(p value) andlog2 fold change compared to the GC group.
+Pathview module was used to display upregulated genes or
+downregulated genes overlaid on KEGG pathways. For DEG and
+pathway analysis, p < 0.05 was considered statistically signiﬁcant
+between FLT and GC groups by one-way ANOVA and Tukey’s
+HSD test.
+Reporting summary
+Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+DATA AVAILABILITY
+The authors declare that source data supporting the ﬁndings of this study with the
+ﬁgures of the article are provided with this paper.
+CODE AVAILABILITY
+All of the signiﬁcant gene data obtained in this study were deposited in the NCBI’s
+GEO, and are accessible through GEO accession number GSE186278.
+J.M. Holley et al.
+8
+npj Microgravity (2022)  35 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Received: 10 January 2022; Accepted: 15 July 2022;
+REFERENCES
+1. Van Ombergen, A. et al. The effect of spaceﬂight and microgravity on the human
+brain. J. Neurol. 264, 18–22 (2017).
+2. Lee, J. K. et al. Spaceﬂight-associated brain white matter microstructural changes
+and intracranial ﬂuid redistribution. JAMA Neurol. 76, 412–419 (2019).
+3. Crucian, B. E. et al. Immune system dysregulation during spaceﬂight: potential
+countermeasures for deep space exploration missions. Front Immunol. 9, 1437 (2018).
+4. Janelidze, S. et al. CSF biomarkers of neuroinﬂammation and cerebrovascular
+dysfunction in early Alzheimer disease. Neurology 91, e867–e877 (2018).
+5. Raber, J. et al. Effects of (56)Fe radiation on hippocampal function in mice deﬁ-
+cient in chemokine receptor 2 (CCR2). Behav. Brain Res. 246, 69–75 (2013).
+6. Aid, S. & Bosetti, F. Targeting cyclooxygenases-1 and -2 in neuroinﬂammation:
+therapeutic implications. Biochimie 93, 46–51 (2011).
+7. Derecki, N. C. et al. Regulation of learning and memory by meningeal immunity: a
+key role for IL-4. J. Exp. Med. 207, 1067–1080 (2010).
+8. Gueguinou, N. et al. Stress response and humoral immune system alterations
+related to chronic hypergravity in mice. Psychoneuroendocrinology 37, 137–147
+(2012).
+9. Minnier, J. et al. Associations between lipids in selected brain regions, plasma
+miRNA, and behavioral and cognitive measures following (28)Si ion irradiation. Sci.
+Rep. 11, 14899 (2021).
+10. Shaler, T. et al. Particle radiation-induced dysregulation of protein homeostasis in
+primary human and mouse neuronal cells. Life Sci. Space Res. 25, 9–17 (2020).
+11. Pariset, E., Malkani, S., Cekanaviciute, E. & Costes, S.V. Ionizing radiation-induced
+risks to the central nervous system and countermeasures in cellular and rodent
+models. Int. J. Radiat. Biol. 97, 1–19 (2020).
+12. Cekanaviciute, E., Rosi, S. & Costes, S. V. Central nervous system responses to
+simulated galactic cosmic rays. Int J. Mol. Sci. 19, 3669 (2018).
+13. Allen, B. D. et al. Mitigation of helium irradiation-induced brain injury by microglia
+depletion. J. Neuroinﬂammation. 17, 159 (2020).
+14. Lumniczky, K., Szatmari, T. & Safrany, G. Ionizing radiation-induced immune and
+inﬂammatory reactions in the brain. Front Immunol. 8, 517 (2017).
+15. Sajdel-Sulkowska, E. M., Nguon, K., Sulkowski, Z. L. & Lipinski, B. Potential role of
+oxidative stress in mediating the effect of altered gravity on the developing rat
+cerebellum. Adv. Space Res. 40, 1414–1420 (2007).
+16. Sanford, G. L. et al. Inﬂuence of changes in gravity on the response of lung and
+vascular cells to ischemia/reperfusion in vitro. J. Gravit. Physiol. 6, P27–P28 (1999).
+17. Li, N. et al. Microgravity-induced alterations of inﬂammation-related mechan-
+otransduction in endothelial cells on board SJ-10 satellite. Front. Physiol. 9, 1025
+(2018).
+18. Seo, D. Y., Heo, J. W., Ko, J. R. & Kwak, H. B. Exercise and neuroinﬂammation in
+health and disease. Int. Neurourol. J. 23, S82–S92 (2019).
+19. Khuntia, D., Brown, P., Li, J. & Mehta, M. P. Whole-brain radiotherapy in the
+management of brain metastasis. J. Clin. Oncol. 24, 1295–1304 (2006).
+20. Smith, K. J., Kapoor, R. & Felts, P. A. Demyelination: the role of reactive oxygen
+and nitrogen species. Brain Pathol. 9, 69–92 (1999).
+21. Peuchen, S. et al. Interrelationships between astrocyte function, oxidative stress
+and antioxidant status within the central nervous system. Prog. Neurobiol. 52,
+261–281 (1997).
+22. Lin, M. T. & Beal, M. F. Mitochondrial dysfunction and oxidative stress in neuro-
+degenerative diseases. Nature 443, 787–795 (2006).
+23. Forster, M. J. et al. Age-related losses of cognitive function and motor skills in
+mice are associated with oxidative protein damage in the brain. Proc. Natl Acad.
+Sci. USA 93, 4765–4769 (1996).
+24. Juurlink, B. H. & Paterson, P. G. Review of oxidative stress in brain and spinal cord
+injury: suggestions for pharmacological and nutritional management strategies. J.
+Spinal Cord. Med. 21, 309–334 (1998).
+25. Love, S. Oxidative stress in brain ischemia. Brain Pathol. 9, 119–131 (1999).
+26. Schnell, L., Fearn, S., Klassen, H., Schwab, M. E. & Perry, V. H. Acute inﬂammatory
+responses to mechanical lesions in the CNS: differences between brain and spinal
+cord. Eur. J. Neurosci. 11, 3648–3658 (1999).
+27. Mao, X. W. et al. Spaceﬂight induces oxidative damage to blood-brain barrier
+integrity in a mouse model. FASEB J. 34, 15516–15530 (2020).
+28. Mao, X. W. et al. Simulated microgravity and low-dose/low-dose-rate radiation
+induces oxidative damage in the mouse brain. Radiat. Res. 185, 647–657 (2016).
+29. Overbey, E. G. et al. Mice exposed to combined chronic low-dose irradiation and
+modeled microgravity develop long-term neurological sequelae. Int J. Mol. Sci.
+20, 4094 (2019).
+30. Mao, X. W. et al. High-LET radiation-induced response of microvessels in the
+hippocampus. Radiat. Res. 173, 486–493 (2010).
+31. Kwong, L. N. et al. Biological validation of RNA sequencing data from formalin-
+ﬁxed parafﬁn-embedded primary melanomas. JCO Precis Oncol. 2018, 1–19
+(2018).
+32. Santucci, D. et al. Evaluation of gene, protein and neurotrophin expression in the
+brain of mice exposed to space environment for 91 days. PLoS ONE 7, e40112
+(2012).
+33. Hoffman, L., Chandrasekar, A., Wang, X., Putkey, J. A. & Waxham, M. N. Neuro-
+granin alters the structure and calcium binding properties of calmodulin. J. Biol.
+Chem. 289, 14644–14655 (2014).
+34. Isbrandt, D. et al. Gene structures and expression proﬁles of three human KCND
+(Kv4) potassium channels mediating A-type currents I(TO) and I(SA). Genomics 64,
+144–154 (2000).
+35. Jerng, H. H., Shahidullah, M. & Covarrubias, M. Inactivation gating of Kv4 potas-
+sium channels: molecular interactions involving the inner vestibule of the pore. J.
+Gen. Physiol. 113, 641–660 (1999).
+36. Duprat, F. et al. Susceptibility of cloned K+ channels to reactive oxygen species.
+Proc. Natl Acad. Sci. USA 92, 11796–11800 (1995).
+37. Moutton, S. et al. Truncating variants of the DLG4 gene are responsible for
+intellectual disability with marfanoid features. Clin. Genet. 93, 1172–1178 (2018).
+38. Nguyen, Q. A., Horn, M. E. & Nicoll, R. A. Distinct roles for extracellular and
+intracellular domains in neuroligin function at inhibitory synapses. Elife 5, 19236
+(2016).
+39. Carrillo, G. L. et al. Toxoplasma infection induces microglia-neuron contact and
+the loss of perisomatic inhibitory synapses. Glia 68, 1968–1986 (2020).
+40. Yang, X., Zhang, F. & Kudlow, J. E. Recruitment of O-GlcNAc transferase to pro-
+moters by corepressor Msin3a: coupling protein O-Glcnacylation to transcrip-
+tional repression. Cell 110, 69–80 (2002).
+41. Witteveen, J. S. et al. Haploinsufﬁciency of Mecp2-interacting transcriptional co-
+repressor Sin3a causes mild intellectual disability by affecting the development
+of cortical integrity. Nat. Genet. 48, 877–887 (2016).
+42. Yip, J. W., Yip, Y. P., Nakajima, K. & Capriotti, C. Reelin controls position of
+autonomic neurons in the spinal cord. Proc. Natl Acad. Sci. USA 97, 8612–8616
+(2000).
+43. Douard, V. & Ferraris, R. P. Regulation of the fructose transporter Glut5 in health
+and disease. Am. J. Physiol. Endocrinol. Metab. 295, E227–E237 (2008).
+44. Funari, V. A., Herrera, V. L., Freeman, D. & Tolan, D. R. Genes required for fructose
+metabolism are expressed in Purkinje cells in the cerebellum. Brain Res. Mol. Brain
+Res. 142, 115–122 (2005).
+45. Madore, C., Yin, Z., Leibowitz, J. & Butovsky, O. Microglia, Lifestyle stress, and
+neurodegeneration. Immunity 18, 222–240 (2020).
+46. Bisht, K., Sharma, K. & Tremblay, M. È. Chronic stress as a risk factor for Alzhei-
+mer’s disease: roles of microglia-mediated synaptic remodeling, inﬂammation,
+and oxidative stress. Neurobiol 9, 9–21 (2018).
+47. Sampaio, N. G. et al. Phosphorylation of Csf-1r Y721 mediates its association with
+Pi3k to regulate macrophage motility and enhancement of tumor cell invasion. J.
+Cell Sci. 124, 2021–2031 (2011).
+48. Wei, S. et al. Functional overlap but differential expression of Csf-1 And Il-34 in
+Their Csf-1 receptor-mediated regulation of myeloid cells. J. Leukoc. Biol. 88,
+495–505 (2010).
+49. Behrens, E. M. et al. The Mer receptor tyrosine kinase: expression and function
+suggest a role in innate immunity. Eur. J. Immunol. 33, 2160–2167 (2003).
+50. Khan, T. N., Wong, E. B., Soni, C. & Rahman, Z. S. Prolonged apoptotic cell accu-
+mulation in germinal centers of Mer-deﬁcient mice causes elevated B cell and
+Cd4+ Th cell responses leading to autoantibody production. J. Immunol. 190,
+1433–1446 (2013).
+51. Tibrewal, N. et al. Autophosphorylation docking site Tyr-867 in Mer receptor tyrosine
+kinase allows for dissociation of multiple signaling pathways for phagocytosis of
+apoptotic cells and down-modulation of lipopolysaccharide-inducible Nf-Kappab
+transcriptional activation. J. Biol. Chem. 283, 3618–3627 (2008).
+52. Kleinberger, G. et al. TREM2 mutations implicated in neurodegeneration impair
+cell surface transport and phagocytosis. Sci. Transl. Med. 6, 243ra86 (2014).
+53. Sayed, F. A. et al. Differential effects of partial and complete loss of Trem2 on
+microglial injury response and tauopathy. Proc. Natl Acad. Sci. USA 115,
+10172–10177 (2018).
+54. Mazaheri, F. et al. Trem2 deﬁciency impairs chemotaxis and microglial responses
+to neuronal injury. EMBO Rep. 18, 1186–1189 (2017).
+55. DeSilva, U. et al. Molecular characterization of the mouse P47-Phox (Ncf1) gene
+and comparative analysis of the mouse P47-Phox (Ncf1) gene to the human Ncf1
+gene. Mol. Cell Biol. Res Commun. 3, 224–230 (2000).
+56. Liu, W. et al. Park7 interacts with P47(Phox) to direct nadph oxidase-dependent
+Ros production and protect against sepsis. Cell Res. 25, 691–706 (2015).
+57. Kipp, M. Oligodendrocyte physiology and pathology function. Cells 9, 2078
+(2020).
+58. Moore, S. et al. A role of oligodendrocytes in information processing. Nat.
+Commun. 11, 5497 (2020).
+J.M. Holley et al.
+9
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2022)  35 
+
+59. Werner, H. B. et al. Proteolipid protein is required for transport of Sirtuin 2 into
+Cns myelin. J. Neurosci. 27, 7717–7730 (2007).
+60. Xu, H. C. et al. Lymphocytes negatively regulate NK cell activity via Qa-1b fol-
+lowing viral infection. Cell Rep. 21, 2528–2540 (2017).
+61. Hu, D. et al. Analysis of regulatory Cd8 T cells in Qa-1-deﬁcient mice. Nat.
+Immunol. 5, 516–523 (2004).
+62. Malhotra, N. et al. A network of high-mobility group box transcription factors
+programs innate interleukin-17 production. Immunity 38, 681–693 (2013).
+63. Tao, P. et al. A dominant autoinﬂammatory disease caused by non-cleavable
+variants of Ripk1. Nature 577, 109–114 (2020).
+64. Lalaoui, N. et al. Mutations that prevent caspase cleavage of Ripk1 cause auto-
+inﬂammatory disease. Nature 577, 103–108 (2020).
+65. Rickard, J. A. et al. RIPK1 regulates Ripk3-Mlkl-driven systemic inﬂammation and
+emergency hematopoiesis. Cell 157, 1175–1188 (2014).
+66. McCormack, R. M. et al. Perforin-2 is essential for intracellular defense of par-
+enchymal cells and phagocytes against pathogenic bacteria. Elife 4, e06508
+(2015).
+67. Bai, F. et al. Perforin-2 breaches the envelope of phagocytosed bacteria allowing
+antimicrobial effectors access to intracellular targets. J. Immunol. 201, 2710–2720
+(2018).
+68. Slowicka, K. et al. Optineurin deﬁciency in mice is associated with increased
+sensitivity to salmonella but does not affect proinﬂammatory Nf-Kappab sig-
+naling. Eur. J. Immunol. 46, 971–980 (2016).
+69. Miller, B. C. et al. Subsets of exhausted CD8(+) T cells differentially mediate tumor
+control and respond to checkpoint blockade. Nat. Immunol. 20, 326–336 (2019).
+70. Bannoud, N. et al. Hypoxia supports differentiation of terminally exhausted CD8
+T cells. Front Immunol. 12, 660944 (2021).
+71. Yaqinuddin, A. & Kashir, J. Innate immunity in COVID-19 patients mediated by
+NKG2A receptors, and potential treatment using monalizumab, cholroquine, and
+antiviral agents. Med. Hypotheses 140, 109777 (2020).
+72. Omarova, S. et al. Abnormal vascularization in mouse retina with dysregulated
+retinal cholesterol homeostasis. J. Clin. Invest. 122, 3012–3023 (2012).
+73. Bavner, A. et al. On the mechanism of accumulation of cholestanol in the brain of
+mice with a disruption of sterol 27-hydroxylase. J. Lipid Res. 51, 2722–2730 (2010).
+74. Testa, G. et al. Changes in brain oxysterols at different stages of Alzheimer’s
+disease: their involvement in neuroinﬂammation. Redox Biol. 10, 24–33 (2016).
+75. Mast, N. et al. Cytochrome P450 27A1 deﬁciency and regional differences in brain
+sterol metabolism cause preferential cholestanol accumulation in the cerebellum.
+J. Biol. Chem. 292, 4913–4924 (2017).
+76. Vairapandi, M., Balliet, A. G., Hoffman, B. & Liebermann, D. A. GADD45b and
+GADD45g are cdc2/cyclinB1 Kinase inhibitors with a role in S and G2/M cell cycle
+checkpoints induced by genotoxic stress. J. Cell Physiol. 192, 327–338 (2002).
+77. Ohno, S. et al. Comprehensive phenotypic analysis of knockout mice deﬁcient in
+cyclin G1 and cyclin G2. Sci. Rep. 6, 39091 (2016).
+78. Zhao, C. et al. Cyclin G2 suppresses glomerulosclerosis by regulating canonical
+Wnt signalling. Biomed. Res. Int. 2018, 6938482 (2018).
+79. Gyuris, A. et al. The chromatin-targeting protein Brd2 is required for neural tube
+closure and embryogenesis. Biochim Biophys. Acta 1789, 413–421 (2009).
+80. Nevins, J. R. The Rb/E2F pathway and cancer. Hum. Mol. Genet. 10, 699–703 (2001).
+81. Shang, E., Wang, X., Wen, D., Greenberg, D. A. & Wolgemuth, D. J. Double
+bromodomain-containing gene Brd2 is essential for embryonic development in
+mouse. Dev. Dyn. 238, 908–917 (2009).
+82. Lamonica, J. M. et al. Bromodomain protein Brd3 associates with acetylated
+Gata1 to promote its chromatin occupancy at erythroid target genes. Proc. Natl
+Acad. Sci. USA 108, E159–E168 (2011).
+83. Biddlestone, J., Batie, M., Bandarra, D., Munoz, I. & Rocha, S. SINHCAF/FAM60A and
+SIN3A speciﬁcally repress HIF-2alpha expression. Biochem. J. 475, 2073–2090 (2018).
+84. Urbach, A. & Witte, O. W. Divide or commit—revisiting the role of cell cycle
+regulators in adult hippocampal neurogenesis. Front. Cell Dev. Biol. 7, 55 (2019).
+85. Blomen, V. A. & Boonstra, J. Cell fate determination during G1 phase progression.
+Cell Mol. Life Sci. 64, 3084–3104 (2007).
+86. Wang, X., Destrument, A. & Tournier, C. Physiological roles of MKK4 and MKK7:
+insights from animal models. Biochim Biophys. Acta 1773, 1349–1357 (2007).
+87. Tournier, C. et al. MKK7 is an essential component of the Jnk signal transduction
+pathway activated by proinﬂammatory cytokines. Genes Dev. 15, 1419–1426 (2001).
+88. Dmitrieva, N. I., Bulavin, D. V. & Burg, M. B. High NaCl causes Mre11 to leave the
+nucleus, disrupting DNA damage signaling and repair. Am. J. Physiol. Ren. Physiol.
+285, F266–F274 (2003).
+89. Wang, M. et al. Integrative network analysis of nineteen brain regions identiﬁes
+molecular signatures and networks underlying selective regional vulnerability to
+Alzheimer’s disease. Genome Med. 8, 104 (2016).
+90. Armand, E. J., Li, J., Xie, F., Luo, C. & Mukamel, E. A. Single-cell sequencing of brain
+cell transcriptomes and epigenomes. Neuron 109, 11–26 (2021).
+91. Zhang, R., Engler, A., Taylor & Notch, V. An interactive player in neurogenesis and
+disease. Cell Tissue Res. 371, 73–89 (2018).
+92. Ho, D. M., Artavanis-Tsakonas, S. & Louvi, A. The notch pathway in CNS home-
+ostasis and neurodegeneration. Wiley Interdiscip. Rev. Dev. Biol. 9, e358 (2020).
+93. Green, C. et al. Structural brain correlates of serum and epigenetic markers of
+inﬂammation in major depressive disorder. Brain Behav. Immun. 92, 39–48 (2021).
+ACKNOWLEDGEMENTS
+This study was supported by NASA Space Biology grant # NNX15AB41G and the LLU
+Department of Basic Sciences. Sungshin Choi, Dennis Leveson, and Rebecca Klotz
+contributed signiﬁcantly to the success of our study and we greatly appreciate their
+support. The authors would also like to thank the assistance of the entire
+Biospecimen Sharing Program group for their great assistance. The open access
+publication fee is supported by Loma Linda University Basic Sciences.
+AUTHOR CONTRIBUTIONS
+X.W.M. designed research. X.W.M., S.S. and J.M.H. carried out the main laboratory
+experiments. J.M.H. and X.W.M. wrote the main manuscript. M.D., M.J.P. and J.S.W.
+reviewed the manuscript.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-022-00217-4.
+Correspondence and requests for materials should be addressed to Xiao Wen Mao.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from
+the
+copyright
+holder.
+To
+view
+a
+copy
+of
+this
+license,
+visit
+http://
+creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2022
+J.M. Holley et al.
+10
+npj Microgravity (2022)  35 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

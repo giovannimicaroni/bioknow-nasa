@@ -1,0 +1,3173 @@
+iScience
+Article
+The Importance of Earth Reference Controls in
+Spaceﬂight -Omics Research: Characterization of
+Nucleolin Mutants from the Seedling Growth
+Experiments
+Earth gravity +
+RED LIGHT
+Nuc1       Nuc2         WT
+Nuc1       Nuc2         WT
+Earth gravity +
+DARKNESS
+Could the fittest in Spaceflight
+be a Earth mutant?
+Optimising Spaceflight
+Omics Science by
+using Ground Based
+Research
+Nuc1       Nuc2         WT
+Ara´nzazu
+Manzano, Alicia
+Villacampa, Julio
+Sa´ez-Va´squez,
+John Z. Kiss, F.
+Javier Medina,
+Rau´ l Herranz
+r.herranz@csic.es
+HIGHLIGHTS
+Ribosome synthesis is a
+target of spaceﬂight
+stressor effects on plant
+development
+Nucleolin mutants
+promote a differential
+response to light/
+darkness stress
+Red light and NUC2 may
+counteract the spaceﬂight
+alterations in gene
+expression
+Ground controls are
+important for the
+interpretation of
+spaceﬂight -omics
+experiments
+Manzano et al., iScience 23,
+101686
+November 20, 2020 ª 2020
+The Authors.
+https://doi.org/10.1016/
+j.isci.2020.101686
+ll
+OPEN ACCESS
+
+iScience
+Article
+The Importance of Earth Reference Controls
+in Spaceﬂight -Omics Research: Characterization
+of Nucleolin Mutants from the Seedling Growth
+Experiments
+Ara´nzazu Manzano,1,5 Alicia Villacampa,1,5 Julio Sa´ez-Va´squez,2,3 John Z. Kiss,4 F. Javier Medina,1
+and Rau´ l Herranz1,6,*
+SUMMARY
+Understanding plant adaptive responses to the space environment is a requisite
+for enabling space farming. Spaceﬂight produces deleterious effects on plant
+cells, particularly affecting ribosome biogenesis, a complex stress-sensitive pro-
+cess coordinated with cell division and differentiation, known to be activated
+by red light. Here, in a series of ground studies, we have used mutants from
+the two Arabidopsis nucleolin genes (NUC1 and NUC2, nucleolar regulators of
+ribosome biogenesis) to better understand their role in adaptive response mech-
+anisms to stress on Earth. Thus, we show that nucleolin stress-related gene NUC2
+can compensate for the environmental stress provided by darkness in nuc1
+plants, whereas nuc2 plants are not able to provide a complete response to red
+light. These ground control ﬁndings, as part of the ESA/NASA Seedling Growth
+spaceﬂight experiments, will determine the basis for the identiﬁcation of genetic
+backgrounds enabling an adaptive advantage for plants in future space experi-
+ments.
+INTRODUCTION
+Space exploration will soon include new human missions to the Moon as a ﬁrst step in the human explora-
+tion of Mars. Recent studies in human (i.e., NASA Twin Study, Garrett-Bakelman et al., 2019) and mamma-
+lian systems (rodent missions, Beheshti et al., 2019; Ronca et al., 2019) are paving the way to understand the
+effects of the microgravity environment on human physiology, but human life in space will rely on the essen-
+tial role of plants in bioregenerative life support systems (Zabel et al., 2016), not only as a source of water,
+food, and removal of CO2 but also by providing a terrestrial-like environment for the psychological well-
+being of astronauts.
+Due to their sessile condition, plants have to promote adaptive responses to cope with changes in environ-
+mental conditions. Light plays multiple roles in the mechanisms of these adaptive responses. On the one
+hand, light is the source of energy by means of photosynthesis and regulates indirectly cell proliferation
+and cell growth via the central regulator TOR kinase through the expression of S-phase genes, and also
+ribosome biogenesis (Caldana et al., 2013; Xiong et al., 2013; Sablowski and Carnier Dornelas, 2014). In
+addition, light is a major driver in the establishment of the patterns of plant growth and development,
+by means of phototropism and photomorphogenesis. In playing this role, light is associated with gravity
+as one of the major tropistic cues, such that gravitropism and phototropism (and the interaction between
+them) are essential modulators of plant development (Vandenbrink et al., 2014). At the cellular and molec-
+ular levels, plant development relies on the activity of cell growth and proliferation taking place in the mer-
+istems, which supply differentiated cells and are inﬂuenced by the tropistic cues (Perrot-Rechenmann,
+2010).
+Darkness is indeed a stress condition for plants. Several articles describe that in the dark, apical meristem
+proliferation is arrested in the G1 and G2 phases of the cell cycle (Lo´ pez-Juez et al., 2008; Mohammed et al.,
+2017), but in the root meristem, light induces the production of ﬂavonols and other metabolites leading to
+1Centro de Investigaciones
+Biolo´ gicas Margarita Salas
+(CSIC), Ramiro de Maeztu 9,
+28040, Madrid, Spain
+2CNRS, Laboratoire Ge´ nome
+et De´ veloppement des
+Plantes (LGDP), UMR 5096,
+66860 Perpignan, France
+3Univ. Perpignan Via Domitia,
+LGDP, UMR 5096, 66860
+Perpignan, France
+4Department of Biology,
+University of North
+Carolina-Greensboro,
+Greensboro, NC 27402, USA
+5These authors contributed
+equally
+6Lead Contact
+*Correspondence:
+r.herranz@csic.es
+https://doi.org/10.1016/j.isci.
+2020.101686
+iScience 23, 101686, November 20, 2020 ª 2020 The Authors.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+1
+ll
+OPEN ACCESS
+
+the reduction of cell proliferation (Silva-Navas et al., 2016). This reduction could be related to the sugar
+starvation that results from the inability to perform photosynthesis.
+However, red light has a stimulating effect on ribosome biogenesis and cell proliferation. An increase in the
+mitotic index, in the expression of some regulators of these processes at both gene expression and protein
+levels, and in post-translational modiﬁcations of some protein factors has been described in plants irradi-
+ated with red light (Tong et al., 1997; Reichler et al., 2001).
+The absence of gravity (weightlessness, or microgravity, as it exists in free-fall, or in spaceﬂight) is also, by
+itself, a stress condition for plants, and speciﬁcally for the functions of meristematic cells (Matı´a et al., 2010;
+Boucheron-Dubuisson et al., 2016). An experiment performed in the International Space Station (ISS) in
+which Arabidopsis thaliana seedlings grew for 4 days in darkness resulted in an increase in the rate of
+cell proliferation and a decrease in the cell growth rate, estimated by the activity of ribosome biogenesis
+in the nucleolus, compared with the 1g control (Matı´a et al., 2010). As the coordination of these two activ-
+ities deﬁnes meristematic competence, the effect of the lack of tropistic stimuli, particularly of gravity sig-
+nals, may result in serious alterations of the developmental pattern of the plant, as was also shown in simu-
+lated microgravity experiments (Boucheron-Dubuisson et al., 2016).
+The Seedling Growth (SG) experiments, recently performed in the ISS, aimed at unraveling the link between
+phototropism and gravitropism, using the weightless environment of spaceﬂight (Vandenbrink et al., 2019;
+Herranz et al., 2019). In the ﬁrst SG experiment, A. thaliana seedlings corresponding to wild-type (WT)
+ecotype Landsberg erecta (Ler) and two phytochrome mutants (phyA and phyB) known to be involved in
+phototropism (Kiss et al., 2003; Molas and Kiss, 2008) were grown in space for 6 days and photostimulated
+for the last 2 days, revealing differential blue and red light phototropism in space (Vandenbrink et al., 2016).
+The analysis of the expression of regulatory genes of cell cycle and ribosome biogenesis showed that red
+light irradiation produced a signiﬁcant reversion of the uncoupling of cell proliferation and cell growth
+caused by microgravity in darkness (Matı´a et al., 2010) and, consequently, a compensation of the loss of
+meristematic competence (Valbuena et al., 2018).
+In view of these results from our previous space experiments, we decided to focus on the cellular process of
+ribosome biogenesis for the successive spaceﬂight experiments of the SG project, with the purpose of
+testing the separate and synergistic effects of the light and gravity tropistic signals on speciﬁc molecular
+and cellular components of this process. Ribosome biogenesis, which takes place in the nucleolus, repre-
+sents the most complex multi-step process that the cell must perform and is one of the most intricately
+regulated and controlled (Sa´ ez-Va´ squez and Medina, 2008; Pelletier et al., 2018). Therefore, its regulation
+must adapt to the environmental conditions in which the cell ﬁnds itself and coordinate with other cellular
+processes, such as cell division and differentiation. Several studies have described and used the nucleolus
+as a major stress sensor, using stress-induced changes in the organization and composition of this organ-
+elle (Mayer and Grummt, 2005; Boulon et al., 2010; Lewinska et al., 2010; Kalinina et al., 2018).
+Brieﬂy, ribosome biogenesis consists of the transcription of 45S rRNA genes (45S rDNA) containing the
+sequences of 18S, 5.8S, and 25S rRNAs, followed by the multi-step cleavage of 45S pre-rRNA to produce,
+in association with 5S rRNA and ribosomal proteins (RPs), the mature ribosomal subunits, which are then
+exported to the cytoplasm and assembled as mature ribosomes.
+In addition to RPs, hundreds of non-ribosomal proteins (NRPs), or nucleolar proteins and small nucleolar
+RNAs are required for ribosome biogenesis, playing regulatory roles (Sa´ ez-Va´ squez and Delseny, 2019).
+Among NRPs, nucleolin is the most abundant protein of the nucleolus, where it plays a key role in the
+different steps involved in ribosome biogenesis, including RNA polymerase (Pol) I transcription, processing
+of pre-rRNA (Ginisty et al., 1999; Roger et al., 2003), and assembly and nucleocytoplasmic transport of ribo-
+some particles (Bouvet et al., 1998). Moreover, nucleolin has been even implicated in other functions, with
+or without collateral relationship with ribosome biogenesis (Angelov et al., 2006; Ma et al., 2007; Monge-
+lard and Bouvet, 2007; Stepinski, 2012).
+Animal and yeast genomes encode a single nucleolin gene, whereas plants offer various examples of gene
+multiplicity. In A. thaliana, two genes encoding nucleolin proteins have been described: NUC1 and NUC2
+(Pontvianne et al., 2007, 2010). The NUC1 gene is highly and ubiquitously expressed in normal growth
+ll
+OPEN ACCESS
+2
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+conditions and NUC1 protein is required to inhibit NUC2 gene expression at the transcriptional level and
+may also inﬂuence the accumulation of NUC2 protein. In contrast, NUC2 is a functional protein-coding
+gene developmentally controlled in most plant tissues and organs (Durut et al., 2014). NUC1 and NUC2
+proteins localize in the nucleolus.
+Disruption of NUC1 gene (nuc1-2 mutant) leads to severe defects in plant growth and development. At the
+molecular level, this mutant produces NUC2 expression, nucleolus disorganization, rDNA (NOR) hetero-
+chromatin decondensation, pre-rRNA accumulation, de-repression of speciﬁc rDNA variants, and de-
+methylation of some sequences of rDNA (Pontvianne et al., 2010).
+In contrast, disruption of NUC2 gene (nuc2-2 mutant) has much weaker effects. The nuc2-2 mutant seed-
+lings grow quite similarly to WT plants, but ﬂowering occurs later. Knockout of the NUC2 gene induces
+expression of some rDNA variants and hypermethylation of some sequences of pre-rRNA. In addition,
+NUC2 is required for the stability of rDNA variants’ copy number (Durut et al., 2014).
+In this article, in a series of ground studies to complement space experiments, we have exposed A. thaliana
+(ecotype Columbia) WT, nuc1-2 and nuc2-2 seedlings to two different illumination regimes at the begin-
+ning of the plant development (6 days from germination). In addition to highlighting the importance of
+Earth reference controls in spaceﬂight -omics experiments, our goal was to better understand the re-
+sponses of nucleolin mutants to red light stimulation for further uses in space experiments under altered
+gravity conditions. The differential adaptive responses to the light are shown, suggesting that stress-
+related mutants may show a reduced response to environmental stress. In the long term, these results
+may lead to more efﬁcient agriculture if an exaggerated response may reduce plant development under
+suboptimal environmental conditions.
+RESULTS
+Overall Transcriptional Proﬁle Effects Conﬁrm a Suitable Quality of Plant Material and
+Clustering of the Replicates
+Two environmental conditions (light) are compared here, both of them as part of the SG Earth control refer-
+ence experiment using the European Modular Cultivation System (EMCS). Seedlings were germinated in
+the same spaceﬂight hardware during 4 days with a day/night cycle of illumination, and then half of the sam-
+ples were exposed to 2 days of darkness and the other group to 2 days of continuous red light (Figure 1A).
+After 6 days growth in the culture chamber (CC), the experiment was completed and the phenotypes of the
+three mutants were observed (Figure 1B, Supplemental Information, Figure S1). Seedling growth was
+homogeneous within each cassette, with clearly smaller seedlings in the case of the nuc1-2 mutant. No
+clear phenotypical differences were observed in the root system physiology between darkness- and red
+light-stimulated samples (including the absence of red phototropism at 1g conditions). The phenotype
+was compared with a previous experiment with the same duration and genotypes but in petri dishes
+and with a 6-day photoperiod illumination proﬁle (Manzano et al., 2020 submitted). Despite the effects
+of the TROPI cassette volume, the overall phenotype of the seedlings is also very similar in both studies.
+The quality of the replicates and overall similarities among the illumination regimes and different plants
+used is shown by principal-component analysis (PCA, Figure 1C and Supplemental Information, Data
+S1). First, a clear difference between the transcriptional proﬁle of the WT, nuc1-2, and nuc2-2 plants
+exposed to darkness or red light photostimulation during the last 2 days of growth is shown by principal
+component 1 (PC1). Second, the differences between the genotypes can be observed in principal compo-
+nent 2 (PC2), where the nuc1-2 genotype has the most disrupted nucleolus phenotype, in that the nuc2-2
+mutant is closer to the WT. The effect is clearer in the dark samples, because the red light stimulation pro-
+duces more similarities among the three genotypes. Last, all the biological replicates included in the study
+cluster together according to the experimental condition, strengthening the statistical validity of the study.
+The use of three biological replicates (including up to 10 seedlings each) is enough considering the difﬁ-
+culties in increasing this number due to the availability of spaceﬂight research capabilities.
+Global Effect of Red Light Photostimulation Differs in Each Arabidopsis thaliana Line
+To understand the effect of the two lighting regimes (red light and darkness) on the transcriptional status,
+we compared seedlings with the differential illumination during the last 2 days of the plant growth period
+for each of the lines used (WT, nuc1-2, and nuc2-2).
+ll
+OPEN ACCESS
+iScience 23, 101686, November 20, 2020
+3
+iScience
+Article
+
+The number of differentially expressed genes (DEGs) in the WT is 1,428 genes, of which 1,067 have their
+expression activated and 361 have it repressed. In the nuc1-2 mutant, the total number of DEGs is lower
+(1,001), mainly at the expense of the up-regulated genes (633 are over-expressed and 368 are repressed).
+The number of DEGs from the comparison (red light versus darkness) in the nuc2-2 mutant is very similar as
+in the WT: a total of 1,017 up-regulated genes and 339 down-regulated genes, making a total of 1,365
+DEGs (Figure 2).
+Venn diagrams illustrate the group of DEGs that is affected in a single genotype or shared by others (Fig-
+ure 2). Red light up-regulated genes affected only 298 genes in the WT, 134 genes in nuc1-2 mutant, and
+199 genes for nuc2-2 mutant. On the other hand, the WT has 34 up-regulated genes in common with nuc1-2
+but a large collection of 353 genes in common with nuc2-2 (note that the total number of up-regulated
+genes common for the three genotypes is 382), and only 83 genes for both nucleolin mutants (Figure 2B).
+Among DEGs down-regulated by the red light compared with the dark, there is a similar number of unique
+DEGs for each of them; 139 genes for the WT, 142 genes for the nuc1-2 mutant, and 104 genes for the
+nuc2-2 mutant. In this case, the number of DEGs down-regulated in the three lines is 125 genes, without
+any of the pair comparisons reaching that level (the nuc1-2 and nuc2-2 mutants have 44 and 53 genes in
+common with WT, respectively, whereas the two nucleolin mutants share 57 down-regulated genes,
+Figure 2C).
+In summary, the line with the least number of DEGs, when we compare plants illuminated with red light with
+those kept in darkness, is the nuc1-2 mutant. As the down-regulation response seems similar in all
+genotypes, the global effect is mainly due to a higher number of up-regulated DEGs in both nuc2-2 and
+WT genotypes. In fact, we can easily extrapolate from Figure 2B and compare the gene lists, including
+the common responses to red light (382 genes) and the list of up-regulated genes not detected in the
+nuc1-2 phenotype (353 genes). The main difference between these lists is shown by the functional analysis
+‘‘GO Enrichment’’ included in Figure 2. All genotypes show the obvious photosynthesis/light-harvesting
+response together with increased Calvin cycle activity, but the nuc1-2 genotype is the only one lacking
+A
+nuc1-2
+nuc2-2
+WildType
+4 days
+(photoperiod) 
+(Darkness) 
+2 days
+(Red light) 
+nuc1-2
+nuc2-2
+WildType
+B
+Principal component analysis (PCA)
+-40                    0                    40
+PC1: 58% variance
+40
+20
+0
+-20
+-40
+PC2: 14% variance
+C
+nuc1-2
+nuc2-2
+WildType
+4 days (photoperiod) 
++ 2 days (Darkness) 
+4 days (photoperiod) 
++ 2 days (Red light) 
+1cm 
+Figure 1. The Seedling Growth 2 Ground Reference Experiment
+(A) Experimental design including the illumination proﬁle for each sample including color code used as key.
+(B) Images of 6-day-old seedlings (WildType, nuc1-2, and nuc2-2, under the two illumination options) inside the CC just
+before collection for freezing (additional photos are provided as Supplemental Information Figure S1). Scale bar, 1 cm
+(the gridded membrane has clearly deﬁned grid lines spaced at 3.1 mm). The labels on the membrane represent the
+cassette # in the ground control.
+(C) Principal-component analysis (PCA) of the 18 samples (three replicates per condition) using read counts data from
+FeatureCounts. This diagram gives an overview of the similarities and dissimilarities between samples and the
+experimental conditions’ overall effects (see Data S1 for an RNA quality report on the red light samples). All replicates are
+consistently grouped according to their experimental conditions, and two clear PC1 (for illumination conditions during
+the last 2 days of growth: darkness and red light) and PC2 (for genetic background: WT, nuc1-2, and nuc2-2) are observed.
+ll
+OPEN ACCESS
+4
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+an increased secondary metabolism, together with a response to stress elements (cold) observed in both
+WT and nuc2-2. These results suggest that the presence of the NUC1 protein is necessary for the known
+effect of red light in the stimulation of cell proliferation, but the NUC2 protein is not an important player
+in that response.
+A complementary functional analysis has been done using the full lists of up- or down-regulated genes in
+each genotype, obtained by means of a Heatmap GO Enrichment. Up-regulated gene lists reveal that red
+light photostimulation versus darkness mainly leads to an unequivocal activation of genes involved in
+different phases of photosynthesis, together with processes that involve external encapsulation, secondary
+metabolism, and drug catabolism in all three A. thaliana lines examined (Supplemental Information, Fig-
+ure S2A). Other signiﬁcantly affected categories are the GO involving cell wall modiﬁcation, pathogenesis,
+responses to insects, and defense mechanisms to bacteria. In addition to the mentioned GO groups, red
+light activates different biosynthetic processes (ketone, cutin, and small molecules) and the response to
+stimuli, such as cold and UV light, in the WT and nuc2-2 mutant lines. Solely in the WT line, an enrichment
+in cell division-related genes (microtubule-based movement, cell cycle, meiotic cell cycle) is produced. In
+the case of down-regulated GO groups, red light photostimulation reduces expression of genes involved
+in the response to different stimuli (temperature, hypoxia, light, abscisic acid, oxidative stress) as well as the
+circadian rhythm of plants (Supplemental Information, Figure S2B). Additional down-regulated genes
+involved in the response to stress appear in WT and nuc2-2 comparison (heat and osmotic stress), in the
+WT and nuc1-2 comparison (cold acclimation, response to karrikin, hormone metabolism, and cell wall
+modiﬁcation), or nuc1-2 only (response to gibberellin). The two nucleolin mutant lines share a repression
+of the amino acid metabolism (alpha-amino acid catabolic process and leucine degradation).
+A
+B
+C
+•
+photosynthesis
+•
+photosynthesis, light harvesƟng
+•
+chlorophyll metabolic process
+•
+external encapsulaƟng structure
+organizaƟon
+•
+ReducƟve pentose phosphate cycle
+(Calvin cycle)
+•
+ketone biosyntheƟc process
+•
+small molecule biosyntheƟc process
+•
+response to cold
+•
+photosyntheƟc electron transport in 
+photosystem II
+•
+cuƟn biosyntheƟc process
+•
+photosynthesis
+•
+photosynthesis, light harvesƟng
+•
+response to light sƟmulus
+•
+porphyrin and chlorophyll
+metabolism
+•
+external encapsulaƟng structure
+organizaƟon
+•
+response to temperature sƟmulus
+•
+response to oxidaƟve stress
+•
+cellular response to hypoxia
+•
+response to light sƟmulus
+•
+response to abscisic acid
+WT                     nuc1-2                      nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+WT                     nuc1-2                      nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+WT                     nuc1-2                      nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+WT
+nuc1-2
+nuc2-2
+WT
+nuc1-2
+nuc2-2
+WT
+nuc1-2
+nuc2-2
+DEG (Down reg.)
+Size of each list
+DEG (Up reg.)
+Size of each list
+Total DEG
+Size of each list
+Figure 2. Differentially Expressed Genes (DEG p adj<0.05, Red Light Photostimulation versus Darkness) in WT and Nucleolin Mutants (nuc1-2 and
+nuc2-2)
+(A) Venn diagram comparing all DEGs and the ﬁve most signiﬁcant gene ontology (GO Enrichment) categories in the common DEG in the three genotypes.
+(B) Venn diagram comparing up-regulated DEGs and the ﬁve most signiﬁcant gene ontology (GO Enrichment) categories in the common DEGs in the WT
+and nuc2-2 genotypes and in the three genotypes, respectively.
+(C) Venn diagram comparing down-regulated DEGs and the ﬁve most signiﬁcant gene ontology (GO Enrichment) categories from common DEGs in the
+three genotypes.
+ll
+OPEN ACCESS
+iScience 23, 101686, November 20, 2020
+5
+iScience
+Article
+
+Dissecting Transcriptional Status for Each Genotype for Illumination Conditions at Normal
+Earth Gravity
+To better understand the differences in the transcriptional status of each genotype that could be attributed
+to the illumination conditions designed to be used in the SG spaceﬂight experiment, we performed a series
+of comparisons between the different lines, namely, nuc1-2 versus WT, nuc2-2 versus WT, and nuc1-2
+versus nuc2-2, when they are either photostimulated with red light or kept in darkness for 48 h, after a
+growth period of 4 days under a 16 h/8 h white light photoperiod regime (regular growth condition).
+The total number of DEGs when comparing the severe mutant nuc1-2 with the WT is remarkable, with thou-
+sands of genes affected in the different illumination conditions. A similar result was obtained in the com-
+parison of nuc1-2 with nuc2-2. This number was much higher in the comparisons of the nuc1-2 mutant with
+both the Col-0 and nuc2-2 mutant in darkness: 3,363 genes and 2,121 genes, respectively. Under red light
+stimulation, the numbers dropped to half: 1,499 genes compared with the WT and 1,069 compared with
+nuc2-2, respectively. In contrast, the small number of DEGs between the WT and nuc2-2 mild mutant
+(just 149 genes in darkness conditions) peaked to 225 when red light photostimulation was provided (Fig-
+ure 3). The up- and down-regulated genes showed similar trends in this case (Supplemental Information,
+Figure S3).
+The differential numbers in DEGs can be assigned to particular GO groups. Ontology analysis shows that
+both comparisons involving the nuc1 mutant in the darkness produced an increase in the expression of
+genes mainly involved in cell division, such as cell cycle, meiotic cell cycle, microtubule cytoskeleton, nu-
+clear chromosome segregation, cytokinesis, and cell cycle-G2/M transition (Supplemental Information,
+Figure S4A). Furthermore, in the nuc1-2 versus WT and nuc1-2 versus nuc2-2 comparisons, categories of
+responses to different stimuli, namely, responses to auxin, red light, gravity, and UV and ionizing radiations,
+also appeared overrepresented. In the comparison nuc1-2 versus nuc2-2 in darkness, most functional cat-
+egories (GO terms) appearing up-regulated in the nuc1-2 mutant are related to the cell wall (cell wall
+Last two days in 
+Darkness
+A
+B
+Last two days in 
+Red Light
+nuc1-2 vs. WT     nuc2-2 vs. WT   nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2
+vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc2-2 
+vs. WT
+nuc1-2 
+vs. WT
+nuc2-2 
+vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc1-2 vs. WT     nuc2-2 vs. WT    nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+Figure 3. Differentially Expressed Genes (DEG p adj<0.05, in the Three Genotype Pair-Comparisons among WT,
+nuc1-2, and nuc2-2) within the Same Experimental Condition
+(A) Venn diagram comparing all DEGs between plants exposed to darkness the last 2 days.
+(B) Venn diagram comparing all DEGs between plants exposed to red light stimulation the last 2 days.
+ll
+OPEN ACCESS
+6
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+macromolecule catabolic process, pectin biosynthetic process), the cuticle (cuticle development and cutin,
+suberin, and wax biosyntheses), and the plasma membrane (anchored component of plasma membrane,
+very-long-chain fatty acid biosynthetic process, transmembrane receptor protein kinase activity).
+The up-regulated processes when red light is applied are quite different (Supplemental Information, Fig-
+ure S4B). In the nuc1-2 versus WT and nuc1-2 versus nuc2-2 comparisons, DEGs appeared involved in cell
+wall (structural constituents of cell wall) and in development (positive regulation of growth, post-embryonic
+plant morphogenesis, cellular response to ethylene stimulus). In the nuc1-2 versus nuc2-2 comparison,
+many genes with a red-light-activated expression were involved in ribosome biogenesis (preribosome,
+maturation of SSU-rRNA, 90S preribosome, maturation of 5.8S RNA, ribosomal large subunit biogenesis).
+The two nucleolin mutant lines relative to WT (nuc1-2 versus WT and nuc2-2 versus WT comparisons) in
+conditions of red light photoactivation have up-regulated genes involved in different response processes,
+such as the responses to hypoxia, drug, antibiotic, salicylic acid, and wounding. The number of response
+processes was increased in the nuc2-2 versus WT comparison with the GO categories: responses to cold,
+bacterium, and abscisic acid.
+The identiﬁcation of common gene categories down-regulated in both darkness and red light conditions
+was more challenging (Supplemental Information, Figures S4C and S4D). In darkness, nuc1-2 versus WT
+and nuc1-2 versus nuc2-2 comparisons were very similar and mainly related to developmental processes
+(regulation post-embryonic development, meristem development, regulation of seed development, plant
+organ senescence), mRNA quality (mRNA surveillance pathway), response to temperature (response to
+temperature stimulus, endopeptidase Clp complex, heat shock protein), and immune system (immune
+response, response to toxic substance, glutathione metabolism). In the comparisons indicated above,
+genes involved in long-day photoperiodism, ﬂowering, rhythmic process, and response to light intensity
+were also less represented. In the same way, cellular responses to light stimulus category was over-repre-
+sented in both nucleolin mutants with respect to WT and responses to light stimulus was a common GO
+category in all three comparisons. The gene categories repressed only in the nuc1-2 versus nuc2-2 compar-
+ison were involved in the spliceosome, protein demethylation, chromatin organization, mRNA binding, and
+histone acetyltransferase activity.
+The gene categories with repressed expression under red light for any of the comparisons (nuc1-2 versus
+WT and nuc1-2 versus nuc2-2) were related to mRNA splicing (alternative mRNA splicing via spliceosome),
+light responses (response to light stimulus, photoperiodism ﬂowering, circadian rhythm), photosynthesis
+(chlorophyll biosynthesis process, chloroplast envelope), and the immune system (immune system process,
+defense response to bacterium, regulation of salicylic acid metabolic process, Supplemental Information,
+Figure S4D).
+Protein-Protein Interaction Networks Helps to Visualize the Differential Transcriptional State
+of nuc1-2 Genotype in 1g Control References
+Enrichment-PPI analysis (protein-protein interaction network) also showed that, in darkness, the mutant
+nuc1-2 has up-regulated the expression of genes involved in the regulation of G2/M transition of the
+mitotic cell cycle, mitotic spindle assembly checkpoint, and auxin-activated signaling pathway, with
+respect to both the WT and the mutant nuc2-2 (Figure 4). In the down-regulation side, nuc1-2 mutant,
+when compared with WT, showed down-regulated genes involved in transcription regulator activity,
+sequence-speciﬁc DNA binding, defense response, and regulation of developmental process. In addition,
+the nuc1-2 mutant has genes with repressed expression in darkness condition related to negative regula-
+tion of circadian rhythm, responses to light stimulus, and responses to jasmonic acid, when compared with
+WT and nuc2-2 mutant (Figure 4). These results were in agreement with functional GO analysis (Supple-
+mental Information, Figures S2 and S4).
+DISCUSSION
+Results from Spaceﬂight Experiments Can Have Several Limitations that Are Not Often
+Present in Other Biological -Omics Works
+Major constraints of spaceﬂight experiments are the reduced amount of material and reproducibility, but
+other issues include the storage of samples before and after the experiment execution in space, causing
+staggered preparation and processing of the samples (Millar et al., 2010; Correll et al., 2013). In this
+ll
+OPEN ACCESS
+iScience 23, 101686, November 20, 2020
+7
+iScience
+Article
+
+work, we have shown that, using the spaceﬂight hardware and procedures, we can perform a transcriptomic
+analysis with enough reliability to describe the differential transcriptional state of the nucleolin mutants un-
+der different light conditions. Three replicates could be considered low for current standards for animal
+-omics studies in Earth, but in our experiment each replica already represents the average of 10 plants.
+We show here that the replicates expected to be collected from the spaceﬂight experiment can be esti-
+mated to be sufﬁcient for performing a sequencing study that allows clustering of the different genotypes
+and environmental conditions (Figure 1).
+Due to logistical considerations, a speciﬁc constraint for plant space biology is the limited number of
+different mutants/genotypes that can be used in a spaceﬂight experiment in true microgravity. We have
+to be sure that the mutants of choice will provide valuable information. In that sense, the use of nucleolin
+mutants is a promising choice to provide insight into both the cell cycle and stress response mechanisms,
+apart from the ribosome biogenesis in which this protein is directly involved. These processes are known to
+be recurrently affected in space -omics experiments with plants (Choi et al., 2019; Ferl et al., 2015; Herranz
+et al., 2019; Johnson et al., 2017; Kruse et al., 2017; Paul et al., 2013, 2017). The analysis performed here
+allows us to know the speciﬁc functions assumed by the two nucleolin proteins of A. thaliana (NUC1 and
+NUC2) in different environmental conditions, such as red light photostimulation and darkness, affecting
+tropistic stimuli. This information can be considered as the 1g reference control required to obtain the
+best possible understanding of the changes produced by the spaceﬂight conditions on plant
+Cell cycle
+Cell cycle process
+Regulation of mitotic cell cycle phase transition
+Mitotic spindle assembly checkpoint
+Regulation of G2/M transition of mitotic cell cycle
+Auxin-activated signaling pathway
+Negative regulation of circadiam rhythm
+Circadiam rhytmn
+Rhytmic process
+Response to light stimulus
+Response to oxygen-containing compound
+Response to jasmonic acid
+Regulation of developmental process
+Defense response 
+Transcription regulator activity
+Sequence-specific DNA binding
+Figure 4. Protein-Protein Interaction Network of Nuc1-2 Differential Response under Darkness Conditions
+Enrichment network visualization for results from the over-represented gene lists in Nuc1-2 versus the other genotypes. Gene in each node is represented by
+a chart indicating the functional category to which each one belongs (following the color legend). The networks show that processes such as cell cycle (left
+part or up-regulated genes), circadian rhythms, and stress responses (right part or down-regulated genes) are already affected in the 13g control conditions
+as a reference for the Seedling Growth spaceﬂight experiments.
+ll
+OPEN ACCESS
+8
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+development, and how the gravitational stress could be counteracted by changing phototropic stimuli. A
+longer-term goal is to use this knowledge for plant cultivation into bioregenerative life support systems.
+The Transcriptomic Baseline for Nucleolin Mutants Is Different under Red Light
+Photostimulation and Darkness
+Red light illumination mainly produces the activation of genes involved in photosynthesis, cell wall modi-
+ﬁcation, drug catabolism, pathogenesis, and biotic stress response. Conversely, different abiotic stimuli
+responses (temperature, hypoxia, light, abscisic acid, oxidative stress) are down-regulated by the photo-
+stimulation treatment, as well as the circadian rhythm of plants. This transcriptional effect is similar in
+the three lines studied (Col-0 WT, nuc1-2, and nuc2-2), suggesting that it may be independent of the nu-
+cleolin protein functions. Therefore, the interpretation of transcriptional effects on plants’ grown during
+spaceﬂight will be straightforward. In contrast, red light illumination produces a down-regulation of genes
+involved in the response to karritin, cold acclimation, and hormone metabolism in WT and nuc1-2, indi-
+cating that the NUC2 protein, and/or other proteins up-regulated in nuc1-2 (Pontvianne et al., 2007), could
+participate in these functions. In addition, in the nuc1-2 mutant, genes coding for response to gibberellin
+with the red light appear repressed. Gibberellin is a hormone involved in seed germination, bud and fruit
+formation, shoot longitudinal growth, and axial organ elongation (Hedden and Sponsel, 2015), which could
+support the relationship of defective plant growth and development with NUC1 gene disruption.
+Exposure to the dark during the last 2 days of cultivation of seedlings promotes gene categories mainly
+involved in processes of cell division and in the response to different stimuli (red light, UV, ionizing radia-
+tion, gravity, auxins). They are common in nuc1-2 versus WT and nuc1-2 versus nuc2-2 comparisons and
+unique in nuc1-2 versus WT comparison. These observations could indicate that, in a stress condition
+such as darkness, the NUC2 protein is capable of rescuing functions that the NUC1 protein performs under
+normal growth conditions. Indeed, a role of nucleolin in mitosis has been reported (de Carcer and Medina,
+1999; Ma et al., 2007). Therefore, in the nuc1 mutant, the NUC2 protein would be capable of performing
+functions necessary for plant survival, such as ribosome biogenesis regulation (Pontvianne et al., 2007),
+cell proliferation, and DNA repair. It is important to note that cell division GO was only signiﬁcantly up
+represented in the WT when red light was provided (Figure 2B). In contrast, the gene categories
+down-regulated in darkness are mainly related to developmental processes, mRNA quality, response to
+temperature, and immune system. This may indicate that in the dark stress condition, the NUC2 protein
+is not capable of supplying the function of the NUC1 protein in these processes. These results, together
+with those previously described, indicate that the functional rescue of NUC1 by NUC2, when NUC1 is
+not expressed, would be only partial, which may be due to the structural difference between both proteins,
+including longer N-terminal acidic domain and less-conserved GAR domain I in the C terminal (Durut and
+Sa´ ez-Va´squez, 2015).
+Differential Role of Nucleolin Mutants’ Transcriptomic Baseline May Offer New Insight in
+Spaceﬂight Experiments
+Differential transcriptional response is observed when comparing the two nucleolin mutants. The cate-
+gories of genes activated differentially in both mutants (nuc1-2 versus nuc2-2 comparison) are mainly
+involved in the cell wall and membrane systems. This ﬁnding is potentially interesting in space -omics to
+discriminate gravitropism from graviresistance mechanisms (Herranz and Medina, 2014) and could be
+related to the phenotype described in the nuc1-2 mutant, in which a reduction in the cell number and a
+disorganization in every cell layer is observed in transversal sections of primary leaves (Pontvianne et al.,
+2007). Moreover, the gene categories repressed only in the above-mentioned comparison are involved
+in the spliceosome, protein demethylation, chromatin organization, mRNA binding, and histone acetyl-
+transferase activity, which could be related to the described antagonist activity of these two proteins in
+pre-rRNA methylation and with their role in chromatin remodeling, RNA Pol I transcription, mRNA stability,
+and RNA/DNA metabolism (Pontvianne et al., 2010; Durut et al., 2014).
+In the nuc1-2 versus nuc2-2 comparison under red light photostimulation, the ribosome biogenesis GO
+shows the most signiﬁcant enrichment within the up-regulated genes (Supplemental Information, Fig-
+ure S4B). This result indicates that the described activating effect of red light in this process depends
+more on the expression of NUC2 protein than on the NUC1 expression. Ultimately, the two nucleolin
+mutant lines, compared with WT, have genes up-regulated by red light involved in different response
+processes, such as the response to hypoxia, drug, antibiotic, salicylic acid, and wounding. These response
+ll
+OPEN ACCESS
+iScience 23, 101686, November 20, 2020
+9
+iScience
+Article
+
+processes are extended in the nuc2-2 versus WT comparison, including response to cold, bacteria, and
+abscisic acid. These results indicate that even though both nucleolar proteins, NUC1 and NUC2, are
+involved in response processes, the implication of NUC2 is higher as to the number of processes.
+Therefore, NUC2 has a greater response capacity to environmental signals, such as illumination with red
+light, thus being more sensitive.
+A major challenge to be overcome in spaceﬂight -omics research is to differentiate and characterize which
+of the spaceﬂight environmental conditions (including not only microgravity and cosmic radiation but also
+the constraints imposed to the upload/download and storage processes in orbit, the gaseous atmosphere,
+among other factors) are responsible for each of the observed alterations in the transcriptome. According
+to our results, space -omics researchers need to pay special attention to the analysis of ground reference
+controls on Earth before conclusions can be made on the results obtained in spaceﬂight. In our particular
+example, the two nucleolin mutants are the perfect complement to the WT genotype to study how the
+NUC2 protein can replace the essential functions of NUC1 in orbit, and how light can modulate it, even
+rescuing WT transcriptional proﬁles in the nuc1-2 mutant. The fact that nuc2-2 mutant shows an increase
+in stress response GO when exposed to red light connects the red light stimulus with the modulation of
+the stress response. In parallel, the cell cycle and ribosome biogenesis functions required to be restored
+in microgravity are also light dependent in both the nuc1-2 mutant (in Earth, as shown here) and the WT
+plants in orbit (Valbuena et al., 2018).
+Limitations of the Study
+Due to logistical constraints, this study lacks a continuously illuminated control set of samples performed
+simultaneously due to the absence of those samples in the spaceﬂight experiment as well as the reference
+experiment. The next step in this research is to analyze the samples from the space experiment in micro-
+gravity and the partial gravity conditions produced by the centrifuge in the EMCS on the ISS. We anticipate
+conﬁrming that the duplicated nucleolin gene system works during spaceﬂight will lead us to discover
+novel mechanisms for plant adaptation to spaceﬂight conditions. Thus, this research will be eventually
+translated into better crops for life support systems in the human spaceﬂight ventures of the 21st century.
+Resource Availability
+Lead Contact
+Further information and requests for materials should be directed to and will be fulﬁlled by the lead
+contact, Rau´ l Herranz (r.herranz@csic.es)
+Materials Availability
+Materials generated in this study are available from the lead contact with a completed materials transfer
+agreement.
+Data and Code Availability
+The GLDS-313 datasets generated during this study have been deposited and it is available at GENELAB
+repository (Ray et al., 2019). Original data have been deposited to (GENELAB: https://doi.org/10.26030/
+0g0m-dj21, https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-313)
+METHODS
+All methods can be found in the accompanying Transparent Methods supplemental ﬁle.
+SUPPLEMENTAL INFORMATION
+Supplemental Information can be found online at https://doi.org/10.1016/j.isci.2020.101686.
+ACKNOWLEDGMENTS
+We want to acknowledge the collaboration and support of many people who have contributed to the
+success of the experiments of the ‘‘Seedling Growth’’ project whose results are reported in this paper.
+This includes payload developers (Airbus), ESA and NASA managers, scientiﬁc collaborators (Drs. Eugenie
+Carnero-Diaz, Richard E. Edelmann, Joshua P. Vandenbrink, Malgorzata Ciska, Katherine D.L. Millar, and
+Miguel Angel Valbuena), and the astronauts who performed the experiments on board the International
+ll
+OPEN ACCESS
+10
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+Space Station as well as the EMCS managers (N-USOC) who performed the ground control operations. This
+work was supported by the Agencia Estatal de Investigacio´ n of the Spanish Ministry of Science and Inno-
+vation, Grants #ESP2015-64323-R and #RTI2018-099309-B-I00 (co-funded by EU-ERDF) to F.J.M., by pre-
+doctoral fellowships to A.M. and A.V. from the Spanish National Program for Young Researchers Training
+(MINECO, Ref. BES-2013-063933, BES-2016-077976), and the Seedling Growth Project to the ISS
+LSRA2009-0932/1177, a shared project of ESA-ELIPS Program and NASA. J.Z.K. is funded by Grants
+NNX12A065G and 80NSSC17K0546. These results are related to the Space Omics TT funded by the Euro-
+pean Space Agency contract ESA 4000131202/20/NL/PG to R.H.
+AUTHOR CONTRIBUTIONS
+Conceptualization, R.H. and F.J.M.; Methodology and Investigation, A.V., A.M., and R.H.; Writing – Orig-
+inal Draft, A.M. and R.H.; Writing – Review & Editing, A.V., F.J.M., J.Z.K., and J.S.-V.; Supervision and Fund-
+ing Acquisition, F.J.M., J.Z.K., and J.S.-V.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+Received: July 9, 2020
+Revised: September 4, 2020
+Accepted: October 10, 2020
+Published: November 20, 2020
+REFERENCES
+Angelov, D., Bondarenko, V.A., Almagro, S.,
+Menoni, H., Monge´ lard, F., Hans, F., Mietton, F.,
+Studitsky, V.M., Hamiche, A., Dimitrov, S., and
+Bouvet, P. (2006). Nucleolin is a histone
+chaperone with FACT-like activity and assists
+remodeling of nucleosomes. EMBO J. 25, 1669–
+1679.
+Beheshti, A., Shirazi-Fard, Y., Choi, S., Berrios, D.,
+Gebre, S.G., Galazka, J.M., and Costes, S.V.
+(2019). Exploring the effects of spaceﬂight on
+mouse physiology using the open access NASA
+genelab platform. J. Vis. Exp. 143, 1–11.
+Boucheron-Dubuisson, E., Manzano, A.I., Le
+Disquet, I., Matia, I., Saez-Vasquez, J., van Loon,
+J.J., Herranz, R., Carnero-Diaz, E., and Medina,
+F.J. (2016). Functional alterations of root
+meristematic cells of Arabidopsis thaliana
+induced by a simulated microgravity
+environment. J. Plant Physiol. 207, 30–41.
+Boulon, S., Westman, B.J., Hutten, S., Boisvert,
+F.M., and Lamond, A.I. (2010). The nucleolus
+under stress. Mol. Cell 40, 216–227.
+Bouvet, P., Diaz, J.J., Kindbeiter, K., Madjar, J.J.,
+and Amalric, F. (1998). Nucleolin interacts with
+several ribosomal proteins through its RGG
+domain. J. Biol. Chem. 273, 19025–19029.
+de Carcer, G., and Medina, F.J. (1999).
+Simultaneous localization of transcription and
+early processing markers allows dissection of
+functional domains in the plant cell nucleolus.
+J. Struct. Biol. 128, 139–151.
+Caldana, C., Li, Y., Leisse, A., Zhang, Y.,
+Bartholomaeus, L., Fernie, A.R., Willmitzer, L., and
+Giavalisco, P. (2013). Systemic analysis of
+inducible target of rapamycin mutants reveal a
+general metabolic switch controlling growth in
+Arabidopsis thaliana. Plant J. 73, 897–909.
+Choi, W.G., Barker, R.J., Kim, S.H., Swanson, S.J.,
+and Gilroy, S. (2019). Variation in the
+transcriptome of different ecotypes of
+Arabidopsis thaliana reveals signatures of
+oxidative stress in plant responses to spaceﬂight.
+Am. J. Bot. 106, 123–136.
+Correll, M.J., Pyle, T.P., Millar, K.D., Sun, Y., Yao,
+J., Edelmann, R.E., and Kiss, J.Z. (2013).
+Transcriptome analyses of Arabidopsis thaliana
+seedlings grown in space: implications for
+gravity-responsive genes. Planta 238, 519–533.
+Durut, N., Abou-Ellail, M., Pontvianne, F., Das, S.,
+Kojima, H., Ukai, S., de Bures, A., Comella, P.,
+Nidelet, S., Rialle, S., et al. (2014). A duplicated
+NUCLEOLIN gene with antagonistic activity is
+required for chromatin organization of silent 45S
+rDNA in Arabidopsis. Plant Cell 26, 1330–1344.
+Durut, N., and Sa´ez-Va´squez, J. (2015). Nucleolin:
+dual roles in rDNA chromatin transcription. Gene
+556, 7–12.
+Ferl, R.J., Koh, J., Denison, F., and Paul, A.L.
+(2015). Spaceﬂight induces speciﬁc alterations in
+the proteomes of Arabidopsis. Astrobiology 15,
+32–56.
+Garrett-Bakelman, F.E., Darshi, M., Green, S.J.,
+Gur, R.C., Lin, L., Macias, B.R., McKenna, M.J.,
+Meydan, C., Mishra, T., Nasrini, J., et al. (2019).
+The NASA twins study: a multidimensional
+analysis of a year-long human spaceﬂight.
+Science 364, https://doi.org/10.1126/science.
+aau8650.
+Ginisty, H., Sicard, H., Roger, B., and Bouvet, P.
+(1999). Structure and functions of nucleolin. J. Cell
+Sci. 112, 761–772.
+Hedden, P., and Sponsel, V. (2015). A century of
+gibberellin research. J. Plant Growth Regul. 34,
+740–760.
+Herranz, R., Vandenbrink, J.P., Villacampa, A.,
+Manzano, A., Poehlman, W.L., Feltus, F.A., Kiss,
+J.Z., and Medina, F.J. (2019). RNAseq analysis of
+the response of Arabidopsis thaliana to fractional
+gravity under blue-light stimulation during
+spaceﬂight. Front. Plant Sci. 10, 1–11.
+Herranz, R., and Medina, F.J. (2014). Cell
+proliferation and plant development under novel
+altered gravity environments. Plant Biol. 16,
+23–30.
+Johnson, C.M., Subramanian, A., Pattahil, S.,
+Correll, M.J., and Kiss, J.Z. (2017). Comparative
+transcriptomics indicate changes in cell wall
+organization and stress response in seedlings
+during spaceﬂight. Am. J. Bot. 104, 1219–1231.
+Kalinina, N.O., Makarova, S., Makhotenko, A.,
+Love, A.J., and Taliansky, M. (2018). The multiple
+functions of the nucleolus in plant development,
+disease and stress responses. Front. Plant Sci. 9,
+1–19.
+Kiss, J.Z., Mullen, J.L., Correll, M.J., and
+Hangarter, R.P. (2003). Phytochromes A and B
+mediate red-light-induced positive phototropism
+in roots. Plant Physiol. 131, 1411–1417.
+Kruse, C.P.S., Basu, P., Luesse, D.R., and Wyatt,
+S.E. (2017). Transcriptome and proteome
+responses in RNAlater preserved tissue of
+Arabidopsis thaliana. PLoS One 12, 1–10.
+Lewinska, A., Wnuk, M., Grzelak, A., and Bartosz,
+G. (2010). Nucleolus as an oxidative stress sensor
+in the yeast Saccharomyces cerevisiae. Redox
+Rep. 15, 87–96.
+Lo´ pez-Juez, E., Dillon, E., Magyar, Z., Khan, S.,
+Hazeldine, S., de Jager, S.M., Murray, J.A.H.,
+Beemster, G.T.S., Bo¨ gre, L., and Shanahan, H.
+(2008). Distinct light-initiated gene expression
+and cell cycle programs in the shoot apex and
+cotyledons of Arabidopsis. Plant Cell 20, 947–968.
+ll
+OPEN ACCESS
+iScience 23, 101686, November 20, 2020
+11
+iScience
+Article
+
+Ma, N., Matsunaga, S., Takata, H., Ono-Maniwa,
+R., Uchiyama, S., and Fukui, K. (2007). Nucleolin
+functions in nucleolus formation and
+chromosome congression. J. Cell Sci. 120, 2091–
+2105.
+Manzano, A., Pereda-Loth, V., de Bures, A., Sa´ez-
+Va´squez, J., Herranz, R., and Medina, F.J. (2020).
+Interaction of light and gravity signals as a
+mechanism of counteracting alterations caused
+by simulated microgravity in proliferating plant
+cells. Under review. Am. J. Bot. https://doi.org/
+10.21203/rs.3.rs-29236/v1.
+Matı´a, I., Gonza´lez-Camacho, F., Herranz, R., Kiss,
+J.K., Gasset, G., van Loon, J.J.W.A., Marco, R.,
+and Medina, F.J. (2010). Plant cell proliferation
+and growth are altered by microgravity
+conditions in spaceﬂight. J. Plant Physiol. 167,
+184–193.
+Mayer, C., and Grummt, I. (2005). Cellular stress
+and nucleolar function. Cell Cycle 4, 1036–1038.
+Millar, K.D., Kumar, P., Correll, M.J., Mullen, J.L.,
+Hangarter, R.P., Edelmann, R.E., and Kiss, J.Z.
+(2010). A novel phototropic response to red light
+is revealed in microgravity. New Phytol. 186,
+648–656.
+Mohammed, B., Bilooei, S.F., Do´ czi, R., Grove, E.,
+Railo, S., Palme, K., Ditengou, F.A., Bo¨ gre, L., and
+Lo´ pez-Juez, E. (2017). Converging energy and
+hormonal signalling control meristem activity,
+leaf initiation and growth. Plant Physiol. 176,
+1365–1381.
+Molas, M.L., and Kiss, J.Z. (2008). PKS1 plays a
+role in red-light-based positive phototropism in
+roots. Plant Cell Environ. 31, 842–849.
+Mongelard, F., and Bouvet, P. (2007). Nucleolin: a
+multiFACeTed protein. Trends Cell Biol. 17,
+80–86.
+Paul, A.L., Zupanska, A.K., Schultz, E.R., and Ferl,
+R.J. (2013). Organ-speciﬁc remodeling of the
+Arabidopsis transcriptome in response to
+spaceﬂight. BMC Plant Biol. 13, 112.
+Paul, A.L., Sng, N.J., Zupanska, A.K.,
+Krishnamurthy, A., Schultz, E.R., and Ferl, R.J.
+(2017). Genetic dissection of the Arabidopsis
+spaceﬂight transcriptome: are some responses
+dispensable for the physiological adaptation of
+plants to spaceﬂight? PLoS One 12, 1–24.
+Pelletier, J., Thomas, G., and Volarevic, S. (2018).
+Ribosome biogenesis in cancer: new players and
+therapeutic avenues. Nat. Rev. Cancer 18, 51–63.
+Perrot-Rechenmann, C. (2010). Cellular responses
+to auxin: division versus expansion. Cold Spring
+Harb. Perspect. Biol. 2, 1–15.
+Pontvianne, F., Matı´a, I., Douet, J., Tourmente, S.,
+Medina, F.J., Echeverria, M., and Sa´ez-Va´squez,
+J. (2007). Characterization of AtNUC-L1 reveals a
+central role of nucleolin in nucleolus organization
+and silencing of AtNUC-L2 gene in Arabidopsis.
+Mol. Biol. Cell 18, 369–379.
+Pontvianne, F., Abou-Ellail, M., Douet, J.,
+Comella, P., Matı´a, I., Chandrasekhara, C.,
+DeBures, A., Blevins, T., Cooke, R., Medina, F.J.,
+et al. (2010). Nucleolin is required for DNA
+methylation state and the expression of rRNA
+gene variants in Arabidopsis thaliana. PLoS
+Genet. 6, 1–13.
+Ray, S., Gebre, S., Fogle, H., Berrios, D.C., Tran,
+P.B., Galazka, J.M., and Coste, S.V. (2019).
+GeneLab: omics database for spaceﬂight
+experiments. Bioinformatics 35, 1753–1759.
+Reichler, S.A., Balk, J., Brown, M.E., Woodruff, K.,
+Clark, G.B., and Roux, S.J. (2001). Light
+differentially regulates cell division and the
+mRNA abundance of pea nucleolin during de-
+etiolation. Plant Physiol. 125, 339–350.
+Roger, B., Moisand, A., Amalric, F., and Bouvet, P.
+(2003). Nucleolin provides a link between RNA
+polymerase I transcription and pre-ribosome
+assembly. Chromosoma 111, 399–407.
+Ronca, A.E., Moyer, E.L., Talyansky, Y., Lowe, M.,
+Padmanabhan, S., Choi, S., Gong, C., Cadena,
+S.M., Stodieck, L., and Globus, R.K. (2019).
+Behavior of mice aboard the international space
+station. Sci. Rep. 9, 1–14.
+Sablowski, R., and Carnier Dornelas, M. (2014).
+Interplay between cell growth and cell cycle in
+plants. J. Exp. Bot. 65, 2703–2714.
+Sa´ez-Va´squez, J., and Delseny, M. (2019).
+Ribosome biogenesis in plants: from functional
+45S ribosomal DNA organization to ribosome
+assembly factors. Plant Cell 31, 1945–1967.
+Sa´ez-Va´squez, J., and Medina, F.J. (2008). The
+plant nucleolus. Adv. Bot. Res. 47, 1–46.
+Silva-Navas, J., Moreno-Risuen˜ o, M.A., Manzano,
+C., Te´ llez-Robledo, B., Navarro-Neila, S.,
+Carrasco, V., Pollmann, S., Gallego, F.J., and del
+Pozo, J.C. (2016). Flavonols mediate root
+phototropism and growth through regulation of
+proliferation-to-differentiation transition. Plant
+Cell 28, 1372–1387.
+Stepinski, D. (2012). Nucleolin level in plant root
+meristematic cells under chilling stress and
+recovery. Micron 43, 870–875.
+Tong, C.G., Reichler, S., Blumentahal, S., Balk, J.,
+Hsieh, H.L., and Roux, S.J. (1997). Light regulation
+of the abundance of mRNA encoding a nucleolin-
+like protein localized in the nucleoli of pea nuclei.
+Plant Physiol. 114, 643–652.
+Valbuena, M.A., Manzano, A., Vandenbrink, J.P.,
+Pereda-Loth, V., Carnero-Diaz, E., Edelmann,
+R.E., Kiss, J.Z., Herranz, R., and Medina, F.J.
+(2018). The combined effects of real or simulated
+microgravity and red-light photoactivation on
+plant root meristematic cells. Planta 248,
+691–704.
+Vandenbrink, J.P., Kiss, J.Z., Herranz, R., and
+Medina, F.J. (2014). Light and gravity signals
+synergize in modulating plant development.
+Front. Plant Sci. 5, 1–18.
+Vandenbrink, J.P., Herranz, R., Medina, F.J.,
+Edelmann, R.E., and Kiss, J.Z. (2016). A novel
+blue-light phototropic response is revealed in
+roots of Arabidopsis thaliana in microgravity.
+Planta 244, 1201–1215.
+Vandenbrink, J.P., Herranz, R., Poehlman, W.,
+Feltus, F.A., Villacampa, A., Ciska, M., Medina,
+F.J., and Kiss, J.Z. (2019). RNA-seq analyses of
+Arabidopsis thaliana seedlings after exposure to
+blue-light phototropic stimuli in microgravity.
+Am. J. Bot. 106, 1466–1476.
+Xiong, Y., McCormack, M., Li, L., Hall, Q., Xiang,
+C., and Sheen, J. (2013). Glucose-TOR signalling
+reprograms the transcriptome and activates
+meristems. Nature 496, 181–186.
+Zabel, P., Bamsey, M., Schubert, D., and Tajmar,
+M. (2016). Review and analysis of over 40 years of
+space plant growth systems. Life Sci. Space Res.
+10, 1–16.
+ll
+OPEN ACCESS
+12
+iScience 23, 101686, November 20, 2020
+iScience
+Article
+
+iScience, Volume 23
+Supplemental Information
+The Importance of Earth Reference Controls
+in Spaceﬂight -Omics Research: Characterization
+of Nucleolin Mutants from the Seedling Growth Experiments
+Aránzazu Manzano, Alicia Villacampa, Julio Sáez-Vásquez, John Z. Kiss, F. Javier
+Medina, and Raúl Herranz
+
+1 
+ 
+SUPPLEMENTARY INFORMATION 
+Transparent Methods 
+ 
+Seedling growth conditions 
+Seeds of Arabidopsis thaliana wild-type (WT) ecotype Columbia (Col 0) and two mutant 
+lines of nucleolin protein, nuc1-2: Salk_002764 (Pontvianne et al., 2010) and nuc2-2: 
+GABI178D01 (Durut et al., 2014), were surface sterilized with 70% (v/v) ethanol 
+(Sigma#270741) for 4 min, rinsed twice with 95% (v/v) ethanol for 1 min and dried in a 
+laminar flow cabin. Then, 28 selected seeds were affixed onto a sterile nitrocellulose 
+membrane (VWR#28149-472) with 1% (w/v) Guar Gum (Sigma#G-4129) and the 
+membranes with seeds were affixed in turn on blotter paper (Whatman 17 CHR, Fisher 
+Scientific#3017-915) previously soaked in 1/2 MS (Murashige and Skoog ́s medium, 
+Duchefa Biochemie#M0221) growth medium and placed on the cassette (culture chamber, 
+CC) base. The culture chamber volume is around 6-8 mL. 
+These samples belong to the ground reference control (1ggr) at nominal Earth gravity to 
+be used as baseline for a larger spaceflight experiment (Seedling Growth). The seedlings 
+grew in the European Modular Cultivation System (EMCS) Engineering Reference Model 
+(ERM), located in the Norwegian User Support and Operations Centre (N-USOC) of the 
+European Space Agency (ESA) at Trondheim, Norway. The EMCS was an incubator on the 
+ISS that was able to hydrate the seeds and control atmospheric conditions as humidity, O2, 
+CO2 and ethylene levels, also providing videorecording and image capture facilities 
+(Brinckmann, 1999, 2005; Brinckmann and Schiller, 2002). Standard EMCS Experiment 
+Containers (ECs) need to be complemented with an Experiment Unique Equipment (EUE) 
+providing specific experimental requirements. In our case, we used the “Tropi” EUE, 
+developed by NASA, consisting of culture chambers (CC), or cassettes, providing 
+semiautomatic hydration and three independent LEDs systems: White LEDs in the top, or 
+lateral 1:1 Red/Blue LEDs that can be operated independently (Correll et al., 2005; Kiss et 
+al., 2007). Each EC could accommodate five “Tropi” cassettes. 
+Ground control began with the hydration of the cassettes, and the seedlings grew for 6 
+days at 22 0C and in a controlled atmosphere. The first 4 days (96 h) of growth all seedlings 
+were illuminated with a photoperiod regime (16 h white light, 30-40 μmol/m2s and 8h 
+
+2 
+ 
+darkness) and the last 2 days (48 h) half of them were kept in darkness and the other half 
+were photostimulated with unidirectional red light (19 μmol/m2s, a lower intensity was 
+used for lateral photostimulation only, to ease the comparison with samples in darkness). 
+This experimental timeline followed the one we used in our spaceflight experiments 
+(Vandenbrink et al. 2019; Herranz et al. 2019) After the growth period, the seedlings were 
+collected from the cassettes and frozen in tubes with RNAlater (Ambion#AM7020) at -80 
+0C. Once frozen (stable state), they were transported to Madrid (Spain) for processing.  
+ 
+RNA extraction and Sequencing  
+Total RNA was extracted independently in three replicates (pooling 8-10 seedlings from 
+two different CC) per each experimental condition using a commercial kit and following 
+manufacturer's instructions (MACHEREY-NAGEL, 740949.250). This kit includes one 
+digestion step with DNAse for 15 min at room temperature. The quantity and quality RNA 
+was measured in the Bioanalyzer 2100 expert_Plant_RNA nano with Agilent RNA 6000 
+Nano Kit (Agilent Technologies#5067-1511). Data S1 includes the RNA quality report for 
+the red-light photostimulated samples labelled as 21-29 corresponding to Col-0-RL, nuc1-
+2-RL and nuc2-2-RL. Similar RNA extraction yields and quality indicators as RIN/RQI 
+index were obtained in other experiments performed in Ground Based Facilities without 
+the constraints of spaceflight hardware (Manzano et al., submitted).  Samples comprise 
+the same genotypes Col-0, nuc1-2 and nuc2-2 in 1g control and microgravity simulation 
+conditions.  
+Once we determined that we had sufficient quantity, the samples with a RNA Integrity 
+Number (RIN) >7 were sequenced on the Illumina HiSeq2500 sequencer from Genomics 
+Unit at the Centre for Genomic Regulation (CRG core facilities, Spain) with stranded RNA 
+read type and 50bp read length. Eighteen total RNA samples were used to generate 
+eighteen sequencing libraries using the Illumina TruSeq RNA Library Preparation Kit 
+(Illumina, USA). Samples were individually indexed. The samples then were combined at 
+equimolar proportions into two pools. Each pool was loaded onto two lanes of a flow cell. 
+Sequencing was performed until the 25 million reads per sample objective were reached 
+(27,5±1 millions of sequence obtained). 
+
+3 
+ 
+RNASeq samples processing was made using Galaxy (https://usegalaxy.org/) (Afgan et al., 
+2018). Reads quality was check with FASTQC and fragments were filter using Trim Galore! 
+(Krueger, 2015) with default settings. Reads were aligned to Arabidopsis TAIR10 genome 
+(https://www.arabidopsis.org) using RNA STAR (Galaxy Version 2.7.2b) (Dobin et al., 
+2013) and gene counts were obtained with FeatureCounts (Galaxy Version 1.6.3) (Liao et 
+al., 2014). This transcriptional dataset has been submitted to NASA’s GENELAB database 
+(Ray et al., 2019), and it will be released with the reference GLDS-313 (https://genelab-
+data.ndc.nasa.gov/genelab/accession/GLDS-313, DOI: 10.26030/0g0m-dj21).  
+ 
+Functional analysis  
+Statistical analyses of differential gene expression were conducted utilizing DESeq2 (Ray 
+et al., 2019) as part of the Galaxy Version 2.11.40.2 tool (Love et al., 2014). A multiple-test 
+corrected p-value (q-value; Benjamini and Hochberg, 1995) of 0.05 was employed.  In 
+order to observe the replicates dispersion and the general differences between samples 
+Principal Component Analysis was performed using iDEP.91 (Ge et al., 2018). Once the 
+Fold Change (FC) and the corrected p-value for each of the comparisons were obtained, 
+we identified the number of genes that are common by various comparisons or unique to 
+each of them using Venn diagrams (Bardou et al., 2014). The filters used to determine the 
+differentially expressed genes (DEG) that give us information on the effect of red light 
+versus darkness in each of the genotypes comparisons (WT-RL_WT-DN, nuc1-2-RL_nuc1-
+2-DN, nuc2-2-RL_nuc2-2-DN) were corrected p-value <0.05 and FC>1.5. In contrast, the 
+filter applied to the comparisons that show us the differences between genotypes for both 
+illuminations (darkness: nuc1-2-DN_WT-DN, nuc2-2-DN_WT-DN, nuc1-2-DN_nuc2-2-DN 
+and red light: nuc1-2-RL_WT-RL, nuc2-2-RL_WT-RL, nuc1-2-RL_nuc2-2-RL) was p-
+adj<0.05. 
+The next step was to determine in which biological processes the common and non-
+common genes are involved by utilizing the Metascape multi-gene-list meta-analysis tool 
+by selecting Custom Analysis with GO Molecular Function, GO Biological Processes and GO 
+Cellular components in Enrichment Analysis. The same criteria used for DEG p values were 
+used for the list comparisons in Venn diagrams. Metascape provides a clustered heatmap 
+
+4 
+ 
+with top enriched clusters and their enrichment patterns across multiple gene list (Zhou 
+et al., 2019).  
+In addition, an enrichment analysis to visualize protein-protein association network was 
+performed using STRING v.11. This tool uses a non-parametrical test (Aggregate Fold 
+Change), that consist in calculate the average of all values provided by the user for the 
+constituent genes and compare it against averages of randomized gene sets of the same 
+size. Then, a multiple testing correction is applied separately within each functional 
+classification framework (GO, KEGG, In- terPro, etc.), according to Benjamini and 
+Hochberg (1995). In addition to the functional classification frameworks, it performs a 
+hierarchical clustering based on a confidence diffusion state distance matrix computed on 
+the full organism-wide STRING network (Szklarczyk et al., 2019). 
+ 
+References  
+ 
+Afgan, E. et al. (2018). The Galaxy platform for accessible, reproducible and collaborative 
+biomedical analyses: 2018 update. Nucleic Acids Research  46, 537–544.  
+Bardou, P., Mariette, J., Escudié, F., Djemeiel, C., and Klopp, C (2014). jvenn: an interactive 
+Venn diagram viewer. BMC Bioinformatics 15(293), 1–7.  
+Benjamini, Y., and Hochberg, Y. (1995). Controlling the false discovery rate: A practical and 
+powerful approach to multiple testing.  Journal of the Royal Statistical Society. Series B 
+(Methodological) 57(1), 289–300.  
+Brinckmann, E. (1999). Spaceflight opportunities on the ISS for plant research - The ESA 
+perspective. Advances in Space Research 24(6), 779–788.  
+Brinckmann, E. (2005). ESA hardware for plant research on the International Space 
+Station. Advances in Space Research 36(7), 1162–1166.  
+Brinckmann, E., and Schiller, P. (2002). Experiments with small animals in BIOLAB and 
+EMCS on the International Space Station. Space Life Sciences: Biological Research and 
+Space Radiation 30(4), 809–814.  
+Correll, M. J., Edelmann, R. E., Hangarter, R. P., Mullen, J. L., and Kiss, J.Zl. (2005). Ground-
+based studies of tropisms in hardware developed for the European Modular Cultivation 
+System (EMCS). Advances in Space Research 36(7), 1203–1210.  
+Dobin, A., Davis, C. A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., 
+and Gingeras, T. R. (2013). STAR: Ultrafast universal RNA-seq aligner. Bioinformatics 
+29(1), 15–21.  
+ Durut, N., Abou-Ellail, M., Pontvianne, F., Das, S., Kojima, H., Ukai, S., de Bures, A., Comella, 
+P., Nidelet, S., Rialle, S., Merret, R., Echeverría, M., Bouvet, P., Nakamuta, K., and Sáez-
+Vásque, J. (2014). A duplicated NUCLEOLIN gene with antagonistic activity is required 
+for chromatin organization of silent 45S rDNA in Arabidopsis. The Plant Cell 26(3), 
+1330–1344. 
+Ge, S. X., Son, E. W., and Yao, R. (2018). iDEP : an integrated web application for differential 
+
+5 
+ 
+expression and pathway analysis of RNA-Seq data. BMC Bioinformatics, 19(1), 534. 
+Herranz, R., Vandenbrink, J. P., Villacampa, A., Manzano, A., Poehlman, W. L., Feltus, F. A., 
+Kiss, J. Z., and Medina, F. J. (2019). RNAseq analysis of the response of Arabidopsis 
+thaliana to fractional gravity under blue-light stimulation during spaceflight. Frontiers 
+in Plant Science 10, 1–11.  
+Kiss, J. Z., Kumar, P., Bowman, R. N., Steele, M.K., Eodice, M. T., Correll, M. J., and Edelmann, 
+R. E. (2007). Biocompatibility studies in preparation for a spaceflight experiment on 
+plant tropisms (TROPI). Advances in Space Research 39(7), 1154–1160.  
+Krueger, F. (2015) ‘Trim galore’, A wrapper tool around Cutadapt and FastQC to 
+consistently apply quality and adapter trimming to FastQ files, Available at 
+https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/. 
+Manzano, A, Pereda-Loth, V, de Bures, A., Sáez-Vásquez, J., Herranz, R., Medina, F.J. 
+Interaction of light and gravity signals as a mechanism of counteracting alterations 
+caused by simulated microgravity in proliferating plant cells. Under review. American 
+Journal of Botany. doi: 10.21203/rs.3.rs-29236/v1 
+Liao, Y., Smyth, G. K., and Shi, W. (2014). FeatureCounts: An efficient general purpose 
+program for assigning sequence reads to genomic features. Bioinformatics, 30(7), 923–
+930.  
+Love, M. I., Huber, W., and Anders, S. (2014). Moderated estimation of fold change and 
+dispersion for RNA-seq data with DESeq2.  Genome Biology 15(12),1–21.  
+Pontvianne, F., Abou-Ellail, M., Douet, J., Comella, P., Matía, I., Chandrasekhara, C., DeBures, 
+A., Blevins, T., Cooke, R., Medina F. J., Tourmente, S., Pikaard, C. S., and Sáez-Vásquez, J. 
+(2010), Nucleolin is required for DNA methylation state and the expression of rRNA 
+gene variants in Arabidopsis thaliana. PLoS Genetics 6(11), 1–13.  
+Ray, S., Gebre, S., Fogle, H., Berrios, D. C., Tran, P. B., Galazka, J. M., and Coste, S. V. (2019). 
+GeneLab: omics database for spaceflight experiments. Bioinformatics 35(10), 1753–
+1759.  
+Szklarczyk, D., Gable, A. L., Lyon, D., Junge, A., Wyder, S., Huerta-Cepas, J., Simonovic, M., 
+Doncheva, N. T., Morris, J. H., Bork, P., Jensen, L. J., and von Mering, C. (2019). STRING 
+v11: Protein-protein association networks with increased coverage, supporting 
+functional discovery in genome-wide experimental datasets. Nucleic Acids Research 
+47(D1), D607–D613.  
+Vandenbrink, J. P., Herranz, R., Poehlman, W., Feltus, F. A., Villacampa, A., Ciska, M., Medina, 
+F. J., and Kiss, J. Z . (2019). RNA-seq analyses of Arabidopsis thaliana seedlings after 
+exposure to blue-light phototropic stimuli in microgravity.  American Journal of Botany 
+106(11), 1466-1476.  
+Zhou, Y., Zhou, B., Pache, L., Chang, M., Khodabakhshi, A. H., Tanaseichuk, O., Benner, C., and 
+Chanda, S. K. (2019). Metascape provides a biologist-oriented resource for the analysis 
+of systems-level datasets. Nature Communications 10(1), 1523.  
+ 
+
+4 days (photoperiod) 
++ 2 days (Darkness) 
+4 days (photoperiod) 
++ 2 days (Red light) 
+nuc1-2
+nuc2-2
+nuc1-2
+nuc2-2
+WildType
+WildType
+nuc1-2
+nuc1-2
+nuc2-2
+nuc2-2
+WildType
+WildType
+Images of the seedlings (WildType, nuc1-2 and nuc2-2) were taken on the last day of
+cultivation during the experimental run under darkness (infrared videocapture provide not
+enough contrast to see all seedlings) or red light photostimulation. See Figure 1 for the final
+growth of the seedlings just before sampling for freezing. The scale bar in figure is 1 cm size
+(the gridded membrane has clearly defined grid lines spaced at 3.1 mm that were not
+observable in these photos).
+Figure S1. Photos from the twelve CC from the Seedling Growth 
+Ground Reference Test used in this study (related to Figure 1)
+
+A)                                                      
+Up regulated Gene Ontologies
+WT   nuc1-2  nuc2-2
+nuc2-2  nuc1-2   WT
+One row per cluster is shown, using a discrete color scale to represent statistical significance
+as -log10(p value). Gray color indicates a lack of significance.
+Figure S2. Heatmap showing the top GO enrichment clusters for DEG in 
+the WT and nucleolin mutants (nuc1-2 and nuc2-2, related to Figure 4) 
+B)                                           
+Down regulated Gene Ontologies
+
+Total DEG
+DEG (Up)
+DEG (Down)
+Total DEG
+DEG (Up)
+DEG (Down)
+nuc1-2
+vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc2-2    nuc1-2 
+vs. WT    vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc2-2 
+vs. WT
+nuc2-2    nuc1-2 
+vs. WT    vs. WT
+A
+B
+C
+nuc1-2
+vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc2-2    nuc1-2 
+vs. WT    vs. WT
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc1-2 vs. nuc2-2
+Size of each list
+nuc2-2 
+vs. WT
+nuc2-2    nuc1-2 
+vs. WT    vs. WT
+D
+E
+F
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+nuc1-2 vs. wt
+nuc2-2 vs. wt
+nuc1-2 vs. nuc2-2
+Number of elements: specific (1) or shared by 2,3,… lists
+A) Venn diagram comparing all DEG between plants exposed to darkness the last two days.
+B) Venn diagram comparing upregulated DEG between plants exposed to darkness the last
+two days. C) Venn diagram comparing downregulated DEG between plants exposed to
+darkness the last two days. D) Venn diagram comparing all DEG between plants exposed to
+red light stimulation the last two days. E) Venn diagram comparing upregulated DEG between
+plants exposed to red light stimulation the last two days. F) Venn diagram comparing
+downregulated DEG between plants exposed to red light stimulation the last two days.
+Figure S3. Differentially expressed genes (DEG p adj<0.05, in the three 
+genotype pair-comparisons among WT, nuc1-2 and nuc2-2, related to Figure 3) 
+
+A) Up regulated in plants exposed to darkness the last two days. B) Up regulated in plants
+exposed to red light the last two days. C) Down regulated in plants exposed to darkness the
+last two days. D) Down regulated in plants exposed to red light the last two days. One row per
+cluster is shown, using a discrete color scale to represent statistical significance as -log10(p
+value). Gray color indicates a lack of significance.
+Figure S4. Heatmap showing the top Gene Ontologies enrichment 
+clusters for DEG in the three genotype pair-comparisons among WT, 
+nuc1-2 and nuc2-2 (related to Figure 4)
+A)
+Up regulated
+GO in darkness
+C)                             Down regulated
+GO in darkness
+nuc2-2  nuc1-2  nuc1-2
+vs.     WT     nuc2-2
+WT
+nuc1-2  nuc1-2 nuc2-2
+vs.     WT     nuc2-2
+WT
+B)
+Up regulated GO
+in red light
+nuc1-2  nuc1-2 nuc2-2
+vs.   nuc2-2
+WT       WT
+D)                             Down regulated
+GO in red light
+nuc1-2  nuc1-2 nuc2-2
+vs.   nuc2-2
+WT       WT
+
+Page 1 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Run Overview Report
+Data S1. RNA extraction quality report (related to Figure 1).
+Data S1. RNA extraction quality report (related to Figure 1) 
+which is used as an example of the sets of samples included in 
+Figure 1C, namely EMCS samples (samples numbers 21-23, 
+24-26 and 27-29 respectively correspond to Col-0-RL, nuc1-2-
+RL and nuc2-2-RL), in this study showing good quantity and 
+quality values for extracted plant RNA (RIN/RQI numbers >7).
+
+Page 2 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Virtual Gel Report
+
+Page 3 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# Ladder
+RNA Area:
+681.27
+RNA Concentration:
+160.00 ng/µl
+Well# Ladder
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.47
+0.31
+1.37
+2
+26.90
+75.39
+0.36
+20.28
+3
+27.35
+2.43
+0.29
+0.67
+4
+28.15
+2.78
+0.80
+0.78
+5
+30.45
+112.32
+0.43
+34.20
+6
+33.25
+1.69
+0.50
+0.56
+7
+34.05
+2.51
+0.65
+0.85
+8
+34.75
+53.23
+0.47
+18.50
+9
+37.40
+74.05
+0.45
+27.69
+10
+39.60
+70.83
+0.91
+28.05
+Well# Ladder
+Egram, Gel Lane and Result Table Report
+
+Page 4 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+11
+42.70
+99.96
+0.78
+42.68
+12
+46.20
+78.91
+1.72
+36.45
+13
+51.60
+82.57
+2.56
+42.61
+Well# Ladder
+Egram, Gel Lane and Result Table Report
+
+Page 5 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 1  Control
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.75
+39.70
+704.26
+15.97
+2
+28S
+43.00
+45.80
+880.42
+19.97
+Well# 1  Control
+RNA Area:
+4,409.13
+RNA Concentration:
+1,035.51 ng/µl
+Ratio[28S/18S]:
+1.25
+RQI:
+9.4
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+7.51
+0.31
+1.59
+2
+23.99
+290.56
+0.58
+69.70
+3
+24.48
+271.46
+0.70
+66.46
+4
+25.48
+47.85
+0.38
+12.19
+5
+26.18
+23.97
+0.73
+6.28
+6
+27.42
+5.03
+0.60
+1.38
+7
+28.22
+47.33
+0.68
+13.36
+Well# 1  Control
+Egram, Gel Lane and Result Table Report
+
+Page 6 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+29.41
+7.30
+0.50
+2.15
+9
+29.96
+37.09
+0.66
+11.11
+10
+31.10
+33.45
+0.53
+10.40
+11
+32.75
+31.24
+1.29
+10.23
+12
+33.59
+31.18
+0.57
+10.47
+13
+34.64
+45.34
+0.61
+15.70
+14
+35.58
+73.15
+0.83
+26.03
+15
+37.07
+140.88
+1.10
+52.23
+16
+38.32
+916.66
+0.49
+351.25
+17
+40.36
+89.56
+0.75
+36.14
+18
+40.81
+70.17
+0.60
+28.64
+19
+41.80
+91.68
+0.75
+38.33
+20
+44.24
+1,570.41
+0.93
+694.76
+21
+46.53
+411.72
+2.95
+191.57
+22
+55.14
+31.91
+2.14
+17.60
+23
+59.77
+10.04
+1.69
+6.00
+24
+61.51
+7.71
+1.94
+4.74
+25
+63.50
+1.43
+0.60
+0.91
+26
+64.15
+0.83
+0.45
+0.53
+27
+64.74
+0.47
+0.41
+0.30
+Well# 1  Control
+Egram, Gel Lane and Result Table Report
+
+Page 7 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 2  Sample 21
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.65
+39.35
+49.14
+14.66
+2
+28S
+41.80
+43.85
+97.28
+29.02
+Well# 2  Sample 21
+RNA Area:
+335.24
+RNA Concentration:
+78.73 ng/µl
+Ratio[28S/18S]:
+1.98
+RQI:
+9.5
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+8.08
+0.31
+1.71
+2
+25.55
+5.18
+0.37
+1.32
+3
+31.18
+4.24
+0.69
+1.32
+4
+33.06
+1.00
+0.38
+0.33
+5
+34.84
+10.65
+0.39
+3.71
+6
+36.02
+5.13
+0.45
+1.85
+7
+37.21
+21.46
+0.38
+7.98
+Well# 2  Sample 21
+Egram, Gel Lane and Result Table Report
+
+Page 8 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+38.25
+55.04
+0.62
+21.05
+9
+39.88
+4.96
+1.05
+1.98
+10
+41.36
+9.45
+0.84
+3.91
+11
+42.40
+108.28
+0.68
+45.91
+Well# 2  Sample 21
+Egram, Gel Lane and Result Table Report
+
+Page 9 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 3  Sample 22
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.35
+18.76
+13.28
+2
+28S
+41.80
+43.85
+46.67
+33.02
+Well# 3  Sample 22
+RNA Area:
+141.34
+RNA Concentration:
+33.19 ng/µl
+Ratio[28S/18S]:
+2.49
+RQI:
+9.7
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+8.04
+0.31
+1.70
+2
+25.53
+2.58
+0.37
+0.66
+3
+34.82
+3.77
+0.38
+1.31
+4
+36.00
+2.50
+0.46
+0.90
+5
+37.23
+9.70
+0.37
+3.61
+6
+38.22
+20.42
+0.59
+7.80
+7
+39.89
+1.26
+0.48
+0.50
+Well# 3  Sample 22
+Egram, Gel Lane and Result Table Report
+
+Page 10 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+41.32
+3.89
+0.83
+1.61
+9
+42.45
+50.41
+0.63
+21.40
+Well# 3  Sample 22
+Egram, Gel Lane and Result Table Report
+
+Page 11 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 4  Sample 23
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.65
+39.30
+8.16
+10.98
+2
+28S
+41.75
+43.80
+17.68
+23.79
+Well# 4  Sample 23
+RNA Area:
+74.32
+RNA Concentration:
+17.45 ng/µl
+Ratio[28S/18S]:
+2.17
+RQI:
+9.1
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.95
+0.31
+1.47
+2
+25.54
+1.08
+0.38
+0.28
+3
+34.80
+1.85
+0.36
+0.64
+4
+35.96
+0.95
+0.44
+0.34
+5
+37.23
+3.58
+0.36
+1.33
+6
+38.16
+8.03
+0.56
+3.06
+7
+42.45
+17.69
+0.62
+7.51
+Well# 4  Sample 23
+Egram, Gel Lane and Result Table Report
+
+Page 12 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 5  Sample 24
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.35
+50.42
+16.23
+2
+28S
+41.85
+43.85
+104.06
+33.49
+Well# 5  Sample 24
+RNA Area:
+310.74
+RNA Concentration:
+72.98 ng/µl
+Ratio[28S/18S]:
+2.06
+RQI:
+9.5
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.48
+0.30
+1.37
+2
+25.52
+4.48
+0.36
+1.14
+3
+30.85
+3.32
+0.70
+1.02
+4
+33.13
+1.17
+0.42
+0.39
+5
+34.83
+9.66
+0.40
+3.37
+6
+36.04
+5.88
+0.46
+2.12
+7
+37.26
+19.92
+0.38
+7.42
+Well# 5  Sample 24
+Egram, Gel Lane and Result Table Report
+
+Page 13 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+38.23
+56.75
+0.57
+21.69
+9
+39.87
+2.95
+0.63
+1.18
+10
+41.33
+7.61
+0.84
+3.15
+11
+42.45
+111.94
+0.60
+47.51
+Well# 5  Sample 24
+Egram, Gel Lane and Result Table Report
+
+Page 14 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 6  Sample 25
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.80
+39.40
+10.19
+12.39
+2
+28S
+41.90
+44.05
+24.24
+29.47
+Well# 6  Sample 25
+RNA Area:
+82.26
+RNA Concentration:
+19.32 ng/µl
+Ratio[28S/18S]:
+2.38
+RQI:
+9.8
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.94
+0.31
+1.47
+2
+34.90
+1.85
+0.41
+0.65
+3
+36.01
+0.83
+0.55
+0.30
+4
+37.31
+4.27
+0.42
+1.59
+5
+38.33
+10.83
+0.63
+4.15
+6
+42.59
+25.77
+0.74
+10.98
+Well# 6  Sample 25
+Egram, Gel Lane and Result Table Report
+
+Page 15 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 7  Sample 26
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.35
+12.02
+12.03
+2
+28S
+41.85
+43.90
+26.88
+26.89
+Well# 7  Sample 26
+RNA Area:
+99.94
+RNA Concentration:
+23.47 ng/µl
+Ratio[28S/18S]:
+2.24
+RQI:
+9.3
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.15
+0.30
+1.30
+2
+25.50
+0.81
+0.36
+0.21
+3
+34.86
+2.38
+0.40
+0.83
+4
+36.02
+0.98
+0.44
+0.35
+5
+37.23
+5.10
+0.37
+1.90
+6
+38.24
+12.44
+0.59
+4.76
+7
+42.49
+28.19
+0.67
+11.98
+Well# 7  Sample 26
+Egram, Gel Lane and Result Table Report
+
+Page 16 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 8  Sample 27
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.30
+19.41
+13.81
+2
+28S
+41.85
+43.90
+42.07
+29.95
+Well# 8  Sample 27
+RNA Area:
+140.48
+RNA Concentration:
+32.99 ng/µl
+Ratio[28S/18S]:
+2.17
+RQI:
+9.4
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.28
+0.30
+1.33
+2
+25.55
+2.03
+0.37
+0.52
+3
+30.83
+1.01
+0.43
+0.31
+4
+34.85
+3.33
+0.38
+1.16
+5
+36.01
+1.51
+0.45
+0.54
+6
+37.27
+6.98
+0.37
+2.60
+7
+38.28
+20.01
+0.59
+7.66
+Well# 8  Sample 27
+Egram, Gel Lane and Result Table Report
+
+Page 17 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+41.48
+2.84
+0.74
+1.18
+9
+42.45
+45.42
+0.73
+19.28
+Well# 8  Sample 27
+Egram, Gel Lane and Result Table Report
+
+Page 18 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 9  Sample 28
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.25
+10.07
+11.32
+2
+28S
+41.80
+43.95
+24.13
+27.12
+Well# 9  Sample 28
+RNA Area:
+88.96
+RNA Concentration:
+20.89 ng/µl
+Ratio[28S/18S]:
+2.40
+RQI:
+9.2
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.36
+0.30
+1.35
+2
+25.53
+1.16
+0.36
+0.30
+3
+34.86
+2.06
+0.38
+0.72
+4
+36.03
+1.19
+0.42
+0.43
+5
+37.29
+4.82
+0.39
+1.80
+6
+38.26
+10.45
+0.60
+4.00
+7
+41.67
+2.71
+0.72
+1.13
+Well# 9  Sample 28
+Egram, Gel Lane and Result Table Report
+
+Page 19 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+42.49
+28.10
+0.70
+11.94
+Well# 9  Sample 28
+Egram, Gel Lane and Result Table Report
+
+Page 20 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 10  Sample 29
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.70
+39.35
+12.71
+12.54
+2
+28S
+41.80
+43.85
+30.58
+30.15
+Well# 10  Sample 29
+RNA Area:
+101.42
+RNA Concentration:
+23.82 ng/µl
+Ratio[28S/18S]:
+2.41
+RQI:
+9.4
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.28
+0.30
+1.33
+2
+25.54
+1.26
+0.39
+0.32
+3
+30.85
+0.99
+0.45
+0.31
+4
+34.84
+2.68
+0.38
+0.93
+5
+36.01
+1.33
+0.43
+0.48
+6
+37.23
+5.25
+0.37
+1.96
+7
+38.21
+13.23
+0.59
+5.06
+Well# 10  Sample 29
+Egram, Gel Lane and Result Table Report
+
+Page 21 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+41.47
+1.83
+0.75
+0.76
+9
+42.45
+32.37
+0.65
+13.74
+Well# 10  Sample 29
+Egram, Gel Lane and Result Table Report
+
+Page 22 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 11  Sample 30
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.65
+39.30
+9.79
+10.47
+2
+28S
+41.80
+43.80
+23.74
+25.39
+Well# 11  Sample 30
+RNA Area:
+93.50
+RNA Concentration:
+21.96 ng/µl
+Ratio[28S/18S]:
+2.43
+RQI:
+9.0
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.29
+0.30
+1.33
+2
+25.56
+1.63
+0.37
+0.42
+3
+30.84
+1.48
+0.45
+0.46
+4
+34.81
+3.66
+0.38
+1.27
+5
+36.03
+2.23
+0.42
+0.80
+6
+37.26
+6.45
+0.36
+2.40
+7
+38.14
+10.80
+0.54
+4.12
+Well# 11  Sample 30
+Egram, Gel Lane and Result Table Report
+
+Page 23 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+39.85
+1.31
+0.55
+0.52
+9
+41.27
+3.25
+0.82
+1.34
+10
+42.40
+26.15
+0.59
+11.09
+Well# 11  Sample 30
+Egram, Gel Lane and Result Table Report
+
+Page 24 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Well# 12  Control
+Fragment
+Fragment
+Start
+End
+Area
+% of
+Number
+Name
+Time
+Time
+Total Area
+1
+18S
+37.75
+39.65
+607.21
+16.93
+2
+28S
+43.10
+45.80
+794.79
+22.16
+Well# 12  Control
+RNA Area:
+3,586.20
+RNA Concentration:
+842.24 ng/µl
+Ratio[28S/18S]:
+1.31
+RQI:
+9.6
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+1
+21.15
+6.73
+0.31
+1.42
+2
+24.09
+261.59
+0.67
+63.01
+3
+24.92
+118.52
+0.47
+29.53
+4
+25.51
+31.68
+0.34
+8.08
+5
+26.19
+13.95
+0.70
+3.65
+6
+27.47
+1.70
+0.54
+0.47
+7
+28.25
+30.70
+0.58
+8.67
+Well# 12  Control
+Egram, Gel Lane and Result Table Report
+
+Page 25 of 25
+Project:
+Javier Medina
+Acq. Analyst:
+DefaultUser
+Assay:
+Eukaryote Total RNA StdSens
+Acq. Time:
+12/21/2018 8:51:32 AM
+Run:
+Experion RNA SS 21-12-18(3)
+Signature:
+N/A
+Run Version:
+N/A
+Peak
+Peak
+Mig. Time
+Corrected
+Comments
+FWHM
+Area
+State
+Number
+(secs)
+Area
+8
+29.47
+3.41
+0.44
+1.00
+9
+30.01
+22.22
+0.63
+6.67
+10
+31.14
+20.68
+0.46
+6.44
+11
+32.85
+15.63
+1.03
+5.14
+12
+33.63
+20.16
+0.52
+6.78
+13
+34.66
+29.36
+0.55
+10.18
+14
+35.64
+52.25
+0.54
+18.62
+15
+37.16
+99.95
+1.13
+37.14
+16
+38.33
+774.43
+0.46
+296.87
+17
+40.44
+123.81
+1.37
+50.07
+18
+41.81
+73.03
+0.78
+30.54
+19
+44.31
+1,344.29
+0.87
+595.62
+20
+46.61
+226.00
+2.58
+105.34
+21
+51.50
+41.00
+2.64
+21.12
+22
+54.39
+25.28
+2.84
+13.75
+23
+58.85
+0.36
+0.39
+0.21
+Well# 12  Control
+Egram, Gel Lane and Result Table Report

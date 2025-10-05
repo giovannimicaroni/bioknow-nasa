@@ -1,0 +1,902 @@
+Citation: Çelen, ˙I.; Jayasinghe, A.;
+Doh, J.H.; Sabanayagam, C.R.
+Transcriptomic Signature of the
+Simulated Microgravity Response in
+Caenorhabditis elegans and Comparison
+to Spaceflight Experiments. Cells 2023,
+12, 270. https://doi.org/10.3390/
+cells12020270
+Academic Editor: Mariano Bizzarri
+Received: 29 November 2022
+Revised: 25 December 2022
+Accepted: 28 December 2022
+Published: 10 January 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+cells
+Article
+Transcriptomic Signature of the Simulated Microgravity
+Response in Caenorhabditis elegans and Comparison to
+Spaceﬂight Experiments
+˙Irem Çelen 1,2, Aroshan Jayasinghe 2, Jung H. Doh 2 and Chandran R. Sabanayagam 2,*
+1
+Center for Bioinformatics and Computational Biology, University of Delaware, Newark, DE 19711, USA
+2
+Delaware Biotechnology Institute, University of Delaware, Newark, DE 19711, USA
+*
+Correspondence: chandran@udel.edu
+Abstract: Given the growing interest in human exploration of space, it is crucial to identify the
+effects of space conditions on biological processes. Here, we analyze the transcriptomic response
+of Caenorhabditis elegans to simulated microgravity and observe the maintained transcriptomic re-
+sponse after returning to ground conditions for four, eight, and twelve days. We show that 75% of
+the simulated microgravity-induced changes on gene expression persist after returning to ground
+conditions for four days while most of these changes are reverted after twelve days. Our results from
+integrative RNA-seq and mass spectrometry analyses suggest that simulated microgravity affects
+longevity-regulating insulin/IGF-1 and sphingolipid signaling pathways. Finally, we identiﬁed
+118 genes that are commonly differentially expressed in simulated microgravity- and space-exposed
+worms. Overall, this work provides insight into the effect of microgravity on biological systems
+during and after exposure.
+Keywords: ceramide; sphinogolipid signaling; longevity; transcriptome; space; intergenerational;
+microgravity
+1. Introduction
+Signiﬁcant efforts are being made for the human exploration of space. It is known that
+space conditions can negatively affect biological processes by causing bone loss, muscle
+atrophy, and immune system impairment, to name a few examples (reviewed in [1,2]).
+However, the underlying molecular mechanisms that contribute to these adverse effects is
+largely unknown.
+Microgravity is one of the major stress factors causing detrimental health effects on
+humans (reviewed in [3]). Simulation of microgravity is a cost-effective way to study the
+impact of microgravity on biological systems. For this purpose, various platforms including
+drop towers, parabolic ﬂights and space ﬂights are available. Because of their advantages
+to enable long term simulations in an effective and economical manner, clinostats are
+widely preferred to study gravitational response in biological systems, mainly plants,
+for decades [4–8]. Clinostats rotate a sample around a horizontal axis, thereby exposing
+the sample to a rotating gravitational vector. This can reduce and even possibly remove
+gravitational bias in the development of an organism [6,9–13].
+C. elegans is an exceptional model organism for space biology studies [14] with its com-
+pletely documented cell lineage, high reproduction rate, short lifespan, and high similarity
+to the human genome (reviewed in [15]). The usage of this organism in previous space
+missions (such as International C. elegans Experiment in Space (ICE-First), C. elegans RNAi
+space experiment (CERISE), Shenzhou-8, and Commercial Generic Bioprocessing Appara-
+tus Science Insert-01 (CSI-01)) have provided valuable insights into the biological response
+of C. elegans to space conditions [16–24]. However, these studies generally have utilized
+different strains and liquid cultures instead of commonly used OP50-seeded agar plates
+Cells 2023, 12, 270. https://doi.org/10.3390/cells12020270
+https://www.mdpi.com/journal/cells
+
+Cells 2023, 12, 270
+2 of 16
+to reduce the impact of surface tension [25]. We previously have shown that the usage of
+different liquid cultures and strains cause highly distinct intergenerational transcriptomic
+and phenotypical responses [26]. Similarly, a recent study reported dramatical intergen-
+erational changes in the physiology of liquid-grown worms [27]. Thus, complementary
+to the spaceﬂight studies, separate investigations can provide insight into the impact of
+individual space conditions on biological processes.
+This study investigates the effect of simulated microgravity and the sustained im-
+pacts after return to ground conditions on C. elegans transcriptome. Through the RNA-
+sequencing (RNA-seq) and mass spectrometry analyses, we reveal the downregulation of
+the sphingolipid signaling pathway under simulated microgravity. In addition, we identify
+a putative microgravity-responsive transcriptomic signature by comparing our results with
+previous studies.
+2. Materials and Methods
+2.1. C. elegans Strain and Growth Conditions
+Wild-type N2 strain was obtained from the Caenorhabditis Genetics Center (CGC). The
+worms were grown at 21 ◦C. Stocks of C. elegans were acclimated to CeHR medium for
+three weeks prior to microgravity experiments. The ground control animals were maintained
+in CeHR medium in 20 mL scintillation vials as described [26]. Approximately 100,000 live
+worms (P0 generation) were cleaned by sucrose floatation, their embryos (F1 generation) were
+harvested by bleaching and placed in ~40 mL of CeHR culture in sterile VueLife culture bags
+(“AC” Series 32-C, Saint-Gobain). Supplementary Videos S1 and S2 show some of the worms
+in the VueLife culture bags. Culture bags were mounted in the clinostat and rotated at 1
+rad/s (~10 RPM) for four days, which is the measured time to reach L4/adulthood [28].
+The “F2” and subsequent generations were approximated by using four-day intervals. Prior
+to RNA extraction, only live worms are retrieved using the sucrose ﬂoatation method. We
+note that “F2” generation and beyond will not maintain synchronicity, and all will contain
+a mixture of generations, but recovering only the live animals enriches the RNA pool for
+the expected (majority) generation as each adult will produce ~30 offspring. The reason for
+the usage of mixed stage worms were the difﬁculties experienced (e.g., contamination of
+the liquid medium) during the synchronizing of the animals.
+2.2. RNA Isolation, Illumina Sequencing
+Wild-type N2 strain was obtained from the Caenorhabditis Genetics Center (University
+of Minnesota, Twin Cities, MN, USA). The worms were grown at 21 ◦C. Stocks of C. elegans
+were acclimated to CeHR medium for three weeks prior to microgravity experiments.
+Approximately 100,000 live worms (P0 generation) were cleaned by sucrose ﬂoatation,
+their embryos (F1 generation) were harvested by bleaching and placed in ~40 mL of CeHR
+medium in sterile VueLife culture bags (“AC” Series 32-C, Saint-Gobain, La Défense Cedex,
+France). Four culture bags were mounted in a lab-built clinostat inside a laminar ﬂow
+biosafety hood, and one was kept aside as a ground control. The clinostat rotated the
+culture bags at 1 rad/s (~10 RPM) for four days, which is the measured time to reach
+L4/adulthood at 21 ◦C in CeHR medium [28]. Worms from one bag were immediately
+harvested to represent simulated microgravity conditions. The remaining three culture
+bags were processed in four-day intervals to represent the return to ground conditions. We
+note that F2 generation and beyond will not maintain synchronicity, and all will contain a
+mixture of generations, but recovering only the live animals enriches the RNA pool for the
+expected (majority) generation as each adult will produce ~30 offspring in CeHR culture.
+The experimental scheme is limited to using mixed stage worms because of the technical
+difﬁculties associated with manually picking the desired age (swimming) worms from
+liquid cultures. Live worms were selected for harvesting by sucrose ﬂoatation and total
+RNA was isolated with TRIzol treatment and recovered by alcohol precipitation. Total
+RNA was further puriﬁed by PureLink ™RNA Mini Kit (Life Technologies, Carlsbad, CA,
+USA). Two micrograms of total RNA were used for library preparations using the TruSeq
+
+Cells 2023, 12, 270
+3 of 16
+Stranded mRNA LT Sample Prep Kit (Illumina). Libraries were sequenced on an Illumina
+HiSeq 2500 instrument set to the rapid run mode using single-end, 1 × 51 cycle sequencing
+reads as per manufacturer’s instructions. RNA-seq was performed for each condition with
+three replicates.
+2.3. Gene Expression Analysis
+Quality control on the RNA-seq data was done with FASTQC (version 0.11.2) [29]. All
+the reads were in the “very good” quality range. The DEGs were identiﬁed by using two
+separate approaches. First, the Tuxedo pipeline [30] were used with default parameters.
+Second, the DESeq2 software (version 1.16.1) [31] was utilized after quantifying the ex-
+pression of transcripts with Salmon (version 0.8.2) [32]. The reference genome (WBCel235)
+along with the annotation ﬁle were retrieved from Ensembl [33]. We considered genes as
+differentially expressed if FDR adjusted p-values < 0.05, and log2 fold change > 2 unless
+otherwise stated. The results from the Tuxedo pipeline were used throughout the paper
+as explained in the results and the results from DESeq2 were reported in the supplemen-
+tary data (Supplementary Figure S4; Supplementary Table S5). We discarded miRNA,
+piRNA, and rRNA molecules from the analysis. The ncRNA molecules (WS250) and uncon-
+ﬁrmed genes were obtained from WormBase [34]. Dendrogram was generated with Ward’s
+clustering criterion by using R software (version 3.5.1).
+2.4. Functional Analysis of the Genes
+Gene ontology (GO) enrichment for biological processes and protein domains were
+assessed with Database for Annotation, Visualization and Integrated Discovery (DAVID)
+(v6.8) [35]. The GO network for the common DEGs between our simulated microgravity
+experiment and four-day CERISE was created in Cytoscape (version 3.4.0) [36] by using the
+BINGO plugin [37]. Pathway analysis was done using KEGG Mapper (https://www.genome.
+jp/kegg/tool/map_pathway1.html (accessed on 1 January 2019)). Tissue enrichment analysis
+was performed by using WormBase Gene Set Enrichment Analysis tool [38], and FDR adj.
+p-value < 0.05 considered significant and top ten tissues were reported.
+2.5. Comparison of DEGs to the CERISE Four Days
+NASA’s GeneLab (https://genelab.nasa.gov/ (accessed on 1 January 2019)) platform
+was used to acquire the Gene Expression Omnibus (GEO) accession number for the previous
+studies on microgravity related gene expressions in C. elegans. We identiﬁed four such
+studies with the following GEO accession numbers: GSE71771 (Expression Data from
+International C. elegans Experiment 1st), GSE71770 (four-day CERISE), GSE27338 (eight-day
+CERISE), and GSE32949 by UKM (PRJNA146465) from the query made on 30 June 2016
+with “C. elegans” and “microgravity” terms on GeneLab. We used data from only four-day
+CERISE as the duration of the study is the same with ours. We analyzed the publicly
+available microarray datasets with GEO2R (https://www.ncbi.nlm.nih.gov/geo/geo2r/
+(accessed on 1 January 2019)) for gene expression under microgravity at the ISS versus
+1G control in four day CERISE. The genes with logFC > 2 and Benjamini and Hochberg
+corrected p-value < 0.05 were considered as differentially expressed.
+STRING database (version 10.5) [39] was used to determine whether the common
+DEGs from our simulated microgravity experiment and four-day CERISE show enrich-
+ment for protein–protein interactions (PPI). We only considered the interactions only from
+experiments, gene-fusion, databases, and co-expression and selected “high-conﬁdence
+(0.7)” results. We excluded the interactions based on text-mining, fusion, neighborhood,
+and co-occurrence as we were only interested in PPI with higher experimental and/or
+computational conﬁdence. PPI enrichment showed signiﬁcance at p-value < 1.0 × 10−16
+with 58 interacting nodes and 155 edges. The PPI network was visualized with Cytoscape
+(version 3.4.0) [36]. Edge width was determined based on the “combined score” for the
+interactions obtained from the STRING database. We identiﬁed the human orthologs of
+
+Cells 2023, 12, 270
+4 of 16
+the common DEGs in our experiment and four-day CERISE with OrthoList 2 with default
+settings [40].
+2.6. Mass Spectrometry for Ceramides
+The worms were chopped manually with razor blades on ice-cold glass. Three repli-
+cates from mixed stage worms grown in ground control and simulated microgravity
+conditions were used simultaneously. Each sample was sent to Avanti Polar Lipids Analyti-
+cal Services as a frozen extract in glass tubes for liquid chromatography with tandem mass
+spectrometry (LC/MS/MS) experiment for detection of Ceramide levels. Each sample
+was extracted by modiﬁed Bligh and Dyer extraction [41]. The samples were dried and
+resuspended in 50:50 Chloroform:Methanol and diluted prior to analysis. The resolved
+sample was used for analyses and stored at −20 ◦C until assayed. Samples were diluted
+as needed for analysis with internal standards for Ceramides for quantization by injec-
+tion on LC/MS/MS. The individual molecular species for each sphingolipid group were
+measured by reversed phase liquid chromatography tandem mass spectrometry methods
+which separate the compounds by multiple reaction monitoring m/z to fragments and
+retention time. Quantiﬁcation was performed by ratio of analyte to internal standard
+response multiplied by ISTD concentration and m/z response correction factor. The results
+are expressed as ng/rnl. The consistency among the replicates were examined with Pear-
+son correlation. All but one replicates in both the experiments showed high correlation
+(R2 > 0.9). The ground control replicate which did not show a strong correlation (around
+60%) with the other replicates was excluded from the analysis. The data were analyzed
+with t-test (two-tailed), and p-value < 0.05 was considered signiﬁcant. Equal variances were
+conﬁrmed with Levene’s test at α = 0.05 for all the ceramides tested.
+2.7. Microgravity Simulation with Clinorotation
+We used a laboratory-built clinostat with an integrated microscope to observe the
+motion of small objects including microspheres, yeast cells, and C. elegans embryos during
+clinorotation. The trajectory of a spherical particle in a rotating vessel has been described
+previously in literature [5,11,42,43]. Dedolph and Dipert (1971) separated the motion of a
+spherical particle into two parts: a circular motion under the inﬂuence of gravity, the radius
+of which is inversely proportional to the angular velocity (ω, rad/s), and a radial motion
+due to centrifugal forces, the velocity of which is proportional to ω2 [42]. The equation of
+motion that describes the orbital trajectories is given by:
+m d2q
+dx2 + (2iωm + λ)dq
+dt −ω2(m −mw)q = −ig(m −mw)e−iωt.
+In the above equation, λ is the viscous drag coefﬁcient, m is the mass of the object, mw
+is the mass of the displaced water, t is time, g is the acceleration due to gravity, and q(x,y,z,t)
+is the rotating reference frame deﬁned as:
+q ≡xrot + iyrot = ze−iωt.
+As a test of the performance of the clinostat we recorded the motion of ﬂuorescent
+melamine-formaldehyde microspheres (5.6 µm diameter, 1.51 g/cm3 density; Corpuscular
+Inc., Cold Harbor, NY, USA) suspended in a 3% bovine serum albumin (BSA) solution
+(Supplementary Video S3). This solution was injected into an 8 mm diameter, 100-µm deep,
+coverglass topped chamber mounted on the clinostat microscope. Some of the melamine
+microspheres adhere to coverglass of the chamber, conveniently providing ﬁducial markers
+which we were able to use to compensate for the mechanical noise introduced into the
+micrographs by the rotation of the clinostat. We measured the terminal velocity of the
+suspended microspheres to be 3.2 ± 0.2 µm/s (mean ± SEM, n = 8). Figure S6 shows a
+plot of the measured radius of circular motion of suspended microspheres as a function
+of inverse angular velocity (black dots), and the calculated radius [5] using the measured
+
+Cells 2023, 12, 270
+5 of 16
+mean terminal velocity (blue line). The shaded area encompasses calculated radii for
+terminal velocities within one standard deviation of the mean.
+3. Results
+To dissect the biological processes affected under simulated microgravity and sus-
+tained after the exposure, we first cultured C. elegans in CeHR for three weeks on ground
+control condition and allowed the worms to acclimate to the liquid culture. Then,
+we exposed the worms to clinostat-simulated microgravity for four days (Figure 1a;
+Supplementary Video S1) and observed the maintained impacts at four, eight, and twelve
+days after placing the worms back to ground conditions (Figure 1b). RNA-seq was per-
+formed for each condition with three replicates (Supplementary Table S1). Because RNA-seq
+can detect low abundance transcripts and achieve less noise in the data, unlike previous
+space biology studies on C. elegans, we preferred RNA-seq over microarray [44].
+ 
+Figure 1. Transcriptomic response of C. elegans to simulated microgravity and return to ground
+conditions. (a) Clinostat used for simulating microgravity. (b) Experimental design for the effect of
+simulated microgravity on gene expressions during the exposure and after the return. (c) Dendrogram
+of the gene expression proﬁles for ground condition (GC), simulated microgravity (MG), four days
+after return to ground conditions (R1_GC), eight days after return to ground conditions (R2_GC), and
+twelve days after return to ground conditions (R3_GC). (d) Log2 fold change of the gene expressions
+(FPKM) between the conditions.
+We generated a dendrogram for the transcriptomic proﬁle in each condition tested
+and found signiﬁcant differences during and after exposure to simulate microgravity
+compared to the ground control conditions (Figure 1c). Thus, this result suggests that
+exposure to simulated gravity induces highly distinct gene expression patterns which are
+maintained even after 12 days return to ground conditions (approximately three generations
+of C. elegans in axenic medium [28]).
+3.1. Simulated Microgravity Triggers Differential Expression of Hundreds of Genes
+To identify the genes with the most distinctive expression levels after the exposure,
+we determined the differentially expressed genes (DEGs) in the simulated microgravity-
+exposed and returned worms against the ground control. The genes with over two-fold
+log2 expression difference with the FDR-adjusted p-value ≤0.05 were considered as DEGs.
+Hundreds of genes demonstrated differential expression during exposure to simulated
+
+Cells 2023, 12, 270
+6 of 16
+microgravity and up to eight days after return to ground conditions (Figure 1d). Twelve
+days after the return, the gene expression levels started to resemble the ones in the ground
+control with only 91 upregulated and 13 downregulated genes.
+The spatial expression of the DEGs is of great importance to identify the potentially
+affected tissues. Thus, we performed tissue enrichment analysis for the DEGs in simulated
+microgravity (Figure 2a). The downregulated genes were overrepresented in neuronal
+and epithelial tissues, and intestine while the upregulated genes were enriched in the
+reproductive system-related tissues.
+Figure 2. Differentially expressed gene proﬁles under simulated microgravity and after return to
+ground conditions. (a) Tissue enrichment of the upregulated (green) and downregulated (red) genes
+under simulated microgravity. (b) Pathway enrichment of the upregulated (green) and downreg-
+ulated (red) genes during the exposure to simulated microgravity (MG), and four and eight days
+after return to ground conditions (R1 GC and R2 GC, respectively). (c) The number of differentially
+expressed genes under simulated microgravity and the transmission of the differential expression
+after return to ground conditions. (d) Categorization of the upregulated genes in comparison to the
+ground control animals, and the enriched gene ontology terms assigned to them. (e) Categorization
+of the downregulated genes in comparison to the ground control animals, and the enriched gene
+ontology terms assigned to them.
+Next, we conducted pathway enrichment analysis for the DEGs in simulated micro-
+gravity and return to ground conditions to identify the altered pathways and whether they
+remained altered after return to ground conditions (Figure 2b). Our results suggested an
+upregulation of dorso–ventral axis formation and downregulation of lysosome during the
+exposure, and these expression patterns were maintained for four and eight days after the
+return, respectively.
+3.2. Simulated Microgravity-Induced Gene Expression Differences Are Highly Maintained for
+Eight Days after Return to Ground Conditions
+We identiﬁed the number of simulated microgravity-induced DEGs that preserved
+their expression patterns after the return to ground control (Figure 2c). The majority of
+the DEGs (approximately 75%) from the exposed animals maintained their expression
+patterns after the return for four days. The shared number of DEGs decreased drastically at
+12 days after the return to ground conditions: 16% for commonly upregulated and <1%
+downregulated genes with the exposed animals.
+To elucidate the genes showing altered expression under simulated micrograv-
+ity and maintaining these expression patterns after return to ground conditions for
+
+Cells 2023, 12, 270
+7 of 16
+short (four days) and long-term (12 days), we categorized the DEGs in Venn diagrams
+(Figure 2d,e; Supplementary Table S2). The genes solely upregulated in the simulated micro-
+gravity exposed animals did not exhibit enrichment for any gene ontology (GO) term. The
+genes upregulated during the exposure and four days after the return, however, showed
+an overrepresentation for reproduction-related processes (Figure 2d). Chitin metabolic
+process-related genes were induced at four days after return to ground conditions, and the
+expression proﬁles were conserved for eight days after the return.
+We found that the downregulated genes were enriched for the biological processes
+which are affected in space conditions. In particular, genes functioning in body morphology,
+collagen and cuticulin-based cuticle development, defense response, and locomotion were
+downregulated under simulated microgravity and up to eight days after return to ground
+conditions (Figure 2e). In simulated microgravity and spaceﬂight studies, both small
+movement defects [18] and no difference in locomotory behavior [19,45] have been noted.
+The reason behind these discrepancies is unclear, but our results indicated differences
+in the expression of the locomotion genes in close to weightless environment. Similarly,
+neuropeptide signaling pathway genes (ﬂp-22, ﬂp-8, ﬂp-26, nlp-10, nlp-12, nlp-17, nlp-20,
+nlp-24, nlp-25, nlp-26, nlp-39, nlp-33, nlp-28, nlp-29, nlp-30, and ﬂp-24) were downregulated
+during the exposure, and this expression proﬁle was lost after return to ground conditions
+(Figure 2e). These neuropeptide signaling pathway genes also exhibit enrichment for
+movement variant phenotypes (Supplementary Figure S1) indicating altered locomotion in
+response to simulated microgravity.
+During spaceﬂight, the neuromuscular system and collagen are negatively affected [18].
+In agreement with these ﬁndings, collagen genes were downregulated in our experiment
+during the exposure, and the downregulation was sustained for eight days after return to
+ground conditions. Previously, Higashibata et al. (2006) reported decreased expression for
+the myogenic transcription factors and myosin heavy chains in space-ﬂown worms [18]. We
+did not observe differential expression for these muscle-related genes. Since their reported
+ﬂight to ground gene expression ratio for the downregulated genes was less than one,
+and we only consider the genes with the log2 ratio greater than two as DEG, we did not
+expect to observe those genes in our group of DEGs. To test whether other muscle-related
+genes are differentially expressed under simulated microgravity, we compared our DEGs
+to 287 genes reported in WormBase for involvement in muscle system morphology variant
+or any of its transitive descendant terms via RNAi or variation. Only T14A8.2, col-103,
+and sqt-3 among the 287 genes showed downregulation under simulated microgravity
+(hypergeometric test, p-value = 0.99). Thus, our results did not suggest a signiﬁcant change
+in the expression of the genes known to function in muscle morphology.
+In our previous work, we revealed that the expression of many ncRNA molecules is
+triggered in response to environmental changes [26]. To identify whether a similar pattern
+occurs under simulated microgravity, we determined the expressed ncRNA molecules in
+ground control, simulated microgravity, and return. Since the housekeeping gene pmp-3
+presents consistent expression patterns both in our study and previous studies [26], we
+considered its minimum expression level (FPKM = 24.7) in our experiment as the cutoff for
+the expression of ncRNA molecules. The number of expressed ncRNA molecules slightly
+decreased in response to simulated microgravity (Supplementary Figure S2A). Interest-
+ingly, this number increased on the eighth day of return. We found that the expression of
+126 ncRNA molecules is induced during simulated microgravity exposure and for 12 days
+after the return (Supplementary Figure S2B) while the expression of 16 ncRNA molecules
+is lost during and after simulated microgravity (Supplementary Figure S2C). Among the
+classiﬁed ncRNA molecules, mostly small nucleolar RNA (snoRNA) and long noncod-
+ing RNA (lincRNA) molecules were induced while other sets of snoRNA and antisense
+RNA (asRNA) molecules lost expression in simulated microgravity. For instance, asRNA
+molecules anr-33, K12G11.14, and ZK822.8 are induced whereas anr-2, anr-9, and Y49A3A.6
+are silenced during and 12 days after the exposure.
+
+Cells 2023, 12, 270
+8 of 16
+We next sought to identify the putative transcriptional regulators (i.e., transcription fac-
+tors) of the simulated microgravity-induced genes and whether these regulators maintain
+their impact after return to ground conditions. That is, we determined the putative tran-
+scription factor (TF) genes [46] that are upregulated under simulated microgravity and after
+the return to ground conditions. Our results have revealed that 20 TF genes are upregulated
+during the exposure and 90%, 75%, and 15% of these genes maintained their upregulation
+after the return for four, eight, and twelve days, respectively (Supplementary Figure S3).
+These TFs play a role in a variety of mechanisms such as double strain break repair or sex
+determination. For example, tbx-43 is upregulated during the exposure and for at least
+12 days after the return to ground. The best human BLASTP-match of tbx-43 in WormBase,
+TBR, functions in developmental processes and is required for normal brain development
+(E-value = 3 × 10−33; identity = 68.5%). However, many of the upregulated TFs do not have
+a known function. Hence, our list of simulated microgravity-induced TF gene expressions
+can be a rich source for the discovery of the microgravity-related transcriptional regulators.
+3.3. Longevity Regulating Pathways Are Affected under Simulated Microgravity
+Spaceflight affects the mechanisms involved in delayed aging in worms.
+For in-
+stance, Honda et al., found that age-dependent increase in 35-glutamine repeat aggrega-
+tion is suppressed and seven longevity-controlling genes are differentially expressed in
+spaceflight [20,24]. To examine whether simulated microgravity induces such changes, we
+mapped the DEGs (simulated microgravity versus ground control) to longevity regulating
+pathways in the Kyoto Encyclopedia of Genes and Genomes (KEGG). We used a less strin-
+gent criterion for differential expression by including the genes with log2(FPKM) > 1.5 in this
+analysis. We determined 11 DEGs in the longevity regulating pathway genes most of which
+are involved in the insulin/insulin-like growth factor signaling pathway (insulin/IGF-1)
+(Figure 3). Interestingly, the transcription factor DAF-16 gene did not exhibit differential ex-
+pression unlike its targets sod-3, lips-17, and ctl-1. Because the translocation of DAF-16 into
+the nucleus activates or represses target genes functioning in longevity, metabolism, and
+stress response, this ﬁnding was unexpected [47–50]. The nuclear localization of DAF-16 is
+antagonized by transcription factor PQM-1 [51], and thus an upregulation in pqm-1 may in-
+dicate inhibition of DAF-16 translocation. Our data, however, did not present a differential
+expression for pqm-1 and thus it does not suggest inhibition of the DAF-16 translocation.
+It is possible that the DAF-16 targets are differentially expressed due to the translocation
+state of DAF-16 or involvement of other factors (e.g., other transcriptional regulators).
+The upregulation of the longevity regulating pathway transcriptional targets generally
+contributes to increased lifespan. Since many of these targets were downregulated under
+simulated microgravity, we sought to identify the potential impact of their downregulation by
+acquiring their RNAi phenotype from WormBase [34]. Lifespan variants (WBRNAi00063155
+and WBRNAi00063156) for hsp-12.6 and extended lifespan (WBRNAi00064044) for sod-3 have
+been reported. Follow-up experiments are needed to fully understand the role of these genes
+in the longevity regulation under simulated microgravity.
+To further investigate the involvement of the longevity genes in simulated microgravity,
+we compared the DEGs to the DAF-16-responsive genes [51]. We found 144 DAF-16-induced
+genes were downregulated and this overlap was statistically significant (hypergeometric test,
+p-value < 0.0001). The number of shared genes between the simulated microgravity-induced
+genes and the genes induced or repressed by DAF-16 are 11 and 35, respectively (hypergeomet-
+ric test, p-value > 0.05 for both). Similarly, the number of downregulated DAF-16-repressed
+genes were insignificant with a total of 57 shared genes (hypergeometric test, p-value > 0.05)
+(Supplementary Table S3). Together, our results suggest that the longevity regulation genes
+are affected under simulated microgravity and that along with the DAF-16-regulation, other
+mechanisms have an important function in this process.
+
+Cells 2023, 12, 270
+9 of 16
+ 
+Figure 3. Longevity regulating pathway genes are differentially expressed under simulated micro-
+gravity. Adopted from the KEGG longevity regulating pathway—worm (cel04212).
+3.4. Sphingolipid Signaling Pathway Is Suppressed in Response to Simulated Microgravity
+Previous studies have suggested that the sphingolipid signaling pathway plays a role
+in the expression of DAF-16/FOXO-regulated genes [52,53]. In line with this, our results
+showed that the sphingolipid signaling pathway is downregulated under simulated micro-
+gravity. That is, putative glucosylceramidase 4 gene (gba-4) and putative sphingomyelin
+phosphodiesterase asm-3 are downregulated and these downregulation patterns were sus-
+tained for eight days after return to ground conditions (Figure 4a). This downregulation
+pattern indicates an attenuation in the ceramide levels through a potential decrease in the
+degradation of sphingomyelin and glucosylceramide to ceramide. Along with the other bi-
+ological functions such as autophagy, senescence, and apoptosis, the sphingolipid signaling
+pathway has critical functions in aging and longevity regulation [52,54,55]. The inhibition
+of this conserved pathway results in an extension of lifespan in animals from worms to
+humans [54,55]. For example, the inactivation of asm-3 in C. elegans causes translocation of
+DAF-16 into the nucleus, promotion of DAF-16 target gene expression, and extension of
+lifespan by 14–19% [53].
+To validate that the ceramide and sphingosine levels are indeed decreased in re-
+sponse to the aforementioned gene downregulation, we performed mass spectrometry
+analysis in ground control and simulated microgravity-exposed worms concurrently
+(Supplementary Table S4; Figure 4b,c). Our results revealed that total ceramide, total hexo-
+sylceramide (HexCer), and d18:1 sphingosine are lower (1.5-, 3.6-, and 1.4-fold, respectively)
+under simulated microgravity (t-test, p-value < 0.05). Similarly, sphingoid base (SB) levels
+decreased 1.9-fold under simulated microgravity, but this decrease was not signiﬁcant
+(t-test, p-value = 0.055) (Figure 4b). Interestingly, the levels of total lactosylceramide (Lac-
+Cer) increased 27-fold (t-test, p-value < 0.05). Increase in the LacCer and HexCer levels
+have been determined as biomarkers of aging in humans and murine [56] while LacCer
+C18:1 was unaffected during aging in C. elegans [54]. It is unclear why LacCer levels
+are elevated when the HexCer levels are decreased, but the overall pattern indicates a
+downregulation in the sphingolipid signaling pathway under simulated microgravity.
+The levels of long acyl-chain ceramides (≥C24) are elevated with advancing age and
+in age-related diseases such as diabetes and cardiovascular disease while C20 and C26 ce-
+ramides are unaffected with aging or developmental stage in C. elegans [54,57,58]. To further
+decipher the potential effect of simulated microgravity on aging-related mechanisms, we
+quantified the levels of different acyl-chain ceramides (Supplementary Table S4; Figure 4c). We
+
+Cells 2023, 12, 270
+10 of 16
+observed a decrease in d18:1-C24, and d18:1-C24:1 ceramides (1.2-, and 3.2-fold, respectively)
+under simulated microgravity (t-test, p-value < 0.05). It has been found that the inhibition of
+C24–C26 ceramide-inducing ceramide synthase HYL-1 causes improvements in neuromuscu-
+lar function and age-dependent hypoxia and stress response [59,60]. Hence, the lower levels
+of C24 and C24:1 ceramides in the simulated microgravity-exposed worms may indicate their
+positive impact on the stress response and aging of the worms.
+Figure 4. Sphingolipid signaling pathway is downregulated under simulated microgravity. (a) The
+sphingolipid signaling pathway genes asah-1, asm-3, and gba-4 are downregulated under simulated
+microgravity. The downregulation pattern of asm-3 and gba-4 is maintained for eight days after return
+to ground conditions. (b) The levels of d18:1 sphingosine, total ceramide, hexosylceramide, and
+sphingoid base reduced while total lactosylceramide level increased under simulated microgravity.
+(c) The levels of different acyl-chain ceramides show alterations under simulated microgravity. The
+error bars represent the standard error of the mean (* p < 0.05, ** p < 0.01, *** p < 0.001).
+Along with their roles in aging and longevity, different acyl-chain ceramides have
+other distinctive functions. For example, C16-ceramide induces germ cell apoptosis [61]
+and C20–C22 ceramide functions in resistance to hypoxia [60]. We determined that ce-
+ramides with different acyl-chain showed altered levels in response to simulated micrograv-
+ity. While d18:1-C16 and d18:1-C18 exhibited a decrease (2.8- and 1.6-fold, respectively),
+d18:1-C20 and d18:1-C22 ceramides exhibited an increase (3.7- and 1.5-fold, respectively)
+under simulated microgravity (t-test, p-value < 0.05). Collectively, our ﬁndings suggest that
+sphingolipid and insulin/IGF-1 pathways play a role in simulated microgravity response.
+3.5. Identiﬁcation of the Common Microgravity-Responsive Genes between Four-Day CERISE and
+Simulated Microgravity
+To investigate the microgravity-responsive genes, we compared the results from our
+simulated microgravity experiment to those from four-day CERISE spaceﬂight experiment
+on C. elegans reported in NASA’s GeneLab database (https://genelab.nasa.gov/ (accessed
+on 1 January 2019)). For this analysis, we used GEO2R to determine the microarray DEGs
+(|log2 fold change (logFC)| > 2 and FDR < 0.05). We reasoned that the genes that are
+commonly differentially expressed in all the studies should be the core genes responding
+to microgravity.
+We analyzed our RNA-seq data both with the Tuxedo pipeline [30] and DEseq2 [31] to
+conﬁrm that the results are not dependent upon the analysis method. The results from both
+the methods were clustered together indicating their similarity (Figure 5b). The highest
+number of DEG overlap was between our experiment and four-day CERISE, and the overlap
+was signiﬁcant for both the methods (hypergeometric test, p-value < 0.05) (Figure 5c). Since
+the overlap between the four-day CERISE and our results from the Tuxedo pipeline is
+
+Cells 2023, 12, 270
+11 of 16
+higher, we decided to use the results from this pipeline throughout the manuscript. The
+results from DEseq2 are reported in the supplementary data (Supplementary Figure S4;
+Supplementary Table S5).
+Figure 5. Microgravity-responsive genes are consistently differentially expressed in the ISS and under
+simulated microgravity. (a) Shared DEGs among the space-ﬂown worms and our simulated micro-
+gravity experiment. The highest number of common DEGs are between our experiment and four-day
+CERISE. These genes are named as the “microgravity-responsive genes”. (b) The hierarchical cluster-
+ing of the overall gene expressions among the space-ﬂown worms and our simulated microgravity
+experiment. Our results analyzed with two different data analysis pipelines (*,**) demonstrated highly
+similar patterns. (c) The number of common DEGs were high for our results analyzed with two dif-
+ferent pipelines (*,**). Both of the pipelines showed that the common number of DEGs are higher
+than the values expected by chance (hypergeometric text, p < 0.05). (d) Protein–protein interaction
+of the microgravity-responsive genes from STRING database. (e) Gene ontology enrichment of the
+microgravity-responsive genes. (f) Protein domain enrichment of the microgravity-responsive genes.
+We determined a total of 134 common DEGs between our experiment and four-day
+CERISE and categorized these 134 genes as the putative microgravity-responsive genes
+(Figure 5a,c; Supplementary Table S6). We discarded 16 DEGs showing conﬂicting patterns
+between the experiments (i.e., upregulated in one experiment and downregulated in the
+other) for further analyses. We reasoned that if the remaining genes are collaboratively
+involved in a biologically relevant process, they might have protein–protein interactions
+(PPIs) with each other. To test this hypothesis, we examined the enrichment for PPI of these
+genes by using the STRING database [39]. Among 118 DEGs, 58 had known PPIs with
+each other (FDR < 1.0 × 10−16) indicating their collaborative involvement in a biological
+process (Figure 5d). The GO analysis revealed that the microgravity-responsive genes play
+a functional role in locomotion, body morphogenesis, and collagen and cuticulin-based
+cuticle development (Figure 5e). Similarly, the products of microgravity-responsive genes
+exhibit enrichment for nematode cuticle collagen N-terminal and collagen triple helix
+repeat domains (Figure 5f). Together, our ﬁndings suggest that mainly the collagen genes
+are affected under microgravity and this effect is reproducible between the studies.
+Next, we asked whether the human orthologs of the microgravity-responsive genes
+have relevant functions which might be affected in astronauts. We identiﬁed 64 human
+orthologs to 44 microgravity-responsive genes in worms (Supplementary Table S7). The
+human orthologs exhibited overrepresentation for protein domains including calpain
+large subunit domain III and calpain family cysteine protease (Supplementary Figure S5).
+
+Cells 2023, 12, 270
+12 of 16
+Given the reported upregulation of calpain under microgravity and its function in muscle
+atrophy [62,63], these results provide an additional support for the conserved microgravity-
+responsive genes in worms and humans.
+Our analyses revealed that 20 putative TF genes are upregulated under simulated
+microgravity conditions and compared these to the four-day CERISE mission. Among the
+20 upregulated putative TF genes, Y56A3A.28 and T24C4.2 showed upregulation during
+the four-day CERISE, indicating a potential transcriptional regulation role for these two in
+response to microgravity. Our results additionally suggested that the upregulation pattern
+of these TFs is maintained for eight and twelve days after the return, respectively. We could
+not ﬁnd a human ortholog for T24C4.2 while the WormBase-suggested human ortholog of
+Y56A3A.28 is PRDM16. PRDM16 regulates the switch between skeletal muscle and brown
+fat cells by inhibiting the skeletal muscle development and gene expression and stimulating
+brown adipogenesis [64]. Therefore, Y56A3A.28 can be a strong candidate as a negative
+regulator of muscle development under microgravity conditions.
+4. Discussion
+In this study, we examined the simulated microgravity responsive gene expression
+patterns and their maintained levels for four, eight, and twelve days after return to ground
+conditions. Longevity regulating pathways such as insulin/IGF-1 and sphingolipid signal-
+ing were affected under simulated microgravity. We identiﬁed the putative microgravity-
+responsive genes by determining the common microgravity responsive transcriptomic
+signatures by incorporating our study to a previous one with the same exposure time.
+Moreover, we revealed that the microgravity-responsive genes are potentially conserved
+between worms and humans by performing function analysis for the human orthologs of
+the worm microgravity-responsive genes and identifying some of their potential transcrip-
+tional regulators.
+Sphingolipid signaling pathway plays crucial biological roles such as lifespan regula-
+tion, apoptosis, and oxidative-stress response [52,54,65]. Our results revealed an overall
+downregulation of the sphingolipid pathway which is generally related to an increase
+in longevity [54]. A recent study identiﬁed decreased ASM-1 and ASM-2 levels in the
+ISS-housed worms indicating a similar downregulation in response to microgravity [66].
+Mutant strains or RNAi knockdown of acid sphingomyelinase ASM-1, ASM-2, and ASM-3
+genes increase the lifespan, ASM-3 being the most prominent one [53]. Overall, both
+simulated and the ISS-introduced microgravity seem to contribute to a potential increase
+in longevity through the downregulation of the sphingolipid signaling pathway. Follow-
+up experiments are needed to delimitate the contribution of sphingolipids on longevity
+under microgravity.
+In the Twins Study of NASA, Scott Kelly was sent to the ISS for 340 days while his
+identical twin Mark Kelly remained on Earth. The results from this investigation showed
+that Scott Kelly’s telomere length signiﬁcantly increased (14.5%) during the mission. In
+addition, the sphingolipid signaling pathway was differentially expressed in Scott Kelly.
+The telomere length of Mark Kelly, however, remained relatively stable [67]. Telomere
+length and lifespan have a strong relationship. That is, longer telomeres are linked to longer
+lifespan and increased resistance to environmental stress while shorter telomeres are linked
+to accelerated aging and reduced longevity [68–71]. Ceramide functions in the regulation
+of telomere length [55,72]. Considering our ﬁndings on decreased ceramide levels and the
+observations on increased telomere in the ISS, investigation of the ceramide and telomere
+length relationship might prove important to uncover the mechanisms affecting longevity
+in space.
+Most of the space ﬂight-triggered physiological changes are reverted after return
+to Earth [24,67]. Similarly, we observed that the majority of the simulated microgravity-
+induced DEGs (over 84%) are reverted 12 days after return to ground conditions. Our
+results have revealed that while some biological processes are only affected during the
+exposure, others can be affected for at least eight days (approximately two generations)
+
+Cells 2023, 12, 270
+13 of 16
+after the return. For example, neuropeptide signaling pathway genes were differentially
+expressed only during the exposure whereas defense response genes remain downregulated
+for eight days after the return. Approximately 50% of the astronauts from Apollo mission
+experienced minor bacterial or viral infections at the ﬁrst week of their return. Later studies
+reported that space ﬂight-induced reactivation of latent herpes viruses which lasted for a
+week after the return to Earth (reviewed in [73]). These consistent observations indicate
+that the detrimental effects of space conditions (i.e., microgravity) on the immune system
+carry over even after the return. Given the longevity differences in worms and humans,
+future investigations could provide insight into whether the duration of the exposure has
+an impact on the duration of the lasting effects.
+The limitation of our study is the inclusion of mixed stage worms and the collection of
+samples from whole animals. This limitation is common among the worm experiments
+conducted in the ISS [23,74,75]. Considering the signiﬁcantly different gene expression
+patterns among developmental stages and across cell types [76], it is possible to retrieve
+biased results from the averaged gene expression levels. It is essential to address these
+issues in future studies.
+The comparison of spaceﬂight responsive genes in C. elegans and Drosophila melanogaster
+demonstrated only six common genes from the European Soyuz ﬂights to the ISS [17]. Sim-
+ilarly, the overlap between our results and four-day CERISE were relatively small. One of
+the reasons for these discrepancies can be the batch effects introduced due to the differences
+in the experimental designs. For instance, different exposure times to the space conditions
+or the usage of different food source or strain may induce distinct responses in the worms.
+It is crucial to examine the effects of individual factors (e.g., diet and gravitational force)
+along with the combinatory ones. Towards that end, we previously reported the impact of
+liquid cultivation of two C. elegans strains on gene expression and phenotype [26,77] and
+here, studied the impact of simulated microgravity.
+5. Conclusions
+Given the elevated interest in the human exploration of space, it is crucial to determine
+the detrimental effects of the space conditions on biological systems. We believe that our re-
+sults will be a valuable reference for the studies on transcriptomic response to microgravity
+by controlling for the renowned batch effects from space conditions, allowing the worms to
+acclimate to liquid cultivation before the experiment, presenting the sustained transcrip-
+tomic responses after return to ground along with their putative regulators, integrating the
+results from a previous study conducted at the ISS, and providing the response of different
+ceramide proﬁles to simulated microgravity.
+Supplementary Materials: The following supporting information can be downloaded at: https://
+www.mdpi.com/article/10.3390/cells12020270/s1.
+Author Contributions: ˙I.Ç. and C.R.S. designed the study. ˙I.Ç. and J.H.D. conducted the experiments.
+˙I.Ç. performed the analyses and interpreted the results. A.J. developed the clinostat. ˙I.Ç., A.J.
+and C.R.S. wrote the manuscript. All authors have read and agreed to the published version of
+the manuscript.
+Funding: This work was supported by NASA grants NNX12AR59G, NNX10AN63H, and NNX13AM08G,
+awarded to CRS and Sigma Xi grant G2016100191301836, awarded to ˙IÇ. The BIOMIX computing
+cluster and the Bioimaging center are supported by Delaware INBRE grant (NIH/NIGMS GM103446)
+and Delaware EPSCoR grants (NSF EPS-0814251 and NSF IIA-1330446). The University of Delaware
+Sequencing and Genotyping Center is supported by the NIH NIGMS IDeA Program Grant #P20
+GM103446. None of these funding bodies were involved in the design, data collection, analysis,
+interpretation of data, or in writing the manuscript.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+
+Cells 2023, 12, 270
+14 of 16
+Data Availability Statement: All the sequencing data generated for this study have been submitted
+to the NCBI Gene Expression Omnibus (GEO; http://www.ncbi.nlm.nih.gov/geo/) under accession
+number GSE122125.
+Acknowledgments: We are grateful to Michael Moore for his help developing the clinostat. ˙IÇ
+acknowledges the University of Delaware for Dissertation Fellowship and Graduate Fellow Award.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design
+of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or
+in the decision to publish the results.
+References
+1.
+Stein, T.P. Weight, Muscle and Bone Loss during Space Flight: Another Perspective. Eur. J. Appl. Physiol. 2013, 113, 2171–2181.
+[CrossRef] [PubMed]
+2.
+Crucian, B.E.; Choukèr, A.; Simpson, R.J.; Mehta, S.; Marshall, G.; Smith, S.M.; Zwart, S.R.; Heer, M.; Ponomarev, S.;
+Whitmire, A.; et al. Immune System Dysregulation during Spaceﬂight: Potential Countermeasures for Deep Space Exploration
+Missions. Front. Immunol. 2018, 9, 1437. [CrossRef] [PubMed]
+3.
+Grimm, D.; Grosse, J.; Wehland, M.; Mann, V.; Reseland, J.E.; Sundaresan, A.; Corydon, T.J. The Impact of Microgravity on Bone
+in Humans. Bone 2016, 87, 44–56. [CrossRef]
+4.
+Sachs, J. Lectures on the Physiology of Plants; Clarendon Press: Oxford, UK, 1887.
+5.
+Kessler, J. The Internal Dynamics of Slowly Rotating Biological Systems. ASGSB Bull. 1992, 5, 11–21. [PubMed]
+6.
+Dedolph, R.R.; Oemick, D.A.; Wilson, B.R.; Smith, G.R. Causal Basis of Gravity Stimulus Nulliﬁcation by Clinostat Rotation. Plant
+Physiol. 1967, 42, 1373–1383. [CrossRef]
+7.
+Gruener, R.; Hoeger, G. Vector-Averaged Gravity Alters Myocyte and Neuron Properties in Cell Culture. Aviat. Space. Environ.
+Med. 1991, 62, 1159–1165.
+8.
+Wuest, S.L.; Stern, P.; Casartelli, E.; Egli, M. Fluid Dynamics Appearing during Simulated Microgravity Using Random Positioning
+Machines. PLoS ONE 2017, 12. [CrossRef] [PubMed]
+9.
+Sievers, A.; Hejnowicz, Z. How Well Does the Clinostat Mimic the Effect of Microgravity on Plant Cells and Organs? ASGSB Bull.
+1992, 5, 69–75.
+10.
+Brown, A.H.; Dahl, A.O.; Chapman, D.K. Limitation on the Use of the Horizontal Clinostat as a Gravity Compensator. PLANT
+Physiol. 1976, 58, 127–130. [CrossRef]
+11.
+Briegleb, W. Some Qualitative and Quantitative Aspects of the Fast-Rotating Clinostat as a Research Tool. ASGSB Bull. 1992,
+5, 23–30.
+12.
+Hemmersbach, R.; Volkmann, D.; Häder, D.-P. Graviorientation in Protists and Plants. J. Plant Physiol. 1999, 154, 1–15. [CrossRef]
+13.
+Häder, D.-P.; Hemmersbach, R.; Lebert, M. Gravity and the Behavior of Unicellular Organisms; Cambridge University Press:
+Cambridge, UK, 2005; ISBN 9780511546211.
+14.
+Zhao, Y.; Johnsen, R.; Baillie, D.; Rose, A. Worms in Space? A Model Biological Dosimeter. Gravit. Space Biol. Bull 2005, 18, 11–16.
+15.
+Tissenbaum, H.A. Using C. elegans for Aging Research. Invertebr. Reprod. Dev. 2015, 59, 59–63. [CrossRef] [PubMed]
+16.
+Selch, F.; Higashibata, A.; Imamizo-Sato, M.; Higashitani, A.; Ishioka, N.; Szewczyk, N.J.; Conley, C.A. Genomic Response of the
+Nematode Caenorhabditis elegans to Spaceﬂight. Adv. Space Res. 2008, 41, 807–815. [CrossRef]
+17.
+Adenle, A.A.; Johnsen, B.; Szewczyk, N.J. Review of the Results from the International C. elegans First Experiment (ICE-FIRST).
+Adv. Sp. Res. 2009, 44, 210–216. [CrossRef] [PubMed]
+18.
+Higashibata, A.; Szewczyk, N.J.; Conley, C.A.; Imamizo-Sato, M.; Higashitani, A.; Ishioka, N. Decreased Expression of Myogenic
+Transcription Factors and Myosin Heavy Chains in Caenorhabditis elegans Muscles Developed during Spaceﬂight. J. Exp. Biol.
+2006, 209, 3209–3218. [CrossRef] [PubMed]
+19.
+Qiao, L.; Luo, S.; Liu, Y.; Li, X.; Wang, G.; Huang, Z. Reproductive and Locomotory Capacities of Caenorhabditis elegans Were
+Not Affected by Simulated Variable Gravities and Spaceﬂight during the Shenzhou-8 Mission. Astrobiology 2013, 13, 617–625.
+[CrossRef] [PubMed]
+20.
+Honda, Y.; Higashibata, A.; Matsunaga, Y.; Yonezawa, Y.; Kawano, T.; Higashitani, A.; Kuriyama, K.; Shimazu, T.; Tanaka, M.;
+Szewczyk, N.J.; et al. Genes Down-Regulated in Spaceﬂight Are Involved in the Control of Longevity in Caenorhabditis elegans.
+Sci. Rep. 2012, 2, 413–429. [CrossRef]
+21.
+Higashibata, A.; Hashizume, T.; Nemoto, K.; Higashitani, N.; Etheridge, T.; Mori, C.; Harada, S.; Sugimoto, T.; Szewczyk, N.J.;
+Baba, S.A.; et al. Microgravity Elicits Reproducible Alterations in Cytoskeletal and Metabolic Gene and Protein Expression in
+Space-Flown Caenorhabditis elegans. NPJ Microgravity 2016, 2, 15022. [CrossRef]
+22.
+Gao, Y.; Xu, D.; Zhao, L.; Zhang, M.; Sun, Y. Effects of Microgravity on DNA Damage Response in Caenorhabditis elegans during
+Shenzhou-8 Spaceﬂight. Int. J. Radiat. Biol. 2015, 91, 531–539. [CrossRef]
+23.
+Then, S.M.; Jusoh, N.F.; Harun, R.; Nathan, S.; Szewczyk, N.J.; Stodieck, L.; Jamal, R. Multi-Generational Culture of C. elegans
+on a Long-Term Space Flight Revealed Changes in Expression of Genes Involved in Longevity, DNA Repair, and Locomotion.
+Asia-Pac. J. Mol. Med. 2016, 4, 1.
+
+Cells 2023, 12, 270
+15 of 16
+24.
+Honda, Y.; Honda, S.; Narici, M.; Szewczyk, N.J. Spaceﬂight and Ageing: Reﬂecting on Caenorhabditis elegans in Space. Gerontology
+2014, 60, 138–142. [CrossRef]
+25.
+Ishioka, N.; Higashibata, A. Space Experiments Using C. elegans as a Model Organism. In Handbook of Space Pharmaceuticals;
+Springer: Cham, Switzerland, 2018.
+26.
+Çelen, I.˙I.; Doh, J.H.; Sabanayagam, C.R. Effects of Liquid Cultivation on Gene Expression and Phenotype of C. elegans. BMC
+Genomics 2018, 19, 562. [CrossRef]
+27.
+Lev, I.; Bril, R.; Liu, Y.; Ceré, L.I.; Rechavi, O. Inter-Generational Consequences for Growing Caenorhabditis elegans in Liquid. Philos.
+Trans. R. Soc. B Biol. Sci. 2019, 374, 20180125. [CrossRef]
+28.
+Doh, J.H.; Moore, A.B.; Çelen, ˙I.; Moore, M.T.; Sabanayagam, C.R. ChIP and Chips: Introducing the WormPharm for Correlative
+Studies Employing Pharmacology and Genome-Wide Analyses in C. elegans. J. Biol. Methods 2016, 3, 1–11. [CrossRef]
+29.
+Andrews, S. FastQC: A Quality Control Tool for High Throughput Sequence Data. Available online: www.Bioinformatics.
+Babraham.Ac.Uk/Projects/Fastqc/ (accessed on 1 January 2019).
+30.
+Trapnell, C.; Roberts, A.; Goff, L.; Pertea, G.; Kim, D.; Kelley, D.R.; Pimentel, H.; Salzberg, S.L.; Rinn, J.L.; Pachter, L. Differential
+Gene and Transcript Expression Analysis of RNA-Seq Experiments with TopHat and Cufﬂinks. Nat. Protoc. 2012, 7, 562–578.
+[CrossRef]
+31.
+Love, M.I.; Huber, W.; Anders, S. Moderated Estimation of Fold Change and Dispersion for RNA-Seq Data with DESeq2. Genome
+Biol. 2014, 15. [CrossRef]
+32.
+Patro, R.; Duggal, G.; Love, M.I.; Irizarry, R.A.; Kingsford, C. Salmon Provides Fast and Bias-Aware Quantiﬁcation of Transcript
+Expression. Nat. Methods 2017, 14, 417–419. [CrossRef]
+33.
+Cunningham, F.; Amode, M.R.; Barrell, D.; Beal, K.; Billis, K.; Brent, S.; Carvalho-Silva, D.; Clapham, P.; Coates, G.;
+Fitzgerald, S.; et al. Ensembl 2015. Nucleic Acids Res. 2014, 43, D662–D669. [CrossRef]
+34.
+Harris, T.W.; Baran, J.; Bieri, T.; Cabunoc, A.; Chan, J.; Chen, W.J.; Davis, P.; Done, J.; Grove, C.; Howe, K.; et al. WormBase 2014:
+New Views of Curated Biology. Nucleic Acids Res. 2014, 42, D789–D793. [CrossRef]
+35.
+Huang, D.W.; Sherman, B.T.; Lempicki, R.A. Systematic and Integrative Analysis of Large Gene Lists Using DAVID Bioinformatics
+Resources. Nat. Protoc. 2008, 4, 44–57. [CrossRef]
+36.
+Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N.S.; Wang, J.T.; Ramage, D.; Amin, N.; Schwikowski, B.; Ideker, T. Cytoscape:
+A Software Environment for Integrated Models of Biomolecular Interaction Networks. Genome Res. 2003, 13, 2498–2504.
+[CrossRef]
+37.
+Maere, S.; Heymans, K.; Kuiper, M. BiNGO: A Cytoscape Plugin to Assess Overrepresentation of Gene Ontology Categories in
+Biological Networks. Bioinformatics 2005, 21, 3448–3449. [CrossRef]
+38.
+Angeles-Albores, D.; Lee, R.Y.; Chan, J.; Sternberg, P.W. Tissue Enrichment Analysis for C. elegans Genomics. BMC Bioinform.
+2016, 17, 366. [CrossRef]
+39.
+Szklarczyk, D.; Morris, J.H.; Cook, H.; Kuhn, M.; Wyder, S.; Simonovic, M.; Santos, A.; Doncheva, N.T.; Roth, A.; Bork, P.; et al.
+The STRING Database in 2017: Quality-Controlled Protein-Protein Association Networks, Made Broadly Accessible. Nucleic Acids
+Res. 2017, 45, D362–D368. [CrossRef]
+40.
+Kim, W.; Underwood, R.S.; Greenwald, I.; Shaye, D.D. OrthoList 2: A New Comparative Genomic Analysis of Human and
+Caenorhabditis elegans Genes. Genetics 2018, 210, 445–461. [CrossRef]
+41.
+Bligh, E.G.; Dyer, W.J. A Rapid Method of Total Lipid Extraction and Puriﬁcation. Can. J. Biochem. Physiol. 1959, 37, 911–917.
+[CrossRef]
+42.
+Dedolph, R.R.; Dipert, M.H. The Physical Basis of Gravity Stimulus Nulliﬁcation by Clinostat Rotation. Plant Physiol. 1971, 47,
+756–764. [CrossRef]
+43.
+Lee Silver, I. The Dynamics of a Discrete Geotropic Sensor Subject to Rotation-Induced Gravity Compensation. J. Theor. Biol. 1976,
+61, 353–362. [CrossRef]
+44.
+Zhao, S.; Fung-Leung, W.P.; Bittner, A.; Ngo, K.; Liu, X. Comparison of RNA-Seq and Microarray in Transcriptome Proﬁling of
+Activated T Cells. PLoS ONE 2014, 9. [CrossRef]
+45.
+Tee, L.F.; Neoh, H.; Then, S.M.; Murad, N.A.; Asillam, M.F.; Hashim, M.H.; Nathan, S.; Jamal, R. Effects of Simulated Microgravity
+on Gene Expression and Biological Phenotypes of a Single Generation Caenorhabditis elegans Cultured on 2 Different Media. Life
+Sci. Space Res. 2017, 15, 11–17. [CrossRef]
+46.
+Reinke, V.; Krause, M.; Okkema, P. Transcriptional Regulation of Gene Expression in C. elegans. WormBook 2013, 1–34. [CrossRef]
+47.
+Lin, K.; Hsin, H.; Libina, N.; Kenyon, C. Regulation of the Caenorhabditis elegans Longevity Protein DAF-16 by Insulin/IGF-1 and
+Germline Signaling. Nat. Genet. 2001, 28, 139–145. [CrossRef] [PubMed]
+48.
+Seung, W.O.; Mukhopadhyay, A.; Dixit, B.L.; Raha, T.; Green, M.R.; Tissenbaum, H.A. Identiﬁcation of Direct DAF-16 Targets
+Controlling Longevity, Metabolism and Diapause by Chromatin Immunoprecipitation. Nat. Genet. 2006, 38, 251–257. [CrossRef]
+49.
+Murphy, C.T.; McCarroll, S.A.; Bargmann, C.I.; Fraser, A.; Kamath, R.S.; Ahringer, J.; Li, H.; Kenyon, C. Genes That Act
+Downstream of DAF-16 to Inﬂuence the Lifespan of Caenorhabditis elegans. Nature 2003, 424, 277–284. [CrossRef] [PubMed]
+50.
+Lee, S.S.; Kennedy, S.; Tolonen, A.C.; Ruvkun, G. DAF-16 Target Genes That Control C. elegans Life-Span and Metabolism. Science
+2003, 300, 644–647. [CrossRef]
+51.
+Tepper, R.G.; Ashraf, J.; Kaletsky, R.; Kleemann, G.; Murphy, C.T.; Bussemaker, H.J. PQM-1 Complements DAF-16 as a Key
+Transcriptional Regulator of DAF-2-Mediated Development and Longevity. Cell 2013, 154, 676–690. [CrossRef]
+
+Cells 2023, 12, 270
+16 of 16
+52.
+Cui, M.; Wang, Y.; Cavaleri, J.; Kelson, T.; Teng, Y.; Han, M. Starvation-Induced Stress Response Is Critically Impacted by
+Ceramide Levels in Caenorhabditis elegans. Genetics 2017, 205, 775–785. [CrossRef] [PubMed]
+53.
+Kim, Y.; Sun, H. ASM-3 Acid Sphingomyelinase Functions as a Positive Regulator of the DAF-2/AGE-1 Signaling Pathway and
+Serves as a Novel Anti-Aging Target. PLoS ONE 2012, 7, e45890. [CrossRef]
+54.
+Cutler, R.G.; Thompson, K.W.; Camandola, S.; Mack, K.T.; Mattson, M.P. Sphingolipid Metabolism Regulates Development and
+Lifespan in Caenorhabditis elegans. Mech. Ageing Dev. 2014, 143–144, 9–18. [CrossRef]
+55.
+Huang, X.; Withers, B.R.; Dickson, R.C. Sphingolipids and Lifespan Regulation. Biochim. Biophys Acta 2014, 1841, 657–664.
+[CrossRef]
+56.
+Hernández-Corbacho, M.J.; Jenkins, R.W.; Clarke, C.J.; Hannun, Y.A.; Obeid, L.M.; Snider, A.J.; Siskind, L.J. Accumulation of
+Long-Chain Glycosphingolipids during Aging Is Prevented by Caloric Restriction. PLoS ONE 2011, 6, e20411. [CrossRef]
+57.
+Straczkowski, M.; Kowalska, I. The Role of Skeletal Muscle Sphingolipids in the Development of Insulin Resistance. Rev. Diabet.
+Stud. 2008, 5, 13–24. [CrossRef]
+58.
+Bismuth, J.; Lin, P.; Yao, Q.; Chen, C. Ceramide: A Common Pathway for Atherosclerosis? Atherosclerosis 2008, 196, 497–504.
+[CrossRef]
+59.
+Chan, J.P.; Brown, J.; Hark, B.; Nolan, A.; Servello, D.; Hrobuchak, H.; Staab, T.A. Loss of Sphingosine Kinase Alters Life History
+Traits and Locomotor Function in Caenorhabditis elegans. Front. Genet. 2017, 8, 132. [CrossRef]
+60.
+Menuz, V.; Howell, K.S.; Gentina, S.; Epstein, S.; Riezman, I.; Fornallaz-Mulhauser, M.; Hengartner, M.O.; Gomez, M.; Riezman, H.;
+Martinou, J.C. Protection of C. elegans from Anoxia by HYL-2 Ceramide Synthase. Science 2009, 324, 381–384. [CrossRef]
+61.
+Deng, X.; Yin, X.; Allan, R.; Lu, D.D.; Maurer, C.W.; Haimovitz-Friedman, A.; Fuks, Z.; Shaham, S.; Kolesnick, R. Ceramide
+Biogenesis Is Required for Radiation-Induced Apoptosis in the Germ Line of C. elegans. Science 2008, 322, 110–115. [CrossRef]
+62.
+Gao, Y.; Arfat, Y.; Wang, H.; Goswami, N. Muscle Atrophy Induced by Mechanical Unloading: Mechanisms and Potential
+Countermeasures. Front. Physiol. 2018, 9, 235. [CrossRef]
+63.
+Salazar, J.J.; Michele, D.E.; Brooks, S.V. Inhibition of Calpain Prevents Muscle Weakness and Disruption of Sarcomere Structure
+during Hindlimb Suspension. J. Appl. Physiol. 2010, 108, 120–127. [CrossRef]
+64.
+Seale, P.; Bjork, B.; Yang, W.; Kajimura, S.; Chin, S.; Kuang, S.; Scimè, A.; Devarakonda, S.; Conroe, H.M.; Erdjument-Bromage, H.; et al.
+PRDM16 Controls a Brown Fat/Skeletal Muscle Switch. Nature 2008, 454, 961–967. [CrossRef]
+65.
+Cutler, R.G.; Pedersen, W.A.; Camandola, S.; Rothstein, J.D.; Mattson, M.P. Evidence That Accumulation of Ceramides and
+Cholesterol Esters Mediates Oxidative Stress—Induced Death of Motor Neurons in Amyotrophic Lateral Sclerosis. Ann. Neurol.
+2002, 52, 448–457. [CrossRef]
+66.
+Graveley, A.; Vlasov, A.; Freeman, A.; Wu, K.; Szewczyk, N.J.; D’Cruz, R.; Batt, J. Levels of Acid Sphingomyelinase (ASM) in
+Caenorhabditis elegans in Microgravity. Gravit. Space Res. 2018, 6, 27–36. [CrossRef]
+67.
+Garrett-Bakelman, F.E.; Darshi, M.; Green, S.J.; Gur, R.C.; Lin, L.; Macias, B.R.; McKenna, M.J.; Meydan, C.; Mishra, T.;
+Nasrini, J.; et al. The NASA Twins Study: A Multidimensional Analysis of a Year-Long Human Spaceﬂight. Science 2019, 364,
+eaau8650. [CrossRef] [PubMed]
+68.
+Sahin, E.; Depinho, R.A. Linking Functional Decline of Telomeres, Mitochondria and Stem Cells during Ageing. Nature 2010, 464,
+520–528. [CrossRef]
+69.
+Joeng, K.S.; Song, E.J.; Lee, K.J.; Lee, J. Long Lifespan in Worms with Long Telomeric DNA. Nat. Genet. 2004, 36, 607–611.
+[CrossRef]
+70.
+Monaghan, P. Telomeres and Life Histories: The Long and the Short of It. Ann. N. Y. Acad. Sci. 2010, 1206, 130–142. [CrossRef]
+71.
+Heidinger, B.J.; Blount, J.D.; Boner, W.; Grifﬁths, K.; Metcalfe, N.B.; Monaghan, P. Telomere Length in Early Life Predicts Lifespan.
+Proc. Natl. Acad. Sci. USA 2012, 109, 1743–1748. [CrossRef] [PubMed]
+72.
+Saddoughi, S.A.; Song, P.; Ogretmen, B. Roles of Bioactive Sphingolipids in Cancer Biology and Therapeutics. In Lipids in Health
+and Disease; Springer: Dordrecht, The Netherlands, 2008; Volume 49, pp. 413–440.
+73.
+Taylor, P.W. Impact of Space Flight on Bacterial Virulence and Antibiotic Susceptibility. Infect. Drug Resist. 2015, 8, 249–262.
+[CrossRef]
+74.
+Szewczyk, N.J.; Tillman, J.; Conley, C.A.; Granger, L.; Segalat, L.; Higashitani, A.; Honda, S.; Honda, Y.; Kagawa, H.;
+Adachi, R.; et al. Description of International Caenorhabditis elegans Experiment First Flight (ICE-FIRST). Adv. Space Res. 2008, 42,
+1072–1079. [CrossRef]
+75.
+Higashitani, A.; Hashizume, T.; Sugimoto, T.; Mori, C.; Nemoto, K.; Etheridge, T.; Higashitani, N.; Takanami, T.; Suzuki, H.;
+Fukui, K.; et al. C. elegans RNAi Space Experiment (CERISE) in Japanese Experiment Module KIBO. Biol. Sci. Sp. 2009, 23, 183–187.
+[CrossRef]
+76.
+Spencer, W.C.; Zeller, G.; Watson, J.D.; Henz, S.R.; Watkins, K.L.; McWhirter, R.D.; Petersen, S.; Sreedharan, V.T.; Widmer, C.;
+Jo, J.; et al. A Spatial and Temporal Map of C. elegans Gene Expression. Genome Res. 2011, 21, 325–341. [CrossRef] [PubMed]
+77.
+Çelen, ˙I.; Doh, J.H.; Sabanayagam, C. Genetic Adaptation of C. elegans to Environment Changes I: Multigenerational Analysis of
+the Transcriptome. bioRxiv 2017, 194506. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

@@ -1,0 +1,153 @@
+Comment
+https://doi.org/10.1038/s41467-024-48633-2
+Biological horizons: pioneering open science
+in the cosmos
+Sylvain V. Costes, Chelle L. Gentemann, Steven H. Platts & Lisa A. Carnell
+Check for updates
+With precious few spaceﬂight missions, all space-related biological and
+biomedical-health data are priceless national resources that anyone
+should be able to easily access. The NASA Open Science Data Reposi-
+tory (OSDR: https://osdr.nasa.gov/bio) plays a crucial role in ensuring
+such accessibility, housing comprehensive space-related datasets
+derived not only from various model organisms but also from non-
+NASA human astronauts1. These datasets cover a wide spectrum of
+biological assays conducted at multiple levels, ranging across cells,
+tissues, organs, and whole organisms. They effectively capture diverse
+types of data, including ‘omics, phenotypic, physiological, and beha-
+vioral changes experienced in space2,3. Additionally, OSDR enriches
+this data by providing metadata contextualizing each experiment
+including the associated experimental hardware and environmental
+telemetry. OSDR has worked with a large and open scientiﬁc com-
+munity to standardize data generation and formatting, enabling
+advanced analytics, including the use of artiﬁcial intelligence (AI) for
+data analysis.
+With the support of NASA’s scientiﬁc leadership, the spirit of
+Open Science has permeated every scientiﬁc division at NASA,
+including the Biological and Physical Science (BPS) Division. The BPS
+Division has emerged as a pivotal force in fueling humanity’s fascina-
+tion with space exploration by understanding the mechanisms of life
+adapting to extreme environmental hazards of deep space4. As NASA
+launched the ambitious "Transform to Open Science" program (TOPS)5
+in 2023, it aims to accelerate the adoption of a more reproducible and
+transparent approach to research. TOPS also aims to train 20,000
+scientists in the art of Open Science by 2028 (https://nasa.github.io/
+Transform-to-Open-Science/), pushing for better equity and inclusivity
+in science. Within the BPS Division, the curation of an extensive array
+of space biological, space health, and mission telemetry data in stan-
+dardized formats has been vetted by over 500 citizen scientists,
+members of the NASA OSDR Analysis Working Groups (AWG - https://
+osdr.nasa.gov/bio/awg/join.html). As a result, OSDR system ensures
+the invaluable data’s ﬁndability, accessibility, interoperability, and
+reusability (FAIR)6, despite the challenges posed by its multi-hier-
+archical, multimodal, and heterogeneous nature.
+As a celebration of 2023 being the year of Open Science at NASA, a
+Nature portfolio Collection titled "The Second Space Age: Omics, Plat-
+forms, and Medicine Across Orbits7,’’ is a series of inspiring articles
+enabled by OSDR, enriched by new data generously shared by civilian
+astronauts aboard the SpaceX Inspiration4 mission. The investigator
+team involved in this work has embraced Open Science by sharing
+research data and enabling data mining by the AWG community. Data
+presented in this Nature portfolio Collection were fully utilized because
+of the open and accessible nature of the OSDR system. This array of
+work shows how NASA handled the storage and reuse of a diverse range
+of data from molecular to ecosystem levels, encompassing tabular,
+omics, imaging, code, video, biospecimens, and environmental physical-
+chemical telemetry data. The AWGs played a critical role standardizing
+metadata
+and
+data
+processing
+pipelines
+in
+OSDR,
+enabling
+groundbreaking discoveries in space biology and biomedical health by
+making meta-analysis possible. In this context, two recent articles
+involving the AWGs were published in Nature Machine Intelligence and
+featured in a special issue on AI, detailing the future role of AI and Open
+Science in deep space biological research8 and biomedical health
+support9, describing how Open Science and standardization integrated
+with AI can maximize the value of limited yet vital spaceﬂight data.
+The spirit of Open Science and the invaluable insights from space
+biology have transcended boundaries, extending their embrace to
+other vital groups within NASA, including the Human Research Pro-
+gram (HRP) focused on the health and performance of NASA Astro-
+nauts. This Open Science approach champions practical, collaborative
+scientiﬁc discovery, with an emphasis on data sharing and immediate
+applications. Insights from space biology, facilitated by Open Science,
+are vital not just for aspirational goals like moon and Mars missions,
+but for direct advancements in human health and technology on earth.
+This Nature portfolio Collection highlights how collective efforts and
+open data can drive substantial scientiﬁc progress, merging the thrill
+of cosmic exploration with tangible and immediate beneﬁts.
+Sylvain V. Costes
+1
+, Chelle L. Gentemann
+2, Steven H. Platts3 &
+Lisa A. Carnell4
+1Space Biosciences Research Branch, NASA Ames Research Center,
+Moffett Field, CA, USA. 2Ofﬁce of the Chief Science Data Ofﬁcer,
+Science Mission Directorate, NASA Headquarters, Washington DC on
+Intergovernmental Personnel Act assignment from the International
+Computer Science Institute, Berkeley, CA, USA. 3Human Research
+Program, NASA Johnson Space Center, Houston, TX, USA. 4Biological
+and Physical Sciences Division, NASA Headquarters, Washington, DC,
+USA.
+e-mail: sylvain.v.costes@nasa.gov
+Received: 10 October 2023; Accepted: 30 April 2024;
+References
+1.
+Berrios, D. C., Galazka, J., Grigorev, K., Gebre, S. & Costes, S. V. NASA GeneLab: interfaces for
+the exploration of space omics data. Nucleic Acids Res. 49, D1515–D1522 (2021).
+2.
+Scott, R. T. et al. Advancing the integration of biosciences data sharing to further enable
+space exploration. Cell Rep. 33, 108441 (2020).
+3. Ray, S. et al. GeneLab: Omics database for spaceﬂight experiments. Bioinformatics 35,
+1753–1759 (2019).
+4. Afshinnekoo, E. et al. Fundamental biological features of spaceﬂight: advancing the ﬁeld to
+enable deep-space exploration. Cell 183, 1162–1184 (2020).
+5. Gentemann, C. Why NASA and federal agencies are declaring this the Year of Open Science.
+Nature 613, 217 (2023).
+6. Berrios, D. C., Beheshti, A. & Costes, S. V. FAIRness and usability for open-access omics data
+systems. AMIA Annu Symp. Proc. 2018, 232–241 (2018).
+7.
+Mason, C. E. et al. A second space age: omics, platforms, and medicine across orbits. Nature.
+2024 (in press).
+8. Sanders, L. M. et al. Biological research and self-driving labs in deep space supported by
+artiﬁcial intelligence. Nat. Mach. Intell. 5, 208–219 (2023).
+9. Scott, R. T. et al. Biomonitoring and precision health in deep space supported by artiﬁcial
+intelligence. Nat. Mach. Intell. 5, 196–207 (2023).
+nature communications
+  (2024) 15:4780 |
+1
+1234567890():,;
+1234567890():,;
+
+Author contributions
+S.V.C wrote the main commentary. C.L.G., L.A.C.,and S.H.P. wrote speciﬁc parts relevant to their
+respective activities at NASA. C.L.G. discussed the Transform to Open Science (TOPS) program,
+L.A.C. focused on Open Science strategies at the Biological and Physical Sciences Division and
+S.H.P. discussed how the Human Research Program places itself in this new ecosystem.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to Sylvain V. Costes.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s) and the source, provide a
+link to the Creative Commons licence, and indicate if changes were made. The images or other
+third party material in this article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not included in the article’s
+Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+This is a U.S. Government work and not under copyright protection in the US; foreign copyright
+protection may apply 2024
+Comment
+nature communications
+  (2024) 15:4780 |
+2

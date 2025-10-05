@@ -1,0 +1,756 @@
+ARTICLE
+OPEN
+Articular cartilage and sternal ﬁbrocartilage respond
+differently to extended microgravity
+Jamie Fitzgerald
+1,2, Jamie Endicott1, Uwe Hansen3 and Cathleen Janowitz2
+The effects of spaceﬂight on cartilaginous structure are largely unknown. To address this deﬁciency, articular cartilage (AC) and
+sternal cartilage (SC) from mice exposed to 30 days of microgravity on the BION-M1 craft were investigated for pathological
+changes. The ﬂight AC showed some evidence of degradation at the tissue level with loss of proteoglycan staining and a reduction
+in mRNA expression of mechano-responsive and structural cartilage matrix proteins compared to non-ﬂight controls. These data
+suggest that degradative changes are underway in the AC extracellular matrix exposed to microgravity. In contrast, there was no
+evidence of cartilage breakdown in SC ﬂight samples and the gene expression proﬁle was distinct from that of AC with a reduction
+in metalloproteinase gene transcription. Since the two cartilages respond differently to microgravity we propose that each is tuned
+to the biomechanical environments in which they are normally maintained. That is, the differences between magnitude of normal
+terrestrial loading and the unloading of microgravity dictates the tissue response. Weight-bearing articular cartilage, but not
+minimally loaded sternal ﬁbrocartilage, is negatively affected by the unloading of microgravity. We speculate that the maintenance
+of physiological loading on AC during spaceﬂight will minimize AC damage.
+npj Microgravity  (2019) 5:3 ; https://doi.org/10.1038/s41526-019-0063-6
+INTRODUCTION
+The major load-bearing tissue within the joint is articular cartilage
+(AC). AC is exquisitely sensitive to changes in biomechanical
+loading (reviewed by Sanchez-Adams et al.1). Under normal
+conditions, chondrocytes synthesize a balance of extracellular
+matrix (ECM) components so that the ability to resist tensile and
+compressive forces is maintained. Deviation from the normal range
+of biomechanical forces,2–5 including complete unloading,6–8 tips
+the balance from maintenance to pathology typically leading to
+cartilage erosion and later osteoarthritis. While the effects of the
+biomechanical unloading environment of spaceﬂight on bone and
+skeletal muscle are well-studied,9,10 the effects on AC are largely
+unknown. The responses of AC to microgravity are important to
+deﬁne because it is clear from clinical studies that load-bearing AC
+is different from bone and skeletal tissue in that has a very poor
+capacity to restore damaged tissue.11 Consequently, microgravity-
+induced joint pathology could compromise ﬂight crew mobility,
+interfere with mission activities, and accelerate short- and long-
+term joint degradation in ﬂight personnel.
+To investigate the effect of extended microgravity on AC, joint
+tissue from mice exposed to 30 days of Spaceﬂight in the BION-M1
+ﬂight was assessed for evidence of cartilage degradation. Our data
+suggest that spaceﬂight results in tissue degradation in load-
+bearing AC, but not in minimally loaded sternal ﬁbrocartilage.
+RESULTS
+Articular cartilage
+Spaceﬂight (SF) AC samples demonstrated less proteoglycan
+compared to AC ground controls (GC) (Fig. 1a). Decreased
+proteoglycan levels were generally restricted to the femoral
+condyle rather than the tibial plateau. Analysis of the boxed
+regions drawn around areas of reduced proteoglycan staining
+indicates approximately 35% of chondrocytes within the box stain
+for pericellular proteoglycan. Virtually no superﬁcial zone chon-
+drocytes have pericellular staining with the majority of toluidine
+blue-stained cells residing in the middle zone. Collagen II levels
+were similar between SF and control samples although three SF
+samples showed evidence of surface damage (Fig. 1b). In addition,
+clear evidence of osteophyte formation was present in three SF
+samples and in one GC and one SFV control sample (Fig. 1c). One
+SF femur sample was <2/3 the thickness of the average GC
+thickness.
+The
+SF
+mice
+had
+a
+signiﬁcantly
+worse
+overall
+histological scores compared to all of the non-ﬂight control
+groups, suggesting more overall cartilage degradation (Fig. 1d).
+Electron microscopy analysis of AC of elbows revealed no major
+differences in matrix density between SF and GC samples
+(Supplementary Fig. 1). Gene expression analysis showed several
+sustained changes in gene activation in SF compared to GC
+samples. Ten genes were upregulated and 37 genes down-
+regulated greater than two-fold in ﬂight compared to ground with
+a false discovery rate (FDR) of 0.05 (Fig. 2a). Seventeen of the
+altered genes are structural cartilage ECM proteins or proteins
+associated with joint pathology.
+Sternal cartilage
+The availability of sternal tissue allowed us to compare the
+response of the two cartilages to microgravity. Representative
+images of the same cartilaginous sternocostal synchondrosis in
+the region between incoming ribs and ossiﬁed sternebrae are
+Received: 30 October 2017 Accepted: 31 January 2019
+1Bone and Joint Center, Department of Orthopedic Surgery, Henry Ford Hospital System, Detroit, MI 48202, USA; 2Department of Orthopaedics and Rehabilitation, Oregon Health
+and Science University, Portland, OR 97239, USA and 3Institute of Musculoskeletal Medicine (IMM), University Hospital of Münster, 48149 Münster, Germany
+Correspondence: Jamie Fitzgerald (jﬁtzge2@hfhs.org)
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+shown in Fig. 1e. This tissue is cartilaginous because it expresses
+the cartilage-speciﬁc gene Col10a1 according to microarray gene
+expression data (not shown). In contrast to AC, there was no
+difference in extent and overall levels of proteoglycan staining
+between SF and GC samples in the sternal cartilage (SC),
+indicating no microgravity-induced proteoglycan decrease. Gene
+expression analyses demonstrated that 30 sternal genes were
+upregulated and 35 were downregulated in SF compared to GC
+(Fig. 2b).
+DISCUSSION
+The ﬁnding of reduced proteoglycan levels in AC due to
+microgravity is consistent with hindlimb unloading and limb
+immobilization studies in rodents, dogs, and rabbits, which
+consistently report unloading-speciﬁc AC atrophy in multiple
+experimental situations (reviewed in ref. 8). Our data suggest that
+despite partial proteoglycan reduction, the collagen II network
+remains intact. While surface damage and osteophytes were
+noted in several SF animals, there was no evidence of widespread
+Fig. 1
+Histological analysis of spaceﬂight cartilage. a Proteoglycan analysis of articular cartilage. Sagittal sections of femoro-tibial joint were
+stained with toluidine blue for proteoglycan. The boxed region deﬁnes the area used to calculate the proportion of chondrocytes exhibiting
+pericellular proteoglycan in regions of reduced territorial proteoglycan. Scale bar is 100 μM. b Superﬁcial zone damage. Sections were stained
+for collagen II. Several sections had surface irregularities. Note the uneven surface and ﬁssure in the top panel (arrows) and damaged surface
+layer in the lower panel. Scale bar is 50 μM. c Presence of osteophytes. Representative image from a toluidine blue-stained SF sample showing
+evidence of an osteophyte (indicated by an asterisk) on the femoral condyle. Scale bar is 100 μM. d Histological scores for SF and non-ﬂight
+controls (GC, GCV, and SFV). SF samples have a signiﬁcantly higher histological score compared to ground and vivarium controls using the
+Kruskal–Wallis test (*P < 0.05, **P < 0.01). Median, maximum score, minimum score, and 25th and 75th percentile of total histology data are
+plotted for each experimental group. Scoring matrix is shown in Supplementary Table 1 and P-values for all pairwise combinations of
+experimental group histological scores shown in Supplementary Table 2. e Proteoglycan analysis of sternal cartilage. Representative sections
+of sternum from SF and GC mice cut in the coronal plane were stained for proteoglycan. The images show a single cartilaginous sternocostal
+synchondrosis ﬂanked by the incoming ribs and the bony sternebrae above and below. Growth plate chondrocytes are located adjacent to
+the zones of calciﬁed cartilage. Scale bar is 100 μM
+J. Fitzgerald et al.
+2
+npj Microgravity (2019)  3 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+a
+gene
+ﬂight/ground
+descripon
+Igkv6-20
+3.38
+immunoglobulin
+Eif3m
+2.53
+translaon iniaon factor
+Sa2
+2.12
+protease inhibitor
+Ms4a3
+2.10
+macrophage cell surface receptor
+Gstm2
+2.09
+glutathionine S-transferase 
+Gm10417
+2.06
+unknown
+Top2a
+2.06
+DNA topoisomerase
+Rbm3
+2.05
+RNA-binding protein
+Iﬁtm6
+2.01
+interferon-response gene
+Igkv4-91
+2.00
+immunoglobulin
+Omd
+-2.00
+ECM protein
+Olfr1437
+-2.02
+olfactory receptor
+Gm6432
+-2.02
+unknown
+Fmod
+-2.04
+ECM proteoglycan
+Gm10673
+-2.04
+unknown
+Ogn
+-2.04
+ECM protein
+C1s
+-2.06
+serine protease
+Olfr118
+-2.07
+olfactory receptor
+Olfr1454
+-2.07
+olfactory receptor
+Serpina1b
+-2.07
+protease inhibitor
+Olfr764
+-2.07
+olfactory receptor
+Gsn
+-2.08
+acn binding protein
+Ccdc80
+-2.10
+adipogenesis inhibitor
+Slc35e3
+-2.11
+unknown
+Olfr948
+-2.14
+olfactory receptor
+Clu
+-2.15
+complement-assoc protein
+Dcn
+-2.18
+ECM protein
+Olfr347
+-2.18
+olfactory receptor
+Olfr1014
+-2.21
+olfactory receptor
+Gm21428
+-2.21
+unknown
+Ect2l
+-2.25
+nucleode exchange factor
+Dpt
+-2.27
+ECM protein
+Prg4 
+-2.28
+ECM molecule
+Prelp
+-2.32
+ECM protein
+Olfr338
+-2.34
+olfactory receptor
+Angptl7
+-2.42
+cell surface receptor
+Col10a1
+-2.50
+collagen
+Retnla
+-2.54
+adipokine
+Myoc
+-2.56
+ECM protein
+Thbs4
+-2.60
+ECM protein
+Pcolce2
+-2.75
+ECM protease
+Cyp2e1
+-2.77
+drug metabolism
+Cxcl13
+-2.83
+chemokine
+Clec3a
+-2.87
+ECM protein
+Comp
+-2.89
+ECM protein
+Ecrg4
+-3.21
+tumor supressor gene
+Cytl1
+-3.66
+cytokine
+b
+gene
+ﬂight/ground descripon
+Klhl38
+3.52
+transferase
+Acot2
+3.50
+thioesterase
+Fbxo32
+3.37
+ubiquin ligase
+Nr1d1
+3.35
+circadian rhythm protein
+Trim63
+3.22
+ubiquin ligase
+Htra4
+3.09
+serine pepdase
+Lox
+2.98
+lysyl oxidase
+Prg4 (lubricin)
+2.44
+ECM molecule
+Slc43a1
+2.33
+solute carrier
+Lmod2
+2.28
+acn binding protein
+Aldoc
+2.25
+aldolase
+Slc39a8
+2.24
+solute carrier
+Etv5
+2.23
+transcripon factor
+n-R5s88
+2.22
+non-coding RNA
+Chac1
+2.22
+glutathionine transferase
+Tango2
+2.17
+golgi stress protein
+Pdk4
+2.16
+pyruvate dehydrogenase kinase
+Chi3l1
+2.11
+chinase
+Impdh2
+2.10
+inosine dehydrogenase
+Zfp600
+2.08
+zinc ﬁnger protein
+Sesn1
+2.08
+stress response gene
+Myf6
+2.07
+myogenic factor
+Cr2
+2.06
+complement factor
+Tsen15
+2.05
+splicing endonuclease
+Omd
+2.03
+ECM protein
+Inmt
+2.03
+methyltransferase
+Sgcg
+2.02
+muscle glycoprotein
+Gm5886
+2.02
+unknown
+Tacc2
+2.02
+cell cycle protein
+Ankrd1
+2.01
+ankryn-repeat protein
+Taf1d
+-2.06
+transcripon factor
+Hba-a2
+-2.07
+hemoglobin
+Mki67
+-2.09
+proliferaon marker
+Slc4a1
+-2.09
+solute carrier
+Atp6v0d2
+-2.12
+vaculolar ATPase
+Sfrp2
+-2.13
+Wnt signalling
+Car1
+-2.13
+carbonic anhydrase
+Nr4a1
+-2.14
+nuclear receptor
+Mpo
+-2.16
+myeloperoxidase
+Svs3b
+-2.16
+secreted protein
+Hist1h3f
+-2.17
+histone
+Retnlg
+-2.19
+adipokine
+Hist1h3a
+-2.19
+histone
+Top2a
+-2.20
+DNA topoisomerase
+Hist1h3d
+-2.22
+histone
+Hist1h3i
+-2.26
+histone
+Hist1h2ab
+-2.26
+histone
+Alpl
+-2.36
+alkaline phosphatase
+Hist2h3c2
+-2.37
+histone
+Hbb-bs
+-2.43
+hemoglobin
+Hbb-bt
+-2.45
+hemoglobin
+Col1a1
+-2.49
+collagen
+Acp5
+-2.60
+acid phosphatase
+Hp
+-2.62
+haptoglobin
+Car2
+-2.83
+carbonic anhydrase
+Igkv4-55
+-2.85
+immunoglobulin
+Gypa
+-2.99
+glycophorin
+L
+-3.07
+growth factor signalling
+Igkv1-117
+-3.11
+immunoglobulin
+Ibsp
+-3.38
+bone sialoprotein
+Mmp13
+-3.96
+metalloproteinase
+Mmp9
+-4.27
+metalloproteinase
+S100a9
+-4.70
+upregulate MMPs
+S100a8
+-6.41
+upregulate MMPs
+Ngp
+-7.57
+pepdase inhibitor
+Fig. 2
+Cartilage RNA expression analysis. RNA isolated from articular cartilage a or sternal cartilage b were subjected to microarray analyses.
+Changes are expressed as fold change in ﬂight compared to ground control samples. Only genes that are altered more than two-fold up in
+ﬂight (shaded in green) and down in ﬂight (shaded in orange) are listed. Structural cartilage extracellular matrix proteins or proteins
+associated with joint pathology are in bold
+J. Fitzgerald et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2019)  3 
+
+AC ﬁbrillation or ﬁssure formation, and we conclude that exposure
+to microgravity results in moderate surface damage. Some
+chondrocytes were stained strongly for proteoglycan immediately
+surrounding the cell and may represent the production of new
+proteoglycan in the time elapsed (12–13 h) since returning to
+normal gravity although glycosaminoglycan synthesis assays are
+needed to conﬁrm this.
+Nine of the downregulated genes in spaceﬂight encode
+structural
+ECM
+components,
+including
+ﬁbromodulin
+(fmod),
+osteoglycin (Ogn), osteomodulin (Omd), decorin (Dcn), dermato-
+pontin (Dpt), PRELP (Prelp) collagen X (Col10a1), thrombospondin4
+(Tsp4), and cartilage oligomeric matrix protein (COMP). Several
+other non-structural components with important cartilage ECM
+roles in development or osteoarthritis were also downregulated,
+including proteoglycan-related gene 4/lubricin (Prg4), procollagen
+C-endopeptidase enhancer 2 (Pcolce2), and Cytokine-like 1 (Cytl1).
+Cytl1 is an autocrine factor that regulates chondrogenesis in
+mesenchymal cells12 and is required for cartilage homeostasis.13
+Expression of Prg4 by superﬁcial zone chondrocytes is acutely
+mechanosensitive; upregulation occurs with loading and asso-
+ciated with protection against osteoarthritis.14–17
+The decrease in proteoglycan levels and downregulation of
+ECM molecules and genes that protect against osteoarthritic
+changes suggest that the early stages of cartilage breakdown are
+underway in the ﬂight AC after 30 days of microgravity. However,
+since there is no evidence of signiﬁcant collagen II degradation
+and the possible re-synthesis of proteoglycan in some chondro-
+cytes, we suggest that cartilage recovery is possible and that
+30 days of microgravity is insufﬁcient for irreversible cartilage
+degradation.
+In SC, there was no evidence of proteoglycan loss and a
+different suite of genes was altered in spaceﬂight. Of the
+downregulated genes, most notable were two prominent cartilage
+ECM-degrading
+enzymes:
+Mmp13
+and
+Mmp9.
+This
+ﬁnding
+together with the downregulation of S100a8 and S100a9, which
+are known to stimulate Mmp gene activation in cartilage,18
+suggest that less ECM proteolysis occurs in SF samples compared
+to non-ﬂight samples in SC tissue.
+The expression of several genes was altered in both cartilage
+tissues, including Prg4 and Omd, but opposite directions in the
+two cartilages. Osteomodulin regulates ﬁbril diameter and is
+suggestive of new matrix synthesis in SC and reduced matrix
+production in AC.19 Prg4 is chondroprotective and its upregulation
+in SC is further evidence that SC may be protected from
+degradation in microgravity.
+Based on these differences in response to microgravity between
+the two cartilages, we suggest that the relative change in
+biomechanical environment determines the tissue response.
+During normal activities, AC is cyclically loaded with a signiﬁcant
+fraction of body weight and then almost completely unloaded in
+microgravity. This change in loading triggers cartilage breakdown.
+In contrast, SC is loaded by cyclical lung expansion but does not
+experience the same magnitude of compressive loading as AC.
+Since
+the
+mice
+continue
+to
+breathe
+in
+microgravity
+and
+continuously load the tissue, the difference between mechanical
+loading in SF and controls is minimal, and cartilage breakdown is
+not initiated in SC.
+Taken together, our ﬁndings suggest that maintenance of
+biomechanical loading during spaceﬂight will minimize AC
+destruction.
+METHODS
+Animals
+C57BL/6N male mice were ﬂown for 30 days (477 Earth orbits) on the
+unmanned BION-M1 biosatellite between 19 April and 19 May 2013.20
+Tissues were acquired from six male ﬂight mice as part of NASA’s
+Biospecimen Sharing Program. The mice were speciﬁc pathogen-free and
+19–20 weeks old at the time of launch and start of control experiments. In
+addition to the six ﬂight mice (SF), there were eight “ﬂight” vivarium male
+ground control mice (SFV), seven asynchronous ground control males (GC),
+and seven asynchronous vivarium ground control males (GCV). Tissues
+were harvested 12–13 h post-landing. Flight and animal habitat details for
+the BION-M1 mission have been reported by Andreev-Andrievskiy et al.20
+IACUC approval was obtained from the MSU Institute of Mitoengineer-
+ing and of the Biomedical Ethics Commission of IBMP and the study was
+conducted in compliance with the European Convention for the Protection
+of Vertebrate animals used for Experimental and Other Scientiﬁc purposes.
+Tissue analyses
+Hindlimbs and elbow joints were dissected and right limbs placed in
+RNALater (Ambion) with left limbs placed in 10% neutral-buffered formalin
+(NBF). Sternae with ribs attached were cut mid-sternum and the posterior
+half containing xiphoid process and two sternocostal joints placed in
+RNALater and the anterior half placed in NBF for histology. AC processing,
+toluidine blue histology and immunohistochemistry, were performed as
+previously reported.21 AC sections were stained for Safranin-O (Saf-O) and
+counterstained with hematoxylin using a protocol from the University of
+Rochester,
+Center
+for
+Musculoskeletal
+Research
+(https://www.urmc.
+rochester.edu/musculoskeletal-research/core-services/histology/protocols.
+aspx). Cartilage thickness measurements were taken along the tibial and
+femoral articular surfaces of Saf-O positive AC at 30 different sites for each
+section in the same relative position throughout the joint and included
+calciﬁed and non-calciﬁed regions together. These within-animal measure-
+ments were used to derive an average thickness for each animal. The
+thickness variation within an experimental group was similar to the
+average variation within individual samples (not shown).
+For transmission electron microscopy, cartilage samples from SF and GC
+elbows
+were
+dissected
+from
+bone
+and
+post-ﬁxed
+in
+0.5%
+(v/v)
+osmiumtetroxide and 1% (w/v) potassium hexacyanoferrate (III) in 0.1 M
+cacodylate buffer. After dehydration, specimens were incubated in
+propylenoxide and embedded in Epon. Ultrathin sections were cut,
+collected on copper grids, and negatively stained with 2% uranyl acetate.
+Electron micrographs were taken at 60 kV with a Phillips EM-410 electron
+microscope (Ditabis, Pforzheim, Germany).
+RNA analyses
+RNALater-preserved AC from the femoral condyle and proximal tibia was
+dissected down to the calciﬁed zone using an ophthalmic scalpel and
+tissue from SF and GC animals pooled separately. Half sternum pieces were
+dissected from ribs and SC dissected from bony segments and pooled.
+RNA was isolated using the MirVana RNA isolation kit (Life Technologies)
+and ampliﬁed by in vitro transcription with T7 RNA polymerase. Samples
+(100 ng) were then labeled using the Affymetrix GeneChip WT Plus
+protocol and hybridized to an Affymetrix Mouse Gene 1.0 ST GeneChip.
+Analysis of microarray data was conducted using both Microarray Suite
+(MAS) version 5.0 and Robust Multi-Array Average (RMA).22 Differentially
+expressed genes were ≥−2 (decrease) or a fold change of ≥2 (increase)
+with an FDR of 0.05.
+Statistical analyses
+For the AC histological scoring analysis, measurements were taken from
+seven GC, seven GCV, ﬁve SF, and six SFV samples where good joint
+histology in the correct plane was obtained. Histology scoring for SC was
+conducted on six SF, seven GC, eight SFV, and seven GCV animals. Each
+animal received a single histology score representing the sum of separate
+histological parameters shown in Supplementary Table 1 with higher
+scores representing more overall cartilage degradation. Statistical differ-
+ences between experimental groups (GC, GCV, SF, SFV) for total
+histological
+scores
+from
+each
+animal
+were
+examined
+using
+the
+Kruskal–Wallis test for multiple independent samples (http://astatsa.com/
+KruskalWallisTest/).23 The omnibus P-value of 0.006 (d.f. = 3) rejects the
+null hypothesis that all groups have the same distribution. Post-hoc
+pairwise multiple testing by Dunn was used to determine which pairs are
+different.24 P-values were adjusted according to the family-wide error rate
+of Holm and then by the Benjamini–Hochberg method.25 P-values for all
+pairwise comparisons used to calculate overall Kruskal–Wallis P-values are
+shown in Supplementary Table 2. Median, maximum score, minimum
+score, and 25th and 75th percentile of total histology data plotted for each
+experimental group are shown in Fig. 1d.
+J. Fitzgerald et al.
+4
+npj Microgravity (2019)  3 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Reporting Summary
+Further information on experimental design is available in the Nature
+Research Reporting Summary linked to this article.
+DATA AVAILABILITY
+Microarray datasets generated and analyzed during the current study are available in
+the NASA GeneLab repository, https://genelab.nasa.gov/data/.
+ACKNOWLEDGEMENTS
+Microarray assays and data analysis were performed by the Gene Proﬁling Shared
+Resource at Oregon Health and Science University, Portland, OR, USA. This study was
+supported by NASA Grant #NNX09AQ03G.
+AUTHOR CONTRIBUTIONS
+All authors made contributions to this research project including study design, data
+collection, and manuscript preparation.
+ADDITIONAL INFORMATION
+Supplementary information accompanies the paper on the npj Microgravity website
+(https://doi.org/10.1038/s41526-019-0063-6).
+Competing interests: The authors declare no competing interests.
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+REFERENCES
+1. Sanchez-Adams, J., Leddy, H. A., McNulty, A. L., O’Conor, C. J. & Guilak, F. The
+mechanobiology of articular cartilage: bearing the burden of osteoarthritis. Curr.
+Rheumatol. Rep. 16, 451 (2014).
+2. Buckwalter, J. A. & Martin, J. A. Sports and osteoarthritis. Curr. Opin. Rheumatol.
+16, 634–639 (2004).
+3. Buckwalter, J. A. & Martin, J. A. Osteoarthritis. Adv. Drug Deliv. Rev. 58, 150–167
+(2006).
+4. Kurz, B. et al. Pathomechanisms of cartilage destruction by mechanical injury.
+Ann. Anat. 187, 473–485 (2005).
+5. Scott, C. C. & Athanasiou, K. A. Mechanical impact and articular cartilage. Crit. Rev.
+Biomed. Eng. 34, 347–378 (2006).
+6. Kesikburun, S. et al. Comparison of intact knee cartilage thickness in patients with
+traumatic lower extremity amputation and nonimpaired individuals. Am. J. Phys.
+Med. Rehabil. 94, 602–608 (2015).
+7. Vanwanseele, B., Eckstein, F., Knecht, H., Spaepen, A. & Stussi, E. Longitudinal
+analysis of cartilage atrophy in the knees of patients with spinal cord injury.
+Arthritis Rheum. 48, 3377–3381 (2003).
+8. Vanwanseele, B., Eckstein, F., Knecht, H., Stussi, E. & Spaepen, A. Knee cartilage of
+spinal cord-injured patients displays progressive thinning in the absence of
+normal joint loading and movement. Arthritis Rheum. 46, 2073–2078 (2002).
+9. Carmeliet, G., Vico, L. & Bouillon, R. Space ﬂight: a challenge for normal bone
+homeostasis. Crit. Rev. Eukaryot. Gene Expr. 11, 131–144 (2001).
+10. Ilyin, E. & Organov, V. Microgravity and musculoskeletal system of mammals. Adv.
+Sapce Res. 9, 11–19 (1989).
+11. Buckwalter, J. A. Articular cartilage injuries. Clin. Orthop. Relat. Res. 402, 21–37
+(2002).
+12. Kim, J. S., Ryoo, Z. Y. & Chun, J. S. Cytokine-like 1 (Cytl1) regulates the chon-
+drogenesis of mesenchymal cells. J. Biol. Chem. 282, 29359–29367 (2007).
+13. Jeon, J. et al. Cytokine-like 1 knock-out mice (Cytl1−/−) show normal cartilage
+and bone development but exhibit augmented osteoarthritic cartilage destruc-
+tion. J. Biol. Chem. 286, 27206–27213 (2011).
+14. Abusara, Z. et al. Muscular loading of joints triggers cellular secretion of PRG4
+into the joint ﬂuid. J. Biomech. 46, 1225–1230 (2013).
+15. Nugent, G. E. et al. Static and dynamic compression regulate cartilage metabo-
+lism of PRoteoGlycan 4 (PRG4). Biorheology 43, 191–200 (2006).
+16. Nugent-Derfus, G. E. et al. Continuous passive motion applied to whole joints sti-
+mulates chondrocyte biosynthesis of PRG4. Osteoarthr. Cartil. 15, 566–574 (2007).
+17. Ogawa, H., Kozhemyakina, E., Hung, H. H., Grodzinsky, A. J. & Lassar, A. B.
+Mechanical motion promotes expression of Prg4 in articular cartilage via multiple
+CREB-dependent, ﬂuid ﬂow shear stress-induced signaling pathways. Genes Dev.
+28, 127–139 (2014).
+18. Zreiqat, H. et al. S100A8 and S100A9 in experimental osteoarthritis. Arthritis Res.
+Ther. 12, R16 (2010).
+19. Tashima, T., Nagatoishi, S., Sagara, H., Ohnuma, S. & Tsumoto, K. Osteomodulin
+regulates diameter and alters shape of collagen ﬁbrils. Biochem. Biophys. Res.
+Commun. 463, 292–296 (2015).
+20. Andreev-Andrievskiy, A. et al. Mice in Bion-M 1 space mission: training and
+selection. PLoS ONE 9, e104830 (2014).
+21. Fitzgerald, J. et al. Evidence for articular cartilage regeneration in MRL/MpJ mice.
+Osteoarthr. Cartil. 16, 1319–1326 (2008).
+22. Irizarry, R. A. et al. Summaries of Affymetrix GeneChip probe level data. Nucleic
+Acids Res. 31, e15 (2003).
+23. Kruskal, W. H. & Wallis, W. A. Use of ranks in one-criterion variance analysis. JASA
+47, 583 (1952).
+24. Dunn, O. J. Multiple comparisons among means. JASA 56, 10 (1961).
+25. Benjamini, Y. & Hochberg, Y. Controlling the false discovery rate: a practical and
+powerful approach to multiple testing. J. R. Stat. Soc. Ser. B (Methodol.) 57, 12
+(1995).
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2019
+J. Fitzgerald et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2019)  3 

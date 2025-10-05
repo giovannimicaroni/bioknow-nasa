@@ -1,0 +1,1644 @@
+iScience
+Review
+Recent transcriptomic studies to elucidate
+the plant adaptive response to spaceﬂight
+and to simulated space environments
+Ara´nzazu Manzano,1,* Euge´ nie Carnero-Diaz,2 Rau´ l Herranz,1 and F. Javier Medina1,3,*
+SUMMARY
+Discovering the adaptation mechanisms of plants to the space environment is
+essential for supporting human space exploration. Transcriptomic analyses allow
+the identiﬁcation of adaptation response pathways by detecting changes in gene
+expression at the global genome level caused by the main factors of the space
+environment, namely altered gravity and cosmic radiation. This article reviews
+transcriptomic studies carried out from plants grown in spaceﬂights and in
+different ground-based microgravity simulators. Despite differences in plant
+growth conditions, these studies have shown that cell wall remodeling, oxidative
+stress, defense response, and photosynthesis are common altered processes in
+plants grown under spaceﬂight conditions. European scientists have signiﬁcantly
+contributed to the acquisition of this knowledge, e.g., by showing the role of red
+light in the adaptation response of plants (EMCS experiments) and the mecha-
+nisms of cellular response and adaptation mostly affecting cell cycle regulation,
+using cell cultures in microgravity simulators.
+INTRODUCTION
+Space exploration is one of the most fascinating enterprises for humans. It is becoming increasingly evident
+that plants are an essential companion of humans in space exploration as a privileged source of high quality
+nutrients and oxygen as well as waste recycling systems, that is, as a key component of bioregenerative life
+support systems (Fu et al., 2016). Thus, the search for the most efﬁcient way of cultivating plants in space,
+including the knowledge of the mechanisms of adaptation of plants to the space environment and the care-
+ful selection of plant species, varieties and genetic lines, are current major challenges of plant space
+research (Medina et al., 2021). The most difﬁcult parameter to overcome in the space environment is
+altered gravity level, because all other parameters such as oxygen and nutrient levels, humidity, tempera-
+ture, or light conditions can be adjusted. Only cosmic radiation represents a challenge comparable to grav-
+ity because of the lack of 100% effective protective shields. On the other hand, plants, like every organism
+on Earth, have evolved under a constant gravity level and its modiﬁcation or absence may be a difﬁcult chal-
+lenge to overcome for an organism.
+There are different ways to study the effect of microgravity on an organism (Bo¨ hmer and Schleiff, 2019). Real
+microgravity research onboard the International Space Station (ISS) provides the most valuable information
+(Vandenbrink and Kiss, 2016), but it involves high cost and the access to it is very limited. Compared to a
+typical ground experiment, which usually involves practically unlimited sample size and the necessary num-
+ber of performing personnel, spaceﬂight research imposes major limitations, including the size of and
+access to experiment equipment and the availability of trained staff and supplies needed to perform the
+scientiﬁc work. Furthermore, there are signiﬁcant technical challenges that need to be overcome in the
+design and development of the experimental hardware necessary to operate in low gravity conditions.
+Retrieval, processing and storage of biological samples need to be optimized, in some cases by devel-
+oping complex and costly procedures.
+Despite all these constraints, six decades of research on the effects of long- and short-term missions to
+space have resulted in a consistent knowledge of many aspects of the impact of extraterrestrial factors,
+mainly exposure to microgravity, on biological systems. The story started with the sending to space of
+the ﬁrst plant materials which were grown on unmanned vehicles. The Soviet Oasis 1 plant growth system,
+1PCNPmG Lab (Plant Cell
+Nucleolus, Proliferation and
+Microgravity), Centro de
+Investigaciones Biolo´ gicas
+Margarita Salas - CSIC,
+Ramiro de Maeztu 9, 28040
+Madrid, Spain
+2Institut Syste´ matique,
+Evolution, Biodiversite´
+(ISYEB), Muse´ um National
+d’Histoire Naturelle, Sor-
+bonne Universite´ , CNRS,
+EPHE, UA, Paris, 75005,
+France
+3Lead contact
+*Correspondence:
+aranzazu@cib.csic.es (A.M.),
+fjmedina@cib.csic.es (F.J.M.)
+https://doi.org/10.1016/j.isci.
+2022.104687
+iScience 25, 104687, August 19, 2022 ª 2022 The Author(s).
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+1
+ll
+OPEN ACCESS
+
+the ﬁrst facility devoted to space plant research in history, was ﬂown on the Cosmos 368 ﬂight as early as
+1970. Soon after, the facility was used by cosmonauts in the manned Salyut 1 mission in 1971 to grow
+different plant crop species. Since then, different plant cultivation experiments have been ﬂown on crewed
+vehicles, including the Soviet/Russian Salyut and Mir, the American Shuttle, the Chinese Shenzou, and the
+ISS. Continuous subsystem improvements and increasing knowledge of plant responses to the spaceﬂight
+environment has led to the design of Veggie and the Advanced Plant Habitat, latest in the series of plant
+growth systems installed in the ISS (Ray et al., 2019; Zabel et al., 2016). All these steps were directed to
+achieve the main objective of spaceﬂight biology, which was to gain an understanding of adaptive pro-
+cesses triggered by terrestrial organisms when they are confronted with the novel space environment.
+The knowledge of the environmental limits of terrestrial biology in spaceﬂight is key to the design of suc-
+cessful space exploration strategies (Des Marais et al., 2008).
+During spaceﬂight, exposure to a novel environment, previously unknown for terrestrial organisms, causes
+them to modify their growth and development patterns to a greater or lesser extent. These patterns are
+characterized by certain gene expression proﬁles capable of guiding growth and ensuring survival. During
+spaceﬂight, some sets of genes that were repressed in other environmental conditions are expressed and
+some other sets of genes are repressed in an attempt to cope with the new environment and adapt, or accli-
+mate, to it (Paul et al., 2012). This response is not unique to plants, but it is enhanced in these organisms by
+the great reserve of plasticity exhibited by plant genomes, that enables them to respond to unforeseen
+environmental conditions, such as gravity alteration (Medina et al., 2021). In general, this plasticity is neces-
+sary because of the sessile character of plants that immobilizes them to the ground and disables them to
+escape to another place if the environmental conditions became adverse. One of the sources of genome
+plasticity is gene redundancy, a feature much more extended in plants than in any other taxonomic group.
+Plants have undergone extensive duplications (up to four times) of large genomic regions, producing a
+large amount of duplicated genes (Wang et al., 2011). For example, multiple cyclins and CDKs involved
+in cell proliferation control exhibit redundant mechanisms for producing the same effect in cell cycle check-
+points (Francis, 2011). In addition to gene redundancy, quicker mechanisms like transposable elements or
+epigenetic processes, such as DNA methylation operate under environmental stress (Lukens and Zhan,
+2007).
+This article revises the results of some relevant experiments performed in the ISS during the last decade
+and the knowledge acquired from them in terms of changes in gene expression at the global genome level
+(space omics). These changes are related to the acclimation or adaptation of plants to survive, grow and
+develop under the altered gravity conditions of extraterrestrial environments, either the microgravity char-
+acterizing spaceﬂight, or the partial gravity levels that can be found in the Moon and Mars surfaces.
+Together with gravity, another environmental stimulus is analyzed extensively, which is light. Both gravity
+and light are responsible for the two main tropisms that drive plant growth, namely gravitropism and
+phototropism. The regulatory effects of light and gravity on plant growth are closely related. An
+outstanding recent example of this relationship is the light regulation of the expression of LAZY4, a
+gene that plays an important role in the gravitropic response of both shoots and roots (Yang et al.,
+2020). In addition, upregulation of genes involved in a fundamental light-dependent function, such as
+photosynthesis, has been found as a response to microgravity condition in spaceﬂight, and, interestingly,
+this response occurred in etiolated plants, in the absence of any light signal (Kruse et al., 2020). The ques-
+tion on whether the deleterious effects of altered gravity could be compensated by light, or not, is critical
+for the success of plant culture in future human settlements on other planets, but attention to other sub-
+optimal environmental parameters that may be unavoidable in spaceﬂight as cosmic radiation or reduced
+access to water or gas exchange may be also evaluated. In that regard, this review pays particular attention
+and its organized by the hardware used in each experiment, being crucial to understand the differential
+results observed in the ‘‘habitats’’ provided for each facility, in terms of suboptimal environmental condi-
+tions and particularly light.
+The adaptive response to spaceﬂight environment of Arabidopsis thaliana seedlings under
+darkness condition (BRIC experiments)
+A series of experiments called ‘‘Biological Research in Canisters’’ (BRIC) were performed in the NASA BRIC
+hardware, which consists of a simple compartment (canister) holding six 60-mm Petri dishes in small sub-
+compartments called PDFUs (Petri Dish Fixation Unit cassettes) (Table S1). The PDFUs allow the sample ﬁx-
+ation inside using an actuator gun. The BRIC hardware was ﬂown as nonpowered payload so the seedlings
+ll
+OPEN ACCESS
+2
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+were grown in the dark for the experiment duration, although a further development called BRIC-LED was
+implemented, providing lighting capabilities. In particular, BRIC-16 consisted of three individual experi-
+ments performed by three research groups as part of the STS-131 mission on the Space Shuttle Discovery
+in 2010. All BRIC-16 ﬂight samples were grown in darkness for 309 h (12 days and 21h) and then ﬁxed in
+RNAlater in-orbit. The Ground Control were BRICs prepared identical to spaceﬂight samples housed in
+Orbital Environmental Simulator (OES) at the Spaceﬂight Life Sciences Laboratory (SLSL-KSC) with a
+24-h delay to enable duplication of the environmental parameters (temperature, humidity, and CO2 con-
+centration) collected by telemetry from the space shuttle (Johnson et al., 2017; Kwon et al., 2015; Paul
+et al., 2012) (Table 1).
+The BRIC-16-DNA experiment (Impact of Spaceﬂight on Arabidopsis: Deep Sequencing and DNA Arrays as
+Collaborative Readouts of the Transcriptome of Arabidopsis Seedlings and Undifferentiated Cell in Space)
+disclosed that A. thaliana ecotype Columbia (Col-0) seedlings grown in space change the expression of 300
+genes with respect to ground control samples. Between the differentially genes expressed, genes upregu-
+lated are associated with pathogen response, wounding, drought stress and cold stress (generalized
+stress-response) and genes downregulated are transcription factors involved in cell wall metabolism and
+cell elongation and genes encoding proteins that function in calcium-mediated signaling (gravitropism).
+The authors suggest that both the gravity signaling system and the stress signaling related to wounding
+and pathogens converge in their responses involving the actin-based cytoskeletal network attached to
+plasma membrane and the cell wall. It is possible that any of these signaling mechanisms are balanced
+by the force of gravity. Hence, the absence of gravity may confound the signaling system, inducing inap-
+propriate stress responses as a consequence (Paul et al., 2012).
+The transcriptional analysis of BRIC-16-Regulation experiment (Actin Regulation of Arabidopsis Root
+Growth and Orientation During Space Flight) showed that spaceﬂight conditions triggered the downregu-
+lation of genes involved in cell wall biogenesis and oxidative stress in Col-0 seedlings. Most of these genes
+are expressed in root hairs (class III peroxidase genes) independently of actin pathways because they were
+also downregulated in the other Arabidopsis line included in this experiment, the act2-3mutant. These
+gene expression changes led to shorter root hairs in space-grown seedlings. It is unclear whether this effect
+was due to microgravity per se or it was a consequence of other spaceﬂight environmental conditions pro-
+ducing stress, such as hypoxia, which produces the same phenotypic effect. Actually, the BRIC hardware
+system has several limitations: One is that the seedlings grow conﬁned in small sealed containers for
+extended periods of time, and other is the absence of orbit 1g control which makes it difﬁcult to distinguish
+true microgravity effects from other secondary spaceﬂight effects (Kwon et al., 2015).
+BRIC-16-Cytoskeleton study (Investigations of the Plant Cytoskeleton in Microgravity with Gene Proﬁling
+and Cytochemistry) focused on gene expression changes in shoots of Ler-0 plants. The functional analysis
+showed that many upregulated transcripts in spaceﬂight conditions were implicated in metabolic process
+and transport. Most of these genes were localized in the extracellular matrix and involved in cell wall modi-
+ﬁcation. On the other hand, and unlike the other two BRIC-16 experiments, the downregulated genes were
+often involved in stress response. This result was associated with the fact that the transcriptional analysis
+only included shoots. At the same time, an abundance of adventitious roots (immediately transport oxygen
+Table 1. Adaptive response to spaceﬂight environment of Arabidopsis thaliana seedlings under darkness
+Conditions
+Ecotype
+Fixation
+Tissue
+Authors
+GLDS
+mg dark 12 days
+Col-0
+RNAlater
+Seedlings
+Paul et al. (2012)
+GLDS-17
+mg dark 12 days
+Col-0
+RNAlater
+Seedlings
+Kwon et al. (2015)
+GLDS-44
+mg dark 12 days
+Ler-0
+RNAlater
+Shoot
+Johnson et al. (2017)
+GLDS-121
+mg dark 8 days
+Col-0, Ws-2, Ler-0 and Cvi-0
+RNAlater
+Seedlings
+Choi et al. (2019)
+GLDS-37
+mg dark 3 days
+Col-0
+RNAlater
+Seedlings
+Kruse et al. (2020)
+GLDS-38
+mg dark 14 days
+Col-0, atire1,
+bzip60, bzip28, bzip28 bzip60
+RNAlater
+Seedlings
+Angelos et al. (2021)
+GLDS-321
+Experiments performed in BRIC hardware, indicating the main characteristics of each of them: experimental conditions, ge-
+notype, ﬁxation, tissue used to carry out the transcriptomic study, authors and the GeneLab Data Set (GLDS). See also
+Table S1
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+3
+iScience
+Review
+
+from the substrate to shoots) was observed in spaceﬂight seedlings, suggesting that roots may undergo
+greater hypoxic stress than shoots during spaceﬂight. Therefore, pooling all plant organs together for a
+single analysis could provide an incomplete picture.
+The BRIC-16 was a cluster of spaceﬂight experiments performed during the same space mission (STS-131)
+in the same hardware (Biological Research in Canister, BRIC) with the goal of studying the longer-term plant
+survival response in the spaceﬂight environment. Despite these common features, and even though tran-
+scripts within the same functional categories (stress response, defense, metabolic processes and cell wall
+modiﬁcation) were found to be involved in the response in the different experiments, some differing results
+were obtained. These differences were associated to the speciﬁc experimental conditions of each one of
+the experiments: BRIC-16-DNA and BRIC-16-Regulation used the Col-0 ecotype as wild type whereas
+BRIC-16-Cytoskeleton used the Ler-0 ecotype; BRIC-16-Regulation and BRIC-16-Cytoskeleton growth me-
+dia was half-strength MS salts and 1% (w/v) sucrose in agar, but BRIC-16-DNA used only half-strength MS
+salts in phytagel; BRIC-16-DNA and BRIC-16-Regulation used in microarray analysis RNA from entire seed-
+lings whereas BRIC-16-Cytoskeleton used RNA from shoots only (Johnson et al., 2017).
+The mission SpaceX CRS-4, launched on September 21, 2014, carried a new BRIC experiment with the aim of
+dissecting plant stress responses and revealing novel pathways for these responses triggered in space. RNA
+sequencing after growing for 8 days on board the ISS allowed the comparison of the transcriptomes of four
+A. thaliana ecotypes (Col-0, Ws-2, Ler-0 and Cvi-0) with ground-based control (a duplicated set of BRICs trans-
+ferred to the ISS Environmental Simulator-ISSES with a 48-h delay to the ﬂight experiment) (Table 1). Cvi-0 seed-
+lings were those with the highest number of genes with deregulated expression, followed by Col-0 and WS-2
+plants. In contrast, the Ler-0 plants barely showed changes in the expression of their genes. Common in all eco-
+types, transcripts from heat-shock proteins (chaperones) were upregulated, whereas peroxidase transcripts
+were downregulated in spaceﬂight (Choi et al., 2019). According to the authors, this shared induction of
+molecular chaperones may help to protect cellular machinery from oxidative stress potentially triggered by
+hardware-dependent hypoxic response. In fact, alterations in growth and molecular responses in seedlings
+grown in BRIC have been described, raising the possibility that this hardware may impose intrinsic stresses
+on the plants and cause a response in some genes unrelated with the spaceﬂight environment (Basu et al.,
+2017; Johnson et al., 2017). The spaceﬂight ecotype-unique transcripts analysis showed that Cvi-0 was enriched
+in genes involved in light stress, kinase signaling and cell wall modiﬁcation, Col-0 was enriched in transcripts
+related to cold and sugar response and, in Ws-2, enrichment in responses related to oxidative stress response
+was detected. Instead, Ler-0 also showed no signiﬁcantly over-represented processes because of the small
+number of genes changing their expression. These results bring out signiﬁcant differences between ecotype
+behavior, being Col-0 and Cvi-0 much more responsive to spaceﬂight conditions, whereas Ler-0 appeared
+to be relatively resistant to the same conditions, and therefore, highlighting the need to carefully consider
+the genetic background when comparing data sets and designing spaceﬂight experiments (Choi et al., 2019).
+Another experiment that used the BRIC hardware to quantify protein and transcript differential expres-
+sion of 3-day-old, etiolated Col-0 seedlings grown aboard the ISS, was launched on January 10, 2015
+(Space-X CRS-5). The simultaneous proteomic and transcriptomic analyses provided a more complete
+picture of plant response to spaceﬂight (Kruse et al., 2020). In addition to the ground control (at
+ISSES with 48-h delay), in this experiment, two additional analyses were performed to eliminate signiﬁ-
+cant changes in the transcriptome and proteome of Arabidopsis seedlings that could be attributed to
+the hardware (Basu et al., 2017) or to the RNAlater preservative (Kruse et al., 2017) (Table 1). These
+studies revealed marked impacts on post- transcriptional regulation, cell wall synthesis, redox/microtu-
+bule dynamics and plastid gene transcription in the plants exposed to microgravity. The effects on micro-
+tubule dynamics (alpha tubulins) were explained as a relevant physiological adaptation to the spaceﬂight
+environment, because alpha tubulin has the potential to enhance cytoskeletal organization and cell wall
+composition, thereby enhancing the structural integrity of cells in microgravity. A wide variety of plastid-
+localized and plastid-produced genes appeared differentially regulated in the ﬂight samples, but they
+were not present in the proteomic data. This result was surprising because BRIC hardware prevents all
+light from reaching the plants, and it was interpreted as a wasteful effort to enhancing light signaling
+to compensate for the absence of gravity. In summary, the uniﬁed transcriptomic and proteomic analysis
+points out the regulation of speciﬁc elements of cell wall, microtubule synthesis and plastid transcripts
+production as three new targets to achieve optimal plant growth during future long-term spaceﬂight mis-
+sions (Kruse et al., 2020).
+ll
+OPEN ACCESS
+4
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+During SpaceX CRS-12 mission (launched August 14, 2017) transcriptional responses of Col-0 seedlings
+and seedlings with a compromised unfolded protein response (UPR) to spaceﬂight were examined with
+the objective of studying how this response, which is a signaling cascade that responds to a number of un-
+favorable environmental and cellular stresses, could coordinate gene expression reprogramming in space-
+ﬂight stress conditions. For this, the BRIC-PDFU sterile plant culture hardware was used to grow for 14 days
+Arabidopsis thaliana wildtype and mutants defective in one or more components of the UPR, namely the
+TFs bZIP28 and bZIP60 (single and double mutants: bzip28, bzip60 and bzip28 bzip60) and the ER-resident
+kinase/ribonuclease IRE1 (atire1). The transcriptomic results showed that growth in orbit substantially
+altered expression of thousands of genes associated with biological functions compared with ground con-
+trol across all genotypes. Speciﬁcally, WT had the largest number of differentially expressed genes (1675
+DEGs upregulated and 831 DEGs downregulated) and the bzip28 bzip60 mutant had the smallest number
+of DEGs (1293 upregulated and 562 downregulated). Among these DEGs, 34.8% (783/2249) of upregulated
+and 27.5% (335//1217) of downregulated overlapped across all genotypes whereas relatively smaller
+numbers of DEGs were found to be genotype-speciﬁc. Therefore, with the aim to gain more insights
+into the transcriptome changes caused by the absence of a correct UPR signaling under both ground
+and space ﬂight conditions, the authors performed K-means clustering analysis on FPKM values for all
+DEGs. This analysis became clear that many of these spaceﬂight responsive genes were regulated uniquely
+in certain UPR mutants compared with WT in the ground control and that these variations in ground sam-
+ples expression were largely muted by spaceﬂight. Therefore, a genotype-speciﬁc regulation in spaceﬂight
+condition was not observed. Overall, these results would suggest that the UPR does not have a broad
+involvement in the response to spaceﬂight but could play a partial role in regulating the transcriptional re-
+programming in space compared with ground control. The reason could be that under space ﬂight condi-
+tions many related stress-responsive genes were downregulated, being able to produce alternative
+signaling pathways, which repress the observed stress responses regulated by UPR (Angelos et al., 2021).
+The adaptive response to spaceﬂight environment of Arabidopsis thaliana seedlings under
+light conditions
+The TAGES (Transgenic Arabidopsis Gene Expression System) ﬂight experiment, constituted by several in-
+dependent runs launched to the ISS (Run 1: STS-129 November 16, 2009. Run 2: STS-130 February 8, 2010.
+Run 3: STS-131 April 5, 2010) was conducted within the ABRS (Advanced Biological Research System) hard-
+ware. This facility allowed to grow Arabidopsis seedlings on standard laboratory Petri plates and provided
+controlled lighting, temperature and air quality, and minimizing hardware-induced stress factors. In the
+three biological replicates, seedlings germinated, grew for 12 days and were harvested on orbit to RNA-
+later-ﬁlled KSC Fixation Tubes (KFTs). After returning to Earth, they were dissected into roots, leaves
+and hypocotyls for transcriptomic analysis (microarray). Ground control experiments (one per biological
+replicate) were conducted using identical ABRS hardware housed in OES chamber programmed to ISS
+environmental conditions (Paul et al., 2013) (Table 2). The microarray analysis showed that only 480 genes
+were differentially expressed in spaceﬂight samples in any organ, but most of these genes were not coor-
+dinately expressed among organs (only 26 genes were common in roots, hypocotyls and leaves). Although
+each organ displayed unique patterns of gene expression in response to spaceﬂight, the genes were
+involved in the same functional processes: the down-regulated genes were largely associated with factors
+regulating cell elongation and hormone signal transduction and the up-regulated genes were closely asso-
+ciated with pathogen responses, wounding and cell wall remodeling. Based on the results obtained, the
+authors pointed out that spaceﬂight environments had become extremely well controlled, there hardly be-
+ing hardware-dependent factors, as indicated by the low number of genes with deregulated expression
+(48). Therefore, leaves, roots, and hypocotyls engage different genes in response to the spaceﬂight envi-
+ronment, but utilize similar adaptive strategies, consisting of initiating cellular remodeling and maximizing
+other environmental cues (for example, light) in a morphological response which is essential to produce a
+correct growth and development (Paul et al., 2013).
+The CARA experiment (Characterizing Arabidopsis Root Attractions, launched on SpaceX CRS-3, April 18th
+2014) consisted of growing three Arabidopsis thaliana genotypes (wild-types Wassilewskija (WS),
+Columbia-0 (Col-0) and phytochrome D mutant Col-0 PhyD (phyD)) on Phytagel plates for 11 days secured
+to a fabric support to the wall in the US lab of the ISS Destiny module. Some of them grew with the ambient
+light of ISS and some in the dark, wrapped in blackout cloth. After a growth period of 11 days, samples were
+harvested into KFTs containing RNAlater. A comparable set of plates, grown within the ISSES, monitoring
+temperature, CO2, relative humidity and light levels, with a delay of 24 h after the initiation of the
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+5
+iScience
+Review
+
+spaceﬂight experiment, was the ground control (Paul et al., 2017) (Table 2). The transcriptome responses in
+the root tips, which was the unique tissue used, showed that differentially expressed genes unique to each
+genotype were more abundant than those shared with another genotype. Under light exposure, Col-0
+showed the greatest number of genes differentially expressed in spaceﬂight (297), phyD changed the
+expression of 130 genes and in WS only 71 genes were deregulated. Furthermore, each genotype used
+almost completely different sets of genes to physiologically adapt to the environment of the ISS. If this dif-
+ferential gene expression is considered as a measure of the physiological adaptive response cost, the WS
+ecotype would be better adapted to spaceﬂight than Col-0, and phyD mutation would be considered as a
+spaceﬂight-adaptive mutation in Col-0 background, suggesting that the plant genotype can be manipu-
+lated to reduce the metabolic cost of spaceﬂight adaptation. In the dark, WS and Col-0 seedlings showed
+roughly the same number of differentially expressed genes (218 and 224, respectively) and phyD exhibited
+the fewest genes with differential expression (131) indicating that the light environment affects physiolog-
+ical adaptation to spaceﬂight, which implies that the local habitat can be another factor that can be manip-
+ulated to reduce this cost. In this space experiment, all three genotypes were developmentally comparable
+to the ground control plants and they were equally productive in terms of root length so that only coordi-
+nately expressed genes shared amongst the genotypes (18 genes in light and 11 in dark) were considered
+fundamentally required for physiological adaptation of Arabidopsis to spaceﬂight. Most of them were up-
+regulated genes associated with defense mechanisms or cell wall (Paul et al., 2017).
+The RNA sequencing data collected from root tissue of Col-0 and WS seedlings grown in APEX03-2
+(Advanced Plant Experiment 03–2) space experiment was used to investigate the role of alternative splicing
+during spaceﬂight adaptation in plants because it was described that terrestrial plant stressors arise unique
+alternative splicing patterns. In APEX03-2 experiment, launched on SpaceX mission CRS-5 on 10 January
+2015, the seedlings grew on Phytagel Petri dishes kept in vertical racks perpendicularly oriented to the light
+source within the Vegetable Production System (VPS/VEGGIE) on board the ISS. The ground control was
+carried out inside the VPS ground unit within the ISSES chamber at KSC with a 48-h delay (Beisel et al.,
+2019; Ferl and Paul, 2016) (Table 2). Opposite to the pattern observed for differentially expressed genes,
+the analysis of the alternative splicing showed that fewer genes undergo spaceﬂight-induced signiﬁcant
+differential alternative splicing in the Col-0 ecotype background (27) as compared to WS (48), with only
+Table 2. Adaptive response to spaceﬂight environment of Arabidopsis thaliana seedlings under light conditions
+Conditions
+Ecotype
+Fixation
+Tissue
+Authors
+GLDS
+ABRS
+mg light
+12 days
+Adh:GFP,
+DR5r:GFP,35s:GFP
+RNAlater
+Root Leaf
+Hypocotyl
+Paul et al. (2013)
+GLDS-7
+CARA
+mg
+dark/ambient
+light 11 days
+WS, Col-0, phyD
+RNAlater
+Root tips
+Paul et al. (2017)
+GLDS-120
+SJ-10
+1g 3 days 16h
+light mg 2,5 days
+16h light
+Col-0
+RNAlater
+Seedlings
+Xu et al. (2018)
+GLDS-220
+mg short-day
+long-day 48 days
+Col-0, pHSP:FT,
+pHSP:GF
+RNAlater
+Rosette
+leaves
+Xie et al. (2022)
+NA
+VPS
+Mg constant
+light 4/8 days
+WS, Col-0
+RNAlater
+Root
+Beisel et al. (2019)
+GLDS-218
+mg constant
+light 11 days
+WS
+RNAlater
+Root Leaf
+Zhou et al.(2019)
+GLDS-217
+Mg constant
+light 4/8 days
+Col-0, spr1,
+WS, sku5
+RNAlater
+Root
+Califar et al. (2020)
+GLDS-218
+Mg constant
+light 11 days
+Col-0, met1-7,
+elp2-5
+RNAlater
+Root Leaf
+Paul et al. (2021)
+GLDS-416
+GLDS-427
+TG-2
+mg short-day
+long-day 27 days
+Col0, pFT:GFP, ft-10
+RNAlater
+Rosette
+leaves
+Wang et al., 2022
+NA
+Experiments performed in different hardware that provided illumination, indicating the main characteristics of each of them:
+Experimental conditions, genotype, ﬁxation, tissue used to carry out the transcriptomic study, authors and the GeneLab data-
+set (GLDS). See also Table S1
+ll
+OPEN ACCESS
+6
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+5 overlapping genes between them (Paul et al., 2017). Moreover, gene ontology analysis did not reveal any
+obvious conclusions respect to the function or localization of the genes with alternative splicing during
+spaceﬂight exposure. Although the detection of alternatively spliced transcript isoforms in spaceﬂight
+samples, regarding abundance, types, and functional implications, is still pending further investigation,
+this study presented strong evidence that alternative splicing plays a role in the process of molecular adap-
+tation to the spaceﬂight environment in plants (Beisel et al., 2019).
+The Advanced Plant Experiments 03–2 also studied the hypothesis that skewing pathways play a large role
+in spaceﬂight adaptation via cell wall remodeling. Differential gene expression proﬁles of two mutants,
+differing in their ecotype background, defective in two well-characterized genes which affect different
+skewing control pathways (spr1 and sku5) and their wild type controls (Col-0 and WS) were examined after
+growing for 4 and 8 days on ISS. SPIRAL1 plays a role in directional cell expansion by regulating cortical
+microtubule dynamics and spr1mutation results in axial rotation of cell ﬁles throughout the plant, which
+manifests in roots as skewing to the left. SKU5 is a glycosylphosphatidylinositol-anchored cell wall and
+plasma membrane protein implicated in stress response signaling and sku5mutant exhibits rightward
+skewing (Table 2).Morphological data (angle between the root tip and the initial direction of root growth
+in the 4-day-old seedlings) showed that spr1 seedlings exhibited a consistent leftward skewing phenotype
+on Earth that was substantially enhanced by spaceﬂight. Instead, sku5mutant showed a prevention of skew-
+ing in spaceﬂight compared to the ground control. The root length was not altered in either mutant line by
+spaceﬂight. The transcriptomic analysis revealed that in spr1 seedlings the number of differential gene
+expression under spaceﬂight condition was less than in Col-0 seedlings. In addition, both lines differentially
+expressed fewer genes at the 8-day timepoint than at 4-day. In contrast, sku5 seedlings the spaceﬂight
+differentially expressed genes were ﬁve-fold and two-fold more than WS at 4 days and 8 days, respectively.
+Also, both genotypes increase in their deregulated genes between 4 and 8 days.
+Among genes that were upregulated in spaceﬂight for sku5 many were LEA (Late Embryogenesis abun-
+dant) family genes, associated with seed dormancy, negative regulation of post-embryonic development
+and ABA signaling to enhance stress resistance (osmotic, cold, and drought) through membrane stabiliza-
+tion, ROS sequestration and protein aggregation prevention. Moreover, processes involved with salt, ROS
+stress, and light responses were terms enriched signiﬁcantly at 4 days and at 8 days and terms associated
+with cell wall remodeling and biosynthetic processes were overrepresented.
+The sku5 and spr1 different gene expression patterns, considering the number of differentially expressed
+genes and their fold-change levels as a measure of metabolic cost of adapting to environment, suggest
+that mutation of the SPR1 skewing pathway enhances spaceﬂight physiological adaptation and the SKU5
+pathway plays a key role in adaptation to this environment. Furthermore, the fact that spr1 and sku5
+root lengths are not altered by spaceﬂight, indicate that the effects of these mutations lie in processes di-
+recting morphology and structure and not in growth processes (Califar et al., 2020).
+WS seedlings grown in the spaceﬂight experiment APEX03-2 for 11 days with constant light were used for
+the determination of differential methylation of leaves and roots (bisulﬁte DNA sequencing) and differen-
+tial gene expression (RNA sequencing) in response to spaceﬂight (Table 2). The authors expected to eluci-
+date the role played by the epigenome in the physiological adaptation to spaceﬂight. It is well documented
+that terrestrial biotic and abiotic stresses, such as pathogen attack, salt, and drought stress, are elicitors of
+differential DNA methylation (Zhou et al., 2019). Many genes of the networks involved in the response to
+these stresses are differentially expressed by plants in spaceﬂight. The results indicated that although large
+scale alteration of the average methylation level was not detected in CG, CHG and CHH contexts between
+ﬂight and ground DNA, thousands of speciﬁcally differentially methylated cytosines were discovered with
+clear organ-speciﬁc patterns. In roots, hypomethylated CHH sites predominated whereas leaves showed a
+predominance of hypermethylated CHH sites. In leaves, about one-ﬁfth of the genes differentially ex-
+pressed in response to spaceﬂight (143 out of 743) were also differentially methylated (DmC-DEG), but
+in roots the fraction was about one-third (75 differentially expressed genes, 21 of which were also differen-
+tially methylated). Gene ontology analysis detected stress response to abiotic stimulus, temperature, radi-
+ation, and light stimulus categories in roots. In leaves, the detected categories included response to
+stressors of temperature, radiation and light, plus chemical stress, oxidative stress and a response to oxy-
+gen-containing compounds. In addition, in leaves, a 46% of DmC-DEG set were associated with reactive
+oxygen species (ROS). These results suggested that although DNA methylation may play a signiﬁcant
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+7
+iScience
+Review
+
+role in a portion of the genes regulated by spaceﬂight, it is clearly not the only factor in this regulation.
+Furthermore, ROS genes may play a unique role in the adaptation of plants to the spaceﬂight (Zhou
+et al., 2019).
+Furthermore, in ‘‘The Advanced Plant Experiment-04-Epigenetic Expression’’ experiment, launched on the
+SpaceX mission CRS-10 on 19 February 2017, two methylation mutant lines (met1-7 and elp2-5) were grown
+on the ISS to assess their response to spaceﬂight compared to that of wild type (Col-0). The plants grew in
+the Veggie hardware (both on the ISS and in the ISEES chamber) with constant light conditions for 11 days,
+before being ﬁxed in RNAlater into KFTs. Once on Earth, leaf and root tissues were dissected and, from
+each sample, whole-genome bisulﬁte sequencing (WGBS) and RNA sequencing (RNAseq) was performed
+(Table 2). The two mutant lines are deﬁcient in separate and distinct functions that affect methylation. MET1
+(methyl transferase) is directly involved in the maintenance (particularly at CG sites) of cytosine methylation
+in Arabidopsis and is an enzyme that modiﬁes the epigenome, as part of stress responses. ELP2 (Elongator
+Protein) interacts with components of the siRNA machinery inducing cytosine methylation by recruitment of
+the DNA methyl transferase DRM2 and is associated with terrestrial pathogen responses, playing a role in
+root development (Paul et al., 2021). The results reinforced that, in overall average, genome methylation is
+not a hallmark of spaceﬂight adaptation in wild type plants because, for Col-0 plants, the degree of the
+genome-wide methylation was not statistically signiﬁcant between spaceﬂight and ground control sam-
+ples. Instead, both elp2-5 and mit1-7 plants were generally hypermethylated in spaceﬂight environment
+compared to the ground control. Each of the mutant lines demonstrated a different pattern of organ-spe-
+ciﬁc expression and methylation. In met1-7 plants, a large proportion of the differentially methylated and
+expressed genes in leaves was observed (72 out of 226), whereas in elp2-5, the large proportion of the
+differentially methylated and expressed genes (101 out of 120) was observed in roots, suggesting that
+MET1 plays a more important role in leaves and ELP2 in roots, in the process of physiological adaptation
+to spaceﬂight. The functional analysis showed that differential methylation took place in elp2-5 line,
+together with the expression of gene classes that were associated with the spaceﬂight response in previous
+experiments, such as, metabolic processes and defense, hormone, and hypoxic responses. Besides, these
+same spaceﬂight-associated processes were also among the primary classes enriched in the spaceﬂight
+acclimation of Col-0. Conversely, the mutant met1-7 line showed relatively few GO term enrichments, pre-
+dominantly associated with signal transduction, as membrane transporters or transcriptional activators.
+These data suggest that met1-7 plants were better adapted to spaceﬂight than elp2-5plants, and that
+the response to spaceﬂight environment acts more directly through mechanisms regulated by ELP2 than
+through those regulated by MET1 (Paul et al., 2021).
+Epigenetic changes in Arabidopsis seedlings in response to spaceﬂight were studied by conducting a whole
+genome bisulfate sequencing to discover and qualitatively assess spaceﬂight-associated 5-methyl cytosine
+epigenetic modiﬁcations. In this experiment, 6- day-old Col-0 plants pre-cultured on ground were transferred
+to culture chambers aboard the Chinese recoverable scientiﬁc satellite SJ-10 (launched on April 6 and landed
+on April 18, 2016) and after grown up to 60 h (2.5 days) under microgravity conditions, seedlings were ﬁxed with
+RNAlater using a canal system and pump support system included in the equipment.
+The results demonstrated that lower methylation levels in CHG, CHH, and CpG context tended to occur
+under microgravity conditions. The molecular function analysis of differentially methylated regions
+(DMRs) showed that they correspond to genes involved especially in hormone signaling pathways
+including auxin, ABA, ethylene, and brassinosteroids, genes encoding transcription factors (TF) and genes
+associated with cell wall metabolism. In addition to methylation alterations at the gene level, transposon
+elements (TE) showed altered methylation levels during spaceﬂight. Overall, these results indicate that
+alterations in the methylation of auxin-related genes and cell wall may play important roles in plants adap-
+tation to microgravity and DNA demethylation within TEs may cause transcriptional alterations in transpo-
+sons during adaptation to spaceﬂight conditions (Xu et al., 2018).
+Contrary to previous experiments that focus on studying the early adaptation response to the space envi-
+ronment, two Chinese missions whose results have been recently published, have focused on studying
+gene expression changes in the reproductive stage of A. thaliana plants. Because successful completion
+of the plant seed-to-seed cycle was considered essential to support human life in long-term manned mis-
+sions, the main objective of these two experiments was to examine how two different photoperiod condi-
+tions could affect ﬂowering time under microgravity. (Wang et al., 2022; Xie et al., 2022). One of the
+ll
+OPEN ACCESS
+8
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+experiments was carried out on board spacelab TG-2 (launched on September 15, 2016) in Plant Culture
+Box (PCB) hardware that controls the atmosphere, temperature, and hydrates the plants. Sterile seeds
+of WT (Col-0), pFT:GFP transgenic plants and ft-10 were set on the panel root module containing commer-
+cially available vermiculite and stored dry until their hydration. The plants germinated and grew at 21C
+under short-day (SD, 8h light/16h dark) or under long-day (LD, 16h light/8h dark) for 48 days, when one
+of LD PCBs with Arabidopsis plants was taken out by an astronaut and ﬁxed with the RNAlater solution
+for transcriptomics analysis (Table 2). The initiation of bolting (start of peduncle growth) was delayed under
+the LD condition on board spaceﬂight (42 days after sown in spaceﬂight and 25 days after sown on ground
+control). According to this result, FT expression occurred later under this light condition because in the
+ground control the GFP ﬂuorescence reached peak levels at 22 days after sowing and in microgravity
+the ﬂuorescence peak was reached at 43 days after sowing. The microarray analysis performed using the
+leaves of WT plants grown under LD revealed that 1793 genes were upregulated whereas there were
+1669 downregulated genes in the spaceﬂight samples with respect to their corresponding ground control.
+Among the DEGs, 53 ﬂowering genes were identiﬁed and classiﬁed according to their known or predicted
+function in the ﬂowering regulation pathway. The data showed that FT expression was upregulated along
+with a few genes involved in photoperiodism and circadian clock whereas the expression of SOC1
+decreased accompanied by the downregulation of key genes involved in the response to the photoperiod,
+circadian clock, vernalization, ambient temperature, gibberellins and aging. These results indicate for the
+ﬁrst time that FT and SOC1 could be key genes for A. thaliana plants to integrate spaceﬂight condition
+stress signaling into ﬂowering regulation pathways (Xie et al., 2022).
+The second experiment was carried out on the Chinese recoverable satellite SJ-10 (launched on April 6, 2016).
+The plant growth system used consisted of four growth compartments, illumination, photograph, air-ﬂowing,
+heating, and humidity controlling system. The A. thaliana lines used were WT (Col-0) and transgenic plants
+(pHSP:FT, pHSP:GFP or FG) expressing FT together Green Fluorescent Protein (GFP) under control of a
+heat shock-inducible promoter (HSP17.4), by which it is possible to induce FT expression in-ﬂight by heat shock
+treatment. The plants loaded in the growth chambers were germinated and grown in the root modules on
+ground under LD or SD conditions for 20 days, so they had about six to seven rosette leaves when the satellite
+was launched. After 12 days and 15 h in orbit, SJ-10 returned to Earth and 2 h after landing the plants were
+harvested and ﬁxed with RNAlater solution (Table 2). As the images taken during the development of the
+experiment revealed, under the LD condition ﬂowering occurred two days later in the space samples than in
+the ground controls for both the WT plants and the FG plants. In contrast, under the SD condition after
+heat shock treatment (37C for 1h), in WT plants this delay was reduced to 1 day and in FG plants it disap-
+peared, ﬂowering both on ground and in space at 3 days. Microarray analysis was performed using the total
+RNA from leaves of WT and FG plants grown under LD and the SD in space and on ground, respectively. In
+the study of the categories of gene expression affected by spaceﬂight under different photoperiods, 4512
+genes in WT and 4201 genes in FG response speciﬁcally to the LD or the SD (named "daylength-related-
+sp" or "dl-sp"). This higher number of ‘‘dl-sp’’ genes indicates that daylength is an important factor to regulate
+the response of plants to spaceﬂight. To further study response of plants to spaceﬂight after FT expression in
+the FG plants under the SD in comparison with WT plants, the authors compared the number of DEGs in
+response to spaceﬂight under the LD and the SD, respectively, among WT and FG samples. In these compar-
+isons, they identiﬁed that 534 DEGS represented the group of genes in FG under the SD condition insensitive
+to spaceﬂight stress (unchanged in FG under the LD in space) and they were involved in cellular metabolic pro-
+cesses, as amino acid, amine, and oxoacid metabolic process.
+Conversely, the most sensitive genes to spaceﬂight in FG plants under the SD condition (was signiﬁcantly
+altered only in this condition) were 467 DEGs, many of them related with abiotic stimulus response and
+post-translational protein modiﬁcation. Finally, 251 DEGs with function in chlorophyll biosynthetic pathway
+and response to stimulus non-changed their expression in WT under SD. These transcriptomic results
+together with bolting times indicated that heat shock-induced FT expression in FG plants could be used
+as a gen switch for ﬂowering induction in space, which could change the sensitivity to the abiotic stimulus
+and/or cellular metabolic processes and therefore, alter plant response to spaceﬂight (Wang et al., 2022).
+Gene expression changes in well-controlled environmental conditions including several light
+proﬁles and partial gravity levels (EMCS experiments)
+The European Modular Cultivation System (EMCS) was another hardware facility aboard ISS which was
+used to grow plants on space. It provided directional light with white LEDs, controlled environment
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+9
+iScience
+Review
+
+conditions (temperature, humidity, CO2, O2 and ethylene concentration) and it was equipped with two
+centrifuges that allowed to incubate the samples at different levels of gravity, up to 2g. This allowed
+them to perform an on-board 1g control, and also to incubate the samples at the so-called ‘‘partial grav-
+ity levels’’, lower than 1g, such as those characterizing the surfaces of the Moon and Mars. In the TROPI-2
+experiment (launched on space shuttle mission STS-130 in February 2010) WT seedlings of Arabidopsis
+thaliana Landsberg erecta (Ler) ecotype were grown for 6 days within the EMCS, and they were photo-
+stimulated with blue or red light at seven gravitational acceleration levels (mg, 0.07g, 0.13g, 0.21g, 0.39g,
+0.53g and 1g) for the last 48h of the growth period. For seedling growth, photostimulation and video
+recording, samples were contained in special cassettes equipped with a hydration mechanism remotely
+operated, blue, red and white LEDs, which were used instead of the EMCS lighting system, and an ‘‘anti-
+fog’’ device that prevented water condensation from the cassette window. After the photostimulation
+phase, a crew member transferred samples from the EMCS to the to the MELFI (Minus-Eighty Degree
+Laboratory Freezer for ISS) facility for preservation until download. The ground control was performed
+in a laboratory incubator following the exact timeline and light treatments as the spaceﬂight experiment
+(Kiss et al., 2012). TROPI-2 experiment was a duplication of the original TROPI experiment after the prob-
+lems experienced with the samples because of the presence of toxic volatile substances in the hardware
+(Table 3).
+The primary objectives of the TROPI-2 experiment were to study plant tropisms in spaceﬂight (interaction
+between gravitropic and phototropic signals) using images, but samples from this experiment were also
+used to perform transcriptome analyses with RNA was extracted from whole seedlings, with the purpose
+of maximizing the scientiﬁc returns of the spaceﬂight experiment. The comparison between all spaceﬂight
+samples, regardless of their gravity or light treatment, with the 1g ground samples, identiﬁed 280 genes
+that were differentially regulated. However, in the comparison of all g-treated spaceﬂight samples with
+microgravity samples, only 130 genes were identiﬁed as being differently regulated. From these genes,
+several of them were involved in cell polarity, cell defense or stress, and cell wall development. This result
+suggested that all of the spaceﬂight samples had a more similar environment because overall fewer num-
+ber of genes were differentially expressed in the second comparison than in the ﬁrst one, supporting the
+role that gravity plays in affecting these key developmental pathways, which were both represented in the
+two comparisons. In addition, as this hardware allowed performing a 1g-spaceﬂight control, these samples
+were compared with the 1g ground control. This resulted in a large number of genes differentially regu-
+lated (230), many of them implicated in cell-wall development, cell polarity and oxygen responses, among
+other categories. The fact that the 1g spaceﬂight versus 1g ground samples revealed many genes with de-
+regulated expression could be because of spaceﬂight effects other than microgravity (vibration, radiation
+exposure, etc), emphasizing the need for tissue ﬁxation on board the ISS and better environmental moni-
+toring tools to improve ground experiments (Correll et al., 2013).
+Table 3. Adaptive response to spaceﬂight environment of Arabidopsis thaliana seedlings under light condition and
+partial gravity levels
+Conditions
+Ecotype
+Fixation
+Tissue
+Authors
+GLDS
+1g white light 4 days mg,
+0.07g, 0.13g, 0.21g, 0.39g,
+0.53g and 1g red light 2 days
+Ler-0
+Freeze 80C
+Seedlings
+Correll et al. (2013)
+NA
+1g white light 4 days mg,
+0.09g, 0.18g, 0.36g, 0.57g
+and 1g blue light 2 days
+Ler-0
+Freeze 80C
+Seedlings
+Vandenbrink
+et al. (2019); Herranz
+et al. (2019)
+GLDS-251
+mg and 0.36g white light 16h/dark
+8h 4 days red light 2 days
+Col-0
+Freeze 80C
+Seedlings
+Villacampa et al. (2021)
+GLDS-314
+1g (Ground Control) white light
+16h/dark 8h 4 days red light 2 days
+Col-0, nuc1-2
+nuc2-2
+Freeze 80C
+Seedlings
+Manzano et al. (2020)
+GLDS-313
+mg, 0.53g, 0.65g and 0.88g
+constant light 5 days
+Col-0
+Freeze 80C
+Root
+Sheppard et al. (2021)
+GLDS-223
+Experiments performed in EMCS hardware, indicating the main characteristics of each of them: experimental conditions, ge-
+notype, ﬁxation, tissue used to carry out the transcriptomic study, authors and the GeneLab Data Set (GLDS). See also
+Table S1.
+ll
+OPEN ACCESS
+10
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+The Seedling Growth project (SG) was another plant space experiment performed in EMCS hardware,
+which consisted of three phases, each performed in different spaceﬂights: SG1 (uploaded via SpaceX
+CRS-2 in March 2013), SG2 (uploaded via SpaceX CRS-4 in September 2014) and SG3 (uploaded via SpaceX
+CRS-11 in June 2017). The goal of this project was to unraveling the link between the two main environ-
+mental cues driving plant development (light and gravity) at reduced gravity levels. Speciﬁcally, the project
+aimed at exploring if, and to what extent, speciﬁc light conditions could be applied to overcome, or at least
+to mitigate the deleterious effects caused by the lack of gravity on plant growth and development, thus
+facilitating the adaptation of plants to the space environment (Table 3). Ler seedlings grew under 6 nominal
+gravity levels (mg, 0.09g or low gravity, 0.18g or Moon gravity, 0.36g or Mars gravity, 0.57g or reduced Earth
+gravity, and 1.0g) illuminated under white light for 96h (4 days) followed by 48h (2 days) of unidirectional
+photostimulation with blue light. The transcriptome analysis (RNAseq) of these samples revealed differen-
+tial gene families affected and a clear difference in the intensity of the transcriptional response. At micro-
+gravity level photosynthesis, photosynthetic antenna proteins, porphyrin and chlorophyll metabolism, and
+protein processing in the endoplasmic reticulum were downregulated pathways. Nevertheless, only two
+pathways, ribosome synthesis and oxidative phosphorylation were found to be upregulated. These results
+suggested that a possible interplay between plant growth in microgravity and plastid function could exist
+(Vandenbrink et al., 2019). The analysis focused on partial gravity levels showed that as the gravity load
+increased the number of differentially expressed genes with respect to 1g control decreased, with a
+remarkable exception of the low gravity level (lower than 0.1g), which is the one that resulted in the highest
+number of deregulated genes. The DEG number was 296 in microgravity, 568 in low gravity, 123 in Moon
+gravity, 19 in Mars gravity and only 2 genes in reduced Earth gravity. In addition, the functional Gene
+Ontology (GO) analysis only identiﬁed enriched categories in mg, low-g and Moon g-level, which were
+clearly different with the increasing partial-g level. In microgravity, light and photosynthesis GO terms
+were enriched, whereas response to stress, response to chemicals, and response to hormones were en-
+riched in low gravity and the more representative enrichment in Moon gravity was related to cell wall
+and membrane structure. The general stress response detected in low gravity level was explained as the
+consequence of competition between phototropism (blue light) and the weak gravitropism signal
+(0.09g) to be the fundamental cue for driving seedling growth and plant development, resulting in a stress
+for the plant. Instead, the existence of the gravitropic response along with blue light illumination seemed to
+be enough to restore a nearly normal transcriptional state, particularly at Mars gravity level (Herranz et al.,
+2019).
+The SG project also studied by transcriptomic changes the adaptive response of A. thaliana Col-0 seed-
+lings grown at two nominal gravity levels (mg and Mars gravity level, or 0.3g). These samples were illumi-
+nated for 4 days in a long-day photoperiod (16h white light and 8h dark) and in the last 2 days of growth
+period half of them were photostimulated with red light and the other half were kept in darkness (Table 3).
+The results indicated that only in microgravity condition, both in darkness and under red light, elevated
+plastid and mitochondrial genome expression was observed, being probably associated with a disturbed
+retrograde and anterograde communication between these organelles and the nucleus. Furthermore, in
+this condition, genes involved in hormonal pathways that promote proliferation, such as auxin and cyto-
+kinin signal transduction, were activated. On the other hand, at Mars g-level genes of hormone pathways
+related with stress response (abscisic acid, ethylene and salicylic acid) were activated. Furthermore, upre-
+gulation of environmental acclimation-related transcriptions factors (WRKY and NACs families) was also
+observed, especially in samples grown at Mars gravity level and photostimulated with red light, suggesting
+that seedlings grown in partial gravity level are able to acclimate by modulating genome expression in
+routes activated to cope with space environment-associated stress (Villacampa et al., 2021).
+Under these same growing conditions, two knockout lines of nucleolin protein, nuc1-2 and nuc2-2,
+affecting the two variants of this gene in A. thaliana, were grown in the SG series spaceﬂight experiments.
+The use of the nucleolin mutants can signiﬁcantly contribute to the knowledge of the plant response to
+spaceﬂight environment, because NUC1 protein occupies a central position in ribosome biogenesis regu-
+lation, a complex stress-sensitive process which has been found to be seriously altered under conditions of
+spaceﬂight. In addition, NUC1 gene expression is known to be upregulated by red light on Earth. In turn,
+NUC2 protein participates in the mechanisms of adaptive responses to different stresses. First, transcrip-
+tome analysis was performed only with ground control samples with the purpose of knowing the response
+of nucleolin mutants to different illumination conditions, namely red light and darkness (Table 3). Under red
+light photostimulation, ribosome biogenesis was the most signiﬁcantly enriched category within the
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+11
+iScience
+Review
+
+upregulated genes in nuc1-2 versus nuc2-2. On seedlings kept in darkness during the last 2 days of culti-
+vation, gene categories mainly involved in processes of cell division appeared promoted, and gene cate-
+gories mainly related to developmental processes were downregulated in nuc1-2 seedlings versus WT and
+nuc2-2 seedlings. All these results indicate that on Earth the partial capability of the NUC2 gene of replac-
+ing the functions of NUC1 gene in darkness, when this gene is not present, is enhanced by red light.
+Furthermore, this photoactivation induces in the nuc2-2mutant an increased expression of genes
+belonging to functional groups associated to stress response, which means that NUC2 protein has a
+greater capacity of response to environmental signals, such as illumination with red light, and therefore,
+nuc2-2 plants cannot develop a full response to this stimulus. The results of this work bring out, in
+space-omics spaceﬂight experiments, the need to pay special attention to the ground reference controls
+because identifying the genetic background in the this condition is essential before conclusions can be
+made on the spaceﬂight results (Manzano et al., 2020).
+The ‘‘Plant Signaling’’ experiment, also carried out in the EMCS (launched in July 2011 aboard STS-135),
+studied the transcriptional proﬁling of root samples exposed for 5 days under continuous light at micro-
+gravity or partial g (0.53g, 0.65g and 0.88g) (Table 3). The analysis identiﬁed 101 genes whose expression
+levels were associated with gravity dose following three different patterns: increase or decrease expression
+in response to increasing g levels (dose-dependent linear response), peak or dip at an intermediate g level
+(peak up or peak down response) and induced or repressed expression levels to a threshold g level
+(threshold response). In addition, the identiﬁcation of the biological functions or pathways of these 101
+fractional-g responsive genes showed that they were genes involved in transcription regulation, chaperone
+function, cell wall and defense response. All of these categories had been previously described as being
+responsive to the plant response to the space environment (Sheppard et al., 2021).
+Adaptive response to spaceﬂight environment of other plant species
+The molecular response to the long-term spaceﬂight environment of Mizuna plants was measured using
+genome-wide mRNA expression analysis (mRNAseq). Seeds of Brassica rapa var. nipposinica (Mizuna)
+were germinated and grown in Lada growth chambers aboard to Zvezda module of ISS. These chambers
+include a root module, leaf chamber and light module. After 27 days cultivation, the plants were harvested
+and stored at 80C in the MELFI freezer. Once back on Earth, total RNA from leaves samples was
+extracted.
+The fresh weight and water content (spaceﬂight: 82.9g and 92.5%, ground control: 58.0g and 92.0%)
+showed that Mizuna plants grew as well or better under spaceﬂight environment than on the ground.
+The transcriptomic analysis revealed that in space-grown plants a total of 20 in 32 ROS oxidative markers
+were upregulated more than two-fold, including the major ROS-scavenging enzymes: thioredoxin and glu-
+taredoxin. In addition, two ROS-producing genes (NADPH oxidase genes: RbohD and RbohF) were upre-
+gulated 3-fold and 5.1-fold, respectively. These ﬁndings suggest that the Mizuna plants can acclimate to
+long-term exposure in the spaceﬂight environment by reprogramming ROS gene network expression, pro-
+ducing ROS to maintain the activation of ROS signal network to control the defense system with ROS-scav-
+enging system (Sugimoto et al., 2014).
+Arabidopsis thaliana cell culture adaptive response to spaceﬂight environment (Table S2)
+Arabidopsis thaliana wild type semisolid callus cultures were exposed to spaceﬂight conditions for 5 days
+within the Simbox hardware on board the Chinese spacecraft Shenzhou 8 (launched on October 31, 2011).
+The Simbox incubator enabled sample cultivation at controlled temperatures (22–24C) and humidity (30–
+40%) and provided 1g in-ﬂight control by means of an integrated centrifuge. In addition, this hardware
+included a pump system for metabolic quenching of the samples by RNAlater injection. The ground control
+experiment started with a one-day delay into the Simbox duplicate, according to the position in the ﬂight
+incubator and kept at 23C (Fengler et al., 2015) (Table 4). The microarray analysis detected 298 genes with
+differential expression between sample groups ﬂight space (FS) and in-ﬂight centrifugation (FC) but the dif-
+ferences in expression were not statistically signiﬁcant. This result could mean that 5 days are enough for
+the culture adaptation to the new situation (spaceﬂight). Thus, in order to identify processes which are spe-
+ciﬁcally inﬂuenced by microgravity and could provide important information about the physiological needs
+after a few days in space, overrepresented processes that were identical in the comparisons between FS
+samples and two 1g controls (in-ﬂight centrifugation or FG and ground static or GS) were analyzed. Among
+the genes with upregulated expression, some of them constitute the ribosomal complex within plastids,
+ll
+OPEN ACCESS
+12
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+and some others were genes involved in electron transport chains located within mitochondria and repre-
+sentative for ATP biosynthesis. Among the downregulated genes the largest group was shown to code for
+HSPs. These results indicated that 5 days of exposure to microgravity did not cause detectable signiﬁcant
+changes in gene expression, but caused an increased energy demand which should be taken into consid-
+eration when plants will be used as part of bioregenerative supports on long duration space missions.
+Finally, with the aim to separate responses to microgravity from those of non-microgravity-related space-
+ﬂight conditions, genes that were signiﬁcantly altered within spaceﬂight samples (FS and FC) compared to
+the 1g ground control were studied. The majority of these genes were involved in the stress-induced anti-
+oxidant system, signaling chains, and defense-resistance response. The alteration of these processes was
+assumed as the effect of spaceﬂight-related environmental conditions, and especially, with the high radi-
+ation dose received by space samples (0.51 mSV/d), much more intense than terrestrial levels of radiation (1
+to 2 mSV/a) (Fengler et al., 2015).
+The aforementioned BRIC-16-DNA experiment also included the transcriptome analysis of Arabidopsis
+thaliana tissue culture cells (Paul et al., 2012)(Table 4). One of the most striking molecular differences
+observed was the signiﬁcant increase in expression of most heat shock proteins (HSP) and heat shock factor
+(HSF) transcriptional activators genes in spaceﬂight non-differentiated tissue culture cells. Among these
+genes, the HsfA2 transcription factor which is involved in the late phases of heat stress response, and
+two of its targets: Hsp17.6A, that blocks protein aggregation, and Hsp101, that facilitates dissociation of
+already formed protein aggregates. In addition, the expression changes in these two HSP proteins, as
+markers of late stress response, were studied in parabolic ﬂights (hypergravity and hypogravity alternation),
+in simulated microgravity (2D clinorotation) and in simulated hypergravity (centrifuge) by RT-qPCR. Among
+gravitational conditions examined, only 2D clinorotation induced the expression of both Hsp101 and
+HSP17.6A at the same levels as spaceﬂight. This fact suggests that hypergravity forces experienced at
+the space shuttle launch do not contribute to the elevated level of HSP transcripts in spaceﬂight samples.
+Therefore, a unique feature of microgravity engages HSPs as part of a later-phase adaptive response to
+spaceﬂight conditions, probably associated with the role played by them in cytoskeletal organization, pre-
+venting cytoskeletal scaffold collapse in a non-gravity environment (Zupanska et al., 2013).
+The Cellular Expression Logic, or CEL BRIC-17 experiment, was a modiﬁcation of the previous Arabidopsis
+cell cultures experiment in BRIC-16. In this experiment, launched on SpaceX CRS-2 to the ISS on 1 March
+2013, besides the WT cell line, two mutant lines were used: ARG1 KO and HSFA2 KO (Zupanska et al., 2017,
+2019). The knockout line deﬁcient in the gene encoding ARG1 was selected for the role of this protein in
+gravisignaling, whereas the knockout line deﬁcient in the gene encoding HSFA2 was selected because
+this protein is a key regulator of the defense response, via HSP chaperone transcriptional activation, to
+several types of environmental stresses (Table 4). The transcriptome analysis, after 10 days on orbit, showed
+Table 4. Arabidopsis thaliana cell culture adaptive response to spaceﬂight environment
+Conditions
+Organism
+Fixation
+Authors
+GLDS
+Simbox
+mg dark 5 days
+Arabidpsis
+thaliana (Col-0)
+RNAlater (Simbox)
+Fengler et al.(2015)
+GLDS-213
+mg dark 324h
+Oryza sativa (Rice)
+RNAlater (Simbox)
+Jin et al., 2018
+GLDS-284
+BRIC
+mg dark 12 days
+parabolic ﬂight
+simulated microgravity
+(2D clinorotation)
+simulated hypergravity
+(centrifuge)
+Arabidpsis
+thaliana(Col-0)
+RNAlater (PDFU)
+Paul et al. (2012);
+Zupanska et al.(2013)
+GLDS-17
+mg dark 10 days
+Arabidpsis thaliana
+(Col-0, arg1 and hsfa2)
+RNAlater
+(PDFU)
+Zupanska et al. (2017):
+Zupanska et al., 2019
+GLDS-147
+GLDS-205
+mg light (mid-deck)
+1h, 8h and 20h
+Ceratopteris
+richardii spores
+Gaseous
+nitrogen freezer
+Salmi and Roux (2008)
+NA
+Experiments performed in different hardware, indicating the main characteristics of each of them: experimental conditions,
+genotype, ﬁxation, tissue used to carry out the transcriptomic study, authors and the GeneLab Data Set (GLDS). See also
+Table S2.
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+13
+iScience
+Review
+
+that both mutant cell lines used substantially more and different gene expression proﬁles to achieve a
+spaceﬂight-adapted state compared to WT cells. This observation led to conclude that a proﬁcient space-
+ﬂight adaptation requires a functional HSF network and functional ARG1 protein. The functional gene cate-
+gorization revealed that, although individual genes were different in each expression set, those genes were
+largely representative of the same biological processes, suggesting slightly different routes, which ap-
+peared to be utilized to converge on the same basic adaptive strategies. In addition, most of the genes
+altered in expression in spaceﬂight in WT cells were found to be Arg1- and HsfA2-dependent. Speciﬁcally,
+these genes were involved in cell wall remodeling, intracellular transport and starch biosynthesis, suggest-
+ing major and speciﬁc roles of these two proteins in the physiological spaceﬂight adaptation through these
+processes. Overall, this study showed up that the use of knockout lines greatly increases the list of genes
+that are necessary to adapt to and survive in the spaceﬂight environment. This ampliﬁes the information
+that is necessary to learn on what biological processes are necessary and what genes are involved in these
+processes (Zupanska et al., 2017, 2019).
+Arabidopsis thaliana cell culture adaptive response to simulated space environments
+(Table S3)
+Cell cultures of Arabidopsis thaliana were exposed to partial-g forces (0.16g, 0.38g and 0.5g) for different times
+during parabolic ﬂight (24 s, 33 s and 20 s) and clinostat experiments (5 min, 10 min and 30 min), in order to
+investigate gravity-dependent alterations in gene expression by whole-genome microarray analysis (Fengler
+et al., 2016) (Table 5). The results revealed that, in simulation by clinorotation, the least effects (the lowest num-
+ber of differentially expressed genes at least 2-fold) were obtained after 30 min at 0.5g. Furthermore, the hier-
+archical clustering (Pearson‘s Correlation Coefﬁcient) suggested that, in the clinorotation experiment, gene
+expression was more affected by the exposure time than by the change in gravity, because 0.16g, 0.38g and
+0.5g generated no separate cluster for a given time of exposure and, interestingly, under 30 min of exposure,
+all gravity levels clustered with 1g controls. Although the clustering illustrated a low similarity between real
+(parabolic ﬂight) and simulated partial-g, the screening at the single gene level identiﬁed many common differ-
+entially expressed genes, mainly at 0.38g. Among them, genes coding for proteins involved in cell wall mod-
+iﬁcations, peroxidases, auxin-related proteins, transmembrane proteins and components of intracellular
+signaling chains like different protein kinases, transcription factors and phytohormone-related proteins were
+identiﬁed. Taken together this study suggests that, after 30 min of clinorotation, speciﬁc responses are fading,
+demonstrating the insusceptibility of cell cultures over time and that clinorotation can induce changes in levels
+of transcripts similar to ﬂight experiments (Fengler et al., 2016).
+In another work, callus semi-solid cultures of A. thaliana, prepared from MM2d suspension cultures, were
+exposed for 200 min to two paradigms of simulated microgravity (a mechanical one, the Random Posi-
+tioning Machine (RPM) and diamagnetic levitation) and hypergravity (the Large Diameter Centrifuge
+Table 5. Arabidopsis thaliana cell culture adaptive response to simulated space environments
+Conditions
+Organism
+Fixation
+Authors
+GLDS
+Parabolic ﬂight
+2D Clinostat
+0.16g, 0.38g and
+0.5g dark 5min,
+10min and 30min
+Arabidpsis
+thaliana (Col-0)
+RNAlater Freeze
+(liquid nitrogen)
+Fengler
+et al. (2016)
+NA
+Levitation magnet
+Random Positioning
+Machine (RPM)
+Large Diameter
+Centrifuge (LDC)
+m*, 0,1g*, 1g*,
+1.9g* and 2g*
+mg2g dark 200min
+Arabidpsis
+thaliana(MM2d)
+Freeze (liquid
+nitrogen)
+Manzano
+et al. (2012)
+GLDS-8
+Random Positioning
+Machine (RPM)
+mg dark synchronous
+subpopulations (enriched
+in G2/M and G1
+phases) asynchronous
+population 14h
+Arabidpsis
+thaliana(MM2d)
+Freeze (liquid
+nitrogen)
+Kamal
+et al. (2019)
+GLDS-144
+Experiments performed in different microgravity simulators or facilities, indicating the main characteristics of each of them:
+experimental conditions, genotype, and ﬁxation, tissue used to carry out the transcriptomic study, authors and the GeneLab
+Data Set (GLDS). See also Table S3.
+ll
+OPEN ACCESS
+14
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+(LDC)). Five environments with different levels of effective gravity (g) and magnetic ﬁeld (B) strengths within
+a magnet (mg *B = 10.1 T, 0,1g* B = 14.7 T, 1g* B = 16.5 T, 1.9g* B = 14.7 T and 2g* B = 10.1 T) and samples
+exposed to RPM simulated microgravity (mg) and hypergravity (2g) in the Large Diameter Centrifuge (LDC)
+were compared (Manzano et al., 2012) (Table 5). The effects on the overall transcriptional state of callus
+exposed to these altered gravitational environments were studied. Microarray analysis indicated that
+barely a few genes were differentially expressed (not reaching statistical signiﬁcance) when exposed to
+these unusual environments compared with internal 1g controls (particularly because of the large effect
+of high-energy magnetic ﬁeld). However, using a detailed analysis based on clustering of similarly ex-
+pressed genes (Gene Expression Dynamics Inspector-GEDI) it was found that gravitational and magnetic
+ﬁelds had a synergistic effect on the transcriptional proﬁle because both the number of altered genes
+and the GO groups affected increased when a magnetic ﬁeld gradient was applied, mainly affecting
+structural, abiotic stress and secondary metabolism genes. In fact, it is the ﬁrst study in which a 0.1g partial
+gravity samples show larger effects that those observed in the equivalent simulated microgravity sample
+under the same environmental condition. The GEDI analysis also revealed that, there is a global signature,
+speciﬁcally including abiotic stress genes, that behave in an opposite manner under micro and hypergravity
+environments (Manzano et al., 2012).
+Plant cell proliferation is a process known to be affected during spaceﬂight, but the molecular mechanisms
+involved in these changes remain unclear. To investigate transcriptomic changes in cell cycle regulation
+and progression by simulated microgravity, an Arabidopsis immobilized suspension culture was incubated
+in the RPM. Particularly, the analysis was performed with two synchronous subpopulations, enriched in G2/
+M and G1 phases, incubated for respectively 7 h and 14 h within the RPM, and an asynchronous reference
+cell culture incubated for 14h (Kamal et al., 2019) (Table 5). The results showed that the number of differ-
+entially expressed genes common in all populations by the simulated microgravity environment was low:
+73 genes were upregulated, mostly being NADH/oxidative activity-related genes and mitochondria-
+related functions, and 83 genes were downregulated, most of them involved in ribosome activity and in
+photosynthesis-related functions. Conversely, simulated microgravity had differential effects on gene
+expression through the cell cycle progression. The expression of genes related to cell cycle regulation func-
+tion, cell organization, ribosome biogenesis and developmental processes were downregulated in the G2/
+M population and upregulated in the G1 population, whereas abiotic stress response genes were upregu-
+lated in the G2/M population and downregulated signiﬁcantly in the G1 population. Among the genes
+involved in abiotic stress response, genes that respond to UV-B, heat, osmotic shock and wounding are
+upregulated in synchronous G2/M population, but they were repressed in the synchronous G1 culture after
+14 h of incubation in the RPM. These differential patterns of gene expression of stress pathways suggest
+differential sensitivity to microgravity of different phases of the cell cycle. It was proposed that a rapid initial
+response to a new environment within the ﬁrst 7 h occurs mainly through the activation of expression of
+stress-related genes, whereas, at 14h of incubation, the gene expression patterns change as a result of a
+longer-term adaptive strategy that inhibits those pathways (Kamal et al., 2019).
+Adaptive response to spaceﬂight environment of cell cultures from other species
+Ceratopteris richardii spores were exposed to microgravity aboard NASA shuttle ﬂight STS-93 to identify
+the early cellular and molecular events associated with gravity signal perception and response. These fern
+single-cells have been particularly valuable for investigating how cells sense and respond to gravity
+because this signal orients the polarity of their development shortly after light initiates their germination.
+The spores remained dormant in darkness inside BRIC canisters until the gravity force was less than 0.001g,
+and then were exposed to ambient light in the mid-deck to induce germination. After light exposure at
+three developmental time points (1 h, 8 h and 20 h) spores were frozen in a gaseous nitrogen freezer
+and were kept frozen until total RNA was isolated (Table 4). Microarray analysis showed that genes likely
+to encode peroxidases are downregulated in spaceﬂight development whereas protein phosphatase 2C
+and chaperone expression were upregulated in spores during the ﬁrst 20 h of their germination in micro-
+gravity. Moreover, genes that may be involved in mobilization of reserve lipids were upregulated in space-
+ﬂight and genes whose products are likely involved in lipid hydrolysis/synthesis/transfer showed reduced
+mRNA levels during development in microgravity. These results, taken together, suggest that in micro-
+gravity lipids utilization and stress response changes occur in ferns and may be common features of
+spaceﬂight response in plant cells. Moreover, these ﬁndings provided new insights into early physiological
+responses to microgravity and are valuable data unraveling the basis genetic mechanisms that drive single-
+cell gravity responses (Salmi and Roux, 2008).
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+15
+iScience
+Review
+
+The spaceship Shenzhou mission also included one experiment to study gene expression in rice calli in
+response to microgravity. Rice calli (Oryza sativa) were loaded onto the stationary and rotating platforms
+of Simbox incubator and were ﬁxed in RNAlater in space after 324h (13,5 days) spacecraft ﬂight (Table 4).
+The functional analysis identiﬁed that the microgravity-response transcripts were associated with meta-
+bolism and signaling pathways of hormones, transcription factors, starch, glycolysis and the electron chain,
+protein degradation, transporters and cell wall metabolism. Among cell wall-related genes, genes related
+to cell wall formation/degradation were downregulated and transcripts corresponded to proteins involved
+in primary cell wall modiﬁcation were upregulated. In addition, genes of the aquaporin family (water chan-
+nels) were upregulated in spaceﬂight environment. The changed levels of these cell wall loosening and cell
+wall precursor synthesis-related genes together with aquaporin genes may establish of a new balance be-
+tween cell wall rigidity and cell turgor pressure under microgravity conditions. Therefore, cell wall relaxa-
+tion and extension may be regarded as microgravity plants adaptation (Jin et al., 2018).
+DISCUSSION AND CONCLUSIONS
+In the last decade, the landscape of plant biology research in spaceﬂight and simulated microgravity
+research has greatly advanced, mostly with the incorporation of space transcriptomics tools such as RNA-
+seq and microarrays. The aim of this review was therefore to revise the knowledge acquired through these
+techniques. The focus and organization of the work around the hardware used in the various experiments
+facilitated the comparison of the numerous results obtained and made it possible the identiﬁcation of gene
+expression networks leading to a better knowledge of the plant adaptation mechanisms to spaceﬂight con-
+ditions. The report also highlighted the European contribution in the acquisition of this knowledge.
+Even considering that novel experimental approaches take more time to be incorporated to space research
+than to general life science research on ground because of obvious and speciﬁc constraints of spaceﬂight
+experiments, these technologies have provided more than 25 datasets deposited in GeneLab database
+(Tables S1, S2 y S3). In that regard, Figure 1 illustrates the type of studies performed at the international
+level, arranged according to the materials and facilities used. The European contribution to the global
+plant biology experimentation is modest in the global numbers (8 of 30 studies) but particular contributions
+have been made in key topics. An example is the European co-leadership of the largest plant experiment
+carried out on board the ISS, using the most sophisticated hardware, that is the EMCS, including lighting at
+different wavelengths, partial-g and 1g, and environmental controls (Herranz et al., 2019; Vandenbrink
+et al., 2019; Villacampa et al., 2021). Also, there is a key contribution of European teams in simulated micro-
+gravity facilities and the use of cell cultures to uncover fundamental mechanisms discriminating the profes-
+sional response to the lack of gravity from the purely cellular response and adaptive mechanisms. It is
+particularly relevant to realize that a small number of cell-based studies in simulators may have contributed
+to our understanding of these mechanisms more signiﬁcantly than some spaceﬂight missions.
+There is a clear dominance by number of studies in the use of BRIC hardware by NASA researchers (20% of
+the studies). This experimental hardware facilitates a large number of experiments to be quickly performed
+in orbit, but it shows serious limitations as to the environmental conditions that can be controlled and moni-
+tored. Indeed, the absence of a 1g control in space does not allow to discriminate between alterations
+caused by microgravity and other environmental factors such as hypoxia or a reduced conﬁned space,
+which does not allow the cultivation of plants in good conditions over a period of time longer than a few
+days. For example, in the BRIC-16 experiments, the cytoskeleton was clearly shown to have a key role in
+the response of plants to spaceﬂight stresses, but it was not clear whether this response was a consequence
+of adaptation to the absence of gravity, or to another environmental factor independent of microgravity,
+such as hypoxia (Kwon et al., 2015). Other facilities with better control of the environmental conditions
+(ABRS and VPS/VEGGIE), particularly those including a 1g control on board (EMCS and Simbox harware),
+lead to more sophisticated results. In fact, the presence of a centrifuge on board not only makes it possible
+to obtain 1g control in space, and thus to discriminate the responses of plants because of the absence of
+gravity from other environmental factors, but it also makes it possible to obtain partial gravity levels such as
+that of the Moon (0.18g) and that of Mars (0.36g), which is essential for preparing future missions to the
+Moon and Mars. Improvements in cultivation constraints, optimization of controls and the systematic
+use of the model plant A. thaliana have allowed a great advance in the acquisition and comparison of re-
+sults. It should be noted, however, that restoring terrestrial gravity or partial gravity such as that of Mars or
+the Moon on a centrifuge may induce experimental biases that have not yet been evaluated at the cellular
+scale. For example, the rotation may introduce vibrations to which the cells may respond independently of
+ll
+OPEN ACCESS
+16
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+17
+iScience
+Review
+
+the level of gravity and the centrifugal forces are not applied homogeneously on a culture surface, but
+rather they are applied according to a gradient that is deﬁned from the axis of rotation, which may be a
+source of some heterogeneity in the study population.
+Despite the limitations in interpreting the results because of different experimental constraints, our knowl-
+edge of the adaptive response to spaceﬂight environment of A. thaliana seedlings has unequivocally
+advanced. Transcriptomic analysis techniques (RNAseq and microarray) as well as the consensual use of
+the model species A. thaliana allowed us to highlight common response pathways in the majority of the
+experiments carried out on board the ISS. Thus, the main processes affected identiﬁed in these studies
+were cell wall remodeling, oxidative stress, defense reaction, HSPs, and photosynthesis.
+Consequently, we are in conditions of identifying some mechanisms of adaptation of plants to micro-
+gravity, based on similar gene expression proﬁles obtained in different experiments (Figure 2). The
+absence of gravity is perceived by the plant as a stress factor, which will trigger a whole series of adaptation
+reactions of the plant to this new environmental factor. Some of these reactions seem to be speciﬁcally tar-
+geted in the maintenance of cell integrity, such as cell wall remodeling, whereas others affect plant
+metabolism, such as photosynthesis, the electron transfer chain in mitochondria, and the communication
+between nuclei, plastids, and mitochondria. Finally, other reactions are systematically triggered by many
+biotic and abiotic stresses, such as oxidative stress, defense reactions and HSPs (chaperone proteins).
+Although the link between all responses has yet to be determined, it is clear that all of them play an essen-
+tial role in the adaptation of plants to the space environment, becoming key targets for optimal growth
+plants to support future long-term spaceﬂight missions. (Figure 3).
+Other molecular processes involved in the response to different environmental stress factors on Earth,
+such as DNA methylation and alternative splicing, seem to be also involved in this adaptation response,
+as the ﬁrst transcriptomics studies of these two processes have revealed (Beisel et al., 2019; Paul et al.,
+2021; Xu et al., 2018; Zhou et al., 2019). However, different responses or even contradictory results de-
+pending on the environmental conditions have also been found between the different experiments
+(Johnson et al., 2017), strongly suggesting that the adaptive mechanisms, as a whole, should be more
+complex than these observed responses alone. In fact, the large number of different ecotypes and mu-
+tants used in the different experiments have shown that the response between the Arabidopsis ecotypes
+used is very different, some of them showing a greater capacity to adapt to the space environment or
+with less cost by changing the expression of a low number of genes, as it happens to Ler. (Choi et al.,
+2019; Paul et al., 2017). The mutant lines in different genes involved in various processes such as skewing,
+DNA methylation and UPR (Angelos et al., 2021; Califar et al., 2020; Paul et al., 2021) have provided more
+detailed information about the role that these processes play in the adaptation of plants to a space ﬂight
+environment. In addition, differences between the genes whose expression is altered have been found
+between the different organs of the plant (Paul et al., 2013). Both ﬁndings indicate that the genetic back-
+ground is an aspect to take into account to choice of the most suitable crop plant models and that
+knowing the integrated response of all parts of the plant will be crucial for the next phase of spaceﬂight
+experimentation.
+Light, as the results of the different experiments demonstrate, is an essential factor in all plant development
+stages under spaceﬂight environment. The light quality, and speciﬁcally red light in the early stages of
+development (seedlings), modulates the expression of genes involved in related-stress pathways to
+cope with environmental spaceﬂight conditions (Villacampa et al., 2021). In addition, the day length is a fac-
+tor that can regulate the plants ﬂowering time, and it is even possible to use a genetic switch to induce ﬂow-
+ering by adding a treatment, such as a heat shock (Wang et al., 2022; Xie et al., 2022). Furthermore, it has
+been shown that the adaptive response of plants depends on both the level of gravity (Herranz et al., 2019;
+Sheppard et al., 2021)) and the time of exposure to the spatial environment (Fengler et al., 2015; Kamal
+et al., 2019)). In fact, an early and a late response can be identiﬁed in the adaptive response of plant cell
+Figure 1. Distribution of Plant Space Omics contributions submitted to the GeneLab database
+Most European contributions (in bold) have been done using cell culture experiments in simulated microgravity facilities (10% of the experiments) and the
+European Modular Cultivation System (EMCS) into the ISS (17% of the experiments). Other facilities frequently used in spaceﬂight experiments are the
+Biological Research in Canisters (BRIC) hardware and the VPS-VEGGIE cultivation chamber. At the top and the bottom part of the ﬁgure, images of some of
+the different facilities used are shown. From left to right and from top to bottom: Random Positioning Machine (credit ESA), Magnetic Levitation Instrument
+(credit Nottingham University) BRIC (credit NASA), Large Diameter Centrifuge (credit ESA), EMCS (credit ESA/NASA) and VEGGIE (credit NASA).
+ll
+OPEN ACCESS
+18
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+cultures grown in simulated microgravity (Kamal et al., 2019). ROS production was also demonstrated in
+other members of the Brassicaceae family, such as Mizuma (Brassica rapa) and parietal changes were
+observed in rice (Oryza sativa), conﬁrming the key role of these two cellular processes in the adaptation pro-
+cesses of plants to microgravity.
+Finally, we consider it necessary to recapitulate why this research is actually important and worth to be
+performed. As previously indicated, studying the adaptation of plants to the space environment is an
+essential step towards successfully integrating plants into life support systems. During spaceﬂight, plants
+will have to adapt to a new environment where factors such as micro- and mini-gravity (gravities of space-
+ﬂight, the Moon and Mars) and chronic low-level cosmic radiation are completely new to them. In that
+regard, experiments introducing partial gravity levels, and particularly the levels around the Moon grav-
+ity, are becoming mandatory. A potential risk in using low gravity levels (circa 0.1g) with more deleterious
+effects than microgravity itself have been revealed (Herranz et al., 2019; Manzano et al., 2018), and the
+decommissioning of EMCS in 2018 from the ISS made us less able to provide new experiments at those
+conditions.
+In this ﬁeld, transcriptomic studies are a privileged strategy because they allow an analysis of gene expres-
+sion in its entirety, leading to the identiﬁcation of response pathways that would not be detected by more
+targeted approaches (Lowe et al., 2017). They also have the advantage of requiring only a relatively small
+quantity of transcripts (1 ng of total RNA for RNAseq and 1 mg of mRNA for microarray), which is a major
+advantage in the context of space experiments where the quantity of biological material is always very
+limited. In contrast, there are two potential caveats to the advance of the research ﬁeld. The ﬁrst is the un-
+even distribution of spaceﬂight opportunities in space agencies, particularly the unavailability of ESA to
+provide a replacement with similar capabilities to EMCS. The second is the analysis and integration of re-
+sults from so different experiment platforms, materials and designs. New international consortia have been
+created to cope with better tools for transcriptomic analyses, improvement to the access of datasets and
+metadata, contributing decisively to the optimization of the new experiments to be conducted in the near
+future. GeneLab (Overbey et al., 2021), TOAST (Barker et al., 2020), ESA Space Omics TT (Madrigal et al.,
+2020) and ISSOP (Rutter et al., 2020) are highly relevant initiatives in this direction.
+Figure 2. The main spaceﬂight-related genes
+Transcriptomic analyses of the numerous space experiments have so far identiﬁed a set of genes whose expression is altered by the spaceﬂight environment
+in a similar way among the different experiments. The genes were grouped according to the function of their proteins. (N) nucleus, (P) plastid,
+(M) mitochondria, (PR protein) pathogenesis related protein, (ROS) reactive oxygen species, (HSF) heat shock factor, (HSP) heat shock protein.
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+19
+iScience
+Review
+
+Limitations of the study
+The transcriptomic studies included in this review focus on the search carried out mainly in GeneLab Data
+Repository and despite the fact that the GLDS data set includes an interface to search datasets on key re-
+positories (NIH GEO, EBI PRIDE, and ANLMG-RAST), some work focused on transcriptomic changes pro-
+duced by a space environment might not have been included.
+Methods details
+To locate the works that study the plants adaptive response to a real or simulated space environment through
+transcriptomic analysis, NASA GeneLab data repository has been used as a reference (https://genelab.nasa.
+gov/). To perform an exhaustive search, the word ‘plants’ was used as a ﬁlter in the search data box and the
+total results were checked one by one to conﬁrm that the publication includes and meets the criteria. In addi-
+tion, to search for works not included in this database a manual search was carried out, in the Web of Science,
+Google Scholar and PMC-NIH using as key search terms ‘plants spaceﬂight’/ ‘plants simulated microgravity’
+together with ‘RNA sequencing ‘, ‘microarray’, ‘transcriptomic’, ‘epigenomics’, and ‘alternative splicing’.
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.1016/j.isci.2022.104687.
+Figure 3. Proposed model of the microgravity adaptation mechanism in Arabidopsis thaliana
+Microgravity is perceived by the plant as an abiotic stress factor which activates the production of ROS. The signal, which is perceived at the plasma
+membrane, is then transmitted via Ca2+, MAPKs and phytohormones (auxin) to the nucleus where it triggers TFs like HSF. The TFs then regulate the
+expression of a set of genes that trigger molecular, cellular and physiological responses, leading to the establishment of the plant adaptation to the
+spaceﬂight environment. (ROS) reactive oxygen species, (TFs) transcription factors, (HSF) heat shock factor, (HSP) heat shock protein.
+ll
+OPEN ACCESS
+20
+iScience 25, 104687, August 19, 2022
+iScience
+Review
+
+ACKNOWLEDGMENTS
+All listed authors are members of the ESA Space Omics Topical Team, funded by the ESA grant/contract
+4000131202/20/NL/PG/pt ‘‘Space Omics: Towards an integrated ESA/NASA–omics database for space-
+ﬂight and ground facilities experiments’’ awarded to RH. Individual authors also acknowledge support
+from: the French Centre National d’Etudes Spatiales grant DAR 2020–4800001004, 2021–4800001117 to
+ECD; the Spanish Plan Estatal de Investigacio´ n Cientı´ﬁca y Desarrollo Tecnolo´ gico (Agencia Estatal de In-
+vestigacio´ n, Ministry of Science and Innovation) grant RTI2018-099309-B-I00 to FJM, including a a contract
+of the Spanish National Program for Young Researchers Training to AM.
+AUTHOR CONTRIBUTIONS
+Conceptualization and Investigation, AM; Writing-Original draft, AM and FJM; Writing-Review and Editing,
+AM, ECD, RH and FJM; Visualization, AM, ECD and RH; Funding Acquisition, ECD, RH and FJM.
+DECLARATION OF INTEREST
+The authors declare no competing interests.
+REFERENCES
+Angelos, E., Ko, D.K., Zemelis-Durfee, S., and
+Brandizzi, F. (2021). Relevance of the unfolded
+protein response to spaceﬂight-induced
+transcriptional reprogramming in arabidopsis.
+Astrobiology 21, 367–380. https://doi.org/10.
+1089/ast.2020.2313.
+Barker, R., Lombardino, J., Rasmussen, K., and
+Gilroy, S. (2020). Test of arabidopsis space
+transcriptome: a Discovery environment to
+explore multiple plant biology spaceﬂight
+experiments. Front. Plant Sci. 11, 147. https://doi.
+org/10.3389/fpls.2020.00147.
+Basu, P., Kruse, C.P., Luesse, D.R., and Wyatt, S.E.
+(2017). Growth in spaceﬂight hardware results in
+alterations to the transcriptome and proteome.
+Life Sci. Sp. Res. 15, 88–96. https://doi.org/10.
+1016/j.lssr.2017.09.001.
+Beisel, N.S., Noble, J., Barbazuk, W.B., Paul, A.L.,
+and Ferl, R.J. (2019). Spaceﬂight-induced
+alternative splicing during seedling development
+in Arabidopsis thaliana. npj Microgravity 5, 9.
+https://doi.org/10.1038/s41526-019-0070-7.
+Bo¨ hmer, M., and Schleiff, E. (2019). Microgravity
+research in plants: a range of platforms and
+options allow research on plants in zero or low
+gravity that can yield important insights into plant
+physiology. EMBO Rep. 20, e48541. https://doi.
+org/10.15252/embr.201948541.
+Califar, B., Sng, N.J., Zupanska, A., Paul, A.L., and
+Ferl, R.J. (2020). Root skewing-associated genes
+impact the spaceﬂight response of Arabidopsis
+thaliana. Front. Plant Sci. 11, 239. https://doi.org/
+10.3389/fpls.2020.00239.
+Choi, W.G., Barker, R.J., Kim, S.H., Swanson, S.J.,
+and Gilroy, S. (2019). Variation in the
+transcriptome of different ecotypes of
+Arabidopsis thaliana reveals signatures of
+oxidative stress in plant responses to spaceﬂight.
+Am. J. Bot. 106, 123–136. https://doi.org/10.
+1002/ajb2.1223.
+Correll, M.J., Pyle, T.P., Millar, K.D.L., Sun, Y., Yao,
+J., Edelmann, R.E., and Kiss, J.Z. (2013).
+Transcriptome analyses of Arabidopsis thaliana
+seedlings grown in space: implications for
+gravity-responsive genes. Planta 238, 519–533.
+https://doi.org/10.1007/s00425-013-1909-x.
+Des Marais, D.J., Nuth, J.A., Allamandola, L.J.,
+Boss, A.P., Farmer, J.D., Hoehler, T.M., Jakosky,
+B.M., Meadows, V.S., Pohorille, A., Runnegar, B.,
+and Spormann, A.M. (2008). The NASA
+astrobiology roadmap. Astrobiology 8, 715–730.
+https://doi.org/10.1089/ast.2008.0819.
+Fengler, S., Spirer, I., Neef, M., Ecke, M.,
+Hauslage, J., and Hampp, R. (2016). Changes in
+gene expression of arabidopsis thaliana cell
+cultures upon exposure to real and simulated
+partial-g forces. Microgravity Sci. Technol. 28,
+319–329. https://doi.org/10.1007/s12217-015-
+9452-y.
+Fengler, S., Spirer, I., Neef, M., Ecke, M., Nieselt,
+K., and Hampp, R. (2015). A whole-genome
+microarray study of arabidopsis thaliana
+semisolid callus cultures exposed to microgravity
+and nonmicrogravity related spaceﬂight
+conditions for 5 days on board of Shenzhou 8.
+BioMed Res. Int. 2015, 1–15. https://doi.org/10.
+1155/2015/547495.
+Ferl, R.J., and Paul, A.-L. (2016). The effect of
+spaceﬂight on the gravity-sensing auxin gradient
+of roots: GFP reporter gene microscopy on orbit.
+NPJ Microgravity 2, 15023. https://doi.org/10.
+1038/npjmgrav.2015.23.
+Francis, D. (2011). A commentary on the G2/M
+transition of the plant cell cycle. Ann. Bot. 107,
+1065–1070. https://doi.org/10.1093/aob/mcr055.
+Fu, Y., Li, L., Xie, B., Dong, C., Wang, M., Jia, B.,
+Shao, L., Dong, Y., Deng, S., Liu, H., et al. (2016).
+How to establish a bioregenerative life support
+system for long-term crewed missions to the
+moon or mars. Astrobiology 16, 925–936. https://
+doi.org/10.1089/ast.2016.1477.
+Herranz, R., Vandenbrink, J.P., Villacampa, A.,
+Manzano, A., Poehlman, W.L., Feltus, F.A., Kiss,
+J.Z., and Medina, F.J. (2019). RNAseq analysis of
+the response of Arabidopsis thaliana to fractional
+gravity under blue-light stimulation during
+spaceﬂight. Front. Plant Sci. 10, 1529. https://doi.
+org/10.3389/fpls.2019.01529.
+Jin, J., Chen, H., and Cai, W. (2018).
+Transcriptomic analysis reveals the effects of
+microgravity on rice calli on board the Chinese
+spaceship Shenzhou 8. Microgravity Sci. Technol.
+30, 807–816. https://doi.org/10.1007/s12217-018-
+9633-6.
+Johnson, C.M., Subramanian, A., Pattathil, S.,
+Correll, M.J., and Kiss, J.Z. (2017). Comparative
+transcriptomics indicate changes in cell wall
+organization and stress response in seedlings
+during spaceﬂight. Am. J. Bot. 104, 1219–1231.
+https://doi.org/10.3732/ajb.1700079.
+Kamal, K.Y., van Loon, J.J., Medina, F.J., and
+Herranz, R. (2019). Differential transcriptional
+proﬁle through cell cycle progression in
+Arabidopsis cultures under simulated
+microgravity. Genomics 111, 1956–1965. https://
+doi.org/10.1016/j.ygeno.2019.01.007.
+Kiss, J.Z., Millar, K.D.L., and Edelmann, R.E.
+(2012). Phototropism of Arabidopsis thaliana in
+microgravity and fractional gravity on the
+international space station. Planta 236, 635–645.
+https://doi.org/10.1007/s00425-012-1633-y.
+Kruse, C.P.S., Basu, P., Luesse, D.R., and Wyatt,
+S.E. (2017). Transcriptome and proteome
+responses in RNAlater preserved tissue of
+Arabidopsis thaliana. PLoS One 12, e0175943.
+https://doi.org/10.1371/journal.pone.0175943.
+Kruse, C.P.S., Meyers, A.D., Basu, P., Hutchinson,
+S., Luesse, D.R., and Wyatt, S.E. (2020).
+Spaceﬂight induces novel regulatory responses in
+Arabidopsis seedling as revealed by combined
+proteomic and transcriptomic analyses. BMC
+Plant Biol. 20, 237. https://doi.org/10.1186/
+s12870-020-02392-6.
+Kwon, T., Sparks, J.A., Nakashima, J., Allen, S.N.,
+Tang, Y., and Blancaﬂor, E.B. (2015).
+Transcriptional response of arabidopsis
+seedlings during spaceﬂight reveals peroxidase
+and cell wall remodeling genes associated with
+root hair development. Am. J. Bot. 102, 21–35.
+https://doi.org/10.3732/ajb.1400458.
+Lowe, R., Shirley, N., Bleackley, M., Dolan, S., and
+Shafee, T. (2017). Transcriptomics technologies.
+PLoS Comput. Biol. 13, e1005457. https://doi.
+org/10.1371/journal.pcbi.1005457.
+Lukens, L.N., and Zhan, S. (2007). The plant
+genome’s methylation status and response to
+stress: implications for plant improvement. Curr.
+ll
+OPEN ACCESS
+iScience 25, 104687, August 19, 2022
+21
+iScience
+Review
+
+Opin. Plant Biol. 10, 317–322. https://doi.org/10.
+1016/j.pbi.2007.04.012.
+Madrigal, P., Gabel, A., Villacampa, A., Manzano,
+A., Deane, C.S., Bezdan, D., Carnero-Diaz, E.,
+Medina, F.J., Hardiman, G., Grosse, I., et al.
+(2020). Revamping space-omics in europe. Cell
+Syst. 11, 555–556. https://doi.org/10.1016/j.cels.
+2020.10.006.
+Manzano, A., Herranz, R., Toom, L.A.D., Slaa, S.,
+Borst, G., Visser, M., and Medina, F.J. (2018).
+Novel Moon and Mars, partial gravity simulation
+paradigms and their effects on the balance
+between cell growth and cell proliferation
+during early plant development. npj
+Microgravity 4, 1–11. https://doi.org/10.1038/
+s41526-018-0041-4.
+Manzano, A., Villacampa, A., Sa´ez-Va´squez, J.,
+Kiss, J.Z., Medina, F.J., and Herranz, R. (2020). The
+importance of Earth reference controls in
+spaceﬂight -omics research: characterization of
+nucleolin mutants from the seedling growth
+experiments. iScience 23, 101686. https://doi.
+org/10.1016/j.isci.2020.101686.
+Manzano, A.I., van Loon, J.J., Christianen, P.C.,
+Gonzalez-Rubio, J.M., Medina, F.J., and Herranz,
+R. (2012). Gravitational and magnetic ﬁeld
+variations synergize to cause subtle variations in
+the global transcriptional state of Arabidopsis
+in vitro callus cultures. BMC Genom. 13, 105.
+https://doi.org/10.1186/1471-2164-13-105.
+Medina, F.J., Manzano, A., Kamal, K.Y., Ciska, M.,
+and Herranz, R. (2021). Plants in space: novel
+physiological challenges and adaptation
+mechanisms. In Progress in Botany (Springer),
+pp. 1–36. https://doi.org/10.1007/124_2021_53.
+Overbey, E.G., Saravia-Butler, A.M., Zhang, Z.,
+Rathi, K.S., Fogle, H., da Silveira, W.A., Barker,
+R.J., Bass, J.J., Beheshti, A., Berrios, D.C., et al.
+(2021). NASA GeneLab RNA-seq consensus
+pipeline: standardized processing of short-read
+RNA-seq data. iScience 24, 102361. https://doi.
+org/10.1016/j.isci.2021.102361.
+Paul, A.-L., Haveman, N., Califar, B., and Ferl, R.J.
+(2021). Epigenomic regulators elongator
+complex subunit 2 and methyltransferase 1
+differentially condition the spaceﬂight response
+in arabidopsis. Front. Plant Sci. 12, 691790.
+https://doi.org/10.3389/fpls.2021.691790.
+Paul, A.L., Sng, N.J., Zupanska, A.K.,
+Krishnamurthy, A., Schultz, E.R., and Ferl, R.J.
+(2017). Genetic dissection of the Arabidopsis
+spaceﬂight transcriptome: are some responses
+dispensable for the physiological adaptation of
+plants to spaceﬂight? PLoS One 12, e0180186.
+https://doi.org/10.1371/journal.pone.0180186.
+Paul, A.L., Zupanska, A.K., Ostrow, D.T., Zhang,
+Y., Sun, Y., Li, J.L., Shanker, S., Farmerie, W.G.,
+Amalﬁtano, C.E., and Ferl, R.J. (2012). Spaceﬂight
+transcriptomes: unique responses to a novel
+environment. Astrobiology 12, 40–56. https://doi.
+org/10.1089/ast.2011.0696.
+Paul, A.-L., Zupanska, A.K., Schultz, E.R., and Ferl,
+R.J. (2013). Organ-speciﬁc remodeling of the
+Arabidopsis transcriptome in response to
+spaceﬂight. BMC Plant Biol. 13, 112. https://doi.
+org/10.1186/1471-2229-13-112.
+Ray, S., Gebre, S., Fogle, H., Berrios, D.C., Tran,
+P.B., Galazka, J.M., and Costes, S.V. (2019).
+GeneLab: omics database for spaceﬂight
+experiments. Bioinformatics 35, 1753–1759.
+https://doi.org/10.1093/bioinformatics/bty884.
+Rutter, L., Barker, R., Bezdan, D., Cope, H.,
+Costes, S.V., Degoricija, L., Fisch, K.M., Gabitto,
+M.I., Gebre, S., Giacomello, S., et al. (2020). A new
+era for space life science: international standards
+for space omics processing. Patterns 1, 100148.
+https://doi.org/10.1016/j.patter.2020.100148.
+Salmi, M.L., and Roux, S.J. (2008). Gene
+expression changes induced by space ﬂight in
+single-cells of the fern Ceratopteris richardii.
+Planta 229, 151–159. https://doi.org/10.1007/
+s00425-008-0817-y.
+Sheppard, J., Land, E.S., Toennisson, T.A.,
+Doherty, C.J., and Perera, I.Y. (2021). Uncovering
+transcriptional responses to fractional gravity in
+arabidopsis roots. Life 11, 1010. https://doi.org/
+10.3390/life11101010.
+Sugimoto, M., Oono, Y., Gusev, O., Matsumoto,
+T., Yazawa, T., Levinskikh, M.A., Sychev, V.N.,
+Bingham, G.E., Wheeler, R., and Hummerick, M.
+(2014). Genome-wide expression analysis of
+reactive oxygen species gene network in Mizuna
+plants grown in long-term spaceﬂight. BMC
+Plant Biol. 14, 4. https://doi.org/10.1186/1471-
+2229-14-4.
+Vandenbrink, J.P., Herranz, R., Poehlman, W.L.,
+Alex Feltus, F., Villacampa, A., Ciska, M., Javier
+Medina, F., and Kiss, J.Z. (2019). RNA-seq
+analyses of Arabidopsis thaliana seedlings after
+exposure to blue-light phototropic stimuli in
+microgravity. Am. J. Bot. 106, 1466–1476. https://
+doi.org/10.1002/ajb2.1384.
+Vandenbrink, J.P., and Kiss, J.Z. (2016). Space, the
+ﬁnal Frontier: a critical review of recent
+experiments performed in microgravity. Plant Sci.
+243, 115–119. https://doi.org/10.1016/j.plantsci.
+2015.11.004.
+Villacampa, A., Ciska, M., Manzano, A.,
+Vandenbrink, J.P., Kiss, J.Z., Herranz, R., and
+Medina, F.J. (2021). From spaceﬂight to MARS
+G-levels: adaptive response of a. thaliana seed-
+lings in a reduced gravity environment is
+enhanced by red-light photostimulation. Int. J.
+Mol. Sci. 22, 899. https://doi.org/10.3390/
+ijms22020899.
+Wang, L., Xie, J., Mou, C., Jiao, Y., Dou, Y., and
+Zheng, H. (2022). Transcriptomic analysis of the
+interaction between FLOWERING LOCUS T in-
+duction and photoperiodic signaling in response
+to spaceﬂight. Front. Cell Dev. Biol. 9, 813246.
+https://doi.org/10.3389/fcell.2021.813246.
+Wang, X., Wang, H., Wang, J., Sun, R., Wu, J., Liu,
+S., Bai, Y., Mun, J.H., Bancroft, I., Cheng, F., et al.
+(2011). The genome of the mesopolyploid crop
+species Brassica rapa. Nat. Genet. 43, 1035–1039.
+https://doi.org/10.1038/ng.919.
+Xie, J., Wang, L., and Zheng, H. (2022). Molecular
+basis to integrate microgravity signals into the
+photoperiodic ﬂowering pathway in arabidopsis
+thaliana under spaceﬂight condition. Int. J. Mol.
+Sci. 23, 63. https://doi.org/10.3390/ijms23010063.
+Xu, P., Chen, H., Jin, J., and Cai, W. (2018). Single-
+base resolution methylome analysis shows
+epigenetic changes in Arabidopsis seedlings
+exposed to microgravity spaceﬂight conditions
+on board the SJ-10 recoverable satellite. npj
+Microgravity 4, 12. https://doi.org/10.1038/
+s41526-018-0046-z.
+Yang, P., Wen, Q., Yu, R., Han, X., Deng, X.W., and
+Chen, H. (2020). Light modulates the gravitropic
+responses through organ-speciﬁc PIFs and HY5
+regulation of LAZY4 expression in Arabidopsis.
+Proc. Natl. Acad. Sci. USA 117, 18840–18848.
+https://doi.org/10.1073/pnas.2005871117.
+Zabel, P., Bamsey, M., Schubert, D., and Tajmar,
+M. (2016). Review and analysis of over 40 years of
+space plant growth systems. Life Sci. Sp. Res. 10,
+1–16. https://doi.org/10.1016/j.lssr.2016.06.004.
+Zhou, M., Sng, N.J., Lefrois, C.E., Paul, A.L., and
+Ferl, R.J. (2019). Epigenomics in an extraterrestrial
+environment: organ-speciﬁc alteration of DNA
+methylation and gene expression elicited by
+spaceﬂight in Arabidopsis thaliana. BMC Genom.
+20, 205. https://doi.org/10.1186/s12864-019-
+5554-z.
+Zupanska, A.K., Denison, F.C., Ferl, R.J., and Paul,
+A.L. (2013). Spaceﬂight engages heat shock
+protein and other molecular chaperone genes in
+tissue culture cells of Arabidopsis Thaliana. Am. J.
+Bot. 100, 235–248. https://doi.org/10.3732/ajb.
+1200343.
+Zupanska, A.K., Lefrois, C., Ferl, R., and Paul, A.L.
+(2019). HSFA2 functions in the physiological
+adaptation of undifferentiated plant cells to
+spaceﬂight. Int. J. Mol. Sci. 20, 390. https://doi.
+org/10.3390/ijms20020390.
+Zupanska, A.K., Schultz, E.R., Yao, J., Sng, N.J.,
+Zhou, M., Callaham, J.B., Ferl, R.J., and Paul, A.L.
+(2017). ARG1 functions in the physiological
+adaptation of undifferentiated plant cells to
+spaceﬂight. Astrobiology 17, 1077–1111. https://
+doi.org/10.1089/ast.2016.1538.
+ll
+OPEN ACCESS
+22
+iScience 25, 104687, August 19, 2022
+iScience
+Review

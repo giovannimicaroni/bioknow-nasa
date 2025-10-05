@@ -1,0 +1,63 @@
+CORRECTION
+published: 21 November 2016
+doi: 10.3389/fpls.2016.01753
+Frontiers in Plant Science | www.frontiersin.org
+1
+November 2016 | Volume 7 | Article 1753
+Edited and reviewed by:
+Alma Balestrazzi,
+University of Pavia, Italy
+*Correspondence:
+Anne B. Britt
+abbritt@ucdavis.edu
+†Co-ﬁrst authors.
+Specialty section:
+This article was submitted to
+Plant Physiology,
+a section of the journal
+Frontiers in Plant Science
+Received: 31 October 2016
+Accepted: 07 November 2016
+Published: 21 November 2016
+Citation:
+Missirian V, Conklin PA, Culligan KM,
+Huefner ND and Britt AB (2016)
+Corrigendum: High atomic weight,
+high-energy radiation (HZE) induces
+transcriptional responses shared with
+conventional stresses in addition to a
+core “DSB” response speciﬁc to
+clastogenic treatments.
+Front. Plant Sci. 7:1753.
+doi: 10.3389/fpls.2016.01753
+Corrigendum: High atomic weight,
+high-energy radiation (HZE) induces
+transcriptional responses shared
+with conventional stresses in
+addition to a core “DSB” response
+speciﬁc to clastogenic treatments
+Victor Missirian 1 †, Phillip A. Conklin 1 †, Kevin M. Culligan 2, Neil D. Huefner 1 and
+Anne B. Britt 1*
+1 Department of Plant Biology, University of California, Davis, Davis, CA, USA, 2 Department of Molecular, Cellular, and
+Biomedical Sciences, University of New Hampshire, Durham, NH, USA
+Keywords: DNA repair, double-strand breaks, transcriptomics, stress, cell-cycle, ionizing radiation, HZE, gamma
+radiation
+A corrigendum on
+High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared
+with conventional stresses in addition to a core “DSB” response speciﬁc to clastogenic
+treatments
+by Missirian, V., Conklin, P. A., Culligan, K. M., Huefner, N. D., and Britt, A. B. (2014). Front. Plant
+Sci. 5:364. doi: 10.3389/fpls.2014.00364
+Due to an oversight, the placeholder for the accession number for our microarray dataset was not
+updated in the published article. The correct text for the section “Accession Number” should read:
+ACCESSION NUMBERS
+All of our microarray data has been deposited in the Gene Expression Omnibus (http://www.ncbi.
+nlm.nih.gov/geo) with the accession number [GSE61484].
+The authors apologize for this oversight. This does not aﬀect the scientiﬁc conclusions of the
+article in any way.
+Conﬂict of Interest Statement: The authors declare that the research was conducted in the absence of any commercial or
+ﬁnancial relationships that could be construed as a potential conﬂict of interest.
+Copyright © 2016 Missirian, Conklin, Culligan, Huefner and Britt. This is an open-access article distributed under the terms of
+the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided
+the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted
+academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.

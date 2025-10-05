@@ -1,0 +1,837 @@
+Ionizing Radiation Stimulates Expression
+of Pro-Osteoclastogenic Genes in Marrow
+and Skeletal Tissue
+Joshua S. Alwood,* Mohammad Shahnazari,* Betsabel Chicana, A.S. Schreurs,
+Akhilesh Kumar, Alana Bartolini, Yasaman Shirazi-Fard, and Ruth K. Globus
+Exposure to ionizing radiation can cause rapid mineral loss and increase bone-resorbing osteoclasts within
+metabolically active, cancellous bone tissue leading to structural deﬁcits. To better understand mechanisms
+involved in rapid, radiation-induced bone loss, we determined the inﬂuence of total body irradiation on ex-
+pression of select cytokines known both to stimulate osteoclastogenesis and contribute to inﬂammatory bone
+disease. Adult (16 week), male C57BL/6J mice were exposed to either 2 Gy gamma rays (137Cs, 0.8 Gy/min) or
+heavy ions (56Fe, 600MeV, 0.50–1.1 Gy/min); this dose corresponds to either a single fraction of radiotherapy
+(typical total dose is ‡ 10 Gy) or accumulates over long-duration interplanetary missions. Serum, marrow, and
+mineralized tissue were harvested 4 h—7 days later. Gamma irradiation caused a prompt (2.6-fold within 4 h)
+and persistent (peaking at 4.1-fold within 1 day) rise in the expression of the obligate osteoclastogenic cytokine,
+receptor activator of nuclear factor kappa-B ligand (Rankl), within marrow cells over controls. Similarly, Rankl
+expression peaked in marrow cells within 3 days of iron exposure (9.2-fold). Changes in Rankl expression
+induced by gamma irradiation preceded and overlapped with a rise in expression of other pro-osteoclastic
+cytokines in marrow (eg, monocyte chemotactic protein-1 increased by 11.9-fold, and tumor necrosis factor-
+alpha increased by 1.7-fold over controls). The ratio, Rankl/Opg, in marrow increased by 1.8-fold, a net pro-
+resorption balance. In the marrow, expression of the antioxidant transcription factor, Nfe2l2, strongly correlated
+with expression levels of Nfatc1, Csf1, Tnf, and Rankl. Radiation exposure increased a serum marker of bone
+resorption (tartrate-resistant acid phosphatase) and led to cancellous bone loss (16% decrement after 1 week).
+We conclude that total body irradiation (gamma or heavy-ion) caused temporal elevations in the concentrations
+of speciﬁc genes expressed within marrow and mineralized tissue related to bone resorption, including select
+cytokines that lead to osteoclastogenesis and elevated resorption; this is likely to account for rapid and pro-
+gressive deterioration of cancellous microarchitecture following exposure to ionizing radiation.
+Introduction
+D
+uring a spaceﬂight beyond the Earth’s protective
+magnetosphere, astronauts are exposed to a complex
+mixture of ionizing radiation (Durante and Cucinotta 2011),
+including low-linear energy transfer (LET) gamma rays and
+protons, as well as more damaging high-LET radiation.
+Exposure to space radiation is characterized by relatively
+low doses ( £ 2 Gy) of ion species due to solar particle events
+(Shurshakov and others 1999; Parsons and Townsend 2000)
+or galactic cosmic rays (Zeitlin and others 2013; Hassler and
+others 2014). Simulated space radiation at these doses
+causes a rapid net decline in cancellous bone volume to total
+volume as well as a decrement relative to age-matched
+controls (Kondo and others 2009; Willey and others 2010).
+The bone loss is associated with increased osteoclast num-
+bers and resorbing surfaces of osteoclasts lining trabeculae
+(Hamilton and others 2006; Alwood and others 2010; Kondo
+and others 2010; Willey and others 2010; Yumoto and
+others 2010; Lloyd and others 2012). Doses in the range of
+Bone and Signaling Laboratory, Space Biosciences Division, NASA Ames Research Center, Moffett Field, California.
+*Authors share ﬁrst authorship.
+ª Joshua S. Alwood et al. 2015; Published by Mary Ann Liebert, Inc. This Open Access article is distributed under the terms of the
+Creative Commons License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in
+any medium, provided the original work is properly credited.
+JOURNAL OF INTERFERON & CYTOKINE RESEARCH
+Volume 35, Number 6, 2015
+DOI: 10.1089/jir.2014.0152
+480
+
+1–2 Gy also are relevant to radiotherapy; total therapeutic
+doses can vary, but total body doses of 10–15 Gy typically
+are fractionated into single doses of *2 Gy, which ulti-
+mately can lead to increased fracture incidence (Baxter and
+others 2005). Exposure to radiation, particularly high-LET
+particles, has the potential to exacerbate the deleterious ef-
+fects of musculoskeletal disuse, which occurs during pro-
+longed bed rest or spaceﬂight (LeBlanc and others 2000;
+Lang and others 2004, 2006; Keyak and others 2009; Al-
+wood and others 2010; Yumoto and others 2010).
+Previous work shows that radiation exposure elicits a
+transient ( < 2 weeks) pro-resorptive state in cancellous tis-
+sue, resulting in net bone loss compared with basal (time of
+radiation) and age-matched controls (Kondo and others
+2010; Willey and others 2010; Alwood and others 2012).
+Bone-resorbing osteoclasts are thought to cause the rapid
+(Kondo and others 2009; Willey and others 2010; Turner
+and others 2013) cancellous strut losses following simulated
+space irradiation, leading to loss of microarchitectural in-
+tegrity (Alwood and others 2010). Radiation exposure
+transiently and markedly increases the numbers of osteo-
+clasts and the extent of cancellous surfaces covered by os-
+teoclasts. However, the role that receptor activator of nuclear
+factor kappa-B ligand (Rankl), the principal osteoclasto-
+genic cytokine, plays in concert with other pro-osteoclastic
+inﬂammatory cytokines (Kim and others 2006; Takayanagi
+2007; Boyce and Xing 2008) and oxidative stress is not fully
+understood with respect to the cancellous bone loss fol-
+lowing radiation exposure (Kondo and others 2009).
+Total body irradiation ( £ 2 Gy) causes time-dependent
+changes in the bone formation by osteoblasts, although these
+changes do not account for the early and rapid decrement in
+bone mass observed following exposure to total body irra-
+diation within this dose range. Within 3 days of exposure to
+radiation, the net bone formation rate to bone surface (BFR/
+BS) is unaffected (Kondo and others 2010). Although ra-
+diation does affect osteoblast function within the ﬁrst week
+of exposure, as indicated by an observed increase in mineral
+apposition rate (MAR), a concomitant reduction in the
+mineralizing surface yields no net change in the bone for-
+mation rate (Kondo and others 2010). Similarly, Willey and
+others (2010) also report increased MAR within the ﬁrst
+week after exposure, but subsequently BFR/BS declines by
+2 and 3 weeks after exposure to 2 Gy X-ray, while Turner and
+others reported transient increased bone formation even after
+very high doses of radiation (6Gy). Therefore, radiation-in-
+duced changes in bone formation are more likely to con-
+tribute to later remodeling deﬁcits rather than acute bone loss.
+To better understand net bone loss in the acute response to
+radiation exposure, we examined the temporal expression
+within both marrow and mineralized tissue of Rankl and
+select pro-osteoclastogenic cytokines implicated in various
+models of inﬂammatory bone loss (Braun and Schett 2012)
+following exposure to low- or high-LET species of radiation.
+Furthermore, we investigated the temporal expression of a
+key antioxidant transcription factor (nuclear factor, erythroid-
+derived 2,-like 2, Nfe2l2), which is responsible for mounting
+a rapid defense against oxidative challenges (Kobayashi and
+Yamamoto 2005) and is known to play a role in dampening
+osteoclastogenesis (Hyeon and others 2013).
+We hypothesized that radiation exposure induces ex-
+pression of pro-osteoclastogenic, pro-inﬂammatory, and an-
+tioxidant genes within both marrow and mineralized tissue
+compartments and increases markers of bone resorption.
+Furthermore, we hypothesize that these changes are likely to
+contribute to later cancellous bone loss. This work shows an
+acute and time-dependent elevation of Rankl, monocyte
+chemotactic protein-1 (Mcp1), and tumor necrosis factor-
+alpha (Tnf) gene expression in the marrow or in skeletal
+compartments due to low- or high-LET irradiation. These
+molecular changes precede ( < 3 days) the manifestation of
+bone loss (3–7 days) following iron irradiation at a dose
+relevant to fractionated radiotherapy or space missions.
+Materials and Methods
+Animals
+Post-pubescent (16 weeks – 4 days at time of irradiation),
+male C57BL/6J mice (Jackson Laboratories) were individ-
+ually housed and provided food (LabDiet 5001) and water
+ad libitum, as described elsewhere (Yumoto and others
+2010). Animals were euthanized by CO2 inhalation or an-
+esthetized with isoﬂurane, followed by blood draw through
+cardiac puncture. The Institutional Animal Care and Use
+Committees for NASA Ames Research Center and Broo-
+khaven National Laboratory approved all procedures.
+Experiment design and radiation exposure
+Experiments were conducted to determine the temporal
+changes in the levels of key genes and circulating proteins
+related to bone resorption in the latency period before the
+onset of overt structural loss. To evaluate heavy-ion effects,
+conscious mice were exposed to high-LET iron ions (56Fe,
+600 MeV/ion, 5cGy or 2 Gy, at a rate of 5 or 0.50–1.10 Gy/
+min, respectively) at the NASA Space Radiation Labora-
+tory, Brookhaven National Laboratory, or were sham irra-
+diated as previously described (n = 5–8/group). Mice were
+euthanized and tissues harvested at baseline (ie, time of ir-
+radiation) or 3 or 7 days after exposure. To evaluate gamma
+radiation effects, conscious mice were irradiated with low-
+LET 137Cs gamma rays [2 Gy, 0.80 Gy/min, as described in
+detail in Kondo and others (2010)] or were sham irradiated.
+Euthanasia and tissue harvest took place 4 h or 1 day ( – 2 h),
+3 days, or 7 days after exposure (n = 5–7/group).
+Bone microarchitecture
+Bone volume and microarchitecture of the proximal tibial
+metaphysis were quantiﬁed by microcomputed tomography
+(6.8 mm pixel size, 3,500 ms integration time, 50 kV, Sky-
+scan 1174; Bruker microCT) similar to Kondo and others
+(2009). Brieﬂy, a 1.0-mm thick region located 0.24 mm
+distal to the proximal growth plate of the tibia was selected
+and semiautonomously contoured to include cancellous
+tissue. To assess bone loss, the bone volume to total volume
+fraction (BV/TV, %), trabecular thickness (Tb.Th, mm),
+trabecular number (Tb.N, 1/mm), and trabecular separation
+(Tb.Sp, mm) were calculated and reported following con-
+ventional guidelines (Bouxsein and others 2010).
+qRT-PCR for gene expression within marrow
+and skeletal tissue
+Femora and tibiae were dissected, cleaned of soft tissues,
+ﬂushed of bone marrow with phosphate-buffered saline,
+IONIZING RADIATION AND SKELETAL CYTOKINE GENE EXPRESSION
+481
+
+and stored in RNALater (Qiagen, Inc.) at - 80C. Bone
+marrow cells were lysed and preserved with guanidine-
+thiocyanate-containing RLT buffer (Qiagen, Inc.) with 1%
+beta-mercaptoethanol at - 80C. RNA was extracted from
+homogenized bone or marrow lysates using Trizol (Ambion),
+QIAshredder, and an RNeasy mini kit (Qiagen, Inc.). For
+each tissue, RNA was treated with an RNase-free DNase set
+(Qiagen, Inc.) in accordance with the manufacturer’s in-
+structions. RNA quality and quantity were determined using
+a spectrophotometer (NanoDrop). The RNA quality was
+conﬁrmed by electrophoresis using the 2100 Bioanalyzer
+(Agilent Technologies).
+Following the manufacturer’s recommendations, RNA was
+reversed transcribed and simultaneously used for qPCR using
+the GoTaq Probe 1-Step RT-qPCR system (Promega).
+Portions of the following mouse gene sequences were am-
+pliﬁed using TaqMan gene expression assays (Applied Bio-
+systems, Inc.): receptor activator of nuclear factor kappa-B
+ligand (Rankl, assay ID: Mm00441906_m1), Osteoprotegerin
+(Opg, assay ID: Mm01205928_m1), Tumor necrosis factor-
+alpha (Tnf, assay ID: Mm00443260_g1), monocyte chemotactic
+protein-1 (Mcp1, assay ID: Mm00441242_m1), interleukin-6
+(Il6, assay ID Mm00446190_m1), tartrate-resistant acid phos-
+phatase (Acp5, assay ID: Mm00475698_m1), cathepsin-K (Ctk,
+assay ID: Mm00484039_m1), nuclear factor of activated T-
+cells, cytoplasmic 1 (Nfatc1, assay ID: Mm00479445_m1),
+nuclear factor, erythroid-derived 2,-like 2 (Nfe2l2, assay ID:
+Mm00477784_m1), and colony-stimulating factor 1 (Csf1,
+assay ID: Mm00432686_m1). We standardized gene ex-
+pression levels to mitochondrial ribosomal protein L19
+(L19, assay ID: Mm02601633_g1) to correct for differences
+in cellular input and RNA quality and facilitate comparison
+between samples. Hypoxanthine–guanine phosphoribosyl-
+transferase (Hprt1, assay ID: Mm01545399_m1) and trans-
+membrane protein 40 (Tmem40, assay ID: Mm00460636_m1)
+also were analyzed as alternate housekeeping genes. The
+reactions were performed in the 7300 RT-PCR system (Applied
+Biosystems) or SmartCycler real-time PCR system (Cepheid).
+We analyzed multiple candidate housekeeping genes for
+normalization, including L19, Hprt1, and Tmem40. Gamma
+radiation exposure did not modulate levels of the gene L19
+at the various time points, but transiently and modestly in-
+creased gene expression of Hprt1 (-0.4 cycles, 1.4-fold) and
+Tmem40 (-1 cycle, 2.3-fold). Following iron irradiation, L19
+(as well as Hprt1) showed small increases in cycle number
+due to treatment (-0.4 cycles, 1.4-fold for L19). As these
+differences in housekeeping gene expression were small
+relative to those of cytokine and resorption marker levels,
+results reported were normalized relative to L19 for both
+gamma and iron irradiation experiments.
+Serum tartrate-resistant acid phosphatase 5b
+Blood was collected from the heart at the time of eutha-
+nasia and serum was separated and stored at - 80C until
+processed. Enzyme immunoassays were performed for
+measurement of tartrate-resistant acid
+phosphatase
+5b
+(TRACP 5b), a biomarker for osteoclast-mediated bone re-
+sorption, using a commercial kit (Immunodiagnostic Sys-
+tems) according to the manufacturer’s protocol.
+Statistics
+All data are reported as mean – standard deviation. To
+determine signiﬁcant differences compared with sham-
+irradiated controls, a 1-way analysis of variance was used
+followed by Dunnett’s post hoc test. If data were determined
+to be heteroscedastic (Bartlett’s test), a Welch’s ANOVA
+test followed by a post hoc test using the Bonferroni cor-
+rection were used to determine signiﬁcant differences from
+the sham-irradiated controls. Correlation analyses were
+performed on expression levels of select genes from marrow
+and bone specimens following gamma irradiation (for the
+sham and 1, 3, and 7 day endpoints) using the Pearson’s
+product-moment coefﬁcient (r). A P value £ 0.05 was ac-
+cepted as signiﬁcant for all analyses. All analyses were per-
+formed using JMP 8.0.2 (SAS).
+Results
+Cancellous microarchitecture following
+iron irradiation
+To determine the extent of bone loss over the short term,
+mice were irradiated with 56Fe ions (600 MeV) or were
+sham irradiated (0 Gy controls), then 7 days later bones were
+harvested and cancellous microarchitecture in the proximal
+tibia quantiﬁed ex vivo using 3D microcomputed tomography.
+Body weights of irradiated and control animals at the time of
+tissue harvest did not differ (data not shown). Compared with
+sham controls, irradiation with 2 Gy reduced BV/TV by 16%,
+Tb.N by 15%, and showed a trend of increased Tb.Sp by 11%
+(P = 0.053, ANOVA), but did not affect trabecular thickness
+(Fig. 1). This is consistent with previous reports (Hamilton
+and others 2006; Alwood and others 2010). We included a
+basal group in our experiments showing BV/TV of 25.1% –
+3.6%, which was not different from the age-matched sham
+control group. A lower dose of iron (5cGy) failed to elicit
+changes in bone structural parameters compared with controls
+and is therefore below the threshold dose for causing bone
+loss (data not shown). These results validate the model of
+ionizing radiation-induced cancellous bone loss.
+FIG.
+1.
+2 Gy
+iron
+irradiation
+caused acute bone loss in the tibial
+metaphysis by 7 days through re-
+moval of trabecular struts. (A)
+Bone volume fraction (BV/TV),
+(B) trabecular number (Tb.N), (C)
+trabecular thickness (Tb.Th), and
+(D)
+trabecular
+spacing
+(Tb.Sp).
+Data are mean – SD, with * denot-
+ing P < 0.05 versus sham.
+482
+ALWOOD ET AL.
+
+Marrow gene expression following iron irradiation
+To determine if irradiation altered expression of various
+pro-osteoclastogenic genes, mRNA levels in bone marrow
+cell lysates were measured using quantitative RT-PCR 3
+days after exposure to high-LET iron or sham irradiation.
+Within 3 days of exposure, iron irradiation increased ex-
+pression of the Rankl gene by 9.2-fold compared with sham-
+irradiated controls (Fig. 2). At this time point, transcripts of
+Opg and Mcp1 were not detected in the marrow (data not
+shown). Radiation exposure did not alter Tnf expression
+(Fig. 2). In contrast, a lower dose of iron (5 cGy) did not
+elicit changes in gene expression (data not shown). These
+data demonstrated that high-LET particulate irradiation with
+2 Gy elicited pro-osteoclastogenic cytokine expression in
+the bone marrow tissue.
+Gene expression of skeletal tissue following
+iron irradiation
+To determine if ionizing radiation altered expression of
+select genes related to osteoclastogenesis (Rankl, Opg) and
+osteoclast-mediated bone resorption (Ctk, Acp5) in cells
+within the mineralized compartment of skeletal tissue, RNA
+was puriﬁed from bone after removal of the marrow (leaving
+predominantly osteocytes). Within 3 days, iron irradiation
+increased expression of Rankl by 1.9-fold, Acp5 by 1.5-fold,
+and Ctk by 2.1-fold over sham controls (Fig. 3). Expression
+levels of Opg did not change. The ratio of Rankl/Opg ex-
+pression increased 2.8-fold, which provides a relative index
+that, on balance, cytokine levels favored increased bone
+resorption.
+Marrow gene expression following
+gamma irradiation
+To determine whether irradiation altered osteoclastogenic
+and inﬂammation-related genes, mRNA expression was
+measured in bone marrow at 4 h or 1, 3, or 7 days after low-
+LET gamma irradiation and in sham-irradiated controls.
+Within 4 h, 2 Gy gamma irradiation elevated Rankl in bone
+marrow by 2.6-fold over the sham; gene expression of Opg
+was undetectable regardless of treatment (data not shown).
+Subsequently, the expression of many genes of interest
+measured in bone marrow (Rankl, Csf1, Nfatc1, Tnf, Mcp1,
+and Il6) transiently increased within 1 day and subsequently
+declined toward sham levels (Fig. 4). Expression of Tnf
+remained elevated through day 3 post-irradiation, while high
+Rankl expression persisted through day 7 post-irradiation.
+At their peak, expression of pro-osteoclastogenic genes,
+Rankl and Csf1, and the osteoclast-related transcription
+factor, Nfatc1, increased by 4.1-fold, 4.2-fold, and 2.0-fold,
+respectively (Fig. 4A, D, E); the Rankl decoy receptor Opg
+showed a trend toward increased expression by 11.3-fold
+(P = 0.053 by ANOVA, Fig. 4B); pro-inﬂammatory genes
+Tnf, Mcp1, and Il6 increased by 1.7-fold, 11.9-fold, and 1.6-
+fold, respectively (Fig. 4F, G, H), relative to controls. The
+ratio of Rankl/Opg increased by 1.8-fold at day 7 after ir-
+radiation (Fig. 4C). Additionally, radiation exposure showed
+a trend toward increased gene expression of Nfe2l2 by 1.6-
+fold on day 1 compared with controls (P = 0.061 for the
+ANOVA, Fig. 4I). Notably, levels of Nfe2l2 expression were
+strongly and positively correlated with the osteoclast-related
+genes Nfatc1 (P < 0.05, r = 0.89), Csf1 (P < 0.05, r = 0.63),
+Tnf (P < 0.05, r = 0.62), and Rankl (P < 0.05, r = 0.56). These
+data show the temporal dependence of changes in cytokine
+gene expression in the marrow following radiation exposure.
+Gene expression of skeletal tissue following
+gamma irradiation
+Following gamma irradiation, mRNA levels in femoral
+mineralized tissue (sans marrow) were quantiﬁed at 3 and 7
+days after irradiation or sham using qRT-PCR normalized to the
+housekeeping gene, L19, as shown in Fig. 5. Within 3 days,
+gamma radiation exposure increased the expression of Rankl
+(2.3-fold), Acp5 (2.2-fold), and Ctk (2.3-fold). Expression of
+FIG. 2.
+2 Gy iron irradiation effects on cytokine gene
+expression in tibial marrow cells on day 3 (expression level
+normalized to L19). Radiation exposure increased the gene
+expression levels of (A) Rankl. Gene expression levels of
+(B) Tnf were unchanged. Data are mean – SD, with ** de-
+noting P < 0.01 versus sham.
+FIG. 3.
+2 Gy iron irradiation effects on gene expression in tibial tissue (sans marrow) by day 3. Comparison of expression
+levels of (A) Rankl, (B) Opg, (C) Rankl/Opg, (D) Acp5, and (E) Ctk genes after iron irradiation compared with controls
+(expression level normalized to L19). Data are mean – SD, with ** denoting P < 0.01 versus sham.
+IONIZING RADIATION AND SKELETAL CYTOKINE GENE EXPRESSION
+483
+
+Tnf, Opg, Nfe2l2, and the Rankl/Opg ratio was not changed
+(Fig. 5). These data suggest that bone-embedded and/or lining
+cells contribute to osteoclast stimulation and provide evidence
+for elevated expression of osteoclastogenic (Rankl) and re-
+sorption-related (Acp5, Ctk) genes in the skeletal tissue.
+Serum TRACP 5b following gamma irradiation
+To determine if temporal changes in skeletal gene ex-
+pression (Figs. 4 and 5) coincide with changes in a protein
+biomarker of resorption, the circulating levels of osteo-
+clast-speciﬁc TRACP 5b were measured at 1, 3, and 7 days
+after gamma irradiation and in sham controls. Gamma ir-
+radiation increased TRACP 5b serum levels by 34% on
+day 1 and 17% on day 3 compared with sham, with a
+subsequent gradual decline toward control levels by day 7
+(data not shown). Thus, circulating TRACP 5b levels
+showed a similar time course, although lower in magnitude
+compared with skeletal gene expression for Rankl and
+other pro-osteoclastogenic cytokines.
+Discussion
+To better understand the mechanisms underlying radiation-
+induced stimulation of bone resorption, we investigated
+molecular
+signals
+within
+the
+latency
+period
+between
+FIG. 4.
+2 Gy gamma radi-
+ation increased expression of
+pro-osteoclastic and resorp-
+tion-related genes in pooled
+tibial and femoral marrow
+(expression level normalized
+to L19). Time course (+1, +3,
+and+7 days post-irradiation)
+for the following genes com-
+pared with sham control: (A)
+Rankl, (B) Opg, (C) Rankl/
+Opg, (D) Csf1, (E) Nfatc1,
+(F) Tnf, (G) Mcp1, (H) Il6,
+and
+(I)
+Nfe2l2.
+Data
+are
+mean– SD, with * denoting
+P < 0.05 and **P < 0.01 ver-
+sus sham and # denoting
+P = 0.061 for the ANOVA.
+FIG. 5.
+2 Gy gamma irradiation increased gene expression in femoral and tibial tissue (sans marrow) by day 3. Com-
+parison of expression levels of (A) Rankl, (B) Opg, (C) Rankl/Opg, (D) Acp5, (E) Ctk, (F) Tnf, and (G) Nfe2l2 genes after
+iron irradiation compared with controls (expression level normalized to L19). Data are mean – SD, with * denoting P < 0.05
+and ** denoting P < 0.01 versus sham.
+484
+ALWOOD ET AL.
+
+radiation exposure and the manifestation of cancellous tis-
+sue loss. In summary, the results show that exposure to
+either gamma or heavy-ion radiation increased gene ex-
+pression for the canonical osteoclastogenic factor, Rankl, as
+well as other pro-osteoclast cytokines (Mcp1, Tnf, Il6); this
+occurred in both marrow and mineralized tissue. These
+ﬁndings do not distinguish between changes in gene ex-
+pression levels due to a shift in the cell population expres-
+sing osteoclastogenic cytokines, a generally higher level of
+expression for all the cells, or some combination of both. In
+fact, after exposure to radiation of sufﬁcient dosage, there
+are pronounced, if transient, changes in marrow cell via-
+bility and increases in marrow macrophages, which are
+likely to contribute to the generation of new osteoclasts.
+Therefore, we interpret our results to show that exposure to
+ionizing radiation increased the tissue concentrations of
+mRNA levels generally so as to favor osteoclastogenesis.
+Radiation-induced changes in cytokine expression were
+temporally related to changes in several indices of bone
+resorption, including gene expression (Ctk, Acp5, Nfatc1)
+and a serum biomarker (TRACP 5b levels). In addition,
+marrow expression of the global antioxidant transcription
+factor, Nfe2l2, showed high correlation with the expression
+levels of several osteoclast-related genes. These data indi-
+cate that the activation of oxidative defenses and of osteo-
+clast formation was temporally associated in response to
+radiation exposure. Our previous work showed radiation-in-
+duced oxidative damage presents later, at 10 days after ex-
+posure (Kondo and others 2010). Taken together, our results
+indicate that Nfe2l2-related antioxidant defense pathways
+were insufﬁcient to prevent oxidative damage in bone.
+Changes in gene expression (as early as 4 h or 1 day)
+preceded bone loss, which manifested in these experiments
+by day 7 after exposure to 2 Gy iron, although in some cases
+such as gamma irradiation and lower doses of iron, decre-
+ments in cancellous bone volume can be observed as early
+as 3 days after exposure (Kondo and others 2009; Yumoto
+and others 2010). Furthermore, a dose threshold was ob-
+served, as 5 cGy iron exposure failed to elicit changes in
+cytokine gene expression in the marrow or cancellous bone
+structure (data not shown); these ﬁndings provide additional
+indirect evidence in support of the hypothesis that early
+induction of osteoclastogenic cytokine gene expression by
+biologically effective doses of radiation leads to cancellous
+bone loss.
+Together, the results demonstrate that radiation-induced
+structural changes were associated with a marrow environ-
+ment favoring stimulation of osteoclast differentiation and
+activity by Rankl and other inﬂammation-related cytokines as
+follows: Radiation increased gene expression levels for pro-
+osteoclastogenic signaling molecules (Csf1, Rankl, Tnf), as
+well as a trend toward increasing antiosteoclastogenic mole-
+cules (Opg), in the marrow and mineralized tissue of irradiated
+mice compared with sham controls. Iron irradiation elevated
+the ratio of Rankl/Opg in both the marrow and skeletal tissue
+by day 3, whereas after gamma irradiation, the ratio was el-
+evated in the marrow at 4 h and then again at day 7.
+A rapid stimulation of Rankl expression by irradiation in
+the marrow and bone compartment, potentially from he-
+matopoietic lineage cells (Paciﬁci 2010, 2012; Fumoto and
+others 2014) or stromal lineage cells (Suda and others 1999;
+Boyle and others 2003), is consistent with studies that used
+radiotherapeutic doses and regimens. In young mice, a sin-
+gle dose of 5 or 10 Gy increased Rankl/Opg in whole femora
+within 3 days (Han and others 2014). Using mice deﬁcient
+in the antioxidant transcription factor, Nfe2l2, radiation
+exposure at high dose (20 Gy) increased RNA expression for
+Rankl in cultured osteoblasts grown ex vivo, but this was not
+observed in cells from wild-type mice (Rana and others
+2012). These ﬁndings suggest an Nfe2l2-mediated increase
+in expression of antioxidant enzymes may dampen bone
+resorption responses to radiation.
+Furthermore, when a macrophage cell line (RAW264.7)
+capable of differentiating into osteoclast-like cells after
+RANKL treatment is exposed to ionizing radiation (2 Gy
+gamma), gene expression levels rise for b3 integrin, an
+adhesion receptor that is important for osteoclast differen-
+tiation, as well as receptor activator of nuclear factor kappa-
+B (Rank), the receptor for Rankl on osteoclasts (Yang and
+others 2012). In other in vitro work, irradiation with 2 or
+4 Gy increases Rankl in differentiated, MC3T3-E1 osteo-
+blast-like cells (Yang and others 2013). Our work is the ﬁrst
+to demonstrate the time course of radiation-induced changes
+in expression of various osteoclastogenic cytokines follow-
+ing 2 Gy exposure (both low- and high-LET) with subse-
+quent bone loss and within the upper range of space-relevant
+doses and types of radiation.
+Ionizing radiation also increased tissue expression of pro-
+inﬂammatory, osteoclastogenic ligands, Mcp1, Tnf, and Il6,
+which are all factors generally thought to stimulate osteo-
+clast activity (Takayanagi 2007) in the presence of RANKL
+(Kostenuik and Shalhoub 2001; Yu and others 2004; Kim
+and others 2005, 2006; Sul and others 2012; Liu and others
+2013). In some reports, TNF may act independently of
+RANKL to stimulate osteoclastogenesis (Kobayashi and
+others 2000). Our results are consistent with other work
+showing that in vivo exposure to ionizing radiation leads to
+rapid, complex, and interrelated sequence of signals con-
+stituting an immune-related cytokine response in bone
+marrow (Schaue and McBride 2010; Willey and others
+2011; Schaue and others 2012; Buchwald and Aurora 2013).
+At a very high dose (10 Gy), which is sufﬁcient to ablate the
+bone marrow of hematopoietic cells, radiation causes bone
+loss related to elevated fractalkine expression by vascular
+endothelial cells, inﬂammatory cytokines Tnf, interleukin 1
+beta, and interferon gamma, and recruitment of pre-
+osteoclasts (CD11b) (Han and others 2014). Additionally,
+the time course of cytokine and resorption-related gene
+expression shown in this study coincides with that of mar-
+row cell death and repopulation (Otsuka and others 2008;
+Kondo and others 2010), suggesting a possible relationship
+between an expanded population of marrow macrophages
+clearing apoptotic cells and debris after irradiation, the
+differentiation of macrophages into osteoclasts, and in-
+creased resorption activity.
+Taken together, these data lead us to propose a 2-stage
+process
+for
+radiation-induced
+osteoclastogenesis:
+ﬁrst,
+radiation-induced gene expression of osteoclastogenic cy-
+tokines leads to enrichment of the marrow with osteoclast
+precursors (monocyte–macrophage, myeloid lineage cells)
+and drives differentiation into osteoclasts, and, second, that
+inﬂammation-related cytokines co-stimulate differentiating
+and mature osteoclasts.
+As a functional measure of active osteoclasts, we provide
+evidence that 2 Gy gamma irradiation elevated circulating
+levels of osteoclast-speciﬁc TRACP 5b protein, indicative of
+IONIZING RADIATION AND SKELETAL CYTOKINE GENE EXPRESSION
+485
+
+increased bone resorption. In this work, the radiation-in-
+duced elevation in serum TRACP 5b returned to control
+levels by day 7 following exposure, These results are con-
+sistent with those reported by Willey and others (2010,
+2011) showing that X-irradiation (2 Gy) of female mice
+increases circulating TRACP 5b levels 1, 3, and 7 days after
+irradiation.
+Radiation-induced decrements in cancellous tissue ob-
+served in these experiments were consistent with our pre-
+vious results.
+Acute cancellous bone loss temporally
+manifests on day 3 at a dose as low as 10 cGy iron (Yumoto
+and others 2010). Persistent structural decrements (lasting
+> 1 week) manifest at doses above *50 cGy iron (Yumoto
+and others 2010) and 1 Gy gamma exposure (Hamilton and
+others 2006; Kondo and others 2010) before being over-
+taken, in the case of gamma irradiation, by age-related bone
+loss (Alwood and others 2012). Taken together, given the
+observed time course of skeletal gene expression and serum
+resorption markers, we conclude that the structural deﬁcits
+arose from a spike in osteoclastogenic cytokine expression
+that follows exposure to ionizing radiation (Kondo and
+others 2009; Willey and others 2010).
+Limitations of this work include the dose rate used to
+model space radiation. It is an open question whether lower
+dose rate exposures that constitute true space radiation
+stimulate osteoclasts and bone loss to the same extent as the
+exposures used here. In addition, other signaling molecules,
+including various other cytokines not studied here, are likely
+also to play a role in regulating bone resorption after chal-
+lenge with ionizing radiation, while changes in osteoblast
+lineage cells are likely to be important for maintaining
+structural integrity at later times post-irradiation.
+In conclusion, an improved understanding of the molec-
+ular response to radiation exposure may aid the development
+of biological treatments to mitigate potentially deleterious
+skeletal consequences during space ﬂight.
+Acknowledgments
+This research was supported by the National Space Bio-
+medical Research Institute grant No. MA02501 under
+NASA cooperative agreement NCC 9-58 (R.K.G., J.S.A.), a
+DOE-NASA Interagency Award No. DE-SC0001507, sup-
+ported by the Ofﬁce of Science (Biological and Environ-
+mental Research), U.S. Department of Energy (R.K.G.), and
+2 NASA Postdoctoral Program fellowships from NASA’s
+Space Biology Program (J.S.A., A.K). The authors thank P.
+Guida, A. Rusek, L. Loudenslager, and A. Kim of the
+NASA Space Radiation Laboratory at BNL for experimental
+support and S. Choi and T. Truong for microcomputed to-
+mography support and C. Tahimic for manuscript review.
+Author Disclosure Statement
+No competing ﬁnancial interests exist.
+References
+Alwood JS, Kumar A, Tran LH, Wang A, Limoli CL, Globus
+RK. 2012. Low-dose, ionizing radiation and age-related
+changes
+in
+skeletal
+microarchitecture.
+J
+Aging
+Res
+2012:481983.
+Alwood JS, Yumoto K, Mojarrab R, Limoli CL, Almeida EA,
+Searby ND, Globus RK. 2010. Heavy ion irradiation and un-
+loading effects on mouse lumbar vertebral microarchitecture,
+mechanical properties and tissue stresses. Bone 47:248–255.
+Baxter NN, Habermann EB, Tepper JE, Durham SB, Virnig
+BA. 2005. Risk of pelvic fractures in older women following
+pelvic irradiation. JAMA 294(20):2587–2593.
+Bouxsein ML, Boyd SK, Christiansen BA, Guldberg RE, Jepsen
+KJ, Muller R. 2010. Guidelines for assessment of bone mi-
+crostructure in rodents using micro-computed tomography. J
+Bone Miner Res 25(7):1468–1486.
+Boyce BF, Xing L. 2008. Functions of RANKL/RANK/OPG in
+bone modeling and remodeling. Arch Biochem Biophys
+473(2):139–146.
+Boyle WJ, Simonet WS, Lacey DL. 2003. Osteoclast differen-
+tiation and activation. Nature 423(6937):337–342.
+Braun T, Schett G. 2012. Pathways for bone loss in inﬂam-
+matory disease. Curr Osteoporos Rep 10(2):101–108.
+Buchwald ZS, Aurora R. 2013. Osteoclasts and CD8 T cells
+form a negative feedback loop that contributes to homeostasis
+of both the skeletal and immune systems. Clin Dev Immunol
+2013:429373.
+Durante M, Cucinotta FA. 2011. Physical basis of radiation
+protection in space travel. Rev Mod Phys 83(4):1245–1281.
+Fumoto T, Takeshita S, Ito M, Ikeda K. 2014. Physiological
+functions of osteoblast lineage and T cell-derived RANKL in
+bone homeostasis. J Bone Miner Res 29(4):830–842.
+Hamilton SA, Pecaut MJ, Gridley DS, Travis ND, Bandstra ER,
+Willey JS, Nelson GA, Bateman TA. 2006. A murine model
+for bone loss from therapeutic and space-relevant sources of
+radiation. J Appl Physiol 101(3):789–793.
+Han KH, Ryu JW, Lim KE, Lee SH, Kim Y, Hwang CS, Choi
+JY, Han KO. 2014. Vascular expression of the chemokine
+CX3CL1 promotes osteoclast recruitment and exacerbates
+bone resorption in an irradiated murine model. Bone 61:91–
+101.
+Hassler DM, Zeitlin C, Wimmer-Schweingruber RF, Ehres-
+mann B, Rafkin S, Eigenbrode JL, Brinza DE, Weigle G,
+Bottcher S, Bohm E, Burmeister S, Guo J, Kohler J, Martin
+C, Reitz G, Cucinotta FA, Kim MH, Grinspoon D, Bullock
+MA, Posner A, Gomez-Elvira J, Vasavada A, Grotzinger JP.
+2014. Mars’ surface radiation environment measured with the
+Mars
+Science
+Laboratory’s
+Curiosity
+rover.
+Science
+343(6169):1244797.
+Hyeon S, Lee H, Yang Y, Jeong W. 2013. Nrf2 deﬁciency
+induces oxidative stress and promotes RANKL-induced os-
+teoclast differentiation. Free Radic Biol Med 65:789–799.
+Keyak JH, Koyama AK, LeBlanc A, Lu Y, Lang TF. 2009.
+Reduction in proximal femoral strength due to long-duration
+spaceﬂight. Bone 44(3):449–453.
+Kim MS, Day CJ, Morrison NA. 2005. MCP-1 is induced by
+receptor activator of nuclear factor-{kappa}B ligand, pro-
+motes human osteoclast fusion, and rescues granulocyte
+macrophage colony-stimulating factor suppression of osteo-
+clast formation. J Biol Chem 280(16):16163–16169.
+Kim MS, Day CJ, Selinger CI, Magno CL, Stephens SR,
+Morrison NA. 2006. MCP-1-induced human osteoclast-like
+cells are tartrate-resistant acid phosphatase, NFATc1, and
+calcitonin receptor-positive but require receptor activator of
+NFkappaB
+ligand
+for
+bone
+resorption.
+J
+Biol
+Chem
+281(2):1274–1285.
+Kobayashi K, Takahashi N, Jimi E, Udagawa N, Takami M,
+Kotake S, Nakagawa N, Kinosaki M, Yamaguchi K, Shima
+N, Yasuda H, Morinaga T, Higashio K, Martin TJ, Suda T.
+2000. Tumor necrosis factor alpha stimulates osteoclast dif-
+ferentiation by a mechanism independent of the ODF/
+RANKL-RANK interaction. J Exp Med 191(2):275–286.
+486
+ALWOOD ET AL.
+
+Kobayashi M, Yamamoto M. 2005. Molecular mechanisms
+activating the Nrf2-Keap1 pathway of antioxidant gene reg-
+ulation. Antioxid Redox Signal 7(3–4):385–394.
+Kondo H, Searby ND, Mojarrab R, Phillips J, Alwood J, Yu-
+moto K, Almeida EA, Limoli CL, Globus RK. 2009. Total-
+body irradiation of postpubertal mice with (137)Cs acutely
+compromises the microarchitecture of cancellous bone and
+increases osteoclasts. Radiat Res 171(3):283–289.
+Kondo H, Yumoto K, Alwood JS, Mojarrab R, Wang A, Al-
+meida EA, Searby ND, Limoli CL, Globus RK. 2010. Oxi-
+dative stress and gamma radiation-induced cancellous bone
+loss with musculoskeletal disuse. J Appl Physiol 108:152–161.
+Kostenuik PJ, Shalhoub V. 2001. Osteoprotegerin: a physio-
+logical and pharmacological inhibitor of bone resorption.
+Curr Pharm Des 7(8):613–635.
+Lang T, LeBlanc A, Evans H, Lu Y, Genant H, Yu A. 2004.
+Cortical and trabecular bone mineral loss from the spine and
+hip
+in
+long-duration
+spaceﬂight.
+J
+Bone
+Miner
+Res
+19(6):1006–1012.
+Lang TF, Leblanc AD, Evans HJ, Lu Y. 2006. Adaptation of the
+proximal femur to skeletal reloading after long-duration
+spaceﬂight. J Bone Miner Res 21(8):1224–1230.
+LeBlanc A, Schneider V, Shackelford L, West S, Oganov V,
+Bakulin A, Voronin L. 2000. Bone mineral and lean tissue
+loss after long duration space ﬂight. J Musculoskelet Neu-
+ronal Interact 1(2):157–160.
+Liu Z, Xu J, Li H, Zheng Y, He J, Liu H, Zhong Y, Lu Y, Hong
+B, Zhang M, Lin P, Du J, Hou J, Qian J, Kwak LW, Yi Q,
+Yang J. 2013. Bone marrow stromal cells derived MCP-1
+reverses the inhibitory effects of multiple myeloma cells on
+osteoclastogenesis by upregulating the RANK expression.
+PLoS One 8(12):e82453.
+Lloyd SA, Bandstra ER, Willey JS, Rifﬂe SE, Tirado-Lee L,
+Nelson GA, Pecaut MJ, Bateman TA. 2012. Effect of proton
+irradiation followed by hindlimb unloading on bone in ma-
+ture mice: a model of long-duration spaceﬂight. Bone
+51(4):756–764.
+Otsuka K, Koana T, Tomita M, Ogata H, Tauchi H. 2008. Rapid
+myeloid recovery as a possible mechanism of whole-body
+radioadaptive response. Radiat Res 170(3):307–315.
+Paciﬁci R. 2010. T cells: critical bone regulators in health and
+disease. Bone 47(3):461–471.
+Paciﬁci R. 2012. Role of T cells in ovariectomy induced bone
+loss—revisited. J Bone Miner Res 27(2):231–239.
+Parsons JL, Townsend LW. 2000. Interplanetary crew dose
+rates for the August 1972 solar particle event. Radiat Res
+153(6):729–733.
+Rana T, Schultz MA, Freeman ML, Biswas S. 2012. Loss of
+Nrf2 accelerates ionizing radiation-induced bone loss by up-
+regulating RANKL. Free Radic Biol Med 53(12):2298–2307.
+Schaue D, Kachikwu EL, McBride WH. 2012. Cytokines in ra-
+diobiological responses: a review. Radiat Res 178(6):505–523.
+Schaue D, McBride WH. 2010. Links between innate immunity
+and normal tissue radiobiology. Radiat Res 173(4):406–417.
+Shurshakov VA, Petrov VM, Ivanov Yu V, Bondarenko VA,
+Tzetlin VV, Makhmutov VS, Dachev TsP, Semkova JV.
+1999. Solar particle events observed on MIR station. Radiat
+Meas 30(3):317–325.
+Suda T, Takahashi N, Udagawa N, Jimi E, Gillespie MT,
+Martin TJ. 1999. Modulation of osteoclast differentiation and
+function by the new members of the tumor necrosis factor
+receptor and ligand families. Endocr Rev 20(3):345–357.
+Sul OJ, Ke K, Kim WK, Kim SH, Lee SC, Kim HJ, Kim SY,
+Suh JH, Choi HS. 2012. Absence of MCP-1 leads to elevated
+bone mass via impaired actin ring formation. J Cell Physiol
+227(4):1619–1627.
+Takayanagi H. 2007. Osteoimmunology: shared mechanisms
+and crosstalk between the immune and bone systems. Nat
+Rev Immunol 7(4):292–304.
+Turner RT, Iwaniec UT, Wong CP, Lindenmaier LB, Wagner
+LA, Branscum AJ, Menn SA, Taylor J, Zhang Y, Wu H,
+Sibonga JD. 2013. Acute exposure to high dose gamma-
+radiation results in transient activation of bone lining cells.
+Bone 57(1):164–173.
+Willey JS, Livingston EW, Robbins ME, Bourland JD, Tirado-
+Lee L, Smith-Sielicki H, Bateman TA. 2010. Risedronate
+prevents early radiation-induced osteoporosis in mice at
+multiple skeletal locations. Bone 46(1):101–111.
+Willey JS, Lloyd SA, Nelson GA, Bateman TA. 2011. Ionizing
+radiation and bone loss: space exploration and clinical ther-
+apy applications. Clin Rev Bone Miner Metab 9(1):54–62.
+Yang B, Tang Q, Post J, Zhou H, Huang XB, Zhang XD, Wang
+Q, Sun YM, Fan FY. 2013. Effect of radiation on the Notch
+signaling pathway in osteoblasts. Int J Mol Med 31(3):698–
+706.
+Yang B, Zhou H, Zhang XD, Liu Z, Fan FY, Sun YM. 2012.
+Effect of radiation on the expression of osteoclast marker
+genes in RAW264.7 cells. Mol Med Rep 5(4):955–958.
+Yu X, Huang Y, Collin-Osdoby P, Osdoby P. 2004. CCR1
+chemokines promote the chemotactic recruitment, RANKL
+development, and motility of osteoclasts and are induced by
+inﬂammatory cytokines in osteoblasts. J Bone Miner Res
+19(12):2065–2077.
+Yumoto K, Globus RK, Mojarrab R, Arakaki J, Wang A,
+Searby ND, Almeida EA, Limoli CL. 2010. Short-term ef-
+fects of whole-body exposure to (56)fe ions in combination
+with musculoskeletal disuse on bone cells. Radiat Res
+173(4):494–504.
+Zeitlin C, Hassler DM, Cucinotta FA, Ehresmann B, Wimmer-
+Schweingruber RF, Brinza DE, Kang S, Weigle G, Bottcher
+S, Bohm E, Burmeister S, Guo J, Kohler J, Martin C, Posner
+A, Rafkin S, Reitz G. 2013. Measurements of energetic
+particle radiation in transit to Mars on the Mars Science
+Laboratory. Science 340(6136):1080–1084.
+Address correspondence to:
+Dr. Ruth K. Globus
+Bone and Signaling Laboratory
+Space Biosciences Division
+NASA Ames Research Center
+Mail Stop 236-7
+Moffett Field, CA 94035
+E-mail: ruth.k.globus@nasa.gov
+Received 2 September 2014/Accepted 31 December 2014
+IONIZING RADIATION AND SKELETAL CYTOKINE GENE EXPRESSION
+487

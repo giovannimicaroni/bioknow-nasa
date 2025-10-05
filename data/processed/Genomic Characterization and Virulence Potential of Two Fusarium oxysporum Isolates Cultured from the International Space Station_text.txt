@@ -1,0 +1,1585 @@
+Genomic Characterization and Virulence Potential of Two
+Fusarium oxysporum Isolates Cultured from the International
+Space Station
+Camilla Urbaniak,a Peter van Dam,b Alexander Zaborin,c Olga Zaborina,c Jack A. Gilbert,c Tamas Torok,d Clay C. C. Wang,e
+Kasthuri Venkateswarana
+aJet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+bMolecular Plant Pathology, University of Amsterdam, Amsterdam, the Netherlands
+cUniversity of Chicago, Chicago, Illinois, USA
+dLawrence Berkeley National Laboratory, Berkeley, California, USA
+eUniversity of Southern California, Los Angeles, California, USA
+ABSTRACT
+Two isolates of Fusarium oxysporum, ISS-F3 and ISS-F4, were cultured
+from the dining table on the International Space Station (ISS). Genomic analyses us-
+ing EF-1 sequences, presence/absence of effector proteins, k-mer comparisons, and
+single nucleotide polymorphisms indicate that these two strains are genomically dif-
+ferent from 65 known sequenced strains. Functional analysis revealed that ISS-F3/F4
+had higher relative abundances of polyketide synthase domains than a non-plant-
+pathogenic soil isolate, used for biocontrol properties (Fo47), and a clinical isolate
+(FOSC-3a). Putative secondary metabolite analysis indicates that ISS-F3/F4 may pro-
+duce yet-unreported polyketides and nonribosomal peptides. While genomic analysis
+showed that these ISS strains are unlikely to be plant pathogens, a virulence assay
+using an immunocompromised Caenorhabditis elegans model of fusariosis revealed
+that they were virulent and may represent opportunistic pathogens in animals, in-
+cluding humans. However, its effects on the health of immunocompromised humans
+warrant further study.
+IMPORTANCE This is the ﬁrst study to isolate and characterize F. oxysporum isolates
+from a built environment, as well as one that has been exposed to space. The char-
+acterization and analysis of these two genomes may have important implications for
+the medical, agricultural, and food industries as well as for the health of the crew
+who coinhabit the ISS with these strains.
+KEYWORDS Fusarium, International Space Station, fungi, genomics
+F
+usarium oxysporum is a presumed asexual, ﬁlamentous fungus ubiquitous in soil and
+infamous for causing vascular wilt and root rot disease in many economically
+important plants and crops (1). While the number of hosts this species can infect is
+extensive (tomatoes, bananas, cotton, strawberries, eggplants, tulips, soybean, beets, and
+chrysanthemum, to name only a few) (2), individual isolates show a high degree of host
+speciﬁcity and are assigned to formae speciales (f. sp.) based on the host it can infect (3). For
+example, F. oxysporum f. sp. cubense causes fungal wilt in bananas (“Panama disease”) while
+f. sp. melonis, f. sp. tulipae, and f. sp. cucumerimum infect and cause disease in melons, tulips,
+and cucumbers, respectively. At present, there are approximately 150 formae speciales (i.e.,
+host-speciﬁc groups of strains) that have been described (2).
+While well known as a phytopathogen, F. oxysporum can also cause infections in
+humans, ranging from superﬁcial and localized (skin, nail, cornea, and superﬁcial
+wound) in immunocompetent individuals to invasive and disseminated (blood culture,
+Citation Urbaniak C, van Dam P, Zaborin A,
+Zaborina O, Gilbert JA, Torok T, Wang CCC,
+Venkateswaran K. 2019. Genomic
+characterization and virulence potential of two
+Fusarium oxysporum isolates cultured from the
+International Space Station. mSystems 4:
+e00345-18. https://doi.org/10.1128/mSystems
+.00345-18.
+Editor Nicola Segata, University of Trento
+Copyright © 2019 Urbaniak et al. This is an
+open-access article distributed under the terms
+of the Creative Commons Attribution 4.0
+International license.
+Address correspondence to Kasthuri
+Venkateswaran, kjvenkat@jpl.nasa.gov.
+Received 3 January 2019
+Accepted 21 February 2019
+Published 19 March 2019
+RESEARCH ARTICLE
+Molecular Biology and Physiology
+crossm
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+1
+
+deep tissue involvement, or isolation of strain from two or more body sites) in
+immunocompromised patients (4–6). Since members of the fungal genus Fusarium are
+intrinsically resistant to most available antifungals on the market (7), prognosis is often
+poor and sometimes fatal for those afﬂicted with systemic fusariosis (6, 8).
+Fungi are known to produce many bioactive molecules that can beneﬁt humans,
+such as antimicrobials, antialgals, immunosuppressants, compounds cytotoxic to can-
+cer cells, insecticides, and antioxidants (9–11), and F. oxysporum is no exception. F.
+oxysporum isolated from the plants Smallanthus sonchifolius and Catharanthus roseus
+were shown to produce, in appreciable amounts, the anticancer drugs anhydrofusaru-
+bin and beauvericin (12) and vinblastine and vincristine (13), respectively. An isolate of
+F. oxysporum cultured from Juniperus recurva was shown to produce the aryltetralin
+lignin podophyllotoxin (14), which is a precursor for the chemical synthesis of antican-
+cer drugs like etoposide, teniposide, and etopophose (15, 16). Podophyllotoxin is also
+known for its antiviral (17) and antiparasitic (18) activity.
+In an ongoing microbial tracking study of the International Space Station (ISS), two
+F. oxysporum isolates were cultured from the dining table in the U.S. module of the ISS.
+The genomes of these two isolates were sequenced and compared to 65 other F.
+oxysporum isolates. The predicted proteins were annotated and mined for the presence
+of secondary metabolites and putative virulence factors. The virulence of these isolates
+in an immunocompromised (MAPKK-deﬁcient) Caenorhabditis elegans model of inva-
+sive fusariosis was also assessed. This is the ﬁrst study to isolate and characterize F.
+oxysporum isolates from a built environment as well as one that has been exposed to
+space.
+RESULTS
+Two F. oxysporum isolates (designated ISS-F3 and ISS-F4) were cultured from the
+dining table of the U.S. module of the ISS. The genomes were paired-end sequenced
+(2  100 bp) on the Illumina HiSeq platform with a 350-bp insert size, resulting in 48
+million (ISS-F3) and 42 million (ISS-F4) reads. These paired-end reads were de novo
+assembled into scaffolds (k-mer size  86) using ABySS (version 2.0.2) (19). The
+assembled genome size for ISS-F3 was 53.6 Mb and for ISS-F4 was 53.8 Mb, which is
+comparable to the genome size of the model strain, F. oxysporum f. sp. lycopersici strain
+4287 (59.9 Mb) (20). Table 1 provides general assembly statistics of the draft genomes
+of F. oxysporum ISS-F3 and ISS-F4.
+Phylogenetic relationship of ISS-F3/F4 among different F. oxysporum f. sp. The
+conserved marker gene translation elongation factor 1 alpha (EF-1) was used to
+determine the phylogenetic relatedness of ISS-F3/F4 to 62 other F. oxysporum strains,
+belonging to various formae speciales, and seven strains belonging to other Fusarium
+species included as outgroups, based on clonal (asexual) vertical inheritance. EF-1
+allows for phylogenetic species recognition because it is applicable across Fusarium and
+it is informative at or near the species level and orthologous across the genus (21).
+Based on EF-1 phylotyping, F. oxysporum can be divided into 3 distinct clades with
+various clonal lineages within each clade (22, 23). The phylogenetic tree inferred in
+Fig. 1A clusters ISS-F3/F4 into clade 3, belonging to a clonal lineage closely related to
+4 other strains: three members of F. oxysporum f. sp. lycopersici and the non-plant-
+pathogenic biocontrol strain Fo47 (members of a clonal lineage have the same se-
+quence of conserved genes). Three other isolates of interest are highlighted in Fig. 1A
+because they too had been isolated from harsh environments, two cultured from
+ISS-grown Zinnia hybrida plants that caused foliar, stem, and root rot (VEG-01C1 and
+TABLE 1 General assembly statistics for the draft genomes of Fusarium oxysporum ISS-F3/F4 strains
+Isolate
+Read count
+(million)
+k-mer size
+N50 (bp)
+No. of scaffolds
+(total)
+No. of scaffolds
+over 1 kb
+Max scaffold
+length (Mb)
+Genome
+size (Mb)
+GC content (%)
+Coverage ()
+ISS-F3
+48
+86
+923,684
+6,166
+736
+3.24
+53.6
+47.05
+90
+ISS-F4
+42
+86
+940,233
+7,066
+948
+2.23
+53.8
+46.88
+80
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+2
+
+A
+FIG 1 (Continued)
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+3
+
+VEG-01C2), and IMV00293, cultured at the site of the Chernobyl nuclear disaster
+12 years after the explosion. The ISS Z. hybrida strains fell into a different branch from
+ISS-F3/F4 and were most closely related to IMV00293.
+F. oxysporum genomes consist of a “core” set of housekeeping genes and an
+“accessory” genome which is not required for vegetative growth but contains most of,
+if not all, the genes that allow the fungus to invade and cause disease in a host plant
+(20). Utilizing 104 effector candidates, van Dam et al. were able to show that strains
+infecting the same host generally possess a similar set of effectors and that these
+effectors are often identical within a forma specialis (24). This indicates that the
+SIX genes
+Focon_PHW808
+Focon_5176
+Focub_N2
+Focub_II5
+Focub_B2
+Fonon_Tu58 
+Fo_IMV_00293
+Fo_VEG−01C1
+Fo_VEG−01C2
+Focli_FOSC−3a 
+Fonon_MN14 
+Forly_CL57 
+Fonon_Fo47 
+FoISS_F3
+FoISS_F4
+Folyc_016
+Folyc_072
+Folyc_075
+Folyc_4287
+Folyc_007
+Folyc_069
+Folyc_074
+Folyc_029
+Folyc_038
+Folyc_018
+Folyc_004
+Folyc_014
+Folyc_073
+Folyc_002
+Folyc_026
+Fotul_Tu67
+Fopis_HDV247
+Forap_PHW815
+Forcu_031
+Forcu_016
+Forcu_024
+Focuc_011
+Focuc_013
+Focuc_037
+Focuc_015
+Focuc_001
+Focuc_035
+Fomln_010
+Fomln_009
+Fomln_011
+Fomln_001
+Fomln_013
+Fomln_016
+Fomln_012
+Fomln_006
+Fomln_004
+Fomln_005
+Focuc_030
+Focuc_021
+Focuc_018b
+Foniv_037
+Foniv_002
+Foniv_015
+Foniv_019
+Foniv_021
+Foniv_010
+Foniv_013
+Foniv_005
+Foniv_020
+cucurbit infecting 
+formae speciales:
+Fo f. sp. cucumerinum
+Fo f. sp. niveum
+Fo f. sp. rad.-cucumerinum
+Fo f. sp. melonis
+Fo f. sp. lycopersici
+Fo f. sp. cubense
+Fo f. sp. conglutinans
+non-pathogenic
+Fo f.sp. rad.-lycopersici
+non-pathogenic
+clinical isolate
+Fo f. sp. raphani
+Fo f. sp. pisi
+Fo f. sp. tulipae
+non-pathogenic
+B
+FIG 1
+Phylogenetic relationship of ISS-F3/F4 among other F. oxysporum isolates. (A) The phylogenetic tree constructed from EF-1 sequences of 62 F.
+oxysporum isolates places ISS-F3/F4 in clade 3, belonging to a clonal lineage shared by lycopersici_016, lycopersici_072, lycopersici_075, and Fo47. Other
+Fusarium species (bottom) were included to root the tree. The bootstrap conﬁdence (in percent; 1,000 replicates performed) is shown in red numbers in the
+tree. (B) Presence/absence proﬁles of ISS-F3/F4 with 62 other strains based on 104 candidate effector proteins. Colored boxes indicate the presence of a
+particular effector gene, with gray indicating its absence in the genome. The list of effector genes is shown in Data Set S4. Formae speciales that cause disease
+in the same host cluster together, as seen by the groupings of green (cucurbit-infecting strains), red (tomato-infecting strains), and yellow (banana-infecting
+strains). Dark gray represents non-plant-pathogenic isolates, and pink represents strains isolated from or ﬂown to the ISS. Blue represents other plant
+pathogens. ISS-F3/F4 contained relatively few effector genes compared to the number found in the plant pathogens (green, red, yellow, and blue) and showed
+the most similar pattern (number and type) to Fo47, a non-plant-pathogenic soil isolate with a biocontrol function.
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+4
+
+accessory genome, speciﬁcally the effector genes residing in these regions, can be used
+to identify formae speciales within the F. oxysporum species complex (FOSC), including
+newly encountered strains (24). Figure 1B shows the hierarchical clustering of presence/
+absence patterns of 104 effector sequences in ISS-F3/F4 along with 62 other strains. The
+effector proﬁle of ISS-F3/F4 was the most similar to Fo47 (a non-plant-pathogenic soil
+isolate that has been shown to exert a biocontrol function) (25) with similarities to
+another non-plant-pathogenic isolate, MN25, and CL57 (NRRL 26381), an isolate causing
+root rot in tomato, also known as NRRL 26381. The ISS-F3/F4 strains do not contain as
+many effector genes as (almost) all of the plant pathogens examined and do not
+possess any of the SIX genes (see top panel of Fig. 1B), which encode secreted fungal
+proteins that were ﬁrst discovered in the xylem sap of infected tomato plants and have
+a well-studied role in plant pathogenesis (26, 27).
+Relationship between ISS-F3 and ISS-F4. Further analyses were conducted to
+determine how closely related ISS-F3 and ISS-F4 were to each other. The sequences of
+10 phylogenetically informative loci (28) were compared between the two strains, and
+for all 10 loci, the sequences were identical between ISS-F3/F4. Second, a BLAST
+comparison was performed using contigs above 2 kb for each strain. Using ISS-F3 as the
+query, each of the 682 contigs matched a contig in ISS-F4 with either 99% or 100%
+identity with an E value of 0. Last, when single nucleotide polymorphism (SNP) analysis
+was performed against the reference genome Fo47, ISS-F3/F4 had the same single
+nucleotide variants. For this reason, it is believed that ISS-F3/F4 are clonal derivatives of
+each other.
+Strain identiﬁcation. Based on EF-1 phylogeny (Fig. 1A) and the presence/
+absence of effector proteins (Fig. 1B), ISS-F3/F4 appeared to be the most closely related
+to Fo47. To determine whether the ISS strains were Fo47 or represented a distinct
+strain, two in silico genomic comparisons were conducted.
+(i) k-mer comparison. The KMC2 k-mer counter (29) was used to generate 50-bp
+long k-mers from 65 F. oxysporum genomes that were downloaded from GenBank (see
+Table S1 in Data Set S5 in the supplemental material). The k-mers generated from each
+genome were compared against the k-mers from all other genomes to ﬁnd the ones
+that were speciﬁc to each of the 65 genomes analyzed. From all genome-speciﬁc
+k-mers that were identiﬁed, a subset was chosen from each genome to create the F.
+oxysporum k-mer database. These sequences were chosen based on number of occur-
+rences (chosen if they appeared once, instead of multiple times within the genome)
+and the type of sequence (the sequence did not contain a lot of repeats and had a good
+balance of GC and AT ratios). The sequences making up this database are listed in
+Table S2.
+The assembled genomes of ISS-F3/F4 were then compared using BLAST against the
+F. oxysporum k-mer database, and for ISS-F3/F4 to be considered one of the 65 F.
+oxysporum strains, every k-mer in the database belonging to a speciﬁc strain had to
+have a perfect match in the genome. For example, all k-mers generated for strain Fo47
+in the database needed to match sequences in either the ISS-F3 or -F4 genome 100%
+(i.e., 50-bp k-mer/50-bp genome [no mismatches]) for ISS-F3 or -F4 to be considered
+Fo47.
+None of the Fo47 unique k-mer sequences matched sequences in the ISS-F3 or
+ISS-F4 genome, and only 1 k-mer from strains radicis-lycopersici 26381 (CL57), UASWS
+AC1, lycopersici Fol074, and melonis Fom009 found an exact match. Based on the
+criteria above, ISS-F3/F4 were not the same strain as Fo47 nor any of the other 64
+strains tested.
+(ii) Single nucleotide polymorphism (SNP) analysis. SNP genotyping was the
+second in silico comparative method used to determine the relatedness of the ISS
+isolates to that of Fo47. Using Fo47 as the reference genome, the number of SNPs in
+the genomes of ISS-F3/F4 compared to Fo47 was calculated, along with other strains as
+a comparison. These additional strains are listed in Table S3 in Data Set S5, along with
+the reasons for choosing them. Phylogenies of these isolates inferred using maximum
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+5
+
+likelihood from SNP sequences in coding regions across every genome indicate that
+they are distinct from Fo47 and the other strains included (Fig. 2A). Similar results were
+obtained with SNPs across the entire genome (coding and noncoding regions) (data
+not shown). A summary of the total number of SNPs across the genome, the number
+0.06
+12_GCA_000271745_2_FO_FOSC_3_a_V1_genomic_contigs_contig
+GCA_000271705v2_FO_Fo47_V1_genomic
+23_GCA_001702545_1_Foc018_genomic_contigs_contig
+54_GCA_001703175_1_Fol4287_Illumina_genomic_contigs_contig
+GCA_001931975_ASM193197v2_Fsolani_genomic_contig
+52_GCA_001703125_1_FoMN14_genomic_contigs_contig
+5_GCA_000260155_3_FO_CL57_V1_genomic_contigs_contig
+GalaxyF4_8_contigs_contig
+45_GCA_001702995_1_Fol016_genomic_contigs_contig
+F3Galaxy_8_contigs_contig
+A
+B
+cucumerinumFoc018
+cubenseB2
+Fo47
+ISS-F3
+ISS-F4
+FoMN14
+radicis-lycopersiciCL57
+lycopersiciFol016
+lycopersici4287
+FOSC-3a
+IMV00293
+cubense B2
+cucumerinum Foc018
+IMV 00293
+FOSC-3a
+lycopersici 4287
+FoMN14
+ISS-F4
+ISS-F3
+lycopersici strain Fol016
+radicis-lycopersici CL57
+0
+200000
+400000
+600000
+800000
+Isolate
+# SNP
+Total SNP 
+non-coding SNP
+CDS SNP
+FIG 2 Single nucleotide polymorphism (SNP) analysis comparing ISS-F3/F4 to the reference genome
+Fo47. (A) Maximum likelihood tree constructed from SNPs found in the coding regions of the genomes
+of ISS-F3, ISS-F4, and 8 other F. oxysporum strains (see Table S3 in Data Set S5 for reasons for inclusion
+in analysis). ISS-F3/F4 form their own clonal lineage distinct from Fo47 and the other strains. A similar tree
+was inferred when all SNPs across the genome were analyzed. (B) The frequency of SNPs across the entire
+genome (black), the noncoding region of the genome (purple), and the coding region of the genome
+(yellow) is summarized in the bar graph. Fol016 and 26381, well-deﬁned strains, known to be different
+than Fo47, had a lower frequency of SNPs than ISS-F3/F4.
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+6
+
+of SNPs in coding regions, and the number of SNPs in noncoding regions is displayed
+in Fig. 2B. The total numbers of SNPs in ISS-F3/F4 were 150,000 and 152,000, which are
+more than lycopersici Fol016 and radicis-lycopersici 26381 (also known as CL57), which
+are well-deﬁned, characterized strains, known to be different than Fo47.
+Annotation of ISS-F3/F4 genes. Using the gene prediction program AUGUSTUS
+(30), ISS-F3 was predicted to contain 16,648 genes and ISS-F4 had 16,729 genes. This
+number is very close to the predicted number of genes (17,735) for the model strain,
+F. oxysporum f. sp. lycopersici 4287 (20, 31). The predicted genes were annotated with
+BLAST2GO, and 47% of the genes in ISS-F3 and 56% in ISS-F4 could be matched to
+known proteins while the remaining genes were listed as hypothetical (Data Sets S1
+and S2). Among the predicted genes, 273 genes in ISS-F3 and 76 genes in ISS-F4 had
+no similarity to fungal genes in the NCBI database (Data Sets S1 and S2) and could
+possibly represent novel, unidentiﬁed fungal proteins. Gene Ontology (GO) functional
+annotation was also performed with BLAST2GO, and 65% of the predicted genes in
+ISS-F3 and 68% in ISS-F4 could be assigned a function (Data Sets S1 and S2). The most
+frequently represented GO functional assignments were metabolic and cellular pro-
+cesses (category: biological processes), catalytic activity and binding (category: meta-
+bolic function), and membrane and membrane part components (category: cellular
+component) (Fig. 3A). A summary of the 50 most abundant GO terms in each of the 3
+categories mentioned above is presented in Fig. S1. Approximately 15% of the pre-
+dicted genes were classiﬁed as enzymes, with hydrolases dominating followed by
+transferases (Fig. 3B).
+Protein families were classiﬁed and domains predicted with InterProScan, and 91%
+of the predicted proteins in ISS-F3/F4 could be assigned a function. Abundant protein
+domains in ISS-F3/F4 were the major facilitator superfamily (MFS) domain, the Zn(2)-C6
+fungal-type DNA-binding domain, the fungal transcription factor domain, the ankyrin
+repeat-containing domain, and the protein kinase domain (Fig. 4A). The abundant
+protein families were the NAD(P)-binding domain superfamily, MFS transporter super-
+family, P-loop-containing nucleoside triphosphate hydrolase, Zn(2)-C6 fungal-type
+DNA-binding domain superfamily, and the alpha/beta hydrolase fold (Fig. 4B). A
+comparison was performed between the ISS strains isolated during this study and a
+non-plant-pathogenic biocontrol soil isolate (Fo47) and a clinical isolate (FOSC-3a).
+While the most abundant domains and families in ISS-F3/F4 were also the most
+abundant ones in Fo47 and FOSC-3a, the collective proportions differed, with Fo47 and
+FOSC-3a more similar to each other than to ISS-F3/F4 (Fig. 4). There were also many
+domains and families that were present in Fo47 and FOSC-3a that were not found in the
+ISS-F3/F4 genomes and vice versa (Fig. S2). Data Set S3 shows the full list of protein
+domains and families present in each of the different strains and the relative abun-
+dances of each within each genome.
+Identiﬁcation of candidate pathogenicity proteins and secondary metabolites.
+Polyketide synthases (PKSs) are large, multidomain protein complexes that catalyze the
+sequential production of a diverse array of secondary metabolites (SM) with a range of
+biological activities, including pigmentation, plant growth regulation, plant pathoge-
+nicity/invasion, and toxicity toward humans and animals, with some having potential
+for drug development and human beneﬁt (32–34). Different PKSs catalyze the synthesis
+of structurally distinct polyketides, and to date 52 PKSs have been identiﬁed in Fusarium
+with 16 found in F. oxysporum (35).
+Due to the importance of PKS in SM production, predicted proteins composed of
+PKS domains, based on the InterProScan results above, were further studied to identify
+which PKSs (and the resulting polyketides) ISS-F3/F4 have the potential to express. The
+amino acid sequences of ISS-F3/F4 proteins with PKS domains were compared using
+BLAST against a database composed of PKSs identiﬁed from 12 strains of F. oxysporum
+and 9 other Fusarium species (35).
+The BLAST searches revealed the presence of 11 PKSs in the genomes of ISS-F3/F4
+which have all been detected in other F. oxysporum strains (Fig. 5). Compared to the 12
+F. oxysporum strains, the presence/absence PKS proﬁle of ISS-F3/F4 best resembled that
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+7
+
+of Fo47, followed by FOSC-3a (Fig. 5). In addition to the 11 PKS proteins identiﬁed in
+ISS-F3/F4, there were two proteins with ketoacyl synthase domains that did not match
+anything in the database and could possibly represent novel, yet-unidentiﬁed Fusarium
+PKSs.
+A more extensive SM assessment was performed with antiSMASH, which identiﬁed
+47 biosynthetic gene clusters in the genome of ISS-F3 and 46 in ISS-F4. To put this
+ﬁnding into perspective, 44 biosynthetic gene clusters were identiﬁed in Fo47 while 47
+clusters were present in the FOSC-3a. All four strains had biosynthetic gene clusters in
+0
+500
+1,000
+1,500
+2,000
+2,500
+3,000
+3,500
+4,000
+4,500
+5,000
+5,500
+6,000
+#Seqs
+metabolic process
+cellular process
+biological regulation
+localization
+regulation of biological process
+cellular component organization or biogenesis
+response to stimulus
+signaling
+negative regulation of biological process
+positive regulation of biological process
+detoxification
+developmental process
+reproduction
+multi-organism process
+reproductive process
+rhythmic process
+biological adhesion
+growth
+carbon utilization
+nitrogen utilization
+BP
+catalytic activity
+binding
+transcription regulator activity
+transporter activity
+structural molecule activity
+molecular function regulator
+antioxidant activity
+molecular transducer activity
+nutrient reservoir activity
+toxin activity
+molecular carrier activity
+cargo receptor activity
+protein tag
+translation regulator activity
+MF
+membrane
+membrane part
+cell
+cell part
+organelle
+protein-containing complex
+organelle part
+membrane-enclosed lumen
+extracellular region
+virion
+virion part
+supramolecular complex
+nucleoid
+extracellular region part
+CC
+A
+B
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+550
+600
+650
+700
+750
+800
+850
+900
+950
+1,000
+1,050
+1,100
+1,150
+#Seqs
+1.- Oxidoreductases
+2.- Transferases
+3.- Hydrolases
+4.- Lyases
+5.- Isomerases
+6.- Ligases
+EC Classes
+FIG 3 Summary of gene ontology (GO) annotation of the predicted genes in ISS-F3/F4. Predicted genes in ISS-F3/F4 were predicted using AUGUSTUS and then
+annotated using Blast2GO. Functions could be assigned to 10,789 of the 16,648 genes in ISS-F3 and 11,305 of the 16,729 genes in ISS-F4. (A) Bar charts
+summarizing the most abundant GO terms for ISS-F3. BP, biological processes; MF, metabolic function; CC, cellular components. (B) Bar charts summarizing the
+abundance of enzyme classes in ISS-F3. NB, ISS-F3/F4 had the same distributions of GO and enzyme class abundances, and thus, only ISS-F3 is shown for
+simplicity. The distributions in ISS-F3/F4 were similar to Fo47 (non-plant-pathogenic soil isolate) and FOSC-3a (clinical isolate) (data not shown).
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+8
+
+A
+FOSC3a
+Fo47
+F4
+F3
+(IPR013130) Ferric reductase transmembrane component−like domain
+(IPR002048) EF−hand domain
+(IPR001214) SET domain
+"(IPR003661) Signal transduction histidine kinase, dimerisation/phosphoacceptor domain"
+"(IPR001223) Glycoside hydrolase family 18, catalytic domain"
+(IPR033121) Peptidase family A1 domain
+(IPR000608) Ubiquitin−conjugating enzyme E2
+"(IPR022742) Serine aminopeptidase, S33"
+"(IPR020806) Polyketide synthase, phosphopantetheine−binding domain"
+"(IPR000683) Oxidoreductase, N−terminal"
+(IPR012951) Berberine/berberine−like
+(IPR010929) CDR ABC transporter
+(IPR002889) Carbohydrate−binding WSC
+(IPR005467) Histidine kinase domain
+(IPR001849) Pleckstrin homology domain
+(IPR001466) Beta−lactamase−related
+(IPR001452) SH3 domain
+(IPR007111) NACHT nucleoside triphosphatase
+(IPR006913) Glutathione−dependent formaldehyde−activating enzyme/centromere protein 
+"(IPR014014) RNA helicase, DEAD−box type, Q motif"
+"(IPR001155) NADH:flavin oxidoreductase/NADH oxidase, N−terminal"
+(IPR013766) Thioredoxin domain
+(IPR001433) Oxidoreductase FAD/NAD(P)−binding
+"(IPR004046) Glutathione S−transferase, C−terminal"
+(IPR005123) Oxoglutarate/iron−dependent dioxygenase
+(IPR001623) DnaJ domain
+"(IPR001789) Signal transduction response regulator, receiver domain"
+(IPR003594) Histidine kinase/HSP90−like ATPase
+"(IPR013057) Amino acid transporter, transmembrane domain"
+"(IPR000330) SNF2−related, N−terminal domain"
+(IPR002937) Amine oxidase
+(IPR002575) Aminoglycoside phosphotransferase
+(IPR000757) Glycoside hydrolase family 16
+"(IPR025110) AMP−binding enzyme, C−terminal domain"
+(IPR026891) Fibronectin type III−like domain
+(IPR013525) ABC−2 type transporter
+(IPR005135) Endonuclease/exonuclease/phosphatase
+"(IPR004843) Calcineurin−like phosphoesterase domain, ApaH type"
+"(IPR000172) Glucose−methanol−choline oxidoreductase, N−terminal"
+(IPR002772) Glycoside hydrolase family 3 C−terminal domain
+(IPR001279) Metallo−beta−lactamase
+(IPR000845) Nucleoside phosphorylase domain
+(IPR000209) Peptidase S8/S53 domain
+"(IPR007889) DNA binding HTH domain, Psq−type"
+"(IPR007867) Glucose−methanol−choline oxidoreductase, C−terminal"
+(IPR016040) NAD(P)−binding domain
+(IPR000477) Reverse transcriptase domain
+(IPR000210) BTB/POZ domain
+"(IPR010987) Glutathione S−transferase, C−terminal−like"
+"(IPR001878) Zinc finger, CCHC−type"
+"(IPR001764) Glycoside hydrolase, family 3, N−terminal"
+(IPR004827) Basic−leucine zipper domain
+(IPR001509) NAD−dependent epimerase/dehydratase
+(IPR023753) FAD/NAD(P)−binding domain
+(IPR001199) Cytochrome b5−like heme/steroid binding domain
+(IPR009081) Phosphopantetheine binding ACP domain
+"(IPR004839) Aminotransferase, class I/classII"
+(IPR023210) NADP−dependent oxidoreductase domain
+(IPR006680) Amidohydrolase−related
+(IPR005225) Small GTP−binding protein domain
+"(IPR004045) Glutathione S−transferase, N−terminal"
+(IPR004841) Amino acid permease/ SLC12A domain
+(IPR023631) Amidase signature domain
+"(IPR011527) ABC transporter type 1, transmembrane domain"
+(IPR011545) DEAD/DEAH box helicase domain
+"(IPR002018) Carboxylesterase, type B"
+(IPR017927) Ferredoxin reductase−type FAD−binding domain
+(IPR013026) Tetratricopeptide repeat−containing domain
+"(IPR001841) Zinc finger, RING−type"
+"(IPR008906) HAT, C−terminal dimerisation domain"
+(IPR006076) FAD dependent oxidoreductase
+"(IPR003959) ATPase, AAA−type, core"
+(IPR015590) Aldehyde dehydrogenase domain
+(IPR013094) Alpha/beta hydrolase fold−3
+"(IPR006094) FAD linked oxidase, N−terminal"
+(IPR000504) RNA recognition motif domain
+"(IPR016166) FAD−binding, type 2"
+(IPR000182) GNAT domain
+(IPR000873) AMP−dependent synthetase/ligase
+(IPR001810) F−box domain
+(IPR002938) FAD−binding domain
+"(IPR001650) Helicase, C−terminal"
+(IPR003439) ABC transporter−like
+(IPR006600) HTH CenpB−type DNA−binding domain
+"(IPR014001) Helicase superfamily 1/2, ATP−binding domain"
+(IPR004875) DDE superfamily endonuclease domain
+(IPR000073) Alpha/beta hydrolase fold−1
+(IPR008030) NmrA−like domain
+(IPR013087) Zinc finger C2H2−type
+"(IPR013154) Alcohol dehydrogenase, N−terminal"
+"(IPR013149) Alcohol dehydrogenase, C−terminal"
+(IPR017986) WD40−repeat−containing domain
+"(IPR020843) Polyketide synthase, enoylreductase domain"
+(IPR010730) Heterokaryon incompatibility
+(IPR003593) AAA+ ATPase domain
+(IPR000719) Protein kinase domain
+(IPR020683) Ankyrin repeat−containing domain
+"(IPR007219) Transcription factor domain, fungi"
+(IPR001138) Zn(2)−C6 fungal−type DNA−binding domain
+(IPR020846) Major facilitator superfamily domain
+0.01
+0.02
+0.03
+0.04
+Value
+0
+50
+100
+150
+200
+250
+Color Key
+and Histogram
+Count
+FIG 4 Annotation of protein domains and protein families with InterProScan. Protein families were classiﬁed and domains were predicted using InterProScan.
+The heat map shows the relative abundances of the top 100 most abundant domains (A) and families (B) in ISS-F3/F4, in addition to a non-plant-pathogenic
+soil isolate (Fo47) and a clinical isolate, isolated from a patient with fusariosis (FOSC-3a). Red represents high relative abundances, and green represents low
+relative abundances.
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+9
+
+B
+FOSC3a
+Fo47
+F3
+F4
+(IPR029071) Ubiquitin−like domain superfamily
+(IPR020568) Ribosomal protein S5 domain 2−type fold
+(IPR011008) Dimeric alpha−beta barrel
+(IPR008972) Cupredoxin
+(IPR016135) Ubiquitin−conjugating enzyme/RWD−like
+(IPR001757) P−type ATPase
+"(IPR011059) Metal−dependent hydrolase, composite domain superfamily"
+"(IPR023298) P−type ATPase, transmembrane domain superfamily"
+"(IPR008250) P−type ATPase, A domain superfamily"
+"(IPR023299) P−type ATPase, cytoplasmic domain N"
+(IPR029033) Histidine phosphatase superfamily
+"(IPR013328) 6−phosphogluconate dehydrogenase, domain 2"
+(IPR036890) Histidine kinase/HSP90−like ATPase superfamily
+"(IPR036962) Glycoside hydrolase, family 3, N−terminal domain superfamily"
+(IPR036881) Glycoside hydrolase family 3 C−terminal domain superfamily
+(IPR036400) Cytochrome b5−like heme/steroid binding domain superfamily
+(IPR029062) Class I glutamine amidotransferase−like
+"(IPR036875) Zinc finger, CCHC−type superfamily"
+"(IPR006710) Glycoside hydrolase, family 43"
+(IPR036736) ACP−like superfamily
+(IPR036691) Endonuclease/exonuclease/phosphatase superfamily
+(IPR036812) NADP−dependent oxidoreductase domain superfamily
+(IPR011333) SKP1/BTB/POZ domain superfamily
+(IPR020946) Flavin monooxygenase−like
+(IPR036928) Amidase signature (AS) superfamily
+(IPR017938) Riboflavin synthase−like beta−barrel
+"(IPR036282) Glutathione S−transferase, C−terminal domain superfamily"
+(IPR029052) Metallo−dependent phosphatase−like
+(IPR023395) Mitochondrial carrier domain superfamily
+(IPR016035) Acyl transferase/acyl hydrolase/lysophospholipase
+"(IPR008927) 6−phosphogluconate dehydrogenase−like, C−terminal domain superfamily"
+(IPR036866) Metallo−hydrolase/oxidoreductase superfamily
+(IPR032710) NTF2−like domain superfamily
+(IPR035994) Nucleoside phosphorylase superfamily
+(IPR011993) PH−like domain superfamily
+(IPR014729) Rossmann−like alpha/beta/alpha sandwich fold
+"(IPR036640) ABC transporter type 1, transmembrane domain superfamily"
+"(IPR012340) Nucleic acid−binding, OB−fold"
+(IPR011050) Pectin lyase fold/virulence factor
+(IPR012334) Pectin lyase fold
+"(IPR011042) Six−bladed beta−propeller, TolB−like"
+(IPR008928) Six−hairpin glycosidase−like
+(IPR007568) RTA−like protein
+(IPR036852) Peptidase S8/S53 domain superfamily
+"(IPR021157) Cytochrome c1, transmembrane anchor, C−terminal"
+(IPR002293) Amino acid/polyamine transporter I
+"(IPR023296) Glycosyl hydrolase, five−bladed beta−propellor domain superfamily"
+(IPR036047) F−box−like domain superfamily
+(IPR011051) RmlC−like cupin domain superfamily
+"(IPR016162) Aldehyde dehydrogenase, N−terminal"
+"(IPR016167) FAD−binding, type 2, subdomain 1"
+(IPR023214) HAD superfamily
+(IPR016161) Aldehyde/histidinol dehydrogenase
+"(IPR016169) CO dehydrogenase flavoprotein−like, FAD−binding, subdomain 2"
+(IPR036390) Winged helix DNA−binding domain superfamily
+(IPR032466) Metal−dependent hydrolase
+"(IPR036318) FAD−binding, type 2−like superfamily"
+(IPR036236) Zinc finger C2H2 superfamily
+(IPR029044) Nucleotide−diphospho−sugar transferases
+(IPR014710) RmlC−like jelly roll fold
+(IPR035979) RNA−binding domain superfamily
+(IPR009057) Homeobox−like domain superfamily
+(IPR036412) HAD−like superfamily
+(IPR013783) Immunoglobulin−like fold
+(IPR013320) Concanavalin A−like lectin/glucanase domain superfamily
+(IPR016181) Acyl−CoA N−acyltransferase
+(IPR036397) Ribonuclease H superfamily
+"(IPR015422) Pyridoxal phosphate−dependent transferase, subdomain 2"
+"(IPR015421) Pyridoxal phosphate−dependent transferase, major region, subdomain 1"
+(IPR036249) Thioredoxin−like superfamily
+(IPR015424) Pyridoxal phosphate−dependent transferase
+(IPR008979) Galactose−binding−like domain superfamily
+(IPR036388) Winged helix−like DNA−binding domain superfamily
+(IPR032675) Leucine−rich repeat domain superfamily
+(IPR013785) Aldolase−type TIM barrel
+"(IPR013083) Zinc finger, RING/FYVE/PHD−type"
+(IPR003663) Sugar/inositol transporter
+(IPR016024) Armadillo−type fold
+(IPR011989) Armadillo−like helical
+(IPR036322) WD40−repeat−containing domain superfamily
+(IPR021858) Fungal transcription factor
+(IPR011032) GroES−like superfamily
+(IPR012337) Ribonuclease H−like superfamily
+(IPR001128) Cytochrome P450
+(IPR036396) Cytochrome P450 superfamily
+(IPR011990) Tetratricopeptide−like helical domain superfamily
+(IPR002347) Short−chain dehydrogenase/reductase SDR
+(IPR017853) Glycoside hydrolase superfamily
+(IPR015943) WD40/YVTN repeat−like−containing domain superfamily
+"(IPR005828) Major facilitator, sugar transporter−like"
+(IPR036770) Ankyrin repeat−containing domain superfamily
+(IPR029063) S−adenosyl−L−methionine−dependent methyltransferase
+(IPR011009) Protein kinase−like domain superfamily
+(IPR036188) FAD/NAD(P)−binding domain superfamily
+(IPR011701) Major facilitator superfamily
+(IPR029058) Alpha/Beta hydrolase fold
+(IPR036864) Zn(2)−C6 fungal−type DNA−binding domain superfamily
+(IPR027417) P−loop containing nucleoside triphosphate hydrolase
+(IPR036259) MFS transporter superfamily
+(IPR036291) NAD(P)−binding domain superfamily
+0.01
+0.02
+0.03
+0.04
+Value
+0
+50
+100
+150
+Color Key
+and Histogram
+Count
+FIG 4 (Continued)
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+10
+
+their genomes that are involved in the production of type 1 polyketides, nonribosomal
+peptides, indoles, terpenes, and polyketide/nonribosomal peptide hybrids. While ISS-
+F3, ISS-F4, and Fo47 had clusters involved in type III polyketide production, FOSC-3a did
+not appear to have that machinery in its genome. A summary of the biosynthetic gene
+clusters detected in the ISS-F3, ISS-F4, Fo47, and FOSC-3a genomes is shown in Fig. S3.
+Virulence of F. oxysporum strains estimated in C. elegans model. F. oxysporum
+f. sp. lycopersici strain 4287, a well-characterized model pathogen of tomato plants, was
+shown to produce systemic disease in immunocompromised mice, resulting in a high
+death rate (36). Utilizing F. oxysporum strain 4287 knockout mutants that exhibit altered
+virulence in tomato plants, it was shown that certain virulence factors essential in plant
+pathogenesis were dispensable in mammalian pathogenesis and vice versa (36). This
+raises the possibility that certain phytopathogens could also be virulent in humans
+depending on their health status. This is concerning given the fact that a recent study
+on the impact of space on fungal pathogenesis has shown that Aspergillus fumigatus
+isolates cultured from ISS surfaces were more virulent in a zebraﬁsh model of invasive
+aspergillosis than Earth-based clinical isolates (37).
+This prompted the examination of the virulence potential of ISS-F3/F4 in an immu-
+nocompromised (MAPKK-deﬁcient) C. elegans model of invasive fusariosis. Included for
+comparison was an F. oxysporum strain, IMV00293, isolated in the aftermath of the
+Chernobyl disaster, ﬂown to the ISS and grown for 12 days (“293gr”), and grown
+concomitantly on Earth (“293sp”).
+Figure 6 demonstrates the effect of ﬁve strains of F. oxysporum on mortality of C.
+elegans AU37. Kaplan-Meier survival curves of C. elegans analyzed with the log rank
+(Mantel-Cox) test demonstrated that the virulence of F. oxysporum ISS-F4 was signiﬁ-
+cantly greater than other strains (P  0.0001) (Fig. 6A). The culturing conditions for
+fungal growth such as growing without antibiotic or with antibiotic used to prepare
+FIG 5 Presence/absence proﬁle of polyketide synthases (PKSs) detected in the genomes of ISS-F3/F4. The sequences of predicted genes that had a ketoacyl
+synthase domain (one of 3 essential domains in polyketide synthases [PKSs]) were compared with BLAST against a PKS database (35) to determine which PKSs
+ISS-F3/F4 had the ability to produce. Eleven PKSs found in ISS-F3/F4 are also present in 12 other F. oxysporum species that have been previously studied (35).
+However, there were two additional PKSs, unkA and unkB, in ISS-F3/F4 that did not have any matches in the database. The ﬁrst column represents the PKS,
+the last column shows the polyketide that the PKS makes (if known), and the middle columns indicate the F. oxysporum strains. Colored boxes indicate the
+presence of a speciﬁc PKS in the genome. FoZG, Fo47; FoYG, FOSC-3a; FoXG, lycopersici 4287; FoXB, Fo5176; FoQG, raphani NRRL 54005; FoTG, vasinfectum
+NRRL 25433; FoMG, melonis NRRL 26406; FoIG, cubense tropical race 4; FoCG, radicis-lycopersici 26381; FoWG, MN25; FoVG, pisi (HDV 247); FoPG, conglutinans
+race 2 NRRL 54008. Amino acid sequences for the unknown PKSs in ISS-F3 can be found in Data Set S1 (g14942 and g11694), and those for ISS-F4 can be found
+in Data Set S2 (g15849 and g12099). NB, the sequences are identical between ISS-F3/F4.
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+11
+
+conidia did not affect ISS-F4 killing ability (P  0.6888). The majority of worms died due
+to F. oxysporum hyphae piercing through the worm body (Fig. 6B); however, ISS-F4
+virulence was attributed to both hypha- and non-hypha-related killing (Fig. 6C),
+whereas ISS-F3 virulence was attributed solely to hypha-related mortality (Fig. 6D). The
+hypha-related killing of ISS-F4 was still signiﬁcantly greater than other strains (P 
+0.0129) (Fig. 6B). Importantly, while ISS-F3, 293gr, and 293sp had less killing capability
+than ISS-F4, they should be still considered virulent, as their related mortality for worms
+reached 50% at 50 h. To note, there were no differences in mortality between 293gr and
+293sp, indicating that growth on the ISS (12 days) did not change the virulence of this
+strain. Figure 7 shows microscopic images of C. elegans worms with hypha penetration,
+22 h and 46 h after exposure to ISS-F4 conidia.
+DISCUSSION
+This study presents the genomic analysis of two F. oxysporum isolates, cultured from
+the ISS, during an ongoing microbial tracking study. The phylogenetic placement of
+these two strains based on EF-1 nucleotide sequence and whole-genome SNPs shows
+that they are within the genetic variation of terrestrial strains and that their ability to
+thrive in the space environment was not contingent on enhanced genetic variation.
+F. oxysporum strains are well known for their plant pathogenicity, and for successful
+infection of its plant host, effector proteins are secreted from the fungus that aid in the
+colonization process. Performing disease assays to determine host speciﬁcity is both
+laborious and time-consuming; however, a recent molecular screening method based
+on 104 effector proteins was developed by van Dam et al. which can predict host
+speciﬁcity in F. oxysporum (24). The presence/absence of these effector proteins in
+ISS-F3/F4 was determined and compared to 62 other strains from a variety of formae
+0
+2 0
+4 0
+6 0
+0
+5 0
+1 0 0
+F3  total
+F 3  hyphae
+0
+2 0
+4 0
+6 0
+0
+5 0
+1 0 0
+F4  total
+F4 hyphae 
+0
+2 0
+4 0
+6 0
+0
+5 0
+1 0 0
+F3
+F4
+293 sp
+293 gr
+F4 antib
+A
+C
+B
+D
+0
+2 0
+4 0
+6 0
+0
+5 0
+1 0 0
+Time, hrs
+F 3  hyphae
+F 4  hyphae
+293 sp hyphae
+293 gr hyphae
+F 4 antib hyphae
+Time, hrs
+Time, hrs
+Time, hrs
+Perce n t s u rviva l
+Perce n t s u rviva l  
+Perce n t s u rviva l  
+Perce n t s u rviva l  
+FIG 6 Virulence of Fusarium oxysporum strains in C. elegans AU37 model. (A) Kaplan-Meier survival curves to determine total death of
+worms caused by F. oxysporum strains (n  90 worms per fungal strain, results accumulated from 3 different experiments, 3 biological
+replicates per experiment, 10 worms per replicate). P  0.0001 for F4 and F4antib compared to all other strains. (B) Kaplan-Meier survival
+curves to determine the hypha-related death of worms (n  90 worms per fungal strain, results accumulated from 3 different experiments,
+3 biological replicates per experiment, 10 worms per replicate). P  0.0129 for F4 and F4antib compared to all other strains. (C and D)
+Comparison of hypha-related and total deaths of C. elegans caused by ISS-F4 (C) and ISS-F3 (D). Total deaths of C. elegans caused by ISS-F4
+were signiﬁcantly higher than the deaths associated with hyphae piercing through the body (P  0.0102, n  90, log rank [Mantel-Cox]
+test). There is no statistical difference between total and hypha-related deaths caused by ISS-F3 (P  0.2465, n  90). NB, 293sp is the
+IMV00293 strain that was isolated from Chernobyl and grown on the ISS for 12 days, and 293gr is IMV00293 that was concomitantly grown
+for 12 days on Earth.
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+12
+
+speciales. The ISS strains contained relatively few candidate effector genes compared to
+phytopathogens, with numbers similar to that detected in two non-plant-pathogenic
+strains, Fo47 and MN14. The ISS isolates also did not contain any of the 14 secreted in
+xylem (SIX) effector genes, which encode cysteine-rich secreted proteins that appear to
+manipulate host defenses to promote infection (38). Based on the effector content, it
+is unlikely that ISS-F3/F4 are plant pathogens. VEG-01C1 and VEG-01C2, isolated from
+Z. hybrida plants grown on the ISS and whole-genome sequences (39) also displayed
+relatively few effector genes (Fig. 1B) and were unable to infect healthy Z. hybrida
+plants (G. Massa, personal communication).
+Based on effector content and EF-1 phylogeny, ISS-F3/F4 appeared to be the most
+closely related to Fo47, a non-plant-pathogenic soil isolate known for its biocontrol
+properties. Based on the number of SNPs across the genome, the phylogeny inferred
+FIG 7 Images of C. elegans AU37 with hyphae of F. oxysporum ISS-F4 piercing through worm body. Microscopic images taken at 22 h
+(A) and 46 h (B) after coincubation of C. elegans with ISS-F4 conidia. Solid arrows point out the hyphae piercing through the worm
+body. Dotted arrows show growing extended hyphae that initially penetrated from the intestinal tube. The images were taken with
+the Olympus SZX16 microscope (5 magniﬁcation).
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+13
+
+using maximum likelihood from SNP sequences in both coding and noncoding regions,
+and the k-mer analysis, ISS-F3/F4 were not Fo47 or identical to any of the 65 strains
+compared in this study. Thus, it appears that these ISS isolates represent a genomically
+unique strain, which has not yet been identiﬁed and characterized to date.
+The ISS is a hermetically sealed system, closed off from its surrounding environment,
+with microbial introduction being of terrestrial origin from astronauts and payloads.
+ISS-F3/F4 were most likely introduced in the same fashion, so it begs the question why
+they had been identiﬁed only on the ISS and not on Earth, where 150 formae speciales
+have already been characterized (2). One hypothesis is that ISS-F3/F4 are present in
+relatively low abundances on Earth but were selected because of their ability to
+withstand ISS-associated environmental pressures such as increased radiation, which
+compared to terrestrial indoor buildings, is 100 times greater. In a recent study by Byrne
+et al., it was found that Escherichia coli developed extreme resistance to ionizing
+radiation, comparable to that observed with Deinococcus radiodurans, with mutations
+in only 9 genes, all of which happen to be involved in radiation resistance (40). When
+these mutations were repaired, resistance was lost and the cells became sensitive to
+radiation (40). This paper showed for the ﬁrst time that evolution of resistance may
+occur via genetic adaptation rather than passive mechanisms based on changes in
+cellular proteins. We therefore hypothesized that based on the sequences of ﬁve genes
+known to have a role in radiation resistance in fungi, ISS-F3/F4 would appear to be
+more closely related to IMV00293 (Chernobyl isolate) and VEG-01C1/VEG-01C2 (ISS Z.
+hybrida isolates) (as they are strains also isolated from high-radiation environments)
+compared to 64 other F. oxysporum strains. An inferred maximum likelihood tree was
+constructed from concatenated sequences of rad54, rad53, rad51, rad2, and phr1 (a
+photolyase) found in ISS-F3, ISS-F4, IMV00293, VEG-01C1, VEG-01C2, and 64 other F.
+oxysporum strains. The branching observed with the radiation resistance genes was
+similar to that observed with EF-1 in which ISS-F3/F4 grouped together, apart from
+IMV00293, VEG-01C1, and VEF-01C2, which grouped together, with all ﬁve isolates
+being within the genetic variation of the 64 other strains included (see Fig. S4 in the
+supplemental material). A proteomics approach may provide more insight into whether
+ISS-F3/F4 have a selective advantage for survival on the ISS and what that may entail.
+The genomes of ISS-F3/F4 were largely made up of gene ontology categories
+involved in metabolic and cellular processes and catalytic activity and binding. Overall,
+the relative abundances of GO categories for ISS-F3/F4 were similar to that observed in
+FOSC-3a, a clinical isolate, and Fo47, a biocontrol, non-plant-pathogenic strain. How-
+ever, there were differences in the relative abundances and presence/absence of
+protein domains and families between ISS-F3/F4 and FOSC-3a and Fo47, highlighting
+the uniqueness of these strains. One such difference was the higher relative abundance
+of genes encoding polyketide synthase domains in ISS-F3/F4. Each PKS makes a unique
+polyketide, which collectively represent structurally diverse natural products with
+commercial signiﬁcance for the pharmaceutical industries (41). A testament to its
+importance is reﬂected in the annual sales of pharmaceuticals derived from polyketides,
+which routinely reach $20 billion (42). For example, the anticancer drugs tetracycline
+and doxorubicin, the cholesterol-lowering drug lovastatin, the antibiotics erythromycin
+and rifamycin, and the fungicide strobilurin are all polyketides that have been isolated
+from either bacteria or fungi (43). A BLAST search against a PKS database (35) showed
+that ISS-F3/F4 had the genomic machinery to produce 13 polyketides, 11 of which have
+been found in other F. oxysporum strains. The two sequences in ISS-F3/F4 that did not
+have any matches in the PKS database did match F. oxysporum hypothetical proteins in
+NCBI. A more extensive analysis using proteomics and metabolomics will be performed
+to elucidate the natural product repertoire of ISS-F3/F4.
+F. oxysporum, though a well-known plant pathogen, may cause various infections in
+humans and is a cause of emerging infections in immunodeﬁcient patients (44–46).
+Vertebrate and nonvertebrate models are well established to test pathogens for their
+potential virulence (36, 47–49). For virulence testing of F. oxysporum, a host is usually
+immunosuppressed to make it susceptible to fungal infection (50). Symptoms of
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+14
+
+disseminated fusariosis caused by F. oxysporum are remarkably similar between animals
+and humans. They include development of invasive structures, including hypha micro-
+conidia and chlamydospores, causing massive colonization of organs, and which can
+cause thrombosis and necrosis (4, 50, 51). The nonvertebrate host C. elegans, a
+free-living soil nematode, is one of the most useful models to study the virulence of
+fungi and is well established by many researchers (52–54). C. elegans has an innate
+immune response mechanism that is activated in the response to pathogens, including
+fungi (55, 56). A key component of the C. elegans immune response is the p38
+mitogen-activated protein kinase (MAPK) pathway (57). SEK-1 encodes a mitogen-
+activated protein kinase kinase (MAPKK) in this pathway and thus plays a vital role in
+pathogen resistance in C. elegans (58). For this reason, SEK-1 mutants are considered
+“immunocompromised” worms. Matricidal hatching of progeny inside the parent
+worms occurs in SEK-1-deﬁcient C. elegans, and therefore, a mutation in glp-4, a locus
+required for normal proliferation of the germ line (59), is required to avoid bias effects
+due to progeny hatching. The glp-4 mutants are sterile at the restrictive temperature of
+25°C, at which C. elegans experiments are performed.
+Using the glp-4/sek-1 mutant strain AU37 of C. elegans obtained from the Caenorhabditis
+Genetics Center, we observed that ISS-F4 was the most virulent, even compared to ISS-F3,
+despite the fact that ISS-F3/F4 have very similar genomes and initially were thought to be
+clonal derivatives of each other. Since ISS-F4 demonstrated killing ability by both hypha
+piercing-related and -unrelated mechanisms, it is likely that it produces secreted virulence
+factors. It is known that secreted proteins such as RP-1-like (60) and secreted in xylem (SIX)
+proteins (61), which are regulated by Fusarium transcription factor 1 (FTF1) (62), are required
+for full virulence of F. oxysporum. Further work is required to determine if there are
+differences in production and regulation of the secreted factors between ISS-F3/F4 strains
+and if time-dependent exposure to the ISS environment may affect this regulation.
+MATERIALS AND METHODS
+Isolation of fungal strains. Surfaces (1 m2) were sampled on the ISS using premoistened 9-in. by
+9-in. polyester wipes (ITW Texwipe, Mahwah, NJ) that were prepared as part of an ongoing microbial
+tracking study during ﬂight sampling 3 (6 May 2016). Wipes were stored at room temperature (RT) before
+being brought back to Earth, 6 days after sampling, where they were processed as described previously
+(63). Material from the wipes was plated, 100 l, on potato dextrose agar (PDA) supplemented with
+chloramphenicol (ﬁnal concentration, 100 g/ml) and incubated at 25°C for 7 days. Fusarium oxysporum,
+identiﬁed by morphology and ITS region sequencing, was isolated from the ISS dining table. The two
+isolates were designated ISS-F3 and ISS-F4.
+Whole-genome sequencing. (i) Genomic DNA extraction. Freezer stocks of ISS-F3/F4 were plated
+on potato dextrose agar (PDA) plates and incubated at 25°C for 5 days, at which time the entire plate was
+covered with fungal growth. The growth over the entire plate was scraped into a sterile mortar and
+pestle containing a small amount of liquid nitrogen. The colonies were ground into a powder and then
+transferred into PowerBead tubes from the MoBio PowerSoil DNA isolation kit (Qiagen, USA; catalog
+number 12888), and the extraction protocol was followed per the manufacturer’s instructions, except for
+the last step, in which DNA was eluted in 80 l of solution C6 (i.e., elution buffer). DNA was stored at
+20°C until sent for sequencing.
+(ii) Sequencing and assembly. Genomic DNA was paired-end sequenced (2  100 bp) with a 350-bp
+insert size on the Illumina HiSeq 2500 platform by Macrogen (Rockville, MD, USA). Totals of 48 million
+reads for F3 and 42 million reads for F4 were generated. Trimmomatic on the Galaxy server (https://
+usegalaxy.org) was used to remove the sequencing adaptors (settings: maximum mismatch, 2; accuracy
+of the match between the two adaptor-ligated reads, 30; accuracy of the match between any adaptor,
+10) and to trim the leading and trailing ends (settings: minimum quality required to keep a base, 3).
+Postprocessed reads were de novo assembled using ABySS version 2.0.2 (19) using the default settings.
+Different k-mer sizes ranging from 68 to 90 were tested in order to ﬁnd the one that gave the highest
+N50 score and lowest number of scaffolds/contigs, after assembly. The k-mer size 86 gave the best results
+for both F3 and F4, and the resulting assemblies were used for downstream analyses.
+Phylogenetic analysis. The phylogeny of the newly identiﬁed strains was assessed by extracting the
+full-length gene sequence of translation elongation factor 1 alpha (EF-1) from each of the genomes
+using BLASTN. The sequences were aligned using MUSCLE with default parameters (64), and phylogeny
+was inferred with PhyML (65) (1,000 bootstraps; percent bootstrap conﬁdence is shown in red numbers
+in the tree). The trees were visualized using ETE 3 (66). The effector clustering was done on only the F.
+oxysporum strains, using the list of 104 curated F. oxysporum effector candidate genes and the same
+clustering method as described in the work of van Dam et al. (24). Brieﬂy, 2.5-kb regions up- and
+downstream of a miniature impala (mimp) transposable element were scanned for potential open
+reading frames (ORFs) containing a signal peptide. This procedure was previously done by van Dam et
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+15
+
+al. (24) for 59 individual isolates of F. oxysporum, and the resulting effector candidate genes were
+grouped and merged into a list. Obvious false positives and transposable elements were removed, and
+multiple instances of the same effector were reduced to one representative. This curated list represents
+the “effectorome” of a varied set of plant-pathogenic formae speciales of F. oxysporum. Screening for the
+presence of the putative 104 effectors was done using BLASTN (as described above). A binary data matrix
+was generated containing presence (“1”) or absence (“0”’) of each candidate in each genome. This table
+was used as input for hierarchical clustering performed in R, using a Jaccard binary distance matrix and
+average linkage. The resulting matrix was visualized using the “heatmap3” package in R.
+The sequences of the 10 phylogenetically informative loci used to compare ISS-F3/F4 were extracted
+from the genomes using the sequences of these genes in the reference genome of F. oxysporum f. sp.
+lycopersici 4287. The sequences were kindly provided by Li-Jun Ma from the University of Massachusetts
+at Amherst. The loci and chromosomal locations from the reference genome are as follows: chromosome
+1, DNA-directed RNA polymerase III subunit RPC2 and RPB1; chromosome 4, minichromosome mainte-
+nance protein 3 and anaphase-promoting complex subunit 1; chromosome 5, two hypothetical proteins,
+FOXG 1751.3 and 2073.3; chromosome 7, DNA-directed RNA polymerase II subunit RPB2; chromosome
+8, hypothetical protein FOXG 3560.3; and chromosome 9, clathrin heavy chain and DNA polymerase
+gamma (28).
+k-mer analysis for strain identiﬁcation. The KMC2 k-mer counter (29) tool was used to generate
+50-bp-long k-mers from 65 F. oxysporum genomes that were downloaded from GenBank (ftp://ftp.ncbi
+.nlm.nih.gov/genomes/genbank/fungi/Fusarium_oxysporum/) (see Table S1 in Data Set S5 in the sup-
+plemental material). The KMC2 program was also used to determine which of the k-mers generated from
+each genome were unique to that genome. A subset of the unique k-mers were chosen, based on
+number of occurrences (chosen if they appeared once, instead of multiple times within the genome) and
+the type of sequence (the sequence did not contain a lot of repeats and had a good balance of GC and
+AT ratios). Using command line BLAST (version ncbi-blast-2.4.0), the genomes of F3 and F4 were used
+as the query against the “database” of unique k-mer sequences. For ISS- F3 or ISS-F4 to be considered
+one of the 65 F. oxysporum strains, every k-mer in the database belonging to a speciﬁc strain had to have
+a perfect match against a sequence in either the F3 or F4 genome.
+Single nucleotide polymorphism detection and phylogenetic analysis. We applied a reference-
+based analysis method to determine the relatedness of F3 and F4 to the reference genome, Fo47, and
+to 5 other F. oxysporum isolates. The list of these strains and the reasons for including them in the analysis
+are presented in Table S3 in Data Set S5. These publicly available genomes were downloaded from the
+NCBI sequence read archive (SRA). SNP identiﬁcation was carried out using PhaME (version 1.0.2) (67),
+which uses Nucmer for pairwise alignment of genomes. Evolutionary analyses and phylogenetic trees
+were constructed as part of the PhaME pipeline. The numbers of SNPs spanning the entire genome, in
+coding regions, and in noncoding regions were extracted from the PhaME output using a custom Perl
+script and plotted in Prism (version 7). In order to detect SNPs in the coding regions, a gff annotation ﬁle
+of the reference genome (Fo47) was supplied as input.
+Gene prediction and annotation. The genes of the assembled ISS-F3/F4 genomes were pre-
+dicted with the AUGUSTUS gene prediction program using default settings and trained against
+Fusarium graminearum (30, 68). The amino acid sequences of the predicted genes were uploaded
+into Blast2GO (https://www.blast2go.com) (69), and annotation was performed with blastp-fast against
+the NCBI nonredundant database, set to the “fungi” taxonomy ﬁlter. The E value cutoff was set to
+1.0E10. Gene ontology classiﬁcation and InterProScan were also performed with Blast2GO using the
+default settings.
+Identiﬁcation of polyketides and secondary metabolites. Predicted proteins that were annotated
+as polyketide synthases were further evaluated with the polyketide synthase database (35), which
+consists of amino acid sequences of PKSs from 12 F. oxysporum strains and 8 other Fusarium species. A
+blastp search was performed with F3 and F4 sequences, and a positive match was based on 95%
+identity and an E value of 1E10.
+Biosynthetic gene clusters were predicted with the fungal version of antiSMASH (https://fungismash
+.secondarymetabolites.org). The input ﬁles were the (i) assembled whole-genome nucleotide sequences
+and (ii) gff annotation ﬁle produced from AUGUSTUS. Default settings were used in the run.
+C. elegans model for Fusarium oxysporum virulence. The glp-4/sek-1 mutant strain AU37 of
+C. elegans obtained from the Caenorhabditis Genetics Center (http://www.cbs.umn.edu/research/
+resources/cgc) was used in the experiments.
+C. elegans AU37 nematodes were synchronized for the experiment as previously described (70).
+Synchronized nematodes were then grown on E. coli OP50 lawns until they reached the L3-L4 stage. Then
+nematodes (about 300 worms) were collected and washed 3 times in 10 ml of M9 buffer (71) containing
+50 g/ml kanamycin. On the last washing, worms were incubated in 10 ml M9 buffer containing
+50 g/ml kanamycin for 1 h to clean the intestinal tube and surface of nematodes from E. coli. After
+cleaning, nematodes were poured on plain agar plates (1.5% agar in water) to soak the kanamycin
+solution into agar. At this point, synchronized fasting nematodes were ready for transferring into
+experimental fungal conidium suspensions.
+Fungal conidium suspensions were prepared by growing the fungal strains on PDA plates and
+incubating them at 25°C for 7 days, at which time the plate was overgrown with growth. Eight milliliters
+of ST solution (8.5 g NaCl, 1 ml Tween 80 in 1 liter of water) was poured onto the plates, and a cotton
+swab was used to scrape all the moistened fungi off the plate. The liquid suspension on the plate was
+then transferred to a 50-ml Falcon tube, spun down at 3,500  g for 5 min, and washed 3 times with
+sterile PBS. The pellet was then resuspended in 5 ml of sterile PBS. To count the number of conidia in the
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+16
+
+suspension, a 1/10 dilution was prepared using ST solution and conidia were counted using a hemo-
+cytometer under the 40 objective of a light microscope. Conidial stocks were diluted in PBS to 107
+conidia/ml prior to the experiment.
+Twenty microliters of 107-conidia/ml F. oxysporum spores were suspended in 1 ml of 30% (vol/vol)
+brain heart infusion broth (BHI broth; Remel, USA) prepared by dilution of BHI broth in M9 buffer. For
+each conidium suspension, 60 worms were transferred from plain agar plates into 1 ml of a conidium
+suspension and incubated for 1 h at 25°C without agitation. After incubation, the entire reaction volume
+of conidium suspension with worms was transferred to a 60-mm dish containing 2 ml of M9 buffer
+with 50 g/ml kanamycin. Then, worms were collected by a micropipette and transferred to a
+60-mm dish containing 3 ml of M9 buffer with 50 g/ml kanamycin. This procedure was repeated 3
+times using 3 ml of fresh M9 buffer with 50 g/ml kanamycin in a 60-mm dish at each transfer. After
+ﬁnal washing, 10 worms were transferred into each experimental 30-mm dish (3 dishes per one
+fungal strain conidium suspension) containing 2 ml of 30% BHI broth and 50 g/ml kanamycin.
+Worms were incubated at 25°C without agitation, and worm death was estimated at 17, 24, 44, and
+50 h after conidium exposure using an Olympus SZX16 microscope (5 magniﬁcation) with a camera
+(Olympus DP30BW) for imaging.
+Data availability. This Whole Genome Shotgun project has been deposited at DDBJ/ENA/GenBank
+under the accession numbers QUWZ00000000 (ISS-F3) and QUXA00000000 (ISS-F4). The version de-
+scribed in this paper is the ﬁrst version.
+SUPPLEMENTAL MATERIAL
+Supplemental material for this article may be found at https://doi.org/10.1128/
+mSystems.00345-18.
+FIG S1, PDF ﬁle, 0.1 MB.
+FIG S2, PDF ﬁle, 0.2 MB.
+FIG S3, PDF ﬁle, 0.2 MB.
+FIG S4, PDF ﬁle, 0.05 MB.
+TABLE S2, TXT ﬁle, 0.02 MB.
+DATA SET S1, XLSX ﬁle, 9.3 MB.
+DATA SET S2, XLSX ﬁle, 9.3 MB.
+DATA SET S3, XLSX ﬁle, 0.2 MB.
+DATA SET S4, XLSX ﬁle, 0.01 MB.
+DATA SET S5, XLSX ﬁle, 0.01 MB.
+ACKNOWLEDGMENTS
+Part of the research described in this publication was carried out at the Jet
+Propulsion Laboratory, California Institute of Technology, under a contract with NASA.
+The C. elegans work was supported by the Tissue Engineering and Cell Models Core of
+the NIDDK Digestive Diseases Research Core Center (DDRCC) P30 DK42086 at the
+University of Chicago. This research was funded by 2012 Space Biology NNH12ZTT001N
+grant no. 19-12829-26 under Task Order NNN13D111T awarded to K.V. C.U. was funded
+by the NASA Postdoctoral program fellowship. Government sponsorship is acknowl-
+edged.
+We thank Commander Jeffrey Williams for collecting the ISS samples aboard the ISS
+and the implementation team at NASA Ames Research Center for coordinating this
+effort.
+C.U. wrote the manuscript and interpreted the data from all analyses and experi-
+ments; performed quality control and assembly of the whole-genome sequencing
+reads for ISS-F3/F4; generated the unique k-mer database for F. oxysporum strains;
+performed SNP analysis, protein annotations, and secondary metabolite analysis;
+and prepared conidium suspensions for the C. elegans virulence assay. P.V.D.
+provided critical insight into genome comparison and interpretation of data and
+performed effector protein and EF-1 analyses. A.Z. and O.Z. performed the C.
+elegans virulence tests. J.A.G. provided critical input into the design and implemen-
+tation of the virulence tests. T.T. and C.W. oversaw the previous CASIS experiment
+in which IMV00293 was ﬂown to the ISS (293sp) and concomitantly grown on Earth
+(293gr), both of which were used in the virulence tests. K.V. formulated the concept;
+provided input into experimental design, analysis, and critical reading of the
+manuscript; and provided funding for the project. All authors read and approved
+the manuscript.
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+17
+
+REFERENCES
+1. Gordon TR. 2017. Fusarium oxysporum and the Fusarium wilt syndrome.
+Annu Rev Phytopathol 55:23–39. https://doi.org/10.1146/annurev-phyto
+-080615-095919.
+2. Rana A, Sahgal M, Johri BN. 2017. Fusarium oxysporum: genomics,
+diversity and plant–host interaction, p 159–199. In Satyanarayana T,
+Deshmukh S, Johri B (ed), Developments in fungal biology and applied
+mycology. Springer, Singapore.
+3. Armstrong GM, Armstrong JK. 1981. Formae speciales and races of
+Fusarium oxysporum causing wilt diseases, p 391–399. In Nelson PE,
+Toussoun TA, Cook RJ (ed), Fusarium: diseases, biology, and taxonomy.
+Pennsylvania State University Press, University Park, PA.
+4. Nucci M, Anaissie E. 2007. Fusarium infections in immunocompromised
+patients. Clin Microbiol Rev 20:695–704. https://doi.org/10.1128/CMR
+.00014-07.
+5. O’Donnell K, Sutton DA, Rinaldi MG, Magnon KC, Cox PA, Revankar SG,
+Sanche S, Geiser DM, Juba JH, van Burik JA, Padhye A, Anaissie EJ,
+Francesconi A, Walsh TJ, Robinson JS. 2004. Genetic diversity of human
+pathogenic members of the Fusarium oxysporum complex inferred from
+multilocus DNA sequence data and ampliﬁed fragment length polymor-
+phism analyses: evidence for the recent dispersion of a geographically
+widespread clonal lineage and nosocomial origin. J Clin Microbiol 42:
+5109–5120. https://doi.org/10.1128/JCM.42.11.5109-5120.2004.
+6. Dignani MC, Anaissie E. 2004. Human fusariosis. Clin Microbiol Infect
+10(Suppl 1):67–75. https://doi.org/10.1111/j.1470-9465.2004.00845.x.
+7. Taj-Aldeen SJ. 2017. Reduced multidrug susceptibility proﬁle is a com-
+mon feature of opportunistic Fusarium species: Fusarium multi-drug
+resistant pattern. J Fungi 3:E18. https://doi.org/10.3390/jof3020018.
+8. Nucci F, Nouer SA, Capone D, Anaissie E, Nucci M. 2015. Fusariosis.
+Semin Respir Crit Care Med 36:706–714. https://doi.org/10.1055/s-0035
+-1562897.
+9. Borges W, Borges KS, Bonato P, Said S, Pupo M. 2009. Endophytic fungi:
+natural products, enzymes and biotransformation reactions. Curr Org
+Chem 13:1137–1163. https://doi.org/10.2174/138527209788921783.
+10. Stierle AA, Stierle DB. 2015. Bioactive secondary metabolites produced
+by the fungal endophytes of conifers. Nat Prod Commun 10:1671–1682.
+11. Gunatilaka AAL. 2006. Natural products from plant-associated
+microorganisms: distribution, structural diversity, bioactivity, and impli-
+cations of their occurrence. J Nat Prod 69:509–526. https://doi.org/10
+.1021/np058128n.
+12. do Nascimento AM, Conti R, Turatti ICC, Cavalcanti BC, Costa-Lotufo LV,
+Pessoa C, de Moraes MO, Manfrim V, Toledo JS, Cruz AK, Pupo MT. 2012.
+Bioactive extracts and chemical constituents of two endophytic strains
+of Fusarium oxysporum. Rev Bras Farmacogn 22:1276–1281. https://doi
+.org/10.1590/S0102-695X2012005000106.
+13. Kumar A, Patil D, Rajamohanan PR, Ahmad A. 2013. Isolation, puriﬁcation
+and characterization of vinblastine and vincristine from endophytic
+fungus Fusarium oxysporum isolated from Catharanthus roseus. PLoS
+One 8:e71805. https://doi.org/10.1371/journal.pone.0071805.
+14. Kour A, Shawl AS, Rehman S, Sultan P, Qazi PH, Suden P, Khajuria RK,
+Verma V. 2008. Isolation and identiﬁcation of an endophytic strain of
+Fusarium oxysporum producing podophyllotoxin from Juniperus re-
+curva. World J Microbiol Biotechnol 24:1115–1121. https://doi.org/10
+.1007/s11274-007-9582-5.
+15. Damayanthi Y, Lown JW. 1998. Podophyllotoxins: current status and
+recent developments. Curr Med Chem 5:205–252.
+16. Gordaliza M, García PA, del Corral JMM, Castro MA, Gómez-Zurita MA.
+2004. Podophyllotoxin: distribution, sources, applications and new
+cytotoxic derivatives. Toxicon 44:441–459. https://doi.org/10.1016/j
+.toxicon.2004.05.008.
+17. Castro MA, Miguel del Corral JM, Gordaliza M, Gomez-Zurita MA, de la
+Puente ML, Betancur-Galvis LA, Sierra J, San Feliciano A. 2003. Synthesis,
+cytotoxicity and antiviral activity of podophyllotoxin analogues modiﬁed
+in the E-ring. Eur J Med Chem 38:899–911. https://doi.org/10.1016/j
+.ejmech.2003.05.001.
+18. Escudero-Martínez JM, Pérez-Pertejo Y, Reguera RM, Castro MÁ, Rojo MV,
+Santiago C, Abad A, García PA, López-Pérez JL, San Feliciano A, Balaña-
+Fouce R. 2017. Antileishmanial activity and tubulin polymerization inhi-
+bition of podophyllotoxin derivatives on Leishmania infantum. Int J
+Parasitol Drugs Drug Resist 7:272–285. https://doi.org/10.1016/j.ijpddr
+.2017.06.003.
+19. Simpson JT, Wong K, Jackman SD, Schein JE, Jones SJM, Birol I˙. 2009.
+ABySS: a parallel assembler for short read sequence data. Genome Res
+19:1117–1123. https://doi.org/10.1101/gr.089532.108.
+20. Ma L-J, van der Does HC, Borkovich KA, Coleman JJ, Daboussi M-J, Di
+Pietro A, Dufresne M, Freitag M, Grabherr M, Henrissat B, Houterman PM,
+Kang S, Shim W-B, Woloshuk C, Xie X, Xu J-R, Antoniw J, Baker SE, Bluhm
+BH, Breakspear A, Brown DW, Butchko RAE, Chapman S, Coulson R,
+Coutinho PM, Danchin EGJ, Diener A, Gale LR, Gardiner DM, Goff S,
+Hammond-Kosack KE, Hilburn K, Hua-Van A, Jonkers W, Kazan K, Kodira
+CD, Koehrsen M, Kumar L, Lee Y-H, Li L, Manners JM, Miranda-Saavedra
+D, Mukherjee M, Park G, Park J, Park S-Y, Proctor RH, Regev A, Ruiz-
+Roldan MC, Sain D, Sakthikumar S, Sykes S, Schwartz DC, Turgeon BG,
+Wapinski I, Yoder O, Young S, Zeng Q, Zhou S, Galagan J, Cuomo CA,
+Kistler HC, Rep M. 2010. Comparative genomics reveals mobile patho-
+genicity chromosomes in Fusarium. Nature 464:367–373. https://doi.org/
+10.1038/nature08850.
+21. O’Donnell K, Ward TJ, Robert VARG, Crous PW, Geiser DM, Kang S. 2015.
+DNA sequence-based identiﬁcation of Fusarium: current status and
+future directions. Phytoparasitica 43:583–595. https://doi.org/10.1007/
+s12600-015-0484-z.
+22. O’Donnell K, Kistler HC, Cigelnik E, Ploetz RC. 1998. Multiple evolutionary
+origins of the fungus causing Panama disease of banana: concordant
+evidence from nuclear and mitochondrial gene genealogies. Proc Natl
+Acad Sci U S A 95:2044–2049. https://doi.org/10.1073/pnas.95.5.2044.
+23. Skovgaard K, Bødker L, Rosendahl S. 2002. Population structure and
+pathogenicity of members of the Fusarium oxysporum complex isolated
+from soil and root necrosis of pea (Pisum sativum L.). FEMS Microbiol
+Ecol 42:367–374. https://doi.org/10.1111/j.1574-6941.2002.tb01026.x.
+24. van Dam P, Fokkens L, Schmidt SM, Linmans JH, Kistler HC, Ma LJ, Rep
+M. 2016. Effector proﬁles distinguish formae speciales of Fusarium ox-
+ysporum. Environ Microbiol 18:4087–4102. https://doi.org/10.1111/1462
+-2920.13445.
+25. Fravel D, Olivain C, Alabouvette C. 2003. Fusarium oxysporum and its
+biocontrol. New Phytol 157:493–502. https://doi.org/10.1046/j.1469-8137
+.2003.00700.x.
+26. van Dam P, Fokkens L, Ayukawa Y, van der Gragt M, ter Horst A,
+Brankovics B, Houterman PM, Arie T, Rep M. 2017. A mobile pathoge-
+nicity chromosome in Fusarium oxysporum for infection of multiple
+cucurbit species. Sci Rep 7:9042. https://doi.org/10.1038/s41598-017
+-07995-y.
+27. Houterman PM, Speijer D, Dekker HL, DE Koster CG, Cornelissen BJ, Rep
+M. 2007. The mixed xylem sap proteome of Fusarium oxysporum-
+infected tomato plants. Mol Plant Pathol 8:215–221. https://doi.org/10
+.1111/j.1364-3703.2007.00384.x.
+28. Epstein L, Kaur S, Chang PL, Carrasquilla-Garcia N, Lyu G, Cook DR,
+Subbarao KV, O’Donnell K. 2017. Races of the celery pathogen Fusarium
+oxysporum f. sp. apii are polyphyletic. Phytopathology 107:463–473.
+https://doi.org/10.1094/PHYTO-04-16-0174-R.
+29. Deorowicz S, Kokot M, Grabowski S, Debudaj-Grabysz A. 2015. KMC 2:
+fast and resource-frugal k-mer counting. Bioinformatics 31:1569–1576.
+https://doi.org/10.1093/bioinformatics/btv022.
+30. Stanke M, Morgenstern B. 2005. AUGUSTUS: a web server for gene
+prediction in eukaryotes that allows user-deﬁned constraints. Nucleic
+Acids Res 33:W465–W467. https://doi.org/10.1093/nar/gki458.
+31. Srivastava SK, Huang X, Brar HK, Fakhoury AM, Bluhm BH, Bhattacharyya
+MK. 2014. The genome sequence of the fungal pathogen Fusarium
+virguliforme that causes sudden death syndrome in soybean. PLoS One
+9:e81832. https://doi.org/10.1371/journal.pone.0081832.
+32. Agarwal V, Moore BS. 2014. Fungal polyketide engineering comes of
+age. Proc Natl Acad Sci U S A 111:12278–12279. https://doi.org/10.1073/
+pnas.1412946111.
+33. Daley DK, Brown KJ, Badal S. 2017. Fungal metabolites, p 413–421. In
+Badal S, Delgoda R (ed), Pharmacognosy. Fundamentals, applications
+and strategy. Academic Press, Boston, MA.
+34. Chan YA, Podevels AM, Kevany BM, Thomas MG. 2009. Biosynthesis of
+polyketide synthase extender units. Nat Prod Rep 26:90–114. https://doi
+.org/10.1039/B801658P.
+35. Hansen FT, Gardiner DM, Lysoe E, Fuertes PR, Tudzynski B, Wiemann P,
+Sondergaard TE, Giese H, Brodersen DE, Sorensen JL. 2015. An update to
+polyketide synthase and non-ribosomal synthetase genes and nomen-
+clature in Fusarium. Fungal Genet Biol 75:20–29. https://doi.org/10
+.1016/j.fgb.2014.12.004.
+Urbaniak et al.
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+18
+
+36. Ortoneda M, Guarro J, Madrid MP, Caracuel Z, Roncero MIG, Mayayo E,
+Di Pietro A. 2004. Fusarium oxysporum as a multihost model for the
+genetic dissection of fungal virulence in plants and mammals. Infect
+Immun 72:1760–1766. https://doi.org/10.1128/IAI.72.3.1760-1766.2004.
+37. Knox BP, Blachowicz A, Palmer JM, Romsdahl J, Huttenlocher A, Wang CC,
+Keller NP, Venkateswaran K. 2016. Characterization of Aspergillus fumigatus
+isolates from air and surfaces of the International Space Station. mSphere
+1:e00227-16. https://doi.org/10.1128/mSphere.00227-16.
+38. Rep M, van der Does HC, Meijer M, van Wijk R, Houterman PM, Dekker
+HL, de Koster CG, Cornelissen BJ. 2004. A small, cysteine-rich protein
+secreted by Fusarium oxysporum during colonization of xylem vessels is
+required for I-3-mediated resistance in tomato. Mol Microbiol 53:
+1373–1383. https://doi.org/10.1111/j.1365-2958.2004.04177.x.
+39. Urbaniak C, Massa G, Hummerick M, Khodadad C, Schuerger A, Ven-
+kateswaran K. 2018. Draft genome sequences of two Fusarium oxyspo-
+rum isolates cultured from infected Zinnia hybrida plants grown on the
+International Space Station. Genome Announc 6:e00326-18. https://doi
+.org/10.1128/genomeA.00326-18.
+40. Byrne RT, Klingele AJ, Cabot EL, Schackwitz WS, Martin JA, Martin J,
+Wang Z, Wood EA, Pennacchio C, Pennacchio LA, Perna NT, Battista JR,
+Cox MM. 2014. Evolution of extreme resistance to ionizing radiation via
+genetic adaptation of DNA repair. Elife 3:e01322. https://doi.org/10
+.7554/eLife.01322.
+41. Wilkinson B, Kendrew SG, Sheridan RM, Leadlay PF. 2003. Biosynthetic
+engineering of polyketide synthases. Expert Opin Ther Pat 13:
+1579–1606. https://doi.org/10.1517/13543776.13.10.1579.
+42. Hopwood DA. 2009. Complex enzymes in microbial natural product
+biosynthesis, part B: polyketides, aminocoumarins and carbohydrates.
+Preface. Methods Enzymol 459:xvii–xxix. https://doi.org/10.1016/S0076
+-6879(09)04625-4.
+43. Gomes ES, Schuch V, de Macedo Lemos EG. 2013. Biotechnology of
+polyketides: new breath of life for the novel antibiotic genetic pathways
+discovery through metagenomics. Braz J Microbiol 44:1007–1034. https://
+doi.org/10.1590/S1517-83822013000400002.
+44. Khetan S, Khetan P, Katkar V, Kusulkar M. 2018. Urinary tract infection
+due to Fusarium oxysporum in an immunocompetent patient with
+chronic kidney disease. J Biomed Res 32:157–160. https://doi.org/10
+.7555/JBR.32.20160128.
+45. Neumeister B, Bartmann P, Gaedicke G, Marre R. 2009. A fatal infection
+due to Fusarium oxysporum in a child with Wilms’ tumour. Case report
+and review of the literature. Mycoses 35:115–119. https://doi.org/10
+.1111/j.1439-0507.1992.tb00831.x.
+46. Sander A, Beyer U, Amberg R. 1998. Systemic Fusarium oxysporum
+infection in an immunocompetent patient with an adult respiratory
+distress syndrome (ARDS) and extracorporal membrane oxygenation
+(ECMO). Mycoses 41:109–111. https://doi.org/10.1111/j.1439-0507
+.1998.tb00310.x.
+47. Zaborina O, Zaborin A, Romanowski K, Babrowski T, Alverdy J. 2011. Host
+stress and virulence expression in intestinal pathogens: development of
+therapeutic strategies using mice and C. elegans. Curr Pharm Des 17:
+1254–1260. https://doi.org/10.2174/138161211795703771.
+48. Arvanitis M, Glavis-Bloom J, Mylonakis E. 2013. Invertebrate models of
+fungal infection. Biochim Biophys Acta 1832:1378–1383. https://doi.org/
+10.1016/j.bbadis.2013.03.008.
+49. Mylonakis E. 2008. Galleria mellonella and the study of fungal pathogenesis:
+making the case for another genetically tractable model host. Mycopatho-
+logia 165:1–3. https://doi.org/10.1007/s11046-007-9082-z.
+50. Schafer K, Di Pietro A, Gow NA, MacCallum D. 2014. Murine model for
+Fusarium oxysporum invasive fusariosis reveals organ-speciﬁc structures
+for dissemination and long-term persistence. PLoS One 9:e89920.
+https://doi.org/10.1371/journal.pone.0089920.
+51. Silveira FP, Husain S. 2007. Fungal infections in solid organ transplantation.
+Med Mycol 45:305–320. https://doi.org/10.1080/13693780701200372.
+52. Mylonakis E, Casadevall A, Ausubel FM. 2007. Exploiting amoeboid and
+non-vertebrate animal model systems to study the virulence of human
+pathogenic fungi. PLoS Pathog 3:e101. https://doi.org/10.1371/journal
+.ppat.0030101.
+53. Powell JR, Ausubel FM. 2008. Models of Caenorhabditis elegans infection
+by bacterial and fungal pathogens. Methods Mol Biol 415:403–427.
+https://doi.org/10.1007/978-1-59745-570-1_24.
+54. Aballay A, Ausubel FM. 2002. Caenorhabditis elegans as a host for the
+study of host-pathogen interactions. Curr Opin Microbiol 5:97–101.
+https://doi.org/10.1016/S1369-5274(02)00293-X.
+55. Pukkila-Worley R, Mylonakis E. 2010. From the outside in and the inside
+out: antifungal immune responses in Caenorhabditis elegans. Virulence
+1:111–112. https://doi.org/10.4161/viru.1.3.11746.
+56. Irazoqui JE, Urbach JM, Ausubel FM. 2010. Evolution of host innate
+defence: insights from Caenorhabditis elegans and primitive inverte-
+brates. Nat Rev Immunol 10:47–58. https://doi.org/10.1038/nri2689.
+57. Kim DH, Feinbaum R, Alloing G, Emerson FE, Garsin DA, Inoue H, Tanaka-
+Hino M, Hisamoto N, Matsumoto K, Tan MW, Ausubel FM. 2002. A con-
+served p38 MAP kinase pathway in Caenorhabditis elegans innate immu-
+nity. Science 297:623–626. https://doi.org/10.1126/science.1073759.
+58. Troemel ER, Chu SW, Reinke V, Lee SS, Ausubel FM, Kim DH. 2006. p38
+MAPK regulates expression of immune response genes and contributes
+to longevity in C. elegans. PLoS Genet 2:e183. https://doi.org/10.1371/
+journal.pgen.0020183.
+59. Beanan MJ, Strome S. 1992. Characterization of a germ-line proliferation
+mutation in C. elegans. Development 116:755–766.
+60. Prados-Rosales RC, Roldán-Rodríguez R, Serena C, López-Berges MS,
+Guarro J, Martínez-del-Pozo Á, Di Pietro A. 2012. A PR-1-like protein of
+Fusarium oxysporum functions in virulence on mammalian hosts. J Biol
+Chem 287:21970–21979. https://doi.org/10.1074/jbc.M112.364034.
+61. Thatcher LF, Gardiner DM, Kazan K, Manners JM. 2012. A highly con-
+served effector in Fusarium oxysporum is required for full virulence on
+Arabidopsis. Mol Plant Microbe Interact 25:180–190. https://doi.org/10
+.1094/MPMI-08-11-0212.
+62. Niño-Sánchez J, Casado-Del Castillo V, Tello V, De Vega-Bartol JJ, Ramos
+B, Sukno SA, Díaz Mínguez JM. 2016. The FTF gene family regulates
+virulence and expression of SIX effectors in Fusarium oxysporum. Mol
+Plant Pathol 17:1124–1139. https://doi.org/10.1111/mpp.12373.
+63. Singh NK, Wood JM, Karouia F, Venkateswaran K. 2018. Succession and
+persistence of microbial communities and antimicrobial resistance
+genes associated with International Space Station environmental sur-
+faces. Microbiome 6:204. https://doi.org/10.1186/s40168-018-0585-2.
+64. Edgar RC. 2004. MUSCLE: multiple sequence alignment with high accu-
+racy and high throughput. Nucleic Acids Res 32:1792–1797. https://doi
+.org/10.1093/nar/gkh340.
+65. Guindon S, Delsuc F, Dufayard JF, Gascuel O. 2009. Estimating maximum
+likelihood phylogenies with PhyML. Methods Mol Biol 537:113–137.
+https://doi.org/10.1007/978-1-59745-251-9_6.
+66. Huerta-Cepas J, Serra F, Bork P. 2016. ETE 3: reconstruction, analysis, and
+visualization of phylogenomic data. Mol Biol Evol 33:1635–1638. https://
+doi.org/10.1093/molbev/msw046.
+67. Ahmed SA, Lo C-C, Li P-E, Davenport KW, Chain PSG. 2015. From raw
+reads to trees: whole genome SNP phylogenetics across the tree of life.
+bioRxiv 032250. https://doi.org/10.1101/032250.
+68. Stanke M, Waack S. 2003. Gene prediction with a hidden Markov model
+and a new intron submodel. Bioinformatics 19:ii215–ii225. https://doi
+.org/10.1093/bioinformatics/btg1080.
+69. Conesa A, Götz S, García-Gómez JM, Terol J, Talón M, Robles M. 2005.
+Blast2GO: a universal tool for annotation, visualization and analysis in
+functional genomics research. Bioinformatics 21:3674–3676. https://doi
+.org/10.1093/bioinformatics/bti610.
+70. Zaborin A, Defazio JR, Kade M, Kaiser BL, Belogortseva N, Camp DG, II,
+Smith RD, Adkins JN, Kim SM, Alverdy A, Goldfeld D, Firestone MA,
+Collier JH, Jabri B, Tirrell M, Zaborina O, Alverdy JC. 2014. Phosphate-
+containing polyethylene glycol polymers prevent lethal sepsis by
+multidrug-resistant pathogens. Antimicrob Agents Chemother 58:
+966–977. https://doi.org/10.1128/AAC.02183-13.
+71. Porta-de-la-Riva M, Fontrodona L, Villanueva A, Ceron J. 2012. Basic
+Caenorhabditis elegans methods: synchronization and observation. J Vis
+Exp (64):e4019. https://doi.org/10.3791/4019.
+Genomics of Fusarium oxysporum Cultured from the ISS
+March/April 2019
+Volume 4
+Issue 2
+e00345-18
+msystems.asm.org
+19

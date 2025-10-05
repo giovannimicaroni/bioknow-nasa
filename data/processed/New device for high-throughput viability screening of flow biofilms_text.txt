@@ -1,0 +1,562 @@
+APPLIED AND ENVIRONMENTAL MICROBIOLOGY, July 2010, p. 4136–4142
+Vol. 76, No. 13
+0099-2240/10/$12.00
+doi:10.1128/AEM.03065-09
+Copyright © 2010, American Society for Microbiology. All Rights Reserved.
+New Device for High-Throughput Viability Screening of Flow Bioﬁlms
+Michael R. Benoit,1 Carolyn G. Conant,2 Cristian Ionescu-Zanetti,2 Michael Schwartz,2 and A. Matin1*
+Microbiology & Immunology Department, Stanford University, Stanford, California 94305-5124,1 and Fluxion Biosciences Inc.,
+South San Francisco, California 940802
+Received 9 December 2009/Accepted 21 April 2010
+Control of bioﬁlms requires rapid methods to identify compounds effective against them and to isolate
+resistance-compromised mutants for identifying genes involved in enhanced bioﬁlm resistance. While rapid
+screening methods for microtiter plate well (“static”) bioﬁlms are available, there are no methods for such
+screening of continuous ﬂow bioﬁlms (“ﬂow bioﬁlms”). Since the latter bioﬁlms more closely approximate
+natural bioﬁlms, development of a high-throughput (HTP) method for screening them is desirable. We describe
+here a new method using a device comprised of microﬂuidic channels and a distributed pneumatic pump
+(BioFlux) that provides ﬂuid ﬂow to 96 individual bioﬁlms. This device allows ﬁne control of continuous or
+intermittent ﬂuid ﬂow over a broad range of ﬂow rates, and the use of a standard well plate format provides
+compatibility with plate readers. We show that use of green ﬂuorescent protein (GFP)-expressing bacteria,
+staining with propidium iodide, and measurement of ﬂuorescence with a plate reader permit rapid and
+accurate determination of bioﬁlm viability. The bioﬁlm viability measured with the plate reader agreed with
+that determined using plate counts, as well as with the results of ﬂuorescence microscope image analysis. Using
+BioFlux and the plate reader, we were able to rapidly screen the effects of several antimicrobials on the viability
+of Pseudomonas aeruginosa PAO1 ﬂow bioﬁlms.
+Bacterial bioﬁlms are surface-attached communities that are
+encased in a polymeric matrix, which exhibit a high degree of
+resistance to antimicrobial agents and the host immune system
+(12, 16). This makes them medically important; diseases with a
+bioﬁlm component are chronic and difﬁcult to eradicate. Ex-
+amples of such diseases are cystitis (1), endocarditis (31), cystic
+ﬁbrosis (35), and middle-ear (17) and indwelling medical de-
+vice-associated (20) infections. Bioﬁlms also play important
+environmental roles in, for example, wastewater treatment
+(38), bioremediation (29, 30), biofouling (7), and biocorrosion
+(2). Better control of bioﬁlms requires elucidation of the mo-
+lecular basis of their superior resistance (by identifying resis-
+tance-compromised mutants) and identiﬁcation of compounds
+with antibioﬁlm activity. While our understanding of these
+aspects of bioﬁlms has increased (11, 15, 25–27, 36), further
+work, including development of accurate high-throughput
+(HTP) methods for screening bioﬁlm viability, is needed.
+Two major bioﬁlm models are studied in the laboratory,
+bioﬁlms grown without a continuous ﬂow of fresh medium and
+bioﬁlms grown with a continuous ﬂow of fresh medium; exam-
+ples of these two models are microtiter well bioﬁlms and ﬂow
+cell bioﬁlms, respectively. Methods have been developed for
+HTP screening of the viability of static bioﬁlms (6, 28, 32, 33),
+but there are no methods for HTP screening of ﬂow bioﬁlms.
+The latter bioﬁlms are typically grown in ﬂow cells, which have
+to be examined individually to determine viability and thus
+cannot be used for rapid screening. An HTP screening method
+for ﬂow bioﬁlms is desirable, as these bioﬁlms more closely
+approximate natural bioﬁlms and can differ from static bioﬁlms
+evidently due to hydrodynamic inﬂuences on cell signaling (22,
+34). For example, the ability of rpoS-deﬁcient Escherichia coli
+(lacking S) to form ﬂow bioﬁlms is impaired, but its capacity
+to form bioﬁlms under static conditions is enhanced (18).
+We describe here a new application of a recently developed
+device (8–10, 13), the “BioFlux” device consisting of microﬂu-
+idic channels for bioﬁlm growth. Other microﬂuidic devices
+have recently been used for bioﬁlm formation (14, 19, 21, 23),
+but none of them has been used for HTP screening. The
+BioFlux device permits rapid measurement of the ﬂuorescence
+of ﬂow bioﬁlms with a plate reader, which permits initial HTP
+screening of the viability of such bioﬁlms.
+MATERIALS AND METHODS
+Bacterial strains and media. Uropathogenic E. coli (UPEC) strain AMG1, a
+clinical isolate obtained from the Infectious Disease Department at the Stanford
+Medical Center (25), was cultured in Lennox L broth (LB). Pseudomonas aerugi-
+nosa PAO1 and Pseudomonas ﬂuorescens 700830 were cultured in Bacto tryptic
+soy broth (TSB). To obtain a green ﬂuorescent protein (GFP)-expressing strain,
+UPEC was transformed by electroporation with plasmid pFPV25.1 (37). PAO1
+carrying pSMC2 (4) for GFP expression was graciously provided by Terry Ma-
+chen (University of California, Berkeley). Ampicillin was added to the medium
+to maintain the expression vectors (100 and 16 g/ml for UPEC/pFPV25.1 and
+PAO1/pSMC2, respectively). LB agar and Difco tryptic soy agar (TSA) were
+used for plating the UPEC and PAO1 strains, respectively.
+Growth and determination of the viability of microtiter plate (“static”) bio-
+ﬁlms. Static bioﬁlms of GFP-expressing strains were grown in Costar 96-well
+polystyrene plates (with black walls to prevent interference between wells due to
+ﬂuorescence) as described previously (25, 36). Brieﬂy, overnight cultures were
+diluted 1:100 in LB (for UPEC) or TSB (for PAO1), and 100 l was dispensed
+into each well and incubated for 24 h and 37°C. After a rinse with saline (0.85%),
+eight replicate bioﬁlms were treated with a saline bleach solution using concen-
+trations speciﬁed below; treatment with saline alone was used as a control.
+Following 1 h of treatment and a saline rinse, bioﬁlm viability was determined in
+parallel using colony counting as well as measurement of ﬂuorescence. For
+colony counting, quadruplicate bioﬁlms were resuspended in saline and pooled
+in glass tubes. The bioﬁlms were broken up by vigorous vortexing and were
+serially diluted in saline. Then 25-l portions of three dilutions were plated in
+duplicate on LB agar (UPEC) or TSA (PAO1) plates. After 12 h of incubation
+* Corresponding author. Mailing address: 299 Campus Dr. West,
+Fairchild Sciences Building, Stanford University, Stanford, CA 94305-
+5124. Phone: (650) 725-4745. Fax: (650) 725-6757. E-mail: a.matin
+@stanford.edu.
+ Published ahead of print on 30 April 2010.
+4136
+
+at 37°C, colonies were counted, and the results were compared to the results for
+saline-treated controls.
+For measurement of ﬂuorescence, the remaining four replicate bioﬁlms were
+stained with 100 l of a saline solution containing 30 M propidium iodide (PI)
+for 30 min, and then the wells were washed and reﬁlled with saline. Empty
+microtiter wells (without bioﬁlms) were stained similarly and then washed and
+reﬁlled with saline and used as blanks to measure the background ﬂuorescence.
+Fluorescence emission spectra (505 to 650 nm, with 5-nm steps) were measured
+with a Saﬁre ﬂuorescence plate reader (Tecan, Ma¨nnedorf, Switzerland) with
+excitation at 488 nm. The background ﬂuorescence was subtracted from the
+emission spectra, and the ratio of green ﬂuorescence (integrated from 505 to 525
+nm) to red ﬂuorescence (integrated from 605 to 625 nm) was calculated for each
+bioﬁlm. The absolute ﬂuorescence values were a product of the ﬂuorescence per
+cell and the number of cells in the bioﬁlm. Following treatment, static bioﬁlms
+were rinsed prior to PI staining, which could result in removal of some bioﬁlm.
+Using the ratio of green ﬂuorescence to red ﬂuorescence compensated for this
+effect. The ﬂuorescence of saline-treated control bioﬁlms was designated 100%
+viable, and the ﬂuorescence of bioﬁlms treated with 0.2% bleach was designated
+0% viable (in agreement with colony count data). Intermediate levels of viability
+were calculated by linear interpolation between the green ﬂuorescence/red ﬂu-
+orescence ratios for the 100% viable bioﬁlms (treated with saline) and the 0%
+viable bioﬁlms (treated with 0.2% bleach).
+Bioﬁlm growth and determination of viability for the BioFlux ﬂowthrough
+device. The BioFlux device (Fluxion Biosciences, South San Francisco, CA),
+which allows simultaneous cultivation of 96 ﬂow bioﬁlms, is described in the
+Results. To grow bioﬁlms in this device, the microﬂuidic channels (depth, 70 m;
+width, 370 m) were wetted with medium and inoculated with an overnight
+culture (whose concentration was adjusted so that the optical density at 600 nm
+[OD600] in medium was 0.1). To obtain time course images, P. ﬂuorescens was
+grown in TSB with a ﬂow rate of 186 l/h (2 cm/s). We found that with full-
+strength TSB there was inconsistent formation of fully formed bioﬁlms due to
+device volume constraints. For treatment assays, 0.1 TSB was used to control
+the PAO1 bioﬁlm yield, which resulted in a similar time course of development
+but more consistent fully formed bioﬁlms. Inoculation was performed using the
+“outlet” well to prevent contamination of the “inlet” well by pumping in the
+reverse direction for a few seconds (see Fig. 1). Following 30 min of incubation
+for cell attachment (37°C), fresh medium (0.1 TSB) was pumped (at a ﬂow rate
+of 65 l/h, corresponding to 697 m/s) from inlet wells through the channels to
+outlet wells. The ﬂow rate was sufﬁcient to prevent back-contamination of the
+inlet wells. After bioﬁlms had formed (8 h, 37°C), antibiotics (gentamicin, to-
+bramycin, ciproﬂoxacin, or enroﬂoxacin) dissolved in 0.1 TSB at a range of
+concentrations were applied overnight (at a ﬂow rate of 65 l/h) in quadrupli-
+cate. Treatment with bleach or 70% isopropyl alcohol was used to obtain com-
+pletely nonviable bioﬁlms, as some viability remained following treatment with
+0.2% bleach, which was not the case with static bioﬁlms (see above).
+Two strategies were employed to provide ﬂuorescence for measurement of
+viability. One strategy involved the use of GFP-expressing strains and staining
+with PI (30 M in 0.85% saline) for 15 min at a ﬂow rate of 93 l/h (997 m/s),
+followed by a 20-min rinse with saline. The second strategy involved bacteria not
+expressing GFP and viability staining with LIVE/DEAD BacLight stain (Invitro-
+gen). The BacLight stain consists of SYTO9 (5 M in 0.85% saline) and PI (30
+M in 0.85% saline), which were pumped through the channels (at the same ﬂow
+rate and for the same time as described above), which were then rinsed with
+saline for 20 min.
+FIG. 1. BioFlux high-throughput system for screening of ﬂow bioﬁlm viability and other parameters. (A) Photograph of BioFlux system. The
+device consists of a pneumatic pump connected via an interface to the top of a BioFlux plate (shown on the microscope stage). (B) Schematic
+diagram of the BioFlux plate, showing 48 wells and 24 independent channels connecting pairs of wells. (C) Schematic diagram showing the inlet
+and outlet wells containing fresh and spent media, respectively. Pneumatic pressure delivered to the top of the inlet well pushes fresh medium
+through the microﬂuidic channel (containing the bioﬁlm) and into the outlet well. The bioﬁlm can be viewed with a microscope or scanned with
+a plate reader. (D) Close-up of two microﬂuidic channels (black lines). Each channel has a serpentine region (one serpentine region is enclosed
+in a box) to provide sufﬁcient back pressure and a chamber for microscope viewing (arrow).
+VOL. 76, 2010
+HTP FLOW BIOFILM SCREENING DEVICE
+4137
+
+Two methods were used to measure ﬂuorescence: plate reader measurement
+and quantiﬁcation of ﬂuorescence microscope images. For the ﬁrst method,
+BioFlux plates were scanned with a Saﬁre ﬂuorescence plate reader by position-
+ing the emission detector beneath the viewing region of each microﬂuidic chan-
+nel (see Fig. 1D). To locate this region, a BioFlux plate containing stained
+bioﬁlms was scanned at 1,536 positions (using a 48-by-32 grid). Fluorescence
+measurements were obtained for two positions along the length of each bioﬁlm
+region viewed. The excitation wavelength was 488 nm, and emission was deter-
+mined for wavelength ranges that matched those used for ﬂuorescence micros-
+copy (505 to 525 nm for green; 605 to 625 nm for red) in 5-nm steps. For the
+second method, images of BioFlux bioﬁlms were obtained using an inverted
+ﬂuorescence microscope (Nikon Eclipse TE 300), a digital camera (Retiga EX;
+Q Imaging), and the Image-Pro Plus 5.0 software. Phase-contrast images were
+also collected to verify that all of the cells remained ﬂuorescent. The ﬂuores-
+cence intensity of images was quantiﬁed using the NIH freeware ImageJ (http:
+//rsb.info.nih.gov/ij/index.html) as described previously (25, 26). Fluorescence
+values (obtained using both methods) were integrated and used to calculate the
+ratio of green ﬂuorescence to red ﬂuorescence. Intermediate levels of viability
+were determined by linearly interpolating between green ﬂuorescence/red ﬂuo-
+rescence ratios of 100% viable bioﬁlms (untreated) and 0% viable bioﬁlms
+(treated with 70% isopropyl alcohol).
+Statistical analyses. GraphPad Prism v. 5.00 was used for all statistical calcu-
+lations. The Student t test was used to assess differences between SYTO9-PI data
+and GFP-PI data (see Fig. 5). To quantify the correlation between methods (both
+for colony counts versus images and for images versus plate reader), the Pearson
+correlation coefﬁcient (r) and the associated P value were determined, where r
+ranged from 0 (no correlation) to 1 (perfect correlation). We assumed that P
+values of 0.05 indicated statistical signiﬁcance. Linear regression analysis was
+also performed to compare methods. The coefﬁcient of determination (r2), which
+is the fraction of variance that is shared by two methods, is related to correlation
+in that r is the Pearson correlation coefﬁcient. Due to the heterogeneous nature
+of bioﬁlms and considering that the method used was intended for screening
+purposes, we considered that r2 values greater than 0.9 indicate a strong corre-
+lation.
+RESULTS
+BioFlux device. High-throughput screening of ﬂow bioﬁlm
+viability requires a device that permits development of multi-
+ple bioﬁlms with controlled ﬂow rates and determination of
+viability in real time. We constructed such a device (Fig. 1A)
+with microﬂuidic channels integrated into microtiter well
+plates. The use of a standard well plate format (Fig. 1B) al-
+lowed compatibility with plate readers and multichannel pipet-
+tors, and the plate also could be examined microscopically. The
+microﬂuidic channels are generated using photolithography-
+etched micropatterned silicon wafers as a mold for polydi-
+methylsiloxane, which forms the sides and roofs of the chan-
+nels. The bottom of the channels consists of standard 180-m
+coverslip glass, which allows microscopic examination. The
+channels connect pairs of microtiter wells; one well of each
+pair is the inlet well from which fresh medium is pushed by
+pneumatic pressure through the channel into the outlet well,
+which holds the spent medium (Fig. 1C). The microﬂuidic
+channels are 1/10 the size of conventional ﬂow cells, which
+permits laminar ﬂow at a wider range of ﬂow rates and results
+in uniform bioﬁlm growth in the entire channel. Figure 2 shows
+P. ﬂuorescens bioﬁlm formation, which appeared to be quali-
+tatively similar to PAO1 bioﬁlm formation; the series of images
+was taken 0.5 to 21 h after ﬂow was initiated.
+The system includes an air compressor and electropneu-
+matic regulators to deliver precisely controlled pressure to
+each channel via a manifold that interfaces with individual
+wells of the microtiter plate. Thus, the ﬂow (and shear) rate in
+each channel can be controlled individually. A thin transparent
+heating stage provides temperature control, and a software
+interface permits control of the ﬂow rate by the user and saving
+and reuse of experimental proﬁles. Unlike conventional ﬂow
+cell systems, the BioFlux plates are presterilized and do not
+require assembly or tubing connections, which minimizes the
+possibility of contamination. The plates each contain 24 chan-
+nels connecting 48 wells (Fig. 1B). The BioFlux system controls
+four plates simultaneously, providing a total of 96 bioﬁlms.
+Each inlet well and outlet well holds 1.25 ml of liquid, so there
+can be 11 to 20 h of continuous ﬂow before replenishment is
+necessary at commonly used ﬂow rates. The small volume of
+the microchannels also results in conservation of reagents.
+Quantiﬁcation of viability by measurement of ﬂuorescence.
+Flow cell bioﬁlm viability is generally determined using the
+LIVE/DEAD BacLight stain combined with imaging of green
+ﬂuorescence and red ﬂuorescence, which indicate live and
+dead cells, respectively. However, according to recent reports,
+this method can overestimate the number of viable cells re-
+maining after treatment with low levels of antimicrobial agents,
+evidently due to changes in membrane permeability that facil-
+itate disproportionate uptake of SYTO9 green (the green “vi-
+able” dye) (3, 24). An alternate method to measure viability
+by ﬂuorescence is to use green ﬂuorescent protein (GFP)-
+expressing bacteria and the red ﬂuorescent dye propidium
+iodide (PI) (24).
+To test if this method provides a reliable measure of bioﬁlm
+viability, we ﬁrst experimented with static bioﬁlms. These bio-
+ﬁlms can be removed, which permits plate counting, and thus
+are suitable for comparison to a standard method. Bioﬁlms
+FIG. 2. Bioﬁlm formation and development in a BioFlux channel.
+The images are phase-contrast images obtained after ﬂow began (the
+ﬂow was from left to right; each channel was 370 m wide) and show
+initial attachment (0.5 and 1 h), microcolony formation (2 and 3 h),
+and development (4, 5, and 6.5 h) into fully formed bioﬁlms (21 h).
+4138
+BENOIT ET AL.
+APPL. ENVIRON. MICROBIOL.
+
+were grown in 96-well microtiter plates for 24 h, treated with
+bleach at different concentrations (in quadruplicate), and ei-
+ther stained with PI or removed for colony counting (Fig. 3).
+Emission spectra were collected for stained bioﬁlms (Fig. 3A
+and 3B). The ratio of green ﬂuorescence to red ﬂuorescence
+was used to estimate bioﬁlm viability, and the results were
+compared to the viability of identically treated bioﬁlms deter-
+mined by plate counting. The two methods showed that there
+were comparable dose-dependent responses to bleach treat-
+ment for UPEC (Fig. 3C) and PAO1 (Fig. 3D) bioﬁlms. To
+quantify the correlation between methods, we calculated the
+Pearson correlation coefﬁcient (r) and its associated P value for
+viability estimates obtained in three independent experiments
+and found that r was 0.9876 and P was 0.0017 for UPEC and
+that r was 0.9855 and P was 0.0021 for PAO1. The high cor-
+relation coefﬁcients and low P values, together with the results
+of linear regression analyses (Fig. 3E and 3F), revealed that
+there was a strong correlation between the methods, validating
+the GFP-PI method for measuring the viability of two common
+bacterial bioﬁlm pathogens.
+To determine if the BioFlux device can be used to screen the
+effects of antimicrobial agents on ﬂow bioﬁlms, we cultivated
+GFP-expressing PAO1 bioﬁlms in this device. The bioﬁlms
+were treated with bleach or antibiotics (gentamicin, tobramy-
+cin, ciproﬂoxacin, or enroﬂoxacin) and then stained with PI,
+which was followed by measurement of ﬂuorescence with a
+plate reader. Both the bleach and the antibiotics caused dose-
+dependent bioﬁlm killing, as determined by ﬂuorescence mea-
+sured with the plate reader (Fig. 4). Bleach was less effective
+for ﬂow bioﬁlms than it was for static bioﬁlms (86% viability
+FIG. 3. Comparison of static bioﬁlm viabilities determined by colony counting and by using GFP-PI ﬂuorescence ratios. (A and B) Repre-
+sentative ﬂuorescence emission spectra of quadruplicate GFP-expressing UPEC (A) and PAO1 (B) bioﬁlms following 1 h of treatment with bleach
+(in saline) at the concentrations indicated (as percentages) and PI staining. The absorption peaks on the left and right correspond to live and dead
+cells, respectively. (C and D) Mean levels of viability as determined by colony counting and GFP-PI ﬂuorescence (GFP-PI Fluor.) for UPEC
+(C) and PAO1 (D) bioﬁlms. The error bars indicate standard deviations. (E and F) Linear regression analysis of viability data for the two methods
+using pooled data from three independent experiments.
+VOL. 76, 2010
+HTP FLOW BIOFILM SCREENING DEVICE
+4139
+
+versus 50% viability for 0.05% bleach, 56% viability versus
+17% viability for 0.02% bleach, and 6% viability versus 0%
+viability for 0.2% bleach), and 70% isopropanol was required
+to completely kill the bioﬁlms. Whether this was due to greater
+resistance is unclear because in addition to the presence of
+ﬂow, there are other differences between bioﬁlms grown in
+96-well plates and BioFlux bioﬁlms. The quinolones had the
+most potent effect; ciproﬂoxacin and enroﬂoxacin caused com-
+plete loss of viability at concentrations of 1 and 10 g/ml,
+respectively (Fig. 4D and 4E). As a further check of the reli-
+ability of rapid plate reader scanning for determination of
+viability, we analyzed bioﬁlm images obtained by ﬂuorescence
+microscopy (Fig. 4, insets), as reported previously (25, 26). The
+bioﬁlm viability calculated from ﬂuorescence ratios obtained
+using microscope images agreed with that measured with the
+plate reader (Fig. 4); the correlation coefﬁcient (r  0.9565;
+P  0.0001) and linear regression analysis (Fig. 4F) veriﬁed
+that there was a strong correlation between the results of the
+two methods. The ﬂuorescent microscope images conﬁrmed
+that the quinolones completely eradicated the bioﬁlms (cipro-
+ﬂoxacin at a concentration of 1 g/ml and enroﬂoxacin at a
+concentration of 10 g/ml), as indicated by the complete ab-
+sence of ﬂuorescence (Fig. 4D and 4E, insets).
+We used the GFP-PI method because Lehtinen et al. (24)
+showed that it was superior to the BacLight method for mea-
+suring the effects of low concentrations of antimicrobial agents
+on the viability of planktonic bacteria. The limitation of the
+BacLight method at low concentrations of antimicrobials is
+FIG. 4. Estimates of the viability of GFP-producing P. aeruginosa PAO1 bioﬁlms cultivated in the BioFlux device following treatment with
+bleach (A) or various antibiotics (B to E) and then stained with PI. Levels of viability were calculated by using the green ﬂuorescence/red
+ﬂuorescence ratios determined from quantiﬁed microscope images (black bars) and by using plate reader measurements (white bars). Isopropyl
+alcohol (70%) was used to ensure complete loss of viability. Insets show representative microscope images, including images of untreated (0) and
+isopropyl-alcohol treated (isop.) controls. Note that no bioﬁlm remained after treatment with the highest dose of enroﬂoxacin (E) and the two
+highest doses of ciproﬂoxacin (D). Fluorescence signals were not detected (N.D.) with the plate reader, and no bioﬁlms were observed using
+microscopy (insets). (F) Linear regression analysis for determinations of viability by the two methods.
+4140
+BENOIT ET AL.
+APPL. ENVIRON. MICROBIOL.
+
+apparently due to increased penetration of SYTO9 but not PI,
+which falsely increases the green ﬂuorescence/red ﬂuorescence
+ratio used to determine viability (3, 24). We assumed that this
+limitation was applicable to bacterial bioﬁlms. The success of
+the BioFlux device for HTP screening of ﬂow bioﬁlm viability,
+as reported above, enabled us to test this assumption directly.
+We cultivated PAO1 bioﬁlms not expressing GFP in the
+BioFlux apparatus, treated them with gentamicin, stained them
+with the two BacLight stains (SYTO9 and PI), and used the
+ratio of green ﬂuorescence to red ﬂuorescence to calculate the
+viability. Compared to the GFP-PI ﬂuorescence results, treat-
+ment with SYTO9 resulted in much higher levels of green
+ﬂuorescence for the two low concentrations (0.01 and 0.1 g/
+ml), resulting in a false increase in viability (e.g., viability
+greater than 100% compared to untreated controls). However,
+at higher concentrations of the antibiotic the two methods gave
+comparable results (Fig. 5). Similar results were obtained with
+tobramycin, enroﬂoxacin, and ciproﬂoxacin; for example, with
+0.01 g/ml of each antibiotic, the levels of viability determined
+by the BacLight light method were 166%, 117%, and 70% of
+the untreated control values, respectively, while the levels of
+viability determined by the GFP-PI method were 77%, 44%,
+and 47% of the untreated control values, respectively (Fig. 4).
+Thus, the BacLight method gives an erroneous picture of via-
+bility after exposure to low antimicrobial agent concentrations
+not only for planktonic cells but also for bioﬁlms.
+DISCUSSION
+Flow bioﬁlms are commonly cultivated in ﬂow cells, and
+their viability is determined by quantiﬁcation of microscopic
+ﬂuorescent images or by colony counting, both of which are
+time-consuming; colony counting is particularly difﬁcult be-
+cause ﬂow bioﬁlms cannot be easily removed from the ﬂow
+cells. HTP screening of viability by this method is not feasible
+not only because of these constraints but also because it would
+require the use of a prohibitively large number of ﬂow cells.
+We used a microﬂuidic device, the BioFlux device, which ac-
+curately controls ﬂuid ﬂow and permits simultaneous growth of
+multiple bioﬁlms with a large range of precisely controlled ﬂow
+rates. Here we describe a method for rapidly determining
+bioﬁlm viability simply by measuring ﬂuorescence with a plate
+reader, eliminating the need for the labor-intensive analyses
+mentioned above. The results show that measurement of
+GFP-PI ﬂuorescence with a plate reader reliably reﬂects bio-
+ﬁlm viability as veriﬁed by plate counting (Fig. 3), as well as
+viability determined by quantiﬁcation of ﬂuorescence micro-
+scope images (Fig. 4). Thus, the BioFlux device used in con-
+junction with the GFP-PI viability assessment method is an
+excellent method for initial HTP screening of ﬂow bioﬁlms;
+this was veriﬁed by successful use of this method for HTP
+screening of PAO1 bioﬁlms for sensitivity to a number of
+antimicrobials.
+The plate reader-based BioFlux viability screening method
+relied on the use of bacterial strains expressing GFP; for non-
+GFP-expressing bacteria another method, such as LIVE/
+DEAD BacLight staining, must be used. However, the Ba-
+cLight viability method, as reported previously for planktonic
+cells (3, 24) and conﬁrmed here for bioﬁlms, is limited to
+treatments causing a relatively higher level of killing. This
+ﬁnding appears to limit use of the BioFlux to bacteria capable
+of expressing GFP. However, there are other possibilities. For
+example, the LIVE/DEAD stain is accurate for determination
+of viability where the level of killing is high, which is often the
+goal of HTP screening; another possibility is to use a ﬂuoro-
+genic substrate, such as 4-methylumbellyferyl--D-glucuronide
+(28), to measure bioﬁlm metabolic activity. The BioFlux device
+is also likely to be useful in HTP screening of other bioﬁlm
+parameters. One example is investigating expression of a ﬂuo-
+rescently tagged protein under different conditions, such as
+ﬂuid shear. Another example is determination of the formation
+or elimination of the extracellular matrix, which can be done by
+using poly-N-acetylglucosamine-binding wheat germ aggluti-
+nin-Alexa Fluor 488 conjugate (5).
+ACKNOWLEDGMENTS
+This work was supported by NASA grant NNH08ZTT003N to A.M.,
+by NIH/NIGMS grant F32-GM077827 to M.R.B., and by NIH/NIGMS
+grant 1R43GM083384-01A1 to C.I.-Z.
+REFERENCES
+1. Anderson, G. G., J. J. Palermo, J. D. Schilling, R. Roth, J. Heuser, and S. J.
+Hultgren. 2003. Intracellular bacterial bioﬁlm-like pods in urinary tract in-
+fections. Science 301:105–107.
+2. Beech, I. B., and J. Sunner. 2004. Biocorrosion: towards understanding
+interactions between bioﬁlms and metals. Curr. Opin. Biotechnol. 15:181–
+186.
+3. Berney, M., F. Hammes, F. Bosshard, H. U. Weilenmann, and T. Egli. 2007.
+Assessment and interpretation of bacterial viability by using the LIVE/
+DEAD BacLight kit in combination with ﬂow cytometry. Appl. Environ.
+Microbiol. 73:3283–3290.
+4. Bloemberg, G. V., G. A. O’Toole, B. J. Lugtenberg, and R. Kolter. 1997.
+Green ﬂuorescent protein as a marker for Pseudomonas spp. Appl. Environ.
+Microbiol. 63:4543–4551.
+5. Burton, E., N. Yakandawala, K. LoVetri, and M. S. Madhyastha. 2007. A
+microplate spectroﬂuorometric assay for bacterial bioﬁlms. J. Ind. Microbiol.
+Biotechnol. 34:1–4.
+6. Ceri, H., M. E. Olson, C. Stremick, R. R. Read, D. Morck, and A. Buret.
+1999. The Calgary bioﬁlm device: new technology for rapid determination of
+antibiotic susceptibilities of bacterial bioﬁlms. J. Clin. Microbiol. 37:1771–
+1776.
+7. Coetser, S. E., and T. E. Cloete. 2005. Biofouling and biocorrosion in indus-
+trial water systems. Crit. Rev. Microbiol. 31:213–232.
+8. Conant, C. G., J. T. Nevill, M. A. Schwartz, and C. Ionescu-Zanetti. 2010.
+Wound healing assays in well plate-coupled microﬂuidic devices with con-
+trolled parallel ﬂow. 15:52–57.
+FIG. 5. Viability of PAO1 BioFlux bioﬁlms determined using
+SYTO9-PI and GFP-PI. Treatment with low levels (0.01 and 0.1 g/
+ml) of gentamicin increased SYTO9 uptake and green ﬂuorescence,
+resulting in enhancement of false-positive viability (100%), which did
+not occur with GFP-PI ﬂuorescence. The Student t test P value is
+shown for each concentration of gentamicin; a P value of 0.05 indi-
+cates that there is a statistically signiﬁcant difference.
+VOL. 76, 2010
+HTP FLOW BIOFILM SCREENING DEVICE
+4141
+
+9. Conant, C. G., M. A. Schwartz, and C. Ionescu-Zanetti. 2010. Well plate-
+coupled microﬂuidic devices designed for facile image-based cell adhesion
+and transmigration assays. J. Biomol. Screen. 15:102–106.
+10. Conant, C. G., M. A. Schwartz, T. Nevill, and C. Ionescu-Zanetti. 2009.
+Platelet adhesion and aggregation under ﬂow using microﬂuidic ﬂow cells. J.
+Vis. Exp. pii:1644. doi:10.3791/1644.
+11. Davies, D. 2003. Understanding bioﬁlm resistance to antibacterial agents.
+Nat. Rev. Drug Discov. 2:114–122.
+12. del Pozo, J. L., and R. Patel. 2007. The challenge of treating bioﬁlm-asso-
+ciated bacterial infections. Clin. Pharmacol. Ther. 82:204–209.
+13. Ding, A. M., R. J. Palmer, Jr., J. O. Cisar, and P. E. Kolenbrander. 2010.
+Shear-enhanced
+oral
+microbial
+adhesion.
+Appl.
+Environ.
+Microbiol.
+76:1294–1297.
+14. Eun, Y. J., and D. B. Weibel. 2009. Fabrication of microbial bioﬁlm arrays by
+geometric control of cell adhesion. Langmuir 25:4643–4654.
+15. Gillis, R. J., K. G. White, K. H. Choi, V. E. Wagner, H. P. Schweizer, and
+B. H. Iglewski. 2005. Molecular basis of azithromycin-resistant Pseudomonas
+aeruginosa bioﬁlms. Antimicrob. Agents Chemother. 49:3858–3867.
+16. Hall-Stoodley, L., J. W. Costerton, and P. Stoodley. 2004. Bacterial bioﬁlms:
+from the natural environment to infectious diseases. Nat. Rev. Microbiol.
+2:95–108.
+17. Hall-Stoodley, L., F. Z. Hu, A. Gieseke, L. Nistico, D. Nguyen, J. Hayes, M.
+Forbes, D. P. Greenberg, B. Dice, A. Burrows, P. A. Wackym, P. Stoodley,
+J. C. Post, G. D. Ehrlich, and J. E. Kerschner. 2006. Direct detection of
+bacterial bioﬁlms on the middle-ear mucosa of children with chronic otitis
+media. JAMA 296:202–211.
+18. Ito, A., T. May, K. Kawata, and S. Okabe. 2008. Signiﬁcance of rpoS during
+maturation of Escherichia coli bioﬁlms. Biotechnol. Bioeng. 99:1462–1471.
+19. Janakiraman, V., D. Englert, A. Jayaraman, and H. Baskaran. 2009. Mod-
+eling growth and quorum sensing in bioﬁlms grown in microﬂuidic chambers.
+Ann. Biomed. Eng. 37:1206–1216.
+20. Khardori, N., and M. Yassien. 1995. Bioﬁlms in device-related infections.
+J. Ind. Microbiol. 15:141–147.
+21. Kim, J., M. Hegde, and A. Jayaraman. 2010. Co-culture of epithelial cells
+and bacteria for investigating host-pathogen interactions. Lab Chip 10:
+43–50.
+22. Kirisits, M. J., J. J. Margolis, B. L. Purevdorj-Gage, B. Vaughan, D. L.
+Chopp, P. Stoodley, and M. R. Parsek. 2007. Inﬂuence of the hydrodynamic
+environment on quorum sensing in Pseudomonas aeruginosa bioﬁlms. J.
+Bacteriol. 189:8357–8360.
+23. Lee, J. H., J. B. Kaplan, and W. Y. Lee. 2008. Microﬂuidic devices for
+studying growth and detachment of Staphylococcus epidermidis bioﬁlms.
+Biomed. Microdevices 10:489–498.
+24. Lehtinen, J., J. Nuutila, and E. M. Lilius. 2004. Green ﬂuorescent protein-
+propidium iodide (GFP-PI) based assay for ﬂow cytometric measurement of
+bacterial viability. Cytometry A 60:165–172.
+25. Lynch, S. V., L. Dixon, M. R. Benoit, E. L. Brodie, M. Keyhan, P. Hu, D. F.
+Ackerley, G. L. Andersen, and A. Matin. 2007. Role of the rapA gene in
+controlling antibiotic resistance of Escherichia coli bioﬁlms. Antimicrob.
+Agents Chemother. 51:3650–3658.
+26. Lynch, S. V., K. Mukundakrishnan, M. R. Benoit, P. S. Ayyaswamy, and A.
+Matin. 2006. Escherichia coli bioﬁlms formed under low-shear modeled
+microgravity in a ground-based system. Appl. Environ. Microbiol. 72:7701–
+7710.
+27. Mah, T. F., B. Pitts, B. Pellock, G. C. Walker, P. S. Stewart, and G. A.
+O’Toole. 2003. A genetic basis for Pseudomonas aeruginosa bioﬁlm antibi-
+otic resistance. Nature 426:306–310.
+28. Mariscal, A., M. Carnero-Varo, M. Gutierrez-Bedmar, A. Garcia-Rodriguez,
+and J. Fernandez-Crehuet. 2007. A ﬂuorescent method for assessing the
+antimicrobial efﬁcacy of disinfectant against Escherichia coli ATCC 35218
+bioﬁlm. Appl. Microbiol. Biotechnol. 77:233–240.
+29. Marsili, E., H. Beyenal, L. Di Palma, C. Merli, A. Dohnalkova, J. E. Amon-
+ette, and Z. Lewandowski. 2007. Uranium immobilization by sulfate-reduc-
+ing bioﬁlms grown on hematite, dolomite, and calcite. Environ. Sci. Technol.
+41:8349–8354.
+30. Morales, D. K., W. Ocampo, and M. M. Zambrano. 2007. Efﬁcient removal
+of hexavalent chromium by a tolerant Streptomyces sp. affected by the toxic
+effect of metal exposure. J. Appl. Microbiol. 103:2704–2712.
+31. Parsek, M. R., and P. K. Singh. 2003. Bacterial bioﬁlms: an emerging link to
+disease pathogenesis. Annu. Rev. Microbiol. 57:677–701.
+32. Pettit, R. K., C. A. Weber, M. J. Kean, H. Hoffmann, G. R. Pettit, R. Tan,
+K. S. Franks, and M. L. Horton. 2005. Microplate Alamar blue assay for
+Staphylococcus
+epidermidis
+bioﬁlm
+susceptibility
+testing.
+Antimicrob.
+Agents Chemother. 49:2612–2617.
+33. Pitts, B., M. A. Hamilton, N. Zelver, and P. S. Stewart. 2003. A microtiter-
+plate screening method for bioﬁlm disinfection and removal. J. Microbiol.
+Methods 54:269–276.
+34. Purevdorj, B., J. W. Costerton, and P. Stoodley. 2002. Inﬂuence of hydro-
+dynamics and cell signaling on the structure and behavior of Pseudomonas
+aeruginosa bioﬁlms. Appl. Environ. Microbiol. 68:4457–4464.
+35. Singh, P. K., A. L. Schaefer, M. R. Parsek, T. O. Moninger, M. J. Welsh, and
+E. P. Greenberg. 2000. Quorum-sensing signals indicate that cystic ﬁbrosis
+lungs are infected with bacterial bioﬁlms. Nature 407:762–764.
+36. Stone, G., P. Wood, L. Dixon, M. Keyhan, and A. Matin. 2002. Tetracycline
+rapidly reaches all the constituent cells of uropathogenic Escherichia coli
+bioﬁlms. Antimicrob. Agents Chemother. 46:2458–2461.
+37. Valdivia, R. H., and S. Falkow. 1996. Bacterial genetics by ﬂow cytometry:
+rapid isolation of Salmonella typhimurium acid-inducible promoters by dif-
+ferential ﬂuorescence induction. Mol. Microbiol. 22:367–378.
+38. Wagner, M., A. Loy, R. Nogueira, U. Purkhold, N. Lee, and H. Daims. 2002.
+Microbial community composition and function in wastewater treatment
+plants. Antonie Van Leeuwenhoek 81:665–680.
+4142
+BENOIT ET AL.
+APPL. ENVIRON. MICROBIOL.
