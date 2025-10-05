@@ -1477,6 +1477,14 @@ def heatmap_cosine_page():
 def home():
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
 @app.route('/graph')
 def graph_page():
     search_query = request.args.get('query', 'N/A')

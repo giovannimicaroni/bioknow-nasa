@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - BioKnowdes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            overflow-y: scroll;
+        }
+
+        .help-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+
+        .help-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .help-header h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .help-header p {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .search-help {
+            max-width: 800px;
+            margin: 0 auto 50px auto;
+        }
+
+        .search-help input {
+            width: 100%;
+            padding: 15px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            color: #fff;
+            font-size: 1.1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .search-help input:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #0070f3;
+            box-shadow: 0 0 20px rgba(0, 112, 243, 0.3);
+        }
+
+        .search-help input::placeholder {
+            color: #999;
+        }
+
+        .faq-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .faq-category {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .faq-category h2 {
+            font-size: 1.6rem;
+            color: #0070f3;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 15px;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.05rem;
+            font-weight: 500;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            transition: color 0.3s ease;
+            gap: 15px;
+        }
+
+        .faq-question:hover {
+            color: #0070f3;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #0070f3;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+            margin-top: -5px;
+        }
+
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            padding: 0;
+            color: #d0d0d0;
+            line-height: 1.8;
+            font-size: 0.95rem;
+        }
+
+        .faq-answer.active {
+            max-height: 800px;
+            padding: 15px 0 5px 0;
+        }
+
+        .faq-answer ul {
+            margin-top: 10px;
+            padding-left: 25px;
+        }
+
+        .faq-answer li {
+            margin-bottom: 8px;
+        }
+
+        .faq-answer code {
+            background: rgba(0, 112, 243, 0.3);
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #00c9ff;
+            font-family: 'Courier New', monospace;
+        }
+
+        .contact-section {
+            max-width: 800px;
+            margin: 60px auto 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-section h2 {
+            color: #0070f3;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-section p {
+            color: #d0d0d0;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #0070f3, #00c9ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #0070f3, #00c9ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .faq-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .help-header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="{{ url_for('static', filename='images/nasa-logo.png') }}" alt="NASA Logo">
+            </a>
+            <span>NASA Space Apps - BioKnowdes</span>
+        </div>
+
+        <nav class="dropdown-nav">
+            <div class="dropdown">
+                <button class="dropdown-toggle">Explore ▾</button>
+                <div class="dropdown-menu">
+                    <a href="/">Home</a>
+                    <a href="/heatmap_cosine" class="heatmap-link">Heatmap</a>
+                    <a href="/ask-lumi">Ask Lumi</a>
+                    <a href="/ask-lumi/articles">Browse Articles</a>
+                    <a href="about"> About us </a>
+                    <a href="/help"> Help</a>
+                 </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="help-container">
+            <div class="help-header">
+                <h1>Help</h1>
+                <p>Find answers to common questions and learn how to use BioKnowdes</p>
+            </div>
+
+            <div class="search-help">
+                <input type="text" id="help-search" placeholder="Search for help topics...">
+            </div>
+
+            <div class="faq-section">
+                <!-- Getting Started -->
+                <div class="faq-category">
+                    <h2>🚀 Getting Started</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">What is BioKnowdes?</div>
+                        <div class="faq-answer">
+                            BioKnowdes is an innovative platform that helps researchers discover connections between biological experiments, keywords, and scientific concepts through interactive visualizations and AI-powered insights.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">How do I start exploring data?</div>
+                        <div class="faq-answer">
+                            Click on the <strong>Search</strong> button on the homepage or navigate to the Graph section from the menu. You can search for specific keywords, experiments, or concepts to visualize their connections.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Do I need an account?</div>
+                        <div class="faq-answer">
+                            No account is needed for basic exploration. You can browse, search, and interact with all visualizations without signing up.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Using the Graph -->
+                <div class="faq-category">
+                    <h2>🔍 Using the Graph</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">How do I navigate the graph?</div>
+                        <div class="faq-answer">
+                            You can interact with the graph by:
+                            <ul>
+                                <li><strong>Clicking</strong> on nodes to view details</li>
+                                <li><strong>Dragging</strong> to move nodes around</li>
+                                <li><strong>Zooming</strong> with mouse wheel</li>
+                                <li><strong>Panning</strong> by dragging the background</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- <div class="faq-item">
+                        <div class="faq-question">What do the colors mean?</div>
+                        <div class="faq-answer">
+                            Different colors represent different types of nodes:
+                            <ul>
+                                <li><strong>Blue:</strong> Experiments</li>
+                                <li><strong>Green:</strong> Keywords</li>
+                                <li><strong>Orange:</strong> Concepts</li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <div class="faq-item">
+                        <div class="faq-question">Can I filter results?</div>
+                        <div class="faq-answer">
+                            Yes! Use the search bar and filters on the Graph page to narrow down results by keywords, date ranges, or specific categories.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heatmap Feature -->
+                <div class="faq-category">
+                    <h2>📊 Heatmap</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">What is the Heatmap?</div>
+                        <div class="faq-answer">
+                            The Heatmap visualizes the frequency and intensity of connections between different biological concepts, helping you identify patterns and hotspots in the research data.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">How to interpret colors?</div>
+                        <div class="faq-answer">
+                            Darker/brighter colors indicate stronger connections or higher frequency. Use the legend on the page to understand the scale specific to your search.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Can I export the heatmap?</div>
+                        <div class="faq-answer">
+                            Look for the export or download button on the Heatmap page to save visualizations for your research or presentations.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AskLumi AI -->
+                <div class="faq-category">
+                    <h2>🤖 AskLumi AI</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">What is Lumi?</div>
+                        <div class="faq-answer">
+                            Lumi is your AI-powered research assistant that can answer questions about the data, help you discover connections, and provide insights about biological experiments.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">How do I chat with Lumi?</div>
+                        <div class="faq-answer">
+                            Click on the chat balloon in the bottom right corner of any page, or visit the <code>AskLumi</code> page from the menu. Type your question and press Enter.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">What can I ask Lumi?</div>
+                        <div class="faq-answer">
+                            You can ask about specific experiments, connections between concepts, scientific terms, platform features, and recommendations for related research.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Issues -->
+                <div class="faq-category">
+                    <h2>⚙️ Technical</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Graph loading slowly?</div>
+                        <div class="faq-answer">
+                            Try refreshing the page, clearing browser cache, using a more specific search query, or ensuring stable internet connection.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Which browsers work best?</div>
+                        <div class="faq-answer">
+                            BioKnowdes works best on Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. We recommend keeping your browser updated.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">How to report a bug?</div>
+                        <div class="faq-answer">
+                            Contact our support team using the form below. Include details about what happened, which page you were on, and your browser information.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data & Privacy -->
+                <div class="faq-category">
+                    <h2>🔒 Data & Privacy</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Is my data secure?</div>
+                        <div class="faq-answer">
+                            Yes, all data is encrypted and we follow industry-standard security practices to protect your information.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Can I download data?</div>
+                        <div class="faq-answer">
+                            Yes, you can export visualizations and data from most pages using the download or export buttons available in each section.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Where does data come from?</div>
+                        <div class="faq-answer">
+                            Our data comes from publicly available scientific databases, research publications, and curated biological knowledge bases.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h2>Still need help?</h2>
+                <p>Can't find what you're looking for? Our team is here to assist you.</p>
+                <a href="mailto:support@bioknowdes.com" class="contact-btn">Contact Support</a>
+            </div>
+
+            <div class="btn-container">
+                <a href="/" class="back-btn">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        // FAQ Accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+                
+                // Close all answers in this category
+                const category = this.closest('.faq-category');
+                category.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.classList.remove('active');
+                });
+                category.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                });
+                
+                // Open clicked answer if it wasn't active
+                if (!isActive) {
+                    answer.classList.add('active');
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        // Search functionality
+        document.getElementById('help-search').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            document.querySelectorAll('.faq-item').forEach(item => {
+                const question = item.querySelector('.faq-question').textContent.toLowerCase();
+                const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+                
+                if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            // Hide categories with no visible items
+            document.querySelectorAll('.faq-category').forEach(category => {
+                const visibleItems = Array.from(category.querySelectorAll('.faq-item')).filter(
+                    item => item.style.display !== 'none'
+                );
+                if (visibleItems.length === 0 && searchTerm !== '') {
+                    category.style.display = 'none';
+                } else {
+                    category.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
