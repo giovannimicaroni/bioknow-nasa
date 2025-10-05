@@ -29,11 +29,15 @@
     </header>
 
     <main class="content-section">
-        <div class="container">
-            <h1 class="page-title">Similarity Heatmap</h1>
-            <p class="page-subtitle">Interactive visualization of the similarity between the 30 most connected graphs in the network.</p>
+        <div class="heatmap-container">
+            <div class="heatmap-header">
+                <h1 class="heatmap-title">Similarity Heatmap</h1>
+                <p class="heatmap-subtitle">Interactive visualization of the similarity between the 30 most connected articles in the network</p>
+            </div>
             
-            {{ heatmap_div|safe }}
+            <div class="heatmap-chart">
+                {{ heatmap_div|safe }}
+            </div>
         </div>
     </main>
 

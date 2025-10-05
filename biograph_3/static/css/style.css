@@ -61,6 +61,11 @@ header {
 
 .logo img { 
     height: 40px; 
+    transition: transform 0.3s ease;
+}
+
+.logo a:hover img {
+    transform: scale(1.05);
 }
 
 nav { 
@@ -131,6 +136,78 @@ nav a:hover {
 .explore-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 30px rgba(34, 167, 197, 0.6);
+}
+
+/* --- Heatmap Page Styles --- */
+.heatmap-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heatmap-header {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeInDown 0.6s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.heatmap-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #ffffff 0%, #22a7c5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+}
+
+.heatmap-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center; 
+    white-space: nowrap;
+}
+
+.heatmap-chart {
+    width: 100%;
+    background: rgba(17, 24, 39, 0.6);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* --- Página do Grafo --- */
@@ -476,6 +553,18 @@ nav a:hover {
     
     .hero-subtitle {
         font-size: 1.1rem;
+    }
+    
+    .heatmap-title {
+        font-size: 2.2rem;
+    }
+    
+    .heatmap-subtitle {
+        font-size: 1rem;
+    }
+    
+    .heatmap-chart {
+        padding: 20px;
     }
     
     header {
