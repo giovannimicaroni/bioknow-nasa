@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, jsonify
 from pyvis.network import Network
 import networkx as nx
 import pickle
+import plotly.graph_objects as go
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -230,6 +232,89 @@ def get_keywords():
     # Return categorized structure
     return jsonify(categorized_keywords)
 
+# No seu arquivo Python do Flask
+
+def create_interactive_heatmap(top_n=30):
+    """
+    Cria um heatmap interativo com os 'top_n' nós mais conectados.
+    """
+    try:
+        print("--- Iniciando create_interactive_heatmap ---")
+        
+        # 1. Carregar o grafo completo
+        with open("grafo_keywords.gpickle", "rb") as f:
+            g = pickle.load(f)
+        print(f"Grafo carregado com {g.number_of_nodes()} nós.")
+        
+        if g.number_of_nodes() < top_n:
+            top_n = g.number_of_nodes()
+
+        # 2. Encontrar os 'top_n' nós
+        top_nodes = sorted(g.degree, key=lambda item: item[1], reverse=True)[:top_n]
+        top_node_names = [node for node, degree in top_nodes]
+        print(f"Encontrados {len(top_node_names)} nós principais.")
+        
+        # 3. Criar subgrafo
+        subgraph = g.subgraph(top_node_names)
+        print("Subgrafo criado.")
+        
+        # 4. Calcular matriz de distância e similaridade
+        dist_matrix = pd.DataFrame(nx.floyd_warshall_numpy(subgraph),
+                                   index=subgraph.nodes(), columns=subgraph.nodes())
+        similarity_matrix = 1 / (1 + dist_matrix)
+        print("Matriz de similaridade calculada. Shape:", similarity_matrix.shape)
+        
+        # Encurtar os rótulos
+        short_labels = [label.replace('.pdf', '')[:40] for label in similarity_matrix.index]
+        similarity_matrix.index = short_labels
+        similarity_matrix.columns = short_labels
+        
+        # 5. Criar a figura do Plotly
+        fig = go.Figure(data=go.Heatmap(
+            z=similarity_matrix.values,
+            x=similarity_matrix.columns,
+            y=similarity_matrix.index,
+            colorscale='YlOrRd',
+            hoverongaps=False,
+            hovertemplate='Artigo 1: %{y}<br>Artigo 2: %{x}<br>Similaridade: %{z:.2f}<extra></extra>'
+        ))
+        print("Figura do Plotly criada.")
+        
+        # 6. Customizar o layout
+        fig.update_layout(
+            title=f'Heatmap de Similaridade entre os {top_n} Artigos Principais',
+            template='plotly_dark',
+            width=800,
+            height=800,
+            yaxis_scaleanchor='x',
+            xaxis_showgrid=False,
+            yaxis_showgrid=False,
+            yaxis_autorange='reversed'
+        )
+        print("Layout da figura atualizado.")
+        
+        # 7. Converter para HTML
+        heatmap_div = fig.to_html(full_html=False, include_plotlyjs='cdn')
+        print("--- Finalizado: Convertido para HTML div com sucesso. ---")
+        return heatmap_div
+
+    except Exception as e:
+        print(f"!!!!!! OCORREU UM ERRO DENTRO DE create_interactive_heatmap !!!!!!")
+        print(f"Erro: {e}")
+        import traceback
+        traceback.print_exc()
+        return "<h1>Ocorreu um erro ao gerar o gráfico. Verifique o terminal do servidor.</h1>"
+
+# ... (suas rotas Flask existentes / e /graph etc.) ...
+
+# ADICIONE ESTA NOVA ROTA NO FINAL DO SEU ARQUIVO
+@app.route('/heatmap')
+def heatmap_page():
+    """
+    Renderiza a página que exibe o heatmap interativo.
+    """
+    heatmap_div = create_interactive_heatmap()
+    return render_template('heatmap.html', heatmap_div=heatmap_div)
 
 if __name__ == '__main__':
     create_graph("")

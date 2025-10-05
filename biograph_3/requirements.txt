@@ -1,3 +1,7 @@
 Flask
 pyvis
 networkx
+pandas
+seaborn
+matplotlib
+plotly

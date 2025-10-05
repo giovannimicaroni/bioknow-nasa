@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Space Apps Challenge</title>
+    <title>BioKnowdes - Heatmap</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -14,31 +14,29 @@
         </div>
 
         <nav class="dropdown-nav">
-        <div class="dropdown">
-        <button class="dropdown-toggle">Explore ▾</button>
-        <div class="dropdown-menu">
-            <a href="/">Home</a>
-            <a href="/graph">Search</a>
-            <a href="/heatmap" class="heatmap-link">Heatmap</a>
-            <a href="/asklumi">AskLumi</a>
-        </div>
-    </div>
-</nav>
+            <div class="dropdown">
+                <button class="dropdown-toggle">Explore ▾</button>
+                <div class="dropdown-menu">
+                    <a href="/">Home</a>
+                    <a href="/graph">Search</a>
+                    <a href="/heatmap" class="heatmap-link">Heatmap</a>
+                    <a href="/asklumi">AskLumi</a>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <main class="hero-section">
-        <div class="cta-container">
-            <h1 class="hero-title">BioKnowdes</h1>
-            <p class="hero-subtitle">Discover connections between experiments, keywords, and scientific concepts</p>
-            <a href="/graph" class="explore-btn">Search</a>
+    <main class="content-section">
+        <div class="container">
+            <h1 class="page-title">Heatmap de Similaridade</h1>
+            <p class="page-subtitle">Visualização interativa da similaridade entre os 30 artigos mais conectados da rede.</p>
+            
+            {{ heatmap_div|safe }}
         </div>
     </main>
 
-    <iframe id="preload-graph" src="/get_graph_data" style="display: none;"></iframe>
-
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
-    <!-- Chat Bot Balloon -->
     <div id="chat-bot-container">
         <div id="chat-bot-balloon"></div>
         <div id="chat-bot-window">
