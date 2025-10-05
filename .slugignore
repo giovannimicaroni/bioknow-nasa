@@ -1,13 +1,9 @@
-# Heroku Slug Ignore - Remove arquivos desnecessários do deploy
-# Isso ajuda a manter o slug abaixo do limite de 500MB
-
 # Desenvolvimento
 *.pyc
 __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
 
 # Ambientes virtuais
 venv/
@@ -25,32 +21,25 @@ env/
 .git/
 .gitignore
 
-# Documentação e exemplos
+# Documentação
 *.md
 !README.md
-INTEGRATION_COMPLETE.md
-external_button_example.html
 
-# Sessões locais (não necessário no Heroku)
+# Sessões locais
 sessions/*.json
 
-# Cache e temporários
+# Cache
 *.log
 .cache/
 
-# Arquivos grandes desnecessários
-*.pdf
-uploads/
-
-# Dados de teste
-biograph_2/
-biograph_3/
-
-# Notebooks
-*.ipynb
-
-# Tests
+# Testes  
 tests/
 test_*.py
 *_test.py
 
+# Outros arquivos grandes desnecessários
+*.pdf
+uploads/
+biograph_2/
+biograph_3/
+*.ipynb

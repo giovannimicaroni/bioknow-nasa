@@ -29,8 +29,7 @@ from langchain_ollama import ChatOllama
 from langchain.memory import ConversationBufferMemory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from pydantic import BaseModel, Field
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
 # AI Provider imports
 try:
@@ -105,12 +104,16 @@ graph_cache = {}
 class ArticleRanker:
     """Loads and ranks articles from keywords_resultados.jsonl using semantic similarity."""
     
-    def __init__(self, jsonl_path: str, model_name: str = 'all-MiniLM-L6-v2'):
+    def __init__(self, jsonl_path: str, openai_api_key: str = None):
         self.articles = []
         self.load_articles(jsonl_path)
-        print(f"Loading embedding model: {model_name}...")
-        self.embedding_model = SentenceTransformer(model_name)
-        print(f"✓ Model loaded. {len(self.articles)} articles ready.")
+        self.openai_api_key = openai_api_key
+        self.embeddings_cache = {}
+        self.cache_file = "article_embeddings_cache.json"
+        
+        # Load or create embeddings cache
+        self.load_embeddings_cache()
+        print(f"✓ OpenAI embeddings ready. {len(self.articles)} articles loaded with cache.")
         
     def load_articles(self, jsonl_path: str):
         """Load articles from JSONL file."""
@@ -124,22 +127,102 @@ class ArticleRanker:
                     'keywords_with_scores': article['keywords']
                 })
     
+    def load_embeddings_cache(self):
+        """Load embeddings cache from file."""
+        try:
+            with open(self.cache_file, 'r') as f:
+                self.embeddings_cache = json.load(f)
+            print(f"✓ Loaded {len(self.embeddings_cache)} cached embeddings")
+        except FileNotFoundError:
+            print("📦 Creating new embeddings cache...")
+            self.embeddings_cache = {}
+            self.precompute_article_embeddings()
+    
+    def save_embeddings_cache(self):
+        """Save embeddings cache to file."""
+        with open(self.cache_file, 'w') as f:
+            json.dump(self.embeddings_cache, f)
+        print(f"💾 Saved {len(self.embeddings_cache)} embeddings to cache")
+    
+    def precompute_article_embeddings(self):
+        """Precompute embeddings for all articles."""
+        print(f"🔄 Precomputing embeddings for {len(self.articles)} articles...")
+        
+        for idx, article in enumerate(self.articles):
+            article_text = " ".join(article['keywords'])
+            cache_key = f"article_{idx}"
+            
+            if cache_key not in self.embeddings_cache:
+                embedding = self.get_openai_embedding(article_text)
+                self.embeddings_cache[cache_key] = embedding
+                
+                # Save cache every 10 articles to avoid losing progress
+                if (idx + 1) % 10 == 0:
+                    self.save_embeddings_cache()
+                    print(f"  Progress: {idx + 1}/{len(self.articles)} articles")
+        
+        # Final save
+        self.save_embeddings_cache()
+        print("✅ All article embeddings precomputed!")
+    
+    def get_openai_embedding(self, text: str) -> List[float]:
+        """Get embedding from OpenAI API."""
+        try:
+            client = openai.OpenAI(api_key=self.openai_api_key)
+            response = client.embeddings.create(
+                model="text-embedding-3-small",
+                input=text
+            )
+            return response.data[0].embedding
+        except Exception as e:
+            print(f"❌ OpenAI embedding error: {e}")
+            # Fallback: return zero vector
+            return [0.0] * 1536
+    
+    def cosine_similarity(self, vec1: List[float], vec2: List[float]) -> float:
+        """Calculate cosine similarity between two vectors."""
+        vec1_arr = np.array(vec1)
+        vec2_arr = np.array(vec2)
+        
+        dot_product = np.dot(vec1_arr, vec2_arr)
+        norm1 = np.linalg.norm(vec1_arr)
+        norm2 = np.linalg.norm(vec2_arr)
+        
+        if norm1 == 0 or norm2 == 0:
+            return 0.0
+        
+        return dot_product / (norm1 * norm2)
+    
     def rank_by_embeddings(self, query_keywords: List[str], top_n: int = 5) -> List[Dict]:
         """
-        Rank articles using semantic embeddings.
+        Rank articles using cached OpenAI embeddings.
         
         Returns:
             List of dicts with article metadata and relevance scores
         """
         query_text = " ".join(query_keywords)
-        query_embedding = self.embedding_model.encode([query_text])
+        
+        # Cache query embeddings too
+        query_cache_key = f"query_{hash(query_text)}"
+        if query_cache_key in self.embeddings_cache:
+            query_embedding = self.embeddings_cache[query_cache_key]
+        else:
+            query_embedding = self.get_openai_embedding(query_text)
+            self.embeddings_cache[query_cache_key] = query_embedding
         
         scores = []
         for idx, article in enumerate(self.articles):
-            article_text = " ".join(article['keywords'])
-            article_embedding = self.embedding_model.encode([article_text])
+            # Use cached article embedding
+            cache_key = f"article_{idx}"
+            if cache_key in self.embeddings_cache:
+                article_embedding = self.embeddings_cache[cache_key]
+            else:
+                # Fallback: compute if not cached (shouldn't happen)
+                article_text = " ".join(article['keywords'])
+                article_embedding = self.get_openai_embedding(article_text)
+                self.embeddings_cache[cache_key] = article_embedding
             
-            similarity = cosine_similarity(query_embedding, article_embedding)[0][0]
+            similarity = self.cosine_similarity(query_embedding, article_embedding)
             scores.append({
                 'id': idx,
                 'article': article['article'],
@@ -869,7 +952,19 @@ def initialize_amanda_agent():
     global amanda_agent, homepage_agent
     try:
         print("Initializing AmandaChatbot...")
-        ranker = ArticleRanker("keywords_resultados.jsonl")
+        # Get OpenAI API key for embeddings
+        openai_key = os.getenv('OPENAI_API_KEY')
+        if not openai_key:
+            # Try to get from settings
+            try:
+                with open('bioknowdes_settings.json', 'r') as f:
+                    settings = json.load(f)
+                    openai_settings = settings.get('openai', {})
+                    openai_key = openai_settings.get('api_key')
+            except:
+                pass
+        
+        ranker = ArticleRanker("keywords_resultados.jsonl", openai_api_key=openai_key)
         
         # Try to initialize with Ollama (optional, for Langchain agent)
         # This is only used if settings are not provided in research() call
@@ -1471,6 +1566,7 @@ def create_interactive_heatmap_cosine(top_n=30, gpickle_path="grafo_keywords.gpi
     selecionados aleatoriamente de um pool dos mais conectados.
     """
     try:
+        from sklearn.metrics.pairwise import cosine_similarity
         # Carrega o grafo
         with open(gpickle_path, "rb") as f:
             g = pickle.load(f)
@@ -2112,8 +2208,10 @@ def homepage_chat():
                 'answer': result['answer'],
                 'retrieved_articles': result.get('retrieved_articles', [])
             })
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"❌ Homepage chat error: {e}")
+            import traceback
+            traceback.print_exc()
     
     # Fallback responses if AmandaChatbot is not available
     fallback_responses = [
