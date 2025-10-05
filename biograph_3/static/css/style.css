@@ -100,6 +100,8 @@ nav a:hover {
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 40px;
     line-height: 1.6;
+    text-align: center; /* Garante que o texto esteja centralizado */
+    white-space: nowrap; /* Impede a quebra de linha */
 }
 
 .explore-btn {
@@ -469,4 +471,101 @@ nav a:hover {
     header {
         padding: 15px 20px;
     }
+}
+
+/* === Dropdown Navigation === */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+/* Centraliza o dropdown no header */
+.dropdown-nav {
+    position: absolute;
+    right: 60px; /* ajusta a distância da borda direita */
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    .dropdown-nav {
+        right: 30px;
+    }
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.dropdown-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Estilo do menu suspenso */
+.dropdown-menu {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(30, 30, 30, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: none;
+    flex-direction: column;
+    min-width: 180px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+    transition: background 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown.open .dropdown-menu {
+    display: flex;
+}
+
+/* Efeito sutil de fade-in */
+.dropdown-menu {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.dropdown.open .dropdown-menu {
+    opacity: 1;
+    transform: translate(-50%, 0);
 }

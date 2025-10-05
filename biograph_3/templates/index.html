@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Bioscience Discovery</title>
+    <title>NASA Space Apps Challenge</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="{{ url_for('static', filename='images/nasa-logo.png') }}" alt="NASA Logo">
-            <span>NASA Bioscience Discovery</span>
+            <span>NASA Space Apps Challenge</span>
         </div>
-        <nav>
+
+        <nav class="dropdown-nav">
+        <div class="dropdown">
+        <button class="dropdown-toggle">Explore ▾</button>
+        <div class="dropdown-menu">
             <a href="/">Home</a>
-            <a href="#">Explore</a>
-            <a href="#">Help</a>
-        </nav>
+            <a href="/graph">Search</a>   <!-- 🔹 agora leva ao graph.html -->
+            <a href="/heatmap">Heat Map</a>
+            <a href="/asklumi">AskLumi</a>
+        </div>
+    </div>
+</nav>
     </header>
 
     <main class="hero-section">
@@ -28,5 +35,8 @@
     </main>
 
     <iframe id="preload-graph" src="/get_graph_data" style="display: none;"></iframe>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    
 </body>
 </html>

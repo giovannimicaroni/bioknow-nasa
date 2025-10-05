@@ -310,3 +310,18 @@ function clearFilters() {
     // Reload graph without filters
     loadInitialGraph();
 }
+// Dropdown menu toggle
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdown = document.querySelector('.dropdown');
+    const toggle = document.querySelector('.dropdown-toggle');
+
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+    });
+
+    // Fechar menu se clicar fora
+    document.addEventListener('click', () => {
+        dropdown.classList.remove('open');
+    });
+});
