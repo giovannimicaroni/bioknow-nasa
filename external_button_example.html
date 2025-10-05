@@ -161,8 +161,8 @@
         <p class="subtitle">Sistema Externo - Exemplo de Integração</p>
 
         <div class="articles-info">
-            <h3><i class="fas fa-file-alt"></i> Artigos Selecionados (5)</h3>
-            <ul class="article-list">
+            <h3><i class="fas fa-file-alt"></i> Artigos Selecionados (<span id="articleCount">5</span>)</h3>
+            <ul class="article-list" id="articleListDisplay">
                 <li><i class="fas fa-dna"></i> Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells</li>
                 <li><i class="fas fa-bone"></i> Microgravity induces pelvic bone loss through osteoclastic activity</li>
                 <li><i class="fas fa-microscope"></i> Stem Cell Health and Tissue Regeneration in Microgravity</li>
@@ -180,7 +180,9 @@
 
         <div class="note">
             <i class="fas fa-info-circle"></i>
-            Este é um exemplo de como um sistema externo pode carregar artigos diretamente no BioKnowdes através da API.
+            Este é um exemplo de como um sistema externo pode carregar até 10 artigos diretamente no BioKnowdes. 
+            Use <code>window.setBioKnowdesArticles(array)</code> para definir artigos ou 
+            <code>window.loadBioKnowdesArticles(array)</code> para carregar e redirecionar automaticamente.
         </div>
     </div>
 
@@ -197,71 +199,69 @@
         const loadButton = document.getElementById('loadButton');
         const statusMessage = document.getElementById('statusMessage');
 
-        loadButton.addEventListener('click', async () => {
-            await loadArticlesIntoBioKnowdes();
+        loadButton.addEventListener('click', () => {
+            redirectToBioKnowdes();
         });
 
-        async function loadArticlesIntoBioKnowdes() {
-            // Desabilita botão e mostra loading
+        function redirectToBioKnowdes() {
+            // Mostra loading
             loadButton.disabled = true;
-            loadButton.innerHTML = '<i class="fas fa-spinner spinner"></i> Carregando...';
+            loadButton.innerHTML = '<i class="fas fa-spinner spinner"></i> Redirecionando...';
             
             statusMessage.style.display = 'none';
             statusMessage.className = 'status-message';
 
-            try {
-                // Faz POST para API do BioKnowdes
-                const response = await fetch('http://localhost:5000/ask-lumi/api/load-articles', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        filenames: SELECTED_ARTICLES
-                    })
-                });
+            // Mostra mensagem de sucesso
+            statusMessage.className = 'status-message success';
+            statusMessage.innerHTML = '<i class="fas fa-check-circle"></i> Redirecionando para o BioKnowdes...';
+            statusMessage.style.display = 'block';
 
-                const result = await response.json();
+            // Cria os parâmetros da URL com os artigos selecionados
+            const params = new URLSearchParams({
+                articles: SELECTED_ARTICLES.join('|'), // Usa | como separador
+                source: 'external_system',
+                message: `✨ ${SELECTED_ARTICLES.length} artigos carregados do sistema externo!`
+            });
 
-                if (result.success) {
-                    // Sucesso - mostra mensagem e redireciona
-                    statusMessage.className = 'status-message success';
-                    statusMessage.innerHTML = '<i class="fas fa-check-circle"></i> Artigos carregados com sucesso! Redirecionando...';
-                    statusMessage.style.display = 'block';
-
-                    // Redireciona após 1.5 segundos, incluindo o session_id
-                    setTimeout(() => {
-                        const params = new URLSearchParams({
-                            session_id: result.session_id,
-                            loaded: result.loaded_count,
-                            message: `✨ ${result.loaded_count} artigos carregados do sistema externo!`
-                        });
-                        window.location.href = `http://localhost:5000/ask-lumi?${params.toString()}`;
-                    }, 1500);
-                } else {
-                    throw new Error(result.error || 'Erro desconhecido');
-                }
-            } catch (error) {
-                console.error('Erro ao carregar artigos:', error);
-                
-                statusMessage.className = 'status-message error';
-                statusMessage.innerHTML = `<i class="fas fa-exclamation-circle"></i> Erro: ${error.message}`;
-                statusMessage.style.display = 'block';
-
-                // Re-habilita botão
-                loadButton.disabled = false;
-                loadButton.innerHTML = '<i class="fas fa-download"></i> Carregar Artigos no BioKnowdes';
-            }
+            // Redireciona após 1 segundo
+            setTimeout(() => {
+                window.location.href = `http://localhost:5000/ask-lumi?${params.toString()}`;
+            }, 1000);
         }
 
-        // Opcional: Você pode expor uma função global para ser chamada externamente
-        window.loadBioKnowdesArticles = function(articleList) {
-            if (Array.isArray(articleList) && articleList.length > 0) {
+        // Funções globais para sistemas externos
+        window.setBioKnowdesArticles = function(articleList) {
+            if (Array.isArray(articleList) && articleList.length > 0 && articleList.length <= 10) {
                 SELECTED_ARTICLES.length = 0;
                 SELECTED_ARTICLES.push(...articleList);
-                loadArticlesIntoBioKnowdes();
+                updateArticleDisplay();
+            } else {
+                console.warn('Article list must be an array with 1-10 articles');
             }
         };
+
+        window.loadBioKnowdesArticles = function(articleList) {
+            if (Array.isArray(articleList) && articleList.length > 0 && articleList.length <= 10) {
+                SELECTED_ARTICLES.length = 0;
+                SELECTED_ARTICLES.push(...articleList);
+                updateArticleDisplay();
+                redirectToBioKnowdes();
+            } else {
+                console.warn('Article list must be an array with 1-10 articles');
+            }
+        };
+
+        // Função para atualizar a exibição da lista de artigos
+        function updateArticleDisplay() {
+            const articleListDisplay = document.getElementById('articleListDisplay');
+            const articleCount = document.getElementById('articleCount');
+            
+            articleCount.textContent = SELECTED_ARTICLES.length;
+            
+            articleListDisplay.innerHTML = SELECTED_ARTICLES.map(article => `
+                <li><i class="fas fa-file-alt"></i> ${article}</li>
+            `).join('');
+        }
     </script>
 </body>
 </html>

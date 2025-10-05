@@ -843,6 +843,36 @@ header {
     border-bottom-left-radius: 4px;
 }
 
+.message.bot.demo-message {
+    background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+}
+
+.demo-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.demo-button:hover {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
+}
+
+.demo-button i {
+    margin-right: 6px;
+}
+
 /* Empty State */
 .chat-empty-state {
     display: flex;

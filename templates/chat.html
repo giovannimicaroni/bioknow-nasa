@@ -7,6 +7,26 @@
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bioknowdes.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Browse Articles Button in Sidebar - Override circular style */
+        .no-articles .btn-primary {
+            background: #60a5fa !important;
+            color: white !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            border: none !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .no-articles .btn-primary:hover {
+            background: #3b82f6 !important;
+            transform: translateY(-1px) !important;
+        }
+    </style>
 </head>
 <body>
     <div class="app-container">
@@ -44,7 +64,7 @@
                         <div class="no-articles">
                             <i class="fas fa-search"></i>
                             <p>No articles loaded</p>
-                            <a href="/articles" class="btn btn-primary btn-sm">
+                            <a href="/ask-lumi/articles" class="btn btn-primary btn-sm">
                                 <i class="fas fa-plus"></i> Browse Articles
                             </a>
                         </div>
@@ -55,21 +75,21 @@
             <!-- Chat Area -->
             <main class="chat-container">
                 <div class="chat-header">
-                    <h2><i class="fas fa-comments"></i> AI Chat</h2>
-                    <p>Ask questions about the loaded documents</p>
+                    <h2><i class="fas fa-comments"></i> Ask Lumi </h2>
+                    <p>Ask questions about the loaded documents with Lumi</p>
                 </div>
 
                 <div class="chat-messages" id="chatMessages">
                     <div class="welcome-message">
-                        <i class="fas fa-robot"></i>
-                        <h3>Welcome to BioKnowdes!</h3>
-                        <p>Browse and load NASA scientific articles to start asking questions about space research.</p>
+                        <img src="{{ url_for('static', filename='images/lumi.png') }}" alt="Lumi" style="width: 64px; height: 64px; margin-bottom: 1rem;">
+                        <h3>Feeling curious about space research?, ask Lumi!</h3>
+                        <p>Browse and load NASA scientific articles to start asking questions about space research with Lumi.</p>
                     </div>
                 </div>
 
                 <div class="chat-input-container">
                     <div class="input-group">
-                        <input type="text" id="messageInput" placeholder="Type your question about the documents..." disabled>
+                        <input type="text" id="messageInput" placeholder="Type your question about space research..." disabled>
                         <button id="sendBtn" class="btn btn-primary" disabled>
                             <i class="fas fa-paper-plane"></i>
                         </button>

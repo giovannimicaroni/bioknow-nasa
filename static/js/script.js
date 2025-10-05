@@ -344,6 +344,10 @@ document.addEventListener('DOMContentLoaded', () => {
             chatWindow.classList.toggle('active');
             if (chatWindow.classList.contains('active')) {
                 chatInput.focus();
+                // Add demo message if it's the first time opening
+                if (!chatMessages.querySelector('.demo-message')) {
+                    addDemoMessage();
+                }
             }
         });
     }
@@ -378,14 +382,40 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Add message to chat
-    function addMessage(text, sender) {
+    function addMessage(text, sender, isHtml = false, extraClass = '') {
         const messageDiv = document.createElement('div');
-        messageDiv.className = `message ${sender}`;
-        messageDiv.textContent = text;
+        messageDiv.className = `message ${sender} ${extraClass}`.trim();
+        
+        if (isHtml) {
+            messageDiv.innerHTML = text;
+        } else {
+            messageDiv.textContent = text;
+        }
+        
         chatMessages.appendChild(messageDiv);
         
         // Scroll to bottom
         chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // Add demo message with external articles button
+    function addDemoMessage() {
+        const demoHTML = `
+            Olá! Sou Lumi, seu assistente de pesquisa espacial. 🚀<br><br>
+            Além de responder suas perguntas, posso carregar artigos de sistemas externos. 
+            Quer ver um exemplo?<br>
+            <button class="demo-button" onclick="loadExternalArticlesFromChat()">
+                <i class="fas fa-download"></i> Carregar Artigos Demo (5)
+            </button>
+        `;
+        
+        // Remove empty state
+        const emptyState = chatMessages.querySelector('.chat-empty-state');
+        if (emptyState) {
+            emptyState.remove();
+        }
+        
+        addMessage(demoHTML, 'bot', true, 'demo-message');
     }
 
     // Send button click
@@ -401,4 +431,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
 });
+
+// Global function for loading external articles from chat
+function loadExternalArticlesFromChat() {
+    // Example articles list - up to 10 articles as documentation
+    const selectedArticles = [
+        'Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells',
+        'Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a_p21',
+        'Stem Cell Health and Tissue Regeneration in Microgravity',
+        'Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart',
+        'Beyond low-Earth orbit_ Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice.'
+    ];
+
+    // Create URL parameters with article names
+    const params = new URLSearchParams({
+        articles: selectedArticles.join('|'), // Use | as separator
+        source: 'external_system',
+        message: `✨ ${selectedArticles.length} artigos carregados do sistema externo via chat demo!`
+    });
+
+    // Redirect to ask-lumi with articles
+    window.location.href = `/ask-lumi?${params.toString()}`;
+}

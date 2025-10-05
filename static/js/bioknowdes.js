@@ -36,9 +36,25 @@ class BioKnowdes {
         const urlParams = new URLSearchParams(window.location.search);
         const loaded = urlParams.get('loaded');
         const message = urlParams.get('message');
+        const articles = urlParams.get('articles');
+        const source = urlParams.get('source');
         
+        // Handle legacy format with loaded count and message
         if (loaded && message) {
             this.showSuccessMessage(decodeURIComponent(message));
+            // Clean URL
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+        
+        // Handle new format with articles list
+        if (articles) {
+            const articleList = articles.split('|').filter(a => a.trim());
+            const displayMessage = message ? decodeURIComponent(message) : 
+                `✨ ${articleList.length} artigos carregados${source === 'external_system' ? ' do sistema externo' : ''}!`;
+            
+            this.loadArticlesByNames(articleList);
+            this.showSuccessMessage(displayMessage);
+            
             // Clean URL
             window.history.replaceState({}, document.title, window.location.pathname);
         }
@@ -60,6 +76,22 @@ class BioKnowdes {
         }, 3000);
     }
 
+    showErrorMessage(message) {
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'error-message';
+        errorDiv.innerHTML = `
+            <i class="fas fa-exclamation-circle"></i>
+            <span>${message}</span>
+        `;
+        
+        document.body.appendChild(errorDiv);
+        
+        setTimeout(() => {
+            errorDiv.classList.add('fade-out');
+            setTimeout(() => errorDiv.remove(), 500);
+        }, 5000);
+    }
+
     async loadArticles() {
         try {
             const response = await fetch('/ask-lumi/documents');
@@ -72,6 +104,34 @@ class BioKnowdes {
             }
         } catch (error) {
             console.error('Error loading articles:', error);
+        }
+    }
+
+    async loadArticlesByNames(articleNames) {
+        try {
+            const response = await fetch('/ask-lumi/api/load-articles', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    filenames: articleNames
+                })
+            });
+
+            const result = await response.json();
+            
+            if (result.success) {
+                // Reload articles from server to get updated list
+                await this.loadArticles();
+                console.log(`Successfully loaded ${result.loaded_count} articles`);
+            } else {
+                console.error('Error loading articles:', result.error);
+                this.showErrorMessage(`Erro ao carregar artigos: ${result.error}`);
+            }
+        } catch (error) {
+            console.error('Error loading articles:', error);
+            this.showErrorMessage(`Erro ao carregar artigos: ${error.message}`);
         }
     }
 
