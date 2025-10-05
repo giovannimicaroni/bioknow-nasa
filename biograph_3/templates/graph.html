@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graph Results for "{{ query }}"</title>
+    <title>BioKnowdes Graph"</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body class="graph-body">
@@ -19,6 +19,42 @@
     </header>
 
     <main class="graph-section">
+        <!-- Filter Overlay -->
+        <aside id="filter-panel" class="filter-panel filter-overlay">
+            <div class="filter-header">
+                <h3>Filters</h3>
+                <button id="toggle-filters" class="toggle-btn">✕</button>
+            </div>
+            
+            <div class="filter-content">
+                <div class="filter-group">
+                    <label class="filter-label">Search Keywords:</label>
+                    <input type="text" id="keyword-search" class="filter-input" placeholder="Type to search keywords...">
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">
+                        Available Keywords
+                        <span id="selected-count" class="count-badge">0 selected</span>
+                    </label>
+                    <div id="keywords-list" class="keywords-container">
+                        <div class="loading">Loading keywords...</div>
+                    </div>
+                </div>
+
+                <div class="filter-actions">
+                    <button id="apply-filters" class="btn-apply">Apply Filters</button>
+                    <button id="clear-filters" class="btn-clear">Clear All</button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Filter Toggle Button (Always Visible) -->
+        <button id="open-filters" class="filter-fab">
+            <span class="fab-icon">⚙</span>
+            <span class="fab-text">Filters</span>
+        </button>
+
         <div class="graph-container">
             <iframe id="graph-iframe" src=""></iframe>
         </div>

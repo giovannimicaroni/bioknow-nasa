@@ -1,60 +1,128 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from pyvis.network import Network
 import networkx as nx
 import pickle
 
-# Inicializa o aplicativo Flask
 app = Flask(__name__)
 
 # Cache global para o grafo HTML
 graph_cache = {}
 
-def create_graph(query=""):
-    # Usa o cache se a query já foi gerada
-    cache_key = query.lower()
+def create_graph(query="", filters=None):
+    """
+    Cria o grafo com busca e filtros
+    
+    Args:
+        query: termo de busca para destacar nós
+        filters: dict com filtros, ex: {'keywords': ['mars', 'biology']}
+    """
+    # Cria chave de cache considerando query e filtros
+    filter_key = str(sorted(filters.items())) if filters else ""
+    cache_key = f"{query.lower()}_{filter_key}"
+    
     if cache_key in graph_cache:
         return graph_cache[cache_key]
     
-    # Carrega o grafo a partir do arquivo .gpickle
+    # Carrega o grafo completo
     with open("grafo_keywords.gpickle", "rb") as f:
         g = pickle.load(f)
-
-    # Cria a visualização com Pyvis
+    
+    # Aplica filtros se existirem
+    filtered_graph = g.copy()
+    
+    if filters and 'keywords' in filters and filters['keywords']:
+        keywords = [k.lower() for k in filters['keywords']]
+        
+        # Filtra nós que contêm pelo menos uma das keywords no título OU nos atributos
+        nodes_to_keep = set()
+        for node in g.nodes():
+            node_lower = node.lower()
+            
+            # Verifica no título do nó
+            title_match = any(keyword in node_lower for keyword in keywords)
+            
+            # Verifica nos atributos do nó (keyword attribute)
+            attribute_match = False
+            node_data = g.nodes[node]
+            
+            # Verifica se existe atributo 'keywords' (que é um dicionário)
+            if 'keywords' in node_data:
+                keyword_attr = node_data['keywords']
+                
+                # Se for um dicionário (como no seu caso)
+                if isinstance(keyword_attr, dict):
+                    # Combina todas as chaves do dicionário em uma string
+                    all_keyword_phrases = ' '.join(keyword_attr.keys()).lower()
+                    attribute_match = any(keyword in all_keyword_phrases for keyword in keywords)
+                
+                # Se for uma string
+                elif isinstance(keyword_attr, str):
+                    keyword_attr_lower = keyword_attr.lower()
+                    attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
+                
+                # Se for uma lista
+                elif isinstance(keyword_attr, list):
+                    keyword_attr_lower = [k.lower() for k in keyword_attr]
+                    attribute_match = any(keyword in ' '.join(keyword_attr_lower) for keyword in keywords)
+            
+            # Verifica também 'keyword' (singular) como fallback
+            if 'keyword' in node_data and not attribute_match:
+                keyword_attr = node_data['keyword']
+                if isinstance(keyword_attr, str):
+                    keyword_attr_lower = keyword_attr.lower()
+                    attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
+                elif isinstance(keyword_attr, list):
+                    keyword_attr_lower = [k.lower() for k in keyword_attr]
+                    attribute_match = any(keyword in ' '.join(keyword_attr_lower) for keyword in keywords)
+            
+            # Verifica também no 'full_name' se existir
+            if 'full_name' in node_data and not title_match and not attribute_match:
+                full_name_lower = node_data['full_name'].lower()
+                title_match = any(keyword in full_name_lower for keyword in keywords)
+            
+            # Adiciona o nó se houver match no título OU nos atributos
+            if title_match or attribute_match:
+                nodes_to_keep.add(node)
+        
+        # Remove nós que não passaram no filtro
+        nodes_to_remove = set(g.nodes()) - nodes_to_keep
+        filtered_graph.remove_nodes_from(nodes_to_remove)
+    
+    # Se o grafo filtrado estiver vazio, retorna mensagem
+    if len(filtered_graph.nodes()) == 0:
+        return "<html><body style='background:#000;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:system-ui;'><h2>No results found for the selected filters</h2></body></html>"
+    
+    # Cria visualização
     net = Network(height="100vh", width="100%", bgcolor="#000000", font_color="white")
     
-    # --- LÓGICA DE BUSCA E DESTAQUE ---
-    
-    # 1. Converte a query para minúsculas para uma busca não sensível a maiúsculas/minúsculas
+    # Busca e destaque
     search_term = query.lower() if query else ""
-    
-    # 2. Encontra todos os nós que contêm o termo de busca
     matching_nodes = []
+    
     if search_term:
-        for node in g.nodes():
+        for node in filtered_graph.nodes():
             if search_term in node.lower():
                 matching_nodes.append(node)
-
-    # 3. Adiciona os nós ao grafo do Pyvis com cores e tamanhos diferentes
-    for node in g.nodes():
-        title = node.replace(".pdf", "") # Remove o .pdf para um título mais limpo
+    
+    # Adiciona nós com cores diferentes
+    for node in filtered_graph.nodes():
+        title = node.replace(".pdf", "")
         
         if node in matching_nodes:
-            # Nó destacado (cor vermelha, tamanho maior)
             net.add_node(node, label=title, color='#ff6e54', size=30, title=f"<b>MATCH:</b><br>{title}")
         else:
-            # Nó padrão (cor azul, tamanho normal)
             net.add_node(node, label=title, color='#87ceff', size=15, title=title)
-
-    # 4. Adiciona todas as arestas (conexões)
-    net.add_edges(g.edges())
-
-    # Aplica as opções de física - SEM estabilização inicial para carregamento instantâneo
+    
+    # Adiciona arestas
+    net.add_edges(filtered_graph.edges())
+    
+    # Configurações de física
     net.set_options("""
     {
       "physics": {
         "enabled": true,
         "barnesHut": {
-          "gravitationalConstant": -40000,
+          "gravitationalConstant": -20000,
           "centralGravity": 0.05,
           "springLength": 150
         },
@@ -79,10 +147,9 @@ def create_graph(query=""):
     }
     """)
     
-    # Gera o HTML
     graph_html = net.generate_html()
     
-    # Injeta CSS customizado para esconder a barra de loading
+    # CSS customizado
     custom_css = """
     <style>
         #loadingBar {
@@ -94,11 +161,10 @@ def create_graph(query=""):
     </style>
     """
     
-    # Adiciona JavaScript customizado para eliminar scroll
+    # JavaScript customizado
     custom_js = """
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Remove scroll do corpo da página
         document.body.style.overflow = 'hidden';
         document.documentElement.style.overflow = 'hidden';
         document.body.style.margin = '0';
@@ -106,7 +172,6 @@ def create_graph(query=""):
         document.body.style.height = '100vh';
         document.body.style.background = '#000000';
         
-        // Remove qualquer scroll de containers
         var containers = document.querySelectorAll('div');
         containers.forEach(function(container) {
             container.style.overflow = 'hidden';
@@ -116,41 +181,56 @@ def create_graph(query=""):
     </body>
     """
     
-    # Insere o CSS antes do </head> e o JavaScript antes do </body>
     graph_html = graph_html.replace('</head>', custom_css + '</head>')
     graph_html = graph_html.replace('</body>', custom_js)
     
-    # Armazena no cache
     graph_cache[cache_key] = graph_html
     
     return graph_html
 
-# Rota para a página inicial
+
 @app.route('/')
 def home():
     return render_template('index.html')
 
 
-# Rota para a página do grafo
 @app.route('/graph')
 def graph_page():
-    # Pega o termo de busca da URL (ex: /graph?query=mars)
     search_query = request.args.get('query', 'N/A')
     return render_template('graph.html', query=search_query)
 
 
-# Rota de API que GERA e RETORNA o HTML do grafo
 @app.route('/get_graph_data')
 def get_graph_data():
     search_query = request.args.get('query', '')
-    graph_html = create_graph(search_query)
+    
+    # Pega filtros da query string
+    filter_keywords = request.args.getlist('filter_keywords[]')
+    
+    filters = None
+    if filter_keywords:
+        filters = {'keywords': filter_keywords}
+    
+    graph_html = create_graph(search_query, filters)
     return graph_html
 
 
-if __name__ == '__main__':
-    # Pré-carrega o grafo vazio ao iniciar o servidor
-    # print("Preloading default graph...")
-    create_graph("")
-    # print("Graph preloaded and ready!")
+@app.route('/api/keywords')
+def get_keywords():
+    """API endpoint para obter lista de keywords disponíveis"""
+    # Categorized keywords
+    categorized_keywords = {
+        "Biology": ['biology', 'cell', 'tissue', 'protein', 'gene', 'dna', 'organism'],
+        "Space Environment": ['microgravity', 'radiation', 'space', 'iss', 'orbit'],
+        "Life Sciences": ['plant', 'growth', 'metabolism', 'immune', 'cardiovascular'],
+        "Human Health": ['astronaut', 'bone', 'muscle', 'sleep', 'exercise'],
+        "Planetary": ['mars', 'moon', 'lunar', 'planetary']
+    }
     
+    # Return categorized structure
+    return jsonify(categorized_keywords)
+
+
+if __name__ == '__main__':
+    create_graph("")
     app.run(debug=True)
