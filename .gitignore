@@ -46,3 +46,5 @@ biograph_3/
 
 # Ignore large data files
 *.pdf
+
+sessions/
