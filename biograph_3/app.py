@@ -17,7 +17,7 @@ def create_graph(query=""):
         g = pickle.load(f)
 
     # Cria a visualização com Pyvis
-    net = Network(height="750px", width="100%", bgcolor="#000000", font_color="white")
+    net = Network(height="100vh", width="100%", bgcolor="#000000", font_color="white")
     
     # --- LÓGICA DE BUSCA E DESTAQUE ---
     
@@ -47,7 +47,7 @@ def create_graph(query=""):
 
     # Aplica as opções de física que já tínhamos
     net.set_options("""
-    var options = {
+    {
       "physics": {
         "barnesHut": {
           "gravitationalConstant": -40000,
@@ -59,12 +59,48 @@ def create_graph(query=""):
       },
       "interaction": {
         "hover": true,
-        "tooltipDelay": 200
+        "tooltipDelay": 200,
+        "zoomView": true,
+        "dragView": true
+      },
+      "configure": {
+        "enabled": false
+      },
+      "layout": {
+        "improvedLayout": true
       }
     }
     """)
     
-    return net.generate_html()
+    # Gera o HTML e adiciona JavaScript para eliminar scroll
+    html = net.generate_html()
+    
+    # Adiciona JavaScript customizado para eliminar scroll
+    custom_js = """
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Remove scroll do corpo da página
+        document.body.style.overflow = 'hidden';
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.margin = '0';
+        document.body.style.padding = '0';
+        document.body.style.height = '100vh';
+        document.body.style.background = '#000000';
+        
+        // Remove qualquer scroll de containers
+        var containers = document.querySelectorAll('div');
+        containers.forEach(function(container) {
+            container.style.overflow = 'hidden';
+        });
+    });
+    </script>
+    </body>
+    """
+    
+    # Insere o JavaScript antes do fechamento do body
+    html = html.replace('</body>', custom_js)
+    
+    return html
 
 # Rota para a página inicial
 @app.route('/')

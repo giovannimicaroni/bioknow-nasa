@@ -80,7 +80,7 @@ def visualize_graph(G, title="Knowledge Graph"):
     
     # Create PyVis network with clean styling
     net = Network(
-        height="650px",
+        height="800px",
         width="100%",
         bgcolor="#ffffff",
         font_color="#2c3e50"
@@ -319,7 +319,7 @@ def main():
         with st.spinner("Rendering graph..."):
             html = visualize_graph(G, "Full Knowledge Graph")
             if html:
-                components.html(html, height=670)
+                components.html(html, height=820)
             else:
                 st.warning("No data to display")
     
@@ -345,7 +345,7 @@ def main():
                 
                 html = visualize_graph(subgraph, f"Neighborhood of {selected_node}")
                 if html:
-                    components.html(html, height=670)
+                    components.html(html, height=820)
             else:
                 st.warning(f"Node '{selected_node}' not found in graph")
     
@@ -380,7 +380,7 @@ def main():
                         
                         html = visualize_graph(subgraph, f"Path from {source_node} to {target_node}")
                         if html:
-                            components.html(html, height=670)
+                            components.html(html, height=820)
                     else:
                         st.warning(f"No path exists between {source_node} and {target_node}")
                 except nx.NetworkXNoPath:
@@ -418,7 +418,7 @@ def main():
                     
                     html = visualize_graph(subgraph, f"{selected_type} Subgraph")
                     if html:
-                        components.html(html, height=670)
+                        components.html(html, height=820)
                 else:
                     st.warning(f"No nodes of type '{selected_type}' found")
         
@@ -443,7 +443,7 @@ def main():
                     
                     html = visualize_graph(subgraph, f"{selected_rel} Relationships")
                     if html:
-                        components.html(html, height=670)
+                        components.html(html, height=820)
                 else:
                     st.warning(f"No relationships of type '{selected_rel}' found")
     
