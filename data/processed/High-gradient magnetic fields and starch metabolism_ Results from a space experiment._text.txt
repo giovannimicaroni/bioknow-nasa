@@ -1,0 +1,933 @@
+1
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  
+| https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports
+High‑gradient magnetic fields 
+and starch metabolism: results 
+from a space experiment
+K. H. Hasenstein1*, M. R. Park1,2, S. P. John1 & C. Ajala1,3
+Directing plant growth in weightlessness requires understanding the processes that establish plant 
+orientation and how to manipulate them. Both gravi- and phototropism determine directional growth 
+and previous experiments showed that high gradient magnetic fields (HGMF) can induce curvature 
+in roots and shoots. Experiments with Brassica rapa verified that that gravitropism-like induction of 
+curvature is possible in space and that the HGMF-responsive organelles are amyloplasts. We assessed 
+the effect of space and HGMF based on 16 genes and compared their transcription with static growth 
+and clinorotation. Amyloplasts size in root tips increased under weightlessness but decreased under 
+clinorotation but not in response to magnetic fields. Amyloplast size changes were correlated with 
+reduced amylase transcription in space samples and enhanced transcription after clinorotation. 
+Mechanostimulation and weightlessness have opposite effects on the size of amyloplasts. The 
+data show that plants perceive weightlessness, and that their metabolism adjusts to microgravity 
+and mechanostimulation. Thus, clinorotation as surrogate for space research may lead to incorrect 
+interpretations.
+The perception of the gravity stimulus and the involvement of amyloplasts have long been the focus of plant 
+biology because of the cryptic nature of essential steps in the response of a biological system to physical stimuli 
+such as ­gravity1–4. While the first step of the gravitropic response primarily depends on the interaction of intra-
+cellular particles with Earth’s gravitational field, the ability to respond to the gravity signal depends on biological 
+conditions such as auxin sensitivity and ­transport5, ­time6,7, the ­cytoskeleton8 and physical parameters such as 
+­temperature9, ­orientation10,11, osmotic ­conditions12, mechanical ­noise13, cytoplasmic ­viscosity14, and high-gradi-
+ent magnetic ­fields15–17. The redundancy contributes to the stability of the graviresponse system and can integrate 
+additional signals such as ­hydrotropism18,19 and ­touch20,21. Because any physiological response is a function of 
+the accumulated signal (auxin, altered gene expression, pH, ion, or charge shifts), control of the response shifts 
+from the original signal to downstream events such as signal processing (translation) and response variables that 
+are related to signal strength and ­persistence22.
+Therefore, the analysis of mechano-sensing and (gravi)response depends on the elimination of the gravity 
+effects by experimenting under weightlessness conditions in space. The study of HGMF on amyloplast move-
+ments was attempted in ground ­studies15,23–26 and was the focus of a shuttle experiment in 2003 (STS-107)27. 
+However, the disintegration of the Shuttle during reentry made the intended analyses impossible. Nonetheless, 
+this experiment provided strong evidence that mechano-sensitivity increased in ­microgravity27.
+Here we report data from a space experiment on the Space-X Crew Resupply Service 3 mission. The aim of this 
+investigation was to repeat the ill-fated experiment on STS-107. However, instead of flax (Linum usitatissimum) 
+we used Brassica rapa seeds to study the effect of magnetic gradients and to take advantage of its Arabidopsis-
+related genome to assess transcriptional responses of genes related to growth, metabolism, auxin, and stress. 
+Because of the dual effort to characterize the effect of HGMF and transcriptional analysis the remainder of the 
+introduction covers separately each aspect.
+HGMF. 
+Induction of curvature by magneto-mechanical forces depends on the magnetic susceptibility (ϰ), 
+which is characteristic of a given substance and describes its ability to acquire magnetization I as a result of the 
+(inducing) magnetic field H such that I = ϰH. Diamagnetic substances have negative susceptibility and include 
+the vast majority of biological substances. However, some metal-containing proteins such as hemoglobin, 
+cytochrome, ferritin etc., can have positive susceptibility and are ­paramagnetic26,28,29. The magnetic susceptibility 
+OPEN
+1Biology Department, University of Louisiana at Lafayette, Lafayette, LA 70504‑43602, USA. 2Central Area Crop 
+Breeding Div., National Institute of Crop Science, Suwon 16429, Gyeonggi‑do, Korea. 3Present address: Cemvita 
+Factory, 9350 Kirby Drive, Suite 100, Houston, TX 77054, USA. *email: hasenstein@louisiana.edu
+
+2
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+of dia- and paramagnetic compounds is proportional to their density and their behavior in a magnetic gradient 
+is analogous to that in the gravity ­field16,24,26. Magnetic susceptibility and density of the cytoplasm are equal to 
+that of water, ϰ w = 7.2 × ­10–7 emu (electromagnetic units, table value), and that of starch ϰst = (8 ± 0.2) × ­10–7, thus 
+the differential susceptibility between starch and cytoplasm Δϰ ≈ 8 × ­10–8 emu. The density of starch ρst = 1.5 g/
+cm3, and cytoplasm ~ 1 g/cm3; therefore Δρ = 0.5 g/cm3 and Δp/Δ ϰ ≈ − 6 × ­106 (g/cm3)/emu26.
+Although other methods of generating HGMF are ­available24,26, the generation of a magnetic gradient in the 
+experiments described here, was realized by inserting into a uniform, strong magnetic field ferromagnetic wedges. 
+The wedges become magnetized and create a HGMF (Fig. 1) such that the gradient ∇H is directed toward the 
+tip of the wedge. Therefore, the force acting on a diamagnetic body (ϰ < 0) repels starch-filled amyloplasts from 
+the inserted object. In contrast, a para- or ferromagnetic body (ϰ > 0) would experience an attractive force. The 
+force generated by the HGMF utilized in the employed setup has been determined previously to be about 0.6 ­g30 
+and exceeds the acceleration that plants respond to (about ­10–3 ­g31).
+In contrast to cultivation on earth where orienting factors are provided by gravity as constant and light as 
+intermittent influence, plant growth in space cannot rely on gravitational clues; it depends on the plants’ (inter-
+mittent) phototropic response. However, in the absence of light, especially root elongation is variable, and ori-
+entation responds mostly to water gradients (hydrotropism)19,32. Removing the two most consequential vectors 
+for plant orientation, i.e., growing plants under weightlessness conditions in the dark, provides an opportunity to 
+examine the role of amyloplasts for directional growth analogous to their role in gravity sensing. Probing magne-
+tophoretic effects and the space conditions on root growth was the objective for the experiment described here.
+The investigation included transcription analyses of 16 genes that represent auxin effects (IAA5, PIN 1, 3, 7) 
+as the main growth regulator of differential ­elongation33–35, starch katabolism (Amy1)36, sucrose synthase (SUS, 
+cell wall formation)37, UBQ1 (ubiquitin1; a putative ­reference38 and indicator of protein metabolism)39, TUB1 
+(tubulin1; ­reference38, cell growth, mitosis), ACT7 (actin7; putative ­reference40, root growth and ­germination41), 
+ADH1 (alcohol dehydrogenase; stress ­response42), COX (cytochrome oxidase subunit1; metabolism, ­stress43), 
+G6PDH5 (glucose-6-phosphate dehydrogenase5; oxidative pentose phosphate pathway, basic ­metabolism44), 
+GLK (glucokinase; carbohydrate ­metabolism45) HXK (hexokinase 1; glucose metabolism and developmental 
+­regulator46), PFK (phosphofructokinase; carbohydrate metabolism, hypoxia ­stress47), and TAGL (triacylglycerol 
+lipase; lipid ­metabolism48,49). The transcription pattern of these genes under conditions such as space (weightless-
+ness), clinorotation (enhanced mechanostimulation), and static controls provided information on how seedlings 
+respond to the respective conditions.
+This report describes an experiment that built on prior experience (i.e., Biotube1 on STS-107) but used 
+genetically better-characterized plant material, Brassica rapa. Our data support HGMFs as suitable method to 
+establish plant orientation in space but also show that mechanostimulation affects gravisensing-related metabo-
+lism. The report demonstrates that plants perceive weightlessness (“micro-gravity”) and respond by enhanced 
+starch production in gravity perceiving cells.
+Figure 1.   The design of the magnetic field chamber (MFC) with 10 magnets arranged in two stories with a total 
+of eight compartments. The magnetic field was contained with two ferromagnetic yokes. Each compartment 
+contained two ferromagnetic wedges and two pieces of activated charcoal cloth (ACC), and one seed cassette 
+each. The diagram on the upper right shows the distortion of the magnetic field by the wedges (applicable to 
+all compartments) and the projected growth of the seedling roots. The flow path of the fixative from a single 
+fill port (F) to the drain port (D) is shown as white canals for front-visible paths; connections on the rear side 
+between the individual compartments are shown as dark lines.
+
+3
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+Material and methods
+Plant material. 
+Brassica rapa, var. rapa seeds were commercially sourced. No approvals were required for 
+the study, which complied with all relevant regulations. Seeds were attached to germination paper with polyvi-
+nyl acetate (clear Elmer’s) glue such that the micropyle was oriented toward the opening of seed cassettes (Sup. 
+Fig. 1). The seeds cassettes were designed to fit into specially designed magnetic field chambers (MFCs, Fig. 1).
+Experimental setup. 
+The experiment was a follow-up of the STS-107 experiment that was lost as a result 
+of the shuttle accident in 2003. A computer (PC104 stack) controlled all aspects and was remotely operated such 
+that no crew involvement was necessary. The experimental principle of the hardware (Fig. 1) and the arrange-
+ment of the components is shown in Sup. Fig. 2. Experiment initialization, water dispensation, image acquisi-
+tion, temperature and pressure recording, and termination of the experiment by fixation were remotely initiated 
+and controlled by the hardware’s own computer. The entire hardware was custom built at the Kennedy Space 
+Center using several iterations and named Biotube-MICRo (Magnetic Induction of Curvature in Roots).
+Hardware. 
+The MFCs consisted of machined aluminum cases each containing 10 Neodymium Iron Boron 
+(NdFeB) magnets, 12.7 mm thick with a magnetization of about 30,000 Oe (~ 3 Tesla, Magnet Sales and Manu-
+facturing, Culver City, CA). The magnetic circuit was closed by two yokes. To the surface of each magnet, two 
+wedges of ferromagnetic steel (equilateral cross section, 6 mm high, 50 mm long) were attached that generated 
+the magnetic gradients (Fig. 1). Between each pair of magnets seed cassettes were inserted that contained 10 
+Brassica rapa seeds. Five seeds each were glued (Elmer’s clear glue) along the long edges of germination paper. 
+Roots that emerged from the seed cassettes were expected to curve away from the wedges.
+A camera system consisting of eight cameras on either side was installed between two of the three MFCs such 
+that the cameras were positioned opposite a window that permitted viewing the seed cassettes. Illumination was 
+achieved by a single IR LED (750–800 nm) to avoid phototropic stimulation. The LEDs were activated only during 
+imaging. The cameras acquired images in two-minute intervals and the video signal together with temperature, 
+and atmospheric pressure data and position number were transmitted to the Kennedy Space Center (Florida) as 
+well as recorded internally on a hard drive.
+Space flight parameters. 
+The experiment was launched on Space-X3 (April 18, 2014) and initiated after 
+19 days by dispensing 400 μL deionized water to each seed cassette from a Micro Effusion Device for Space 
+Applications (MEDUSA). The seeds germinated after about 22 h. The experiment was terminated after 48 h 
+by the injection of RNA-Later® into MFC-C (first in the fixation sequence, not imaged), injection of 4% for-
+maldehyde in PHEMD ­buffer50 in MFC-A (image sequences designated ‘Y’). MFC-B received RNALater, was 
+designated ‘Z’ and third in the fixation sequence. MFC-C did not contain magnets but Al blocks of identical 
+dimensions as the magnets and served as control. The dispensation of the respective fixative was initiated by 
+pressurizing an aluminum chamber that contained sealed bags with fixative, one for each MFC. A solenoid valve 
+controlled fixative flow to one MFC at a time. Excess liquid was collected in a second bag housed in a plastic 
+cage. The entire hardware and fixed plant material deorbited on May 20, 2014. After 2 days the hardware was 
+received at the Kennedy Space Center, and sample processing was completed during the next 3 days. A ground 
+control using the space hardware was performed at the Kennedy Space Center on a large clinostat (8/12–8/15/14, 
+1.5 rpm) and at the University of Louisiana using single clinorotated MFCs without imaging but under otherwise 
+identical conditions.
+Data analysis. 
+Image sequences were obtained from HD-stored files and compiled as video sequences (Sup. 
+Video 1 and Sup. Video 2). Root curvature was recorded from seed cassettes that were submersed in the same 
+buffer as during fixation in an upright position and photographed from four sides. After disassembly of the 
+seed cassettes, root appearance was categorized as germinated, straight, or curved. Curvature was evaluated as 
+affected by HGMF only if the root length was sufficient to reach the HGMF area and corresponding curvature 
+was visible. Only roots that were exposed to HGMF were used for the transcriptome analysis.
+Microscopy was performed on seedlings fixed in 4% (v/v) formaldehyde in PHEMD ­buffer50. Samples were 
+dehydrated in a graded ethanol series and 100% acetone and embedded in Spurr’s resin. Longitudinal median 
+sections (2 μm thick) were cut on an ultra-microtome (Sorvall MT2-B) and stained with toluidine blue (0.1% 
+[w/v] in 0.1% [w/v] boric acid). The serial sections were photographed with a digital camera (Sony DKC-ST5) 
+and measured using ImageJ (v.1.53).
+RNA extraction was performed in four separate sections of seedlings (root tip, root proper, hypocotyl, and 
+cotyledons) using a kit (Spectrum™ Plant Total RNA Kit, Sigma STRN250) following the manufacturer’s protocol. 
+Transcription analysis was performed after reverse transcription (High-Capacity cDNA Reverse Transcription 
+Kit, Applied Biosystems, USA) and qPCR reactions for 16 different genes using specific primers, with stable and 
+suitable efficiencies (Sup. Table 1). Conditions for the amplification on a Step-one real-time PCR system (Ther-
+moFisher Scientific) included a 2 min incubation at 95 °C, followed by 40 cycles (95 °C for 10 s; 60 °C for 10 s) 
+with fluorescent readings taken at the end of the annealing cycle. Quality control included melt curve analyses 
+and capillary electrophoresis (QIAxcel Advanced).
+The assessment of the space environment on seedling biology was examined using qPCR data of 16 genes. 
+Typically, qPCR data rely on so-called reference or housekeeping genes, but this approach does not consider 
+that the environmental conditions (space flight, clinorotation, and static growth conditions) are likely to affect 
+reference genes themselves. Therefore, we compared the entire data sets against each other based on all studied 
+conditions. If no difference exists between the two data sets, then such plots result in a diagonal line with a slope 
+of one. The evaluation based on slope and variance ­(R2 value) as indicator of overall stability of gene activity also 
+
+4
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+provides information on significantly affected genes. Such data points will show up as ‘outliers’ from the bulk 
+­distribution51. This approach was evaluated based on four individual tissues of the seedlings, resulting in 64 data 
+points (16 genes × 4 tissue types), for each treatment.
+The most relevant comparison of the explained type focuses on the effect of weightlessness and HGMFs in 
+addition to the effect of clinorotation and static, 1 g controls. The complete set of comparisons is provided as 
+Sup. Table 2. Transcription data were evaluated based on correspondence plots of pairwise comparisons. Sig-
+nificant changes in transcriptions were evaluated by the Mean ­Method51, and statistical significance was based 
+on Z-scores.
+Results and discussion
+Growth and seedling development. 
+Each MFC contained eight seed cassettes with ten seeds each. Seed 
+germination in the two MFCs with HGMFs was higher than in the non-magnetic chamber (Table 1), indicating 
+that the presence of magnets and magnetic fields did not negatively affect germination.
+Curvature induction by HGMF. 
+Exposure to HGMF induced curvature (Sup. Video 1, Table 2). However, 
+substantial curvature occurred in both presence and absence of magnetic gradients. The non-magnetic chamber 
+showed 81% curvature in roots within the seed cassette around the germination paper (Fig. 2).
+Table 1.   Germination and root length of Brassica rapa seeds in magnetic field chambers with (A&B) and 
+without magnets (C). There was no difference between chambers or seed cassettes.
+Cassette:
+1
+2
+3
+4
+5
+6
+7
+8
+MFC-A (HGMF)
+Average:
+14.3
+14.6
+15.4
+11.4
+14.4
+15.1
+16.2
+12.6
+14.7
+SE:
+4.2
+3.2
+3.5
+3.7
+4.4
+2.8
+4.8
+4.8
+5.0
+N = 
+77
+9
+10
+10
+10
+10
+10
+9
+9
+MFC-B (HGMF)
+Average:
+16.1
+16.6
+15.0
+17.3
+16.8
+15.5
+16.3
+16.4
+14.6
+SE:
+3.5
+2.5
+3.0
+3.6
+4.9
+3.5
+3.7
+4.0
+2.8
+N = 
+80
+10
+10
+10
+10
+10
+10
+10
+10
+MFC-C (no magnets)
+Average:
+14.7
+19.1
+14.2
+13.4
+15.2
+15.3
+14.5
+13.0
+13.4
+SE:
+4.4
+3.9
+4.7
+4.0
+2.3
+4.3
+6.4
+3.3
+3.2
+N = 
+70
+8
+10
+9
+8
+9
+10
+7
+9
+Table 2.   Germination and curvature in the presence and absence of HGMFs of a total of 80 seeds per MFC. 
+a Refers to roots that never emerged from the seed cassette or were too short to reach the HGMF area (as shown 
+in Fig. 2).
+Not germinated
+Straighta
+Curved
+Curved (HGMF)
+MFC-A (HGMF)
+3
+8
+40
+28
+MFC-B (HGMF)
+0
+0
+50
+30
+MFC-C (No magnets)
+10
+5
+65
+0
+Figure 2.   Example of root orientation inside seed cassettes. The predominant curvature and elongation 
+occurred onto and along the surface of the germination paper.
+
+5
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+MFCs with magnets showed curvature that was independent of the HGMF because of growth patterns or 
+curvature occurring inside the seed cassettes where the magnetic gradient was too weak to affect curvature.
+The comparison of space-grown or static ground control seedlings exposed to HGMF with seedlings grown 
+in the non-magnetic field chamber (#1 and #23 in Sup. Table 2) shows strong correspondence between the two 
+conditions (Fig. 3), indicating that magnetic fields do not affect general metabolism or transcription activity. 
+This notion is in line with reports that failed to detect effects of magnetic fields on ­growth52,53 but contrasts with 
+effects of weak magnetic fields on root ­curvature54 and effects of the geomagnetic field on stress response and 
+­hormesis55,56. The geomagnetic field (typically about 0.5 G) is orders of magnitude weaker than the employed 
+magnetic fields in this research (ca. 30 kG).
+These data indicate that factors other than HGMF induce curvature and the most likely factor is 
+­hydrotropism18,32,57. The lack of a gravity stimulus and the distance between the germination paper and the 
+Figure 3.   Transcription values between space grown Brassica rapa seedlings (A, #1) and static ground controls 
+(B, #23) in the presence and absence of HGMFs show strong correlation (unity slope) and low scatter ­(R2 = 0.85 
+and 0.95), indicating no or low effect of magnetic fields on transcription. Panels (C) and (D) identify the 
+examined tissues in (A) and (B), respectively. The data sets use PFK as reference and show efficiency-corrected 
+ΔCq and log(2) transformed values.
+
+6
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+HGMF-generating wedges resulted in a large number of roots confined to the germination paper. The same fac-
+tor also applied to seedlings in the magnetic chambers and resulted in reduced numbers of roots reaching the 
+HGMF. However, the unambiguous evidence for curvature in space (see Sup. Video 1) and clinorotated seedlings 
+(Sup. Video 2) indicates that HGMFs do have the ability to induce curvature as had been demonstrated earlier 
+in roots, coleoptiles, inflorescences, and ­hypocotyls16,17,26,58,59.
+The presumably hydrotropic growth reduced the number of roots that reached the influence of the HGMFs. 
+Therefore, the overall number of roots curving in response to the magnetic gradient was low (Table 2).
+Examining the gravisensing mechanism includes measuring the size of the presumptive sensors as previous 
+work has shown that gravisensitivity depends on the amount of starch in ­amyloplasts60. Assuming equal density, 
+the diameter of amyloplasts determines the relative mass. Measurements of amyloplasts in columella cells dif-
+fered between the space-grown, clinorotated, and statically grown ground controls (Fig. 4) and indicates that 
+the amyloplast size and therefore the gravisensing mechanism is responsive to the growth condition, notably 
+weightlessness and clinorotation that respectively reduces and enhances mechanostimulation.
+Earlier analyses of starch from space and ground controls found that ethylene reduces starch particle size 
+and that in cotyledons starch particles sizes in space and ground controls were of equal ­size61. Since we used 
+activated charcoal cloth to absorb volatile organic compounds (Fig. 1), we assume that ethylene was not a factor 
+in the different experiments. In addition, we examined the size distribution of amyloplasts in the root columella. 
+Earlier work showed that amyloplasts in gravisensing tissues (root cap and endodermis) are about twice the size of 
+other ­tissues7. Our data (Fig. 4) indicate that the amyloplast size is responsive to the gravitational and mechanical 
+stimulation. The reduced size after clinorotation, the average size in static 1-g controls, and the enlarged size in 
+roots grown under ‘micro-gravity’ conditions support the notion that the extent of gravitational stimulation is 
+inversely proportional to the mass of the amyloplasts. Thus, plants not only perceive the direction of an accelera-
+tive force but adjust their (starch) metabolism according to the amount of stimulation. If this concept is correct, 
+then it should be supported by gene transcription data. The following analyses confirm that amylase activity 
+indeed is affected by mechanostimulation.
+Transcript analyses. 
+Since four different tissue types were analyzed, tissue variability and response to 
+spaceflight and clinorotation can be assessed for all examined tissues and genes. Based on distributions of tran-
+scription patterns (Figs. 3 and 5), a comprehensive analysis of all treatment and tissue combinations was per-
+formed such that the scatter for each comparison and gene was determined based on the formula
+where j represents the tissue types (root tip, root proper, hypocotyl, cotyledons) and i the individual experimental 
+comparisons (28, Sup. Table 2) or examined genes (16). This value was calculated for each analyzed gene and the 
+smallest value (scatter in Figs. 3 and 5) was identified as the most stably transcribed gene (Table 3).
+The distribution of the least variable gene transcription varied greatly (Table 3). Although common reference 
+genes (e.g., TUB1, ACT7) are represented (Table 3), the observation that individual tissues differed in the genes 
+of greatest stability and that the average of all tissues resulted in different assortments suggested that referring 
+transcription data to the average of all measurements (i.e., the regression lines in Figs. 3 and 5) is superior to 
+relying on a single gene. Because PFK showed the greatest stability for all tissues, we placed PFK at the origin of 
+the coordinate system (0/0). However, the results explained below are independent of this selection.
+The comparisons (Sup. Table 2) show the least and most significant effect on gene expression and can be used 
+to identify the conditions that induce physiological responses in brassica seedlings. The greatest stability in gene 
+transcription was seen for treatments with similar mechanical load, for example, static growth with and without 
+n
+
+i=1
+4
+
+j=1
+
+Xij −Xj
+2 +
+
+Yij −Yj
+2
+Figure 4.   Size distribution of amyloplasts in the root cap of Brassica rapa seedlings grown in space, on the 
+ground or in a clinostat. The data were compiled from 2 μm thick longitudinal sections of root cap tissue after 
+fixation in paraformaldehyde. The difference between space and clinostat amyloplasts was highly significant 
+(P < ­10–4); the difference between static ground control and clinorotated amyloplasts was significant at the 5% 
+level. Data were normalized based on 290, 243, and 210 amyloplast measurements for space, clinorotated, and 
+static ground control plants, respectively.
+
+7
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+HGMF, or clinorotated samples (KSC and Lab). The largest scatter or least consistent transcription pattern was 
+associated with different mechanical loads such as flight (i.e., no mechanical load) and clinorotation (enhanced 
+mechanical load), or static and space flight conditions. The main conclusion of these evaluations is that HGMFs 
+or more generally, strong magnetic fields, do not affect transcription; HGMF data are equally present in the 
+most and least affected conditions (Table 4). However, a comparison between clinorotated experiments with 
+the original flight hardware at KSC and experiments in our lab (comparison # 17 and # 22) show statistically 
+significant differences (Sup. Fig. 4).
+Sensitivity of AMY1. 
+Data sets comparing space-grown with clinorotated seedlings show large scatter and 
+offset (Fig. 5A and Sup. Fig. 3A), suggesting that the shift in the transcription pattern is not dependent on HGMF 
+Figure 5.   Transcription values for space grown and clinorotated KSC ground controls. Brassica rapa seedlings 
+(A, #2) show strong reduction of AMY1 transcription in clinorotated seedlings (circle). A comparison 
+between static and clinorotated seedlings (B, #27) shows higher AMY1 transcription in non-clinorotated 
+seedlings. Panels (C) and (D) identify the tissues in (A) and (B), respectively. The circled data indicate AMY1 
+transcription relative to PFK. In both cases average AMY1 transcription was significantly different (p = 0.002, 
+left and p < 0.001, right; n = 64). The data sets use PFK as reference and show efficiency-corrected ΔCq and log(2) 
+transformed values.
+
+8
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+but differences in mechanostimulation (i.e., clinorotation). This effect is especially noticeable for AMY1. The 
+effect of clinorotation on amylase transcription is independent of the HGMF because transcription of AMY1 in 
+the absence of HGMF was higher in static seedlings than clinorotated seedlings (Fig. 5B). Space flight and cli-
+norotation resulted in reduced and elevated transcription, respectively. A similar pattern was observed between 
+clinorotated and static samples; however, HGMF had no effect (Sup. Fig. 3). The altered AMY1 transcription 
+between clinorotation at KSC and our lab is related to different stabilities of the hardware. The flight hardware 
+contained a webbing-like base mount (implemented because of weight concerns), which provided stable sup-
+port during space flight but flexed readily during clinorotation compared to a rigid assembly on the laboratory 
+clinostat.
+The transcription data correspond with the observed size distribution of amyloplasts (Fig. 4) and indicate 
+that amyloplast size is regulated by starch degradation in clinorotated seedlings and amylase repression (starch 
+accumulation) in space samples. Together these observations indicate that plant adapt to the weightlessness of 
+space by increasing their amyloplast size which likely enhances their gravisensitivity. In contrast, clinorotation 
+represents excessive mechanostimulation and leads to a reduction of amyloplast size through enhanced degrada-
+tion (amylase transcription).
+The observed AMY1 levels between space-grown and clinorotated seedlings were independent of reference 
+genes; the effect persisted regardless of whatever gene was used as reference. This observation supports using tran-
+scription of all available genes as a reliable approach to identifying transcriptional changes of individual genes.
+The AMY1 data correspond to earlier observations of enhanced gravisensitivity of space-grown lentil 
+­seedlings62,63 and reduced starch after ­clinorotation64. Although the STS-107 flight experiment could not be 
+retrieved to measure amyloplast size, the image analysis of flax seedlings indicated that the magnetic gradient 
+had stronger effects than during previous ground experiments because the root curvature started at a greater 
+distance from the HGMF-inducing ­wedge27 than during ground controls. This observation is in line with the 
+present data and strongly supports greater (gravi)sensitivity of plants growing in a microgravity environment.
+The current report is the first to associate starch metabolism with amyloplasts size and gravisensitivity. The 
+larger amyloplasts in space-grown plants suggest that the application of HGMFs in space is more effective than 
+in earth-grown and especially in clinorotated plants. However, the unreliable growth direction of roots makes 
+HGMF difficult to implement.
+Gravisensitivity has also been linked to changes in calcium in ­statocytes65–67 and calcium has been shown to 
+stabilize α-amylase68–70. Therefore, ­Ca2+ and amylase are controlling element for the starch content in statocytes. 
+However, starch content is the result of homeostasis for catabolic and anabolic metabolism. Starch biosynthesis 
+depends on a complex set of enzymes that include phosphoglucose isomerase (PGI)71, phosphoglucomutase 
+(PGM)72,73, and starch synthases (SSs)71,74 among others. Data on the balance between starch degradation and 
+starch biosynthesis undoubtedly would provide a more comprehensive assessment of the sensitivity of starch 
+metabolism to reduced and enhanced mechanostimulation. However, the limited set of transcriptionally analyzed 
+Table 3.   Assessment of the consistency of transcription data based on the average of examined tissues. The 
+top four choices of all combinations (as in Sup. Table 2) are based on the percentage that resulted in the least 
+scatter of all 448 combinations (16 genes by 28 comparisons).
+Gene
+n
+%
+All tissues
+PFK
+60
+13.4
+PIN1
+47
+10.5
+TUB1
+45
+10.0
+GLK
+33
+7.4
+Root tip
+PIN1
+43
+9.6
+PIN3
+41
+9.2
+SUS
+40
+8.9
+GLK
+35
+7.8
+Root proper
+COX
+51
+11.4
+ACT7
+42
+9.4
+SUS
+42
+9.4
+HXK
+39
+8.7
+Hypocotyl
+HXK
+42
+9.4
+ACT7
+37
+8.3
+SUS
+37
+8.3
+ADH1
+27
+6.0
+Cotyledons
+PFK
+49
+10.9
+ACT7
+45
+10.0
+ADH1
+40
+8.9
+PIN7
+35
+7.8
+
+9
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+genes prevents a more thorough assessment of starch biosynthesis in response to altered mechanostimulation. 
+Future space experiments might remedy this shortcoming.
+Genes other than AMY1. 
+Although weightlessness is the dominant difference between ground and space 
+flights, the lack of density-driven gas exchange and water distribution are equally significant alterations for plant 
+growth in space. Because the flight hardware was enclosed in a hermetically sealed (triple-contained) chamber, 
+atmospheric effects can be excluded. Therefore, the following considerations only apply to gravity effects. Com-
+paring the number of significantly (P < 0.05) affected combinations (genes by reference), shows the largest effect 
+on AMY1 transcription (Fig. 6).
+Genes other than AMY1 responded to specific conditions but at reduced power. ACT7 showed modifications 
+only when comparing clinorotation at KSC with static growth (Comparisons #19 & #20); ACT7 was not affected 
+by HGMF but sensitive to vibrations (higher frequency movements in excess to the 1.5 rpm of the clinostat). This 
+relationship is similar to the enhanced AMY1 transcription addressed in Sup. Fig. 4. The enhanced oscillation 
+can be verified by the jitter in Sup. Video 2. To improve visibility, the individual frames were aligned, but the 
+inconsistent position of imprinted data confirms the added vibrational stimulation that affected ACT7 activation 
+(and enhanced AMY1 transcription) compared to regular (smooth) clinorotation.
+COX showed the strongest upregulation in space flight material compared with static growth conditions (#4, 
+#5, #10 #11) but was not affected by HGMF. This observation further supports the claim that magnetic fields do 
+not affect transcription. Instead, COX responds to space flight associated stress as has been shown previously 
+for fish ­brain75 and skeletal ­muscle76. Changes in G6PDH5 were limited to treatment differences between space 
+flight and clinorotation (#8, #12, #15, #16) and correspond to earlier reports of altered enzyme activities of pine 
+seedlings after exposure to clinorotation and hyper-g77 and enzyme activities in artemia cysts after space ­flight78. 
+Table 4.   The similarity of gene transcription between pairs of treatments based on high gradient magnetic 
+fields (HGMF) or no magnetic fields (no-MF) that were applied during the space flight (Flight), on ground 
+controls (static), or during clinorotation (Clino) at the Kennedy Space Center (KSC) or in the laboratory (Lab). 
+The values were obtained by averaging the ­R2 values that resulted from using each of the 16 genes as reference 
+(i.e., origin in graphical comparisons such as Figs. 3 and 5 and Sup. Figs. 3 and 4). a Numbers refer to Sup. 
+Table 2.
+#a
+R2, %
+STDEV,%
+Comparisons (all genes)
+Least stable
+>
+<
+Most stable
+ 
+23
+94.8
+1.9
+KSC static no-MF vs. KSC static HGMF
+17
+90.8
+2.7
+Lab Clino HGMF vs. KSC Clino HGMF
+28
+82.6
+7.5
+Lab Clino no-MF vs. Lab Clino HGMF
+1
+80.2
+7.2
+Flight-no MF vs. Flight-HGMF
+15
+80.0
+3.3
+KSC static HGMF vs. KSC Clino HGMF
+18
+78.8
+3.7
+Lab Clino no-MF vs. KSC Clino HGMF
+16
+76.6
+3.3
+KSC static no-MF vs. KSC Clino HGMF
+25
+76.3
+2.6
+Lab Clino no-MF vs. KSC static HGMF
+27
+75.6
+4.7
+Lab Clino no-MF vs. KSC static no-MF
+24
+73.1
+5.2
+Lab Clino HGMF vs. KSC static HGMF
+19
+72.8
+7.0
+KSC static HGMF vs. KSC Clino no-MF
+26
+70.7
+5.5
+Lab Clino HGMF vs. KSC static no-MF
+20
+70.4
+6.7
+KSC static no-MF vs. KSC Clino no-MF
+14
+60.6
+7.7
+KSC Clino no-MF vs. KSC Clino HGMF
+13
+59.2
+11.1
+Lab Clino no-MF vs. Flight-no MF
+22
+56.9
+6.2
+Lab Clino no-MF vs. KSC Clino no-MF
+21
+56.2
+7.3
+Lab Clino HGMF vs. KSC Clino no-MF
+7
+56.1
+11.2
+Lab Clino no-MF vs. Flight-HGMF
+12
+53.6
+7.0
+Lab Clino HGMF vs. Flight-no MF
+9
+52.3
+10.0
+KSC Clino no-MF vs. Flight-no MF
+10
+51.0
+8.2
+KSC static HGMF vs. Flight-no MF
+11
+50.7
+8.4
+KSC static no-MF vs. Flight-no MF
+6
+49.9
+7.5
+Lab Clino HGMF vs. Flight-HGMF
+8
+46.0
+7.1
+KSC Clino HGMF vs. Flight-no MF
+2
+40.6
+6.7
+KSC Clino HGMF vs. Flight-HGMF
+5
+38.0
+7.4
+KSC static no-MF vs. Flight-HGMF
+3
+37.4
+10.6
+KSC Clino no-MF vs. Flight-HGMF
+4
+37.4
+10.6
+KSC static HGMF vs. Flight-HGMF
+
+10
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+IAA5 and PIN7 responded to HGMF both under flight (PIN7) and clinorotation (IAA5) and underscores their 
+relevance for auxin modification of growth. Although the number of roots that curved in response to HGMF was 
+low (Table 2), it is possible that differential growth (curvature in response to hydrotropism?) affected the tran-
+scription of these genes. GLK did not respond significantly; changes were not limited to any particular condition 
+and therefore cannot be associated with specific experimental conditions but likely represent natural variations. 
+UBq1, Tub1, ADH1, HXK, PFK, SUS, PIN1 showed no significant changes in transcription and therefore could 
+all serve as references. The lack of response of ADH1 is surprising as this gene was previously identified as space 
+stress ­indicator79,80. TAGL is the only gene that shows reduced transcription in the presence of magnetic fields 
+but only in clinorotated samples. While there is precedence that the lipid metabolism is affected by ­hypergravity81 
+and ­clinorotation82, this is the first observation that magnetic fields might contribute to such changes.
+In summary, our data support plant proprioception of weightlessness and metabolic control of amyloplast size. 
+The adjustment of size and mass of amyloplasts indicates that plants perceive gravity and ponderomotive forces, 
+which provide not only enhanced gravisensitivity but also explain some metabolic responses to space conditions. 
+The advantage of a sealed environment suggests that this effect is not an artefact but related to gravitational and 
+mechanosensory responses. The results also demonstrate that HGMF do not influence gene transcription. Future 
+work needs to investigate the role of other starch-related genes to understand the entire dynamic of metabolic 
+plasticity that relates to weightlessness.
+Data availability
+All data are available upon request from the corresponding author.
+Received: 6 June 2022; Accepted: 18 October 2022
+References
+	 1.	 Hasenstein, K. H. Plant responses to gravity—insights and extrapolations from ground studies. Gravit. Space Biol. 22, 21–32 (2009).
+	 2.	 Blancaflor, E. B. & Masson, P. H. Plant gravitropism. Unraveling the ups and downs of a complex process. Plant Physiol. 133, 
+1677–1690. https://​doi.​org/​10.​1104/​pp.​103.​032169 (2003).
+	 3.	 Su, S. H., Gibbs, N. M., Jancewicz, A. L. & Masson, P. H. Molecular mechanisms of root gravitropism. Curr. Biol. 27, R964–R972. 
+https://​doi.​org/​10.​1016/j.​cub.​2017.​07.​015 (2017).
+	 4.	 Toyota, M. & Gilroy, S. Gravitropism and mechanical signaling in plants. Am. J. Bot. 100, 111–125. https://​doi.​org/​10.​3732/​ajb.​
+12004​08 (2013).
+	 5.	 Levernier, N., Pouliquen, O. & Forterre, Y. An integrative model of plant gravitropism linking statoliths position and auxin trans-
+port. Front. Plant Sci. 12, 651928. https://​doi.​org/​10.​3389/​fpls.​2021.​651928 (2021).
+	 6.	 Ma, Z. & Hasenstein, K. H. The onset of gravisensitivity in the embryonic root of flax. Plant Physiol. 140, 159–166. https://​doi.​org/​
+10.​1104/​pp.​105.​073296 (2006).
+	 7.	 Ajala, C. & Hasenstein, K. H. Augmentation of root gravitropism by hypocotyl curvature in Brassica rapa seedlings. Plant Sci. 285, 
+214–223. https://​doi.​org/​10.​1016/j.​plant​sci.​2019.​05.​017 (2019).
+	 8.	 Blancaflor, E. B. The cytoskeleton and gravitropism in higher plants. J. Plant Growth Regul. 21, 120–136 (2002).
+	 9.	 Withers, J. C. et al. Gravity persistent signal 1 (gps1) reveals novel cytochrome p450s involved in gravitropism. Am. J. Bot. 100, 
+183–193. https://​doi.​org/​10.​3732/​ajb.​12004​36 (2013).
+	10.	 Toal, T. W. et al. Regulation of root angle and gravitropism. Genes Genomes Genet. 8, 3841. https://​doi.​org/​10.​1534/​g3.​118.​200540 
+(2018).
+	11.	 Dummer, M., Forreiter, C. & Galland, P. Gravitropism in Arabidopsis thaliana: Root-specific action of the EHB gene and violation 
+of the resultant law. J. Plant Physiol. 189, 24–33. https://​doi.​org/​10.​1016/j.​jplph.​2015.​09.​008 (2015).
+Figure 6.   The percentage of significant (P < 0.05) changes in gene transcription in response to space, HGMF 
+and clinorotation of Brassica rapa seedlings. Compared to AMY1, all other genes showed fewer significant 
+alterations (% of 16 genes × 16 references).
+
+11
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+	12.	 Blancaflor, E. B. & Hasenstein, K. H. Growth and microtubule orientation of Zea-mays roots subjected to osmotic-stress. Int. J. 
+Plant Sci. 156, 774–783 (1995).
+	13.	 Ma, Z. & Hasenstein, K. H. Noise amplification of plant gravisensing. Adv. Space Res. 39, 1119–1126 (2007).
+	14.	 Scherp, P. & Hasenstein, K. H. Microinjection—a tool to study gravitropism. Adv. Space Res. 31, 2221–2227 (2003).
+	15.	 Hasenstein, K. H. & Kuznetsov, O. A. The response of lazy-2 tomato seedlings to curvature-inducing magnetic gradients is modu-
+lated by light. Planta 208, 59–65. https://​doi.​org/​10.​1007/​s0042​50050​534 (1999).
+	16.	 Kuznetsov, O. A. & Hasenstein, K. H. Magnetophoretic induction of curvature in coleoptiles and hypocotyls. J. Exp. Bot. 48, 
+1951–1957. https://​doi.​org/​10.​1093/​jexbot/​48.​316.​1951 (1997).
+	17.	 Weise, S. E., Kuznetsov, O. A., Hasenstein, K. H. & Kiss, J. Z. Curvature in Arabidopsis inflorescence stems is limited to the region 
+of amyloplast displacement. Plant Cell Physiol. 41, 702–709 (2000).
+	18.	 Kobayashi, A. et al. A gene essential for hydrotropism in roots. Proc. Natl. Acad. Sci. USA 104, 4724–4729 (2007).
+	19.	 Dietrich, D. et al. Root hydrotropism is controlled via a cortex-specific growth mechanism. Nature Plants 3, 17057 (2017).
+	20.	 Massa, G. D. & Gilroy, S. Touch modulates gravity sensing to regulate the growth of primary roots of Arabidopsis thaliana. Plant 
+J. 33, 435–445 (2003).
+	21.	 Braam, J. In touch: Plant responses to mechanical stimuli. New Phytol. 165, 373–389 (2005).
+	22.	 John, S. P. & Hasenstein, K. H. Effects of mechanostimulation on gravitropism and signal persistence in flax roots. Plant Signal 
+Behav. 6, 1–6 (2011).
+	23.	 Kuznetsov, O. A. & Hasenstein, K. H. Intracellular magnetophoresis of statoliths in Chara rhizoids and analysis of cytoplasm 
+viscoelasticity. Adv. Space Res. 27, 887–892 (2001).
+	24.	 Kuznetsov, O. A. & Hewaparakrama, H. K. In Scientific and Clinical Applications of magnetic carriers (eds Urs, H. et al.) Ch. 33, 
+429–444 (Plenum Press, 1997).
+	25.	 Kuznetsov, O. A. & Hasenstein, K. H. Magnetophoretic response of barley coleoptiles. Plant Physiol. 111, 140–140 (1996).
+	26.	 Kuznetsov, O. A. & Hasenstein, K. H. Intracellular magnetophoresis of amyloplasts and induction of root curvature. Planta 198, 
+87–94 (1996).
+	27.	 Hasenstein, K. H., Scherp, P. & Ma, Z. Gravisensing in flax roots—results from STS-107. Adv. Space Res. 36, 1189–1195 (2005).
+	28.	 Senftle, F. & Hambright, W. In Biological Effects of Magnetic Fields (2. vol) (ed Madeleine, F. B.) 261–306 (Plenum Press, 1969).
+	29.	 Theil, E. Ferritin: Structure, gene regulation, and cellular function in animals, plants, and microorganisms. Annu. Rev. Biochem. 
+56, 289–315 (1987).
+	30.	 Hasenstein, K. H., John, S., Scherp, P., Povinelli, D. & Mopper, S. Analysis of magnetic gradients to study gravitropism. Am. J. Bot. 
+100, 249–255. https://​doi.​org/​10.​3732/​ajb.​12003​04 (2013).
+	31.	 Shen-Miller, J., Hinchman, R. & Gordon, S. A. Thresholds for georesponse to acceleration in gravity-compensated avena seedlings. 
+Plant Physiol. 43, 338–344 (1968).
+	32.	 Takahashi, H. & Scott, T. K. Hydrotropism and Its interaction with gravitropism in maize roots. Plant Physiol. 96, 558–564 (1991).
+	33.	 Blilou, I. et al. The PIN auxin efflux facilitator network controls growth and patterning in Arabidopsis roots. Nature 433, 39–44 
+(2005).
+	34.	 Hasenstein, K. H. & Evans, M. L. Effects of cations on hormone transport in primary roots of Zea mays. Plant Physiol. 86, 890–894. 
+https://​doi.​org/​10.​1104/​pp.​86.3.​890 (1988).
+	35.	 Adamowski, M. & Friml, J. PIN-dependent auxin transport: Action, regulation, and evolution. Plant Cell 27, 20–32. https://​doi.​
+org/​10.​1105/​tpc.​114.​134874 (2015).
+	36.	 Deikman, J. & Jones, R. Control of alpha amylase messenger RNA accumulation by gibberellic acid and calcium in barley aleurone 
+layers. Plant Physiol. 78, 192–198 (1985).
+	37.	 Coleman, H. D., Yan, J. & Mansfield, S. D. Sucrose synthase affects carbon partitioning to increase cellulose production and altered 
+cell wall ultrastructure. Proc. Natl. Acad. Sci. USA 106, 13118–13123 (2009).
+	38.	 da-Silva-Santos, P. H. et al. Selection and validation of reference genes by RT-qPCR under photoperiodic induction of flowering 
+in sugarcane (Saccharum spp.). Sci. Rep. 11, 4589. https://​doi.​org/​10.​1038/​s41598-​021-​83918-2 (2021).
+	39.	 Xu, F. Q. & Xue, H. W. The ubiquitin-proteasome system in plant responses to environments. Plant Cell Environ. 42, 2931–2944. 
+https://​doi.​org/​10.​1111/​pce.​13633 (2019).
+	40.	 Yang, H. L. et al. Selection and evaluation of novel reference genes for quantitative reverse transcription PCR (qRT-PCR) based 
+on genome and transcriptome data in Brassica napus L.. Gene 538, 113–122. https://​doi.​org/​10.​1016/j.​gene.​2013.​12.​057 (2014).
+	41.	 Gilliland, L. U., Pawloski, L. C., Kandasamy, M. K. & Meagher, R. B. Arabidopsis actin gene ACT7 plays an essential role in ger-
+mination and root growth. Plant J. 33, 319–328 (2003).
+	42.	 Papdi, C. et al. Functional identification of Arabidopsis stress regulatory genes using the controlled cDNA overexpression system. 
+Plant Physiol. 147, 528–542. https://​doi.​org/​10.​1104/​pp.​108.​116897 (2008).
+	43.	 Garcia, L. et al. The cytochrome c oxidase biogenesis factor AtCOX17 modulates stress responses in Arabidopsis. Plant Cell Environ. 
+39, 628–644. https://​doi.​org/​10.​1111/​pce.​12647 (2016).
+	44.	 Wakao, S. & Benning, C. Genome-wide analysis of glucose-6-phosphate dehydrogenases in Arabidopsis. Plant J. 41, 243–256. 
+https://​doi.​org/​10.​1111/j.​1365-​313X.​2004.​02293.x (2005).
+	45.	 Klepikova, A. V., Kasianov, A. S., Gerasimov, E. S., Logacheva, M. D. & Penin, A. A. A high resolution map of the Arabidopsis 
+thaliana developmental transcriptome based on RNA-seq profiling. Plant J. 88, 1058–1070. https://​doi.​org/​10.​1111/​tpj.​13312 
+(2016).
+	46.	 Aguilera-Alvarado, G. P. & Sanchez-Nieto, S. Plant hexokinases are multifaceted proteins. Plant Cell Physiol. 58, 1151–1160. https://​
+doi.​org/​10.​1093/​pcp/​pcx062 (2017).
+	47.	 Hwang, J. H. et al. Expression profile analysis of hypoxia responses in Arabidopsis roots and shoots. J. Plant Biol. 54, 373–383. 
+https://​doi.​org/​10.​1007/​s12374-​011-​9172-9 (2011).
+	48.	 McGlew, K. et al. An annotated database of Arabidopsis mutants of acyl lipid metabolism. Plant Cell Rep. 34, 519–532. https://​doi.​
+org/​10.​1007/​s00299-​014-​1710-8 (2015).
+	49.	 Kelly, A. A. & Feussner, I. Oil is on the agenda: Lipid turnover in higher plants. Biochim. Biophys. Acta 1253–1268, 2016. https://​
+doi.​org/​10.​1016/j.​bbalip.​2016.​04.​021 (1861).
+	50.	 Blancaflor, E. & Hasenstein, K. Organization of cortical microtubules in graviresponding maize roots. Planta 191, 231–237 (1993).
+	51.	 Houston, L. M., Hasenstein, K. H. & Deoli, N. T. The mean method: A specific outlier boundary for arbitrary distributions. Theor. 
+Math. Appl. 5, 1–12 (2015).
+	52.	 Chaplin, A. The effects of a one Tesla magnet on human fibroblast growth. Bios 76, 193–203. https://​doi.​org/​10.​1893/​0005-​
+3155(2005)​076[0193:​TEOAOT]​2.0.​CO;2 (2005).
+	53.	 Gellrich, D., Becker, S. & Strieth, S. Static magnetic fields increase tumor microvessel leakiness and improve antitumoral efficacy 
+in combination with paclitaxel. Cancer Lett. 343, 107–114. https://​doi.​org/​10.​1016/j.​canlet.​2013.​09.​021 (2014).
+	54.	 Kordyum, E. L., Bogatina, N. I., Kalinina, Y. M. & Sheykina, N. V. A weak combined magnetic field changes root gravitropism. 
+Adv. Space Res. 36, 1229–1236. https://​doi.​org/​10.​1016/j.​asr.​2005.​05.​103 (2005).
+	55.	 Maffei, M. E. Magnetic field effects on plant growth, development, and evolution. Front. Plant Sci. https://​doi.​org/​10.​3389/​fpls.​
+2014.​00445 (2014).
+	56.	 Paponov, I. A., Fliegmann, J., Narayana, R. & Maffei, M. E. Differential root and shoot magnetoresponses in Arabidopsis thaliana. 
+Sci. Rep. 11, 9195. https://​doi.​org/​10.​1038/​s41598-​021-​88695-6 (2021).
+
+12
+Vol:.(1234567890)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+	57.	 Miao, R. et al. Comparative analysis of arabidopsis ecotypes reveals a role for brassinosteroids in root hydrotropism. Plant Physiol. 
+176, 2720–2736. https://​doi.​org/​10.​1104/​pp.​17.​01563 (2018).
+	58.	 Kuznetsov, O. A. & Hasenstein, K. H. The response of the lazy-2 tomato mutant to HGMF and red light. Plant Physiol. 114, 
+1480–1480 (1997).
+	59.	 Weise, S. E. & Kiss, J. Z. Gravitropism of inflorescence stems in starch-deficient mutants of Arabidopsis. Int. J. Plant Sci. 160, 521 
+(1999).
+	60.	 Kiss, J. Z., Hertel, R. & Sack, F. D. Amyloplasts are necessary for full gravitropic sensitivity in roots of Arabidopsis thaliana. Planta 
+177, 198–206 (1989).
+	61.	 Kuznetsov, O. A. et al. Composition and physical properties of starch in microgravity-grown plants. Adv. Space Res. 28, 651–658 
+(2001).
+	62.	 Driss-Ecole, D., Legue, V., Carnero-Diaz, E. & Perbal, G. Gravisensitivity and automorphogenesis of lentil seedling roots grown 
+on board the International Space Station. Physiol. Plant. 134, 191–201. https://​doi.​org/​10.​1111/j.​1399-​3054.​2008.​01121.x (2008).
+	63.	 Volkmann, D. & Tewinkel, M. Gravisensitivity of cress roots. Adv. Space Res. 21, 1209–1217 (1998).
+	64.	 Brown, C. S. & Piastuch, W. C. Starch metabolism in germinating soybean cotyledons is sensitive to clinorotation and centrifuga-
+tion. Plant Cell Environ. 17, 341–344 (1994).
+	65.	 Bizet, F. et al. Both gravistimulation onset and removal trigger an increase of cytoplasmic free calcium in statocytes of roots grown 
+in microgravity. Sci. Rep. 8, 1. https://​doi.​org/​10.​1038/​s41598-​018-​29788-7 (2018).
+	66.	 Wendt, M. & Sievers, A. The polarity of statocytes and the gravisensitivity of roots are dependent on the concentration of calcium 
+in statocytes. Plant Cell Physiol. 30, 929–932 (1989).
+	67.	 Kordyum, E. L. A role for the cytoskeleton in plant cell gravisensitivity and ­Ca2+-signaling in microgravity. Cell Biol. Int. 27, 
+219–221. https://​doi.​org/​10.​1016/​s1065-​6995(02)​00315-3 (2003).
+	68.	 Chen, X. F., Chang, M. C., Wang, B. Y. & Wu, R. Cloning of a Ca2+-ATPase gene and the role of cytosolic Ca2+ in the gibberellin-
+dependent signaling pathway in aleurone cells. Plant J. 11, 363–371. https://​doi.​org/​10.​1046/j.​1365-​313X.​1997.​11030​363.x (1997).
+	69.	 Saboury, A. A. Stability, activity and binding properties study of alpha-amylase upon interaction with ­Ca2+ and ­Co2+. Biologia 57, 
+221–228 (2002).
+	70.	 Kashem, M. A., Itoh, K., Iwabuchi, S., Hori, H. & Mitsui, T. Possible involvement of phosphoinositide-Ca2+ signaling in the 
+regulation of alpha-amylase expression and germination of rice seed (Oryza sativa L.). Plant Cell Physiol. 41, 399–407 (2000).
+	71.	 Bahaji, A. et al. Plastidial phosphoglucose isomerase is an important determinant of seed yield through its involvement in gibber-
+ellin-mediated reproductive development and storage reserve biosynthesis in Arabidopsis. Plant Cell 30, 2082–2098. https://​doi.​
+org/​10.​1105/​tpc.​18.​00312 (2018).
+	72.	 Caspar, T., Huber, S. & Somerville, C. Alterations in growth, photosynthesis, and respiration in a starchless mutant of Arabidopsis 
+thaliana (L.) deficient in chloroplast phosphoglucomutase activity. Plant Physiol. 79, 11–17 (1985).
+	73.	 Caspar, T. & Pickard, B. G. Gravitropism in a starchless mutant of Arabidopsis—implications for the starch-statolith theory of 
+gravity sensing. Planta 177, 185–197 (1989).
+	74.	 Tsai, H. L. et al. Starch synthesis in Arabidopsis is achieved by spatial cotranscription of core starch metabolism genes. Plant Physiol. 
+151, 1582–1595. https://​doi.​org/​10.​1104/​pp.​109.​144196 (2009).
+	75.	 Paulus, U., Kortje, K. H., Slenzka, K. & Rahmann, H. Correlation of altered gravity and cytochrome oxidase activity in the develop-
+ing fish brain. J. Brain Res. 37, 103–107 (1996).
+	76.	 Fitts, R. H. et al. Effects of prolonged space flight on human skeletal muscle enzyme and substrate profiles. J. Appl. Physiol. 115, 
+667–679. https://​doi.​org/​10.​1152/​jappl​physi​ol.​00489.​2013 (2013).
+	77.	 Faraoni, P. et al. Glyoxylate cycle activity in Pinus pinea seeds during germination in altered gravity conditions. Plant Physiol. 
+Biochem. 139, 389–394. https://​doi.​org/​10.​1016/j.​plaphy.​2019.​03.​042 (2019).
+	78.	 Gaubin, Y. et al. Enzyme activities and membrane lipids in Artemia cysts after a long duration space flight. Adv. Space Res. 18, 
+221–227 (1996).
+	79.	 Porterfield, D. M., Matthews, S. W. & Musgrave, M. E. Spaceflight exposure effects on transcription, activity, and localization of 
+alcohol dehydrogenase in the roots of Arabidopsis thaliana. Plant Physiol. 113, 685–693 (1997).
+	80.	 Paul, A. L. et al. Transgene expression patterns indicate that spaceflight affects stress signal perception and transduction in Arabi-
+dopsis. Plant Physiol. 126, 613–621. https://​doi.​org/​10.​1104/​pp.​126.2.​613 (2001).
+	81.	 Kolzumi, T. et al. Changes in membrane lipid composition in azuki bean epicotyls under hypergravity conditions: Possible role of 
+membrane sterols in gravity resistance. Adv. Space Res. 39, 1198–1203. https://​doi.​org/​10.​1016/j.​asr.​2007.​02.​040 (2007).
+	82.	 Nedukha, O., Kordyum, E. & Vorobyova, T. Sensitivity of plant plasma membrane to simulated microgravity. Microgravity Sci. 
+Technol. 33, 1. https://​doi.​org/​10.​1007/​s12217-​020-​09865-1 (2021).
+Acknowledgements
+This work was supported by the National Aeronautics and Space Administration grants NNX10AP91G, 
+NNH18ZHA004C, and 80NSSC17K0344 to KHH. The authors are grateful for the help of KSC personnel, 
+especially Allison Caron, Ralph Fritsche, Howard Levine, Carole Miller, Bradley Burns and Dave Reed. We also 
+acknowledge the assistance of Allison Mjoen, Carlos Gill, George Guerra, James Smodell.
+Author contributions
+K.H.H. received funding, designed the experiment, analyzed the data, and wrote the paper. M.R.P. performed 
+qPCR work, S.P.J. and C.A. performed microscopy and measured amyloplast size. All authors reviewed the text.
+Competing interests 
+The authors declare no competing interests.
+Additional information
+Supplementary Information The online version contains supplementary material available at https://​doi.​org/​
+10.​1038/​s41598-​022-​22691-2.
+Correspondence and requests for materials should be addressed to K.H.H.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+
+13
+Vol.:(0123456789)
+Scientific Reports |        (2022) 12:18256  | 
+https://doi.org/10.1038/s41598-022-22691-2
+www.nature.com/scientificreports/
+Open Access   This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+© The Author(s) 2022

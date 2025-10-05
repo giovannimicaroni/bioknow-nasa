@@ -1,0 +1,834 @@
+BRIEF COMMUNICATION
+OPEN
+Evidence for increased thermogenesis in female C57BL/6J mice
+housed aboard the international space station
+Carmen P. Wong1, Urszula T. Iwaniec1,2 and Russell T. Turner
+1,2✉
+Sixteen-week-old female C57BL/6J mice were sacriﬁced aboard the International Space Station after 37 days of ﬂight (RR-1 mission)
+and frozen carcasses returned to Earth. RNA was isolated from interscapular brown adipose tissue (BAT) and gonadal white adipose
+tissue (WAT). Spaceﬂight resulted in differential expression of genes in BAT consistent with increased non-shivering thermogenesis
+and differential expression of genes in WAT consistent with increased glucose uptake and metabolism, adipogenesis, and
+β-oxidation.
+npj Microgravity  (2021) 7:23 ; https://doi.org/10.1038/s41526-021-00150-y
+Mice are facultative daily heterotherms and, in contrast to humans
+who maintain a near constant core body temperature over a wide
+range of environmental temperatures, mice can experience
+dramatic transient reductions in core temperature (torpor) when
+exposed to temperatures below thermoneutral1,2. Because of their
+small mass, mice are much more dependent on shivering and
+non-shivering thermogenesis for maintaining core body tempera-
+ture than larger animals3.
+The
+recommended
+temperature
+for
+housing
+mice
+in
+a
+laboratory setting (20–26 °C) is well below their thermoneutral
+zone, which depending upon strain, sex and age typically ranges
+from 29–31 °C4. Subthermoneutral housing induces adaptive
+responses in mice to increase generation of heat5. These
+adaptations include shivering thermogenesis, non-shivering ther-
+mogenesis, thermic effect of increased food consumption and
+physical activity. Sympathetic nervous system (SNS) neurotrans-
+mitters (norepinephrine and epinephrine) and the adipokine
+leptin
+are
+key
+factors
+involved
+in
+regulation
+of
+adaptive
+thermogenesis6,7. Subthermoneutral-housed mice use a variety
+of physiological and behavioral strategies to decrease their
+requirements for adaptive thermogenesis. These include entering
+torpor to lower core body temperature, and nest building,
+huddling and postural changes to minimize heat loss when
+exposed to a cool environment8,9.
+The physiological demands required for successful adaptation
+to subthermoneutral housing by mice are considerable; for
+example, female mice housed at room temperature (22 °C)
+consumed 40% more food to achieve comparable weight gain
+and expressed 5-fold higher Ucp1 gene expression in BAT (non-
+shivering thermogenesis) compared to thermoneutral-housed
+(32 °C) mice10. UCP-1 protein uncouples oxidative phosphorylation
+to produce heat instead of ATP. Extensive research supports the
+conclusion that by increasing UCP-1 protein levels, sympathetic
+signaling-driven non-shivering thermogenesis plays an important
+role in cold-induced thermoregulation in mice.
+We hypothesize that spaceﬂight reduces the ability of mice to
+employ some of the strategies used to minimize adaptive
+thermogenesis, such as huddling and postural adjustments,
+resulting in an increased dependence on adaptive thermogenesis
+to maintain core body temperature. Group housing attenuates the
+increase in non-shivering thermogenesis in BAT in mice exposed
+to a cool environment11 but it is plausible that another aspect of
+the spaceﬂight environment increases sympathetic signaling, an
+important positive regulator of thermogenesis. Whatever the
+precise
+mechanism,
+increased
+thermogenesis
+is
+important
+because
+it
+inﬂuences
+multiple
+physiological
+processes12–15.
+Collateral changes associated with increased thermogenesis
+include cancellous bone loss, immune suppression, increases in
+glucocorticoid production, increases in blood pressure and heart
+rate,
+and
+altered
+tumor
+and
+tissue
+response
+to
+ionizing
+radiation16–18. Mechanistically, at least some of these responses
+are mediated by increased sympathetic outﬂow14,19,20.
+Thus, activation of adaptive thermogenesis in mice housed in
+microgravity may introduce unrecognized and uncontrolled for
+confounding variables into spaceﬂight studies. We tested the
+hypothesis that nonshivering thermogenesis is increased in mice
+during spaceﬂight by measuring the effect of spaceﬂight on
+expression of genes related to energy metabolism in BAT and
+WAT in female C57BL/6J (B6) mice. In contrast to most prior
+spaceﬂight studies where ﬂight animals were returned to Earth,
+the animals in this experiment (RR-1) were sacriﬁced aboard the
+International Space Station (ISS), avoiding the inﬂuence of
+restoration of normal gravitational loading.
+Temperatures during the spaceﬂight mission ranged from a low
+of 21.3 °C to a high of 28.0 °C. The average housing temperatures
+within the Habitats enclosing the mice aboard ISS were 26.0 °C
+and 26.4 °C for ﬂight and ground control animals, respectively.
+These housing temperatures, while above temperatures com-
+monly used to house mice, are below thermoneutral for this
+species. Weight gain did not differ, but activity levels were higher
+in the ﬂight animals, as was food and water depletion21, ﬁndings
+consistent with increased adaptive thermogenesis.
+The effect of the spaceﬂight environment on differential
+expression of genes related to energy metabolism in BAT in ﬂight
+animals is shown in Table 1. Transcript abundance of 13/84 genes
+were signiﬁcantly altered in ﬂight animals compared to ground
+controls. In particular, mice housed aboard ISS had 1.5x higher
+levels of Ucp-1 in BAT, providing direct evidence for elevated non-
+shivering thermogenesis. Several genes associated with adipogen-
+esis and/or thermogenesis, including Adipoq, Ppargc1a, Cdkn1a22,
+and Cfd were differentially expressed in BAT during spaceﬂight23.
+However, these changes may reﬂect adaptation to long duration
+1Skeletal Biology Laboratory, School of Biological and Population Health Sciences, Oregon State University, Corvallis, OR, USA. 2Center for Healthy Aging Research, Oregon State
+University, Corvallis, OR, USA. ✉email: russell.turner@oregonstate.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+Table 1.
+Gene array showing fold changes for differentially expressed
+genes in interscapular brown adipose tissue (BAT) in mice sacriﬁced
+aboard the International Space Station after 37 days of ﬂight (RR-1
+mission) compared to ground controls.
+Space ﬂight vs. ground control
+Symbol
+Fold change
+P<
+Symbol
+Fold change
+P<
+Acacb
+−1.2
+0.350
+Klf4
+−1.3
+0.443
+Adig
+−1.1
+0.599
+Lep
+−1.1
+0.603
+Adipoq
+−1.4
+0.030
+Lipe
+−1.1
+0.347
+Adrb2
+−1.1
+0.703
+Lmna
+−1
+0.909
+Agt
+−1
+0.919
+Lpl
+−1
+0.988
+Angpt2
+−1.1
+0.695
+Lrp5
+−1
+0.715
+Axin1 b
+−1.2
+0.101
+Mapk14
+−1
+0.776
+Bmp2 a
+−1.2
+0.160
+Ncoa2
+−1.1
+0.182
+Bmp4 b
+1.2
+0.296
+Ncor2
+1.2
+0.195
+Bmp7
+1.1
+0.412
+Nr0b2
+−1.3
+0.229
+Ccnd1
+−1
+0.983
+Nr1h3
+1.1
+0.334
+Cdk4
+−1.5
+0.003
+Nrf1
+−1.4
+0.029
+Cdkn1a
+2.4
+0.002
+Ppara
+−1.7
+0.073
+Cdkn1b
+1.1
+0.350
+Ppard
+−1.5
+0.064
+Cebpa
+−1.1
+0.261
+Pparg
+1
+0.786
+Cebpb
+1
+0.911
+Ppargc1a
+−2
+0.004
+Cebpd
+1.2
+0.368
+Ppargc1b
+1.2
+0.194
+Cfd
+2.2
+0.007
+Prdm16
+−1
+0.773
+Creb1
+−1.1
+0.168
+Rb1
+−1
+0.863
+Ddit3
+1.2
+0.223
+Retn
+−1.4
+0.066
+Dio2 b
+−1.2
+0.507
+Runx1t1
+−1.3
+0.081
+Dkk1
+1.4
+0.509
+Rxra a
+−1
+0.528
+Dlk1
+1.2
+0.411
+Sfrp1
+1.3
+0.156
+E2f1
+−1.5
+0.108
+Sfrp5 b
+1.3
+0.347
+Egr2
+−1.6
+0.118
+Shh
+−1.4
+0.186
+Fabp4
+−1
+0.727
+Sirt1
+−1.1
+0.441
+Fasn
+−1.1
+0.715
+Sirt2
+−1
+0.565
+Fgf1 b
+1.6
+0.021
+Sirt3
+−1.2
+0.123
+Fgf10
+−1.3
+0.191
+Slc2a4 a
+1.1
+0.639
+Fgf2
+1.5
+0.050
+Src
+1
+0.665
+Foxc2
+−1.8
+0.079
+Srebf1
+1.2
+0.215
+Foxo1
+1
+0.760
+Taz
+−1.3
+0.004
+Gata2
+−1.2
+0.139
+Tcf7l2
+1.3
+0.036
+Gata3
+−1.3
+0.609
+Tsc22d3
+1.2
+0.048
+Hes1
+1.1
+0.609
+Twist1
+−1.1
+0.446
+Insr
+−1
+0.524
+Ucp1
+1.5
+0.021
+Irs1
+−1.5
+0.051
+Vdr b
+−1.2
+0.098
+Irs2
+−2
+0.019
+Wnt1 b
+−1.3
+0.351
+Jun
+−1.5
+0.114
+Wnt10b b
+−1.3
+0.147
+Klf15
+−1.1
+0.598
+Wnt3a
+−1.5
+0.107
+Klf2
+−1.2
+0.159
+Wnt5a
+1
+0.944
+Klf3
+−1.2
+0.063
+Wnt5b
+1.3
+0.290
+aThis gene’s average relative expression is low in control (Ct > 30) and
+reasonable in ﬂight sample (Ct < 30).
+bThis gene’s relative expression level is low in both control and ﬂight
+samples (Ct > 30).
+Table 2.
+Gene array showing fold changes for differentially expressed
+genes in gonadal white adipose tissue (WAT) in mice sacriﬁced aboard
+the International Space Station after 37 days of ﬂight (RR-1 mission)
+compared to ground controls.
+Space ﬂight vs. ground control
+Symbol
+Fold change
+P<
+Symbol
+Fold change
+P<
+Acacb
+4
+0.001
+Klf4
+1.1
+0.291
+Adig
+1.4
+0.014
+Lep
+−1.4
+0.662
+Adipoq
+−1.1
+0.414
+Lipe
+1
+0.932
+Adrb2 a
+1.5
+0.107
+Lmna
+1.3
+0.042
+Agt
+1.1
+0.635
+Lpl
+−1.2
+0.145
+Angpt2
+−1.5
+0.102
+Lrp5
+1.1
+0.518
+Axin1
+1.5
+0.117
+Mapk14
+1.7
+0.002
+Bmp2
+2.9
+0.020
+Ncoa2
+1.3
+0.102
+Bmp4 a
+−1.2
+0.945
+Ncor2
+1.3
+0.480
+Bmp7
+3.5
+0.030
+Nr0b2
+2.4
+0.048
+Ccnd1
+1.8
+0.008
+Nr1h3
+1.5
+0.001
+Cdk4
+1.2
+0.212
+Nrf1
+2.1
+0.046
+Cdkn1a
+3
+0.001
+Ppara a
+1.7
+0.121
+Cdkn1b
+1.3
+0.104
+Ppard a
+2
+0.003
+Cebpa
+1
+0.708
+Pparg
+1.3
+0.031
+Cebpb
+2.2
+0.003
+Ppargc1a
+2.1
+0.098
+Cebpd
+1.3
+0.193
+Ppargc1b
+2.4
+0.003
+Cfd
+2.3
+0.002
+Prdm16
+2.2
+0.063
+Creb1
+1.8
+0.003
+Rb1
+1.1
+0.095
+Ddit3
+1.3
+0.102
+Retn
+1.6
+0.046
+Dio2
+5.5
+0.042
+Runx1t1 a
+3.2
+0.009
+Dkk1 b
+3.5
+0.108
+Rxra
+1.6
+0.067
+Dlk1 b
+2.8
+0.077
+Sfrp1 a
+−1
+0.957
+E2f1
+1.7
+0.106
+Sfrp5 a
+1.3
+0.709
+Egr2 b
+1.8
+0.194
+Shh
+5
+0.014
+Fabp4
+1.2
+0.094
+Sirt1
+1.5
+0.072
+Fasn
+2.5
+0.009
+Sirt2
+1.2
+0.049
+Fgf1
+1.3
+0.840
+Sirt3
+2
+0.033
+Fgf10
+1.1
+0.516
+Slc2a4
+2.2
+0.002
+Fgf2
+−1.1
+0.872
+Src a
+2.2
+0.018
+Foxc2 b
+2
+0.102
+Srebf1
+2.5
+<0.001
+Foxo1
+1.3
+0.040
+Taz
+1.5
+0.051
+Gata2
+2.4
+0.064
+Tcf7l2
+1.6
+0.007
+Gata3
+4.5
+0.079
+Tsc22d3
+−1
+0.726
+Hes1 a
+2.7
+0.102
+Twist1
+1.6
+0.022
+Insr
+1.3
+0.089
+Ucp1 a
+29.3
+0.122
+Irs1
+1
+0.881
+Vdr b
+3
+0.145
+Irs2
+−1.3
+0.400
+Wnt1 b
+2.9
+0.080
+Jun
+−1.6
+0.132
+Wnt10b b
+4.1
+0.210
+Klf15
+−1.2
+0.329
+Wnt3a b
+4.2
+0.075
+Klf2
+−1.2
+0.186
+Wnt5a
+1.9
+0.052
+Klf3
+1.1
+0.752
+Wnt5b b
+2.2
+0.112
+aThis gene’s average relative expression is low in control (Ct < 30) and
+reasonable in ﬂight sample (Ct < 30).
+bThis gene’s relative expression level is low in both control and ﬂight
+samples (Ct > 30).
+C.P. Wong et al.
+2
+npj Microgravity (2021)  23 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+spaceﬂight. Regardless of the mechanisms for initiation, increased
+Ucp1-mediated thermogenesis in BAT may have had a major
+impact on adipose tissue turnover in WAT (Table 2). Transcript
+abundance of 30/84 genes were signiﬁcantly altered in ﬂight
+animals compared to ground controls. Notable changes, including
+higher expression levels for (1) Acacb (Acetyl-CoA carboxylase), a
+key gene in regulation of fatty acid oxidation, (2) Dio2 (Type II
+iodothyronine deiodinase), a key regulator of thyroid hormone
+action, (3) Sic2a4 (Glut 4), an insulin-regulated glucose transporter,
+and (4) Fasn (fatty acid synthase) which catalyzes the synthesis of
+palmitate, were observed in WAT of ﬂight animals. There was also
+evidence for induction of Ucp-1; expression level for this gene was
+very low (Ct > 30) in ground control mice and consistently
+detected in ﬂight mice (Ct < 30), suggesting browning of WAT24.
+We conclude from these ﬁndings that, in spite of comparable
+housing temperatures, adaptive thermogenesis is increased in BAT
+of mice housed aboard the ISS compared to ground controls. This
+is important because increased thermogenesis may exaggerate
+(e.g., bone loss) or alter (e.g., response to ionizing radiation)
+physiological responses to spaceﬂight in mice. Because of species
+speciﬁc differences in thermoregulation, this could impact the
+translatability of the animal studies to astronauts.
+METHODS
+Spaceﬂight study
+Details of the spaceﬂight mission are published25. Animal protocol was
+reviewed and approved by the NASA Institutional Animal Care and Use
+Committee prior to the conduct of experiments. In brief, 16-week-old
+female B6 mice were sacriﬁced aboard the ISS after 37 days of ﬂight and
+frozen carcasses were returned to Earth for tissue preparation and method
+validation as described21. Sensors in the Habitats (ﬂight and ground)
+monitored and relayed information including component temperature and
+humidity. The data were logged at sampling rate of 1 Hz. Ground control
+mice were sacriﬁced and processed using the same timelines and
+protocols as the ﬂight animals.
+Gene expression study
+RNA was isolated from individual BAT (n = 8/group) and WAT (n = 6/
+group) samples. RNA integrity number (RIN) was assessed using an Agilent
+Bioanalyzer (Santa Clara, CA, USA). A RIN value of 5 and above is required
+to ensure reliable quantiﬁcation of gene expression by RT-qPCR26,27. The
+RIN numbers (mean ± SE, n = 6/group) for RNA isolated from BAT from
+ﬂight and ground control animals were 6.55 ± 0.47, and 7.42 ± 0.46,
+respectively. Thus RNA from both groups of animals were of good quality.
+mRNA was reverse transcribed into cDNA using SuperScript III First-Strand
+Synthesis SuperMix for qRT-PCR (ThermoFisher Scientiﬁc). Expression levels
+for genes related to adipogenesis was determined for BAT and WAT using
+the Mouse Adipogenesis RT2 Proﬁler PCR Array (Qiagen). Gene expression
+was normalized using GusB and ActB housekeeping genes, and relative
+quantiﬁcation (ΔΔ Ct method) was determined using RT2 Proﬁler PCR Array
+Data Analysis software (Qiagen).
+Reporting summary
+Further information on research design is available in the Nature Research
+Reporting Summary linked to this article.
+DATA AVAILABILITY
+Data are available in Supplemental Table 1 for BAT PCR array and Supplemental Table
+2 for WAT PCR array.
+Received: 18 November 2020; Accepted: 12 May 2021;
+REFERENCES
+1. Swoap, S. J. & Gutilla, M. J. Cardiovascular changes during daily torpor in the
+laboratory mouse. Am. J. Physiol. Regul. Integr. Comp. Physiol. 297, R769–774
+(2009).
+2. Brown, R. T. & Baust, J. G. Time course of peripheral heterothermy in a home-
+otherm. Am. J. Physiol. 239, R126–129 (1980).
+3. Tracy, C. R. Minimum size of mammalian homeotherms: role of the thermal
+environment. Science 198, 1034–1035 (1977).
+4. Ganeshan, K. & Chawla, A. Warming the mouse to model human diseases. Nat.
+Rev. Endocrinol. 13, 458–465 (2017).
+5. Golozoubova, V. et al. Only UCP1 can mediate adaptive nonshivering thermo-
+genesis in the cold. FASEB J. 15, 2048–2050 (2001).
+6. Gavrilova, O. et al. Torpor in mice is induced by both leptin-dependent and
+-independent mechanisms. Proc. Natl Acad. Sci. USA 96, 14623–14628 (1999).
+7. Swoap, S. J. & Weinshenker, D. Norepinephrine controls both torpor initiation and
+emergence via distinct mechanisms in the mouse. PLoS ONE 3, e4038 (2008).
+8. Barnett, S. A. Adaptation of mice to cold. Biol. Rev. Camb. Philos. Soc. 40, 5–51
+(1965).
+9. Hankenson, F. C., Marx, J. O., Gordon, C. J. & David, J. M. Effects of rodent ther-
+moregulation on animal models in the research environment. Comp. Med. 68,
+425–438 (2018).
+10. Iwaniec, U. T. et al. Room temperature housing results in premature cancellous
+bone loss in growing female mice: implications for the mouse as a preclinical
+model for age-related bone loss. Osteoporos. Int. 27, 3091–3101 (2016).
+11. Maher, R. L., Barbash, S. M., Lynch, D. V. & Swoap, S. J. Group housing and nest
+building only slightly ameliorate the cold stress of typical housing in female
+C57BL/6J mice. Am. J. Physiol. Regul. Integr. Comp. Physiol. 308, R1070–1079
+(2015).
+12. Clapham, J. C. Central control of thermogenesis. Neuropharmacology 63, 111–123
+(2012).
+13. Gordon, C. J. The mouse thermoregulatory system: Its impact on translating
+biomedical data to humans. Physiol. Behav. 179, 55–66 (2017).
+14. Turner, R. T. et al. Effects of propranolol on bone, white adipose tissue, and bone
+marrow adipose tissue in mice housed at room temperature or thermoneutral
+temperature. Front. Endocrinol. 11, 117 (2020).
+15. Yang, X. & Ruan, H. B. Neuronal control of adaptive thermogenesis. Front.
+Endocrinol. 6, 149 (2015).
+16. Fischer, A. W., Cannon, B. & Nedergaard, J. Optimal housing temperatures for
+mice to mimic the thermal environment of humans: an experimental study. Mol.
+Metab. 7, 161–170 (2018).
+17. Hylander, B. L. & Repasky, E. A. Thermoneutrality, mice, and cancer: a heated
+opinion. Trends Cancer 2, 166–175 (2016).
+18. Martin, S. A. et al. Thermoneutral housing attenuates premature cancellous bone
+loss in male C57BL/6J mice. Endocr. Connect 8, 1455–1467 (2019).
+19. Hylander, B. L., Eng, J. W. & Repasky, E. A. The impact of housing temperature-
+induced chronic stress on preclinical mouse tumor models and therapeutic
+responses: An important role for the nervous system. Adv. Exp. Med Biol. 1036,
+173–189 (2017).
+20. Povinelli, B. J. et al. Standard sub-thermoneutral caging temperature inﬂuences
+radiosensitivity of hematopoietic stem and progenitor cells. PLoS ONE 10,
+e0120078 (2015).
+21. Choi, S. Y. et al. Validation of a new rodent experimental system to investigate
+consequences of long duration space habitation. Sci. Rep. 10, 2336 (2020).
+22. Krstic, J., Reinisch, I., Schupp, M., Schulz, T. J. & Prokesch, A. p53 functions in
+adipose tissue metabolism and homeostasis. Int. J. Mol. Sci. 19, 2622 (2018).
+23. Qiao, L. et al. Adiponectin reduces thermogenesis by inhibiting brown adipose
+tissue activation in mice. Diabetologia 57, 1027–1036 (2014).
+24. Collins, S. beta-Adrenoceptor signaling networks in adipocytes for recruiting
+stored fat and energy expenditure. Front Endocrinol. (Lausanne) 2, 102 (2011).
+25. Ronca, A. E. et al. Behavior of mice aboard the International Space Station. Sci.
+Rep. 9, 4717 (2019).
+26. Padhi, B. K., Singh, M., Rosales, M., Pelletier, G. & Cakmak, S. A PCR-based
+quantitative assay for the evaluation of mRNA integrity in rat samples. Biomol.
+Detect Quantif. 15, 18–23 (2018).
+27. Fleige, S. & Pfafﬂ, M. W. RNA integrity and the effect on the real-time qRT-PCR
+performance. Mol. Asp. Med 27, 126–139 (2006).
+ACKNOWLEDGEMENTS
+This work was supported by NASA (80NSSC19K0430 and NNX15AL15G).
+C.P. Wong et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2021)  23 
+
+AUTHOR CONTRIBUTIONS
+C.P.W.: conceptualization, investigation, analysis, writing—review & editing. U.T.I.:
+conceptualization, writing—review & editing. R.T.T.: conceptualization, funding
+acquisition, writing—original draft preparation, review & editing.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-021-00150-y.
+Correspondence and requests for materials should be addressed to R.T.T.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2021
+C.P. Wong et al.
+4
+npj Microgravity (2021)  23 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

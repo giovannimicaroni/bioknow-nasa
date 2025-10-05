@@ -1,0 +1,749 @@
+Contents lists available at ScienceDirect
+Bone Reports
+journal homepage: www.elsevier.com/locate/bonr
+High-precision method for cyclic loading of small-animal vertebrae to assess
+bone quality
+Megan M. Pendletona, Saghi Sadoughia, Alfred Lib, Grace D. O'Connella,c, Joshua S. Alwoodd,
+Tony M. Keavenya,e,⁎
+a Department of Mechanical Engineering, University of California, Berkeley, CA, USA
+b Endocrine Research Unit, University of California and Veteran Aﬀairs Medical Center, San Francisco, CA, USA
+c Department of Orthopaedic Surgery, University of California, San Francisco, CA, USA
+d Space Biosciences Division, NASA Ames Research Center, Moﬀett Field, CA, USA
+e Department of Bioengineering, University of California, Berkeley, CA, USA
+A R T I C L E I N F O
+Keywords:
+Fatigue
+Bone mechanics
+Mouse
+Vertebrae
+Bone quality
+A B S T R A C T
+One potentially important bone quality characteristic is the response of bone to cyclic (repetitive) mechanical
+loading. In small animals, such as in rats and mice, cyclic loading experiments are particularly challenging to
+perform in a precise manner due to the small size of the bones and diﬃcult-to-eliminate machine compliance.
+Addressing this issue, we developed a precise method for ex vivo cyclic compressive loading of isolated mouse
+vertebral bodies. The method has three key characteristics: 3D-printed support jigs for machining plano-parallel
+surfaces of the tiny vertebrae; pivotable loading platens to ensure uniform contact and loading of specimen
+surfaces; and specimen-speciﬁc micro-CT-based ﬁnite element analysis to measure stiﬀness to prescribe force
+levels that produce the same speciﬁed level of strain for all test specimens. To demonstrate utility, we measured
+fatigue life for three groups (n = 5–6 per group) of L5 vertebrae of C57BL/6J male mice, comparing our new
+method against two methods commonly used in the literature. We found reduced scatter of the mechanical
+behavior for this new method compared to the literature methods. In particular, for a controlled level of strain,
+the standard deviation of the measured fatigue life was up to 5-fold lower for the new method (F-ratio = 4.9;
+p < 0.01). The improved precision for this new method for biomechanical testing of small-animal vertebrae
+may help elucidate aspects of bone quality.
+1. Introduction
+A number of diseases, including osteoporosis (Bouxsein, 2003a;
+Saito and Marumo, 2010) and type II diabetes (Janghorbani et al.,
+2007; Vestergaard, 2007; Farr and Khosla, 2016; Rubin and Patsch,
+2016), are thought to increase fracture risk due in part to deteriorated
+bone quality. That is, these diseases may result in detrimental changes
+to mechanical behavior that are not directly associated with reductions
+in bone mass (Hernandez and Keaveny, 2006). Concerns over possible
+changes in bone quality have also caused the FDA to require extensive
+pre-clinical animal testing on any new treatments (Mosekilde, 1995;
+Ominsky et al., 2011). In assessing bone quality, various mechanical
+properties can be measured (Hernandez and Keaveny, 2006; Turner and
+Burr, 1993; Fyhrie and Christiansen, 2015), typically stiﬀness, strength,
+toughness, and ductility. All these properties are obtained from
+monotonic loading. In addition, the response of bone to cyclic
+(repetitive) loading may be important for bone quality assessment if
+such loading produces unique failure mechanisms (e.g. slow crack
+growth, microdamage accumulation) that are not manifested in
+monotonic loading (Kruzic and Ritchie, 2008; Nalla et al., 2003). Bio-
+mechanical testing of any type is challenging to perform in a precise
+manner in small animals, such as in rats and mice, due to the small size
+of the bones and the inevitable machine-compliance eﬀects that are
+diﬃcult to eliminate. Furthermore, for cyclic loading, loss of test spe-
+cimens during the experiment and the substantial variation in cyclic-
+loading responses both serve to reduce statistical power (Brouwers
+et al., 2009), which in turn can lead to inconclusive ﬁndings regarding
+the role of bone quality.
+As a result of these challenges, and because of the continuing in-
+terest in bone quality (Bouxsein, 2003b; Seeman and Delmas, 2006),
+there remains a need to reﬁne the experimental protocols for bio-
+mechanical testing of small-animal bone specimens, particularly for
+https://doi.org/10.1016/j.bonr.2018.10.002
+Received 9 October 2018; Accepted 17 October 2018
+⁎ Corresponding author at: 5124 Etcheverry Hall, Mailstop 1740, University of California, Berkeley, CA 94720-1740, USA.
+E-mail address: tonykeaveny@berkeley.edu (T.M. Keaveny).
+Bone Reports 9 (2018) 165–172
+Available online 27 October 2018
+2352-1872/ © 2018 Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+T
+
+cyclic loading. Here, we report on a method for cyclic biomechanical
+testing of the mouse lumbar vertebra ex vivo that has improved pre-
+cision. This technique should help optimize statistical power in animal
+experiments, thus improving the ability of researchers to detect me-
+chanically relevant changes in bone quality due to aging, disease, or
+treatment, particularly for any situation in which samples sizes are
+limited in number.
+2. Materials and methods
+We ﬁrst present our new method in detail. Then, to demonstrate
+utility, we describe results from cyclic testing experiments for three
+groups (n = 5–6 per group) of L5 mouse vertebrae, comparing results
+for our new method (referred to as “KFEA method”) against two existing
+methods from the literature (referred to as “KEXP method” and “FMAX
+method”) (Brouwers et al., 2009; Caler and Carter, 1989; Bowman
+et al., 1998; Haddock et al., 2004; Lambers et al., 2013; McCubbrey
+et al., 1995).
+2.1. Animals
+Our experiments used L5 vertebrae obtained post-mortem from
+male C57BL/6J mice (Jackson Labs, Sacramento, CA) that were in the
+control groups of various previous studies (unpublished). All original
+studies, and this study, were approved by NASA Ames Research Center
+(ARC) Animal Care & Use Committee, and all experimental testing was
+conducted at NASA ARC. Ages of the mice ranged from 15 to 18 weeks.
+After sacriﬁce, the L1-S1 spinal segment was excised from the mouse
+with a scalpel via an anterior approach. The L5 vertebra was then se-
+parated by slicing through the adjacent intervertebral discs, gently
+cleaned of soft tissue, wrapped in saline-soaked gauze (Gibco PBS 1X,
+pH 7.4), and stored at −20 °C until specimen preparation.
+2.2. Specimen preparation
+Obtaining true plano-parallel surfaces, which is diﬃcult for such
+small specimens (Brouwers et al., 2009), is important to ensure full
+contact — and thus uniform compression — between the specimen
+surface and loading platens. If plano-parallel surfaces are not achieved,
+or if the loading platens are not perfectly parallel, local contact can
+occur over just part of the specimen surface. This introduces unwanted
+scatter in the mechanical response and perhaps also premature failure.
+Thus, we developed a detailed method for this aspect of the specimen
+preparation (Fig. 1). Each vertebra was aligned inside a 3D-printed
+(Stratasys Dimension SST 1200es, Eden Prairie, MN), disposable jig
+with a metal pin (diameter range 0.91 to 0.99 mm; length of 38 mm)
+(Fig. 1A) and secured with polymethyl methacrylate (PMMA). The
+combined jig-bone construct was then positioned in a diamond-saw
+microtome (Leica SP1600 Saw Microtome, Wetzlar, Germany). Two
+parallel cuts were made on the cranial and caudal surfaces under con-
+stant irrigation to remove only the endplates (Fig. 1B), preserving the
+maximum amount of bone tissue. A ﬁnal cut through the posterior
+pedicles released the vertebral body from the jig (Fig. 1C).
+2.3. Quantitative micro-CT imaging
+After machining, specimens were imaged using quantitative micro-
+CT (μCT 50, Scanco Medical AG, Bruttisellen, Switzerland) at a 10-μm
+voxel size (55 kV, 109 μA, 1000 projections per 180°, 500 ms integra-
+tion time) (Fig. 2). Specimens were returned to the freezer after ima-
+ging. The micro-CT images of the whole specimen (cortical and trabe-
+cular compartments) were then analyzed for height, minimum tissue
+cross-sectional area (minimum value of tissue area at any cross-section,
+over all cross-sections), and total bone volume fraction (BV/TV) (Im-
+ageJ 1.51h, Java 1.6.0). Each specimen with cortices removed was then
+evaluated
+for
+trabecular
+micro-architecture
+(Scanco
+Evaluation
+Software v6.0): trabecular bone volume fraction (Tb.BV/TV), number
+(Tb.N), thickness (Tb.Th), and separation (Tb.Sp).
+2.4. Calculating specimen-speciﬁc cyclic forces
+We used a force-control loading protocol, which allows both creep
+and damage to occur during cyclic loading. However, since the cyclic
+loading response of bone appears to be determined by the magnitude of
+the applied strain (as opposed to the magnitude of stress) (Nalla et al.,
+2003; Keaveny et al., 1994a; Keaveny et al., 1994b), our protocol re-
+quired us to calculate a specimen-speciﬁc level of applied force that
+would result in the same level of initial apparent strain (calculated over
+the entire specimen) for all specimens. Cyclic loading in force control in
+this way should minimize scatter in the resulting fatigue life despite the
+heterogeneity in size, shape, and microarchitecture of the mouse ver-
+tebrae.
+This protocol required measuring the overall vertebral stiﬀness
+before starting the cyclic loading so that the prescribed apparent strains
+(εmin and εmax) could be converted into specimen-speciﬁc levels of ap-
+plied force (Fmin and Fmax). However, experimentally measuring stiﬀ-
+ness for any bone is challenging due to diﬀerent types of machine
+compliance errors, which can introduce both ﬁxed and random errors
+(Odgaard et al., 1989; Odgaard and Linde, 1991; Keaveny et al., 1993;
+Keaveny et al., 1997). The ﬁxed errors have implications for external
+validity, but otherwise do not compromise comparisons within any
+given experiment and are therefore oftentimes acceptable. However,
+large random errors compromise statistical power, particularly when
+sample sizes are < 10 per group. Thus, to circumvent any errors asso-
+ciated with machine compliance, we used a computationally derived
+stiﬀness (KFEA) that was obtained from specimen-speciﬁc, micro-CT-
+based, linearly elastic, voxel-based ﬁnite element analysis. The models
+used 10-μm sized cube voxels, and assumed a nominal value of 10 GPa
+for the tissue-level (voxel) elastic modulus for all specimens (see
+Appendix A for details). The specimen-speciﬁc cyclic forces (Fmin; Eq. 1
+and Fmax; Eq. 2) were then calculated for each specimen using KFEA, the
+specimen height (H) as measured from micro-CT, and two assumed
+nominal values of initial apparent elastic strain (εmin = 0.05% and
+εmax = 0.5%):
+=
+F
+K
+Hε
+min
+FEA
+min
+(1)
+=
+F
+K
+Hε
+max
+FEA
+max
+(2)
+The assumed value of εmax = 0.5% was chosen empirically by trial
+and error based on earlier preliminary experiments on 6 mouse ver-
+tebral specimens. There, we found that the resulting Fmax value was
+approximately half of the directly measured ultimate force, which
+generally placed a specimen in the middle region of its fatigue life. The
+minimum initial elastic apparent strain value was chosen such that the
+resulting Fmin values were near 1 N.
+2.5. Mechanical testing
+Within one week after imaging, specimens were thawed again to
+room temperature and prepared for cyclic loading in uniaxial com-
+pression to failure. The vertebral body was positioned onto the center of
+the lower platen of the material testing device (TA ElectroForce 3200,
+Eden Prairie, MN). Because obtaining perfectly parallel loading platens
+can be challenging, the upper platen comprised a spherically-seated
+platen on a lubricated ball-bearing which allows the platen surface to
+rotate and mate ﬂush with the sample surface to achieve uniform
+contact (Fig. 3); with the pre-load in place, the set screws on the upper
+platen are locked. We used a compressive pre-load of 1 N, and after the
+platen was locked room-temperature saline-solution (Gibco PBS 1X,
+pH 7.4) was added to the bath until the specimen was fully submerged.
+The pre-load was then adjusted to the predetermined Fmin, and then
+sinusoidal cycles of compression between Fmin and Fmax were applied at
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+166
+
+a frequency of 8 Hz until the specimen reached 10% strain, measured
+via the actuation of the testing device platens.
+2.6. Outcome measurements
+Three plots were produced from each specimen fatigue test to deﬁne
+outcome measurements. First, the force-displacement data were plotted
+for each loading-unloading cycle, from which stiﬀness was deﬁned as
+the secant stiﬀness, or range of force divided by range of displacement
+per cycle (Fig. 4A). Second, the apparent strain per cycle was plotted,
+and was separated into three curves representing total strain, creep
+strain, and damage strain (Fig. 4B). The total-strain curve was used to
+ﬁnd the number of cycles to failure, or fatigue life (Nf) and strain to
+failure (εf) using the point of intersection between the curve and a 0.5%
+line oﬀset parallel to a line of best ﬁt for the secondary region
+(Brouwers et al., 2009; Bowman et al., 1998). Third, we plotted stiﬀness
+per cycle (Fig. 4C) to identify three variables: elastic stiﬀness of the
+specimen (Kelastic), stiﬀness at failure (Kf), and rate of stiﬀness de-
+gradation. Elastic stiﬀness was calculated as the average stiﬀness
+over ± 500 cycles centered about the maximum value of stiﬀness
+(Kmax), which typically occurred after a few thousand cycles of loading;
+the stiﬀness at failure was deﬁned as the stiﬀness measured at cycle Nf;
+and the rate of stiﬀness degradation (ΔK/ΔN) was calculated as the
+slope of a line that best ﬁt the middle 50% of points in the range be-
+tween Kmax and Kf. The ΔK/ΔN parameter reﬂected accumulation of
+fatigue damage, larger values indicating a more rapid accumulation of
+fatigue damage per loading cycle.
+In addition to these fatigue parameters, we also calculated an ef-
+fective elastic tissue modulus (Etissue, in GPa, Eq. 3). This was calculated
+using both the experimental (Kelastic) and computational (KFEA) assess-
+ments of stiﬀness, scaling with respect to the assumed nominal value of
+the tissue-level modulus of 10 GPa in the ﬁnite element analysis:
+⎜
+⎟
+=
+⎛
+⎝
+⎞
+⎠
+E
+K
+K
+10
+tissue
+elastic
+FEA
+(3)
+2.7. Alternative methods for calculating specimen-speciﬁc cyclic forces
+Two published methods were also implemented to demonstrate
+Fig. 1. Machining of a parallel-planed vertebral body. A: A 3D-printed, disposable, plastic jig was designed to securely grip the specimen during machining. A
+vertebra is placed into the jig using a snugly ﬁt, metal alignment pin (gold) through the vertebral foramen (pin diameter 0.9–1 mm) and sits in a diameter-matched
+channel. The spinous process is oriented into the jig's shallow well, which is then ﬁlled with PMMA (blue) to secure the vertebra. B: Once the PMMA is set, the pin is
+removed and two plano-parallel cuts (red) through the endplates are made using a diamond-saw microtome (not shown). C: A scalpel cut (red) through the pedicles
+releases the planed vertebral body. In the top, right corner an enlarged view of an L5 vertebrae and the cuts applied is shown. Readers can download the stl via the
+supplemental material online. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 2. Representative sample of a mouse vertebral body after all specimen preparation. Cranial and caudal cross-sections shown at 10-μm voxel resolution.
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+167
+
+utility of the new method. For the ﬁrst “KEXP method” (Brouwers et al.,
+2009; Caler and Carter, 1989; Bowman et al., 1998; Haddock et al.,
+2004; Lambers et al., 2013), instead of using the ﬁnite element-derived
+value of stiﬀness (KFEA), the experimental measurement KEXP was used.
+Following literature protocol, KEXP was found by pre-loading the spe-
+cimen in compression to 1 N, cycling between 1 and 10 N 20 times, and
+using the slope from the force-displacement curve of the 20th cycle. All
+other mechanical testing details were the same as for our new method
+except for two diﬀerences in the KEXP method: 1) the upper platen used
+was a rigid design (not adjustable); and 2) the cyclic frequency was
+2 Hz. However, fatigue behavior of bone has been shown to be un-
+altered for any loading frequency below 15 Hz (Laﬀerty, 1978;
+Yamamoto et al., 2006).
+For the second “FMAX method” (McCubbrey et al., 1995), Fmax was
+calculated using the measured strength of the adjacent L4 vertebra,
+obtained by monotonic compression to failure. The L5 strength was
+estimated as the product of the L4 strength and the ratio of minimum
+tissue cross-sectional areas (micro-CT) for the L4 and L5 vertebrae, and
+Fmax was then calculated as 50% of the L5 force (See Appendix B,
+Table 2 for further details). All other mechanical testing details were
+the same as our new method.
+Fig. 3. Experimental test set-up for fatigue test shown with spherically-seated upper platen and specimen after preparation.
+Fig. 4. Three plots generated from fatigue testing of a specimen. A: Force-displacement shown for three cycles as the test progresses; an early cycle, the cycle of
+maximum stiﬀness (dmax is displacement of this cycle), and the cycle deﬁned as failure (df is displacement of this cycle). B: Strain per cycle was plotted for total strain,
+creep strain, and damage strain (Haddock et al., 2004). Damage strain was only plotted from the cycle at which stiﬀness was the greatest (Nmax) and began to decline.
+Fatigue life, Nf, and strain to failure, εf, are found from the total strain curve (Bowman et al., 1998). C: Stiﬀness per cycle displaying the maximum stiﬀness, Kmax,
+from which Kelastic was calculated, and stiﬀness at failure, Kf. The rate of stiﬀness degradation is the slope of the solid red line. (For interpretation of the references to
+colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+168
+
+2.8. Statistical analysis
+The means and standard deviations of all outcome measurements
+were compared between the new method versus the two literature
+methods. To compare means, a one-way ANOVA was conducted, with a
+Tukey-Kramer post-hoc test applied to evaluate signiﬁcant diﬀerences
+(at p ≤0.05). To compare standard deviations, a Bartlett test was
+conducted. Standard deviations were considered signiﬁcantly diﬀerent
+with a F-ratio > 1.0 and p ≤0.05. Also, linear regression was used to
+compare the relationships between maximum cyclic loading force and
+log of fatigue life (equivalent to a traditional S-N fatigue curve) be-
+tween the three methods. All statistics were performed using JMP
+(v13.0, SAS Institute).
+3. Results
+Of all three methods tested, the new (KFEA) method produced the
+lowest variation in fatigue life. The mean value of the applied force was
+the same for all groups (22 N), but the standard deviation was lowest
+for the new (KFEA) method ( ± 0.77 N), 8-fold and 7-fold lower than the
+KEXP and FMAX methods (F-ratio = 5.5; p < 0.01; Fig. 5A), respectively.
+Because of these larger variations in applied force for the literature
+methods, the fatigue life displayed a negative S-N type relation with the
+loading force (R2 = 0.73 both literature methods) but there was no such
+correlation for the new method (R2 = 0.07; Fig. 6). Instead, for the new
+method the fatigue life was approximately uniform across all specimens
+(5.0 ± 0.2), and its standard deviation was 5-fold and 2-fold lower
+than for the KEXP or FMAX methods, respectively (F-ratio = 4.9;
+p = 0.008; Fig. 5A).
+The new method also provided other measurements related to bone
+quality, both of which displayed high uniformity across the specimens:
+the eﬀective tissue elastic modulus, Etissue, was 5.83 ± 0.22 GPa and
+the strain to (cyclic) failure, εf, was 3.20 ± 0.80%.
+Three additional observations were noteworthy. First, compared to
+the new method, the average fatigue life was lower for the KEXP method
+by 40.9% (p = 0.002) whereas fatigue life did not diﬀer for the FMAX
+method (p > 0.90; Fig. 5A). Second, the elastic stiﬀness measured from
+fatigue testing (Kelastic) was also lower for the KEXP method than the
+FMAX method by 42.1% (p = 0.002), and than the new method by
+44.8% (p < 0.001); stiﬀnesses for the FMAX and new methods were not
+diﬀerent (p > 0.80; Fig. 5B). And third, the standard deviation for
+stiﬀness was lowest for the new method (F-ratio = 4.53; p = 0.011;
+Fig. 5B) compared to the KEXP and FMAX method. The diﬀerence in
+stiﬀness variation between FMAX and the new method, which both used
+the spherically-seated platen, shows that large variations in stiﬀness can
+still exist even with the use of a pivotable ﬁxture, presumably due to
+variable degrees of machine compliance.
+4. Discussion
+Our new method for cyclic loading of small-animal vertebrae
+yielded highly reproducible measurements of fatigue life and was suc-
+cessful, in part, by eﬀectively controlling for the nominal level of strain
+applied to these tiny bone specimens. Failure of bone in both static and
+fatigue loading is largely thought to be strain-controlled (Nalla et al.,
+2003; Bowman et al., 1998; Keaveny et al., 2001; Keaveny et al., 1994c;
+Schileo et al., 2008). To apply a repeatable initial strain to each spe-
+cimen, a consistent measurement of stiﬀness must ﬁrst be obtained. Our
+new method utilized specimen-speciﬁc micro-CT-based ﬁnite element
+analyses to measure specimen stiﬀness and prescribe an individualized
+cyclic force for each specimen. In turn, these individualized forces re-
+sulted in a consistent starting level of strain applied to all test speci-
+mens, and resulted in similar values of fatigue life. By contrast, our
+implementations of the two literature methods were unable to con-
+sistently apply the speciﬁed starting strain value, which produced more
+scatter in the magnitude of the applied forces and an unintended S-N-
+like relationship. The reduced level of scatter in fatigue life using this
+method would be particularly helpful for studies limited to a small
+sample size, such as in vivo animal experiments, to improve detection
+in cyclic properties.
+The consistency of our strain-to-failure results with those from other
+studies supports the validity of our new approach. While the fatigue life
+will depend on the level of loading, strain-to-failure is emerging as a
+more uniform outcome across many diﬀerent cyclic loading experi-
+ments. Our strain-to-failure (mean ± SD) value of 3.20 ± 0.80%,
+from cyclic compression testing of mouse vertebrae, is consistent with
+Fig. 5. A: Specimen-speciﬁc cyclic loading force and
+number of cycles to failure, or fatigue life for each
+method. Error bars represent standard deviations.
+Standard deviation of the cyclic loading force was
+signiﬁcantly lower for the KFEA method compared to
+both other methods (p < 0.01). Standard deviation
+of the fatigue life was signiﬁcantly lower for the KFEA
+method
+compared
+to
+both
+other
+methods
+(p < 0.01). The mean value for cyclic loading force
+was the same for all methods. The mean value for
+cycles to failure for FMAX and KFEA were the same,
+however cycles to failure for KEXP was lower com-
+pared to these methods (p < 0.01). B: Average
+elastic stiﬀness, measured experimentally, of the
+vertebra for each method. Error bars represent ± 1
+standard deviation. The KEXP method stiﬀness was
+signiﬁcantly lower (p < 0.01) compared to the FMAX and KFEA methods.
+Fig. 6. Applied force versus cycles to failure for the three methods. Two dif-
+ferent F-N responses were found for the literature methods; by contrast, fatigue
+life was approximately constant for the new method. p < 0.05 for regression.
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+169
+
+cyclic compression results for other species: 3.36 ± 2.13% for human
+trabecular bone (Haddock et al., 2004), 2.85% ± 0.66% for bovine
+trabecular bone (Bowman et al., 1998), and 4.19 ± 1.52% for rat
+whole-bone vertebra (Brouwers et al., 2009). A similar value in cyclic
+compressive strain-to-failure between these studies and ours might be
+expected for two reasons. First, the bone material, primarily the col-
+lagen component which dominates the plasticity and therefore strain-
+to-failure of the bone (Burstein et al., 1975), is similar amongst the
+species listed. And second, others have reported on relatively uniform
+values for the strain-to-failure independent of apparent density, applied
+loads, or temperature (Bowman et al., 1998; Keaveny et al., 2001;
+Keaveny et al., 1994c). While the absolute value of strain to failure will
+be inﬂuenced by any machine compliance, the general level of agree-
+ment and small degree of scatter suggests that bone tissue does indeed
+fail at a narrow range of strain under cyclic loading, and that our
+protocol was successful in reducing the variation in strain across dif-
+ferent specimens.
+Our ﬁndings also indicate that implementing a pivotable loading
+platen to ensure uniform contact is important for accuracy of results, at
+least for these small-animal bones. We observed a reduced Kelastic and
+fatigue life for the KEXP method compared to the new method, even
+though the specimens used in both protocols had similar size and mi-
+croarchitecture (Appendix B; Table 1). We attribute these inconsistent
+results to the rigid platen design used in the KEXP method testing. Even
+with rigorous specimen preparation in place, we found that perfectly
+plano-parallel loading surfaces on small bones cannot always be
+achieved. And without an adjustable platen, the load can be localized to
+an area that comes into contact with the platen ﬁrst, producing an ef-
+fective stress concentration. This localized load can result in reduced
+stiﬀness and the stress concentration in reduced fatigue life.
+There are some limitations to this study. First, the bone tissue used
+in this study was shared tissue, which did not allow for random as-
+signment of animals across all groups, and thus it is possible specimens
+diﬀered across groups. However, the similarity in size and structure of
+specimen across all groups as per micro-CT analysis (Appendix B;
+Table 1) suggests the only source of appreciable heterogeneity could be
+in tissue material properties, which is unlikely because the animals
+were of the same strain, sex, and approximate age. Second, the initial
+strain values of (εmax = 0.5%) used for our new method may be speciﬁc
+to this particular protocol, which assumed an eﬀective tissue modulus
+of 10 GPa in the ﬁnite element analyses. The assumed value was chosen
+empirically by trial and error on some preliminary test specimens, such
+that the resulting Fmax values were approximately half of the directly
+measured ultimate force. To use this method in other animal models,
+large or small (e.g. rat, bovine, monkey), similar preliminary testing to
+determine the value of εmax is suggested, particularly if it is suspected
+that the eﬀective tissue modulus might diﬀer from mouse vertebrae. We
+recommend using an elastic strain level that is associated with about
+half of the ultimate strength. Third, the values of the eﬀective tissue
+elastic modulus reported here are speciﬁc to this experiment. Para-
+meters such as temperature, loading frequency, and use of diﬀerent
+platens, can all contribute to machine compliance and variation be-
+tween tests, thus the eﬀective tissue modulus should not be considered
+a true material property. Placing an extensometer across the platens
+directly beside the specimen ends can minimize machine compliance
+eﬀects. However, it is best to use the eﬀective tissue modulus as a
+relative measurement to compare between untreated and treated spe-
+cimens within an experiment, but not across studies (e.g. between
+mouse and rat bones). Lastly, as with any laboratory-based biomecha-
+nical testing, the loading conﬁguration does not mimic exact in vivo
+conditions. Our removal of the endplate and loading via a rigid platen
+versus loading via intact disc and endplate is a clear limitation. Thus,
+while our results do not describe expected in vivo behavior, our pro-
+tocol does produce highly repeatable results, which should help eluci-
+date changes in bone quality characteristics by aging, disease, or
+treatment.
+The main application of our new method is to provide greater sta-
+tistical power in using small-animal experiments to mechanically assess
+relevant aspects of bone quality associated with aging, disease, or
+treatment. A small sample size and scatter associated with the fatigue
+testing present challenges for detecting statistically signiﬁcant eﬀects
+unless those eﬀects are large. For example, Brouwers et al. (Brouwers
+et al., 2009) found a 37.5% diﬀerence in steady-state creep rate and
+15.7% diﬀerence in loss of stiﬀness with zoledronate treatment in an
+osteoporotic rat model, but could not report a detectable signiﬁcance
+due to high variation in the data and loss of some samples. Our KEXP
+method was similar to their method, which produced standard devia-
+tions in fatigue life (reported as “time-to-failure”) up to the same
+magnitude as the mean value. Our new method should reduce that
+range up to 8-fold. Furthermore, unlike in the Brouwers literature
+protocol, we had no loss of specimens, enabled by repeatable specimen
+preparation (e.g. 3D-printed support jigs for machining plano-parallel
+surfaces) and uniform loading of specimen surfaces (e.g. spherically-
+seated platen), which further improves statistical power, and can be
+implemented for monotonic testing or fatigue testing of small-animal
+vertebrae. That said, our new method is a time intensive process for
+specimen preparation, micro-CT, image processing, and ﬁnite element
+analysis. However, the extra eﬀort improves the ability to detect small
+diﬀerences across treatment groups without using a large number of
+animals, which is advantageous both ethically and also logistically
+when sample sizes are inherently limited (e.g. space ﬂight experi-
+ments). Thus, use of our new method may improve the ability of future
+studies to elucidate mechanically relevant aspects of bone quality as-
+sociated with aging, disease, or treatment.
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.bonr.2018.10.002.
+Acknowledgements
+This research was supported by a NASA Science and Technology
+Research Fellowship (NSTRF) NNX14AM56H to MMP, and guidance
+from NSTRF research collaborator, Dr. Jean D. Sibonga. Additional
+experimental resources were provided through NASA Space Biology
+PECASE to JSA. Computational resources were made available through
+the National Science Foundation via XSEDE, Grant TG-MCA00N019 to
+TMK. We also thank Shannon Emerzian and Ryan Scott for help with
+specimen preparation.
+Conﬂicts of interest
+All authors certify that there are no conﬂicts of interest related to
+the work presented in this manuscript.
+Appendix A. Image processing
+Image processing of the original micro-CT images was conducted prior to ﬁnite element analysis for each specimen. First, the image stack was
+reoriented to align the specimen with the z-axis (DataViewer v1.5.2.4, Bruker). Second, the reoriented images were thresholded using the ‘Default’
+Autothreshold algorithm in ImageJ (ImageJ 1.51h, Java 1.6.0_24). The ﬁnal stack was used to build the ﬁnite element model.
+A.1. Finite element analysis
+To determine the computational stiﬀness, high-resolution linear ﬁnite element analysis was performed. Each 10-μm cubic voxel in the images was
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+170
+
+converted into an eight-noded brick element to create a ﬁnite element model of the entire vertebral body. All bone elements were assigned the same
+elastic, homogeneous and isotropic material properties: elastic modulus 10 GPa and Poisson's ratio of 0.3. These values are based on experimental
+testing of core samples of trabecular bone from human vertebrae (Bevill and Keaveny, 2009). A varied modulus based on tissue mineral density and
+thus micro-CT greyscale was not used in this methodology due to underestimation of apparent modulus using this approach (Kaynia et al., 2015).
+Each model was uniaxially compressed to 2% apparent strain, the input was displacement which varied depending on specimen height. Typical
+models contained approximately 1.5 million elements and were solved using a highly scalable, implicit parallel ﬁnite-element framework Olympus
+(Adams et al., 2004) running on a Dell Linux Cluster supercomputer (Stampede, Texas Advanced Computing Center). The outcome was the whole-
+bone reaction force, which was then used to calculate computational stiﬀness, KFEA (Eq. 4), by dividing by the input displacement.
+=
+K
+Reaction force
+Input displacement
+FEA
+(4)
+Appendix B
+Table 1
+The KEXP and KFEA method specimen structural parameters indicate there were no signiﬁcant diﬀerences in specimen size and shape. There were
+also no signiﬁcant diﬀerences in the mean or standard deviations (F-ratio = 1.65; p = 0.20) of computed cyclic force between these two groups.
+The computed cyclic loading force for KEXP group was retrospectively found to demonstrate the diﬀerence in standard deviation of cyclic loading
+force computed with the KEXP method compared to KFEA method (F-ratio = 10.9; p < 0.01). The structural parameters from specimens of the FMAX
+method are not compared to KEXP and FMAX method groups because of a diﬀerence in resolution of these micro-CT scans (20.7 μm). However, the
+stiﬀness and fatigue life measurements are the same for the FMAX and KFEA methods, which suggest the structural parameters for the FMAX method
+specimens were similar to those used in the KEXP and KFEA methods.
+Measure
+KEXP (n = 6)
+KFEA (n = 5)
+p
+Min tissue area (mm2)
+0.97 ± 0.19
+0.96 ± 0.09
+0.92
+Avg tissue area (mm2)
+1.71 ± 0.33
+1.59 ± 0.11
+0.47
+BV/TV (%)
+34.0 ± 1.00
+33.0 ± 1.00
+0.08
+Tb.BV/TV (%)
+22.0 ± 3.00
+23.0 ± 1.00
+0.83
+Tb.N (1/mm)
+4.94 ± 0.42
+5.30 ± 0.32
+0.15
+Tb.Th (μm)
+47.1 ± 3.26
+44.5 ± 2.58
+0.19
+Tb.Sp (μm)
+198 ± 17.8
+185 ± 14.1
+0.24
+Computed cyclic loading force (N)
+20.9 ± 1.54
+21.2 ± 0.78
+0.73
+Cyclic loading force (N)
+22.5 ± 6.78
+21.2 ± 0.78
+0.68
+Mean ± SD
+Table 2
+Structural parameters and resulting forces and fatigue life for L4 and L5 vertebrae used in testing the “FMAX method”. Max Stress
+is calculated from the resulting maximum force found from monotonic testing of the L4 (i.e. σ = FL4/AL4). This maximum stress
+is a material property and assumed to be the same for the adjacent L5 bone. The cyclic loading force applied to the L5 was
+derived from this stress (i.e. Fapplied = 0.5(σ)(AL5)), labeled “50% of L5 Max Force” in the table. The range in applied force
+calculated led to a larger standard deviation in fatigue life when compared to the new method KFEA.
+Specimens (L4 or
+L5)
+L4 Min Tissue Area
+(mm2)
+L4 Max Force
+(N)
+Max Stress
+(MPa)
+L5 Min Tissue Area
+(mm2)
+50% of L5 Max
+Force (N)
+L5 Nf
+DX.2
+1.69
+44.1
+26.1
+1.36
+17.8
+374,418
+DX.3
+1.42
+50.2
+35.3
+1.75
+30.9
+46,516
+DX.5
+1.23
+37.5
+30.5
+1.18
+18.0
+476,045
+DX.6
+2.33
+47.3
+20.3
+1.92
+19.5
+172,800
+DX.7
+1.58
+65.5
+41.4
+1.29
+26.7
+98,217
+Mean ± SD
+1.65 ± 0.4
+48.9 ± 9.3
+30.7 ± 7.3
+1.50 ± 0.3
+22.6 ± 5.3
+233,600 ± 164,700
+References
+Adams, M.F., Bayraktar, H.H., Keaveny, T.M., Papadopoulos, P., 2004. Ultrascalable
+implicit ﬁnite element analyses in solid mechanics with over a half a billion degrees
+of freedom, supercomputing, 2004. In: Proceedings of the ACM/IEEE SC2004
+Conference. IEEE, pp. 34.
+Bevill, G., Keaveny, T.M., 2009. Trabecular bone strength predictions using ﬁnite element
+analysis of micro-scale images at limited spatial resolution. Bone 44 (4), 579–584.
+Bouxsein, M.L., 2003a. Mechanisms of osteoporosis therapy: a bone strength perspective.
+Clin. Cornerstone (Suppl. 2), S13–S21.
+Bouxsein, M.L., 2003b. Bone quality: where do we go from here? Osteoporos. Int. 14
+(Suppl. 5), S118–S127.
+Bowman, S.M., Guo, X.E., Cheng, D.W., Keaveny, T.M., Gibson, L.J., Hayes, W.C.,
+McMahon, T.A., 1998. Creep contributes to the fatigue behavior of bovine trabecular
+bone. J. Biomech. Eng. 120 (5), 647–654.
+Brouwers, J.E., Ruchelsman, M., Rietbergen, B., Bouxsein, M.L., 2009. Determination of
+rat vertebral bone compressive fatigue properties in untreated intact rats and zole-
+dronic-acid-treated, ovariectomized rats. Osteoporos. Int. 20 (8), 1377–1384.
+Burstein, A.H., Zika, J.M., Heiple, K.G., Klein, L., 1975. Contribution of collagen and
+mineral to the elastic-plastic properties of bone. J. Bone Joint Surg. Am. 57 (7),
+956–961.
+Caler, W.E., Carter, D.R., 1989. Bone creep-fatigue damage accumulation. J. Biomech. 22
+(6–7), 625–635.
+Farr, J.N., Khosla, S., 2016. Determinants of bone strength and quality in diabetes mel-
+litus in humans. Bone 82, 28–34.
+Fyhrie, D.P., Christiansen, B.A., 2015. Bone material properties and skeletal fragility.
+Calcif. Tissue Int. 97 (3), 213–228.
+Haddock, S.M., Yeh, O.C., Mummaneni, P.V., Rosenberg, W.S., Keaveny, T.M., 2004.
+Similarity in the fatigue behavior of trabecular bone across site and species. J.
+Biomech. 37 (2), 181–187.
+Hernandez, C.J., Keaveny, T.M., 2006. A biomechanical perspective on bone quality.
+Bone 39 (6), 1173–1181.
+Janghorbani, M., Van Dam, R.M., Willett, W.C., Hu, F.B., 2007. Systematic review of type
+1 and type 2 diabetes mellitus and risk of fracture. Am. J. Epidemiol. 166 (5),
+495–505.
+Kaynia, N., Soohoo, E., Keaveny, T.M., Kazakia, G.J., 2015. Eﬀect of intraspecimen spatial
+variation in tissue mineral density on the apparent stiﬀness of trabecular bone. J.
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+171
+
+Biomech. Eng. 137 (1).
+Keaveny, T.M., Borchers, R.E., Gibson, L.J., Hayes, W.C., 1993. Theoretical analysis of the
+experimental artifact in trabecular bone compressive modulus. J. Biomech. 26 (4–5),
+599–607.
+Keaveny, T.M., Wachtel, E.F., Ford, C.M., Hayes, W.C., 1994a. Diﬀerences between the
+tensile and compressive strengths of bovine tibial trabecular bone depend on mod-
+ulus. J. Biomech. 27 (9), 1137–1146.
+Keaveny, T.M., Guo, X.E., Wachtel, E.F., McMahon, T.A., Hayes, W.C., 1994b. Trabecular
+bone exhibits fully linear elastic behavior and yields at low strains. J. Biomech. 27
+(9), 1127–1136.
+Keaveny, T.M., Wachtel, E.F., Guo, X.E., Hayes, W.C., 1994c. Mechanical behavior of
+damaged trabecular bone. J. Biomech. 27 (11), 1309–1318.
+Keaveny, T.M., Pinilla, T.P., Crawford, R.P., Kopperdahl, D.L., Lou, A., 1997. Systematic
+and random errors in compression testing of trabecular bone. J. Orthop. Res. 15 (1),
+101–110.
+Keaveny, T.M., Morgan, E.F., Niebur, G.L., Yeh, O.C., 2001. Biomechanics of trabecular
+bone. Annu. Rev. Biomed. Eng. 3, 307–333.
+Kruzic, J.J., Ritchie, R.O., 2008. Fatigue of mineralized tissues: cortical bone and dentin.
+J. Mech. Behav. Biomed. Mater. 1 (1), 3–17.
+Laﬀerty, J.F., 1978. Analytical model of the fatigue characteristics of bone. Aviat. Space
+Environ. Med. 49 (1 Pt. 2), 170–174.
+Lambers, F.M., Bouman, A.R., Rimnac, C.M., Hernandez, C.J., 2013. Microdamage caused
+by fatigue loading in human cancellous bone: relationship to reductions in bone
+biomechanical performance. PLoS One 8 (12), e83662.
+McCubbrey, D.A., Cody, D.D., Peterson, E.L., Kuhn, J.L., Flynn, M.J., Goldstein, S.A.,
+1995. Static and fatigue failure properties of thoracic and lumbar vertebral bodies
+and their relation to regional density. J. Biomech. 28 (8), 891–899.
+Mosekilde, L., 1995. Assessing bone quality—animal models in preclinical osteoporosis
+research. Bone 17 (4 Suppl), 343S–352S.
+Nalla, R.K., Kinney, J.H., Ritchie, R.O., 2003. Mechanistic fracture criteria for the failure
+of human cortical bone. Nat. Mater. 2 (3), 164–168.
+Odgaard, A., Linde, F., 1991. The underestimation of Young's modulus in compressive
+testing of cancellous bone specimens. J. Biomech. 24 (8), 691–698.
+Odgaard, A., Hvid, I., Linde, F., 1989. Compressive axial strain distributions in cancellous
+bone specimens. J. Biomech. 22 (8–9), 829–835.
+Ominsky, M.S., Stouch, B., Schroeder, J., Pyrah, I., Stolina, M., Smith, S.Y., Kostenuik,
+P.J., 2011. Denosumab, a fully human RANKL antibody, reduced bone turnover
+markers and increased trabecular and cortical bone mass, density, and strength in
+ovariectomized cynomolgus monkeys. Bone 49 (2), 162–173.
+Rubin, M.R., Patsch, J.M., 2016. Assessment of bone turnover and bone quality in type 2
+diabetic bone disease: current concepts and future directions. Bone Res. 4, 16001.
+Saito, M., Marumo, K., 2010. Collagen cross-links as a determinant of bone quality: a
+possible explanation for bone fragility in aging, osteoporosis, and diabetes mellitus.
+Osteoporos. Int. 21 (2), 195–214.
+Schileo, E., Taddei, F., Cristofolini, L., Viceconti, M., 2008. Subject-speciﬁc ﬁnite element
+models implementing a maximum principal strain criterion are able to estimate
+failure risk and fracture location on human femurs tested in vitro. J. Biomech. 41 (2),
+356–367.
+Seeman, E., Delmas, P.D., 2006. Bone quality—the material and structural basis of bone
+strength and fragility. N. Engl. J. Med. 354 (21), 2250–2261.
+Turner, C.H., Burr, D.B., 1993. Basic biomechanical measurements of bone: a tutorial.
+Bone 14 (4), 595–608.
+Vestergaard, P., 2007. Discrepancies in bone mineral density and fracture risk in patients
+with type 1 and type 2 diabetes—a meta-analysis. Osteoporos. Int. 18 (4), 427–444.
+Yamamoto, E., Paul Crawford, R., Chan, D.D., Keaveny, T.M., 2006. Development of re-
+sidual strains in human vertebral trabecular bone after prolonged static and cyclic
+loading at low load levels. J. Biomech. 39 (10), 1812–1818.
+M.M. Pendleton et al.
+Bone Reports 9 (2018) 165–172
+172

@@ -1,0 +1,677 @@
+Hindawi Publishing Corporation
+Journal of Aging Research
+Volume 2012, Article ID 481983, 7 pages
+doi:10.1155/2012/481983
+Research Article
+Low-Dose, Ionizing Radiation and Age-Related Changes in
+Skeletal Microarchitecture
+Joshua S. Alwood,1 Akhilesh Kumar,1 Luan H. Tran,1 Angela Wang,1
+Charles L. Limoli,2 and Ruth K. Globus1
+1Bone and Signaling Laboratory, NASA Ames Research Center, Mail Stop 236-7, Moﬀett Field, CA 94035, USA
+2Department of Radiation Oncology, University of California Irvine, Irvine, CA 92697, USA
+Correspondence should be addressed to Ruth K. Globus, ruth.k.globus@nasa.gov
+Received 6 August 2011; Revised 12 November 2011; Accepted 29 November 2011
+Academic Editor: Sharmila Bhattacharya
+Copyright © 2012 Joshua S. Alwood et al. This is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly
+cited.
+Osteoporosis can profoundly aﬀect the aged as a consequence of progressive bone loss; high-dose ionizing radiation can cause
+similar changes, although less is known about lower doses (≤100 cGy). We hypothesized that exposure to relatively low doses of
+gamma radiation accelerates structural changes characteristic of skeletal aging. Mice (C57BL/6J-10 wk old, male) were irradiated
+(total body; 0-sham, 1, 10 or 100 cGy 137Cs) and tissues harvested on the day of irradiation, 1 or 4 months later. Microcomputed
+tomography was used to quantify microarchitecture of high turnover, cancellous bone. Irradiation at 100 cGy caused transient
+microarchitectural changes over one month that were only evident at longer times in controls (4 months). Ex vivo bone cell
+diﬀerentiation from the marrow was unaﬀected by gamma radiation. In conclusion, acute ionizing gamma irradiation at 100 cGy
+(but not at 1 cGy or 10 cGy) exacerbated microarchitectural changes normally found during progressive, postpubertal aging prior
+to the onset of age-related osteoporosis.
+1. Introduction
+Osteoporosis can lead to devastating health consequences
+and poses a substantial health care burden currently aﬀecting
+an estimated 44 million Americans (NIH). In women, estro-
+gen deﬁciency is primarily responsible for the rapid postme-
+nopausal loss of bone mass and resulting structural fragility
+(type I osteoporosis) while a slower bone loss (type II or se-
+nile osteoporosis) aﬀects both men and women late in life
+[1]. Bone structure begins to decline early [2]; peak bone
+mass is achieved in early adulthood and progressively dec-
+lines in both high turnover, cancellous tissue and in the
+surrounding hard cortical shell. The compartments of bone
+aﬀected by osteoporosis can include both the dense tissue
+that forms an outer structural shell (cortical bone) and the
+spongy tissue (cancellous bone) within the marrow cavity;
+the microarchitecture of cancellous bone is profoundly
+aﬀected in osteoporosis and renders sites that are rich in can-
+cellous tissue, such as the spine and proximal femur, prone to
+fracture. An age-related decline in cancellous tissue structure
+occurs in rodents over a matter of months, rather than years,
+as in humans. C57BL/6J mice provide a well-established ani-
+mal model with relatively rapid postpubertal loss of cancel-
+lous tissue [3, 4], characteristic of that which precedes the
+development of senile, type II osteoporosis in humans.
+Bone turnover is regulated by a balance between the ac-
+tivities of bone-forming osteoblasts and bone-resorbing os-
+teoclasts. Osteoblasts progressively diﬀerentiate from pro-
+genitors and mesenchymal stem cells whereas osteoclasts are
+haematopoietic derivatives of the monocyte/macrophage lin-
+eage. Stem cells, progenitors, and precursors of both lineages
+reside within the bone marrow. Bone marrow cells cultured
+ex vivo retain behavioral characteristics of in vivo function;
+thus bone marrow-derived cells cultured under conditions
+tailored either to stimulate osteoblast diﬀerentiation (osteo-
+blastogenesis) or osteoclast diﬀerentiation (osteoclastogene-
+sis) are useful tools to dissect cellular and molecular bases of
+physiological challenges such as skeletal aging and exposure
+to radiation [5–8].
+
+2
+Journal of Aging Research
+Ionizing radiation generates reactive oxygen/nitrogen
+species (ROS/RNS) both by the ionization of target mol-
+ecules and by perturbations to the cellular redox state, also
+implicated in the development of osteoporosis [9–12]. The
+production of ROS/RNS causes oxidative damage to DNA,
+lipids, and protein inﬂuencing key cell functions, including
+proliferation, diﬀerentiation, and apoptosis. Low Linear En-
+ergy Transfer (LET) ionizing radiation (e.g., gamma rays,
+X-rays) at high cumulative doses (>200 cGy) can damage
+vascular supply (osteoradionecrosis), leading to loss of cor-
+tical and cancellous tissue and leading to skeletal fragility
+[13], while adverse eﬀects of lower doses (100–200 cGy) ap-
+pear to be conﬁned to cancellous tissue in animal models
+[12, 14–16]. Much less is known about how low doses in-
+ﬂuence skeletal health.
+Here we hypothesized that low-to-moderate doses of ion-
+izing radiation accelerate postpubertal and progressive loss
+of microarchitectural integrity over time. Ionizing radiation
+at 100 cGy (but not at 1 cGy or 10 cGy) caused structural
+changes in cancellous tissue within one month that occurred
+over 4 months in controls, with no further decrements fol-
+lowing 1 month. The capability of marrow-derived cell pop-
+ulations to diﬀerentiate into osteoblasts or osteoclasts was
+unaﬀected.
+2. Materials and Methods
+2.1. Experiment Design. A total of 96 C57BL/6J 10-week old
+male mice (The Jackson Laboratory, Bar Harbor, ME) were
+housed 2/cage for up to 4 months. This age and duration of
+the experiment were selected on the basis of results reported
+by others, showing that this encompasses a period of micro-
+architectural changes that are associated with osteopenia (re-
+duced bone density) over time [3, 4]. Mice were provided
+food (LabDiet 5001, Purina Mills, Gray Summit, MO) and
+water ad libitum. After three days of cage acclimation, un-
+anesthetized mice (4 per exposure) were irradiated (IR; JL
+Shepherd Mark I, 137Cs gamma ray source, San Gabriel, CA)
+with 1, 10, or 100 cGy at 0.96, 0.96, or 88 cGy/min (±10%),
+respectively, or were sham-irradiated (0 cGy-controls). The
+exposure ﬁeld was 26.5 × 19.5 cm2. To expose samples evenly,
+mice were placed in container (10 cm radius), centered 18 cm
+from the source, and rotated at 6 rpm. Radiation dose and
+uniformity was calibrated in air by JL Shepherd & Asso-
+ciates using an X-ray Monitor (no. 2025, MDH Industries,
+Monrovia, CA) with a 0.18 cm3 probe (National Institutes of
+Standards and Technology traceable). Tissues were harvested
+on the day of IR (basal) or 1 or 4 months later (n = 8/group),
+with cell culture being performed at the latter two endpoints.
+As an indicator of health, total body mass was measured
+(E0D120 scale, Ohaus Corporation, Parsippany, NJ) at least
+once per week until tissue harvest. The Institutional Animal
+Care and Use Committee of NASA Ames Research Center
+approved all procedures.
+2.2. Cancellous Microarchitecture. Skeletal microarchitecture
+broadly characterizes the 3D network of cancellous (or
+spongy) bone. Microcomputed tomography (vivaCT 40,
+SCANCO Medical AG, Br¨uttisellen, Switzerland) allows
+direct quantiﬁcation of the microarchitecture of mineralized
+tissue (10.5 μm voxel size) within the proximal tibia meta-
+physis [17]. Standard indices [18] were generated within the
+excised right tibia in a region 0.2 to 1.2 mm distal to the
+proximal growth plate via semiautonomous contouring of
+cross-sectional slices, as reported in detail previously [15].
+The relative amount of bone to total volume (BV/TV, bone
+volume fraction) quantiﬁes the amount of bone present. The
+thickness of the bony struts, the thickness (or spacing) of the
+marrow voids, and trabecular number characterize trabecu-
+lar morphologys on average [19]. Connectivity density quan-
+tiﬁes the number of trabecular struts per volume in the bony
+network [20]. The structure model index measures the ratio
+of rod-like (=3) to plate-like (=0) trabeculae within the tissue
+[19]. The fabric tensor quantiﬁes the anisotropic orientation
+of the structure, relating to mechanical properties [21, 22],
+with three eigenvalues describing the axial lengths of the
+anisotropy ellipsoid and the degree of anisotropy equaling
+the ratio of the maximum to minimum eigenvalues.
+2.3. Primary Bone Marrow Culture. Marrow cells from the
+hindlimbs (femora and tibiae) were grown as previously de-
+scribed [7]. In brief, cells were ﬂushed from the bone mar-
+row and plated in α-MEM supplemented with 15% fetal
+calf serum with osteoblastogenic supplements (ascorbate
+50 μg/mL, Sigma-Aldrich, St. Louis, MO) and β-glycero-
+phosphate (10 mM, Sigma-Aldrich, St. Louis, MO). For os-
+teoclastogenesis, cells were plated overnight in macrophage
+colony stimulating factor (MCSF, 30 ng/mL, R&D Systems
+Inc, Minneapolis, MN) and nonadherent cells collected, re-
+plated, and grown in α-MEM supplemented with 15% fetal
+calf serum with MCSF (30 ng/mL) and soluble receptor acti-
+vator of nuclear factor κB ligand (sRANKL, 60 ng/mL, Pepro-
+tech, Rocky Hill, NJ). Osteoclastogenesis was assessed 4-5
+days after euthanasia by counting the number of multinu-
+cleated, tartrate resistant acid phosphatase-positive (TRAP+,
+Sigma Aldrich) cells in a deﬁned area by microscopy (be-
+tween 18 and 45 mm2) to count a minimum of 200 cells. Os-
+teoblastogenesis was assessed one month after irradiation by
+quantifying the surface area covered by alizarin red-stained,
+mineralized nodules.
+2.4. Statistics. Statistical analyses were performed using JMP
+8 (SAS Institute Inc, Cary, NC). To address aging, three
+groups of sham controls were collected at diﬀerent time
+points for analysis. Least squares linear regressions were per-
+formed with time as regressor and the null hypothesis of the
+slope being zero to assess changes over time. The coeﬃcient
+of determination (R2) and the probability (P) of the slope
+being zero are reported, with P = 0.05 the threshold for re-
+jecting the null hypothesis.
+For each time point after-irradiation, comparisons were
+made between the sham-irradiated and irradiated mice. An-
+alyses proceeded using one-factor ANOVA with the Tukey-
+Kramer Honestly Signiﬁcant Diﬀerence post hoc test, and
+P = 0.05 considered the threshold for signiﬁcance. All ﬁgures
+report mean ± standard deviation (SD).
+
+Journal of Aging Research
+3
+40
+32
+30
+28
+26
+24
+22
+20
+0
+10
+20
+30
+35
+30
+25
+20
+0
+20
+40
+60
+80
+100
+120
+Time after irradiation (day)
+Body mass (g)
+0 cGy
+1 cGy
+10 cGy
+100 cGy
+#
+#
+Figure 1: Mouse body mass as a function of age and radiation
+exposure. Experiment to determine whether a single dose of 137Cs
+gamma rays causes age-related changes in skeletal structure and
+bone cell diﬀerentiation. Male C57BL/6 mice (10 weeks of age,
+n = 8/group) were irradiated at 1, 10, and 100 cGy or were sham-
+irradiated (0 cGy) on day 0 and tissues harvested 1 month (inset)
+or 4 months after irradiation. Mean ± SD. #Denotes P < 0.05 for
+changes with age (linear regression) for the respective cohorts (1
+and 4 months after irradiation).
+3. Results and Discussion
+3.1. Body Mass. Body weights were measured weekly during
+the experiment. Sham-irradiated mice gained 10% body
+mass from 10–14 wk of age (Figure 1. inset, R2 = 0.96, P <
+0.05 for slope) and 30% body mass from 10–27 wk of age
+(R2 = 0.99, P < 0.05 for slope). Compared to the age-
+matched controls, irradiation at any dose did not aﬀect the
+mass accrual (Figure 1). These data are consistent with pre-
+vious studies that monitored radiation and aging eﬀects
+[3, 4] and show that normal accrual of body mass, as a broad
+measure of health over time at this age, was unimpeded by
+exposure to gamma irradiation with these doses.
+3.2. Cancellous Microarchitecture: Temporal Changes. Can-
+cellous microarchitecture was evaluated using 3D microcom-
+puted tomography. In sham-control mice, the cancellous
+bone volume fraction remained constant (Figure 2(a)), bone
+density increased, and most microarchitectural parameters
+declined as the mice aged over the 4-month period of this
+study. Trabecular number (−21%, R2 = 0.79, P < 0.05) and
+connectivity density (−49%, R2 = 0.75, P < 0.05) declined
+over 4 months (Figures 2(d) and 2(e)). Structure model in-
+dex was unchanged within 4 months (Figure 2(f)). Each eig-
+envalue of the anisotropy tensor increased (all P < 0.05)
+within 4 months. The maximum eigenvalue increased 15%,
+R2 = 0.30 (Figure 2(g)). The minimum eigenvalue increased
+24%, R2 = 0.49 (data not shown). The remaining eigenvalue
+increased 23%, R2 = 0.59 (data not shown). The degree of
+anisotropy remained constant at 2.0 indicating a persistent
+longitudinal orientation of the structure (Figure 2(h)). In
+contrast to these indicators of increasing structural fragility
+with aging, trabecular thickness (+22%, R2 = 0.35, P < 0.05)
+as in [3], and tissue density (+9%, R2 = 0.59, P < 0.05) rose
+over 4 months (Figures 2(b) and 2(c)).
+We observed age-related changes in the cancellous mi-
+croarchitecture of the tibia within the 4-month timeframe.
+In our study, declines in trabecular number and connectivity
+density ensued, while relative bone volume, rod-like mor-
+phology and degree of anisotropy remained constant. Con-
+currently, the cancellous tissue consolidated gains into thick-
+er and denser, though fewer, trabecular struts. Trabeculae
+were spaced farther apart with age (data not shown) and may
+increase the propensity for strut buckling [23, 24]. These cha-
+nges are consistent with normal aging of male C57BL/6 mice,
+including declines of trabecular number and connectivity de-
+nsity, which appeared to start sooner and fall more rapidly
+with aging than the bone volume fraction [3, 4]. In sum,
+these data suggest that age-related alterations of microarchi-
+tecture within the mouse tibia may precede overt declines in
+cancellous bone volume.
+3.3. Cancellous Microarchitecture: Ionizing Radiation-Induced
+Changes. Radiation doses of 1 cGy or 10 cGy had no dis-
+cernible eﬀect on skeletal microarchitecture at either 1 or 4
+months after-IR. In 100 cGy-IR mice, trabecular number and
+connectivity density declined (−20% and −36%, resp.; P <
+0.05) and trabecular spacing and the maximum eigenvalues
+of the fabric tensor increased (+28% and +21%, resp.;
+P < 0.05) at one month after-IR compared to age-matched
+controls (Figure 2). There were no additional decrements
+in microarchitecture compared to age-matched controls be-
+tween 1 and 4 months after-IR (Figure 2). These results in-
+dicate that 100 cGy irradiation caused rapid removal of
+trabecular, which resembled the normal microarchitectural
+changes expected to occur during 4 months of aging.
+Irradiation with 100 cGy caused reductions in trabecular
+number and connectivity density and increases in the major
+axis of the anisotropy ellipsoid within 1 month—changes
+that take 4 months to appear in sham-irradiated controls. In
+previous studies that used older mice (16 weeks of age),
+100 cGy caused bone loss in the tibia via reduced trabecular
+thickness, but not trabecular number, with the onset of
+osteopenia appearing 10 days after-irradiation [15]. The 16-
+week-old mice are past peak cancellous bone volume in the
+tibia, whereas the 10-week-old mice in this study have not
+yet begun to decline. Microarchitectural changes following
+irradiation observed in this study resembled the eﬀects of
+a larger dose in older, male mice (16 weeks, 200 cGy) with-
+in the lumbar spine (a denser, plate-like cancellous tissue)
+[15] and in the tibia (unpublished results), where gamma
+irradiation at 200 cGy caused vertebral and tibial bone loss
+via trabecular number and connectivity density decrements
+appearing within 3 days and persisting at least until 30 days
+after-irradiation. This supports trabecular thinning preced-
+ing strut removal during bone resorption. Furthermore, in
+young female mice (9 weeks), osteopenia and trabecular
+number and connectivity density decrements persist in the
+tibia at 120 days after-irradiation [14]. Taken together, the
+data indicate that bone resorption is a time-dependent proc-
+ess contingent on initial bone volume and morphology (i.e.,
+
+4
+Journal of Aging Research
+0.3
+0.2
+0.1
+0
+0
+1
+2
+3
+4
+BV/TV
+Time after irradiation (mo)
+(a)
+0
+1
+2
+3
+4
+950
+900
+850
+800
+0
+Tissue density
+(mg HA/cm3)
+Time after irradiation (mo)
+#
+(b)
+0
+1
+2
+3
+4
+70
+60
+50
+40
+0
+Tb.Th∗(µm)
+Time after irradiation (mo)
+#
+(c)
+0
+1
+2
+3
+4
+6.5
+6
+5.5
+5
+4.5
+0
+Tb.N∗(1/mm)
+Time after irradiation (mo)
+#
+∗
+(d)
+0
+1
+2
+3
+4
+200
+150
+100
+50
+0
+Conn.D (1/mm3)
+Time after irradiation (mo)
+#
+∗
+(e)
+0
+1
+2
+3
+4
+3
+2.5
+2
+1.5
+1
+0.5
+0
+SMI
+Time after irradiation (mo)
+(f)
+0 cGy
+1 cGy
+10 cGy
+100 cGy
+0
+1
+2
+3
+4
+0.5
+0.4
+0.3
+0
+|H2| (mm)
+Time after irradiation (mo)
+#
+∗
+(g)
+0 cGy
+1 cGy
+10 cGy
+100 cGy
+0
+1
+2
+3
+4
+2.5
+2.25
+2
+1.75
+1.5
+0
+DA
+Time after irradiation (mo)
+(h)
+Figure 2: Cancellous microarchitecture of the proximal tibial metaphysis as a function of age and radiation exposure at the time of
+irradiation (basal, 0 months) and 1 and 4 months after irradiation. During aging, sham-irradiated controls show relative bone volume
+(BV/TV) remaining constant (a), increases in tissue density (b) and trabecular thickness (Tb.Th∗) (c), and declines in trabecular number
+(Tb.N∗) (d) and connectivity density (Conn.D) (e). The ratio of trabecular rods to plates, the structure model index (SMI), remains constant
+with age (f). The maximum eigenvalue (|H2|) of the fabric tensor increases with age (g), with the degree of anisotropy (h) remaining
+constant. At 1 month after irradiation, 100 cGy reduced Tb.N∗by 20% (d), Conn.D by 36% (e) compared to age-matched controls.
+Irradiation at 100 cGy, but not at 1 cGy or 10 cGy, altered cancellous structure within 1 month in a direction and magnitude similar to 4
+months of normal aging, with no further modulation between 1 and 4 months after irradiation. Mean ± SD. ∗Denotes P < 0.05 for changes
+with IR dose (ANOVA and Tukey-Kramer posthoc compared to age-matched sham controls). #Denotes P < 0.05 for changes with age (linear
+regression).
+
+Journal of Aging Research
+5
+0 cGy
+0 cGy (1 mo)
+1 cGy
+10 cGy
+100 cGy
+20
+15
+10
+5
+0
+Mineralized area (%)
+(a)
+0 cGy
+0 cGy (1 mo)
+1 cGy
+10 cGy
+100 cGy
+20
+25
+15
+10
+5
+0
+ No. of osteoclasts
+(1/mm2)
+(b)
+1 cm
+(c)
+100 µm
+(d)
+Figure 3: Bone-cell diﬀerentiation potential as a function of age and radiation exposure. Hindlimb bone marrow was ﬂushed and cultured
+under osteoblastogenic or osteoclastogenic conditions to assess diﬀerentiation potential of the marrow. Between 1 and 4 months of aging
+(white columns), osteoblastogenesis (a), measured as the area of calciﬁed matrix per well, and osteoclastogenesis (b), measured as number
+of TRAP-positive, multinuclear (≥3/cell) cells per area, remained constant in sham-control mice. Irradiation, at any dose (gray or black
+columns), did not aﬀect the diﬀerentiation potential of bone cells in the marrow at 1 (not shown) or 4 months post-IR (a, b). Images of
+alizarin red-stained mineralized nodules (c) and TRAP-stained osteoclasts (d).
+structure model index) and that skeletal outcome is a func-
+tion of age.
+In this study, microarchitectural diﬀerences between
+irradiated and age-matched controls were not evident 4
+months after exposure to 100 cGy radiation. This result con-
+trasts to the persistence of osteopenia in the tibia after low
+LET irradiation at higher doses (≥200 cGy X-ray or gamma
+rays) or with particulate irradiation at doses of 100 cGy (pro-
+ton) [25] and 200 cGy (56Fe) [14] which present at 120 days
+after-irradiation in female mice (9 weeks). These ﬁndings
+highlight the importance of age at the time of irradiation; ge-
+nder also may inﬂuence skeletal radioresponses and further
+study is needed in this area.
+3.4. Bone Cell Diﬀerentiation Potential. To assess diﬀerentia-
+tion of osteoblast lineage progenitors and precursors in the
+mesenchymal stem cell lineage, adherent cells from bone
+marrow were cultured in osteogenic medium up to one
+month and then stained for mineralized nodules (Figure 3).
+Irradiation did not aﬀect the area covered by mineralized
+nodules (Figure 3(a)). These data suggest the osteoblast pro-
+geny of irradiated cells are not aﬀected by a single, acute dose
+of low LET, ionizing radiation.
+Bone marrow cells were cultured after tissue harvest in
+osteoclastogenic media and then osteoclast number counted.
+In sham-irradiated controls, between 1 and 4 months after-
+IR, the density of osteoclasts remained constant (Figure 3(b))
+and indicates the number of precursors did not vary with
+age. Furthermore, irradiation at any dose did not aﬀect the
+diﬀerentiation potential of osteoclasts compared to controls.
+Per animal, the ratio of nodule area fraction to osteoclast de-
+nsity was calculated as a measure of the balance between
+formation and resorption potential; this was unchanged in
+controls between 1 and 4 months and unchanged after ir-
+radiation at any dose (data not shown).
+
+6
+Journal of Aging Research
+Thus, neither osteoblastogenesis nor osteoclastogenesis
+by bone marrow cells was aﬀected by gamma irradiation,
+consistent with our previous ﬁndings. These results suggest
+the ability of marrow-derived progenitors to contribute to
+skeletal remodeling is preserved, despite exposure to ionizing
+radiation. Gamma rays or X-rays (200 cGy) can cause a ra-
+pid (within 3 days) increase in the numbers of osteoclasts
+lining the surfaces of trabeculae [15, 16], and a decrement in
+actively mineralizing surfaces, an index of the activity of ma-
+ture, active osteoblasts [12]. Taken together, our results sug-
+gest that mature cells of the osteoblast and osteoclast lin-
+eage, rather than progenitors, are responsible for the near-
+term microarchitectural changes triggered by gamma radia-
+tion.
+A limitation of this study design is that bones were an-
+alyzed at only two time points after exposure to radiation.
+Additional timepoints would be useful to further charac-
+terize the inﬂuence of radiation on age-related changes in
+skeletal health.
+4. Conclusions
+A moderate dose (100 cGy) of gamma radiation accelerated
+changes in the trabecular microarchitecture of postpubertal,
+growing (10 wk old) male C57BL/6 mice at a rate comparable
+to later skeletal aging in controls, whereas no eﬀects were
+observed at even lower doses (1 or 10 cGy). Together with the
+ﬁnding that BV/TV did not diﬀer over this time, these results
+suggest age-related microarchitectural changes precede
+bone loss. Bone marrow-derived osteoblast progenitors and
+osteoclast precursors did not appear to be aﬀected by the
+low-to-moderate doses of low LET gamma radiation used
+here, suggesting stem and progenitor cells that reside in the
+marrow will retain the ability to contribute to skeletal re-
+modeling during subsequent aging following the low-to-
+moderate doses employed. In contrast, exposure to high dos-
+es of gamma radiation [6] or to high LET irradiation such
+as 56Fe can inﬂict acute and persistent damage to osteo-
+progenitors ([7], unpublished observations). In conclusion,
+ionizing gamma irradiation at 100 cGy (but not at 1 cGy or
+10 cGy) appeared to accelerate structural changes in the mur-
+ine skeleton, expected also to occur during progressive, post-
+pubertal aging in humans prior to the onset of type II os-
+teoporosis.
+Acknowledgments
+Research was supported by a DOE-NASA Interagency Award
+no. DE-SC0001507, supported by the Oﬃce of Science
+(BER), US Department of Energy to R. K. Globus and
+C. L. Limoli and by NASA Fundamental Space Biology
+Postdoctoral Program fellowships to J. S. Alwood and A.
+Kumar. The authors thank D. P. Lindsey, G. S. Beaupr´e
+at the Rehabilitation Research and Development Center,
+Veterans Aﬀairs Palo Alto Healthcare System for use of the
+microcomputed tomography system and B. P. Halloran for
+helpful discussions.
+References
+[1] E. Seeman, “Invited review: pathogenesis of osteoporosis,”
+Journal of Applied Physiology, vol. 95, no. 5, pp. 2142–2151,
+2003.
+[2] A. D. G. Baxter-Jones, R. A. Faulkner, M. R. Forwood, R. L.
+Mirwald, and D. A. Bailey, “Bone mineral accrual from 8 to 30
+years of age: an estimation of peak bone mass,” Journal of Bone
+and Mineral Research, vol. 26, no. 8, pp. 1729–1739, 2011.
+[3] B. P. Halloran, V. L. Ferguson, S. J. Simske, A. Burghardt, L.
+L. Venton, and S. Majumdar, “Changes in bone structure and
+mass with advancing age in the male C57BL/6J mouse,” Jour-
+nal of Bone and Mineral Research, vol. 17, no. 6, pp. 1044–1050,
+2002.
+[4] V. Glatt, E. Canalis, L. Stadmeyer, and M. L. Bouxsein, “Age-
+related changes in trabecular architecture diﬀer in female and
+male C57BL/6J mice,” Journal of Bone and Mineral Research,
+vol. 22, no. 8, pp. 1197–1207, 2007.
+[5] A. J. Friedenstein, “Bone marrow osteogenic stem cells,” in
+Calcium Regulation and Bone Metabolism, D. V. Cohn, F. H.
+Glorieux, and T. J. Martin, Eds., pp. 353–360, Elsevier Science
+Publishers, 1990.
+[6] J. Ma, M. Shi, J. Li et al., “Senescence-unrelated impediment
+of osteogenesis from Flk1+ bone marrow mesenchymal stem
+cells induced by total body irradiation and its contribution
+to long-term bone and hematopoietic injury,” Haematologica,
+vol. 92, no. 7, pp. 889–896, 2007.
+[7] K. Yumoto, R. K. Globus, R. Mojarrab et al., “Short-term
+eﬀects of whole-body exposure to 56Fe ions in combina-
+tion with musculoskeletal disuse on bone cells,” Radiation
+Research, vol. 173, no. 4, pp. 494–504, 2010.
+[8] J. J. Cao, T. J. Wronski, U. Iwaniec et al., “Aging increases stro-
+mal/osteoblastic cell-induced osteoclastogenesis and alters the
+osteoclast precursor pool in the mouse,” Journal of Bone and
+Mineral Research, vol. 20, no. 9, pp. 1659–1668, 2005.
+[9] S. S. Varanasi, R. M. Francis, C. E. M. Berger, S. S. Papiha, and
+H. K. Datta, “Mitochondrial DNA deletion associated oxida-
+tive stress and severe male osteoporosis,” Osteoporosis Interna-
+tional, vol. 10, no. 2, pp. 143–149, 1999.
+[10] M. Almeida, L. Han, M. Martin-Millan et al., “Skeletal involu-
+tion by age-associated oxidative stress and its acceleration by
+loss of sex steroids,” Journal of Biological Chemistry, vol. 282,
+no. 37, pp. 27285–27297, 2007.
+[11] S. C. Manolagas, “From estrogen-centric to aging and oxida-
+tive stress: a revised perspective of the pathogenesis of os-
+teoporosis,” Endocrine Reviews, vol. 31, no. 3, pp. 266–300,
+2010.
+[12] H. Kondo, K. Yumoto, J. S. Alwood et al., “Oxidative stress and
+gamma radiation-induced cancellous bone loss with muscu-
+loskeletal disuse,” Journal of Applied Physiology, vol. 108, no. 1,
+pp. 152–161, 2010.
+[13] K. Nishiyama, F. Inaba, T. Higashihara, K. Kitatani, and T.
+Kozuka, “Radiation osteoporosis—an assessment using single
+energy quantitative computed tomography,” European Radiol-
+ogy, vol. 2, no. 4, pp. 322–325, 1992.
+[14] S. A. Hamilton, M. J. Pecaut, D. S. Gridley et al., “A murine
+model for bone loss from therapeutic and space-relevant
+sources of radiation,” Journal of Applied Physiology, vol. 101,
+no. 3, pp. 789–793, 2006.
+[15] H. Kondo, N. D. Searby, R. Mojarrab et al., “Total-body
+irradiation of postpubertal mice with137Cs acutely compro-
+mises the microarchitecture of cancellous bone and increases
+osteoclasts,” Radiation Research, vol. 171, no. 3, pp. 283–289,
+2009.
+
+Journal of Aging Research
+7
+[16] J. S. Willey, S. A. J. Lloyd, M. E. Robbins et al., “Early increase
+in osteoclast number in mice after whole-body irradiation
+with 2 Gy X rays,” Radiation Research, vol. 170, no. 3, pp. 388–
+392, 2008.
+[17] P. Ruegsegger, B. Koller, and R. Muller, “A microtomographic
+system for the nondestructive evaluation of bone architec-
+ture,” Calciﬁed Tissue International, vol. 58, no. 1, pp. 24–29,
+1996.
+[18] M. L. Bouxsein, S. K. Boyd, B. A. Christiansen, R. E. Guldberg,
+K. J. Jepsen, and R. M¨uller, “Guidelines for assessment of bone
+microstructure in rodents using micro-computed tomogra-
+phy,” Journal of Bone and Mineral Research, vol. 25, no. 7, pp.
+1468–1486, 2010.
+[19] T. Hildebrand and P. Ruegsegger, “Quantiﬁcation of bone
+microarchitecture with the structure model index,” Computer
+Methods in Biomechanics and Biomedical Engineering, vol. 1,
+no. 1, pp. 15–23, 1997.
+[20] A. Odgaard and H. J. G. Gundersen, “Quantiﬁcation of con-
+nectivity in cancellous bone, with special emphasis on 3-D
+reconstructions,” Bone, vol. 14, no. 2, pp. 173–182, 1993.
+[21] C. H. Turner, S. C. Cowin, J. Young Rho, R. B. Ashman, and J.
+C. Rice, “The fabric dependence of the orthotropic elastic con-
+stants of cancellous bone,” Journal of Biomechanics, vol. 23, no.
+6, pp. 549–561, 1990.
+[22] S. C. Cowin and C. H. Turner, “On the relationship between
+the orthotropic Young’s moduli and fabric,” Journal of Biome-
+chanics, vol. 25, no. 12, pp. 1493–1494, 1992.
+[23] D. R. Carter and W. C. Hayes, “Bone compressive strength: the
+inﬂuence of density and strain rate,” Science, vol. 194, no. 4270,
+pp. 1174–1175, 1976.
+[24] J. S. Alwood, K. Yumoto, R. Mojarrab et al., “Heavy ion ir-
+radiation and unloading eﬀects on mouse lumbar vertebral
+microarchitecture, mechanical properties and tissue stresses,”
+Bone, vol. 47, no. 2, pp. 248–255, 2010.
+[25] E. R. Bandstra, M. J. Pecaut, E. R. Anderson et al., “Long-term
+dose response of trabecular bone in mice to proton radiation,”
+Radiation Research, vol. 169, no. 6, pp. 607–614, 2008.

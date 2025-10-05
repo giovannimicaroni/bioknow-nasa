@@ -1,0 +1,380 @@
+1 of 5
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034; http://www.bioone.org/loi/apps ©  2013  Schultz et al. Published by the Botanical Society of America.
+ This work is licensed under a Creative Commons Attribution License (CC-BY-NC-SA). 
+Ap
+Applicatitions
+ons
+inin Pl
+ Plant t Scien
+Sciences
+ces
+ Experimental ﬂ exibility is a luxury often taken for granted 
+in typical laboratory science. Adapting a protocol in response 
+to unfolding information as the experiment proceeds is a key 
+element in discovery and is standard practice. In spaceﬂ ight, 
+this luxury is not as accessible; crew time is highly regulated, 
+orbital resources are limited, and protocols are tightly controlled 
+once in place. In addition, the up-mass available to each re-
+searcher is limited, which restricts the choices of experimental 
+treatments and orbital ﬁ xation options. These constraints often 
+translate into hard choices that limit the scientiﬁ c return on 
+investment, including sacriﬁ cing the number of replicates to 
+enable additional treatment and ﬁ xation scenarios. As a conse-
+quence, options that allow maximization of the data obtained 
+from a single sample are highly valued. 
+ Biological experiments are typically required to be segre-
+gated based on the analyses to be performed upon return from 
+spaceﬂ ight. These segregated conditions are usually either mo-
+lecular or morphological, due to the separate ﬁ xatives required 
+for each application (e.g.,  Stutte et al., 2006 ). Investigations 
+focused on transcriptome analyses, for instance, would not be 
+likely to commit a portion of their limited up-mass on samples 
+and associated ﬁ xation hardware for morphological applications, 
+and would miss the opportunity to use both morphological 
+and molecular perspectives. These limitations are keenly felt in 
+scenarios where the transcriptome analyses reveal spaceﬂ ight-
+speciﬁ c patterns of gene expression central to morphological 
+patterns of cell growth and development. This scenario was en-
+countered in a recent spaceﬂ ight experiment, in which telemet-
+ric imaging revealed interesting spaceﬂ ight-associated root 
+morphologies ( Paul et al., 2012 ). All material was ﬁ xed on orbit 
+in RNA later (Ambion, Grand Island, New York, USA) to facili-
+tate transcriptome analyses on returned samples. 
+ Although it is possible to partition an experiment into mo-
+lecular and morphological components, using samples that cor-
+respond directly to those used in molecular applications would 
+be of extreme value. A single ﬁ xation protocol better enables 
+the full use of replicates to support a robust power analysis; 
+all plant material allowed by the up-mass constraints can be 
+dedicated to a single application per orbital treatment. Addi-
+tionally, the plant material apportioned for microscopy can be 
+taken directly from the pool of material whose balance repre-
+sents a molecular replicate; thus, any morphologic change seen 
+in these plants would directly reﬂ ect the effects of the altered 
+gene expressions from those same plants. Terrestrial ﬁ eld stud-
+ies could also beneﬁ t from this single ﬁ xative approach for 
+similar reasons. 
+ Despite its use as a molecular ﬁ xative, RNA later is not com-
+monly used as a morphologic ﬁ xative. RNA later ﬁ xation pro-
+duces unclear images with high background staining ( Cadoret 
+et al., 2013 ) and reduces immunoﬂ uorescent signals ( Zaitoun 
+et al., 2010 ;  Paul and Ferl, 2011 ). This intracellular occlusion 
+eliminates the possibility of clear subcellular localizations. 
+ 1 Manuscript received 30 April 2013; revision accepted 9 July 2013. 
+ The authors wish to thank Kim Backer-Kelley and Byung-Ho Kang for 
+additional support in experimental design and execution. The authors also 
+wish to thank Agata Zupanska, Fiona Denison, and Lawrence Rasmussen for 
+editorial input on this manuscript. This work was supported by the National 
+Aeronautics and Space Administration (NASA; grants NNX07AH270 and 
+NNX09AL96G to R.J.F. and A-L.P.). 
+ 5 Author for correspondence: robferl@uﬂ .edu 
+ doi:10.3732/apps.1300034 
+ PROTOCOL NOTE 
+ A METHOD FOR PREPARING SPACEFLIGHT RNA LATER -FIXED 
+ ARABIDOPSIS THALIANA  (BRASSICACEAE) TISSUE FOR SCANNING 
+ELECTRON MICROSCOPY 1 
+ ERIC  R.  SCHULTZ 2 ,  KAREN  L.  KELLEY 3 ,  ANNA-LISA  PAUL 2 ,  AND  ROBERT  J.  FERL  2,3,4,5  
+ 2 Program in Plant Molecular and Cellular Biology, Horticultural Science Department, University of Florida, Gainesville, Florida 
+32611 USA;  3 Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, Florida 32610 USA; and 
+ 4 Horticultural Sciences Department, University of Florida, Gainesville, Florida 32611 USA 
+ •  Premise of the study: In spaceﬂ ight experiments, tissues for morphologic study are ﬁ xed in 3% glutaraldehyde, while tissues 
+for molecular study are ﬁ xed in RNA later ; thus, an experiment containing both study components requires multiple ﬁ xation 
+strategies. The possibility of using RNA later -ﬁ xed materials for standard SEM-based morphometric investigation was ex-
+plored to expand the library of tissues available for analysis and maximize usage of samples returned from spaceﬂ ight, but these 
+technologies have wide application to any situation where recovery of biological resources is limited. 
+ •  Methods and Results: RNA later -ﬁ xed samples were desalinated in distilled water, dehydrated through graded methanol, 
+plunged into liquid ethane, and transferred to cryovials for freeze-substitution. Sample tissues were critical point dried, 
+mounted, sputter-coated, and imaged. 
+ •  Conclusions: The protocol resulted in acceptable SEM images from RNA later -ﬁ xed  Arabidopsis thaliana tissue. The majority 
+of the tissues remained intact, including general morphology and ﬁ ner details such as root hairs and trichomes. 
+ Key words:  Arabidopsis thaliana ; RNA later ; scanning electron microscopy; SEM; spaceﬂ ight. 
+
+2 of 5
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034 
+ Schultz et al.—Spaceﬂ ight RNA later Arabidopsis SEM 
+ doi:10.3732/apps.1300034 
+http://www.bioone.org/loi/apps
+with CO 2 , followed by three 10-min inﬁ ltrations. One ﬁ nal exchange was per-
+formed and left overnight. Two additional 10-min inﬁ ltrations were performed, 
+followed by CPD with controlled venting. Samples were in solution until 
+the end of CPD. Dry samples in baskets were transferred to a desiccant-ﬁ lled 
+(Drierite; W. A. Hammond Drierite Company, Xenia, Ohio, USA) sealable con-
+tainer until being mounted on stubs using carbon adhesive and returned to a 
+stub rack within a different desiccant-ﬁ lled sealable container. Mounted sam-
+ples were sputter-coated for 90 s with a gold-palladium alloy (Desk V HP; Denton 
+Vacuum, Moorestown, New Jersey, USA) and imaged on a scanning electron 
+microscope (Hitachi S-4000; Hitachi, Tokyo, Japan). 
+ Initial observations were focused on roots, resolution of cell ﬁ les, and reten-
+tion of root hairs throughout the processing of the tissue ( Fig. 2 ) . Later tests 
+observed trichomes and more durable tissues, such as adaxial leaf surfaces and 
+seed coats ( Fig. 2A–C ). The fresh-frozen tissues, used as protocol development 
+control material, retained ﬁ ner details, including closed stomata and normal 
+trichome morphology ( Fig. 2D, E ). RNA later -ﬁ xed test materials yielded simi-
+lar images as the fresh-frozen plants, with minimal additional tissue damage 
+( Fig. 2F–K ). 
+ Spaceﬂ ight materials and the corresponding ground controls, both ﬁ xed in 
+RNA later , were processed using the protocol discussed above and detailed 
+in Appendix 1. Tissues yielded images of acceptable quality, with minimal cell 
+wrinkling and high retention of ﬁ ne details ( Fig. 2J, K ). The focus of these 
+samples was root structure, morphology, and root hair retention because of in-
+teresting molecular and genetic observations from a recent spaceﬂ ight experi-
+ment ( Paul et al., 2012 ; Paul et al., unpublished ). 
+ Cost of the developed protocol is minimal, while the accessibility is high. 
+Assuming the microscopy core to be used has standard SEM capability, the ad-
+ditional cost of this protocol is merely the cost of consumables. These compo-
+nents are readily available and likely already obtained by the laboratory 
+interested in using this protocol. Another advantage of this protocol is a near 
+retention of tissue morphology at a fresh harvest state. Not only are ﬁ ner elements 
+of tissues retained ( Fig. 2D–I ), but other tissues, such as the adaxial leaf epider-
+mis, seed coat, and ﬂ oral stalk ( Fig. 2A–C ), produce results comparable to those 
+processed through dedicated morphologic means (e.g.,  Bhargava et al., 2013 ). 
+The amount of time needed for this process is slightly longer than other stan-
+dard SEM processing times, with an additional 4 h for the desalination washes 
+and several days required for freeze substitution. Hand-plunged samples may 
+be processed in batches to increase throughput, being limited to the number of 
+samples able to be held with a pair of forceps without compromising structural 
+integrity. Examples of other SEM protocols may be seen in  Liu et al. (2008) , 
+ Koizumi et al. (2010) ,  Springer et al. (2010) , and  Yi et al. (2010) . As a result of 
+this protocol, samples ﬁ xed with RNA later retained many ﬁ ne features includ-
+ing root hairs and trichomes, with a majority of cells inﬂ ated and displaying 
+fresh-frozen–like morphology, regardless of whether they were harvested dur-
+ing spaceﬂ ight or on the ground. 
+ CONCLUSIONS 
+ The protocol presented here provides distinct advantages for 
+both spaceﬂ ight and ground-based experimental applications. 
+ Arabidopsis plants harvested on the International Space Station 
+by astronauts were successfully retrieved from RNA later and 
+processed to produce acceptable quality images without the use 
+of a dedicated morphologic ﬁ xative ( Fig. 2J, K ). Field studies 
+may also beneﬁ t from the use of this protocol. As in spaceﬂ ight, 
+the amount of materials able to be carried and used during an 
+expedition is limited. With the option of using one stable, safe 
+chemical ﬁ xative for all desired studies to be conducted upon 
+return, scientists in the ﬁ eld may be able to collect more data 
+with fewer trips. This protocol may also assist laboratories with 
+libraries of samples in RNA later by expanding the available 
+techniques for study. 
+ Alternative imaging techniques outside the scope of this 
+investigation provide alternatives to this protocol. True cryo-
+SEM would likely be an acceptable alternative (examples 
+may be seen in  Koroleva et al., 2010 ;  Sarsby et al., 2012 ; and 
+ Yu et al., 2013 ), though desalination of specimens prior to tis-
+sue processing would still be beneﬁ cial. A second option is 
+However, the external morphology appears to be preserved in a 
+fresh-like state, which suggests that RNA later may be accept-
+able for use in scanning electron microscopy (SEM). Two cases 
+in the literature report the use of RNA later in a morphological 
+investigation.  Behrendt et al. (2011) reported that coral covered 
+in crustose coralline algae was ﬁ xed in RNA later , postﬁ xed in 
+2% glutaraldehyde, rinsed in sodium cacodylate, and postﬁ xed 
+again in OsO 4 prior to SEM investigations.  Hofer et al. (2012) 
+used SEM in their study on ﬂ oral organs of  Clermontia species 
+using RNA later as their main ﬁ xative with a hexamethyldisila-
+zane drying step. In the current study, both of the above tech-
+niques resulted in signiﬁ cant tissue damage in  Arabidopsis . 
+ An alternative to ﬁ xation in SEM sample preparation is freez-
+ing. Cryo-SEM does not require prior ﬁ xation, but instead pre-
+serves tissues in a fresh-like state for imaging ( Koroleva et al., 
+2010 ;  Sarsby et al., 2012 ;  Yu et al., 2013 ). However, few labo-
+ratories have access to such equipment, and the equipment and 
+operation can often be expensive. Therefore, this study inves-
+tigated the possibility of emulating cryo-SEM on a standard 
+SEM, a “cryo-analog,” where tissue would ﬁ rst be returned to a 
+fresh-like state for freezing prior to imaging. 
+ METHODS AND RESULTS 
+ For process development, test samples of 9–12-d-old  A. thaliana var.  colum-
+bia (Col-0) or Wassilewskija (WS) (The Arabidopsis Information Resource 
+[TAIR], Columbus, Ohio, USA) were harvested into RNA later and ﬁ xed over-
+night at ambient room temperature. Fixed plants, along with freshly harvested 
+individuals of the same age, were washed in distilled water with gentle rocking 
+for four 1-h increments. This washing step was designed to desalinate RNA lat-
+er -ﬁ xed samples, as the salt crystals were found to damage tissue during subse-
+quent steps ( Fig. 1A, B ) . Desalination also returned the plants to a fresh-like 
+state ( Fig. 1C, D ) suitable for ﬂ ash-freezing. Tissues were dissected immedi-
+ately following the ﬁ nal wash into 5–10-mm lengths to ﬁ t on the SEM sample 
+stage (“stub”). 
+ The ﬁ rst two protocols tested provided valuable lessons. The ﬁ rst cryo-
+analog protocol was ﬂ ash freezing in liquid nitrogen (LN 2 ). Tissues were severely 
+damaged, primarily due to rapid crystallization of water into ice, physically 
+compromising cellular integrity. The second protocol tested was high-pressure 
+freezing (HPF; Bal-Tec HPM100; Leica Microsystems, Wetzlar, Germany), 
+which resulted in vitriﬁ ed ice and a greater freezing depth. The noncrystalline 
+structure prevented physical damage, but the roots had a tendency to stick to the 
+planchettes and break ( Fig. 1E, F ). 
+ The third protocol tested was based on the lessons learned and resulted in 
+minimal tissue damage. The risk of water–ice crystal formation and planchette 
+adhesion was minimized using a variety of methods. Samples were run through 
+a methanol dehydration gradient, starting at 10% and increasing at 10% inter-
+vals, for 10 min at each step. An optional wash of 0.1% tannic acid in methanol 
+was used to enhance electron density ( Mizuhira et al., 1972 ;  Roholl et al., 
+1981 ).  Arabidopsis tissues were hand-plunged using forceps into LN 2 -cooled 
+liquid ethane, which vitriﬁ ed any remaining water in each sample. These rapid 
+hand-performed plunges provided more control and less damage than auto-
+mated plunge devices. Samples were immediately transferred to LN 2 -cooled 
+individual cryovials, containing either 2% OsO 4 in MeOH or 0.5% glutaralde-
+hyde in 0.1% tannic acid. The headspace in each vial was ﬁ lled with LN 2 to 
+prevent samples being lost or damaged due to static electric effects. Cryovials 
+were placed into freeze substitution (Leica EM AFS2; Leica Microsystems) to 
+increase the temperature to 10 ° C over the course of 4–10 d. Cryovial caps were 
+left slightly loose to vent nitrogen gas. Once the temperature reached 10 ° C, 
+cryovials were removed, opened, and tissues were transferred to tissue baskets 
+(SPI microporous specimen capsules, 120–200  μ m pore size; Structure Probe 
+Inc., West Chester, Pennsylvania, USA) while submerged in chilled (4 ° C) 
+methanol. This transfer took place at ambient room temperature; the chilled 
+methanol submersion is enough to maintain the integrity of the tissues. Individual 
+baskets were labeled using pencil on a small piece of paper approximately 
+2 mm 2 , as external labels were removed during the drying phase. Drying oc-
+curred via liquid CO 2 critical point drying (CPD; Bal-Tec CPD 030; Leica Micro-
+systems). Eleven quick-cycled washes replaced most of the loading methanol 
+
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034 
+ Schultz et al.—Spaceﬂ ight RNA later Arabidopsis SEM 
+ doi:10.3732/apps.1300034 
+3 of 5
+http://www.bioone.org/loi/apps
+ Hansma et al., 1989 ;  Ushiki et al., 2012 ). Due to the high ionic 
+content of RNA later and the necessity for an ionic submersion 
+liquid for SICM, it is possible that this instrument could gen-
+erate comparable images without any tissue processing. This 
+a cryo-holder, seen in  Tang et al. (2012) , which may prove to 
+be an acceptable alternative step in this protocol if the SEM 
+being used can handle the LN 2 vapors. A third alternative is 
+scanning ion conductance microscopy (SICM;  Marti et al., 1988 ; 
+ Fig. 1. Preliminary RNA later -ﬁ xation investigations. (A, B)  Arabidopsis root tip (A) and root tissue (B) were processed through an ethanol dehydra-
+tion gradient. Tissues were then processed following the protocol in Appendix 1, starting at the critical-point-drying step. No desalination step occurred. 
+800 × , scale bars = 37.5  μ m. (C, D) Light microscopy of fresh-harvested (C) and RNA later -ﬁ xed (D)  Arabidopsis trichomes displaying similar external 
+morphology. 400 × , scale bars = 500  μ m. (E, F)  Arabidopsis root tip (E) and root tissue (F) processed by high-pressure freezing as described in the Methods 
+and Results section. Note fracturing in (F) due to planchette adhesion. 500 × , scale bars = 60.0  μ m. 
+
+4 of 5
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034 
+ Schultz et al.—Spaceﬂ ight RNA later Arabidopsis SEM 
+ doi:10.3732/apps.1300034 
+http://www.bioone.org/loi/apps
+this process needs to be adapted to each sample being studied, 
+it enhances ﬂ exibility in experiments when the main objective 
+is not imaging. 
+ LITERATURE CITED 
+ BEHRENDT ,  L. ,  A. W.  LARKUM ,  A.  NORMAN ,  K.  QVORTRUP ,  M.  CHEN ,  P. 
+ RALPH ,  S. J.  SORENSEN ,  ET AL .  2011 .   Endolithic chlorophyll  d -containing 
+phototrophs.  The ISME Journal  5 :  1072 – 1076 .  
+ BHARGAVA ,  A. ,  A.  AHAD ,  S.  WANG ,  S. D.  MANSFIELD ,  G. W.  HAUGHN ,  C. 
+J.  DOUGLAS , AND  B. E.  ELLIS .  2013 .   The interacting MYB75 and 
+KNAT7 transcription factors modulate secondary cell wall deposition 
+both in stems and seed coat in Arabidopsis.  Planta  237 :  1199 – 1211 .  
+ CADORET ,  K. ,  A. R.  BRIDLE ,  M. J.  LEEF , AND  B. F.  NOWAK .  2013 .   Evaluation 
+of ﬁ xation methods for demonstration of  Neoparamoeba perurans 
+infection in Atlantic salmon,  Salmo salar L., gills.  Journal of Fish 
+Diseases doi:10.1111/jfd.12078. 
+ HANSMA ,  P. K. ,  B.  DRAKE ,  O.  MARTI ,  S. A.  GOULD , AND  C. B.  PRATER .  1989 . 
+ The scanning ion-conductance microscope.  Science  243 :  641 – 643 .  
+ HOFER ,  K. A. ,  R.  RUONALA , AND  V. A.  ALBERT .  2012 .   The double-corolla 
+phenotype in the Hawaiian lobelioid genus  Clermontia involves 
+possibility was not tested due to lack of access to the necessary 
+equipment. 
+ The protocol reported here will likely require optimization 
+for each desired tissue to be tested.  Arabidopsis is a very fragile 
+tissue, with limited ﬂ at surfaces and small organ sizes. Other 
+plants that may be more robust may tolerate a rougher tech-
+nique, while more fragile tissues (i.e., ﬂ oral tissues) may need 
+a more gentle approach. Some potential additional steps to 
+enhance tissue integrity include a postﬁ xation step or revers-
+ing CPD and sputter-coating. A postﬁ xation step (as seen in 
+ Behrendt et al., 2011 ), which would take place after the desali-
+nation, could improve tissue integrity during the cryo-analog 
+plunge, especially if ﬁ xatives for electron microscopy, such as 
+Karnovsky’s or OsO 4 , are used. Sputter-coating prior to CPD 
+(as seen in  Yi et al., 2010 ) may also improve the physical tissue 
+integrity, though both mounting prior to CPD and pulling a 
+vacuum during the coating process may prove difﬁ cult. 
+ The use of this protocol provides more morphological op-
+portunities for samples that would have previously been wasted 
+due to improper ﬁ xation. It is designed to be a supplement to 
+rather than a replacement of SEM standard practices. Although 
+ Fig. 2. SEM images of  Arabidopsis tissue processed using the protocol described in the Methods and Results section and Appendix 1. (A) Adaxial leaf 
+epidermis (3500 × , scale bar = 8.57  μ m). (B) Seed coat (900 × , scale bar = 33.3  μ m). (C) Floral stalk (1300 × , scale bar = 23.1  μ m). (D) Fresh-harvested 
+stoma (3000 × , scale bar = 10.0  μ m). (E) Fresh-harvested trichome (447 × , scale bar = 67.2  μ m). (F) RNA later -ﬁ xed ground control stoma (3500 × , scale bar = 
+8.57  μ m). (G) RNA later -ﬁ xed spaceﬂ ight stoma (3000 × , scale bar = 9.99  μ m). (H) RNA later -ﬁ xed spaceﬂ ight root tip (500 × , scale bar = 30.0  μ m). (I) 
+RNA later -ﬁ xed spaceﬂ ight root section (450 × , scale bar = 66.7  μ m). Obscuring wrinkles are root hairs pressed on root surface. (J) RNA later -ﬁ xed ground 
+control root section (700 × , scale bar = 42.9  μ m). (K) RNA later -ﬁ xed spaceﬂ ight root section (700 × , scale bar = 42.9  μ m). 
+
+ Applications in Plant Sciences  2013  1 ( 8 ): 1300034 
+ Schultz et al.—Spaceﬂ ight RNA later Arabidopsis SEM 
+ doi:10.3732/apps.1300034 
+5 of 5
+http://www.bioone.org/loi/apps
+ectopic expression of  PISTILLATA B-function MADS box gene ho-
+mologs.  EvoDevo  3 :  26 .  
+ KOIZUMI ,  A. ,  K.  YAMANAKA ,  K.  NISHIHARA ,  Y.  KAZAMA ,  T.  ABE , AND  S. 
+ KAWANO .  2010 .   Two separate pathways including SlCLV1, SlSTM 
+and SlCUC that control carpel development in a bisexual mutant of 
+ Silene latifolia.  Plant & Cell Physiology  51 :  282 – 293 .  
+ KOROLEVA ,  O. A. ,  T. M.  GIBSON ,  R.  CRAMER , AND  C.  STAIN .  2010 . 
+ Glucosinolate-accumulating S-cells in Arabidopsis leaves and ﬂ ower 
+stalks undergo programmed cell death at early stages of differentia-
+tion.  The Plant Journal  64 :  456 – 469 .  
+ LIU ,  J. ,  D.  HA ,  Z.  XIE ,  C.  WANG ,  H.  WANG ,  W.  ZHANG ,  J.  ZHANG ,  ET AL .  2008 . 
+ Ectopic expression of soybean  GmKNT1 in  Arabidopsis results in al-
+tered leaf morphology and ﬂ ower identity.  Journal of Genetics and 
+Genomics = Yi Chuan Xue Bao  35 :  441 – 449 .  
+ MARTI ,  O. ,  V.  ELINGS ,  M.  HAUGAN ,  C. E.  BRACKER ,  J.  SCHNEIR ,  B.  DRAKE , 
+ S. A.  GOULD ,  ET AL .  1988 .   Scanning probe microscopy of biological 
+samples and other surfaces.  Journal of Microscopy  152 :  803 – 809 .  
+ MIZUHIRA ,  V. ,  Y.  FUTAESAK , AND  A.  NISHI .  1972 .   New ﬁ xation method 
+using tannic acid and ultrastructure of microtubules.  Journal of 
+Electron Microscopy  21 :  233 – 236 . 
+ PAUL ,  A.-L. , AND  R.  FERL .  2011 .   Using Green Fluorescent Protein (GFP) 
+reporter genes in RNA later ™ ﬁ xed tissue.  Gravitational and Space 
+Biology  25 :  40 – 43 . 
+ PAUL ,  A.-L. ,  C. E.  AMALFITANO , AND  R. J.  FERL .  2012 .   Plant growth 
+strategies are remodeled by spaceﬂ ight.  BMC Plant Biology  12 :  232 . 
+ ROHOLL ,  P. J. ,  W.  LEENE ,  M. L.  KAPSENBERG , AND  J. G.  VOS .  1981 .   The 
+use of tannic acid ﬁ xation for the electron microscope visualization 
+of ﬂ uorochrome-labelled antibodies attached to cell surface antigens. 
+ Journal of Immunological Methods  42 :  285 – 289 .  
+ SARSBY ,  J. ,  M. W.  TOWERS ,  C.  STAIN ,  R.  CRAMER , AND  O. A.  KOROLEVA . 
+ 2012 .   Mass spectrometry imaging of glucosinolates in Arabidopsis 
+ﬂ owers and siliques.  Phytochemistry  77 :  110 – 118 .  
+ SPRINGER ,  D. J. ,  P.  REN ,  R.  RAINA ,  Y.  DONG ,  M. J.  BEHR ,  B. F.  MCEWEN , 
+ S. S.  BOWSER ,  ET AL .  2010 .   Extracellular ﬁ brils of pathogenic yeast 
+ Cryptococcus gattii are important for ecological niche, murine viru-
+lence and human neutrophil interactions.  PLoS ONE  5 :  e10978 .  
+ STUTTE ,  G. W. ,  O.  MONJE ,  R. D.  HATFIELD ,  A. L.  PAUL ,  R. J.  FERL , AND 
+ C. G.  SIMONE .  2006 .   Microgravity effects on leaf morphology, cell 
+structure, carbon metabolism and mRNA expression of dwarf wheat. 
+ Planta  224 :  1038 – 1049 .  
+ TANG ,  C. Y. ,  R. N.  HUANG ,  L. L.  KUO-HUANG ,  T. C.  KUO ,  Y. Y.  YANG ,  C. Y. 
+ LIN ,  W. N.  JANE ,  ET AL .  2012 .   A simple cryo-holder facilitates speci-
+men observation under a conventional scanning electron microscope. 
+ Microscopy Research and Technique  75 :  103 – 111 .  
+ USHIKI ,  T. ,  M.  NAKAJIMA ,  M.  CHOI ,  S. J.  CHO , AND  F.  IWATA .  2012 .   Scanning 
+ion conductance microscopy for imaging biological samples in liquid: 
+A comparative study with atomic force microscopy and scanning elec-
+tron microscopy.  Micron (Oxford, England)  43 :  1390 – 1398 .  
+ YI ,  B. ,  F.  ZENG ,  S.  LEI ,  Y.  CHEN ,  X.  YAO ,  Y.  ZHU ,  J.  WEN ,  ET AL .  2010 . 
+ Two duplicate  CYP704B1 -homologous genes  BnMs1 and  BnMs2 
+are required for pollen exine formation and tapetal development in 
+ Brassica napus.  The Plant Journal  63 :  925 – 938 .  
+ YU ,  Z. ,  H.  CHEN ,  Y.  TONG , AND  P.  WU .  2013 .   Analysis of rice root hair 
+morphology using cryo-scanning electron microscopy.  Methods in 
+Molecular Biology (Clifton, N.J.)  956 :  243 – 248 .  
+ ZAITOUN ,  I. ,  C. S.  ERICKSON ,  K.  SCHELL , AND  M. L.  EPSTEIN .  2010 .   Use of 
+RNAlater in ﬂ uorescence-activated cell sorting (FACS) reduces the ﬂ uo-
+rescence from GFP but not from DsRed.  BMC Research Notes  3 :  328 .  
+ APPENDIX 1. Generalized protocol for RNA later -ﬁ xed sample preparation for SEM investigation. 
+ 1. Wash samples in distilled H 2 O for four 1-h increments. 
+ 2. Dissect samples to ﬁ t onto SEM stubs and place into SPI microporous specimen capsules (120–200  μ m pore size; Structure Probe Inc., West Chester, Pennsylvania, USA). 
+ 3. Dehydrate in graded MeOH (10–100%, 10% intervals) at 10 min per step. 
+ 4. Plunge in LN 2 -cooled ethane. 
+ 5. Immediately transfer to cryovials containing either 2% OsO 4 in MeOH or 0.5% glutaraldehyde in 0.1% tannic acid in acetone. 
+ 6. Freeze-substitution (LN 2 at 4 ° C) for 4–10 d. 
+ 7. Perform 11 quick washes (start with MeOH in chamber; cool 10 ° C for CO 2 ), followed by three inﬁ ltrating washes, leaving the ﬁ nal overnight. 
+ 8. Perform two additional inﬁ ltrations prior to critical point drying. 
+ 9. Critical point dry samples following manufacturer’s guidelines and transfer to dessicant-ﬁ lled box. 
+ 10. Clean stubs (if necessary) with acetone sonication. 
+ 11. Mount samples on stubs with thick carbon adhesive. 
+ 12. Sputter-coat samples for 90 s in gold-palladium alloy. 
+ 13. Proceed to SEM imaging. 
+ Chemicals needed: water, RNA later (for ﬁ xation; Ambion, Grand Island, New York, USA), MeOH (for dehydration), LN 2 , ethane, CO 2 . Cryovials: OsO 4 and MeOH, 
+or glutaraldehyde, tannic acid, and acetone. 

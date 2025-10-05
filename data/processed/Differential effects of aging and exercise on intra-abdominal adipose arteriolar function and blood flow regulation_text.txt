@@ -1,0 +1,1102 @@
+Differential effects of aging and exercise on intra-abdominal adipose arteriolar
+function and blood ﬂow regulation
+Robert T. Davis, III,1 John N. Stabley,1 James M. Dominguez, II,1 Michael W. Ramsey,2
+Danielle J. McCullough,1 Lisa A. Lesniewski,3,4 Michael D. Delp,1 and Brad J. Behnke1
+1Department of Applied Physiology and Kinesiology and the Center for Exercise Science, University of Florida, Gainesville,
+Florida; 2Department of Kinesiology, Leisure and Sport Science, East Tennessee State University, Johnson City, Tennessee;
+and 3Department of Internal Medicine, Division of Geriatrics, University of Utah, Salt Lake City, Utah; and 4Veterans
+Administration Salt Lake City Health Care System, Geriatrics Research, Education, and Clinical Center, Salt Lake City, Utah
+Submitted 8 November 2012; accepted in ﬁnal form 22 January 2013
+Davis RT 3rd, Stabley JN, Dominguez JM 2nd, Ramsey MW,
+McCullough DJ, Lesniewski LA, Delp MD, Behnke BJ. Differential
+effects of aging and exercise on intra-abdominal adipose arteriolar func-
+tion and blood ﬂow regulation. J Appl Physiol 114: 808–815, 2013. First
+published January 24, 2013; doi:10.1152/japplphysiol.01358.2012.—Ad-
+ipose tissue (AT), which typically comprises an increased percentage
+of body mass with advancing age, receives a large proportion of
+resting cardiac output. During exercise, an old age-associated inability
+to increase vascular resistance within the intra-abdominal AT may
+compromise the ability of the cardiovascular system to redistribute
+blood ﬂow to the active musculature, contributing to the decline in
+exercise capacity observed in this population. We tested the hypoth-
+eses that 1) there would be an elevated perfusion of AT during
+exercise with old age that was associated with diminished vasocon-
+strictor responses of adipose-resistance arteries, and 2) chronic exer-
+cise training would mitigate the age-associated alterations in AT
+blood ﬂow and vascular function. Young (6 mo; n  40) and old (24
+mo; n  28) male Fischer 344 rats were divided into young sedentary
+(YSed), old sedentary (OSed), young exercise trained (YET), or old
+exercise trained (OET) groups, where training consisted of 10-12 wk
+of treadmill exercise. In vivo blood ﬂow at rest and during exercise
+and in vitro -adrenergic and myogenic vasoconstrictor responses in
+resistance arteries from AT were measured in all groups. In response
+to exercise, there was a directionally opposite change in AT blood
+ﬂow in the OSed group (150% increase) and YSed (55% de-
+crease) vs. resting values. Both -adrenergic and myogenic vasocon-
+striction were diminished in OSed vs. YSed AT-resistance arteries.
+Exercise training resulted in a similar AT hyperemic response be-
+tween age groups during exercise (YET, 9.9  0.5 ml·min1·1001 g;
+OET, 8.1  0.9 ml·min1·1001 g) and was associated with enhanced
+myogenic and -adrenergic vasoconstriction of AT-resistance arteries
+from the OET group relative to OSed. These results indicate that there
+is an inability to increase vascular resistance in AT during exercise
+with old age, due, in part, to a diminished vasoconstriction of AT
+arteries. Furthermore, the results indicate that exercise training can
+augment vasoconstriction of AT arteries and mitigate age-related
+alterations in the regulation of AT blood ﬂow during exercise.
+aging; adipose tissue; blood ﬂow; -adrenergic vasoconstriction;
+exercise
+BY THE YEAR 2030, INDIVIDUALS, 85 years and older, will constitute
+the fastest-growing segment of the population in the United
+States (1), and aging is associated with a decline in maximal
+exercise capacity (23, 41, 55, 57, 59, 72), which may contribute
+to the adoption of a more sedentary lifestyle. During the
+transition from rest to exercise, a rapid redistribution of pe-
+ripheral blood ﬂow is essential to maintain central venous
+return and the instantaneous elevation of cardiac output (30), as
+well as augment oxygen (O2) delivery to the active muscula-
+ture to match the immediate increase (2 s) in O2 consumption
+(7). However, during exercise (52), heat stress (38), and ortho-
+static challenges (61), whole-body hemodynamics (i.e., cardiac
+output distribution and perturbations in arterial pressure) are
+altered in old vs. young subjects. In particular, during exercise,
+old age-associated alterations in muscle blood ﬂow (10, 21, 46,
+77) result in a mismatching of O2 delivery to O2 consumption
+(9, 14, 22), which would expectedly contribute to an age-
+related functional decline. Whether aging affects the distribu-
+tion of blood ﬂow to other tissues, such as adipose tissue (AT),
+during exercise remains to be determined.
+We have demonstrated recently that arterial pressure in old
+rats decreases during an orthostatic challenge, which was
+associated with an inability to elevate vascular resistance in
+white AT (61). Furthermore, there was a severely diminished
+-adrenergic vasoconstriction in AT-resistance arteries with
+old age (61). Given that AT makes up a greater proportion of
+body composition with aging in rats (18) and humans (11), a
+reduced vasoconstriction of resistance vessels from this tissue
+could have signiﬁcant ramiﬁcations on the ability to regulate
+AT blood ﬂow in aged individuals to maintain arterial pressure
+and muscle blood ﬂow during exercise (19).
+The primary role of white AT is the storage and mobilization
+of lipids. However, white AT is also regarded as an endocrine
+organ (27), as white adipocytes produce mediators that inﬂu-
+ence metabolism of lipids and glucose and immune responses
+(73, 74). Regulation of AT blood ﬂow is complex and largely
+inﬂuenced by pathologies {e.g., type II diabetes and insulin
+resistance (28, 36), body composition [obesity (71)], nutri-
+tional state [fasting vs. postprandial (70)], and the anatomical
+location of AT [e.g., central vs. peripheral; for review, see
+Sotornik et al. (64)]}. Although white AT lacks signiﬁcant
+parasympathetic innervation (29), there is substantial neuro-
+anatomical and neurochemical evidence of a differential sym-
+pathetic nervous system (SNS) innervation depending on ana-
+tomical location [for review, see Bartness and Bamshad (5)].
+Electrical stimulation of nerves innervating white AT results in
+a vasoconstriction that is abolished by the -adrenergic recep-
+tor blockade (54), suggesting that the regulation of AT blood
+ﬂow is inﬂuenced largely by the SNS. During short-duration
+exercise (30 min) in young, healthy subjects, there is an
+immediate decrease in blood ﬂow to the viscera (2), as well as
+subcutaneous and epididymal AT (45), likely consequent to
+Address for reprint requests and other correspondence: B. J. Behnke, Dept.
+of Applied Physiology and Kinesiology and the Center for Exercise Science,
+Univ. of Florida, Gainesville, FL 32611 (e-mail: bjbehnke@hhp.uﬂ.edu).
+J Appl Physiol 114: 808–815, 2013.
+First published January 24, 2013; doi:10.1152/japplphysiol.01358.2012.
+http://www.jappl.org
+808
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+activation of sympathetic vasoconstrictor neurons. The reduc-
+tion of blood ﬂow to these tissues during exercise contributes,
+in part, to the effective redistribution of cardiac output to
+maximize perfusion of the active musculature and maintenance
+of systemic vascular resistance (2, 19). However, given the old
+age-associated diminution of -adrenergic vasoconstriction in
+resistance arteries from white AT (61), it is likely that AT
+blood ﬂow will either remain similar to resting values or
+possibly be elevated during the transition from rest to exercise
+with old age.
+As AT receives a large proportion of cardiac output (8–
+12%) under normal resting conditions (18), old age-associated
+alterations in AT blood ﬂow could have signiﬁcant conse-
+quences on the ability to redirect blood ﬂow to active tissue
+during physical activity in the elderly population. However, the
+effects of aging and exercise on AT blood ﬂow are unknown.
+Therefore, the purpose of this investigation was to test the
+hypotheses that with old age, 1) there is an inability to mod-
+ulate AT blood ﬂow during short-duration dynamic exercise,
+and 2) the altered adipose blood ﬂow response with old age
+will be associated with a diminished -adrenergic and myo-
+genic vasoconstriction of resistance arteries from AT. Given
+the ability of exercise training to enhance adrenergic vasocon-
+striction in muscle that is not actively recruited during exercise
+(43), as well as myogenic vasoconstriction (50), the second
+part of this study was to determine whether chronic exercise
+training can 1) mitigate putative alterations in AT perfusion
+during exercise and 2) improve -adrenergic and myogenic
+vasoconstriction in adipose-resistance arteries.
+METHODS
+All procedures were approved by the Institutional Animal Care and
+Use Committee at Texas A&M University and the University of
+Florida. All methods complied fully with the National Institutes of
+Health’s Guide for the Care and Use of Laboratory Animals, revised
+1996. Male Fischer 344 rats were obtained at ages 4–5 mo and 22 mo
+and studied at 6 mo and 24 mo to represent young (n  40) and old
+(n  28) animals, respectively. The rats were housed individually at
+23°C, maintained on a 12:12-h light-dark cycle, and provided rat
+chow and water ad libitum. This strain was chosen because cardio-
+vascular function decreases with age in these rats without the devel-
+opment of hypertension and atherosclerosis (42).
+Endurance exercise training. Young and old rats were assigned
+randomly to a sedentary (Sed) control group [young (YSed), n  21;
+old (OSed), n  13] or an exercise-trained (ET) group [young (YET),
+n  19; old (OET), n  15]. ET rats were habituated to treadmill
+exercise, during which each rat walked on a motor-driven treadmill at
+15 m/min (0° incline), 5 min/day for 3 days. After the habituation
+period, the incline was raised to 15° for the duration of the training
+period, whereas the 15 m/min speed was maintained. During the ﬁrst
+5 wk of training, the time of exercise was increased by 10 min/wk,
+until 60-min duration was reached by the 6th wk. The ET rats
+continued to exercise 5 days/wk for 60 min/day for the remainder of
+the 10- to 12-wk training period. As discussed by Musch et al. (52),
+this training intensity [i.e., percent of maximal aerobic capacity
+(VO2max)] would correspond to 60–70% in young rats and 70–
+80% in old rats of their respective VO2max.
+Study 1: AT blood ﬂow at rest and during exercise. Blood ﬂow at
+rest and during exercise to the intra-abdominal AT was determined in
+YSed (n  13), YET (n  8), OSed (n  7), and OET (n  5) animals
+using the radionuclide-tagged microsphere technique, as described
+previously (16, 33, 44). Prior to the surgical procedure, Sed animals
+were familiarized with treadmill running. During the familiarization
+period (2 wk), animals exercised for 10 min/day at a speed of 15
+m/min at a 15° incline, two to three times/wk. At least 24 h after the
+last exercise bout, during the familiarization or training period, ani-
+mals were anesthetized with isoﬂurane (2–2.5%/O2 balance), and a
+catheter [Silastic; Dow Corning, Midland, MI; inside diameter (ID)
+0.6 mm; outside diameter (OD) 1.0 mm] ﬁlled with heparinized saline
+solution (Elkins-Sinn, Cherry Hill, NJ; 100 U/mL) was advanced into
+the ascending aorta via the right carotid artery. This catheter was used
+for infusion of radiolabeled microspheres for tissue blood ﬂow mea-
+surements and for monitoring mean arterial pressure. The carotid
+catheter was externalized dorsally and secured to the skin. A second
+polyurethane catheter (Braintree Scientiﬁc, Braintree, MA; ID 0.36
+mm; OD 0.84 mm) was implanted in the caudal tail artery and
+externalized at the tail. This catheter was used to obtain a reference
+blood sample, which serves as an artiﬁcial organ for calculating tissue
+ﬂows. All surgical procedures, beginning with the initiation and
+ending with the withdrawal of anesthesia, lasted 30 min. After the
+closure of incisions, the animals were given 4 h to recover, as
+previous studies (24) have demonstrated that circulatory dynamics,
+regional blood ﬂow, arterial blood gases, and acid-base status are
+stable in the awake rat, 1–6 h after gas anesthesia.
+After the recovery period, the rat was placed on the treadmill, and
+the tail artery catheter was connected to a 1-ml plastic syringe that was
+connected to a Harvard Apparatus (Holliston, MA) infusion/with-
+drawal pump (model 907), and the carotid artery catheter was con-
+nected to a blood-pressure transducer (MLT844; ADInstruments,
+Colorado Springs, CO). Exercise was initiated (15 m/min) at a 0°
+incline to assure that all animals ran continuously during the testing
+period without changing gait patterns (e.g., stop and start running on
+the treadmill). After 4 min of total exercise time, blood withdrawal
+from the caudal artery (0.25 ml/min) began. The right carotid artery
+catheter was disconnected from the pressure transducer, and a distinct
+radiolabeled (46Sc, 113Sn, 57Co, or 85Sr) microsphere (15-m diam-
+eter; DuPont/NEN, Boston, MA) was infused (2.5  105 in number)
+in random order into the ascending aorta and ﬂushed with warmed
+saline to assure clearance of the beads. Blood withdrawal from the
+caudal artery continued for 45 s after microsphere infusion. After a
+30-min recovery period, a second microsphere infusion was per-
+formed in conscious, standing animals following the same procedures
+as described above. This infusion strategy was used to minimize the
+pre-exercise, anticipatory response (3) and facilitates an accurate
+“resting” measurement. Following the microsphere infusion, animals
+were euthanized with sodium pentobarbital (	100 mg/kg ip). The
+intra-abdominal adipose pad—deﬁned as the fat that lines the dorsal
+wall of the abdominal cavity, separate from the visceral organs, and
+lies bilaterally along the vertebral column, extending caudally from
+the diaphragm to the pelvis—and kidneys were removed. The radio-
+activity level of the tissues was then determined by a gamma-
+scintillation counter (Cobra II auto-gamma counter; Packard, Down-
+ers Grove, IL) set to record the peak energy activity of each isotope
+for 5 min. AT blood ﬂow was calculated by the reference sample
+method (33, 44) and expressed in ml·min1·1001 g of tissue. To
+account for possible changes in perfusion, due to alterations in arterial
+pressure, vascular conductance was calculated (i.e., blood ﬂow/mean
+arterial pressure) and expressed in ml·min1·1001 g of tissue/
+mmHg. Data were only analyzed and reported for animals that
+displayed adequate mixing of the microspheres, as veriﬁed by a
+20% difference in blood ﬂow between the right and left kidney.
+Study 2: adipose microvessel vasoconstrictor responsiveness. Mi-
+crovessel studies from the intra-abdominal white AT were performed
+in a separate group of YSed (n  8), YET (n  11), OSed (n  6),
+and OET (n  10) animals, according to the methods of Ramsey et al.
+(61). After euthanasia (sodium pentobarbital 	100 mg/kg ip), the
+intra-abdominal adipose pad was carefully dissected free and placed
+in a 4°C ﬁltered physiological saline solution (PSS) buffer (in mM:
+147 NaCl, 4.7 KCl, 1.2 NaH2PO2, 1.17 MgSO4, 5.0 glucose, 2.0
+pyruvate, and 3.0 MOPS; pH 7.4). Resistance arteries (300 m
+809
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+maximal luminal diameter) were isolated with the aid of a stereomi-
+croscope (Olympus SVH10). Subsequently, both ends of the artery
+were cannulated with glass micropipettes ﬁlled with the ﬁltered PSS
+and secured to the pipettes with 11-0 ophthalmic suture (Alcon
+Laboratories, Fort Worth, TX). After cannulation, each vessel in the
+tissue chamber was transferred to the stage of an inverted microscope
+(Olympus IX70), coupled to a video camera (Panasonic WV-BP310)
+and video caliper (307A; Colorado Video, Boulder, CO). Intraluminal
+pressure in the isolated artery was set at 75 cmH2O (61). Vessels that
+exhibited leaks were discarded. Vessels free of leaks equilibrated for
+at least 1 h at 37°C, with the bathing solution replaced every 20 min
+during this period, and were allowed to develop spontaneous tone. To
+determine vasoconstrictor responsiveness to norepinephrine (NE) and
+phenylephrine (PE), cumulative additions of each drug (109 to 104
+M) were performed (15). Following assessment of vasoconstrictor
+responses, the vessels were incubated in Ca2
+-free PSS containing
+100 M sodium nitroprusside (SNP) to determine maximal passive
+lumen diameter. In a separate group of abdominal AT arteries,
+myogenic vasoconstrictor responses were determined by increasing
+the intraluminal pressure from 0 to 135 cmH2O in 15-cmH2O incre-
+ments. The diameter was recorded continuously for 5 min with each
+pressure change (51). The passive pressure–diameter relation was
+then determined after the vessels were incubated at 37°C for 60 min
+in Ca2
+-free PSS containing 100 M SNP, with the bathing solution
+changed every 20 min. The same protocol, as described for the active
+myogenic response, was used to determine passive artery character-
+istics.
+Muscle oxidative enzyme activity. Citrate synthase, a mitochondrial
+enzyme and marker of muscle oxidative potential, was measured in
+duplicate from soleus muscle homogenates, according to the method
+of Srere (65). Citrate synthase activity, expressed as mol·min1·g1
+wet weight, was measured spectrophotometrically using a SpectraMax
+M5 microplate (Molecular Devices, Sunnyvale, CA) in 300-l ali-
+quots at 30°C to determine the efﬁcacy of the training protocol.
+Data presentation. The development of spontaneous tone was
+expressed as the percent vasoconstriction relative to the maximal
+intraluminal diameter measured according to
+spontaneous tone (%)  (IDmax  IDb) ⁄ IDmax  100
+where IDmax is the maximal passive intraluminal diameter recorded at
+a pressure of 75 cmH2O, and IDb is the steady-state baseline diameter.
+Vasoconstrictor responses to NE and PE were expressed as the
+percent change from baseline diameter according to
+vasoconstriction (%)  (IDb  IDss) ⁄ IDb  100
+where IDb is the initial diameter recorded before the addition of the
+vasoconstrictor, and IDss is the steady-state diameter measured after
+each dose of the drug. Active myogenic responses after sequential
+intraluminal pressure changes were normalized according to
+normalized diameter  (IDss  ID75)
+where IDss is the steady-state diameter measured after each step
+change in intraluminal pressure, and ID75 is the diameter measured at
+75 cmH2O during the passive pressure response, which reﬂects the
+maximal diameter for vessels in which active and passive pressure
+responses were determined.
+Statistical analysis. Dose-response curves were analyzed by two-
+way ANOVA with repeated measures to detect differences between
+(experimental groups) and within (concentration or pressure) factors.
+Post hoc analyses were performed using Duncan’s multiple range test.
+Vascular sensitivity, the concentration of NE or PE exhibiting EC50,
+was determined by logarithmic curve-ﬁtting equations. A one-way
+ANOVA was performed to determine the signiﬁcance of differences
+among groups in vessel characteristics, body masses, and citrate
+synthase activity. All values are presented as means  SE. P  0.05
+was required for signiﬁcance.
+RESULTS
+Body mass, mean arterial pressure, and citrate synthase
+activity. Body mass and mean arterial pressure at rest and
+during exercise are described in Table 1. The efﬁcacy of the
+training program was conﬁrmed with a signiﬁcant increase in
+citrate synthase activity of the soleus in both young (YSed,
+15  2 mol·g1·min1; YET, 20  2 mol·g1·min1; P 
+0.05) and old (OSed, 14  2 mol·g1·min1; OET, 19  2
+mol·g1·min1; P  0.05) groups.
+Intra-abdominal AT blood ﬂow and vascular conductance at
+rest and during exercise. In the sedentary animals at rest, there
+was lower AT blood ﬂow in the old group vs. younger
+counterparts (Fig. 1A). Exercise training signiﬁcantly elevated
+adipose perfusion at rest in both age groups and abolished
+age-related differences in resting ﬂow (Fig. 1A). Vascular
+conductance measured at rest paralleled blood ﬂow measures
+in all groups (Fig. 1B). During the steady state of exercise,
+there was a signiﬁcantly higher AT blood ﬂow in OSed vs.
+YSed (Fig. 2A). Exercise training resulted in an elevated
+adipose perfusion during exercise to YET and a reduced ﬂow
+to OET vs. sedentary counterparts (Fig. 2A); age-related dif-
+ferences in adipose blood ﬂow were no longer present. Despite
+small differences in arterial pressure among groups during
+exercise (Table 1), vascular conductance measures paralleled
+those of blood ﬂow among groups (Fig. 2B). When comparing
+vascular conductance responses during the transition from rest
+to exercise, all groups showed signiﬁcant differences, albeit
+there was a directionally opposite response in the OSed vs.
+Table 1. Body mass, arterial blood pressure, adipose-resistance artery characteristics, and sensitivity to norepinephrine
+and phenylephrine
+Young Sedentary (n  21)
+Old Sedentary (n  13)
+Young Exercise Trained (n  19)
+Old Exercise Trained (n  15)
+Body weight, g
+363  3
+458  5*
+322  4†
+402  2*†
+Arterial pressure, mmHg
+Rest
+140  2 (n  13)
+131  2 (n  7)
+138  4 (n  8)
+124  2 (n  5)
+Exercise
+155  2‡ (n  13)
+149  1‡ (n  7)
+159  4‡ (n  8)
+138  2*‡ (n  5)
+Maximal diameter, m
+191  6 (n  8)
+226  8* (n  6)
+200  5 (n  11)
+213  5 (n  10)
+Spontaneous tone, %
+20  2
+12  1*
+22  1
+21  2†
+Norepinephrine EC50, M
+1.81  107  2.85  108
+1.94  106  1.16  106*
+5.31  107  1.60  107
+2.65  107  5.61  108†
+Phenylephrine EC50, M
+1.89  107  5.20  108
+3.02  106  1.10  106*
+5.81  107  2.58  107
+4.14  107  1.81  107†
+Maximal diameter was determined in the absence of extracellular Ca2
+. EC50, agonist concentration that produced 50% of the maximal vasoconstrictor
+response (i.e., sensitivity). Values are mean  SE. *P  0.05 vs. young group same condition; †P  0.05 vs. sedentary of corresponding age group; ‡P  0.05
+vs. resting value.
+810
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+YSed groups. Speciﬁcally, compared with resting values, there
+was an 55% decrease in vascular conductance in YSed and
+an 110% increase in vascular conductance in OSed during
+exercise (Fig. 3). After exercise training, both OET and YET
+demonstrated a similar decrease (50%) in vascular conduc-
+tance from rest to exercise, and age-related differences were
+abolished (Fig. 3).
+Intra-abdominal AT-resistance artery characteristics. The
+maximal diameter and spontaneous tone of resistance arteries
+from intra-abdominal AT are listed in Table 1. Compared with
+YSed, there was a tendency for a greater maximal diameter and
+signiﬁcantly less tone in intra-abdominal AT arteries from the
+OSed group. After exercise training, there were no differences
+in maximal diameter or spontaneous tone between age groups
+(Table 1). Tone was signiﬁcantly greater in OET vs. OSed.
+Vasoconstrictor responses. NE elicited a concentration-de-
+pendent vasoconstriction in AT-resistance arteries from all
+groups (Fig. 4A). The constriction evoked by NE was signiﬁ-
+cantly lower in OSed vs. YSed, and exercise training resulted
+in a signiﬁcantly greater contractile response to NE in OET vs.
+OSed (Fig. 4A). There was a greater vasoconstriction after
+exercise training, only at the highest concentration (104 M) in
+YET (59  4%) vs. YSed (45  4%, P  0.05) and OET
+(46  6%, P  0.05). There was a lower sensitivity to NE in
+OSed vs. YSed (Table 1). There were no differences in sensi-
+tivity to NE between YET and OET, although there was an
+enhanced sensitivity in OET vs. OSed (Table 1). PE produced
+similar concentration-dependent, contractile responses in AT-
+resistance arteries from all groups (Fig. 4B). Vasoconstrictor
+responses to PE were diminished in OSed vs. YSed, and
+0.00
+0.05
+0.10
+0.15
+0.20
+Vascular Conductance 
+(ml/min/100 g/mmHg)
+Young
+Sed
+Old
+Sed
+Young
+ET
+Old
+ET
+*
+†
+*
+0
+5
+10
+15
+20
+25
+Blood Flow (ml/min/100 g)
+Young
+Sed
+Old
+Sed
+Young
+ET
+Old
+ET
+*
+†
+*
+A
+B
+Fig. 1. A: blood ﬂow and (B) vascular conductance measured at rest in
+intra-abdominal adipose tissue (AT) of young (n  13) and old (n  7)
+sedentary (Sed) and young (n  8) and old (n  5) exercise-trained (ET) rats.
+Values are mean  SE. *P  0.05 vs. Sed of corresponding age group; †P 
+0.05 vs. young group same condition.
+0.00
+0.05
+0.10
+0.15
+0.20
+Vascular Conductance 
+(ml/min/100 g/mmHg)
+Young
+Sed
+Old
+Sed
+Young
+ET
+Old
+ET
+*
+†
+*
+0
+5
+10
+15
+20
+25
+Blood Flow (ml/min/100 g)
+Young
+Sed
+Old
+Sed
+Young
+ET
+Old
+ET
+*
+†
+*
+A
+B
+Fig. 2. A: blood ﬂow and (B) vascular conductance measured during the steady
+state of exercise in intra-abdominal AT of young (n  13) and old (n  7) Sed
+and young (n  8) and old (n  5) ET rats. Values are mean  SE. *P  0.05
+vs. Sed of corresponding age group; †P  0.05 vs. young group same
+condition.
+0.02
+0.06
+0.10
+0.14
+0.18
+Young Sed
+Old Sed
+Young Ex-Trained
+Old Ex-Trained
+Vascular Conductance
+(ml/min/100 g/mmHg)
+†
+Exercise
+Rest
+†
+*
+*
+**
+#
+#
+#
+#
+Fig. 3. Magnitude and directional change of vascular conductance during the
+transition from rest to the steady state of exercise in intra-abdominal AT of
+young (n  13) and old (n  7) Sed and young (n  8) and old (n  5)
+exercise (Ex)-trained rats. Values are mean  SE. *P  0.05 vs. Sed of
+corresponding age group; †P  0.05 vs. young group same condition; #P 
+0.05 vs. resting value.
+811
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+exercise training enhanced contractile responses to PE in the
+old group but did not signiﬁcantly affect that of the young
+group (Fig. 4B) vs. age-matched sedentary counterparts. Al-
+though there were no group response differences to PE be-
+tween YET and OET, the constriction elicited by 105 and
+104 M PE was greater in the YET (55  4 and 64  5%,
+respectively) vs. OET (44  4 and 49  5%, respectively; P 
+0.05). There was a lower sensitivity to PE in OSed vs. YSed
+(Table 1). Exercise training did not affect sensitivity to PE in
+the young group but enhanced sensitivity signiﬁcantly in OET
+vs. OSed (Table 1). There were no differences in sensitivity to
+PE between the trained groups (Table 1).
+Myogenic responses. In the sedentary group, at all pressures
+above zero, the active diameter was signiﬁcantly larger in
+arteries from OSed vs. YSed (Fig. 5). Exercise training abol-
+ished age-related differences in the active myogenic response
+among groups (Fig. 5A). There were no differences in the
+passive pressure–diameter response among groups (Fig. 5B).
+DISCUSSION
+The overall purpose of this study was to test the hypothesis
+that old age-related vascular dysfunction in AT would ad-
+versely affect the ability to redistribute blood ﬂow away from
+AT during exercise. In support of our hypothesis, there was an
+increase in AT blood ﬂow and vascular conductance during
+exercise in old rats, whereas there was a decrease in AT blood
+ﬂow and vascular conductance in young, healthy controls
+(Figs. 2 and 3). To investigate potential mechanisms for this
+disparate blood ﬂow response to AT during exercise, we
+measured AT-resistance artery contractile responses to -ad-
+renergic and myogenic stimuli, both of which were found to be
+diminished in the OSed vs. YSed group (Figs. 4 and 5). After
+chronic aerobic training, the directional change and magnitude
+of AT perfusion and vascular conductance from rest to exercise
+were similar between young and old groups (Figs. 1–3). Fur-
+thermore, there was a signiﬁcant improvement in both intra-
+abdominal AT arterial -adrenergic and myogenic vasocon-
+striction with old age after exercise training. It is likely that the
+inability to rapidly divert blood ﬂow away from AT with old
+age contributes to reductions in arterial pressure during ortho-
+static challenges (61) and heat stress (38), as well as altered
+whole-body hemodynamics during physical activity (39).
+However, after exercise training, many of the old, age-associ-
+ated alterations in AT blood ﬂow and vasoconstrictor responses
+in adipose-resistance arteries were abolished. This suggests
+that an enhanced ability to centrally mobilize blood volume
+from AT after chronic training may be a contributing mecha-
+nism to the enhanced muscle blood ﬂow during exercise (6)
+and the increased ability to tolerate orthostatic challenges (49)
+in older individuals.
+Regulation of AT blood ﬂow. AT blood ﬂow is intricately
+linked to metabolism for adequate substrate and humoral de-
+livery (64) and is tightly regulated through autonomic and
+endocrine signaling, as well as intrinsic autoregulatory mech-
+anisms of AT-resistance vessels (75). Electrical stimulation of
+nerves innervating inguinal white AT elicits a robust vasocon-
+striction that is abolished by -adrenergic receptor blockade
+(54), suggesting an immediate decrease in AT vascular con-
+0
+15
+30
+45
+60
+75
+90
+105
+120
+135
+0.25
+0.50
+0.75
+1.00
+1.25
+Young Sedentary
+Old Sedentary
+Young Ex-Trained
+Old Ex-Trained
+Normalized Diameter
+Pressure (cmH2O)
+Normalized Diameter
+Pressure (cmH2O)
+0
+15
+30
+45
+60
+75
+90
+105
+120
+135
+0.25
+0.50
+0.75
+1.00
+1.25
+Young Sedentary
+Old Sedentary
+Young Ex-Trained
+Old Ex-Trained
+*
+A
+B
+Fig. 5. Active (A) and passive (B) diameter responses to increasing intralumi-
+nal pressure in intra-abdominal-resistance arteries from young (n  8) and old
+(n  6) Sed and young (n  11) and old (n  10) Ex-trained rats. Active
+responses were determined in the presence of 2 mM extracellular Ca2
+.
+Passive responses were determined in the absence of extracellular Ca2
+.
+Values are mean  SE. *P  0.05 of active responses among groups. There
+were no differences in the passive response among groups.
+Phenylephrine [log M]
+-9
+-8
+-7
+-6
+-5
+-4
+Vasoconstriction (%)
+0
+20
+40
+60
+80
+*
+*
+Young Sedentary
+Old Sedentary
+Young Ex-Trained
+Old Ex-Trained
+Norepinephrine [log M]
+-9
+-8
+-7
+-6
+-5
+-4
+Vasoconstriction (%)
+0
+20
+40
+60
+80
+*
+Young Sedentary
+Old Sedentary
+Young Ex-Trained
+Old Ex-Trained
+A
+B
+Fig. 4. Concentration-response relations to norepinephrine (A) and phenyleph-
+rine (B) of intra-abdominal-resistance arteries from young (n  8) and old
+(n  6) Sed and young (n  11) and old (n  10) Ex-trained rats. Values are
+mean  SE. *P  0.05 among groups.
+812
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+ductance with enhanced SNS activity. However, AT vascular
+responses to systemic intravenous infusion of NE produce
+conﬂicting results that appear to be time dependent. For exam-
+ple, experiments that elevate systemic NE concentrations in
+humans (all of which result in elevated arterial pressure)
+demonstrate a decreased (32) or increased (40) vascular con-
+ductance and augmented blood ﬂow (60) in subcutaneous AT.
+In the latter two studies, it should be noted that despite plasma
+NE concentrations reaching a steady state within 5–10 min,
+signiﬁcant changes in AT blood ﬂow did not occur until 15–30
+min after NE infusion began, thus suggesting that a prolonged
+exposure is required to elicit changes in vascular conductance.
+In the current study, we observe a robust vasoconstriction in
+resistance arteries from centrally located intra-abdominal AT
+in the young group to both NE and PE (Fig. 4, A and B,
+respectively), which is in contrast to some human data showing
+an increased AT vascular conductance to systemically elevated
+NE levels (40). The reasons for the disparate ﬁndings between
+the isolated vessel rapid contraction to NE and studies showing
+an increased adipose perfusion to elevated systemic NE over
+longer time frames (60) are unknown but may be related to
+tissue-speciﬁc vascular properties (peripheral vs. central) or the
+large elevation in arterial pressure with systemic NE infusion
+(40, 60) concomitant with the loss of myogenic autoregulation
+at higher transmural pressures in AT-resistance vessels (75).
+The effect of exercise on AT blood ﬂow appears to be
+dependent largely on the duration of exercise. In the current
+study, there was a reduction in blood ﬂow (Fig. 2A) and
+vascular conductance (Fig. 3) when transitioning from rest to
+exercise in young, healthy subjects, due, in part, to an active
+vasoconstriction in AT. This observation is consistent with
+other studies that demonstrate an immediate (5 min) decrease
+in perfusion of epididymal (45) adipose depots and subcutane-
+ous fat [(45), and see Armstrong et al. (2) for exception] during
+dynamic whole-body exercise. However, with longer durations
+of exercise, blood ﬂow to AT increases, likely consequent to an
+increased delivery of free fatty acids from AT (25), suggesting
+that any initial vasoconstriction during exercise onset is mod-
+iﬁed later by circulating humoral or endocrine factors (25) and
+possibly tachyphylaxia of adrenergic receptors (66). Given that
+stimulation of nerves innervating white AT simultaneously
+enhance lipolysis rate and induce a strong vasoconstriction
+(54), there may be an impaired release of free fatty acids during
+exercise. Indeed, upon the cessation of exercise, fatty acids are
+suddenly “washed out” of AT, which may be related to the
+release of vasoconstrictor tone manifest during exercise [re-
+viewed in Frayn et al. (26)].
+Aging, exercise training, and AT function. In the current
+study, adipose blood ﬂow was signiﬁcantly lower at rest in old
+vs. young subjects. There are several potential mechanisms for
+the lower ﬂow at rest with old age, including 1) diminished
+vascular endothelial function (8, 17, 63); 2) elevated oxidative
+stress from AT (4), which may diminish the bioavailabilty of
+nitric oxide; and 3) signiﬁcantly elevated basal SNS activity
+with old age (53), offsetting a diminished -adrenergic sensi-
+tivity (Table 1). During submaximal exercise, the plasma NE
+responses are either similar (37, 39) or smaller (31) in old vs.
+young subjects, which in combination with a diminished -ad-
+renergic vasoconstriction (Fig. 4), likely contributes to the
+large increase in blood ﬂow to AT during exercise in the OSed
+group. After exercise training, the AT blood ﬂow response
+between age groups was largely normalized (Figs. 1 and 2),
+which is associated with an elevated blood ﬂow to oxidative
+skeletal muscle during exercise (10). Without measurement of
+cardiac output, the precise relationship between the reduced
+AT observed herein and the elevated skeletal muscle blood
+ﬂow with aging after training (10) cannot be determined and
+warrants future investigations. In healthy, young men, exercise
+training does not appear to alter adipose perfusion, as there are
+no differences in AT blood ﬂow between sedentary and endur-
+ance-trained subjects at rest (67), despite a greater blood ﬂow
+response to AT with adrenaline infusion after training (68). In
+the current study, at rest, there was an enhanced blood ﬂow to
+AT in both age groups after endurance training vs. age-
+matched sedentary counterparts (Fig. 1A). Although not mea-
+sured in the current study, there are several potential mecha-
+nisms responsible for changes in AT blood ﬂow after training,
+including
+1)
+alterations
+in
+plasma
+NE
+concentrations,
+2) changes in the expression or location of adipose vascular
+adrenergic receptors, and 3) enhanced adipose vessel endothe-
+lial function. Changes in sympathetic nerve activity or differ-
+ences in plasma NE concentrations affecting resistance artery
+function are unlikely, as endurance training has little effect on
+resting sympathetic nerve activity (62) with lower (34) or
+unchanged (12, 58) plasma NE concentrations after training.
+Given that AT blood ﬂow is inﬂuenced largely by -adrenergic
+receptor function (1a), differences in the expression of adren-
+ergic receptors (e.g., diminished 1-receptor density with old
+age) among groups could contribute to differences in adipose
+blood ﬂow. Given that both aging (8, 17, 63) and obesity (20)
+diminish resistance artery endothelial function, it is likely that
+improvements in endothelial function after exercise training
+(47, 56, 63) contributed to the greater AT perfusion at rest.
+During the transition from rest to exercise with old age, the
+AT blood ﬂow response was directionally opposite (reduction
+in ﬂow) in the exercise-trained vs. sedentary group (increased
+ﬂow vs. rest; Figs. 1A and 2A). The AT blood ﬂow response in
+old age after training suggests an enhanced vasoconstriction
+within the AT-resistance vasculature. Indeed, in AT-resistance
+arteries, there was an enhanced -adrenergic (Fig. 4, A and B)
+and myogenic (Fig. 5A) vasoconstriction after training with old
+age. We are unaware of any other studies that have looked
+speciﬁcally at the effects of aging and/or exercise training on
+adipose-resistance artery function. However, exercise training
+has been shown to enhance -adrenergic-mediated vasocon-
+striction within tissue that is not recruited during exercise (i.e.,
+shows no net hyperemic response) (43), suggesting a possible
+systemic effect on adrenergic receptor function. There is also
+evidence that exercise training enhances myogenic vasocon-
+striction (17), which was demonstrated in the old group after
+training (Fig. 5A). The precise mechanisms for the altered
+AT-resistance artery vasoconstriction observed herein remain
+to be determined but likely contribute to an increased ability to
+mobilize free fatty acids after exercise training (13, 69).
+Conclusions. In summary, -adrenergic receptor-mediated
+and myogenic vasoconstriction in AT-resistance arteries are
+diminished with aging, which was associated with an increase
+in AT blood ﬂow during exercise in the OSed group. Exercise
+training augmented adrenergic vasoconstriction in adipose ar-
+teries with old age, which likely contributed, in part, to the
+reduction in adipose blood ﬂow during exercise relative to
+sedentary counterparts. An age-associated deﬁcit in -adren-
+813
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+ergic vasoconstriction in AT may contribute to the impaired
+baroreﬂex buffering with old age (35, 76) and result in a spatial
+overperfusion of AT during exercise. Whereas the possibility
+that a blunted adipose vasoconstriction with old age diminishes
+the ability to redistribute blood ﬂow to the active muscles
+during exercise in humans is likely, elegant studies are required
+to address this issue mechanistically.
+GRANTS
+Support for this study was provided, in part, by National Aeronautics and
+Space Administration Grants NAG2-1340 and NCC2-1166 (M. D. Delp),
+National Institute on Aging Grants AG-31317 (B. J. Behnke) and K01
+AG-033196 and R21 AG-033755 (to L. Lesniewski), Florida Biomedical
+Research Program 1BN-02 (B. J. Behnke), and Jane Adams Edmonds En-
+dowed Doctoral Fellowship (J. M. Dominguez), LaPradd Fellowship (R. T.
+Davis III), and Grinter Fellowship (D. J. McCullough) from the Department of
+Applied Physiology and Kinesiology at the University of Florida.
+DISCLOSURES
+No conﬂicts of interest, ﬁnancial or otherwise, are declared by the authors.
+AUTHOR CONTRIBUTIONS
+Author contributions: M.D.D. and B.J.B. conception and design of research;
+R.T.D., J.N.S., J.M.D., M.W.R., D.J.M., and B.J.B. performed experiments;
+J.N.S., M.W.R., and B.J.B. analyzed data; J.M.D., L.A.L., M.D.D., and B.J.B.
+interpreted results of experiments; B.J.B. prepared ﬁgures; L.A.L., M.D.D.,
+and B.J.B. drafted manuscript; J.N.S., J.M.D., D.J.M., L.A.L., M.D.D., and
+B.J.B. edited and revised manuscript; R.T.D., J.N.S., J.M.D., M.W.R., D.J.M.,
+L.A.L., M.D.D., and B.J.B. approved ﬁnal version of manuscript.
+REFERENCES
+1. American College of Sports Medicine Position Stand. Exercise and phys-
+ical activity for older adults. Med Sci Sports Exerc 30: 992–1008, 1998.
+1a.Ardilouze JL, Fielding BA, Currie JM, Frayn KN, Karpe F. Nitric
+oxide and beta-adrenergic stimulation are major regulators of preprandial
+and postprandial subcutaneous adipose tissue blood ﬂow in humans.
+Circulation 109: 47–52, 2004.
+2. Armstrong RB, Delp MD, Goljan EF, Laughlin MH. Distribution of
+blood ﬂow in muscles of miniature swine during exercise. J Appl Physiol
+62: 1285–1298, 1987.
+3. Armstrong RB, Hayes DA, Delp MD. Blood ﬂow distribution in rat
+muscles during preexercise anticipatory response. J Appl Physiol 67:
+1855–1861, 1989.
+4. Bailey-Downs LC, Tucsek Z, Toth P, Sosnowska D, Gautam T,
+Sonntag WE, Csiszar A, Ungvari Z. Aging exacerbates obesity-induced
+oxidative stress and inﬂammation in perivascular adipose tissue in mice: a
+paracrine mechanism contributing to vascular redox dysregulation and
+inﬂammation. J Gerontol A Biol Sci Med Sci. In press.
+5. Bartness TJ, Bamshad M. Innervation of mammalian white adipose
+tissue: implications for the regulation of total body fat. Am J Physiol Regul
+Integr Comp Physiol 275: R1399–R1411, 1998.
+6. Beere PA, Russell SD, Morey MC, Kitzman DW, Higginbotham MB.
+Aerobic exercise training can reverse age-related peripheral circulatory
+changes in healthy older men. Circulation 100: 1085–1094, 1999.
+7. Behnke BJ, Barstow TJ, Kindig CA, McDonough P, Musch TI, Poole
+DC. Dynamics of oxygen uptake following exercise onset in rat skeletal
+muscle. Respir Physiol Neurobiol 133: 229–239, 2002.
+8. Behnke BJ, Delp MD. Aging blunts the dynamics of vasodilation in
+isolated skeletal muscle resistance vessels. J Appl Physiol 108: 14–20,
+2010.
+9. Behnke BJ, Delp MD, Dougherty PJ, Musch TI, Poole DC. Effects of
+aging on microvascular oxygen pressures in rat skeletal muscle. Respir
+Physiol Neurobiol 146: 259–268, 2005.
+10. Behnke BJ, Ramsey MW, Stabley JN, Dominguez JM 2nd, Davis RT
+3rd, McCullough DJ, Muller-Delp JM, Delp MD. Effects of aging and
+exercise training on skeletal muscle blood ﬂow and resistance artery
+morphology. J Appl Physiol 113: 1699–1708, 2012.
+11. Bueton D. Cell numbers vs age in mammalian tissue and organs. In:
+Handbook of Cell Biology of Aging, edited by Cristofalo V. Boca Raton,
+FL: CRC, 1985, p. 1–115.
+12. Claytor RP, Cox RH, Howley ET, Lawler KA, Lawler JE. Aerobic
+power and cardiovascular response to stress. J Appl Physiol 65: 1416–
+1423, 1988.
+13. Crampes F, Beauville M, Riviere D, Garrigues M. Effect of physical
+training in humans on the response of isolated fat cells to epinephrine. J
+Appl Physiol 61: 25–29, 1986.
+14. DeLorey DS, Kowalchuk JM, Paterson DH. Effect of age on O(2)
+uptake kinetics and the adaptation of muscle deoxygenation at the onset of
+moderate-intensity cycling exercise. J Appl Physiol 97: 165–172, 2004.
+15. Delp MD. Myogenic and vasoconstrictor responsiveness of skeletal mus-
+cle arterioles is diminished by hindlimb unloading. J Appl Physiol 86:
+1178–1184, 1999.
+16. Delp MD, Armstrong RB. Blood ﬂow in normal and denervated muscle
+during exercise in conscious rats. Am J Physiol Heart Circ Physiol 255:
+H1509–H1515, 1988.
+17. Delp MD, Behnke BJ, Spier SA, Wu G, Muller-Delp JM. Ageing
+diminishes endothelium-dependent vasodilatation and tetrahydrobiopterin
+content in rat skeletal muscle arterioles. J Physiol 586: 1161–1168, 2008.
+18. Delp MD, Evans MV, Duan C. Effects of aging on cardiac output,
+regional blood ﬂow, and body composition in Fischer-344 rats. J Appl
+Physiol 85: 1813–1822, 1998.
+19. Delp MD, O’Leary DS. Integrative control of the skeletal muscle micro-
+circulation in the maintenance of arterial pressure during exercise. J Appl
+Physiol 97: 1112–1118, 2004.
+20. Donato AJ, Henson GD, Morgan RG, Enz RA, Walker AE, Lesni-
+ewski LA. TNF-alpha impairs endothelial function in adipose tissue
+resistance arteries of mice with diet-induced obesity. Am J Physiol Heart
+Circ Physiol 303: H672–H679, 2012.
+21. Donato AJ, Uberoi A, Wray DW, Nishiyama S, Lawrenson L, Rich-
+ardson RS. Differential effects of aging on limb blood ﬂow in humans.
+Am J Physiol Heart Circ Physiol 290: H272–H278, 2006.
+22. duManoir GR, DeLorey DS, Kowalchuk JM, Paterson DH. Differ-
+ences in exercise limb blood ﬂow and muscle deoxygenation with age:
+contributions to O2 uptake kinetics. Eur J Appl Physiol 110: 739–751,
+2010.
+23. Fitzgerald MD, Tanaka H, Tran ZV, Seals DR. Age-related declines in
+maximal aerobic capacity in regularly exercising vs. sedentary women: a
+meta-analysis. J Appl Physiol 83: 160–165, 1997.
+24. Flaim SF, Nellis SH, Toggart EJ, Drexler H, Kanda K, Newman ED.
+Multiple simultaneous determinations of hemodynamics and ﬂow distri-
+bution in conscious rat. J Pharmacol Methods 11: 1–39, 1984.
+25. Frayn KN. Fat as a fuel: emerging understanding of the adipose tissue-
+skeletal muscle axis. Acta Physiol (Oxf) 199: 509–518, 2010.
+26. Frayn KN, Hodgetts V, Grifﬁths AJ. Mobilization and clearance of fat
+in exercising humans studied by regional venous catheterization. In:
+Biochemistry of Exercise IX, edited by Maughan RJ and Shirreffs SM.
+Champaign, IL: Human Kinetics, 1996, p. 73–88.
+27. Galic S, Oakhill JS, Steinberg GR. Adipose tissue as an endocrine organ.
+Mol Cell Endocrinol 316: 129–139, 2010.
+28. Georgescu A, Popov D, Constantin A, Nemecz M, Alexandru N,
+Cochior D, Tudor A. Dysfunction of human subcutaneous fat arterioles
+in obesity alone or obesity associated with type 2 diabetes. Clin Sci (Lond)
+120: 463–472, 2011.
+29. Giordano A, Song CK, Bowers RR, Ehlen JC, Frontini A, Cinti S,
+Bartness TJ. White adipose tissue lacks signiﬁcant vagal innervation and
+immunohistochemical evidence of parasympathetic innervation. Am J
+Physiol Regul Integr Comp Physiol 291: R1243–R1255, 2006.
+30. Guyton AC, Douglas BH, Langston JB, Richardson TQ. Instantaneous
+increase in mean circulatory pressure and cardiac output at onset of
+muscular activity. Circ Res 11: 431–441, 1962.
+31. Hagberg JM, Seals DR, Yerg JE, Gavin J, Gingerich R, Premachan-
+dra B, Holloszy JO. Metabolic responses to exercise in young and older
+athletes and sedentary men. J Appl Physiol 65: 900–908, 1988.
+32. Hjemdahl P, Linde B. Inﬂuence of circulating NE and Epi on adipose
+tissue vascular resistance and lipolysis in humans. Am J Physiol Heart
+Circ Physiol 245: H447–H452, 1983.
+33. Inbar O, Oren A, Scheinowitz M, Rotstein A, Dlin R, Casaburi R.
+Normal cardiopulmonary responses during incremental exercise in 20- to
+70-yr-old men. Med Sci Sports Exerc 26: 538–546, 1994.
+34. Jennings G, Nelson L, Nestel P, Esler M, Korner P, Burton D,
+Bazelmans J. The effects of changes in physical activity on major
+cardiovascular risk factors, hemodynamics, sympathetic function, and
+glucose utilization in man: a controlled study of four levels of activity.
+Circulation 73: 30–40, 1986.
+814
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.
+
+35. Jones PP, Christou DD, Jordan J, Seals DR. Baroreﬂex buffering is
+reduced with age in healthy men. Circulation 107: 1770–1774, 2003.
+36. Karpe F, Fielding BA, Ilic V, Macdonald IA, Summers LK, Frayn
+KN. Impaired postprandial adipose tissue blood ﬂow response is related to
+aspects of insulin sensitivity. Diabetes 51: 2467–2473, 2002.
+37. Kastello GM, Sothmann MS, Murthy VS. Young and old subjects
+matched for aerobic capacity have similar noradrenergic responses to
+exercise. J Appl Physiol 74: 49–54, 1993.
+38. Kenney MJ, Musch TI. Senescence alters blood ﬂow responses to acute
+heat stress. Am J Physiol Heart Circ Physiol 286: H1480–H1485, 2004.
+39. Kenney WL, Ho CW. Age alters regional distribution of blood ﬂow
+during moderate-intensity exercise. J Appl Physiol 79: 1112–1119, 1995.
+40. Kurpad A, Khan K, Macdonald I, Elia M. Haemodynamic responses in
+muscle and adipose tissue and whole body metabolic responses during
+norepinephrine infusions in man. J Auton Nerv Syst 54: 163–170, 1995.
+41. Lakatta EG. Cardiovascular aging research: the next horizons. J Am
+Geriatr Soc 47: 613–625, 1999.
+42. Lakatta EG. Cardiovascular system. In: Handbook of Physiology: Aging,
+edited by Masoro EJ. New York: Oxford University Press, 1995, p.
+413–474.
+43. Lash JM. Exercise training enhances adrenergic constriction and dilation
+in the rat spinotrapezius muscle. J Appl Physiol 85: 168–174, 1998.
+44. Laughlin MH, Armstrong RB. Muscular blood ﬂow distribution patterns
+as a function of running speed in rats. Am J Physiol Heart Circ Physiol
+243: H296–H306, 1982.
+45. Laughlin MH, Armstrong RB. Rat muscle blood ﬂows as a function of
+time during prolonged slow treadmill exercise. Am J Physiol Heart Circ
+Physiol 244: H814–H824, 1983.
+46. Lawrenson L, Poole JG, Kim J, Brown C, Patel P, Richardson RS.
+Vascular and metabolic response to isolated small muscle mass exercise:
+effect of age. Am J Physiol Heart Circ Physiol 285: H1023–H1031, 2003.
+47. McCullough DJ, Davis RT 3rd, Dominguez JM 2nd, Stabley JN,
+Bruells CS, Behnke BJ. Effects of aging and exercise training on
+spinotrapezius muscle microvascular PO2 dynamics and vasomotor con-
+trol. J Appl Physiol 110: 695–704, 2011.
+49. Mtinangi BL, Hainsworth R. Effects of moderate exercise training on
+plasma volume, baroreceptor sensitivity and orthostatic tolerance in
+healthy subjects. Exp Physiol 84: 121–130, 1999.
+50. Muller JM, Myers PR, Laughlin MH. Exercise training alters myogenic
+responses in porcine coronary resistance arteries. J Appl Physiol 75:
+2677–2682, 1993.
+51. Muller-Delp J, Spier SA, Ramsey MW, Lesniewski LA, Papadopoulos
+A, Humphrey JD, Delp MD. Effects of aging on vasoconstrictor and
+mechanical properties of rat skeletal muscle arterioles. Am J Physiol Heart
+Circ Physiol 282: H1843–H1854, 2002.
+52. Musch TI, Eklund KE, Hageman KS, Poole DC. Altered regional blood
+ﬂow responses to submaximal exercise in older rats. J Appl Physiol 96:
+81–88, 2004.
+53. Ng AV, Callister R, Johnson DG, Seals DR. Age and gender inﬂuence
+muscle sympathetic nerve activity at rest in healthy humans. Hypertension
+21: 498–503, 1993.
+54. Ngai SH, Rosell S, Wallenberg LR. Nervous regulation of blood ﬂow in
+subcutaneous adipose tissue in dogs. Acta Physiol Scand 68: 397–403,
+1966.
+55. Ogawa T, Spina RJ, Martin WH 3rd, Kohrt WM, Schechtman KB,
+Holloszy JO, Ehsani AA. Effects of aging, sex, and physical training on
+cardiovascular responses to exercise. Circulation 86: 494–503, 1992.
+56. Park Y, Prisby RD, Behnke BJ, Dominguez JM 2nd, Lesniewski LA,
+Donato AJ, Muller-Delp J, Delp MD. Effects of aging, TNF-, and
+exercise training on angiotensin II-induced vasoconstriction of rat skeletal
+muscle arterioles. J Appl Physiol 113: 1091–1100, 2012.
+57. Paterson DH, Cunningham DA, Koval JJ, St Croix CM. Aerobic
+ﬁtness in a population of independently living men and women aged
+55–86 years. Med Sci Sports Exerc 31: 1813–1820, 1999.
+58. Peronnet F, Cleroux J, Perrault H, Cousineau D, de Champlain J,
+Nadeau R. Plasma norepinephrine response to exercise before and after
+training in humans. J Appl Physiol 51: 812–815, 1981.
+59. Proctor DN, Joyner MJ. Skeletal muscle mass and the reduction of
+VO2max in trained older subjects. J Appl Physiol 82: 1411–1415, 1997.
+60. Quisth V, Enoksson S, Blaak E, Hagstrom-Toft E, Arner P, Bolinder
+J. Major differences in noradrenaline action on lipolysis and blood ﬂow
+rates in skeletal muscle and adipose tissue in vivo. Diabetologia 48:
+946–953, 2005.
+61. Ramsey MW, Behnke BJ, Prisby RD, Delp MD. Effects of aging on
+adipose resistance artery vasoconstriction: possible implications for ortho-
+static blood pressure regulation. J Appl Physiol 103: 1636–1643, 2007.
+62. Seals DR. Sympathetic neural adjustments to stress in physically trained
+and untrained humans. Hypertension 17: 36–43, 1991.
+63. Sindler AL, Delp MD, Reyes R, Wu G, Muller-Delp JM. Effects of
+ageing and exercise training on eNOS uncoupling in skeletal muscle
+resistance arterioles. J Physiol 587: 3885–3897, 2009.
+64. Sotornik R, Brassard P, Martin E, Yale P, Carpentier AC, Ardilouze
+JL. Update on adipose tissue blood ﬂow regulation. Am J Physiol
+Endocrinol Metab 302: E1157–E1170, 2012.
+65. Srere P. Citrate synthase. Methods Enzymol 13: 3–11, 1969.
+66. Stallknecht B, Bulow J, Frandsen E, Galbo H. Desensitization of human
+adipose tissue to adrenaline stimulation studied by microdialysis. J Physiol
+500: 271–282, 1997.
+67. Stallknecht B, Larsen JJ, Mikines KJ, Simonsen L, Bulow J, Galbo H.
+Effect of training on insulin sensitivity of glucose uptake and lipolysis in
+human adipose tissue. Am J Physiol Endocrinol Metab 279: E376–E385,
+2000.
+68. Stallknecht B, Simonsen L, Bulow J, Vinten J, Galbo H. Effect of
+training on epinephrine-stimulated lipolysis determined by microdialysis
+in human adipose tissue. Am J Physiol Endocrinol Metab 269: E1059–
+E1066, 1995.
+69. Stich V, de Glisezinski I, Berlan M, Bulow J, Galitzky J, Harant I,
+Suljkovicova H, Lafontan M, Riviere D, Crampes F. Adipose tissue
+lipolysis is increased during a repeated bout of aerobic exercise. J Appl
+Physiol 88: 1277–1283, 2000.
+70. Summers LK, Callow J, Samra JS, Macdonald IA, Matthews DR,
+Frayn KN. The effect on adipose tissue blood ﬂow of isoenergetic meals
+containing different amounts and types of fat. Int J Obes Relat Metab
+Disord 25: 1294–1299, 2001.
+71. Summers LK, Samra JS, Humphreys SM, Morris RJ, Frayn KN.
+Subcutaneous abdominal adipose tissue blood ﬂow: variation within and
+between subjects and relationship to obesity. Clin Sci (Lond) 91: 679–683,
+1996.
+72. Tanaka H, Desouza CA, Jones PP, Stevenson ET, Davy KP, Seals DR.
+Greater rate of decline in maximal aerobic capacity with age in physically
+active vs. sedentary healthy women. J Appl Physiol 83: 1947–1953, 1997.
+73. Trayhurn P, Beattie JH. Physiological role of adipose tissue: white
+adipose tissue as an endocrine and secretory organ. Proc Nutr Soc 60:
+329–339, 2001.
+74. Trayhurn P, Wood IS. Adipokines: inﬂammation and the pleiotropic role
+of white adipose tissue. Br J Nutr 92: 347–355, 2004.
+75. Undavia SS, Berger V, Kaley G, Messina EJ. Myogenic responses of
+isolated adipose tissue arterioles. Microvasc Res 66: 140–146, 2003.
+76. Vianna LC, Hart EC, Fairfax ST, Charkoudian N, Joyner MJ, Fadel
+PJ. Inﬂuence of age and sex on the pressor response following a sponta-
+neous burst of muscle sympathetic nerve activity. Am J Physiol Heart Circ
+Physiol 302: H2419–H2427, 2012.
+77. Wahren J, Saltin B, Jorfeldt L, Pernow B. Inﬂuence of age on the local
+circulatory adaptation to leg exercise. Scand J Clin Lab Invest 33: 79–86,
+1974.
+815
+Aging Alters Adipose Tissue Blood Flow and Vascular Function • Davis RT III et al.
+J Appl Physiol • doi:10.1152/japplphysiol.01358.2012 • www.jappl.org
+Downloaded from journals.physiology.org/journal/jappl (2804:01B1:F982:227F:B8C8:9105:AD9D:529F) on October 4, 2025.

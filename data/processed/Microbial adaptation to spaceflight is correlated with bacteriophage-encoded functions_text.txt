@@ -1,0 +1,1323 @@
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Microbial adaptation to spaceﬂight is
+correlated with bacteriophage-encoded
+functions
+Iris Irby
+1,2 & Jared T. Broddrick
+1
+Evidence from the International Space Station suggests microbial populations
+are rapidly adapting to the spacecraft environment; however, the mechanism
+of this adaptation is not understood. Bacteriophages are proliﬁc mediators of
+bacterial adaptation on Earth. Here we survey 245 genomes sequenced from
+bacterial strains isolated on the International Space Station for dormant
+(lysogenic) bacteriophages. Our analysis indicates phage-associated genes are
+signiﬁcantly different between spaceﬂight strains and their terrestrial coun-
+terparts. In addition, we identify 283 complete prophages, those that could
+initiate bacterial lysis and infect additional hosts, of which 21% are novel. These
+prophage regions encode functions that correlate with increased persistence
+in extreme environments, such as spaceﬂight, to include antimicrobial resis-
+tance and virulence, DNA damage repair, and dormancy. Our results correlate
+microbial adaptation in spaceﬂight to bacteriophage-encoded functions that
+may impact human health in spaceﬂight.
+Human space exploration is at a turning point. The push for long-
+duration, crewed missions to the moon and beyond, coupled with the
+emergence of commercial space tourism is redeﬁning the risks asso-
+ciated with space travel. Adverse health effects due to host-
+microorganism interactions is acknowledged by the NASA Human
+Research Program, and currently this risk is accepted for short dura-
+tion spaceﬂight. However, as ﬂight durations increase and the popu-
+lation that experiences spaceﬂight expands beyond professional
+astronauts, it is of increasing importance to understand the interplay
+between microbial adaptation to the spaceﬂight environment (e.g.,
+microgravity, ionizing radiation, altered host-microbe interactions,
+etc.) and human health.
+Microorganisms on the International Space Station (ISS) are
+undergoing adaptation and host-mediated propagation throughout
+the environment1–3. Studies to date suggest microbes on the ISS, pre-
+dominantly derived from the crew microbiome, are enriched in func-
+tions related to metal ion tolerance, dormancy, and antibiotic
+resistance3,4. A primary mechanism by which bacteria adapt to novel
+environments and stress is through genome plasticity, the ability to
+uptake exogenous genetic material5. The presence of temperate
+bacteriophages, or prophages, in bacterial genomes is one of the main
+factors that enable genome plasticity6. The entrance of a phage into a
+bacterial genome is performed through the process of lysogeny,
+forming a “dormant” prophage containing the entirety of the bacter-
+iophage DNA that is not actively bactericidal, but can undergo repli-
+cation into a mature virus. These prophages can remain dormant for
+extended periods of time, or switch into their active (lytic) state,
+typically after intense DNA damage. Lytic phages can become bacter-
+icidal and infect other bacterial cells, taking either their lytic or lyso-
+genic state in their new host7.
+Prophages dramatically alter their host’s physiology. The pre-
+sence of prophages can disrupt and silence bacterial genes, and they
+can cause chromosomal rearrangements, leading to changes in gene
+expression in their bacterial host. Prophages can confer host immunity
+to other bacteriophages, preventing lytic attack8. During the transition
+to the lytic state, prophages can copy adjacent bacterial genes, inte-
+grating them into the viral genome. This genetic material is transferred
+to new bacterial hosts9. Examples of phage transduced functions
+include virulence and antimicrobial resistance genes, toxins, effector
+proteins, and regulatory proteins8.
+Received: 25 February 2023
+Accepted: 27 September 2023
+Check for updates
+1Space Biosciences Research Branch, NASA Ames Research Center, Moffett Field, CA, USA. 2School of Biological Sciences, Georgia Institute of Technology,
+Atlanta, GA, USA.
+e-mail: jared.t.broddrick@nasa.gov
+Nature Communications|   (2024) 15:3474 
+1
+1234567890():,;
+1234567890():,;
+
+Prophages also affect microbial populations at the community
+level. The introduction of bacteriophages into soil samples sig-
+niﬁcantly changed the microbial composition and diversity of the soil
+microbial community10. In aquatic environments, bacteriophage lyse
+20–40% of bacterial biomass per day11. In mouse model studies, both
+temperate and lytic phages inﬂuence the host gut microbiome, with
+lytic phages leading to a more beneﬁcial community, and temperate
+phages leading to dysbiosis12.
+The role of bacteriophage in the adaptation of bacteria to the
+spaceﬂight environment is unknown. Previous studies have high-
+lighted the importance of microbial communities in spaceﬂight, with
+changes noted in the composition of both the gut and skin micro-
+biomes of astronauts13. While other studies have noted the presence of
+prophages in a single bacteria species isolated from the ISS14,
+in this work we show a comprehensive analysis of the prevalence
+and characterization of prophage that inhabit the spacecraft-built
+environment.
+Results
+Genome summary and sampling cadence and locations
+The International Space Station (ISS) is a unique built environment
+consisting of 388 cubic meters of habitable space. Crew size has ran-
+ged from 3 to 10 over the 22 years of continuous habitation. Surfaces
+within the occupied modules have been continuously sampled and
+analyzed for microbial populations to understand the microbiome of
+the built spacecraft environment. We set out to analyze the genomes
+that resulted from these experiments to assess the role of bacter-
+iophage in the spacecraft-built environment.
+We identiﬁed 10 bacterial strains of interest (see Methods):
+Acinetobacter pittii, Bacillus amyloliquifaecins, Bacillus thuringiensis,
+Enterobacter bugandensis, Klebsiella quasipneumoniae, Micrococcus
+luteus, Paenibacillus polymyxa, Pseudomonas fulva, Staphylococcus
+epidermidis, and Staphylococcus saprophyticus. These 10 species
+represent isolates from sampling campaigns spanning from 2006 to
+2018 from eight locations within the ISS (Fig. 1) and a Crew Resupply
+Vehicle while it was docked with the ISS. Overall, 245 spaceﬂight
+genomes and metagenome-assembled genomes15 were included in our
+analysis. A full table with links to genomes and data sources can be
+found in Supplementary data 1.
+Prophage region identiﬁcation and comparison
+We extracted prophage regions from ﬂight genomes for each species
+using PHASTER16,17 and summed the prophage regions identiﬁed
+(categorized by PHASTER as complete, questionable, or incomplete),
+as these region numbers are proportional to the number of prophages
+that, at some point, lysogenized and entered the bacterial genome. For
+comparison, we obtained all terrestrial, complete genomes for these
+species from NCBI18 and determined the number of prophage regions
+for these genomes (NCBI accessions can be found in Supplementary
+data 1). Average number of prophage regions in the ﬂight genomes
+ranged from 0.75 per genome for M. luteus to 7 for P. fulva (Fig. 2). For
+M. luteus, 3 of the 8 ﬂight isolates had two possible incomplete
+prophage regions per genome, but the PHASTER results suggested
+they were low conﬁdence annotations and prophage analysis by
+PhiSpy19, which employs more stringent criteria, did not identify any
+prophage regions. Thus, M. luteus was removed from further analysis.
+Of the nine remaining species, all had multiple incomplete prophage
+regions and at least one complete phage, which, in theory, could
+convert to a lytic phenotype. In addition, ﬁve species presented with
+poly-lysogeny deﬁned as containing multiple complete prophages.
+There were no universal trends in the number of prophage regions in
+the ﬂight genomes versus the terrestrial isolates (Fig. 2), with four
+species having signiﬁcantly more prophage in ﬂight genomes, four
+with more in terrestrial, and one that was insigniﬁcant (Fig. 2,
+Mann–Whitney, two-sided, p < 0.05).
+Due to the consistency in ﬂight isolate prophage numbers for
+most of the species investigated (Fig. 2), coupled with the sampling
+cadence on the ISS (Supplementary data 1), we explored the genomic
+diversity between the ﬂight isolates and the terrestrial strains. We used
+a pangenome approach to compare the similarity within the ﬂight
+strains for each species, compared to the pangenome for all strains of
+the same species (all genomes in NCBI with an Assembly level at or
+above scaffold). We deﬁned the core pangenome as genes present in at
+least 90% of the genomes, with the remaining genes deﬁned as the
+accessory pangenome. We looked at two metrics for our analysis. First,
+we looked at the ratio in the size of the ﬂight-strain pangenome versus
+the all-strain pangenome, working from the assumption that the more
+similar the ﬂight strains, the larger the ﬂight-strain core genome.
+Second, we took the fraction of the ﬂight-strain core pangenome
+versus the total ﬂight-strain pangenome (core plus accessory), as the
+smaller the accessory genome the less genetic diversity between the
+ISS strains. For high-conﬁdence prophage regions (prophage calls
+consistent between PHASTER and PhiSpy algorithms), we removed the
+prophage regions from the genomes (replaced with N) to capture
+phage-independent genome variability.
+Flight strains for four of nine species (B. amyloliquifaeciens, K.
+quasipneumoniae, S. epidermidis, and S. saprophyticus) had a core
+pangenome fraction of 0.90 or less (Supplementary data 1). The
+accessory pangenome of the remaining ﬁve species was 3% or less of
+the total pangenome, suggesting a high level of genetic similarity
+between the ﬂight strains for these species. The ratio of the ﬂight
+strains’ core pangenome versus the total species core pangenome was
+L4 L5
+L6
+L7
+L1
+L2
+L3
+L8
+Fig. 1 | Sampling locations on the International Space Station. Purple shaded
+area: Node 3; sampling locations: Cupola (L1), Waste and Hygiene Compartment
+(L2), Advanced Resistive Exercise Device (ARED) (L3), Green shaded region: Node 1;
+sampling locations: dining table (L4), overhead 4 (L5), Yellow shaded region: Per-
+manent Multipurpose Module; sampling locations: (L6), Blue shaded region: US Lab
+sampling locations: Lab Overhead 3 (L7), Orange shaded region: Node 2; sampling
+locations: crew quarters (L8). Images courtesy of NASA.
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+2
+
+larger for all species, as expected for strains continuously sampled
+from the same environment. However, the magnitude of the ratio
+mirrored the change in the core pangenome fraction with the K. qua-
+sipneumoniae, S. epidermidis, and S. saprophyticus ﬂight strains having
+similarly sized core pangenome as the all-strain pangenome (1.06, 1.01,
+and 1.03, respectively). S. epidermidis had the most longitudinal sam-
+pling cadence with 30 separate samples taken over 12 years (Supple-
+mentary data 1), which correlated with the highest level of genetic
+diversity between ﬂight genomes (ﬂight versus all core ratio of 1.01 and
+a ﬂight ISS core fraction of 0.54). However, there were no clear trends
+in the pangenome comparison versus sampling cadence for the
+remaining eight species. For example, the 21 ﬂight strains for A. pittii
+were sampled across three campaigns, two of which were 3 years apart.
+Still, these genomes showed the highest pangenome core ratio (1.21)
+and a ﬂight core versus total pangenome fraction of 0.97, with only 89
+genes in the accessory pangenome. S. saprophyticus’ 29 ﬂight genomes
+came from a similar sampling cadence while having the second most
+genetic diversity among ﬂight strains. The full genome diversity
+comparison can be found in Supplementary data 1.
+We then applied the pangenome approach to determine if pro-
+phages contribute to variation between ﬂight and terrestrial strains of
+the same species. Again, using all genomes in NCBI with an Assembly
+level at or above scaffold, but not removing the high conﬁdence
+prophage regions, we identiﬁed Clusters of Orthologous Groups
+(COG) functions that were signiﬁcantly different (q value < 0.05)
+between the ﬂight and terrestrial genomes. For both ﬂight and ter-
+restrial genomes, there were signiﬁcant differences in gene clusters
+associated with the phage-associated COG Mobilome (Fig. 3). Terres-
+trial genomes were enriched for transposases across multiple species,
+including A. pittii, B. thuringiensis, K. quasipneumoniae, and S. epi-
+dermidis, compared to spaceﬂight genomes. Spaceﬂight genomes
+were enriched for Mu-like phage structural proteins in A. pittii, E.
+bugandensis, and P. fulva and enriched for general phage structural
+proteins in A. pittii, E. bugandensis, K. quasipneumoniae, P. fulva, and S.
+epidermidis. Only S. saprophyticus contained prophages that were not
+signiﬁcantly different between ﬂight and terrestrial genomes. In
+addition, A. pittii, B. amyloliquifaecins, B. thuringiensis, E. bugandensis,
+and P. fulva indicated unique phage-associated gene clusters in both
+ﬂight and terrestrial genomes suggesting a possible divergence in
+prophage regions resulting from spaceﬂight.
+Complete prophage classiﬁcation
+To investigate the novelty of the ﬂight prophages, we analyzed the
+complete prophage regions in comparison to known phage. In total,
+283 complete prophage regions were identiﬁed in the 9 bacterial
+species’ ﬂight genomes and all 283 were consistent between PHASTER
+and PhiSpy, suggesting high conﬁdence prophage annotations. We
+clustered these complete prophages into 71 bins of >90% similarity,
+and determined the hypothetical phage family of each cluster by NCBI
+nucleotide BLAST search [Megablast20] of viruses in the RefSeq Gen-
+ome Database21 and the IMG Viral (VR) Database22. The IMG Viral
+database was the more comprehensive of the two with an average
+query identity score (nucleotide identity multiplied by alignment
+percentage) of 55%, compared to 28% for the RefSeq viral genomes. Of
+the 71 clusters, 11 were unclassiﬁed (15%) based on having a total query
+identity of less than 40% with any phage in the RefSeq or IMG VR
+Databases. Of the remaining 60 clusters, all complete prophages were
+found to be tailed phages of class Caudoviricetes (Supplementary
+data 1). Of these 71 intact prophage clusters, 21 could be classiﬁed as
+novel species and 26 as novel genera based on current suggested
+cutoffs of 95% query identity for species and 70% for genera23 (Fig. 4a).
+Next, we determined the homology of the complete prophage
+regions to bacterial genomes in the RefSeq database. As lysogenic
+prophage regions are incorporated into the bacterial genome, homo-
+logous regions may be present in terrestrial genomes in the bacterial
+database. The average query identity increased from 55% in the viral
+database to 80% with the bacterial database. Using the same cutoffs as
+above, 21 of the 71 clusters would be considered novel at the 95% query
+coverage cutoff and 16 would be considered novel at the 70% cutoff
+(Fig. 4b). Of the nine species, only B. thuringiensis lacked a novel
+complete prophage at the 70% cutoff (hereafter: non-redundant
+prophage region), suggesting unique prophage-associated genomic
+content was broadly observed in the ﬂight genomes (Table 1).
+Finally, we attempted to elicit a lytic phenotype from the ﬂight
+strains. Seven isolates from four different BSL1 species [B. amyloli-
+quifaeciens (IIF7SC-B1 and IIF7SW-P4), P. fulva (F8_7S_9B), P. polymyxa
+(IIF5SW-B4 and IIF8SW-P3), and S. saprophyticus (F6_7S_P5 and
+F5_7S_P13)] were provided by the NASA Jet Propulsion Laboratory. As
+Terrestrial
+Flight
+Terrestrial
+Flight
+Terrestrial
+Flight
+Prophage Region Number
+Prophage Region Number
+Prophage Region Number
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+K. quasipneumoniae
+E. bugandensis
+P. fulva
+P. polymyxa
+S. saprophyticus
+S. epidermidis
+n=37
+n=21
+n=65
+n=9
+n=76
+n=8
+n=10
+n=9
+n=86
+n=11
+n=6
+n=42
+n=99
+n=73
+n=16
+n=30
+n=31
+n=12
+p = 0.005
+p = 0.007
+p = 0.02
+p = 10-9
+U1 = 31
+f =  0.040
+p = 0.001
+U1 = 488
+f =  0.834
+U1 = 488
+f =  0.803
+p = 10-4
+U1 = 3
+f =  0.033
+U1 = 708
+f =  0.749
+p = 10-10
+U1 = 0.0
+f =  0.0
+U1 = 101
+f =  0.272
+p = 0.002
+U1 = 4609
+f =  0.638
+p = 0.053
+U1 = 160
+f =  0.333
+Fig. 2 | ISS (ﬂight) versus terrestrial prophage counts. The median is indicated by
+a dashed horizontal line for each condition (ﬂight or terrestrial) for each species.
+The number of genomes in the ﬂight and terrestrial categories are indicated adja-
+cent to each group of data. Two-tailed Mann–Whitney p value, for H0
+nﬂight = nterrestrial, and the U-statistic and Common Language Effect Size (f) for the
+terrestrial condition are shown. Source data are provided as a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+3
+
+the phage induction mechanisms have not yet been explored in these
+species, we subjected them to two common DNA damaging stimuli,
+mitomycin C and UV exposure. For all strains, log-phase cultures
+treated with mitomycin C (500, 100, 20, 4, and 0.8 ng mL−1) showed a
+dose-response decrease in culture viability, as measured by OD600,
+~8 h post-mitomycin C addition (Supplementary Fig. 1). In contrast, cell
+viability was more variable following UV-C radiation (254 nm; 5, 25, 50,
+100, 200 J m−2). Both S. saprophyticus species showed dose-dependent
+effect on the growth curve (b–c). This was similar to both B. amyloli-
+quifaeciens isolates for the initial 12 h of growth, after which the growth
+curves were indistinguishable between treatments, which coincided
+with the formation of a bioﬁlm (Supplementary Fig. 2d, e). The data for
+P. polymyxa was inconclusive as this species’ bioﬁlm growth pheno-
+type made it difﬁcult to standardize culture starting densities and
+resulted in non-uniform light attenuation during OD600 determina-
+tion (Supplementary Fig. 2f, g). P. fulva growth curves showed very
+little change in response to UV expose, which may suggest enhanced
+UV resistance in this ISS isolate (Supplementary Fig. 2a).
+For all species with more than one isolate, the complete pro-
+phages were identical in both strains, preventing us from testing for
+bacteriophage infection via the soft-agar overlay method. Instead, we
+attempted to purify phage particles post-mitomycin C addition via
+ﬁltration (0.22 µm) and precipitation (8% PEG8000, 1 M NaCl). While
+we were unable to recover phage particles, our attempt was cursory,
+and a more comprehensive exploration of phage induction in these
+isolates is needed.
+Long-read assemblies provide insight into mobile genetic
+elements
+We explored the contribution of genome assembly level on the
+prophage predictions by both the PHASTER and PhiSpy algorithms.
+From the seven isolates we sequenced two strains, P. fulva F8_7S_9B
+and S. saprophyticus F5_7S_P13, via Nanopore MinION. P. fulva was
+chosen as all the spaceﬂight strains are poly-lysogenic with a non-
+redundant prophage region in each strain (Cluster 52, Table 1). S.
+saprophyticus F5_7S_P13 is a member of Cluster 41 containing a non-
+redundant prophage region (Table 1).
+Assemblies for both species resulted in a single contig for the
+bacterial chromosome. S. saprophyticus F5_7S_P13 contained three
+log10(q-value)
+Difference in fractional abundance
+Terrestrial Genomes
+Spaceflight Genomes
+51.6
+46.6
+42.6
+33.1
+Transposase
+Lysozyme
+ATPase
+Structural: Mu-like
+Structural: P2-like
+Structural: Unclassified
+Anti-repressor/regulatory
+DNA replication/repair
+/transcription
+Uncharacterized
+Plasmid-related
+q > 0.05
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+E. bugandensis
+K. quasipneumoniae
+P. fulva
+S. epidermidis
+S. saprophyticus
+Fig. 3 | Mobilome-associated Clusters of Orthologous Groups (COG) functions
+signiﬁcantly different in either ﬂight or terrestrial genomes [q value < 0.05,
+two-tailed Rao score test p value corrected for multiple testing (see Methods)].
+General categories of phage genes are given different shapes, while the different
+species are show in different colors. Log10(q-values) > 18 have their values shown
+adjacent to their respective data point. Source data are provided as a Source
+Data ﬁle.
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+K. quasipneumoniae
+E. bugandensis
+P. fulva
+P. polymyxa
+S. saprophyticus
+S. epidermidis
+Complete prophage counts
+Query identity
+RefSeq Bacterial Genome Database
+b
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+K. quasipneumoniae
+E. bugandensis
+P. fulva
+P. polymyxa
+S. saprophyticus
+S. epidermidis
+Query identity
+Complete prophage counts
+RefSeq or IMG Viral Database
+a
+Fig. 4 | Homology of complete prophage regions versus viral and genome
+databases. a Query identity (nucleotide query coverage fraction × by identity
+fraction) for complete prophage regions in each species queried against the RefSeq
+and IMG viral databases. The higher value between the two databases was plotted.
+b Query identity (nucleotide query coverage fraction × by identity fraction) for
+complete prophage regions in each species queried against the RefSeq bacteria
+database. Vertical dashed lines indicate the 0.95 and 0.70 query identity cutoffs.
+Source data are provided as a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+4
+
+plasmids of 30, 33 and 36 kb in length. For this species, all ﬁve of the
+short-read assembly prophage regions mapped to the long-read
+assembly. However, one short-read incomplete prophage region was
+missing in the long-read assembly PHASTER analysis, despite the entire
+prophage region mapping to the long-read assembly (Supplementary
+data 1). This prophage region was present in the PhiSpy prophage calls
+for the long-read assembly. In addition, the long-read prophage ana-
+lysis suggested the complete prophage from this species was trun-
+cated in the short-read assembly (42.1 kb versus 56.2 kb). Interestingly,
+the incomplete prophage #5 from the short-read prophage analysis
+(Accession: NZ_JAFDPF010000007.1, sequence: 10127 to 19977) was
+located on the 36 kb plasmid.
+The prophage analysis for P. fulva F8_7S_9B suggested the short-
+read assembly led to fragmented prophage analysis. The long-read
+assembly identiﬁed 9 prophage regions, compared to 7 in the short-
+read assembly, with one short-read incomplete prophage region
+missing in the long-read assembly analysis (Supplementary data 1).
+Similar to S. saprophyticus, the entire prophage region mapped to the
+long-read assembly with no clear reason for its exclusion from the
+PHASTER prophage calls. This prophage region was not identiﬁed by
+PhiSpy in the long-read analysis. Long-read prophages #1, 5 and 6 were
+absent in the short-read analysis due to the prophage regions being
+split across separate contigs in the short-read assembly. Of the two
+complete prophages in P. fulva F8_7S_9B, a 62.9 kb long-read prophage
+region was split into two short-read prophage regions due to lying on
+two adjacent contigs. The other complete prophage region was
+annotated as a single 47.6 kb region in the long-read assembly but as
+two prophage regions in the short-read assembly (intact: 35.6 kb and
+incomplete: 12.1 kb region). The long-read assemblies can be found on
+NASA’s Open Science Data Repository (OSD-582, DOI: 10.26030/v6s6-
+w170) and NCBI (see Data Availability Statement).
+Functional analysis of prophage region-encoded proteins
+We selected a representative strain from each species and curated the
+prophage-encoded bacterial gene annotations to assess the functional
+contribution of phages to their hosts. Of the functionally annotated
+content, 46% was uncharacterized or hypothetical proteins. Of the
+remaining content, 20% was annotated as related to phage processes
+such as structural proteins (e.g., capsid, tail, etc.), lysogeny, and phage
+replication (e.g., integrases, terminases). The remaining content was
+annotated as microbial proteins, conferring a variety of capabilities to
+the host species (Fig. 5). The total number of prophage-encoded bac-
+terial proteins that could be ascribed a function ranged from ~60 for
+both Staphylococcus species to a high of 102 for E. bugandensis (707
+total for all species). The most prominent functional category con-
+tained proteins related to Signal Transduction and Transcriptional
+Regulation (104 proteins across all species), followed by DNA Repair
+and Replication (91 proteins), and Cell Wall Biogenesis and Degrada-
+tion (65 proteins). To investigate the subset of prophage-encoded
+proteins that provide unique capabilities to their host, we extracted
+prophage-encoded annotations that lacked functional homology to
+host genome-encoded proteins (Fig. 5). We computed a conservation
+score for each category deﬁned as the fraction of prophage-encoded
+proteins that were functionally unique. While only consisting of ﬁve
+proteins across three species, Secretion Systems had the highest
+conservation score of 1.0 (100% of the prophage-encoded proteins
+conferred a unique capability to their host). Translation, Ribosomal
+Structure and Biogenesis, as well as Lipid and Fatty Acid Metabolism
+also had high conservation scores (0.9 for both categories). The pro-
+minent prophage-encoded functional categories of Signal Transduc-
+tion and Transcriptional Regulation, DNA Repair and Replication, and
+Cell Wall Biogenesis and Degradation had conservation scores of 0.6,
+0.51, and 0.48, respectively.
+Many of the functions conferred by prophage-encoded proteins
+are correlated to increased ﬁtness in competitive environments. All
+nine species had putative virulence related genes encoded on proph-
+age regions, with 45% of these conferring unique functions to their
+hosts. Based on the assessment of antibiotic resistance genes using
+ABRicate, P. polymyxa prophage contained an aminoglycoside resis-
+tance gene (aadK), and S. epidermidis prophage contained two con-
+ﬁrmed antibiotic resistance genes, a macrolide resistance gene
+[mph(C)] and an efﬂux pump [msr(A)]. Approximately 33% of the
+putative AMR proteins were possible resistance pumps for macro-
+molecules. A. pittii, B. amyloliquifaeciens, and E. bugandensis all con-
+tained prophage-encoded pyocin-related defense proteins. Both
+Staphylococcus species contained prophage-encoded pathogenicity
+Table 1 | Non-redundant prophage regions in spaceﬂight isolates
+Species
+Cluster
+Representative Phage
+Genomes in Cluster
+Size (kb)
+Family
+Query Identitya
+NCBI Virus
+IMG Virus
+NCBI Bacteria
+A. pittii
+2
+IIF1SW-P2 sequence:120779-155538
+13
+34.8
+Caudoviricetes
+0%
+65%
+59%
+3
+IIF1SW-P4 sequence:16202-50961
+8
+34.8
+Caudoviricetes
+0%
+65%
+59%
+B. amyloliquefaciens
+6
+IIF7SW-B4 sequence:76-30790
+2
+30.7
+Caudoviricetes
+0%
+55%
+21%
+E. bugandensis
+12
+IFACSW-P1 sequence:830462-877738
+7
+47.3
+Caudoviricetes
+11%
+52%
+47%
+17
+IF2SW-F2 sequence:448858-496167
+2
+47.3
+Caudoviricetes
+11%
+51%
+47%
+K. quasipneumoniae
+24
+IIIF3SW-P1 sequence:1181253-1232366
+2
+51.1
+Unclassiﬁed
+4%
+37%
+20%
+P. fulva
+52
+F8_8S_9P sequence:173154-179665
+1
+6.5
+Caudoviricetes
+0%
+56%
+33%
+P. polymyxa
+26
+IIF5SW-B4 sequence:979867-1033318
+5
+53.5
+Caudoviricetes
+0%
+56%
+33%
+28
+IIF2*SW-P4 sequence:600724-654175
+2
+53.5
+Caudoviricetes
+0%
+66%
+29%
+S. epidermidis
+34
+IF4SW-P4 sequence:652269-693911
+2
+41.6
+Caudoviricetes
+20%
+58%
+55%
+38
+s34 sequence:116777-162391
+2
+45.6
+Caudoviricetes
+16%
+68%
+41%
+62
+s51 sequence:616-49418
+1
+48.8
+Caudoviricetes
+11%
+65%
+54%
+69
+s17 sequence:35-44746
+1
+44.7
+Unclassiﬁed
+29%
+40%
+39%
+74
+F6_3S_P_7 sequence:72993-118974
+1
+46
+Caudoviricetes
+14%
+48%
+45%
+S. saprophyticus
+41
+F6_7S_P_5 sequence:592884-635056
+2
+42.2
+Caudoviricetes
+43%
+63%
+25%
+42
+F5_7S_P5C sequence:174-42331
+5
+42.2
+Caudoviricetes
+43%
+63%
+25%
+70
+s43 sequence:757637-811609
+1
+54
+Unclassiﬁed
+5%
+32%
+12%
+71
+F5_7S_P11B sequence:38923-82523
+1
+43.6
+Caudoviricetes
+50%
+61%
+24%
+aNCBI Megablast query coverage × alignment.
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+5
+
+island genes and enzymes associated with putative virulence or anti-
+biotic resistance functions (Supplementary data 1). A. pittii, B. amylo-
+liquifaeciens,
+and
+B.
+thuringiensis
+contained
+prophage-encoded
+enzymes for deoxynucleotide sugar biosynthesis found in both anti-
+microbial biosynthetic pathways, such as streptomycin, as well as
+polyketide biosynthesis related to pathogenicity and antimicrobial
+activity24. These enzymes were unique to the prophage regions, with
+no homologs found in the non-prophage host genomic content.
+Additional prophage-encoded gene products may confer ﬁtness
+in the built spacecraft environment. Stress response proteins included
+those associated with sporulation and hibernation and metal resis-
+tance genes and transporters. Both categories have been shown to be
+enriched in spacecraft-associated microorganisms3. Four species had
+prophage-encoded LexA-related transcriptional regulators or repres-
+sors involved in the regulation of the SOS response in bacteria, which
+have recently been shown to be uniquely present in ISS strains of A.
+pittii25. This study also showed the presence of the RelBE toxin-
+antitoxin system in ISS A. pittii strains, which is also prophage-
+encoded.
+Discussion
+Prophages are cited to be the largest factor associated with strain
+variation and diversity within terrestrial bacterial species5,7, which
+holds in the spaceﬂight environment as phage-associated genes were
+signiﬁcantly different in 8 of the 9 phage-containing species analyzed.
+Several spaceﬂight species contained genes related to the production
+of Mu-like phage proteins compared to their terrestrial counterparts.
+Mu-like phages are unique in that they randomly integrate into the
+host genome, increasing mutation rates and host gene disruption26.
+Increased genetic diversity via Mu-like phage induced mutation may
+assist in microbial adaptation to the spaceﬂight environment and
+would explain the retention of these phage in ﬂight strains. In com-
+parison, terrestrial genomes contained transposases absent in the
+ﬂight strains. Transposases are common in dense populations where
+there is rampant DNA sharing across a population of individuals27. The
+absence of these transposase regions may be related to the nutrient
+poor environment of the ISS. The presence of transposases in the
+terrestrial organisms may also be indicative of active mobile genetic
+elements, which we were unable to conﬁrm for the spaceﬂight isolates.
+Our analysis suggested a high number of novel prophages in the
+ﬂight genomes. In total, we identiﬁed 283 complete prophages making
+up 71 unique prophage clusters, 18 of which were hypothesized as
+novel, and host-related genes making up over a third of the genes
+present in these prophage regions. While the discovery of novel pro-
+phages is not uncommon, with viral dark matter reported to be
+70–95% of human associated viromes28,29, a previous viral metage-
+nomic study was able to classify the majority of the viruses in extreme
+environments30.
+Prophages are a primary mechanism of bacterial host gene
+transfer, to include antibiotic resistance and virulence genes31. We
+identiﬁed at least one putative antibiotic resistance or virulence host-
+related gene within the prophage regions of all species studied. In
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+E. bugandensis
+K. quasipneumoniae
+P. polymyxa
+P. fulva
+S. epidermidis
+S. saprophyticus
+A. pittii
+B. amyloliquifaciens
+B. thuringiensis
+E. bugandensis
+K. quasipneumoniae
+P. polymyxa
+P. fulva
+S. epidermidis
+S. saprophyticus
+Prophage-encoded proteins
+Functionally unique subset
+Protein count
+Conservation score*
+Fig. 5 | Species-speciﬁc prophage-encoded protein functions. Left panel: all
+prophage encoded proteins in each species. Right panel: the subset of prophage-
+encoded proteins that confer a unique function to their host. *Conservation score:
+mean of the functionally unique protein count divided by the total prophage
+protein count for each functional category. Phage-related proteins and unchar-
+acterized/hypothetical proteins were excluded from the ﬁgure.
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+6
+
+comparison, <12% of highly antibiotic resistant ESKAPE pathogens
+carry a prophage-encoded antibiotic resistance gene32. In addition,
+lysogens carrying antibiotic resistance genes have been shown to
+provide a ﬁtness beneﬁt for their host31,33. There are several reports of
+spaceﬂight-induced increases in antibiotic tolerance or increased
+antibiotic resistance gene clusters14,25,34–36. With our identiﬁcation of
+conﬁrmed antibiotic genes within prophage regions of P. polymyxa
+and S. epidermidis, as well as the conservation of prophage regions
+within members of the same species, we describe one possible
+mechanism for this increased antibiotic tolerance.
+We also identiﬁed categories of genes related to host immunity,
+stress response, and DNA repair. The presence of prophages within a
+bacterial host can provide immunity to attack from other bacter-
+iophages or phage-like pyocins by inhibiting lytic phage replication, or
+repressing other phages37,38. We identiﬁed several host immunity
+genes in the ﬂight prophages that could mediate phage and pyocin
+resistance. In addition, both Bacillus species contained prophage-
+encoded sporulation genes, related to persistence in harsh terrestrial
+environments39,40 and spaceﬂight3. Prophage-encoded DNA repair
+genes were present across several species, notably those activated in
+response to radiation. UV radiation induced activation of lytic phage is
+well known; however, the ISS structure shields the interior from UV
+radiation. The presence of DNA-repair genes may play a role in the
+protection of the host genome from galactic cosmic rays or general
+DNA damage from desiccation in the built environment41.
+The association between genomic features enriched in ISS isolates
+and prophage regions suggest phage are important for adaptation to
+the spaceﬂight environment. However, these are correlations, and
+experimentation is required to directly connect prophage-mediated
+genetic plasticity with persistence in the built spacecraft environment.
+In addition, the opportunity for phage infection of microbial strains
+after they leave the crew microbiome is likely limited. Thus, an
+important line of inquiry is to assess the lytic-lysogenic traits of
+microorganisms while they are still host-associated.
+Methods
+Flight and terrestrial genomes
+Candidate ﬂight species to use in our analysis were determined from
+literature42–44. Isolates from the ISS were identiﬁed in the NCBI
+databases18 by searching the BioSample database for “geo_loc_na-
+me=USA: International Space Station”[attr] AND “SPECIES NAME”.
+These hits were mapped back to the NCBI Assembly database and the
+ﬂight genomes were validated and downloaded. The terrestrial gen-
+omes were downloaded from the Assembly database with the follow-
+ing conditions: Latest RefSeq only, Exclude anomalous and Taxonomy
+Check Status OK. The Assembly Level differed based on analysis with
+Scaffold and above used for pangenome analysis and Complete gen-
+ome was used for prophage identiﬁcation. The Assembly Level for all
+ISS ﬂight genomes were either Scaffold or Contig. Metagenomes were
+downloaded from the NASA Open Science Data Repository OSD-69
+(DOI: 10.26030/cary-q426)45. A full list of genomes, reference links and
+sampling locations can be found in Supplementary data 1.
+Prophage identiﬁcation and classiﬁcation
+Prophage regions for both ISS and terrestrial isolates were identiﬁed
+with PHASTER17. Results were separated into complete, questionable,
+and incomplete prophage regions and the prophage regions in fasta
+format were downloaded from the PHASTER web-based server. In
+addition, ﬂight and terrestrial genomes, downloaded from NCBI using
+E-utilities (v 1.77) in GenBank format, were also searched for prophage
+regions using PhiSpy [v4.2.20,19] using default parameters. PhiSpy
+prophage regions consistent with PHASTER prophage regions were
+analyzed using ABRicate (v1.0.0, Seemann T, Abricate, Github https://
+github.com/tseemann/abricate) with all associated databases46–53 to
+identify antibiotic resistance genes in prophage regions. Fasta ﬁles of
+the bacterial genomes without prophages were exported and used for
+the ﬂight isolate genome diversity analysis. Prophage regions from ISS
+strains were queried against the Virulence Factor Database (accessed
+April 2023)53 to identify putative virulence factors using NCBI Blast20.
+Statistical differences in prophage number were determined using a
+two-tailed Mann–Whitney U rank test, correcting for ties, as imple-
+mented in SciPy [v1.7.3,54]. The effect size was computed as
+the common language effect size f value where f=
+U
+n1n2. The U-statistic
+and f value were reported for the terrestrial condition. Prophage
+regions identiﬁed as complete were clustered using MeShClust
+[v3.0,55] with a cut off of 90% nucleotide identity. The nucleotide
+sequence labeled as the center of each cluster was assessed for
+homology with known viral and bacterial sequences in the NCBI
+RefSeq genome database21 using BLAST [Megablast20, accessed
+November 2022] and high conﬁdence genomes in the IMG/VR data-
+base [v4.1, accessed July 202322]. Phage classiﬁcation was determined
+based on the taxonomic similarity to the best hit in the viral database
+(query coverage percentage multiplied by percent identity > 40%).
+Pangenome analysis
+Pangenome analysis of the ﬂight and terrestrial genomes from NCBI
+and the NASA Open Science Data Repository56 was completed using
+the pangenomics workﬂow57–59 in anvi’o [v7.160]. For Bacillus thur-
+ingiensis, Klebsiella quasipneumoniae, and Staphylococcus epidermidis,
+the terrestrial genomes were subsampled into sets of 300 genomes
+and the pangenome workﬂow run separately on each subset (2 sets for
+B. thuringiensis and K. quasipneumoniae each, and 3 sets for S. epi-
+dermidis). For the ISS ﬂight genome diversity analysis, the non-
+prophage containing bacterial genomes output from PhiSpy was used
+for analysis. Outputs from the anvio-summarize function were parsed
+for the number of genomes in which each gene was present. The core
+pangenome was deﬁned as genes present in at least 90% of the gen-
+omes (or for ISS species with less than 10 genomes, the cutoff was n-1
+genomes, where n is the number of available genomes). The accessory
+pangenome was deﬁned as the difference between the core pangen-
+ome and the total number of genes in the pangenome. The core ratio
+was the deﬁned as the number of genes in the ISS ﬂight core pan-
+genome versus to all-strains (ISS and terrestrial) core pangenome. The
+core pangenome fraction was deﬁned as the number of genes in the
+core pangenome divided by the total pangenome size (core plus
+accessory).
+For the functional enrichment analysis, the full bacterial genome
+with prophage regions was used for analysis. Functional enrichments
+between ﬂight and terrestrial strains were determined using the built in
+anvi-compute-functional-enrichments-in-pan
+workﬂow59
+with
+COG20_FUNCTION as the annotation source. This workﬂow used the
+two-tailed Rao test statistic to determine the signiﬁcance of a catego-
+rical variable (in this case ﬂight versus terrestrial) to explain the func-
+tional occurrence. The resulting p value was corrected for multiple
+tests and reported as a q value, with a set signiﬁcance threshold of
+q < 0.05. For species with subsampled genomes, a COG was considered
+enriched if it was present at a q value (p value adjusted for multiple
+tests) of 0.05 or lower for at least two subsets. Enrichment summaries
+and outputs from the anvio-summarize script were used for down-
+stream analysis.
+Mitomycin C and UV treatment of ISS bacterial isolates
+Flight isolates of Paenibacillus polymyxa (strains IIFSW-B4 and IIF8SW-
+P3), Bacillus amyloliquefaciens (strains IIF7SW-P4 and IIF7SC-B1),
+Pseudomonas fulva strain F8_7S_9B, and Staphylococcus saprophyticus
+(strains F5_7S_P13 and F6_7S_P5) were provided by the Biotechnology
+and Planetary Protection Group at the NASA Jet Propulsion Laboratory
+and grown overnight in tryptic soy broth (TSB) at 30 °C. Cultures were
+diluted to an OD600 of 0.3–0.4 and 4 mL was placed in a 30 mm
+diameter plastic petri dish. With the lid removed, the cultures were
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+7
+
+subjected to aggregate UV doses of 5, 25, 50, 100, and 200 J m−2 of UV-
+C radiation from a G30T8 UV lamp (75 µW cm−2 at the plate surface).
+Doses were determined using a 2π UV-B/C light probe connected to a
+hand-held light meter (ILT2400, International Light Technologies,
+Peabody, MA, USA) in integrate mode. After each dose was delivered,
+duplicate 200 µL aliquots were removed from the petri dish and placed
+into separate wells of a 96-well microtiter plate. Cell growth was
+determined by microplate reader optical measurements at 600 nm
+once per hour (SpectraMax 340, Molecular Devices, San Jose, CA,
+USA). Negative control sample OD600 was subtracted from the time-
+course culture data prior to analysis.
+For the mitomycin C treatment, ﬂight isolates grown overnight
+in TSB at 30 °C were diluted to 0.3–0.4 OD600 and 200 µL was
+aliquoted into a 96-well plate. Mitomycin C stock solution in DMSO
+(10 mg/mL, Sigma-Aldrich, St. Louis, MO, USA) was diluted to
+110 µg/mL in TSB before being serial diluted ﬁve times at 5× dilution
+in TSB. 5 µL of these dilutions, along with a TSB control, were added
+to separate wells of the culture-containing 96-well plate (2 technical
+replicates per isolate) resulting in a ﬁnal concentration set of 500,
+100, 20, 4, 0.8, and 0.0 ng mL−1. Cell growth was determined by
+microplate reader optical measurements at 600 nm once per hour
+(SpectraMax 340, Molecular Devices, San Jose, CA, USA). Negative
+control sample OD600 was subtracted from the time-course culture
+data prior to analysis.
+For phage isolation attempts, 5 mL of cultures were grown to mid-
+log phase before being treated with mitomycin C (0.5 µg/mL ﬁnal
+concentration). Cultures were returned to the 30 °C incubator over-
+night. Cells and debris were removed by centrifugation and the
+supernatant was ﬁltered through a low-protein binding 0.22 µm PES
+syringe ﬁlter. To the clariﬁed supernatant, a PEG8000, NaCl stock
+solution was added to yield a ﬁnal concentration of 8% PEG8000, 1 M
+NaCl. Solutions were incubated overnight at 4 °C, transferred to tri-
+plicate 1.5 mL microcentrifuge tubes and centrifuged at 15 000 × g for
+30 min at4 °C. Tubes were visually examined for the presence of phage
+pellets.
+Long-read genome sequencing of bacterial isolates
+Flight isolates of Paenibacillus polymyxa (strains IIFSW-B4 and IIF8SW-
+P3), Bacillus amyloliquefaciens (strains IIF7SW-P4 and IIF7SC-B1),
+Pseudomonas fulva strain F8_7S_9B, and Staphylococcus saprophyticus
+(strains F5_7S_P13 and F6_7S_P5) were grown on tryptic soy agar plates.
+After 72 h the plates were scraped and biomass was suspended in 1 mL
+of buffer (100 mM Tris HCl, 50 mM NaCl, pH 7.0), and genomic DNA
+was extracted via a lysozyme, proteinase K treatment followed by
+phenol-chloroform extraction and ethanol precipitation as outlined
+in61. DNA quality was assessed by ﬂuorometric quantiﬁcation (Qubit,
+Invitrogen, Waltham, MA, USA) and UV-Vis microvolume spectro-
+photometry (Nanodrop, Thermo Fischer Scientiﬁc, Waltham, MA,
+USA). Paenibacillus polymyxa and Bacillus amyloliquefaciens, as well as
+Staphylococcus saprophyticus F5_7S_P13, were excluded from the
+sequencing run due to bioﬁlm polysaccharides preventing extraction
+of gDNA with sufﬁcient purity for MinION sequencing. All gDNA
+manipulations were performed using wide-bore pipet tips to prevent
+genomic DNA (gDNA) shearing. Native gDNA was sequenced on a
+MinION R9.4 ﬂowcell (Oxford Nanopore Technologies (ONT), Oxford,
+UK). The sequencing library was prepared using the ONT Rapid Bar-
+coding Sequencing kit (SQK-RBK004, Oxford Nanopore Technologies,
+Oxford, UK) according to the manufacturer’s protocol. Sequencing
+Fast5 ﬁles were base-called using the ONT Guppy base-caller (v6.2.1)
+using the super high accuracy model. Genomes were assembled using
+Flye [v2.9.162] and polished with the ONT tool Medaka (v1.7.0, https://
+github.com/nanoporetech/medaka) using default parameters for
+both. Closed contigs were checked for prophage regions using the
+PHASTER web-based interface as outlined above.
+Functional annotation of prophage regions
+Open reading frames encoded within the prophage nucleotide
+sequences from the PHASTER output were determined using the NCBI
+ORFinder18. Open reading frames were annotated using Microbe-
+Annotator
+[2.0.5,63],
+using
+DIAMOND
+search
+for
+homology
+determination58. The output ﬁle was combined with the E values for the
+homology scores and any E value higher than 1 × 10−40 was ﬂagged for
+manual curation. Proteins ﬂagged for manual curation were compiled
+into a single ﬁle in fasta format and searched against the NCBI RefSeq
+database. The results were curated for accuracy and conﬁdence and
+the annotation added to the summary ﬁle. All annotations in the
+summary ﬁle were then manually assigned to one of 21 categories
+based on their functional annotation.
+All data visualization was performed using in Python (v3.9) using
+Jupyter Notebooks [v1.0.0,64] and the packages Matplotlib [v3.5.1,65]
+and Seaborn [v0.11.2,66]. Additional packages used for analysis inclu-
+ded NumPy [v1.22.3,67], Pandas [v1.4.2,68,69], and Biopython [1.79,70]. No
+custom code, algorithms, or scripts central to the research were
+generated.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The long-read assemblies and raw fast5 ﬁles generated in this study
+have been deposited in the NASA Open Science Data Repository
+(https://osdr.nasa.gov/) under accession code OSD-582 (https://osdr.
+nasa.gov/bio/repo/data/studies/OSD-582,
+https://doi.org/10.26030/
+v6s6-w170) and in the NCBI databases Assembly under accession
+codes
+GCF_017167745.1
+(https://www.ncbi.nlm.nih.gov/datasets/
+genome/GCF_017167745.1) and GCF_017166245.1 (https://www.ncbi.
+nlm.nih.gov/datasets/genome/GCF_017166245.1),
+BioProject
+under
+accession
+code
+PRJNA994947
+(https://www.ncbi.nlm.nih.gov/
+bioproject/?term=PRJNA994947), BioSamples under accession codes
+SAMN36453224 (https://www.ncbi.nlm.nih.gov/biosample/36453225)
+and
+SAMN36453224
+(https://www.ncbi.nlm.nih.gov/biosample/
+36453224), and SRA under accession codes SRR25281509 (https://
+www.ncbi.nlm.nih.gov/sra/SRX21026417[accn])
+and
+SRR25281510
+(https://www.ncbi.nlm.nih.gov/sra/SRX21026416[accn]). All data for
+ﬁgures have been uploaded to Figshare (https://doi.org/10.6084/m9.
+ﬁgshare.23290226). Source data are provided with this paper.
+References
+1.
+Lang, J. M. et al. A microbial survey of the International Space
+Station (ISS). PeerJ 5, e4029 (2017).
+2.
+Avila-Herrera, A. et al. Crewmember microbiome may inﬂuence
+microbial composition of ISS habitable surfaces. PLoS ONE 15,
+e0231838 (2020).
+3.
+Mora, M. et al. Space Station conditions are selective but do not
+alter microbial characteristics relevant to human health. Nat.
+Commun. 10, 3990 (2019).
+4.
+Madrigal, P. et al. Machine learning algorithm to characterize anti-
+microbial resistance associated with the International Space Station
+surface microbiome. Microbiome 10, 134 (2022).
+5.
+Ramisetty, B. C. M. & Sudhakari, P. A. Bacterial ‘Grounded’ Pro-
+phages: Hotspots for Genetic Renovation and Innovation. Front.
+Genet. 10, 65 (2019).
+6.
+Koskella, B. & Brockhurst, M. A. Bacteria-phage coevolution as a
+driver of ecological and evolutionary processes in microbial com-
+munities. FEMS Microbiol. Rev. 38, 916–931 (2014).
+7.
+Howard-Varona, C., Hargreaves, K. R., Abedon, S. T. & Sullivan, M. B.
+Lysogeny in nature: mechanisms, impact and ecology of temperate
+phages. ISME J. 11, 1511–1520 (2017).
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+8
+
+8.
+Fortier, L.-C. & Sekulovic, O. Importance of prophages to evolution
+and virulence of bacterial pathogens. Virulence 4, 354–365 (2013).
+9.
+Brüssow, H., Canchaya, C. & Hardt, W.-D. Phages and the Evolution
+of Bacterial Pathogens: from Genomic Rearrangements to Lyso-
+genic Conversion. Microbiol. Mol. Biol. Rev. 68, 560–602 (2004).
+10.
+Braga, L. P. P. et al. Impact of phages on soil bacterial communities
+and nitrogen availability under different assembly scenarios.
+Microbiome 8, 52 (2020).
+11.
+Suttle, C. A. Marine viruses — major players in the global ecosys-
+tem. Nat. Rev. Microbiol. 5, 801–812 (2007).
+12.
+Bao, H. et al. Alterations in the diversity and composition of mice gut
+microbiota by lytic or temperate gut phage treatment. Appl.
+Microbiol. Biotechnol. 102, 10219–10230 (2018).
+13.
+Voorhies, A. A. et al. Study of the impact of long-duration space
+missions at the International Space Station on the astronaut
+microbiome. Sci. Rep. 9, 9911 (2019).
+14.
+Bryan, N. C. et al. Genomic and Functional Characterization of
+Enterococcus faecalis Isolates Recovered From the International
+Space Station and Their Potential for Pathogenicity. Front. Micro-
+biol. 11, 515319 (2020).
+15.
+Singh, N. K., Wood, J. M., Karouia, F. & Venkateswaran, K. Succes-
+sion and persistence of microbial communities and antimicrobial
+resistance genes associated with International Space Station
+environmental surfaces. Microbiome 6, 204 (2018).
+16.
+Zhou, Y., Liang, Y., Lynch, K. H., Dennis, J. J. & Wishart, D. S. PHAST:
+A Fast Phage Search Tool. Nucleic Acids Res. 39,
+W347–W352 (2011).
+17.
+Arndt, D. et al. PHASTER: a better, faster version of the PHAST phage
+search tool. Nucleic Acids Res. 44, W16–W21 (2016).
+18.
+Sayers, E. W. et al. Database resources of the National Center for
+Biotechnology Information. Nucleic Acids Res. 50, D20–D26 (2021).
+19.
+Akhter, S., Aziz, R. K. & Edwards, R. A. PhiSpy: a novel algorithm for
+ﬁnding prophages in bacterial genomes that combines similarity-
+and composition-based strategies. Nucleic Acids Res. 40,
+e126 (2012).
+20. Camacho, C. et al. BLAST+: architecture and applications. BMC
+Bioinforma. 10, 421 (2009).
+21.
+O’Leary, N. A. et al. Reference sequence (RefSeq) database at NCBI:
+current status, taxonomic expansion, and functional annotation.
+Nucleic Acids Res. 44, D733–D745 (2016).
+22. Camargo, A. P. et al. IMG/VR v4: an expanded database of uncul-
+tivated virus genomes within a framework of extensive functional,
+taxonomic, and ecological metadata. Nucleic Acids Res. 51,
+D733–D743 (2023).
+23. Turner, D., Kropinski, A. M. & Adriaenssens, E. M. A Roadmap for
+Genome-Based Phage Taxonomy. Viruses 13, 506 (2021).
+24. Olishevska, S., Nickzad, A. & Déziel, E. Bacillus and Paenibacillus
+secreted polyketides and peptides involved in controlling human
+and plant pathogens. Appl. Microbiol. Biotechnol. 103,
+1189–1215 (2019).
+25. Tierney, B. T. et al. Multidrug-resistant Acinetobacter pittii is
+adapting to and exhibiting potential succession aboard the Inter-
+national Space Station. Microbiome 10, 210 (2022).
+26. Morgan, G. J., Hatfull, G. F., Casjens, S. & Hendrix, R. W. Bacter-
+iophage Mu genome sequence: analysis and comparison with Mu-
+like prophages in Haemophilus, Neisseria and Deinococcus. J. Mol.
+Biol. 317, 337–359 (2002).
+27.
+Vigil-Stenman, T., Ininbergs, K., Bergman, B. & Ekman, M. High
+abundance and expression of transposases in bacteria from the
+Baltic Sea. ISME J. 11, 2611–2623 (2017).
+28. Waller, A. S. et al. Classiﬁcation and quantiﬁcation of bacteriophage
+taxa in human gut metagenomes. ISME J. 8, 1391–1402 (2014).
+29. Liang, G. & Bushman, F. D. The human virome: assembly, compo-
+sition and host interactions. Nat. Rev. Microbiol. 19, 514–527
+(2021).
+30. Dávila-Ramos, S. et al. A Review on Viral Metagenomics in Extreme
+Environments. Front. Microbiol. 10, 2403 (2019).
+31.
+Kondo, K., Kawano, M. & Sugai, M. Distribution of Antimicrobial
+Resistance and Virulence Genes within the Prophage-Associated
+Regions in Nosocomial Pathogens. mSphere 6, e00452–21 (2021).
+32. Botelho, J., Cazares, A. & Schulenburg, H. The ESKAPE mobilome
+contributes to the spread of antimicrobial resistance and CRISPR-
+mediated conﬂict between mobile genetic elements. Nucleic Acids
+Res. 51, 236–252 (2023).
+33. Wendling, C. C., Refardt, D. & Hall, A. R. Fitness beneﬁts to bacteria
+of carrying prophages and prophage‐encoded antibiotic‐resistance
+genes peak in different environments. Evolution 75, 515–528 (2021).
+34. Tixador, R. et al. Study of minimal inhibitory concentration of anti-
+biotics on bacteria cultivated in vitro in space (Cytos 2 experiment).
+Aviat. Space Environ. Med. 56, 748–751 (1985).
+35. Hammond, T. G. et al. Effects of microgravity on the virulence of
+Listeria monocytogenes, Enterococcus faecalis, Candida albicans,
+and methicillin-resistant Staphylococcus aureus. Astrobiology 13,
+1081–1090 (2013).
+36. Aunins, T. R. et al. Spaceﬂight Modiﬁes Escherichia coli Gene
+Expression in Response to Antibiotic Exposure and Reveals Role of
+Oxidative Stress Response. Front. Microbiol. 9, 310 (2018).
+37. Bondy-Denomy, J. et al. Prophages mediate defense against phage
+infection through diverse mechanisms. ISME J. 10,
+2854–2866 (2016).
+38. Owen, S. V. et al. Prophages encode phage-defense systems with
+cognate self-immunity. Cell Host Microbe 29, 1620–1633.e8 (2021).
+39. Mobberley, J. et al. Lysogeny and Sporulation in Bacillus Isolates
+from the Gulf of Mexico. Appl. Environ. Microbiol. 76,
+829–842 (2010).
+40. Abe, K. et al. Developmentally-Regulated Excision of the SPβ
+Prophage Reconstitutes a Gene Required for Spore Envelope
+Maturation in Bacillus subtilis. PLOS Genet. 10, e1004636 (2014).
+41.
+Kodaira, S. et al. Space Radiation Dosimetry at the Exposure Facility
+of the International Space Station for the Tanpopo Mission. Astro-
+biology 21, 1473–1478 (2021).
+42. Bharadwaj, A. R. et al. Draft Genome Sequences of Enterobacter-
+iales Strains Isolated from the International Space Station. Micro-
+biol. Resour. Announc. 9, e00817–e00820 (2020).
+43. Daudu, R. et al. Draft Genome Sequences of Bacillaceae Strains
+Isolated from the International Space Station. Microbiol. Resour.
+Announc. 9, e00701–e00720 (2020).
+44. Simpson, A. C. et al. Draft Genome Sequences of Various Bacterial
+Phyla Isolated from the International Space Station. Microbiol.
+Resour. Announc. 10, e00214–e00221 (2021).
+45. Venkateswaran, K. Microbial Observatory (ISS-MO): Indoor micro-
+biome studyof the International Space Station surfaces. https://doi.
+org/10.26030/cary-q426 (2016).
+46. Feldgarden, M. et al. Validating the AMRFinder Tool and Resistance
+Gene Database by Using Antimicrobial Resistance Genotype-
+Phenotype Correlations in a Collection of Isolates. Antimicrob.
+Agents Chemother. 63, e00483–19 (2019).
+47. Jia, B. et al. CARD 2017: expansion and model-centric curation of the
+comprehensive antibiotic resistance database. Nucleic Acids Res.
+45, D566–D573 (2017).
+48. Zankari, E. et al. Identiﬁcation of acquired antimicrobial resistance
+genes. J. Antimicrob. Chemother. 67, 2640–2644 (2012).
+49. Gupta, S. K. et al. ARG-ANNOT, a new bioinformatic tool to discover
+antibiotic resistance genes in bacterial genomes. Antimicrob.
+Agents Chemother. 58, 212–220 (2014).
+50. Carattoli, A. et al. In silico detection and typing of plasmids using
+PlasmidFinder and plasmid multilocus sequence typing. Anti-
+microb. Agents Chemother. 58, 3895–3903 (2014).
+51.
+Ingle, D. J. et al. In silico serotyping of E. coli from short read data
+identiﬁes limited novel O-loci but extensive diversity of O:H
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+9
+
+serotype combinations within and between pathogenic lineages.
+Micro. Genom. 2, e000064 (2016).
+52. Doster, E. et al. MEGARes 2.0: a database for classiﬁcation of anti-
+microbial drug, biocide and metal resistance determinants in
+metagenomic sequence data. Nucleic Acids Res. 48,
+D561–D569 (2020).
+53. Chen, L., Zheng, D., Liu, B., Yang, J. & Jin, Q. VFDB 2016: hierarchical
+and reﬁned dataset for big data analysis–10 years on. Nucleic Acids
+Res. 44, D694–D697 (2016).
+54. Virtanen, P. et al. SciPy 1.0: fundamental algorithms for scientiﬁc
+computing in Python. Nat. Methods 17, 261–272 (2020).
+55. Girgis, H. Z. MeShClust v3.0: high-quality clustering of DNA
+sequences using the mean shift algorithm and alignment-free
+identity scores. BMC Genom. 23, 423 (2022).
+56. Berrios, D. C., Galazka, J., Grigorev, K., Gebre, S. & Costes, S. V.
+NASA GeneLab: interfaces for the exploration of space omics data.
+Nucleic Acids Res. 49, D1515–D1522 (2021).
+57. Köster, J. & Rahmann, S. Snakemake—a scalable bioinformatics
+workﬂow engine. Bioinformatics 28, 2520–2522 (2012).
+58. Buchﬁnk, B., Xie, C. & Huson, D. H. Fast and sensitive protein
+alignment using DIAMOND. Nat. Methods 12, 59–60 (2015).
+59. Shaiber, A. et al. Functional and genetic markers of niche parti-
+tioning among enigmatic members of the human oral microbiome.
+Genome Biol. 21, 292 (2020).
+60. Eren, A. M. et al. Community-led, integrated, reproducible multi-
+omics with anvi’o. Nat. Microbiol. 6, 3–6 (2021).
+61.
+Kiang, N. Y. et al. Discovery of Chlorophyll d: Isolation and Char-
+acterization of a Far-Red Cyanobacterium from the Original Site of
+Manning and Strain (1943) at Moss Beach, California. Microorgan-
+isms 10, 819 (2022).
+62. Kolmogorov, M., Yuan, J., Lin, Y. & Pevzner, P. A. Assembly of long,
+error-prone reads using repeat graphs. Nat. Biotechnol. 37,
+540–546 (2019).
+63. Ruiz-Perez, C. A., Conrad, R. E. & Konstantinidis, K. T. Microbe-
+Annotator: a user-friendly, comprehensive functional annota-
+tion pipeline for microbial genomes. BMC Bioinforma. 22,
+11 (2021).
+64. Granger, B. E. & Pérez, F. Jupyter: Thinking and Storytelling With
+Code and Data. Comput. Sci. Eng. 23, 7–14 (2021).
+65. Hunter, J. D. Matplotlib: A 2D graphics environment. Comput. Sci.
+Eng. 9, 90–95 (2007).
+66. Waskom, M. L. seaborn: statistical data visualization. J. Open Source
+Softw. 6, 3021 (2021).
+67. Harris, C. R. et al. Array programming with NumPy. Nature 585,
+357–362 (2020).
+68. team, T. pandas development. pandas-dev/pandas: Pandas.
+https://doi.org/10.5281/zenodo.3509134 (2020).
+69. McKinney, W. Data Structures for Statistical Computing in Python.
+in Proceedings of the 9th Python in Science Conference (eds. Walt, S.
+van der & Millman, J.) 56–61 https://doi.org/10.25080/Majora-
+92bf1922-00a (2010).
+70. Cock, P. J. A. et al. Biopython: freely available Python tools for
+computational molecular biology and bioinformatics. Bioinfor-
+matics 25, 1422–1423 (2009).
+Acknowledgements
+The authors would like to acknowledge Dr. Kasthuri Venkateswaran and
+Dr. Anna Simpson at the NASA Jet Propulsion Laboratory for providing
+the ISS ﬂight isolates and Dr. Braden Tierney at Weill-Cornell Medical
+College for his critical review of the paper. This work was supported by
+the NASA Space Biology Space Life Science Training Program and the
+NASA Human Research Program Model Translation and Space Biology
+Integration project.
+Author contributions
+J.T.B. and I.I. conceived and designed the study. J.T.B. performed the
+pangenome analysis, mitomycin C and UV experiments, MinION
+sequencing and assembly, and curation of prophage-encoded protein
+functions. I.I. built and executed the pipeline for prophage identiﬁcation,
+comparison, and classiﬁcation, and the presence of antibiotic resistance
+markers. Both authors wrote and edited the paper.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-023-42104-w.
+Correspondence and requests for materials should be addressed to
+Jared T. Broddrick.
+Peer review information Nature Communications thanks Louis-Charles
+Fortier and the other, anonymous, reviewer(s) for their contribution to
+the peer review of this work. A peer review ﬁle is available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+This is a U.S. Government work and not under copyright protection in the
+US; foreign copyright protection may apply 2024
+Article
+https://doi.org/10.1038/s41467-023-42104-w
+Nature Communications|   (2024) 15:3474 
+10

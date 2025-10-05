@@ -1,0 +1,1401 @@
+ARTICLE
+OPEN
+Bioﬁlm formation of Pseudomonas aeruginosa in spaceﬂight is
+minimized on lubricant impregnated surfaces
+Pamela Flores
+1,2✉, Samantha A. McBride
+3, Jonathan M. Galazka
+4, Kripa K. Varanasi3✉and Luis Zea
+1✉
+The undesirable, yet inevitable, presence of bacterial bioﬁlms in spacecraft poses a risk to the proper functioning of systems and to
+astronauts’ health. To mitigate the risks that arise from them, it is important to understand bioﬁlms’ behavior in microgravity. As
+part of the Space Bioﬁlms project, bioﬁlms of Pseudomonas aeruginosa were grown in spaceﬂight over material surfaces. Stainless
+Steel 316 (SS316) and passivated SS316 were tested for their relevance as spaceﬂight hardware components, while a lubricant
+impregnated surface (LIS) was tested as potential bioﬁlm control strategy. The morphology and gene expression of bioﬁlms were
+characterized. Bioﬁlms in microgravity are less robust than on Earth. LIS strongly inhibits bioﬁlm formation compared to SS.
+Furthermore, this effect is even greater in spaceﬂight than on Earth, making LIS a promising option for spacecraft use.
+Transcriptomic proﬁles for the different conditions are presented, and potential mechanisms of bioﬁlm reduction on LIS are
+discussed.
+npj Microgravity  (2023) 9:66 ; https://doi.org/10.1038/s41526-023-00316-w
+INTRODUCTION
+In previous and current spaces stations (Salyut-6 and -7, Mir, and
+the International Space Station (ISS)), damage caused by bacterial
+bioﬁlms on hardware have resulted in function disruption and
+failures of myriad equipment (summarized in Zea et al., 2018,
+20201,2). On the ISS, bioﬁlms are a concern for the water recovery
+system, particularly for the water processing assembly’s waste-
+water tank and its downstream ﬁlter3,4, as well as for the hoses
+linking the distillation assembly to the purge and ﬂuid pumps,
+which have needed to be returned to Earth for unclogging and
+reprocessing before sent back to ISS (Y.A. Velez-Justiniano,
+personal communication, June 10, 2022).
+Bioﬁlms are communities of microbes attached to each other
+and to surfaces which can cause damage to materials either
+directly by using it as food, or indirectly via their metabolic
+byproducts5,6. While pre-planned bioﬁlms may enable useful
+processes in space7–9, uncontrolled growth—especially of oppor-
+tunistic or pathogenic microbes—may have another deleterious
+effect for space missions: increased risk of infections to the crew.
+Microbial communities living as bioﬁlms can have increased
+tolerance to disinfectants and antibiotics10, which may contribute
+to recurrent infections. On Earth, bioﬁlms are associated with 65%
+and 80% of infectious and chronic diseases, respectively11.
+Materials can profoundly inﬂuence bioﬁlm growth, and it is
+possible to design surfaces that either prevent microbial adhesion
+or that have antimicrobial properties. Antimicrobial surfaces
+include those with metallic nanoparticles with biocidal effects12
+and strongly oxidizing materials that destroy cell membranes13.
+However, biocidal surfaces have a critical failure mechanism when
+a layer of destroyed cells forms on the initial surface. This layer can
+provide a safe harbor for new microbes to colonize. Preventing
+initial adhesion of microbes via engineering of surface properties
+addresses this limitation. Surface roughness provides initial
+colonizers with favorable positions to adhere to a surface, and
+therefore smooth surfaces tend to be more successful at
+preventing adhesion14. Hydrophobicity is another property that
+is particularly focused on in the context of creating adhesion-free
+surfaces; however, the inﬂuence is a complicated one. In general,
+hydrophobic surfaces may cause greater initial attachment due to
+hydrophobic interactions between the surface and the cell
+membranes, but also allow larger detachment rates14.
+The fast pace of microbial adaptation and changes in gene
+expression also presents a signiﬁcant challenge for creation of
+anti-biofouling materials. Microorganism behavior is signiﬁcantly
+altered by the presence of different surfaces. For example, bioﬁlm
+morphologies differ strongly across steel and polypropylene
+surfaces15, and gene expression is altered for microbes exposed
+to less habitable surfaces16,17. Therefore, even surfaces engineered
+to resist bioﬁlms may not be immune to bacteria colonization.
+Bioﬁlm growth in space stations and surface habitat compo-
+nents can decrease the probability of mission success and increase
+that of medical risks to the crew. Crewed missions to the Lunar
+surface and Mars, the latter requiring several years in space,
+warrant understanding of how bioﬁlms grow differently in
+microgravity, as system functionality is of even higher importance
+when receiving spare parts from Earth or returning crew to Earth
+promptly is not possible. To address this, the NASA-funded Space
+Bioﬁlms project was designed as described in Zea et al. 20181, and
+prepared and performed on board the ISS as reported in Flores
+et al., 202218. In brief, samples of Pseudomonas aeruginosa UCBPP-
+PA14 (PA14) were sent to the ISS and bioﬁlms were allowed to
+grow on different surfaces for either one, two, or three days at
+37 °C. Equivalent bioﬁlms grown on Earth at 1 g were used as
+controls. The six material surfaces tested were stainless steel 316
+(SS316), passivated SS316 (pSS316), a silicon wafer impregnated
+with silicone oil as a lubricant-impregnated surface (LIS)19,
+cellulose membrane, silicone, and silicone with a microtopogra-
+phy. Each condition tested had four replicates ﬁxed in 4% PFA for
+morphology analysis, and other four preserved in RNAlater for
+gene expression analysis. Here, we report the morphological and
+1BioServe Space Technologies, Aerospace Engineering Sciences Department, University of Colorado Boulder, Boulder, CO 80309, USA. 2Molecular, Cellular, and Developmental
+Biology Department, University of Colorado Boulder, Boulder, CO 80309, USA. 3Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA. 4Space Biosciences
+Division, NASA Ames Research Center, Moffett Field, CA 94035, USA. ✉email: pamela.ﬂores@colorado.edu; varanasi@mit.edu; luis.zea@colorado.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+transcriptomic results of SS316, pSS316, and LIS grown in nutrient-
+rich medium (to replicate wastewater); the rest are reported
+elsewhere20.
+SS316 and pSS316 were assessed given their common use for
+spacecraft components and for elements of the Environmental
+Control and Life Support Systems (ECLSS), respectively. LIS was
+tested as a potential alternative for future spacecraft parts most
+susceptible to bioﬁlm formation.
+SS316 is an iron alloy containing chromium, nickel, and
+molybdenum characteristic for its increased resistance to corro-
+sion compared to iron21. The passivation of SS316 uses a nitric or
+citric acid treatment to eliminate iron from the surface and
+generate an oxide passive layer to prevent corrosion22. LISs are a
+class of textured surfaces that are stably impregnated with a
+lubricant (e.g., oils) to render the surface with super-slippery
+properties19,23 (Fig. 1). The lubricant is held within the texture by
+capillary and intermolecular forces. A drop on LIS can exist in one
+of twelve different thermodynamic states depending on the
+properties of the solid texture, lubricant, droplet, and environ-
+ment. Stable impregnation of the lubricant requires the contact
+angle of the lubricant on solid surface to be below a critical value
+set by the texture parameters. For the case of stable LIS, the
+texture tops can remain exposed or covered by a thin van der
+Waals lubricant ﬁlm depending on the spreading coefﬁcient of the
+lubricant on the solid surface (in the presence of droplet phase). A
+detailed discussion of the thermodynamic states, stable impreg-
+nation criteria, and droplet mobility are provided in Smith et al.
+(2013)19. Because a signiﬁcant portion of the surface texture can
+stay submerged in the lubricant (except for texture tops) for stable
+LIS, these surfaces can achieve signiﬁcant reduction in adhesion
+and
+have
+been
+shown
+to
+have
+remarkable
+antifouling
+properties24–30.
+RESULTS
+The biomass, thickness, and surface area coverage of bioﬁlms
+formed on SS316 were not statistically different from those of
+bioﬁlms grown on pSS316 (α = 0.05) at any incubation day
+(Supplementary Figure 1 and raw data in Supplementary Table 1).
+Similarly, no morphological differences were observed between
+bioﬁlms formed on the two materials (Supplementary Figure 2) for
+either Earth-based or microgravity cultures. In addition, there were
+no differentially expressed genes (DEG) between SS316 and
+pSS316 bioﬁlms in any conditions tested (α = 0.05) except for
+microgravity day 2 where pSS316 had 44 DEG (Supplementary
+Table 2). Based on this, SS316 and pSS316 were pooled into one
+“SS” data set which is hereon compared and contrasted to that of
+bioﬁlms formed on LIS.
+Bioﬁlm morphology and observations from the liquid cultures
+In 1 g, bioﬁlms on SS grew throughout the surface with no marked
+boundaries, usually creating conglomerates that formed ‘mounts’
+of bioﬁlm with dispersed single cells in between (Fig. 2a).
+Conversely, the few bioﬁlms grown on LIS were restricted to
+certain areas with sharp edges, had a more compact appearance,
+and looked thicker (not signiﬁcant) than those grown on SS (Fig.
+2b). In addition, the LIS surface showed individual cells or small
+multiple cell groups attached in random isolated areas and a thin
+layer of nucleic acids in the areas where there was no bioﬁlm.
+Bacterial cells attached on LIS were often found growing in the
+perimeter or inside of a circle (as seen for 1-day-old bioﬁlms on
+1 g) as well as small, connected clusters. Overall, bioﬁlms on LIS
+seemed to be restricted to grow in smaller areas than on SS.
+The morphology of bioﬁlms formed on SS in space was similar
+to that of the Earth controls, in that the space samples also
+exhibited a lack of clear boundaries and bioﬁlm ‘mounts’ were also
+observed, albeit with bigger gaps between them (Fig. 2c). Bioﬁlms
+grown on LIS in microgravity did not form as many sharp,
+compact, and thick bioﬁlms (only a few in smaller size) compared
+to those formed in 1 g (Fig. 2d). The thickness of these smaller
+bioﬁlms decreased in time (p < 0.001). Most of the surface of LIS
+was covered with a thin layer of nucleic acids (red signal from the
+propidium iodide (PI) stain). The PI did not partition to LIS’s
+silicone oil in the absence of bacteria, nor did the Green Bioﬁlm
+stain (green signal to label lipids) (Fig. 2e) conﬁrming that the
+signal on the bioﬁlm samples corresponds to adsorbed nucleic
+acids on LIS’s surface.
+The PA14 liquid cultures in which the coupons were submerged
+became more turbid (turbidity correlation with viable cell count
+available in Supplementary Figure 3) for the microgravity set than
+for the 1 g controls (not signiﬁcant for SS day 1 and SS day 2).
+Speciﬁcally, for the samples cultured for three days, when OD600 in
+microgravity had an increase of 41.3% for SS (p = 2.9e−08) and
+23.4% for LIS (p = 0.0204) (Supplementary Figure 4 and raw data
+in Supplementary Table 3). In addition, it is worth noting that the
+color of the liquid culture changed as well. In microgravity, the
+Fig. 1
+Liquid impregnated surfaces. a Optical image of drop of water on LIS, b Cartoon showing different components of LIS,
+c–e representative SEM images of nanotextured silicon wafer (nanograss) c dry, d lubricant wicking into nanograss, and e nanograss stably
+impregnated by lubricant. Scale bars are 400 nm.
+P. Flores et al.
+2
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+cultures were light green on day 1, light brown on day 2, and light
+pink on day 3, while the ground cultures remained clear for days 1
+and 2 and then turned light yellow on day 3 (Supplementary
+Figure 5). The increased culture turbidity in microgravity could
+suggest more bacterial growth in general; however, microgravity
+bioﬁlms exhibited the opposite trend.
+Bioﬁlm biomass, thickness, and surface coverage
+PA14 bioﬁlms formed in microgravity had signiﬁcantly lower
+(p ≤0.05) biomass (Fig. 3), and thickness (Fig. 4) than those
+formed at 1 g. This is true for both SS and LIS, the only exception
+being for the bioﬁlms formed on LIS at one day of incubation,
+which exhibited no difference between gravitational regimes. In
+the case of SS, by day 3 bioﬁlms formed in microgravity had only
+17.6% and 53.6% of the ground control biomass and thickness,
+respectively. The same phenomenon was observed on LIS, where
+bioﬁlms formed in space had 8.7% and 21.3% of the ground
+control biomass and thickness. Furthermore, bioﬁlms formed in
+space covered signiﬁcantly less surface than their 1 g counter-
+parts (31.4% and 33.0% of surface area for SS and LIS,
+respectively) (Fig. 5). The median values for the three parameters
+assessed are summarized in Table 1 and the raw data in
+Supplementary Table 4.
+The SS and LIS bioﬁlms on 1 g appeared to grow in size with
+time, with the largest growth observed between day 1 and day 2
+(Figs. 2a, b, 3, 4, 5). This trend also held true for SS in microgravity;
+although with a lower growth rate (Figs. 2c, 3, 4, 5). For bioﬁlms on
+LIS in microgravity, there was little to no change in mass and
+surface area coverage as a function of time.
+Bioﬁlms grown on SS were signiﬁcantly different than bioﬁlms
+grown on LIS in terms of mass and surface area coverage. On both
+Earth and in microgravity, at day 3, the median of biomass and
+Fig. 2
+P. aeruginosa bioﬁlm morphology on SS and LIS in 1 g or microgravity. Representative confocal microscopy images of 1-, 2-, and
+3-day-old bioﬁlms formed over SS and LIS. Nucleic acids were stained with PI (red) and lipids were stained with Green Bioﬁlm (green). First row
+per material is a bottom slice image with side-view panels of a cross-section point in the bioﬁlm (speciﬁc section marked by the orange lines).
+Second row per material is a volume view of the complete z-stack image. Images correspond to bioﬁlms grown in 1 g over a SS and b LIS, or
+for bioﬁlms grown in microgravity over c SS and d LIS. Negative controls of the material surfaces, stained with both PI and Green Bioﬁlm
+stains, are presented in panel (e). Scale bars are 20 µm. Bioﬁlms form without boundaries on SS while on LIS they have sharp edges. Bioﬁlms
+had signiﬁcantly reduced surface area coverage on LIS, especially in microgravity where bioﬁlms were minimized and mostly present as small
+groups of cells. The thin layer of nucleic acids on LIS surface could be DNA, RNA, or both as PI does not differentiate between them.
+P. Flores et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+surface area coverage in LIS was signiﬁcantly lower (p ≤0.001)
+than in SS bioﬁlms (Table 1).
+Gene expression of bioﬁlms in microgravity vs bioﬁlms on 1 g
+Bacteria adapt to their environment through gene expression
+modulation. The mechanisms used by bacteria to adapt to
+changes can be observed in their transcriptomic proﬁle. The
+following paragraphs compare 3-day-old bioﬁlms formed in
+microgravity against matched Earth controls (baseline) for either
+SS or LIS surfaces. When available, the PAO1 ortholog gene
+numbers are listed in the brackets at the ﬁrst mention of the
+corresponding PA14 gene.
+For SS, bioﬁlms showed ﬁve DEG in microgravity with a fold
+change ≥2 (Fig. 6a, b, raw data in Supplementary Table 5). Three
+had increased expression (rsmY [PA0527.1], rmf [PA3049], pchB
+[PA4230]), and the remaining two had decreased expression in
+microgravity (PA14_63220 [PA4782], PA14_21970 [PA3249]). A
+KEGG pathways enrichment analysis was performed to under-
+stand at a bigger scale the more subtle changes (including the <2-
+fold changes) caused by microgravity (Supplementary Figure 6).
+No signiﬁcant enrichments were found with >2-fold, but it showed
+the “nitrogen metabolism” pathway enriched (Supplementary
+Figure 7) in the space samples (1.02-fold). In addition, analyses
+were focused on genes involved in P. aeruginosa virulence and
+antimicrobial resistance. Despite pchB (2.2-fold) being the only
+gene in the virulome differentially expressed >2-fold, the other
+ﬁve genes involved in pyochelin production also had signiﬁcant
+increased expression in microgravity for bioﬁlms grown over SS
+(Fig. 6c): pchI (1.4-fold) [PA4222], pchE (1.9-fold) [PA4226], pchD
+(1.5-fold) [PA4228], pchC (1.9-fold) [PA4229], and fptA (1.8-fold)
+[PA4221]. There was no signiﬁcant effect >2-fold in the resistome.
+For
+LIS,
+bioﬁlms
+in
+microgravity
+had
+only
+one
+DEG
+–
+PA14_08190 (−6.4-fold, raw data in Supplementary Table 6)—
+which codes for a hypothetical protein. This suggests that bioﬁlms
+on Earth and in space formed over LIS have virtually the same
+transcriptome. Futures tests in microgravity should conﬁrm if this
+holds true at the protein level and should consider studying the
+function of PA14_08190.
+Gene expression of bioﬁlms on LIS vs bioﬁlms on SS
+The following paragraphs describe the results of the gene
+expression analyses performed to compare 3-day-old bioﬁlms
+grown on LIS with respect to 3-day-old bioﬁlms grown on SS
+(baseline). The ﬁrst paragraph focuses on results under Earth’s
+gravity and the second paragraph for results in microgravity.
+On Earth, bioﬁlms grown on LIS had 310 DEG with a fold change
+≥2 (Fig. 7a, b, raw data in Supplementary Table 7) when compared
+to SS bioﬁlms. The top ﬁve DEG were PA14_09380 [PA4218], pchC,
+PA14_06170 [PA1911], PA14_52500 [PA0909], and pchE; all with
+increased expression on LIS. Gene PA14_52500 is annotated as
+coding for a hypothetical protein and had the highest fold change
+(3.9) of all. Some of the genes that code for alginate production
+had signiﬁcantly increased expression on LIS (below 2-fold): mucB
+(1.2-fold) [PA0764], mucD (1.1-fold) [PA0766], algR (1.5-fold)
+[PA5261], mucE (1.9-fold) [PA4033], mucP (1.4-fold) [PA3649]. The
+pathways enrichment analysis (Supplementary Figure 8) showed
+the “carbon metabolism” pathway as the most enriched on LIS
+(1.1-fold) (Supplementary Figure 9). On Earth, the virulome
+presented several genes of Hcp secretion island I (HSI-I), type
+three secretion systems (TTSS), lipopolysaccharide (LPS), and
+pyocyanin with decreased expression in LIS with respect to SS
+(Fig. 7c). Conversely, almost all the genes involved in synthesis of
+pyochelin had increased expression on LIS (>2.5-fold): pchI (3.1-
+Fig. 3
+P. aeruginosa bioﬁlm mass on SS and LIS in 1 g or microgravity. Bioﬁlm mass plotted as a function of time (1-, 2-, and 3-day-old
+bioﬁlms) and gravitational condition. Statistical signiﬁcance speciﬁed with horizontal brackets, for comparisons between microgravity and 1 g
+(dashed brackets), for comparisons of SS vs LIS in 1 g (gold brackets) or in microgravity (gray brackets), and for comparisons of SS between
+time points (blue brackets). SS= stainless steel. LIS = lubricant impregnated surface. For SS, n = 8 biological replicates each imaged in 4 ﬁelds
+of view. For LIS, n = 4 biological replicates each imaged in 4 ﬁelds of view. Dunn’s test with Bonferroni correction ***p ≤0.001, **p ≤0.01,
+*p ≤0.05. Box central line= median, bounds of box=ﬁrst and third quartile, whiskers=minimum and maximum values (without outliers).
+P. Flores et al.
+4
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+fold), pchH (2.6-fold) [PA4223], pchG (2.7-fold) [PA4224], pchF (3.1-
+fold) [PA4225], pchE (3.1-fold), pchD (2.5-fold), pchC (3.1-fold), pchB
+(3.2-fold), pchA (3.0-fold) [PA4231], fptA (2.6-fold). In the resistome,
+gene nouJ [PA2645] had 2.2-fold increased expression on LIS. In
+addition, genes involved in apoptosis were differentially expressed
+on LIS bioﬁlms, rpoS [PA3622] had increased expression (2.4-fold)
+and the antitoxins higA [PA4674] and PA14_21720 [PA2489] had
+decreased expression (−1.4 and −2.4-fold, respectively).
+In microgravity, bioﬁlms grown on LIS had 425 DEG with a fold
+change >2 (Fig. 8a, b, raw data in Supplementary Table 8) when
+compared to SS. The top ﬁve DEG were PA14_27520 (−5.5-fold)
+[PA2826], PA14_44920 (−3.1-fold) [PA1509], PA14_20060 (3.7-
+fold), PA14_51580 (−4.0-fold), and estA (3.1-fold) [PA5112]. Three
+of these top ﬁve DEG code for hypothetical proteins that have not
+been characterized. In microgravity, no pathways were signiﬁ-
+cantly enriched or depleted for LIS vs SS. Interestingly, the
+observations made on the virulome when comparing LIS with SS
+on Earth, remain true for bioﬁlms on LIS in microgravity: HSI-I,
+TTSS, LPS, and pyocyanin-synthesis associated genes had reduced
+expression while genes associated with pyochelin and rhamno-
+lipids had increased expression (Fig. 8c) with respect to SS. There
+was no increased expression of alginate-associated genes on LIS in
+microgravity, which differs to what was seen on Earth. In
+microgravity, the resistome of bioﬁlms on LIS had increased
+expression
+of mexT
+(2.3-fold)
+[PA2492] and
+galU
+(2.1-fold)
+[PA2023], and decreased expression of ampD (−3.1) [PA4522].
+Finally, when comparing LIS with respect to SS, no signiﬁcant
+differences in gene expression of rpoS or higA were observed in
+microgravity, but one putative toxin (PA14_28120 [PA2781])
+presented a 1.4-fold increased expression. Shared DEG in both
+gravitational regimes of bioﬁlms on LIS with respect to SS at day 3
+presented in Supplementary Table 9.
+Gene expression of 3-day-old bioﬁlms vs 1-day-old bioﬁlms
+Changes in the transcriptome between 3- and 1-day-old bioﬁlms
+provide insight into the bioﬁlm formation process. The following
+paragraphs describe the results of the gene expression analyses
+performed to compare bioﬁlms grown on SS for 3 days with
+respect to bioﬁlms grown on SS for 1 day (baseline). The ﬁrst
+paragraph focuses on results under Earth’s gravity and the second
+paragraph for results in microgravity.
+On Earth, 3-day-old bioﬁlms exhibited 115 DEG with fold
+change
+>2
+(Supplementary
+Figure
+10a,
+10b,
+raw
+data
+in
+Supplementary Table 10) with respect to 1-day-old bioﬁlms. The
+top ﬁve DEG at day three had decreased expression (PA14_40310
+[PA1869], trxB2 [PA0849], PA14_39700, PA14_10380 [PA4139], nirN
+[PA0509]). PA14_10380, the most differentially expressed (−5.2-
+fold), codes for a hypothetical protein. With respect to day one,
+day three had increased expression of several genes involved in
+production of Psl extracellular matrix polysaccharide, in particular
+pslO (3.1-fold) [PA2245]. The pathways enrichment analysis
+(Supplementary Figure 11) showed several depleted pathways at
+day three; “sulfur relay system” was the most depleted (−2.0-fold)
+(Supplementary Figure 12), followed by “nitrogen metabolism”
+(−1.7-fold) (Supplementary Figure 13). In the virulome of day
+three (Supplementary Figure 10c) there was a reduction in
+expression of genes in the Las (lasA −2.2-fold [PA1871], lasB
+−2.3-fold [PA3724]) and Rhl systems (rhlA −2.3-fold [PA3479], rhlB
+−2.2-fold [PA3478]), and of gene algP/algR3 (−2.1-fold) involved
+in alginate synthesis. Regarding the resistome on Earth, day three
+presented decreased expression of genes that code for RND efﬂux
+pumps and outer membrane proteins: mexH (−2.1-fold) [PA4206],
+ompA (−2.6-fold) [PA3692], opmD (−2.3-fold) [PA4208].
+In microgravity, 3-day-old bioﬁlms showed 70 DEG with fold
+change ≥2 (Supplementary Figure S14a, S14b, raw data in
+Fig. 4
+P. aeruginosa bioﬁlm thickness on SS and LIS in 1 g or microgravity. Bioﬁlm thickness plotted as a function of time (1-, 2-, and 3-day-
+old bioﬁlms) and gravitational condition. Statistical signiﬁcance speciﬁed with horizontal brackets, for comparisons between microgravity and
+1 g (dashed brackets), for comparisons of SS vs LIS in microgravity (gray brackets), and for comparisons of LIS between time points (blue
+brackets). SS = stainless steel. LIS = lubricant impregnated material. For SS, n = 8 biological replicates each imaged in 4 ﬁelds of view. For LIS,
+n = 4 biological replicates each imaged in 4 ﬁelds of view. Dunn’s test with Bonferroni correction ***p ≤0.001, **p ≤0.01, *p ≤0.05. Box central
+line = median, bounds of box = ﬁrst and third quartile, whiskers = minimum and maximum values (without outliers).
+P. Flores et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+Supplementary Table 11) with respect to 1-day-old bioﬁlms. The
+top ﬁve DEG at day three correspond to: PA14_40310 (−2.6-fold),
+malQ (−3.1-fold) [PA2163], PA14_36650 (−3.7-fold) [PA2159],
+PA14_72370 (−5.1-fold) [PA5482] and pchF (3.2-fold). Again, the
+most differentially (under)expressed gene (PA14_72370) codes for
+a hypothetical protein. There was no systemic increased expres-
+sion of extracellular matrix polysaccharides on day three in
+microgravity, but as on the ground, the gene trxB2 (−2.3-fold) and
+the cytochrome c gene cluster (including nirN −2.1-fold) had
+decreased expression. The pathways enrichment analysis (Supple-
+mentary Figure 15) showed three depleted pathways at day three
+in microgravity; “Porphyrin and chlorophyll metabolism” is the
+most depleted (−2.0-fold) (Supplementary Figure 16). In the
+virulome (Supplementary Figure 14c), rhlA (−2.2-fold) was less
+expressed on day three (as seen on Earth) while all pyochelin-
+associated genes had increased expression (pchI 2.1-fold, pchH
+2.4-fold, pchG 3.5-fold, pchF 3.2-fold, pchE 3.2-fold, pchR 1.3-fold
+[PA4227], pchD 2.6-fold, pchC 2.8-fold, pchB 3.3-fold, pchA 3.5-fold,
+fptA 2.5-fold). In the resistome, ompA (−2.4-fold) showed a
+reduced expression on day three in microgravity, as seen in the
+ground samples.
+DISCUSSION
+In this experiment, bioﬁlm shape and general structure appear-
+ance was not affected by gravitational regime. Contrary to what
+has been previously reported for anaerobic P. aeruginosa PA14
+bioﬁlm growth in space31, we observed less robust bioﬁlms in
+Fig. 5
+P. aeruginosa bioﬁlm surface area coverage on SS and LIS in 1 g or microgravity. The percentage of the imaged surface covered with
+bioﬁlm plotted as a function of time (1-, 2-, and 3-day old bioﬁlms) and gravitational condition. Statistical signiﬁcance speciﬁed with horizontal
+brackets, for comparisons between microgravity and 1 g (dashed brackets), for SS vs LIS in 1 g (gold brackets) or in microgravity (gray
+brackets), and for SS between time points (blue brackets). SS = stainless steel. LIS = lubricant impregnated material. For SS, n = 8 biological
+replicates each imaged in 4 ﬁelds of view. For LIS, n = 4 biological replicates each imaged in 4 ﬁelds of view. Dunn’s test with Bonferroni
+correction ***p ≤0.001, **p ≤0.01, *p ≤0.05. Box central line = median, bounds of box = ﬁrst and third quartile, whiskers=minimum and
+maximum values (without outliers).
+Table 1.
+Median values of bioﬁlm biomass, thickness, and surface area coverage per day and material.
+Material & incubation
+time
+Biomass (µm3/
+µm2) 1 g
+Biomass (µm3/
+µm2) µg
+Thickness (µm)
+1 g
+Thickness (µm)
+µg
+Surface area coverage
+(%) 1 g
+Surface area
+coverage (%) µg
+SS day 1
+0.69 (0.38)
+0.22 (0.13)
+3.70 (2.19)
+3.44 (1.52)
+38.76 (8.57)
+15.48 (10.24)
+SS day 2
+2.06 (1.90)
+0.27 (0.18)
+6.30 (4.53)
+2.77 (1.38)
+65.38 (25.77)
+21.19 (9.48)
+SS day 3
+1.87 (1.64)
+0.33 (0.38)
+5.86 (2.82)
+3.14 (1.76)
+74.79 (28.97)
+23.49 (15.93)
+LIS day 1
+0.07 (0.06)
+0.05 (0.05)
+4.41 (3.41)
+5.06 (4.32)
+3.40 (2.55)
+4.20 (4.30)
+LIS day 2
+0.49 (0.64)
+0.02 (0.04)
+7.09 (5.29)
+4.21 (3.66)
+11.17 (18.79)
+2.00 (2.22)
+LIS day 3
+0.46 (0.28)
+0.04 (0.05)
+8.04 (10.63)
+1.71 (1.18)
+10.87 (10.21)
+3.60 (4.30)
+Results are presented as median and the interquartile range Q3-Q1 is indicated in parenthesis. For SS, n = 8 biological replicates each imaged in 4 ﬁelds of
+view. For LIS, n = 4 biological replicates each imaged in 4 ﬁelds of view.
+SS stainless steel, LIS lubricant impregnated surface.
+P. Flores et al.
+6
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+terms of biomass, thickness, and surface area coverage in
+microgravity with respect to 1 g. In microgravity, the increased
+expression of rmf, in charge of ribosomal hibernation32 during
+stationary phase33, could be indicative of a substrate-limited and
+byproduct-abundant extracellular environment for bioﬁlms over
+SS, as the one theorized to occur in microgravity for non-motile
+planktonic cells34,35. Such an environment could be partially
+attributed to the increased planktonic cell growth in microgravity,
+increasing
+the
+accumulation
+of
+metabolic
+byproducts
+and
+depletion of nutrients, and potentially the cause of reduced
+bioﬁlm formation. Proteomic analysis and functional analysis are
+needed to conﬁrm these hypotheses.
+Starvation environmental conditions can trigger bioﬁlm dis-
+persal in P. aeruginosa36,37. However, the genes known to be
+involved
+in
+bioﬁlm
+dispersion38—dipA
+[PA5017]39,40,
+rbdA
+[PA0861]41,
+nbdA
+[PA3311]42,43,
+gcbA
+[PA4843]44,
+and
+bdlA
+[PA1423]39—were not differentially expressed in microgravity.
+Thus, bioﬁlm dispersal could be regulated by other gene(s) in
+microgravity. Potentially, the increased planktonic growth and
+decreased bioﬁlm formation are not a consequence of bioﬁlm
+dispersion.
+For SS, the most DEG in microgravity was rsmY. RsmY (small
+non-coding RNA) controls broad gene expression in P. aeruginosa
+through the sequestering of RsmA (gene repressor)45. RsmA
+targets the mRNAs of genes mvaT [PA4315], pchB, pchC, pchD, and
+pchE46 and, those genes demonstrated increased expression in
+microgravity. We hypothesize that RsmY could be regulating some
+of the biggest transcriptional changes observed in bioﬁlms grown
+over SS in microgravity. It is worth nothing that DEG PA14_63220
+and PA14_21970 code for a hypothetical protein and a transcrip-
+tional regulator, respectively, that have not yet been characterized
+and whose functions could shed light to the changes observed in
+microgravity. Moreover, this could be speciﬁc for bioﬁlms growing
+on SS, only for bioﬁlms past microcolony stages, or both, as
+bioﬁlms on LIS did not have increased expression of rsmY in
+microgravity.
+Our results suggest potential increased virulence of PA14 3-day-
+old bioﬁlms on SS in microgravity through increased expression of
+pyochelin. Pyochelin is secreted to chelate iron for bacterial use47
+and the outer membrane receptor, FptA, internalizes it. In
+addition, pyochelin production in bioﬁlms is characteristic of
+aggressive and chronic infections48,49. Proteomic tests should
+conﬁrm these results at protein level and on different surfaces.
+The green, brown, and pink colors of the liquid culture in
+microgravity could be attributed to the production of pigmented
+virulence factors such as pyoverdine (green-brown to green-
+Fig. 6
+Transcriptional differences between P. aeruginosa bioﬁlms formed on SS in space with respect to Earth. Transcriptomic data from
+3-day-old bioﬁlms grown on stainless steel coupons in microgravity with respect to 1 g. a Volcano plot and b MA plot of differential gene
+expression. c Heatmap of normalized counts for relevant genes involved in P. aeruginosa virulome, signiﬁcant differentially expressed genes
+with fold change ≥2 in bold. Sample F16.5 was not considered an outlier because the expression of the rest of the genes was similar to the
+other samples and no problems were found in the quality control steps. n = 7 biological replicates per gravitational condition.
+P. Flores et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+yellow), pyorubin (red), pyocyanin (deep blue), pyomelanin
+(black)50.
+It
+appears
+that
+P.
+aeruginosa
+had
+an
+increased
+production of pyoverdine in the ﬁrst days which then transitioned
+to an increased production of pyorubin. Interestingly bioﬁlms in
+microgravity had no increased expression of pyoverdine, so the
+green-brown color in the liquid culture could be attributed to a
+higher production of this virulence factor by the planktonic cells.
+On the other hand, the pink color, possibly reﬂecting the
+production of pyorubin, could not be assessed as the genes
+involved in pyorubin production have not been identiﬁed in PA14,
+to our knowledge. These hypotheses need to be conﬁrmed with
+transcriptomics
+and
+proteomics
+analyses
+of
+the
+planktonic
+cultures
+in
+future
+experiments.
+Nevertheless,
+the
+potential
+increased production of pigmented virulence factors of P.
+aeruginosa PA14 planktonic cells in microgravity, when grown in
+nutrient-rich medium, may pose a health risk for infections
+in space.
+Remarkably, LIS’s bioﬁlm inhibition on Earth, was even greater
+in microgravity. Not only were biomass and surface area
+minimized, but these parameters stayed almost constant in time
+for microgravity bioﬁlms on LIS. Coupled with the signiﬁcant
+bioﬁlm thickness reduction in time in microgravity, contrary to the
+increasing thickness trend on Earth, LIS performance in space
+makes it suitable to reduce bioﬁlm formation in spacecraft
+components. Previous studies with different LISs show that this
+type of surfaces greatly reduce the attachment of both gram-
+positive
+and
+gram-negative
+bacteria
+(including
+P.
+aerugi-
+nosa)25,51–55. The liquid-like properties of LISs are believed to be
+the essential for the bacterial attachment inhibition56. Interest-
+ingly, bioﬁlm formation on LIS was observed only in areas without
+the nucleic acid layer. We hypothesize that the thin layer of
+nucleic acids (DNA, RNA, or both) contributes to attachment
+inhibition.
+Nucleic acids have a hydrophilic phosphate backbone (nega-
+tively charged), and hydrophobic nitrogen bases57–59. It is possible
+that the interface between liquid culture and oil layer provided an
+ideal zone for DNA/RNA interaction, leading to their immobiliza-
+tion on the surface. It is well-established that oil/water interfaces
+can capture protein and nucleic acids60; and in some cases, the
+surface forces are strong enough to denature proteins60–67.
+Characterization of the protein adsorption/denaturing process
+on oil-infused textured surfaces, as LIS, remains to be done68,69.
+Thus, we hypothesize that the oil/water interface forces could be
+enough
+to
+destabilize
+extracellular
+DNA
+(eDNA),
+inducing
+conformational changes that result in its unzipping to ssDNA70,
+and that the DNA-associated proteins can be denatured to expose
+the DNA charges. Such that the hydrophobic portions of DNA/RNA
+partition into the oil of the LIS, leaving the hydrophilic phosphate
+backbone facing toward the aqueous culture. The mechanism of
+nucleic acid adsorption onto LIS surface and the exact composi-
+tion of this layer remains to be elucidated and more tests are
+needed to conﬁrm this hypothesis.
+Fig. 7
+Transcriptional differences between P. aeruginosa bioﬁlms formed on LIS with respect to SS, at 1 g. Transcriptomic data from 3-day-
+old bioﬁlms. a Volcano plot and b MA plot of differential gene expression. c Heatmap of normalized counts for relevant genes involved in P.
+aeruginosa virulome, signiﬁcant differentially expressed genes with fold change ≥2 in bold. For SS, n = 7 biological replicates. For LIS, n = 4
+biological replicates.
+P. Flores et al.
+8
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Pseudomonas aeruginosa (negatively charged due to its LPS)
+could be repelled by the phosphates of the nucleic acid layer (Fig.
+9). Recent studies show reduced attachment of P. aeruginosa on
+surfaces with covalently attached and adsorbed DNA71, and on
+surfaces with DNA-poly(ethyleneimine) multilayers72. Staphylococ-
+cus was also repelled by multilayer chitosan-DNA coatings73. This
+hypothesis implies that DNA/RNA was released by the planktonic
+cells and attached to LIS early in the experiment. On LIS, bioﬁlm’s
+reduced expression of LPS-related genes (on Earth and in
+microgravity) and increased expression of alginate (only on
+Earth)—a secreted polyanionic polysaccharide that helps mask
+LPS’s charge—could be related to the presence of nucleic acid
+repulsion forces.
+In solid abiotic surfaces, the deposition of eDNA is required for
+initial microcolony formation in P. aeruginosa bioﬁlms74–77. The
+eDNA is located in the active migration zone of the bioﬁlm and
+plays a role in its expansion78. Thus, the nucleic acid layer on LIS
+could represent a risk of delayed/increased bioﬁlm formation for
+long term. However, it is possible that the orientation and
+immobilization of DNA/RNA plays a role in adhesion inhibition. In
+addition, the physics of bacterial interactions at interfaces
+(specially oil/water interfaces) is unclear and can differ from usual
+bioﬁlm formation79. More tests with longer incubation periods are
+needed to determine the time limit (if any) of the observed bioﬁlm
+inhibition on LIS.
+Although LIS is typically stable, it is possible that protein/RNA
+acted as a surfactant and led to destabilization of the oil80. The
+bioﬁlm increased expression of rhlC in microgravity could have
+resulted in increased rhamnolipid (biosurfactants)81 production,
+contributing to such destabilization. Interestingly, P. aeruginosa
+planktonic cells in microgravity have been reported to produce
+larger amounts of rhamnolipids and this could be the case for
+bioﬁlms on LIS as well82.
+The gene expression analysis of bioﬁlms formed on LIS with
+respect to SS suggests several other hypotheses of mechanisms
+contributing to the reduced bioﬁlm formation: (1) Increased
+expression of pyochelin genes (on Earth and in microgravity) and
+of rhamnolipid genes (only on Earth), which are produced in
+nitrogen-limited environments83, could reﬂect exacerbated nutri-
+ent depletion in the extracellular environment of LIS bioﬁlms in
+comparison with SS. It is possible that the lubricant oil could be
+self-spreading over the bioﬁlms19 and thereby limiting nutrient
+transport. (2) Increased expression of rhamnolipid genes, includ-
+ing estA, an esterase that promotes rhamnolipid production84.
+Rhamnolipids sometimes lead to bioﬁlm detachment83. (3)
+Increased apoptosis as observed in previous spaceﬂight studies34.
+Apoptosis of bioﬁlms on LIS could be mediated by the increased
+expression of rpoS on Earth (global stress regulator), under-
+expression of antitoxins on Earth (higA, PA14_21720) or increased
+expression of toxins in microgravity (PA14_28120) with respect to
+SS. We acknowledge that transcriptome changes are not direct
+Fig. 8
+Transcriptional differences between P. aeruginosa bioﬁlms formed on LIS with respect to SS, in microgravity. Transcriptomic data
+from 3-day-old bioﬁlms. a Volcano plot and b MA plot of differential gene expression. c Heatmap of normalized counts for relevant genes
+involved in P. aeruginosa virulome, signiﬁcant differentially expressed genes with fold change ≥2 in bold. For SS, n = 7 biological replicates. For
+LIS, n = 4 biological replicates.
+P. Flores et al.
+9
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+evidence of protein levels nor cell functions, and that more tests
+are needed to conﬁrm these hypotheses.
+It is important to consider that growing bioﬁlms over LIS could
+affect virulence and antimicrobial resistance. However, predicting
+such an effect is complicated as there is gene expression evidence
+for increasing and decreasing effects compared to SS. On one side,
+bioﬁlms on LIS had increased expression of the virulence factors
+pyochelin and rhamnolipids. On the other side, bioﬁlms on LIS
+presented a general decreased expression of type 6 secretion
+systems from the HSI-I loci, which could make them less capable
+of establishing chronic infections85.
+LIS seems to prevent the ﬁrst stage of bioﬁlm formation: cell
+attachment. Nevertheless, more tests and analysis are needed to
+fully understand the mechanisms behind this phenomenon. In
+parallel, elucidating the functions of the uncharacterized genes
+that were differentially expressed on LIS with respect to SS can
+provide further insight. Based on the minimized bioﬁlm formation
+on LIS in microgravity, it presents itself as a good option for use in
+spacecraft components. In addition, the use of directly immobi-
+lized DNA/RNA over surfaces (e.g., using covalent bonding,
+physical adsorption, or streptavidin-biotin immobilization86,87)
+should also be explored to reduce bacterial attachment and
+bioﬁlm formation in susceptible spacecraft components.
+Bioﬁlms on LIS in microgravity seemed to remain in the
+microcolony stage for days 2 and 3, which could explain the
+limited differential gene expression between 1-day-old bioﬁlms
+and 3-day-old bioﬁlms. 3-day-old SS bioﬁlm gene expression
+proﬁle suggests a potential decrease in metabolic activity
+(reduced nitrogen metabolism) and quorum sensing signaling
+(reduced expression of Las and Rhl systems) with respect to 1-day-
+old bioﬁlms. Further tests are needed to conﬁrm such hypothesis
+but it agrees with SS bioﬁlm morphology, as expression of these
+systems decreases as bioﬁlm height increases88.
+Bacterial growth dynamics can differ in space with respect to
+behavior observed on Earth89. Hence, it must be noted that
+comparing bacterial cultures and bioﬁlms from a given moment in
+time (e.g., “day 3”) may be doing so at different stages of growth,
+e.g., in a gravitational condition it may still be at the end of
+exponential phase while at another it may already be stationary.
+Acknowledging
+the
+limitation
+of
+getting
+data
+from
+three
+instantaneous moments in time in our experiment, we recom-
+mend that future studies (i) acquire continuous data as possible,
+and (ii) also characterize the growth stage and gene expression of
+the planktonic cell culture. Staining protocols may be improved
+with the use of a third dye to target polysaccharides. Furthermore,
+future studies may interrogate our observations further by
+determining the precise composition of the nucleic acid layer
+observed on LIS. Future studies, namely those focused on
+spacecraft water processing assemblies may improve on the
+ﬁdelity of their study by using Ersatz Wastewater formulation to
+replicate the wastewater as received on the ISS’ system, extend
+the duration of the experiment to multiples of months as
+applicable, and the substrate material may be changed to that
+of the speciﬁc component being studied.
+Fig. 9
+Proposed mechanism contributing to bioﬁlm inhibition on LIS surface. Both bacteria and nucleic acids possess a negative charge.
+a When the nucleic acids get immobilized on the LIS surface, this creates a layer of negatively charged molecules that can repel bacteria
+through ionic forces. b Bacteria can attach to areas of the LIS where there is a gap in the oil coat, previously destabilized. c Bioﬁlms form in
+these gap areas but grow with sharp edges due to the repulsive forces on the borders.
+P. Flores et al.
+10
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+METHODS
+Reagents and hardware
+The reagents and hardware were prepared as described in Flores
+et al. (2022)18. In brief, the PBS was prepared with PBS pellets
+(Sigma-Aldrich, Cat. P4417) and autoclaved. The 1X LBK medium
+was LB Lennox (Sigma, Cat. L3022) supplemented with 0.86%
+potassium nitrate (Sigma, Cat. P8291) and ﬁlter sterilized with
+0.22 µm ﬁlters (Nalgene, Cat. 566-0020). LBK medium was
+prepared at 1.18X concentration to load in the hardware to
+account for dilution during experiment activation. The 11.4% PFA
+solution was prepared by diluting 16% PFA (Alfa Aesar, Cat. 43368)
+with PBS. When mixed with the sample it yields a ﬁnal
+concentration
+of
+4%
+PFA.
+The
+RNAlater
+(Invitrogen,
+Cat.
+AM7021) was refrigerated prior to loading it in the hardware to
+induce the formation of RNAlater crystals. These crystals were then
+pulverized and the RNAlater was loaded cold into the hardware.
+Preemptive formation and pulverization of the RNAlater crystals
+avoided the formation of long crystals during launch (4 °C) that
+could cause sample loss, early activation, and leaks by displacing
+the hardware chambers. After sample incubation, the RNAlater
+was still efﬁcient at preserving RNA from bioﬁlms18.
+BioServe’s FPA housed in the Group Activation Pack (GAP) were
+used as both ground and ﬂight sample hardware. The FPA
+hardware components were cleaned with 1% Liquinox (Alconox,
+Cat. 1201-1), coated with sigmacote (Sigma-Aldrich, Cat. SL2), and
+dried at 100 °C for 30 min to siliconize the glass and facilitate
+sample assembly.
+Bacterial strain and Inoculum
+All the bioﬁlm experiments were performed using Pseudomonas
+aeruginosa UCBPP-PA14 strain, which was kindly provided by Dr.
+George O’Toole. This strain was selected for the project to
+replicate the column-and-canopy bioﬁlm structure previously
+observed in microgravity by Kim et al. (2013)31 when growing
+PA14 bioﬁlms over cellulose membrane. The results of the bioﬁlms
+grown over cellulose membrane are reported in a separate
+publication20.
+The bacterial inoculum was prepared with 6 ml of LBK media
+inoculated with PA14 and incubated at 37 °C for 16 h (ﬁnal OD595
+0.706). The overnight inoculum was diluted 1:100 with PBS (ﬁnal
+OD595 0.001) to maintain cells in stasis. The diluted inoculum was
+used to load the second chamber of FPAs.
+Test surface preparation
+Bioﬁlms were grown on 1 cm2 material coupons of SS316 (MPPR-
+311-6), pSS316, and LIS. SS316 coupons were cleaned with 1%
+Liquinox (Alconox Cat. 1201-1). For the pSS316, clean SS316
+coupons were passivated with citric acid (Sigma-Aldrich, Cat. C-
+8385). Preparation of LIS coupons (silicon wafer impregnated with
+silicone oil) has been described in detail previously1,18,19. LIS
+coupons were not cleaned, to avoid removing the silicone oil, but
+they were prepared in sterile conditions. LIS’s silicone oil layer
+(0.5–1.5 µm in thickness) has no bactericidal nor growth boost
+effect on P. aeruginosa PA1418.
+Sample preparation
+A total of 144 samples were prepared, 72 for ﬂight and 72 for
+corresponding ground controls. All coupons were prepared in the
+same fashion. Each gravitational condition tested three material
+surfaces (SS316, pSS316, and LIS), three bioﬁlm incubation times
+(1, 2, or 3 days), and two termination reagents (PFA for
+morphology analysis and RNAlater for transcriptomics) with four
+replicates per condition. Flight samples were sent to the ISS on the
+Cygnus NG-12 spacecraft.
+Double-sided tape (3 M, Cat. 9731) was placed on the backside
+of the coupons to adhere them onto the inserts. Adhered coupons
+on inserts were installed in the FPAs and autoclaved. FPAs were
+loaded with 2.75 ml of sterile 1.18X LBK and the ﬁrst chamber was
+closed with a second insert. The use of solid inserts prevents gas
+exchange and forces anaerobic growth of P. aeruginosa. The ﬁrst
+chamber was incubated at 37 °C for 24 h as a contamination
+check. Afterward, the second chamber was loaded with 0.5 ml of
+the PA14 inoculum in stasis and closed with a rubber septum. The
+third and last chamber was ﬁlled with 1.75 ml of PFA or RNAlater
+and closed with a rubber septum. Eight FPAs with the three-
+chamber conﬁguration were assembled into each GAP and
+transferred to 4 °C.
+Bioﬁlm formation assays
+Spaceﬂight samples were launched in stasis (in PBS and at 4 °C) to
+the ISS to avoid bacterial growth before microgravity conditions
+were achieved. Once in microgravity, astronauts Jessica Meir and
+Christina Koch activated the spaceﬂight samples by combining the
+ﬁrst and second chambers of the FPAs, which introduced the
+inoculum into the culture media. Samples were incubated at 37 °C
+inside BioServe’s Space Automated Bioproduct Lab (SABL) for the
+designated incubation times (1, 2, or 3 days) in anaerobic
+conditions. At the end of incubation, the third chamber was
+introduced to ﬁx (PFA) or preserve (RNAlater) the samples in
+microgravity, and samples were transferred to 4 °C or −80 °C,
+respectively, until unberthing. Fixed and preserved samples then
+returned to Earth at 4 °C and −20 °C, respectively. Once on Earth,
+samples were stored at 4 °C (ﬁxed) and −80 °C (preserved) until
+sample processing.
+Ground samples were performed asynchronously, activating
+and terminating two hours later to replicate the order of ﬂight
+procedures. The temperature proﬁle of spaceﬂight samples was
+also reproduced for the ground samples. When spaceﬂight
+samples returned to Earth, all coupons (both ﬂight and ground)
+were recovered from the FPAs and processed for morphology
+analysis (PFA) or transcriptomic analysis (RNAlater).
+Planktonic cell analysis
+Despite bioﬁlms being the focus of our experiment, the planktonic
+cell culture of the samples was visually inspected with the naked
+eye for notorious changes between samples. In addition, the liquid
+cultures’ optical density at 600 nm (OD600) was measured. Samples
+were vortexed prior to measuring the OD600 to avoid cell clumping.
+Due to spaceﬂight constraints and the interest of ﬁxing the samples
+while in microgravity, it was not possible to measure CFU/mL at
+experiment’s end. However, for P. aeruginosa PA14 in our
+experimental conﬁguration, the OD600 measurements allow correct
+distinction of the bacterial stages of growth and are correlated to
+the viable cell density (Supplementary Figures 3 and 4).
+Bioﬁlm morphology analysis
+To eliminate the planktonic cells, the coupons ﬁxed in PFA were
+washed three times with 1 mL of PBS which was slowly poured on
+the walls of the wells to avoid disturbing the bioﬁlm. The samples
+were stained with PI [15 µM] (PromoKine Cat. PK-CA707-40017
+diluted with water) for 15 min and with FilmTracer™FM™1-43
+Green Bioﬁlm [10 µg/ml] (Invitrogen Cat. F10317 diluted with
+DMSO and water as per manufacturer’s instructions) for 30 min
+under light-protected conditions. After each stain the samples
+were washed with 1 ml of PBS. Immediately after the wash, the
+PBS was removed and the stained samples were mounted onto
+glass slides; gorilla glue was used to adhere the coupon to the
+slide and the bioﬁlm on top was covered with one drop of
+VectaShield HardSet™Antifade Mounting Medium (Vector Labora-
+tories, Cat. H-1400-10) and a coverslip. Mounted samples were
+stored at 4 °C for 20 h protected from light prior to imaging, this
+allowed the mounting medium and glue to harden in order to
+P. Flores et al.
+11
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+avoid smearing the bioﬁlm while imaging. Samples were imaged
+in groups of 4 per session (spaceﬂight samples with their
+corresponding ground controls in the same session).
+The
+Nikon
+SIM/A1
+Laser
+scanning
+Confocal
+Microscope
+(inverted) of CU Boulder Light Microcopy Core Facility was used
+to take four 125 × 125 µm Z-stacks (30–40 slices with step size
+ranging from 0.1–1.5 µm, average 0.5 µm) per coupon, aligning
+the four ﬁelds of view to the center of the coupon. The bioﬁlms
+were imaged with 100X SR Apo immersion oil objective (NA = 1.49
+WD = 120 µm),
+using
+lasers
+488 nm
+(green,
+emission
+ﬁlter
+500–550 nm) and 561 nm (red, emission ﬁlter 575–625 nm). All
+images were acquired with 1.2 pinhole, laser power range (green
+and red = 0.1 to 2.3), offset range (green = −48 to 4, and
+red = −45 to 6), and PMT HV range (green = 3.0 to 86, red = 2.0
+to 82) using the NIS Elements software. Images were taken with
+laser powers that avoided photobleaching and HV sensitivity
+settings that maximized the dynamic range without saturation.
+Resulting bioﬁlm images were pseudo-colored with red (PI, nucleic
+acids) and green (Green Bioﬁlm, lipids) for display with a linear
+LUT covering the full range of the data. Raw image ﬁles were used
+for quantitative analysis. First, Image J was used to merge both
+ﬂuorescent channels and convert ﬁles from nd2 to tiff format.
+Then, the “Slice Remover” plugin was used to eliminate the slices
+with no bioﬁlm signal from each Z-stack. The “Convert to OME-
+Tiff” macro was used to generate compatible ﬁles for analysis with
+the
+publicly
+available
+COMSTAT2
+software90–92.
+COMSTAT2
+calculated bioﬁlm mass (µm3/µm2), thickness (µm), and surface
+area coverage (%) of the bioﬁlms with automatic thresholding.
+Bioﬁlm transcriptomic analyses
+Samples preserved in RNAlater were thawed at room temperature
+and washed 3 times with 1 ml PBS to get rid of any planktonic
+cells. PBS was removed and 1 ml of fresh RNAlater was added. The
+samples were ultrasonicated for 15 min at 40 kHz, followed by
+5 min of vortexing to detach bioﬁlm bacterial cells from the
+surface materials. RNA extraction was performed by University of
+Colorado Boulder BioFrontiers Sequencing Core and the sequen-
+cing by the Anschutz Genomics Shared Resource. The RNAlater
+with the suspended bioﬁlm cells was centrifuged, and the pellet
+was used to extract total RNA using the Quick-RNA Fungal/
+Bacterial microprep Kit (Zymo Research Cat. R2010). RIN values
+were measured for the RNA extracted (Supplementary Table 12)
+RNA sequencing libraries were prepared using SMARTer Stranded
+Total RNA-Seq Kit v3 (Takara Cat. 634485) and paired-end
+sequencing was performed on Illumina NOVASeq 6000 with 40
+million reads per sample (Additional Transcriptomic information
+presented in Supplementary Table 13).
+Transcriptomic analysis was performed on CU Boulder’s RMACC
+Summit supercomputing cluster. Raw sequencing ﬁles were
+checked for quality control using FastQC (version 0.11.9)93 and
+multiQC (version 1.0.dev0)94. Then Illumina adapter contamination
+was eliminated using Trimgalore (version 0.6.6) with cutadapt
+(version 2.6)95, after which quality control was performed again.
+Trimmed reads were mapped to PA14 rRNA sequences to remove
+the contamination, the resulting unmapped reads were then
+mapped to the Ensembl Bacteria reference genome of Pseudo-
+monas
+aeruginosa
+UCBPP-PA14
+(accession
+number
+GCA_000014625), both mapping steps were performed using
+Bowtie2 (version 2.4.4)96. The mapping results were sorted,
+indexed, and converted from .sam ﬁles to .bam ﬁles using
+SAMtools (version 1.11)97. The reads per gene were counted with
+Feature Counts (Rsubread package version 2.8.2)98, and differential
+gene expression analyses were done in an R (version 4.1.1)99 with
+DESeq2 (version 1.34.0)100. Pathways enrichment analyses were
+performed online using ESKAPE Act PLUS101 and the whole list of
+DEG (including ≤2-fold change genes) per condition as input.
+Statistics
+Morphology data was tested for parametric assumption compliance
+using Shapiro Wilk and Levene’s tests. The data did not comply with
+all the assumptions, thus non-parametric tests were used for all
+statistical analyses. Bioﬁlm biomass, thickness, and surface area
+coverage data was compared between groups using two-sided
+Kruskal Wallis and Dunn’s (with Bonferroni correction) tests to
+determine if differences observed were signiﬁcant. Signiﬁcant
+differences have the signiﬁcance level speciﬁed in parenthesis or in
+the plot (minimum of p-value < 0.05), while the non-signiﬁcant values
+correspond to p-value > 0.05. Differential gene expression analysis
+was performed with DESeq2 using p-value < 0.05 as signiﬁcance
+threshold, except for comparison between SS316 and pSS316 which
+used p-adj ≤0.05. Pathways enrichment analysis was performed with
+ESKAPE Act PLUS using a binomial test (FDR-corrected) with α = 0.05.
+Reporting summary
+Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+DATA AVAILABILITY
+Data available on NASA’s Open Science Data Repository (OSDR, https://osdr.nasa.gov/
+bio/). The microscopy data under study OSD-627 and https://doi.org/10.26030/bp7m-
+0f62102. The transcriptomic data under study OSD-554 https://doi.org/10.26030/
+d5dg-7s68103. The data will also be available on NASA’s Physical Sciences Informatics
+(PSI) data repository (https://psi.nasa.gov).
+CODE AVAILABILITY
+The pipeline code used for the transcriptomic analysis is available on NASA’s Open
+Science Data Repository (OSDR, https://osdr.nasa.gov/bio/) under study OSD-554
+https://doi.org/10.26030/d5dg-7s68103.
+Received: 23 November 2022; Accepted: 2 August 2023;
+REFERENCES
+1. Zea, L. et al. Design of a spaceﬂight bioﬁlm experiment. Acta Astronaut. 148,
+294–300 (2018).
+2. Zea, L. et al. Potential bioﬁlm control strategies for extended spaceﬂight mis-
+sions. Bioﬁlm 2, 100026 (2020).
+3. Weir, N. et al. Microbiological characterization of the international space station
+water processor assembly external ﬁlter assembly S/N 01. in 42nd International
+Conference on Environmental Systems (American Institute of Aeronautics and
+Astronautics, 2012).
+4. Carter, D. L. et al. Status of ISS water management and recovery (2017-036). in
+47th International Conference on Environmental Systems (2017).
+5. Klintworth, R., Reher, H. J., Viktorov, A. N. & Bohle, D. Biological induced corro-
+sion of materials II: new test methods and experiences from mir station. Acta
+Astronaut 44, 569–578 (1999).
+6. Mansour, R. & Elshafei, A. Role of microorganisms in corrosion induction and
+prevention. Br. Biotechnol. J. 14, 1–11 (2016).
+7. Kaksonen, A. H. et al. Potential of Acidithiobacillus ferrooxidans to grow on and
+bioleach metals from mars and lunar regolith simulants under simulated
+microgravity conditions. Microorganisms 9, 2416 (2021).
+8. Santomartino, R., Zea, L. & Cockell, C. S. The smallest space miners: principles of
+space biomining. Extremophiles 26, 7 (2022).
+9. Kaksonen, A. H. et al. Prospective directions for biohydrometallurgy. Hydro-
+metallurgy 195, 105376 (2020).
+10. Pyle, B. H. et al. Bacterial Growth on surfaces and in suspensions. European
+Space Agency, Biorack on Spacehab. SP-1222 (1999).
+11. Hall-Stoodley, L., Costerton, J. W. & Stoodley, P. Bacterial bioﬁlms: from the
+Natural environment to infectious diseases. Nat. Rev. Microbiol. 2, 95–108 (2004).
+12. Seil, J. T. & Webster, T. J. Antimicrobial applications of nanotechnology: methods
+and literature. Int. J. Nanomed. 7, 2767–2781 (2012).
+13. Santos, C., Albuquerque, A., Sampaio, F. & Keyson, D. Nanomaterials with anti-
+microbial properties: applications in health sciences. in Microbial Pathogens and
+P. Flores et al.
+12
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Strategies for Combating Them: Science, Technology and Education (Formatex
+Research Center, 2013).
+14. Puckett, S. D., Taylor, E., Raimondo, T. & Webster, T. J. The relationship between
+the nanostructure of titanium surfaces and bacterial attachment. Biomaterials
+31, 706–713 (2010).
+15. Oh, Y. J., Lee, N. R., Jo, W., Jung, W. K. & Lim, J. S. Effects of substrates on bioﬁlm
+formation observed by atomic force microscopy. Ultramicroscopy 109, 874–880
+(2009).
+16. Lorite, G. S. et al. Surface physicochemical properties at the micro and nano
+length scales: role on bacterial adhesion and Xylella fastidiosa bioﬁlm devel-
+opment. PLoS ONE 8, e75247 (2013).
+17. Walther, B. A. & Ewald, P. W. Pathogen survival in the external environment
+and the evolution of virulence. Biol. Rev. Camb. Philos. Soc. 79, 849–869
+(2004).
+18. Flores, P. et al. Preparation for and performance of a Pseudomonas aeruginosa
+bioﬁlm experiment on board the International Space Station. Acta Astronaut.
+https://doi.org/10.1016/j.actaastro.2022.07.015 (2022).
+19. Smith, J. D. et al. Droplet mobility on lubricant-impregnated surfaces. Soft Matter
+9, 1772–1780 (2013).
+20. Flores, P., Luo, J., Mueller, D. W., Muecklich, F. & Zea, L. Space Bioﬁlms—An
+Overview of the Morphology of Pseudomonas aeruginosa Bioﬁlms Grown on Sili-
+cone and Cellulose Membranes on Board the International Space Station (Inter-
+national Astronautical Federation, 2022).
+21. San Marchi, C., Somerday, B. P., Tang, X. & Schiroky, G. H. Effects of alloy com-
+position and strain hardening on tensile fracture of hydrogen-precharged type
+316 stainless steels. Int. J. Hydrog. Energy 33, 889–904 (2008).
+22. Maller, R. R. Passivation of stainless steel. Trends Food Sci. Technol. 9, 28–32
+(1998).
+23. Lafuma, A. & Quéré, D. Slippery pre-suffused surfaces. EPL 96, 56001 (2011).
+24. Ban, G.-H., Lee, J., Choi, C.-H., Li, Y. & Jun, S. Nano-patterned aluminum surface
+with oil-impregnation for improved antibacterial performance. LWT 84, 359–363
+(2017).
+25. Epstein, A. K., Wong, T.-S., Belisle, R. A., Boggs, E. M. & Aizenberg, J. Liquid-
+infused structured surfaces with exceptional anti-biofouling performance. PNAS
+109, 13182–13187 (2012).
+26. Subramanyam, S. B., Azimi, G. & Varanasi, K. K. Designing lubricant-impregnated
+textured surfaces to resist scale formation. Adv. Mater. Interfaces 1, 1300068
+(2014).
+27. Hardt, S. & McHale, G. Flow and drop transport along liquid-infused surfaces.
+Annu. Rev. Fluid Mech. 54, 83–104 (2022).
+28. Hauer, L. et al. How frost forms and grows on lubricated micro- and nanos-
+tructured surfaces. ACS Nano 15, 4658–4668 (2021).
+29. McBride, S. A., Dash, S. & Varanasi, K. K. Evaporative crystallization in drops on
+superhydrophobic and liquid-impregnated surfaces. Langmuir 34, 12350–12358
+(2018).
+30. Xiao, L. et al. Slippery liquid-infused porous surfaces showing marine anti-
+biofouling properties. ACS Appl. Mater. Interfaces 5, 10074–10080 (2013).
+31. Kim, W. et al. Spaceﬂight promotes bioﬁlm formation by Pseudomonas aerugi-
+nosa. PLoS ONE 8, e62437 (2013).
+32. Maki, Y. & Yoshida, H. Ribosomal hibernation-associated factors in Escherichia
+coli. Microorganisms 10, 33 (2021).
+33. Jaishankar, J. & Srivastava, P. Molecular basis of stationary phase survival and
+applications. Front. Microbiol. 8, 2000 (2017).
+34. Zea, L. Phenotypic and Gene Expression Responses of E. coli to antibiotics during
+Spaceﬂight (University of Colorado Boulder, 2015).
+35. Zea, L. et al. A Molecular genetic basis explaining altered bacterial behavior in
+space. PLoS ONE 11, e0164359 (2016).
+36. Gjermansen, M., Ragas, P., Sternberg, C., Molin, S. & Tolker-Nielsen, T. Char-
+acterization of starvation-induced dispersion in Pseudomonas putida bioﬁlms.
+Environ. Microbiol. 7, 894–904 (2005).
+37. Ott, E. et al. Molecular response of Deinococcus radiodurans to simulated
+microgravity explored by proteometabolomic approach. Sci. Rep. 9, 18462
+(2019).
+38. Valentini, M. & Filloux, A. Bioﬁlms and cyclic di-GMP (c-di-GMP) signaling: les-
+sons from Pseudomonas aeruginosa and other bacteria. J. Biol. Chem. 291,
+12547–12555 (2016).
+39. Li, Y. et al. BdlA, DipA and induced dispersion contribute to acute virulence and
+chronic persistence of Pseudomonas aeruginosa. PLOS Pathog. 10, e1004168
+(2014).
+40. Roy, A. B., Petrova, O. E. & Sauer, K. The phosphodiesterase DipA (PA5017) is
+essential for Pseudomonas aeruginosa bioﬁlm dispersion. J. Bacteriol. 194,
+2904–2915 (2012).
+41. An, S., Wu, J. & Zhang, L.-H. Modulation of Pseudomonas aeruginosa bioﬁlm
+dispersal by a cyclic-Di-GMP phosphodiesterase with a putative hypoxia-sensing
+domain. Appl. Environ. Microbiol. 76, 8160–8173 (2010).
+42. Li, Y., Heine, S., Entian, M., Sauer, K. & Frankenberg-Dinkel, N. NO-induced bioﬁlm
+dispersion in Pseudomonas aeruginosa is mediated by an MHYT domain-coupled
+phosphodiesterase. J. Bacteriol. 195, 3531–3542 (2013).
+43. Basu Roy, A. & Sauer, K. Diguanylate cyclase NicD-based signalling mechanism
+of nutrient-induced dispersion by Pseudomonas aeruginosa. Mol. Microbiol. 94,
+771–793 (2014).
+44. Petrova, O. E., Cherny, K. E. & Sauer, K. The diguanylate cyclase GcbA facilitates
+Pseudomonas aeruginosa bioﬁlm dispersion by activating BdlA. J. Bacteriol. 197,
+174–187 (2015).
+45. Corley, J. M., Intile, P. & Yahr, T. L. Direct inhibition of RetS synthesis by RsmA
+contributes to homeostasis of the Pseudomonas aeruginosa Gac/Rsm signaling
+system. J. Bacteriol. 204, e0058021 (2022).
+46. Burrowes, E., Baysse, C., Adams, C. & O’Gara, F. Inﬂuence of the regulatory
+protein RsmA on cellular functions in Pseudomonas aeruginosa PAO1, as
+revealed by transcriptome analysis. Microbiology 152, 405–418 (2006).
+47. Ho, Y.-N., Lee, H.-J., Hsieh, C.-T., Peng, C.-C. & Yang, Y.-L. in Studies in Natural
+Products Chemistry (ed. Atta-ur-Rahman) Vol. 59, 431–490 (Elsevier, 2018).
+48. Britigan, B. E., Rasmussen, G. T. & Cox, C. D. Augmentation of oxidant injury to
+human pulmonary epithelial cells by the Pseudomonas aeruginosa siderophore
+pyochelin. Infect. Immun. 65, 1071–1076 (1997).
+49. Lyczak, J. B., Cannon, C. L. & Pier, G. B. Lung infections associated with cystic
+ﬁbrosis. Clin. Microbiol. Rev. 15, 194–222 (2002).
+50. Sykes, J. E. in Canine and Feline Infectious Diseases (ed. Sykes, J. E.) 355–363 (W.B.
+Saunders, 2014).
+51. Chen, L. et al. One-step fabrication of universal slippery lubricated surfaces. Adv.
+Mater. Interfaces 7, 2000305 (2020).
+52. MacCallum, N. et al. Liquid-infused silicone as a biofouling-free medical material.
+ACS Biomater. Sci. Eng. 1, 43–51 (2015).
+53. Sotiri, I., Overton, J. C., Waterhouse, A. & Howell, C. Immobilized liquid layers: a
+new approach to anti-adhesion surfaces for medical applications. Exp. Biol. Med.
+241, 909–918 (2016).
+54. Yuan, S., Luan, S., Yan, S., Shi, H. & Yin, J. Facile fabrication of lubricant-infused
+wrinkling surface for preventing thrombus formation and infection. ACS Appl.
+Mater. Interfaces 7, 19466–19473 (2015).
+55. Li, J. et al. Hydrophobic liquid-infused porous polymer surfaces for antibacterial
+applications. ACS Appl. Mater. Interfaces 5, 6704–6711 (2013).
+56. Wang, P., Zhang, D., Lu, Z. & Sun, S. Fabrication of slippery lubricant-infused
+porous surface for inhibition of microbially inﬂuenced corrosion. ACS Appl.
+Mater. Interfaces 8, 1120–1127 (2016).
+57. Alberts, B. et al. Molecular Biology of the Cell (Garland Science, 2017).
+58. Clark, D. P. & Pazdernik, N. J. Molecular Biology (Elsevier, 2012).
+59. Lindman, B., Medronho, B., Alves, L., Norgren, M. & Nordenskiöld, L. Hydrophobic
+interactions control the self-assembly of DNA and cellulose. Q. Rev. Biophys. 54,
+e3 (2021).
+60. Zhao, Y. & Cieplak, M. Proteins at air–water and oil–water interfaces in an all-
+atom model. Phys. Chem. Chem. Phys. 19, 25197–25206 (2017).
+61. Beverung, C. J., Radke, C. J. & Blanch, H. W. Protein adsorption at the oil/water
+interface: characterization of adsorption kinetics by dynamic interfacial tension
+measurements. Biophys. Chem. 81, 59–80 (1999).
+62. Mitropoulos, V., Mütze, A. & Fischer, P. Mechanical properties of protein
+adsorption layers at the air/water and oil/water interface: A comparison in light
+of the thermodynamical stability of proteins. Adv. Colloid Interface Sci. 206,
+195–206 (2014).
+63. Bergfreund, J., Bertsch, P., Kuster, S. & Fischer, P. Effect of oil hydrophobicity on
+the adsorption and rheology of β-lactoglobulin at oil–water interfaces. Langmuir
+34, 4929–4936 (2018).
+64. Murray, B. S. Rheological properties of protein ﬁlms. COCIS 16, 27–35 (2011).
+65. Möbius, D. & Miller, R. Proteins at Liquid Interfaces (Elsevier, 1998).
+66. Serrien, G., Geeraerts, G., Ghosh, L. & Joos, P. Dynamic surface properties of
+adsorbed protein solutions: BSA, casein and buttermilk. Colloids Surf. 68,
+219–233 (1992).
+67. Poirier, A. et al. Sunﬂower proteins at air–water and oil–water interfaces.
+Langmuir 37, 2714–2727 (2021).
+68. Howell, C., Grinthal, A., Sunny, S., Aizenberg, M. & Aizenberg, J. Designing liquid-
+infused surfaces for medical applications: a review. Adv. Mater. 30, 1802724
+(2018).
+69. Hong, J. K., Ruhoff, A. M., Mathur, K., Neto, C. & Waterhouse, A. Mechanisms for
+reduced ﬁbrin clot formation on liquid-infused surfaces. Adv. Healthc. Mater. 11,
+2201360 (2022).
+70. Cocco, S., Monasson, R. & Marko, J. F. Force and kinetic barriers to unzipping of
+the DNA double helix. Proc. Natl Acad. Sci. USA 98, 8608–8613 (2001).
+71. Pingle, H. et al. Minimal attachment of Pseudomonas aeruginosa to DNA mod-
+iﬁed surfaces. Biointerphases 13, 06E405 (2018).
+72. Subbiahdoss, G. et al. Antifouling properties of layer by layer DNA coatings.
+Biofouling 35, 75–88 (2019).
+P. Flores et al.
+13
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2023)  66 
+
+73. Ouni, O. A., Subbiahdoss, G., Scheberl, A. & Reimhult, E. DNA polyelectrolyte
+multilayer coatings are antifouling and promote mammalian cell adhesion. J.
+Mater. 14, 4596 (2021).
+74. Barken, K. B. et al. Roles of type IV pili, ﬂagellum-mediated motility and extra-
+cellular DNA in the formation of mature multicellular structures in Pseudomonas
+aeruginosa bioﬁlms. Environ. Microbiol. 10, 2331–2343 (2008).
+75. Gloag, E. S. et al. Self-organization of bacterial bioﬁlms is facilitated by extra-
+cellular DNA. PNAS 110, 11541–11546 (2013).
+76. Whitchurch, C. B., Tolker-Nielsen, T., Ragas, P. C. & Mattick, J. S. Extracellular DNA
+required for bacterial bioﬁlm formation. Sci 295, 1487 (2002).
+77. Hynen, A. L. et al. Multiple holins contribute to extracellular DNA release in
+Pseudomonas aeruginosa bioﬁlms. J. Microbiol. 167, 000990 (2021).
+78. Turnbull, L. et al. Explosive cell lysis as a mechanism for the biogenesis of
+bacterial membrane vesicles and bioﬁlms. Nat. Commun. 7, 11220 (2016).
+79. Vaccari, L. et al. Films of bacteria at interfaces. Adv. Colloid Interface Sci. 247,
+561–572 (2017).
+80. Sundin, J. & Bagheri, S. Slip of submerged two-dimensional liquid-infused sur-
+faces in the presence of surfactants. J. Fluid Mech. 950, A35 (2022).
+81. Pardhi, D. S. et al. Microbial surfactants: a journey from fundamentals to recent
+advances. Front. Microbiol. 13, 982603 (2022).
+82. Crabbé, A. et al. Transcriptional and proteomic responses of Pseudomonas
+aeruginosa PAO1 to spaceﬂight conditions involve Hfq regulation and reveal a
+role for oxygen. Appl. Environ. Microbiol. 77, 1221–1230 (2011).
+83. Chrzanowski, Ł., Ławniczak, Ł. & Czaczyk, K. Why do microorganisms produce
+rhamnolipids? World J. Microbiol. Biotechnol. 28, 401–419 (2012).
+84. Wilhelm, S., Gdynia, A., Tielen, P., Rosenau, F. & Jaeger, K.-E. The autotransporter
+esterase EstA of Pseudomonas aeruginosa is required for rhamnolipid produc-
+tion, cell motility, and bioﬁlm formation. J. Bacteriol. 189, 6695–6703 (2007).
+85. Zhang, L., Hinz, A. J., Nadeau, J.-P. & Mah, T.-F. Pseudomonas aeruginosa tssC1
+links type VI secretion and bioﬁlm-speciﬁc antibiotic resistance. J. Bacteriol. 193,
+5510–5513 (2011).
+86. Heise, C. & Bier, F. F. in Immobilisation of DNA on Chips II (ed. Wittmann, C.) 1–25
+(Springer, 2005).
+87. Nimse, S. B., Song, K., Sonawane, M. D., Sayyed, D. R. & Kim, T. Immobilization
+techniques for microarray: challenges and applications. J. Sens. 14, 22208–22229
+(2014).
+88. De Kievit, T. R., Gillis, R., Marx, S., Brown, C. & Iglewski, B. H. Quorum-sensing
+genes in Pseudomonas aeruginosa bioﬁlms: their role and expression patterns.
+Appl. Environ. Microbiol. 67, 1865–1873 (2001).
+89. Horneck, G., Klaus, D. M. & Mancinelli, R. L. Space microbiology. Microbiol. Mol.
+Biol. Rev. 74, 121–156 (2010).
+90. Heydorn, A. et al. Quantiﬁcation of bioﬁlm structures by the novel computer
+program COMSTAT. J. Microbiol. 146, 2395–2407 (2000). (Pt 10).
+91. Heydorn, A. & Ersbøll, B. K. Comstat 2. Welcome to the Comstat 2 homepage.
+http://www.comstat.dk/ (2015).
+92. Vorregaard, M. Comstat2—A Modern 3D Image Analysis Environment for Bioﬁlms
+(Technical university of Denmark (DTU), (2008).
+93. Andrews, S. FastQC A. Quality Control tool for High Throughput Sequence Data
+(2010).
+94. Ewels, P., Magnusson, M., Lundin, S. & Käller, M. MultiQC: summarize analysis
+results for multiple tools and samples in a single report. J. Bioinform. 32,
+3047–3048 (2016).
+95. Martin, M. Cutadapt removes adapter sequences from high-throughput
+sequencing reads. EMBnet J. 17, 10–12 (2011).
+96. Langmead, B. & Salzberg, S. L. Fast gapped-read alignment with Bowtie 2. Nat.
+Methods 9, 357–359 (2012).
+97. Danecek, P. et al. Twelve years of SAMtools and BCFtools. GigaScience 10,
+giab008 (2021).
+98. Liao, Y., Smyth, G. K. & Shi, W. The R package Rsubread is easier, faster, cheaper
+and better for alignment and quantiﬁcation of RNA sequencing reads. Nucleic
+Acids Res. 47, e47 (2019).
+99. R Core Team. R: The R Project for Statistical Computing. (2022).
+100. Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and
+dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550 (2014).
+101. Koeppen, K., Hampton, T. H., Neff, S. L., & Stanton, B. A. ESKAPE Act Plus:
+pathway activation analysis for bacterial pathogens. mSystems https://doi.org/
+10.1128/msystems.00468-22 (2022).
+102. Zea, L. & Flores, P. Characterization of Bioﬁlm Formation, Growth, and Gene
+Expression on Different Materials and Environmental Conditions in Microgravity -
+Morphology Data. https://doi.org/10.26030/bp7m-0f62 (2023).
+103. Zea, L. & Flores, P. Characterization of Bioﬁlm Formation, Growth, and Gene
+Expression on Different Materials and Environmental Conditions in Microgravity -
+Gene Expression Data. https://doi.org/10.26030/d5dg-7s68 (2023).
+ACKNOWLEDGEMENTS
+The authors would like to acknowledge the support and contributions from Rylee
+Schauer, Christina Koch, Jessica Meir, Carla Hoehn, Maggie Kolicko, Louis Stodieck,
+Stefanie Countryman, Joella Delheimer, Rebecca Bryan, Melissa Dunivant, Jim Wright,
+James Orth, Katrina Diener, Lily Allen, Amir Kalani, Anissa Becerra, Jim Voss, Shankini
+Doraisingam, Sridahr Gorti, Shawn Reagan, Stuart Tozer, Mark Rupert, Zeena Nisar, and
+Shilpi Ganguly. Special thanks to the facilities and organizations that made the
+experiment and analysis possible: Northrop Grumman, SpaceX, Eastern Virginia Medical
+School (EVMS), the Light Microscopy Core Facility, Porter Biosciences B047, B049 and
+B051 at the University of Colorado Boulder (RRID:SCR_018993), and the University of
+Colorado Anschutz’s Genomics Shared Resource. LIS coupons were prepared using
+facilities at the Harvard University Center for Nanoscale Systems (CNS); a member of the
+National
+Nanotechnology
+Coordinated
+Infrastructure
+Network
+(NNCI)
+which
+is
+supported by the National Science Foundation under NSF award no. ECCS-2025158.
+The authors also thank Prof. George O’Toole for kindly providing the P. aeruginosa PA14
+strain. This project was supported by the National Aeronautics and Space Administra-
+tion under Grants No. 80NSSC17K0036 and 80NSSC21K1950.
+AUTHOR CONTRIBUTIONS
+P.F. standardized methods, wrote the code, performed operations, interpreted the
+data, and wrote the manuscript; S.M. standardized methods, fabricated surfaces,
+interpreted the results, and wrote the manuscript; K.K.V. standardized methods,
+designed LIS research, interpreted the data, and revised the manuscript; J.M.G.
+standardized methods, interpreted the data, and revised the manuscript; L.Z.
+conceived the project concept, designed the experiment, standardized methods,
+performed operations, interpreted the data, and wrote the manuscript.
+COMPETING INTERESTS
+The authors declare no competing interests. K.K.V. is a co-founder and has an equity
+interest in LiquiGlide Inc. K.K.V. acknowledges a board position with LiquiGlide Inc.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-023-00316-w.
+Correspondence and requests for materials should be addressed to Pamela Flores,
+Kripa K. Varanasi or Luis Zea.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from
+the
+copyright
+holder.
+To
+view
+a
+copy
+of
+this
+license,
+visit
+http://
+creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2023
+P. Flores et al.
+14
+npj Microgravity (2023)  66 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

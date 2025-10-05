@@ -1,0 +1,276 @@
+GigaScience , 2024, 13 , 1–3 
+DOI: 10.1093/gigascience/giae066 
+Commentary 
+Celebr a ting 30 years of access to NASA Space Life 
+Sciences data 
+Lauren M. Sanders 
+1 , Danielle K. Lopez 
+2 , Alan E. Wood 2 , Ryan T. Scott 
+2 , Samrawit G. Gebre 
+1 , Amanda M. Saravia-Butler 
+2 , 
+and Sylvain V. Costes 
+1 , * 
+1 Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94035, USA 
+2 KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94035, USA 
+∗Corr espondence addr ess: Sylv ain V. Costes, Space Biosciences Researc h Br anc h, N ASA Ames Resear ch Center, Moffett Field, CA 94035, USA. 
+E-mail: sylvain.v.costes@nasa.gov 
+Abstract 
+NASA’s space life sciences research programs esta b lished a decades-long legacy of enhancing our ability to safely explore the cosmos. 
+Fr om Sk yla b and the Space Shuttle Program to the NASA Balloon Program and the International Space Station National Lab, these 
+progr ams gener ated priceless data that continue to paint a vibr ant picture of life in space . These data ar e av aila b le to the scientific 
+community in various data repositories, including the NASA Ames Life Sciences Data Archi v e (ALSDA) and NASA GeneLa b. Her e we 
+recognize the 30-year anniversary of data access through ALSDA and the 10-year anniversary of GeneLab. 
+Ke yw ords: space biology, NASA, data, open science, data ar c hi v e, FAIR, omics 
+Bac kgr ound 
+Space tr av el involv es inher ent hazards, including alter ed gr avity, 
+incr eased exposur e to r adiation, confinement, and distance from 
+Earth [ 1 ]. Characterizing and mitigating these risks is the focus of 
+the Thriving in Deep Space (TIDES) initiative, part of NASA’s Space 
+Biology Pr ogr am within the Biological and Physical Sciences Divi- 
+sion. NASA’s upcoming Moon to Mars Missions will face increased 
+health hazards [ 2 ]. TIDES aims to meet these challenges by inves- 
+tigating biological responses to the space environment and uti- 
+lizing this knowledge to enhance biotechnological systems essen- 
+tial for human health and performance beyond low Earth orbit. 
+Open and FAIR [ 3 ] (Findable , Accessible , Inter oper able, Reusable) 
+data are paramount for supporting these efforts by enabling sci- 
+entific collaboration and gaining new knowledge . T his view of data 
+stew ar dship in the modern era is embraced by NASA and its Sci- 
+ence Mission Dir ector ate (SMD), whic h launc hed the Tr ansform to 
+Open Science (TOPS) initiative and released Science Policy Direc- 
+tive SPD-41a [ 4 ]. 
+Data collection and archiving has been a k e y principle at NASA 
+for decades. Here we recognize the 30-year anniversary in 2024 of 
+the NASA Ames Life Sciences Data Arc hiv e (ALSDA), a database 
+of experiment descriptions , pa yloads , missions , telemetry, results , 
+and bioimaging data mostly from NASA-funded life sciences in- 
+v estigations. Similarl y, 2024 marks the 10-year anniversary of 
+NASA GeneLab, the omics repository for space biology and space- 
+r ele v ant experiments. In 2021, ALSDA and GeneLab merged to 
+form the NASA Open Science Data Repository (OSDR), unifying 
+these precious data resources under 1 platform [ 5 ]. 
+History and 30-Year Anniversary of the 
+NASA ALSDA 
+The work to create the NASA Life Sciences Data Arc hiv e (LSDA) 
+began in 1990 by teams at Johnson Space Center (JSC), Ames Re- 
+search Center (ARC), and Goddard Space Flight Center (GSFC). It 
+was established and fully funded in FY94 with arc hiv e centers at 
+ARC, Kennedy Space Center (KSC), JSC, and GSFC. ARC focused on 
+nonhuman data, JSC on human data, KSC on plant data, and GSFC 
+provided Master Catalog functions. In 1995, LSDA was tasked with 
+pr oviding r epr esentation for Space Life Sciences to the Consul- 
+tative Committee for Space Data Systems (CCSDS) and Interna- 
+tional Standards Organization (ISO) efforts to de v elop a r efer ence 
+model for the emerging challenge of archiving digital data. For 10 
+years, ALSDA led the Space Life Sciences effort for this ambitious 
+endea vor. T he resulting CCSDS/ISO product “The Open Archival 
+Information System (OAIS) Reference Model” is the most widely 
+adopted arc hiv al standards fr ame work [ 6 ]. 
+The repository was designed around experiments with rela- 
+tional links to personnel, har dw are , pa yloads , missions , and so 
+on. ALSDA was c har ged with collecting all ARC-funded life sci- 
+ences experimental data and metadata to allow scientists to per- 
+form r etr ospectiv e anal yses acr oss missions , experiments , dis- 
+ciplines, and r esearc h subjects/species. ALSDA began capturing 
+har dw are information, audio/visual media, images , slides , mis- 
+sion and payload information, experiment descriptions, raw ex- 
+perimental data, and raw telemetry downlink and ground control 
+data in both analog and digital formats. Years later, ALSDA was 
+tasked with creating and managing the biospecimen storage fa- 
+cility, capturing, cataloging, and disseminating biospecimens re- 
+maining from flight and ground experiments. 
+Faced with growing demands for open-access and high-quality 
+data, ALSDA was unable to upgrade systems until it merged with 
+the modern GeneLab data system [ 7 ] in 2021. As a result, this in- 
+tegration now maximizes science-return on all legacy and future 
+data collections. In 2024, ALSDA remains responsible for curat- 
+ing, archiving, and making available space-relevant phenotypic, 
+physiolog ical, bioimag ing, beha vioral, and en vironmental teleme- 
+try datasets. Collection of scientific reports and publications was 
+Recei v ed: J uly 23, 2024. Accepted: August 13, 2024 
+Published by Oxford University Press on behalf of GigaScience 2024. This work is written by (a) US Government employee(s) and is in the public domain in the 
+US. 
+
+2 | GigaScience , 2024, Vol. 13 
+streamlined to other program-level repositories such as Taskbook 
+and PubSpace. 
+History and 10-Year Anniversary of NASA 
+GeneLab 
+The early 2000s saw a paradigm shift in biological r esearc h, 
+wherein costs of high-throughput sequencing dropped precipi- 
+tousl y and lar ge omics datasets wer e gener ated at an incr easing 
+r ate. “Omics” r efers to a group of biological disciplines that study 
+compr ehensiv e datasets of related molecules in an organism, 
+such as genomics (DNA), proteomics (proteins), metabolomics 
+(metabolites), and transcriptomics (RNA), to understand complex 
+biological systems and processes. 
+In 2011, the National Academies’ Decadal Survey in Life and 
+Physical Sciences Research emphasized the importance of omics, 
+advocating for informatics technologies and a multilevel, systems 
+biology a ppr oac h for space biology r esearc h [ 8 ]. In k ee ping with 
+the 2011 Decadal Survey recommendations, NASA initiated the 
+GeneLab project in 2014. From the 2014 GeneLab Strategic Plan, 
+the goal was to allow maximally open and unrestricted access 
+to omics data generated from biological experiments in space, as 
+well as associated experimental metadata. 
+A critical first step for GeneLab was to establish meticulous 
+normalization standards to provide “rich metadata” using the 
+ISA (In vestigation, Study, Assa y) model framework for data cura- 
+tion, thereby enhancing the FAIRness of these data [ 3 ]. In 2018, 
+GeneLab established the Analysis Working Groups (AWGs), com- 
+posed of data repository users and scientists. Together, they de- 
+fined optimal analytical w orkflo ws for data, resulting in consen- 
+sus bioinformatics pipelines to process and standardize all raw 
+omics data, significantly enhancing dataset reusability by elim- 
+inating the need for downloading terabytes of raw sequencing 
+data or having specialized bioinformatics expertise. Building on 
+this foundation of standardized metadata and processed data, 
+GeneLab r ecentl y r eleased a visualization portal enabling users 
+to effectiv el y visualize experimental pr ocessed omics data. 
+Over the past decade, GeneLab has evolved into a sophisti- 
+cated data system with a single point of entry for scientists to 
+upload their data, expedite the curation of new datasets, search 
+the database , download ra w and processed data via a w eb bro wser 
+or API, and visualize data using state-of-the-art tools. GeneLab is 
+also fostering a vibrant scientific community through its AWGs, 
+whic h r egularl y conduct meta-anal yses, make ne w discov eries, 
+and enhance the repository. These groups have been producing in- 
+dependent publications for many years through the reuse of data, 
+culminating in the release of 2 major space biology paper collec- 
+tions [ 1 , 9 ]. Additionally, GeneLab now serv es as the omics r eposi- 
+tory for the European Space Agency’s SciSpacE research program, 
+integr ating Eur opean data thr ough NASA’s portals. 
+The Open Science Data Repository: Best of 
+Both Worlds 
+The integration of ALSDA with GeneLab [ 5 ] has resulted in the cre- 
+ation of OSDR, which is built on GeneLab’s r obust fr ame work and 
+incor por ates data and metadata from both databases . T his inte- 
+gr ation has impr ov ed data accessibility and r eusability thr ough 
+new tools and w orkflo ws, enabling the merging of multimodal 
+and m ultihier arc hical data fr om spaceflight experiments for en- 
+hanced knowledge discovery and mission support. The consoli- 
+dation has standardized and made data fr om ALSDA searc hable 
+and maximally openly accessible, while also enhancing GeneLab’s 
+omics data by linking it tr anspar entl y with non-omics data from 
+the same experiments. Including over 20 years of ALSDA’s legacy 
+data, along with valuable payload, mission, and har dw ar e r ecords, 
+OSDR now hosts over 500 studies across all life forms, from mi- 
+crobes to animals , plants , and humans , each with curated meta- 
+data and accessible raw and processed data files. Additionally, the 
+repository contains over 300 records related to pa yloads , missions , 
+and har dw are. 
+The AWG ecosystem has r a pidl y expanded, gaining ov er 300 
+new members in the past year and fostering the creation of new 
+groups that contribute valuable insights to OSDR. Notably, sub- 
+ject matter experts from the ALSDA AWG have helped establish 
+minim um data r equir ements and metadata standards for over 60 
+assay types on OSDR, many of which previously lacked standards. 
+Additionall y, the ne w artificial intelligence (AI)/machine learning 
+AWG has been instrumental in enhancing the readiness of OSDR 
+data for machine learning and AI applications . T his group also 
+played a k e y role in summarizing a NASA workshop focused on 
+the use of AI to enable self-driving laboratories, automated sci- 
+ence, and precision space health in future space missions [ 10 ]. 
+Conclusions 
+A paradigm shift has occurred in modern space biosciences, 
+wher e r eliable data r euse is no w essential, as w ell as science being 
+interdisciplinary, inclusiv e, and maximall y tr anspar ent. To enable 
+lar ge comm unities of scientists on Earth to participate in space- 
+flight disco very, NASA pla ys a leading role in this shift through a 
+strong open science program. NASA OSDR is a growing star in this 
+ecosystem, with the integration of 2 critical databases, and the sci- 
+entific output shows that its whole is greater than the sum of its 
+parts . T he OSDR AWG is a thriving collabor ativ e comm unity that 
+utilizes OSDR’s rich data and metadata to make new discoveries 
+in space biology and health. 
+This merger marks a new era, epitomizing the maturity of open 
+science in space biology. OSDR is committed to r a pidl y expand- 
+ing its data through collaborations with other space agencies, in- 
+stitutions , and companies . By le v er a ging AI, OSDR also aims to 
+enhance accessibility and r epr oducibility while str eamlining the 
+processes of data ingestion and interpretation. 
+Abbreviations 
+AI: artificial intelligence; ALSDA: Ames Life Sciences Data Arc hiv e; 
+ARC: Ames Research Center; AWG: Analysis Working Groups; 
+CCSDS: Consultative Committee for Space Data Systems; FAIR: 
+Findable , Accessible , Inter oper able, Reusable; GSFC: Goddard 
+Flight Center; ISA: In vestigation, Study, Assa y; ISO: International 
+Standards Organization; JSC: Johnson Space Center; KSC: Kennedy 
+Space Center; LSDA: Life Sciences Data Arc hiv e; OAIS: Open 
+Arc hiv al Information System; OSDR: Open Science Data Reposi- 
+tory; SMD: Science Mission Dir ector ate; TIDES: Thriving in Deep 
+Space; TOPS: Transform to Open Science. 
+Ac kno wledgments 
+We would like to extend our sincerest thanks to both the pr e vi- 
+ous and current teams, as well as to all AWG members and the 
+br oader scientific comm unity ar ound OSDR, GeneLab, and ALSDA. 
+T heir contributions , dedication, and unwa vering commitment to 
+our shared success are essential. 
+
+30 years of access to NASA Space Life Sciences data | 3 
+Author Contributions 
+Lauren M. Sanders (Writing—original draft [lead]), Danielle K. 
+Lopez (Conceptualization [lead]), Alan E. Wood (Writing—r e vie w & 
+editing [equal]), Ryan T. Scott (Writing—r e vie w & editing [equal]), 
+Samr awit G. Gebr e (Writing—r e vie w & editing [equal]), and 
+Amanda M. Sar avia-Butler (Writing—r e vie w & editing [equal]), 
+Sylvain V. Costes (Conceptualization, Writing—review & editing 
+[equal]). 
+Funding 
+OSDR is funded by the Biological and Physical Sciences (BPS) Space 
+Biology Pr ogr am within the NASA Science Mission Dir ector ate 
+(SMD) and the NASA Human Research Program (HRP). 
+Da ta Av ailability 
+All data are available on the NASA Open Science Data Repository: 
+https:// osdr.nasa.gov/ bio/ . 
+Competing Interests 
+The authors declare that they have no competing interests. 
+References 
+1.
+Afshinnekoo E, Scott RT, MacKay MJ, et al. Fundamental biolog- 
+ical features of spaceflight: advancing the field to enable deep- 
+space exploration. Cell 2020;183:1162–84. https:// doi.org/ 10.101 
+6/j.cell.2020.10.050 .
+2.
+Costes SV, Gentemann CL, Platts SH, et al. Biological hori- 
+zons: pioneering open science in the cosmos. Nat Commun 
+2024;15:4780. https:// doi.org/ 10.1038/ s41467- 024- 48633- 2 .
+3.
+Wilkinson MD, Dumontier M, Aalbersberg IJ, et al. The FAIR 
+Guiding Principles for scientific data management and stew ar d- 
+ship. Sci Data 2016;3:160018. https://doi.org/10.1038/sdata.2016. 
+18 .
+4.
+N ASA. Science information polic y. 2021. https://science.nasa 
+.gov/r esearchers/science-infor mation-policy/. Accessed 1 July 
+2024.
+5.
+Scott RT, Grigor e v K, Mac kintosh G, et al. Advancing the integra- 
+tion of biosciences data sharing to further enable space explo- 
+ration. Cell Rep 2020;33:108441. https:// doi.org/ 10.1016/ j.celrep 
+.2020.108441 .
+6.
+Reference Model for an Open Archival Information System 
+(OAIS). The Consultative Committee for Space Data Systems. 
+2002. https:// public.ccsds.org/Pubs/ 650x0b1s.pdf. Accessed 1 
+July 2024.
+7.
+Berrios DC, Galazka J, Grigor e v K, et al. NASA GeneLab: inter- 
+faces for the exploration of space omics data. Nucleic Acids Res 
+2021;49:D1515–22. https:// doi.org/ 10.1093/ nar/ gkaa887 .
+8.
+National Researc h Council. Reca pturing a futur e for space ex- 
+ploration: life and physical sciences r esearc h for a ne w er a. 
+Washington, DC: The National Academies Press; 2011. https: 
+// doi.org/ 10.17226/13048 .
+9.
+Nature Portfolio. Space Omics and Medical Atlas (SOMA) across 
+orbits. 2024. https://www.natur e.com/immersiv e/d42859-024- 
+00009-8/index.html . Accessed 23 July 2024.
+10. Scott RT, Sanders LM, Antonsen EL, et al. Biomonitoring and pre- 
+cision health in deep space supported by artificial intelligence. 
+Nat Mach Intell 2023;5:196–207. https://doi.org/10.1038/s42256- 
+023-00617-5 .
+Recei v ed: J uly 23, 2024. Accepted: August 13, 2024 
+Published by Oxford University Press on behalf of GigaScience 2024. This work is written by (a) US Government employee(s) and is in the public domain in the US. 

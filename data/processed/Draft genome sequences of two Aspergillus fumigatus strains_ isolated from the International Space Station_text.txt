@@ -1,0 +1,159 @@
+Draft Genome Sequences of Two Aspergillus fumigatus Strains,
+Isolated from the International Space Station
+Nitin Kumar Singh,a Adriana Blachowicz,a Aleksandra Checinska,a Clay Wang,b,c
+Kasthuri Venkateswarana
+Biotechnology and Planetary Protection Group, Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USAa; Department of Pharmacology
+and Pharmaceutical Sciences, University of Southern California, Los Angeles, California, USAb; Dornsife College of Letters, Arts and Sciences, University of Southern
+California, Los Angeles, California, USAc
+Draft genome sequences of Aspergillus fumigatus strains (ISSFT-021 and IF1SW-F4), opportunistic pathogens isolated from the
+International Space Station (ISS), were assembled to facilitate investigations of the nature of the virulence characteristics of the
+ISS strains to other clinical strains isolated on Earth.
+Received 2 May 2016 Accepted 25 May 2016 Published 14 July 2016
+Citation Singh NK, Blachowicz A, Checinska A, Wang C, Venkateswaran K. 2016. Draft genome sequences of two Aspergillus fumigatus strains, isolated from the International
+Space Station. Genome Announc 4(4):e00553-16. doi:10.1128/genomeA.00553-16.
+Copyright © 2016 Singh et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+Address correspondence to Kasthuri Venkateswaran, kjvenkat@jpl.nasa.gov.
+F
+ungi are a source of natural products that are useful to human-
+kind. A variety of bioactive compounds produced by fungi are
+used in pharmaceutical and food industries, agriculture, and be-
+yond. However, some fungi are plant, animal, and human patho-
+gens. Fungal pathogens could cause serious health complications
+in immunocompromised populations. Pathogenic fungi can pro-
+duce a range of secondary metabolites (SMs) that inﬂuence their
+virulence (melanins, siderophores, species-speciﬁc toxins) and
+immunologic potential.
+Aspergillus fumigatus is a saprophytic, ﬁlamentous fungus that
+is ubiquitous outdoors (soil, decaying vegetation) and indoors
+(hospitals, simulated closed habitats, etc.). Aspergillus fumigatus
+can adapt to various environmental conditions and form airborne
+conidia that are the inoculum for a variety of diseases (e.g., non-
+invasive and invasive pulmonary infections, allergic bronchopul-
+monary aspergillosis, etc.) in immunocompromised hosts.
+In on-going microbial observatory experiments on the Inter-
+national Space Station (ISS), molecular phylogeny and radiation
+resistance of several fungal isolates were characterized. Two Asper-
+gillus fumigatus strains, ISSFT-021 and IF1SW-F4, were isolated
+from a HEPA ﬁlter (1) and cupola wall (unpublished) of the ISS.
+Because A. fumigatus is an opportunistic pathogen causing pathol-
+ogies ranging from allergic asthma to invasive aspergillosis, we
+assessed several pathogenic characteristics of the ISS isolates in
+comparison to two experimentally established clinical isolates,
+Af293 (2) and CEA10 (3). Virulence assessment in a larval ze-
+braﬁsh model of invasive aspergillosis revealed both ISSFT-021
+and IF1SW-F4 as signiﬁcantly more lethal compared to both clin-
+ical isolates (Af293 and CEA10) (4). In addition, the ISS strains
+ISSFT-021 and IF1SW-F4 exhibited signiﬁcantly greater resis-
+tance to UV254 doses when compared to clinical isolates (4, 5).
+The genomics of these ISS isolates might reveal the molecular
+mechanisms of the increased virulence. Subsequently, if the en-
+hanced virulence is attributed to the microgravity, NASA poten-
+tially should consider developing countermeasures to protect the
+health of astronauts, whose immune systems are reported to be
+compromised under microgravity (6).
+In this study, we determined the draft genome sequences of
+A. fumigatus strains ISSFT-021 and IF1SW-F4. Whole-genome
+shotgun sequencing was performed on an Illumina HiSeq2500
+instrument with a paired-end module. A total of 27,987,752 and
+10,752,032 paired-end reads of 101-nucleotides were collected
+for ISSFT-021 and IF1SW-F4. The NGS QC Toolkit v2.3 (7) was
+used to ﬁlter the data for high-quality (HQ) vector- and adaptor-
+free reads for genome assembly (cutoff read length for HQ, 80%;
+cutoff quality score, 20). A total of 25,515,334 (~230 coverage)
+for ISSFT-021 and 8,466,430 (~75 coverage) for IF1SW-F4
+high-quality vector-ﬁltered reads were used for assembly with
+MaSuRCA (8) genome assembler (k-mer size  70). The ﬁnal
+assembly of the strain ISSFT-021 contains 301 scaffolds with a
+total size of 28,526,023 bp and an N50 contig length of 275.468 kb;
+the largest contigs assembled measures 813.103 kb and the GC%
+was 49.41. Similarly, the ﬁnal assembly of the IF1SW-F4 strain
+contains 208 scaffolds with a total size of 28,240,437 bp and an N50
+contig length of 367.421 kb; the largest contig assembled measures
+900.278 kb and the GC content was 49.45%.
+Nucleotide sequence accession numbers. The whole-genome
+sequences of both the strains were deposited at DDBL/EMBL/
+GenBank under the accession numbers LWRT00000000 and
+LWRU00000000. The versions described in this paper are
+LWRT01000000 and LWRU01000000. These A. fumigatus strains
+were also deposited in the USDA Agricultural Research Station
+and DSMZ public culture collections.
+ACKNOWLEDGMENTS
+Part of the research described in this publication was carried out at the Jet
+Propulsion Laboratory, California Institute of Technology, under a con-
+tract with NASA. This research was funded by 2012 Space Biology
+NNH12ZTT001N grant 19-12829-26 under task order NNN13D111T
+awarded to K.V., which also funded post-doctoral fellowships for N.K.S.
+crossmark
+Genome Announcements
+July/August 2016
+Volume 4
+Issue 4
+e00553-16
+genomea.asm.org
+1
+
+and A.C., a graduate fellowship to A.B., and a JPL subcontract 1511581
+to C.W.
+We thank Jay Perry, Marshall Space Flight Center, for providing the
+HEPA ﬁlter and the implementation team of the Microbial Observatory
+(Microbial Tracking) project at NASA Ames Research Center.
+FUNDING INFORMATION
+This work, including the efforts of Kasthuri Venkateswaran, was
+funded by National Aeronautics and Space Administration (NASA)
+(19-12829-26).
+REFERENCES
+1. Checinska A, Probst AJ, Vaishampayan P, White JR, Kumar D, Stepanov
+VG, Fox GE, Nilsson HR, Pierson DL, Perry J, Venkateswaran K. 2015.
+Microbiomes of the dust particles collected from the International Space
+Station and Spacecraft Assembly Facilities. Microbiome 3:50. http://
+dx.doi.org/10.1186/s40168-015-0116-3.
+2. Nierman WC, Pain A, Anderson MJ, Wortman JR, Kim HS, Arroyo J,
+Berriman M, Abe K, Archer DB, Bermejo C, Bennett J, Bowyer P, Chen
+D, Collins M, Coulsen R, Davies R, Dyer PS, Farman M, Fedorova N,
+Fedorova N, Feldblyum TV, Fischer R, Fosker N, Fraser A, Garcia JL,
+Garcia MJ, Goble A, Goldman GH, Gomi K, Grifﬁth-Jones S, Gwilliam
+R, Haas B, Haas H, Harris D, Horiuchi H, Huang J, Humphray S,
+Jimenez J, Keller N, Khouri H, Kitamoto K, Kobayashi T, Konzack S,
+Kulkarni R, Kumagai T, Lafon A, Latge JP, Li W, Lord A, Lu C, Majoros
+WH, May GS, Miller BL, Mohamoud Y, Molina M, Monod M, Mouyna
+I, Mulligan S, Murphy L, O’Neil S, Paulsen I, Penalva MA, Pertea M,
+Price C, Pritchard BL, Quail MA, Rabbinowitsch E, Rawlins N, Rajan-
+dream MA, Reichard U, Renauld H, Robson GD, Rodriguez de Cordoba
+S, Rodriguez-Pena JM, Ronning CM, Rutter S, Salzberg SL, Sanchez M,
+Sanchez-Ferrero JC, Saunders D, Seeger K, Squares R, Squares S, Takeu-
+chi M, Tekaia F, Turner G, Vazquez de Aldana CR, Weidman J, White
+O, Woodward J, Yu JH, Fraser C, Galagan JE, Asai K, Machida M, Hall
+N, Barrell B, Denning DW. 2005. Genomic sequence of the pathogenic and
+allergenic ﬁlamentous fungus Aspergillus fumigatus. Nature 438:
+1151–1156. http://dx.doi.org/10.1038/nature04332.
+3. Rizzetto L, Giovannini G, Bromley M, Bowyer P, Romani L, Cavalieri D.
+2013. Strain dependent variation of immune responses to A. fumigatus:
+deﬁnition of pathogenic species. PLoS One 8:e56651. http://dx.doi.org/
+10.1371/journal.pone.0056651.
+4. Knox BP, Blachowicz A, Romsdahl J, Palmer JM, Huttenlocher A, Wang
+CCC, Keller NP, Venkateswaran K. 2016. 7th Advances Against Aspergil-
+losis Conference, Manchester, United Kingdom, March 3 to 5, 2016.
+5. Blachowicz A, Knox BP, Romsdah LJ, Palmer JM, Huttenlocher A, Wang
+CCC, Keller NP, Venkateswaran K. 2016. Characterization of Aspergillus
+fumigatus isolated from air and surfaces of the International Space Station,
+13th European Conference on Fungal Genetics, Paris, France, April 3 to 6,
+2016.
+6. Crucian BE, Zwart SR, Mehta S, Uchakin P, Quiriarte HD, Pierson D,
+Sams CF, Smith SM. 2014. Plasma cytokine concentrations indicate that in
+vivo hormonal regulation of immunity is altered during long-duration
+spaceﬂight. J Interferon Cytokine Res 34:778–786. http://dx.doi.org/
+10.1089/jir.2013.0129.
+7. Patel RK, Jain M. 2012. NGS QC toolkit: a toolkit for quality control of
+next generation sequencing data. PLoS One 7:e30619. http://dx.doi.org/
+10.1371/journal.pone.0030619.
+8. Zimin AV, Marçais G, Puiu D, Roberts M, Salzberg SL, Yorke JA. 2013.
+The MaSuRCA genome assembler. Bioinformatics 29:2669–2677. http://
+dx.doi.org/10.1093/bioinformatics/btt476.
+Singh et al.
+Genome Announcements
+2
+genomea.asm.org
+July/August 2016
+Volume 4
+Issue 4
+e00553-16

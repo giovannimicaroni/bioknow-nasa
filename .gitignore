@@ -1,0 +1,50 @@
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore other project folders
+biograph_2/
+biograph_3/
+
+# Ignore large data files
+*.pdf
+
+sessions/

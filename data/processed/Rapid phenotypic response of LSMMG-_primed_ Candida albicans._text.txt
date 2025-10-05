@@ -1,0 +1,2511 @@
+ 
+1 
+ 
+2 
+ 
+3 
+Candida albicans Colonization Modulates Murine Ethanol Consumption and Behavioral 
+4 
+Responses Through Elevation of Serum Prostaglandin E2 and Impact on the Striatal 
+5 
+Dopamine System 
+6 
+ 
+7 
+ 
+8 
+Andrew W. Day1,2, Jeyra Perez-Lozada2,4, Alyssa DiLeo1,3, Katrina Blandino1,3, Jamie 
+9 
+Maguire3, and Carol A. Kumamoto2 
+10 
+ 
+11 
+ 
+12 
+1Graduate School of Biomedical Sciences, Tufts University, Boston, Massachusetts, 
+13 
+02111, USA  
+14 
+2Department of Molecular Biology and Microbiology, Tufts University, Boston, 
+15 
+Massachusetts, 02111, USA 
+16 
+3Department of Neuroscience, Tufts University, Boston, Massachusetts, 02111, USA. 
+17 
+4current address: San Juan Bautista School of Medicine, Caguas, Puerto Rico, 00727, 
+18 
+USA. 
+19 
+ 
+20 
+*Correspondence to Carol A. Kumamoto, Department of Molecular Biology and 
+21 
+Microbiology, Tufts University, 150 Harrison Ave., Boston, MA, 02111, USA, 
+22 
+carol.kumamoto@tufts.edu 
+23 
+ 
+24 
+ 
+25 
+ 
+26 
+ 
+27 
+ 
+28 
+ 
+29 
+ 
+30 
+ 
+31 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+Abstract 
+32 
+ 
+Candida albicans is a commensal yeast that is a common component of the 
+33 
+gastrointestinal (GI) microbiome of humans. C. albicans has been shown to bloom in the GI 
+34 
+tract of individuals with alcohol use disorder (AUD) and can promote and increase the severity 
+35 
+of alcoholic liver disease (ALD). However, the effects of C. albicans blooms on the host in the 
+36 
+context of AUD or AUD-related phenotypes, such as ethanol preference, have been unstudied. 
+37 
+In this work, we report a reduction in ethanol consumption and preference in mice colonized 
+38 
+with C. albicans. C. albicans-colonized mice exhibited elevated levels of serum PGE2 and 
+39 
+reduced ethanol preference was reversed by injection with antagonists of PGE2 receptors. 
+40 
+Further, injection of mice with a PGE2 derivative decreased their ethanol preference. These 
+41 
+results show that PGE2 acting on its receptors EP1 and EP2 drives reduced ethanol preference 
+42 
+in C. albicans-colonized mice. We also showed altered transcription of dopamine receptors in 
+43 
+the dorsal striatum of C. albicans-colonized mice and more rapid acquisition of ethanol 
+44 
+conditioned taste aversion, suggesting alterations to reinforcement or aversion learning. Finally, 
+45 
+C. albicans-colonized mice were more susceptible to ethanol-induced motor coordination 
+46 
+impairment showing significant alterations to the behavioral effects of ethanol. This study 
+47 
+identifies a member of the fungal microbiome that alters ethanol preference and demonstrates a 
+48 
+role for PGE2 signaling in these phenotypes. 
+49 
+Importance 
+50 
+ 
+Candida albicans is a commensal yeast that is found in the gut of most individuals. C. 
+51 
+albicans has been shown to contribute to alcoholic liver disease. Outside of this, the impact of 
+52 
+intestinal fungi on alcohol-use disorder (AUD) had been unstudied. As AUD is a complex 
+53 
+disorder characterized by high relapse rates, and there are only 3 FDA-approved therapies for 
+54 
+the maintenance of abstinence, it is important to study novel AUD contributors to find new 
+55 
+therapeutic targets. Here we show that an intestinal fungus, C. albicans, can alter mammalian 
+56 
+ethanol consumption through an immune modulator, prostaglandin E2. The results highlight 
+57 
+novel contributors to AUD-related phenotypes and further implicate the gut-brain axis in AUD. 
+58 
+Future studies could lead to new therapeutic avenues for the treatment of AUD.  
+59 
+Introduction 
+60 
+ 
+Candida albicans is a commensal fungus that is found in the gastrointestinal (GI) tract of 
+61 
+roughly 65% of individuals (1). C. albicans is an opportunistic pathogen that can cause oral 
+62 
+thrush and life-threatening bloodstream infections (2,3). Because of the severity of these 
+63 
+infections, C. albicans pathogenesis has been extensively investigated. However, prior to 
+64 
+infections, C. albicans lives in the gut and can breach the GI tract to infect the host (4–6). 
+65 
+ 
+One host setting associated with enrichment for C. albicans in the GI tract is alcohol use 
+66 
+disorder (AUD), a condition in which individuals have lost the ability to control or stop their 
+67 
+alcohol consumption (7). Estimates suggest roughly 2.3 billion people in the world consume 
+68 
+alcohol and over 5% of the world’s adult population has an AUD (8). C. albicans is enriched in 
+69 
+the fecal microbiome in individuals with AUD (9–11) and contributes to the progression and 
+70 
+severity of ALD (9,10). Immune responses to intestinal fungi correlate with a reduced 5-year 
+71 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+survival in those with ALD (9), showing that changes in abundance of intestinal fungi have vital 
+72 
+consequences to the host. 
+73 
+ 
+The gut microbiota can also affect host behavior via effects on the gut-brain axis (GBA). 
+74 
+The GBA is defined as the bidirectional communication between the GI tract and the brain 
+75 
+(12,13). The GBA has been implicated in many disorders ranging from autism to addiction (14–
+76 
+17). Initial work characterizing the GBA in AUD found dysbiosis in the GI tract can contribute to 
+77 
+depression and craving (18). Specific bacteria have been found that contribute to the control of 
+78 
+factors crucial to alcohol craving (19,20). Further, fecal microbiota transplants in mice and 
+79 
+humans can modulate ethanol preference and craving respectively (21,22). These findings 
+80 
+support the model that changes to the microbiome in AUD can regulate ethanol consumption. 
+81 
+As a mechanism linking microbiome changes to the GBA in AUD, we investigated the 
+82 
+role of prostaglandin E2 (PGE2), an eicosanoid compound synthesized from arachidonic acid. A 
+83 
+previous study showed that treatment with PGE2 reduced ethanol consumption in rats (23). 
+84 
+Serum PGE2 levels have previously been shown to be higher in antibiotic-treated mice with GI 
+85 
+colonization by C. albicans (24). Further, we previously showed that C. albicans colonization in 
+86 
+mice dysregulated endocannabinoids (25), another set of compounds that utilize arachidonic 
+87 
+acid as a precursor (26). The arachidonic acid-derived host lipidome is thus altered in C. 
+88 
+albicans-colonized mice. We therefore tested for a role for PGE2 in reducing ethanol 
+89 
+consumption in C. albicans-colonized mice. 
+90 
+ 
+In this study, we show that C. albicans GI colonization in mice reduced their ethanol 
+91 
+consumption. C. albicans-colonized mice had elevated serum PGE2 compared to mock-
+92 
+colonized mice, and injection of uncolonized mice with dimethyl-PGE2 reduced ethanol 
+93 
+consumption. The reduction in ethanol consumption in C. albicans-colonized mice was reversed 
+94 
+by antagonizing receptors for PGE2. C. albicans-colonized mice exhibited altered expression of 
+95 
+dopamine receptors in the dorsal striatum, a more rapid acquisition of ethanol-induced 
+96 
+conditioned taste aversion, and were more sensitive to ethanol-induced motor coordination 
+97 
+deficits which could be reversed by PGE2 receptor antagonist treatment. These results show for 
+98 
+the first time that changes to the fungal microbiome can alter ethanol preference and ethanol-
+99 
+induced behavior in mice. 
+100 
+Results 
+101 
+C. albicans colonization in female mice reduces ethanol consumption. 
+102 
+ 
+Mice were orally inoculated with C. albicans as described (25).We previously showed 
+103 
+that inoculation did not result in significant changes in bacterial microbiota composition and did 
+104 
+not evoke significant inflammation (25). Colonized and mock-colonized mice were subjected to 
+105 
+a continuous access two-bottle choice experiment where mice were given access to two sipper 
+106 
+tubes containing water or 15% ethanol simultaneously as described in Materials and Methods. 
+107 
+Ethanol consumption and ethanol preference showed reductions on both days of the protocol in 
+108 
+C. albicans-colonized mice compared to mock-colonized mice (mock) (Figures 1A, B). C. 
+109 
+albicans-colonized mice consumed slightly less total liquid than mock on day 1 and the same 
+110 
+amount of liquid on day 2. Both groups drank less total liquid than mice only given access to 
+111 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+water (H2O-only) (Figure 1C). Colony forming units/gram of fecal pellets (FP) or cecum 
+112 
+contents (CC) demonstrated the presence of C. albicans in the GI tract of inoculated mice 
+113 
+throughout the experiment (Figure 1D). From these results, we concluded that C. albicans 
+114 
+colonization reduced ethanol consumption in female mice. 
+115 
+ 
+Saccharin preference was tested to determine whether C. albicans colonized mice 
+116 
+showed alterations in preference to other rewarding substances (27). Saccharin preference was 
+117 
+measured in a similar continuous access two-bottle choice experiment as described in Materials 
+118 
+and Methods. Saccharin preference per day showed no effect of C. albicans colonization 
+119 
+(Figure 1E). CFU/gram of FP or CC showed colonization throughout the experiment (Figure 
+120 
+1F). These results showed that C. albicans colonization did not exert broad effects on 
+121 
+consumption of all rewarding substances. Rather, the effects were more selective.  
+122 
+C. albicans-colonized mice have elevated serum PGE2 and PGE2 injection reduces 
+123 
+murine ethanol preference. 
+124 
+ 
+Levels of PGE2 were measured in serum obtained from C. albicans-colonized or mock-
+125 
+colonized mice following two days of ethanol consumption. Since PGE2 is not a stable molecule, 
+126 
+concentrations of a metabolite of PGE2, 13,14-dihydro-15-keto PGE2 (PGE-m), commonly 
+127 
+utilized as a marker for PGE2 (28), were assayed by ELISA. The assay showed that C. albicans-
+128 
+colonized mice had elevated serum PGE-m levels compared to H2O-only or mock groups 
+129 
+(Figure 2A).  
+130 
+To test the effect of elevated PGE2 on ethanol consumption, a 4 day, two-bottle choice 
+131 
+experiment was performed in which mice were injected with 16,16-dimethyl PGE2 (dm-PGE2), a 
+132 
+commonly-used, stable derivative of PGE2 (29). Mice received either vehicle or one of four 
+133 
+different concentrations of dm-PGE2 (25, 50, 100, 300 ug/kg) by subcutaneous injection each 
+134 
+day. Lower concentrations (25 or 50 ug/kg) of dm-PGE2 led to low-level decreases in ethanol 
+135 
+preference and consumption, and higher concentrations led to larger decreases compared to 
+136 
+PBS-injected mice (Figures 2B, C). Thus, dm-PGE2 injection in mice decreased ethanol 
+137 
+consumption in a dose-dependent manner, supporting the model that elevation of endogenous 
+138 
+PGE2 results in decreased ethanol consumption. 
+139 
+EP Receptor Antagonism Increases Ethanol Consumption and Preference to Mock-
+140 
+Colonized Levels. 
+141 
+Based on these results, we hypothesized that PGE2 is a key driver of reduced ethanol 
+142 
+preference in C. albicans-colonized mice. To test this hypothesis, female mice were orally 
+143 
+inoculated with C. albicans or mock-colonized with PBS and injected with 2 g/kg each of an EP1 
+144 
+antagonist (SC-51089, Cayman Chemical) and an EP2 antagonist (TG6-10-1, Cayman 
+145 
+Chemical) subcutaneously each day of the 2 day two-bottle choice experiment. Mock-colonized 
+146 
+mice injected with vehicle or antagonist showed no difference in ethanol consumption or 
+147 
+preference (Figure 3A,B). Mice that were colonized with C. albicans and injected with vehicle 
+148 
+showed significantly lower ethanol consumption and preference compared to other groups. 
+149 
+Those injected with antagonists showed significantly higher ethanol consumption and 
+150 
+preference on day 1 and a trend towards an increase in ethanol consumption on day 2. Some 
+151 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+reductions in total liquid consumed in C. albicans-colonized, vehicle-injected mice were 
+152 
+observed (Figure 3C). Mice had stable colonization throughout the experiment (Figure 3D).  
+153 
+ 
+We also tested whether male mice had a reduction in ethanol consumption following C. 
+154 
+albicans colonization and whether this phenotype could be reversed by EP antagonists. A trend 
+155 
+towards reduction in ethanol consumption by the vehicle injected, C. albicans-colonized mice 
+156 
+was observed on day 2 of ethanol consumption, and total liquid-consumed was also reduced 
+157 
+(Figures 3E,F,G). These mice had stable colonization throughout the experiment (Figure 3H). 
+158 
+These results support the model that activation of EP1/EP2 receptors in C. albicans-colonized 
+159 
+mice decreases their ethanol consumption and preference. Further experiments were 
+160 
+conducted with females only since females showed strong effects of colonization.  
+161 
+Increased Serum PGE2 in C. albicans-colonized Mice Correlates with Gene Expression in 
+162 
+the Brain. 
+163 
+We next tested the hypothesis that C. albicans gut colonization and elevation of PGE2 
+164 
+concentration would result in transcriptomic changes in the brain. PGE2 binds to its cognate 
+165 
+receptors encoded by four different genes, Ep1, Ep2, Ep3, and Ep4(30). PGE2 has been shown 
+166 
+to upregulate expression of Ep receptor genes in a dose dependent manner in neuronal cell 
+167 
+lines and various tissues in the body(31,32). We decided to focus on a region of the brain 
+168 
+involved in habit formation, the dorsal striatum (DS) (33), as well as other addiction-implicated 
+169 
+regions such as the prefrontal cortex (PFC) and nucleus accumbens (NAc)(34).  
+170 
+To test the hypothesis, RT-qPCR from DS-cDNA was performed and expression of Ep1 
+171 
+and Ep2 relative mock-colonized from the same experimental trial was measured. There were 
+172 
+no significant differences in Ep receptor expression between groups in the DS, PFC, or NAc 
+173 
+(Figure S1). However, correlations between PGE-m concentration in the serum and relative 
+174 
+expression of Ep1 or Ep2 in the same C. albicans-colonized mouse were observed. Gene 
+175 
+expression relative to the average for mock-colonized was plotted against the concentration of 
+176 
+PGE-m (also standardized to mock-colonized). Figure 4A,B demonstrates that mice with higher 
+177 
+concentrations of serum PGE2 exhibited higher expression of Ep1 and Ep2. In mock-colonized 
+178 
+mice, there were no significant correlations (Figure 4C,D). We observed similar significant 
+179 
+correlations of Ep1 expression and PGE-m concentration in the PFC and NAc (Figure S2). 
+180 
+Elevated PGE2 levels were thus associated with higher expression of Ep receptors in multiple 
+181 
+regions of the brain. 
+182 
+We also analyzed the expression of dopamine receptors in the DS of these mice. The 
+183 
+dopamine system in the DS is commonly involved with learning and habit formation (35). 
+184 
+Expression of two main classes of dopamine receptors, Drd1 and Drd2, was measured (36). A 
+185 
+trend towards a reduction in Drd1 expression and a statistically significant reduction in Drd2 
+186 
+expression in C. albicans-colonized mice compared to mock-colonized were observed (Figure 
+187 
+5A). Additionally, mice injected with low-dose dm-PGE2 (25 or 50ug/kg injections) showed 
+188 
+reduced expression of Drd1 and Drd2 (Figure 5B). Interestingly, Drds showed no differences in 
+189 
+expression in the PFC or NAc (Figure S3). Furthermore, other addiction-related genes showed 
+190 
+no significant differences in expression in the DS (Figure S4). These results show that both C. 
+191 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+albicans colonization and low-dose dm-PGE2 injections reduce dopamine receptor expression in 
+192 
+the DS. 
+193 
+Expression of Drd1 or Drd2 in mock or C. albicans-colonized mice correlated with total 
+194 
+ethanol consumed. In the dorsal striatum, DRD1 is involved with reward formation and DRD2 is 
+195 
+involved with aversion formation (37). Plots of Drd expression and total ethanol consumed 
+196 
+showed a significant positive correlation between Drd1 expression and total ethanol 
+197 
+consumption in mock-colonized mice (Figure 6A) and a trend towards a positive correlation 
+198 
+between Drd2 and total ethanol consumed (Figure 6C). In C. albicans-colonized mice, by 
+199 
+contrast, a significant negative correlation between Drd2 expression and total ethanol 
+200 
+consumption was observed (figure 6D). No correlation between Drd1 expression and total 
+201 
+ethanol consumed was observed in these mice (Figure 6B). Thus, C. albicans-colonized mice 
+202 
+that consumed lower amounts of ethanol exhibited higher expression of the aversion-associated 
+203 
+DRD2 receptor.  
+204 
+Candida albicans colonization accelerates the onset of conditioned taste aversion in 
+205 
+mice. 
+206 
+ 
+Based on the low ethanol consumption and negative correlation between Drd2 
+207 
+expression and ethanol consumption in C. albicans-colonized mice, we hypothesized that these 
+208 
+mice would show enhanced ethanol-induced conditioned taste aversion (CTA). Ethanol-induced 
+209 
+CTA is based on the principle that mice will develop an aversion to a novel tasting solution when 
+210 
+it is paired with an ethanol injection (38,39). Mice were tested for ethanol-induced CTA as 
+211 
+described in Materials and Methods.  
+212 
+The first exposure to the tastant showed the baseline consumption level, prior to 
+213 
+injection (conditioning) with ethanol or control (sterile saline). Trials 2-4 showed consumption 
+214 
+after conditioning, expressed as the change from initial consumption (Figure 7A). In trial 2, 
+215 
+control mice showed similar or higher than baseline consumption of the tastant. Both mock-
+216 
+colonized and C. albicans-colonized mice injected with 3g/kg ethanol developed a near 
+217 
+complete aversion to the tastant (100% reduction), which continued through trials 3 and 4. In 
+218 
+contrast, mice given a lower concentration of ethanol (2g/kg) showed differences between 
+219 
+groups. There was no significant aversion in the mock-colonized mice in trial 2 of this injection 
+220 
+group and C. albicans-colonized mice showed a significant reduction in saline consumption 
+221 
+compared to control mice in trial 2. On trial 3, both mock-colonized and C. albicans-colonized 
+222 
+mice injected with 2g/kg ethanol showed significant aversion to the tastant. There were no 
+223 
+differences in colonization or mouse weight throughout the experiment (Figure 7B, S5). C. 
+224 
+albicans-colonized mice thus developed ethanol-induced CTA more rapidly.  
+225 
+C. albicans-colonized mice are more susceptible to the behavioral effects of ethanol and 
+226 
+motor coordination deficits can be restored by EP receptor antagonism. 
+227 
+ 
+The more rapid development of ethanol-induced CTA in C. albicans-colonized mice 
+228 
+suggests these mice could be more susceptible to the behavioral effects of ethanol as 
+229 
+correlations between these phenotypes have been observed (40). Therefore, we tested whether 
+230 
+C. albicans-colonized mice were more susceptible to ethanol sedation, ethanol-induced motor 
+231 
+coordination defects, and depressant effects of ethanol (Figure 8A).  
+232 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+The first experiment was the open field activity test (OFT), which measures how 
+233 
+susceptible C57BL/6 mice are to the depressant effects of alcohol based on the decrease in 
+234 
+distance traveled in the OFT following ethanol injection (1.5 g/kg) (41). Mice were injected with 
+235 
+ethanol (dose) or control (sterile saline [SS]) and distance traveled in 10 minutes in the OFT 
+236 
+was measured. Results are expressed relative to the SS-injected mice within each experimental 
+237 
+trial (mock or C. albicans-colonized) (Figure 8B). Results showed a significant reduction in 
+238 
+distance traveled by C. albicans-colonized, ethanol-injected mice compared to C. albicans-
+239 
+colonized, SS-injected mice. There was not a significant reduction in distance traveled by the 
+240 
+mock-colonized, ethanol-injected mice compared to SS-injected mice. These results show that 
+241 
+the C. albicans-colonized mice were more strongly affected by ethanol.  
+242 
+The loss of righting reflex (LORR) experiment tested the ability of mice to right 
+243 
+themselves after injection with a sedative amount of ethanol (3.5 g/kg) (42). The time for the 
+244 
+mice to lose their righting reflex after the injection is termed LORR onset. Mock or C. albicans-
+245 
+colonized mice that had received SS injections the previous three days, or mock mice that 
+246 
+received ethanol the previous 3 days had no differences in LORR onset (Figure 8C). C. 
+247 
+albicans-colonized mice that received ethanol injections on the previous 3 days showed a 
+248 
+significantly shorter LORR onset compared to all groups. Blood ethanol concentration from 
+249 
+serum collected at the time of loss of righting reflex showed a trend towards higher levels in 
+250 
+these mice (Figure 8D). These results indicate a synergistic effect of ethanol treatment 
+251 
+(including prior treatment) and C. albicans-colonization that increased the sedative effects of 
+252 
+ethanol. 
+253 
+Motor coordination defects were tested using performance on the balance beam, which 
+254 
+can measure coordination based on the number of slips and falls on the beam (43). Mice were 
+255 
+injected with SS or ethanol and their performance was assessed. The total number of slips or 
+256 
+falls throughout three trials (Figure 8E) and the total amount of time required to complete three 
+257 
+trials were measured (figure 8F). Mock-colonized or C. albicans-colonized mice injected with 
+258 
+SS did not slip/fall often and completed the trials quickly. Mock-colonized mice injected with 
+259 
+ethanol showed a significant increase in slips and falls, consistent with ethanol-induced motor 
+260 
+coordination deficits. C. albicans-colonized mice injected with ethanol showed significantly more 
+261 
+slips and falls than any of the other groups and were significantly slower. Furthermore, there 
+262 
+were no differences in colonization or mouse weight in these experiments (Figure S6). Thus, C. 
+263 
+albicans-colonized mice showed more ethanol-induced impairment in motor coordination. 
+264 
+To test the hypothesis that PGE2 signaling contributed to the differences in mouse 
+265 
+susceptibility to the effects of ethanol, mice were injected with the combination of EP1 and EP2 
+266 
+antagonists (2mg/kg each) before each behavioral test. Total slips and falls on the balance 
+267 
+beam test following these injections was measured. C. albicans-colonized mice injected with 
+268 
+ethanol and antagonists showed a significant decrease in slips and falls compared to the 
+269 
+ethanol and vehicle group (Figure 8G). There was no difference between the C. albicans-
+270 
+colonized group with ethanol and antagonists compared to either of the mock + ethanol injected 
+271 
+groups. We did not see a similar reversal of phenotypes by antagonists in either the OFT or 
+272 
+LORR (Figure S7). These results showed that blocking PGE2 signaling in C. albicans-colonized 
+273 
+mice reduced their susceptibility to ethanol-induced impairment of motor control. 
+274 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+Taken together, the results showed that C. albicans-colonized mice were more 
+275 
+susceptible to the depressant and sedative effects of ethanol, and to ethanol-induced 
+276 
+impairment in motor control. PGE2 effects on EP1 and EP2 receptors make a major contribution 
+277 
+to the mechanism of ethanol-induced motor impairment. 
+278 
+Discussion 
+279 
+We demonstrate that C. albicans-colonization in mice reduces ethanol preference and 
+280 
+consumption. Our results with EP1/EP2 antagonists show that PGE2 signaling plays a 
+281 
+significant role in modifying mouse ethanol preference. Further, injection of uncolonized mice 
+282 
+with dm-PGE2 reduced ethanol consumption. There was a somewhat dose-dependent response 
+283 
+as low concentrations of dm-PGE2 (25-50 ug/kg) reduced consumption moderately and higher 
+284 
+doses of dm-PGE2 (100-300ug/kg) reduced ethanol preference and consumption more strongly.  
+285 
+Antibiotic treated mice with C. albicans gut colonization have been previously shown to 
+286 
+exhibit elevated serum PGE-m levels (24). Mice treated with antibiotics but not inoculated with 
+287 
+fungi showed a modest increase in serum PGE-m levels and this level was sufficient to promote 
+288 
+inflammatory cell responses. C. albicans-colonized mice in our study, which did not use 
+289 
+antibiotics, also showed modestly increased serum concentrations of PGE-m and PGE-m 
+290 
+concentration correlated with ethanol preference. These results indicate that modest increases 
+291 
+in serum PGE2 are associated with changes in host immune responses and behavior. PGE2 in 
+292 
+circulation may be directly involved in these changes or may serve as a marker indicating higher 
+293 
+levels of PGE2 in multiple organs. In fact, we saw evidence of increased PGE2 by correlations 
+294 
+with Ep expression in all regions of the brain examined. 
+295 
+PGE2 has previously been shown to alter the permeability of the blood brain barrier 
+296 
+(BBB) by inducing alterations in endothelial permeability or by stimulating the retraction of 
+297 
+pericytes from the surface of the BBB (44–46). PGE2 has also been shown to induce 
+298 
+vasodilation (44). Vasodilatory effects and BBB alterations could lead to higher amounts of 
+299 
+PGE2 in the brain and reduce ethanol consumption. These results support the model that, as 
+300 
+PGE2 in the circulation elevates above normal fluctuating ranges, BBB permeability increases, 
+301 
+and more PGE2 can enter the brain, resulting in correlations between its concentration in serum 
+302 
+and Ep1/Ep2 receptor expression in C. albicans-colonized mice. 
+303 
+Synergy between the effects of C. albicans colonization and the effects of ethanol were 
+304 
+also observed. Mice that received both ethanol and C. albicans were the only group with 
+305 
+significantly reduced locomotion in the OFT. C. albicans-colonized mice that received multiple 
+306 
+injections with ethanol showed significantly shorter time to LORR onset than C. albicans-
+307 
+colonized mice that received one injection. Ethanol also affects the BBB through changes in 
+308 
+integrity and permeability (47,48). Inflammatory molecules such as LPS can also synergistically 
+309 
+increase BBB permeability (49). The effects of ethanol on the BBB may thus synergize with the 
+310 
+effects of PGE2, resulting in significant behavioral effects in colonized mice. Saccharin 
+311 
+preference may not be reduced by C. albicans colonization because of the lack of an additional 
+312 
+insult to the BBB. 
+313 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+PGE2 has previously been shown to affect the dopamine system. Dopamine is critical for 
+314 
+habit, reward, and aversion formation (50). PGE2 treatment altered reward learning to morphine 
+315 
+in mice (51,52), and has been shown to alter DRD signaling and behavior following cocaine 
+316 
+ingestion (53). We observed that C. albicans-colonized mice showed altered expression of 
+317 
+dopamine receptors in the dorsal striatum. Expression of one of the receptors, Drd2, was 
+318 
+significantly decreased in C. albicans colonized mice and low-dose dm-PGE2-injected mice. 
+319 
+Interestingly, expression in the PFC and NAc did not indicate similar changes to the dopamine 
+320 
+system, and other genes implicated in addiction such as neuropeptide Y receptors, opioid 
+321 
+receptors (Mu and Delta), proopiomelanocortin (Pomc), and Fos were unchanged. Significant 
+322 
+expression differences of the Mu opioid receptor between mock and C. albicans-colonized mice 
+323 
+appeared to be due to differences in ethanol consumption. These results indicate an altered 
+324 
+regulation of the dopamine system in the DS observed in mice with low level increases in 
+325 
+systemic PGE2 concentrations.  
+326 
+Furthermore, when Drd expression in the DS was plotted against total ethanol 
+327 
+consumption, significant positive or negative correlations were observed. DRD1 and DRD2 
+328 
+receptors in the dorsal striatum have well defined, consistent roles. DRD1 signaling in the DS is 
+329 
+mostly involved with reinforcement or reward learning and DRD2 is most commonly involved 
+330 
+with aversion-formation (37). A positive correlation between Drd1 expression and total ethanol 
+331 
+consumption was observed in mock-colonized mice, but not in C. albicans-colonized mice 
+332 
+suggesting dysregulation of the relationship of DRD1/reinforcement in these mice. Additionally, 
+333 
+a negative correlation between Drd2 expression and total ethanol consumption in C. albicans-
+334 
+colonized mice suggested that aversion to ethanol could develop. Therefore, there could be a 
+335 
+lack of reinforcement learning, an active aversion, or a combination of both, that leads to lower 
+336 
+ethanol preference in C. albicans-colonized mice. Results from the CTA suggest an aversion-
+337 
+dominated phenotype because colonized mice showed a more rapid acquisition of conditioned 
+338 
+taste aversion. These findings support the conclusion that aversion to ethanol develops more 
+339 
+readily in C. albicans-colonized mice.  
+340 
+When conducting other behavioral tests, we found that C. albicans-colonized mice 
+341 
+injected with ethanol showed increased LORR onset, decreased locomotion in the open field 
+342 
+test (OFT), and further impaired performance on the balance beam. The performance on the 
+343 
+balance beam could be restored to mock-colonized performance by EP1/EP2 antagonists. 
+344 
+These results suggest that PGE2 impact on EP1 and EP2 receptors could contribute to motor 
+345 
+control following ethanol intoxication. The depressant and sedative effects of ethanol detected in 
+346 
+the OFT and LORR tests could be driven by other systems impacted by C. albicans colonization 
+347 
+such as the endocannabinoid system (ECS) (25). Both therapeutic manipulation and gene 
+348 
+knockouts of the ECS modulated LORR and OFT phenotypes (54–56). Effects of C. albicans 
+349 
+colonization on this pathway (25) could play a role in these phenotypes. 
+350 
+All of the experiments described in this communication were done with ethanol naïve 
+351 
+mice. The effects of C. albicans colonization on mice chronically exposed to ethanol are 
+352 
+currently unknown. There could be an altered effect of C. albicans-colonization on the host in 
+353 
+the setting of AUD and/or chronic stress. Low DRD2 receptor abundance has been shown in 
+354 
+individuals with AUD and predisposes mice to stress-induced increases in ethanol consumption 
+355 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+(57,58). If DRD2 receptor abundance is reduced in humans with C. albicans colonization, as it is 
+356 
+in colonized mice, these individuals may consume more ethanol under stress, possibly 
+357 
+exacerbating ethanol consumption in AUD. However, our study focused only on initial alcohol 
+358 
+consumption and these effects of C. albicans colonization in individuals with AUD and/or chronic 
+359 
+stress are currently unstudied. This remains an area of important future research. 
+360 
+ 
+In summary, we have shown that GI colonization by C. albicans elevates serum PGE2 
+361 
+and these changes correlate with changes in Ep and Drd receptor expression in the dorsal 
+362 
+striatum. C. albicans colonization decreased ethanol consumption and preference in C57BL/6 
+363 
+mice. These decreases in ethanol consumption correlated with changes in dopamine receptor 
+364 
+expression and C. albicans-colonized mice showed altered behavioral effects of ethanol. In 
+365 
+conclusion, we show for the first time, that changes in the fungal microbiome can impact host 
+366 
+ethanol consumption and behavioral responses to ethanol. 
+367 
+Materials and Methods 
+368 
+Animals 
+369 
+Five-week-old female or male C57BL/6 mice (Jackson Laboratory) were acclimated to 
+370 
+the facility and single-housing for 4-5 days with scruffing to acclimate to handling. Mice were 
+371 
+orally inoculated with C. albicans at different times depending on the experiment. Mice were 
+372 
+inoculated by pipetting 20uL containing 5x107 cells of C. albicans strain CKY101(59) in 
+373 
+phosphate buffered saline (PBS), or PBS only for mock-colonized mice, directly into the mouth 
+374 
+of the mouse as previously described (25). Mock-colonized mice were given 20uL of PBS 
+375 
+directly into their mouths. Mice were monitored throughout the experiment for colonization as 
+376 
+previously described (25). No fungal colonies were observed in mock-colonized mice. 
+377 
+Mouse weight was measured throughout the experiment. Rarely, if a mouse lost 20% of 
+378 
+its starting body weight, the mouse was euthanized. On the last day of each experiment, mice 
+379 
+were anesthetized using the isoflurane drop method and euthanized via decapitation. Blood for 
+380 
+serum and various organs were harvested for analysis. All mouse experiments were approved 
+381 
+by the Tufts IACUC and were performed in accordance with IACUC guidelines for care and use 
+382 
+of laboratory animals. 
+383 
+Chemicals and Reagents 
+384 
+ 
+The EP1 antagonist SC-51089 (Cayman Chemical) and the EP2 antagonist TG6-10-1 
+385 
+(Cayman Chemical) were resuspended in 2:3:5 mixture of DMSO:sterile water:PEG400. 
+386 
+Antagonists were resuspended and mixed at a concentration that would yield 2mg/kg of each 
+387 
+antagonist in 50uL and 50 uL of the mixture was injected intraperitoneally.  
+388 
+ 
+Fifteen percent ethanol was prepared for consumption by diluting 95% ethanol (Fisher) 
+389 
+with tap water. This solution was filter sterilized and added to sipper tubes for the two-bottle 
+390 
+choice experiment.  
+391 
+ 
+16,16-dimethyl Prostaglandin E2 (Cayman Chemical) was dried under a gentle stream of 
+392 
+nitrogen to evaporate the solvent. It was then resuspended in DMSO and injected into mice 
+393 
+subcutaneously at a concentration of 25, 50, 100, or 300 ug/kg.  
+394 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+Two-Bottle Choice Ethanol or Saccharin Consumption 
+395 
+ 
+During acclimation to the facility and single housing, mice also began acclimating to the 
+396 
+sipper tubes used in the two-bottle choice experiment. Briefly, sterile acidified water was poured 
+397 
+into 50 mL conical tubes (USA Scientific) and a sterile stopper (#6 Rubber, Ancare) with a sipper 
+398 
+spout (Ancare) was placed into the 50 mL conical tube and wrapped with parafilm. Two of these 
+399 
+sipper bottles with water were placed into standard cages for acclimation. 
+400 
+ 
+Following acclimation, mice were weighed and assigned to groups with equal weights. 
+401 
+Mice were inoculated with C. albicans or mock-inoculated on day -1. On day 0, 15% (vol/vol) 
+402 
+ethanol or 0.0125% (wt/vol) saccharin replaced one water bottle. Mouse weight and tube weight 
+403 
+were then measured daily throughout the experiment. Sipper bottles were rotated daily to 
+404 
+minimize side preference. After 2-4 days of ethanol consumption, mice were euthanized as 
+405 
+previously described. 
+406 
+For ethanol preference, results show 26 mice per group from 3 replicate experimental 
+407 
+trials. For saccharin preference, 14-15 mice per group from 2 experimental trials are shown. 
+408 
+PGE-m ELISA 
+409 
+ 
+Trunk blood from mice was obtained after decapitation, collected in BD blood collection 
+410 
+tubes (365967, Fisher). Tubes were then centrifuged in an Eppendorf table-top microcentrifuge 
+411 
+at 10,000g for 10 minutes and serum was stored at -80oC. Serum was assayed with a 
+412 
+Prostaglandin E Metabolite ELISA Kit (514531, Cayman) after removal of proteins by acetone 
+413 
+precipitation. PGE-m ELISA was performed using the standard protocol, with derivatization, 
+414 
+detailed in the product manual.  Serum was diluted 15-25 times for the assay and OD was 
+415 
+measured on a Biotek Epoch2 plate reader. A four parameter logistic curve was determined and 
+416 
+raw PGE-m values were determined using the 4PL calculator by AAT Bioquest (60).  
+417 
+Brain Dissection, RT-qPCR, and Primers 
+418 
+ 
+Mouse brains were dissected, flash frozen on aluminum foil chilled with dry ice and kept 
+419 
+at -80°C. A brain matrix (ZIVIC Instruments, 5325) was allowed to chill on ice for 30 minutes. 2 
+420 
+mm sections of the brain from directly anterior of the cerebellum to the frontal pole were then cut 
+421 
+using clean straight razor blades and the brain matrix. Sections were then observed to find 
+422 
+landmarks indicating the location of the dorsal striatum as previously described (61). The dorsal 
+423 
+striatum was dissected and RNA was extracted as previously described (25). 
+424 
+ 
+cDNA was then synthesized using random hexamer primers and RT-qPCR was 
+425 
+performed as previously described (25). Primer sequences are listed in Supplemental Table S1.  
+426 
+ 
+427 
+Ethanol-Induced Conditioned Taste Aversion 
+428 
+ 
+Following arrival, mice were acclimated to single-housing and sipper tubes by placing 
+429 
+one sipper tube of water in their cages. Mice were weighed every other day to ensure they were 
+430 
+consuming enough water to maintain their weight. The following protocol was adapted from a 
+431 
+previous protocol that showed significant conditioned taste aversion in C57BL/6 mice (62). The 
+432 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+first four days mice were acclimated to sipper tubes and single housing. Then, mice were 
+433 
+subjected to 5 days of water restriction with only two hours of access to water for two hours 
+434 
+daily (termed days 1-5 of the experiment). On day 5 of water restriction, mice were inoculated 
+435 
+with C. albicans or PBS for mock-colonization and were re-inoculated every two days (days 
+436 
+5,7,9,11). On day 6, mice were given access to 1.2% saline for 1 hour in their home cages and 
+437 
+injected with sterile saline, 2g/kg of ethanol, or 3g/kg of ethanol (20% vol/vol) immediately after 
+438 
+the end of the 1-hour period. Five hours later, mice were given access to water for 30 minutes to 
+439 
+rehydrate. This process was repeated for days 8 and 10; on day 12, mice were given access to 
+440 
+1.2% saline for 1 hour in their home cages and then euthanized. Fecal pellets were collected for 
+441 
+CFU determination on days 6, 8, 10, and cecum contents were collected on day 12. Data were 
+442 
+analyzed as a percentage of saline consumption compared to the initial amount consumed on 
+443 
+day 6. 
+444 
+Open Field Activity Test 
+445 
+ 
+On the open field test (OFT) habituation day, mice were injected an average of 15 
+446 
+minutes before their respective trials with 100uL of sterile saline intraperitoneally with an insulin 
+447 
+syringe. Following 15 minutes, mice were gently placed in the center of a 37cm X 37cm plastic 
+448 
+open field box. Mice were allowed to roam freely for 10 minutes and removed from the 
+449 
+apparatus. The apparatus was then sterilized using 70% ethanol. This protocol was repeated for 
+450 
+every mouse. 
+451 
+ 
+On OFT test day, mice were injected with 1.5g/kg of ethanol or sterile saline 
+452 
+intraperitoneally an average of 15 minutes before their trials. The volume of injection varied from 
+453 
+approximately 90-110uL depending on the weight of the mouse. The ethanol concentration was 
+454 
+adjusted so that a mouse of average weight for the group would be injected with 100uL ethanol 
+455 
+solution. The 10-minute test run and cleaning of the apparatus were repeated as above for 
+456 
+every mouse. Mouse behavior was recorded using a web camera. Scoring videos was 
+457 
+performed using EthovisionXT software to automatically determine distance traveled. Total 
+458 
+distance traveled was plotted relative to the mean of the sterile saline group distance traveled. 
+459 
+Balance Beam 
+460 
+ 
+A balance beam apparatus was constructed using a square 0.25-inch diameter, 3-foot-
+461 
+long metal rod held approximately 1.5ft above the surface. A plastic box to hold bedding was 
+462 
+affixed to one end to provide incentive for the mouse to cross the entirety of the balance beam. 
+463 
+A reading lamp shining on the start zone of the beam was used as an aversive stimulus. Start 
+464 
+and end points for the balance beam trials spanning 65 cm of the beam were marked.  
+465 
+ 
+On habituation day, mice were injected with 100uL of sterile saline intraperitoneally 
+466 
+approximately 15 minutes before the start of their first of 3 trials. Mice were then placed in the 
+467 
+start zone to begin trial 1. After completing the trial, mice were given 30 seconds of rest in their 
+468 
+home cage before the start of trial 2. Trials 2 and 3 were performed by the same procedure. 
+469 
+After a mouse completed 3 trials, the balance beam was cleaned using 70% ethanol and the 
+470 
+next mouse was tested. In the event that a mouse would freeze, or very rarely fall, they would 
+471 
+be gently prodded or placed back on the bar until they completed the trial. All mice within a 
+472 
+cohort underwent this procedure. 
+473 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+On test day, mice were injected with 100uL of sterile saline or injected with 1.5g/kg of 
+474 
+ethanol as described in the open field activity test section. These injections were performed 
+475 
+approximately 15 minutes before the start of the first trial. A web camera was used to record 
+476 
+mouse behavior during these trials. The 3 trials were repeated as described above. All mice 
+477 
+completed the entirety of the 3 trials. 
+478 
+Videos were blinded for scoring. Start and stop times were determined when the 
+479 
+mouse’s nose crossed designated marks on the bar. A slip was determined when a mouse’s foot 
+480 
+slipped below the bar or a significant slip from a standing position on the bar to the pelvis 
+481 
+touching the bar occurred. A fall was scored when the mouse slipped to the underside of the 
+482 
+bar. Very rarely a mouse would fall from the bar into safety padding below the bar. Both of these 
+483 
+events were scored equally as falls. Time or slips and falls were summed for all 3 trials for each 
+484 
+mouse. 
+485 
+Loss of Righting Reflex 
+486 
+ 
+Mice were co-housed with another mouse within the same group for the LORR. Their 
+487 
+nestlet was removed for the test. Mice were injected with 3.5g/kg of ethanol intraperitoneally 
+488 
+and the time of injection was recorded. Within roughly 1-2 minutes most mice lost righting reflex 
+489 
+which was defined as an inability to right themselves when lying on their back in a V-shaped 
+490 
+plastic trough. The time when a mouse lost righting reflex was designated the LORR onset. Six 
+491 
+minutes after injection, mice were given one minute of exposure to isoflurane via the drop 
+492 
+method and euthanized as above. Occasionally, a mouse would have to be removed from the 
+493 
+data due to shearing of an artery during injection—significantly altering LORR time. 
+494 
+Blood Ethanol Concentration Assay 
+495 
+ 
+Following LORR, trunk blood was collected and serum was extracted as previously 
+496 
+described in the PGE-m ELISA section. For the blood ethanol concentration determination, an 
+497 
+EnzyChrom Ethanol Assay Kit (ECET-100, BioAssay Systems) was used. Standard protocols 
+498 
+were followed for the determination using serum that was diluted 15X. OD was measured on a 
+499 
+Biotek Epoch2 plate reader. 
+500 
+ 
+501 
+Acknowledgements 
+502 
+We thank Dr. Jesus Romo, Dr. Paola Zucchi, Dr. Ashlee Junier, Andressa Barossi Pesarini, Dr. 
+503 
+Laura Markey, and Adrianne Gladden-Young for helpful discussion. We also thank Nick D’Arrigo 
+504 
+and Emma Hayes for technical assistance. 
+505 
+ 
+506 
+Funding 
+507 
+A.W.D. was supported by training grant T32AI007422 from the National Institutes of Health. This 
+508 
+research was supported by grant R01AI118898 from the National Institutes of Health (to C.A.K.) 
+509 
+and an award from the Tufts Initiative on Substance Use and Addiction (to A.W.D. and C.A.K.). 
+510 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+A.D. and K.B. were supported by grant R01AA026256 from the National Institutes of Health (to 
+511 
+J.M). The funders had no role in study design, data collection or the decision to publish the 
+512 
+manuscript. 
+513 
+ 
+514 
+References 
+515 
+1. Nash AK, Auchtung TA, Wong MC, Smith DP, Gesell JR, Ross MC, et al. The gut 
+516 
+mycobiome of the Human Microbiome Project healthy cohort. Microbiome. 2017 
+517 
+Dec;5(1):153.  
+518 
+2. Ngamchokwathana C, Chongtrakool P, Waesamaae A, Chayakulkeeree M. Risk Factors 
+519 
+and Outcomes of Non-albicans Candida Bloodstream Infection in Patients with 
+520 
+Candidemia at Siriraj Hospital—Thailand’s Largest National Tertiary Referral Hospital. 
+521 
+JoF. 2021 Apr 1;7(4):269.  
+522 
+3. Raja NS. Epidemiology, risk factors, treatment and outcome of Candida bloodstream 
+523 
+infections because of Candida albicans and Candida non-albicans in two district 
+524 
+general hospitals in the United Kingdom. Int J Clin Pract [Internet]. 2021 Jan [cited 2025 
+525 
+Jan 17];75(1). Available from: https://onlinelibrary.wiley.com/doi/10.1111/ijcp.13655 
+526 
+4. Hirayama T, Miyazaki T, Ito Y, Wakayama M, Shibuya K, Yamashita K, et al. Virulence 
+527 
+assessment of six major pathogenic Candida species in the mouse model of invasive 
+528 
+candidiasis caused by fungal translocation. Sci Rep. 2020 Mar 2;10(1):3814.  
+529 
+5. Allert S, Förster TM, Svensson CM, Richardson JP, Pawlik T, Hebecker B, et al. Candida 
+530 
+albicans-Induced Epithelial Damage Mediates Translocation through Intestinal 
+531 
+Barriers. Kronstad JW, editor. mBio. 2018 Jul 5;9(3):e00915-18.  
+532 
+6. McDonough LD, Mishra AA, Tosini N, Kakade P, Penumutchu S, Liang SH, et al. Candida 
+533 
+albicans Isolates 529L and CHN1 Exhibit Stable Colonization of the Murine 
+534 
+Gastrointestinal Tract. Berman J, editor. mBio. 2021 Dec 21;12(6):e02878-21.  
+535 
+7. MacKillop J, Agabio R, Feldstein Ewing SW, Heilig M, Kelly JF, Leggio L, et al. Hazardous 
+536 
+drinking and alcohol use disorders. Nat Rev Dis Primers. 2022 Dec 22;8(1):80.  
+537 
+8. World Health Organization. Global status report on alcohol and health 2018 [Internet]. 
+538 
+Geneva: World Health Organization; 2018 [cited 2025 Jan 17]. 450 p. Available from: 
+539 
+https://iris.who.int/handle/10665/274603 
+540 
+9. Yang AM, Inamine T, Hochrath K, Chen P, Wang L, Llorente C, et al. Intestinal fungi 
+541 
+contribute to development of alcoholic liver disease. Journal of Clinical Investigation. 
+542 
+2017 May 22;127(7):2829–41.  
+543 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+10. Chu H, Duan Y, Lang S, Jiang L, Wang Y, Llorente C, et al. The Candida albicans exotoxin 
+544 
+candidalysin promotes alcohol-associated liver disease. Journal of Hepatology. 2020 
+545 
+Mar;72(3):391–400.  
+546 
+11. Hartmann P, Lang S, Zeng S, Duan Y, Zhang X, Wang Y, et al. Dynamic Changes of the 
+547 
+Fungal Microbiome in Alcohol Use Disorder. Front Physiol. 2021 Jul 19;12:699253.  
+548 
+12. Dinan TG, Cryan JF. The Microbiome-Gut-Brain Axis in Health and Disease. 
+549 
+Gastroenterology Clinics of North America. 2017 Mar;46(1):77–89.  
+550 
+13. Bistoletti M, Bosi A, Banﬁ D, Giaroni C, Baj A. The microbiota-gut-brain axis: Focus on 
+551 
+the fundamental communication pathways. In: Progress in Molecular Biology and 
+552 
+Translational Science [Internet]. Elsevier; 2020 [cited 2025 Jan 17]. p. 43–110. Available 
+553 
+from: https://linkinghub.elsevier.com/retrieve/pii/S1877117320301381 
+554 
+14. Foster JA, McVey Neufeld KA. Gut–brain axis: how the microbiome inﬂuences anxiety 
+555 
+and depression. Trends in Neurosciences. 2013 May;36(5):305–12.  
+556 
+15. Nemani K, Hosseini Ghomi R, McCormick B, Fan X. Schizophrenia and the gut–brain 
+557 
+axis. Progress in Neuro-Psychopharmacology and Biological Psychiatry. 2015 
+558 
+Jan;56:155–60.  
+559 
+16. Srikantha P, Mohajeri MH. The Possible Role of the Microbiota-Gut-Brain-Axis in Autism 
+560 
+Spectrum Disorder. IJMS. 2019 Apr 29;20(9):2115.  
+561 
+17. Jerlhag E. Gut-brain axis and addictive disorders: A review with focus on alcohol and 
+562 
+drugs of abuse. Pharmacology & Therapeutics. 2019 Apr;196:1–14.  
+563 
+18. Leclercq S, Matamoros S, Cani PD, Neyrinck AM, Jamar F, Stärkel P, et al. Intestinal 
+564 
+permeability, gut-bacterial dysbiosis, and behavioral markers of alcohol-dependence 
+565 
+severity. Proc Natl Acad Sci USA [Internet]. 2014 Oct 21 [cited 2025 Jan 17];111(42). 
+566 
+Available from: https://pnas.org/doi/full/10.1073/pnas.1415174111 
+567 
+19. Leclercq S, Le Roy T, Furgiuele S, Coste V, Bindels LB, Leyrolle Q, et al. Gut Microbiota-
+568 
+Induced Changes in β-Hydroxybutyrate Metabolism Are Linked to Altered Sociability 
+569 
+and Depression in Alcohol Use Disorder. Cell Reports. 2020 Oct;33(2):108238.  
+570 
+20. Seo B, Jeon K, Moon S, Lee K, Kim WK, Jeong H, et al. Roseburia spp. Abundance 
+571 
+Associates with Alcohol Consumption in Humans and Its Administration Ameliorates 
+572 
+Alcoholic Fatty Liver in Mice. Cell Host & Microbe. 2020 Jan;27(1):25-40.e6.  
+573 
+21. Zhao W, Hu Y, Li C, Li N, Zhu S, Tan X, et al. Transplantation of fecal microbiota from 
+574 
+patients with alcoholism induces anxiety/depression behaviors and decreases brain 
+575 
+mGluR1/PKC ε levels in mouse. BioFactors. 2020 Jan;46(1):38–54.  
+576 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+22. Bajaj JS, Gavis EA, Fagan A, Wade JB, Thacker LR, Fuchs M, et al. A Randomized Clinical 
+577 
+Trial of Fecal Microbiota Transplant for Alcohol Use Disorder. Hepatology. 2021 
+578 
+May;73(5):1688–700.  
+579 
+23. Ross AD, Perlanski E, Grupp LA. Prostaglandin E2 reduces voluntary ethanol 
+580 
+consumption in the rat. Pharmacology Biochemistry and Behavior. 1990 Jul;36(3):527–
+581 
+30.  
+582 
+24. Kim YG, Udayanga KGS, Totsuka N, Weinberg JB, Núñez G, Shibuya A. Gut Dysbiosis 
+583 
+Promotes M2 Macrophage Polarization and Allergic Airway Inﬂammation via Fungi-
+584 
+Induced PGE2. Cell Host & Microbe. 2014 Jan;15(1):95–102.  
+585 
+25. Markey L, Hooper A, Melon LC, Baglot S, Hill MN, Maguire J, et al. Colonization with the 
+586 
+commensal fungus Candida albicans perturbs the gut-brain axis through dysregulation 
+587 
+of endocannabinoid signaling. Psychoneuroendocrinology. 2020 Nov;121:104808.  
+588 
+26. Tallima H, El Ridi R. Arachidonic acid: Physiological roles and potential health beneﬁts 
+589 
+– A review. Journal of Advanced Research. 2018 May;11:33–41.  
+590 
+27. Torruella-Suárez ML, Vandenberg JR, Cogan ES, Tipton GJ, Teklezghi A, Dange K, et al. 
+591 
+Manipulations of Central Amygdala Neurotensin Neurons Alter the Consumption of 
+592 
+Ethanol and Sweet Fluids in Mice. J Neurosci. 2020 Jan 15;40(3):632–47.  
+593 
+28. Siljehav V, Hofstetter AM, Leifsdottir K, Herlenius E. Prostaglandin E2 Mediates 
+594 
+Cardiorespiratory Disturbances during Infection in Neonates. The Journal of Pediatrics. 
+595 
+2015 Dec;167(6):1207-1213.e3.  
+596 
+29. Masiuk KE, Zhang R, Osborne K, Hollis RP, Campo-Fernandez B, Kohn DB. PGE2 and 
+597 
+Poloxamer Synperonic F108 Enhance Transduction of Human HSPCs with a β-Globin 
+598 
+Lentiviral Vector. Molecular Therapy - Methods & Clinical Development. 2019 
+599 
+Jun;13:390–8.  
+600 
+30. Hirata T, Narumiya S. Prostanoid Receptors. Chem Rev. 2011 Oct 12;111(10):6209–30.  
+601 
+31. Nakamura K, Kageyama S, Ito T, Hirao H, Kadono K, Aziz A, et al. Antibiotic pretreatment 
+602 
+alleviates liver transplant damage in mice and humans. Journal of Clinical 
+603 
+Investigation. 2019 Jul 22;129(8):3420–34.  
+604 
+32. Ma W. Chronic prostaglandin E2 treatment induces the synthesis of the pain-related 
+605 
+peptide substance P and calcitonin gene-related peptide in cultured sensory ganglion 
+606 
+explants. Journal of Neurochemistry. 2010 Oct;115(2):363–72.  
+607 
+33. Lipton DM, Gonzales BJ, Citri A. Dorsal Striatal Circuits for Habits, Compulsions and 
+608 
+Addictions. Front Syst Neurosci. 2019 Jul 18;13:28.  
+609 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+34. Ceceli AO, Bradberry CW, Goldstein RZ. The neurobiology of drug addiction: cross-
+610 
+species insights into the dysfunction and recovery of the prefrontal cortex. 
+611 
+Neuropsychopharmacol. 2022 Jan;47(1):276–91.  
+612 
+35. Amaya KA, Smith KS. Neurobiology of habit formation. Current Opinion in Behavioral 
+613 
+Sciences. 2018 Apr;20:145–52.  
+614 
+36. Bech P, Crochet S, Dard R, Ghaderi P, Liu Y, Malekzadeh M, et al. Striatal Dopamine 
+615 
+Signals and Reward Learning. Function. 2023 Sep 25;4(6):zqad056.  
+616 
+37. Soares-Cunha C, Coimbra B, Sousa N, Rodrigues AJ. Reappraising striatal D1- and D2-
+617 
+neurons in reward and aversion. Neuroscience & Biobehavioral Reviews. 2016 
+618 
+Sep;68:370–86.  
+619 
+38. Risinger FO, Cunningham CL. Genetic diwerences in ethanol-induced conditioned taste 
+620 
+aversion after ethanol preexposure. Alcohol. 1995 Nov;12(6):535–9.  
+621 
+39. Chester JA, Cunningham CL. GABAA receptor modulation of the rewarding and aversive 
+622 
+ewects of ethanol. Alcohol. 2002 Apr;26(3):131–43.  
+623 
+40. Valenza M, DiLeo A, Steardo L, Cottone P, Sabino V. Ethanol-related behaviors in mice 
+624 
+lacking the sigma-1 receptor. Behavioural Brain Research. 2016 Jan;297:196–203.  
+625 
+41. Tambour S, Didone V, Tirelli E, Quertemont E. Locomotor ewects of ethanol and 
+626 
+acetaldehyde after peripheral and intraventricular injections in Swiss and C57BL/6J 
+627 
+mice. Behavioural Brain Research. 2006 Sep;172(1):145–54.  
+628 
+42. Younis RM, Wolstenholme JT, Bagdas D, Bettinger JC, Miles MF, Damaj MI. Adolescent 
+629 
+but not adult ethanol binge drinking modulates ethanol behavioral ewects in mice later 
+630 
+in life. Pharmacology Biochemistry and Behavior. 2019 Sep;184:172740.  
+631 
+43. Luong TN, Carlisle HJ, Southwell A, Patterson PH. Assessment of motor balance and 
+632 
+coordination in mice using the balance beam. J Vis Exp. 2011 Mar 10;(49):2376.  
+633 
+44. Czigler A, Toth L, Szarka N, Szilágyi K, Kellermayer Z, Harci A, et al. Prostaglandin E2, a 
+634 
+postulated mediator of neurovascular coupling, at low concentrations dilates whereas 
+635 
+at higher concentrations constricts human cerebral parenchymal arterioles. 
+636 
+Prostaglandins & Other Lipid Mediators. 2020 Feb;146:106389.  
+637 
+45. Perrot CY, Herrera JL, Fournier-Goss AE, Komatsu M. Prostaglandin E2 breaks down 
+638 
+pericyte–endothelial cell interaction via EP1 and EP4-dependent downregulation of 
+639 
+pericyte N-cadherin, connexin-43, and R-Ras. Sci Rep. 2020 Jul 7;10(1):11186.  
+640 
+46. Dalvi S, Nguyen HH, On N, Mitchell RW, Aukema HM, Miller DW, et al. Exogenous 
+641 
+arachidonic acid mediates permeability of human brain microvessel endothelial cells 
+642 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+through prostaglandin E2 activation of EP3 and EP4 receptors. Journal of 
+643 
+Neurochemistry. 2015 Dec;135(5):867–79.  
+644 
+47. Vore AS, Deak T. Alcohol, inﬂammation, and blood-brain barrier function in health and 
+645 
+disease across development. In: International Review of Neurobiology [Internet]. 
+646 
+Elsevier; 2021 [cited 2025 Jan 29]. p. 209–49. Available from: 
+647 
+https://linkinghub.elsevier.com/retrieve/pii/S0074774221000441 
+648 
+48. Rubio-Araiz A, Porcu F, Pérez-Hernández M, García-Gutiérrez MS, Aracil-Fernández MA, 
+649 
+Gutierrez-López MD, et al. Disruption of blood–brain barrier integrity in postmortem 
+650 
+alcoholic brain: preclinical evidence of TLR4 involvement from a binge-like drinking 
+651 
+model. Addiction Biology. 2017 Jul;22(4):1103–16.  
+652 
+49. Wei J, Dai Y, Wen W, Li J, Ye LL, Xu S, et al. Blood-brain barrier integrity is the primary 
+653 
+target of alcohol abuse. Chemico-Biological Interactions. 2021 Mar;337:109400.  
+654 
+50. Wise RA, Jordan CJ. Dopamine, behavior, and addiction. J Biomed Sci. 2021 Dec 
+655 
+2;28(1):83.  
+656 
+51. Jiménez-González A, Ochoa-Aguilar A, Mendoza-Negrete K, Parra-Gamez L, Gómez-
+657 
+Acevedo C. PGE2 as a Morphine-Seeking Behavior Modulator in the Place Preference 
+658 
+Model. JBBS. 2022;12(12):627–39.  
+659 
+52. Tzschentke TM. REVIEW ON CPP: Measuring reward with the conditioned place 
+660 
+preference (CPP) paradigm: update of the last decade. Addiction Biology. 2007 
+661 
+Sep;12(3–4):227–462.  
+662 
+53. Kitaoka S, Furuyashiki T, Nishi A, Shuto T, Koyasu S, Matsuoka T, et al. Prostaglandin E2 
+663 
+Acts on EP1 Receptor and Ampliﬁes Both Dopamine D1 and D2 Receptor Signaling in the 
+664 
+Striatum. J Neurosci. 2007 Nov 21;27(47):12900–7.  
+665 
+54. Naassila M, Pierreﬁche O, Ledent C, Daoust M. Decreased alcohol self-administration 
+666 
+and increased alcohol sensitivity and withdrawal in CB1 receptor knockout mice. 
+667 
+Neuropharmacology. 2004 Feb;46(2):243–53.  
+668 
+55. Blednov YA, Cravatt BF, Boehm SL, Walker D, Harris RA. Role of Endocannabinoids in 
+669 
+Alcohol Consumption and Intoxication: Studies of Mice Lacking Fatty Acid Amide 
+670 
+Hydrolase. Neuropsychopharmacol. 2007 Jul;32(7):1570–82.  
+671 
+56. Basavarajappa BS, Yalamanchili R, Cravatt BF, Cooper TB, Hungund BL. Increased 
+672 
+ethanol consumption and preference and decreased ethanol sensitivity in female FAAH 
+673 
+knockout mice. Neuropharmacology. 2006 Jun;50(7):834–44.  
+674 
+57. Delis F, Thanos PK, Rombola C, Rosko L, Grandy D, Wang GJ, et al. Chronic mild stress 
+675 
+increases alcohol intake in mice with low dopamine D2 receptor levels. Behavioral 
+676 
+Neuroscience. 2013 Feb;127(1):95–105.  
+677 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+58. Kamp F, Proebstl L, Penzel N, Adorjan K, Ilankovic A, Pogarell O, et al. Ewects of 
+678 
+sedative drug use on the dopamine system: a systematic review and meta-analysis of 
+679 
+in vivo neuroimaging studies. Neuropsychopharmacol. 2019 Mar;44(4):660–7.  
+680 
+59. Brown Jr DH, Giusani AD, Chen X, Kumamoto CA. Filamentous growth of Candida 
+681 
+albicans in response to physical environmental cues and its regulation by the unique 
+682 
+CZF1 gene. Molecular Microbiology. 1999 Nov;34(4):651–62.  
+683 
+60. AAT Bioquest Inc. Four Parameter Logistic (4PL) Curve Calculator [Internet]. 2025. 
+684 
+Available from: https://www.aatbio.com/tools/four-parameter-logistic-4pl-curve-
+685 
+regression-online-calculator 
+686 
+61. Zhang Y, Liang Y, Randesi M, Yuferov V, Zhao C, Kreek MJ. Chronic Oxycodone Self-
+687 
+administration Altered Reward-related Genes in the Ventral and Dorsal Striatum of 
+688 
+C57BL/6J Mice: An RNA-seq Analysis. Neuroscience. 2018 Nov;393:333–49.  
+689 
+62. Chester JA, Lumeng L, Li T, Grahame NJ. High– and Low–Alcohol-Preferring Mice Show 
+690 
+Diwerences in Conditioned Taste Aversion to Alcohol. Alcoholism Clin &amp; Exp Res. 
+691 
+2003 Jan;27(1):12–8.  
+692 
+ 
+693 
+ 
+ 
+694 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+695 
+ 
+696 
+ 
+697 
+Figure 1: C. albicans-colonized mice consume significantly less ethanol and have lower 
+698 
+ethanol preference than mock-colonized mice Single housed female C57BL/6 mice were 
+699 
+orally inoculated with C. albicans strain CKY101 or PBS. After inoculation, mice were subjected 
+700 
+to a 2-bottle choice experiment, with one bottle of 15% ethanol (vol/vol) and one bottle of water. 
+701 
+Liquid consumption was measured by weighing the bottles daily. (A) Ethanol consumption (gm 
+702 
+ethanol/kg body weight) on the first and second day of access to ethanol.  Mock-colonized 
+703 
+(open circles), C. albicans-colonized (black circles). (B) Ethanol preference (volume of ethanol 
+704 
+solution consumed/total volume of liquid consumed). Mock-colonized (open circles), C. 
+705 
+albicans-colonized (black circles). (C) Total liquid consumed per day (gm total liquid/kg body 
+706 
+weight). Mock or C. albicans-colonized mice (open and black circles respectively) and mice that 
+707 
+were only given access to water (H2O only, triangles). (D) CFU/gram of fecal pellet on each day 
+708 
+of collection. FP, fecal pellets; CC, cecum contents. Black circles show individual mice and open 
+709 
+squares show values below the limit of detection. Geometric means are shown by bars and 
+710 
+geometric standard deviation is shown by error bars. (E) Saccharin preference (volume of 
+711 
+saccharin solution/total volume of liquid consumed). (F) CFU/gm fecal pellets from the saccharin 
+712 
+preference experiment. Symbols as in panel D. (A-C,E) Boxes represent mean values, error 
+713 
+bars show standard deviation, and each symbol represents an individual mouse. A two-way 
+714 
+ANOVA corrected for repeated measures was performed for statistics (* p=0.0144; ** p<0.0035; 
+715 
+*** p<0.0003; **** p<0.0001). 
+716 
+ 
+ 
+717 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+718 
+ 
+719 
+Figure 2. C. albicans-colonized mice have elevated serum PGE2 and injection of dmPGE2 
+720 
+reduced ethanol consumption. Single housed female C57BL/6 mice were orally inoculated 
+721 
+with C. albicans strain CKY101 or PBS and subjected to the 2-bottle choice experiment as in 
+722 
+Figure 1. On day 2, mice were euthanized, and serum was collected. (A) PGE-metabolite 
+723 
+concentration, standardized to the average in mock-colonized mice within each experiment. 
+724 
+Mice only given access to H2O (left bar), mock-colonized mice that consumed ethanol (middle 
+725 
+bar), C. albicans-colonized mice that consumed ethanol (right bar). Bars show mean, error bars 
+726 
+show standard deviation, each symbol indicates an individual mouse. One-way ANOVA was 
+727 
+performed for statistical analysis (*, p<0.0354) (B) Single housed female C57BL/6 mice were 
+728 
+injected subcutaneously once per day with dmPGE2 (concentrations as shown) or vehicle and 
+729 
+subjected to the 2-bottle choice experiment as in Figure 1. On day 4, mice were euthanized, and 
+730 
+brains were collected. Ethanol consumed per day (gm ethanol/kg body weight) is shown. (C) 
+731 
+Daily ethanol preference (volume ethanol solution consumed/total volume liquid consumed) is 
+732 
+shown. (C and D) Mean and standard deviation are shown. Each symbol represents one 
+733 
+mouse. Two-way ANOVA test corrected for repeated measures was used for statistical 
+734 
+significance. ns p<0.0939; * p<0.0499; ** p<0.0082; *** p<0.0011; ****, p<0.0001. 
+735 
+ 
+ 
+736 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+737 
+ 
+738 
+Figure 3. EP receptor antagonism elevates C. albicans-colonized mouse ethanol 
+739 
+consumption to mock-colonized levels in female and male mice. Single housed female 
+740 
+C57BL/6 mice (A-D) or male C57BL/6 mice (E-H) were orally inoculated with C. albicans strain 
+741 
+CKY101 or PBS, injected subcutaneously with EP1 antagonist (SC-51089, 2 g/kg) and EP2 
+742 
+antagonist (TG6-10-1, 2 g/kg) or vehicle and subjected to the 2-bottle choice experiment as in 
+743 
+Figure 1. Females were euthanized on day 2, males on day 4. (A, E) ethanol consumption (B, 
+744 
+F) ethanol preference (C, G) total liquid consumed per day (A-C, E-G) mock-colonized mice 
+745 
+with vehicle (open circles) or antagonists (open triangles), C. albicans-colonized mice with 
+746 
+vehicle (black circles) or antagonists (black triangles). Boxes represent mean values, error bars 
+747 
+show standard deviation, and each symbol represents an individual mouse. Two-way ANOVA 
+748 
+corrected for repeated measures was performed for statistics. ns p=0.1182; * p<0.0368; ** 
+749 
+p<0.0054; *** p=0.0001; **** p<0.0001. (D, H) shows CFU/gram of fecal pellet on each day of 
+750 
+collection. FP, fecal pellets; CC, cecum contents. Black circles (C. albicans with vehicle) or black 
+751 
+triangles (C. albicans with antagonists) show individual mice. Geometric means are shown by 
+752 
+bars, and geometric standard deviation is shown by error bars. Two-way ANOVA performed for 
+753 
+statistics.  
+754 
+ 
+755 
+ 
+756 
+ 
+ 
+757 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+758 
+ 
+759 
+Figure 4. Serum PGE-metabolite correlates with EP Receptor expression in the dorsal 
+760 
+striatum in C. albicans-colonized mice. Single housed female C57BL/6 mice were orally 
+761 
+inoculated with C. albicans strain CKY101 or PBS and subjected to the 2-bottle choice 
+762 
+experiment as in Figure 1. On day 2, mice were euthanized, and brain and serum were 
+763 
+collected. Expression of Ep genes relative to average expression in mock-colonized mice from 
+764 
+the same experimental trial, plotted as a function of concentration of PGE-metabolite 
+765 
+standardized to the average in mock-colonized mice in the same experimental trial. Each 
+766 
+symbol represents an individual mouse. (A,B) C. albicans-colonized mice (black circles) (C,D) 
+767 
+mock-colonized mice (open circles). (A,C) Ep1 (B,D) Ep2. Pearson correlations were used to 
+768 
+test for significant correlations, r=correlation strength and p=statistical significance. Significant 
+769 
+correlations were observed between Ep1 and Ep2 expression and concentration of PGE-M in C. 
+770 
+albicans-colonized mice. 
+771 
+ 
+ 
+772 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+773 
+ 
+774 
+Figure 5. Both C. albicans colonization and low dose dmPGE2 injection result in lower 
+775 
+Drd2 receptor expression in the Dorsal Striatum (A) Single housed female C57BL/6 mice 
+776 
+were orally inoculated with C. albicans strain CKY101 or PBS and subjected to the 2-bottle 
+777 
+choice experiment as in Figure 1. On day 2, mice were euthanized, and brains were collected. 
+778 
+Drd receptor expression was measured in the dorsal striatum of mock-colonized or C. albicans-
+779 
+colonized mice by real time RT qPCR using the ddCT method. (B) Single housed female 
+780 
+C57BL/6 mice were injected subcutaneously each day with dmPGE2 (low dose = 25 or 50 
+781 
+ug/kg; high dose = 100 or 300 ug/kg) or vehicle and subjected to the 2 bottle choice experiment 
+782 
+as in Figure 1. On day 4, mice were euthanized, and brains were collected.  Drd receptor 
+783 
+expression was measured in the DS by RT-qPCR using the ddCT method. Outliers were 
+784 
+removed with ROUT to determine mathematical outliers (Q=0.1% to remove definitive outliers). 
+785 
+(A,B) Geometric means and geometric SDs are shown and Two-way ANOVA was performed for 
+786 
+statistical significance. 
+787 
+ 
+ 
+788 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+789 
+ 
+790 
+Figure 6: Drd Expression correlates with ethanol consumption in mock and C. albicans-
+791 
+colonized mice. Single housed female C57BL/6 mice were orally inoculated with C. albicans 
+792 
+strain CKY101 or PBS and subjected to the 2 bottle choice experiment as in Figure 1. On day 2, 
+793 
+mice were euthanized and brains were collected. Drd receptor expression was measured in the 
+794 
+dorsal striatum of mock-colonized or C. albicans-colonized mice. Total ethanol consumption 
+795 
+(gm/kg) is plotted as a function of relative Drd expression. Pearson correlation used to test for 
+796 
+significant correlations, r=correlation strength and p=statistical significance.  (A, C) mock-
+797 
+colonized mice. (B, D) C. albicans-colonized mice. (A, B) Drd1 fold change of relative 
+798 
+expression. (C, D) Drd2 fold change of relative expression. Significant correlations between 
+799 
+Drd1 expression and ethanol consumption by mock-colonized mice and Drd2 expression and 
+800 
+ethanol consumption by C. albicans colonized mice were observed.  
+801 
+ 
+ 
+802 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+803 
+ 
+804 
+ 
+805 
+Figure 7: C. albicans-colonized mice develop conditioned taste aversion more rapidly 
+806 
+than mock-colonized mice. Single housed female C57BL/6 mice were trained to drink their 
+807 
+daily liquid in the late morning. Mice orally inoculated with C. albicans strain CKY101 or PBS 
+808 
+were given one hour of access to a novel tastant, 1.2% saline solution, and then injected 
+809 
+intraperitoneally with ethanol (2 g/kg or 3 g/kg) or control (sterile saline). Tastant consumption 
+810 
+on the first trial (before injection with ethanol) was used as the baseline measurement and 
+811 
+consumption on later trials was compared to trial 1. (A) percent change of tastant consumption 
+812 
+relative to each individual mouse’s trial one consumption (pre-conditioned stimulus). Trial 1 
+813 
+corresponds to Day 6 of the experiment, Trial 2 corresponds to Day 8 of the experiment, Trial 3 
+814 
+corresponds to Day 10 of the experiment, and Trial 4 corresponds to Day 12. (B) CFU/gm of C. 
+815 
+albicans from fecal pellets collected on Day 6, Day 8, and Day 10; cecum contents from Day 12. 
+816 
+(A,B) Mock-colonized, control (open circles); mock-colonized + 2g/kg EtOH (open triangles); 
+817 
+mock-colonized + 3 g/kg EtOH (open squares); C. albicans-colonized, control (closed circles); 
+818 
+C. albicans-colonized +2 g/kg EtOH (black triangles); C. albicans-colonized + 3 g/kg EtOH 
+819 
+(closed squares). Two-way ANOVA corrected for repeated measures was completed for 
+820 
+statistical significance. ns p<0.0995; * p<0.0499; ** p<0.0076; *** p=0.0006. 
+821 
+ 
+ 
+822 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+823 
+ 
+824 
+ 
+825 
+Figure 8: C. albicans-colonized mice are more sensitive to effects of ethanol. Single 
+826 
+housed female C57BL/6 mice were orally inoculated with C. albicans strain CKY101 or PBS on 
+827 
+days 0 and 2, and subjected to the behavioral tests illustrated in panel (A). (B,C) Groups are 
+828 
+defined as Mock +1x EtOH: mock-colonized, received sterile saline ip injections on days 1 and 3 
+829 
+and 3.5g/kg EtOH on day 4 (open circles); Mock + 3x EtOH: mock-colonized, received 1.5g/kg 
+830 
+ethanol ip injected on days 1 and 3 and 3.5g/kg EtOH on day 4 (open triangles); Ca + 1x EtOH: 
+831 
+C. albicans-colonized, received sterile saline ip injections on day 1 and 3 and 3.5g/kg EtOH on 
+832 
+day 4 (black circles); Ca + 3x EtOH: C. albicans-colonized, received 1.5g/kg ethanol ip injected 
+833 
+on days 1 and 3 and 3.5g/kg EtOH on day 4 (black triangles). (D-F) Groups are defined as Mock 
+834 
++ SS: mock-colonized, received sterile saline ip injections on days 1 and 3 (open circles); Mock 
+835 
++ EtOH: mock-colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 (open triangles); 
+836 
+Ca + SS: C. albicans-colonized, received sterile saline ip injections on day 1 and 3 (black 
+837 
+circles); Ca + EtOH: C. albicans-colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 
+838 
+(black triangles). (G) Groups are defined as Ca/Mock + SS + Veh, fed C. albicans (black circles) 
+839 
+or sterile PBS (open circles), received sterile saline and vehicle injections; Mock + Et + Veh, fed 
+840 
+sterile PBS, received ethanol and vehicle injections; Mock + Et + Ants, fed sterile PBS, received 
+841 
+ethanol and antagonist injections; Ca + Et + Veh, fed C. albicans, received ethanol and vehicle 
+842 
+injections; Ca + Et + Ants, fed C. albicans, received ethanol and antagonist injections. All 
+843 
+injections were IP, given before habituation or testing. Ethanol injections were 1.5g/kg of mouse 
+844 
+weight and antagonists were 2g/kg of both EP1 and EP2 antagonists. (B) time after 3.5 g/kg 
+845 
+ethanol injection (seconds) for the mouse to lose its righting reflex (LORR onset). (C) blood 
+846 
+ethanol concentration (mg/dL) at the time of euthanization following LORR onset. (D) distance 
+847 
+traveled in the open field test in a ten minute trial, shown relative to the average of the sterile 
+848 
+saline-injected (SS) mice within the same group (mock-colonized or Ca-colonized). (E) total 
+849 
+number of foot slips and “falls” during three trials of the balance beam test. A foot slip was 
+850 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+defined as the foot slipping beneath the balance beam and a fall was defined as falling to the 
+851 
+underside of the beam, or, on rare occasions, a fall off the beam. (F) cumulative time required to 
+852 
+cross the balance beam in three trials. (G) total number of slips or “falls” from the EP-antagonist 
+853 
+experiments. Mice were injected intraperitoneally with EP1 and EP2 antagonists or vehicle daily 
+854 
+on days 0-4 approximately one hour before each behavioral test. (B,C) Ordinary One-Way 
+855 
+ANOVAs were completed for statistical significance. (D-G) Brown-Forsythe and Welch ANOVAs 
+856 
+were completed for statistical significance. (B-G) Bars show means with the standard deviation 
+857 
+or geometric mean with geometric standard deviation. Symbols represent individual mice. * 
+858 
+p<0.0220; ** p<0.0055; *** p<0.0003; **** p<0.0001. 
+859 
+ 
+860 
+ 
+ 
+861 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+Supplemental Figures 
+862 
+ 
+863 
+ 
+864 
+ 
+865 
+Figure S1: Ep receptor expression were not different in C. albicans-colonized mice vs 
+866 
+mock-colonized mice in various brain regions. Single housed female C57BL/6 mice were 
+867 
+orally inoculated with C. albicans strain CKY101 or PBS and subjected to the 2-bottle choice 
+868 
+experiment as in Figure 1. On day 2, mice were euthanized, and brains were collected. Ep 
+869 
+receptor expression was measured in various brain regions of mock-colonized or C. albicans-
+870 
+colonized mice by RT-qPCR using the ddCT method. Geometric mean and geometric standard 
+871 
+deviation are shown. A Two-way ANOVA was performed for statistics and p-values are shown. 
+872 
+(A) Shows expression in dorsal striatum (DS) (B) Shows expression in the prefrontal cortex 
+873 
+(PFC) (C) Shows expression in the nucleus accumbens (NAc) 
+874 
+ 
+ 
+875 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+876 
+ 
+877 
+Figure S2: Serum PGE-metabolite correlates with EP1 Receptor expression in the PFC 
+878 
+and NAc of C. albicans-colonized mice. Single housed female C57BL/6 mice were orally 
+879 
+inoculated with C. albicans strain CKY101 or PBS and subjected to the 2-bottle choice 
+880 
+experiment as in Figure 1. On day 2, mice were euthanized, and brain and serum were 
+881 
+collected. Expression of Ep genes relative to average expression in mock-colonized mice from 
+882 
+the same experimental trial, plotted as a function of concentration of PGE-metabolite 
+883 
+standardized to the average in mock-colonized mice in the same experimental trial. Each 
+884 
+symbol represents an individual mouse. (A,C) show gene expression of Ep1 and Ep2, 
+885 
+respectively, in the prefrontal cortex (PFC). (B,D) show gene expression of Ep1 and Ep2, 
+886 
+respectively, in the nucleus accumbens (NAc). Pearson correlations were used to test for 
+887 
+significant correlations, r=correlation strength and p=statistical significance. Significant 
+888 
+correlations were observed between Ep1 expression and concentration of PGE-M in the PFC 
+889 
+and NAc of C. albicans-colonized mice. 
+890 
+ 
+891 
+ 
+ 
+892 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+893 
+ 
+894 
+Figure S3: Drd gene expression was not different between C. albicans-colonized and 
+895 
+mock-colonized mice in the PFC and NAc. Single housed female C57BL/6 mice were orally 
+896 
+inoculated with C. albicans strain CKY101 or PBS and subjected to the 2-bottle choice 
+897 
+experiment as in Figure 1. On day 2, mice were euthanized, and brains were collected. Drd 
+898 
+receptor expression was measured in the prefrontal cortex (PFC) (A) or nucleus accumbens 
+899 
+(NAc) (B) of mock-colonized or C. albicans-colonized mice by RT-qPCR using the ddCT 
+900 
+method. Geometric mean and geometric standard deviation are shown. Multiple t-tests 
+901 
+performed for statistics—no significant differences were observed. 
+902 
+ 
+ 
+903 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+904 
+ 
+905 
+Figure S4: Expression of other addiction-implicated genes in the Dorsal Striatum of C. 
+906 
+albicans-colonized mice. Single housed female C57BL/6 mice were orally inoculated with C. 
+907 
+albicans strain CKY101 or PBS and subjected to the 2-bottle choice experiment as in Figure 1. 
+908 
+On day 2, mice were euthanized, and brains were collected. Groups of mice that consumed 
+909 
+ethanol (Ca-colonized or Mock-colonized) or mice that were mock-colonized and only given 
+910 
+access to water (H2O-only) are shown. The expression of genes implicated in addiction was 
+911 
+measured in the dorsal striatum of the different groups by RT-qPCR using the ddCT method. 
+912 
+Geometric mean and geometric standard deviation are shown. A two-way ANOVA with Dunnett’s 
+913 
+correction was performed for statistics. * p=0.0315; ** p=0.0065; *** p=0.0001.  
+914 
+ 
+ 
+915 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+916 
+ 
+917 
+Figure S5: No differences in mouse weight were observed in the ethanol-induced 
+918 
+conditioned taste aversion experiment. Single housed female C57BL/6 mice were trained to 
+919 
+drink their daily liquid in the late morning. Mice orally inoculated with C. albicans strain CKY101 
+920 
+or PBS were given one hour of access to a novel tastant, 1.2% saline solution, and then injected 
+921 
+intraperitoneally with ethanol (2 g/kg or 3 g/kg) or control (sterile saline). Mouse weight is shown 
+922 
+in grams. Mock-colonized, control (open circles); mock-colonized + 2g/kg EtOH (open triangles); 
+923 
+mock-colonized + 3 g/kg EtOH (open squares); C. albicans-colonized, control (closed circles); 
+924 
+C. albicans-colonized +2 g/kg EtOH (black triangles); C. albicans-colonized + 3 g/kg EtOH 
+925 
+(closed squares). Bars show means, error bars show standard deviation, and each symbol 
+926 
+represents one mouse. A two-way ANOVA corrected for repeated measures was performed for 
+927 
+statistical significance—there were no significant comparisons. 
+928 
+ 
+ 
+929 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+930 
+ 
+931 
+Figure S6: No differences in mouse weight or colonization were observed in the LORR, 
+932 
+OFT, and balance beam experiments. Single housed female C57BL/6 mice were orally 
+933 
+inoculated with C. albicans strain CKY101 or PBS on days 0 and 2, and subjected to the 
+934 
+behavioral tests illustrated in Fig. 8A. (A) Mouse weights on days -1 and 2 are shown. (B) 
+935 
+CFU/gm fecal pellets (FP) or cecum contents (CC) collected on days indicated. Bars show 
+936 
+means with the standard deviation (A) or geometric mean with geometric standard deviation (B). 
+937 
+Symbols represent individual mice. Two-way ANOVAs corrected for multiple repeated measures 
+938 
+were performed for statistics and there were no significant differences. 
+939 
+ 
+ 
+940 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+ 
+941 
+ 
+942 
+Figure S7: Antagonism of Ep receptors did not change the behavior of mice in the OFT or 
+943 
+LORR tests. Single housed female C57BL/6 mice were orally inoculated with C. albicans strain 
+944 
+CKY101 or PBS on days 0 and 2, and subjected to the behavioral tests illustrated in Figure 8A, 
+945 
+except that mice were injected intraperitoneally with EP1 and EP2 antagonists or vehicle daily 
+946 
+on days 0-4 approximately one hour before each behavioral test. (A) Groups are defined as: 
+947 
+Ca/Mock + SS + Veh: mock-colonized or C. albicans-colonized, received sterile saline ip 
+948 
+injections on days 1 and 3 and vehicle ip injections daily; Mock + EtOH + Veh: mock-colonized, 
+949 
+received 1.5g/kg ethanol ip injected on days 1 and 3 and vehicle ip injections daily; Mock + 
+950 
+EtOH + Ants: mock-colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 and 
+951 
+antagonist ip injections daily; Ca + EtOH + Veh: C. albicans-colonized, received 1.5g/kg ethanol 
+952 
+ip injected on days 1 and 3 and vehicle ip injections daily; Ca + EtOH + Ants: C. albicans-
+953 
+colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 and antagonist ip injections daily 
+954 
+(B) Groups are defined as: Mock + Et + Veh: mock-colonized, received 1.5g/kg ethanol ip 
+955 
+injected on days 1 and 3 and 3.5g/kg EtOH on day 4 and vehicle daily; Mock + Et + Ants: mock-
+956 
+colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 and 3.5g/kg EtOH on day 4 and 
+957 
+antagonists daily; Ca + Et + Veh: C. albicans-colonized, received 1.5g/kg ethanol ip injected on 
+958 
+days 1 and 3 and 3.5g/kg EtOH on day 4 and vehicle daily; Ca + Et + Ants: C. albicans-
+959 
+colonized, received 1.5g/kg ethanol ip injected on days 1 and 3 and 3.5g/kg EtOH on day 4 and 
+960 
+antagonists daily. (A) distance traveled in the open field test in a ten-minute trial relative to the 
+961 
+average for sterile saline-injected (SS) mice within the same group (mock-colonized or C. 
+962 
+albicans-colonized). A Brown-Forsythe and Welch ANOVA test was run for statistical 
+963 
+significance. (B) time after injection (seconds) for the mouse to lose its righting reflex (LORR 
+964 
+onset). An ordinary One-way ANOVA was completed for statistical significance. * p<0.0465. 
+965 
+ 
+ 
+966 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+Table S1: Primers used In this study 
+967 
+Primer Name 
+for RT-qPCR 
+Sequence 
+Source 
+GAPDH-FW 
+TGTAGACCATGTAGTTGAGGTCA 
+(1) 
+GAPDH-RV 
+AGGTCGGTGTGAACGGATTTG 
+ 
+EP1-FW 
+TGCTTGCCATCGACCTAGC 
+(2) 
+EP1-RV 
+CACCCAGGAAATGACACGC 
+ 
+EP2-FW 
+CAGCTCGGTGATGTTCTCGG 
+(2) 
+EP2-RV 
+GAGCACCAATTCCGTTACCAG 
+ 
+NPY-Y1R-FW 
+GACTCTCACAGGCTGTCTT 
+(3) 
+NPY-Y1R-RV 
+TTGGTCTCACTGGACCTGT 
+ 
+NPY-Y2R-FW 
+TTTTCGGAGGCTACCAATGT 
+(3) 
+NPY-Y2R-RV 
+AATACAATGGGAGGTCTGCA 
+ 
+POMC-FW 
+GAGGCCTTTCCCCTAGAGTT 
+(4) 
+POMC-RV 
+CACCGTAACGCTTGTCCTT 
+ 
+FOS-FW 
+GGGACAGCCTTTCCTACTAC 
+(5) 
+FOS-RV 
+GGGATAAAGTTGGCACTAGAG 
+ 
+OPR-MU-FW 
+GAGCCACAGCCTGTGCCCT 
+(6) 
+OPR-MU-RV 
+CGTGCTAGTGGCTAAGGCATC  
+ 
+OPR-DELTA-FW 
+GCTCGTCATGTTTGGCATC 
+(6) 
+OPR-DELTA-RV 
+AAGTACTTGGCGCTCTGGAA 
+ 
+DRD1-FW 
+GAACCCAGAAGACAGGTGGA 
+(7) 
+DRD1-RV 
+GCTTAGCCCTCACGTTCTTG 
+ 
+DRD2-FW 
+TATGCCCTGGGTCGTCTATC 
+(7) 
+DRD2-RV 
+AGGACAGGACCCAGACAATG 
+ 
+ 
+968 
+Supplemental Bibliography: 
+969 
+1. Markey L, Hooper A, Melon LC, Baglot S, Hill MN, Maguire J, et al. Colonization with the 
+970 
+commensal fungus Candida albicans perturbs the gut-brain axis through dysregulation of 
+971 
+endocannabinoid signaling. Psychoneuroendocrinology. 2020 Nov;121:104808.  
+972 
+2. Chen L, Ji X, Wang M, Liao X, Liang C, Tang J, et al. Involvement of TLR4 signaling 
+973 
+regulated-COX2/PGE2 axis in liver fibrosis induced by Schistosoma japonicum infection. 
+974 
+Parasites Vectors. 2021 Dec;14(1):279.  
+975 
+3. Shi Y -C., Ip CK, Reed F, Sarruf DA, Wulff BS, Herzog H. Y5 receptor signalling counteracts 
+976 
+the anorectic effects of PYY 3-36 in diet-induced obese mice. J Neuroendocrinology. 2017 
+977 
+Oct;29(10):e12483.  
+978 
+4. Luque RM, Gahete MD, Hochgeschwender U, Kineman RD. Evidence that endogenous 
+979 
+SST inhibits ACTH and ghrelin expression by independent pathways. American Journal of 
+980 
+Physiology-Endocrinology and Metabolism. 2006 Aug;291(2):E395–403.  
+981 
+5. Almeida A, Paul Thiery J, Magdelénat H, Radvanyi F. Gene expression analysis by real-time 
+982 
+reverse transcription polymerase chain reaction: influence of tissue handling. Analytical 
+983 
+Biochemistry. 2004 May;328(2):101–8.  
+984 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 
+
+6. Reiss D, Ceredig RA, Secher T, Boué J, Barreau F, Dietrich G, et al. Mu and delta opioid 
+985 
+receptor knockout mice show increased colonic sensitivity. European Journal of Pain. 2017 
+986 
+Apr;21(4):623–34.  
+987 
+7. Braunstein KE, Eschbach J, Ròna-Vörös K, Soylu R, Mikrouli E, Larmet Y, et al. A point 
+988 
+mutation in the dynein heavy chain gene leads to striatal atrophy and compromises neurite 
+989 
+outgrowth of striatal neurons. Human Molecular Genetics. 2010 Nov 15;19(22):4385–98.  
+990 
+ 
+991 
+ 
+992 
+ 
+993 
+ 
+994 
+.
+CC-BY-NC-ND 4.0 International license
+available under a
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted February 27, 2025. 
+; 
+https://doi.org/10.1101/2025.02.25.640044
+doi: 
+bioRxiv preprint 

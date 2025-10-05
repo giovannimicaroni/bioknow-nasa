@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregar Artigos no BioKnowdes</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 600px;
+            background: #2d2d2d;
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            border: 1px solid #404040;
+        }
+
+        h1 {
+            color: #60a5fa;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #b8b8b8;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .articles-info {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #404040;
+        }
+
+        .articles-info h3 {
+            color: #60a5fa;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .article-list {
+            list-style: none;
+        }
+
+        .article-list li {
+            padding: 0.5rem 0;
+            color: #b8b8b8;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .article-list li i {
+            color: #60a5fa;
+            font-size: 0.8rem;
+        }
+
+        .load-button {
+            width: 100%;
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            color: #1a1a1a;
+            border: none;
+            padding: 1.25rem 2rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            box-shadow: 0 4px 20px rgba(96, 165, 250, 0.3);
+        }
+
+        .load-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(96, 165, 250, 0.5);
+        }
+
+        .load-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .load-button i {
+            font-size: 1.3rem;
+        }
+
+        .status-message {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+
+        .status-message.success {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #10b981;
+        }
+
+        .status-message.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+        }
+
+        .spinner {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .note {
+            background: rgba(96, 165, 250, 0.1);
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #b8b8b8;
+        }
+
+        .note i {
+            color: #60a5fa;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-rocket"></i> BioKnowdes Integration</h1>
+        <p class="subtitle">Sistema Externo - Exemplo de Integração</p>
+
+        <div class="articles-info">
+            <h3><i class="fas fa-file-alt"></i> Artigos Selecionados (<span id="articleCount">5</span>)</h3>
+            <ul class="article-list" id="articleListDisplay">
+                <li><i class="fas fa-dna"></i> Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells</li>
+                <li><i class="fas fa-bone"></i> Microgravity induces pelvic bone loss through osteoclastic activity</li>
+                <li><i class="fas fa-microscope"></i> Stem Cell Health and Tissue Regeneration in Microgravity</li>
+                <li><i class="fas fa-heart"></i> Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart</li>
+                <li><i class="fas fa-brain"></i> Beyond low-Earth orbit: Characterizing immune and microRNA differentials</li>
+            </ul>
+        </div>
+
+        <button id="loadButton" class="load-button">
+            <i class="fas fa-download"></i>
+            Carregar Artigos no BioKnowdes
+        </button>
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div class="note">
+            <i class="fas fa-info-circle"></i>
+            Este é um exemplo de como um sistema externo pode carregar até 10 artigos diretamente no BioKnowdes. 
+            Use <code>window.setBioKnowdesArticles(array)</code> para definir artigos ou 
+            <code>window.loadBioKnowdesArticles(array)</code> para carregar e redirecionar automaticamente.
+        </div>
+    </div>
+
+    <script>
+        // Lista de artigos pré-selecionados (5 artigos fixos)
+        const SELECTED_ARTICLES = [
+            'Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells',
+            'Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a_p21',
+            'Stem Cell Health and Tissue Regeneration in Microgravity',
+            'Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart',
+            'Beyond low-Earth orbit_ Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice.'
+        ];
+
+        const loadButton = document.getElementById('loadButton');
+        const statusMessage = document.getElementById('statusMessage');
+
+        loadButton.addEventListener('click', () => {
+            redirectToBioKnowdes();
+        });
+
+        function redirectToBioKnowdes() {
+            // Mostra loading
+            loadButton.disabled = true;
+            loadButton.innerHTML = '<i class="fas fa-spinner spinner"></i> Redirecionando...';
+            
+            statusMessage.style.display = 'none';
+            statusMessage.className = 'status-message';
+
+            // Mostra mensagem de sucesso
+            statusMessage.className = 'status-message success';
+            statusMessage.innerHTML = '<i class="fas fa-check-circle"></i> Redirecionando para o BioKnowdes...';
+            statusMessage.style.display = 'block';
+
+            // Cria os parâmetros da URL com os artigos selecionados
+            const params = new URLSearchParams({
+                articles: SELECTED_ARTICLES.join('|'), // Usa | como separador
+                source: 'external_system',
+                message: `✨ ${SELECTED_ARTICLES.length} artigos carregados do sistema externo!`
+            });
+
+            // Redireciona após 1 segundo
+            setTimeout(() => {
+                window.location.href = `http://localhost:5000/ask-lumi?${params.toString()}`;
+            }, 1000);
+        }
+
+        // Funções globais para sistemas externos
+        window.setBioKnowdesArticles = function(articleList) {
+            if (Array.isArray(articleList) && articleList.length > 0 && articleList.length <= 10) {
+                SELECTED_ARTICLES.length = 0;
+                SELECTED_ARTICLES.push(...articleList);
+                updateArticleDisplay();
+            } else {
+                console.warn('Article list must be an array with 1-10 articles');
+            }
+        };
+
+        window.loadBioKnowdesArticles = function(articleList) {
+            if (Array.isArray(articleList) && articleList.length > 0 && articleList.length <= 10) {
+                SELECTED_ARTICLES.length = 0;
+                SELECTED_ARTICLES.push(...articleList);
+                updateArticleDisplay();
+                redirectToBioKnowdes();
+            } else {
+                console.warn('Article list must be an array with 1-10 articles');
+            }
+        };
+
+        // Função para atualizar a exibição da lista de artigos
+        function updateArticleDisplay() {
+            const articleListDisplay = document.getElementById('articleListDisplay');
+            const articleCount = document.getElementById('articleCount');
+            
+            articleCount.textContent = SELECTED_ARTICLES.length;
+            
+            articleListDisplay.innerHTML = SELECTED_ARTICLES.map(article => `
+                <li><i class="fas fa-file-alt"></i> ${article}</li>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
+

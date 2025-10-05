@@ -1,0 +1,1612 @@
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Astronaut omics and the impact of space on
+the human body at scale
+Lindsay A. Rutter1,2,21,22, Henry Cope
+3,22, Matthew J. MacKay4,5,6,22,
+Raúl Herranz
+7, Saswati Das8, Sergey A. Ponomarev
+9, Sylvain V. Costes
+10,
+Amber M. Paul11, Richard Barker12, Deanne M. Taylor
+13,14,
+Daniela Bezdan
+15,16,17, Nathaniel J. Szewczyk
+3,18, Masafumi Muratani
+1,2,
+Christopher E. Mason
+4,5,6,19
+& Stefania Giacomello
+20
+Future multi-year crewed planetary missions will motivate advances in aero-
+space nutrition and telehealth. On Earth, the Human Cell Atlas project aims to
+spatially map all cell types in the human body. Here, we propose that a parallel
+Human Cell Space Atlas could serve as an openly available, global resource for
+space life science research. As humanity becomes increasingly spacefaring,
+high-resolution omics on orbit could permit an advent of precision spaceﬂight
+healthcare. Alongside the scientiﬁc potential, we consider the complex ethical,
+cultural, and legal challenges intrinsic to the human space omics discipline,
+and how philosophical frameworks may beneﬁt from international
+perspectives.
+Humanity may be on the brink of establishing a new era of inter-
+planetary space exploration that would witness crewed missions
+beyond low-Earth orbit (LEO) and a growing commercial spaceﬂight
+sector that would prompt a wider health range of individuals entering
+space compared to the selective cohorts of distinctively ﬁt profes-
+sional astronauts from previous generations. Numerous space orga-
+nizations across the globe openly aspire toward landing humans on
+Mars in the coming decades, underscoring an overall international
+interest in what may be the next stage of human space exploration.
+Prominent examples include the SpaceX Mars program striving to
+initiate the ﬁrst crewed Mars spaceﬂights in the late 2020s; the state-
+owned China Academy of Launch Vehicle Technology announcing the
+country’s goals to place humans on Mars in 2033; NASA (National
+Aeronautics and Space Administration, the United States space
+agency) issuing the Authorization Act of 2017, which declares objec-
+tives to send humanity to Mars in the early 2030s; Roscosmos
+Received: 12 February 2023
+Accepted: 22 March 2024
+Check for updates
+1Transborder Medical Research Center, University of Tsukuba, 305-8575 Tsukuba, Japan. 2Department of Genome Biology, Institute of Medicine, University of
+Tsukuba, 305-8575 Tsukuba, Japan. 3School of Medicine, University of Nottingham, Derby DE22 3DT, UK. 4Department of Physiology and Biophysics, Weill
+Cornell Medicine, New York, NY 10065, USA. 5The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell
+Medicine, New York, NY 10021, USA. 6The WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, NY 10065, USA. 7Centro de
+Investigaciones Biológicas “Margarita Salas” (CSIC), Ramiro de Maeztu 9, Madrid 28040, Spain. 8Department of Biochemistry, Atal Bihari Vajpayee Institute of
+Medical Sciences & Dr. Ram Manohar Lohia Hospital, New Delhi 110001, India. 9Department of Immunology and Microbiology, Institute for the Biomedical
+Problems, Russian Academy of Sciences, 123007 Moscow, Russia. 10Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94035, USA.
+11Embry-Riddle Aeronautical University, Department of Human Factors and Behavioral Neurobiology, Daytona Beach, FL 32114, USA. 12Department of Botany,
+University of Wisconsin-Madison, Madison, WI 53706, USA. 13Department of Biomedical and Health Informatics, The Children’s Hospital of Philadelphia,
+Philadelphia, PA 19104, USA. 14Department of Pediatrics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA. 15Institute of
+Medical Genetics and Applied Genomics, University of Tübingen, Tübingen 72076, Germany. 16NGS Competence Center Tübingen (NCCT), University of
+Tübingen, Tübingen 72076, Germany. 17yuri GmbH, Meckenbeuren 88074, Germany. 18Ohio Musculoskeletal and Neurological Institute (OMNI), Heritage
+College of Osteopathic Medicine, Ohio University, Athens, OH 45701, USA. 19The Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New
+York, NY 10065, USA. 20SciLifeLab, KTH Royal Institute of Technology, Stockholm 17165, Sweden. 21Present address: School of Chemistry, University of
+Glasgow, Glasgow G12 8QQ, UK. 22These authors contributed equally: Lindsay A. Rutter, Henry Cope, Matthew J. MacKay.
+e-mail: chm2042@med.cornell.edu; stefania.giacomello@scilifelab.se
+Nature Communications|   (2024) 15:4952 
+1
+1234567890():,;
+1234567890():,;
+
+(the Russian space agency) publishing aims to send humans to Mars in
+the early 2040s; and the United Arab Emirates publishing the Mars 2117
+Project, which outlines a one-hundred-year plan to construct habitable
+communities for humans on Mars. Thus, there is a motive for scientists
+across the world to study how the human body responds to spaceﬂight
+and to develop countermeasures that improve the health and safety of
+crewed interplanetary missions.
+Since the inception of human spaceﬂight, the duration that
+astronauts spend in space each mission has increased over time
+(Fig. 1A). Despite this, to date, only eleven individuals have resided in
+space for more than 300 consecutive days. Pioneering crewed mis-
+sions to Mars would see humans embarking through space for even
+longer consecutive periods of time and in radiation environments for
+which there is limited knowledge about the impact on human phy-
+siology, warranting improvements in the autonomous space telehealth
+ﬁeld. The risk of an emergency medical occurrence during space
+missions has previously been estimated at approximately 0.06 per
+person-year, which roughly equates to one event every 2.4 years for a
+crew of seven1. Multiyear planetary missions would prevent resupply
+and medical evacuation options and hence would require fully
+autonomous telehealth and triage protocols.
+Various applications of artiﬁcial intelligence and molecular omics
+could likely advance the spaceﬂight telehealth ﬁeld. Omics technolo-
+gies allow for the quantiﬁcation of large pools of biomolecules that
+inﬂuence the integrity and function of biology. Exploratory and
+untargeted omics techniques can measure analytes that are not pre-
+determined. These studies can identify patterns of variance, which can
+generate new hypotheses. Additionally, integrating omics with meta-
+data, including environmental and phenotypic measures, enhances the
+ability to establish robust links between environmental inﬂuences,
+omic variations, and phenotypic outcomes2. The NASA Twins Study
+integrated various omics platforms, including transcriptomics, epige-
+nomics, metabolomics, and metagenomics, and highlighted omics as a
+potential biomedical research platform that may one day translate into
+the development of precision spaceﬂight healthcare3. The ambitious
+project discovered more than 8600 differentially expressed genes
+(DEGs) between an astronaut who resided for almost one year on the
+International Space Station (ISS) and their identical twin who resided
+on Earth; it is possible that any permutation of the DEG list could
+uncover biochemical pathways that hold keys to the development of
+therapeutic supplements and lifestyle recommendations that better
+protect health in space3,4. In this paper, we will consider how the dawn
+of diversiﬁed human exploration of deeper space may beneﬁt from
+sophisticated advances in spaceﬂight nutrition and health that may be
+met in part with the addition of routine standardized omics.
+Space omics efforts are now underway in multiple regions. In
+Japan, the “Living in Space” Grant-in-Aid for Scientiﬁc Research
+(KAKENHI) program uncovers biological responses to the space
+environment at various levels, ranging from environmental micro-
+biomes to stress responses in humans, using omics technologies. In
+Europe, the Space Omics Topical Team (TT) supports and generates
+omics approaches to space biology5, and there are visible efforts to
+promote further development of space omics research among ESA and
+ESA state members6. In the United States, examples of space omics-
+related campaigns include the Precision Health Initiative and Systems
+Biology Translational Project through the NASA Human Research
+Program (HRP) and the Complement of Integrated Protocols for
+Human Exploration Research (CIPHER) project (“Human Research
+Program Update”, WH Paloski, Committee on Biological and Physical
+Sciences in Space (CBPSS) Virtual Fall Committee Meeting). The NASA
+GeneLab initiative provides an open access, collaborative analysis
+platform for space omics data collected across the world and unites
+international efforts through analysis working groups7. Canada oper-
+ates terrestrial platforms to analyze human omics linked with biome-
+dical data8, and the Canadian Space Agency (CSA) has announced
+plans for national space omics research, in addition to already parti-
+cipating in international space omics projects. China and Russia are
+also publishing human space omics research9,10.
+Humans in spaceﬂight historically represented nations like the
+United Socialist Soviet Republic and the United States to a large degree
+(Fig. 1B). After the ﬁrst couple of decades of human spaceﬂight, nations
+like Canada, China, France, Germany, Italy, Japan, and Russia have also
+been represented to a moderate degree (Fig. 1B). Individuals who have
+entered space now represent, even if in smaller numbers, more than
+thirty other nations: Afghanistan, Antigua and Barbuda, Australia,
+Austria, Belgium, Brazil, Bulgaria, Cuba, Czechoslovakia, Denmark,
+Egypt, Hungary, India, Iran, Israel, Kazakhstan, Malaysia, Mexico,
+Mongolia, Netherlands, Pakistan, Poland, Portugal, Romania, Saudi
+Arabia, Slovakia, South Africa, South Korea, Spain, Sweden, Switzer-
+land, Syria, Ukraine, United Arab Emirates, United Kingdom, and
+Vietnam.
+The Artemis program plans to soon reestablish a human presence
+on the Moon, for the ﬁrst time in ﬁve decades, and construct a per-
+manent lunar base to facilitate the future of human missions to Mars.
+Led by NASA and partner agencies JAXA, ESA, and CSA, the Artemis
+program includes signatories from about thirty countries and terri-
+tories, reﬂecting on the theme of a more global human presence in
+space. Indeed, crewed missions to Mars would motivate philosophical
+thinking about humanity’s place in the universe, common to all
+humans. Many people believe such missions will only be enabled by
+worldwide collaboration due to the involvement of multiple countries
+and international organizations, the implications for many people
+across Earth, the sheer engineering demands, and the increasing global
+representation of space explorers11. Upcoming planetary missions will
+likely be multinational efforts, underscoring the need for global col-
+laboration in regard to the science, culture, and ethics behind space
+exploration. A new age of human space omics may likewise require
+international input due to both the various cultural aspects and the
+added technological, ethical, and philosophical complexities of
+working with human subjects.
+International Standards for Space Omics Processing (ISSOP)
+represents an international consortium of space omics scientists who
+formed after recognizing the need for standard guidelines in the
+emerging spaceﬂight omics discipline. ISSOP includes scientists with
+expertise across the full range of omics approaches who receive
+funding from academia, industry, and government agencies across a
+wide array of regions, including Japan, India, the Middle East, Canada,
+Europe, Russia, and the United States. By promoting communication
+exchange in the space omics discipline, ISSOP may be uniquely posi-
+tioned to support the development of an informed framework early on
+that can help maximize scientiﬁc discovery and minimize ethical pro-
+blems for an upcoming era of human space omics.
+In this paper, we consider how a future of precision space
+healthcare could improve the safety of human health during long-term
+spaceﬂight. We then discuss how careful standardization of space
+omics data is one component that may help implement this goal. To
+this end, we propose the development of a human cell atlas under
+spaceﬂight environmental conditions that could assist as an openly
+available, global resource for foundational space life science research.
+We then consider the complex ethical, cultural, and legal challenges
+intrinsic to the general discipline of human space omics, and how
+philosophical frameworks would likely need to be established with
+perspectives from international ethicists.
+Precision healthcare in space
+In the coming years, the spaceﬂight ﬁeld will likely observe diversiﬁ-
+cation of the ﬂying population, extended mission durations, and
+exposure to harsher radiation beyond LEO. These factors motivate an
+upgraded space healthcare model where nutritional, supplemental,
+and
+pharmaceutical
+decisions
+could
+be
+tailored
+to
+multiple
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+2
+
+Fig. 1 | Space Missions. A Violin plots showing the average time a given astronaut
+spends in space per mission (calculated as total time in space divided by number of
+missions) compared to the decade the astronaut ﬁrst went into space. Astronauts
+are colored by the number of missions they have been on, and shapes represent
+astronaut sex (females are triangles and males are circles). The average time spent
+in space ranged from minutes to one month in the 1960s, and from one day to
+under six months in the 1970s. In the 1980s through 2000s, the majority of
+astronauts spent an average of between one week and one month in space per
+mission, but many astronauts spent more than three months in space. Subse-
+quently, in the 2010s, the majority of astronauts spent an average of over three
+months in space per mission, whereas in the early 2020 s, there was the widest
+distribution of average time in space, ranging from ten minutes to six months.
+B The number of astronauts who have been in space by nationality. Bar plot shows
+the number of astronauts by the year of their ﬁrst mission whereas the pie chart
+shows the percentage of each nation’s contribution. Nations with only one astro-
+naut to ever go to space are colored green (4%), nations with only between two and
+ﬁve astronauts to go to space are colored lime green (3%), and astronauts with
+multiple nationalities are colored yellow (1%). Data was scraped from super-
+cluster.com on September 20th, 2021. Only astronauts who spent time in space and
+crossed the Kármán line are displayed.
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+3
+
+characteristics12,13. On Earth, there are already applications of precision
+health, where healthcare is informed based on omics, environmental,
+and lifestyle factors14. It seems probable that as connections between
+omics and spaceﬂight health ailments are slowly elucidated, similar
+approaches could be implemented in space. The purpose of custo-
+mizing spaceﬂight healthcare would not be to reduce spaceﬂight
+participation, but to promote the health of increasingly diverse parti-
+cipation that better reﬂects the sustained presence of the full inclusive
+range of humanity in space one day13.
+Countermeasure protocols for space missions can consist of
+evidence-based nutritional supplements, exercise regimes, stress-
+relieving techniques, and pharmacological interventions15. Moving
+forward, crew proﬁles could potentially improve medical risk assess-
+ment and countermeasures; optimize medical and nutritional pay-
+loads; increase crew safety and efﬁciency; and maximize the likelihood
+of mission success. In the next section, we will explore examples of
+how astronaut health and performance can be impacted by omic dif-
+ferences related to the metabolism of drugs, micronutrients, and
+macronutrients. We focus on metabolism because changes in mito-
+chondria, the key hub of metabolism, are a fundamental biological
+feature of spaceﬂight16.
+We note that the provocative nature of the spaceﬂight environ-
+ment may induce a large number of physiological and molecular
+changes on rapid time scales that may not necessarily be of health-
+related importance. As a result, scientists must cautiously avoid
+overassociating spaceﬂight omics changes with clinical meanings.
+Indeed, most human gene association studies on Earth are associative
+with many genome-wide association studies (GWAS) providing initial
+results that failed to hold up upon further testing. The risk of over-
+interpretation is particularly relevant in the ﬁeld of human space omics
+given the small sample sizes and the small number of studies3; the
+difﬁculty of securing suitable ground controls, both in omics and
+environment3,17; and the long number of years required to replicate
+ﬁndings. These problems are further ampliﬁed when studying the
+long-term effects of spaceﬂight outside of LEO. We emphasize that the
+following section mostly presents early evidence and even contra-
+dictions due to the current limitations of the human space omics ﬁeld,
+and that much more work would be needed in the coming decades to
+assess
+the
+validity
+of
+the
+below
+preliminary
+ﬁndings
+and
+interpretations.
+Drug metabolism in space
+Medical kits onboard the ISS contain pharmaceuticals to cover various
+medical events and emergencies, including injuries, illnesses, infec-
+tions, sleep disruptions, motion sickness, and cognitive and behavioral
+health conditions18. Documentation of medication usage has not been
+consistent, but studies suggest about 94% of crew members used
+medications at least once during space shuttle missions19. Despite the
+common use of medications to manage health concerns on orbit, few
+studies have explored how to reﬁne pharmaceutical applications in the
+unique environment of space. Preliminary evidence suggests that
+spaceﬂight may introduce impurity products, alter the physical
+appearance, and quicken the degradation of certain drugs before their
+expiration dates20,21. Although these investigations have been severely
+limited without adequate ground controls, they have underlined the
+need to verify if any spaceﬂight factors may affect pharmacokinetic
+and pharmacodynamic parameters that determine the pharmaceutical
+safety and efﬁcacy, and the mechanisms responsible for these
+effects22,23. These factors might include the space environment itself
+(such as chronic low-dose radiation) and/or confounding extraneous
+factors (such as temperature, humidity, and dosage repackaging
+commonly used to meet the limited volume constraints on space
+vehicles)18,22,24.
+Thorough metadata tabulation could eventually help unravel not
+only how to preserve drugs in space, but also how to better understand
+precision responses to such drugs. A recent pharmacogenetics study
+by the ESA demonstrated that allelic variation may inﬂuence the safety
+and effectiveness of how individual crew members metabolize drugs
+on the ISS. Researchers examined the 78 standard drugs permanently
+available on the ISS and found that the metabolism of 24 of them was
+signiﬁcantly affected by individual variants in genetic polymorphism
+enzymes25. This discovery suggested that almost one-third of drugs on
+the ISS may warrant personal dose adjustments or alternative thera-
+pies for crew memberswho have allelicpredispositions that can render
+them anywhere from poor metabolizers (with decreased drug clear-
+ance, increased plasma drug levels, and potential adverse drug
+response) to ultra-rapid metabolizers (with increased drug clearance,
+decreased
+plasma
+drug
+levels,
+and
+potential
+ineffective
+drug
+response). Populations throughout the world can have different fre-
+quencies
+of
+genetic
+polymorphism
+enzymes
+that
+affect
+drug
+metabolisms26; thus, pharmacogenetic screening of consenting astro-
+nauts
+from
+diverse
+backgrounds
+could
+better
+ensure
+equal
+representation27.
+Personal astronaut drug-metabolism proﬁles could be generated
+based on the two reaction phases of drug biotransformation. The ﬁrst
+drug biotransformation reaction produces a more water-soluble and
+less active metabolite usually through the hydroxylating enzyme
+superfamily known as Cytochrome P450 (CYP450). This enzyme
+superfamily is believed to account for 75% of total drug metabolism28.
+Indeed, CYPs have recently been suggested to be altered in ﬂight due
+to alterations in insulin and estrogen signaling29. Several CYP450 genes
+are highly polymorphic, producing enzyme variants that cause varia-
+bility in drug-metabolizing effects between groups. During mission
+planning, CYP450 genetic variant proﬁles for consenting astronauts
+could be generated and cross-referenced with mission drug lists to
+prevent scenarios in which crew members would otherwise metabolize
+drugs in harmful or inefﬁcient ways13. The second drug bio-
+transformation is usually a conjugation reaction wherein a small
+molecule binds to the drug metabolite and increases its solubility for
+excretion. For this situation, consenting astronauts could assess their
+pre-mission status of all nutrient cofactors and conjugation agents
+(such as glutathione, glycine, cysteine, arginine, and taurine) to inform
+their optimum conditions13.
+One concrete example of how CYP allelic variants could inform
+treatments during space exploration relates to acute radiation sickness
+(ARS)30. ARS is an accepted risk on orbit, and common medications to
+treat its primary symptoms of nausea and vomiting include ondanse-
+tron and granisetron, which are both metabolized differently in the
+liver based on individual CYP genetic polymorphisms. Speciﬁcally, the
+CYP2D6 enzyme metabolizes ondansetron, and, hence, groups who
+are ultra-rapid metabolizers of the CYP2D6 pathway have a higher risk
+of still vomiting within one day of radiotherapy with ondansetron31.
+These groups may beneﬁt from treating ARS with granisetron, which is
+instead metabolized by the CYP3A enzyme31. Another example of how
+CYP allelic variants could inform spaceﬂight therapies based on per-
+sonal predispositions relates to sleep drugs, which are commonly used
+by crew. In fact, 78% of shuttle crew reported taking zolpidem and
+zaleplon, powerful sleep pills, for more than half of the nights of their
+missions32. CYP3A polymorphisms are known to affect zolpidem
+metabolism33, but not zaleplon metabolism25, and astronauts could use
+this knowledge to more safely tailor their sleep-related treatments.
+It may also be meaningful to investigate optimal doses of medi-
+cations that are more tailored to the demanding lifestyles of astro-
+nauts. For example, unlike many individuals on Earth, astronauts on
+the ISS are occasionally awakened by alarmsduring scheduled sleeping
+shifts in order to perform emergency tasks that require effective
+cognitive and psychomotor capabilities34. A study at NASA Johnson
+Space Center found that subjects who consumed a higher dose of
+zolpidem before sleep experienced signiﬁcantly reduced cognitive
+and
+psychomotor
+performance
+during
+emergency
+awakenings;
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+4
+
+however, they found no similar impairments in subjects who con-
+sumed the lower dose of zolpidem, the dose of zaleplon, or the pla-
+cebo before sleep onset34. Hence, even though the approved doses of
+zolpidem and zaleplon may be ﬁt for most terrestrial applications, the
+unique duties during spaceﬂight may warrant adjusted recommended
+dosages of these, and possibly other, approved medications.
+Even the metabolism of medications may be altered in spaceﬂight
+compared to on Earth. The kidneys, which play a major role in drug
+excretion, may reduce urine output during weightlessness35. The liver,
+which is the main organ that metabolizes drugs and xenobiotics, may
+also behave differently between terrestrial and spaceﬂight conditions,
+although results have been conﬂicting: While some studies have
+reported an
+increase
+in
+hepatic
+blood
+ﬂow
+and
+size
+during
+spaceﬂight36, other studies have suggested a decrease in hepatic
+metabolism in space, which may roughly correspond to a decrease in
+hepatic blood ﬂow due to the hypovolemia that occurs on orbit37. Clear
+elucidation of potential differences between drug metabolism in ter-
+restrial versus orbital conditions will require further investigation, and
+any reliable ﬁndings could eventually be integrated for improved
+aerospace healthcare recommendations27.
+Micronutrient metabolism in space
+Recent studies are elucidating tentative relationships between omics
+and micronutrient intake that may link to adverse health events in
+space. One key example of this is one-carbon metabolism, which
+involves the transfer of methyl groups from donors (such as folate,
+B12, choline, and betaine). We note that many of the donors are
+essential inputs that must be obtained from the diet. The enzymes that
+regulate one-carbon metabolism are produced from highly poly-
+morphic methyltransferase genes; any possible ramiﬁcations for
+human spaceﬂight are only recently unfolding13.
+As an example, spaceﬂight-associated neuro-ocular syndrome
+(SANS) is a unique and distinctive clinical manifestation. It includes
+optic disk edema (swelling), choroidal folds, and focal areas of
+ischemic retina (cotton wool spots). This disease is believed to present
+in over 20% of astronauts both during and after short and long dura-
+tion spaceﬂight38. With no known terrestrial analogue, evidence-based
+countermeasures are only recently emerging; these include lower
+body negative pressure and nutritional supplementation39, the latter of
+which could be further reﬁned through omics studies. Indeed, one
+research group examined 49 astronauts and discovered that common
+variations in one-carbon metabolism genes, combined with lower
+levels of vitamins B2, B6, and B9, appeared to be associated with
+SANS40,41.
+In addition to poor neuro-ocular health, disordered one-carbon
+metabolism may play a role in bone fragility (with increased osteoclast
+activation and decreased osteoblast activity)13, hypertension (with
+increased intraocular pressure)42, and chromosome instability (with
+concurring folate deﬁciency increasing defective DNA repair)43. It is
+indicative that this single metabolic property may have wide-ranging
+impacts on some of the more perplexing health complications known
+to occur during spaceﬂight13. For these reasons, one-carbon metabo-
+lism is an example candidate for deeper research into a future preci-
+sion space medicine approach.
+There is likewise preliminary evidence that prolonged radiation
+exposure may interact with genetic polymorphisms that alter micro-
+nutrient metabolism, predisposing to disease in space. For example,
+there is precursory evidence suggesting that the space environment
+partially contributes to altered iron metabolism in astronauts44. Iron
+overload is believed to occur more often in individuals with allelic
+variants for hemochromatosis (HFE)45. Simultaneously, urinary mag-
+nesium (Mg) levels are reported to decrease during space missions,
+with a slight majority of post-spaceﬂight astronauts presenting with
+levels below minimum clinical guidelines46. Taken together, these
+provisional observations suggest that astronauts with HFE allelic
+variants maydevelop unusually high levels of iron when exposed to the
+space environment, which may induce oxidative stress and unstable
+DNA47. Given that Mg repairs DNA damage48, further research may be
+justiﬁed to examine whether convergent Mg deﬁciencies could com-
+plete a dangerous aggregation of risk events in a subset of astronauts
+who are susceptible to this array of environment, omics, and dietary
+intake parameters13. DNA stability is a leading human safety concern in
+space and hence it seems meaningful to investigate whether con-
+senting individuals can beneﬁt from optimizing any essential dietary
+inputs with relevance to DNA repair before, during, and after space-
+ﬂight based on precision risk proﬁles.
+The supplementation of Vitamin D, another important micro-
+nutrient, is regularly integrated into spaceﬂight nutrition programs49.
+While Vitamin D is well-known for its inﬂuence on bone production, it
+impacts several more biological processes, including immune system
+modulation. Its effect on immunity seems to be mediated by the
+Vitamin D receptor (VDR), expressed by antigen-presenting cells and
+activated T cells50. Conversely, Vitamin D and VDR are necessary to
+maintain a healthy number of regulatory T cells51. Allelic variants of the
+VDR gene appear to be associated with better response to Vitamin D
+supplementation52,
+and
+allelic
+variants
+of
+genes
+(such
+as
+7-Dehydrocholesterol reductase (DHCR7), a gene related to sterol
+metabolism) are believed to be related to improved Vitamin D meta-
+bolism and insulin resistance53. Therefore, poor Vitamin D status and
+metabolism of individuals during space missions, which already have
+inherent stressful elements, might negatively affect the immune sys-
+tems of astronauts, and this could potentially be mitigated through
+precision omics proﬁles.
+Macronutrient metabolism in space
+Differences in macronutrient consumption needs have been linked to
+variants in genes, such as the Retinoic acid receptor beta (RARB) gene,
+the DNA damage-regulated autophagy modulator 1 (DRAM1) gene, and
+the Fat mass and obesity-associated (FTO) gene54,55. Altogether, these
+variants appear to be associated with body composition, fat distribu-
+tion, and obesity risk in relation to carbohydrate, lipid, and protein
+intake54,55. Initial studies have suggested that endocrine changes linked
+to spaceﬂight modify metabolism and strengthen its association with
+alterations in astronaut body composition and nutritional intake
+needs56. It may be possible that long-duration space voyages could
+exacerbate dietary deﬁcits. The nutritional condition of astronauts
+appears to be affected by metabolic stress, changing gut ﬂora, altered
+feeding behavior, vitamin insufﬁciency, and electrolyte imbalance57.
+Maintaining energy balance in space missions will likely be critical for
+maintaining body fat muscle homeostasis58.
+These early ﬁndings imply a possibility that prolonged space
+exposure and dietary deﬁcits may interact with genetic polymorph-
+isms in a subset of astronauts to promote unusual pathologies that
+could be prevented by better nutritional information and health plans
+based on thorough research in the spaceﬂight omics discipline. It may
+hence be valuable to properly investigate and characterize any rela-
+tionships between micronutrients, macronutrients, pharmaceuticals,
+omics, and various spaceﬂight environmental factors. These relation-
+ships are complex and underline the critical usefulness for rigorous
+standardization of space omics data and metadata so that meta-
+analyses may one day disentangle more conﬁdently which factors are
+linked to preventable diseases at both the group and individual levels
+during spaceﬂight.
+Standardized space omics collection
+Standardization of space omics data and metadata would be an
+important component of a successful human space omics discipline.
+JAXA is currently conducting human liquid biopsy studies on the ISS.
+The main purpose of the studies is to investigate how the space
+environment affects humans at the tissue level. Besides fat and skin
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+5
+
+samples, which can be risky, whole-body solid tissue biopsies cannot
+typically be conducted in humans in space. As a result, the project
+proposes to perform minimally invasive liquid biopsies in astronauts.
+Liquid biopsies can detect cell-free components (microRNA, RNA,
+DNA, and extracellular vesicles) in the blood and scientists can esti-
+mate which tissues the cell components are derived from, allowing for
+full-body monitoring of omics responses. While solid biopsies only
+reﬂect a single time point of a single site on a single tissue, liquid
+biopsies can allow for a less invasive assessment of extracellular DNA
+and RNA in the plasma, which can represent molecular responses of
+the internal tissues in the body and can be obtained at repeated
+timepoints. The projectproposes to collectastronaut blood samples at
+multiple time points before, during, and after living on the ISS. Murine
+and human plasma samples may be processed using the same pro-
+cessing protocol, thereby allowing for direct comparison of human
+and veterinary patients in a minimally invasive fashion for both spe-
+cies. These unique data collections are expected to enable cross-
+species integrative data analysis of space environment effects on
+mammals in a manner that is less technically and ethically complex
+than previous methods.
+Moving forward, the majority of sampling on astronauts would
+likely consist of liquid biopsy approaches and other non-invasive
+and minimally invasive procedures. Traditional tissue biopsies carry
+a risk of infection and localized pain which could compromise
+astronaut health and performance in physical tasks such as space-
+walks. Furthermore, less invasive sampling methods are often quick
+to perform and do not require signiﬁcant recovery periods between
+samples, which can allow for more frequent sampling and thus
+greater temporal resolution of omic changes throughout missions.
+The feasibility of orbital sampling and readout can be explored for
+various biological sources, such as saliva, sweat, tears, urine, and
+nasal discharge, some of which have been reviewed in the context of
+human spaceﬂight elsewhere59. An increase in capabilities for
+inﬂight omic processing and readout could also enable inﬂight
+interventions to maintain health, such as nutritional supplements
+based on gene regulatory changes related to metabolism of speciﬁc
+vitamins.
+New metadata normalization is another example of a rising stan-
+dardization challenge that comes with the arrival of human space
+omics projects. Some key metadata parameters that should be col-
+lected from humans include environment, diet, nutrition, psychosocial
+dynamics,
+lifestyle,
+medical
+history,
+anthropometrics,
+and
+phenotypes13. Many of these metadata parameters have not been
+necessarily collected in space and hence have no standardization
+methods. For instance, wearable technology could be implemented to
+provide metadata of astronaut health, similar to ﬁtness trackers that
+have been successfully used on Earth to measure various medical
+parameters, including increased insulin resistance, which has also been
+observed in spaceﬂight60,61. At the same time, metadata can be misused
+to identify individual astronauts, an ethical problem that, unlike in
+model organism studies, has to be addressed. With a mission to con-
+tinuously improve recommended metadata normalization protocols
+for space omics data, ISSOP may help spark discussions needed to
+resolve some of these challenges.
+In addition to best efforts to standardize space omics studies62,
+increased resolution may help interpret allelic variants associated with
+disease risks by more precisely pinpointing cell types and states
+involved in biology. Achieving this goal relates back to our project
+exploring an example set of alleles that are putatively linked to pro-
+tective mechanisms, and their implications for therapeutic compound
+discovery
+and
+improved
+spaceﬂight
+nutrition
+and
+lifestyle
+recommendations63. As described next, extending standardized
+approaches toward space omics data that is higher in resolution could
+enable the generation of cell space atlases, which could further push
+forward a developing ﬁeld of precision space healthcare.
+Human cell space atlas
+To date, bulk transcriptomic technologies, such as RNA-sequencing
+(RNA-seq) and microarrays, have mostly been used to understand how
+spaceﬂight impacts physiology. These approaches have characterized
+physiology at the tissue level, composed of billions of diverse cells,
+rather than at the individual cell level. However, to obtain a thorough
+understanding of the complex dynamics that spaceﬂight causes in
+humans, there is a need to increase the analysis resolution level.
+In the Space Omics and Medical Atlas (SOMA), researchers recently
+collected high-resolution omics data from commercial astronauts
+during the Inspiration4 mission; the project included multi-omics
+spatial mapping, single-nucleus RNA-seq (snRNA-seq), single-cell RNA-
+seq (scRNA-seq), and single-cell Assay for Transposase-Accessible
+Chromatin sequencing (scATAC-seq). Civilian missions may greatly
+contribute to advancing the spaceﬂight omics ﬁeld, given that many
+commercial spaceﬂight participants have expressed voluntary interest
+in participating in space biomedical research and sharing data for
+biobanks and scientiﬁc publication64,65. These technological advances
+have created an unprecedented opportunity for in-depth molecular
+studies in space biology in the short- and middle-term future.
+In recent years, researchers on Earth have used high-resolution
+omics to create a plant cell atlas (PCA)66, mouse cell atlas (MCA)67, and
+human cell atlas (HCA)68. These initiatives aim to construct thorough
+spatial maps of all cells in organisms as references for research, diag-
+nosis, monitoring, and treatment of disease69, and assist in the devel-
+opment of better therapies. Contemporary routine blood tests that
+provide rough counts of white and red blood cells could become
+acutely more informative if cell types and states can be discerned with
+ﬁner granularity. This could lead to improved diagnostic tests that
+detect infections before clinical symptoms are present, representing a
+shift from reactionary treatment of health issues towards a pre-
+ventative approach69.
+As society becomes increasingly spacefaring, one can envision the
+development of parallel initiatives to the PCA, MCA, and HCA that are
+speciﬁc to the space environment (Fig. 2). A plant, mouse, and human
+cell space atlas (PCSA, MCSA, and HCSA) could improve our under-
+standing of how each system responds to spaceﬂight and hence
+enhance health monitoring capabilities during prolonged space mis-
+sions. Having access to the different changes occurring at the spatial
+cell type level in key organs between ground control and ﬂight con-
+ditions would allow researchers to better understand how cell-cell
+interactions are altered by spaceﬂight70,71,72.
+These insights could therefore lead to a more detailed compre-
+hension of how various botanical organisms, veterinarian patients, and
+human patients respond to spaceﬂight in order to design new and
+substantially more precise treatments as countermeasures for health
+in space. The cell space atlases could serve as openly available inter-
+nationalresources developed at the start of the humanspace omics era
+that span multiple generations to come, not only to characterize cel-
+lular responses to spaceﬂight but also to investigate how cell cross-talk
+is altered when the system is exposed to extreme environmental
+conditions like space.
+Human and model organism cell space atlases could be con-
+structed in a minimally invasive manner, using in vitro and ex vivo
+technologies. For example, tissue chips (organs on chips) could be
+viable options for high-resolution space omics studies73. In the past
+several years, a series of experiments have tested tissue chips on the
+ISS through the Tissue Chips in Space initiative, which is a partnership
+between the ISS National Lab and the National Center for Advancing
+Translational Sciences (NCATS) at the National Institutes for Health
+(NIH)74. Tissue chips are composed of human cells grown on artiﬁcial
+3D scaffolds to model the structure and function of human tissues,
+allowing researchers to assess how major organs and systems in the
+human body respond to the extreme environment of space. Real
+human tissues can also be studied in spaceﬂight following protocols
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+6
+
+similar to the Suture in Space initiative, where living tissue from
+biopsies are extracted and sutured together to serve as models to
+better understand physiological mechanisms in space, including
+wound repair and regeneration27. Engineers have already developed
+miniaturized equipment and automation procedures for tissue chips
+to be employed in low capacity during ﬂight missions. ESA plans to
+develop a 3D bioprinter for the ISS that could generate human tissue
+constructs in microgravity to study the complexity of cellular com-
+ponent responses to the space environment27. In addition to their role
+in potentially developing cell space atlases, personalized chips and
+tissues could also be exposed to extreme environments before
+missions to assess individual risks, and then could be placed on
+spaceﬂight
+to
+monitor
+health
+changes
+and
+test
+prospective
+countermeasures.
+We note that the omics methods used to construct cell space
+atlases may depend on whether sample processing occurs during
+spaceﬂight and/or back in terrestrial labs. For example, scRNA-seq
+approaches require fresh material, whereas snRNA-seq approaches
+can use frozen samples75. Spaceﬂight restrictions may also limit omics
+approaches: For instance, methods may initially be proteomics-based
+on orbit to successfully accommodate compact equipment that can
+operate at low power13. This could potentially lead to the generation of
+Fig. 2 | Cell space atlas. Multi-omic experiments, whether on Earth or in space, have
+a number of complexities when designing and comparing results to other pub-
+lished work. Namely, there are numerous models which could be leveraged to
+investigate the molecular (omic) changes in different organ systems using different
+technologies, which can then be processed and analyzed in numerous ways. Fur-
+ther, experiments conducted in space may be more inﬂuenced by environmental
+factors that are either regulated within the craft (such as oxygen) or not (such as
+radiation). These environmental factors are crucial to understanding results and
+can drastically vary by experiment. Given these complexities, understanding the
+environmental factors during a mission and the exact experimental design
+(including acquiring and analyzing the data), and standardizing them across
+agencies will be crucial to the development of aerospace multi omic analyses.
+Further, given the overall cost of these experiments as well as the limited resources
+to conduct them, this centralized and normalized database, which is accessible to
+other scientists, can assist our understanding of spaceﬂight risks, their counter
+measurements, and monitoring.
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+7
+
+a human protein space atlas that integrates spatial mapping of human
+proteomics into atlas efforts, paralleling the Human Protein Atlas
+project already initiated in terrestrial healthcare76.
+Overcoming these technical boundaries and optimizing the
+quality of these technically novel datasets would require input from
+experienced omics scientists with extensive knowledge about space-
+ﬂight biology. ISSOP is composed of members with stated missions to
+routinely update recommended sample processing guidelines for
+space omics datasets to allow for better harmonization of data and
+increased gain of knowledge77. Members have expertise related to the
+processing of multi-omics data samples, and several ISSOP members
+are prime contributors to the previously mentioned JAXA and NASA
+projects utilizing cutting-edge and high-resolution omics techniques.
+As a result, ISSOP could serve as a community that is integral for
+propelling the space omics ﬁeld into the next stage of innovation with
+projects related to themes such as the construction of cell space
+atlases.
+Alongside the technical challenges of constructing a human cell
+atlas for spaceﬂight, the generation and usage of human space omics
+data poses considerable ethical, cultural, and legal challenges that
+would need to be carefully resolved through policy development.
+Indeed, one motivation of the current perspective paper is to provide
+examples of the upcoming ethical and legal complexities inherent to
+the nascent human space omics discipline in order to encourage ear-
+lier discussions amongst international ethicists, philosophers, scien-
+tists, and the public community.
+Ethical and policy considerations
+As a consequence of the increasing adoption of human omics research
+in space, it has become crucial to increase standardization of policies
+for regulating the collection, storage, access, and usage of astronauts’
+(sometimes called spaceﬂight participants, or SFPs) omics data. Based
+on recommendations from a 2014 report by the National Academy of
+Medicine (formerly the Institute of Medicine)78, NASA instituted a
+policy (NPD 7170.1) regarding the collection and usage of genomic
+data for human research. However, we are not currently aware of other
+prominent space agencies - or commercial spaceﬂight companies -
+publishing public policies regarding astronaut or crew omics data.
+Notably, the United Nations recently formed a working group on
+“Space and Global Health”. In their draft resolution (A/AC.105/C.1/
+L.402), they encourage Member States to “establish a policy-enabled
+environment and governance mechanisms, with due consideration of
+legal and ethical issues, for removing barriers to the effective use of
+space-based technologies, including telemedicine solutions”. The
+current rarity of human omics collection and curation can be viewed as
+a barrier to the development and deployment of emerging space-
+based health technologies, including precision healthcare. Thus, in the
+following section, we consider legal and ethical challenges pertaining
+to policymaking in this context, concluding with some thoughts on
+how best to achieve balanced policies which support space omics
+research while protecting the rights of the participants (Fig. 3). Ethical
+considerations of human omics research is an emerging area for
+spaceﬂight79,80,59, this is just part of the bigger picture of space ethics81,
+and human omics research on Earth82.
+Dangers of restrictive policies: scientiﬁc potential unused
+As mentioned throughout this manuscript, standardized collection
+and curation of human space omics data has great potential to accel-
+erate scientiﬁc research into human health in space and enable the
+deployment of precision medicine technologies to improve occupa-
+tional healthcare during spaceﬂight missions. Therefore, under-
+utilization of the scientiﬁc and healthcare potential for human space
+omics data is the primary danger of overly restrictive policies.
+Firstly, if policies restrict the operational usage of human space
+omics data in occupational health processes, such as countermeasure
+design and long-term health monitoring, the full potential for reducing
+health risks might not be realized. Consequently, this could endanger
+crew members, reduce likelihood of mission success, and potentially
+infringe upon the duty of care space agencies have for their astronaut
+employees. This duty of care includes not just the immediate health
+and safety of astronauts during missions, but also their long-term
+health due to occupational exposures such as cosmic radiation78.
+Secondly, if policies do not allow for sufﬁcient data to be collected
+and processed from humans in space for research purposes, the pace
+of space life sciences research will be slower, with increased depen-
+dency on ground-based analogs. Similarly, restrictive policies for data
+accessibility/sharing would also slow the pace of research. When
+investigators contribute data to the scientiﬁc community through
+open-science initiatives, it can be analyzed via varied approaches,
+including comparatively to other datasets to yield novel insights. In the
+context of spaceﬂight omics data, the value of open-science has
+recently been demonstrated through a large-scale multi-omics analysis
+comparing datasets from the NASA GeneLab biorepository, to uncover
+mitochondrial dysregulation as a key hub of the biological response to
+Fig. 3 | Ethics. Policies pertaining to the collection, storage, and usage ofomics data
+from consenting astronauts and spaceﬂight participants would need to be carefully
+balanced. Thorough discussion amongst international ethicists could ensure that
+such policies are designed such that they are not so restrictive that they
+signiﬁcantly limit the potential for scientiﬁc progress and improved occupational
+healthcare in space, and not so permissible that they expose participants to
+ethical harms.
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+8
+
+spaceﬂight83. Biorepositories can be leveraged with “Big data”
+approaches, where patterns such as radiation sensitivity, can be
+learned via the application of machine learning methods to collections
+of multi-omics datasets84. With increased collection of omics data from
+humans in space, these kinds of approaches could be applied to
+human spaceﬂight, such as to predict susceptibility to radiation-based
+health issues in individual crewmembers85. Limiting accessibility to
+human space omics data creates a barrier to analysis efforts, thus every
+decrement from complete open access reduces the scientiﬁc utility of
+the data.
+A ﬁnal consequence of restrictive policies is reductions in the
+scope and precision of the data provided to the wider scientiﬁc com-
+munity. For the NASA Twins study, authors of one follow-up paper that
+accessed and reanalyzed the original study data indicated that single
+nucleotide polymorphisms (SNPs), indels, copy number variations
+(CNVs), and structural genomic elements could not be included in the
+publication for conﬁdentiality purposes86, thus limiting the scope of
+their public facing analysis. Regarding precision, efforts to anonymize
+and sanitize the data prior to data sharing - including data aggregation
+approaches and withholding metadata - could reduce the scientiﬁc
+utility, particularly as individual differences, such as gene variants
+associated with susceptibility to health issues, are essential informa-
+tion for unlocking precision healthcare approaches63.
+Dangers of permissible policies: exposure to ethical harms
+On the other hand, while scientiﬁc utilization of human space omics
+data could reduce health risks for crews, if policies are overly per-
+missible, omics research could also lead to harm by exposing human
+subjects to ethical issues. In the case of space agencies, this would also
+infringe on their duty of care to their astronaut employees. Due to the
+familial nature of genomics, these issues may also affect family mem-
+bers. Notably, compared to typical terrestrial cohorts, many of these
+ethical challenges are ampliﬁed by the unique nature of the space-
+faring population; astronauts areeasily identiﬁable due to their current
+rarity and status as public ﬁgures79.
+One ethical issue that is particularly ampliﬁed by the standing of
+astronauts is that of privacy. The term “genetic privacy” is used ubi-
+quitously, yet privacy breaches could apply to any identiﬁable omic-
+based personal data. Privacy breaches would involve disclosure of this
+data against the will of the participants, which could lead to psycho-
+logical harm. Speciﬁcally, policies may be considered overly permis-
+sible if they fail to account for the risks of identiﬁability from the full
+range of omic data types and data formats. It is well understood that
+individuals can be identiﬁed using genomics data, such as SNPs87.
+However,
+identiﬁcation
+via
+other
+omic
+data
+types,
+such
+as
+transcriptomics88, proteomics89,90, microbiomics91, and combinations
+of omic types (multi-omics)92, is a developing area of the literature.
+Identifying speciﬁc participants becomes possible through “linkage
+attacks” when phenotypic information is available in addition to the
+omics data88. Due to the nature of astronauts as public ﬁgures, phe-
+notypic information such as ethnicity, age, and biological sex is readily
+available to the public. The small population size also means that the
+number of possible matches is limited, increasing the likelihood of
+successful linkage attacks. Aside from linkage attacks, privacy may also
+be violated via attacks on the data storage system. Thus, policies may
+be considered overly permissible if they do not ensure appropriate
+security and safeguarding mechanisms against data breaches.
+Relating to the issue of privacy is the ethical issue of genetic dis-
+crimination, which refers to individuals receiving differential or unfair
+treatment based on their genetic data. Policies permitting space
+agencies to use omics data predictive of health issues, such as genetic
+variants, in astronaut selection or during processes such as ﬂight
+assignment, could be seen as discriminatory. Indeed, many countries
+worldwide have enacted laws to prevent the use of genetic information
+in employment decisions93. It is worth noting that this is somewhat of a
+controversial and complex topic; for example, in the United States, the
+military can use routine genetic screening results to inform assignment
+decisions, such as to withhold deploying troops with G6PD deﬁciency
+to locations which would require them to take antimalarial drugs, since
+doing so can cause life-threatening hemolytic reactions94. While the
+United States Space Force could present an interesting exception,
+NASA is not a branch of the military, so it is subject to the Genetic
+Information Nondiscrimination Act 2008 (GINA), and therefore it
+would seem that it cannot use omic information in assignment and
+employment decisions79, which is also aligned with the current NASA
+policy (NPD 7170.1). However, even with precision medicine approa-
+ches,
+sending
+an
+individual
+with
+a
+genetic
+predisposition
+to
+spaceﬂight-associated risks, such as radiation susceptibility, on a long-
+duration mission to Mars may still increase the likelihood of a serious
+medical incident. Thus, it has been suggested that omic information
+would be useful for spaceﬂight selection and assignment processes95.
+This presents an ethical dilemma, where on the one hand, using omic
+information for ﬂight assignment without the individual’s consent
+could be seen as discriminatory, and on the other hand, not doing so
+could potentially endanger the crew and reduce likelihood of mission
+safety and success. An additional consideration here is that some
+spaceﬂight-relevant genetic mutations may be linked to certain
+populations on Earth, which raises further issues of equity63. Using
+omics for precision healthcare does appear to be supported under the
+current NASA policy and GINA80, and this could hopefully decrease
+health risks associated with individual differences during spaceﬂight
+missions to an acceptable level, while refraining from using omics
+information for employment selection and ﬂight assignment. Alto-
+gether, this balance may align with what is perhaps the current con-
+sensus for an appropriate compromise, based on regulations in many
+regions worldwide.
+One further ethical issue that will be faced by space agencies and
+commercial spaceﬂight companies collecting astronaut omics is the
+risk of incidental ﬁndings80. For example, collection and analysis of
+astronaut omics data could reveal unexpected ﬁndings, such as pre-
+disposition to late onset Alzheimer’s disease. In some cases, these
+ﬁndings may not be medically actionable. Disclosing these ﬁndings to
+the astronaut could cause them and their family members psycholo-
+gical harm. Policies would be seen as overly permissible if they do not
+factor in the risk of incidental ﬁndings and fail to implement appro-
+priate and clear procedures for disclosure and genetic counseling.
+Keys to developing balanced policies
+Ultimately, policymaking forhuman space omics should be considered
+as a balancing act between developing policies that are not so overly
+restrictive that they limit the scientiﬁc potential of the data, and not so
+overly permissible that they invoke risk and expose participants and
+their families to harm. Standardization of policies could ensure that an
+appropriate balance is struck, safeguarding against ethical risks, while
+enabling appropriate accessibility for scientiﬁc and healthcare utili-
+zation of the data. This need for balance is embedded into the mixed
+role of space agencies, as research institutions and clinical care pro-
+viders for astronaut employees80. While each dataset may still need to
+be considered on a case-by-case basis, such as for assessing identiﬁa-
+bility of the data, clear policy frameworks could reduce bias and help
+to prevent unwarranted delays associated with unstandardized policy.
+As the number of humans and enterprises in space increases, and the
+understanding of omics increases in the context of ethical issues
+including privacy and discrimination, standards will need to be con-
+tinually reassessed and updated.
+It is worth noting that while ethical challenges such as privacy are
+certainly ampliﬁed at present by the relatively unique standing of
+astronauts as a small cohort of ﬁgures in the public spotlight, to some
+extent, these issues are also shared by rare disease cohorts and elite
+athlete cohorts on Earth, and so existing policies in areas including
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+9
+
+handling incidental ﬁndings and data sharing appear to present an apt
+starting point for discussion96.
+It is essential that standardization of policymaking for human
+space omics be considered with an international perspective, as space
+agencies and commercial companies are subject to different laws
+based on geographical region, and may also be inﬂuenced by cultural
+differences81,97. For example, laws surrounding genetic discrimination
+and handling of incidental ﬁndings vary internationally93,98. Where
+appropriate, policies should aim to ﬁnd harmonious solutions within
+the framework of internationally established legislation, such as the
+Declaration of Helsinki99, respecting the rights of the human data
+subjects while giving careful consideration to the speciﬁc challenges of
+the astronaut or crew population and the societal role of human
+spaceﬂight. On the ISS, the IGA (intergovernmental agreement)
+extends the jurisdiction of countries to their registered elements and
+personnel; for example, European law applies to European astronauts
+and the Columbus laboratory module on the ISS, with the existence of
+member state national laws adding further complexity59. Conversely,
+the Human Research Multilateral Review Board (HRMRB) is a review
+board between international partners to ensure that all human subject
+research onboard the ISS is conducted ethically according to inter-
+nationally agreed principles. It is likely that future missions, including
+commercial missions involving multi-national participants, will require
+similar navigation of international laws to create policies. This need to
+design harmonious international policy raises concerns over fairness;
+for example, if a country has more restrictive laws in areas such as data
+protection, it may become challenging for citizens of that country to
+participate in international space missions, omic studies, and omic-
+based technologies such as precision healthcare.
+Similarly, given the role of international collaboration in human
+spaceﬂight research, establishing clear and harmonious policies for
+lawful sharing and processing of human space omics data will be
+crucial100. Where human space omics data is deemed to be identiﬁable,
+databases should adhere to high standards of security, and access
+levels or other technical solutions for reducing ethical harm risks
+should be considered101. For example, data sanitization methods can
+manipulate the data to reduce the risk of identiﬁcation88, but should be
+balanced against the potential loss of scientiﬁc utility. Additionally,
+federated approaches102, such as federating learning for training AI
+models without moving the data across jurisdictions, could prove
+useful103,104. In adherence to FAIR (Findable, Accessible, Interoperable
+and Reusable) principles105, human space omics data should be as “as
+open as possible, as closed as necessary”, in order to maximize sci-
+entiﬁc utility while protecting the rights of the participants.
+Furthermore, an important aspect of developing appropriate
+policies will be striving for meaningful informed consent from parti-
+cipants, both in terms of consenting to venture into space, and con-
+senting to the collection, usage, and sharing of their omics data. To the
+former point, omics technologies, such as predicted risk based on
+individual differences, could help to provide participants with addi-
+tional data, enabling greater decision autonomy to improve the
+informed consent process for space travel. Broad consent has been
+proposed as a potential solution to gain consent in the context of
+omics research, where it may be hard to deﬁne future uses of the data
+at a granular level, and the identiﬁability risks of different omics data
+types may be challenging to accurately quantify106. When carefully
+implemented, it has been argued that broad consent may be an
+appropriate choice for obtaining consent in the context of space omics
+studies and has been used in the recent commercial spaceﬂight health
+data repository established by the Cornell Aerospace Medicine Bio-
+bank and the Translational Research Institute for Space Health
+(TRISH)65.
+Discussions regarding the development of appropriate policies
+need to commence early, so that anticipatory policies are ready as the
+science is ready80. With deep molecular proﬁling of astronauts now at
+the forefront of space biology research, and a key part of the climate of
+commercial spaceﬂight and ambitious missions outside of LEO, now
+would seem the opportune time to kick-start discussions into appro-
+priate policy design. ISSOP, with its international membership and
+links to NASA GeneLab and the ESA Space Omics Topical Team, is well
+positioned to help guide standardization of policy-making regarding
+astronaut or commercial crews’ omics data, particularly from a scien-
+tiﬁc perspective. ISSOP can workclosely with groups such asthe Global
+Alliance for Genomic Health (GA4GH) to merge expertise in spaceﬂight
+omics research and terrestrial omics policymaking, which could help
+to ensure that policies maximize scientiﬁc utility while protecting the
+rights of the astronauts and crews.
+Conclusions
+In the coming years, humans may venture into space for unprece-
+dented durations and distances outside of the Earth’s radio-
+protective magnetosphere. Resupply and evacuation would be
+precluded in some cases, calling for a modernized spaceﬂight
+nutrition, wellness, and telehealth ﬁeld that would likely incorporate
+molecular omics. Precision healthcare is becoming more common-
+place for populations on Earth, where international consortiums are
+using high-resolution omics to construct the Human Cell Atlas. It
+seems probable that as increasingly large and diverse populations
+enter space, the purposeful implementation of routine standardized
+omics with consenting participants during spaceﬂight could similarly
+permit precision space healthcare and a Human Cell Space Atlas. The
+cell space atlas could serve as an open access, global reference for
+basic space life science research. While human space omics could
+catalyze critical improvement of safety measures for future space
+travelers, numerous ethical, cultural, and legal challenges would
+need to be carefully surmounted from global viewpoints. This
+manuscript provided examples of both the potential healthcare
+beneﬁts and the ethical complexities that will likely be inherent to the
+human space omics discipline as a means to encourage anticipatory
+discussions amongst international ethicists, philosophers, scientists,
+and the public community.
+References
+1.
+Summers, R. L., Johnston, S. L., Marshburn, T. H. & Williams, D. R.
+Emergencies in space. Ann. Emerg. Med. 46, 177–184 (2005).
+2.
+Gao, P. et al. Precision environmental health monitoring by long-
+itudinal exposome and multi-omics proﬁling. Genome Res. 32,
+1199–1214 (2022).
+3.
+Garrett-Bakelman, F. E. et al. The NASA Twins Study: A multi-
+dimensional analysis of a year-long human spaceﬂight. Science
+364, eaau8650 (2019). The study compared identical twin
+astronauts (one in spaceﬂight and one on Earth) and demon-
+strated the importance of integrating various modalities
+(including omics) to more comprehensively understand the
+longitudinal effects of long-duration spaceﬂight on the
+human body.
+4.
+Mason, C. E. The Next 500 Years: Engineering Life to Reach New
+Worlds. (MIT Press, 2021).
+5.
+Da Silveira W. A. et al. Revamping Space-omics in Europe. Cell
+Syst. 11, 555–556 (2020).
+6.
+Deane, C. S., da Silveira, W. A. & Herranz, R., Space Omics Topical
+Team. Space omics research in Europe: Contributions, geo-
+graphical distribution and ESA member state funding schemes.
+iScience 25, 103920 (2022).
+7.
+Berrios, D. C., Galazka, J., Grigorev, K., Gebre, S. & Costes, S. V.
+NASA GeneLab: interfaces for the exploration of space omics
+data. Nucleic Acids Res. 49, D1515–D1522 (2021).
+8.
+Dursi, L. J. et al. CanDIG: Federated network across Canada for
+multi-omic and health data discovery and analysis. Cell Genom. 1,
+100033 (2021).
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+10
+
+9.
+Brzhozovskiy, A. et al. Label-free study of cosmonaut’s urinary
+proteome changes after long-duration spaceﬂights. Eur. J. Mass
+Spectrom. 23, 225–229 (2017).
+10.
+Liu, Z. et al. Effects of spaceﬂight on the composition and function
+of the human gut microbiota. Gut Microbes 11, 807–819 (2020).
+11.
+Ansdell, M., Ehrenfreund, P. & McKay, C. Stepping stones toward
+global space exploration. Acta Astronaut. 68, 2098–2113 (2011).
+12.
+Schmidt, M. A., Schmidt, C. M., Hubbard, R. M. & Mason, C. E. Why
+personalized medicine is the frontier of medicine and perfor-
+mance for humans in space. New Space 8, 63–76 (2020).
+13.
+Schmidt, M. A. & Goodwin, T. J. Personalized medicine in human
+space ﬂight: using Omics based analyses to develop individua-
+lized countermeasures that enhance astronaut safety and perfor-
+mance. Metabolomics 9, 1134–1156 (2013).
+14.
+Ginsburg, G. S. & Phillips, K. A. Precision medicine: from science to
+value. Health Affairs 37, 694–701 (2018).
+15.
+Makedonas, G. et al. Speciﬁc immunologic countermeasure pro-
+tocol for deep-space exploration missions. Front. Immunol. 10,
+2407 (2019).
+16.
+Afshinnekoo, E. et al. Fundamental biological features of space-
+ﬂight: advancing the ﬁeld to enable deep-space exploration. Cell
+184, 6002 (2021).
+17.
+Jost, P. D. Simulating human space physiology with bed rest.
+Hippokratia 12, 37–40 (2008).
+18.
+Wotring, V. E. The risk of therapeutic failure due to ineffective
+medications Technical Report NASA/JSC-CN-24713 (National
+Aeronautics and Space Administration, 2011).
+19.
+Putcha, L., Berens, K. L., Marshburn, T. H., Ortega, H. J. & Billica, R.
+D. Pharmaceutical use by U.S. astronauts on space shuttle mis-
+sions. Aviat. Space Environ. Med. 70, 705–708 (1999).
+20.
+Wotring, V. E. Chemical potency and degradation products of
+medications stored over 550 earth days at the International Space
+Station. AAPS J. 18, 210–216 (2016).
+21.
+Du, B. et al. Evaluation of physical and chemical changes in
+pharmaceuticals ﬂown on space missions. AAPS J. 13,
+299–308 (2011).
+22.
+Blue, R. S. et al. Supplying a pharmacy for NASA exploration
+spaceﬂight: challenges and current understanding. NPJ Micro-
+gravity 5, 14 (2019).
+23.
+Kast, J., Yu, Y., Seubert, C. N., Wotring, V. E. & Derendorf, H. Drugs
+in space: pharmacokinetics and pharmacodynamics in astronauts.
+Eur. J. Pharm. Sci. 109S, S2–S8 (2017).
+24.
+Kim, M. & Plante, I. An Assessment of How Radiation Incurred
+during a Mars Mission Could Affect Food and Pharmaceuticals.
+(Wyle Science, Technology, and Engineering Group, 2015).
+25.
+Stingl, J. C., Welker, S., Hartmann, G., Damann, V. & Gerzer, R.
+Where failure is not an option—personalized medicine in astro-
+nauts. PLoS ONE 10, e0140764 (2015).
+26.
+Gaedigk, A., Sangkuhl, K., Whirl-Carrillo, M., Klein, T. & Leeder, J. S.
+Prediction of CYP2D6 phenotype from genotype across world
+populations. Genet. Med. 19, 69–76 (2017).
+27.
+Pavez Loriè, E. et al. The future of personalized medicine in space:
+from observations to countermeasures. Front. Bioeng. Biotechnol.
+9, 739747 (2021).
+28.
+Guengerich, F. P. & Peter Guengerich, F. Cytochrome P450 and
+chemical toxicology. Chemical Research in Toxicology 21,
+70–83 (2008).
+29.
+Mathyk, B. A. et al. Spaceﬂight alters insulin and estrogen sig-
+naling pathways. Res. Sq. https://doi.org/10.21203/rs.3.rs-
+2362750/v1 (2023).
+30.
+Chancellor, J. C. et al. Limitations in predicting the space radiation
+health risk for exploration astronauts. NPJ Microgravity 4, 8 (2018).
+31.
+Blue, R. S. et al. Challenges in clinical management of radiation-
+induced illnesses during exploration spaceﬂight. Aerosp. Med
+Hum. Perform. 90, 966–977 (2019).
+32.
+Barger, L. K. et al. Prevalence of sleep deﬁciency and use of
+hypnotic drugs in astronauts before, during, and after spaceﬂight:
+an observational study. Lancet Neurol. 13, 904–912 (2014).
+33.
+Moltke, L. L. V. et al. Zolpidem metabolism in vitro: responsible
+cytochromes, chemical inhibitors, and in vivo correlations. Br. J.
+Clin. Pharmacol. 48, 89–97 (1999).
+34.
+Dinges, D. F., Basner, M., Ecker, A. J., Baskin, P. & Johnston, S. L.
+Effects of zolpidem and zaleplon on cognitive performance after
+emergent morning awakenings at Tmax: a randomized placebo-
+controlled trial. Sleep 42, zsy258 (2019).
+35.
+Norsk, P. et al. Unexpected renal responses in space. Lancet 356,
+1577–1578 (2000).
+36.
+Grigoriev, A. I. et al. Preliminary medical results of the Mir year-
+long mission. Acta Astronaut 23, 1–8 (1991).
+37.
+Dello Russo, C. et al. Physiological adaptations affecting drug
+pharmacokinetics in space: what do we really know? A critical
+review of the literature. Br. J. Pharmacol. 179, 2538–2557 (2022).
+38.
+Lee, A. G. et al. Spaceﬂight associated neuro-ocular syndrome
+(SANS) and the neuro-ophthalmologic effects of microgravity: a
+review and an update. npj Microgravity 6, https://doi.org/10.1038/
+s41526-020-0097-9 (2020).
+39.
+Ong, J. et al. Spaceﬂight associated neuro-ocular syndrome:
+proposed pathogenesis, terrestrial analogues, and emerging
+countermeasures. Br. J. Ophthalmol. 107, 895–900 (2023).
+40.
+Zwart, S. et al. Vision changes after spaceﬂight are related to
+alterations in folate– and vitamin B-12–dependent one-carbon
+metabolism. SciVee https://doi.org/10.4016/38821.01 (2012).
+41.
+Zwart,S. R. et al. Genotype, B-vitamin status, and androgens affect
+spaceﬂight-induced ophthalmic changes. FASEB J. 30, 141–148
+(2016). The research documented an association between
+polymorphisms, vitamin B status, and spaceﬂight-induced
+vision ailments, suggesting the importance of optimizing
+nutrition during space missions.
+42.
+Kesler, A. et al. Thrombophilic factors in idiopathic intracranial
+hypertension: a report of 51 patients and a meta-analysis. Blood
+Coagulation Fibrinolysis 21, 328–333. https://doi.org/10.1097/
+mbc.0b013e328338ce12 (2010).
+43.
+Fenech, M. Folate (vitamin B9) and vitamin B12 and their function
+in the maintenance of nuclear and mitochondrial genome integ-
+rity. Mutat. Res. 733, 21–33 (2012).
+44.
+Smith, S. M. Red blood cell and iron metabolism during space
+ﬂight. Nutrition 18, 864–866 (2002).
+45.
+Jahanshad, N. et al. Brain structure in healthy adults is related to
+serum transferrin and the H63D polymorphism in the HFE gene.
+Proc. Natl Acad. Sci. USA 109, E851–E859 (2012).
+46.
+Smith, S. M., Zwart, S. R., Block, G., Rice, B. L. & Davis-Street, J. E.
+The nutritional status of astronautsis altered after long-term space
+ﬂight aboard the International Space Station. J. Nutr. 135,
+437–443 (2005).
+47.
+Broedbaek, K. et al. Urinary excretion of biomarkers of oxidatively
+damaged DNA and RNA in hereditary hemochromatosis. Free
+Radic. Biol. Med. 47, 1230–1233 (2009).
+48.
+Hartwig, A. Role of magnesium in genomic stability. Mutat. Res.
+475, 113–121 (2001).
+49.
+Lang, T. et al. Towards human exploration of space: the THESEUS
+review series on muscle and bone research priorities. NPJ Micro-
+gravity 3, 8 (2017).
+50.
+Prietl, B., Treiber, G., Pieber, T. & Amrein, K. Vitamin D and immune
+function. Nutrients 5, 2502–2521 (2013).
+51.
+Kongsbak, M., Levring, T. B., Geisler, C. & von Essen, M. R. The
+vitamin D receptor and T cell function. Front. Immunol. 4, https://
+doi.org/10.3389/ﬁmmu.2013.00148 (2013).
+52.
+Usategui-Martín, R., De Luis-Román, D.-A., Fernández-Gómez, J.
+M., Ruiz-Mambrilla, M. & Pérez-Castrillón, J.-L. Vitamin D receptor
+(VDR) gene polymorphisms modify the response to vitamin D
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+11
+
+supplementation: a systematic review and meta-analysis. Nutri-
+ents 14, 360 (2022).
+53.
+Qi, Q. et al. Vitamin D metabolism-related genetic variants, dietary
+protein intake and improvement of insulin resistance in a 2 year
+weight-loss trial: POUNDS Lost. Diabetologia 58, 2791–2799 (2015).
+54.
+Merino, J. et al. Genome-wide meta-analysis of macronutrient
+intake of 91,114 European ancestry participants from the cohorts
+for heart and aging research in genomic epidemiology con-
+sortium. Mol. Psychiatry 24, 1920–1932 (2019).
+55.
+Zhang, X. et al. FTO genotype and 2-year change in body com-
+position and fat distribution in response to weight-loss diets: the
+POUNDS LOST Trial. Diabetes 61, 3005–3011 (2012).
+56.
+Leach, C. S., Johnson, P. C. & Cintron, N. M. The endocrine system
+in space ﬂight. Acta Astronautica 17, 161–166 (1988).
+57.
+Bergouignan, A. et al. Towards human exploration of space: The
+THESEUS review series on nutrition and metabolism research
+priorities. NPJ Microgravity 2, 16029 (2016).
+58.
+Heer, M., De Santo, N. G., Cirillo, M. & Drummer, C. Body mass
+changes, energy, and protein metabolism in space. Am. J. Kidney
+Dis. 38, 691–695 (2001).
+59.
+Cope, H. et al. Routine omics collection is a golden opportunity for
+European human research in space and analog environments.
+Patterns Prejudice 3, 100550 (2022).
+60.
+Li, X. et al. Digital health: tracking physiomes and activity using
+wearable biosensors reveals useful health-related information.
+PLoS Biol. 15, e2001402 (2017).
+61.
+Hughson, R. L. et al. Increased postﬂight carotid artery stiffness
+and inﬂight insulin resistance resulting from 6-mo spaceﬂight in
+male and female astronauts. Am. J. Physiol. Heart Circ. Physiol.
+310, H628–H638 (2016).
+62.
+Overbey, E. G. et al. Challenges and considerations for single-cell
+and spatially resolved transcriptomics sample collection during
+spaceﬂight. Cell Rep. Methods 2, 100325 (2022).
+63.
+Rutter, L. A. et al. Protective alleles and precision healthcare in
+crewed spaceﬂight. Nat. Commun. (2024).
+64.
+Stepanek, J., Blue, R. S. & Parazynski, S. Space medicine in the
+era of civilian spaceﬂight. Reply. N. Engl. J. Med. 380,
+e50 (2019).
+65.
+Urquieta, E., Wu, J., Hury, J. & Donoviel, D. Establishment of an
+open biomedical database for commercial spaceﬂight. Nat. Med.
+28, 611–612 (2022).
+66.
+Rhee, S. Y., Birnbaum, K. D. & Ehrhardt, D. W. Towards building a
+Plant Cell Atlas. Trends Plant Sci. 24, 303–310 (2019).
+67.
+Han, X. et al. Mapping the mouse cell Atlas by microwell-seq. Cell
+173, 1307 (2018).
+68.
+Regev, A. et al. The Human Cell Atlas. Elife 6, (2017). The project
+describes the international collaboration to create a Human
+Cell Atlas that can provide better resolution of cellular dys-
+function in human diseases.
+69.
+Rozenblatt-Rosen, O., Stubbington, M. J. T., Regev, A. & Teich-
+mann, S. A. The Human Cell Atlas: from vision to reality. Nature
+550, 451–453 (2017).
+70.
+Masarapu, Y. et al. Spatially resolved multiomics on the neuronal
+effects induced by spaceﬂigh. Nat. Commun. https://doi.org/10.
+1038/s41467-024-48916-8 (2024).
+71.
+Elmentaite, R., Teichmann, S. A. & Madissoon, E. Studying immune
+to non-immune cell cross-talk using single-cell technologies.
+Curr. Opin. Syst. Biol. 18, 87–94 (2019).
+72.
+Almet, A. A., Cang, Z., Jin, S. & Nie, Q. The landscape of cell–cell
+communication through single-cell transcriptomics. Curr. Opin.
+Syst. Biol. 26, 12–23. https://doi.org/10.1016/j.coisb.2021.03.
+007 (2021).
+73.
+Zhang, B., Korolj, A., Lai, B. F. L. & Radisic, M. Advances in
+organ-on-a-chip engineering. Nat. Rev. Mater. 3, 257–278
+(2018).
+74.
+Low, L. A. & Giulianotti, M. A. Tissue chips in space: modeling
+human diseases in microgravity. Pharm. Res. 37, 8 (2019). The
+paper introduces the Tissue Chips in Space initiative, which will
+facilitate the use of “organ-on-chips” and “tissue chips” to
+study how in-vitro models of human organs and tissues respond
+to spaceﬂight.
+75.
+Slyper, M. et al. A single-cell and single-nucleus RNA-Seq toolbox
+for fresh and frozen human tumors. Nat. Med. 26, 792–802 (2020).
+76.
+Thul, P. J. & Lindskog, C. The human protein atlas: A spatial map of
+the human proteome. Protein Sci. 27, 233–244 (2018).
+77.
+Rutter, L. et al. A new era for space life science: international
+standards for space omics processing. Patterns 100148. https://
+doi.org/10.1016/j.patter.2020.100148 (2020).
+78.
+Committee on Ethics Principles and Guidelines for Health Stan-
+dards for Long Duration and Exploration Spaceﬂights, Board on
+Health Sciences Policy & Institute of Medicine. Health Standards
+for Long Duration and Exploration Spaceﬂight: Ethics Principles,
+Responsibilities, and Decision Framework. (National Academies
+Press, 2014).
+79.
+Reed, R. D. & Antonsen, E. L. Should NASA Collect Astronauts’
+Genetic Information for Occupational Surveillance and Research?
+AMA J. Ethics 20, E849–E856 (2018).
+80.
+Antonsen, E. L. & Reed, R. D. Policy Considerations for Precision
+Medicine in Human Spaceﬂight. Houst. J. Health Law Policy (2019).
+The paper examines the need for anticipatory considerations of
+cultural, legal, and ethical issues as the precision healthcare
+ﬁeld begins to be applied to spaceﬂight.
+81.
+Arnould, J. Icarus’ Second Chance: The Basis and Perspectives of
+Space Ethics (Springer Science & Business Media, 2011).
+82.
+Knoppers, B. M. International ethics harmonization and the global
+alliance for genomics and health. Genome Med. 6, 13 (2014).
+83.
+da Silveira, W. A. et al. Comprehensive multi-omics analysis
+reveals mitochondrial stress as a central biological hub for
+spaceﬂight impact. Cell 183, 1185–1201.e20 (2020).
+84.
+Lewis, J. E. & Kemp, M. L. Integration of machine learning and
+genome-scale metabolic modeling identiﬁes multi-omics bio-
+markers for radiation resistance. Nat. Commun. 12, 2700 (2021).
+85.
+Belli, M., Sapora, O. & Tabocchini, M. A. Molecular targets in cel-
+lular response to ionizing radiation and implications in space
+radiation protection. J. Radiat. Res. 43, S13–S19 (2002).
+86.
+Schmidt, M. A., Meydan, C., Schmidt, C. M., Afshinnekoo, E. &
+Mason, C. E. The NASA twins study: the effect of one year in space
+on long-chain fatty acid desaturases and elongases. Lifestyle
+Genom. 13, 107–121 (2020).
+87.
+Lippert, C. et al. Identiﬁcation of individuals by trait prediction
+using whole-genome sequencing data. Proc. Natl Acad. Sci. USA
+114, 10166–10171 (2017).
+88.
+Gürsoy, G. et al. Data sanitization to reduce private information
+leakage from functional genomics. Cell 183, 905–917.e16 (2020).
+89.
+Geyer, P. E., Mann, S. P., Treit, P. V. & Mann, M. Plasma proteomes
+can be reidentiﬁable and potentially contain personally sensitive
+and incidental ﬁndings. Mol. Cell. Proteom. 20, 100035 (2021).
+90.
+Bandeira, N., Deutsch, E. W., Kohlbacher, O., Martens, L. & Viz-
+caíno, J. A. Data management of sensitive human proteomics data:
+current practices, recommendations, and perspectives for the
+future. Mol. Cell. Proteom. 20, 100071 (2021).
+91.
+Elhaik, E., Ahsanuddin, S., Robinson, J. M., Foster, E. M. & Mason, C.
+E. The impact of cross-kingdom molecular forensics on genetic
+privacy. Microbiome 9. https://doi.org/10.1186/s40168-021-
+01076-z (2021).
+92.
+Dupras, C. & Bunnik, E. M. Toward a framework for assessing
+privacy risks in multi-omic research and databases. Am. J.
+Bioethics 21, 46–64 (2021).
+93.
+Joly, Y., Dupras, C., Pinkesz, M., Tovino, S. A. & Rothstein, M. A.
+Looking beyond GINA: policy approaches to address genetic
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+12
+
+discrimination. Annu. Rev. Genomics Hum. Genet. 21,
+491–507 (2020).
+94.
+Mehlman, M. J. & Parasidis, E. Predictive genetic testing by the U.S.
+military: legal and ethical issues. Mil. Med. 186, 726–732 (2021).
+95.
+Cortese, F. et al. Vive la radiorésistance!: converging research in
+radiobiology and biogerontology to enhance human radio-
+resistance for deep space exploration and colonization. Onco-
+target 9, 14692–14722 (2018).
+96.
+Nguyen, M. T. et al. Model consent clauses for rare disease
+research. BMC Med. Ethics 20, 55 (2019). The paper demon-
+strates how global task forces can work together to improve
+consent procedures for rare disease research, which may be
+applicable to space travelers (who are also small in number and
+may present with conditions not present in the terrestrial
+population).
+97.
+Boyd, J. E. et al. Cultural differences in crewmembers and mission
+control personnel during two space station programs. Aviat.
+Space Environ. Med. 80, 532–540 (2009).
+98.
+Thorogood, A., Dalpé, G. & Knoppers, B. M. Return of individual
+genomic research results: are laws and policies keeping step? Eur.
+J. Hum. Genet. 27, 535–546 (2019).
+99.
+World Medical Association World Medical Association Declaration
+of Helsinki: ethical principles for medical research involving
+human subjects. JAMA 310, 2191–2194 (2013).
+100. Saulnier, K. M. et al. Beneﬁts and barriers in the design of har-
+monized access agreements for international data sharing. Sci.
+Data 6, 297 (2019).
+101.
+Kaye, J. et al. Access Governance for Biobanks: The Case of the
+BioSHaRE-EU Cohorts. Biopreserv. Biobank. 14, 201–206 (2016).
+102.
+Thorogood, A. et al. International Federation of Genomic Medicine
+Databases using GA4GH standards. Cell Genom. 1, 100032 (2021).
+103.
+Rieke, N. et al. The future of digital health with federated learning.
+NPJ Digit Med. 3, 119 (2020).
+104.
+Casaletto, J. et al. Federated analysis of BRCA1 and BRCA2 varia-
+tion in a Japanese cohort. Cell Genom. 2, 100109 (2022).
+105.
+Wilkinson, M. D. et al. The FAIR Guiding Principles for scientiﬁc
+data management and stewardship. Sci. Data 3, 160018 (2016).
+106.
+Steinsbekk, K. S., Kåre Myskja, B. & Solberg, B. Broad consent
+versus dynamic consent in biobank research: is passive partici-
+pation an ethical problem? Eur. J. Hum. Genet. 21, 897–902 (2013).
+Acknowledgements
+The authors thank Jimin Guo (National Research Council Canada), S.
+Anand Narayanan (Florida State University), Manuel Fernandez Rojo
+(IMDEA-Food Institute Madrid), Liz Warren (Blue Origin), Ryan T. Scott
+(KBR; NASA Ames Research Center), and the Global Alliance for Geno-
+mics and Health (GA4GH) for valuable feedback on this manuscript.
+L.A.R. and M.M. are supported by the Japan Society for the Promotion of
+Science (JSPS) funding JP15H05940 and JP20H03234. L.A.R. is sup-
+ported by the JSPS postdoctoral fellowship P20382. European (H.C.,
+N.J.S., R.H., and S.G.) contribution is supported by ESA Topical Team
+“Space Omics: Towards an integrated ESA/NASA—omics database for
+spaceﬂight and ground facilities experiments” grant 4000131202/20/
+NL/PG/pt to R.H. S.G. is supported by Formas grant 2017-01066_3. H.C.
+is supported by the Horizon Centre for Doctoral Training at the University
+of Nottingham (UKRI Grant No. EP/S023305/1). N.J.S. is supported by
+NASA (NSSC22K0250, NSSC22K0278). S.A.P. is supported by the Min-
+istry of Science and Higher Education of the Russian Federation, No.
+075-1502020-919. D.T. is supported by the Department of Biomedical
+and Health Informatics and The Children’s Hospital of Philadelphia
+Research Institute. C.E.M. thanks the Scientiﬁc Computing Unit (SCU) at
+WCM, the WorldQuant and GI Research Foundation, NASA
+(NNX14AH50G, NNX17AB26G, NNH18ZTT001N-FG2, 80NSSC22K0254,
+80NSSC23K0832, the Translational Research Institute through NASA
+Cooperative Agreement NNX16AO69A), the National Institutes of Health
+(R01MH117406), and the LLS (MCL7001-18, LLS 9238-16, 7029-23). R.B.
+was supported by the NASA GeneLab Innovation Award from NRA
+NNH16ZTT001N-GL and Yuri Gravity. S.V.C. is supported by Open Sci-
+ence Projects at NASA Ames Research Center, through NASA’s BPS
+division in the Science Missions Directorate; any use of trade names is for
+descriptive purposes only and does not imply endorsement by the US
+Government.
+Author contributions
+Conceptualization: L.A.R., H.C., M.J.M., S.A.P., R.B., D.B., N.J.S., M.M.,
+C.E.M. and S.G. Methodology: L.A.R., M.J.M., C.E.M. and S.G. Software:
+M.J.M. Formal Analysis: L.A.R. and M.J.M. Investigation: L.A.R., H.C.,
+M.J.M., C.E.M. and S.G. Resources: C.E.M. and S.G. Data Curation: L.A.R.
+and M.J.M. Visualization: M.J.M. Writing-Original Draft: L.A.R., H.C.,
+D.M.T., N.J.S., D.B. and S.G. Writing-Review and Editing: L.A.R., H.C.,
+R.H., S.D., S.V.C., A.M.P., R.B., D.M.T., D.B., N.J.S., M.M., C.E.M. and S.G.
+Supervision: R.B., D.M.T., M.M., C.E.M. and S.G. Project Administration:
+C.E.M. and S.G. Funding Acquisition: R.H., D.M.T., M.M., C.E.M. and S.G.
+Competing interests
+D.B. is Co-founder of Poppy Health, Inc. and CSO of Yuri Gravity GmbH;
+C.E.M is Co-Founder of Onegevity Health; S.G. is scientiﬁc advisor to 10x
+Genomics, which holds IP right to the ST technology, and holds stocks.
+The remaining authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to
+Christopher E. Mason or Stefania Giacomello.
+Peer review information Nature Communications thanks Afshin
+Beheshti and the other anonymous reviewer(s) for their contribution to
+the peer review of this work.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Perspective
+https://doi.org/10.1038/s41467-024-47237-0
+Nature Communications|   (2024) 15:4952 
+13

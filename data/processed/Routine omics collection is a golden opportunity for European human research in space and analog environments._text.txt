@@ -1,0 +1,1941 @@
+Perspective
+Routine omics collection is a golden
+opportunity for European human research
+in space and analog environments
+Henry Cope,1 Craig R.G. Willis,2,3,17 Matthew J. MacKay,4 Lindsay A. Rutter,5 Li Shean Toh,6 Philip M. Williams,6
+Rau´ l Herranz,7 Joseph Borg,8 Daniela Bezdan,9,10,11 Stefania Giacomello,12 Masafumi Muratani,5
+Christopher E. Mason,4,13,14,15 Timothy Etheridge,16 and Nathaniel J. Szewczyk1,2,3,*
+1School of Medicine, University of Nottingham, Derby DE22 3DT, UK
+2Department of Biomedical Sciences, Heritage College of Osteopathic Medicine, Ohio University, Athens, OH 45701, USA
+3Ohio Musculoskeletal and Neurological Institute, Ohio University, Athens, OH 45701, USA
+4Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, USA
+5Transborder Medical Research Center, and Department of Genome Biology, Faculty of Medicine, University of Tsukuba, Tsukuba, Ibaraki
+305-8575, Japan
+6School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, UK
+7Centro de Investigaciones Biolo´ gicas Margarita Salas (CSIC), 28040 Madrid, Spain
+8Department of Applied Biomedical Science, Faculty of Health Sciences, University of Malta, Msida MSD 2080, Malta
+9Institute of Medical Genetics and Applied Genomics, University of T€ubingen, T€ubingen, Germany
+10NGS Competence Center T€ubingen (NCCT), University of T€ubingen, T€ubingen, Germany
+11yuri GmbH, Meckenbeuren, Germany
+12Science for Life Laboratory, KTH Royal Institute of Technology, 17165 Stockholm, Sweden
+13The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York,
+NY, USA
+14WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, NY, USA
+15The Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY, USA
+16Department of Sport and Health Science, College of Life and Environmental Sciences, University of Exeter, Exeter EX1 2LU, UK
+17School of Chemistry and Biosciences, Faculty of Life Sciences, University of Bradford, Bradford BD7 1DP, UK
+*Correspondence: szewczyk@ohio.edu
+https://doi.org/10.1016/j.patter.2022.100550
+SUMMARY
+Widespread generation and analysis of omics data have revolutionized molecular medicine on Earth, yet its
+power to yield new mechanistic insights and improve occupational health during spaceﬂight is still to be fully
+realized in humans. Nevertheless, rapid technological advancements and ever-regular spaceﬂight programs
+mean that longitudinal, standardized, and cost-effective collection of human space omics data are ﬁrmly
+within reach. Here, we consider the practicality and scientiﬁc return of different sampling methods and
+omic types in the context of human spaceﬂight. We also appraise ethical and legal considerations pertinent
+to omics data derived from European astronauts and spaceﬂight participants (SFPs). Ultimately, we propose
+that a routine omics collection program in spaceﬂight and analog environments presents a golden oppor-
+tunity. Unlocking this bright future of artiﬁcial intelligence (AI)-driven analyses and personalized medicine
+THE BIGGER PICTURE
+Omic proﬁling of European human subjects in space—whether they be governmental
+or commercial—is primed to revolutionize space medicine, as it has with medicine on Earth. Improved occu-
+pational healthcare will be important for reducing risk and increasing mission success in ambitious en-
+deavors, including voyages to Mars.
+We believe that collaborative steps should be taken today to design a standardized data resource, which will
+continue to be useful in the future, as data science approaches evolve. From this perspective, we introduce con-
+siderations for a routineomics program for Europeans inspace. Theseinclude which datatypes to collect,which
+sampling methods to use, andat which time points.Ethicalandlegal considerationsof European personal omics
+data in the context of astronauts are also discussed, with the goal of creating a policy landscape where data can
+be as open as possible to maximize scientiﬁc potential but as closed as necessary to protect the data subjects.
+Concept: Basic principles of a new
+data science output observed and reported
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022 ª 2022 The Authors.
+1
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+approaches will require further investigation into best practices, including policy design and standardization
+of omics data, metadata, and sampling methods.
+INTRODUCTION
+In 1978, Vladimı´r Remek of the Czech Republic became the
+ﬁrst human from the European Union to cross the boundary
+into outer space. Since then, astronauts from an array of Euro-
+pean countries have followed suit (Figure 1A), with many of
+these trips occurring on board the International Space Station
+(ISS) since its ﬁrst occupation at the turn of the millennium.
+Despite a steady increase in the number of European astro-
+nauts venturing beyond Earth (Figure 1B), astronauts remain
+a relatively scarce population. Each astronaut, therefore, pre-
+sents a rare and unique opportunity to directly study the impact
+of spaceﬂight on the human body, mind, and spirit. Addition-
+ally, with the emergence of commercial spaceﬂight, and Euro-
+pean citizens already ﬂying to space via these programs (e.g.,
+Axiom Mission 1 and Blue Origin NS-16), there is an emerging
+opportunity to expand the population of European human sub-
+jects who can be studied in space.1 The spaceﬂight environ-
+ment is characterized by simultaneous exposure to stressors,
+including
+cosmic
+radiation,
+altered
+gravity, isolation,
+and
+conﬁnement within a closed environment.2 Additionally, de-
+mand on the human body changes dynamically throughout
+different time points within a typical spaceﬂight mission,
+including pre-ﬂight
+training, launch, extravehicular activity
+(EVA), landing, and post-ﬂight rehabilitation.
+To date, studies of astronauts have shown that long-duration
+spaceﬂight induces multisystem physiological deconditioning,
+such as degradation of muscle and bone,3,4 and detrimental
+changes to the eye, known as spaceﬂight-associated neuro-
+ocular syndrome (SANS).5 However, the precise mechanisms
+behind these responses are yet to be fully understood, largely
+due to the pace and practicalities of conducting comprehen-
+sive molecular studies in astronauts. Biological changes and
+associated medical risks during spaceﬂight missions, including
+in the commercial spaceﬂight setting, have recently been re-
+viewed elsewhere.1,2,6 The European Space Agency (ESA)
+and other space agencies have historically taken two comple-
+mentary approaches to accelerate the understanding of molec-
+ular causes of biological changes in astronauts: translational
+research and space analog research. Translational research
+utilizes model organisms, including rodents, for molecular
+studies in space,7 with the aim of understanding and coun-
+tering detrimental physiological changes in astronauts. Space
+analog research utilizes facilities on Earth, which enable one
+to study individual aspects of the spaceﬂight environment
+without having to conduct studies in space. In the context of
+human research, this can include studying inactivity via bedrest
+studies and isolation via use of remote research stations, such
+as Concordia.8
+At the 2022 European Space Summit, the European Associ-
+ation of Space Explorers called for the development of Euro-
+pean vehicles for transporting humans into space. Irrespective
+of whether or not this becomes a near- to medium-term real-
+ity, not only will ESA astronauts continue to regularly ﬂy to the
+ISS but also they will ﬂy in future exploration missions with in-
+ternational partners. One such example is the Artemis 2
+mission to the moon, which could occur as early as 2025.
+The new generation of spacecraft used for these missions is
+likely to have highly limited cargo capacity; therefore, counter-
+measures, such as the Advanced Resistive Exercise Device
+(ARED), used on board the ISS to suppress muscle and
+bone loss, may not be suitable.9 Additionally, during these
+exploration missions, astronauts will venture beyond low
+Earth orbit (LEO) for the ﬁrst time since the end of the Apollo
+program in 1972. Within LEO, the Earth’s magnetosphere pro-
+vides
+partial
+protection
+against
+radiation;
+thus,
+humans
+venturing beyond this will experience greater exposure to
+solar particle event radiation and ionizing galactic cosmic ra-
+diation.2,10,11 Although there is a lack of data on the molecular
+effects of the beyond LEO environment, an increase in radia-
+tion-associated health risks is almost a certainty.12–14 Further
+considerations of future missions beyond LEO include health
+risks associated with unprecedentedly long-duration mis-
+sions, lunar dust,15 and EVA.2 To the latter point, in the case
+of a Mars mission, the crew would likely need to safely
+perform EVA tasks in partial gravity (0.38 g) following long-
+duration spaceﬂight, without the extensive rehabilitation sup-
+port available on Earth.9,16
+With these new spacecraft and mission plans, it will be crucial
+to assess compatible countermeasures, while also gaining
+greater insight into the new challenges to human health posed
+by environments where biological and molecular adaptations
+remain uncharted. A key challenge for translational research
+from a European standpoint is that the ESA does not currently
+have rodent research facilities in space, and it seems unlikely
+that such facilities will be rapidly developed for future exploration
+vehicles. Thus, new approaches that do not depend on rodent
+research facilities should be considered by ESA. In this context,
+a salient opportunity for space analog research is to harmonize
+measures and endpoints between research in analog environ-
+ments and in space, increasing ﬁdelity. For example, the efﬁcacy
+of new countermeasures could be evaluated in both environ-
+ments, and the efﬁcacy of rehabilitation following long-duration
+spaceﬂight16 could be studied and improved by testing novel
+rehabilitation techniques following long-duration bedrest. For
+these reasons, it could prove cost effective for the ESA to pursue
+an approach that focuses on improved capabilities for research
+on astronauts themselves and with increased harmonization of
+data and endpoint measures obtained in space and analog
+environments.
+On Earth, medicine has undergone a revolution through the
+widespread generation and analysis of multiple omic data types,
+including genomics, transcriptomics, and proteomics. The
+strength of omic-based, data-driven approaches is their power
+to discover unanticipated effects, elucidate molecular mecha-
+nisms, and generate novel hypotheses to guide follow-up tar-
+geted studies.17,18 In scientiﬁc studies on Earth, omic-derived
+molecular changes are regularly correlated with performance
+ll
+OPEN ACCESS
+2
+Patterns 3, September 9, 2022
+Perspective
+
+metrics to uncover molecular drivers of physiological change.19
+Omics have also become a valuable tool for clinical practice. For
+example, the National Health Service (NHS) in the UK (1) routinely
+offers all newborn babies blood spot test screening for several
+genomic-based disorders, including sickle cell disease, cystic
+ﬁbrosis, congenital hypothyroidism, and six inherited metabolic
+diseases; (2) recently launched a pilot project with Genomics
+to evaluate incorporating polygenic risk factor data into the clin-
+ical risk assessment for cardiovascular disease; and (3) recently
+approved use of personalized medications for treating cystic
+ﬁbrosis based on the nature of the mutation(s) present in the pa-
+tient’s cystic ﬁbrosis transmembrane conductance regulator
+(CFTR) encoding gene. Furthermore, the COVID-19 pandemic
+has highlighted how omics can rapidly be employed in combina-
+tion with clinical data to determine risk of severe disease course,
+identify potential underlying mechanisms of susceptibility, and
+identify potential personalized treatments.20
+Although omics have become a signiﬁcant part of scientiﬁc
+research and standard clinical practice on Earth, for humans in
+space, omics are a relatively new and untapped technology. Be-
+tween March 2015 and March 2016, NASA conducted the sem-
+inal Twins Study. The study monitored an astronaut during a
+1-year mission in space, while the astronaut’s identical twin re-
+mained on Earth as a control. Both subjects were comprehen-
+sively proﬁled using multiomic measures across several time
+points pre-ﬂight, in-ﬂight, and post-ﬂight. Spaceﬂight-induced
+changes were detected across multiple systems, with most of
+these alterations returning to baseline levels post-ﬂight.21 The
+longitudinal proﬁling of the NASA Twins Study and similar
+proﬁling on the recent short-duration SpaceX Inspiration4 com-
+mercial mission demonstrate that multiomics proﬁling of astro-
+nauts is feasible. Accordingly, NASA has recently announced
+that they have elected to add omics to the standard measures
+program for the ISS, which ESA astronauts can opt into. NASA’s
+standard measures program also routinely collects select phys-
+iological measures and select biomarkers from blood and urine;
+commercial spaceﬂight missions are similarly exploring these
+possibilities. For example, the Translational Research Institute
+for Space Health (TRISH), a partner of NASA’s Human Research
+Program, recently created a database for commercial space-
+ﬂight health data, including crew omics data from the Inspira-
+tion4 mission.22 It is, therefore, important that the ESA also
+explores these new opportunities, leveraging existing expertise
+in European spaceﬂight omics23 and facilities for human subjects
+research. To that end, the key question is how best to develop a
+routine longitudinal omics program for European astronauts and/
+or European spaceﬂight participants (SFPs).
+A routine omics collection program could be viewed as an
+initiative to develop a high-value data resource, which can be
+analyzed with ever-evolving big data approaches, thereby
+improving ESA’s artiﬁcial intelligence (AI) readiness. Access to
+sensitive data collected during the program would need to be
+controlled so that scientiﬁc research is supported, while protect-
+ing the rights of the subjects. Such a program could help to eluci-
+date key molecular drivers behind spaceﬂight health issues,
+which could lead to improved risk quantiﬁcation and approaches
+to spaceﬂight occupational health. One example of how this
+could be used is for the development of evidence-based recom-
+mendations on training and medical standards for spaceﬂight;
+these standards will become especially important as the space-
+faring population increases in heterogeneity and begins to
+include humans with pre-existing conditions.1,6 Furthermore, a
+routine omics program could be used as a basis for personalized
+medicine approaches. As an example, researchers have previ-
+ously found that genetic variations in one-carbon metabolism
+genes may contribute to susceptibility to SANS in astronauts,24
+and other genomic studies have shown individual variability
+associated with spaceﬂight-relevant factors, including bone
+mineral density and radiation sensitivity.1 Pre-ﬂight genomic
+screening of astronauts, therefore, holds potential in developing
+Astronaut Representation:
+Yes
+No
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+1980 1985 1990 1995 2000 2005 2010 2015 2020
+Year of First Mission
+Astronauts (Cumulative)
+A
+B
+Figure 1. European astronaut population
+The distribution and population of European astronauts who have crossed the Ka´ rma´ n line (as of 9/20/21).
+(A) Geographically highlights the range of nationalities of European astronaut.
+(B) Shows the cumulative population of European astronauts over time, based on astronauts’ ﬁrst mission into outer space.
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+3
+Perspective
+
+personalized medicine approaches to risk assessment and
+countermeasures, including pharmacogenomics and nutrige-
+nomics.17,25,26 Pharmacogenomics aims to optimize medication
+therapy, with respect to the patient’s genomic data, to ensure
+maximum efﬁcacy with minimal adverse effects. For example,
+a study of medication on board the ISS found that the meta-
+bolism of approximately a third of the drugs in the ISS repository
+were affected by polymorphic metabolizing enzymes.27 Through
+further data collection, cargo could potentially be optimized to
+only include the best available medication for the individual
+crewmembers, reducing costs and adverse drug reaction/ther-
+apy failure risk.28 Furthermore, omics could prove valuable for
+longitudinal health monitoring during spaceﬂight. For example,
+TRISH recently suggested that omics could be used alongside
+other datasets obtained via point-of-care (POC) devices to
+diagnose approximately one-third of NASA’s list of medical con-
+ditions that are of concern for deep-space missions.29 Finally,
+discoveries obtained using human-research-derived omics
+data could beneﬁt health on Earth. For example, the World
+Health Organization has listed physical inactivity as the fourth
+leading risk factor for global mortality, estimated to have been
+responsible for 9% of global premature mortality in 2008.30 Me-
+chanical unloading of the musculoskeletal system due to micro-
+gravity during spaceﬂight, or due to immobilization or reduced
+step count in analog environments, induces similar effects to
+physical inactivity, such as muscle atrophy and altered glucose
+handling; thus, discoveries and countermeasures developed
+for astronauts and/or SFPs could prove useful for terrestrial ef-
+forts against physical inactivity.
+CONSIDERATIONS FOR A EUROPEAN SPACE
+RESEARCH ROUTINE OMICS PROGRAM
+Designing an appropriate routine omics collection program for
+European astronauts and/or SFPs requires careful consideration
+of a number of factors. In this section, we discuss some of the
+key considerations, including collecting data with AI in mind,
+which sampling methods and omics data types should be
+collected based on practicality and perceived scientiﬁc return,
+and which ethical and legal challenges may need to be ad-
+dressed.
+AI readiness of omics data and metadata
+Collecting the same standardized measures routinely from as-
+tronauts and/or SFPs across multiple missions would greatly
+improve the AI readiness of the generated datasets, especially
+when combined with accompanying standardized metadata,
+including spacecraft environmental measures (e.g., radiation
+dosimetry).7,31 One important practical consideration here will
+be digital storage requirements, because omics experiments
+generate large volumes of data. Similarly, harmonizing ap-
+proaches with other space agencies will be important. In this
+context, there is an opportunity for the ESA to expand collabora-
+tion with the Frontier Development Lab, which it currently part-
+ners with to assist with AI approaches to Earth Observation
+and that is also currently partnered with NASA to assist with AI
+approaches across the entire Science Mission Directorate. In
+pursuit of AI readiness, it will be important to adhere to guide-
+lines, such as well-implemented FAIR (ﬁndable, accessible,
+interoperable, and reusable) principles where possible,32,33
+which could include machine-interpretable ﬁle formats, such
+as standardized processed omic data,18,34 alongside raw data
+and metadata. In order to further enhance the quantity of data,
+identical measures could be collected from well-designed,
+ground-based analog studies, to facilitate comparison and to
+unlock powerful machine learning (ML) techniques based on
+transfer learning. With the ever-increasing adoption and utility
+of AI-based approaches for healthcare and life sciences
+research,35 the importance of designing data collection and
+curation with AI capabilities in mind cannot be overstated. For
+example, it may eventually be possible to develop omic-based
+digital twin approaches to be used in applications, such as
+mission planning and countermeasure design. These ap-
+proaches could model the physiological impact that mission pa-
+rameters, such as duration and radiation exposure, may have on
+individual astronauts.36,37 Although there are a few interesting
+exceptions, at present, most AI approaches require large vol-
+umes of high-quality and domain-relevant training data.38–40
+Notably, robust population-based analyses will be particularly
+challenging to achieve for humans in space, given their rarity. It
+is, therefore, important to initiate collection and curation of stan-
+dardized astronaut and/or SFP omics data and metadata as
+soon as possible, thereby unlocking a future of powerful AI-
+based omic analyses for personalized medicine approaches
+and mechanistic discovery.
+Omic data types
+A key consideration for implementing a routine omics program
+will be selecting a panel of omic assays to capture from human
+subjects. Omics is increasingly being used as shorthand for
+big data approaches in biology and medicine, with numerous
+different omic data types and technologies now available at
+decreasing costs. Different omics data types and technologies
+offer both overlapping and unique insights into molecular
+changes within the body.18 Integrating multiple omic types (i.e.,
+‘‘multiomics’’) via systems biology approaches can lead to a
+more holistic picture of spaceﬂight-associated molecular pat-
+terns.41 Initial multiomics studies during the NASA Twins mission
+and SpaceX Inspiration4 mission have opted for a relatively
+broad approach to assay selection.21 It makes sense to use ﬁnd-
+ings from these missions to optimize a panel of assays for routine
+omics. This harmonized approach would also support compara-
+bility between data captured via a European routine omics pro-
+gram and these initial international studies. To further support
+comparability, it also seems logical to collect data types that
+are prevalent in large-scale terrestrial omic initiatives, such as
+The Cancer Genome Atlas and the European Genome-phenome
+Archive. The ability to easily compare astronaut data with terres-
+trial disease cohorts could allow for the identiﬁcation of similar
+patterns, which could aid processes, such as countermeasure
+design (e.g., omic-based drug repurposing).42 While collecting
+the same measures over a long period of time is desirable,
+some ﬂexibility is to be expected due to the continued evolution
+of omic technologies.
+Although coverage of all potential omic types and tech-
+nologies is beyond the scope of this article, there are a few clear
+candidates worth noting. The most immediately actionable
+and cost-effective measure in terms of healthcare will likely be
+ll
+OPEN ACCESS
+4
+Patterns 3, September 9, 2022
+Perspective
+
+pre-ﬂight
+genomic
+screening,43
+such
+as
+whole-genome
+sequencing (WGS). For example, a recent proof-of-concept
+study by the Mayo Clinic found that pre-emptive use of basic
+pharmacogenomic testing, alongside participants’ medication
+history, enabled pharmacists to offer medication improvement
+opportunities in 56% of participants.44 Some of the medications
+involved in the study (e.g., ondansetron, metoprolol, aripipra-
+zole, sertraline, and phenytoin) have been documented as being
+part of the ISS medication kit.27 Thus, pre-ﬂight genomic
+screening could potentially be used to inform medication man-
+agement and personalized medicine approaches to spaceﬂight
+countermeasures.25 Similarly, microbiomic approaches, such
+as studying the genomic makeup of microbial communities via
+metagenomics, are likely to have high clinical relevance for hu-
+mans in space. Metagenomic analyses of crew samples can
+be used to study microbiome shifts2 and potential health conse-
+quences, such as viral (e.g., herpes) reactivation and skin
+rashes;45,46 the addition of environmental samples to study mi-
+crobial interactions between crew members and the spacecraft
+environment would also be useful for monitoring crew health
+(e.g., infectious disease management).47,48 On board the ISS,
+at least some coverage of metagenomics would likely fall under
+NASA’s microbial monitoring program. Other candidate omic
+data types for studying regulatory molecular changes, discov-
+ering biomarkers, and designing interventions for spaceﬂight-
+associated health risks include transcriptomics, epigenomics,
+proteomics, and metabolomics18 (Figure 2).
+Sampling time points
+Due to the dynamic nature of physiological changes throughout
+the course of a typical spaceﬂight mission, it is scientiﬁcally
+meaningful to acquire omic measures across an array of time
+points. At a minimum, a sampling point just before ﬂight and a
+sampling point taken shortly after the mission would prove useful
+for quantifying the molecular impact of the spaceﬂight mission.
+However, averaging multiple pre-ﬂight measures would be valu-
+able for establishing a robust molecular baseline, and multiple
+post-ﬂight measures would prove useful for studying recovery
+and long-term health. To the latter point, long-term (i.e.,
+‘‘lifetime’’) post-ﬂight time points will be particularly valuable
+for missions beyond LEO, to study whether the human body fully
+recovers from spaceﬂight environmental factors, such as DNA
+damage response following the increased radiation dosage. To
+that point, it has recently been reported, albeit in a single pair
+of monozygotic twin astronauts, that onset of clonal hematopoi-
+esis may be inﬂuenced by spaceﬂight.50 Clonal hematopoiesis
+results in lifelong changes in the blood that are associated with
+increased risk of cardiovascular disease and blood cancers.
+The addition of in-ﬂight measures, particularly for long-dura-
+tion missions, would provide greater temporal resolution, allow-
+ing for spaceﬂight-induced molecular changes to be monitored
+over time. As a starting point, it may make sense to focus time
+points around expected points of signiﬁcant physiological
+change, especially when clinically relevant. Signiﬁcant physio-
+logical changes can occur rapidly, so early in-ﬂight time points
+could be useful for studying their onset. For example, the ﬁrst
+in-ﬂight time point for the NASA Twins Study was at 14 days
+into the ﬂight,21 whereas spaceﬂight research has indicated
+that signiﬁcant physiological changes can occur before this point
+and, thus, earlier time points may be valuable. For instance, a
+recent study investigating anemia in astronauts collected blood
+and exhaled air samples at 5 ± 1 days into the 6-month ﬂights
+and results already indicated signiﬁcantly increased breakdown
+of red blood cells (hemolysis). Markers for increased hemolysis
+persisted throughout the in-ﬂight time points (11 ± 1, 64 ± 5,
+and 157 ± 31 days), with 5 of 13 astronauts reaching clinical
+levels of anemia when measured 4 ± 1 days after landing.51
+The potential implication that the longer the duration in space,
+the worse certain health risks, including anemia, suggests that
+in-ﬂight time points across the full duration of spaceﬂight
+Genomics
+Transcriptomics
+Epigenomics
+Proteomics
+Metabolomics
+DNA
+RNA
+Protein
+Metabolite
+Microbiomics
+Inherited 
+genetic risk 
+susceptibility 
+to 
+environmental 
+stressors
+Influence of 
+individual 
+differences in 
+expression of 
+the genome
+Shift of 
+microbial 
+communities 
+Post-
+translational 
+modifications 
+Reversible modifications of genome  
+Effect of 
+expression 
+and activitity 
+of the 
+functional 
+units of the 
+cell
+Abundance of 
+small 
+molecule 
+intermediates 
+of metabolism
+Figure 2. Incorporating omics into astronaut studies
+Overview of how candidate omic data types for studying and counteracting astronaut health risks interact with one another, the environment, and phenotype.
+Epigenomics is shown to span several omic data types to demonstrate that environmental exposures and activity occurring at the genomic, transcriptomic, and
+proteomic levels inﬂuence epigenomic status. Adapted from Yu et al.49 under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+5
+Perspective
+
+missions may be valuable. For example, other useful in-ﬂight
+time points may include shortly before the end of the ﬂight, so
+that this can be compared with the ﬁrst post-ﬂight time point
+to measure the impact of landing and initial readaptation, and
+shortly before and after EVA, to investigate the molecular impact
+of such events.
+The sampling schedule also has implications for occupational
+health. For example, pre-ﬂight omic measures could be used as
+a baseline for personalized medicine approaches. Measures
+taken in ﬂight across different time points could then eventually
+be compared with the baseline data with ML approaches to pre-
+dict health outcomes and suggest preventative interven-
+tions.37,52 Insights related to the molecular impact of mission
+events, such as EVA, could also be used to inform mission
+design, or indeed day-to-day task scheduling to manage stress
+responses.
+While frequent sample time points are desirable, it will be
+important to balance the sampling schedule with regard to prac-
+tical considerations, including cost, use of crew time, sample
+storage space, and subject recovery time (dependent on sample
+invasiveness). Additionally, if in-ﬂight time points are included in
+the sampling schedule, it will be important to thoroughly train
+crew members for successful sample collection.
+Accompanying functional measures
+It is beneﬁcial to routinely collect performance measures in
+tandem with omics, such as self-assessments (e.g., cognition,
+nutrition, and sleep quality), exercise outputs, and physiological
+measures collected from wearables and POC devices.29,53
+When combined, omic and functional measures can be used
+to infer causal molecular-phenotypic links, which can then be
+used to inform and test interventions and discover novel bio-
+markers; if adopted, this approach would be a major advance
+in research capabilities, enabling widespread hypothesis-driven
+molecular mechanistic research to be conducted in astronauts.
+While outside the scope of this omic-focused article, the choice
+of which performance measures to collect must also be consid-
+ered via an evidence-based approach, balancing scientiﬁc and
+clinical value with considerations regarding practicality, such
+as levels of invasiveness. Importantly, NASA’s standard mea-
+sures program, which ESA astronauts can opt into, currently
+captures a curated selection of standardized functional mea-
+sures from astronauts on the ISS.
+Sample processing
+One practical consideration regarding routine omics collection is
+the logistics of processing the samples. Currently, human bio-
+logical samples collected on the ISS are typically preserved
+(e.g., via rapid freezing) and stored before being returned to
+Earth for sequencing and analysis. The multiomics proﬁling con-
+ducted for the NASA Twins Study shows that this model is
+feasible for longitudinal human studies on the ISS,21 yet the
+approach does come with some disadvantages, including sam-
+ple degradation, delays in receiving results, and dependence on
+freezer space. Thus, while this approach with well-designed pro-
+cedures for sample processing7 is likely to be appropriate for
+routine omics on the ISS, future commercial space stations,
+and short-duration missions, it may not be appropriate for all
+mission types. Therefore, at least for long-duration exploration
+missions, it may make sense to move toward an approach with
+reduced reliance on sample return to Earth.
+One step toward enabling this in-ﬂight autonomy is improving
+in-ﬂight equipment capabilities, which has been demonstrated
+recently via usage of the portable Oxford Nanopore MinION
+sequencer on board the ISS for sequencing DNA54 and even hu-
+man-derived RNA directly (Sarah Castro-Wallace, personal
+communication). Using this equipment, environmental swabs
+have
+been
+collected
+in-ﬂight
+and
+then
+processed
+and
+sequenced on board (swab-to-sequence).47,55 As the technol-
+ogy becomes more compact and lightweight, autonomy of the
+sample processing may improve further still through robotic
+automation of spaceﬂight laboratories.56 One consideration is
+that in-ﬂight generation of omics data presents challenges
+regarding data storage and transfer back to Earth. Importantly,
+downlink challenges compound with the communication delays
+introduced by increasing distance from Earth. In-ﬂight computa-
+tional processing of raw omics data can mitigate this issue by
+signiﬁcantly reducing ﬁle size, and full-analysis pipelines have
+even been executed on-orbit, eradicating the need to downlink
+data to obtain results (Sarah Castro-Wallace, personal commu-
+nication).
+Importantly, in-ﬂight processing of omics data has implica-
+tions for occupational health in space. For example, in the
+context of NASA’s microbial monitoring program, in-ﬂight pro-
+cessing can enable crew health to be monitored (e.g., infectious
+disease diagnosis) in near real time.47,55 As another use case, re-
+sults obtained in-ﬂight could eventually be inputted directly into
+AI models, such as clinical decision support systems (CDSSs), to
+inform the decisions of onboard medical ofﬁcers in the event that
+the healthcare support teams on Earth cannot be contacted.
+SAMPLING METHODS FOR SPACEFLIGHT OMICS
+COLLECTION
+Below, we introduce various biospecimens and sampling
+methods for omics data collection (Figure 3). We focus on ap-
+proaches that have spaceﬂight heritage.
+Tissue biopsy
+Biopsies involve the removal of a piece of solid tissue or a sample
+of cells from the body. Thus, while biopsies present the gold
+standard for molecular proﬁling of human physiology, such pro-
+cedures are invasive in nature, require specialized expertise, are
+often characterized by localized pain, and naturally carry an
+increased risk of infection. It is no surprise, therefore, that routine
+tissue biopsy sampling of astronauts in-ﬂight is lacking, and
+omic studies in this sense remain constrained to those of
+cultured human cells ﬂown to space—examples include tran-
+scriptomics and/or proteomics of human-induced pluripotent
+stem
+cell-derived
+cardiomyocytes57
+and
+human
+intestinal
+epithelial cells.58 Given the inherent challenges of human tissue
+biopsy sampling in space, routine omics data collection from as-
+tronauts via this tool is most immediately likely through regular
+sampling programs pre- and post-ﬂight, particularly for more
+readily extractable tissue types, such as skin and skeletal
+muscle. Indeed, in the case of the latter, muscle biopsies have
+previously been obtained from astronauts post- versus pre-ﬂight
+to infer human skeletal muscle functional, morphological,
+ll
+OPEN ACCESS
+6
+Patterns 3, September 9, 2022
+Perspective
+
+biochemical,
+and,
+more
+recently,
+proteomic
+changes
+in
+space.3,59–61 With the application of various omic techniques
+(transcriptomics,
+metabolomics,
+proteomics,
+epigenomics,
+etc.) to biopsied skeletal muscle now being commonplace in
+terrestrial human physiology research, future multiomic analyses
+of astronaut muscle (and outwardly skin) obtained pre- and post-
+ﬂight are entirely plausible. The existence of less-invasive (micro-
+biopsy) techniques for sampling skeletal muscle62 and skin63
+could make routine collection of these tissue types from astro-
+nauts during ﬂight a realistic future prospect. In terms of a
+more immediate scientiﬁc return, omics collection via tissue
+biopsy thus lends itself as a promising tool for better understand-
+ing molecular determinants of skeletal muscle and skin re-
+sponses to the spaceﬂight environment.
+Blood
+As a minimally invasive procedure, blood sampling has long
+been used as a primary alternative to tissue biopsies (i.e., ‘‘liquid
+biopsy) for molecular characterization of human health on Earth.
+Given the clear technical and operational advantages of blood
+versus tissue sampling in the spaceﬂight environment, blood
+sampling currently appears to be more viable for longitudinal
+monitoring of astronaut responses at the molecular level, partic-
+ularly in ﬂight. Blood samples are thus often collected from astro-
+nauts for analyses on Earth, and targeted molecular proﬁling of
+astronaut blood obtained before, during, and/or after spaceﬂight
+has subsequently been performed on numerous occasions, with
+particular emphasis on spaceﬂight-induced immune system
+dysregulation.64–67 Additionally, comprehensive analyses of
+astronaut blood samples from the NASA Twins Study have
+yielded several new and important insights. For instance, initial
+multiomic (epigenomic, metabolomic, transcriptomic, and pro-
+teomic) analyses revealed wholesale gene expression changes
+in peripheral blood mononuclear cells and metabolite changes
+in plasma during spaceﬂight that were largely normalized upon
+return to Earth.21 Additional plasma proteomic proﬁling also un-
+covered patient-speciﬁc exosome protein signatures following
+the mission,68 with these blood samples also proving useful to-
+ward conﬁrming human relevance of ﬁndings derived from
+omic analysis in model organisms.69 Other independent studies
+have also explored plasma metabolomic or proteomic changes
+in astronauts following long-term spaceﬂight exposure.3,70,71
+Routine longitudinal multiomics of astronaut blood is thus ﬁrmly
+within reach. As the number of available samples across astro-
+nauts and time points continues to grow, blood omics therefore
+holds accelerated potential to expedite molecular understanding
+of human spaceﬂight responses in areas such as immune sys-
+tem dysregulation.
+Urine and stool
+Both normal human waste products that can be cheaply,
+frequently, and non-invasively sampled without specialized
+equipment or skill, urine, and stool (feces) naturally present them-
+selves as strong candidate sample types for routine, longitudinal
+astronaut omics collection. Indeed, alongside blood, urine is a
+common form of liquid biopsy for terrestrial biomonitoring of hu-
+mans, and can be used to screen for a variety of different (pa-
+tho)physiological biomarkers (renal, cardiac, prostate, bone,
+etc.).72–74 However, unlike blood, urine is absent of a homeostatic
+mechanism and can, therefore, retain/accommodate more sub-
+stances that reﬂect changes produced in vivo, while its low
+complexity lends itself to straightforward detection of low-abun-
+dance proteins.75 As such, urine may be considered as better
+suited for early-stage biomonitoring, particularly in terms of the
+kidneys.75,76 Astronaut urine omics is consequently starting to
+grow, with several recent studies demonstrating the multiomic
+(namely metabolomic and proteomic) potential of this sample
+type for gaining new information on human body adaptations
+following spaceﬂight.21,72,77,78 For instance, metabolomic/prote-
+omic analyses of urine from the NASA Twins Study revealed
+urinary excretion of COL1A1 and COL3A1 as potential biomarkers
+of muscle, tendon, or bone changes during spaceﬂight.21 Cardio-
+vascular-related
+urine
+proteome
+changes,
+including
+some
+associated with autonomic regulation of heart rate, have also
+been delineated, offering several promising urine biomarkers for
+screening cardiovascular responses to spaceﬂight.77,78
+On Earth, stool has become a primary sample choice for meta-
+genomic proﬁling of the gut microbiome, which plays a critical
+role in the internal environment and concomitantly (patho)physi-
+ological state of an individual.79–81 Recognition is now also
+growing for a potential role of the gut microbiome toward phys-
+iological maladaptation of astronauts during spaceﬂight.82 Meta-
+genomic studies of astronaut stool have thus gained traction,
+demonstrating
+spaceﬂight-induced
+alterations
+in
+both
+the
+composition and function of an astronaut’s gut microbiome,45,83
+as well as uncovering genetic and immunological evidence for
+transfer of environmental strains to an astronaut’s gut micro-
+biome on board the ISS.84 Thus, astronaut stool (and outwardly
+other samples; see below) metagenomics can serve as a useful
+tool not only for guiding continual health monitoring but also
+mission planning and habitat design.84 Future omic studies of
+astronaut stool would perhaps beneﬁt from complementary
+Breath condensate
+Hair follicle
+Blood
+Stool
+Urine
+Saliva
+Tissue biopsy
+e.g. skin, muscle
+Swabs
+e.g. mouth, nose, ear,
+skin
+Invasive
+Moderately/
+Minimally-invasive
+Non-invasive
+Figure 3. Omic sampling from astronauts
+The medical invasiveness of different sampling methods for spaceﬂight omics
+collection from astronauts or SFPs.
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+7
+Perspective
+
+metabolomics in order to improve functional readout of gut mi-
+crobiome activity.85
+In closing, it appears clear that stool and urine analyses could
+prove practical for routine astronaut omics collection, with
+strong potential for rapid scientiﬁc return.
+Saliva and body swabs
+While a potent contributor, the human microbiome is not merely
+deﬁned by the gut but rather the full complement of microbes
+(and their genes) that reside on or within the host. These mi-
+crobes interact together alongside host genetics and the envi-
+ronment to contribute toward an individual’s health state.86–90
+Wider-ranging microbiome understanding in space is thus
+essential for biomonitoring astronaut health and, as noted
+above, other factors, such as habitat design. Indeed, the ISS
+is a unique closed environment with rich microbial diversity91–94
+which, combined with possible inﬂux and outﬂow of microor-
+ganisms at times of spacecraft exchange,48 may hold potential
+to have an impact on astronaut health. In terms of spaceﬂight,
+saliva, nose, and mouth/buccal samples present alongside
+stool as useful for providing insight on astronaut health and
+physiological conditions, whereas skin and the ear are prime
+sampling sites to explore interactions between an astronaut
+and the spaceﬂight environment.95 Importantly, routine, longitu-
+dinal metagenomics collection from all these locations is a
+highly feasible prospect in the context of spaceﬂight, since all
+are readily accessible for frequent non-invasive sampling via
+swab (or spit sample, in the case of saliva) at little cost or
+time expense and without the need for specialized skill.
+Demonstrating the associated scientiﬁc potential are several
+other recent metagenomic studies of astronauts, revealing
+new information on host- and site-(in)dependent microbiome
+responses across these various locations during spaceﬂight
+as well as microbial transmission between the astronauts and
+the ISS surface and vice versa.45,46,48,95,96 Thus, as comple-
+mentary to stool, metagenomics collection from saliva and
+body swabs should serve as a strong tool for better under-
+standing molecular determinants of astronaut health in the
+immediate future.
+Hair
+While perhaps an intriguing sample choice to note on face value,
+hair as a source for omics collection may represent a useful com-
+plementary source for routine biomonitoring of human physio-
+logical responses to spaceﬂight. Indeed, hair is readily available
+and easily sampled via extraction of hair follicles, requiring no
+speciﬁc personal expertise nor complex hardware.97,98 More-
+over, hair cells can reﬂect host physical conditions, including
+human peripheral circadian clock and organismal metabolic re-
+sponses to environmental changes.98 Omic studies of astronaut
+hair are thus beginning to emerge. Notably, a seminal study by
+the Japan Aerospace Exploration Agency (JAXA) conducted
+transcriptomics on astronaut hair follicles collected before, dur-
+ing, and after 6 months of spaceﬂight.99 Although several
+markers of hair growth were unsurprisingly dysregulated during
+ﬂight, interestingly, hair PCDH8 was derived as a potential
+biomarker for astronaut neurochemical changes in the space
+environment.99 Terrestrial studies of human hair also span other
+omic lines (e.g., proteomics and metabolomics),100,101 high-
+lighting the potential for multiomic proﬁling of astronaut hair
+samples. Nevertheless, the extent to which various physiological
+responses to spaceﬂight can be tracked by biomarkers in hair
+warrants a better understanding, before the true scientiﬁc poten-
+tial of hair omics toward biomonitoring astronaut health can be
+established.
+Breath
+A ﬁnal sample type worthy of note when it comes to astronaut
+omics collection is breath. Indeed, molecular analysis of exhaled
+breath is rapidly emerging as a useful tool on Earth for bio-
+monitoring of an individual in health and disease (‘‘breath-print’’),
+both at the level of the lung as well as other vital organs via sys-
+temic circulation (e.g., the heart).102,103 Exhaled breath analysis is
+plausibly suited to the spaceﬂight environment, as samples can
+be acquired frequently in a non-invasive manner, with relative
+ease and at little expense.102 Moreover, for certain omic types,
+such as proteomics, exhaled breath condensate may be better
+suited for rapid analysis versus other forms of liquid biopsy,
+such as blood and urine.104 Nevertheless, omic studies of astro-
+naut breath remain very much in their infancy. In one of the only
+studies to date,104 proteomic analysis of exhaled breath conden-
+sate obtained from cosmonauts before and after long-term
+spaceﬂight revealed strong enrichment for proteins involved in
+keratinization and pathogenic E. coli infection, offering support
+to the potential utility of breath analysis for non-invasive moni-
+toring of astronaut health and respiratory tract pathology.104 On
+Earth, metabolomic study of human exhaled air (‘‘breathomics’’)
+has also proven to be highly feasible and consequently gained
+great traction,105 though transcriptomic studies are currently
+lacking, perhaps owing to poor knowledge of present mRNAs
+due to high fragmentation of RNA isolated from exhaled breath
+condensate.106 Nonetheless, sample collection advantages
+coupled with multiomic potential106 make exhaled breath a highly
+promising complementary source for molecular proﬁling of astro-
+naut health, particularly with respect to the respiratory system.
+ETHICAL AND LEGAL CONSIDERATIONS FOR HUMAN
+SPACE OMICS
+In this section, the ethical challenges and legislative landscape
+within Europe will be considered in the context of astronaut and
+SFP-derived omics data. Focus is given to harmonious laws
+across Europe, but it should be acknowledged that national
+laws and the involvement of non-European law, via multinational
+entities (e.g., commercial spaceﬂight companies) and inter-
+national collaborations, can introduce further complexities. Ulti-
+mately, legislation aims to ﬁnd a balance between supporting
+scientiﬁc research and healthcare while protecting participants
+fromharm; datashould be as open as possible inorder to facilitate
+further analysis andas protected as necessary for the participants
+donating data. We intend to summarize these ethical and legal
+frameworks to encourage productive development of policies
+pertaining to human space omics research, which could eventu-
+ally cover biobanking and controlled utilization of omics data.
+When are data personal?
+In May 2018, the General Data Protection Regulation 2016/679
+(GDPR) came into force in the European Union. The regulation
+ll
+OPEN ACCESS
+8
+Patterns 3, September 9, 2022
+Perspective
+
+aims to enhance individuals’ control over their data. The impact
+of the GDPR on omics in healthcare and research has recently
+been reviewed in a detailed report by the PHG Foundation.107
+Article 3(1) of the GDPR states that ‘‘This Regulation applies to
+the processing of personal data in the context of the activities of
+an establishment of a controller or a processor in the Union,
+regardless of whether the processing takes place in the Union or
+not.’’ Therefore, a routine omics program for the ESA would
+most likely fall within the territorial scope of the GDPR, but impor-
+tantly this is only the case if the data are deemed to be per-
+sonal data.
+From the deﬁnition of personal data in Article 4(1) and Recital
+26 of the GDPR, it would seem apparent that omics data could
+be considered to be personal data if they are deemed reason-
+ably likely to be either directly or indirectly identiﬁable. Hypo-
+thetically, if a database contains solely omics with all other
+identiﬁers removed, additional information would be needed
+to indirectly identify the natural person from whom the data
+are derived. This process is sometimes referred to as a linkage
+attack.
+Holding some similarity to rare disease cohorts,108–110 astro-
+nauts and SFPs are currently a small population of public ﬁgures.
+Consequently, information, including mission status, and pheno-
+typic information, such as hair color, height, and sex, pertaining
+to individuals are readily available to the public. It could, there-
+fore, be possible to link astronauts’ or SFPs’ omic data to this
+additional information in order to identify individuals.111 Howev-
+er, an important caveat is that different omics data types have
+different levels of identiﬁability when combined with phenotypic
+information, meaning that some will qualify as personal data
+while others do not.
+Omics describing the unique DNA sequence of individuals,
+such as SNPs, are generally regarded as having the highest
+level of identiﬁability. Traits, including eye color, skin color,
+and sex, are considered simple to accurately predict from
+data sources, such as WGS.112 Thus, in the unique context
+of spaceﬂight cohorts, such data types would likely be
+classed as personal data. However, the identiﬁability of other
+omics types, such as transcriptomics and proteomics, is also
+an emerging area of research.113–116 Furthermore, the gener-
+ation of multiomics datasets adds an additional layer of
+complexity because there could be relationships between
+the different omic types that increase the overall likelihood
+of identiﬁcation.117 Additionally, raw data hold increased po-
+tential for identiﬁcation compared with processed data, so
+ﬁle formats are an important consideration for appropriate
+data dissemination. Finally, aggregated data, which combine
+datasets from a population of individuals (e.g., to produce
+an average value), can reduce identiﬁability. However, aggre-
+gated approaches can signiﬁcantly reduce utility for research
+into
+individual
+differences
+associated
+with
+spaceﬂight-
+induced biological changes and, therefore, utility in personal-
+ized medicine approaches.
+It is also worth mentioning that the familial element of some
+omic data types means that if it is deemed reasonably likely for
+someone to identify a family member from the astronaut or
+SFP’s personal omics data, then it would also be classiﬁed as
+that family member’s personal data, so their rights may also be
+brought into consideration.
+Approval for data collection and processing
+When it comes to navigating the ethics of conducting human
+research studies in Europe, there are several prominent non-
+legal binding instruments, including the Declaration of Helsinki,
+which was ﬁrst formulated in 1964, with several subsequent re-
+visions.118 These instruments have introduced key concepts
+that have become encoded within national laws and regulations
+across Europe. Two of the primary concepts are independent
+ethical review committees and informed consent.
+First, all research collecting omics data from human subjects
+must gain approval from an independent ethical review commit-
+tee before the research can commence. The committee consists
+of a panel of experts, who provide oversight for human research,
+ensuring that the research is conducted in agreement with inter-
+nationally and locally accepted ethical guidelines and in compli-
+ance with the law. In cases of data derived from ESA astronauts
+ﬂying on missions with international collaborators, approval will
+likely need to be granted by international ethics committees in
+addition to European committees. For example, the Human
+Research Multilateral Review Board (HRMRB) exists for over-
+seeing human research on the ISS, with board members from
+the international partners.
+As part of addressing the ethical review committees, investi-
+gators would be expected to demonstrate collection of
+informed consent from all study participants. Prior to providing
+such consent, participants should be clearly informed of the
+research purpose, experimental and data handling procedures,
+the potential risks, and their right to withdraw from the study at
+any time. As mentioned in the previous section, utility of omics
+is ever-increasing with the true capability and, by con-
+sequence, identiﬁability, of omics yet to be unlocked. This
+landscape of unknowns makes informed consent difﬁcult to
+meaningfully deﬁne, particularly when research is not neces-
+sarily hypothesis driven, as is the case with the longitudinal
+omics collection program proposed in this article. In this
+context, broad consent has emerged in law (e.g., GDPR Recital
+33) and practice as a potential means of obtaining consent for
+collecting omics for use in unspeciﬁed future research projects,
+including biobanking.119 Notably, however, in the United
+States, broad consent was used in the recent multiomics
+proﬁling study onboard the commercial SpaceX Inspiration4
+mission, to gain consent from the crew for the archiving and
+future use of their samples and data for space health
+research.22
+In order for processing to be permitted, European space
+omics data that are deemed to be personal data must satisfy a
+legal basis pursuant to Article 6 of the GDPR. In the context of
+space agencies or commercial companies, several of the rea-
+sons enumerated in Article 6 could prove relevant. To para-
+phrase, relevant bases may include (1) consent, (2) performance
+of a contract, and (3) public interest. However, omics personal
+data would also be considered special category data within
+the GDPR, either under the classiﬁcation of genetic data or
+data concerning health, in Article 4 and Recitals 34 and 35.120
+Article 9 states that such data types cannot be processed unless
+at least one of ten exceptions applies. To summarize, potentially
+relevant exceptions include (1) explicit consent, (2) the data sub-
+ject making their data public, (3) medical purposes, and (4)
+archiving scientiﬁc data in the public interest. Ultimately, the
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+9
+Perspective
+
+restrictions on processing imposed by Articles 6 and 9 of the
+GDPR require careful consideration in the context of a space
+agency or commercial company processing astronaut or SFP
+personal omics data. There are many interesting angles to
+consider based on space agencies’ multifaceted roles as
+research institutions, government agencies, employers, and pri-
+mary care providers for astronauts121 and the societal role of
+spaceﬂight. To the latter point, the United Nations’ Outer Space
+Treaty of 1967—considered to be the backbone of international
+space law—states that astronauts should be regarded as
+‘‘envoys of mankind.’’ The advent of commercial spaceﬂight
+missions adds additional considerations, especially due to the
+variety of mission types with varying degrees of scientiﬁc value.
+Ethical issues pertaining to data usage
+A key ethical challenge involved in omics research is the handling
+of incidental ﬁndings in consideration of duty of care. Analysis of
+astronaut or SFP-derived omics could reveal pertinent ﬁndings,
+such as gene mutations associated with increased SANS risk;
+however, incidental ﬁndings that are not necessarily relevant in
+the spaceﬂight context, such as increased risk of late-onset Alz-
+heimer’s disease, could also be unintentionally revealed.122 The
+ethical dilemma lies in the decision of whether to inform the partic-
+ipants, and indeed their family members, of these incidental
+ﬁndings, which may not be medically actionable. Ultimately, the
+protocol for handling incidental ﬁndings should be clearly deﬁned
+when obtaining informed consent. Protocol could include giving
+participants the choice to opt in or out of receiving these results
+as well as developing appropriate support services when needed.
+A further ethical challenge surrounding the processing and
+usage of omics data is genetic discrimination, which is when
+an individual receives differential treatment based on their ge-
+netic information. In Europe, genetic discrimination is typically
+addressed in national laws, which are inﬂuenced by regional in-
+struments, including the 2000 Charter of Fundamental Rights of
+the European Union and the 1997 Convention on Human Rights
+and Biomedicine (also known as the Oviedo Convention).123
+Chapter IV of the Oviedo Convention prohibits any form of
+discrimination based on genetic heritage and also prohibits the
+use of tests to predict genetic predisposition to diseases, unless
+these tests are carried out for medical or scientiﬁc purposes,
+together with the provision of adequate genetic counseling.
+Thus, this would seem to permit the use of omics to study indi-
+vidual susceptibility to spaceﬂight risks, such as radiation-
+induced cancers, as long as genetic counseling is provided.
+However, the potential role of omics-based susceptibility and
+predisposition in processes, such as ﬂight assignment, nonethe-
+less remains a contentious issue. In the United States, the 2008
+Genetic Information Nondiscrimination Act (GINA) prevents
+NASA from making employment decisions, such as ﬂight a-
+ssignment, based on genetic data.121,122 From a European
+perspective, largely due to differences in national laws, the legal-
+ity of using omics data in employment decisions, such as ﬂight
+assignment, appears to be less clear. However, it seems likely
+that in ﬂight assignment, the use of genomic susceptibility to
+disease, as opposed to manifestation, would be viewed as
+discriminatory. Additionally, ESA’s recent Parastronaut Feasi-
+bility Project could be seen to suggest a more inclusive approach
+to ﬂight assignment; thus, the focus of omics technologies
+should probably be to reduce risk and improve health outcomes
+via
+personalized
+medicine
+approaches.25
+However,
+some
+personalized medicine approaches are likely to be based on
+the processing of omics data deemed to be personal data under
+the GDPR. This could present a new challenge in operations with
+international partners. For example, if other space agencies such
+as NASA deploy personalized countermeasures but are unable
+to process data from ESA astronauts in compliance with the
+GDPR, either ESA astronauts will not be able to partake in the
+use of these countermeasures to improve occupational health
+or ESA will need to be able to deploy personalized countermea-
+sure via an ESA program; personalized medicine approaches
+have recently been considered by an ESA Topical Team.25 Simi-
+larly, emergent challenges relating to GDPR compliance during
+processing of personal data from Europeans on commercial
+ﬂights need to be considered in the context of initiatives, such
+as the database recently established by TRISH.22
+Storing and sharing data
+Because the ESA is an independent treaty organization based
+in Europe, sharing omics data within ESA’s network is of great
+importance. All 22 member states, associate members, and
+countries with cooperation agreements, including Canada,
+which sits on the Council, appear to follow the GDPR or are
+considered, via adequacy decisions, secure third countries
+due to similarities in data protection law. Thus, data can be
+transferred between these countries, as long as all parties ﬁrst
+reach a consensus on issues, such as the basis for lawful pro-
+cessing and what constitutes personal data. While this sounds
+simple, reaching a consensus can be challenging because the
+GDPR allows scope for variation via national laws (e.g., Article
+9), which may lead to key differences in interpretation and
+application of the GDPR.124,125 Furthermore, space biology
+research typically involves a great deal of international collabo-
+ration with other space agencies, posing a need for interna-
+tional sharing of data.
+For astronaut and/or SFP omics data deemed not to be per-
+sonal data, international sharing could be relatively simple. For
+example, the data could potentially be uploaded to a publicly
+accessible biobank, such as the NASA GeneLab data reposi-
+tory.126 For context, NASA GeneLab has emerged as the primary
+database for spaceﬂight omics data, with signiﬁcant European
+representation in GeneLab’s Analysis Working Groups (AWGs)
+and experimental datasets.127 However, if the data are deemed
+to be personal data, transfers to countries without adequacy de-
+cisions, including the United States, become challenging and
+unclear at present due to the recent ‘‘Schrems II’’ judgment.128
+Due to challenges with ensuring GDPR compliance during
+global sharing of sensitive healthcare and research data, alterna-
+tive models for data sharing have been considered. For example,
+in congruence with a declaration signed by 21 European coun-
+tries to transnationally share data on at least one million human
+genomes by the end of 2022, large-scale initiatives, such as
+the European Genome-Phenome Archive, are shifting toward
+federated approaches.129 Federated approaches can invert the
+traditional data-sharing paradigm of bringing the data to the
+analysis by instead bringing the analysis to the data. Through
+federated approaches, researchers can analyze data across a
+distributed network of databases and then combine the results,
+ll
+OPEN ACCESS
+10
+Patterns 3, September 9, 2022
+Perspective
+
+potentially avoiding the transfer of personal data across jurisdic-
+tions.130,131 This model can also be applied to the training of AI
+models, in a process known as federated learning. For example,
+a successful model for predicting dyspnea, a common side ef-
+fect after radiotherapy treatment of lung cancer, was trained
+on sensitive clinical data from several different hospitals across
+Europe, without the data ever having to leave the individual hos-
+pitals.132 Federated approaches could potentially serve as an
+appropriate solution for enabling international access and anal-
+ysis of sensitive astronaut and/or SFP healthcare or research
+data, while ensuring international legal compliance. Other poten-
+tial approaches to ease data sharing include data sanitization
+methods, to convert identiﬁable data into non-identiﬁable for-
+mats.133 However, methods that modify the data should be care-
+fully balanced against the potential loss of scientiﬁc utility.
+With the speciﬁc security issues of data-sharing strategies in
+mind,130,134,135 data storage solutions, such as biobanks hous-
+ing identiﬁable astronaut and/or SFP omics data, should meet
+high standards of security, to prevent issues such as data
+breaches. Chapter 4 of the GDPR requires that data controllers
+approach ‘‘data protection by design’’ and establish safeguards
+to protect the privacy and security of data in a manner that is pro-
+portionate to the risks involved.
+CONCLUSIONS
+Humanity has laid ambitious plans to venture to Mars and estab-
+lish settlements on other planetary bodies, and commercial
+spaceﬂight is gaining rapid traction with the spacefaring popula-
+tion set to quickly increase both in terms of size and diversity.
+These new endeavors present new challenges for human health
+in space. Crucially, more data are needed, especially for environ-
+mental conditions beyond LEO, where biological and molecular
+adaptations remain uncharted. Recently the ﬁrst multiomic
+proﬁling studies of astronauts have been performed in the
+NASA Twins and SpaceX Inspiration4 missions. With their feasi-
+bility for spaceﬂight now demonstrated, these biological big data
+approaches are primed to transform our understanding of health
+in space, as they have for health on Earth. Importantly, in addition
+to elucidating mechanistic understanding of spaceﬂight-induced
+physiological deconditioning, these approaches also hold strong
+potential to improve risk quantiﬁcation and occupational health
+in space, such as through the design and deployment of person-
+alized medicine approaches. Thus, routinely applying these
+same approaches to European human subjects, including par-
+ticipants in analog environments and astronauts and/or SFPs
+in spaceﬂight missions, is a golden opportunity.
+In order to achieve the full potential of these big data ap-
+proaches, several challenges need to be addressed in a cohesive
+European fashion. First, how do we best store and ensure
+collected data are AI ready? Second, which datasets should we
+collect and when? Third, how do we enable open science ap-
+proaches while protecting personal data? Although we have intro-
+duced the challenges and proposed some options, it is important
+to achieve European consensus on these questions (Table 1). We
+propose forming an ESA topical team and/or holding an ESA
+workshop as a strategic way forward. The goal is to bring together
+European human omics/data science researchers and human
+subject researchers to address these questions in coordination
+with ESA and stakeholders from the commercial spaceﬂight
+sector. Importantly, this consensus will need to consider the inter-
+national context of human research on the ISS, the commercial
+aspects of data science, and the personal nature of the data.
+These latter aspects could be achieved via collaboration with or-
+ganizations, such as International Standards for Space Omics
+Processing (ISSOP), HRMRB, and TRISH.
+ACKNOWLEDGMENTS
+H.C., R.H., J.B., D.B., S.G., T.E., and N.J.S. are members of the ESA Space
+Omics Topical Team, funded by the ESA grant/contract 4000131202/20/NL/
+PG/pt ‘‘Space Omics: Towards an integrated ESA/NASA –omics database
+for spaceﬂight and ground facilities experiments’’ awarded to R.H., which
+was the main funding source for this work. H.C. is also supported by the Ho-
+rizon Center for Doctoral Training at the University of Nottingham (UKRI grant
+no. EP/S023305/1). S.G. is supported by the Swedish Research Council VR
+grant 2020-04864. L.A.R. and M.M. represent the Omics Subgroup of the
+Japan Society for the Promotion of Science KAKENHI funding group ‘‘Living
+in Space’’ and are supported by JP15K21745, JP20H03234, and 20F20382.
+L.A.R. is also supported by the JSPS postdoctoral fellowship P20382. We
+thank Dr. Sarah Castro-Wallace, the NASA GeneLab Animal AWG, ISSOP,
+ESA Space Omics Topical Team, ESA Personalized Medicine Topical Team,
+and Global Alliance for Genomic Health (GA4GH) for useful discussions.
+AUTHOR CONTRIBUTIONS
+Conceptualization, H.C., L.A.R., S.G., T.E., and N.J.S.; investigation, H.C.,
+C.R.G.W., M.J.M., T.E., N.J.S., and D.B.; writing – original draft, H.C. and
+C.R.G.W.; writing – review & editing, all authors; visualization, H.C. and
+M.J.M.; supervision, N.J.S., C.E.M., and M.M.; funding acquisition, R.H.,
+H.C., S.G., L.A.R., and M.M.
+Table 1. Goals and potential topics of discussion for suggested
+ESA topical team/workshops
+Goal: To to explore routine omics collection by deciding which omics
+data to collect routinely, from which samples, and at which time
+points.
+Potential topics to be addressed
+➔Which omic types and technologies have the highest potential for
+scientiﬁc return and clinical actionability (with additional
+consideration to multi-omic combinations)?
+➔Which sample types are the most practical to collect (i.e., cost,
+sample processing procedures, and invasiveness)?
+➔What metadata would be the most useful and practical to
+standardize alongside omics collection (e.g., physiological,
+environmental, and lifestyle)?
+➔At which time points should omics be collected?
+➔How can the AI readiness of the generated datasets be maximized?
+Goal: To help establish clear ESA policy on human omics research
+governance
+Potential topics to be addressed
+➔What is the potential identiﬁably of different omic types, in the
+speciﬁc context of astronauts?
+➔How should ESA go about obtaining meaningful informed consent
+for omics research?
+➔Which legal bases should be used for processing astronaut and/or
+SFP omics data?
+➔How should ESA handle potential ethical issues, such as incidental
+ﬁndings and discrimination?
+➔How should data storage and data sharing between ESA’s
+European and international network be handled?
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+11
+Perspective
+
+DECLARATIONS OF INTERESTS
+D.B. is the CSO at yuri GmbH and co-founder of Poppy Health. M.M. is an
+employee of LSI Medience Corporation through the cross-appointment sys-
+tem of University of Tsukuba and a research advisor of Robotic Biology Insti-
+tute. C.E.M. is a co-founder of Biotia and Onegevity Health.
+REFERENCES
+1. Griko, Y.V., Loftus, D.J., Stolc, V., and Peletskaya, E. (2022). Private
+spaceﬂight: a new landscape for dealing with medical risk. Life Sci.
+Space Res. 33, 41–47. https://doi.org/10.1016/j.lssr.2022.03.001.
+2. Afshinnekoo, E., Scott, R.T., MacKay, M.J., Pariset, E., Cekanaviciute,
+E., Barker, R., Gilroy, S., Hassane, D., Smith, S.M., Zwart, S.R., et al.
+(2020). Fundamental biological features of spaceﬂight: advancing the
+ﬁeld to enable deep-space exploration. Cell 183, 1162–1184. https://
+doi.org/10.1016/j.cell.2020.10.050.
+3. Rittweger, J., Albracht, K., Fl€uck, M., Ruoss, S., Brocca, L., Longa, E.,
+Moriggi, M., Seynnes, O., Di Giulio, I., Tenori, L., et al. (2018). Sarcolab
+pilot study into skeletal muscle’s adaptation to long-term spaceﬂight.
+NPJ Microgravity 4, 18. https://doi.org/10.1038/s41526-018-0052-1.
+4. Gabel, L., Liphardt, A.M., Hulme, P.A., Heer, M., Zwart, S.R., Sibonga,
+J.D., Smith, S.M., and Boyd, S.K. (2022). Pre-ﬂight exercise and bone
+metabolism predict unloading-induced bone loss due to spaceﬂight.
+Br. J. Sports Med. 56, 196–203. https://doi.org/10.1136/bjsports-2020-
+103602.
+5. Lee, A.G., Mader, T.H., Gibson, C.R., and Tarver, W. (2017). Space ﬂight-
+associated neuro-ocular syndrome. JAMA Ophthalmol. 135, 992. https://
+doi.org/10.1001/jamaophthalmol.2017.2396.
+6. Stepanek, J., Blue, R.S., and Parazynski, S. (2019). Space medicine in
+the era of civilian spaceﬂight. N. Engl. J. Med. 380, 1053–1060. https://
+doi.org/10.1056/nejmra1609012.
+7. Rutter, L., Barker, R., Bezdan, D., Cope, H., Costes, S.V., Degoricija, L.,
+Fisch, K.M., Gabitto, M.I., Gebre, S., Giacomello, S., et al. (2020). A new
+era for space life science: international standards for space omics pro-
+cessing. Patterns 1, 100148.
+8. Van Ombergen, A., Rossiter, A., and Ngo-Anh, T.J. (2021). ‘‘White Mars’’
+- nearly two decades of biomedical research at the Antarctic Concordia
+station. Exp. Physiol. 106, 6–17. https://doi.org/10.1113/ep088352.
+9. Stokes, M., Evetts, S., Rittweger, J., Weber, T., Caplan, N., Danneels, L.,
+Hides, J., Kuipers, A., Lambrecht, G., Peterson, N., et al. (2016). Recom-
+mendations for Future Post-mission Neuro-Musculoskeletal Recondi-
+tioning Research and Practice Post-mission Exercise (Reconditioning)
+Topical Team Report (European Space Agency).
+10. Zhang, S., Wimmer-Schweingruber, R.F., Yu, J., Wang, C., Fu, Q., Zou,
+Y., Sun, Y., Wang, C., Hou, D., Bo¨ ttcher, S.I., et al. (2020). First measure-
+ments of the radiation dose on the lunar surface. Sci. Adv. 6, eaaz1334.
+https://doi.org/10.1126/sciadv.aaz1334.
+11. Zeitlin, C., Hassler, D.M., Cucinotta, F.A., Ehresmann, B., Wimmer-
+Schweingruber, R.F., Brinza, D.E., Kang, S., Weigle, G., Bo¨ ttcher, S.,
+Bo¨ hm, E., et al. (2013). Measurements of Energetic Particle Radiation
+in Transit to Mars on the Mars Science Laboratory. Science 340.
+12. Restier-Verlet, J., El-Nachef, L., Ferlazzo, M.L., Al-Choboq, J., Gran-
+zotto, A., Bouchet, A., and Foray, N. (2021). Radiation on earth or in
+space: what does it change? Int. J. Mol. Sci. 22, 3739. https://doi.org/
+10.3390/ijms22073739.
+13. Simonsen, L.C., Slaba, T.C., Guida, P., and Rusek, A. (2020). NASA’s ﬁrst
+ground-based Galactic Cosmic Ray Simulator: enabling a new era in
+space radiobiology research. PLoS Biol. 18, e3000669. https://doi.org/
+10.1371/journal.pbio.3000669.
+14. Walsh, L., Hafner, L., Straube, U., Ulanowski, A., Fogtman, A., Durante,
+M., Weerts, G., and Schneider, U. (2021). A bespoke health risk assess-
+ment methodology for the radiation protection of astronauts. Radiat. En-
+viron.
+Biophys.
+60,
+213–231.
+https://doi.org/10.1007/s00411-021-
+00910-0.
+15. Linnarsson, D., Carpenter, J., Fubini, B., Gerde, P., Karlsson, L.L., Loftus,
+D.J., Prisk, G.K., Staufer, U., Tranﬁeld, E.M., and van Westrenen, W.
+(2012). Toxicity of lunar dust. Planet. Space Sci. 74, 57–71. https://doi.
+org/10.1016/j.pss.2012.05.023.
+16. Petersen, N., Lambrecht, G., Scott, J., Hirsch, N., Stokes, M., and Mes-
+ter, J. (2017). Postﬂight reconditioning for European Astronauts - a case
+report of recovery after six months in space. Musculoskelet. Sci. Pract.
+27 (Suppl 1), S23–S31. https://doi.org/10.1016/j.msksp.2016.12.010.
+17. Schmidt, M.A., and Goodwin, T.J. (2013). Personalized medicine in hu-
+man space ﬂight: using Omics based analyses to develop individualized
+countermeasures that enhance astronaut safety and performance. Me-
+tabolomics 9, 1134–1156. https://doi.org/10.1007/s11306-013-0556-3.
+18. Hasin, Y., Seldin, M., and Lusis, A. (2017). Multi-omics approaches to
+disease. Genome Biol. 18, 83. https://doi.org/10.1186/s13059-017-
+1215-1.
+19. Willis, C.R.G., Gallagher, I.J., Wilkinson, D.J., Brook, M.S., Bass, J.J.,
+Phillips, B.E., Smith, K., Etheridge, T., Stokes, T., McGlory, C., et al.
+(2021). Transcriptomic links to muscle mass loss and declines in cumu-
+lative muscle protein synthesis during short-term disuse in healthy
+younger humans. FASEB. J. 35, e21830. https://doi.org/10.1096/fj.
+202100276rr.
+20. Kousathanas, A., Pairo-Castineira, E., Rawlik, K., Stuckey, A., Odhams,
+C.A., Walker, S., Russell, C.D., Malinauskas, T., Wu, Y., Millar, J.,
+Shen, X., Elliott, K.S., Grifﬁths, F., Oosthuyzen, W., Morrice, K., Keating,
+S., Wang, B., Rhodes, D., Klaric, L., Zechner, M., Parkinson, N., Siddiq,
+A., Goddard, P., Donovan, S., Maslove, D., Nichol, A., Semple, M.G.,
+Zainy, T., Maleady-Crowe, F., Todd, L., Salehi, S., Knight, J., Elgar, G.,
+Chan, G., Arumugam, P., Patch, C., Rendon, A., Bentley, D., Kingsley,
+C., Kosmicki, J.A., Horowitz, J.E., Baras, A., Abecasis, G.R., Ferreira,
+M.A.R., Justice, A., Mirshahi, T., Oetjens, M., Rader, D.J., Ritchie,
+M.D., Verma, A., Fowler, T.A., Shankar-Hari, M., Summers, C., Hinds,
+C., Horby, P., Ling, L., McAuley, D., Montgomery, H., Openshaw,
+P.J.M., Elliott, P., Walsh, T., Tenesa, A., GenOMICC Investigators;
+23andMe; Covid-19 Human Genetics Initiative, Fawkes, A., Murphy, L.,
+Rowan, K., Ponting, C.P., Vitart, V., Wilson, J.F., Yang, J., Bretherick,
+A.D., Scott, R.H., Hendry, S.C., Moutsianas, L., Law, A., Caulﬁeld,
+M.J., and Baillie, J.K. (2022). Whole genome sequencing reveals host
+factors underlying critical Covid-19. Nature. https://doi.org/10.1038/
+s41586-022-04576-6.
+21. Garrett-Bakelman, F.E., Darshi, M., Green, S.J., Gur, R.C., Lin, L., Ma-
+cias, B.R., McKenna, M.J., Meydan, C., Mishra, T., Nasrini, J., et al.
+(2019). The NASA Twins Study: a multidimensional analysis of a year-
+long human spaceﬂight. Science 364, eaau8650. https://doi.org/10.
+1126/science.aau8650.
+22. Urquieta, E., Wu, J., Hury, J., and Donoviel, D. (2022). Establishment of
+an open biomedical database for commercial spaceﬂight. Nat. Med.
+28, 611–612.
+23. Deane, C.S., Borg, J., Cahill, T., Carnero-Diaz, E., Etheridge, T., Hardi-
+man, G., Leys, N., Madrigal, P., Manzano, A., Mastroleo, F., et al.
+(2022). Space omics research in Europe: contributions, geographical dis-
+tribution and ESA member state funding schemes. iScience 25, 103920.
+24. Zwart, S.R., Gregory, J.F., Zeisel, S.H., Gibson, C.R., Mader, T.H., Kin-
+chen, J.M., Ueland, P.M., Ploutz-Snyder, R., Heer, M.A., and Smith,
+S.M. (2016). Genotype, B-vitamin status, and androgens affect space-
+ﬂight-induced ophthalmic changes. FASEB. J. 30, 141–148. https://doi.
+org/10.1096/fj.15-278457.
+25. Pavez Lorie` , E., Baatout, S., Chouke´ r, A., Chouke´ r, A., Buchheim, J.I.,
+Baselet, B., Dello Russo, C., Wotring, V., Monici, M., Morbidelli, L.,
+et al. (2021). The future of personalized medicine in space: from observa-
+tions to countermeasures. Front. Bioeng. Biotechnol. 9, 739747. https://
+doi.org/10.3389/fbioe.2021.739747.
+26. Lulli, M., Cialdai, F., Vignali, L., Monici, M., Luzzi, S., Cicconi, A., Cac-
+chione, S., Magi, A., Balsamo, M., Vukich, M., et al. (2018). The Coen-
+zyme Q10 as an antiapoptotic countermeasure for retinal lesions on-
+board the International Space Station. Front. Physiol. 9. https://doi.org/
+10.3389/conf.fphys.2018.26.00036.
+27. Stingl, J.C., Welker, S., Hartmann, G., Damann, V., and Gerzer, R. (2015).
+Where failure is not an option -personalized medicine in astronauts. PLoS
+One 10, e0140764. https://doi.org/10.1371/journal.pone.0140764.
+28. Sawyers, L., Anderson, C., Boyd, M.J., Hessel, V., Wotring, V., Williams,
+P.M., et al. (2022). Astropharmacy: pushing the boundaries of the
+ll
+OPEN ACCESS
+12
+Patterns 3, September 9, 2022
+Perspective
+
+pharmacists’ role for sustainable space exploration. Res. Soc. Adm.
+Pharm. https://doi.org/10.1016/j.sapharm.2022.02.002.
+29. Strangman, G.E., Sawyer, A., Fabre, K.M., Urquieta, E., Hury, J., III, Do-
+noviel, D., Wu, J., Peterman, A., Hoffman, J., and Donoviel, D. (2019).
+Deep-space applications for point-of-care technologies. Curr. Opin. Bio-
+med. Eng. 11, 45–50. https://doi.org/10.1016/j.cobme.2019.08.014.
+30. Lee, I.-M., Shiroma, E.J., Lobelo, F., Puska, P., Blair, S.N., and Katzmar-
+zyk, P.T.; Lancet Physical Activity Series Working Group (2012). Effect of
+physical inactivity on major non-communicable diseases worldwide: an
+analysis of burden of disease and life expectancy. Lancet 380,
+219–229. https://doi.org/10.1016/s0140-6736(12)61031-9.
+31. Scott, R.T., Grigorev, K., Mackintosh, G., Gebre, S.G., Mason, C.E., Del
+Alto, M.E., and Costes, S.V. (2020). Advancing the integration of biosci-
+ences data sharing to further enable space exploration. Cell Rep. 33,
+108441. https://doi.org/10.1016/j.celrep.2020.108441.
+32. Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J.J., Appleton, G., Axton,
+M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne,
+P.E., et al. (2016). The FAIR Guiding Principles for scientiﬁc data manage-
+ment and stewardship. Sci. Data 3, 160018. https://doi.org/10.1038/
+sdata.2016.18.
+33. Jacobsen, A., de Miranda Azevedo, R., Juty, N., Batista, D., Coles, S.,
+Cornet, R., Courtot, M., Crosas, M., Dumontier, M., Evelo, C.T., et al.
+(2020). FAIR principles: interpretations and implementation consider-
+ations. Data Intell. 2, 10–29. https://doi.org/10.1162/dint_r_00024.
+34. Overbey, E.G., Saravia-Butler, A.M., Zhang, Z., Rathi, K.S., Fogle, H., da
+Silveira, W.A., Barker, R.J., Bass, J.J., Beheshti, A., Berrios, D.C., et al.
+(2021). NASA GeneLab RNA-seq consensus pipeline: standardized pro-
+cessing of short-read RNA-seq data. iScience 24, 102361. https://doi.
+org/10.1016/j.isci.2021.102361.
+35. Bohr, A., and Memarzadeh, K. (2020). Chapter 2 - the rise of artiﬁcial in-
+telligence in healthcare applications. In Artiﬁcial Intelligence in Health-
+care, A. Bohr and K. Memarzadeh, eds. (Academic Press), pp. 25–60.
+36. Bjo¨ rnsson, B., Borrebaeck, C., Elander, N., Gasslander, T., Gawel, D.R.,
+Gustafsson, M., Jo¨ rnsten, R., Lee, E.J., Li, X., Lilja, S., et al. (2019). Digital
+twins to personalize medicine. Genome Med. 12, 4. https://doi.org/10.
+1186/s13073-019-0701-3.
+37. Scott, R.T., Antonsen, E.L., Sanders, L.M., Hastings, J.J.A., Park, S.-M.,
+Mackintosh, G., Reynolds, R.J., Hoarfrost, A.L., Sawyer, A., Greene,
+C.S., et al. (2021). Beyond low earth orbit: biomonitoring, artiﬁcial intelli-
+gence, and precision space health. Preprint at arXiv. https://doi.org/10.
+48550/arXiv.2112.12554.
+38. Cohain, A., Divaraniya, A.A., Zhu, K., Scarpa, J.R., Kasarskis, A., Zhu, J.,
+Chang, R., Dudley, J.T., and Schadt, E.E. (2017). Exploring the reproduc-
+ibility of probabilistic causal molecular network models. Pac. Symp. Bio-
+comput. 22, 120–131. https://doi.org/10.1142/9789813207813_0013.
+39. Mostavi, M., Chiu, Y.-C., Chen, Y., and Huang, Y. (2021). CancerSiam-
+ese: one-shot learning for predicting primary and metastatic tumor types
+unseen during model training. BMC Bioinf. 22, 244. https://doi.org/10.
+1186/s12859-021-04157-w.
+40. Ma, J., Fong, S.H., Luo, Y., Bakkenist, C.J., Shen, J.P., Mourragui, S.,
+Wessels, L.F.A., Hafner, M., Sharan, R., Peng, J., and Ideker, T. (2021).
+Few-shot learning creates predictive models of drug response that trans-
+late from high-throughput screens to individual patients. Nat. Can. (Que.)
+2, 233–244. https://doi.org/10.1038/s43018-020-00169-2.
+41. da Silveira, W.A., Fazelinia, H., Rosenthal, S.B., Laiakis, E.C., Kim, M.S.,
+Meydan, C., Kidane, Y., Rathi, K.S., Smith, S.M., Stear, B., et al. (2020).
+Comprehensive multi-omics analysis reveals mitochondrial stress as a
+central biological hub for spaceﬂight impact. Cell 183, 1185–1201.e20.
+https://doi.org/10.1016/j.cell.2020.11.002.
+42. Pulley, J.M., Rhoads, J.P., Jerome, R.N., Challa, A.P., Erreger, K.B., Joly,
+M.M., Lavieri, R.R., Perry, K.E., Zaleski, N.M., Shirey-Rice, J.K., and
+Aronoff, D.M. (2020). Using what we already have: uncovering new
+drug repurposing strategies in existing omics data. Annu. Rev. Pharma-
+col. Toxicol. 60, 333–352. https://doi.org/10.1146/annurev-pharmtox-
+010919-023537.
+43. Stark, Z., Dolman, L., Manolio, T.A., Ozenberger, B., Hill, S.L., Caulﬁed,
+M.J., Levy, Y., Glazer, D., Wilson, J., Lawler, M., et al. (2019). Integrating
+genomics into healthcare: a global responsibility. Am. J. Hum. Genet.
+104, 13–20. https://doi.org/10.1016/j.ajhg.2018.11.014.
+44. Matey, E.T., Ragan, A.K., Oyen, L.J., Vitek, C.R., Aoudia, S.L., Ragab,
+A.K., Fee-Schroeder, K.C., Black, J.L., Moyer, A.M., Nicholson, W.T.,
+et al. (2022). Nine-gene pharmacogenomics proﬁle service: the Mayo
+Clinic experience. Pharmacogenomics J. 22, 69–74. https://doi.org/10.
+1038/s41397-021-00258-0.
+45. Voorhies, A.A., Mark Ott, C., Mehta, S., Pierson, D.L., Crucian, B.E., Fei-
+veson, A., Oubre, C.M., Torralba, M., Moncera, K., Zhang, Y., et al.
+(2019). Study of the impact of long-duration space missions at the Inter-
+national Space Station on the astronaut microbiome. Sci. Rep. 9, 9911.
+https://doi.org/10.1038/s41598-019-46303-8.
+46. Urbaniak, C., Lorenzi, H., Thissen, J., Jaing, C., Crucian, B., Sams, C.,
+Pierson, D., Venkateswaran, K., and Mehta, S. (2020). The inﬂuence of
+spaceﬂight on the astronaut salivary microbiome and the search for a mi-
+crobiome biomarker for viral reactivation. Microbiome 8, 56. https://doi.
+org/10.1186/s40168-020-00830-z.
+47. Stahl-Rommel, S., Jain, M., Nguyen, H.N., Arnold, R.R., Aunon-Chan-
+cellor, S.M., Sharp, G.M., Castro, C.L., John, K.K., Juul, S., Turner,
+D.J., et al. (2021). Real-time culture-independent microbial proﬁling on-
+board the international space station using Nanopore sequencing. Genes
+12, 106. https://doi.org/10.3390/genes12010106.
+48. Avila-Herrera, A., Thissen, J., Urbaniak, C., Be, N.A., Smith, D.J., Kar-
+ouia, F., Mehta, S., Venkateswaran, K., and Jaing, C. (2020). Crewmem-
+ber microbiome may inﬂuence microbial composition of ISS habitable
+surfaces. PLoS One 15, e0231838. https://doi.org/10.1371/journal.
+pone.0231838.
+49. Yu, C.T., Chao, B.N., Barajas, R., Haznadar, M., Maruvada, P., Nicastro,
+H.L., Ross, S.A., Verma, M., Rogers, S., and Zanetti, K.A. (2022). An
+evaluation of the National Institutes of Health grants portfolio: identifying
+opportunities and challenges for multi-omics research that leverage
+metabolomics data. Metabolomics 18, 29. https://doi.org/10.1007/
+s11306-022-01878-8.
+50. Mencia-Trinchant, N., MacKay, M.J., Chin, C., Afshinnekoo, E., Foox, J.,
+Meydan, C., Butler, D., Mozsary, C., Vernice, N.A., Darby, C., et al.
+(2021). Clonal hematopoiesis before, during, and after human space-
+ﬂight. Cell Rep. 34, 108740. https://doi.org/10.1016/j.celrep.2021.
+108740.
+51. Trudel, G., Shahin, N., Ramsay, T., Laneuville, O., and Louati, H. (2022).
+Hemolysis contributes to anemia during long-duration space ﬂight. Nat.
+Med. 28, 59–62. https://doi.org/10.1038/s41591-021-01637-7.
+52. Mias, G.I., Singh, V.V., Rogers, L.R.K., Xue, S., Zheng, M., Domanskyi,
+S., Kanada, M., Piermarocchi, C., and He, J. (2021). Longitudinal saliva
+omics responses to immune perturbation: a case study. Sci. Rep. 11,
+710. https://doi.org/10.1038/s41598-020-80605-6.
+53. Roda, A., Mirasoli, M., Guardigli, M., Zangheri, M., Caliceti, C., Calabria,
+D., and Simoni, P. (2018). Advanced biosensors for monitoring astro-
+nauts’ health during long-duration space missions. Biosens. Bioelectron.
+111, 18–26. https://doi.org/10.1016/j.bios.2018.03.062.
+54. Castro-Wallace, S.L., Chiu, C.Y., John, K.K., Stahl, S.E., Rubins, K.H.,
+McIntyre, A.B.R., Dworkin, J.P., Lupisella, M.L., Smith, D.J., Botkin,
+D.J., et al. (2017). Nanopore DNA sequencing and genome assembly
+on the international space station. Sci. Rep. 7, 18022. https://doi.org/
+10.1038/s41598-017-18364-0.
+55. Burton, A.S., Stahl, S.E., John, K.K., Jain, M., Juul, S., Turner, D.J., Har-
+rington, E.D., Stoddart, D., Paten, B., Akeson, M., and Castro-Wallace,
+S.L. (2020). Off earth identiﬁcation of bacterial populations using 16S
+rDNA Nanopore sequencing. Genes 11, 76. https://doi.org/10.3390/
+genes11010076.
+56. Sanders, L.M., Yang, J.H., Scott, R.T., Qutub, A.A., Martin, H.G., Berrios,
+D.C., Hastings, J.J.A., Rask, J., Mackintosh, G., Hoarfrost, A.L., et al.
+(2021). Beyond low earth orbit: biological research, artiﬁcial intelligence,
+and self-driving labs. Preprint at arXiv. https://doi.org/10.48550/arXiv.
+2112.12582.
+57. Wnorowski, A., Sharma, A., Chen, H., Wu, H., Shao, N.-Y., Sayed, N., Liu,
+C., Countryman, S., Stodieck, L.S., Rubins, K.H., et al. (2019). Effects of
+spaceﬂight
+on
+human
+induced
+pluripotent
+stem
+cell-derived
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+13
+Perspective
+
+cardiomyocyte structure and function. Stem Cell Rep. 13, 960–969.
+https://doi.org/10.1016/j.stemcr.2019.10.006.
+58. Barrila, J., Sarker, S.F., Hansmeier, N., Yang, S., Buss, K., Briones, N.,
+Park, J., Davis, R.R., Forsyth, R.J., Ott, C.M., et al. (2021). Evaluating
+the effect of spaceﬂight on the host-pathogen interaction between hu-
+man intestinal epithelial cells and Salmonella Typhimurium. NPJ Micro-
+gravity 7, 9. https://doi.org/10.1038/s41526-021-00136-w.
+59. Trappe, S., Costill, D., Gallagher, P., Creer, A., Peters, J.R., Evans, H.,
+Riley, D.A., and Fitts, R.H. (2009). Exercise in space: human skeletal mus-
+cle after 6 months aboard the International Space Station. J. Appl. Phys-
+iol. 106, 1159–1168. https://doi.org/10.1152/japplphysiol.91578.2008.
+60. Fitts, R.H., Trappe, S.W., Costill, D.L., Gallagher, P.M., Creer, A.C., Col-
+loton, P.A., Peters, J.R., Romatowski, J.G., Bain, J.L., and Riley, D.A.
+(2010). Prolonged space ﬂight-induced alterations in the structure and
+function of human skeletal muscle ﬁbres. J. Physiol. 588, 3567–3592.
+https://doi.org/10.1113/jphysiol.2010.188508.
+61. Fitts, R.H., Colloton, P.A., Trappe, S.W., Costill, D.L., Bain, J.L.W., and
+Riley, D.A. (2013). Effects of prolonged space ﬂight on human skeletal
+muscle enzyme and substrate proﬁles. J. Appl. Physiol. 115, 667–679.
+https://doi.org/10.1152/japplphysiol.00489.2013.
+62. Corvelyn, M., De Beukelaer, N., Duelen, R., Deschrevel, J., Van Cam-
+penhout, A., Prinsen, S., Gayan-Ramirez, G., Maes, K., Weide, G., De-
+sloovere, K., et al. (2020). Muscle microbiopsy to delineate stem cell
+involvement in young patients: a novel approach for children with cere-
+bral palsy. Front. Physiol.
+11, 945. https://doi.org/10.3389/fphys.
+2020.00945.
+63. Berekme´ ri, A., Tiganescu, A., Alase, A.A., Vital, E., Stacey, M., and
+Wittmann, M. (2019). Non-invasive approaches for the diagnosis of auto-
+immune/autoinﬂammatory skin diseases-A focus on psoriasis and lupus
+erythematosus. Front. Immunol. 10, 1931. https://doi.org/10.3389/
+ﬁmmu.2019.01931.
+64. Crucian, B., Stowe, R., Mehta, S., Uchakin, P., Quiriarte, H., Pierson, D.,
+and Sams, C. (2013). Immune system dysregulation occurs during short
+duration spaceﬂight on board the space shuttle. J. Clin. Immunol. 33,
+456–465. https://doi.org/10.1007/s10875-012-9824-7.
+65. Crucian, B., Stowe, R.P., Mehta, S., Quiriarte, H., Pierson, D., and Sams,
+C. (2015). Alterations in adaptive immunity persist during long-duration
+spaceﬂight.
+NPJ
+Microgravity
+1,
+15013.
+https://doi.org/10.1038/
+npjmgrav.2015.13.
+66. Crucian, B.E., Zwart, S.R., Mehta, S., Uchakin, P., Quiriarte, H.D., Pier-
+son, D., Sams, C.F., and Smith, S.M. (2014). Plasma cytokine concentra-
+tions indicate that in vivo hormonal regulation of immunity is altered
+during long-duration spaceﬂight. J. Interferon Cytokine Res. 34,
+778–786. https://doi.org/10.1089/jir.2013.0129.
+67. Buchheim, J.-I., Ghislin, S., Ouzren, N., Albuisson, E., Vanet, A., Matzel,
+S., Ponomarev, S., Rykova, M., Chouke´ r, A., Chouke´ r, A., and Frippiat,
+J.-P. (2020). Plasticity of the human IgM repertoire in response to long-
+term spaceﬂight. FASEB. J. 34, 16144–16162. https://doi.org/10.1096/
+fj.202001403rr.
+68. Bezdan, D., Grigorev, K., Meydan, C., Pelissier Vatter, F.A., Ciofﬁ, M.,
+Rao, V., MacKay, M., Nakahira, K., Burnham, P., Afshinnekoo, E., et al.
+(2020). Cell-free DNA (cfDNA) and exosome proﬁling from a year-long hu-
+man spaceﬂight reveals circulating biomarkers. iScience 23, 101844.
+https://doi.org/10.1016/j.isci.2020.101844.
+69. Malkani, S., Chin, C.R., Cekanaviciute, E., Mortreux, M., Okinula, H.,
+Tarbier, M., Schreurs, A.-S., Shirazi-Fard, Y., Tahimic, C.G.T., Rodriguez,
+D.N., et al. (2020). Circulating miRNA spaceﬂight signature reveals tar-
+gets for countermeasure development. Cell Rep. 33, 108448. https://
+doi.org/10.1016/j.celrep.2020.108448.
+70. Brzhozovskiy, A.G., Kononikhin, A.S., Pastushkova, L.C., Kashirina,
+D.N., Indeykina, M.I., Popov, I.A., Custaud, M.-A., Larina, I.M., and Niko-
+laev, E.N. (2019). The effects of spaceﬂight factors on the human plasma
+proteome, including both real space missions and ground-based exper-
+iments. Int. J. Mol. Sci. 20, 3194. https://doi.org/10.3390/ijms20133194.
+71. Pastushkova, L.K., Rusanov, V.B., Goncharova, A.G., Nosovskiy, A.M.,
+Luchitskaya, E.S., Kashirina, D.N., Kononikhin, A.S., Kussmaul, A.R., Ya-
+khya, Y.D., Larina, I.M., and Nikolaev, E.N. (2021). Blood plasma proteins
+associated with heart rate variability in cosmonauts who have completed
+long-duration space missions. Front. Physiol. 12, 760875. https://doi.
+org/10.3389/fphys.2021.760875.
+72. Brzhozovskiy, A., Kononikhin, A., Indeykina, M., Pastushkova, L., Popov,
+I.A., Nikolaev, E.N., Larina, I.M., Brzhozovskiy, A., and Kononikhin, A.
+(2017). Label-free study of cosmonaut’s urinary proteome changes after
+long-duration spaceﬂights. Eur. J. Mass Spectrom. 23, 225–229. https://
+doi.org/10.1177/1469066717717610.
+73. Kuo, T.-R., and Chen, C.-H. (2017). Bone biomarker for the clinical
+assessment of osteoporosis: recent developments and future perspec-
+tives. Biomark Res 5, 18. https://doi.org/10.1186/s40364-017-0097-4.
+74. Swensen, A.C., He, J., Fang, A.C., Ye, Y., Nicora, C.D., Shi, T., Liu, A.Y.,
+Sigdel, T.K., Sarwal, M.M., and Qian, W.-J. (2021). A comprehensive
+urine proteome database generated from patients with various renal con-
+ditions and prostate cancer. Front. Med. 8, 548212. https://doi.org/10.
+3389/fmed.2021.548212.
+75. Jing, J., and Gao, Y. (2018). Urine biomarkers in the early stages of dis-
+eases: current status and perspective. Discov. Med. 25, 57–65.
+76. Gao, Y. (2015). Urine is a better biomarker source than blood especially
+for kidney diseases. Adv. Exp. Med. Biol. 845, 3–12. https://doi.org/10.
+1007/978-94-017-9523-4_1.
+77. Pastushkova, L.H., Rusanov, V.B., Goncharova, A.G., Brzhozovskiy,
+A.G., Kononikhin, A.S., Chernikova, A.G., Kashirina, D.N., Nosovsky,
+A.M., Baevsky, R.M., Nikolaev, E.N., and Larina, I.M. (2019). Urine prote-
+ome changes associated with autonomic regulation of heart rate in cos-
+monauts. BMC Syst. Biol. 13, 17. https://doi.org/10.1186/s12918-019-
+0688-9.
+78. Pastushkova, L.K., Kashirina, D.N., Brzhozovskiy, A.G., Kononikhin,
+A.S., Tiys, E.S., Ivanisenko, V.A., Koloteva, M.I., Nikolaev, E.N., and Lar-
+ina, I.M. (2019). Evaluation of cardiovascular system state by urine prote-
+ome after manned space ﬂight. Acta Astronaut. 160, 594–600. https://
+doi.org/10.1016/j.actaastro.2019.02.015.
+79. Kinross, J.M., Darzi, A.W., and Nicholson, J.K. (2011). Gut microbiome-
+host interactions in health and disease. Genome Med. 3, 14. https://
+doi.org/10.1186/gm228.
+80. Valdes, A.M., Walter, J., Segal, E., and Spector, T.D. (2018). Role of the
+gut microbiota in nutrition and health. BMJ 361, k2179. https://doi.org/
+10.1136/bmj.k2179.
+81. Tang, Q., Jin, G., Wang, G., Liu, T., Liu, X., Wang, B., and Cao, H. (2020).
+Current sampling methods for gut microbiota: a call for more precise de-
+vices. Front. Cell. Infect. Microbiol. 10, 151. https://doi.org/10.3389/
+fcimb.2020.00151.
+82. Turroni, S., Magnani, M., Kc, P., Lesnik, P., Vidal, H., and Heer, M. (2020).
+Gut microbiome and space travelers’ health: state of the art and possible
+pro/prebiotic strategies for long-term space missions. Front. Physiol. 11,
+553929. https://doi.org/10.3389/fphys.2020.553929.
+83. Liu, Z., Luo, G., Du, R., Sun, W., Li, J., Lan, H., Chen, P., Yuan, X., Cao, D.,
+Li, Y., et al. (2020). Effects of spaceﬂight on the composition and function
+of the human gut microbiota. Gut Microb. 11, 807–819. https://doi.org/
+10.1080/19490976.2019.1710091.
+84. Danko, D.C., Singh, N., Butler, D.J., Mozsary, C., Jiang, P., Keshavar-
+zian, A., Maienschein-Cline, M., Chlipala, G., Afshinnekoo, E., Bezdan,
+D., et al. (2020). Genetic and immunological evidence for microbial trans-
+fer between the international space station and an astronaut. Preprint at
+bioRxiv. https://doi.org/10.1101/2020.11.10.376954.
+85. Zierer, J., Jackson, M.A., Kastenm€uller, G., Mangino, M., Long, T., Tele-
+nti, A., Mohney, R.P., Small, K.S., Bell, J.T., Steves, C.J., et al. (2018). The
+fecal metabolome as a functional readout of the gut microbiome. Nat.
+Genet. 50, 790–795. https://doi.org/10.1038/s41588-018-0135-7.
+86. Ursell, L.K., Metcalf, J.L., Parfrey, L.W., and Knight, R. (2012). Deﬁning
+the human microbiome. Nutr. Rev. 70 (Suppl 1), S38–S44.
+87. Blum, H.E. (2017). The human microbiome. Adv. Med. Sci. 62, 414–420.
+https://doi.org/10.1016/j.advms.2017.04.005.
+88. Gilbert, J.A., Blaser, M.J., Caporaso, J.G., Jansson, J.K., Lynch, S.V.,
+and Knight, R. (2018). Current understanding of the human microbiome.
+Nat. Med. 24, 392–400. https://doi.org/10.1038/nm.4517.
+ll
+OPEN ACCESS
+14
+Patterns 3, September 9, 2022
+Perspective
+
+89. Salvucci, E. (2019). The human-microbiome superorganism and its mod-
+ulation to restore health. Int. J. Food Sci. Nutr. 70, 781–795. https://doi.
+org/10.1080/09637486.2019.1580682.
+90. Fan, Y., and Pedersen, O. (2021). Gut microbiota in human metabolic
+health and disease. Nat. Rev. Microbiol. 19, 55–71. https://doi.org/10.
+1038/s41579-020-0433-9.
+91. Be, N.A., Avila-Herrera, A., Allen, J.E., Singh, N., Checinska Sielaff, A.,
+Jaing, C., and Venkateswaran, K. (2017). Whole metagenome proﬁles
+of particulates collected from the International Space Station. Micro-
+biome 5, 81. https://doi.org/10.1186/s40168-017-0292-4.
+92. Singh, N.K., Wood, J.M., Karouia, F., and Venkateswaran, K. (2018). Suc-
+cession and persistence of microbial communities and antimicrobial
+resistance genes associated with International Space Station environ-
+mental surfaces. Microbiome 6, 204. https://doi.org/10.1186/s40168-
+018-0585-2.
+93. Checinska Sielaff, A., Urbaniak, C., Mohan, G.B.M., Stepanov, V.G.,
+Tran, Q., Wood, J.M., Minich, J., McDonald, D., Mayer, T., Knight, R.,
+et al. (2019). Characterization of the total and viable bacterial and fungal
+communities associated with the International Space Station surfaces.
+Microbiome 7, 50. https://doi.org/10.1186/s40168-019-0666-x.
+94. Stabler, R.A., Rosado, H., Doyle, R., Negus, D., Carvil, P.A., Kristja´ nsson,
+J.G., Green, D.A., Franco-Cendejas, R., Davies, C., Mogensen, A., et al.
+(2017). Impact of the mk VI SkinSuit on skin microbiota of terrestrial vol-
+unteers and an international space station-bound astronaut. NPJ Micro-
+gravity 3, 23. https://doi.org/10.1038/s41526-017-0029-5.
+95. Morrison, M.D., Thissen, J.B., Karouia, F., Mehta, S., Urbaniak, C., Ven-
+kateswaran, K., Smith, D.J., and Jaing, C. (2021). Investigation of space-
+ﬂight induced changes to astronaut microbiomes. Front. Microbiol. 12,
+659179. https://doi.org/10.3389/fmicb.2021.659179.
+96. Lee, M.D., O’Rourke, A., Lorenzi, H., Bebout, B.M., Dupont, C.L., and
+Everroad,
+R.C.
+(2021).
+Reference-guided
+metagenomics
+reveals
+genome-level evidence of potential microbial transmission from the ISS
+environment to an astronaut’s microbiome. iScience 24, 102114.
+https://doi.org/10.1016/j.isci.2021.102114.
+97. Salama, S.A., Serrana, M., Au, W.W., and Au, W.W. (1999). Biomonitoring
+using accessible human cells for exposure and health risk assessment.
+Mutat.
+Res.
+436,
+99–112.
+https://doi.org/10.1016/s1383-5742(98)
+00021-0.
+98. Terada, M., Seki, M., Higashibata, A., Yamada, S., Takahashi, R., Ma-
+jima, H.J., Yamazaki, T., Watanabe-Asaka, T., Niihori, M., Mukai, C.,
+and Ishioka, N. (2013). Genetic analysis of the human hair roots as a
+tool for spaceﬂight experiments. Adv. Biosci. Biotechnol. 04, 75–88.
+https://doi.org/10.4236/abb.2013.410a3009.
+99. Terada, M., Seki, M., Takahashi, R., Yamada, S., Higashibata, A., Ma-
+jima, H.J., Sudoh, M., Mukai, C., and Ishioka, N. (2016). Effects of a
+closed space environment on gene expression in hair follicles of astro-
+nauts in the international space station. PLoS One 11, e0150801.
+https://doi.org/10.1371/journal.pone.0150801.
+100. Adav, S.S., Subbaiaih, R.S., Kerk, S.K., Lee, A.Y., Lai, H.Y., Ng, K.W.,
+Sze, S.K., and Schmidtchen, A. (2018). Studies on the proteome of hu-
+man hair - identiﬁcation of histones and deamidated keratins. Sci. Rep.
+8, 1599. https://doi.org/10.1038/s41598-018-20041-9.
+101. Chen, Y., Guo, J., Xing, S., Yu, H., and Huan, T. (2021). Global-scale me-
+tabolomic proﬁling of human hair for simultaneous monitoring of endog-
+enous metabolome, short- and long-term exposome. Front. Chem. 9,
+674265. https://doi.org/10.3389/fchem.2021.674265.
+102. Cikach, F.S., Jr., and Dweik, R.A. (2012). Cardiovascular biomarkers in
+exhaled breath. Prog. Cardiovasc. Dis. 55, 34–43. https://doi.org/10.
+1016/j.pcad.2012.05.005.
+103. Ibrahim, W., Carr, L., Cordell, R., Wilde, M.J., Salman, D., Monks, P.S.,
+Thomas, P., Brightling, C.E., Siddiqui, S., and Greening, N.J. (2021).
+Breathomics for the clinician: the use of volatile organic compounds in
+respiratory diseases. Thorax 76, 514–521. https://doi.org/10.1136/thor-
+axjnl-2020-215667.
+104. Kononikhin, A.S., Brzhozovskiy, A.G., Ryabokon, A.M., Fedorchenko, K.,
+Zakharova, N.V., Spasskii, A.I., Popov, I.A., Ilyin, V.K., Solovyova, Z.O.,
+Pastushkova, L.K., et al. (2019). Proteome proﬁling of the exhaled breath
+condensate after long-term spaceﬂights. Int. J. Mol. Sci. 20, 4518.
+https://doi.org/10.3390/ijms20184518.
+105. Hauschild, A.-C., Frisch, T., Baumbach, J.I., and Baumbach, J. (2015).
+Carotta: revealing hidden confounder markers in metabolic breath pro-
+ﬁles. Metabolites 5, 344–363. https://doi.org/10.3390/metabo5020344.
+106. Campanella, A., De Summa, S., and Tommasi, S. (2019). Exhaled breath
+condensate biomarkers for lung cancer. J. Breath Res. 13, 044002.
+https://doi.org/10.1088/1752-7163/ab2f9f.
+107. Mitchell, C., Ordish, J., Johnson, E., Brigden, T., and Hall, A. (2020). The
+GDPR and Genomic Data—The Impact of the GDPR and DPA 2018 on
+Genomic Healthcare and Research.
+108. Haendel, M., Vasilevsky, N., Unni, D., Bologa, C., Harris, N., Rehm, H.,
+Hamosh, A., Baynam, G., Groza, T., McMurry, J., et al. (2020). How
+many rare diseases are there? Nat. Rev. Drug Discov. 19, 77–78.
+https://doi.org/10.1038/d41573-019-00180-y.
+109. Nguengang Wakap, S., Lambert, D.M., Olry, A., Rodwell, C., Gueydan,
+C., Lanneau, V., Murphy, D., Le Cam, Y., and Rath, A. (2020). Estimating
+cumulative point prevalence of rare diseases: analysis of the Orphanet
+database. Eur. J. Hum. Genet. 28, 165–173. https://doi.org/10.1038/
+s41431-019-0508-0.
+110. Nguyen, M.T., Goldblatt, J., Isasi, R., Jagut, M., Jonker, A.H., Kaufmann,
+P., Ouillade, L., Molnar-Gabor, F., Shabani, M., Sid, E., et al. (2019).
+Model consent clauses for rare disease research. BMC Med. Ethics 20,
+55. https://doi.org/10.1186/s12910-019-0390-x.
+111. Shabani, M., and Marelli, L. (2019). Re-identiﬁability of genomic data and
+the GDPR: assessing the re-identiﬁability of genomic data in light of the
+EU General Data Protection Regulation. EMBO Rep. 20, e48316.
+https://doi.org/10.15252/embr.201948316.
+112. Lippert, C., Sabatini, R., Maher, M.C., Kang, E.Y., Lee, S., Arikan, O., Har-
+ley, A., Bernal, A., Garst, P., Lavrenko, V., et al. (2017). Identiﬁcation of
+individuals by trait prediction using whole-genome sequencing data.
+Proc. Natl. Acad. Sci. USA 114, 10166–10171. https://doi.org/10.1073/
+pnas.1711125114.
+113. Harmanci, A., and Gerstein, M. (2016). Quantiﬁcation of private informa-
+tion leakage from phenotype-genotype data: linking attacks. Nat.
+Methods 13, 251–256. https://doi.org/10.1038/nmeth.3746.
+114. G€ursoy, G., Li, T., Liu, S., Ni, E., Brannon, C.M., and Gerstein, M.B.
+(2021). Functional genomics data: privacy risk assessment and techno-
+logical mitigation. Nat. Rev. Genet. 23, 245–258.
+115. Elhaik, E., Ahsanuddin, S., Robinson, J.M., Foster, E.M., and Mason, C.E.
+(2021). The impact of cross-kingdom molecular forensics on genetic pri-
+vacy. Microbiome 9, 114. https://doi.org/10.1186/s40168-021-01076-z.
+116. Bandeira, N., Deutsch, E.W., Kohlbacher, O., Martens, L., and Vizcaı´no,
+J.A. (2021). Data management of sensitive human proteomics data: cur-
+rent practices, recommendations, and perspectives for the future. Mol.
+Cell. Proteomics 20, 100071. https://doi.org/10.1016/j.mcpro.2021.
+100071.
+117. Dupras, C., and Bunnik, E.M. (2021). Toward a framework for assessing
+privacy risks in multi-omic research and databases. Am. J. Bioeth. 21,
+46–64. https://doi.org/10.1080/15265161.2020.1863516.
+118. World Medical Association (2013). World Medical Association Declara-
+tion of Helsinki: ethical principles for medical research involving human
+subjects. JAMA 310, 2191–2194. https://doi.org/10.1001/jama.2013.
+281053.
+119. Hallinan, D. (2020). Broad consent under the GDPR: an optimistic
+perspective on a bright future. Life Sci Soc Policy 16, 1. https://doi.org/
+10.1186/s40504-019-0096-3.
+120. Shabani, M., and Borry, P. (2018). Rules for processing genetic data for
+research purposes in view of the new EU General Data Protection Regu-
+lation. Eur. J. Hum. Genet. 26, 149–156. https://doi.org/10.1038/s41431-
+017-0045-7.
+121. Reed, R.D., and Antonsen, E.L. (2018). Should NASA collect astronauts’
+genetic information for occupational surveillance and research? AMA J
+Ethics 20, E849–E856. https://doi.org/10.1001/amajethics.2018.849.
+ll
+OPEN ACCESS
+Patterns 3, September 9, 2022
+15
+Perspective
+
+122. Antonsen, E.L., and Reed, R.D. (2019). Policy considerations for preci-
+sion medicine in human spaceﬂight. Hous. J. Health L. & Pol’y 19, 1.
+123. Joly, Y., Dupras, C., Pinkesz, M., Tovino, S.A., and Rothstein, M.A.
+(2020). Looking beyond GINA: policy approaches to address genetic
+discrimination. Annu. Rev. Genom. Hum. Genet. 21, 491–507. https://
+doi.org/10.1146/annurev-genom-111119-011436.
+124. Molna´ r-Ga´ bor, F., and Korbel, J.O. (2020). Genomic data sharing in Eu-
+rope is stumbling-Could a code of conduct prevent its fall? EMBO Mol.
+Med. 12, e11421. https://doi.org/10.15252/emmm.201911421.
+125. Molna´ r-Ga´ bor, F., Sellner, J., Pagil, S., Slokenberga, S., Tzortzatou-
+Nanopoulou, O., and Nystro¨ m, K. (2021). Harmonization after the
+GDPR? Divergences in the rules for genetic and health data sharing in
+four member states and ways to overcome them by EU measures: in-
+sights from Germany, Greece, Latvia and Sweden. Semin. Cancer Biol.
+https://doi.org/10.1016/j.semcancer.2021.12.001.
+126. Berrios, D.C., Galazka, J., Grigorev, K., Gebre, S., and Costes, S.V.
+(2021). NASA GeneLab: interfaces for the exploration of space omics
+data. Nucleic Acids Res. 49, D1515–D1522. https://doi.org/10.1093/
+nar/gkaa887.
+127. Madrigal, P., Gabel, A., Villacampa, A., Manzano, A., Deane, C.S., Bez-
+dan, D., Carnero-Diaz, E., Medina, F.J., Hardiman, G., Grosse, I., et al.
+(2020). Revamping space-omics in Europe. Cell Syst 11, 555–556.
+https://doi.org/10.1016/j.cels.2020.10.006.
+128. Hallinan, D., Bernier, A., Cambon-Thomsen, A., Crawley, F.P., Dimitrova,
+D., Medeiros, C.B., Nilsonne, G., Parker, S., Pickering, B., and Rennes, S.
+(2021). International transfers of personal data for health research
+following Schrems II: a problem in need of a solution. Eur. J. Hum. Genet.
+29, 1502–1509. https://doi.org/10.1038/s41431-021-00893-y.
+129. Saunders, G., Baudis, M., Becker, R., Beltran, S., Be´ roud, C., Birney, E.,
+Brooksbank, C., Brunak, S., Van den Bulcke, M., Drysdale, R., et al.
+(2019). Leveraging European infrastructures to access 1 million human
+genomes by 2022. Nat. Rev. Genet. 20, 693–701. https://doi.org/10.
+1038/s41576-019-0156-9.
+130. Thorogood, A., Rehm, H.L., Goodhand, P., Page, A.J.H., Joly, Y., Baudis,
+M., Rambla, J., Navarro, A., Nyronen, T.H., Linden, M., et al. (2021).
+International federation of genomic medicine databases using GA4GH
+standards. Cell Genom 1, 100032. https://doi.org/10.1016/j.xgen.2021.
+100032.
+131. Rehm, H.L., Page, A.J.H., Smith, L., Adams, J.B., Alterovitz, G., Babb,
+L.J., Barkley, M.P., Baudis, M., Beauvais, M.J.S., Beck, T., et al.
+(2021). GA4GH: international policies and standards for data sharing
+across genomic research and healthcare. Cell Genom 1, 100029.
+https://doi.org/10.1016/j.xgen.2021.100029.
+132. Jochems, A., Deist, T.M., van Soest, J., Eble, M., Bulens, P., Coucke, P.,
+Dries, W., Lambin, P., and Dekker, A. (2016). Distributed learning: devel-
+oping a predictive model based on data from multiple hospitals without
+data leaving the hospital - a real life proof of concept. Radiother. Oncol.
+121, 459–467. https://doi.org/10.1016/j.radonc.2016.10.002.
+133. G€ursoy, G., Emani, P., Brannon, C.M., Jolanki, O.A., Harmanci, A., Strat-
+tan, J.S., Cherry, J.M., Miranker, A.D., and Gerstein, M. (2020). Data sani-
+tization to reduce private information leakage from functional genomics.
+Cell 183, 905–917.e16. https://doi.org/10.1016/j.cell.2020.09.036.
+134. Rieke, N., Hancox, J., Li, W., Milletarı`, F., Roth, H.R., Albarqouni, S., Ba-
+kas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K., et al. (2020). The
+future of digital health with federated learning. NPJ Digit Med 3, 119.
+https://doi.org/10.1038/s41746-020-00323-1.
+135. Truong, N., Sun, K., Wang, S., Guitton, F., and Guo, Y. (2021). Privacy
+preservation in federated learning: an insightful survey from the GDPR
+perspective. Comput. Secur. 110, 102402. https://doi.org/10.1016/j.
+cose.2021.102402.
+About the author
+Henry Cope is a PhD student at the United Kingdom Engineering and Physical
+Sciences Research Council (EPSRC)-funded Horizon Centre for Doctoral
+Training at the University of Nottingham, UK. The research involves investiga-
+tion of data science approaches for space biology, with the goal of improving
+human health in space. This includes analysis of spaceﬂight-derived biological
+datasets via bioinformatics and computer vision approaches. Additionally,
+barriers to data science in the ﬁeld of space biology are considered, including
+standardization of data and metadata and the ethical and legal challenges per-
+taining to astronaut personal data.
+ll
+OPEN ACCESS
+16
+Patterns 3, September 9, 2022
+Perspective

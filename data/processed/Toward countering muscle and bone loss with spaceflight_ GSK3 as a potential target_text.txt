@@ -1,0 +1,1265 @@
+iScience
+Article
+Toward countering muscle and bone loss with
+spaceﬂight: GSK3 as a potential target
+Ryan W.
+Baranowski,
+Jessica L. Braun,
+Briana L. Hockey,
+..., Rene
+Vandenboom,
+Wendy E. Ward,
+Val A. Fajardo
+vfajardo@brocku.ca
+Highlights
+GSK3b content was
+reduced (36%) in murine
+soleus muscles after 30
+days of spaceﬂight
+Gsk3 muscle knockdown
+(GSK3mKD) preserved
+muscle strength after
+hindlimb suspension
+Spaceﬂight reduced bone
+mineral density in mice
+GSK3mKD increased
+FNDC5 expression and
+tibia bone mineral density
+Baranowski et al., iScience 26,
+107047
+July 21, 2023 ª 2023 The
+Author(s).
+https://doi.org/10.1016/
+j.isci.2023.107047
+ll
+OPEN ACCESS
+
+iScience
+Article
+Toward countering muscle and bone loss
+with spaceﬂight: GSK3 as a potential target
+Ryan W. Baranowski,1,2 Jessica L. Braun,1,2 Briana L. Hockey,1,2 Jenalyn L. Yumol,1,2 Mia S. Geromella,1,2
+Colton J.F. Watson,3 Nigel Kurgan,1,2 Holt N. Messner,1,2 Kennedy C. Whitley,1,2 Adam J. MacNeil,3
+Guillemette Gauquelin-Koch,4 Fabrice Bertile,5 William Gittings,1,2 Rene Vandenboom,1,2 Wendy E. Ward,1,2
+and Val A. Fajardo1,2,6,*
+SUMMARY
+We examined the effects of 30 days of spaceﬂight on glycogen synthase kinase 3
+(GSK3) content and inhibitory serine phosphorylation in murine muscle and bone
+samples from four separate missions (BION-M1, rodent research [RR]1, RR9, and
+RR18). Spaceﬂight reduced GSK3b content across all missions, whereas its serine
+phosphorylation was elevated with RR18 and BION-M1. The reduction in GSK3b
+was linked to the reduction in type IIA ﬁbers commonly observed with spaceﬂight
+as these ﬁbers are particularly enriched with GSK3. We then tested the effects of
+inhibiting GSK3 before this ﬁber type shift, and we demonstrate that muscle-spe-
+ciﬁc Gsk3 knockdown increased muscle mass, preserved muscle strength, and pro-
+moted the oxidative ﬁber type with Earth-based hindlimb unloading. In bone,
+GSK3 activation was enhanced after spaceﬂight; and strikingly, muscle-speciﬁc
+Gsk3 deletion increased bone mineral density in response to hindlimb unloading.
+Thus, future studies should test the effects of GSK3 inhibition during spaceﬂight.
+INTRODUCTION
+From the ﬁrst manned ﬂight into space to sending humans to the surface of the moon, we have gained a
+better appreciation and understanding of the complexities of space travel. Now in the 21st century, current
+efforts are aimed at a return to the moon, largely in part as preparation for longer duration missions that
+take humans to Mars for the ﬁrst time. However, as space exploration advances into new environmental
+domains, the complications with basic human survival and physiology become even more evident.
+NASA has identiﬁed several hazards of human spaceﬂight including space radiation, isolation and conﬁne-
+ment, distance from earth (and its technological hurdles), exposure to extreme temperatures, pressures,
+and microgravity.1 As humans and other mammals have evolved with Earth’s natural gravity, exposure to
+microgravity with spaceﬂight can lead to many maladaptive changes, one in particular being a decline in
+musculoskeletal health and function. The absence of gravity unloads muscles and bones, leading to a
+reduction in size and strength - akin to aging on Earth. As a result, Space Agencies across the world
+have focused their attention on developing mitigation strategies to protect musculoskeletal health during
+space travel, not only to preserve astronaut health and the mission at hand, but also in hopes of developing
+novel and innovative strategies that may counter aging on Earth.
+GSK3 is a ubiquitously expressed and evolutionarily conserved serine/threonine (Ser/Thr) kinase that has two
+known isoforms: GSK3a and GSK3b, with the latter being dominant in most tissues. It is a constitutively active
+enzyme, indicating that it has high protein kinase activity under resting conditions, though it can be inhibited
+through Ser phosphorylation (Ser21, GSK3a; and Ser9, GSK3b).2 As both isoforms are structurally similar (95%
+sequenceidentityintheircatalyticdomains3),itisnotsurprisingthattheyalsosharesomefunctionalredundancy,
+though unique and tissue-speciﬁc roles have also been demonstrated.4–8 In general, GSK3 is thought to act as a
+‘‘brake’’ in many anabolic pathways, including the Wnt/b-catenin and insulin signaling pathways.2 In the context
+of the musculoskeletal system, GSK3 is a well-known negative regulator of both muscle9–13 and bone
+mass2,10,14,15 that not only slows the anabolic pathways but in many cases can also accelerate the catabolic ones.
+With its involvement in the regulation of both bone and muscle mass, it is possible that targeting GSK3
+could represent a viable mitigation strategy against the musculoskeletal declines seen with spaceﬂight.
+1Department of Kinesiology,
+Brock University, St.
+Catharines, ON, Canada
+2Centre for Bone and Muscle
+Health, Brock University, St.
+Catharines, ON, Canada
+3Department of Health
+Sciences, Brock University, St.
+Catharines, ON, Canada
+4French Space Agency,
+Centre National d’Etudes
+Spatiales (CNES), Paris,
+France
+5Hubert Curien
+Pluridisciplinary Institute
+(IPHC), CNRS, Strasbourg
+University, Strasbourg,
+France
+6Lead contact
+*Correspondence:
+vfajardo@brocku.ca
+https://doi.org/10.1016/j.isci.
+2023.107047
+iScience 26, 107047, July 21, 2023 ª 2023 The Author(s).
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+1
+ll
+OPEN ACCESS
+
+Several lines of evidence found here on Earth are in support of this. We have shown that inhibiting GSK3
+with lithium can increase myoblast fusion and differentiation10 and promote osteogenic signaling in bones
+from mice.10 Furthermore, patients being treated with lithium for bipolar disorder have been previously
+shown to have signiﬁcantly reduced risk of fracture.16 In addition, an impressive body of work from Dr. Boris
+Shenkman’s laboratory has shown that GSK3 is more active in muscles after hindlimb suspension (HLS) – a
+well-accepted simulated microgravity model – and that its inhibition can attenuate the consequential mus-
+cle remodeling (for review readers are referred to ref. 17). Although the evidence from ground-based
+models suggests that GSK3 may be a viable target against the musculoskeletal decline observed with
+spaceﬂight, to our knowledge, there are no studies to date that have investigated this possibility in space.
+Moreover, the effects of spaceﬂight, if any, on muscle and bone GSK3 content/signaling remains unknown.
+This could be an initial ﬁrst step in ﬁrmly establishing GSK3 inhibition as a potential countermeasure.
+The purpose of this study was to investigate the effects of spaceﬂight on murine muscle and bone GSK3
+content and activation status. We obtained samples from various missions/payloads where male or female
+mice were exposed to microgravity for 30–37 days aboard the International Space Station (ISS) or the BION-
+M1 biosatellite. In addition to this, we characterized the effects of dual muscle-speciﬁc GSK3a/b knock-
+down on muscle size and strength as well as region-speciﬁc (tibia, femur, lumbar spine) bone mineral
+density (BMD) in response to simulated microgravity via HLS. In doing so, we provide evidence in support
+of targeting GSK3 to enhance bone and muscle health during spaceﬂight.
+RESULTS
+GSK3b content is reduced in muscles from spacefaring mice
+Soleus, extensor digitorum longus (EDL) and tibialis anterior (TA) muscle samples from the ﬂight (F), ground
+control (GC), and vivarium control (VIV) groups were obtained from the BION-M1 mission as well as the ro-
+dent research 1 (RR1), RR9, and RR18 (BuOE and saline-treated) missions through the NASA Life Sciences
+Data Archive Institutional Scientiﬁc Collection Biospecimen Sharing Program. Absolute muscle mass data
+for the RR9 (soleus and TA) and RR1 (soleus) missions were reported in a recent study published by our
+group showing signiﬁcant muscle atrophy.18 Muscle mass data for the BION-M1 (soleus and EDL) mission
+were also reported previously where although both soleus and EDL muscles appeared to be smaller in the F
+group, there were no signiﬁcant differences when compared with GC or VIV.19 Muscle mass data for RR18
+are reported here in Table S1.
+We ﬁrst characterized the effects of spaceﬂight on GSK3 content and activation, and although there was no
+effect of spaceﬂight in the EDL or TA, we found signiﬁcant differences in the soleus - a postural muscle that
+is most affected by microgravity exposure (Figures S1–S7). To summarize the soleus data, we examined the
+fold-change response in the F group relative to the combined average of the GC and VIV control groups, as
+no differences were detected between the GC and VIV groups (Figure 1). Across all missions, we observed
+signiﬁcant reductions in total GSK3b content (-22-54%) compared with GCVIV control with a combined
+reduction of 36% (Figure 1A). When examining the overall effect of spaceﬂight on Ser9 phosphorylated
+GSK3b content, we found a combined 1.2-fold increase in phosphorylation, however, this was only
+statistically signiﬁcant for the BION-M1 and RR18 saline cohorts. Unlike GSK3b content, we did not ﬁnd
+a consistent reduction in GSK3a across all missions (Figure 1C). Similarly, we found no combined effect
+of spaceﬂight on Ser21 phosphorylation of GSK3a (Figure 1D). Altogether, these ﬁndings suggest that
+spaceﬂight more prominently affects the GSK3b isoform by reducing its protein levels and, though not
+consistent for all missions, by also increasing its Ser9 phosphorylation.
+To help explain why GSK3b was lower in soleus muscles after spaceﬂight, we followed up on our previous
+ﬁndings showing that the fast-twitch EDL muscle has lower GSK3b content compared with the slow-twitch
+soleus.13 We posited that the reduction in GSK3b found with spaceﬂight would be largely attributed to the
+slow-to-fast ﬁber type shift that occurs within the murine soleus.19–22 Across all missions analyzed, there
+were signs of a slow-to-fast ﬁber type shift in the soleus after spaceﬂight with an average 30% and 61%
+reduction in myosin heavy chain (MHC) I and IIa, respectively (Figures 1E, 1F, S8, and S9). Conversely,
+we found an average 4-fold and 2.9-fold increase in MHC IIx and IIb isoforms, respectively, in the soleus
+after spaceﬂight (Figures 1G, 1H, S8, and S9). The reduction in type IIa is of particular interest as our immu-
+noﬂuorescent microscopy experiments indicate that in the soleus and EDL muscles from otherwise healthy
+mice (e.g., mobile control), GSK3b is most abundant in the type IIA ﬁbers that are identiﬁed with MHC IIa
+ll
+OPEN ACCESS
+2
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+A
+B
+C
+D
+E
+F
+G
+H
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+3
+iScience
+Article
+
+(Figure 2). Thus, the reduction in type IIA ﬁbers found with spaceﬂight likely accounts for the reduction in
+GSK3b protein observed with spaceﬂight.
+Muscle-speciﬁc Gsk3 knockdown increases soleus muscle size and strength under simulated
+microgravity conditions
+The reduction in GSK3b observed after spaceﬂight in the murine soleus could suggest that GSK3 has only a
+minimal role in the ensuing muscle atrophy and weakness. However, given that our analyses of GSK3 con-
+tent was conducted in muscle samples obtained after at least 30 days of spaceﬂight, we next wanted to
+determine the effects of GSK3 inhibition before microgravity-induced muscle unloading, and more impor-
+tantly, before any change in ﬁber type distribution that would result in lowered GSK3b content. To this end,
+we employed the NASA developed HLS model to simulate microgravity exposure on Earth. To inhibit
+GSK3, we used a muscle-speciﬁc Gsk3 knockdown (GSK3mKD) mouse model previously generated in our
+lab.23 These mice display partial knockdown (-40-50%) of both GSK3 isoforms in the soleus (Figure S10).
+In turn, these mice have signiﬁcantly larger soleus muscles - both in absolute and relative to body mass
+terms (Figure S10). Furthermore, dual X-ray absorptiometry (DXA) scans show that these mice have lowered
+body fat % and increased lean mass % (Figure S10).
+After 7 days of HLS, GSK3mKD mice still had lowered % fat mass, elevated % lean mass, and increased sol-
+eus:body mass ratio when compared with GSK3ﬂox mice (Figures 3A–3E). However, although GSK3mKD
+mice had larger soleus muscles after HLS (Figure 3), normalizing the data to mobile controls demonstrated
+that muscle-speciﬁc Gsk3 knockdown did not attenuate the level of muscle atrophy observed with HLS as
+both GSK3mKD and GSK3ﬂox mice experienced a 50–60% reduction in absolute soleus mass and a 40–
+50% reduction in normalized soleus mass (Figures 3F and 3G). Nonetheless, soleus muscles from GSK3mKD
+HLS mice were still larger when compared to GSK3ﬂox HLS mice, which was further supported by H&E anal-
+ysis and a rightward shift in ﬁber cross-sectional area (CSA) distribution (Figures 3H and 3I). Upon closer
+inspection, we also found that the GSK3mKD HLS mice had a greater proportion of ﬁbers with centrally
+located nuclei (Figure 3J), which is indicative of enhanced myogenic repair. Corroborating these ﬁndings,
+myogenic markers Pax7 and myogenin were signiﬁcantly greater in HLS soleus muscles from GSK3mKD mice
+versus GSK3ﬂox mice (Figure 3K). Furthermore, we found that soleus muscles from GSK3mKD HLS mice also
+had greater MHC IIa, peroxisome proliferator-activated receptor-gamma coactivator 1 alpha (PGC-1a),
+and cytochrome c oxidase subunit IV (COXIV) protein levels versus GSK3mKD HLS mice (Figure 3L). With
+a signiﬁcant reduction in MHC IIx (Figure 3L), these results provide evidence for an oxidative ﬁber type shift
+with muscle-speciﬁc Gsk3 knockdown, which is consistent with our previous ﬁndings in mice treated with
+various pharmacological GSK3 inhibitors.24,25 In terms of soleus muscle strength, we found that after
+HLS, GSK3mKD mice displayed greater force production across submaximal and maximal frequencies (Fig-
+ure 3M). This effect was not found in a mobile state (Figure 3N), and therefore, calculating the percent
+reduction in speciﬁc force (HLS mice relative to their respective mobile controls), we found that soleus
+muscles from GSK3mKD mice had signiﬁcantly greater preservation (e.g. lower % reduction) of force across
+submaximal and maximal stimulation frequencies (Figure 3O). Altogether, these results show that targeted
+GSK3 inhibition before muscle unloading can increase soleus muscle size, myogenic signaling, and the
+oxidative ﬁber type while also preserving muscle strength.
+Characterizing GSK3 activation in bones after spaceﬂight and the effects of muscle-speciﬁc
+GSK3 knockdown on femur, tibia, and lumbar bone mineral density
+We then investigated the effects of microgravity exposure on GSK3b content and phosphorylation in femur
+bones obtained from the RR9 mission. As expected, DXA scan analysis of the femurs showed signiﬁcantly
+Figure 1. The combined effect of spaceﬂight across all missions on GSK3 content, phosphorylation status and MHC isoform content in soleus
+muscles
+(A) Total GSK3b content.
+(B) Phosphorylated GSK3b (Ser9) relative to total GSK3b content.
+(C) Total GSK3a content.
+(D) Phosphorylated GSK3a (Ser21) relative to total GSK3b content.
+(E) MHC I content.
+(F) MHC IIa content.
+(G) MHC IIx content.
+(H) MHC IIb content. Fold-change (FC) data were calculated for each mission by dividing the Flight group by the average of the combined GC and VIV
+groups. The combined dataset represents the mean G SEM and p value (Student’s t test) for all FC data (RR1, RR9, RR18, and BION-M1).
+ll
+OPEN ACCESS
+4
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+reduced bone mineral content (BMC) and bone mineral density (BMD) in the F group compared with the
+combined GCVIV control (Figures 4A and 4B). Additional micro-computed tomography (mCT) analysis of
+the tibia from these same mice demonstrated decrements in bone structure were apparent in the cortical
+bone outcomes, whereas no differences in trabecular bone outcomes were evident (Table S2). Speciﬁcally,
+ﬂight mice presented lower cortical area fraction and periosteal perimeter, which was aligned with lower
+cortical thickness, compared to GCVIV control mice. Western blot analysis revealed a signiﬁcant reduction
+in the pGSK3b in the femur compared with GCVIV with no changes in total GSK3b content (Figures 4C–4E).
+This in turn led to a reduction in the phosphorylation status of GSK3b, and though it did not reach statistical
+signiﬁcance (Figure 4F), it is perhaps indicative of greater GSK3b activation in murine bones after
+spaceﬂight.
+Using the DXA scans from the GSK3mKD and GSK3ﬂox mobile and HLS mice, we then performed bone-spe-
+ciﬁc regional BMD analysis on the tibia, femur, and lumbar spine to determine whether muscle-speciﬁc
+Gsk3 knockdown could provide positive effects on BMD crosstalk (Figure 4H). In the mobile state, we
+did not ﬁnd any differences in region-speciﬁc BMD between GSK3mKD and GSK3ﬂox mice (Figures 4G
+and 4H). However, after 7 days of HLS, we found that tibia BMD was greater in GSK3mKD HLS mice versus
+GSK3ﬂox HLS mice (Figure 4I). A similar result was found in the lumbar spine; albeit, this was not statistically
+signiﬁcant (Figure 4I). In terms of tissue crosstalk, we examined the effects of muscle-speciﬁc Gsk3 knock-
+down on soleus muscle ﬁbronectin type III domain-containing protein (FNDC5), which is the precursor for
+the myokine irisin that gets secreted out into circulation with exercise and activation of PGC-1a in muscle.26
+Irisin produced and secreted from muscle can promote bone strength and mass in mice; and has been
+shown to limit bone loss associated with HLS.27,28 Here, we demonstrate that the increase in region-speciﬁc
+BMD found with GSK3mKD was associated with a signiﬁcant increase in FNDC5 in the soleus (Figure 4J).
+Though our study is limited in that we did not collect serum to measure irisin levels, we think it is possible
+that muscle-speciﬁc Gsk3 knockdown could positively impact BMD (particularly in the tibia and lumbar
+spine) by increasing PGC-1a and FNDC5 in muscle (Figure 4K).
+DISCUSSION
+Here, we questioned whether GSK3 would be a viable therapeutic target that when inhibited could prevent
+or limit the muscle and bone loss associated with spaceﬂight. To this end, we ﬁrst examined the effects of at
+least 30 days of spaceﬂight on GSK3 content and activation status in murine muscle and bone samples. We
+then supplemented this work with Earth-based HLS experiments in GSK3mKD mice where we assessed mus-
+cle size and strength with region-speciﬁc BMD.
+In the postural soleus muscle, we found that GSK3b but not GSK3a was consistently and signiﬁcantly
+reduced in the F group compared with GCVIV, which is in line with previous proteomics analysis from
+the BION-M1 mission (see Tables S1 and S4 from ref. 19) and indicates that the two isoforms may be differ-
+entially regulated during spaceﬂight. Indeed, these GSK3 isoforms are encoded by separate genes located
+A
+B
+C
+D
+Figure 2. Serial cryosections showing type IIA ﬁber enrichment of GSK3b
+(A) Serial 10 mm sections for MHC isoforms (I, blue; IIa, green; IIx, unstained black; and IIb, red) and GSK3b in the soleus.
+(B) Quantitative comparison of GSK3b across type I, IIA, and IIX ﬁbers in the soleus. Data are expressed relative to type I ﬁbers.
+(C) Serial 10 mm sections for MHC isoforms (IIa, green; IIx, unstained black; and IIb, red) and GSK3b in the EDL.
+(D) Quantitative comparison of GSK3b across type IIA, IIX, and IIB ﬁbers in the EDL. Data are expressed relative to type IIB ﬁbers. *p < 0.05, **p < 0.01,
+***p < 0.001, ****p < 0.0001, using a one-way ANOVA and a Tukey’s post-hoc test (n = 30 ﬁbers analyzed per group from 3 separate mice). Scale bars are set
+to 200 mm.
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+5
+iScience
+Article
+
+A
+H
+J
+K
+L
+M
+N
+B
+C
+D
+I
+O
+E
+F
+G
+Figure 3. Partial muscle-speciﬁc Gsk3 knockdown (GSK3mKD) increases soleus muscle mass, myogenic signaling, and the oxidative phenotype
+while preserving muscle strength after 7 days of hindlimb suspension (HLS)
+(A–C) DXA scan analyses showing that GSK3mKD mice have no change in body mass but have lowered % fat mass and increased % lean mass even after 7 days
+of HLS.
+(D and E) Absolute and relative (to body mass) soleus muscle weights.
+(F and G) Percent reduction of absolute and relative soleus muscle weights in GSK3mKD and GSK3ﬂox mice when compared to their respective mobile controls
+(see Figure S10).
+(H–J) H&E staining in the soleus shows that GSK3mKD mice have an increased distribution of larger ﬁbers versus GSK3ﬂox mice (rightward shift) and increased
+centrally located nuclei (see yellow arrows). Scale bars are set to 200 mm; CSA, cross-sectional area.
+(K) Western blot analysis of myogenic markers Pax7 and myogenin.
+(L) Western blot analysis of oxidative phenotype markers, MHC I, MHC IIa, PGC-1a, and COXIV as well as the glycolytic MHC IIx.
+(M) Speciﬁc force-frequency curves in soleus muscles from GSK3mKD and GSK3ﬂox control mice after 7 days of HLS.
+ll
+OPEN ACCESS
+6
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+on two different chromosomes (Gsk3a, mouse chromosome 7; and Gsk3b, mouse chromosome 18).
+Furthermore, inhibitory Ser phosphorylation was only enhanced with the GSK3b isoform after spaceﬂight;
+albeit not consistently across all missions, whereas Ser phosphorylation of GSK3a was virtually unaltered,
+which again indicates the two GSK3 isoforms are differentially regulated with spaceﬂight.
+Although the observed reduction in GSK3b content and its increase in inhibitory Ser9 phosphorylation in
+the soleus may argue against its involvement in the ensuing muscle atrophy and weakness found with mus-
+cle unloading and spaceﬂight, it may just reﬂect the slow-to-fast ﬁber type shift, namely a reduction in type
+IIA ﬁbers which we have shown are particularly enriched with GSK3b. This is consistent with our previous
+ﬁndings showing that GSK3b is highly expressed in the soleus versus the EDL29 as the soleus comprises
+nearly 50% IIA ﬁbers versus the EDL, which only comprises 10% type IIA ﬁbers.30 Moreover, we previously
+found greater Ser9 phosphorylation of GSK3b in the EDL versus the soleus.29 Alternatively, or perhaps
+congruently, it is also possible that these changes in GSK3b content and activation may point toward an
+adaptive/compensatory response aimed at limiting GSK3 activation to limit muscle atrophy and weakness.
+Providing additional GSK3 inhibition, preferably before the onset of muscle unloading and the ensuing ﬁ-
+ber type changes may then preserve muscle health and function during spaceﬂight.
+To establish whether GSK3 inhibition could potentially preserve muscle size and strength in response to
+microgravity exposure, we utilized the simulated microgravity HLS model. Our results show that muscle-
+speciﬁc genetic reduction before muscle unloading and the ensuing ﬁber type shift increased soleus mus-
+cle size, myogenic signaling, and preserved muscle strength in the face of HLS. We elected to partially
+knockdown (-40-50%) both GSK3 isoforms despite the fact that only GSK3b was affected by spaceﬂight
+to limit any potential compensatory activation of GSK3a. In a previous study by Pansters et al., sole genetic
+deletion of Gsk3b appeared to have upregulated protein levels of GSK3a in the murine soleus.31 In this
+study, the authors found that genetic knockdown of Gsk3b did not attenuate soleus muscle atrophy in
+response to HLS, however, they did ﬁnd an acceleration in muscle recovery with reloading.31 These ﬁndings
+are consistent with our present results showing that although muscle-speciﬁc Gsk3 knockdown increased
+soleus muscle size, it did not attenuate the level of muscle atrophy observed with HLS, but it did enhance
+myogenic signaling. Moreover, our ﬁndings extend those from Pansters et al. because they did not
+examine soleus muscle contractile force. In this respect, GSK3mKD mice displayed greater force production
+versus GSK3ﬂox mice but only after 7 days of HLS and not in the mobile state. This suggests that the effect of
+GSK3mKD on muscle strength only manifests after an added stress such as HLS; and it further suggests that
+in the face of HLS, GSK3mKD mice exhibit a preservation of muscle force production that could be important
+for spaceﬂight.
+The increase in myogenic signaling observed with GSK3mKD mice is also highly relevant to spaceﬂight.
+Though HLS is considered to be the Earth-based analog of spaceﬂight, the mechanisms behind the
+ensuing muscle atrophy and weakness with HLS versus actual spaceﬂight differ in many respects and there
+is actually very little overlap.32 However, one common pathway that is negatively affected in both HLS and
+spaceﬂight is myogenesis.32 Thus, the observed increase in myogenic signaling in GSK3mKD HLS mice
+could potentially be translated to spaceﬂight; however, future studies that investigate the effects of space-
+ﬂight directly on these mice are required if not warranted.
+The GSK3mKD HLS mice also displayed a promotion toward the oxidative phenotype with a signiﬁcant
+increase in MHC IIa, PGC-1a, and COXIV. This suggests that the inhibition of GSK3 not only attenuates
+muscle atrophy and weakness but may also attenuate the slow-to-fast ﬁber type shift that could lead to dec-
+rements in muscle performance and fatigue resistance. These results are not entirely surprising given that
+we and others have shown that GSK3 inhibition in muscle can promote the oxidative ﬁber type and PGC-1a
+content.24,25,33–36 Moreover, the increase in PGC-1a content in muscle can provide beneﬁts outside of mus-
+cle by promoting the expression, production, and release of FNDC5 and irisin. Irisin is a myokine secreted
+from muscle that can positively impact bone mass and strength even in the face of HLS.27,28,37 Speciﬁcally,
+genetic deletion of irisin in mice severely compromises bone strength and mass with an increased number
+Figure 3. Continued
+(N) Speciﬁc force-frequency curves in soleus muscles from mobile GSK3mKD and GSK3ﬂox control mice.
+(O) Calculated percent reduction in speciﬁc force across stimulation frequencies from GSK3mKD and GSK3ﬂox control mice after 7 days of HLS (compared to
+their respective mobile controls). For (B, C, E, J, K, L), *p < 0.05 using a Student’s t test. For (N-O), a two-way ANOVA was used to test the main effects of
+genotype and frequency. Data are presented as means G SEM.
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+7
+iScience
+Article
+
+of osteoclasts,27 whereas, irisin treatment prevented bone loss with HLS and accelerated bone recovery in
+response to reloading in mice.28 Here, we show that muscle-speciﬁc Gsk3 knockdown increased FNDC5
+in muscle while also increasing BMD in the tibia and in the lumbar spine (though not statistically signiﬁcant
+in the latter, p = 0.08). Combined with our results showing that GSK3b is overactive in bones (e.g., less
+inhibitory Ser phosphorylation) from obtained mice subjected to spaceﬂight, our study provides ample ev-
+idence in support of inhibiting GSK3 for the promotion of musculoskeletal health during spaceﬂight.
+In human astronauts, the inhibition of GSK3 before and during spaceﬂight could be achieved with pharma-
+cological inhibitors such as lithium (Li), which is an already FDA-approved drug. It is most commonly used
+for the treatment of bipolar disorder; however, because Li also exerts adverse effects when taken at rela-
+tively high doses (serum [Li] concentration exceeding 1.0 mM) for a prolonged period of time, it must be
+prescribed within a narrow therapeutic range (0.5–1.0 mM serum concentration) (for review see ref. 38).
+Conversely, we have shown that treating mice with lower doses of Li (serum [Li] of 0.02 mM) increases soleus
+and EDL muscle speciﬁc force production while also promoting PGC-1a and the oxidative ﬁber type.25 In
+cell culture, we have also shown that low dose Li supplementation augments myogenic differentiation and
+fusion,29 which could have implications for spaceﬂight. In fact, pre-treating mice with a low dose of Li
+(10 mg/kg/day via drinking water) for 4 weeks before unloading the soleus muscle via tenotomy, inhibited
+GSK3 and increased soleus muscle size even in the face of tenotomy surgery (Figure S10). In addition to
+muscle, Li has been shown to have osteoprotective effects.2,10,14–16 In a recent and large epidemiological
+study, it was found that patients living with bipolar disorder and receiving Li treatment had reduced risk of
+developing osteoporosis.39 This is consistent with our ﬁndings in mice whereby low dose Li supplementa-
+tion augmented osteogenic signaling by inhibiting GSK3, which in turn activated the anabolic Wnt/b-cat-
+enin pathway.10 It should be noted that Li has several osteoprotective effects acting on other pathways such
+as the phosphatidylinositol 3-kinase (PI3K)/protein kinase B (Akt) and bone morphogenetic protein-2
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+Figure 4. GSK3b phosphorylation and content in femur samples obtained from male RR9 mice
+(A and B) Bone mineral content (BMC) and bone mineral density (BMD) of the individual bones obtained from a small animal DXA scanner.
+(C) Representative western blot images of phosphorylated (Ser9) and total GSK3b.
+(D and E) Western blot analysis of phosphorylated (Ser9) and total GSK3b content normalized to ponceau.
+(F) GSK3 activation status measured as the ratio of phosphorylated (Ser9) GSK3b relative to total GSK3b.
+(G) Representative DXA scan showing region-speciﬁc analysis of the femur, tibia, and lumbar spine in mice.
+(H) Region-speciﬁc BMD analysis in mobile GSK3mKD and GSK3ﬂox mice measured at baseline.
+(I) Region-speciﬁc BMD analysis in mobile GSK3mKD and GSK3ﬂox mice measured after 7 days of HLS.
+(J) Western blot analysis of soleus muscle FNDC5 from GSK3mKD and GSK3ﬂox mice measured after 7 days of HLS.
+(K) Proposed tissue crosstalk between muscle and bone with muscle-speciﬁc Gsk3 deletion leading to an increase in FNDC5 and tibia BMD. *p < 0.05,
+***p < 0.001 using a Student’s t test (n = 6–12 per group for (A–F); n = 3–5 per group for (H–J). For (A–F), GC and VIV controls were combined to increase
+statistical power. All values are presented as means G SEM.
+ll
+OPEN ACCESS
+8
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+(BMP-2) transduction pathways (for review see40). Altogether, the results from our study warrant future in-
+vestigations with spaceﬂight and/or HLS to examine the effects of pharmacological inhibition of GSK3
+before and during microgravity exposure to further establish whether targeting GSK3 can exert musculo-
+skeletal protection against spaceﬂight. Undoubtedly, other GSK3 inhibitors aside from Li that are more
+speciﬁc to GSK3 would be important to test and could include drugs like tideglusib, which is the most clin-
+ically advanced GSK3 inhibitor currently being tested for other diseases and conditions.41,42 We have
+recently shown that tideglusib treatment can preserve muscle size, strength, and quality in dystrophic
+mice.24
+The limitations of our study include low sample size, particularly with the RR1 and BION-M1 missions.
+Although the RR1 mission was conducted in female mice, the limitation in sample size prevented us
+from truly examining any potential inﬂuence of biological sex. Future studies, with age-matched male
+and female mice, preferably part of the same mission, are required to better elucidate the potential sex-
+speciﬁc effects of spaceﬂight on the musculoskeletal system. Our study was also limited in that we were
+not able to obtain bone samples from all missions, and thus our analysis was restricted to the RR9 mission.
+Within this mission, mCT analyses of the tibia indicated that cortical bone was primarily affected by space-
+ﬂight. However, we suspect that limitations in sample size prevented us from detecting a statistically sig-
+niﬁcant effect on trabecular bone. Indeed, previous mCT analyses in the lumbar vertebrae and femur
+from the BION-M1 mission showed signiﬁcant reductions in trabecular bone outcomes in the F group
+versus GC and VIV controls.43 In muscle, where we obtained samples from RR9, RR1, RR18, and BION-
+M1 missions, we utilized a ‘‘meta-analytical’’ approach with the fold-change response as the common mea-
+sure of effect size. However, differences in experimental conditions (i.e., food, temperature, pressure, strain
+differences, age differences, and etc.) should not be discounted. These differences could have contributed
+to the differences in phosphorylation status of GSK3, where we found signiﬁcant increases in Ser phosphor-
+ylation of GSK3 in BION-M1 and RR18 F soleus muscles but not in any other soleus muscles from RR1 or RR9.
+Finally, our study is limited in that we did not assess the effects of bone-speciﬁc Gsk3 deletion on BMD and
+strength in response to HLS. Future studies should generate these mice and perform these experiments to
+ﬁrmly establish whether GSK3 inhibition before simulated microgravity exposure can protect against bone
+loss. Nevertheless, our ﬁndings demonstrate that inhibiting GSK3 speciﬁcally in muscle may exert positive
+effects on the bone thereby highlighting a muscle-to-bone connection that would likely be activated with
+whole-body GSK3 inhibition afforded through pharmacological means.
+In summary, our study shows that GSK3 content and activation status are altered in murine soleus and bone
+samples obtained after at least 30 days of spaceﬂight. Although GSK3b content was reduced after space-
+ﬂight, our results with the simulated microgravity HLS model shows that inhibiting GSK3 before muscle un-
+loading via muscle-speciﬁc Gsk3 deletion can increase muscle mass, myogenic signaling, and can preserve
+muscle force production. Moreover, muscle-speciﬁc Gsk3 deletion may also help to maintain bone mass by
+increasing PGC-1a and FNDC5; and thus, future studies aboard the ISS are warranted to examine whether
+these mice are protected against spaceﬂight-induced declines in musculoskeletal health. In addition,
+future studies that examine the effects of pharmacological, and thus, whole-body GSK3 inhibition before
+and during spaceﬂight should also be done in mice. Collectively, our present study represents an important
+ﬁrst step in hopes of enabling longer duration spaceﬂight missions to Mars – possibly through GSK3
+inhibition.
+STAR+METHODS
+Detailed methods are provided in the online version of this paper and include the following:
+d KEY RESOURCES TABLE
+d RESOURCE AVAILABILITY
+B Lead contact
+B Materials availability
+B Data and code availability
+d EXPERIMENTAL MODELS AND SUBJECT DETAILS
+B Muscle samples from RR1, RR9, RR18, and BION-M1 missions
+B Animals
+B Ethics statement
+d METHOD DETAILS
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+9
+iScience
+Article
+
+B Hindlimb suspension
+B Lithium feeding and tenotomy surgery
+B DXA scanning of individual bones
+B Soleus muscle contractility
+B Western blotting
+B GSK3 ﬁber type analysis
+B Histological analysis
+B Micro-computed tomography bone imaging
+B Assessment of trabecular bone structure at the proximal tibia
+B Assessment of cortical bone structure at the tibia midpoint
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+B Statistical analyses
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.1016/j.isci.2023.107047.
+ACKNOWLEDGMENTS
+This work was supported by a Brock University Vice President Research Discretionary Fund (to VAF), a CRC
+Tier 2 Award (to VAF), a Canadian Space Agency Grant (to VAF and WEW), as well as an NSERC Discovery
+Grants (to VAF, WEW, and AJM). BH and CJFW were supported by an Ontario Graduate Scholarship. JLB
+was supported by a CIHR CGS-D award.
+AUTHOR CONTRIBUTIONS
+Experiments were conceived and designed by R.W.B. and V.A.F. Experiments were performed by R.W.B.,
+J.L.B., B.L.H., J.L.Y., M.S.G., C.J.F.W., N.K., H.N.M., K.C.W., and V.A.F. Data were analyzed by R.W.B.,
+B.L.H., J.L.Y., C.J.F.W., J.L.B., H.N.M., K.C.W., W.E.W., and V.A.F. Funding was acquired by A.J.M.,
+W.E.W., and V.A.F. The paper was written by R.W.B. and V.A.F. All authors assisted in data interpretation,
+editing, and revising the manuscript.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+INCLUSION AND DIVERSITY
+We support inclusive, diverse, and equitable conduct of research.
+Received: December 19, 2022
+Revised: May 15, 2023
+Accepted: June 1, 2023
+Published: June 8, 2023
+REFERENCES
+1. Patel, Z.S., Brunstetter, T.J., Tarver, W.J.,
+Whitmire, A.M., Zwart, S.R., Smith, S.M., and
+Huff, J.L. (2020). Red risks for a journey to the
+red planet: the highest priority human health
+risks for a mission to Mars. npj Microgravity 6,
+33. https://doi.org/10.1038/s41526-020-
+00124-6.
+2. Gillespie, J.R., Bush, J.R., Bell, G.I., Aubrey,
+L.A., Dupuis, H., Ferron, M., Kream, B.,
+DiMattia, G., Patel, S., Woodgett, J.R., et al.
+(2013). GSK-3b function in bone regulates
+skeletal development, whole-body
+metabolism, and male life span.
+Endocrinology 154, 3702–3718. https://doi.
+org/10.1210/en.2013-1155.
+3. Woodgett, J.R. (1990). Molecular cloning and
+expression of glycogen synthase kinase-3/
+factor A. EMBO J. 9, 2431–2438. https://doi.
+org/10.1002/j.1460-2075.1990.tb07419.x.
+4. Liang, M.H., and Chuang, D.M. (2006).
+Differential roles of glycogen synthase
+kinase-3 isoforms in the regulation of
+transcriptional activation. J. Biol. Chem. 281,
+30479–30484. https://doi.org/10.1074/jbc.
+M607468200.
+5. Kerkela, R., Kockeritz, L., Macaulay, K.,
+Zhou, J., Doble, B.W., Beahm, C., Greytak,
+S., Woulfe, K., Trivedi, C.M., Woodgett,
+J.R., et al. (2008). Deletion of GSK-3beta in
+mice leads to hypertrophic cardiomyopathy
+secondary to cardiomyoblast
+hyperproliferation. J. Clin. Invest. 118,
+3609–3618. https://doi.org/10.1172/
+jci36245.
+6. McManus, E.J., Sakamoto, K., Armit, L.J.,
+Ronaldson, L., Shpiro, N., Marquez, R., and
+Alessi, D.R. (2005). Role that phosphorylation
+of GSK3 plays in insulin and Wnt signalling
+deﬁned by knockin analysis. EMBO J. 24,
+1571–1583. https://doi.org/10.1038/sj.
+emboj.7600633.
+7. Ciaraldi, T.P., Oh, D.K., Christiansen, L.,
+Nikoulina, S.E., Kong, A.P.S., Baxi, S., Mudaliar,
+S., and Henry, R.R. (2006). Tissue-speciﬁc
+expression and regulation of GSK-3 in human
+skeletal muscle and adipose tissue. Am. J.
+Physiol. Endocrinol. Metab. 291, E891–E898.
+https://doi.org/10.1152/ajpendo.00176.2006.
+8. Patel, S., Doble, B.W., MacAulay, K., Sinclair,
+E.M., Drucker, D.J., and Woodgett, J.R.
+(2008). Tissue-speciﬁc role of glycogen
+ll
+OPEN ACCESS
+10
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+synthase kinase 3beta in glucose
+homeostasis and insulin action. Mol. Cell Biol.
+28, 6314–6328. https://doi.org/10.1128/MCB.
+00763-08.
+9. Mirzoev, T.M., Sharlo, K.A., and Shenkman,
+B.S. (2021). The role of GSK-3beta in the
+regulation of protein turnover, myosin
+phenotype, and oxidative capacity in skeletal
+muscle under disuse conditions. Int. J. Mol.
+Sci. 22, 5081. https://doi.org/10.3390/
+ijms22105081.
+10. Kurgan, N., Bott, K.N., Helmeczi, W.E., Roy,
+B.D., Brindle, I.D., Klentrou, P., and Fajardo,
+V.A. (2019). Low dose lithium
+supplementation activates Wnt/beta-catenin
+signalling and increases bone OPG/RANKL
+ratio in mice. Biochem. Biophys. Res.
+Commun. 511, 394–397. https://doi.org/10.
+1016/j.bbrc.2019.02.066.
+11. Rommel, C., Bodine, S.C., Clarke, B.A.,
+Rossman, R., Nunez, L., Stitt, T.N.,
+Yancopoulos, G.D., and Glass, D.J. (2001).
+Mediation of IGF-1-induced skeletal
+myotube hypertrophy by PI(3)K/Akt/mTOR
+and PI(3)K/Akt/GSK3 pathways. Nat. Cell Biol.
+3, 1009–1013. https://doi.org/10.1038/
+ncb1101-1009.
+12. Verhees, K.J.P., Schols, A.J., Kelders, M.M.,
+Op den Kamp, C.M.H., van der Velden, J.L.J.,
+and Langen, R.C.J. (2011). Glycogen synthase
+kinase-3beta is required for the induction of
+skeletal muscle atrophy. Am. J. Physiol. Cell
+Physiol. 301, C995–C1007. https://doi.org/10.
+1152/ajpcell.00520.2010.
+13. Kurgan, N., Whitley, K.C., Maddalena, L.A.,
+Moradi, F., Stoikos, J., Hamstra, S.I., Rubie,
+E.A., Kumar, M., Roy, B.D., Woodgett, J.R.,
+et al. (2019). A low-therapeutic dose of lithium
+inhibits GSK3 and enhances myoblast fusion
+in C2C12 cells. Cells 8, 1340. https://doi.org/
+10.3390/cells8111340.
+14. Kugimiya, F., Kawaguchi, H., Ohba, S.,
+Kawamura, N., Hirata, M., Chikuda, H.,
+Azuma, Y., Woodgett, J.R., Nakamura, K.,
+and Chung, U.I. (2007). GSK-3beta controls
+osteogenesis through regulating Runx2
+activity. PLoS One 2, e837. https://doi.org/10.
+1371/journal.pone.0000837.
+15. Marsell, R., Sisask, G., Nilsson, Y., Sundgren-
+Andersson, A.K., Andersson, U., Larsson, S.,
+Nilsson, O., Ljunggren, O., and Jonsson, K.B.
+(2012). GSK-3 inhibition by an orally active
+small molecule increases bone mass in rats.
+Bone 50, 619–627. https://doi.org/10.1016/j.
+bone.2011.11.007.
+16. Liu, B., Wu, Q., Zhang, S., and Del Rosario, A.
+(2019). Lithium use and risk of fracture: a
+systematic review and meta-analysis of
+observational studies. Osteoporos. Int. 30,
+257–266. https://doi.org/10.1007/s00198-
+018-4745-9.
+17. Mirzoev, T.M., Sharlo, K.A., and Shenkman,
+B.S. (2021). The role of GSK-3b in the
+regulation of protein turnover, myosin
+phenotype, and oxidative capacity in skeletal
+muscle under disuse conditions. Int. J. Mol.
+Sci. 22, 5081. https://doi.org/10.3390/
+ijms22105081.
+18. Braun, J.L., Geromella, M.S., Hamstra, S.I.,
+Messner, H.N., and Fajardo, V.A. (2021).
+Characterizing SERCA function in murine
+skeletal muscles after 35–37 Days of
+spaceﬂight. Int. J. Mol. Sci. 22, 11764. https://
+doi.org/10.3390/ijms222111764.
+19. Tascher, G., Brioche, T., Maes, P., Chopard,
+A., O’Gorman, D., Gauquelin-Koch, G., Blanc,
+S., and Bertile, F. (2017). Proteome-wide
+adaptations of mouse skeletal muscles
+during a full month in space. J. Proteome Res.
+16, 2623–2638. https://doi.org/10.1021/acs.
+jproteome.7b00201.
+20. Sandona`, D., Desaphy, J.F., Camerino, G.M.,
+Bianchini, E., Ciciliot, S., Danieli-Betto, D.,
+Dobrowolny, G., Furlan, S., Germinario, E.,
+Goto, K., et al. (2012). Adaptation of mouse
+skeletal muscle to long-term microgravity in
+the MDS mission. PLoS One 7, e33232.
+https://doi.org/10.1371/journal.pone.
+0033232.
+21. Okada, R., Fujita, S.-i., Suzuki, R., Hayashi, T.,
+Tsubouchi, H., Kato, C., Sadaki, S., Kanai, M.,
+Fuseya, S., Inoue, Y., et al. (2021).
+Transcriptome analysis of gravitational
+effects on mouse skeletal muscles under
+microgravity and artiﬁcial 1 g onboard
+environment. Sci. Rep. 11, 9168. https://doi.
+org/10.1038/s41598-021-88392-4.
+22. Hayashi, T., Kudo, T., Fujita, R., Fujita, S.I.,
+Tsubouchi, H., Fuseya, S., Suzuki, R., Hamada,
+M., Okada, R., Muratani, M., et al. (2021).
+Nuclear factor E2-related factor 2 (NRF2)
+deﬁciency accelerates fast ﬁbre type
+transition in soleus muscle during space
+ﬂight. Commun. Biol. 4, 787. https://doi.org/
+10.1038/s42003-021-02334-4.
+23. Geromella, M.S., Ryan, C.R., Braun, J.L.,
+Finch, M.S., Maddalena, L.A., Bagshaw, O.,
+Hockey, B.L., Moradi, F., Fenech, R.K., Ryoo,
+J., et al. (2022). Low-dose lithium
+supplementation promotes adipose tissue
+browning and sarco(endo)plasmic reticulum
+Ca(2+) ATPase uncoupling in muscle. J. Biol.
+Chem. 298, 102568. https://doi.org/10.1016/
+j.jbc.2022.102568.
+24. Marcella, B.M., Copeland, E.N., Hamstra, S.I.,
+Hockey, B., Braun, J.L., Geromella, M.S.,
+Whitley, K.C., Watson, C.J., Baranowski, B.J.,
+Maddalena, L.A., et al. (2023). Treating
+muscle and brain alike: beneﬁts of GSK3
+inhibition in mdx mice. Preprint at bioRxiv.
+https://doi.org/10.1101/2022.02.16.480726.
+25. Whitley, K.C., Hamstra, S.I., Baranowski, R.W.,
+Watson, C.J.F., MacPherson, R.E.K., MacNeil,
+A.J., Roy, B.D., Vandenboom, R., and
+Fajardo, V.A. (2020). GSK3 inhibition with low
+dose lithium supplementation augments
+murine muscle fatigue resistance and speciﬁc
+force production. Physiol. Rep. 8, e14517.
+https://doi.org/10.14814/phy2.14517.
+26. Wrann, C.D., White, J.P., Salogiannnis, J.,
+Laznik-Bogoslavski, D., Wu, J., Ma, D., Lin,
+J.D., Greenberg, M.E., and Spiegelman, B.M.
+(2013). Exercise induces hippocampal BDNF
+through a PGC-1a/FNDC5 pathway. Cell
+Metab. 18, 649–659. https://doi.org/10.1016/
+j.cmet.2013.09.008.
+27. Luo, Y., Qiao, X., Ma, Y., Deng, H., Xu, C.C.,
+and Xu, L. (2020). Disordered metabolism in
+mice lacking irisin. Sci. Rep. 10, 17368. https://
+doi.org/10.1038/s41598-020-74588-7.
+28. Colaianni, G., Mongelli, T., Cuscito, C.,
+Pignataro, P., Lippo, L., Spiro, G.,
+Notarnicola, A., Severi, I., Passeri, G., Mori,
+G., et al. (2017). Irisin prevents and restores
+bone loss and muscle atrophy in hind-limb
+suspended mice. Sci. Rep. 7, 2811. https://
+doi.org/10.1038/s41598-017-02557-8.
+29. Kurgan, N., Maddalena, L.A., Roy, B.D.,
+Stuart, J.A., Fajardo, V.A. (2018). Low
+therapeutic and sub-therapeutic doses of
+lithium enhance calcineurin signalling and
+myoblast fusion in C2C12 cells. Canadian
+Society for Exercise Physiology. Applied
+Physiology Nutrition and Metabolism.
+30. Bloemberg, D., and Quadrilatero, J. (2012).
+Rapid determination of myosin heavy chain
+expression in rat, mouse, and human skeletal
+muscle using multicolor immunoﬂuorescence
+analysis. PLoS One 7, e35273. https://doi.org/
+10.1371/journal.pone.0035273.
+31. Pansters, N.A.M., Schols, A.J., Verhees,
+K.J.P., de Theije, C.C., Snepvangers, F.J.,
+Kelders, M.M., Ubags, N.D.J., Haegens, A.,
+and Langen, R.C.J. (2015). Muscle-speciﬁc
+GSK-3beta ablation accelerates regeneration
+of disuse-atrophied skeletal muscle. Biochim.
+Biophys. Acta 1852, 490–506. https://doi.org/
+10.1016/j.bbadis.2014.12.006.
+32. Cadena, S.M., Zhang, Y., Fang, J., Brachat, S.,
+Kuss, P., Giorgetti, E., Stodieck, L.S., Kneissel,
+M., and Glass, D.J. (2019). Skeletal muscle in
+MuRF1 null mice is not spared in low-gravity
+conditions, indicating atrophy proceeds by
+unique mechanisms in space. Sci. Rep. 9,
+9397. https://doi.org/10.1038/s41598-019-
+45821-9.
+33. Martins, K.J.B., St-Louis, M., Murdoch, G.K.,
+MacLean, I.M., McDonald, P., Dixon, W.T.,
+Putman, C.T., and Michel, R.N. (2012). Nitric
+oxide synthase inhibition prevents activity-
+induced calcineurin–NFATc1 signalling and
+fast-to-slow skeletal muscle ﬁbre type
+conversions. J. Physiol. 590, 1427–1442.
+https://doi.org/10.1113/jphysiol.2011.
+223370.
+34. Theeuwes, W.F., Gosker, H.R., Langen, R.C.J.,
+Pansters, N.A.M., Schols, A.J., and Remels,
+A.H.V. (2018). Inactivation of glycogen
+synthase kinase 3b (GSK-3b) enhances
+mitochondrial biogenesis during
+myogenesis. Biochim. Biophys. Acta, Mol.
+Basis Dis. 1864, 2913–2926. https://doi.org/
+10.1016/j.bbadis.2018.06.002.
+35. Theeuwes, W.F., Gosker, H.R., Langen, R.C.J.,
+Verhees, K.J.P., Pansters, N.A.M., Schols,
+A.J., and Remels, A.H.V. (2017). Inactivation of
+glycogen synthase kinase-3b (GSK-3b)
+enhances skeletal muscle oxidative
+metabolism. Biochim. Biophys. Acta, Mol.
+Basis Dis. 1863, 3075–3086. https://doi.org/
+10.1016/j.bbadis.2017.09.018.
+36. Theeuwes, W.F., Gosker, H.R., Schols, A.J.,
+Langen, R.C.J., and Remels, A.H.V. (2020).
+Regulation of PGC-1a expression by a GSK-
+3b-TFEB signaling axis in skeletal muscle.
+Biochim. Biophys. Acta. Mol. Cell Res. 1867,
+118610. https://doi.org/10.1016/j.bbamcr.
+2019.118610.
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+11
+iScience
+Article
+
+37. Kim, H., Wrann, C.D., Jedrychowski, M.,
+Vidoni, S., Kitase, Y., Nagano, K., Zhou, C.,
+Chou, J., Parkman, V.-J.A., Novick, S.J., et al.
+(2018). Irisin mediates effects on bone
+and fat via aV integrin receptors. Cell 175,
+1756–1768.e17. https://doi.org/10.1016/j.
+cell.2018.10.025.
+38. Hamstra, S.I., Roy, B.D., Tiidus, P., MacNeil,
+A.J., Klentrou, P., MacPherson, R.E.K., and
+Fajardo, V.A. (2023). Beyond its psychiatric
+use: the beneﬁts of low dose lithium
+supplementation. Curr. Neuropharmacol. 21,
+891–910. https://doi.org/10.2174/
+1570159x20666220302151224.
+39. Ko¨ hler-Forsberg, O., Rohde, C., Nierenberg,
+A.A., and Østergaard, S.D. (2022).
+Association of lithium treatment with the risk
+of osteoporosis in patients with bipolar
+disorder. JAMA Psychiatr. 79, 454–463.
+https://doi.org/10.1001/jamapsychiatry.
+2022.0337.
+40. Wong, S.K., Chin, K.Y., and Ima-Nirwana, S.
+(2020). The skeletal-protecting action and
+mechanisms of action for mood-stabilizing
+drug lithium chloride: current evidence and
+future potential research areas. Front.
+Pharmacol. 11, 430. https://doi.org/10.3389/
+fphar.2020.00430.
+41. Khan, I., Tantray, M.A., Alam, M.S., and
+Hamid, H. (2017). Natural and synthetic
+bioactive inhibitors of glycogen synthase
+kinase. Eur. J. Med. Chem. 125, 464–477.
+https://doi.org/10.1016/j.ejmech.2016.
+09.058.
+42. Noori, M.S., Bhatt, P.M., Courreges, M.C.,
+Ghazanfari, D., Cuckler, C., Orac, C.M.,
+McMills, M.C., Schwartz, F.L., Deosarkar, S.P.,
+Bergmeier, S.C., et al. (2019). Identiﬁcation of
+a novel selective and potent inhibitor of
+glycogen synthase kinase-3. Am. J. Physiol.
+Cell Physiol. 317, 1289–1303. https://doi.org/
+10.1152/ajpcell.00061.2019.
+43. Gerbaix, M., Gnyubkin, V., Farlay, D., Olivier,
+C., Ammann, P., Courbon, G., Laroche, N.,
+Genthial, R., Follet, H., Peyrin, F., et al. (2017).
+One-month spaceﬂight compromises the
+bone microstructure, tissue-level mechanical
+properties, osteocyte survival and lacunae
+volume in mature mice skeletons. Sci. Rep. 7,
+2659. https://doi.org/10.1038/s41598-017-
+03014-2.
+44. Andreev-Andrievskiy, A., Popova, A., Boyle,
+R., Alberts, J., Shenkman, B., Vinogradova,
+O., Dolgov, O., Anokhin, K., Tsvirkun, D.,
+Soldatov, P., et al. (2014). Mice in Bion-M 1
+space mission: training and selection. PLoS
+One 9, e104830. https://doi.org/10.1371/
+journal.pone.0104830.
+45. Choi, S.Y., Saravia-Butler, A., Shirazi-Fard, Y.,
+Leveson-Gower, D., Stodieck, L.S., Cadena,
+S.M., Beegle, J., Solis, S., Ronca, A., and
+Globus, R.K. (2020). Validation of a new
+rodent experimental system to investigate
+consequences of long duration space
+habitation. Sci. Rep. 10, 2336. https://doi.org/
+10.1038/s41598-020-58898-4.
+46. Hamstra, S.I., Kurgan, N., Baranowski, R.W.,
+Qiu, L., Watson, C.J.F., Messner, H.N.,
+MacPherson, R.E.K., MacNeil, A.J., Roy, B.D.,
+and Fajardo, V.A. (2020). Low-dose lithium
+feeding increases the SERCA2a-to-
+phospholamban ratio, improving SERCA
+function in murine left ventricles. Exp. Physiol.
+105, 666–675. https://doi.org/10.1113/
+ep088061.
+47. Baranowski, R.W., Braun, J.L., Vandenboom,
+R., and Fajardo, V.A. (2022). Neurogranin
+inhibits calcineurin in murine soleus muscle:
+effects of heterozygous knockdown on
+muscle adaptations to tenotomy and fatigue
+resistance. Biochem. Biophys. Res. Commun.
+623, 89–95. https://doi.org/10.1016/j.bbrc.
+2022.07.062.
+48. Fajardo, V.A., Mikhaeil, J.S., Leveille, C.F.,
+Saint, C., and LeBlanc, P.J. (2017). Cardiolipin
+content, linoleic acid composition, and
+tafazzin expression in response to skeletal
+muscle overload and unload stimuli. Sci. Rep.
+7, 2060. https://doi.org/10.1038/s41598-017-
+02089-1.
+49. Fajardo, V.A., Rietze, B.A., Chambers, P.J.,
+Bellissimo, C., Bombardier, E., Quadrilatero,
+J., and Tupling, A.R. (2017). Effects of
+sarcolipin deletion on skeletal muscle
+adaptive responses to functional overload
+and unload. Am. J. Physiol. Cell Physiol. 313,
+C154–C161. https://doi.org/10.1152/ajpcell.
+00291.2016.
+50. Fajardo, V.A., Smith, I.C., Bombardier, E.,
+Chambers, P.J., Quadrilatero, J., and
+Tupling, A.R. (2016). Diaphragm assessment
+in mice overexpressing phospholamban in
+slow-twitch type I muscle ﬁbers. Brain Behav.
+6, e00470. https://doi.org/10.1002/brb3.470.
+51. Villa, C.R., Chen, J., Wen, B., Sacco, S.M.,
+Taibi, A., Ward, W.E., and Comelli, E.M.
+(2016). Maternal vitamin D beneﬁcially
+programs metabolic, gut and bone health of
+mouse male offspring in an obesogenic
+environment. Int. J. Obes. 40, 1875–1883.
+https://doi.org/10.1038/ijo.2016.177.
+ll
+OPEN ACCESS
+12
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+STAR+METHODS
+KEY RESOURCES TABLE
+REAGENT or RESOURCE
+SOURCE
+IDENTIFIER
+Antibodies
+GSK3b
+Cell signaling
+Cat# 9315; RRID: AB_490890
+GSK3b (Ser9 phosphorylated)
+Cell signaling
+Cat# 9322; RRID: AB_2115196
+GSK3a
+Cell signaling
+Cat# 4818; RRID: AB_10831511
+GSK3a (Ser9 phosphorylated)
+Cell signaling
+Cat# 9316; RRID: AB_659836
+PGC-1a
+Millipore
+Cat# ST1204; RRID: AB_10807905
+COXIV
+Abcam
+Cat# ab16056; RRID: AB_443304
+FNDC5
+Abcam
+Cat# ab131390
+MHCI
+DHSB
+Cat# BA-F8; RRID: AB_10572253
+MHC IIa
+DHSB
+Cat# SC-71; RRID: AB_2147165
+MHC IIx
+DHSB
+Cat# 6H1; RRID: AB_1157897
+MHC IIb
+DHSB
+Cat# BF-F3; RRID: AB_2266724
+Pax7
+DHSB
+Cat# APAX7; RRID: AB_2299243
+Myogenin
+DHSB
+Cat# Myog; RRID: AB_2722260
+Anti-mouse HRP
+Cell Signaling
+Cat# 7076; RRID: AB_330924
+Anti-rabbit HRP
+Cell Signaling
+Cat# 7074; RRID: AB_2099233
+Alexa Fluor 647 anti-rabbit
+ThermoFisher
+Cat# A27040; RRID: AB_2536101
+Alexa Fluor 350 anti-mouse
+ThermoFisher
+Cat# A-21140; RRID: AB_2535777
+Alexa Fluor 488 anti-mouse
+ThermoFisher
+Cat# A-21121; RRID: AB_2535764
+Alexa Fluor 555 anti-mouse
+ThermoFisher
+Cat# A-21426; RRID: AB_2535847
+Biological samples
+RR9 soleus and tibialis anterior
+NASA Biospecimens Sharing Program
+N/A
+RR1 soleus
+NASA Biospecimens Sharing Program
+N/A
+RR18 soleus
+NASA Biospecimens Sharing Program
+N/A
+BION-M1 soleus and extensor digitorum longus
+Dr. Fabrice Bertile (Strasbourg, France)
+N/A
+Experimental models: Organisms/strains
+GSK3a/b ﬂoxed mice
+Brock University
+N/A
+ACTA-1 Cre mice
+Jackson Laboratories and now
+housed at Brock University
+N/A
+Software and algorithms
+Molecular Devices SoftMax Pro
+Molecular Devices
+https://www.moleculardevices.com/products/
+microplate-readers/acquisition-and-analysis-software/
+softmax-pro-software?cmp=7010g000000nNCH&utm_
+source=AdWords&utm_medium=cpc&utm_campaign=
+MPR-Brand_CANADA&utm_adgroup={adgroup}&utm_
+location=9000776&utm_keyword=molecular%20
+devices%20softmax%20pro&utm_device=c&utm_
+devicemodel=&utm_placement=&utm_adpostion=
+&utm_target=&utm_network=g&utm_creative=
+413034758091&gclid=CjwKCAjw0dKXBhBPEiw
+A2bmObfQYfxhI9dqx2kDoEaENs2bFYuBzCML-
+NluCxhjnZ3efLgFFif0rvhoCsnYQAvD_BwE
+(Continued on next page)
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+13
+iScience
+Article
+
+RESOURCE AVAILABILITY
+Lead contact
+Further information and requests for resources and reagents should be directed to and will be fulﬁlled by
+the lead contact, Val A. Fajardo (vfajardo@brocku.ca).
+Materials availability
+This study did not generate new unique reagents.
+Data and code availability
+d All data reported in this paper will be shared by the lead contact upon request.
+d This paper does not report original code.
+d Any additional information required to reanalyze the data reported in this paper is available from the
+lead contact upon request.
+EXPERIMENTAL MODELS AND SUBJECT DETAILS
+Muscle samples from RR1, RR9, RR18, and BION-M1 missions
+Soleus, EDL, and TA muscle samples were obtained from the BION-M1 mission as well as the RR1, RR9, and
+RR18 missions through the NASA Life Sciences Data Archive Institutional Scientiﬁc Collection Biospecimen
+Sharing Program. For all missions, we were provided with 3 experimental groups: 1) Flight (F) group housed
+in specialized mission hardware; 2) Ground control (GC) housed in specialized mission hardware here on
+Earth; and 3) Vivarium (VIV) control housed in standard laboratory cages and conditions. For the BION-
+M1 mission, male C57BL/6N (19–20 week old at time of launch) mice were maintained in high-orbit
+(550 km) for 30 days in specialized ﬂight modules.44 For the NASA missions, male C57BL/6J (RR9 and
+RR18, 10 weeks of age at time of launch) and female C57BL/6J (RR1, 16 weeks of age at time of launch)
+mice were acclimated and then launched in a specialized transporter and transferred to Rodent Habitats45
+on board the International Space Station (ISS). Additional details on housing and tissue collection/prepa-
+ration can be found elsewhere for RR1, RR9, and BION-M1.18,19 For the RR18 mission, ﬂight mice were
+aboard the ISS for 30 days with weekly injections of either sterile saline (0.9%) or the antioxidant metallo-
+porphyrin (MnTnBuOE-2-PyP5+, herein referred to as BuOE). The mice used in this study were part of a live
+animal return cohort where tissue dissection occurred 1 day after landing. Soleus muscles were collected
+and stored in RNAlater at 80C, prior to being homogenized in PMSF buffer (250 mM Sucrose, 5 mM
+HEPES, 0.2 mM PMSF, 0.2% NaN3 (pH 7.5)). We did not ﬁnd any differences in GSK3 content or MHC iso-
+form expression between the two saline and BuOE cohorts, and thus we elected to keep them separate in
+our analysis.
+In addition to the F, GC, and VIV groups, we also received two cohort control groups from the RR9 mission.
+Owing to Hurricane Irma (September 2017), the original RR9 GC and VIV experiments were terminated
+early. GC and VIV experiments were replicated in May 2018 using the same strain of mice used for the ﬂight
+experiment. With the new GC and VIV groups, an additional set of mice were used as cohort controls to
+Continued
+REAGENT or RESOURCE
+SOURCE
+IDENTIFIER
+ImageLab
+BioRad
+https://www.bio-rad.com/fr-ca/product/
+image-lab-software?ID=KRE6P5E8Z
+Graphpad Prism 8
+Graphpad Prism
+https://www.graphpad.com/scientiﬁc-software/prism/
+ImageJ
+NIH
+https://imagej.nih.gov/ij/download.html
+NRecon V.1.7.3.1 software
+Bruker microCT
+N/A
+Osteosys software for INSIGHT
+small animal DXA scanner
+Scintica
+https://www.scintica.com/wp-content/uploads/
+2022/03/FAQ-iNSiGHT-DXA_v0122-1.pdf
+Aurora Scientiﬁc 600A software
+Aurora Scientiﬁc
+https://aurorascientiﬁc.com/products/
+muscle-physiology/muscle-daq-software/
+600a-real-time-muscle-system/
+ll
+OPEN ACCESS
+14
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+assess variation because of differences in time. That is, the mice originally dedicated to serve as the VIV
+group in 2017 were labeled as cohort 1, and another set of age- and sex-matched mice were run as cohort
+2 under similar treatments in 2018. Thus, differences in GSK3 expression and activation were ﬁrst examined
+in R9 cohort controls to determine if a normalizing factor would be required. Importantly, we found no dif-
+ferences in GSK3 phosphorylation in the TA muscles from Cohort Control 1 (CC1) and Cohort Control 2
+(CC2) (Figure S12). We also found no signiﬁcant differences between cohort controls (CC1 vs. CC2) in
+any of the bone outcomes measured (Table S3).
+Animals
+Skeletal muscle-speciﬁc Gsk3 partial knockdown mice of a C57BL/6J background were generated by
+crossing GSK3a/b ﬂoxed mice (kindly donated by Dr. Virginia Lee, University of Pennsylvania) with
+ACTA-1-Cre mice (Jackson laboratories) under the control of the skeletal muscle a-actin promoter.23 Het-
+erozygously ﬂoxed GSK3a/b mice also heterozygously expressing ACTA-1 Cre were considered GSK3mKD,
+whereas heterozygously ﬂoxed GSK3a/b mice without ACTA-1 Cre were considered the ﬂox control
+(GSK3ﬂox). For the lithium feeding experiments, male 3–6 month old C57BL/6 mice were used. All mice
+were fed a standard chow diet (2014 Teklad global, 14% protein rodent maintenance diet, Harlan Teklad,
+Mississauga, ON), and were kept on a 12-h light: 12-h dark cycle with ad libitum access to food and water
+through the entirety of the study. Mice were housed at a temperature of 22–24C for the duration of the
+study.
+Ethics statement
+This study utilized murine muscle samples provided to us through the NASA Life Sciences Data Archive
+Institutional Scientiﬁc Collection Biospecimen Sharing Program. All animal procedures performed were
+approved by the Institutional Animal Care and Use Committees (IACUC) for ﬂight at the NASA Ames
+Research Center (ARC) and the Kennedy Space Center (KSC), and the methods were carried out in accor-
+dance with relevant guidelines and regulations. Experimental protocols for the GSK3mKD and lithium
+feeding experiments were approved by the Brock University Animal Care Committee (ﬁles #17-06-03,
+#20-07-01, and #21-06-02) and were in compliance with the Canadian Council on Animal Care.
+METHOD DETAILS
+Hindlimb suspension
+For the hindlimb suspension (HLS) experiments, the hindlimbs of male GSK3mKD and GSK3ﬂox (4–6 month
+old) mice were suspended using a taping method where the tails of mice were taped to a copper ring
+attached to a steel bar that was mounted on top of a modiﬁed mouse cage. For these experiments,
+mice were pair-housed in the cages and had as libitum access to food and water. After 7-day of HLS, all
+mice were sacriﬁced via cervical dislocation (under isoﬂurane) and their soleus muscles were collected.
+Lithium feeding and tenotomy surgery
+For the lithium feeding study, C57BL/6 male mice (3–6 months of age) were randomly divided into a control
+or lithium group. The lithium group received a dose of 10 mg/kg/day of LiCl via their drinking water as pre-
+viously described10,23,25,46 whereas the control group received drinking water without LiCl supplementa-
+tion. The total duration of treatment was 6 weeks. On the fourth week, all mice underwent the tenotomy
+surgery as previously described.47–49 Brieﬂy, mice were anesthetized with vaporized isoﬂuorane, prior to
+severing the soleus and gastrocnemius tendons from one leg. A sham surgery was conducted on the
+contralateral leg to serve as an internal control. Both wounds on both legs were closed with silk suture
+and mice were returned to their home cages, where LiCl or control treatment was maintained for an addi-
+tional two weeks prior to euthanization. After euthanizing the mice via cervical dislocation, soleus muscles
+were collected for future analyses.
+DXA scanning of individual bones
+A small animal DXA scanner (OsteoSys InSIGHT, Scintica) was used to scan the individual femur bones
+collected from the RR9 mission. Overall coefﬁcient of variation of our analysis was 1.7% for BMD and
+3.2% for BMC. In addition, we also performed region-speciﬁc BMD analysis for the tibia, femur, and lumbar
+spine from mobile and HLS GSK3mKD and GSK3ﬂox mice.
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+15
+iScience
+Article
+
+Soleus muscle contractility
+Soleus muscle contractility was assessed as previously described25,47 at 25C using an Aurora Scientiﬁc con-
+tractile apparatus with a biphasic simulator (model 305B and 701B). Soleus muscles were subjected to a
+force frequency curve (1, 20, 40, 80 and 160) with a sampling rate of 1000 Hz.50 For force-frequency analysis,
+peak isometric force was obtained. Cross-sectional area (CSA) was calculated using the following formula:
+CSA = m/l*d*(Lf/Lo), where m, muscle mass (mg); l, muscle length (mm); d, mammalian skeletal muscle den-
+sity (1.06 mg/mm3); Lf/Lo is the ﬁber length-to-muscle length ratio (0.71 for soleus). Speciﬁc force was calcu-
+lated by normalizing peak isometric force by CSA.
+Western blotting
+A bicinchoninic acid (BCA) assay was used to determine sample protein concentration using an M2 Molec-
+ular Devices Plate Reader (Molecular Devices). Western blotting was performed to determine GSK3b,
+phosphorylated (p)-GSK3b, GSK3a, (p)-GSK3a, b catenin, MHC I, MHC IIa, MHC IIx, MHC IIb. Antibodies
+from pGSK3b (9336), total (t)-GSK3-b (9315), pGSK3a (9316), tGSK3a (4818), b-Catenin (8480) were obtained
+from Cell Signaling Technology (Danvers, MA, USA). MHC I (BA-F8), IIa (SC-71), IIx (6H1), and IIb (BF-F3)
+antibodies as well as the antibodies for Pax7 (AB_528428) and myogenin (F5D) were obtained from the
+Developmental Studies Hybridoma Bank (University of Iowa). The antibodies for FNDC5 and COXIV
+were obtained from Abcam (ab13190 and abS16056, respectively) and the antibody for PGC-1a was ob-
+tained from Millipore (ST1204). All Western blots used BioRad TGX 4–15% gradient gels (4561086:
+BioRad) and PVDF membranes. Samples were then prepped and equally loaded for gel electrophoresis.
+Transfer was conducted via BioRad Transblot Turbo. Following transfer, membranes were blocked in 5%
+milk in TBST for 60 min or BioRad Every Blot blocking buffer (12010020) for 10 min. Following blocking,
+the appropriate primary antibody was appropriately diluted and added during an overnight incubation
+at 4C. After incubation with appropriate primary antibodies membranes were washed 3 times for 5 min
+with TBST then incubated for 60 min with the analogous secondary anti-mouse (7076; Cell Signaling Tech-
+nology; MHC I, IIa, IIx, IIb) or anti-rabbit (7074; Cell Signaling Technology; p-GSK3a, GSK3a p-GSK3b,
+GSK3b, b-catenin) antibody both conjugated to horseradish peroxidase. Upon secondary incubation,
+membranes were washed another 3 times with TBST for 5-min each. Millipore Immobilon (#WBKLSO500)
+chemiluminescent substrate was added and then visualized using a BioRad ChemiDoc MP for protein
+detection. Ponceau staining was used for protein normalization (59803; Cell Signaling Technology).
+GSK3 ﬁber type analysis
+To assess the ﬁber type expression of GSK3b, we performed immunoﬂuorescent microscopy experiments
+on serial 10 mm cryosections obtained from O.C.T. (optimal cutting temperature) embedded soleus and
+EDL muscles from n = 3 mobile wild-type C57BL/6J male mice. One serial cryosection underwent immuno-
+ﬂuorescent ﬁber type staining as previously described to demarcate the various ﬁber types with MHC I, IIa,
+IIx, and IIb isoforms.30,47 The other serial cryosection underwent immunoﬂuorescent staining with a primary
+antibody for GSK3b (9315, Cell Signaling, 1:2500 dilution) and an anti-rabbit Alexa Fluor 647 ﬂuorescent
+secondary antibody (A27040, ThermoFisher Scientiﬁc, 1:5000 dilution). Once ﬁber types were identiﬁed
+with MHC isoform expression/ﬂuorescence, GSK3b was quantiﬁed by converting the image to grayscale
+and quantifying the mean gray value with ImageJ. Within a single muscle, 10 of each ﬁber type were
+randomly analyzed.
+Histological analysis
+Soleus muscles embedded in O.C.T. matrix from GSK3mKD and GSK3ﬂox HLS mice were processed into
+10 mm cryosections prior to undergoing H&E staining. For each muscle, 2–3 images were randomly taken
+and the CSA of 20 ﬁbers per mouse (n = 3–4 per group) were obtained using ImageJ. For central nuclei
+counts, the total number of ﬁbers from the H&E images were counted, ranging from 150 to 230 ﬁbers
+per image and the number of ﬁbers with central nuclei calculated as a percent of the total number of ﬁbers
+within the image.
+Micro-computed tomography bone imaging
+Micro-computed tomography (mCT, SkyScan 1176 V.1.1 build 12, Bruker microCT, Belgium) was performed
+as previously described.51 Following euthanasia, the right tibia was excised, cleaned of surrounding tissue,
+and wrapped in paraﬁlm wax to prevent moisture loss throughout the duration of the 180-degree high res-
+olution (9 mm) scan. A 0.25 mm aluminum ﬁlter was applied. The beam strength was set at 45 kV and 545 mA
+ll
+OPEN ACCESS
+16
+iScience 26, 107047, July 21, 2023
+iScience
+Article
+
+for an exposure time of 850 ms. Resulting images were reconstructed (smoothing kernel = 2, ring artifact
+reduction = 8, beam hardening = 30%, and dynamic image range = 0.000–0.155; NRecon V.1.7.3.1 soft-
+ware, Bruker microCT, Belgium) into 3D images and reoriented in anatomical position (DataViewer
+V.1.5.6.2 64-bit software, Bruker microCT, Belgium) for consistency when selecting the regions of interest.
+Quantiﬁcation of trabecular and cortical bone structure outcomes was performed at the proximal tibia and
+tibia midpoint, respectively.
+Assessment of trabecular bone structure at the proximal tibia
+Trabecular bone region of interest began 0.855 mm from the point in which the primary spongiosa discon-
+nects and formation of the growth plate is evident and expanded 0.675 mm toward the tibia midpoint.
+Trabecular bone was manually delineated from the cortical bone and quantiﬁed using an adaptive thresh-
+olding of 49 to determine total volume, bone volume, bone volume fraction, trabecular thickness, trabec-
+ular separation, trabecular number, degree of anisotropy, and connectivity density.
+Assessment of cortical bone structure at the tibia midpoint
+For cortical bone structure analysis, the tibia midpoint was used to deﬁne the region of interest (0.450 mm
+toward the proximal and distal ends; total height of 0.900 mm). Cortical bone structure outcomes, including
+total cross-sectional area, cortical area, cortical area fraction, cortical thickness, periosteal perimeter, en-
+docortical perimeter, medullary area, and eccentricity, were calculated using an adaptive threshold of 67.
+QUANTIFICATION AND STATISTICAL ANALYSIS
+Statistical analyses
+To examine the combined effect of spaceﬂight on GSK3 content and phosphorylation, fold-change values
+were calculated for each mission relative to the average of both GC and VIV controls. The fold-change
+values were compared with GCVIV controls using a Student’s t test. For the western blot data across the
+individual experiments (Figures S1–S3, S5, and S6), a one-way ANOVA or non-parametric Kruskal Wallis
+test with a Dunnet’s post-hoc test was used to strictly compare GC vs. Flight and VIV vs. Flight. This method
+was chosen since no signiﬁcant differences between GC and VIV for any outcome measure related to mus-
+cle were detected for any mission. Similarly, for the bone analysis (DXA, mCT, and western blot analyses) GC
+and VIV controls were combined as there were no differences between the two groups. This was done to
+increase statistical power. A Student’s t test was then used to make comparisons between F and GCVIV. For
+the GSK3mKD experiments, most comparisons were made Student’s t test unless otherwise stated where a
+two-way ANOVA was used. For the lithium and tenotomy experiments, a two-way ANOVA was also used to
+test the main effects of lithium treatment and tenotomy. All data are presented as mean +/ standard error
+unless stated otherwise. A Shapiro-Wilk test was used to test for normality for both studies. Statistical tests
+were conducted through GraphPad Prism 8 Software. Any statistical outliers detected using the ROUT test
+(Q = 5%) on GraphPad Prism were removed prior to analysis. A p % 0.05 was used to determine statistical
+signiﬁcance.
+ll
+OPEN ACCESS
+iScience 26, 107047, July 21, 2023
+17
+iScience
+Article

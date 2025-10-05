@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioKnowdes - Intelligent Document Analysis</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bioknowdes.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Browse Articles Button in Sidebar - Override circular style */
+        .no-articles .btn-primary {
+            background: #60a5fa !important;
+            color: white !important;
+            border-radius: 8px !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 0.75rem 1.5rem !important;
+            justify-content: flex-start !important;
+            border: none !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .no-articles .btn-primary:hover {
+            background: #3b82f6 !important;
+            transform: translateY(-1px) !important;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-dna"></i> BioKnowdes</h1>
+                <div class="header-actions">
+                    <a href="/" class="btn btn-secondary">
+                        <i class="fas fa-project-diagram"></i> Graph
+                    </a>
+                    <a href="/heatmap" class="btn btn-secondary">
+                        <i class="fas fa-fire"></i> Heatmap
+                    </a>
+                    <a href="/ask-lumi/articles" class="btn btn-secondary">
+                        <i class="fas fa-newspaper"></i> Browse Articles
+                    </a>
+                    <a href="/ask-lumi/settings" class="btn btn-secondary">
+                        <i class="fas fa-cog"></i> Settings
+                    </a>
+                    <button id="clearBtn" class="btn btn-secondary">
+                        <i class="fas fa-trash"></i> Clear Session
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="articles-manager" id="articlesManager">
+                    <h3><i class="fas fa-newspaper"></i> Loaded Articles (<span id="articleCount">0</span>)</h3>
+                    <div class="articles-list" id="articlesList">
+                        <div class="no-articles">
+                            <i class="fas fa-search"></i>
+                            <p>No articles loaded</p>
+                            <a href="/ask-lumi/articles" class="btn btn-primary btn-sm">
+                                <i class="fas fa-plus"></i> Browse Articles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <main class="chat-container">
+                <div class="chat-header">
+                    <h2><i class="fas fa-comments"></i> Ask Lumi </h2>
+                    <p>Ask questions about the loaded documents with Lumi</p>
+                    
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-message">
+                        <img src="{{ url_for('static', filename='images/lumi.png') }}" alt="Lumi" style="width: 64px; height: 64px; margin-bottom: 1rem;">
+                        <h3>Feeling curious about space research?, ask Lumi!</h3>
+                        <p>Browse and load NASA scientific articles to start asking questions about space research with Lumi.</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="input-group">
+                        <input type="text" id="messageInput" placeholder="Type your question about space research..." disabled>
+                        <button id="sendBtn" class="btn btn-primary" disabled>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay hidden" id="loadingOverlay">
+        <div class="loading-content">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Processing...</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/bioknowdes.js') }}"></script>
+</body>
+</html>

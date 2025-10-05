@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space Apps Challenge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="graph-body">
+    <header>
+        <div class="logo">
+            <a href="/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="{{ url_for('static', filename='images/nasa-logo.png') }}" alt="NASA Logo">
+            </a>
+            <span>NASA Space Apps - BioKnowdes</span>
+
+        </div>
+        <nav class="dropdown-nav">
+            <div class="dropdown">
+                <button class="dropdown-toggle">Explore ▾</button>
+                <div class="dropdown-menu">
+                    <a href="/">Home</a>
+                    <a href="/heatmap_cosine" class="heatmap-link">Heatmap</a>
+                    <a href="/ask-lumi">Ask Lumi</a>
+                    <a href="/ask-lumi/articles">Browse Articles</a>
+                    <a href="about"> About us </a>
+                    <a href="/help"> Help</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="graph-section">
+        <!-- Filter Overlay -->
+        <aside id="filter-panel" class="filter-panel filter-overlay">
+            <div class="filter-header">
+                <h3>Filters</h3>
+                <button id="toggle-filters" class="toggle-btn">✕</button>
+            </div>
+            
+            <div class="filter-content">
+                <div class="filter-group">
+                    <label class="filter-label">Search Keywords:</label>
+                    <input type="text" id="keyword-search" class="filter-input" placeholder="Type to search keywords...">
+                </div>
+
+                <!-- Custom Keywords Section -->
+                <div class="filter-group">
+                    <label class="filter-label">Add Custom Keywords:</label>
+                    <div class="custom-keyword-input-group">
+                        <input type="text" id="custom-keyword-input" class="filter-input" placeholder="Type and press Enter...">
+                        <button id="add-custom-keyword" class="btn-add-keyword">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div id="custom-keywords-container" class="custom-keywords-list"></div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">
+                        Available Keywords
+                        <span id="selected-count" class="count-badge">0 selected</span>
+                    </label>
+                    <div id="keywords-list" class="keywords-container">
+                        <div class="loading">Loading keywords...</div>
+                    </div>
+                </div>
+
+                <div class="filter-actions">
+                    <button id="apply-filters" class="btn-apply">Apply Filters</button>
+                    <button id="clear-filters" class="btn-clear">Clear All</button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Filter Toggle Button (Always Visible) -->
+        <button id="open-filters" class="filter-fab">
+            <span class="fab-icon">⚙</span>
+            <span class="fab-text">Filters</span>
+        </button>
+
+        <div class="graph-container">
+            <iframe id="graph-iframe" src=""></iframe>
+        </div>
+    </main>
+    
+    <div id="chat-bot-container">
+        <div id="chat-bot-balloon"></div>
+        <div id="chat-bot-window">
+            <div id="chat-header">
+                <h3>Chat with Lumi</h3>
+                <button id="chat-close">✕</button>
+            </div>
+            <div id="chat-messages">
+                <div class="chat-empty-state">
+                    <div class="chat-empty-state-icon">🤖</div>
+                    <div class="chat-empty-state-text">
+                        Hi! I'm Lumi, your space research assistant.<br>
+                        Ask me anything about the experiments!
+                    </div>
+                </div>
+            </div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask a question..." />
+                <button id="chat-send">➤</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

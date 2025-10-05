@@ -1,0 +1,949 @@
+REVIEW ARTICLE
+OPEN
+Interplay of space radiation and microgravity in DNA damage
+and DNA damage response
+María Moreno-Villanueva1,2, Michael Wong1,3, Tao Lu1,4, Ye Zhang5 and Honglu Wu1
+In space, multiple unique environmental factors, particularly microgravity and space radiation, pose constant threat to the DNA
+integrity of living organisms. Speciﬁcally, space radiation can cause damage to DNA directly, through the interaction of charged
+particles with the DNA molecules themselves, or indirectly through the production of free radicals. Although organisms have
+evolved strategies on Earth to confront such damage, space environmental conditions, especially microgravity, can impact DNA
+repair resulting in accumulation of severe DNA lesions. Ultimately these lesions, namely double strand breaks, chromosome
+aberrations, micronucleus formation, or mutations, can increase the risk for adverse health effects, such as cancer. How spaceﬂight
+factors affect DNA damage and the DNA damage response has been investigated since the early days of the human space program.
+Over the years, these experiments have been conducted either in space or using ground-based analogs. This review summarizes
+the evidence for DNA damage induction by space radiation and/or microgravity as well as spaceﬂight-related impacts on the DNA
+damage response. The review also discusses the conﬂicting results from studies aimed at addressing the question of potential
+synergies between microgravity and radiation with regard to DNA damage and cellular repair processes. We conclude that further
+experiments need to be performed in the true space environment in order to address this critical question.
+npj Microgravity  (2017) 3:14 ; doi:10.1038/s41526-017-0019-7
+INTRODUCTION
+As humans on Earth, we are well protected from insults originated
+in deep space. However, during space travel, all living organisms
+are exposed to a number of unique environmental stress factors,
+such as space radiation and microgravity. These two factors in
+particular have been topics of active investigation as their
+potential to compromise human health has not yet been fully
+elucidated.
+Typically
+encountered
+beyond
+the
+reach
+of
+the
+Earth’s
+magnetosphere, space radiation refers to galactic cosmic rays
+(GCR) and protons released from large solar particle events (SPEs).
+GCRs consist of approximately 87% hydrogen ions (protons) and
+12% helium ions (alpha particles), with the remaining 1–2% of
+particles being high atomic number and energy nuclei.1 In low
+Earth orbit (LEO), astronauts are exposed mostly to protons
+trapped in Earth’s geomagnetic ﬁeld, and some high energy GCR
+and SPE particles that are able to penetrate to LEO. In fact, the
+energy of some GCR particles is so high that it is difﬁcult to shield
+from them at all using conventional materials,2 making exposure
+inside spacecraft inevitable. Notable effects of this space radiation
+in humans include, for instance, light ﬂashes from retinal exposure
+to charged particles,3 reported during astronauts’ trips to the
+Moon4 and in Skylab missions,5 and the early onset of cataracts.6
+Apart from direct space radiation effects, indirect damage through
+bystander effects, adaptive responses, and genomic instability
+may also occur.7
+In addition to radiation, in LEO or during transit to the Moon or
+Mars, astronauts are exposed to microgravity. As many have noted
+before, exposure to the microgravity environment causes a range
+of detrimental health effects, including bone loss, cardiovascular
+deconditioning, and neurovestibular changes.8,
+9 Furthermore,
+some of these health effects have been observed in studies using
+ground-based analogs that simulate the microgravity condition.10
+At the molecular level, radiation and/or microgravity are known
+to negatively impact DNA integrity. To counteract DNA damage,
+cells have developed speciﬁc mechanisms that locate and repair
+DNA lesions. These mechanisms consist of a network of cellular
+proteins involved in DNA damage response (DDR) pathways, such
+as cell cycle regulation, DNA repair, and apoptosis. Generally, cells
+are able to accommodate moderate DNA damage through these
+different repair processes; however, space conditions, especially
+the lack of gravity may adversely affect the DNA repair process
+leading to accumulation of DNA injuries.
+Although space radiation and microgravity are two major
+environmental stressors encountered in space travel, other space-
+related factors can present challenges to DNA integrity as well.
+Speciﬁcally, partial gravity experienced on the surface of the Moon
+or Mars, psychological stress due to conﬁned space or loneliness
+in long duration missions, possible toxic chemical compounds in
+the spacecraft, and lunar or Martian regolith inhaled into the lung
+might also negatively impact astronauts’ health.
+Given the importance of understanding the consequences of
+the space environment on human physiology, this review focuses
+on the interplay of space radiation and microgravity in the DDR.
+Relevant studies addressing the question of potential synergies
+between radiation and microgravity are also discussed. Addition-
+ally, investigations of DNA damage induced in space are reviewed.
+Recent evidence for such effects (Tables 1 and 2) is summarized
+below.
+Received: 6 September 2016 Revised: 10 March 2017 Accepted: 28 March 2017
+1NASA, Johnson Space Center, Houston, TX, USA; 2University of Konstanz, Konstanz 78457, Germany; 3Washington University School of Medicine, St. Louis, MO, USA; 4University
+of Houston Clear Lake, Houston, TX, USA and 5NASA Kennedy Space Center, Cape Canaveral, FL, USA
+Correspondence: Honglu Wu (Honglu.wu-1@nasa.gov)
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Table 1.
+Summary of results related to residual DNA damage and DDR from experiments conducted in simulated microgravity
+Ref.
+Environment
+Experimental conditions animal/cellular model
+DDR
+R, μG, R + μG
+Residual damage/DNA repair activity
+Synergy*
+Risin and Pellis18 Simulated microgravity RWV
++ radiation
+Peripheral blood mononuclear cells were exposed to 137Cs γ rays at a
+dose rate of 15 Gy/min.
+Inhibition of radiation-induced apoptosis
+Yes
+Mosesso et al.23
+Clinostat + radiation
+Human lymphocytes were exposed to 1.5 Gy X-ray.
+Increased yield of chromosome aberrations
+Yes
+Manti et al.24
+Simulated microgravity RWV
++ radiation
+Human peripheral blood lymphocytes were exposed to 60 MeV
+protons or 250 kVp X-rays in the dose range 0–6 Gy, and allowed to
+repair DNA damage for 24 h.
+No differences in radiation-induced chromosome aberrations
+No
+Canova et al.25
+Simulated microgravit γ RWV
++ radiation
+Lymphoblastoid TK6 cells were irradiated with γ rays and incubated
+for 24 h. Radiation doses ranged from 1–4 Gy at dose rate of 1 Gy/min
+from 60Co γ source.
+Higher frequency of micronucleated cells and mutations.
+Signiﬁcant reduction in apoptotic cells. Increased number of cells
+in G1-phase
+Yes
+Dang et al.29
+Simulated microgravity RWV
++ radiation
+Human B lymphoblast cells were exposed to 300 MeV/u carbon ions. Increased apoptosis and ROS
+Yes
+Mognato et al.26 Simulated microgravity RWV
++ radiation
+Human lymphocytes were exposed to X-rays at 2.2 Gy/min or γ from
+60Co at 1 Gy/min and incubated for 24 h. Total doses were 1, 2 and 3
+Gy.
+Increased mutant frequency after radiation
+Yes
+Mognato28
+Simulated microgravity RWV
++ radiation
+Human peripheral blood cells were exposed to 137Cs γ rays. The total
+dose was 5 Gy and the dose rate was 3.1 Gy/min.
+Signiﬁcantly higher number of γ-H2AX foci per nucleus. The
+fraction of foci-positive cells decreased slower after irradiation
+Yes
+Wang et al.22
+Simulated microgravity 3D
+clinostat + radiation
+Embryonic stem cells were exposed to 8 Gy γ rays and incubated for
+0, 1 and 2 h post irradiation.
+Increased apoptosis. Population growth inhibited.
+Yes
+Girardi et al.27
+Reduced gravitational force
+RWV + radiation
+Human peripheral lymphocytes were incubated for 4 and 24 h after
+0.2 and 2 Gy γ irradiation.
+Decreased number of miRNAs in response to radiation exposure Yes
+Li et al.30
+Tail suspension + radiation
+Spermatogenic cells of male Swiss Webster mice were exposed
+whole body to 200 MeV/u carbon ions at an entrance dose rate of
+0.5 Gy/min.
+Increased DNA damage. Increased apoptotic rate and the
+expression levels of p53 and Bax
+Yes
+* Synergy in terms of effect of microgravity on the repair of artiﬁcially induced DNA damage
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+2
+npj Microgravity (2017)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Table 2.
+Summary of results related to residual DNA damage and DDR from experiments conducted in spaceﬂights
+Ref.
+Environment
+Experimental conditions animal/cellular model
+DDR
+R, μG, R + μG
+Residual damage/DNA repair activity
+Synergy*
+Bender et al.39
+Gemini III mission
+Cultured human lymphocytes were exposed to 32Pb particles in space after
+reaching the microgravity condition
+Chromosomes deletions
+Yes
+Bender et al.40
+Gemini XI mission
+Cultured human lymphocytes were exposed to 32Pb particles in space after
+reaching the microgravity condition
+Chromosomes deletions
+No
+Horneck et al.45
+Spacelab mission IML-2
+Frozen E. coli and B. subtilis bacteria and human ﬁbroblasts were exposed to X-
+rays and UV before launch. Cells were thawed in space to allow repair in the
+microgravity environment.
+Re-joining of DNA strand breaks
+No
+Takahashi et al.43 US Space Shuttle mission (Discovery;
+STS-91)
+DNA substrate was damaged by restriction enzyme digestion in space
+T4 DNA ligase activity
+No
+Pross et al.47
+Radiation exposure on Shuttle
+Atlantis ﬂight STS-84
+Temperature dependent repair mutant rad54–3 of S. cerevisiae yeast was
+irradiated with 63Ni β particles during ﬂight and allowed repair at different
+temperatures.
+Double strand breaks and survival
+No
+Ohnishi et al.44
+US Space Shuttle mission (Discovery,
+STS-91)
+Damaged template DNA induced with an alkylating agent (N-methyl-N-nitroso
+urea; MNU).
+Mutation frequency
+No
+Ishizaki49
+US Space Shuttle mission (STS-95)
+Human colon cancer cells were treated with bleomycin in space.
+Microsatellite mutation rates
+No
+Wu et al.51
+8-days Space Shuttle mission STS-103 Blood samples collected from an astronaut before and post the Shuttle mission
+were exposed to high doses of γ rays.
+Chromosomal aberrations
+No
+Greco et al.37
+Missions of different durations on the
+MIR and ISS.
+Blood samples collected before and post space missions were exposed to
+ground-based X-rays.
+Chromosome aberration frequency
+Yes
+Lu et al.50
+ISS Expedition 39
+Conﬂuent human ﬁbroblasts (G1 phase) were treated with bleomycin in space. γ-H2AX and gene expression
+No
+* Synergy in terms of effect of microgravity on the repair of artiﬁcially induced DNA damage
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2017)  14 
+
+A review on data about heavy ion radiobiology or health risks
+caused by exposure to space radiation, or the effect of radiation
+and/or microgravity at the tissue level (bone/muscle loss) is
+beyond the scope of this paper.
+SIMULATED MICROGRAVITY STUDIES
+DNA damage induced by simulated microgravity
+As opportunities for true spaceﬂight experiments are rare, various
+studies have been conducted using ground-based devices that
+simulate certain aspects of microgravity. Common analogs for
+microgravity include rotating wall vessels (RWV), and 2D and 3D
+clinostats for cultured cells,11 and the hind limb suspension model
+for rodents.12 Other approaches, such as airplanes ﬂying in a
+parabolic pattern or free drop towers also offer true microgravity
+for a short duration.11 For humans, the bed rest model is used to
+simulate the effects of microgravity on various physiological
+systems,
+especially
+for
+studies
+of
+bone,
+muscle
+and
+the
+cardiovascular system.10
+Using these microgravity analogs, researchers have reported a
+range of data concerning the induction of DNA damage by
+simulated microgravity. For instance, simulated microgravity has
+been reported to induce DNA single strand breaks in human
+retinal pigment epithelial cells (hRPE) cultured in RWV. At 48 h
+after returning to the 1 g gravity condition, this DNA damage
+persisted and the production of the
+inﬂammatory
+marker
+prostaglandin E2 (PGE2) increased. However, hRPE cells previously
+treated with the anti-inﬂammatory agent cysteine showed less
+DNA damage and no PGE2 release.13 The bed rest model for
+studying the effect of microgravity on human physiology has also
+revealed an increase of 8-oxo-7,8 dihydro-2′ deoxyguanosine (8-
+oxo-HdG), which is considered a marker of oxidative DNA
+damage.14 Taken together, these results from cell models and
+human subjects suggest that various forms of ground-based
+microgravity analogs may indeed induce oxidative DNA damage.
+Many
+studies
+that
+reported
+measurements
+of
+simulated
+microgravity-induced reactive oxygen species (ROS), but not
+speciﬁc DNA damage markers, are not included here. Simulated
+microgravity alone does not appear to induce double strand
+breaks (DSB) in cells with normal genetic background. However,
+DSBs were found in mouse embryonic stem cells that were
+deﬁcient in DDR and cultured under RWV,15 suggesting that
+perhaps some DSB type damage is induced by simulated
+microgravity,
+but
+is
+typically
+repaired
+in
+DDR
+competent
+organisms.
+Effects of simulated microgravity on DDR
+In addition to the aforementioned DNA damage, there is evidence
+indicating that key elements of the DDR machinery are also
+affected under simulated microgravity alone.16–18 For instance,
+DNA damage, as well as decreased expression of DNA repair
+genes involved in mismatch repair, base excision repair, nucleo-
+tide excision repair, and the down regulation of p53, was observed
+in proliferating lymphocytes grown in simulated microgravity.17
+Furthermore, p21 up regulation occurred rapidly in lymphocytes
+exposed to real microgravity from parabolic ﬂights and under
+simulated microgravity in 2D clinostats, suggesting a p53-
+independent mechanism.19 Additionally, the activity of the DNA
+strand break sensor poly (ADP-ribose) polymerase 1 signiﬁcantly
+increased under simulated microgravity.20, 21 Further studies on
+mouse embryonic stem cells cultured in a 3D clinostat showed
+that simulated microgravity alone did not induce DNA damage,
+but it did affect radiation-induced DNA repair.22
+Most of the studies on the effects of simulated microgravity on
+the DDR have used low-linear energy transfer (LET) X-rays or γ rays
+to generate high levels of DNA damage. These damaged cells
+were then allowed to repair under different gravity conditions.
+However, our review of the studies performed under this
+experimental design has revealed conﬂicting results. For example,
+human lymphocytes exposed to 1.5 Gy of X-rays and cultured in a
+clinostat showed a higher number of X-ray induced chromosome
+aberrations in comparison to control cells cultured under the static
+1 g condition.23 But, researchers using the NASA-designed RWV
+bioreactor found no signiﬁcant difference in high energy proton
+radiation-induced (60 MeV protons or 250kVp X-rays in the dose
+ranges of 0–6 Gy) chromosome aberrations between human
+lymphocytes cultured in normal vs. simulated microgravity
+conditions, indicating that DNA repair was not affected.24 Even
+so, more studies do suggest that simulated microgravity has an
+effect on DDR. Speciﬁcally, in lymphoblastoid TK6 cells irradiated
+with γ rays and incubated for 24 h in a simulated microgravity
+environment, a signiﬁcant reduction in apoptotic cells, increased
+number of cells in G1-phase, and higher frequencies of micro-
+nucleated cells and mutations were reported in comparison to
+cells that were exposed to the same doses of radiation while
+maintained in 1 g.25 Greater mutant frequency was also found in
+human lymphocytes after ionizing radiation exposure in simulated
+microgravity.26 In both TK6 cells and peripheral blood mono-
+nuclear cells (PBMCs), the increase in mutation rate was associated
+with a reduced rate of radiation-induced apoptosis, again
+indicating a DDR change. Meanwhile, Omics studies such as
+transcriptome and microRNome analysis have provided evidence
+that simulated microgravity affects the DDR to ionizing radiation
+in human PBMCs by causing downregulation of DDR pathways
+associated miRNAs like miR-7 and miR-27a.27 Ultimately, simulated
+microgravity delayed DNA repair of radiation-induced DSBs in
+human lymphocytes, and as a consequence, the genotoxic effects
+of ionizing radiation increased.28 It should be noted, however, that
+few studies have employed high-LET charged particles to induce
+DNA damage under simulated microgravity conditions. In one
+such study, simulated microgravity was shown to decrease carbon
+ion radiation-induced cell survival and increase apoptosis in
+human B lymphoblasts. Such effects of simulated microgravity
+were associated with increased heavy ion radiation-induced
+intracellular
+ROS
+generation.29
+In
+another
+study,
+increased
+apoptosis and DNA damage were found in the sperm of mice
+that was exposed simultaneously to carbon ions and simulated
+microgravity (Hindlimb suspension).30 Together, these results
+suggest that, in most reported studies, simulated microgravity
+alters the expression of genes involved in DDR, and indeed affect
+the cellular response to radiation-induced damage (Table 1). More
+work is needed, however, to better understand the effects of
+microgravity on cellular repair processes in response to high LET
+radiation-induced DNA damage.
+SPACEFLIGHT STUDIES
+DNA damage from spaceﬂight
+In contrast to the large number of studies that have been
+conducted on the ground using particles generated in accel-
+erators, results describing DNA damage from direct exposure to
+natural space radiation are few. Detection of direct biological
+damage by space radiation is challenging not only due to the low
+dose and the low dose rate nature of the space environment, but
+also due to the possible synergistic effects of microgravity. In one
+such attempt, ﬁxed human cervical carcinoma (HeLa) cells were
+ﬂown in the Russian MIR space station for 40 days or on the Space
+Shuttle for 9 days. The resulting DNA damage levels, as measured
+by
+enzymatic
+incorporation
+of
+[3 H]-dATP
+from
+terminal
+deoxyribo-nucleotidyl transferase, correlated with space ﬂight
+duration,31 suggesting that the measured DNA damage was
+caused by space radiation and was dependent on the length of
+the space ﬂight. In another experiment, human lymphoblastoid
+TK6 cells were sent to the International Space Station (ISS) and
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+4
+npj Microgravity (2017)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+kept frozen in space for 134 days so that the damage could
+accumulate (while the impact of microgravity was simultaneously
+minimized). The cells ﬂown to space showed an increase in
+thymidine kinase deﬁcient (TK(-)) mutations over the ground
+controls.32 In a similar study, frozen TK6 cells were also analyzed
+for DSBs by measuring the phosphorylation of the histone H2AX
+(γ-H2AX). The induced DSBs appeared as a dense track of
+ionizations and excitations along the particle path.33 Similarly,
+during the Foton-M3 Mission (total 12 days), normal human
+dermal ﬁbroblasts ﬁxed after 4 days in orbit were found to have
+increased DSBs.34 The γ-H2AX assay for detecting DSBs has also
+been performed on human ﬁbroblasts cultured at 37 °C on the ISS
+for 14 days. Although the average number of γ-H2AX foci was
+similar between the ﬂight samples and ground controls, the ﬂown
+cells exhibited several track shaped foci that were similar to those
+induced by high-LET space radiation analogs on the ground.35
+Together, these results suggest that DNA damage can be directly
+attributed to the space radiation environment.
+Another effect attributed to space radiation is the induction of
+chromosome aberrations in white blood cells of astronauts after
+returning from space.36 Such damage can be observed only after a
+3–6 month duration mission, but not a 2-week shuttle mission.36
+Similarly, analysis of chromosomal aberrations in blood cells from
+one Italian and eight Russian cosmonauts were analyzed following
+missions of different duration on the MIR space station and the
+ISS. Although an increase in chromosome damage was observed
+in some cases, the authors did not detect a correlation between
+ﬂight history and chromosome damage.37
+DNA damage induced by spaceﬂight has also been detected
+using other biomarkers. At times, however, it has been difﬁcult to
+properly isolate the effects of space radiation from other space
+environmental factors. For instance, urine samples collected from
+astronauts have been analyzed for oxidative DNA damage by
+measuring 8-hydroxy-2′-deoxyguanosine (8-OHdG) before, during,
+and after spaceﬂight missions. 8-OHdG excretion was unchanged
+during spaceﬂight but increased after ﬂight.38 The same study
+found no changes in 8-OHdG excretion either during or after a
+short-duration spaceﬂight,38 suggesting that elevated 8-OHdG
+excretion may depend on the length of the mission. Even though
+astronauts were exposed to space radiation during the mission,
+the radiation level was so low that the oxidative damage was
+perhaps caused by microgravity in LEO or hypergravity experi-
+enced during re-entry. Due to the limited in vivo space-based
+studies, and other factors that may contribute to 8-OHdG changes,
+it is evident that further work is needed to understand the
+increased 8-OHdG measured in astronauts.
+Effects of spaceﬂight on DDR
+Potential effects of spaceﬂight on the DDR have been investigated
+since the early days of the human space program. Experiments
+aimed at addressing such effects have been conducted according
+to several experimental scenarios: (i) pre-ﬂight induction of high
+levels of DNA damage with radiation prior to launch, (ii) exposing
+samples to short-ranged particles in space, or (iii) exposing
+samples to radiation shortly after landing. In these studies, the
+combined spaceﬂight factors include not only microgravity and
+the background space radiation, but also factors, such as
+hypergravity experienced during launch or re-entry. The experi-
+ments carried out in the Gemini III and the Gemini XI manned
+spaceﬂight missions were designed to test synergistic effects
+between ionizing radiation and other stress factors associated
+with spaceﬂight. During these missions, cultured human lympho-
+cytes were exposed to 32Pb particles in space after reaching the
+microgravity condition. Chromosomes analysis after Gemini III
+mission showed an increased frequency of β-induced deletions
+compared to the ground controls, whereas the frequencies of
+dicentrics and rings were similar. However, the synergistic effect
+observed after Gemini III could not be conﬁrmed after Gemini
+XI.39, 40 Early studies on the combined effects of microgravity and
+radiation have been reviewed previously by Horneck, and by
+Keifer and Pross, who concluded that spaceﬂight does affect the
+development of organisms, but argued that the majority of
+spaceﬂight experiments showed little effects of microgravity on the
+repair of radiation-induced DNA damage.41,
+42 More recently,
+attempts at understanding the combined effects of space
+radiation and microgravity were implemented during the STS-91
+Shuttle mission. In the Shuttle experiment, researchers showed no
+effect of microgravity on either the biochemical reactions involved
+in DNA damage repair by T4 ligase43 or on the repair and
+replication carried out by Taq polymerase and Polymerase III in
+response to chemically induced DNA damage.44 Beyond these
+in vitro enzymatic studies, experiments involving bacteria and
+yeast have provided additional results. During the Spacelab
+mission IML-2, frozen Escherichia coli and Bacillus subtilis bacteria
+were exposed to X-ray and ultraviolet (UV) irradiation before
+launch. Once in Spacelab, the bacteria were thawed for up to 4.5 h
+and frozen again until landing, and then assessed for DNA repair.
+Ultimately, no signiﬁcant differences were found either in the re-
+joining of DNA strand breaks or in the survival curve between
+microgravity conditions and 1 g controls, suggesting that cells
+were able to repair radiation-induced DNA damage under real,
+albeit
+brief,
+microgravity.45
+In
+another
+study
+(STS-84),
+the
+temperature dependent repair mutant rad54–3 of Saccharomyces
+cerevisiae yeast was irradiated with46 Ni β particles and allowed
+time to repair under different temperatures. By measuring the
+amount of remaining, unrepaired breaks, researchers demon-
+strated that there was no difference in double-strand break repair
+between the ﬂight and ground control samples, suggesting no
+signiﬁcant impact of the real microgravity condition on this
+process.47 While these studies on bacteria and yeast did not show
+impaired DNA repair in microgravity, studies on more complex
+organisms and human cells have yielded very different results. For
+instance, a study on Caenorhabditis elegans showed that several
+DDR genes were differentially expressed during the 16.5-day
+Shenzhou-8 space mission, suggesting possible enhanced DDR
+under microgravity.48 Overall, most of these studies suggest no
+effect of space ﬂight on the DDR (Table 2).
+Further studies in space have also been conducted using
+bleomycin, a chemotherapy drug that is known to induce DNA
+damage, including DSBs. It has been reported that human colon
+carcinoma cells (HCT-116) treated with bleomycin for 2 days in
+space (Space Shuttle STS-95) showed no difference in frequencies
+of microsatellite mutations when compared to the ground
+controls.49 In a more recent experiment, conﬂuent human
+ﬁbroblasts, which were arrested in the G1 phase of the cell cycle,
+were also treated with bleomycin on the ISS and ﬁxed after 3 h. In
+this
+study,
+analysis
+of
+bleomycin-induced
+DSBs
+and
+gene
+expression changes showed no signiﬁcant difference between
+the ﬂight and ground-treated samples, indicating a lack of
+microgravity effect.50
+Another experimental design compares how human blood cells
+respond to ground-based artiﬁcially induced DNA damage before
+and after a space mission. In one study, blood was collected from
+an astronaut before ﬂight and within 24 h after the 9-day STS-103
+mission. After collection, both samples were exposed to γ rays of
+doses between 0 and 3 Gy. Comparison of the dose response for
+total chromosomal exchanges showed no differences between
+pre-ﬂight and post-ﬂight samples suggesting that microgravity
+had no lasting effect on DNA repair.51 Alternatively, Greco and
+colleagues reported an enhancement of approximately 1.2–2.8-
+fold in the chromosome aberration frequency in a post-ﬂight
+cosmonaut blood sample compared to parallel pre-ﬂight data
+after exposure to ground based X-rays.37 Interestingly however,
+for cosmonauts involved in more than one space ﬂight, the
+amount of chromosomal aberrations was in the range of the
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2017)  14 
+
+background before the mission started and did not depend on the
+total duration of ﬂights.52 Whether exposure to space radiation
+during prior space missions caused this effect by impacting the
+response to damages incurred in subsequent missions has been
+investigated in astronauts as well. Analysis of chromosome
+damage in blood lymphocytes collected from ﬁve astronauts
+before and after their ﬁrst and second long duration space ﬂights
+detected an increase in chromosome aberrations after both
+ﬂights, with no signiﬁcant impact of prior space travel.53 Although
+these results are far from conclusive, taken together, studies from
+a variety of model systems and humans subjects suggest that
+spaceﬂight may indeed play a role in altering the DDR to
+radiation-induced damage. Further work is needed in the true
+space environment to determine the exact magnitude and
+characteristics of such an effect, and understand its impact on
+human health.
+When faced with DNA damage, programmed cell death is an
+important component of the DDR. Therefore, in addition to the
+studies aimed at detecting DNA damage levels, investigators have
+also analyzed endpoints, such as apoptosis. Spaceﬂight studies
+conducted on human lymphocytes have shown an increase in
+apoptosis-related markers, such as DNA fragmentation, cleaved-
+poly (ADP-ribose) polymerase, and elevated mRNA levels of p53
+and calpain after 48 h on board the ISS.54 Furthermore, cell cycle-
+related genes, such as p21, were inhibited in the muscle of rats
+from space ﬂights compared to rats on the ground.55 Such studies
+indicate that spaceﬂight factors may indeed inﬂuence the rate of
+apoptosis and/or cell cycle regulation.
+CONCLUSIONS
+Space environmental factors can cause damage to the DNA,
+resulting in potential detrimental health consequences. Despite
+the low dose and dose rate nature of space radiation, there is
+evidence suggesting that cosmic rays induce DNA damage both in
+cultured cells and in astronauts’ blood cells. There is also evidence
+indicating that space environment can generate oxidative DNA
+damage in vivo. For instance, as mentioned above, 8-OHdG was
+found in urine of astronauts after ﬂight.38
+Ultimately, though the biological outcomes of any spaceﬂight-
+induced DNA damage also depend on the cellular capacity for
+repair. However, results from ground and spaceﬂight studies
+concerning microgravity’s effects on the DDR have been conﬂict-
+ing. While many studies have reported increased sensitivity to
+radiation and decreased DNA repair under simulated microgravity
+(Table 1), most of the experiments conducted in space have
+shown no effects of spaceﬂight on the capacity of the cells to
+repair the artiﬁcially induce DNA damage (Table 2), both within
+and across model systems. In some cases, studies that examined
+the same endpoints reached opposing conclusions. Perhaps this
+stems from the fact that ground analogs for microgravity are
+known to produce some, but not all of the biological effects
+observed in the true space environment. Experiments conducted
+in parallel in space and on the ground are needed to fully justify
+the use of ground-based microgravity analogs.
+DNA damage and DDR in space are a complex issue. Although
+the present review focuses on the interplay of microgravity and
+space radiation, other environmental factors faced during space
+travel can also induce DNA damage and inﬂuence the DDR. For
+example, when inhaled, dust particles covering the surface of
+celestial objects56,
+57 or toxic chemicals could lead to ROS
+production and therefore generate DNA damage. Furthermore,
+elevated CO2 present in spacecraft58 should be considered as a
+potential DNA damaging factor.59 In addition, inﬂammatory
+markers have been reported in astronauts60 and it is known that
+inﬂammatory mediators can directly affect the DNA repair process
+by either enhancing or repressing DNA repair. In particular, NF-κB,
+a key regulator involved in the production of inﬂammatory
+proteins, may play an important role in DNA damage sensing and
+its subsequent repair. Speciﬁcally, the DDR directly activates NF-
+κB, interferon regulatory factors, and a number of ligands for
+activating immune receptors.61 As such, a host of other factors
+need to be considered and controlled for when conducting and
+interpreting spaceﬂight studies.
+Furthermore, due to the composition and low ﬂuence nature of
+GCRs, over a period of several months cells in space are most likely
+hit by several protons before a high-LET heavy ion transverses
+them. Thus, prior exposure of cells to the background GCRs might
+affect the repair of DNA damage induced by protons emitted from
+a large SPE and vice versa. Indeed, suggestions for this come from
+studies showing that exposure of human primary cells to protons
+followed by
+heavy Ti or Fe
+ions resulted
+in a yield
+of
+transformation that is greater than the sum of the yields when
+the cells were independently exposed to protons or heavy
+particles.62, 63 Such synergistic effects were dependent on the
+sequence and timing between proton and heavy ion irradiation.
+Similarly, after sequential exposures to protons and Fe ions,
+human epithelial cells showed the peak of synergistic effects in
+the induction of chromosome aberrations when the time window
+between the two exposures was 30 min.46 However, another study
+showed no synergy between proton and Fe ion exposures
+regardless of the exposure sequence.64 Experiments with sequen-
+tial exposure to protons and Fe ions have also been conducted in
+animals. Dual exposures of C57BL/6 mice to protons and Fe ions
+resulted in pronounced molecular alterations in comparison with
+either source of radiation alone, as measured by a substantial
+increase in the expression of cytokine IL-13, loss of expression of
+DNA methyltransferase Dnmt1, and reactivation of LINE-1, SINE B1
+retrotransposons,
+and
+major
+and
+minor
+satellites.65
+Finally,
+exposure of C57BL/6 mice to Fe ions caused an increase in
+expression of α-smooth muscle cell actin, collagen type III, the
+inﬂammatory cell markers mast cell tryptase, CD2 and CD68,
+the
+endothelial
+glycoprotein
+thrombomodulin,
+and
+cleaved
+caspase 3.66 However, exposure to protons 24 h before Fe ions
+prevented all of the responses to Fe ions,66 which again illustrates
+how the complex composition and timing of space radiation can
+impact the level of DNA damage and the cellular response to such
+insults. Therefore, not only microgravity can impact space
+radiation-induced DDR, but also the radiation types and sequence
+and the exposure duration may inﬂuence the DDR.
+In conclusion, carefully designed experiments, perhaps ones
+implementing a radiation source or other DNA damage agents in
+space are needed given the conﬂict results between the reported
+studies on this topic. Higher levels of DNA damage that is
+intentionally induced in space would likely be necessary to
+achieve
+the
+results
+with
+statistical
+signiﬁcance.
+Meanwhile,
+experiments using an in-ﬂight 1 g centrifuge compared to the
+micro-g would provide clues to such questions with damage by
+natural space radiation levels. However, the assay employed in
+such studies has to be sensitive enough to detect the DDR to low
+levels of damage.
+ACKNOWLEDGEMENTS
+This work was supported in part by grants from the NASA Space Biology Program and
+the NASA Human Research Program, and by a German Fellowship Program (MMV).
+AUTHOR CONTRIBUTIONS
+M.M.V. and H.W. designed and wrote the manuscript. M.W. made substantial
+contributions to conception and design. T.L. and Y.Z. participated in drafting the
+article. M.W. helped with editing and formatting the revision.
+COMPETING INTERESTS
+The authors declare no competing interests.
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+6
+npj Microgravity (2017)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+REFERENCES
+1. Badhwar, G. D. & O’Neill, P. M. Long-term modulation of galactic cosmic
+radiation and its model for space exploration. Adv. Space Res. 14, 749–757
+(1994).
+2. Cucinotta, F. A. & Durante, M. Cancer risk from exposure to galactic cosmic rays:
+implications for space exploration by human beings. Lancet Oncol. 7, 431–435
+(2006).
+3. Budinger, T. F., Lyman, J. T. & Tobias, C. A. Visual perception of accelerated
+nitrogen nuclei interacting with the human retina. Nature 239, 209–211 (1972).
+4. Fazio, G. G., Jelley, J. V. & Charman, W. N. Generation of Cherenkov light ﬂashes by
+cosmic radiation within the eyes of the Apollo astronauts. Nature 228, 260–264
+(1970).
+5. Pinsky, L. S., Osborne, W. Z., Hoffman, R. A. & Bailey, J. V. Light ﬂashes observed by
+astronauts on skylab 4. Science 188, 928–930 (1975).
+6. Cucinotta, F. A., Manuel, F. K., Jones, J., Iszard, G., Murrey, J. & Djojonegro, B. et al.
+Space radiation and cataracts in astronauts. Radiat. Res. 156, 460–466 (2001).
+7. Kadhim, M., Salomaa, S., Wright, E., Hildebrandt, G., Belyakov, O. V. & Prise, K. M.
+et al. Non-targeted effects of ionising radiation–implications for low dose risk.
+Mutat. Res. 752, 84–98 (2013).
+8. West, J. B. Physiology in microgravity. J. Appl. Physiol. 89, 379–384 (2000).
+9. Williams, D., Kuipers, A., Mukai, C. & Thirsk, R. Acclimation during space ﬂight:
+effects on human physiology. CMAJ 180, 1317–1323 (2009).
+10. Hargens, A. R. & Vico, L. Long-duration bed rest as an analog to microgravity. J.
+Appl. Physiol. 120, 891–903 (2016).
+11. Herranz, R., Anken, R., Boonstra, J., Braun, M., Christianen, P. C. & de Geest, M. et al.
+Ground-based facilities for simulation of microgravity: organism-speciﬁc recom-
+mendations for their use, and recommended terminology. Astrobiology 13, 1–17
+(2013).
+12. Morey-Holton, E. R. & Globus, R. K. Hindlimb unloading rodent model: technical
+aspects. J. Appl. Physiol. 92, 1367–1377 (2002).
+13. Roberts, J. E., Kukielczak, B. M., Chignell, C. F., Sik, B. H., Hu, D. N. & Principato, M.
+A. Simulated microgravity induced damage in human retinal pigment epithelial
+cells. Mol. Vis. 12, 633–638 (2006).
+14. Rai, B., Kaur, J., Catalina, M., Anand, S. C., Jacobs, R. & Teughels, W. Effect of
+simulated microgravity on salivary and serum oxidants, antioxidants, and peri-
+odontal status. J. Periodontol. 82, 1478–1482 (2011).
+15. Li, N., An, L. & Hang, H. Increased sensitivity of DNA damage response-deﬁcient
+cells to stimulated microgravity-induced DNA lesions. PLoS One 10, e0125236
+(2015).
+16. Benavides Damm, T., Richard, S., Tanner, S., Wyss, F., Egli, M. & Franco-Obregon, A.
+Calcium-dependent deceleration of the cell cycle in muscle cells by simulated
+microgravity. FASEB J. 27, 2045–2054 (2013).
+17. Kumari, R., Singh, K. P. & Dumond, J. W. Jr. Simulated microgravity decreases DNA
+repair capacity and induces DNA damage in human lymphocytes. J. Cell. Biochem.
+107, 723–731 (2009).
+18. Risin, D. & Pellis, N. R. Modeled microgravity inhibits apoptosis in peripheral blood
+lymphocytes. In Vitro Cell. Dev. Biol. Anim. 37, 66–72 (2001).
+19. Thiel, C. S., Paulsen, K., Bradacs, G., Lust, K., Tauber, S. & Dumrese, C. et al. Rapid
+alterations of cell cycle control proteins in human T lymphocytes in microgravity.
+Cell Commun. Signal. 10, 1 (2012).
+20. Cesarone, C. F., Pippia, P., Demori, I., Scarabelli, L. & Fugassa, E. Effect of simulated
+microgravity conditions on poly(ADP-ribose) polymerase activity in primary cul-
+tures of adult rat hepatocytes. J. Gravit. Physiol. 8, P127–P128 (2001).
+21. Degan, P., Cesarone, C. F., Ottaggio, L., Galleri, G., Meloni, M. A. & Zunino, A. et al.
+Effects of simulated microgravity on metabolic activities related to DNA damage
+and repair in lymphoblastoid cells. J. Gravit. Physiol. 8, P21–P22 (2001).
+22. Wang, Y., An, L., Jiang, Y. & Hang, H. Effects of simulated microgravity on
+embryonic stem cells. PLoS One 6, e29214 (2011).
+23. Mosesso, P., Schuber, M., Seibt, D., Schmitz, C., Fiore, M. & Schinoppi, A. et al. X-
+ray-induced chromosome aberrations in human lymphocytes in vitro are
+potentiated under simulated microgravity conditions (Clinostat). Phys. Med. 17,
+264–266 (2001).
+24. Manti, L., Durante, M., Cirrone, G. A., Grossi, G., Lattuada, M. & Pugliese, M. et al.
+Modelled microgravity does not modify the yield of chromosome aberrations
+induced by high-energy protons in human lymphocytes. Int. J. Radiat. Biol. 81,
+147–155 (2005).
+25. Canova, S., Fiorasi, F., Mognato, M., Grifalconi, M., Reddi, E. & Russo, A. et al.
+“Modeled microgravity” affects cell response to ionizing radiation and increases
+genomic damage. Radiat. Res. 163, 191–199 (2005).
+26. Mognato, M. & Celotti, L. Modeled microgravity affects cell survival and HPRT
+mutant frequency, but not the expression of DNA repair genes in human lym-
+phocytes irradiated with ionising radiation. Mutat. Res. 578, 417–429 (2005).
+27. Girardi, C., De Pitta, C., Casara, S., Sales, G., Lanfranchi, G. & Celotti, L. et al. Analysis
+of miRNA and mRNA expression proﬁles highlights alterations in ionizing
+radiation response of human lymphocytes under modeled microgravity. PLoS
+One 7, e31293 (2012).
+28. Mognato, M., Girardi, C., Fabris, S. & Celotti, L. DNA repair in modeled micro-
+gravity: double strand break rejoining activity in human lymphocytes irradiated
+with gamma-rays. Mutat. Res. 663, 32–39 (2009).
+29. Dang, B., Yang, Y., Zhang, E., Li, W., Mi, X. & Meng, Y. et al. Simulated microgravity
+increases heavy ion radiation-induced apoptosis in human B lymphoblasts. Life
+Sci. 97, 123–128 (2014).
+30. Li, H. Y., Zhang, H., Miao, G. Y., Xie, Y., Sun, C. & Di, C. X. et al. Simulated micro-
+gravity conditions and carbon ion irradiation induce spermatogenic cell apop-
+tosis and sperm DNA damage. Biomed. Environ. Sci. 26, 726–734 (2013).
+31. Ohnishi, T., Ohnishi, K., Takahashi, A., Taniguchi, Y., Sato, M. & Nakano, T. et al.
+Detection of DNA damage induced by space radiation in Mir and space shuttle. J
+Radiat. Res. 43, S133–S136 (2002).
+32. Yatagai, F., Honma, M., Takahashi, A., Omori, K., Suzuki, H. & Shimazu, T. et al.
+Frozen human cells can record radiation damage accumulated during space
+ﬂight: mutation induction and radioadaptation. Radiat. Environ. Biophys. 50,
+125–134 (2011).
+33. Ohnishi, T., Takahashi, A., Nagamatsu, A., Omori, K., Suzuki, H. & Shimazu, T. et al.
+Detection of space radiation-induced double strand breaks as a track in cell
+nucleus. Biochem. Biophys. Res. Commun. 390, 485–488 (2009).
+34. Dieriks, B., De Vos, W., Meesen, G., Van Oostveldt, K., De Meyer, T. & Ghardi, M.
+et al. High content analysis of human ﬁbroblast cell cultures after exposure to
+space radiation. Radiat. Res. 172, 423–436 (2009).
+35. Lu T, Zhang Y, Wong M, Feiveson A, Gaza R, Stofﬂe N, et al. Detection of DNA
+damage by space radiation in human ﬁbroblasts ﬂown on the International Space
+Station. Life Sci. Space Res. (Amst). 12, 24–31 (2017).
+36. George, K., Durante, M., Wu, H., Willingham, V., Badhwar, G. & Cucinotta, F. A.
+Chromosome aberrations in the blood lymphocytes of astronauts after space
+ﬂight. Radiat. Res. 156, 731–738 (2001).
+37. Greco, O., Durante, M., Gialanella, G., Grossi, G., Pugliese, M. & Scampoli, P. et al.
+Biological dosimetry in Russian and Italian astronauts. Adv. Space Res. 31,
+1495–1503 (2003).
+38. Stein, T. P. & Leskiw, M. J. Oxidant damage during and after spaceﬂight. Am. J.
+Physiol. Endocrinol. Metab. 278, E375–E382 (2000).
+39. Bender, M. A., Gooch, P. C. & Kondo, S. The Gemini-3 S-4 spaceﬂight-radiation
+interaction experiment. Radiat. Res. 31, 91–111 (1967).
+40. Bender, M. A., Gooch, P. C. & Kondo, S. The Gemini XI S-4 spaceﬂight-radiation
+interaction experiment: the human blood experiment. Radiat. Res. 34, 228–238
+(1968).
+41. Horneck, G. Impact of microgravity on radiobiological processes and efﬁciency of
+DNA repair. Mutat. Res. 430, 221–228 (1999).
+42. Kiefer, J. & Pross, H. D. Space radiation effects and microgravity. Mutat. Res. 430,
+299–305 (1999).
+43. Takahashi, A., Ohnishi, K., Takahashi, S., Masukawa, M., Sekikawa, K. & Amano, T.
+et al. The effects of microgravity on ligase activity in the repair of DNA double-
+strand breaks. Int. J. Radiat. Biol. 76, 783–788 (2000).
+44. Ohnishi, T., Takahashi, A., Ohnishi, K., Takahashi, S., Masukawa, M. & Sekikawa, K.
+et al. Alkylating agent (MNU)-induced mutation in space environment. Adv. Space
+Res. 28, 563–568 (2001).
+45. Horneck, G., Rettberg, P., Kozubek, S., Baumstark-Khan, C., Rink, H. & Schafer, M.
+et al. The inﬂuence of microgravity on repair of radiation-induced DNA damage
+in bacteria and human ﬁbroblasts. Radiat. Res. 147, 376–384 (1997).
+46. Hada, M., Meador, J. A., Cucinotta, F. A., Gonda, S. R. & Wu, H. Chromosome
+aberrations induced by dual exposure of protons and iron ions. Radiat. Environ.
+Biophys. 46, 125–129 (2007).
+47. Pross, H. D., Casares, A. & Kiefer, J. Induction and repair of DNA double-strand
+breaks under irradiation and microgravity. Radiat. Res. 153, 521–525 (2000).
+48. Gao, Y., Xu, D., Zhao, L., Zhang, M. & Sun, Y. Effects of microgravity on DNA
+damage response in Caenorhabditis elegans during Shenzhou-8 spaceﬂight. Int.
+J. Radiat. Biol. 91, 531–539 (2015).
+49. Ishizaki, K., Nishizawa, K., Kato, T., Kitao, H., Han, Z. B. & Hirayama, J. et al. Genetic
+changes induced in human cells in Space Shuttle experiment (STS-95). PLoS One
+12, e0170358 (2017).
+50. Lu, T., Zhang, Y., Kidane, Y., Feiveson, A., Stodieck, L., Karouia, K., Ramesh, G.,
+Rohde, L. & Wu, H. Cellular responses and gene expression proﬁle changes
+due to bleomycin-induced DNA damage in human ﬁbroblasts in space. PLoS One
+12, e0170358 (2017).
+51. Wu, H., George, K., Willingham, V. & Cucinotta, F. A. Comparison of chromosome
+aberration frequencies in pre- and post-ﬂight astronaut lymphocytes irradiated
+in vitro with gamma rays. Phys. Med. 17, 229–231 (2001).
+52. Durante, M., Snigiryova, G., Akaeva, E., Bogomazova, A., Druzhinin, S. & Fedor-
+enko, B. et al. Chromosome aberration dosimetry in cosmonauts after single or
+multiple space ﬂights. Cytogenet. Genome Res. 103, 40–46 (2003).
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2017)  14 
+
+53. George, K., Rhone, J., Beitman, A. & Cucinotta, F. A. Cytogenetic damage in the
+blood lymphocytes of astronauts: effects of repeat long-duration space missions.
+Mutat. Res. 756, 165–169 (2013).
+54. Battista, N., Meloni, M. A., Bari, M., Mastrangelo, N., Galleri, G. & Rapino, C. et al. 5-
+Lipoxygenase-dependent apoptosis of human lymphocytes in the International
+Space Station: data from the ROALD experiment. FASEB J. 26, 1791–1798 (2012).
+55. Taylor, W. E., Bhasin, S., Lalani, R., Datta, A. & Gonzalez-Cadavid, N. F. Alteration of
+gene expression proﬁles in skeletal muscle of rats exposed to microgravity during
+a spaceﬂight. J. Gravit. Physiol. 9, 61–70 (2002).
+56. Kaura, J., Rickman, D. & Schoonena, M. A. Reactive oxygen species (ROS) gen-
+eration by lunar simulants. Acta Astronaut. 122, 196–208 (2016).
+57. Turci, F., Corazzari, I., Alberto, G., Martra, G. & Fubini, B. Free-radical chemistry as a
+means to evaluate lunar dust health hazard in view of future missions to the
+moon. Astrobiology 15, 371–380 (2015).
+58. Law, J., Van Baalen, M., Foy, M., Mason, S. S., Mendez, C. & Wear, M. L. et al.
+Relationship between carbon dioxide levels and reported headaches on the
+international space station. J. Occup. Environ. Med. 56, 477–483 (2014).
+59. Lu, C. Y., Ma, Y. C., Lin, J. M., Chuang, C. Y. & Sung, F. C. Oxidative DNA damage
+estimated by urinary 8-hydroxydeoxyguanosine and indoor air pollution among
+non-smoking ofﬁce employees. Environ. Res. 103, 331–337 (2007).
+60. Crucian, B. E., Cubbage, M. L. & Sams, C. F. Altered cytokine production by speciﬁc
+human peripheral blood cell subsets immediately following space ﬂight. J.
+Interferon Cytokine. Res. 20, 547–556 (2000).
+61. Kidane, D., Chae, W. J., Czochor, J., Eckert, K. A., Glazer, P. M. & Bothwell, A. L. et al.
+Interplay between DNA repair and inﬂammation, and the link to cancer. Crit. Rev.
+Biochem. Mol. Biol. 49, 116–139 (2014).
+62. Bennett, P. V., Cutter, N. C. & Sutherland, B. M. Split-dose exposures versus dual
+ion exposure in human cell neoplastic transformation. Radiat. Environ. Biophys.
+46, 119–123 (2007).
+63. Zhou, G., Bennett, P. V., Cutter, N. C. & Sutherland, B. M. Proton-HZE-particle
+sequential dual-beam exposures increase anchorage-independent growth fre-
+quencies in primary human ﬁbroblasts. Radiat. Res. 166, 488–494 (2006).
+64. Elmore, E., Lao, X. Y., Kapadia, R., Swete, M. & Redpath, J. L. Neoplastic transfor-
+mation in vitro by mixed beams of high-energy iron ions and protons. Radiat. Res.
+176, 291–302 (2011).
+65. Nzabarushimana, E., Prior, S., Miousse, I. R., Pathak, R., Allen, A. R. & Latendresse, J.
+et al. Combined exposure to protons and (56)Fe leads to overexpression of Il13
+and reactivation of repetitive elements in the mouse lung. Life Sci. Space Res. 7,
+1–8 (2015).
+66. Ramadan, S. S., Sridharan, V., Koturbash, I., Miousse, I. R., Hauer-Jensen, M. &
+Nelson, G. A. et al. A priming dose of protons alters the early cardiac cellular
+and molecular response to (56)Fe irradiation. Life Sci. Space Res. 8, 8–13
+(2016).
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2017
+Role of space radiation and microgravity in DNA damage
+M Moreno-Villanueva et al.
+8
+npj Microgravity (2017)  14 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

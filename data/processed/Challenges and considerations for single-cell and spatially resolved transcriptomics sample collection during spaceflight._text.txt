@@ -1,0 +1,1721 @@
+Perspective
+Challenges and considerations for single-cell and
+spatially resolved transcriptomics sample
+collection during spaceﬂight
+Eliah G. Overbey,1,2,18 Saswati Das,3,18 Henry Cope,4 Pedro Madrigal,5 Zaneta Andrusivova,6 Sole` ne Frapard,6
+Rebecca Klotz,7 Daniela Bezdan,8,9,10 Anjali Gupta,11 Ryan T. Scott,7 Jiwoon Park,1 Dawn Chirko,1
+Jonathan M. Galazka,12 Sylvain V. Costes,12 Christopher E. Mason,1,2,13,14 Raul Herranz,15 Nathaniel J. Szewczyk,4,16
+Joseph Borg,17 and Stefania Giacomello6,*
+1Weill Cornell Medicine, New York, NY, USA
+2Institute for Computational Biomedicine, New York, NY, USA
+3Department of Biochemistry, Atal Bihari Vajpayee Institute of Medical Sciences & Dr. Ram Manohar Lohia Hospital, New Delhi, India
+4School of Medicine, University of Nottingham, Derby DE22 3DT, UK
+5European Molecular Biology Laboratory, European Bioinformatics Institute, EMBL-EBI, Wellcome Genome Campus, Hinxton, UK
+6Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, Stockholm, Sweden
+7KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94035, USA
+8Institute of Medical Genetics and Applied Genomics, University of T€ubingen, T€ubingen 72076, Germany
+9NGS Competence Center T€ubingen (NCCT), University of T€ubingen, T€ubingen, German
+10yuri GmbH, Meckenbeuren, Germany
+11Axiom Space, Houston, TX, USA
+12Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94035, USA
+13The Feil Family Brain and Mind Research Institute, New York, NY, USA
+14The WorldQuant Initiative for Quantitative Prediction, New York, NY, USA
+15Centro de Investigaciones Biolo´ gicas Margarita Salas (CSIC), Madrid 28040, Spain
+16Department of Biomedical Sciences, Heritage College of Osteopathic Medicine, Ohio University, Athens, OH 45701, USA
+17Department of Applied Biomedical Science, Faculty of Health Sciences, University of Malta, Msida, Malta
+18These authors contributed equally
+*Correspondence: stefania.giacomello@scilifelab.se
+https://doi.org/10.1016/j.crmeth.2022.100325
+SUMMARY
+Single-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) have experienced
+rapid development in recent years. The ﬁndings of spaceﬂight-based scRNA-seq and SRT investigations
+are likely to improve our understanding of life in space and our comprehension of gene expression in various
+cell systems and tissue dynamics. However, compared to their Earth-based counterparts, gene expression
+experiments conducted in spaceﬂight have not experienced the same pace of development. Out of the hun-
+dreds of spaceﬂight gene expression datasets available, only a few used scRNA-seq and SRT. In this
+perspective piece, we explore the growing importance of scRNA-seq and SRT in space biology and discuss
+the challenges and considerations relevant to robust experimental design to enable growth of these methods
+in the ﬁeld.
+INTRODUCTION
+For decades, the health risks associated with space exploration
+have been increasingly documented and characterized. For
+some of these risks, countermeasures have been sufﬁciently
+developed to sustain human health in low-Earth orbit, the
+orbital distance from Earth that includes the International Space
+Station (ISS). However, as humankind plans for a permanent
+presence on the moon and seeks to advance to Mars, the limits
+to our countermeasures and the research gaps that have inso-
+far remained unaddressed will create health challenges that
+rival
+the
+engineering
+challenges
+of
+long-duration
+space
+missions.
+To gain a comprehensive understanding of how spaceﬂight af-
+fects the human body, the molecular responses of the body to
+spaceﬂight factors must be robustly proﬁled. Recent advances
+in omics technologies have already revolutionized our approach
+to understanding disease1–3 and have created new pathways for
+tackling health challenges on Earth.4–6 However, the spaceﬂight
+environment presents a unique set of factors where the genomic
+impact is largely unknown. Furthermore, the microgravity and ra-
+diation environment of space remains difﬁcult to model on Earth.
+Therefore, given that the opportunities to study the inﬂuence of
+spaceﬂight on the human genome have historically been, and
+still are, limited, it is of paramount importance to perform all
+omics experiments in spaceﬂight to the highest standards.
+Cell Reports Methods 2, 100325, November 21, 2022 ª 2022 The Authors.
+1
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ll
+OPEN ACCESS
+
+The ISS is currently the only research laboratory available off-
+world and the source of the majority of spaceﬂight omics exper-
+iments performed to date. Most mammalian omics studies
+aboard the ISS have used Mus musculus, the standard labora-
+tory rodent, as a model organism.7 To scale the number of
+mammalian studies performed in space, NASA launched their
+rodent research (RR) program in 2014, with the ﬁrst omics exper-
+iment published in the NASA funded GeneLab database in
+2015.8,9 Since the program began, the RR program has launched
+over a dozen missions generating a steady stream of new omics
+data on a variety of murine tissues and cell systems. These mis-
+sions have proven essential for understanding the molecular
+response of terrestrial life to the environmental stressors of
+space by providing gene expression data for a subset of
+mouse tissues. These studies have helped illuminate changes
+within biological systems including the mitochondria,10 muscu-
+loskeletal system,11 circadian rhythm,12 and microRNA (miRNA)
+proﬁles.13
+The majority of experiments from rodent tissue obtained via
+the RR missions have been subject to bulk RNA sequencing
+(RNA-seq), where the whole tissue is homogenized and RNA is
+extracted. Bulk transcriptomic assays are currently the most
+common omics assay performed in space biology, with more
+than 270 transcriptomic datasets available from spaceﬂight
+and spaceﬂight-analogue experiments in the NASA GeneLab
+database.7 Of these studies, microarray-based experiments
+have been used to obtain approximately half of the gene expres-
+sion data stored in GeneLab. As the cost of next-generation
+sequencing (NGS) decreased, RNA-seq started to replace mi-
+croarrays as the predominant method for spaceﬂight transcrip-
+tomic studies. However, given recent advances in the ﬁeld of ge-
+nomics, bulk RNA-seq is being displaced by higher-resolution
+methods rapidly on Earth. State-of-the-art tools can now resolve
+gene expression at the single-cell level via single-cell RNA-seq
+(scRNA-seq)14 or maintain 2D topography via spatially resolved
+transcriptomics (SRT).15 While these two types of approaches
+are becoming standard practice for gene expression research
+conducted on Earth, the collection protocols for cells and tissues
+obtained from experiments in spaceﬂight have not yet been opti-
+mized for the application of these methods.
+In this perspective piece, we present the current status of
+scRNA-seq and SRT in spaceﬂight experiments, the optimal tis-
+sue preservation protocols that should be implemented to
+ensure the success of these experiments, and the downstream
+computational tools that are used to obtain high-resolution
+gene expression insights.
+scRNA-SEQ: IMPORTANCE TO SPACEFLIGHT AND
+PRIOR ISS STUDY DESIGNS
+In less than a decade, the ﬁeld of scRNA-seq has matured and
+produced multiple robust protocols for examining the gene
+expression of individual cells. This has resulted in a paradigm
+shift in the ﬁeld of transcriptomics that has enabled the identiﬁ-
+cation of new cell types, uncovered rare cell populations, re-
+vealed cellular heterogeneity, charted cell-lineage trajectories
+during development and disease, and proﬁled the perturbation
+of cellular states.16–21
+scRNA-seq also has great potential when applied to cell sys-
+tems and tissues exposed to spaceﬂight. While gene expression
+changes have been observed in cell systems and tissues, the
+exact cell populations driving these expression differences
+have not yet been characterized. For example, large changes
+in gene expression have been observed in the murine retina,22
+but the differences attributable to speciﬁc retinal subpopula-
+tions, such as rod photoreceptors, cone photoreceptors, retinal
+ganglion cells, bipolar cells, amacrine cells, and horizontal cells,
+have yet to be pinpointed. Similarly, differences in immune func-
+tion have been observed during spaceﬂight in the past,23–25
+where the application of scRNA-seq would have enabled further
+dissection of speciﬁc gene expression differences in the cell
+populations of, for example, peripheral blood mononuclear cells
+(PBMCs), thymus tissue, and bone marrow. Overall, the possibil-
+ity of identifying exact cell populations that are dysregulated dur-
+ing spaceﬂight enables the development of more precise thera-
+peutics and countermeasures.
+While there is a spectrum of approaches for scRNA-seq that
+have been applied across ground-based experiments, only two
+platforms (Chromium by 10X Genomics and Rhapsody Single-
+Cell Analysis System by BD Biosciences) have been applied to
+samples ﬂown in spaceﬂight.26,27 These were applied to two ex-
+periments: the second rodent research reference mission
+(RRRM-2) and the NASA Twins Study. In both, single-cell sus-
+pensions were obtained, cells were physically isolated from
+one another, and polyadenylated mRNA was captured using oli-
+go(dT)s that were uniquely labeled per cell to differentiate mRNA
+of different cells in the experiment.
+In the RRRM-2 experiment, 40 mice were ﬂown to the ISS and
+were part of four distinct groups distinguished by age, duration
+spent on the ISS, and whether the animal was ISS-terminal or
+Earth-acclimatized after live animal return (LAR) (Figure 1A). A
+matching set of 40 mice were also housed on Earth to serve as
+a ground control. Out of the 80 mice between the ground control
+and spaceﬂight groups, 16 animals that were part of the LAR
+group were selected for single-cell sequencing. Single-cell
+sequencing of spleen tissue, PBMCs, humerus bone marrow,
+and femur bone marrow was performed using the 10X Genomics
+Chromium platform. Data for these experiments are publicly
+available in GeneLab28–31 (Table 1) and analysis of these data-
+sets is underway in NASA’s Analysis Working Groups (https://
+genelab.nasa.gov/awg/charter).
+The only other published experiment that has used scRNA-
+seq from a spaceﬂight study is the NASA Twins Study.32 In this
+experiment, a set of identical twins participated in a set of omics
+assays. One twin served as a ground control and remained on
+Earth while the other twin spent 340 days aboard the ISS. For
+scRNA-seq, whole blood was collected via venipuncture into
+cell processing tubes (CPTs) containing sodium citrate as a pre-
+servative (Figure 1B). The CPTs were returned immediately to the
+lab and centrifuged to collect PBMCs. The BD Biosciences
+Single-Cell Analysis System was used to collect single-cell
+expression data (Table 1). One important caveat to this study
+is that there was no in-ﬂight time point, and blood was collected
+for scRNA-seq pre-launch and post-landing.13,33 The time it
+takes to return cargo, such as CPTs, to Earth is one of the
+factors limiting the ease of single-cell experiments. CPTs can
+2
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+be spun-down and frozen before returning to Earth, but this
+direct freezing process will lyse cells. With cell lysis, it is still
+possible to generate a sample-wide RNA-seq proﬁle but not at
+single-cell resolution. To generate single-cell proﬁles from
+spaceﬂight samples, cells will need to be either returned to Earth
+immediately or cells will need to be preserved using a process
+that prevents lysis.
+SPATIALLY RESOLVED TRANSCRIPTOMICS:
+LEVERAGING LEGACY SAMPLES AND STEPS FOR
+PROPER EXPERIMENTAL DESIGN PRIOR TO
+SPACEFLIGHT
+While scRNA-seq has greatly improved gene expression exper-
+iments, it does have one major limitation: the loss of locational in-
+formation due to breakdown of tissues into single-cell suspen-
+sions. This makes it difﬁcult to identify gene expression
+changes that may correlate with the topology of the tissue and
+limits our ability to decipher cell-to-cell interactions and microen-
+vironment-level changes. In order to retain locational informa-
+tion, a variety of SRT methods have been developed in recent
+years (see Table 2 for a list of recent SRT methods)15,34,35 and
+applied to a range of sample and tissue types.36–39
+Due to various complexities in data collection and analysis,
+SRT methods are less mature than scRNA-seq methods. Addi-
+tionally, because of the requirement that tissues remain intact
+during the SRT workﬂow, these methods are also more sensitive
+to the tissue types and structures selected for study. This poses
+an extra challenge when SRT methods are to be applied to leg-
+acy space-ﬂown samples that were collected and stored without
+planning SRT studies from the start of the missions and their
+morphology is not fully preserved. For these reasons, we believe
+improvements can be made in the tissue collection process to
+better preserve tissue morphology. Speciﬁcally, when designing
+future studies to be performed in spaceﬂight, where specimens
+will undergo SRT analysis, experiments should ﬁrst be optimized
+Figure 1. scRNA-seq datasets from spaceﬂight samples
+(A) Design for the rodent research reference mission 2 (RRRM-2) experiment. In RRRM-2, two age groups of mice were launched to the ISS. After 32 days, half of
+the mice from each age group returned to Earth, where they lived 24 additional days before dissection. This was time-matched with the remaining groups of mice
+in orbit, which were euthanized and frozen in-ﬂight. Sixteen mice total were selected for scRNA-seq using the 10X Genomics platform. Four cell/tissue types were
+selected for scRNA-seq, and they each have an associated GeneLab Dataset (GLDS) publicly available: femur bone marrow (GLDS-402), humerus bone marrow
+(GLDS-403), PBMCs (GLDS-404), and spleen tissue (GLDS-405).
+(B) PBMCs from human blood were obtained before and after spaceﬂight on the ISS as part of the NASA Twins Study. Whole blood was obtained using veni-
+puncture into a sodium citrate cell processing tube (CPT) and PBMCs were obtained from the buffy coat after centrifugation of the CPT.
+Cell Reports Methods 2, 100325, November 21, 2022
+3
+Perspective
+ll
+OPEN ACCESS
+
+on Earth before being translated to experiments performed in
+space. The overall testing cycle for SRT techniques can be
+divided into three phases: (1) tissue evaluation, (2) tissue prepa-
+ration, and (3) 2D RNA analysis.
+Tissue evaluation will require selection of the proper area of in-
+terest of the tissue, which may vary in length, width, and thick-
+ness depending on the SRT method of interest. Tissue prepara-
+tion will require testing to determine the optimal duration of
+exposure to the ﬁxative agent, which may vary depending on tis-
+sue type and method of ﬁxation (e.g., ﬂash frozen [FF], formalin-
+ﬁxed parafﬁn-embedded [FFPE] tissue, or a different method). It
+should be noted that most SRT methods to date have been vali-
+dated with FF and FFPE tissues (Table 2). The third phase, 2D
+RNA analysis, will analyze the RNA spatial distribution in the tis-
+sue under study by applying one of the SRT methods available at
+the time of the experiment (Table 2). Due to the scarce availability
+of tissues ﬂown in spaceﬂight, it is critical that SRT researchers
+employ a testing cycle before proceeding to their spaceﬂight
+samples.
+TISSUE PRESERVATION: CHALLENGES IN
+SPACEFLIGHT AND RECOMMENDATIONS FOR
+IMPROVEMENT
+Good sample preservation is instrumental to the application of
+scRNA-seq and SRT on tissues from spaceﬂight. This stands
+in contrast to bulk RNA-seq, where RNA is collected and pooled
+from hundreds of thousands to millions of cells. The sheer vol-
+ume of RNA collected from these many cells means that partial
+tissue degradation can occur and still yield enough RNA for
+sequencing. The tolerance threshold for RNA degradation is
+much lower for scRNA-seq and SRT due to the high-resolution
+nature of these methods, compared to bulk RNA-seq. For
+scRNA-seq and SRT, sufﬁcient RNA for sequencing must be ob-
+tained from a smaller number of cells.
+RNA is known to degrade quickly and can undergo rapid pro-
+ﬁle changes and degradation in relatively short periods of time
+resulting in measurable differences within 5 to 10 min of remain-
+ing at room temperature postmortem.57 Additionally, RNA that is
+not preserved rapidly is subject to degradation that can create
+distinct RNA-seq proﬁles, and different RNA transcripts can
+degrade at different rates.58,59 To account for this, samples in-
+tended for scRNA-seq must be preserved rapidly after eutha-
+nasia. If the experiment requires single-cell sequencing, the cells
+should be immediately placed in cryopreservation media and
+slowly brought to freezing temperature to ensure cells do not
+lyse during the freezing process. Additionally, tissues should
+be dissociated prior to freezing. Dissociation after freezing is
+likely to cause damage to cell membranes and increase the likeli-
+hood of RNA leakage due to the stresses of the freezing process.
+An alternative to immediate dissociation is the application of
+single-nucleus RNA-seq (snRNA-seq) where isolation of nuclei
+can be performed on frozen material, and the nuclei are subse-
+quently used as input for single-cell sequencing.60 In this case,
+tissue samples can forgo cryopreservation media and should
+be brought down to freezing temperatures as quickly as
+possible, ideally snap-freezing the samples in liquid nitrogen if
+available. Comparisons of snRNA-seq and scRNA-seq in mouse
+lungs have shown that they have similar gene detection rates,
+and dissociation bias is reduced in snRNA-seq.61 Likewise,
+comparisons in kidneys showed similar gene detection rates.62
+The recently completed Fly Cell Atlas63 utilized snRNA-seq
+instead of scRNA-seq because it can be applied consistently
+even in problematic tissue type (e.g., antennae, wings, fat
+bodies) and multinucleated cells (e.g., muscle) and because
+70%–90%
+of
+transcriptomic
+information
+is
+retained
+with
+snRNA-seq.63 Moreover, nuclei can be applied as input for sin-
+gle-cell multiomics studies where both the RNA and chromatin
+accessibility information is captured from the same nucleus
+simultaneously. Thus, this approach can be extended in space-
+ﬂight experiments in the future.
+Similarly, samples intended for SRT should be frozen immedi-
+ately after dissection, ideally in a protective embedding medium.
+This approach preserves both RNA quality and morphology of
+the tissue. Most of legacy tissues obtained from the ISS did
+not undergo immediate embedding and freezing for morphology
+preservation. In the majority of cases, individual organs were not
+dissected in-ﬂight, but instead were frozen as a whole carcass
+Table 1. scRNA-seq datasets from spaceﬂight
+ID
+Link
+Mission
+Tissue
+Organism
+GLDS-402
+https://genelab-data.ndc.nasa.gov/
+genelab/accession/GLDS-402/
+RRRM-2
+femur bone marrow
+C57BL/6NTac mice
+GLDS-403
+https://genelab-data.ndc.nasa.gov/
+genelab/accession/GLDS-403/
+RRRM-2
+humerus bone marrow
+C57BL/6NTac mice
+GLDS-404
+https://genelab-data.ndc.nasa.gov/
+genelab/accession/GLDS-404/
+RRRM-2
+PBMCs
+C57BL/6NTac mice
+GLDS-405
+https://genelab-data.ndc.nasa.gov/
+genelab/accession/GLDS-405/
+RRRM-2
+Spleen
+C57BL/6NTac mice
+LSDA
+available upon request to the NASA LSDA
+NASA Twin Study
+PBMCs
+human
+A complete list of scRNA-seq datasets from samples exposed to spaceﬂight. Four datasets are from the RRRM-2 mission and are available on
+GeneLab. One dataset is from the NASA Twin Study and is part of the NASA Life Sciences Data Archive (LSDA). Due to privacy concerns around human
+genomic data, the Twin Study data is not publicly available but can be requested. The LSDA has a public-facing portal where data requests can be
+initiated (https://nlsp.nasa.gov/explore/entryform/lsda_data_requests/lsda_data_requests). The LSDA team provides the appropriate processes,
+tools, and secure infrastructure for archival of experimental data and dissemination while complying with applicable rules, regulations, policies,
+and procedures governing the management and archival of sensitive data and information.
+4
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+on the ISS. These samples were returned to Earth where they
+were thawed, dissected, and re-frozen until ready for down-
+stream sequencing approaches, mostly in bulk. Due to the ne-
+cessity of organ dissection back in the laboratory on Earth,
+many rodent samples exposed to the space environment have
+undergone this double-freezing procedure.64–68 However, this
+process might lead to partial RNA degradation and deformation
+of cell and tissue anatomical shape if speciﬁc strategies for tis-
+sue morphology preservation were not taken into account at
+the time of freezing. Any deformation can make application of
+spatial methods very challenging and, in some cases, unﬁt for
+SRT methods.
+There is also evidence that whole-carcass preservation
+leads to different gene expression proﬁles than tissues
+dissected in-ﬂight. One study has demonstrated that whole-
+carcass preservation in-ﬂight leads to greater variability in
+RNA integrity numbers (RINs) than tissue dissected in-ﬂight.69
+Another study compared bulk RNA-seq proﬁles between
+mouse liver tissue dissected and frozen directly on the ISS
+compared to mice preserved as frozen whole carcasses
+with their liver tissue dissected back on Earth.70 This study
+notes that whole-carcass preservation in RNAlater can better
+preserve the tissues; however, there are a few caveats to this
+approach. The ﬁrst caveat is that RNAlater has only had
+limited success in preserving cells for scRNA-seq on Earth71
+and will require further optimization before its application
+can be recommended for such experiments in spaceﬂight.
+The second consideration is that RNAlater can induce a
+unique gene expression response due to the sulfates present
+in the solution.72 These gene expression responses may be
+uneven in SRT methods due to the diffusion gradient gener-
+ated as RNAlater disperses across a tissue. Third, RNAlater
+is not a ﬁxative agent and has not been tested to our knowl-
+edge at the time of writing for compatibility with ﬁxative re-
+agents used in various SRT methods.
+Despite the uncertainties in using RNAlater in scRNA-seq and
+SRT experiments, there is precedent for preserving nucleic acids
+with RNAlater on the ISS for other sequencing experiments (Ta-
+ble 3). Other reagents with a success in preserving cells and/or
+nucleic acids on the ISS include using NOTOXhisto, 10% neutral
+buffer formation (NBF), 4% paraformaldehyde (PFA), and the
+sequential use of trypsin followed by RNAprotect (Table 3). How-
+ever, these preservatives are not necessarily suitable for scRNA-
+seq and SRT due to the lack of testing with scRNA-seq and SRT
+platforms or due to cell lysis that occurs during the preservation
+process. The current options with a track record on the ISS are
+the slow and fast freeze methods to store the tissue at a temper-
+ature that will preserve RNA and spatial tissue structure. 80C
+freezers available on the ISS can be used to bring tissues down
+to freezing temperatures, but without a snap-freezing step, this
+process occurs slowly. To solve this problem, a rapid-freeze in-
+strument was added to the ISS to rapidly bring sample temper-
+atures down to 185C, to compete with snap-freezing methods
+that make use of liquid nitrogen that is easily available and safely
+Table 2. SRT methods
+SRT Technique
+Sample type
+Preservation technique
+Resolution
+References
+ISS
+(padlock probe & RCA)
+cells and tissue
+FF or FFPE
+single cell (transcript level)
+Ke et al., 201340
+FISH
+cells and tissue
+FF
+single cell (transcript level)
+Lubeck et al., 201441
+Tomo-seq
+tissue slice
+FF
+multiple cells
+Junker et al., 201442
+TIVA
+intact live cells
+none
+single cell
+Lovatt et al., 201443
+FISSEQ
+cells and tissue
+FF or FFPE
+single cell
+(Lee et al., 2015)44
+MERFISH/MER SCOPE
+cells and tissue
+FF or FFPE
+single cell (transcript level/
+100 nm)
+Mofﬁtt et al., 201645
+LCM-seq
+tissue
+FF or FFPE
+multiple cells
+Nichterwitz et al., 201646
+10X Genomics Visium
+cells and tissue
+FF or FFPE
+multiple cells (55 mm)
+Sta˚ hl et al., 201647
+Geo-seq
+cells and tissue
+FF or FFPE
+multiple cells
+Chen et al., 201748
+STARmap
+tissue
+FF
+single cell
+Wang et al., 201849
+HDST
+tissue
+FF
+near single cell (2 mm)
+Vickovic et al., 201950
+DBiT-Seq
+cells and tissue
+FF or FFPE
+near single cell (10 mm)
+Liu et al., 202051
+NanoString GeoMx
+tissue
+FF or FFPE
+multiple cells
+Zollinger et al., 202052
+SlideSeq2
+tissue
+FF
+near single cell (10 mm)
+Stickels et al., 202153
+BGI scStereo-seq
+tissue
+FF
+single cell (transcript level/
+500 nm)
+Xia et al., 202154
+Resolve Biosciences
+Molecular Cartography
+tissue
+FF
+single cell (transcript level/
+200 nm)
+Groiss et al., 202155
+NanoString CosMx
+tissue
+FF or FFPE
+single cell (transcript level/
+50 nm)
+He et al., 202156
+An evolving list of SRT methods. Acronyms used: ISS, in situ sequencing; LCM-seq, laser capture microdissection; TIVA, transcriptome in vivo anal-
+ysis; HDST, high deﬁnition spatial transcriptomics; FF, ﬂash frozen; FFPE, formalin-ﬁxed parafﬁn-embedded. Note that this list is not extensive, and
+there are several more SRT approaches available. Preference was given to newly developed or unique methods.
+Cell Reports Methods 2, 100325, November 21, 2022
+5
+Perspective
+ll
+OPEN ACCESS
+
+applied on Earth but not a safe option in a space-based lab73–76
+(Table 3).
+There are two options that can help address these challenges
+moving forward: in-ﬂight tissue dissection and LAR. In-ﬂight tis-
+sue dissection will allow tissues of interest to be rapidly frozen,
+as smaller pieces of tissue freeze faster than a whole carcass,
+and will avoid the double freeze-thaw that tissues undergo if
+they are dissected from a frozen carcass back on Earth. The
+drawback to this approach is that tissue dissection is time-inten-
+sive and will require specialized crew training to teach dissection
+competency. Despite the time commitment required for in-ﬂight
+dissection, it has been performed in select cases, such as hin-
+dlimb dissection during the RR-6 mission,92 though the data
+from this in-ﬂight dissection are not publicly available. The sec-
+ond approach, LAR, returns organisms to Earth while still alive
+where they are euthanized after returning to a ground-based
+lab.93,94 This allows tissues to be preserved according to the
+highest standards but presents a different set of limitations. Us-
+ing LAR, organisms have their circadian rhythms disrupted and
+experience the stressful conditions of atmospheric re-entry.
+Moreover, depending on the study design of the mission, LAR or-
+ganisms have the opportunity to begin reacclimating to Earth’s
+gravity and radiation landscape. Therefore, all three aspects
+can impact their transcriptomic proﬁles.
+Overall, in spite of the associated limitations, using one of
+these two options will help circumvent some of the challenges
+related to the applicability of scRNA-seq and SRT methods on
+spaceﬂight samples.
+ADVANCING OFF-WORLD CAPABILITIES:
+CONSIDERATIONS FOR PERFORMING scRNA-SEQ AND
+SRT IN SPACEFLIGHT
+After the challenge of achieving more rigorous preservation stan-
+dards for scRNA-seq and SRT methods is met, the next goal
+should be to increase the capabilities of molecular biology ex-
+periments in space. Ideally, RNA extractions, PCR, and even
+scRNA-seq and SRT itself should be performed during space-
+ﬂight. Achieving this will require the development of workﬂows
+compatible with microgravity and more sophisticated worksta-
+tions for performing molecular biology experiments.
+The capabilities for performing molecular biology experi-
+ments have increased dramatically over the past decade. In
+2016, the ﬁrst biomolecule sequencer, the Oxford Nanopore
+MinION, was demonstrated to work in microgravity aboard
+the ISS.95 Since then, the repertoire of molecular biology exper-
+iments performed in-ﬂight has expanded to include environ-
+mental
+microbial
+sampling,
+plasmid
+transformation,
+DNA
+extraction, PCR ampliﬁcation, and library prep.96–98 While the
+original biomolecular sequencer study sequenced Mus muscu-
+lus DNA libraries (prepared on Earth),95 others have been pri-
+marily deﬁned in scope of microbial organisms and not to multi-
+cellular model organisms, such as C. elegans, Drosophila
+melanogaster, and Mus musculus, or to human samples. In or-
+der to build a spaceﬂight lab capable of performing scRNA-seq
+and SRT (methods that are most frequently applied to multicel-
+lular organisms) the molecular biology pipeline for handling
+Table 3. Preservation strategies aboard the ISS
+Tissue Preservation on ISS
+Properties
+Reference
+RNAlater
+(1) non-toxic
+(2) stabilizes cellular RNA
+(3) eliminates the requirement of immediate
+freezing of samples
+Choi et al., 2016; Gupta et al., 2015; Herranz
+et al., 2019; Manzano et al., 2020;
+Paul et al., 2012, 2005; Schultz et al., 2013;
+Vandenbrink et al., 2019; Villacampa et al.,
+2021; Wnorowski et al., 201977–86
+NOTOXhisto
+(1) cell-ﬁxative
+(2) substitute for formalin
+Balsamo et al., 2014; Cockell et al.,
+202087,88
+10% neutral buffer formation (NBF)
+(1) less toxic
+(2) low cost
+(3) penetrates tissue relatively fast
+(4) random cross linking of proteins
+(5) chemical modiﬁcation of nucleic acids
+Zamarioli et al., 202189
+4% paraformaldehyde (PFA)
+(1) preservation of morphology
+(2) limited use for RNA extraction
+(3) formaldehyde is toxic
+Huang et al., 202090
+Trypsin, RNAprotect, and
+95C storage
+(1) stabilizes cellular RNA
+(2) lyses cells
+Huang et al., 202090
+Slow freeze
+(80C freezers or colder)
+(1) good for cellular preservation
+(2) requires specialized equipment
+(3) formation of ice crystal artifacts
+Choi et al., 2020; Hong et al., 202169,91
+Rapid freeze to 185C
+(1) rapid freezing through conduction
+(2) good for cellular preservation
+(3) requires specialized equipment
+(4) high Cost
+(5) avoids ice crystal formation
+Andersen et al., 2005; Saravia-Butler et al.,
+2020b, 2020c, 2020a73–76
+A list of strategies used for cell, tissue, and nucleic acids preservations that have been previously used in experiments in spaceﬂight.
+6
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+tissues post-dissection throughout the sequencing process
+must be more well deﬁned.
+Additionally, due to the sensitive nature of RNA, additional lab-
+oratory decontamination protocols may need translation to
+spaceﬂight. RNase inhibitors will need to be available to wipe
+down workstations, pipettes, gloves, and any other surfaces
+the sample may come in contact with. A microbially decontami-
+nated environment would also enhance the quality of RNA ob-
+tained, particularly the use of 70% ethanol, isopropanol, or
+another disinfectant, given the microbe-rich surfaces aboard
+the ISS.96,97,99 However, the use of ethanol and isopropanol
+on the ISS is an issue because aerosolized alcohol interferes
+with the environmental control and life support systems
+(ECLSSs) in the closed-loop space station environment (J. Perry
+et al., 2016, 46th International Conference on Environmental
+Systems, conference).
+Moreover, the workstation used for handling samples should
+have minimal airﬂow that would pass dust or other airborne par-
+ticulates across the workstation. Some of these considerations
+may be met via use of the Microgravity Science Glovebox100
+aboard the ISS to control airﬂow and by using benzalkonium
+chloride (BZK) wipes in place of alcohol-based disinfectants. Es-
+tablishing and following general guidelines, regularly applied
+when preparing samples for scRNA-seq and SRT, will help
+create consistency in sample retrieval, prevent RNA degrada-
+tion, and obtain high-quality data from spaceﬂight samples in
+which RNA quantity and quality are not compromised. One
+caveat to performing scRNA-seq and SRT methods in space-
+ﬂight is that it will require additional crew time to complete exper-
+iments that are typically done on Earth after sample return. Ro-
+botic automation can help overcome these challenges by
+reducing the amount of time that crew will need to spend
+executing experiments (Figure 2A). For example, automated im-
+aging has already been performed aboard the ISS.101 Addition-
+ally, automation of library preparation steps has been performed
+on Earth from a spatially barcoded chip array similar to the 10X
+Genomics Visium format102 as well as from 10X Genomics Vis-
+ium arrays.103 However, due to strict volume and mass limita-
+tions in-ﬂight, compact solutions may need to be investigated,
+as would speciﬁc testing to accommodate microgravity-driven
+changes in ﬂuidic behavior. Automating these processes and
+translating them to spaceﬂight-compatible hardware will alle-
+viate potential time-costs placed on the crew by performing
+these experiments in-ﬂight in their entirety.
+Another challenge involves the abundance of data generated
+by sequencing and imaging experiments, which would all need
+to be stored in-ﬂight and downlinked to Earth. This is particularly
+relevant to SRT data, which involves either the generation of
+large fastq ﬁles or multiple high-resolution images. To mitigate
+data downlink challenges, automated software pipelines could
+be executed in-ﬂight and could convert data into formats with
+decreased ﬁle size. This processed data could then be down-
+linked to Earth instead of larger, raw ﬁles. Thus, onboard data
+processing could decrease delays in data analysis caused by
+the transfer of large ﬁles. Full transcriptomics analysis pipelines
+could even be conducted in space, where results, such as differ-
+entially expressed genes (DEGs) and enriched pathways, could
+be automatically extracted from transcriptomic data in-ﬂight
+(Figure 2A). Additionally, these results could also be used as
+feedback to optimize experimental parameters in-ﬂight and in-
+crease the quality of future transcriptomic experiments per-
+formed in space.
+BIOINFORMATIC PIPELINES AND CONSIDERATIONS
+FOR SRT IN SPACEFLIGHT EXPERIMENTS
+Transcriptomic analyses for bulk RNA-seq and scRNA-seq are
+relatively well deﬁned compared to SRT. For bulk RNA-seq,
+NASA GeneLab has developed an RNA-seq consensus pipeline
+(RCP) to standardize processing of short-read RNA-seq data,104
+which builds upon standard recommendations in the ﬁeld.105
+The RCP is accessible at the NASA GeneLab_Data_Processing
+Github
+repository.
+However,
+a
+standardized
+pipeline
+for
+scRNA-seq is not yet available from NASA GeneLab or interna-
+tional space omics consortia, such as ISSOP (International
+Standards for Space Omics Processing) or the ESA-funded
+Space Omics Topical Team. Data analysis for scRNA-seq pre-
+sents many unique challenges related to inferring cell trajec-
+tories, clustering cell types, identifying and ﬁltering doublets
+(when two cells are mistakenly considered as a single cell),
+handling of sparsity in gene expression count tables, and
+deﬁning ﬂexible statistical frameworks for discovering complex
+differential patterns in gene expression.106 Despite these chal-
+lenges, standardized methods, analysis frameworks, and tuto-
+rials are available,107–109 which can be extended to analysis of
+data from space ﬂight experiments.
+In comparison, the establishment of best practices for the
+analysis of SRT data is a work in progress. The advent of SRT al-
+lows for solving the spatial distribution of transcripts, as well as
+locating cell types and cell states in complex tissues, organs,
+and organoids. Standardizing analysis across a wide variety of
+tissue conﬁgurations and the large number of emerging technol-
+ogies is a difﬁcult and complex task. Knowledge of the types of
+software tools available for each method can help inform exper-
+imental selection decisions about which SRT method best
+matches the speciﬁc scientiﬁc questions under investigation.
+Widely, there are two types of SRT data: single-cell resolution
+and multi-cell pixel resolution. SRT single-cell resolution data
+enable the researchers to quantify absolute transcript counts
+per cell and produce cell gene count tables comparable to
+scRNA-seq experiments. However, the data are often imaging-
+based and thus limited in the amount of genes detected in one
+experiment. On the other hand, the SRT multi-cell pixel resolu-
+tion data present multiple cells per region of interest and use
+cell type deconvolution algorithms and label transfer/projection
+from additional reference scRNA-seq datasets to resolve the
+cell type composition of the whole-transcriptome region of inter-
+est. Regardless of the resolution level of the SRT technique
+selected, available software packages, for example Seurat110
+and Squidpy,111 offer compatibility with several SRT technolo-
+gies because the structure of the data is similar, meaning that
+the majority of information comes from transcript counts. Spatial
+coordinates and cell-level information can be stored as meta-
+data portions of the data object. Both tools include methods
+for QC (quality control) and preprocessing, normalization,
+dimensionality reduction, clustering, and visualization in spatial
+Cell Reports Methods 2, 100325, November 21, 2022
+7
+Perspective
+ll
+OPEN ACCESS
+
+coordinates and ﬁnding spatially variable and spatial marker
+genes (Figure 2B). However, these do not support data process-
+ing and analysis for all SRT methods.
+Specialized tools have also been developed for cluster anal-
+ysis,112,113 fusion transcript detection,114 visualization,115 de-
+convolution of cell-type mixtures,116 inference of extracellular in-
+teracting genes,117 identiﬁcation of sub-tissue architecture/
+anatomization, ﬁnding spatially variable genes,118–120 quanti-
+fying spatial heterogeneity,121 imputation of missing mRNA
+expression,122 or improvement of gene expression quantiﬁca-
+tion using spatial, temporal and experimental coordinates. More-
+over, comprehensive tools such as STutility builds on the Seurat
+framework to facilitate analyzing and visualizing multiple sam-
+ples from the 10X Genomics Visium platform.123 Integration
+across data types also gives these tools increased investigative
+potential. For example, integration of single-cell and spatial tran-
+scriptomics data, achieved with tools such as cell2location124
+and stereoscope125 to name a few, can enhance spatial tran-
+scriptomics resolution to an unprecedented level.126 Moreover,
+integration of gene expression data with histology information
+and spatial location using machine learning (ML) is also under
+active research.127 For instance, the framework Squidpy is inter-
+connected with Scanpy and the ML Python ecosystem.111
+Despite these advances, challenges associated with meta-
+data standards and data processing exist, including reliable
+cell segmentation, cell-type identiﬁcation, integration of expres-
+sion patterns to anatomical features, ﬁnding complex patterns,
+integration of data from different specimens, time points or per-
+turbations, development of standardized metrics and bench-
+marks, as well as integration across multiple technologies.128
+Other analytical challenges remain for the analysis of SRT
+data, including those related to sample mapping and image
+registration and segmentation, data representation, imputation
+of sparse spatial data, integration of multi-modal data, and auto-
+matic inference of knowledge for the combination of tissue struc-
+ture and molecular data.111
+While the above challenges exist for both terrestrial and
+spaceﬂight SRT data, some are more speciﬁc to spaceﬂight
+studies due to the problems related to sample collection and
+processing, such as the formation of ice crystals,129 which can
+cause morphology changes and tissue damage leading to
+altered spatial information. In data derived from spaceﬂight ex-
+periments, true morphological and transcriptional variability
+that results from exposure to microgravity and radiation should
+not be confused with artifacts created by sample collection,
+preservation, and transportation. Therefore, if artifacts due to
+confounding factors cannot be sufﬁciently minimized via sample
+processing protocols or speciﬁc experimental design, software
+tools aiming to remove confounding factors (for example, cells
+affected by ice crystals), improve transcript quantiﬁcation, and
+reconstruct morphology and architecture of damaged tissue us-
+ing image processing techniques will be essential. Speciﬁcally,
+reconstruction of deformed images using image registration or
+image deconvolution/restoration techniques and the develop-
+ment of computational tools to elucidate space-driven modiﬁca-
+tion of tissue organization will warrant investigation.
+Figure 2. Computational analysis of spatial transcriptomics data
+(A) Shows the ﬂow of data that could be unlocked with increased computational automation. The right column shows sequential steps of proposed computational
+automation onboard spacecraft, with the dotted lines to boxes on the left showing opportunities to transfer data back to Earth.
+(B) Example of data analysis workﬂow from the 10X Genomics Visium on the ‘‘Mouse Brain Serial Section 2 (Sagittal-Posterior)’’ dataset available through the 10X
+Genomics Dataset portal (https://www.10xgenomics.com/resources/datasets). Dataset analyzed with Seurat.
+8
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+FUTURE PROSPECTS FOR OMICS TECHNOLOGY IN
+SPACEFLIGHT
+The aging ISS, destined to reach its end of life by 2030, has cata-
+lyzed an era of ‘‘commercial space,’’ which promises rapid
+development of the ﬁnal frontier. To avoid a gap in continuous
+human presence in space, four private companies are aiming
+to build and operate commercial space stations in low-Earth
+orbit. Axiom Space will launch and attach the ﬁrst segment of
+its modular space station to the ISS in 2024 and build the
+remainder of the station while attached to the ISS. The
+completed Axiom Station will detach to become a free ﬂier by
+2030 (https://techcrunch.com/2021/11/30/nasa-details-intent-to-
+replace-the-international-space-station-with-a-commercial-space-
+station-by-2030/). Blue Origin has partnered with Sierra Space to
+build Orbital Reef, while StarLab will be born out of a partnership
+between Nanoracks, Voyager Space, and Lockheed Martin. The
+fourth, yet to be named, space station development effort is being
+led by Northrup Grumman (https://news.northropgrumman.com/
+news/releases/northrop-grumman-signs-agreement-with-nasa-to-
+design-space-station-for-low-earth-orbit). Furthermore, advances
+in rocket technology, including reusable engines, have lowered
+launch costs signiﬁcantly and increased the cadence of space-
+ﬂights to and from the ISS. For example, SpaceX Crew-4
+launched to the ISS less than 2 days after Ax-1, Axiom’s private
+astronaut mission to the ISS, returned to Earth.
+Research in space has been fundamental to our understanding
+of how to survive and thrive in the weightless environment. Our
+knowledge and sophistication of scientiﬁc investigations in space
+is continuously strengthened by advances in hardware technol-
+ogy and operations. Numerous hardware options for biological in-
+vestigations that require cell culture capabilities and maintenance
+of live specimen in spaceﬂight, for instance, are already available.
+A few examples of include Biopack,130 SABL from BioServe
+Space Technologies (T. Niederwieser, 2015, 45th International
+Conference on Environmental Systems, conference), Kubik,131
+NanoRacks Frame-3, STaARS-1 EF132, and the CubeLab from
+Space Tango.133 A more current system called the ScienceTaxi
+(https://www.yurigravity.com/our-service)
+developed
+by
+Yuri
+Gravity can be integrated into the ISS and into the newer stations
+coming online; an autonomous version of the ScienceTaxi is in
+development. This small sampling of hardware options is indica-
+tive of the demand for laboratory equipment that is operational
+in a weightless space environment and the importance of biolog-
+ical experiments conducted in space.
+Now, in this new era of commercial space with new space sta-
+tions in development, there is an unprecedented opportunity to
+leverage past research experiences in space to re-think and
+re-design future technologies and laboratories for spaceﬂight in-
+vestigations that are on-par with Earth technologies, yet not
+limited by gravity-based thinking. For example, the speed of
+technology and methodology innovation for scRNA-seq and
+SRT is advancing the ﬁeld rapidly for terrestrial investigations.
+Future scRNA-seq and SRT methodologies will enable simulta-
+neous multi-omic measurements from individual cells and spatial
+regions. The potential of these developments has already been
+commercially realized for single-cell methodologies by 10X Ge-
+nomics, whose Single Cell Multiome ATAC + Gene Expression
+kits offer simultaneous measurement of scRNA-seq and chro-
+matin accessibility (ATAC-seq) data from the same group of
+cells.134,135 Similar developments are in motion for SRT where
+co-mapping of mRNAs and proteins in a formaldehyde-ﬁxed tis-
+sue section via NGS has already been achieved.51 Moreover,
+spatially resolved ATAC-seq has been developed,136,137 but
+does not yet allow for simultaneous measurement of RNA. Given
+the trajectory of the single-cell and spatial ﬁelds toward simulta-
+neous measurements of multiple genomic features, it is antici-
+pated that the need for improved cell and tissue preservation
+protocols in spaceﬂight will persist.
+In addition to these creative workarounds, there is an opportu-
+nity to design and invent new paradigms for conducting omics
+and other biological research in space. Space scientists must
+deﬁne the requirements for on-orbit research protocols and
+outline the speciﬁc types of research investigations important
+to conduct in space, the tools and capabilities necessary for
+those space investigations, and the criteria for acceptable high-
+quality science on orbit. These requirements will serve as a guide
+for commercial space station developers in deﬁning their own
+orbital lab designs, including hardware capabilities and services.
+Armed with an understanding of the types of equipment required
+to conduct the research, commercial space station developers
+would be better equipped to consider partnerships with terres-
+trial technology developers that are leading the rapid advances
+in omics technology and encourage them to adapt their technol-
+ogies for a weightless space environment by developing future it-
+erations of their technology with space constraints in mind.
+Although launch costs are reducing and launch frequency is
+increasing, these costs based on mass and volume are still sub-
+stantial and prohibitive. Offering end-to-end omics capabilities
+on orbit that are grounded in the concept of ‘‘cloud labs’’ will
+be a paradigm shift for space research and science. Cloud
+labs are essentially a virtual lab bench that allow the scientist
+to control the wet-lab experiment virtually and execute it
+remotely via an orchestra of automated robotic systems.138
+Presently on the ISS and likely in the foreseeable future, several
+key operational constraints limit rapid, repeatable research in
+orbit: (1) limited human-tended time for executing experimental
+protocols, (2) variability in the on-orbit operator’s scientiﬁc and
+technical experience and expertise, (3) a large distance between
+the principal investigator (PI) and the scientiﬁc payload, and (4)
+inability to rapidly iterate on experimental protocols in real-
+time. A cloud lab in space will enable the PI to (1) control the
+experiment via the virtual lab bench, (2) conduct high-quality sci-
+ence by eliminating a variety of confounding variables that are
+introduced by returning samples to the ground for processing,
+and (3) iterate on the scientiﬁc protocol based on real-time ob-
+servations of data. Furthermore, on-orbit edge processing and
+cloud-computing capabilities will accelerate data analysis
+whereby processed results can be returned to the PI via a secure
+downlink from the space station. Addition of such capabilities
+will eliminate the need for large data downloads—a practice
+that is slow, costly, and requires extremely high bandwidths.
+While an upfront investment of capital is required for a state-
+of-the-art orbital lab, a high return on investment can be ex-
+pected. Improved on-orbit capabilities that are easier to access
+and operate will generate greater interest in space-based
+Cell Reports Methods 2, 100325, November 21, 2022
+9
+Perspective
+ll
+OPEN ACCESS
+
+research investigations, which in turn will increase the demand to
+leverage spaceﬂight as an extreme environment for research—
+for example, the general adaptability of the human body, which
+may result in the discovery of new molecular mechanisms. It is
+expected that the reduction in costs to execute orbital science
+will translate into lower prices for the researcher, thereby gener-
+ating even greater interest in space. Taken together, these devel-
+opments will drive a feedforward loop toward greater insights for
+extending humanity’s footprint in space and improving life on the
+ground.
+Even with rapid advances in genomics and spaceﬂight technol-
+ogy, experimentation in space will remain costly and time-
+consumingintheforeseeablefuture.Thus,carefuldesignofexper-
+iments is crucial. One factor that may alleviate the risk of these
+experiments is in silico modeling. Perturbations on transcription
+and gene expression can be modeled using ML algorithms to
+test hypotheses prior to launching an experiment into space.139
+Adapting these models to be more amenable to the environmental
+factors of spaceﬂight can help use limited spaceﬂight resources
+more efﬁciently. Additionally, to aid with experimental design, a
+speciﬁcSRTmethodshouldbeselectedbeforeexperimentlaunch
+to implement its optimized tissue preservation protocol, and the
+development status of available computational tools should be
+rigorously assessed to understand the expected analysis types
+and data resolutions available. Given the rapid advancements in
+SRT analysis, ideal tools and capabilities will grow quickly over
+time. This sector will continue to push for more state-of-the-art
+knowledge and state-of-the-art technology never attempted
+before to develop innovative approaches for improving life sci-
+ences research in space. It is also a high-risk, high-reward sector,
+where projects tend to be expensive to fund and maintain but have
+the potential tounlockdiscoveriesessential forhumanstobecome
+a multi-planetary species. Through joint collaborations and part-
+nerships and by building on previous milestones, resources, and
+tools that have been established for spaceﬂight, we can continue
+to rapidly advance our in-ﬂight genomics capabilities.
+Results that emerge from scRNA-seq and SRT experiments
+conducted in spaceﬂight are expected to increase our under-
+standing of life in space, genetic control of fundamental pro-
+cesses that are altered by spaceﬂight, and genomic control
+mechanisms in cellular biology. Research groups and scientists
+in the ﬁeld of space biosciences will continue to generate robust
+multi-omic proﬁles of both in vitro and in vivo biospecimens
+available from previous missions and biospecimen samples re-
+turned from future missions. The quality of these data will in-
+crease as better preservation protocols and innovative orbital
+lab solutions are implemented. The results will allow us to
+pinpoint cell-type-speciﬁc and locational disturbances in gene
+expression and will facilitate the development of countermea-
+sures against spaceﬂight-associated dysregulation and disease.
+This goal is also in line with current international collaborative ef-
+forts to expand our presence in LEO (low Earth orbit), return to
+the moon, and progress forward to Mars.
+ACKNOWLEDGMENTS
+H.C., P.M., D.B., R.H., N.J.S., J.B., and S.G. are members of the ESA Space
+Omics Topical Team, funded by the ESA grant/contract 4000131202/20/NL/
+PG/pt ‘‘Space Omics: Towards an integrated ESA/NASA – omics database
+for spaceﬂight and ground facilities experiments’’ awarded to R.H., which
+was the main funding source for this work. H.C. is also supported by the Ho-
+rizon Centre for Doctoral Training at the University of Nottingham (UKRI grant
+no. EP/S023305/1). S.G. is supported by the Swedish Research Council VR
+grant 2020-04864. E.G.O. is supported through NASA Postdoctoral Fellow-
+ship 80NSSC21K0316. We thank Lindsay A. Rutter, Masafumi Muratani, the
+ISSOP, and the ESA Space Omics Topical Team for fruitful discussions. We
+would also like to thank Sarah Castro-Wallace for the personal communication
+on current ISS research.
+AUTHOR CONTRIBUTIONS
+Conceptualization, E.G.O., S.D., H.C., P.M., R.K., R.T.S., J.B., and S.G.; inves-
+tigation, E.G.O., S.D., H.C., P.M., Z.A., S.F., R.K., D.B., R.T.S., J.P., D.C.,
+J.M.G., S.V.C., C.E.M., J.B., and S.G.; writing – original draft, E.G.O., S.D.,
+H.C., P.M., Z.A., S.F., R.K., R.T.S., J.B., and S.G.; writing – review & editing,
+all authors; visualization, E.G.O., H.C., and P.M.; supervision, S.G.; funding
+acquisition, J.M.G., S.V.C., C.E.M., R.H., N.J.S., and S.G.
+DECLARATIONS OF INTERESTS
+C.E.M. is a co-Founder of Biotia and Onegevity Health. D.B. is the CSO at yuri
+and a co-founder at Poppy Health. S.G. is a scientiﬁc advisor to 10X Genomics
+Inc., which holds IP rights to the ST technology and holds stock options.
+REFERENCES
+1. Hasin, Y., Seldin, M., and Lusis, A. (2017). Multi-omics approaches to
+disease. Genome Biol. 18, 83. https://doi.org/10.1186/s13059-017-
+1215-1.
+2. Manzoni, C., Kia, D.A., Vandrovcova, J., Hardy, J., Wood, N.W., Lewis,
+P.A., and Ferrari, R. (2018). Genome, transcriptome and proteome: the
+rise of omics data and their integration in biomedical sciences. Brief. Bio-
+inform. 19, 286–302. https://doi.org/10.1093/bib/bbw114.
+3. Mathe´ , E., Hays, J., Stover, D., and Chen, J. (2018). The omics revolution
+continues: the Maturation of high-throughput biological data sources.
+Yearb. Med. Inform. 27, 211–222. https://doi.org/10.1055/s-0038-
+1667085.
+4. Lu, M., and Zhan, X. (2018). The crucial role of multiomic approach in
+cancer research and clinically relevant outcomes. EPMA J. 9, 77–102.
+https://doi.org/10.1007/s13167-018-0128-8.
+5. Vlaanderen, J., Moore, L.E., Smith, M.T., Lan, Q., Zhang, L., Skibola,
+C.F., Rothman, N., and Vermeulen, R. (2010). Application of OMICS tech-
+nologies in occupational and environmental health research; current sta-
+tus and projections. Occup. Environ. Med. 67, 136–143. https://doi.org/
+10.1136/oem.2008.042788.
+6. Yang, J., Yan, Y., and Zhong, W. (2020). Application of omics technology
+to combat the COVID-19 pandemic. MedComm 2, 381–401. https://doi.
+org/10.1002/mco2.90.
+7. Berrios, D.C., Galazka, J., Grigorev, K., Gebre, S., and Costes, S. (2021).
+NASA GeneLab: interfaces for the exploration of space omics data. Nu-
+cleic
+Acids
+Res.
+49,
+D1515–D1522.
+https://doi.org/10.1093/nar/
+gkaa887.
+8. Globus, R., Cadena, S., and Galazka, J. (2015). Rodent Research-1 (RR1)
+National Lab Validation Flight: Mouse Liver Transcriptomic, Proteomic,
+and Epigenomic Data. NASA GeneLab. https://doi.org/10.26030/K5C1-
+JD05.
+9. Globus, R., Galazka, J.M., Marcu, O., Gebre, S.G., Polo, S.-H.L., Saravia-
+Butler, A.M., Fogle, H.W., Bense, H., Chakravarty, K., Chen, R.B., et al.
+(2015). Rodent Research-1 (RR1) NASA Validation Flight: Mouse Liver
+Transcriptomic, Proteomic, and Epigenomic Data. NASA GeneLab.
+https://doi.org/10.26030/JQ04-0N51.
+10. da Silveira, W.A., Fazelinia, H., Rosenthal, S.B., Laiakis, E.C., Kim, M.S.,
+Meydan, C., Kidane, Y., Rathi, K.S., Smith, S.M., Stear, B., et al. (2020).
+10
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+Comprehensive multi-omics analysis reveals mitochondrial stress as a
+central biological Hub for spaceﬂight impact. Cell 183, 1185–1201.e20.
+https://doi.org/10.1016/j.cell.2020.11.002.
+11. Cahill, T., Cope, H., Bass, J.J., Overbey, E.G., Gilbert, R., da Silveira,
+W.A., Paul, A.M., Mishra, T., Herranz, R., Reinsch, S.S., et al. (2021).
+Mammalian and Invertebrate models as Complementary tools for gaining
+Mechanistic insight on muscle responses to spaceﬂight. Int. J. Mol. Sci.
+22, 9470. https://doi.org/10.3390/ijms22179470.
+12. Fujita, S.-I., Rutter, L., Ong, Q., and Muratani, M. (2020). Integrated RNA-
+seq analysis Indicates Asynchrony in Clock genes between tissues under
+spaceﬂight. Life 10, 196. https://doi.org/10.3390/life10090196.
+13. Malkani, S., Chin, C.R., Cekanaviciute, E., Mortreux, M., Okinula, H.,
+Tarbier, M., Schreurs, A.S., Shirazi-Fard, Y., Tahimic, C.G., Rodriguez,
+D.N., et al. (2020). Circulating miRNA spaceﬂight Signature reveals tar-
+gets for countermeasure development. Cell Rep. 33, 108448. https://
+doi.org/10.1016/j.celrep.2020.108448.
+14. Chen, G., Ning, B., and Shi, T. (2019). Single-cell RNA-seq technologies
+and related computational data analysis. Front. Genet. 10, 317. https://
+doi.org/10.3389/fgene.2019.00317.
+15. Asp, M., Bergenstra˚ hle, J., and Lundeberg, J. (2020). Spatially resolved
+transcriptomes-next generation tools for tissue exploration. Bioessays
+42, e1900221. https://doi.org/10.1002/bies.201900221.
+16. Aizarani, N., Saviano, A., Sagar, Mailly, L., Durand, S., Herman, J.S., Pes-
+saux, P., Baumert, T.F., and Grun, D. (2019). A human liver cell atlas re-
+veals heterogeneity and epithelial progenitors. Nature 572, 199–204.
+https://doi.org/10.1038/s41586-019-1373-2.
+17. Montoro, D.T., Haber, A.L., Biton, M., Vinarsky, V., Lin, B., Birket, S.E.,
+Yuan, F., Chen, S., Leung, H.M., Villoria, J., et al. (2018). A revised airway
+epithelial hierarchy includes CFTR-expressing ionocytes. Nature 560,
+319–324. https://doi.org/10.1038/s41586-018-0393-7.
+18. Parikh, K., Antanaviciute, A., Fawkner-Corbett, D., Jagielowicz, M., Auli-
+cino, A., Lagerholm, C., Davis, S., Kinchen, J., Chen, H.H., Alham, N.K.,
+et al. (2019). Colonic epithelial cell diversity in health and inﬂammatory
+bowel disease. Nature 567, 49–55. https://doi.org/10.1038/s41586-
+019-0992-y.
+19. Park, J., Shrestha, R., Qiu, C., Kondo, A., Huang, S., Werth, M., Li, M.,
+Barasch, J., and Susztak, K. (2018). Single-cell transcriptomics of the
+mouse kidney reveals potential cellular targets of kidney disease. Sci-
+ence 360, 758–763. https://doi.org/10.1126/science.aar2131.
+20. Trapnell, C. (2015). Deﬁning cell types and states with single-cell
+genomics. Genome Res. 25, 1491–1498. https://doi.org/10.1101/gr.
+190595.115.
+21. Wilbrey-Clark, A., Roberts, K., and Teichmann, S.A. (2020). Cell Atlas
+technologies and insights into tissue architecture. Biochem. J. 477,
+1427–1442. https://doi.org/10.1042/bcj20190341.
+22. Overbey, E.G., da Silveira, W.A., Stanbouly, S., Nishiyama, N.C., Roque-
+Torres, G.D., Pecaut, M.J., Zawieja, D.C., Wang, C., Willey, J.S., Delp,
+M.D., et al. (2019). Spaceﬂight inﬂuences gene expression, photore-
+ceptor integrity, and oxidative stress-related damage in the murine
+retina. Sci. Rep. 9, 13304. https://doi.org/10.1038/s41598-019-49453-x.
+23. Akiyama, T., Horie, K., Hinoi, E., Hiraiwa, M., Kato, A., Maekawa, Y., Ta-
+kahashi, A., and Furukawa, S. (2020). How does spaceﬂight affect the ac-
+quired immune system? NPJ Microgravity 6, 14. https://doi.org/10.1038/
+s41526-020-0104-1.
+24. Baqai, F.P., Gridley, D.S., Slater, J.M., Luo-Owen, X., Stodieck, L.S., Fer-
+guson, V., Chapes, S.K., and Pecaut, M.J. (2009). Effects of spaceﬂight
+on innate immune function and antioxidant gene expression. J. Appl.
+Physiol. 106, 1935–1942. https://doi.org/10.1152/japplphysiol.91361.
+2008.
+25. Crucian, B.E., Chouker, A., Simpson, R.J., Mehta, S., Marshall, G., Smith,
+S.M., Zwart, S.R., Heer, M., Ponomarev, S., Whitmire, A., et al. (2018).
+Immune system dysregulation during spaceﬂight: potential countermea-
+sures for Deep space exploration missions. Front. Immunol. 9, 1437.
+https://doi.org/10.3389/ﬁmmu.2018.01437.
+26. Shum, E.Y., Walczak, E.M., Chang, C., and Christina Fan, H. (2019).
+Quantitation
+of
+mRNA
+transcripts
+and
+proteins
+using
+the
+BD
+RhapsodyTM single-cell analysis system. Adv. Exp. Med. Biol. 1129,
+63–79. https://doi.org/10.1007/978-981-13-6037-4_5.
+27. Zheng, G.X.Y., Terry, J.M., Belgrader, P., Ryvkin, P., Bent, Z.W., Wilson,
+R., Ziraldo, S.B., Wheeler, T.D., McDermott, G.P., Zhu, J., et al. (2017).
+Massively parallel digital transcriptional proﬁling of single cells. Nat.
+Commun. 8, 14049. https://doi.org/10.1038/ncomms14049.
+28. Galazka, J.M., Juran, C., Cekanaviciute, E., Polo, S.-H.L., Saravia-Butler,
+A.M., Boyko, V., Stodieck, L., Roberts, M., Costes, S.V., Gebre, S.G., and
+Ferguson, V. (2021). Single Cell Transcriptional Proﬁling of Spleens from
+Mice Flown on Rodent Research Reference Mission-2 (RRRM-2). NASA
+GeneLab. https://doi.org/10.26030/7P34-NF10.
+29. Galazka, J.M., et al. (2021). Single Cell Transcriptional Proﬁling of Periph-
+eral Blood Mononuclear Cells (PBMCs) from Mice Flown on Rodent
+Research Reference Mission-2 (RRRM-2). NASA GeneLab. https://doi.
+org/10.26030/0R91-9V15.
+30. Galazka, J.M., Juran, C., Cekanaviciute, E., Polo, S.-H.L., Saravia-Butler,
+A.M., Boyko, V., Stodieck, L., Roberts, M., Costes, S.V., Gebre, S.G., and
+Ferguson, V. (2021). Single Cell Transcriptional Proﬁling of Humerus
+Bone Marrow from Mice Flown on Rodent Research Reference
+Mission-2 (RRRM-2). NASA GeneLab. https://doi.org/10.26030/KKF4-
+P733.
+31. Galazka, J.M., Juran, C., Cekanaviciute, E., Polo, S.-H.L., Saravia-Butler,
+A.M., Boyko, V., Stodieck, L., Roberts, M., Costes, S.V., Gebre, S.G., and
+Ferguson, V. (2021). Single Cell Transcriptional Proﬁling of Femur Bone
+Marrow from Mice Flown on Rodent Research Reference Mission-2
+(RRRM-2). NASA GeneLab. https://doi.org/10.26030/R127-MC55.
+32. Garrett-Bakelman, F.E., Darshi, M., Green, S.J., Gur, R.C., Lin, L., Ma-
+cias, B.R., McKenna, M.J., Meydan, C., Mishra, T., Nasrini, J., et al.
+(2019). The NASA Twins Study: A multidimensional analysis of a year-
+long human spaceﬂight. Science 364, eaau8650. https://doi.org/10.
+1126/science.aau8650.
+33. Gertz, M.L., Chin, C.R., Tomoiaga, D., MacKay, M., Chang, C., Butler, D.,
+Afshinnekoo, E., Bezdan, D., Schmidt, M.A., Mozsary, C., et al. (2020).
+Multi-omic, single-cell, and Biochemical proﬁles of astronauts guide
+Pharmacological strategies for returning to gravity. Cell Rep. 33,
+108429. https://doi.org/10.1016/j.celrep.2020.108429.
+34. Liao, J., Lu, X., Shao, X., Zhu, L., and Fan, X. (2021). Uncovering an Or-
+gan’s molecular architecture at single-cell resolution by spatially
+resolved transcriptomics. Trends Biotechnol. 39, 43–58. https://doi.
+org/10.1016/j.tibtech.2020.05.006.
+35. Maniatis, S., Petrescu, J., and Phatnani, H. (2021). Spatially resolved
+transcriptomics and its applications in cancer. Curr. Opin. Genet. Dev.
+66, 70–77. https://doi.org/10.1016/j.gde.2020.12.002.
+36. Berglund, E., Saarenpaa, S., Jemt, A., Gruselius, J., Larsson, L., Bergen-
+strahle, L., Lundeberg, J., and Giacomello, S. (2020). Automation of
+Spatial Transcriptomics library preparation to enable rapid and robust in-
+sights into spatial organization of tissues. BMC Genom. 21, 298. https://
+doi.org/10.1186/s12864-020-6631-z.
+37. Butler, D., Mozsary, C., Meydan, C., Foox, J., Rosiene, J., Shaiber, A.,
+Danko, D., Afshinnekoo, E., MacKay, M., Sedlazeck, F.J., et al. (2021).
+Shotgun transcriptome, spatial omics, and isothermal proﬁling of
+SARS-CoV-2 infection reveals unique host responses, viral diversiﬁca-
+tion, and drug interactions. Nat. Commun. 12, 1660. https://doi.org/10.
+1038/s41467-021-21361-7.
+38. Giacomello, S. (2021). A new era for plant science: spatial single-cell
+transcriptomics. Curr. Opin. Plant Biol. 60, 102041. https://doi.org/10.
+1016/j.pbi.2021.102041.
+39. Park, J., Foox, J., Hether, T., Danko, D.C., Warren, S., Kim, Y., Reeves, J.,
+Butler, D.J., Mozsary, C., Rosiene, J., et al. (2022). System-wide
+Cell Reports Methods 2, 100325, November 21, 2022
+11
+Perspective
+ll
+OPEN ACCESS
+
+transcriptome damage and tissue identity loss in COVID-19 patients. Cell
+Rep Med 3, 100522. https://doi.org/10.1016/j.xcrm.2022.100522.
+40. Ke, R., Mignardi, M., Pacureanu, A., Svedlund, J., Botling, J., Wahlby, C.,
+and Nilsson, M. (2013). In situ sequencing for RNA analysis in preserved
+tissue and cells. Nat. Methods 10, 857–860. https://doi.org/10.1038/
+nmeth.2563.
+41. Lubeck, E., Coskun, A.F., Zhiyentayev, T., Ahmad, M., and Cai, L. (2014).
+Single-cell in situ RNA proﬁling by sequential hybridization. Nat. Methods
+11, 360–361. https://doi.org/10.1038/nmeth.2892.
+42. Junker, J., Noel, E., Guryev, V., Peterson, K., Shah, G., Huisken, J.,
+McMahon, A., Berezikov, E., Bakkers, J., and van Oudenaarden, A.
+(2014). Genome-wide RNA Tomography in the zebraﬁsh embryo. Cell
+159, 662–675. https://doi.org/10.1016/j.cell.2014.09.038.
+43. Lovatt, D., Ruble, B.K., Lee, J., Dueck, H., Kim, T.K., Fisher, S., Francis,
+C., Spaethling, J.M., Wolf, J.A., Grady, M.S., et al. (2014). Transcriptome
+in vivo analysis (TIVA) of spatially deﬁned single cells in live tissue. Nat.
+Methods 11, 190–196. https://doi.org/10.1038/nmeth.2804.
+44. Lee, J.H., Daugharthy, E.R., Scheiman, J., Kalhor, R., Ferrante, T.C.,
+Terry, R., Turczyk, B.M., Yang, J.L., Lee, H.S., Aach, J., et al. (2015). Fluo-
+rescent in situ sequencing (FISSEQ) of RNA for gene expression proﬁling
+in intact cells and tissues. Nat. Protoc. 10, 442–458. https://doi.org/10.
+1038/nprot.2014.191.
+45. Mofﬁtt, J.R., Hao, J., Wang, G., Chen, K.H., Babcock, H.P., and Zhuang,
+X. (2016). High-throughput single-cell gene-expression proﬁling with
+multiplexed error-robust ﬂuorescence in situ hybridization. Proc. Natl.
+Acad. Sci. USA. 113, 11046–11051. https://doi.org/10.1073/pnas.
+1612826113.
+46. Nichterwitz, S., Chen, G., Aguila Benitez, J., Yilmaz, M., Storvall, H., Cao,
+M.,
+Sandberg,
+R.,
+Deng,
+Q.,
+and
+Hedlund,
+E.
+(2016).
+Laser
+capture microscopy coupled with Smart-seq2 for precise spatial
+transcriptomic proﬁling. Nat. Commun. 7, 12139. https://doi.org/10.
+1038/ncomms12139.
+47. Sta˚ hl, P.L., Salmen, F., Vickovic, S., Lundmark, A., Navarro, J.F., Mag-
+nusson, J., Giacomello, S., Asp, M., Westholm, J.O., Huss, M., et al.
+(2016). Visualization and analysis of gene expression in tissue sections
+by spatial transcriptomics. Science 353, 78–82. https://doi.org/10.
+1126/science.aaf2403.
+48. Chen, J., Suo, S., Tam, P.P., Han, J.D.J., Peng, G., and Jing, N. (2017).
+Spatial transcriptomic analysis of cryosectioned tissue samples with
+Geo-seq. Nat. Protoc. 12, 566–580. https://doi.org/10.1038/nprot.
+2017.003.
+49. Wang, X., Allen, W.E., Wright, M.A., Sylwestrak, E.L., Samusik, N., Ve-
+suna, S., Evans, K., Liu, C., Ramakrishnan, C., Liu, J., et al. (2018).
+Three-dimensional intact-tissue sequencing of single-cell transcriptional
+states.
+Science
+361,
+eaat5691.
+https://doi.org/10.1126/science.
+aat5691.
+50. Vickovic, S., Eraslan, G., Salmen, F., Klughammer, J., Stenbeck, L.,
+Schapiro, D., Aijo, T., Bonneau, R., Bergenstrahle, L., Navarro, J.F.,
+et al. (2019). High-deﬁnition spatial transcriptomics for in situ tissue
+proﬁling. Nat. Methods 16, 987–990. https://doi.org/10.1038/s41592-
+019-0548-y.
+51. Liu, Y., Yang, M., Deng, Y., Su, G., Enninful, A., Guo, C.C., Tebaldi, T.,
+Zhang, D., Kim, D., Bai, Z., et al. (2020). High-spatial-resolution multi-
+omics sequencing via Deterministic barcoding in tissue. Cell 183,
+1665–1681.e18. https://doi.org/10.1016/j.cell.2020.10.026.
+52. Zollinger, D.R., Lingle, S.E., Sorg, K., Beechem, J.M., and Merritt, C.R.
+(2020). GeoMxTM RNA assay: high Multiplex, digital, spatial analysis of
+RNA in FFPE tissue. Methods Mol. Biol. 2148, 331–345. https://doi.org/
+10.1007/978-1-0716-0623-0_21.
+53. Stickels, R.R., Murray, E., Kumar, P., Li, J., Marshall, J.L., Di Bella, D.J.,
+Arlotta, P., Macosko, E.Z., and Chen, F. (2021). Highly sensitive spatial
+transcriptomics at near-cellular resolution with Slide-seqV2. Nat. Bio-
+technol. 39, 313–319. https://doi.org/10.1038/s41587-020-0739-1.
+54. Xia, K., Sun, H.-X., Li, J., Li, J., Zhao, Y., Chen, R., Liu, G., Chen, Z., Yin,
+R., Hao, S., et al. (2021). Single-cell Stereo-seq enables cell type-speciﬁc
+spatial transcriptome characterization in Arabidopsis leaves. Preprint at
+bioRxiv. https://doi.org/10.1101/2021.10.20.465066.
+55. Groiss, S., Pabst, D., Faber, C., Meier, A., Bogdoll, A., Unger, C., Nilges,
+B., Strauss, S., Foderl-Hobenreich, E., Hardt, M., et al. (2021). Highly
+resolved spatial transcriptomics for detection of rare events in cells. Pre-
+print at bioRxiv. https://doi.org/10.1101/2021.10.11.463936.
+56. He, S., Bhatt, R., Brown, C., Brown, E.A., Buhr, D.L., Chantranuvatana,
+K., Danaher, P., Dunaway, D., Garrison, R.G., Geiss, G., et al. (2021).
+High-plex multiomic analysis in FFPE at Subcellular level by spatial mo-
+lecular imaging. Preprint at bioRxiv. https://doi.org/10.1101/2021.11.03.
+467020.
+57. Sidova, M., Tomankova, S., Abaffy, P., Kubista, M., and Sindelka, R.
+(2015). Effects of post-mortem and physical degradation on RNA integ-
+rity and quality. Biomol Detect Quantif 5, 3–9. https://doi.org/10.1016/j.
+bdq.2015.08.002.
+58. Garneau, N.L., Wilusz, J., and Wilusz, C.J. (2007). The highways and by-
+ways of mRNA decay. Nat. Rev. Mol. Cell Biol. 8, 113–126. https://doi.
+org/10.1038/nrm2104.
+59. Yang, E., van Nimwegen, E., Zavolan, M., Rajewsky, N., Schroeder, M.,
+Magnasco, M., and Darnell, J.E. (2003). Decay rates of human mRNAs:
+correlation with functional characteristics and sequence attributes.
+Genome Res. 13, 1863–1872. https://doi.org/10.1101/gr.1272403.
+60. Eraslan, G., Drokhlyansky, E., Anand, S., Fiskin, E., Subramanian, A.,
+Slyper, M., Wang, J., Van Wittenberghe, N., Rouhana, J.M., Waldman,
+J., et al. (2022). Single-nucleus cross-tissue molecular reference maps
+toward understanding disease gene function. Science 376, eabl4290.
+https://doi.org/10.1126/science.abl4290.
+61. Koenitzer, J.R., Wu, H., Atkinson, J.J., Brody, S.L., and Humphreys, B.D.
+(2020).
+Single-nucleus
+RNA-sequencing
+proﬁling
+of
+mouse
+lung.
+Reduced dissociation bias and improved rare cell-type detection
+compared with single-cell RNA sequencing. Am. J. Respir. Cell Mol.
+Biol. 63, 739–747. https://doi.org/10.1165/rcmb.2020-0095ma.
+62. Wu, H., Kirita, Y., Donnelly, E.L., and Humphreys, B.D. (2019). Advan-
+tages of single-nucleus over single-cell RNA sequencing of adult kidney:
+rare cell types and novel cell states revealed in Fibrosis. J. Am. Soc.
+Nephrol. 30, 23–32. https://doi.org/10.1681/asn.2018090912.
+63. Li, H., Janssens, J., De Waegeneer, M., Kolluru, S.S., Davie, K., Gardeux,
+V., Saelens, W., David, F.P.A., Brbic, M., Spanier, K., and et al.. (2022).
+Fly Cell Atlas: a single-nucleus transcriptomic atlas of the adult fruit ﬂy.
+Science 375, eabk2432. https://doi.org/10.1126/science.abk2432.
+64. Galazka, J.M., Polo, S.-H.L., Saravia-Butler, A.M., Charles, H., Boyko, V.,
+Degoricija, L., Narang, S., Roberts, M., Stodieck, L., Gebre, S.G., and
+Costes, S.V. (2021). Transcriptional Proﬁling of Livers from Mice Flown
+on Rodent Research Reference Mission-1 (RRRM-1). NASA GeneLab.
+https://doi.org/10.26030/k766-s627.
+65. Smith, R., Cramer, M., Globus, R., and Galazka, J. (2017). Rodent
+Research-3-CASIS: Mouse Liver Transcriptomic, Proteomic, and Epige-
+nomic Data. NASA GeneLab. https://doi.org/10.26030/9k6w-4c28.
+66. Smith, R., Cramer, M., Globus, R., and Galazka, J. (2018). Rodent
+Research-3-CASIS: Mouse Eye Transcriptomic and Proteomic Data.
+NASA GeneLab. https://doi.org/10.26030/pys4-6t29.
+67. Smith, R., Cramer, M., Globus, R., and Galazka, J. (2018). Rodent
+Research-3-CASIS: Mouse Kidney Transcriptomic, Proteomic, and Epi-
+genomic Data. NASA GeneLab. https://doi.org/10.26030/q8vt-7p92.
+68. Smith, R., Cramer, M., Globus, R., and Galazka, J. (2018). Rodent
+Research-3-CASIS: Mouse Retina Transcriptomic Data. NASA GeneLab.
+https://doi.org/10.26030/pev7-5695.
+69. Choi, S.Y., Saravia-Butler, A., Shirazi-Fard, Y., Leveson-Gower, D., Sto-
+dieck, L.S., Cadena, S.M., Beegle, J., Solis, S., Ronca, A., and Globus,
+R.K. (2020). Validation of a new rodent experimental system to
+12
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+investigate Consequences of long duration space Habitation. Sci. Rep.
+10, 2336. https://doi.org/10.1038/s41598-020-58898-4.
+70. Lai Polo, S.-H., Saravia-Butler, A.M., Boyko, V., Dinh, M.T., Chen, Y.C.,
+Fogle, H., Reinsch, S.S., Ray, S., Chakravarty, K., Marcu, O., et al.
+(2020).
+RNAseq
+analysis
+of
+rodent
+spaceﬂight
+experiments
+is
+confounded by sample collection techniques. iScience 23, 101733.
+https://doi.org/10.1016/j.isci.2020.101733.
+71. Pimpalwar, N., Czuba, T., Smith, M.L., Nilsson, J., Gidlof, O., and Smith,
+J.G. (2020). Methods for isolation and transcriptional proﬁling of individ-
+ual cells from the human heart. Heliyon 6, e05810. https://doi.org/10.
+1016/j.heliyon.2020.e05810.
+72. Kruse, C.P.S., Basu, P., Luesse, D.R., and Wyatt, S.E. (2017). Transcrip-
+tome and proteome responses in RNAlater preserved tissue of Arabidop-
+sis thaliana. PLoS One 12, e0175943. https://doi.org/10.1371/journal.
+pone.0175943.
+73. Andersen, T., Aubry, C., Benschop, T., Crippa, G., De Parolis, M.N., Que-
+merais, S., Renz, M., Ryckebosch, O., Schawer, J., Seidel, A., et al.
+(2005). A 180 C Cryogenic Freezer for the International Space Station.
+SAE. https://doi.org/10.4271/2005-01-2903.
+74. Saravia-Butler, A.M., Galazka, J., Torres, M.L., Chen, Y.-C., Choi, S.,
+Klotz, R., Perreau, S., Gower, D.L., Shirazi, Y., Polo, S.-H.L., et al.
+(2020). Transcriptional analysis of soleus from mice preserved with the
+Rapid Freeze hardware. NASA GeneLab. https://doi.org/10.26030/
+e1ea-gx05.
+75. Saravia-Butler, A.M., Galazka, J., Torres, M.L., Chen, Y.-C., Choi, S.,
+Klotz, R., Perreau, S., Gower, D.L., Shirazi, Y., Polo, S.-H.L., et al.
+(2020). Transcriptional analysis of livers from mice preserved with the
+Rapid Freeze hardware. NASA GeneLab. https://doi.org/10.26030/
+ya8v-7043.
+76. Saravia-Butler, A.M., Galazka, J., Torres, M.L., Chen, Y.-C., Choi, S.,
+Klotz, R., Perreau, S., Gower, D.L., Shirazi, Y., Polo, S.-H.L., et al.
+(2020). Transcriptional analysis of spleens from mice preserved with
+the Rapid Freeze hardware. NASA GeneLab. https://doi.org/10.26030/
+dty4-1b66.
+77. Choi, S., Ray, H.E., Lai, S.-H., Alwood, J.S., and Globus, R.K. (2016).
+Preservation of multiple mammalian tissues to Maximize science return
+from ground based and spaceﬂight experiments. PLoS One 11,
+e0167391. https://doi.org/10.1371/journal.pone.0167391.
+78. Gupta, V., Holets-Bondar, L., Roby, K.F., Enders, G., and Tash, J.S.
+(2015). A tissue retrieval and postharvest processing regimen for rodent
+reproductive tissues compatible with long-term storage on the interna-
+tional space station and postﬂight biospecimen sharing program. Bio-
+Med Res. Int. 2015, 1–12. https://doi.org/10.1155/2015/475935.
+79. Herranz, R., Vandenbrink, J.P., Villacampa, A., Manzano, A., Poehlman,
+W.L., Feltus, F.A., Kiss, J.Z., and Medina, F.J. (2019). RNAseq analysis of
+the response of Arabidopsis thaliana to fractional gravity under blue-light
+stimulation during spaceﬂight. Front. Plant Sci. 10, 1529. https://doi.org/
+10.3389/fpls.2019.01529.
+80. Manzano, A., Villacampa, A., Saez-Vasquez, J., Kiss, J.Z., Medina, F.J.,
+and Herranz, R. (2020). The importance of Earth reference controls in
+spaceﬂight -omics research: characterization of nucleolin mutants from
+the Seedling Growth experiments. iScience 23, 101686. https://doi.org/
+10.1016/j.isci.2020.101686.
+81. Paul, A.-L., Levine, H.G., McLamb, W., Norwood, K.L., Reed, D., Stutte,
+G.W., William Wells, H., and Ferl, R.J. (2005). Plant molecular biology in
+the space station era: utilization of KSC ﬁxation tubes with RNAlater.
+Acta Astronaut. 56, 623–628. https://doi.org/10.1016/j.actaastro.2004.
+10.001.
+82. Paul, A.-L., Zupanska, A.K., Ostrow, D.T., Zhang, Y., Sun, Y., Li, J.L.,
+Shanker, S., Farmerie, W.G., Amalﬁtano, C.E., and Ferl, R.J. (2012).
+Spaceﬂight transcriptomes: unique responses to a novel environment.
+Astrobiology 12, 40–56. https://doi.org/10.1089/ast.2011.0696.
+83. Schultz, E.R., Kelley, K.L., Paul, A., and Ferl, R.J. (2013). A method for
+preparing spaceﬂight RNAlater-ﬁxed Arabidopsis thaliana (Brassica-
+ceae) tissue for scanning electron microscopy. Appl. Plant Sci. 1,
+1300034. https://doi.org/10.3732/apps.1300034.
+84. Vandenbrink, J.P., Herranz, R., Poehlman, W.L., Alex Feltus, F., Villa-
+campa, A., Ciska, M., Javier Medina, F., and Kiss, J.Z. (2019). RNA-
+seq analyses of Arabidopsis thaliana seedlings after exposure to blue-
+light phototropic stimuli in microgravity. Am. J. Bot. 106, 1466–1476.
+https://doi.org/10.1002/ajb2.1384.
+85. Villacampa, A., Ciska, M., Manzano, A., Vandenbrink, J.P., Kiss, J.Z.,
+Herranz, R., and Medina, F.J. (2021). From spaceﬂight to Mars g-levels:
+Adaptive response of A. thaliana seedlings in a reduced gravity environ-
+ment is enhanced by red-light photostimulation. Int. J. Mol. Sci. 22, 899.
+https://doi.org/10.3390/ijms22020899.
+86. Wnorowski, A., Sharma, A., Chen, H., Wu, H., Shao, N.Y., Sayed, N., Liu,
+C., Countryman, S., Stodieck, L.S., Rubins, K.H., et al. (2019). Effects of
+spaceﬂight on human induced Pluripotent stem cell-derived Cardiomyo-
+cyte structure and function. Stem Cell Rep. 13, 960–969. https://doi.org/
+10.1016/j.stemcr.2019.10.006.
+87. Balsamo, M., Barravecchia, I., Mariotti, S., Merenda, A., De Cesari, C.,
+Vukich, M., and Angeloni, D. (2014). Molecular and cellular characteriza-
+tion of space ﬂight effects on Microvascular Endothelial cell function –
+PreparatoryWork for the SFEF project. Microgravity Sci. Technol. 26,
+351–363. https://doi.org/10.1007/s12217-014-9399-4.
+88. Cockell, C.S., Santomartino, R., Finster, K., Waajen, A.C., Eades, L.J.,
+Moeller, R., Rettberg, P., Fuchs, F.M., Van Houdt, R., Leys, N., et al.
+(2020). Space station biomining experiment demonstrates rare earth
+element extraction in microgravity and Mars gravity. Nat. Commun. 11,
+5523. https://doi.org/10.1038/s41467-020-19276-w.
+89. Zamarioli, A., Campbell, Z.R., Maupin, K.A., Childress, P.J., Ximenez,
+J.P.B., Adam, G., Chakraborty, N., Gautam, A., Hammamieh, R., and Ka-
+cena, M.A. (2021). Analysis of the effects of spaceﬂight and local admin-
+istration of thrombopoietin to a femoral defect injury on distal skeletal
+sites. NPJ Microgravity 7, 12. https://doi.org/10.1038/s41526-021-
+00140-0.
+90. Huang, P., Russell, A.L., Lefavor, R., Durand, N.C., James, E., Harvey, L.,
+Zhang, C., Countryman, S., Stodieck, L., and Zubair, A.C. (2020). Feasi-
+bility, potency, and safety of growing human mesenchymal stem cells in
+space for clinical application. NPJ Microgravity 6, 16. https://doi.org/10.
+1038/s41526-020-0106-z.
+91. Hong, X., Ratri, A., Choi, S.Y., Tash, J.S., Ronca, A.E., Alwood, J.S., and
+Christenson, L.K. (2021). Effects of spaceﬂight aboard the International
+Space Station on mouse estrous cycle and ovarian gene expression.
+NPJ Microgravity 7, 11. https://doi.org/10.1038/s41526-021-00139-7.
+92. Galazka, J.M., Polo, S.-H.L., Saravia-Butler, A.M., Fogle, H.W., Bense,
+N., Boyko, V., Dinh, M.T., Costes, S.V., and Gebre, S.G. (2019). Tran-
+scriptional Analysis of Lung from Mice Flown on the RR-6 Mission.
+NASA GeneLab. https://doi.org/10.26030/d56m-7e45.
+93. Galazka, J.M., Polo, S.-H.L., Saravia-Butler, A.M., Fogle, H.W., Bense,
+N., Chen, Y.-C., Narang, S., Dinh, M.T., Costes, S.V., Gebre, S.G.,
+et al. (2019). Effect of spaceﬂight on liver from mice ﬂown on the ISS
+for 33 days: Transcriptional analysis. NASA GeneLab. https://doi.org/
+10.26030/fmkc-8h31.
+94. Galazka, J.M., Degoricija, L., Polo, S.-H.L., Saravia-Butler, A.M., Boyko,
+V., Dinh, M.T., Houseman, C., Costes, S.V., and Gebre, S.G. (2021). Tran-
+scriptional proﬁling of thymus from mice ﬂown on the RR-9 Mission.
+NASA GeneLab. https://doi.org/10.26030/5mv4-fe66.
+95. Castro-Wallace, S.L., Chiu, C.Y., John, K.K., Stahl, S.E., Rubins, K.H.,
+McIntyre, A.B.R., Dworkin, J.P., Lupisella, M.L., Smith, D.J., Botkin,
+D.J., et al. (2017). Nanopore DNA sequencing and genome assembly
+on the International Space Station. Sci. Rep. 7, 18022.
+96. Burton, A.S., Stahl, S.E., John, K.K., Jain, M., Juul, S., Turner, D.J., Har-
+rington, E.D., Stoddart, D., Paten, B., Akeson, M., and Castro-Wallace,
+S.L. (2020). Off earth identiﬁcation of bacterial populations using 16S
+rDNA nanopore sequencing. Genes 11, 76. https://doi.org/10.3390/
+genes11010076.
+Cell Reports Methods 2, 100325, November 21, 2022
+13
+Perspective
+ll
+OPEN ACCESS
+
+97. Stahl-Rommel, S., Jain, M., Nguyen, H.N., Arnold, R.R., Aunon-Chan-
+cellor, S.M., Sharp, G.M., Castro, C.L., John, K.K., Juul, S., Turner,
+D.J., et al. (2021). Real-time culture-Independent microbial proﬁling on-
+board the international space station using Nanopore sequencing. Genes
+12, 106. https://doi.org/10.3390/genes12010106.
+98. Stahl-Rommel, S., Li, D., Sung, M., Li, R., Vijayakumar, A., Atabay, K.D.,
+Bushkin, G.G., Castro, C.L., Foley, K.D., Copeland, D.S., et al. (2021). A
+CRISPR-based assay for the study of eukaryotic DNA repair onboard the
+International Space Station. PLoS One 16, e0253403. https://doi.org/10.
+1371/journal.pone.0253403.
+99. Checinska Sielaff, A., Urbaniak, C., Mohan, G.B.M., Stepanov, V.G.,
+Tran, Q., Wood, J.M., Minich, J., McDonald, D., Mayer, T., Knight, R.,
+et al. (2019). Characterization of the total and viable bacterial and fungal
+communities associated with the International Space Station surfaces.
+Microbiome 7, 50. https://doi.org/10.1186/s40168-019-0666-x.
+100. Spivey, R., Jeter, L., and Vonk, C. (2007). The microgravity science glove-
+box (MSG), a resource for gravity-dependent phenomena research on
+the international space station (ISS). In 45th AIAA Aerospace Sciences
+Meeting and Exhibit (American Institute of Aeronautics and Astronautics).
+https://doi.org/10.2514/6.2007-546.
+101. Thiel, C.S., Tauber, S., Seebacher, C., Schropp, M., Uhl, R., Lauber, B.,
+Polzer, J., Neelam, S., Zhang, Y., and Ullrich, O. (2019). Real-time 3D
+high-resolution microscopy of human cells on the international space
+station. Int. J. Mol. Sci. 20, 2033. https://doi.org/10.3390/ijms20082033.
+102. Jemt, A., Salmen, F., Lundmark, A., Mollbrink, A., Fernandez Navarro, J.,
+Stahl, P.L., Yucel-Lindberg, T., and Lundeberg, J. (2016). An automated
+approach to prepare tissue-derived spatially barcoded RNA-sequencing
+libraries. Sci. Rep. 6, 37137. https://doi.org/10.1038/srep37137.
+103. Stenbeck, L., Taborsak-Lines, F., and Giacomello, S. (2022). Enabling
+automated and reproducible spatially resolved transcriptomics at scale.
+Heliyon 8, e09651. https://doi.org/10.1016/j.heliyon.2022.e09651.
+104. Overbey, E.G., Saravia-Butler, A.M., Zhang, Z., Rathi, K.S., Fogle, H., da
+Silveira, W.A., Barker, R.J., Bass, J.J., Beheshti, A., Berrios, D.C., et al.
+(2021). NASA GeneLab RNA-seq consensus pipeline: standardized pro-
+cessing of short-read RNA-seq data. iScience 24, 102361. https://doi.
+org/10.1016/j.isci.2021.102361.
+105. Conesa, A., Madrigal, P., Tarazona, S., Gomez-Cabrero, D., Cervera, A.,
+McPherson, A., Szczesniak, M.W., Gaffney, D.J., Elo, L.L., Zhang, X., and
+Mortazavi, A. (2016). A survey of best practices for RNA-seq data anal-
+ysis. Genome Biol. 17, 13. https://doi.org/10.1186/s13059-016-0881-8.
+106. La¨ hnemann, D., Koster, J., Szczurek, E., McCarthy, D.J., Hicks, S.C.,
+Robinson, M.D., Vallejos, C.A., Campbell, K.R., Beerenwinkel, N., Mah-
+fouz, A., et al. (2020). Eleven grand challenges in single-cell data science.
+Genome Biol. 21, 31. https://doi.org/10.1186/s13059-020-1926-6.
+107. Andrews, T.S., Kiselev, V.Y., McCarthy, D., and Hemberg, M. (2021).
+Tutorial: guidelines for the computational analysis of single-cell RNA
+sequencing data. Nat. Protoc. 16, 1–9. https://doi.org/10.1038/s41596-
+020-00409-w.
+108. Luecken, M.D., and Theis, F.J. (2019). Current best practices in single-
+cell RNA-seq analysis: a tutorial. Mol. Syst. Biol. 15, e8746. https://doi.
+org/10.15252/msb.20188746.
+109. Stuart, T., and Satija, R. (2019). Integrative single-cell analysis. Nat. Rev.
+Genet. 20, 257–272. https://doi.org/10.1038/s41576-019-0093-7.
+110. Hao, Y., Hao, S., Andersen-Nissen, E., Mauck, W.M., Zheng, S., Butler,
+A., Lee, M.J., Wilk, A.J., Darby, C., Zager, M., et al. (2021). Integrated
+analysis of multimodal single-cell data. Cell 184, 3573–3587.e29.
+https://doi.org/10.1016/j.cell.2021.04.048.
+111. Palla, G., Spitzer, H., Klein, M., Fischer, D., Schaar, A.C., Kuemmerle,
+L.B., Rybakov, S., Ibarra, I.L., Holmberg, O., Virshup, I., et al. (2022).
+Squidpy: a scalable framework for spatial omics analysis. Nat. Methods
+19, 171–178. https://doi.org/10.1038/s41592-021-01358-2.
+112. Bergenstra˚ hle, J., Bergenstra˚ hle, L., and Lundeberg, J. (2020). SpatialC-
+Pie: an R/Bioconductor package for spatial transcriptomics cluster
+evaluation. BMC Bioinf. 21, 161. https://doi.org/10.1186/s12859-020-
+3489-7.
+113. Zhao, E., Stone, M.R., Ren, X., Guenthoer, J., Smythe, K.S., Pulliam, T.,
+Williams, S.R., Uytingco, C.R., Taylor, S.E.B., Nghiem, P., et al. (2021).
+Spatial transcriptomics at subspot resolution with BayesSpace. Nat. Bio-
+technol. 39, 1375–1384. https://doi.org/10.1038/s41587-021-00935-2.
+114. Friedrich, S., and Sonnhammer, E.L.L. (2020). Fusion transcript detection
+using spatial transcriptomics. BMC Med. Genomics 13, 110. https://doi.
+org/10.1186/s12920-020-00738-5.
+115. Ferna´ ndez Navarro, J., Lundeberg, J., and Sta˚ hl, P.L. (2019). ST viewer: a
+tool for analysis and visualization of spatial transcriptomics datasets.
+Bioinformatics 35, 1058–1060. https://doi.org/10.1093/bioinformatics/
+bty714.
+116. Cable, D.M., Murray, E., Zou, L.S., Goeva, A., Macosko, E.Z., Chen, F.,
+and Irizarry, R.A. (2021). Robust decomposition of cell type mixtures in
+spatial transcriptomics. Nat. Biotechnol. 40, 517–526. https://doi.org/
+10.1038/s41587-021-00830-w.
+117. Yuan, Y., and Bar-Joseph, Z. (2020). GCNG: graph convolutional net-
+works for inferring gene interaction from spatial transcriptomics data.
+Genome Biol. 21, 300. https://doi.org/10.1186/s13059-020-02214-w.
+118. Andersson, A., and Lundeberg, J. (2021). sepal: identifying transcript pro-
+ﬁles with spatial patterns by diffusion-based modeling. Bioinformatics
+37, 2644–2650. https://doi.org/10.1093/bioinformatics/btab164.
+119. Svensson, V., Teichmann, S.A., and Stegle, O. (2018). SpatialDE: identi-
+ﬁcation of spatially variable genes. Nat. Methods 15, 343–346. https://
+doi.org/10.1038/nmeth.4636.
+120. Xu, Y., and McCord, R.P. (2021). CoSTA: unsupervised convolutional
+neural network learning for spatial transcriptomics analysis. BMC Bioinf.
+22, 397. https://doi.org/10.1186/s12859-021-04314-1.
+121. Levy-Jurgenson, A., Tekpli, X., and Yakhini, Z. (2021). Assessing hetero-
+geneity in spatial data using the HTA index with applications to spatial
+transcriptomics and imaging. Bioinformatics 37, 3796–3804. https://
+doi.org/10.1093/bioinformatics/btab569.
+122. Li, Z., Song, T., Yong, J., and Kuang, R. (2021). Imputation of spatially-
+resolved transcriptomes by graph-regularized tensor completion. PLoS
+Comput.
+Biol.
+17,
+e1008218.
+https://doi.org/10.1371/journal.pcbi.
+1008218.
+123. Bergenstra˚ hle, J., Larsson, L., and Lundeberg, J. (2020). Seamless inte-
+gration of image and molecular analysis for spatial transcriptomics work-
+ﬂows. BMC Genom. 21, 482. https://doi.org/10.1186/s12864-020-
+06832-3.
+124. Kleshchevnikov, V., Shmatko, A., Dann, E., Aivazidis, A., King, H.W., Li,
+T., Elmentaite, R., Lomakin, A., Kedlian, V., Gayoso, A., et al. (2022).
+Cell2location maps ﬁne-grained cell types in spatial transcriptomics.
+Nat. Biotechnol. 40, 661–671. https://doi.org/10.1038/s41587-021-
+01139-4.
+125. Andersson, A., Bergenstrahle, J., Asp, M., Bergenstrahle, L., Jurek, A.,
+Fernandez Navarro, J., and Lundeberg, J. (2020). Single-cell and spatial
+transcriptomics enables probabilistic inference of cell type topography.
+Commun Biol 3, 565. https://doi.org/10.1038/s42003-020-01247-y.
+126. Lohoff, T., Ghazanfar, S., Missarova, A., Koulena, N., Pierson, N., Grif-
+ﬁths, J.A., Bardot, E.S., Eng, C.H.L., Tyser, R.C.V., Argelaguet, R.,
+et al. (2022). Integration of spatial and single-cell transcriptomic data elu-
+cidates mouse organogenesis. Nat. Biotechnol. 40, 74–85. https://doi.
+org/10.1038/s41587-021-01006-2.
+127. Hu, J., Schroeder, A., Coleman, K., Chen, C., Auerbach, B.J., and Li, M.
+(2021). Statistical and machine learning methods for spatially resolved
+transcriptomics with histology. Comput. Struct. Biotechnol. J. 19,
+3829–3841. https://doi.org/10.1016/j.csbj.2021.06.052.
+128. Atta, L., and Fan, J. (2021). Computational challenges and opportunities
+in spatially resolved transcriptomic data analysis. Nat. Commun. 12,
+5283. https://doi.org/10.1038/s41467-021-25557-9.
+14
+Cell Reports Methods 2, 100325, November 21, 2022
+Perspective
+ll
+OPEN ACCESS
+
+129. Chakraborty, N., Schmitt, C.W., Honnold, C.L., Moyler, C., Butler, S., Na-
+chabe, H., Gautam, A., and Hammamieh, R. (2020). Protocol improve-
+ment for RNA extraction from Compromised frozen specimens gener-
+ated
+in
+Austere
+conditions:
+a
+Path
+forward
+to
+transcriptomics-
+Pathology systems integration. Front. Mol. Biosci. 7, 142. https://doi.
+org/10.3389/fmolb.2020.00142.
+130. van Loon, J.J.W.A., and BIOPACK, J.J.W.A. (2004). BIOPACK: the
+ground controlled late access biological research facility. J. Gravit. Phys-
+iol. 11, 57–65.
+131. Bizet, F., Pereda-Loth, V., Chauvet, H., Gerard, J., Eche, B., Girousse, C.,
+Courtade, M., Perbal, G., and Legue, V. (2018). Both gravistimulation
+onset and removal trigger an increase of cytoplasmic free calcium in sta-
+tocytes of roots grown in microgravity. Sci. Rep. 8, 11442. https://doi.
+org/10.1038/s41598-018-29788-7.
+132. Shaka, S., Carpo, N., Tran, V., Cepeda, C., and Espinosa-Jeffrey, A.
+(2021). Microgravity signiﬁcantly inﬂuences neural stem cells size and
+numbers: Implications for long-term space missions. Stem Cells Res.
+Dev. Ther. 7, 1–9. https://doi.org/10.24966/srdt-2060/100088.
+133. Alonzo, M., El Khoury, R., Nagiah, N., Thakur, V., Chattopadhyay, M., and
+Joddar, B. (2022). 3D biofabrication of a cardiac tissue construct for sus-
+tained longevity and function. ACS Appl. Mater. Interfaces 14, 21800–
+21813. https://doi.org/10.1021/acsami.1c23883.
+134. Trevino, A.E., Muller, F., Andersen, J., Sundaram, L., Kathiria, A., Shcher-
+bina, A., Farh, K., Chang, H.Y., Pașca, A.M., Kundaje, A., et al. (2021).
+Chromatin and gene-regulatory dynamics of the developing human cere-
+bral cortex at single-cell resolution. Cell 184, 5053–5069.e23. https://doi.
+org/10.1016/j.cell.2021.07.039.
+135. Wang, K., Xiao, Z., Yan, Y., Ye, R., Hu, M., Bai, S., Sei, E., Qiao, Y., Chen,
+H., Lim, B., et al. (2021). Simple oligonucleotide-based multiplexing of
+single-cell
+chromatin
+accessibility.
+Mol.
+Cell
+81,
+4319–4332.e10.
+https://doi.org/10.1016/j.molcel.2021.09.026.
+136. Fan, R., Deng, Y., Bartosovic, M., Ma, S., Zhang, D., Liu, Y., Qin, X., Su,
+G., Xu, M., Halene, S., et al. (2021). Spatial-ATAC-seq: spatially resolved
+chromatin accessibility proﬁling of tissues at genome scale and cellular
+level. Research Square. https://doi.org/10.21203/rs.3.rs-593462/v1.
+137. Thornton, C.A., Mulqueen, R.M., Torkenczy, K.A., Nishida, A., Lowen-
+stein, E.G., Fields, A.J., Steemers, F.J., Zhang, W., McConnell, H.L.,
+Woltjer, R.L., et al. (2021). Spatially mapped single-cell chromatin acces-
+sibility. Nat. Commun. 12, 1274. https://doi.org/10.1038/s41467-021-
+21515-7.
+138. Arnold, C. (2022). Cloud labs: where robots do the research. Nature 606,
+612–613. https://doi.org/10.1038/d41586-022-01618-x.
+139. Ji, Y., Lotfollahi, M., Wolf, F.A., and Theis, F.J. (2021). Machine learning
+for perturbational single-cell omics. Cell Syst 12, 522–537. https://doi.
+org/10.1016/j.cels.2021.05.016.
+Cell Reports Methods 2, 100325, November 21, 2022
+15
+Perspective
+ll
+OPEN ACCESS

@@ -1,0 +1,334 @@
+/* Articles Browser - Extends BioKnowdes styles - Updated */
+
+/* Override main-content to be full width for articles */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* Search Section - Following sidebar pattern from bioknowdes */
+.search-section {
+    width: 100%;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    height: fit-content;
+    border: 1px solid var(--border-primary);
+}
+
+.search-card h2 {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-card h2 i {
+    color: var(--accent-primary);
+}
+
+.search-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.search-input-group {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-input:focus {
+    border-color: var(--accent-primary);
+}
+
+.search-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+/* Results Section - Following chat container pattern from bioknowdes */
+.results-section {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-primary);
+    flex: 1;
+}
+
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-primary);
+}
+
+.results-header h3 {
+    color: var(--text-primary);
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.results-info {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* Articles Grid */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+    flex: 1;
+}
+
+.loading-articles {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+.loading-articles i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--accent-primary);
+}
+
+/* Article Card - Following document card pattern from bioknowdes */
+.article-card {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.article-card:hover {
+    border-color: var(--border-secondary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.article-card.selected {
+    border-color: var(--accent-primary);
+    background: rgba(96, 165, 250, 0.05);
+    box-shadow: 0 2px 12px rgba(96, 165, 250, 0.15);
+}
+
+.article-checkbox {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent-primary);
+    cursor: pointer;
+}
+
+.article-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    margin-right: 2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.article-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-primary);
+}
+
+.link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.link-badge.pdf {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--error);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.link-badge.pdf:hover {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.link-badge.pmc {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.link-badge.pmc:hover {
+    background: rgba(16, 185, 129, 0.2);
+}
+
+/* Pagination Info */
+.pagination-info {
+    grid-column: 1 / -1;
+    background: var(--bg-tertiary);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-primary);
+    margin-top: 1rem;
+}
+
+.pagination-info p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+/* Empty State */
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+.empty-state i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text-muted);
+}
+
+.empty-state h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-overlay.hidden {
+    display: none;
+}
+
+.loading-content {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-primary);
+}
+
+.loading-content i {
+    font-size: 2rem;
+    color: var(--accent-primary);
+    margin-bottom: 1rem;
+}
+
+.loading-content p {
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .search-section,
+    .results-section {
+        padding: 1rem;
+    }
+    
+    .search-input-group {
+        flex-direction: column;
+    }
+    
+    .results-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .header-actions {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .search-actions {
+        justify-content: flex-start;
+    }
+}

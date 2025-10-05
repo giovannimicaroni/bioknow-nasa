@@ -1,0 +1,382 @@
+BRIEF COMMUNICATION
+OPEN
+αKlotho decreases after reduced weight-bearing from both
+spaceﬂight and hindlimb unloading
+Jeffrey S. Willey1✉, Serena Aunon-Chancellor2, Lauren A. Miles3, Joseph E. Moore1, Xiao W. Mao
+4, Robert W. Wallace2 and
+Matthew C. Foy5
+Alpha(α)Klotho, a soluble transmembrane protein, facilitates calcium-phosphorus homeostasis through feedback between bone
+and kidney and is a potential systemic biomarker for bone-kidney health during spaceﬂight. We determined if: (1) plasma αKlotho
+was reduced after both spaceﬂight aboard the ISS and hindlimb unloading (HU); and (2) deﬁciency could be reversed with exercise.
+Both spaceﬂight and HU lowered circulating plasma αKlotho: plasma αKlotho recovered with exercise after HU.
+npj Microgravity  (2022) 8:18 ; https://doi.org/10.1038/s41526-022-00203-w
+INTRODUCTION
+Atrophy of skeletal elements has long been identiﬁed as a hazard
+for the success of long-duration missions and astronaut quality of
+life1. US astronauts aboard the International Space Station (ISS)
+exhibit loss of bone density when comparing pre- and post-ﬂight
+DXA scan measurements2,3. Bone density reduction for a Mars
+mission has been estimated of up to 36%4. Recovery from bone
+degradation appears to be incomplete5,6.
+The role of the kidneys in skeletal homeostasis is complex.
+Recent research interest includes the interplay between αKlotho
+and Fibroblast Growth Factor 23 (FGF23)7. Alpha Klotho is secreted
+predominantly in the kidneys, whereas FGF23 is secreted by
+osteocytes8.
+FGF23
+binds
+to
+αKlotho,
+and
+increases
+urine
+phosphorous excretion9. Both are required, as seen in mice that
+demonstrate phosphate retention if either component is deﬁ-
+cient10. FGF23 also increases calcium reabsorption7. Through
+these mechanisms, FGF23 eliminates excess phosphorus and
+increases plasma calcium, with subsequent decreased calcitriol
+synthesis and parathyroid hormone (PTH) release. In non-weight-
+bearing climates with known bone density loss, αKlotho and
+FGF23 may play a role in skeletal homeostasis.
+The current spaceﬂight countermeasures aimed at preventing
+bone loss provide incomplete protection6,11. The Advanced
+Resistive Exercise Device (ARED) is utilized for exercise aboard
+the ISS12. Use of the ARED as a single countermeasure largely
+maintains preﬂight skeletal health over a 6-month mission in
+orbit11, but bone loss is observed by 1 year post-ﬂight, indicating
+progressive atrophy despite a return to full weight-bearing and
+from astronauts also receiving bisphosphonate therapy11. Addi-
+tionally, a device as large and complex as ARED is likely not
+feasible on an exploration class mission due to limitations in mass
+and habitable space. These ﬁndings add concerns for the current
+ability to preserve bone health outside low earth orbit.
+Currently, no reliable real-time analysis of biomarkers or skeletal
+imaging
+on
+orbit
+exists.
+Identiﬁcation
+of
+novel
+circulating
+biomarkers for musculoskeletal health, such as αKlotho, could
+prove crucial to protective measures as the space community
+turns its eyes towards Mars.
+This pilot investigation measured circulating αKlotho levels in
+mice after exposure to two reduced weight-bearing conditions:
+microgravity aboard the ISS, and after hind limb unloading (HU)13.
+Importantly, musculoskeletal degradation has previously been
+described in hindlimbs from these same mice after 35 days in
+microgravity and HU14,15, observing recovery of joint health upon
+return to full weight-bearing with exercise15. Likewise, this study
+examined if deﬁcits in circulating αKlotho after periods HU could be
+recovered after return to full-weight bearing, with/without perform-
+ing exercise. Changes in α-Klotho after acute bouts of exercise are
+inconsistent when examining resistance vs aerobic exercise (ref. 16),
+with long term exercise exhibiting elevated αKlotho in sedentary
+individuals (ref. 17). This hypothesis-generating research aims to
+assess if αKlotho can serve as a circulating biomarker for bone
+status, both in-ﬂight and upon return to weight-bearing.
+Data are presented mean(SD). Plasma αKlotho in pg/ml was
+~50% lower (Fig. 1) after 35 days in orbit aboard the ISS from the
+FLIGHT mice vs GROUND. No differences were observed between
+groups for FGF23 or inorganic phosphorus (Pi) concentration
+(Table 1). Additionally, gastrocnemius muscle mass (g) was lower
+(p = 0.0035) in FLIGHT vs GROUND after time in orbit aboard the
+ISS (Table 1). For the hind limb unloading study, plasma αKlotho
+after 30 days of tail suspension [HU-30day] was 36% lower vs
+plasma αKlotho from mice that remained full weight bearing
+[GROUND-30day; p < 0.01; Fig. 2]. Likewise, αKlotho was lower in
+mice after the initial 30 days of HU vs all mice that were full-
+weight bearing throughout the entire 80 day study, with or
+without exercise [GROUND-No exercise; GROUND-Climbing; and
+GROUND-Running; p < 0.05 for all comparisons)]. In contrast, after
+returning to full weight-bearing from the 30 day period of HU,
+plasma αKlotho levels remained lower in the mice that performed
+no exercise [HU-No Exercise] vs plasma from the full weight
+bearing mice as measured on Day 30 (p < 0.05). Additionally, these
+mice that had not performed exercise after the 30 day period of
+HU were also signiﬁcantly lower than all GROUND groups on Day
+80, regardless of exercise (GROUND-No exercise; GROUND-
+Climbing; GROUND-Running). In contrast, running exercise for
+49 days after the initial 30 day HU period [HU-Running] resulted in
+partial recovery of plasma Klotho, with no difference vs the full
+1Department of Radiation Oncology, Wake Forest School of Medicine, Section of Radiation Biology, Winston-Salem, NC, USA. 2Department of Internal Medicine, Louisiana State
+University Medical Center, Baton Rouge, LA, USA. 3Department of Nephrology, Wake Forest School of Medicine, Winston-Salem, NC, USA. 4Department of Basic Sciences, Loma
+Linda University, Loma Linda, CA, USA. 5Department of Internal Medicine, Louisiana State University Medical Center, Division of Nephrology, Baton Rouge, LA, USA.
+✉email: jwilley@wakehealth.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+weight bearing group at Day 30 (GROUND-30 Day), but still having
+lower concentration (p < 0.05) vs GROUND-No Exercise. Climbing
+exercise [HU-Climbing] for 49 days provided full recovery of
+αKlotho (Fig. 2), being similar to all GROUND groups. No
+differences were observed between any groups for FGF23
+concentration (Fig. 3). Moreover, Pi level between GROUND-
+30day and HU-30day was similar (Table 1). Sample limitation
+prevented the assessment of other groups.
+A reduction in plasma αKlotho levels was observed in both
+FLIGHT and HU mice vs controls. While a mechanistic/causal link
+between weight-bearing conditions and αKlotho are not deter-
+mined, both reduced weight-bearing conditions did result in
+lowered αKlotho. For HU mice, levels of αKlotho increased
+following exercise, with partial recovery in the running group
+and full recovery in the climbing group, suggesting an important
+relationship between exercise/potentially elevated weight-bearing
+and αKlotho level improvement. These data are aligned with
+recovery of joint health upon a return to full weight-bearing with
+exercise15. Moreover, for FLIGHT mice, where muscle masses were
+collected, the decrease in αKlotho post-ﬂight occurred with
+reduced gastrocnemius mass, which itself is not unexpected but
+αKlotho may also be affected by skeletal muscle activity18.
+When considering the importance αKlotho plays in maintaining
+musculoskeletal skeletal health, viewed within the context of the
+adverse effects of microgravity on bone, as well as muscle, these
+ﬁndings suggest an important link between this hormone level
+and skeletal health. Histologic changes of bone with altered
+kidney physiology in relation to these hormonal changes are
+needed to better understand this relationship. The similar changes
+in αKlotho found in both FLIGHT mice and HU mice suggest that
+HU mice may provide an appropriate terrestrial analog for
+examining the relationship between αKlotho and health along
+the musculoskeletal tissue-kidney axis.
+METHODS
+The animal and environmental details of the ISS study (Rodent
+Research-9
+mission),
+the
+accompanying
+HU
+study,
+and
+all
+GROUND
+FLIGHT
+0
+10
+20
+30
+40
+Klotho Concentration (pg/ml)
+p<0.01
+Fig. 1
+αKlotho concentration is reduced after spaceﬂight. FLIGHT
+mice exhibited lower αKlotho vs GROUND. P value from unpaired t
+test provided above bars. Bars: Mean(SD).
+Table 1.
+Descriptive information from both the spaceﬂight study to
+the International Space Station, and the ground-based hind limb
+unloading (HU) study.
+Spaceﬂight study
+Hind limb
+unloading study
+GROUND
+FLIGHT
+GROUND-
+30day
+HU-30day
+FGF23 (pg/ml)
+26.14(12.45) 27.10(14.79) NA
+NA
+Pi (mg/dL)
+4.26(0.29)
+4.06(0.18)
+7.21(3.27)
+8.39(3.62)
+Gastrocnemius
+mass (g)
+159.0(13.1)
+134.6(18.8)# NA
+NA
+Data are presented mean(SD). # indicates diffference for FLIGHT vs
+GROUND at p = 0.0035 via unpaired t-test. NA: data not collected
+(Gastrocnemius mass) or presented in Fig. 3 (FGF 23).
+Ground-30day
+HU-30day
+GROUND-No Exercise
+GROUND-Running
+GROUND-Climbing
+HU-No Exercise
+HU-Running
+HU-Climbing
+0
+20
+40
+60
+80
+Klotho Concentraiton (pg/ml)
+**
+***
+*
+*
+*
+*
+*
+*
+*
+Fig. 2
+αKlotho concentration is reduced after hind limb unload-
+ing, but can recover with subsequent exercise. αKlotho was lower
+than GROUND in plasma after 30 days HU, but recovery occurred
+with exercise *p ≤0.05; **p < 0.01; ***p < 0.001 determined via
+Tukey’s Post Hoc test after performed after ANOVA. Bars: Mean(SD).
+Ground-30day
+HU-30day
+GROUND-No Exercise
+GROUND-Running
+GROUND-Climbing
+HU-No Exercise
+HU-Running
+HU-Climbing
+0
+50
+100
+150
+200
+FGF23 Concentraiton (pg/ml)
+Fig. 3
+Plasma FGF23 was unaltered after hind limb unloading.
+Plasma FGF23 was similar across groups and time points. Bars: Mean
+(SD).
+J.S. Willey et al.
+2
+npj Microgravity (2022)  18 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+approved IACUC protocols from Wake Forest School of Medicine,
+NASA Ames, and the Kenney Space Center have been published15.
+All mice were male, C57BL/6 (Jackson Labs) that were 10 weeks at
+the start of each study.
+ISS mission
+Groups included FLIGHT and GROUND control15. This investigation
+had access to n = 4–5 plasma samples/group collected after
+35 days on orbit; all available samples were analyzed for this study.
+HU study
+Groups included weight-bearing GROUND mice, or HU via tail
+suspension, as described15. On Day 30, plasma was isolated from a
+cohort of GROUND (GROUND-30day) and HU (HU-30day) mice.
+Remaining HU mice were then removed from tail suspension and
+were thus weight-bearing the remainder of the study. All mice that
+were previously GROUND or HU were enrolled into one of 3 exercise
+groups, as described15, from Days 31–80, performing: 1] no exercise;
+2] climbing exercise 3X weekly, or; 3] running exercise 3X weekly in
+order to determine if recovery was possible with aerobic (running) or
+a resistance (climbing) regimen, yielding the following six groups:
+GROUND-No exercise; GROUND-Climbing; GROUND-Running; HU-No
+exercise; HU-Climbing; and HU-Running. Climbing exercises were
+performed 3X/week,. This investigation had access to n = 4 plasma
+samples/group, all of which were analyzed.
+Blood was collected in [K2]ethylenediaminetetraacetic acid (EDTA)-
+containing syringes by cardiac puncture and centrifuged for 10 min at
+3000 rpm at 4 °C; Plasma was isolated and ELISA was used to detect
+αKlotho (R&D Systems™#DY5334) and FGF23 (Abcam #ab213863); a
+commercial Pi kit was also used (Pointe Scientiﬁc #P7516-500).
+Comparisons
+between
+FLIGHT
+and
+GROUND
+mice
+were
+performed
+using
+a
+two-way
+unpaired
+t-test;
+ANOVA
+was
+performed for the HU study, with Tukeys post hoc tests. α ≤
+0.05; the assumption of equal variance was used to test equality of
+variance. Analyses were performed using GraphPad Prizm 8.4.0.
+The data that support the ﬁndings of this study are available on
+request from the corresponding author.
+Reporting summary
+Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+DATA AVAILABILITY
+The authors declare that data supporting the ﬁndings of this study are available
+within the ﬁgures of the article, and/or are available on request from the
+corresponding author (J.S.W.)
+Received: 15 October 2021; Accepted: 13 May 2022;
+REFERENCES
+1. Vico, L. & Hargens, A. Skeletal changes during and after spaceﬂight. Nat. Rev.
+Rheumatol. 14, 229 (2018).
+2. Keyak, J. H., Koyama, A. K., LeBlanc, A., Lu, Y. & Lang, T. F. Reduction in proximal
+femoral strength due to long-duration spaceﬂight. Bone 44, 449–453 (2009).
+3. Vico, L. & Hargens, A. Skeletal changes during and after spaceﬂight. Nat. Rev.
+Rheumatol. 14, 229–245 (2018).
+4. Axpe, E. et al. A human mission to Mars: Predicting the bone mineral density loss
+of astronauts. PLoS One 15, e0226434 (2020).
+5. Sibonga, J. D. et al. Recovery of spaceﬂight-induced bone loss: bone mineral
+density after long-duration missions as ﬁtted with an exponential function. Bone
+41, 973–978 (2007).
+6. Orwoll, E. S. et al. Skeletal health in long-duration astronauts: Nature, assessment,
+and management recommendations from the NASA Bone Summit. J. Bone Min.
+Res. 28, 1243–1255 (2013).
+7. Kuro, O. M. The Klotho proteins in health and disease. Nat. Rev. Nephrol. 15, 27–44
+(2019).
+8. Kuro, O. M. A potential link between phosphate and aging-lessons from Klotho-
+deﬁcient mice. Mech. Ageing Dev. 131, 270–275 (2010).
+9. Hu, M. C., Shiizaki, K., Kuro-o, M. & Moe, O. W. Fibroblast growth factor 23 and
+Klotho: Physiology and pathophysiology of an endocrine network of mineral
+metabolism. Annu. Rev. Physiol. 75, 503–533 (2013).
+10. Kuro, O. M. Phosphate and Klotho. Kidney Int. https://doi.org/10.1038/ki.2011.26
+(2011).
+11. Sibonga, J. et al. Resistive exercise in astronauts on prolonged spaceﬂights pro-
+vides partial protection against spaceﬂight-induced bone loss. Bone 128, 112037
+(2019).
+12. Smith, S. M. et al. Beneﬁts for bone from resistance exercise and nutrition in long-
+duration spaceﬂight: Evidence from biochemistry and densitometry. J. Bone Min.
+Res. 27, 1896–1906 (2012).
+13. Steczina, S. et al. Dietary countermeasure mitigates simulated spaceﬂight-
+induced osteopenia in mice. Sci. Rep. 10, 6484 (2020).
+14. da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals mitochondrial
+stress as a central biological hub for spaceﬂight impact. Cell 183, 1185–1201
+e1120 (2020).
+15. Kwok, A. T. et al. Spaceﬂight and hind limb unloading induces an arthritic pheno-
+type in knee articular cartilage and menisci of rodents. Sci. Rep. 11, 10469 (2021).
+16. Iturriaga, T. et al. Acute impacts of different types of exercise on circulating alpha-
+Klotho protein levels. Front. Physiol. 12, 716473 (2021).
+17. Amaro-Gahete, F. J. et al. Exercise training increases the S-Klotho plasma levels in
+sedentary middle-aged adults: A randomised controlled trial. The FIT-AGEING
+study. J. Sports Sci. 37, 2175–2183 (2019).
+18. Avin, K. G. et al. Skeletal muscle as a regulator of the longevity protein, Klotho.
+Front. Physiol. 5, 189 (2014).
+ACKNOWLEDGEMENTS
+NASA Space Biology grant NNX15AB50G(JSW).
+AUTHOR CONTRIBUTIONS
+J.S.W.: conceptualization, study design, performance of study, data analysis/
+interpretation, manuscript preparation. S.A.C. and M.C.F.: conceptualization, data
+interpretation, manuscript preparation. L.A.M. and R.W.W.: conceptualization, manu-
+script preparation. J.E.M.: performance of study, data analysis, manuscript prepara-
+tion. X.W.M.: study design, tissue collection, manuscript preparation.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-022-00203-w.
+Correspondence and requests for materials should be addressed to Jeffrey S. Willey.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2022
+J.S. Willey et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2022)  18 

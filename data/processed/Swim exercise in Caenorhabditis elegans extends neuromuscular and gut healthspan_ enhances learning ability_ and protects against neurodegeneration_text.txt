@@ -1,0 +1,1674 @@
+Swim exercise in Caenorhabditis elegans extends
+neuromuscular and gut healthspan, enhances learning
+ability, and protects against neurodegeneration
+Ricardo Laranjeiroa, Girish Harinatha, Jennifer E. Hewittb, Jessica H. Hartmanc, Mary Anne Royala, Joel N. Meyerc,
+Siva A. Vanapallib, and Monica Driscolla,1
+aDepartment of Molecular Biology and Biochemistry, Rutgers, The State University of New Jersey, Piscataway, NJ 08854; bDepartment of Chemical
+Engineering, Texas Tech University, Lubbock, TX 79409; and cNicholas School of the Environment, Duke University, Durham, NC 27708
+Edited by Gary Ruvkun, Massachusetts General Hospital, Boston, MA, and approved October 15, 2019 (received for review May 30, 2019)
+Regular physical exercise is the most efficient and accessible
+intervention known to promote healthy aging in humans. The
+molecular and cellular mechanisms that mediate system-wide
+exercise benefits, however, remain poorly understood, espe-
+cially as applies to tissues that do not participate directly in
+training activity. The establishment of exercise protocols for short-
+lived genetic models will be critical for deciphering fundamental
+mechanisms of transtissue exercise benefits to healthy aging. Here
+we document optimization of a long-term swim exercise protocol
+for Caenorhabditis elegans and we demonstrate its benefits to di-
+verse aging tissues, even if exercise occurs only during a restricted
+phase of adulthood. We found that multiple daily swim sessions are
+essential for exercise adaptation, leading to body wall muscle im-
+provements in structural gene expression, locomotory performance,
+and mitochondrial morphology. Swim exercise training enhances
+whole-animal health parameters, such as mitochondrial respiration
+and midlife survival, increases functional healthspan of the pharynx
+and intestine, and enhances nervous system health by increasing
+learning ability and protecting against neurodegeneration in models
+of tauopathy, Alzheimer’s disease, and Huntington’s disease.
+Remarkably, swim training only during early adulthood induces long-
+lasting systemic benefits that in several cases are still detectable
+well into midlife. Our data reveal the broad impact of swim exercise
+in promoting extended healthspan of multiple C. elegans tissues,
+underscore the potency of early exercise experience to influence
+long-term health, and establish the foundation for exploiting the
+powerful advantages of this genetic model for the dissection of the
+exercise-dependent molecular circuitry that confers system-wide
+health benefits to aging adults.
+exercise | Caenorhabditis elegans | muscle | aging | neurodegeneration
+P
+hysical inactivity is a worldwide public health problem. Glob-
+ally, more than 5 million premature deaths each year (∼9%)
+may be attributable to insufficient physical activity (1). Conversely,
+it is striking that exercise provides widespread health benefits, in-
+cluding protection against cardiovascular disease, diabetes, cancer,
+neurodegenerative disease, and against age-associated declines in
+muscle, immune, and cognitive function (2, 3). Given the over-
+whelming projected social and economic costs of caring for the
+growing inactive and elderly populations, defining how activity
+and exercise physiology promote healthier aging is of critical im-
+portance. Unfortunately, however, the molecular and cellular
+mechanisms that mediate systemic exercise benefits remain poorly
+understood. This gap in knowledge is partially due to the lack of
+established short-lived genetic models in which fundamental
+questions on transtissue exercise signaling can be evaluated over
+the entire aging process. Importantly, exercise training in Dro-
+sophila improves motility, cardiac performance, and mitochondrial
+health (4–6), supporting that exercise adaptation is conserved from
+invertebrates to humans, and opening the door to the exploitation
+of powerful invertebrate model systems for mechanistic dissection
+of health benefit circuits in exercise biology.
+The nematode Caenorhabditis elegans is a genetic model widely
+used in aging and stress research that holds great potential to unlock
+the molecular circuitry involved in exercise-dependent systemic health
+benefits. The short lifespan (about 3 wk) makes C. elegans a desirable
+model with which to assess exercise effects over the entire adult
+lifetime. C. elegans reach adulthood in ∼2.5 d and self-reproduce for
+approximately the first 6 d of adult life (7). The reduction in repro-
+ductive capacity is accompanied by age-related decline in multiple
+tissues and functions over the next several days, including locomotion,
+muscle structure, pharyngeal pumping, intestinal integrity, and neu-
+ronally controlled actions (7–11). The aging C. elegans body wall
+muscle exhibits nuclear fragmentation, mitochondrial network and
+sarcomere disorganization, lipid accumulation, and loss of muscle
+mass (8, 12), resembling the fundamental characteristics of human
+sarcopenia (the pervasive age-associated loss of muscle strength
+and muscle mass that contributes to human frailty).
+We have shown previously that swimming in a liquid envi-
+ronment is more energetically demanding for C. elegans than
+the crawling motion on agar plates used in standard laboratory
+growth protocols (13). Moreover, we showed that a single 90-min
+C. elegans swim session induces key features of mammalian exer-
+cise, namely locomotory fatigue, muscle mitochondrial oxidation, a
+Significance
+Exercise is a powerful antiaging intervention that protects
+against cardiovascular disease, dementia, diabetes, sarcopenia,
+and cancer. How exercise promotes health benefits to multiple
+tissues in the body, however, remains poorly understood. We
+establish a young adult swim exercise regimen for the short-
+lived nematode Caenorhabditis elegans that induces health
+benefits at the neuromuscular, intestinal, and cognitive levels
+and protects against neurodegeneration in models of tauopathy,
+Alzheimer’s disease, and Huntington’s disease. Importantly, we
+found that swim exercise performed exclusively in early adult-
+hood promotes long-lasting systemic benefits that are still de-
+tectable in midlife. The advantages of C. elegans as a short-lived
+genetic model will allow for dissection of the molecular circuitry
+involved in system-wide exercise benefits.
+Author contributions: R.L., G.H., J.E.H., J.H.H., J.N.M., S.A.V., and M.D. designed research;
+R.L., G.H., J.E.H., J.H.H., and M.A.R. performed research; R.L., G.H., J.E.H., J.H.H., J.N.M.,
+S.A.V., and M.D. analyzed data; and R.L. and M.D. wrote the paper.
+The authors declare no competing interest.
+This article is a PNAS Direct Submission.
+This open access article is distributed under Creative Commons Attribution-NonCommercial-
+NoDerivatives License 4.0 (CC BY-NC-ND).
+Data deposition: The raw data reported in this paper have been deposited in the Harvard
+Dataverse repository (https://doi.org/10.7910/DVN/2JRK7M).
+1To whom correspondence may be addressed. Email: driscoll@dls.rutgers.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1909210116/-/DCSupplemental.
+First published November 4, 2019.
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23829–23839
+PHYSIOLOGY
+
+transcriptional oxidative stress response, and changes in carbohy-
+drate and fat metabolism (13). Hartman et al. (14) found that a 6-d
+swim exercise regimen in C. elegans improves body wall muscle
+mitochondrial morphology, changes mitochondrial respiration pa-
+rameters, and protects against acute exposure to the mito-toxicants
+rotenone and arsenic. Other exercise paradigms in C. elegans have
+been described (15–18), with a focus on body wall muscle- and
+mitochondrial-related phenotypes. However, exercise-dependent
+effects on a wider range of C. elegans tissues (i.e., systemic bene-
+fits of exercise to nonmuscle tissue and their potential extension
+into older adult health) remain mostly undescribed.
+Here, we report on the optimization of a long-term swim ex-
+ercise protocol for C. elegans and establish that multiple daily
+swim sessions are essential for exercise adaptation that includes
+increased muscle gene expression, improved locomotory perfor-
+mance, and enhanced maintenance of the muscle mitochondri-
+al network. Whole-animal parameters, such as mitochondrial
+respiration and midlife survival, are also improved by exercise.
+Importantly, we show that swim exercise improves pharyngeal,
+intestinal, and neuronal functions. Furthermore, we find that
+neurodegenerative pathological conditions in C. elegans models of
+tauopathy, Alzheimer’s disease (AD), and Huntington’s disease
+(HD) are ameliorated by swim exercise training. The systemic
+exercise effects we describe reveal a broad impact of swim training
+on C. elegans physiology and establish the critical groundwork
+for future dissection of the molecular circuitry responsible for
+exercise-dependent transtissue health benefits.
+Results
+Multiple Daily Swim Sessions Are Essential for C. elegans Exercise
+Adaptation. Although a single 90-min swim session in C. elegans
+induces key features of mammalian exercise (13), most exercise-
+dependent health benefits in humans arise from long-term training
+regimens that lead to exercise adaptation over time (19); thus, we
+sought to develop and validate a long-term C. elegans exercise
+protocol. We planned to determine an efficacious long-term ex-
+ercise regimen in C. elegans by characterizing the impact of dif-
+ferent numbers of 90-min swim sessions in M9 buffer executed
+over the first 4 d of adult life (Fig. 1A), a period that corresponds
+to the peak locomotory performance phase and constitutes a
+timeframe over which C. elegans are able to complete 90-min swims
+without any significant inactive periods (9, 10, 20). We tested long-
+term exercise regimens with swim frequencies of 1 session per day
+(1+1+1+1), 2 sessions per day (2+2+2+2), 3 sessions per day on
+the first 2 d of adulthood plus 2 sessions per day on the third and
+fourth adult days (3+3+2+2), 3 sessions per day (3+3+3+3), and
+4 sessions per day (4+4+4+4) (Fig. 1B). The exercise adaptation
+readouts we quantitated included both a molecular assay (gene-
+expression analysis by qPCR) and a functional assay (locomotion
+analysis by recording movement and calculating crawling maxi-
+mum velocity). Importantly, given that our interest is in defining
+regimens that lead to medium- to long-term physiological changes
+(i.e., exercise adaptation and system-wide health benefits), we
+assayed molecular and functional readouts 1 to several days
+postexercise, rather than immediately after the last swim session.
+Seeded NGM plate
+Seeded NGM plate
+Unseeded NGM plate
+90 min crawl
+Control
+1+1+1+1
+2+2+2+2
+3+3+2+2
+3+3+3+3
+4+4+4+4
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+Exercise regimens
+Log2 expression fold change
+(Exercise vs. Control)
+*
+*
+*
+*
+* *
+**
+*
+*
+*
+*
+**
+lev-11
+mup-2
+tnt-2
+unc-27
+unc-15
+mlc-1
+unc-54
+myo-3
+zig-12
+unc-87
+1+1+1+1
+2+2+2+2
+3+3+2+2
+3+3+3+3
+4+4+4+4
+0
+7
+14
+21
+28
+35
+Exercise regimens
+% increase in maximum velocity
+in Exercise vs. Control
+*
+*
+*
+*
+**
+Day 8
+Day 5
+Seeded NGM plate
+Seeded NGM plate
+Unseeded NGM plate
+flooded with M9 buffer
+90 min swim
+Exercise
+Adult day 1
+Adult day 2
+Adult day 3
+Adult day 4
+Exercise
+regimen
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+1+1+1+1
+9
+9
+9
+9
+2+2+2+2 9 9
+9 9
+9 9
+9 9
+3+3+2+2 9 9 9
+9 9 9
+9
+9
+9
+9
+3+3+3+3 9 9 9
+9 9 9
+9 9 9
+9 9 9
+4+4+4+4 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+A
+B
+C
+D
+Fig. 1.
+Multiple daily swim sessions are essential for C. elegans exercise adaptation. (A) Diagram of the 90-min swim session protocol performed for each
+exercise bout. We transferred control animals to an unseeded NGM plate for 90 min, whereas exercise animals were transferred to an unseeded NGM plate
+flooded with M9 buffer for the same 90 min to swim. (B) Diagram indicating the time of the day of each exercise session for the 5 long-term exercise regimens
+tested. (C) qPCR results for 10 muscle structural genes in Ad5 WT animals exposed to the 5 long-term exercise regimens indicated. n = 4 to 5 independent
+trials. (D) Percentage increase in crawling maximum velocity in Ad5 and Ad8 WT exercised animals exposed to the 5 tested long-term exercise regimens,
+relative to nonexercised control counterparts. n = 3 to 6 independent trials. *P ≤0.05, **P ≤0.01.
+23830
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+Laranjeiro et al.
+
+Our previous analysis of single swim sessions supported that
+swimming is an endurance-like exercise for C. elegans (13). In
+mammals, long-term endurance exercise leads to profound tran-
+scriptional changes at the muscle level, with up-regulation of muscle
+structural genes, such as troponins, tropomyosins, myosin light
+chains, and myosin heavy chains, as one of the reproducible changes
+(21–23). Therefore, we first wanted to determine if long-term swim
+exercise regimens could also promote the up-regulation of muscle
+structural gene expression in C. elegans. We selected 10 C. elegans
+genes that included the major structural gene classes found to be up-
+regulated in mammals in an exercise-dependent manner (SI Ap-
+pendix, Table S1) (24). Importantly, all of the genes we included in
+our analysis have been documented to be massively down-regulated
+with age in C. elegans (24), which underscores their potential im-
+portance in age-associated sarcopenia and locomotory decline.
+We performed qPCR for the test swim regimens 1 d after the
+training was completed, which corresponds to adult day 5 (Ad5)
+(Fig. 1C). We found that the 1+1+1+1 regimen led to an overall
+tendency of down-regulation across the muscle structural gene
+test set, supporting that single daily swim sessions are insufficient
+to induce exercise adaptations (at least at the molecular level). In
+contrast, 2+2+2+2, 3+3+2+2, and 3+3+3+3 regimens led to an
+overall up-regulation of muscle structural gene expression. The
+3+3+2+2 regimen induced the most consistent transcriptional
+up-regulation profile with 6 of the 10 test genes (tnt-2, unc-27,
+mlc-1, unc-54, zig-12, and unc-87) exhibiting a statistically sig-
+nificant difference when compared to the control animals. We
+noted up-regulation of 4 of the 10 genes after just 2 d of training
+(3+3 regimen) (SI Appendix, Fig. S1A); muscle structural gene
+expression of 3+3+2+2 exercised animals returned to approxi-
+mately control levels by Ad8 (SI Appendix, Fig. S1B). The
+4+4+4+4 regimen induced a wider range of transcriptional
+outcomes (2 genes showing a significant up-regulation [tnt-2 and
+unc-27] and 2 genes showing a significant down-regulation [unc-
+15 and myo-3]) and reflected a trend toward down-regulation
+that suggested excessive exercise can be deleterious to main-
+tained muscle expression (Fig. 1C). Overall, our data establish
+that a training plan of 3+3+2+2 can induce increased transcription
+of a battery of C. elegans muscle structural genes, paralleling a
+feature of mammalian exercise adaptation.
+To assess training impact on muscle performance, we also
+measured a functional readout of our long-term C. elegans exercise
+regimens. We focused on the C. elegans crawling maximum ve-
+locity since this parameter has been documented to accurately
+report movement ability, correlates well with healthspan, and can
+even be a longevity predictor at certain ages (10). We measured
+maximum velocity by placing Ad5 and Ad8 single animals on agar
+plates and determining the maximum speed at which they move
+over a 30-s time interval. Note that our swim-exercised animals
+were not specifically trained for enhancement of crawling maxi-
+mum velocity, so maximum velocity serves as an indicator of
+overall vigor that results from swim training. The 1+1+1+1 regi-
+men failed to significantly increase maximum velocity of exercised
+animals compared to controls on both days (Fig. 1D), indepen-
+dently supporting our conclusion from transcriptional studies that
+single daily swim sessions are not sufficient to induce long-term
+exercise adaptations. In contrast, we found that all of the multiple
+daily swim regimens promoted a significant increase in maximum
+velocity, on the order of a 10 to 20% increase over nonexercised
+animals assayed at Ad5 (Fig. 1D). We found a trend toward in-
+creased maximum velocity on Ad8 (4 d after cessation of training)
+for all 4 multiple daily swim regimens, but only the 3+3+2+2
+regimen led to a statistically significant 24% increase (Fig. 1D; see
+SI Appendix, Fig. S1C for all maximum velocity values). Our
+findings reveal a remarkable long-term benefit of sustained early
+adult life exercise training.
+Overall, the molecular and functional readouts we tested
+establish that multiple daily swim sessions are required in WT
+C. elegans for robust exercise adaptation at molecular and functional
+levels, with the 3+3+2+2 regimen inducing improvements in mul-
+tiple assays that could feature long-term functional maintenance.
+Molecular and Functional Changes Are Dependent on Increased
+Locomotor Activity Rather than Exposure to a Liquid Environment.
+We showed previously that a single swim session induces specific
+exercise-dependent acute responses and does not activate a
+generalized stress response due to liquid exposure (13). Never-
+theless, it remained possible that continuous reexposure of C.
+elegans to the M9 buffer liquid environment during the long-term
+exercise regimens might induce some physiological benefits. To
+definitively rule out simple liquid exposure as an important
+factor for the molecular and functional changes we documented
+above, we constructed microfluidic devices in which C. elegans
+can be exposed to M9 buffer but for which we could manipulate
+the locomotion type (crawling vs. swimming) by modulating the
+chamber height (25). To test whether exposure to the M9 buffer
+swim media might suffice to induce exercise adaptations, we
+performed the 3+3+2+2 regimen by transferring C. elegans from
+seeded nematode growth medium (NGM) plates to M9 buffer-
+filled microfluidic devices that had a large chamber height (swim
+exercise possible) (Movie S1) or a small chamber height (control,
+animals are sedate and crawl rather than swim) (Movie S2)
+for 90 min. After each 90-min session, we recovered animals
+from the microfluidic chambers and returned them to seeded
+NGM plates. We conducted qPCR analysis at Ad5 to find that
+microfluidics-exercised C. elegans up-regulate muscle structural
+genes (statistically significant for tnt-2, mlc-1, unc-54, and zig-12) as
+compared to microfluidics-constrained control animals (SI Ap-
+pendix, Fig. S2A), similar to the outcomes of the 3+3+2+2 regimen
+performed on NGM plates (Fig. 1C). We also determined that
+muscle structural gene expression was not up-regulated in
+microfluidics-control animals relative to plate-control animals (SI
+Appendix, Fig. S2B), confirming that liquid exposure is not suffi-
+cient for muscle transcriptional induction. Importantly, we found
+that the microfluidics-exercised animals exhibited a significant in-
+crease in maximum velocity on Ad8 relative to microfluidics
+nonexercised animals, similar to the 3+3+2+2 regimen imple-
+mented by flooding plates with M9 buffer (SI Appendix, Fig. S2C).
+Our data establish that transcriptional and functional changes in-
+duced in M9 buffer require swim activity rather than being the
+consequence of liquid exposure, and independently confirm that
+long-term swim regimens induce exercise adaptations.
+Long-Term Swim Exercise Improves Performance and Healthspan of C.
+elegans Body Wall Muscle. The C. elegans body wall muscle is the
+tissue most directly involved in long-term exercise training and
+thus we sought to characterize additional aspects of body wall
+muscle performance and health consequent to exercise. We re-
+cently developed a burrowing assay, in which nematodes are
+stimulated to move through a Pluronic F-127 gel (a hydrogel that
+transitions from liquid to gel at safe temperatures for C. elegans
+survival) toward a chemoattractant (26). We loaded liquid-phase
+Pluronic F-127 on top of C. elegans in 12-well plates, and allowed
+the Pluronic F-127 to quickly gel at room temperature, trapping
+animals under the gel. We then added Escherichia coli OP50-1 on
+top of the gel, which serves as a food attractant (assay diagram in
+Fig. 2A). In this 3D gel environment, animals with a better neu-
+romuscular performance reach the surface faster and in higher
+numbers (26). After a 3+3+2+2 training regimen, Ad5 exercised
+nematodes reached the gel surface at a significantly higher pro-
+portion during the 3-h burrowing assay window as compared to
+their nonexercised control counterparts (Fig. 2B). Exercised ani-
+mals have similar chemotactic ability toward E. coli OP50-1
+relative to control animals in standard 2D chemotaxis assays on
+agar plates, supporting similar attraction to OP50-1 (SI Appendix, Fig.
+S3). The burrowing data constitute an additional line of evidence
+Laranjeiro et al.
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23831
+PHYSIOLOGY
+
+that long-term swim exercise improves the functional general
+output of C. elegans body wall muscle.
+One of the hallmarks of endurance exercise in mammals is
+muscle mitochondrial adaptation, which can be reflected in mor-
+phological and functional mitochondrial improvements (27). We
+therefore explored the consequences of long-term swim exercise on
+the body wall muscle mitochondrial network, using a C. elegans
+strain in which mitochondria are labeled with GFP specifically in the
+body wall muscle (Pmyo-3mitoGFP). C. elegans, just like mammals,
+exhibit a well-described age-related decline in muscle mitochondrial
+morphology, characterized by increased disorganization and frag-
+mentation of the mitochondrial network (12, 24, 28). We performed
+confocal imaging of Pmyo-3mitoGFP animals at different life stages
+to establish our own classification system for muscle mitochondrial
+network health that reflects a progressive increase in fragmentation
+and disorganization from class 1 (complete mitochondrial coverage
+of body wall muscle cells and tubular mitochondrial morphology) to
+class 5 (greatly reduced number of mitochondria and round mor-
+phology) (Fig. 2C). After the 3+3+2+2 exercise regimen, we took
+confocal images of the anterior body wall muscle of Pmyo-3mitoGFP
+animals on Ad5, Ad8, and Ad11, and scored the images blind to
+exercise condition using the freely available software Blinder (29).
+We found that exercised animals exhibited a significant improve-
+ment in muscle mitochondrial network organization at all 3 time
+points tested (Fig. 2D), even though Ad11 corresponds to a full 7 d
+after the last exercise session. Our results show that long-term swim
+exercise in C. elegans promotes long-lasting changes in the body wall
+muscle mitochondrial populations that are correlated with im-
+provements in muscle performance and healthspan.
+Long-Term Exercise Improves Whole-Animal Mitochondrial Respiration
+Parameters. A central question in exercise physiology is the mo-
+lecular nature of the factors that promote systemic health conse-
+quent to exercise. Given that the C. elegans model holds potential
+for genetic dissection of such health signaling circuits, we turned to
+focus on assessing animal-wide consequences of exercise for aging
+adults, with the expectation of defining endpoints that could be
+used for future mechanistic dissection.
+In light of the documented benefits of long-term swim exercise
+to muscle mitochondrial networks, we first sought to determine if
+mitochondrial function as measured at the whole-animal level
+was affected by our exercise regimens. To address this question,
+we analyzed numerous parameters of mitochondrial respiration
+in whole nematodes by measuring oxygen consumption rates
+with a Seahorse XFe24 Analyzer. In the Seahorse assays for
+measuring oxygen consumption rates, basal respiration is first
+monitored; dicyclohexylcarbodiimide (DCCD) is then added to
+inhibit ATP synthase, which reveals relative ATP-linked respira-
+tion and distinguishes the residual proton leak; carbonyl cyanide-p-
+trifluoromethoxyphenylhydrazone (FCCP) then uncouples mito-
+chondria, collapsing the proton gradient, such that the electron
+transport chain (ETC) is uninhibited and oxygen consumption by
+complex IV reaches the maximal rate (the difference between
+maximal respiration and basal respiration is the spare capacity);
+addition of sodium azide (a cytochrome c oxidase inhibitor) shuts
+down all mitochondrial respiration to reveal nonmitochondrial
+respiration (30) (Fig. 3A).
+We swim-exercised C. elegans with the 3+3+2+2 regimen and
+assayed oxygen consumption rates the following day (Ad5) and 4 d
+after training (Ad8). We observed no differences between control
+and exercised animals for basal respiration on both days (Fig. 3B).
+However, on Ad8, exercised animals exhibited an increase in
+maximal respiration (Fig. 3C), spare capacity (Fig. 3D), and ATP-
+linked respiration (Fig. 3E) as compared to nonexercised control
+counterparts, suggesting a healthier mitochondria population
+in exercised animals with an improved ability to meet energy
+Pluronic
+F-127 gel
+Surface
+E. coli
+OP50-1 
+Day 5 C. elegans after
+3+3+2+2 regimen
+15
+30
+45
+60
+75
+90
+105
+120
+150
+180
+0.0
+0.1
+0.2
+0.3
+0.4
+Time (min)
+Proportion of surfaced animals
+Control
+Exercise
+A
+B
+Class 1
+Fragmentation and disorganization
+Class 2
+Class 3
+Class 4
+Class 5
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+Class distribution
+**
+Day 5
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+****
+Day 8
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+Class 1
+Class 2
+Class 3
+Class 4
+Class 5
+*
+Day 11
+D
+C
+* P = 0.013
+Fig. 2.
+Long-term swim exercise improves burrowing performance and mitochondrial profiles of body wall muscle. (A) Diagram of burrowing assay. After the
+3+3+2+2 regimen, we trapped Ad5 animals under a Pluronic F-127 gel and added attractant food E. coli OP50-1 to the center of the gel surface. Animals are
+attracted by the food and burrow to the surface of the gel at different rates. (B) Proportion of Ad5 WT animals exposed to the 3+3+2+2 regimen that reach the gel
+surface during the 3-h burrowing assay. n = 370 to 392 animals. (C) Representative confocal images of the 5 classes of body wall muscle mitochondrial network
+organization in Pmyo-3mitoGFP animals. Fragmentation and disorganization of muscle mitochondria increases progressively from class 1 to class 5. (Scale bar,
+10 μm.) (D) Distribution of mitochondrial classes in body wall muscle of Ad5, Ad8, and Ad11 Pmyo-3mitoGFP animals exposed to the 3+3+2+2 regimen. n = 160 to
+170 muscle images. *P ≤0.05, **P ≤0.01, ****P ≤0.0001.
+23832
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+Laranjeiro et al.
+
+requirements under potential challenges of high-energy demand
+situations. A mild mitochondrial uncoupling by a higher proton
+leak has been suggested to protect against excessive reactive ox-
+ygen species production and oxidative damage in active tissues and
+organisms (31). Therefore, the increase in proton leak of exercised
+animals on Ad5 (Fig. 3F) might be a protective mechanism against
+excessive oxidative stress during and shortly after the long-term
+exercise regimen, with the proton leak returning to control levels
+by Ad8. We observed a decrease in nonmitochondrial respiration
+of exercised animals on Ad8 relative to nonexercised animals (Fig.
+3G). Nonmitochondrial oxygen-consuming processes are not well
+defined but higher nonmitochondrial respiration has been asso-
+ciated with metabolic stress, inflammation, and damaged mito-
+chondria (32), suggesting an overall healthier mitochondrial
+metabolism in Ad8 exercised animals.
+Muscle gene-expression data after the 4+4+4+4 regimen
+(Fig. 1C) suggested that 4 swim sessions per day might consti-
+tute an excessive exercise training regimen for C. elegans. To get
+a better sense of exercise consequences, we evaluated the effects
+of the 4+4+4+4 regimen to mitochondrial respiration parame-
+ters (SI Appendix, Fig. S4). Overall, we observed similar trends
+for the 4+4+4+4 regimen when compared to the 3+3+2+2
+regimen, with significant increases in maximal respiration, spare
+capacity, and ATP-linked respiration of 4+4+4+4 exercised
+animals. Proton leak was significantly decreased in 4+4+4+4
+exercised animals and we found no differences for nonmito-
+chondrial respiration. Importantly, oxygen consumption rates
+as a whole were significantly lower for the 4+4+4+4 samples
+relative to the 3+3+2+2 samples (especially on Ad8), indicat-
+ing that the 4+4+4+4 regimen is stressful for both control and
+exercised animals and is associated with an overall reduction in
+mitochondrial health.
+Taken together, our analyses support that the 3+3+2+2 swim
+exercise regimen in C. elegans induces both mitochondrial mor-
+phological changes (in muscle) and improvements in whole-animal
+mitochondrial health, with effects that can last for several days
+after exercise cessation.
+Midlife Survival Is Increased in Swim-Exercised C. elegans. The im-
+provement in mitochondrial function we documented at the
+whole-animal level raised the question of whether swim exercise is
+able to improve additional organismal-wide health measures. In
+humans, exercise can be correlated with longevity (33–36), and
+thus we compared relative survival of 3+3+2+2 exercised and
+nonexercised populations as an indicator of overall health. Our
+survival assays revealed that a 3+3+2+2 swim exercise regimen
+does not change the maximum lifespan of C. elegans population
+(Fig. 3H). However, exercised animals showed on average ∼15%
+increase in survival between Ad12 and Ad20 compared to control
+animals (Fig. 3H; see SI Appendix, Fig. S5 for details of indepen-
+dent trials). This enhancement in midlife survival provides further
+evidence that long-term swim exercise in C. elegans induces sys-
+temic health benefits rather than isolated adaptations at the body
+wall muscle level.
+We also performed survival assays with the 4+4+4+4 regimen
+that confirmed this exercise regimen to be detrimental for overall C.
+elegans health given the significant decrease in survival of exercised
+animals when compared to control animals (average of ∼12% de-
+crease in survival between Ad12 and Ad20) (SI Appendix, Fig. S6).
+Pharyngeal and Intestinal Healthspans Are Extended after Long-Term
+Swim Exercise. Given swim exercise benefits evident at the whole-
+nematode level, we sought to detect tissue-specific improvements
+in C. elegans organs that are not an activity focus during exercise.
+The C. elegans pharynx is of particular interest as pharyngeal
+pumping function declines markedly with age (7) and the pharynx
+shares molecular and functional similarities with the vertebrate
+heart (37). Notably, however, C. elegans swim exercise mark-
+edly reduces pumping during swimming (SI Appendix, Fig. S7),
+Spare
+capacity
+DCCD
+FCCP
+Sodium
+azide
+0
+20
+40
+60
+80
+100
+120
+0
+5
+10
+15
+20
+25
+30
+35
+Time (min)
+Oxygen consumption rate
+(pmol O2/ min / animal)
+Basal
+respiration
+Non-mitochondrial respiration
+Maximal
+respiration
+ATP-linked
+respiration
+Proton
+leak
+Control
+Exercise
+Control
+Exercise
+0
+5
+10
+15
+20
+25
+Basal respiration
+(pmol O2/ min / animal)
+Day 5
+Day 8
+Control
+Exercise
+Control
+Exercise
+0
+10
+20
+30
+40
+50
+Maximal respiration
+(pmol O2/ min / animal)
+Day 5
+Day 8
+*
+Control
+Exercise
+Control
+Exercise
+0
+5
+10
+15
+20
+25
+Spare capacity
+(pmol O2/ min / animal)
+Day 5
+Day 8
+*
+Control
+Exercise
+Control
+Exercise
+0
+3
+6
+9
+12
+ATP-linked respiration
+(pmol O2/ min / animal)
+Day 5
+Day 8
+*
+Control
+Exercise
+Control
+Exercise
+0
+2
+4
+6
+8
+Proton leak
+(pmol O2/ min / animal)
+Day 5
+Day 8
+*
+Control
+Exercise
+Control
+Exercise
+0
+1
+2
+3
+4
+5
+6
+Non-mitochondrial respiration
+(pmol O2/ min / animal)
+Day 5
+Day 8
+*
+A
+C
+B
+D
+E
+F
+G
+0
+5
+10
+15
+20
+25
+30
+0
+25
+50
+75
+100
+Days of adulthood
+Percent survival
+Control
+Exercise
+** P = 0.002
+H
+Fig. 3.
+Long-term exercise improves mitochondrial respiration parameters and midlife survival. (A) Diagram of oxygen consumption rates measured in a
+Seahorse XFe24 Analyzer consequent to addition of mitochondrial inhibitors, allowing for the calculation of the 6 respiration parameters represented by
+different colors. (B–G) Basal respiration (B), maximal respiration (C), spare capacity (D), ATP-linked respiration (E), proton leak (F), and nonmitochondrial
+respiration (G) values of Ad5 and Ad8 WT animals exposed to the 3+3+2+2 regimen. n = 13 to 30 Seahorse XF24 Microplate wells. (H) Survival curve of WT
+animals exposed to the 3+3+2+2 regimen. n = 221 to 245 animals. *P ≤0.05.
+Laranjeiro et al.
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23833
+PHYSIOLOGY
+
+so that training benefits are anticipated to be secondary effects
+of the swim.
+We quantified pharyngeal pumping rate of WT C. elegans after
+a 3+3+2+2 exercise regimen. We observed no difference in
+pumping rate at Ad5 and Ad8 but at Ad11 and Ad15, exercised
+animals showed a significant increase in pumping rate relative to
+controls (Fig. 4A). Notably, exercise health benefits to pharyn-
+geal function become evident late in life, during the time-window
+of accentuated age-related decline. It is striking that even though
+animals are trained only on the first 4 d of adulthood, exercise-
+dependent effects are long lasting, and in this case maintained
+11 d after the last exercise bout.
+The C. elegans intestine is an additional tissue of central health
+importance, as the intestine plays critical roles in digestion and
+metabolism and serves as a focal signaling center for stress re-
+sponse and aging regulation (38). The C. elegans intestine consti-
+tutes a strong barrier to gut content leak in young animals, but with
+age, intestinal barrier function breaks down. Breakdown of intes-
+tinal barrier function can be measured by feeding a nonabsorbable
+blue dye and checking for dye leakage outside the intestine, an
+assay referred to as the “Smurf assay” since animals turn blue like
+cartoon Smurfs (39). We assayed the maintenance of gut integrity
+in exercised vs. nonexercised controls using the Smurf assay to
+confirm that animals with intestinal epithelial integrity retained the
+blue dye within the intestinal tract, whereas animals with a com-
+promised intestinal barrier leak the blue dye to their body cavity
+(Fig. 4 B–D). We found that the percentage of Smurf animals in
+both control and exercise samples was very low at Ad8 after a
+3+3+2+2 regimen (Fig. 4E), consistent with prior studies that
+revealed the later life onset of this aspect of gut decline (39). Later
+in life (Ad11), we found that the proportion of Smurf animals was
+one-third lower in exercise versus control (Fig. 4E). Differences
+disappeared at Ad15 (Fig. 4E). We conclude that long-term swim
+exercise improves intestinal integrity and function, evident for a
+particular time-window later in C. elegans life.
+Learning Ability Is Enhanced in Exercised C. elegans. Benefits to
+nervous system function, including learning and memory en-
+hancement, are documented outcomes of mammalian exercise
+(40, 41). We therefore tested whether long-term exercise might
+improve associative neuronal functions in adult C. elegans.
+C. elegans can positively associate food with a specific chemical
+odor (e.g., butanone) (11, 42). We tested a paradigm in which
+animals are starved for 1 h followed by food-butanone condi-
+tioning in seeded NGM plates with 10% butanone for 1 h (Fig.
+5A). We performed chemotaxis assays by evaluating attraction
+toward butanone (normally a weak attractant) vs. isoamyl al-
+cohol (a natural strong attractant) for naïve and conditioned
+animals. Naïve animals (i.e., nonconditioned) are attracted al-
+most exclusively to isoamyl alcohol, whereas a significant pro-
+portion of food-butanone–conditioned animals choose butanone
+over isoamyl alcohol (Fig. 5A). The increase in chemotaxis toward
+butanone of conditioned animals relative to naïve animals corre-
+sponds to the learning index.
+Remarkably, we find that the 3+3+2+2 regimen increased the
+learning index of Ad5 exercised animals by an average of 35% as
+compared to nonexercised control counterparts (Fig. 5B). Despite
+the quantifiable increase in learning ability, short-term memory of
+exercised animals did not significantly improve; both control and
+exercised animals showed a 50% reduction in learning index 0.5-h
+postconditioning and just a residual learning index 1-h post-
+conditioning (SI Appendix, Fig. S8). These results reveal that long-
+term swim exercise enhances neuronal learning ability in adult C.
+elegans and raise the question as to whether specific neuronal cir-
+cuits or activities may be aided by particular exercise experiences.
+Long-Term Swim Exercise Improves Neuronal Health in Multiple C.
+elegans Neurodegeneration Models. An additional measure of
+neuronal health is the capacity to respond to stress induced by
+neurotoxic proteins. We therefore sought to determine whether
+exercise could counter pathological conditions in C. elegans models
+of human neurodegenerative disease. We started by analyzing a C.
+elegans strain that expresses the human aggregating F3ΔK280 Tau
+fragment together with the full-length (FL) mutant Tau V337M
+in all neurons (Prab-3F3ΔK280; Paex-3h4R1NTauV337M) (43). This
+tauopathy model is based on mutations commonly identified in
+patients with frontotemporal dementia with Parkinsonism linked
+to chromosome 17 (FTDP-17) (44). Transgenic strains exhibit
+robust toxicity phenotypes, including strongly impaired motility,
+reflected in a reduced mean velocity compared to antiaggregating
+strains (43). The 3+3+2+2 swim regimen led to a clear increase in
+mean velocity in exercised aggregating Tau animals, as assayed at
+Ad5, Ad8, and Ad11, relative to nonexercised control counterparts
+(Fig. 6A). We conclude that swim exercise can protect against the
+deleterious consequences of aggregating Tau.
+A second consequence of aggregating Tau expression in the
+C. elegans nervous system are severe morphological abnor-
+malities in nerve cords, such that gaps in the ventral and dor-
+sal cords can be observed during developmental and adult
+stages when GFP reporters are used for their visualization (43).
+We used a C. elegans strain in which the GABAergic motor
+neurons are GFP-labeled in the aggregating Tau background
+(Prab-3F3ΔK280; Paex-3h4R1NTauV337M; Punc-25GFP) (43) to quan-
+tify the number of gaps in GABAergic motor neurons in exercised
+vs. nonexercised control animals (Fig. 6B). We found that this strain
+exhibited severely uncoordinated locomotion and an overall un-
+healthy appearance; therefore, we elected to reduce the swim reg-
+imen to the first 2 d of adulthood and 5 swim sessions (3+2 regimen)
+Control Exercise
+Control Exercise
+Control Exercise
+Control Exercise
+0
+25
+50
+75
+100
+125
+Pharyngeal pumps / 30 s
+Day 5
+Day 11
+Day 15
+***
+*
+Day 8
+A
+B
+C
+D
+E
+8
+11
+15
+0
+10
+20
+30
+40
+50
+60
+70
+Days of adulthood
+% Smurf animals
+Control
+Exercise
+*
+Fig. 4.
+Pharyngeal and intestinal healthspans are extended after long-term swim exercise. (A) Pharyngeal pumping rate of Ad5, Ad8, Ad11, and Ad15 WT animals
+exposed to the 3+3+2+2 regimen. Each point represents a single animal. n = 66 to 87 animals. (B) Representative image of non-Smurf (first and third animals from
+left to right) and Smurf (second and fourth animals from left to right, arrows indicate leaks) animals. (C and D) Higher-magnification images of Smurf animals
+showing intestinal leakage in the anterior (C) and posterior (D) regions. Arrows in B–D indicate areas of blue dye leakage into the body cavity. (Scale bars, 50 μm.)
+(E) Percentage of Smurf animals at Ad8, Ad11, and Ad15 in WT nematodes exposed to the 3+3+2+2 regimen. n = 4 to 8 independent trials. *P ≤0.05, ***P ≤0.001.
+23834
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+Laranjeiro et al.
+
+to prevent overtraining, with analysis of cord morphology 1 d later.
+We find that swim-exercised Ad3 mutants exhibited a subtle but
+consistent decrease in the average number of gaps in GABAergic
+motor neurons relative to nonexercised controls (Fig. 6C). Taken
+together, our analysis of a tauopathy model demonstrates that
+swim exercise is able to improve pathological effects of neuronal
+aggregating Tau, both at the functional and morphological levels.
+We also addressed impact of exercise on a C. elegans AD model
+in which human amyloid-β (Aβ) peptide (1–42) is pan-neuronally
+expressed in a temperature-sensitive manner [smg-1(cc546ts)
+Psnb-1Aβ1–42::long 3′-UTR] (45). One of the phenotypes pre-
+viously described in this strain is a reduced chemotactic ability
+toward benzaldehyde (45). When raised at 23 °C (a tempera-
+ture that induces expression of Aβ1–42), chemotaxis perfor-
+mance of transgenic Aβ animals decreases rapidly during the
+first days of adulthood. We decided to limit the swim regimen
+for this strain to the first 2 d of adulthood (3+3 regimen) with
+assay at Ad3 because of the severity of chemotactic deficits
+exhibited at later time points (i.e., from Ad4 onward, animals
+exhibited virtually no chemotactic ability). We found that exercised
+Day 5 C. elegans after
+3+3+2+2 regimen
+Naïve
+chemotaxis assay
+Butanone
+Isoamyl
+alcohol
+Starvation in
+M9 buffer for 1h
+Food-butanone conditioning
+in seeded NGM plate
+with 10% butanone for 1h 
+0h post-conditioning
+chemotaxis assay
+Butanone
+Isoamyl
+alcohol
+A
+Control
+Exercise
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+Learning index
+**
+B
+Fig. 5.
+Learning ability is enhanced in exercised C.
+elegans. (A) Diagram of the associative learning assay.
+After the 3+3+2+2 regimen, we starved Ad5 animals
+for 1 h followed by food-butanone conditioning in a
+seeded NGM plate with 10% butanone solution on the
+inside of the lid. We performed chemotaxis assays of
+naïve and conditioned animals by testing attraction to
+butanone vs. isoamyl alcohol. (B) Learning index of
+Ad5 WT animals 0 h postconditioning after exposure
+to the 3+3+2+2 regimen. Chemotaxis index (CI) =
+(animal number at butanone −animal number at
+isoamyl alcohol)/(total animal number −immobile
+animal number at origin). We calculated learning in-
+dex by subtraction of naïve CI from postconditioning
+CI. n = 8 independent trials. **P ≤0.01.
+Control Exercise
+Control Exercise
+Control Exercise
+0.00
+0.03
+0.06
+0.09
+0.12
+0.15
+0.18
+0.21
+Mean velocity (mm/s)
+Day 5
+Day 8
+Day 11
+***
+****
+**
+A
+B
+Control
+Exercise
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+Number of gaps per animal
+**
+C
+D
+Control
+Exercise
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+Chemotaxis Index
+*
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+Animal proportion
+Day 5
+**
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+Day 8
+**
+Control
+Exercise
+0.00
+0.25
+0.50
+0.75
+1.00
+5 out of 5
+4 out of 5
+3 out of 5
+2 out of 5
+1 out of 5
+0 out of 5
+Day 11
+***
+Touch response:
+E
+Fig. 6.
+Long-term swim exercise improves neuronal health in multiple C. elegans neurodegeneration models. (A) Mean velocity of Ad5, Ad8, and Ad11 animals
+expressing aggregating Tau in all neurons (Prab-3F3ΔK280; Paex-3h4R1NTauV337M) exposed to the 3+3+2+2 regimen. Note that Tau-expressing animals did not exhibit
+a standard swimming motion due to impaired motility but were more active in liquid than on agar so enhanced activity during the assay was confirmed. Each point
+represents a single animal. n = 54 to 60 animals. (B) Representative confocal images of Ad3 animals expressing aggregating Tau in all neurons and GFP in GABAergic
+motor neurons (Prab-3F3ΔK280; Paex-3h4R1NTauV337M; Punc-25GFP). Arrows indicate gaps in the ventral cords. (Scale bar, 30 μm.) (C) Average number of gaps de-
+tectable in ventral and dorsal cords of Ad3 animals expressing aggregating Tau in all neurons and GFP in GABAergic motor neurons exposed to the 3+2 regimen. n =
+5 independent trials. Note that this strain did not exhibit a standard swimming motion due to the severe uncoordinated phenotype, which may explain the lack of up-
+regulation of muscle structural genes after the 3+2 regimen (SI Appendix, Fig. S9A). Nevertheless, animals were still more active in liquid than on agar so enhanced
+activity was confirmed. (D) CI toward benzaldehyde of Ad3 animals expressing neuronal Aβ1–42 [smg-1(cc546ts) Psnb-1Aβ1–42::long 3′-UTR] exposed to the 3+3 regimen.
+We raised animals at 23 °C from the egg stage onward. CI = (animal number at benzaldehyde half −animal number at ethanol half)/(total animal number −
+immobile animal number at origin). n = 5 independent trials. Note that this strain swam slower than WT, which may explain the lack of significant up-regulation of
+muscle structural genes after the 3+3 regimen (SI Appendix, Fig. S9B). (E) Anterior touch sensitivity of Ad5, Ad8, and Ad11 animals expressing polyQ128 in the touch
+receptor neurons (Pmec-3htt57Q128) exposed to the 3+3+2+2 regimen. n = 119 to 248 animals. *P ≤0.05, **P ≤0.01, ***P ≤0.001, ****P ≤0.0001.
+Laranjeiro et al.
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23835
+PHYSIOLOGY
+
+Ad3 Aβ1–42-expressing animals exhibited a significantly higher
+chemotaxis index toward benzaldehyde than nonexercised con-
+trol counterparts (Fig. 6D). Thus, swim exercise improves a neu-
+ronally controlled behavior in a C. elegans model of AD-
+associated toxicity.
+Finally, we tested exercise effects in a C. elegans HD model in
+which the first 57 amino acids of human Huntingtin protein
+(HTT) are fused to an expanded polyglutamine (polyQ128), and
+this transgene is expressed in 10 neurons including the 6 touch
+receptor neurons (Pmec-3htt57Q128) (46). The C. elegans touch
+receptor neurons mediate the response to gentle touch (47) and
+polyQ expression in these specific neurons greatly accelerates
+touch deficits during adult life (46, 48). After a 3+3+2+2 swim
+regimen, we performed touch sensitivity assays by quantifying the
+animal responsiveness to 5 gentle touches on the head or the tail
+at different days of adulthood blinded to previous exercise ex-
+perience of the animals. We found that exercised polyQ animals
+exhibited a significant improvement in touch sensitivity at Ad5,
+Ad8, and Ad11 for the anterior region (Fig. 6E), and at Ad5 and
+Ad8 for the posterior region (SI Appendix, Fig. S10). Thus, long-
+term swim exercise in C. elegans improves neuronal healthspan in
+a sensitized polyQ-mediated toxicity model.
+Overall, our testing of exercise impact on models in which hu-
+man disease proteins impair C. elegans adult neuron functions
+demonstrates that long-term swim exercise improves neuronal
+healthspan at both morphological and functional levels, for dif-
+ferent neuronal cell types in multiple neurodegeneration models.
+A particularly striking corollary is that sustained early adult swim
+training can confer a demonstrable health benefit even long after
+training has ended.
+Swim Exercise of Postreproductive C. elegans Also Improves Locomotory
+Vigor. One of the remarkable features of exercise in humans is the
+fact that exercise has been shown to be beneficial at all ages, in-
+cluding older adults even if they had never exercised before (49,
+50). We therefore sought to determine whether C. elegans exercise
+performed at a later stage of adult life could also promote health
+benefits. We designed an exercise regimen for postreproductive C.
+elegans based on 2 daily swim sessions over a period of 3 d
+(2+2+2 regimen) that we executed from Ad6 to Ad8 (Fig. 7A). To
+address potential overtraining of these older animals, we tested a
+shorter duration for each swim session (i.e., 60 min) in parallel
+with the usual 90-min swims. We found that the 2+2+2 regimen
+with 90-min swims promoted an increase in crawling maximum
+velocity of postreproductive exercised C. elegans on Ad9 but that
+improvement in locomotion disappeared by Ad12 (Fig. 7B).
+Postreproductive exercised animals that performed the 2+2+2
+regimen with 60-min swims exhibited a significant improvement in
+crawling maximum velocity on both Ad9 and Ad12 (Fig. 7C).
+These results show that postreproductive C. elegans can im-
+prove locomotory vigor upon swim exercise and that modified
+regimen in older animals can promote effective and long-lasting
+exercise benefits, akin to what we described above for young
+adult exercise.
+Discussion
+The development of short-lived genetic models in which funda-
+mental questions of exercise biology can be evaluated throughout
+the entire aging process holds great potential for advancing our
+knowledge on transtissue exercise signaling that improves old-age
+health. Here we define a long-term adult exercise regimen that
+induces robust exercise adaptations in multiple C. elegans tissues.
+We show that repeated daily swim sessions are essential for mo-
+lecular, morphological, and functional adaptations at the body wall
+muscle level. Moreover, whole-animal health parameters, in-
+cluding mitochondrial respiration and midlife survival, as well as
+functionality of tissues that are not directly involved in physical
+activity, such as pharynx and intestine, are improved by regular
+exercise. Exercise benefits to learning ability and to mitigating
+symptoms of neuronal pathologies in tauopathy, AD, and HD C.
+elegans models can accompany regular swimming in young adult-
+hood. Particularly noteworthy is that we find benefits of exercise
+regimens in young adult life that can be documented to extend late
+into life after the regular exercise period ends, a finding that
+suggests a potential switch mechanism for healthy aging trajecto-
+ries might be triggered by even limited early enhanced activity.
+How C. elegans Trains for Sustained Adult Health. We found that
+multiple swim sessions per day, occurring over several days, are
+essential for exercise-dependent molecular and functional adap-
+tations in C. elegans. Using muscle gene expression and locomo-
+tion performance as readouts, we identified the 3+3+2+2 regimen
+as the most consistent protocol that induces long-term exercise
+adaptations. Although we expect that particular health and fitness
+readouts might require a slightly adjusted multiple daily swim
+regimen to induce optimal exercise adaptation for a given pa-
+rameter, the 3+3+2+2 protocol does confer a broad swath of
+health improvements. Our data establishing the need for repeated
+exercise as required for health adaptations may partially explain
+the lack of mitochondrial adaptations and survival improvement
+previously reported for a vibration C. elegans exercise model (17)
+and the lack of locomotion improvement in a Duchenne muscular
+dystrophy C. elegans model swim-exercised 90 min per day (18), as
+these studies did not include exercise training in consecutive days
+or multiple times per day.
+The transient increase in physical activity during an exercise
+bout and the following postexercise recovery period are crucial
+for long-lasting exercise adaptation in mammals (27, 51). We in-
+troduced a 4.5-h minimum interval between swim sessions in our
+exercise regimens based on our previous documentation that most
+acute exercise changes return to baseline levels by 4-h postexercise
+(13). As rest and recovery appears to be important to instituting
+positive outcomes of exercise, we suggest that recently described
+regimens in C. elegans based on continuous burrowing or swim-
+ming over several days (18) may need to incorporate activity
+breaks to accomplish long-term benefits.
+We also note that our data indicate that the exercise regimen
+should be reduced to prevent overtraining and consequent del-
+eterious effects when working with strains with severe health
+deficits or older age animals. For example, a 4+4+4+4 regimen
+led to a decrease in overall health due to overtraining, which was
+particularly evident from the reduction in midlife survival of
+4+4+4+4 exercised animals. For nematodes and humans, then,
+recovery and moderation are factors in exercise health outcomes.
+Systemic Benefits of Exercise. Longevity. A majority of human ex-
+ercise studies support that exercise can reduce mortality risk and
+increase longevity of healthy subjects, patients, and elite athletes,
+although some studies suggest a negative or neutral association
+between exercise and lifespan in humans (33–36). A fair general-
+ization may be that the extent of the exercise benefits is variable
+and dependent in part on the type of exercise, the population
+studied, and the particular outcomes recorded. Similar to obser-
+vations in humans, the effect of exercise on C. elegans longevity
+seems to be highly dependent on the adopted exercise regimen with
+reported outcomes in previous studies varying from detrimental to
+beneficial (14–18). Our 3+3+2+2 swim exercise regimen promoted
+a consistent increase in midlife population survival rather than an
+increase in maximum lifespan. Thus, exercised populations are able
+to survive extra days during the time-window when the mortality
+rate is at its peak. It is important to note that in our studies, this
+time-window occurs 8 to 16 d after the last exercise session, raising
+the possibility that extension of the swim regimen beyond the first
+4 d of adulthood may further potentiate survival differences and
+underscoring that early adult activity can have long lasting impact
+on healthy aging.
+23836
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+Laranjeiro et al.
+
+Nonexercising cardiac-like muscle. One of the pressing questions in
+exercise biology is how physical activity can promote health
+benefits in multiple tissues of the body, especially in those tissues
+not directly engaged by neuromuscular activity. We found that
+long-term swim exercise in C. elegans increases pharyngeal
+pumping rate during midlife, reflecting a delay in the age-
+associated decline of cardiac-like muscle function (37). In the
+case of C. elegans, the pumping mechanism is inhibited rather than
+accelerated during swim training, so the pharyngeal muscle itself
+does not “train,” yet pharyngeal functional health nonetheless
+improves with exercise. Our observations raise the possibility that
+some exercise benefits to human heart might be conferred via
+transtissue signals rather than exercise-enhanced heart contraction.
+Intestinal integrity. We also observed a significant improvement of
+the older age intestinal barrier function in exercised C. elegans,
+establishing that enhanced gut health is a systemic effect of ex-
+ercise experience. In humans, exercise has been shown to reduce
+the risk of gastrointestinal cancer, diverticulitis, and inflammatory
+bowel disease (52), although high-intensity, prolonged exercise
+sessions will cause an acute increase in intestinal permeability (or
+“leaky gut”) (53), which has been associated with infectious dis-
+eases, obesity, and autoimmune diseases (54). We suggest that an
+exercise-dependent hormetic effect on intestinal function can rec-
+oncile these apparently contradictory findings: Acute exercise bouts
+may enhance intestinal permeability, but regular exercise training
+will promote intestinal adaptation over time that might enhance
+intestinal barrier function, similar to what we detected in C. elegans.
+Age-associated neuronal decline and neurodegeneration stresses. Our
+study presents clear evidence that exercise in C. elegans promotes
+neuronal health at multiple levels. Kauffman et al. (11) have
+shown that the learning process is molecularly distinct from
+memory formation; and that capacity for learning declines with
+age. We show that learning ability is markedly increased in swim-
+exercised WT animals, whereas short-term memory retention is
+not significantly improved by the exercise regimen we implement
+here. Interestingly, other longevity paradigms have been reported
+to have focused impact on particular components of the learning/
+memory process (11): Dietary-restricted eat-2 mutants retain the
+ability to learn for longer and maintain short- and long-term
+memory with age, but daf-2 reduced insulin signaling mutants
+retain the ability to learn for longer but lose long-term memory at
+the same rate as WT (11). Overall, the fact that swim exercise
+enhances adult learning capacity reveals that particular neuronal
+capabilities can be improved as a result of animal activity and
+adds maintained neuronal function to the list of healthspan
+benefits of exercise in C. elegans.
+Numerous studies in animal models and humans show that ex-
+ercise can improve cognitive function and reduce the risk of de-
+veloping dementia later in life (40, 41). However, the effect of
+exercise on dementia patients is not clear, with outcomes of pub-
+lished studies ranging from detrimental to beneficial exercise out-
+comes (55–58). Taking advantage of neurodegeneration models of
+human disease in C. elegans, we show that swim exercise improves
+neuronal healthspan in disease protein-stressed neurons, at both
+morphological and functional levels, for different neuronal cell
+types. We detected exercise-dependent health benefits for motor
+neurons, chemosensory neurons, and touch receptor neurons in
+tauopathy, AD, and HD conditions, respectively, revealing a broad
+impact of exercise in maintaining health in the C. elegans nervous
+system confronted with disease stresses. Exercise prescription by
+primary care physicians is currently recommended as a way to
+improve patients’ general health and reduce all-cause mortality
+(59). Our data strengthen the case that exercise can have powerful
+beneficial effects on neurodegenerative disease conditions.
+Overall, the documentation of transtissue impact of exercise
+makes it clear that C. elegans can be used as a model for the
+detailed mechanistic dissection of the molecular and tissue cir-
+cuits that maintain animal vigor as a consequence of exercise.
+Exercise during Early Adult Life Can Have Clear Long-Term Impact on
+Later Adult Health. We show in this study that long-term swim
+exercise in C. elegans induces health benefits at the body wall
+muscle, pharyngeal, intestinal, and neuronal levels. Remarkably,
+most of the exercise-dependent benefits are long lasting, with ef-
+fects still detectable up to 7 to 16 d after the last exercise session
+for specific assays. Moreover, even exercise in postreproductive C.
+elegans can promote long-lasting locomotory improvements. In-
+terestingly, a recent study shows that human volunteers who en-
+rolled in an 8-mo exercise regimen still exhibit improvements in
+aerobic capacity and metabolic health 10 y after completion of
+exercise training (60). Thus, persistent health benefits of previous
+exercise training may be conserved from nematodes to humans. If
+so, the establishment of C. elegans as an exercise model opens the
+exciting possibility of uncovering the molecular signals responsible
+for life-long, exercise-dependent systemic health benefits.
+Materials and Methods
+C. elegans Strains and Maintenance. The C. elegans strains used in this study were:
+N2 (WT strain), SJ4103 zcIs14[Pmyo-3mitoGFP] (61), BR6563 byIs161[Prab-3F3ΔK280;
+Pmyo-2mCherry]; bkIs10[Paex-3h4R1NTauV337M; Pmyo-2GFP] (43), BR5707
+byIs161[Prab-3F3ΔK280; Pmyo-2mCherry]; bkIs10[Paex-3h4R1NTauV337M; Pmyo-2GFP];
+juIs73[Punc-25GFP] III (43), CL2355 smg-1(cc546ts) dvIs50[Psnb-1Aβ1–42::long 3′-UTR
+Pmtl-2GFP] I (45), and ID1 igIs1[Pmec-3htt57Q128::CFP, Pmec-7YFP, lin-15(+)] (46).
+We maintained nematodes at 20 °C on NGM plates seeded with live E. coli
+OP50-1, as previously described (62), unless otherwise stated.
+Long-Term Swim Exercise Protocols. We used 2 different methods for our
+long-term swim exercise experiments: The picking method and the washing
+method. We performed the picking method for all of the experiments
+presented in this study, except for the oxygen consumption rates and
+B
+C
+Control Exercise
+Control Exercise
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+0.24
+0.28
+0.32
+Maximum velocity (mm/s)
+***
+Day 9
+Day 12
+90 min swim sessions
+Control Exercise
+Control Exercise
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+0.24
+0.28
+0.32
+Maximum velocity (mm/s)
+***
+Day 9
+Day 12
+*
+60 min swim sessions
+A
+Adult day 6
+Adult day 7
+Adult day 8
+Exercise
+regimen
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+7 
+AM
+1 
+PM
+7 
+PM
+1 
+AM
+2+2+2
+9
+9
+9
+9
+9
+9
+Fig. 7.
+Swim exercise of postreproductive C. elegans also improves locomotory vigor. (A) Diagram of the 2+2+2 exercise regimen performed with post-
+reproductive animals (from Ad6 to Ad8) indicating the time of the day of each exercise session. We tested swim sessions with a duration of 90 and 60 min. (B
+and C) Crawling maximum velocity of Ad9 and Ad12 WT animals exposed to the 2+2+2 regimen with swim sessions of 90 min (B) or 60 min (C). Each point
+represents a single animal. n = 59 to 60 animals. *P ≤0.05, ***P ≤0.001.
+Laranjeiro et al.
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23837
+PHYSIOLOGY
+
+associative learning assays in which we used the washing method due to the
+high number of animals required for each assay. Details are in SI Appendix.
+Other Assays. Detailed information about all of the other assays we per-
+formed (qPCR, maximum and mean velocity, microfluidic assay, burrowing
+assay, confocal microscopy, oxygen consumption rates, lifespan assay, pha-
+ryngeal pumping rate, Smurf assay, learning assay, chemotaxis assay, and
+touch-sensitivity assay) can be found in SI Appendix.
+Statistical Analyses. The data in this study are presented as the mean ± SEM.
+We performed a minimum of 3 independent trials for each experiment. The
+specific number of data points and the test used for each statistical analysis
+are detailed in SI Appendix.
+ACKNOWLEDGMENTS. We thank Leila Lesanpezeshki for help with pro-
+duction of microfluidic devices; Charline Borghgraef for help with pro-
+tocol optimization of associative learning assays; Ralf Baumeister for
+providing the BR6563 and BR5707 C. elegans strains; and J. Alex Parker
+and Christian Néri for providing the ID1 C. elegans strain. The other strains
+used in this study were provided by the Caenorhabditis Genetics Center,
+which is funded by NIH Office of Research Infrastructure Programs (P40
+OD010440). This work was funded in part by National Institute on Aging
+(NIA) Grant R01AG051995 (to M.D.), National Institute of Environmental
+Health Sciences (NIEHS) Grant R01ES028218 (to J.N.M.), National Aeronau-
+tics and Space Administration (NASA) Grant NNX15AL16G (to J.E.H. and
+S.A.V.), and postdoctoral fellowships from Life Sciences Research Founda-
+tion (Award Laranjeiro-2015, sponsored by Simons Foundation; to R.L.),
+American Heart Association (Award 18POST33960502; to R.L.), and NIEHS
+(Award F32ES027306; to J.H.H.).
+1. I. M. Lee et al.; Lancet Physical Activity Series Working Group, Effect of physical in-
+activity on major non-communicable diseases worldwide: An analysis of burden of
+disease and life expectancy. Lancet 380, 219–229 (2012).
+2. F. J. Penedo, J. R. Dahn, Exercise and well-being: A review of mental and physical
+health benefits associated with physical activity. Curr. Opin. Psychiatry 18, 189–193
+(2005).
+3. M. Reiner, C. Niermann, D. Jekauc, A. Woll, Long-term health benefits of physical
+activity—A systematic review of longitudinal studies. BMC Public Health 13, 813
+(2013).
+4. N. Piazza, B. Gosangi, S. Devilla, R. Arking, R. Wessells, Exercise-training in young
+Drosophila melanogaster reduces age-related decline in mobility and cardiac per-
+formance. PLoS One 4, e5886 (2009).
+5. A. Sujkowski, B. Bazzell, K. Carpenter, R. Arking, R. J. Wessells, Endurance exercise and
+selective breeding for longevity extend Drosophila healthspan by overlapping
+mechanisms. Aging (Albany N.Y.) 7, 535–552 (2015).
+6. S. Mendez et al., The TreadWheel: A novel apparatus to measure genetic variation in
+response to gently induced exercise for Drosophila. PLoS One 11, e0164706 (2016).
+7. C. Huang, C. Xiong, K. Kornfeld, Measurements of age-related changes of physio-
+logical processes that predict lifespan of Caenorhabditis elegans. Proc. Natl. Acad. Sci.
+U.S.A. 101, 8084–8089 (2004).
+8. L. A. Herndon et al., Stochastic and genetic factors influence tissue-specific decline in
+ageing C. elegans. Nature 419, 808–814 (2002).
+9. C. Restif et al., CeleST: Computer vision software for quantitative analysis of C. elegans
+swim behavior reveals novel features of locomotion. PLoS Comput. Biol. 10, e1003702
+(2014).
+10. J. H. Hahm et al., C. elegans maximum velocity correlates with healthspan and is
+maintained in worms with an insulin receptor mutation. Nat. Commun. 6, 8919
+(2015).
+11. A. L. Kauffman, J. M. Ashraf, M. R. Corces-Zimmerman, J. N. Landis, C. T. Murphy,
+Insulin signaling and dietary restriction differentially influence the decline of learning
+and memory with age. PLoS Biol. 8, e1000372 (2010).
+12. S. G. Regmi, S. G. Rolland, B. Conradt, Age-dependent changes in mitochondrial
+morphology and volume are not predictors of lifespan. Aging (Albany N.Y.) 6, 118–
+130 (2014).
+13. R. Laranjeiro, G. Harinath, D. Burke, B. P. Braeckman, M. Driscoll, Single swim sessions
+in C. elegans induce key features of mammalian exercise. BMC Biol. 15, 30 (2017).
+14. J. H. Hartman et al., Swimming exercise and transient food deprivation in Caenorhabditis
+elegans promote mitochondrial maintenance and protect against chemical-induced mi-
+totoxicity. Sci. Rep. 8, 8359 (2018).
+15. H. S. Chuang, W. J. Kuo, C. L. Lee, I. H. Chu, C. S. Chen, Exercise in an electrotactic flow
+chamber ameliorates age-related degeneration in Caenorhabditis elegans. Sci. Rep. 6,
+28064 (2016).
+16. S. N. Chaudhari, E. T. Kipreos, Increased mitochondrial fusion allows the survival of
+older animals in diverse C. elegans longevity pathways. Nat. Commun. 8, 182 (2017).
+17. E. Teo et al., A novel vibration-induced exercise paradigm improves fitness and lipid
+metabolism of Caenorhabditis elegans. Sci. Rep. 8, 9420 (2018).
+18. K. J. Hughes et al., Physical exertion exacerbates decline in the musculature of an
+animal model of Duchenne muscular dystrophy. Proc. Natl. Acad. Sci. U.S.A. 116,
+3508–3517 (2019).
+19. A. M. Rivera-Brown, W. R. Frontera, Principles of exercise physiology: Responses to
+acute exercise and long-term adaptations to training. PM R 4, 797–804 (2012).
+20. R. Ghosh, S. W. Emmons, Episodic swimming behavior in the nematode C. elegans.
+J. Exp. Biol. 211, 3703–3711 (2008).
+21. N. K. Stepto et al., Global gene expression in skeletal muscle from well-trained
+strength and endurance athletes. Med. Sci. Sports Exerc. 41, 546–565 (2009).
+22. J. A. Timmons et al., Human muscle gene expression responses to endurance training
+provide a novel perspective on Duchenne muscular dystrophy. FASEB J. 19, 750–760
+(2005).
+23. J. St-Amand et al., Effects of mild-exercise training cessation in human skeletal
+muscle. Eur. J. Appl. Physiol. 112, 853–869 (2012).
+24. A. Mergoud Dit Lamarche et al., UNC-120/SRF independently controls muscle aging
+and lifespan in Caenorhabditis elegans. Aging Cell, 17 (2018).
+25. F. Lebois et al., Locomotion control of Caenorhabditis elegans through confinement.
+Biophys. J. 102, 2791–2798 (2012).
+26. L. Lesanpezeshki et al., Pluronic gel-based burrowing assay for rapid assessment of
+neuromuscular health in C. elegans. bioRxiv:10.1101/632083 (9 May 2019).
+27. B. Egan, J. R. Zierath, Exercise metabolism and the molecular regulation of skeletal
+muscle adaptation. Cell Metab. 17, 162–184 (2013).
+28. C. J. Gaffney et al., Greater loss of mitochondrial function with ageing is associated
+with earlier onset of sarcopenia in C. elegans. Aging (Albany N.Y.) 10, 3382–3396
+(2018).
+29. S. D. Cothren, J. N. Meyer, J. H. Hartman, Blinded visual scoring of images using the
+freely-available software blinder. Bio Protoc. 8, e3103 (2018).
+30. A. L. Luz, L. L. Smith, J. P. Rooney, J. N. Meyer, Seahorse Xfe 24 extracellular flux
+analyzer-based analysis of cellular respiration in Caenorhabditis elegans. Curr. Protoc.
+Toxicol. 66, 25.7.1–25.7.15 (2015).
+31. P. S. Brookes, Mitochondrial H(+) leak and ROS generation: An odd couple. Free
+Radic. Biol. Med. 38, 12–23 (2005).
+32. B. K. Chacko et al., The Bioenergetic Health Index: A new concept in mitochondrial
+translational research. Clin. Sci. (Lond.) 127, 367–373 (2014).
+33. J. R. Ruiz, M. Morán, J. Arenas, A. Lucia, Strenuous endurance exercise improves life
+expectancy: It’s in our genes. Br. J. Sports Med. 45, 159–161 (2011).
+34. V. Gremeaux et al., Exercise and longevity. Maturitas 73, 312–317 (2012).
+35. J. Vina, F. Sanchis-Gomar, V. Martinez-Bello, M. C. Gomez-Cabrera, Exercise acts as a
+drug; the pharmacological benefits of exercise. Br. J. Pharmacol. 167, 1–12 (2012).
+36. K. Mandsager et al., Association of cardiorespiratory fitness with long-term mortality
+among adults undergoing exercise treadmill testing. JAMA Netw. Open 1, e183605
+(2018).
+37. S. E. Mango, The C. elegans pharynx: A model for organogenesis. WormBook, 1–26
+(2007).
+38. J. D. McGhee, The C. elegans intestine. WormBook, 1–36 (2007).
+39. S. Gelino et al., Correction: Intestinal autophagy improves healthspan and longevity
+in C. elegans during dietary restriction. PLoS Genet. 12, e1006271 (2016).
+40. Y. Liu et al., The beneficial effects of physical exercise in the brain and related
+pathophysiological mechanisms in neurodegenerative diseases. Lab. Invest. 99, 943–
+957 (2019).
+41. L. Mandolesi et al., Effects of physical exercise on cognitive functioning and well-
+being: Biological and psychological benefits. Front. Psychol. 9, 509 (2018).
+42. I. Torayama, T. Ishihara, I. Katsura, Caenorhabditis elegans integrates the signals of
+butanone and food to enhance chemotaxis to butanone. J. Neurosci. 27, 741–750
+(2007).
+43. C. Fatouros et al., Inhibition of tau aggregation in a novel Caenorhabditis elegans
+model of tauopathy mitigates proteotoxicity. Hum. Mol. Genet. 21, 3587–3603
+(2012).
+44. M. von Bergen et al., Mutations of tau protein in frontotemporal dementia promote
+aggregation of paired helical filaments by enhancing local beta-structure. J. Biol.
+Chem. 276, 48165–48174 (2001).
+45. Y. Wu et al., Amyloid-beta-induced pathological behaviors are suppressed by Ginkgo
+biloba extract EGb 761 and ginkgolides in transgenic Caenorhabditis elegans.
+J. Neurosci. 26, 13102–13113 (2006).
+46. J. A. Parker et al., Expanded polyglutamines in Caenorhabditis elegans cause axonal
+abnormalities and severe dysfunction of PLM mechanosensory neurons without cell
+death. Proc. Natl. Acad. Sci. U.S.A. 98, 13318–13323 (2001).
+47. M. Chalfie et al., The neural circuit for touch sensitivity in Caenorhabditis elegans.
+J. Neurosci. 5, 956–964 (1985).
+48. E. M. Vayndorf et al., Morphological remodeling of C. elegans neurons during aging
+is modified by compromised protein homeostasis. NPJ Aging Mech. Dis. 2, 16001
+(2016).
+49. M. Pahor et al.; LIFE study investigators, Effect of structured physical activity on
+prevention of major mobility disability in older adults: The LIFE study randomized
+clinical trial. JAMA 311, 2387–2396 (2014).
+50. D. Taylor, Physical activity is medicine for older adults. Postgrad. Med. J. 90, 26–32
+(2014).
+51. P. A. Bishop, E. Jones, A. K. Woods, Recovery from training: A brief review: Brief
+review. J. Strength Cond. Res. 22, 1015–1024 (2008).
+52. E. P. de Oliveira, R. C. Burini, The impact of physical exercise on the gastrointestinal
+tract. Curr. Opin. Clin. Nutr. Metab. Care 12, 533–538 (2009).
+53. R. J. S. Costa, R. M. J. Snipe, C. M. Kitic, P. R. Gibson, Systematic review: Exercise-
+induced gastrointestinal syndrome-implications for health and intestinal disease.
+Aliment. Pharmacol. Ther. 46, 246–265 (2017).
+54. J. König et al., Human intestinal barrier function in health and disease. Clin. Transl.
+Gastroenterol. 7, e196 (2016).
+23838
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1909210116
+Laranjeiro et al.
+
+55. N. J. Kirk-Sanchez, E. L. McGough, Physical exercise and cognitive performance in the
+elderly: Current perspectives. Clin. Interv. Aging 9, 51–62 (2014).
+56. S. E. Lamb et al.; DAPA Trial Investigators, Dementia and physical activity (DAPA) trial
+of moderate to high intensity exercise training for people with dementia: Randomised
+controlled trial. BMJ 361, k1675 (2018).
+57. D. Forbes, S. C. Forbes, C. M. Blake, E. J. Thiessen, S. Forbes, Exercise programs for
+people with dementia. Cochrane Database Syst. Rev., CD006489 (2015).
+58. C. Groot et al., The effect of physical activity on cognitive function in patients with de-
+mentia: A meta-analysis of randomized control trials. Ageing Res. Rev. 25, 13–23 (2016).
+59. E. M. Phillips, M. A. Kennedy, The exercise prescription: A tool to improve physical
+activity. PM R 4, 818–825 (2012).
+60. J. L. Johnson, C. A. Slentz, L. M. Ross, K. M. Huffman, W. E. Kraus, Ten-year legacy
+effects of three eight-month exercise training programs on cardiometabolic health
+parameters. Front. Physiol. 10, 452 (2019).
+61. C. Benedetti, C. M. Haynes, Y. Yang, H. P. Harding, D. Ron, Ubiquitin-like protein
+5 positively regulates chaperone gene expression in the mitochondrial unfolded
+protein response. Genetics 174, 229–239 (2006).
+62. S. Brenner, The genetics of Caenorhabditis elegans. Genetics 77, 71–94 (1974).
+Laranjeiro et al.
+PNAS
+|
+November 19, 2019
+|
+vol. 116
+|
+no. 47
+|
+23839
+PHYSIOLOGY

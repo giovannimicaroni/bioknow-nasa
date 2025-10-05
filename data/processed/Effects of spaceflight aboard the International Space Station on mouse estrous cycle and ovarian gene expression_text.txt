@@ -1,0 +1,980 @@
+ARTICLE
+OPEN
+Effects of spaceﬂight aboard the International Space Station
+on mouse estrous cycle and ovarian gene expression
+Xiaoman Hong1, Anamika Ratri1, Sungshin Y. Choi2, Joseph S. Tash1, April E. Ronca3,4, Joshua S. Alwood
+3 and
+Lane K. Christenson
+1✉
+Ovarian steroids dramatically impact normal homeostatic and metabolic processes of most tissues within the body, including
+muscle, bone, neural, immune, cardiovascular, and reproductive systems. Determining the effects of spaceﬂight on the ovary and
+estrous cycle is, therefore, critical to our understanding of all spaceﬂight experiments using female mice. Adult female mice (n = 10)
+were exposed to and sacriﬁced on-orbit after 37 days of spaceﬂight in microgravity. Contemporary control (preﬂight baseline,
+vivarium, and habitat; n = 10/group) groups were maintained at the Kennedy Space Center, prior to sacriﬁce and similar tissue
+collection at the NASA Ames Research Center. Ovarian tissues were collected and processed for RNA and steroid analyses at initial
+carcass thaw. Vaginal wall tissue collected from twice frozen/thawed carcasses was ﬁxed for estrous cycle stage determinations. The
+proportion of animals in each phase of the estrous cycle (i.e., proestrus, estrus, metestrus, and diestrus) did not appreciably differ
+between baseline, vivarium, and ﬂight mice, while habitat control mice exhibited greater numbers in diestrus. Ovarian tissue steroid
+concentrations indicated no differences in estradiol across groups, while progesterone levels were lower (p < 0.05) in habitat and
+ﬂight compared to baseline females. Genes involved in ovarian steroidogenic function were not differentially expressed across
+groups. As ovarian estrogen can dramatically impact multiple non-reproductive tissues, these data support vaginal wall estrous
+cycle classiﬁcation of all female mice ﬂown in space. Additionally, since females exposed to long-term spaceﬂight were observed at
+different estrous cycle stages, this indicates females are likely undergoing ovarian cyclicity and may yet be fertile.
+npj Microgravity  (2021) 7:11 ; https://doi.org/10.1038/s41526-021-00139-7
+INTRODUCTION
+Spaceﬂight microgravity is known to impact numerous physiolo-
+gical systems. These include cardiovascular changes, decreased
+bone mineral density, loss of muscle tone, adipogenesis, insulin
+resistance, vision and vestibular disturbances, altered ﬂuid and
+electrolyte balance, and altered kidney function to name a few1.
+Many, if not all, normal homeostatic processes occurring within
+mammals, both male and female, are dramatically impacted by
+gonadal hormones. Indeed, the reproductive system is often
+considered one of the best markers of overall health and ﬁtness of
+an animal2. However, research is limited regarding the effects of
+spaceﬂight on the reproductive system and its consequences on
+normal physiology3,4.
+The ovarian steroid hormones, estrogen and progesterone, play
+a signiﬁcant role in regulating a myriad of physiological functions,
+and are subject to cyclic changes based on the hypothalamic/
+pituitary regulation of ovarian folliculogenesis5. Moreover, ovarian
+steroidogenic output can be dramatically impacted by stress as
+well as other internal homeostatic processes6. In cycling rodents,
+the antral follicle is the primary steroidogenic tissue within the
+ovary, unless mating occurs at which time the corpus luteum
+becomes
+the
+major
+producer
+of
+progesterone.
+The
+mural
+granulosa cells and the vascularized theca cells within the antral
+ovarian follicles are responsible for the enzymatic conversion of
+cholesterol to its ultimate endpoint product estradiol. In addition
+to steroidogenesis, these follicular cells also carry out the critical
+missions of nurturing the enclosed growing oocyte, as well as
+facilitating the process of ovulation, or expulsion of oocyte, and
+subsequent formation of the ephemeral corpus luteum. Cyclic and
+temporal
+changes
+in
+expression
+of
+steroidogenic
+pathway
+proteins and other critically important ovarian genes known to
+play critical roles in ovulation, oocyte development and corpus
+luteum development and function are well known and may be
+evaluated to provide information regarding ovarian function.
+Understanding these molecular changes is vital for informing
+female reproductive health during and after spaceﬂight.
+To date, studies of ovarian function and fertility in mice exposed
+to microgravity during NASA Space Shuttle ﬂights were of short
+duration (<12 days) and, importantly, all included the effects of
+live reentry prior to collection of tissues and analysis of animal
+behavior3,7. Similarly, pregnant female rats ﬂown on Cosmos 1514
+(1982), NASA-NIH Rodent (R)1 (STS-66 in 1994), and NASA-NIH R2
+(STS-70 in 1995) were of short duration (4.5–11 days) and had live
+animal return8–10. Notably, in the pregnant rats no effects of
+spaceﬂight on healthy and atretic ovarian antral follicle popula-
+tions, fetal wastage in utero, plasma concentrations of progester-
+one and luteinizing hormone (LH) or pituitary content of follicle
+stimulating hormone (FSH) were noted8. Spaceﬂight, however,
+signiﬁcantly
+increased
+plasma
+concentrations
+of
+FSH
+and
+decreased pituitary content of LH analyzed postpartum (day
+22–23;8). In these prior studies, it is not possible to separate the
+effects of microgravity from that of reentry with the associated
+hypergravity, turbulence, and the likely ensuing stress responses
+linked to these events. Moreover, these studies while evaluating
+maintenance of pregnancy, provide no information regarding the
+fertility of these animals and their ability to exhibit normal estrous
+cycles and ovarian function. The current investigation provides
+insights into the endocrine status and ovarian cyclicity of female
+1Department of Molecular and Integrative Physiology, University of Kansas Medical Center, Kansas City, KS, USA. 2KBR, NASA-Ames Research Center, Moffett Field, CA, USA.
+3Space Biosciences Division, NASA-Ames Research Center, Moffett Field, CA, USA. 4Department of Obstetrics & Gynecology, Wake Forest Medical School, Winston-Salem, NC, USA.
+✉email: lchristenson@kumc.edu
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+mice following an extended period of exposure to microgravity in
+the absence of reentry effects. Addressing the effects of extended
+duration spaceﬂight on endocrine status are signiﬁcant and of
+high impact to long-term female astronaut health before and after
+ﬂight, interpretation of spaceﬂight ﬁndings derived from female
+mice, and for long-term plans for multigenerational mammalian
+studies in spaceﬂight.
+RESULTS
+Estrous cycle staging
+Estrous cycle stage for each mouse was determined by three
+independent investigators blinded to treatment group categories.
+Figure 1 shows representative H&E stained cross sections of
+vaginal wall tissue from the individual ﬂight and habitat control
+animals following collection after the second carcass thaw during
+March of 2016. Each stage of the estrous cycle is depicted in
+Fig. 1. Proestrus is characterized by the presence of a thick layer
+of stratiﬁed squamous epithelium, with an absence of luminal
+cells and any corniﬁed epithelial cells (Fig. 1a). Estrous stage
+animals exhibit a stratiﬁed squamous epithelium with a layer of
+corniﬁed epithelial [red eosin stained cells above the nucleated
+stratiﬁed squamous epithelial cells (Fig. 1b)]. Often, this corniﬁed
+layer is delaminated from the underlying epithelial cells. In
+metestrus, leukocytes appear and traverse the nucleated epithe-
+lial layer to reach the delaminated mass of corniﬁed stratiﬁed
+squamous epithelium in the lumen (Fig. 1c). During diestrus, the
+vaginal wall is characterized by columnar muciﬁed cells next to a
+thin layer of nucleated epithelium (Fig. 1d). Staging of the mice
+indicated that the majority of the animals in the baseline control
+group (6/9), the vivarium control group (5/8), and the ﬂight group
+(6/10) were in estrus (Table 1). In comparison, habitat control
+mice presented at all stages of the cycle in approximately equal
+amounts (n = 2 or 3/stage). Flight group mice presented at estrus
+(n = 6) and metestrus (n = 4; Table 1).
+Ovarian RNA quality and tissue steroid levels
+Ovarian RNA quality varied appreciably depending upon whether
+it was ﬂash-frozen in LN or placed in RNAlater (Fig. 2).
+Representative electropherograms from the Agilent 2100 are
+shown for 2 mice collected in either RNAlater or LN. Overall, RNA
+quality as determined by Agilent RNA integrity numbers (RIN
+values) from tissues frozen in LN were greater (p < 0.05) in every
+animal, and overall averaged around 5.71 ± 0.12 compared to
+4.08 ± 0.11 for RNAlater preserved ovarian tissue (Fig. 2b). To
+evaluate ovarian hormone production without access to serum,
+whole ovarian tissue steroid levels were determined. Ovarian
+tissue E2 levels were not signiﬁcantly different across experi-
+mental groups (Fig. 3a). In contrast, whole ovarian tissue P4 levels
+were signiﬁcantly lower in the habitat control (p = 0.005) and
+ﬂight mice (p = 0.013) in comparison to baseline control mice
+(Fig. 3b). Due to insufﬁcient animal numbers at individual stages
+within treatment groups, we were unable to evaluate stage effects
+alone and stage-treatment interactions.
+Ovarian tissue gene expression analyses
+Quantitative RT-PCR analysis of critical proteins involved in ovarian
+function and steroidogenesis were compared across treatment
+**
+*
+*
+*
+a
+b
+c
+d
+Fig. 1
+Hematoxylin and eosin staining of vaginal walls used for estrous cycle staging. Vaginal wall estrous cycle staging was completed on
+all mice (n = 40). Representative sections from two ﬂight and two habitat control mice depict each stage of the estrous cycle a proestrus,
+b estrus, c metestrus, and d diestrus. *Marks the vaginal lumen. Images were taken at ×20 using brightﬁeld microscopy; scale bar measures
+100 μm.
+Table 1.
+Number of mice at each stage of the estrous cycle (n = 10/
+group).
+Proestrus
+Estrus
+Metestrus
+Diestrus
+ND
+Baseline
+2
+6
+0
+1
+1
+Vivarium
+3
+5
+0
+0
+2
+Habitat
+2
+3
+2
+3
+0
+Flight
+0
+6
+4
+0
+0
+ND not determinable.
+X. Hong et al.
+2
+npj Microgravity (2021)  11 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+groups irrespective of stage of the cycle (Fig. 4, Supplementary
+Fig.
+2).
+Spaceﬂight
+had
+no
+demonstrable
+effect
+on
+gene
+expression of any of the key enzymatic steps of steroidogenesis
+or mitochondrial cholesterol uptake expression. Ovarian Cyp17a1
+mRNA levels were elevated (p ≤0.05) in mice housed in the
+habitat maintained on the ground (HC) when compared to
+baseline and vivarium controls but were not different from ﬂight
+animals that were housed in the habitat on the ISS (Fig. 4).
+Analysis of other critically important ovarian genes involved in
+steroidogenic production and action, including estrogen receptors
+(Esr1 and Esr2), scavenger receptor class B type 1 (Scarb1),
+luteinizing hormone receptor (Lhcgr) as well as oocyte-speciﬁc
+proteins, growth differentiation factor 9 (Gdf9), zona pellucida
+glycoprotein 3 (Zp3) showed no differences across the treatment
+groups (Supplementary Fig. 1).
+Comparison of ovarian gene expression at different stages of the
+estrous cycle did not vary signiﬁcantly with exception of proestrus,
+where
+P450
+aromatase
+(Cyp19a1)
+expression
+was
+elevated
+(p ≤0.05) ~4-fold compared to all other stages (Fig. 5). Lastly, as
+each group of animals had at least three animals staged at estrus,
+we compared the gene expression across the four treatment
+groups at this stage (Fig. 6). Levels of steroidogenic acute
+regulatory protein (Star), P450 cholesterol side chain cleavage
+(Cyp11a1), 3β-hydroxysteroid dehydrogenase (Hsd3b1), Cyp19a1,
+and liver receptor homolog-1 (Nr5a2) expression did not change
+appreciably across experimental conditions. Expression of Cyp17a1
+under baseline and vivarium control conditions were signiﬁcantly
+decreased (p < 0.05) compared to habitat control conditions (p <
+0.05). Ovarian Cyp17a1 levels in ﬂight animals in estrus were not
+notably different from estrus stage animals in the other experi-
+mental conditions (Fig. 6). Examination of other critical ovarian
+genes during estrus showed no signiﬁcant changes in expression
+levels across control and ﬂight conditions (Supplementary Fig. 2).
+DISCUSSION
+Rodent Research-1 (RR-1), a Validation mission launched aboard
+SpaceX’s fourth cargo resupply mission, was the ﬁrst to transport
+rodents to the International Space Station (ISS) in an unmanned
+commercial vehicle. Lasting 37 days in microgravity, RR-1 was, at
+the time, the longest space rodent study conducted by NASA. In-
+ﬂight studies of RR1 mouse behavior and post-ﬂight physiology
+revealed the Validation mice showed no overt physiological signs
+of chronic stress or compromised health or welfare11. Moreover,
+mice remained highly active and mobile throughout the experi-
+ment, engaging in feeding, drinking, self-grooming, huddling,
+and social interactions12. Our results provide detailed conse-
+quences of long-term spaceﬂight microgravity on rodent estrous
+cycle, ovarian steroidogenesis, and gene expression. Notably,
+previous observations examining the potential impacts of micro-
+gravity on ovarian function and its target tissue the uterus were of
+a
+b
+d
+c
+RNA later
+LN
+M22
+M13
+0
+2
+4
+6
+8
+RNALater
+LN
+RNA Integrity Number
+(RIN value)
+e
+Fig. 2
+RNA quality of liquid nitrogen snap-frozen and RNAlater preserved ovarian tissues. Representative electropherograms from 2
+animals (M13 vivarium control a, b and M22 ﬂight c, d) perserved in RNAlater (a, c) or LN (b, d). e Histogram of RIN values from analysis of
+paired LN and RNALater samples (n = 12; 4BL, 4VC, 2HC, 2FL). *Means ± SEM RIN values were signiﬁcantly (p ≤0.05) different based on the
+preservation method.
+E2 Levels (pg/ml/mg)
+a
+300
+200
+400
+100
+0
+BL
+VC
+HC
+FL
+P4 Levels (ng/ml/mg)
+BL
+VC
+HC
+FL
+10
+0
+2
+4
+6
+8
+a,b
+b
+b
+a
+b
+E2
+P4
+Fig. 3
+Whole ovarian tissue estrogen and progesterone concen-
+trations. a Estradiol (E2; pg/ml/mg tissue) and b progesterone
+(P4; ng/ml/mg tissue) levels for all mice within a treatment group
+(n = 8-9/treatment;
+9BL,
+8VC,
+9HC,
+9FL).
+a,bMeans ± SEM
+with
+different superscripts are signiﬁcantly different (p ≤0.05).
+X. Hong et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2021)  11 
+
+a short-term nature and had the confounding effects of reentry
+prior to tissue collection3,9,13. It is well known that estrous cycle
+staging in female rodents can be inﬂuenced by a variety of factors
+such as age, light, temperature, humidity, ambient noise, nutrition,
+and social relationships14. Indeed, mice that are group housed
+exhibit greater estrous cycle irregularities, than those individually
+housed15,16. Nonetheless, many labs using contemporary strains of
+mice are able to stage mice in group housing conditions, albeit it
+may not be as ideal as single housed mice17–19. Again, group
+housing was necessitated by animal husbandry concerns and
+limitations of the NASA’s ﬂight hardware. Our results point to an
+ability of female mice to exhibit estrous cycles after an extended
+duration in space, as evidenced by our observation that ﬂight
+animals exhibited two different stages of the cycle (estrus and
+metestrus). Typically, under conditions of exogenous treatments/
+stress, mice may exhibit constant vaginal estrus or an extended or
+constant diestrus14,20, but not metestrus. In contrast to mice,
+rats exhibit a greater synchrony when group housed, making it
+difﬁcult to extrapolate ﬁnding across these two species21.
+While measuring true estrous cyclicity in space is logistically
+daunting due to the intensive daily monitoring required, we
+posit that the analysis of the vaginal wall provides a robust
+methodology that can indicate the estrous stage, and thus the
+endocrine status of the animal at the moment of sacriﬁce. Indeed
+the morphology of these twice frozen and thawed vaginal wall
+tissues rivaled that of freshly isolated and ﬁxed tissues from
+contemporary animals collected in our laboratory (data not
+shown) and in those laboratories who pioneered the use of
+vaginal wall histology as a mechanism to track cyclicity20,22,23.
+Ovarian tissue steroid levels are also not commonly mea-
+sured, as most investigators use serum levels of estrogen and
+progesterone as a measure of ovarian steroidogenic activity.
+Again, in animals exposed to microgravity, the ability to collect
+serum at the time of sacriﬁce or longitudinally over time is
+severely restricted logistically. We, therefore, analyzed whole
+ovarian tissue levels of estrogen and progesterone. We detected
+no striking difference in tissue estrogen concentrations across
+the four treatment groups, and it should be noted that serum
+estrogen levels in rodents also do not exhibit wide variations
+across the cycle, often ranging from ND to 8–50 pg/ml in
+total24–27. In contrast, we did observe that ﬂight and habitat
+control animals had lower overall P4 levels in ovarian tissue.
+One might predict this as these two groups had greater
+numbers of mice in metestrus and diestrus, in total 4 and 5 for
+ﬂight and habitat groups, respectively. During both of these
+stages of estrous cycle the ovary has reduced steroidogenic
+activity26–28. This was in contrast to the vivarium and baseline
+control groups, which both had 8 animals each in proestrus and
+estrus
+in
+total,
+stages
+associated
+with
+increased
+ovarian
+follicular steroidogenesis. We recognize that it would have
+been ideal to examine the interaction of estrous cycle stage on
+ovarian steroidogenesis as well as ovarian gene expression, but
+due to the insufﬁcient numbers of animals at individual stages,
+we were unable to do so. It is worth noting the experimental
+design for RR1 as a hardware demonstration ﬂight determined
+how tissues were preserved as well as group sizes and thus were
+beyond our control. Whole ovarian gene expression analyses
+were also dictated by the RR1 design. This type of analysis is
+highly
+confounded
+as
+whole
+ovarian
+tissue
+contains
+an
+abundance of stromal tissue and smaller follicles, which
+predominate over the few selected follicles that become highly
+steroidogenic. Thus, when whole ovarian RNA is used, it was not
+surprising
+to
+see
+no
+major
+differences
+in
+ovarian
+gene
+expression across the treatment groups or even during different
+stages of the cycle. Future studies need to take into considera-
+tion this limitation, and collect and ﬁx tissues for analysis, so
+a
+BL
+VC
+HC
+FL
+0
+1
+2
+3
+Star
+Fold Change
+BL
+VC
+HC
+FL
+0
+1
+2
+3
+b
+c
+0
+0.5
+1.0
+1.5
+BL
+VC
+HC
+FL
+Fold Change
+Fold Change
+Cyp11a1
+Hsd3b1
+Cyp17a1
+0
+0.5
+1.0
+1.5
+BL
+VC
+HC
+FL
+Fold Change
+d
+f
+e
+0
+Fold Change
+BL
+VC
+HC
+FL
+Cyp19a1
+Nr5a2
+BL
+VC
+HC
+FL
+0
+0.5
+1.0
+1.5
+Fold Change
+a
+a
+b
+a,b
+1
+2
+3
+4
+5
+Fig. 4
+Whole ovarian tissue steroidogenic gene expression was not altered by spaceﬂight. Histograms depict relative fold change (ΔΔCt
+method) for a Star, b Cyp11a1, c Hsd3b1, d Cyp17a1, e Cyp19a1, and f Nr5a2 following normalization to 18S; n = 8–10/treatment group; 10BL,
+10VC, 8HC, 10FL). a,bMeans ± SEM with different superscripts are signiﬁcantly different (p ≤0.05).
+X. Hong et al.
+4
+npj Microgravity (2021)  11 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+they can be properly analyzed using in situ hybridization/
+RNAscope and immunohistochemistry. Cyp17a1, the enzyme
+located in the theca cell compartment of the ovarian follicle and
+responsible for androgen production was elevated in the
+habitat control animals. This difference was however, mani-
+fested primarily in two of the three HC animals in estrus.
+Safeguarding RNA tissue quality is acutely dependent on tissue
+storage methods, which ideally would minimize RNase activity
+throughout the process. Tissue collection and preservation during
+spaceﬂight presents a unique challenge in the analysis of these
+valuable specimens. Our current analyses of the right and left
+ovaries processed in RNALater or snap-frozen in liquid nitrogen
+(LN) indicated that LN preserved tissues always had greater RIN
+values when compared to those of RNALater. Previous studies
+utilizing RR1 RNAlater preserved spleen tissues showed higher RIN
+values than those observed here29. This may be due to a time of
+collection aspect with respect to spleen vs ovary following thawing
+of the carcass, or just to tissue differences in RNA susceptibility to
+the freeze/thaw. We note that freshly isolated ovarian tissues that
+were snap-frozen in LN and then simultaneously processed with
+the RR1 samples yielded RIN values >9.
+In conclusion, our analyses of ovarian tissues and vaginal wall
+tissues of mice exposed to extended periods of microgravity and
+sacriﬁced in space indicate that these female mice were exhibiting
+estrous cyclic activity. These studies point positively to the ability
+of these animals to either continue or regain estrous cycle activity
+during extended microgravity exposure. We posit that vaginal wall
+estrous cycle activity be collected and provided to investigators to
+include as covariate on all female mice used in future space
+missions, much the same as weight and age. The current studies
+also
+provide
+critical
+logistical
+information
+regarding
+tissue
+collection, particularly for organs such as the ovary and uterus,
+which are composed of highly dynamic tissues (follicles, corpora
+lutea, endometrium), we recommend that they be preserved
+primarily in ﬁxatives or in a manner where tissue/cell speciﬁc
+aspects can be determined afterward. Lastly, the ability of these
+females to exhibit estrous cycle activity provides a tractable
+mammalian model system to test whether fertility is actually
+impacted by microgravity. Reproductive cycles characterized by
+alterations in hormone levels can exert signiﬁcant effects on
+experimental outcomes, including emotion and the response to
+environmental stressors30. Determining the effects of spaceﬂight
+on estrous cyclicity is thus critical to making accurate interpreta-
+tions of experimental endpoints for all spaceﬂight experiments
+using female mice.
+METHODS
+Animals
+Forty 12-week old C57BI/6J female mice (Jackson Lab, Bar Harbor, ME)
+were selected based on similar body weights for 4 experimental groups
+(16-week old at launch, n = 10/group): baseline control, vivarium control,
+habitat control, and ﬂight. Flight mice were launched on SpaceX-4 (Rodent
+Research 1) on September 21, 2014, as part of NASA’s Validation study.
+Details of RR1 mission timeline (i.e., mouse pre-adaptation to cages, food)
+as well as mouse spaceﬂight hardware details are available11,12,31. Brieﬂy,
+vivarium control mice were maintained in standard mouse cages (5 mice/
+cage) for the duration of spaceﬂight at Kennedy Space Center. Habitat
+control mice were housed in a Rodent Research Transporter and Habitat
+Hardware on Earth for durations consistent with ﬂight times at the same
+density of mice as those in ﬂight (n = 10/habitat). The habitat control was
+placed in the ISS Environmental Simulator at KSC on a 4-day delay to
+mimic ﬂight temperature, CO2, and humidity conditions on the ISS for the
+duration of spaceﬂight. Baseline control mice were euthanized one day
+after launch and then partially dissected prior to freezing of the animal
+a
+Proestrus
+Estrus
+Metestrus Diestrus
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+Star
+Fold Change
+0
+1
+2
+3
+4
+b
+c
+0
+0.5
+1.0
+1.5
+Fold Change
+Fold Change
+Cyp11a1
+Hsd3b1
+Cyp17a1
+0
+0.2
+0.4
+0.6
+0.8
+Fold Change
+d
+f
+e
+0
+2
+4
+6
+8
+Fold Change
+Cyp19a1
+Nr5a2
+0
+0.5
+1.0
+1.5
+Fold Change
+Proestrus
+Estrus
+Metestrus Diestrus
+Proestrus
+Estrus
+Metestrus Diestrus
+Proestrus
+Estrus
+Metestrus Diestrus
+Proestrus
+Estrus
+Metestrus Diestrus
+Proestrus
+Estrus Metestrus Diestrus
+a
+b
+b
+b
+Fig. 5
+Whole ovarian tissue steroidogenic gene expression by stage of estrous cycle. Histograms depict relative fold change (ΔΔCt
+method) for a Star, b Cyp11a1, c Hsd3b1, d Cyp17a1, e Cyp19a1, and f Nr5a2 following normalization to 18S; n = 8–10/treatment group; 10BL,
+10VC, 8HC, 10FL). a,bMeans ± SEM with different superscripts are signiﬁcantly different (p ≤0.05).
+X. Hong et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2021)  11 
+
+carcasses mimicking the procedures to be conducted on ﬂight and for all
+other animals at the conclusion of experiment. Flight mice were exposed
+to microgravity for a total of 37 days (33 days on ISS and 4 days in the
+Dragon Capsule). Mice were euthanized by injection of Euthasol followed
+by cervical dislocation and immediately fast frozen intact (n = 8) or
+partially dissected (n = 2) prior to carcasses being frozen. Mice carcasses
+were frozen using pre-chilled Ice Bricks prior to transfer to the Minus Eighty
+Degree Laboratory Freezer (MELFI) aboard the ISS. All ground mice were
+processed similarly. Flight mice carcasses returned to Earth February 2015
+aboard the SpaceX CRS-5 and were then maintained along with the control
+mice frozen at the Biospecimen Sharing Program (BSP) at the Ames
+Research Center until dissection11. All animal procedures performed were
+approved by the Institutional Animal Care and Use Committees (IACUC) for
+ﬂight at the NASA Ames Research Center (ARC) and the Kennedy Space
+Center (KSC) and the methods were carried out in accordance with
+relevant guidelines and regulations11.
+Tissue collection
+Female reproductive tissues (ovary and uterus) were collected from all
+carcasses at about 35–45 min after removal from the −80 °C freezer. One
+ovary was placed into RNAlater (Thermo Fisher Scientiﬁc, Waltham, MA)
+and the other was ﬂash-frozen in liquid nitrogen (LN). Similarly, the right
+and left uterine horns were placed in RNAlater or snap-frozen in LN; uterine
+tissues are part of an independent study by another investigator and will
+not be further described here. Tissues preserved in RNAlater were kept at
+4 °C for 2 days then frozen and stored at −80 °C, tissues snap-frozen in
+liquid nitrogen were also stored at −80 °C. Following primary tissue
+dissections in April of 2015, the remaining carcass was refrozen and stored
+at −80 °C. In March of 2016, carcasses were thawed again for a secondary
+tissue dissection. At this time the combined cervix and vaginal wall were
+dissected free of the pelvic cavity, and these tissues were ﬁxed in 4%
+paraformaldehyde in phosphate-buffered saline. Following overnight
+ﬁxation these tissues were transferred to 70% EtOH, in preparation for
+shipping to the University of Kansas Medical Center.
+RNA isolation and quantitative RT-PCR analysis
+Ovaries tissues were transferred directly from RNAlater to tubes containing
+1 ml of Trizol (Sigma) or 1 ml of Trizol was added directly to ovarian tissue
+snap-frozen in liquid nitrogen. Tissues were brieﬂy dissociated on ice
+(3 bursts, 62 W) in a PowerGen 700 homogenizer (Fisher Scientiﬁc). RNA
+was isolated from Trizol as per manufacturer protocol. To facilitate
+precipitation 1 μL of glycogen (20ug/ul; Invitrogen) was added to aqueous
+fraction and the resulting pellet was then resuspended in 15 μL of RNase
+free water (ThermoFisher 18064022). An aliquot (1 μL) of this resuspended
+RNA was used to determine RNA concentration and RNA integrity number
+(RIN) values using the Agilent RNA 6000 Pico kit and Agilent 2100
+Bioanalyzer (Agilent Technologies). Total RNA (400 ng) from each sample
+was reverse
+transcribed
+using
+SuperScript
+II
+Reverse Transcriptase
+(Invitrogen/ThermoFisher) with random hexamer primers (IDT).
+Quantitative PCR (qPCR) was performed using a 1:5 dilution of cDNA on
+an Applied Biosystems HT7900 sequence detector. Genes interrogated
+included 3β-hydroxysteroid dehydrogenase (Hsd3b1), P450 cholesterol
+side chain cleavage (Cyp11a1), 17α-hydroxylase (Cyp17a1), P450 aromatase
+(Cyp19a1), steroidogenic acute regulatory protein (Star), liver receptor
+homolog-1 (Nr5a2), estrogen receptor 1 (Esr1), estrogen receptor 2 (Esr2),
+scavenger receptor class B member 1 (Scarb1), luteinizing hormone
+receptor (Lhcgr), zona pellucida glycoprotein 3 (Zp3), and growth
+differentiation factor 9 (Gdf9). Primers were designed using Primer Express
+3.0 (Applied Biosystems) and purchased from IDT (see Supplementary
+Table 1). qPCR was performed for Hsd3b1, Cyp11a1, Cyp17a1, Cyp19a1,
+Nr5a2, Esr1, Esr2, Scarb1, Zp3, Lhcgr, and Gdf9 using PowerSYBR Green PCR
+Master Mix (Applied Biosystems). qPCR on Star, and 18 S rRNA levels were
+determined using the TaqMan Universal PCR Master Mix (Applied
+Biosystems) protocol and Applied Biosystems (Eukaryotic 18S rRNA
+Endogenous Control [VIC® ⁄ MGB Probe, Primer Limited]) probes and
+primers. Samples were run in triplicate, and the ΔΔCt method was used to
+calculate the relative expression between the samples after normalization
+with 18S levels. All SYBR Green reactions were evaluated for the presence
+of a single dissociation curve, to conﬁrm the ampliﬁcation of a single
+transcript and lack of primer dimers.
+a
+BL
+VC
+HC
+FL
+0
+1
+2
+3
+4
+Star
+Fold Change
+BL
+VC
+HC
+FL
+0
+1
+2
+3
+4
+b
+c
+0
+0.5
+1.0
+1.5
+BL
+VC
+HC
+FL
+Fold Change
+Fold Change
+Cyp11a1
+Hsd3b1
+Cyp17a1
+0
+0.5
+1.0
+1.5
+2.0
+BL
+VC
+HC
+FL
+Fold Change
+d
+f
+e
+0
+1
+2
+3
+Fold Change
+BL
+VC
+HC
+FL
+Cyp19a1
+Nr5a2
+BL
+VC
+HC
+FL
+0
+0.5
+1.0
+1.5
+Fold Change
+2.5
+4
+a
+a
+b
+a,b
+Fig. 6
+Whole ovarian tissue steroidogenic gene expression at estrus across all four treatment groups. Histograms depict relative fold
+change (ΔΔCt method) for a Star, b Cyp11a1, c Hsd3b1, d Cyp17a1, e Cyp19a1, and f Nr5a2 following normalization to 18S; n = 3–6/treatment
+group; 6BL, 5VC, 3HC, 6FL). a,bMeans ± SEM with different superscripts are signiﬁcantly different (p ≤0.05).
+X. Hong et al.
+6
+npj Microgravity (2021)  11 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+Histological analysis
+Upon receipt of tissues from the BSP, the vaginal walls samples were
+transferred to tissue embedding cassettes, and processed through a
+standard series of dehydration steps prior to being embedded in parafﬁn.
+Tissue blocks were then sectioned on a Leica microtome at a thickness of
+6 μm and mounted on microscope slides (Superfrost Plus, Fisher Scientiﬁc).
+Tissue sections were then deparafﬁnized, rehydrated, and stained with
+hematoxylin and eosin prior to histological examination. Slides were
+randomized and sample (animal and treatment) labels were blinded
+prior to examination by three independent reviewers for estrous cycle
+staging (proestrus, estrus, metestrus, diestrus or not determinable). Non-
+determinable samples were the result of tissues not containing sufﬁcient
+vaginal wall tissue to yield reliable results. Following independent reviews,
+those samples (~10%) without a consensus stage call were reevaluated by
+the reviewers and a consensus stage agreed upon.
+Radioimmunoassay
+The steroid content (estrogen/progesterone) content of the ovary, as
+determined by RIA, was used as a surrogate for serum analyses for
+establishing the functional ovarian status of the RR1 females at the time of
+their sacriﬁce. Flash frozen ovaries were halved and homogenized using a
+sonicator in 200 μL of PBS. Homogenate was spun down at 10,000 × g for
+5 min. Approximately 150 μL of supernatant was collected. 100 μL of
+undiluted supernatant was shipped to the Ligand Assay and Analysis Core
+(UVA School of Medicine) on dry ice and the rest were stored as 50 μL
+aliquots at −80 °C. Estradiol (E2) and progesterone (P4) were determined
+by commercial ELISAs (E2: Calbiotech, El Cajon, CA. Cat # ES180S-100; P4:
+IBL, Minneapolis, MN, Cat # IB79105). E2 assay characteristics were as
+follows: sensitivity = 3 pg/ml; intra-assay coefﬁcient of variation (CV) =
+7.5%; inter-assay CV = 10.1%. For P4, sensitivity = 0.15 ng/ml; intra-assay
+CV = 6.5%; inter-assay CV = 10.3%.
+Statistical analysis
+One-way ANOVA was used to determine differences amongst treatment
+groups (ﬂight status) or estrous cycle stage. Tukey’s mean separation tests
+were used to determine differences between mean once a signiﬁcant
+F-test was observed. All statistical analyses and graphs for the RIA were
+performed using GraphPad Prism v6 (GraphPad, San Diego, CA).
+Reporting summary
+Further information on experimental design is available in the Nature
+Research Reporting Summary linked to this paper.
+DATA AVAILABILITY
+Individual mouse estrous cycle stage results can be found in Supplementary Table 2.
+Received: 2 July 2020; Accepted: 17 February 2021;
+REFERENCES
+1. Demontis, G. C. et al. Human pathophysiological adaptations to the space
+environment. Front. Physiol. 8, 547 (2017).
+2. Rajkovic, A. & Pangas, S. Ovary as a biomarker of health and longevity: insights
+from genetics. Semin. Reprod. Med. 35, 231–240 (2017).
+3. Steller, J. G., Alberts, J. R. & Ronca, A. E. Oxidative stress as cause, consequence, or
+biomarker of altered female reproduction and development in the space envir-
+onment. Int. J. Mol. Sci. 19, 3729 (2018).
+4. Mishra, B. & Luderer, U. Reproductive hazards of space travel in women and men.
+Nat. Rev. Endocrinol. 15, 713–730 (2019).
+5. Messinis, I. E. Ovarian feedback, mechanism of action and possible clinical
+implications. Hum. Reprod. Update 12, 557–571 (2006).
+6. Whirledge, S. & Cidlowski, J. A. Glucocorticoids, stress, and fertility. Minerva
+Endocrinol. 35, 109–125 (2010).
+7. Ronca, A. E., Alwood, J. S., Globus, R. K. & Souza, K. A. Mammalian repro-
+duction and development on the International Space Station (ISS): pro-
+ceedings of the rodent Mark III Habitat Workshop. Gravitational Space Res. 1,
+107–123 (2013).
+8. Burden, H. W. et al. Effects of space ﬂight on ovarian–hypophyseal function in
+postpartum rats. Reproduction 109, 193–197 (1997).
+9. Macho, L. et al. Effect of space ﬂight on the development of endocrine functions
+in rats. Endocr. Regul. 27, 17–22 (1993).
+10. Ronca, A. E. & Alberts, J. R. Physiology of a microgravity environment selected
+contribution: effects of spaceﬂight during pregnancy on labor and birth at 1 G. J.
+Appl. Physiol. 89, 849–854 (2000).
+11. Choi, S. Y. et al. Validation of a new rodent experimental system to investigate
+consequences of long duration space habitation. Sci. Rep. 10, 2336 (2020).
+12. Ronca, A. E. et al. Behavior of mice aboard the International Space Station. Sci.
+Rep. 9, 4717 (2019).
+13. Ronca, A. et al. Effects of sex and gender on adaptations to space: reproductive
+health. J. Women’s Health 23, 967–974 (2014).
+14. Li, S. & Davis, B. Evaluating rodent vaginal and uterine histology in toxicity stu-
+dies. Birth Defects Res. Part B: Dev. Reprod. Toxicol. 80, 246–252 (2007).
+15. Whitten, W. K. Occurrence of anoestrus in mice caged in groups. J. Endocrinol. 18,
+102–107 (1959).
+16. Champlin, A. K. Suppression of oestrus in grouped mice: the effects of various
+densities and the possible nature of the stimulus. J. Reprod. Fertil. 27, 233–241
+(1971).
+17. Wilson, K. et al. Core binding factor-β knockdown alters ovarian gene expression
+and function in the mouse. Mol. Endocrinol. 30, 733–747 (2016).
+18. Bertolin, K., Gossen, J., Schoonjans, K. & Murphy, B. D. The orphan nuclear
+receptor Nr5a2 is essential for luteinization in the female mouse ovary. Endocri-
+nology 155, 1931–1943 (2014).
+19. Sánchez-Andrade, G. & Kendrick, K. M. Roles of α- and β-estrogen receptors in
+mouse social recognition memory: effects of gender and the estrous cycle. Horm.
+Behav. 59, 114–122 (2011).
+20. Goldman, J. M., Murr, A. S. & Cooper, R. L. The rodent estrous cycle: character-
+ization of vaginal cytology and its utility in toxicological studies. Birth Defects Res.
+Part B: Dev. Reprod. Toxicol. 80, 84–97 (2007).
+21. McClintock, M. K. Social control of the ovarian cycle and the function of estrous
+synchrony. Am. Zool. 21, 243–256 (1981).
+22. Gal, A., Lin, P.-C., Barger, A. M., MacNeill, A. L. & Ko, C. Vaginal fold histology
+reduces the variability introduced by vaginal exfoliative cytology in the classiﬁ-
+cation of mouse estrous cycle stages. Toxicol. Pathol. 42, 1212–1220 (2014).
+23. Merkwitz, C. et al. A simple method for inducing estrous cycle stage-speciﬁc
+morphological changes in the vaginal epithelium of immature female mice. Lab.
+Anim. 50, 344–353 (2016).
+24. Wood, G. A., Fata, J. E., Watson, K. L. M. & Khokha, R. Circulating hormones and
+estrous stage predict cellular and stromal remodeling in murine uterus. Repro-
+duction 133, 1035–1044 (2007).
+25. Nelson, J. F., Felicio, L. S., Osterburg, H. H. & Finch, C. E. Differential contributions
+of ovarian and extraovarian factors to age-related reductions in plasma estradiol
+and progesterone during the estrous cycle of C57BL/6J mice. Endocrinology 130,
+805–810 (1992).
+26. Nilsson, M. E. et al. Measurement of a comprehensive sex steroid proﬁle in rodent
+serum by high-sensitive gas chromatography-tandem mass spectrometry.
+Endocrinology 156, 2492–2502 (2015).
+27. Zenclussen, M. L., Casalis, P. A., Jensen, F., Woidacki, K. & Zenclussen, A. C. Hor-
+monal ﬂuctuations during the estrous cycle modulate heme oxygenase-1
+expression in the uterus. Front. Endocrinol. 5, 32 (2014).
+28. DeLeon, D. D., Zelinski-Wooten, M. B. & Barkley, M. S. Hormonal basis of variation in
+oestrous cyclicity in selected strains of mice. J. Reprod. Fertil. 89, 117–126 (1990).
+29. Choi, S., Ray, H. E., Lai, S. H., Alwood, J. S. & Globus, R. K. Preservation of multiple
+mammalian tissues to maximize science return from ground based and space-
+ﬂight experiments. PLoS ONE 11, e0167391 (2016).
+30. ter Horst, J. P., de Kloet, E. R., Schächinger, H. & Oitzl, M. S. Relevance of stress and
+female sex hormones for emotion and cognition. Cell. Mol. Neurobiol. 32, 725–735
+(2012).
+31. Beheshti, A. et al. Exploring the effects of spaceﬂight on mouse physiology using
+the open access NASA GeneLab platform. J. Vis. Exp. 143, 58447 (2019).
+ACKNOWLEDGEMENTS
+Rodent Research 1 was a joint operation between NASA and the ISS National Lab.
+This work was supported by the NASA Space Biology Program, Spaceﬂight Research
+Opportunities in Space Biology—NNX15AB48G to L.K. Christenson and University of
+Kansas Medical School research funds to L.K. Christenson.
+AUTHOR CONTRIBUTIONS
+X.H., A.E.R., J.S.A., J.S.T., and L.K.C. designed the research; X.H., A.R., S.Y.C., and L.K.C.,
+processed tissues and performed data collection; A.R. and L.K.C. analyzed data and
+prepared ﬁgures; A.R., J.S.A., A.E.R., J.S.T., and L.K.C. wrote the paper. All authors
+reviewed the manuscript.
+X. Hong et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2021)  11 
+
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41526-021-00139-7.
+Correspondence and requests for materials should be addressed to L.K.C.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2021
+X. Hong et al.
+8
+npj Microgravity (2021)  11 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA

@@ -1,0 +1,2195 @@
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Spatial multi-omics of human skin reveals
+KRAS and inﬂammatory responses to
+spaceﬂight
+Jiwoon Park
+1,2, Eliah G. Overbey
+1,2, S. Anand Narayanan3, JangKeun Kim
+1,2,
+Braden T. Tierney
+1,2, Namita Damle1, Deena Najjar
+1, Krista A. Ryon1,
+Jacqueline Proszynski1, Ashley Kleinman1, Jeremy Wain Hirschberg1,
+Matthew MacKay1, Evan E. Afshin1, Richard Granstein4, Justin Gurvitch
+1,
+Briana M. Hudson5, Aric Rininger5, Sean Mullane6, Sarah E. Church
+5,
+Cem Meydan
+1,2, George Church
+7,8, Afshin Beheshti
+9,10, Jaime Mateus6 &
+Christopher E. Mason
+1,2,11
+Spaceﬂight can change metabolic, immunological, and biological homeostasis
+and cause skin rashes and irritation, yet the molecular basis remains unclear.
+To investigate the impact of short-duration spaceﬂight on the skin, we con-
+ducted skin biopsies on the Inspiration4 crew members before (L-44) and after
+(R + 1) ﬂight. Leveraging multi-omics assays including GeoMx™Digital Spatial
+Proﬁler, single-cell RNA/ATAC-seq, and metagenomics/metatranscriptomics,
+we assessed spatial gene expressions and associated microbial and immune
+changes across 95 skin regions in four compartments: outer epidermis, inner
+epidermis, outer dermis, and vasculature. Post-ﬂight samples showed sig-
+niﬁcant up-regulation of genes related to inﬂammation and KRAS signaling
+across all skin regions. These spaceﬂight-associated changes mapped to spe-
+ciﬁc cellular responses, including altered interferon responses, DNA damage,
+epithelial barrier disruptions, T-cell migration, and hindered regeneration
+were located primarily in outer tissue compartments. We also linked epithelial
+disruption to microbial shifts in skin swab and immune cell activity to PBMC
+single-cell data from the same crew and timepoints. Our ﬁndings present the
+inaugural collection and examination of astronaut skin, offering insights for
+future space missions and response countermeasures.
+During both short- and long-duration spaceﬂight, the human body is
+exposed to various factors that are unique to the space environment,
+including weightlessness (e.g., microgravity), increased radiation, iso-
+lation, and conﬁnement1,2. Due to the unique remote and spaceﬂight
+environment, lifestyle and hygienic practices are different from an
+Earth setting and often simpliﬁed due to the minimal resources and
+space available in a spacecraft (e.g., lack of showers, restrooms, limited
+clothing available)3. Moreover, signiﬁcant physiological adaptations
+and overall shifts in biological homeostasis occur from spaceﬂight
+exposure, including musculoskeletal deconditioning, cardiovascular
+ﬂuid shifts, vision loss (e.g., spaceﬂight-associated neuro-ocular syn-
+drome),
+metabolic
+shifts,
+and
+mitochondrial
+and
+immune
+dysfunction4,5. Several studies have identiﬁed the effects of spaceﬂight
+on the musculoskeletal and cardiovascular systems, including ﬂuid
+redistribution, orthostatic intolerance, changes in heart rate, blood
+pressure, cardiac output, arterial stiffening, bone loss, atrophy of the
+striated and cardiac muscle groups, and increased risk of bone
+fracture1,6–12.
+Received: 26 November 2022
+Accepted: 26 April 2024
+Check for updates
+A full list of afﬁliations appears at the end of the paper.
+e-mail: chm2042@med.cornell.edu
+Nature Communications|   (2024) 15:4773 
+1
+1234567890():,;
+1234567890():,;
+
+The body’s largest organ, the skin, is another key physiological
+system sensitive to environmental changes. Human skin serves multi-
+ple functions, including physical and immunological protection, sup-
+porting microbiota (containing bacteria, archaea, fungi, and viruses)
+homeostasis, thermoregulation, ﬂuid retention, and metabolism13–15.
+Also, since the skin is the outermost layer of the body and exposed to
+the direct, external environment, it is usually the ﬁrst substrate affec-
+ted by environmental changes an individual experiences, including
+environmental adaptations resulting from spaceﬂight. The skin serves
+as a unique organ for investigating the impacts of spaceﬂight on the
+human body as it encompasses a range of physiological elements, from
+surface microbiota and connective tissue to vasculatures, follicles, and
+the nervous and immune systems, alongside various skin cell types. It
+offers a comprehensive platform to understand the multifaceted
+effects of spaceﬂight. Unfortunately, few studies exist on the space-
+ﬂight environment’s impacton the skin, and observations to-date show
+that spaceﬂight may cause epidermal hypersensitivity and irritation,
+rarefaction of the cutaneous ﬁber network, and impaired epidermal
+proliferation and repair16–20. Nonetheless, the skin remains an under-
+studied organ in the ﬁeld of space biology; to date, fewer than ten
+astronaut case evaluations have been conducted3. Furthermore, only a
+few existing studies have examined transcript-level changes, and none
+of these studies has contextualized spatial or whole transcriptome
+gene expression or investigated the multiple omics components of
+skin adapting from spaceﬂight exposure3,21,22.
+Our study investigates skin samples collected from the SpaceX
+Inspiration4 mission and, for the ﬁrst time, explores the spatial-
+transcriptomic characterization of short-duration spaceﬂight’s impact
+on skin tissue. We comprehensively proﬁled skin microenvironment
+changes in response to spaceﬂight by performing a multi omics ana-
+lysis using 4 mm skin punch biopsies from the crew members (n = 4)
+44 days before launch (L-44) and 1 day after return (R + 1) of the 3-day
+mission. Tissue location speciﬁc gene expression levels were quanti-
+ﬁed using Nanostring GeoMx™Digital Spatial Proﬁler (DSP) system
+across four regions of interest (ROI) targets, Outer Epidermis (OE) and
+Inner Epidermis (IE), Outer Dermis (OD), and Vasculature (VA) com-
+partments. From immunoﬂuorescence images, we identiﬁed epi-
+dermis, dermis, and vascular area and subdivided epidermis ROIs into
+outer and inner layers, which corresponded to granular and spinous
+layer (OE) and basal layer (IE). In total, we analyzed 95 astronaut skin
+ROIs using the human whole-transcriptome atlas (WTA, 18,676 genes).
+We also correlate these transcript level ﬁndings with matched meta-
+genomic and metatranscriptomic data from skin swabs obtained prior
+to biopsy, as well as single-cell sequencing data (10X multiome single-
+cell ATAC and gene expression (GEX) characterizations) from isolated
+human peripheral blood mononuclear cells (PBMCs).
+Results
+Transcriptome-wide changes in response to spaceﬂight
+To understand the impact of spaceﬂight to skin and tissue micro-
+environment, paired 4 mm skin punch biopsies from Inspiration4 crew
+members’ upper arms were used for pathology evaluation and spatial
+transcriptomics proﬁling (Fig. 1a and Supplementary Fig. 1). In total, 95
+ROIs were collected across 16 slides for processing, with the GeoMx
+whole transcriptome proﬁling probe set (18,422 probes). Based on
+imaging we selected four region types of interest, including the outer
+epidermis, inner epidermis, outer dermis, and the vasculature (OE, IE,
+OD, and VA). We also performed a skin histopathology analysis from
+the biopsied samples, which showed no signiﬁcant abnormalities or
+changes in tissue morphologies or gross architecture (Supplemen-
+tary Fig. 2).
+From GeoMx spatial transcriptomics analysis, unsupervised clus-
+tering of all ROIs showed large clustering around compartmental
+identities. Slight shifts in response to spaceﬂight, and batch effects
+from both technical and biological replicates were not apparent after
+normalization (Fig. 1b and Supplementary Fig. 3a). Differential gene
+expression analysis comparing post-spaceﬂight to pre-spaceﬂight
+samples found signiﬁcant upregulation in 95 genes (log2FC > 0 and q
+value < 0.05 by DESeq2) including ARHGAP31, GALNT9, CPNE2, NMB,
+GPR50, CLDN2, OOSP2, and downregulation in 121 genes (log2FC < 0
+and q value < 0.05 by DESeq2) such as AP3B1, LMNA, COL6A2, VIM, HLA-
+B, PPP1CB, PABPC1 (Fig. 1c and Supplementary Data 1). Furthermore,
+proteins associated with cell junctions and extracellular matrices—
+particularly those from vimentin (VIM) and keratin (KRT) family—were
+the primary transcripts lost based on the DEG analyses.
+Pathway analysis of these differentially expressed genes (DEGs)
+revealed statistically signiﬁcant enrichment in kirsten rat sarcoma viral
+oncogene homolog (KRAS) signaling pathways, while transcripts
+associated with cell junctions and protein (i.e., apical junction, unfol-
+ded protein response) decreased (Fig. 1d and Supplementary Data 2).
+From expression levels, cell type composition for each ROI was esti-
+mated and compared across timepoints. We also observed statistically
+signiﬁcant decreases in the cell type associated gene signatures of the
+major skin cell types and immune cells (e.g., melanocyte, pericyte,
+ﬁbroblast, and T cells) (Fig. 1e).
+Region-speciﬁc expressions and spaceﬂight-induced changes
+We then investigated region-speciﬁc expression changes across pre-
+and post-spaceﬂight samples for each ROI type label (OE, IE, OD, and
+VA). OE and IE regions were selected based on and corresponds to
+stratum granulosum and spinosum/basal, respectively. OD ROIs were
+selected by capturing a minimum of 200 cells inside of the basal cell
+layer (therefore mostly papillary layer), while VA ROIs were collected
+based on epithelial (FAP) and ﬁbroblast (αSMA) staining (Fig. 1a). We
+observed transcripts speciﬁc to each ROI label and timepoint (Sup-
+plementary Fig. 3b, c).
+For each ROI type, differential gene expression analyses were
+performed comparing postﬂight samples relative to preﬂight samples
+(Fig. 2a and Supplementary Data 1). For example, we found that the
+decrease in transcripts related to ﬁbroblast and junction genes (e.g.,
+DES, ACTA2, TLN1, TAGLN) speciﬁcally near the vasculature sites (VA).
+Loss of KRT14 as well as other keratin family transcripts (KRT1, 5, and
+10) were found predominantly in the dermal layer (OD). Taking the
+intersections of these DEGs to identify unique and overlapping genes
+across ROI types, we conﬁrmed that most of the gene overlaps occur
+within ROI types that are relatively close to each other (i.e., VA and OD)
+(Fig. 2b). In particular, changes in AP3B1, a transcript related to granule
+formation, cytokine production, and inﬂammatory responses, were
+found in multiple comparisons (overall, OE, and OD) and was ortho-
+gonally validated with another technology, RNA scope (Supplemen-
+tary Fig. 4a–c)23. In the inner layers of the tissue (OD and VA), we found
+overlapping DEGs related to stress and growth factor associated
+pathways, such as COL6A2, CRKL, HLA-B.
+Gene set enrichment analysis (GSEA) revealed the consistent
+increase of KRAS signaling and inﬂammatory responses across all
+regions while speciﬁc immune pathways such as Interferon alpha and
+gamma response showed positive enrichment only in epidermal
+regions (OE and IE) (Fig. 2c and Supplementary Data 2). Pathways such
+as DNA repair, apoptosis, and UV response, reactive oxygen species
+were enriched only in the OE. We observed downregulation in genes
+involved with mitochondrial metabolism (e.g., myc target genes and
+oxidative phosphorylation) across all regions, particularly stronger in
+IE and OD ROIs. Also, the myogenesis pathway and EMT-related genes
+showed stronger decrease in enrichment scores in the VA ROIs,
+underscoring the region- and layer-speciﬁc responses to spaceﬂight.
+Comparing the pathway-level changes to blood sequencing datasets
+from the same mission and previous mission (NASA Twin Study,
+although with different duration of exposure), we found consistent
+changes
+in
+pathways
+such
+as
+KRAS
+signaling,
+epithelial-to-
+mesenchymal transition, and angiogenesis (Supplementary Fig. 4d)5.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+2
+
+a
+b
+−4
+0
+4
+8
+−2
+0
+2
+UMAP1
+UMAP2
+Timepoint
+Post
+Pre
+Type
+IE
+OD
+OE
+OE_and_IE
+VA
+c
+31
+ARHGAP3
+CCDC62
+C
+CLDN2
+C
+CPNE2
+ECRG4
+ECRG4
+2B
+FCGR2
+FOSB
+T9
+GALNT
+GLRA3
+GPR50
+GPR50
+GRM5
+KCNT1
+K
+KRT26
+NMB
+PFN3
+N1
+SPON
+TA
+T FA5
+F
+TMPRSS11D
+T
+TRIM37
+ZBTB26
+ZNF75D
+AP3B1
+CSTB
+CSTB
+DES
+HNRNPUL1
+HNRNPUL1
+LDB3
+LMNA
+LMNA
+NPNT
+PABPC1
+P
+PKD1
+K
+PPFIA4
+P
+ZNF568
+Z
+0
+1
+2
+3
+−1.0
+−0.5
+0.0
+0.5
+1.0
+log2 Fold Change
+−log10 adjusted P−Value
+d
+UNFOLDED_PROTEIN_RESPONSE
+FATTY_ACID_METABOLISM
+APICAL_JUNCTION
+NOTCH_SIGNALING
+PI3K_AKT_MTOR_SIGNALING
+IL6_JAK_STAT3_SIGNALING
+PROTEIN_SECRETION
+UV_RESPONSE_DN
+HYPOXIA
+UV_RESPONSE_UP
+ESTROGEN_RESPONSE_LATE
+ANDROGEN_RESPONSE
+G2M_CHECKPOINT
+KRAS_SIGNALING_UP
+PANCREAS_BETA_CELLS
+−1
+0
+1
+Normalized Enrichment Score
+1.5
+2.0
+2.5
+−log10(padj)
+**
+*
+*
+**
+*
+ns
+Fibroblast
+Keratinocyte
+Lymph EC
+Mac/DC
+Melanocyte
+Pericyte
+T
+Vas EC
+Pre Post
+0
+10
+20
+proportions (%)
+Pre Post
+Pre Post
+Pre Post
+0
+10
+20
+ns
+ns
+e
+Fig. 1 | Experimental design and overall pre- and post-timepoint comparisons.
+a Experimental design and workﬂow with representative tissue staining images
+(created with BioRender.com), b Uniform Manifold Approximation and Projection
+(UMAP) of all ROIs collected, c Volcano plot of overall post- vs. pre-spaceﬂight DEGs
+(using DESeq2 method), d Pathway enrichment analysis comparing DEGs from pre-
+and post-spaceﬂight skin tissues, visualizing normalized enrichment scores of
+MSigDB Hallmark pathways, and e Cell proportion comparisons between pre- and
+post-spaceﬂight samples (ns non-signiﬁcant, *p ≤0.05, **p ≤0.01, ***p ≤0.001, and
+****p ≤0.0001 by Wilcoxon test, two-sided; boxplot shows median/horizontal line
+inside the box, the interquartile range/box boundaries, whiskers extending to 1.5
+times the interquartile range, and outliers as individual points outside the whiskers;
+exact p values are included in the Source Data). Source data are provided as a
+Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+3
+
+In addition to differential analyses, we also found that the mar-
+ker genes reported to be speciﬁc to each skin layer and cell type
+corresponded to the expression levels in each ROI type and were
+consistent with the previous ﬁndings (Supplementary Fig. 3b, c)24–26.
+Based on the reference datasets, deconvolved cell type abundances
+were compared across ROI types and timepoints (Supplementary
+Fig. 5a). We found a loss of melanocyte related gene signatures
+speciﬁcally in the middle layers (IE and OD), not in the outermost
+region (OE) or vascular region deeper in the dermal layer (VA). On the
+contrary, ﬁbroblast related gene expressions were decreased across
+all regions except for the outermost epidermal layer (OE). Although
+ﬁbroblast is an unanticipated cell type in the epidermis ROIs,
+decreased ﬁbroblast signature could indicate loss or damage of cel-
+lular and matrix interactions, consistent with previous reports high-
+lighting
+the
+role
+of
+ﬁbroblasts
+with
+epidermal
+regeneration
+(Supplementary Fig. 5b, c)27,28.
+Epithelial barrier disruption and regeneration observed in post-
+spaceﬂight samples
+To investigate the phenotypic impact of spaceﬂight, we then focused
+on genes and pathways related to skin barrier formation, disruption,
+and regeneration. From the pathway analysis, we found enrichment
+changes in apical junction, UV stress response, hypoxia, and TGFβ
+signaling (Fig. 2c and Supplementary Data 2). Speciﬁcally, we observed
+a decrease in ﬁlaggrin (FLG) expression, a gene related to skin barrier
+function and plays a crucial role during epidermal differentiation by
+controlling interactions across cytoskeleton components, in postﬂight
+relative to preﬂight samples29. The decrease of FLG was the most evi-
+dent in the OE region (Supplementary Data 1). Related to this obser-
+vation, we also observed decreases in transcripts such as HAS1, HAS2,
+HAS3, OCLN, CLDN, TGM2 in the OE region (Fig. 3a).
+The decrease in protein production and response potentially are
+connected to decrease in keratinocyte and increase in immune
+FSD1
+WHRN
+NPB
+0
+1
+2
+3
+4
+−1
+0
+1
+2
+−log10 adjusted P−Value
+OE (91 up− and 21 down−reg. genes)
+ATP7A
+TP7A
+A
+CDK5
+CMPK1
+ELAPOR2
+P
+GLRA3
+GRM6
+HRC
+NEK3
+OR5B12
+B12
+RMDN3
+UBE2NL
+E
+AP3B1
+HNRN
+H
+PA0
+P
+HNRNPDL
+R
+HN
+ITPR2
+P
+ITPR2
+LMNA
+LY6D
+L
+NECTIN1
+SLC25A5
+L
+5
+SYT8
+T8
+0
+1
+2
+3
+4
+5
+−1
+0
+1
+2
+IE (11 up− and 9 down−reg. genes)
+CYP4F12
+4
+KRT1
+KRT10
+KRT14
+KRT5
+0
+1
+2
+3
+−1
+0
+log2 Fold Change
+−log10 adjusted P−Value
+OD (0 up− and 110 down−reg. genes)
+NAV2
+A
+ZNF480
+CLIC4
+L
+DES
+GAS6
+NCS1
+P2RX1
+TA
+T GLN
+TLN1
+0
+1
+2
+3
+−1
+0
+1
+2
+log2 Fold Change
+VA (192 up− and 257 down−reg. genes)
+INFLAMMATORY RESPONSE
+KRAS SIGNALING UP
+APICAL SURFACE
+HEME METABOLISM
+PEROXISOME
+ANGIOGENESIS
+BILE ACID METABOLISM
+KRAS SIGNALING DN
+PANCREAS BETA CELLS
+CHOLESTEROL HOMEOSTASIS
+HEDGEHOG SIGNALING
+TNFA SIGNALING VIA NFKB
+E2F TARGETS
+G2M CHECKPOINT
+ALLOGRAFT REJECTION
+MYC TARGETS V2
+XENOBIOTIC METABOLISM
+MYC TARGETS V1
+OXIDATIVE PHOSPHORYLATION
+MYOGENESIS
+P53 PATHWAY
+PROTEIN SECRETION
+UV RESPONSE UP
+ADIPOGENESIS
+MITOTIC SPINDLE
+FATTY ACID METABOLISM
+MTORC1 SIGNALING
+PI3K AKT MTOR SIGNALING
+EPITHELIAL MESENCHYMAL TRANSITION
+APICAL JUNCTION
+APOPTOSIS
+UV RESPONSE DN
+ESTROGEN RESPONSE EARLY
+GLYCOLYSIS
+ANDROGEN RESPONSE
+ESTROGEN RESPONSE LATE
+HYPOXIA
+REACTIVE OXYGEN SPECIES PATHWAY
+UNFOLDED PROTEIN RESPONSE
+DNA REPAIR
+NOTCH SIGNALING
+IL6 JAK STAT3 SIGNALING
+TGF BETA SIGNALING
+COAGULATION
+IL2 STAT5 SIGNALING
+COMPLEMENT
+WNT BETA CATENIN SIGNALING
+INTERFERON ALPHA RESPONSE
+INTERFERON GAMMA RESPONSE
+OE
+IE
+OD
+VA
+−3
+−2
+−1
+0
+1
+a
+b
+c
+130
+104
+98
+82
+16
+6 6 5 2 1 1 1
+0
+50
+100
+150
+DEG intersection Size
+OD
+OE
+VA
+overall
+IE
+0
+50
+100
+Set Size
+location
+NES
+Fig. 2 | Region-speciﬁc gene expression proﬁle and cellular composition
+changes. a Volcano plot showing DEGs by ROI types—OE, IE, OD, and VA respec-
+tively; the number of DEGs were determined by cutoffs of adjusted p value < 0.1 and
+|log2FC| > 0.5 (using DESeq2 method), b UpSet plots comparing the intersections of
+region-speciﬁc DEGs, c Hallmark, non-germline gene set enrichment analysis across
+four ROI types; NES Normalized Enrichment Scores; Arrow indicates tissue loca-
+tions, where OE is the outermost layer and VA is the innermost layer. Source data
+are provided as a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+4
+
+signatures (potentially related to interactions with T cells and ﬁbro-
+blasts) in OE region ROIs (Fig. 3b)30. Although weaker, the IE region
+shows a similar trend of cell proportion fold changes. Speciﬁcally,
+among ﬁbroblast populations we also found that gene signatures of
+reticular ﬁbroblast increased in postﬂight samples while there were no
+statistically signiﬁcant changes in papillary ﬁbroblast, suggesting dis-
+ruptions in regeneration processes (Supplementary Fig. 5b, c)31,32.
+Taking co-occurrence of the proportion changes, cellular interactions
+within the ROIs were estimated. While cluster disruption was relatively
+minimal, an increase in melanocyte-macrophage interactions were
+found in the epidermis (OE and IE) ROIs (Fig. 3c). In addition, expres-
+sion changes related to vascular and lymphatic endothelial cells and
+pericytes varied across the skin regions. The most pronounced cell
+signaturechanges were seen in the OE and VA compartments. In the OE
+compartment, we observed an increase in signatures related to lym-
+phatic endothelial cells, potentially indicating the changes in the skin’s
+vascular and immune system (Fig. 3b). While blood and lymphatic
+capillaries are not typically found in the epidermis, these adaptations
+may be suggestive of a wound-healing phenotype with the skin, which
+is supported by our results showing increased damage, inﬂammation,
+apoptosis, ROS, hypoxia, angiogenesis, TGF-beta expression, etc., in
+the epidermis (Fig. 2c)33,34. On the other hand, in the VA compartment,
+there was an increase of gene signatures related to blood endothelium
+and decrease in lymphatic endothelium, also associated with vascular
+remodeling events.
+Skin-microbiota interaction changes during spaceﬂight
+To test whether immune activation and epithelial barrier disruption
+can be explained with external environmental change, we performed
+metagenomics and metatranscriptomics analysis on the skin swabs
+collected right before biopsies (Supplementary Fig. 6a). After assign-
+ment of taxonomic labels to DNA sequences, we identiﬁed 826 bac-
+terial and 9819 viral species with non-zero counts from metagenomics
+analysis, and 88 bacterial and 1456 viral species from metatran-
+scriptomics analysis (Supplementary Data 3). From PCA analysis, no
+major clustering was observed, although post ﬂight samples were
+located closer to one another in the PCA space (Fig. 4a). The shifts of
+the samples were mostly from species from Staphylococcus and
+Streptococcus family, along the PC2 axis. Slight decrease in overall
+numbers of bacterial and viral species was observed in postﬂight
+samples relative to preﬂight, with one exception of C003 in metage-
+nomics data and of C004 in metatranscriptomics data (Fig. 4b). Gross
+comparison of bacterial species by family showed decreased abun-
+dance in Actinobacteria (e.g., Actinomyces sp000220835) while
+a
+c
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+−1.0 −0.5 0.0 0.5 1.0
+Corr
+OE
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+IE
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+OD
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+VA
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte
+T
+Vascular_EC
+Erythrocyte
+Fibroblast
+Keratinocyte
+Lymphatic_EC
+Macrophages_DC
+Melanocyte
+Pericyte T
+Vascular_EC
+Preflight
+Postflight
+Erythrocyte
+Keratinocyte
+Fibroblast
+Lymphatic EC
+Pericyte
+T
+Vascular EC
+Macroph. DC
+Melanocyte
+OE
+IE
+OD
+VA
+−1.5 −1 −0.5 0
+0.5
+1
+1.5
+FC
+b
+FLG
+CLDN8
+HAS2
+CLDN15
+CLDN18
+CLDN2
+CLDN12
+HAS3
+CLDN3
+CLDN10
+CLDN16
+CLDN9
+TGM2
+CLDN23
+CLDN14
+CLDN17
+HAS1
+CLDN5
+CLDN25
+CLDN7
+CLDN11
+CLDN6
+OCLN
+CLDN4
+CLDN24
+CLDN19
+CLDN1
+CLDN20
+OE
+IE
+OD
+VA
+−1 −0.5
+0
+0.5
+1
+FC
+Fig. 3 | Cellular microenvironment changes from spaceﬂight by tissue region.
+a Gene expression changes of interest, b fold change of proportions in post-ﬂight
+samples relative to pre-ﬂight samples, by compartments, c cell type correlation
+matrix changes. Black boxes represent undetermined spots (due to minimal cell
+counts); boxes with X marks represent correlations that did not pass statistical
+testing (p value < 0.05, Pearson correlation, two-sided). Source data are provided as
+a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+5
+
+increased abundance in Firmicutes/Bacillota (e.g., Peptoniphilus C/B)
+and Proteobacteria/Pseudomonadota (e.g., Caulobacter vibrioides,
+Sphingomonas
+carotinifaciens,
+Roseomonas
+mucosa/nepalensis)
+(Fig. 4c, d and Supplementary Fig. 6b). When grouped into genus,
+several species, including Cutibacterium (e.g., Cutibacterium acnes/
+avidum/modestum/porci), Mycobacterium (e.g., Mycobacterium para-
+gordonae, Mycobacterium phocaicum), and Pseudomonas (e.g., Pseu-
+domonas aeruginosa/nitroreducens) showed statistically signiﬁcant
+decrease (p values < 0.05). Several species including Streptococcus
+(e.g., Staphylococcus capitis, Streptococcus mitis BB) and Veillonella
+(e.g., Veillonella atypica/parvula/rogosae) showed signiﬁcant increase
+(Fig. 4d). Also, species under the Staphylococcus genus, such as sta-
+phylococcus capitis/epidermidis/saprophyticus showed slight decrease
+while the relative abundances were highly variable across biological
+replicates.
+Changes of bacterial species were then linked to skin gene
+expression proﬁles, especially dermatitis-related genes (i.e., STAT3,
+STAT5B, FLG, CDSN, and ADAM17) previously associated with Staphy-
+lococcus species, as Staphylococcus aureus-dependent atopic derma-
+titis have been reported to activate immune system and reduce
+a
+c
+b
+Sample
+C001
+C002
+C003
+C004
+Post
+Pre
+Crew
+C001
+C002
+C003
+C004
+Time
+PC1: 9.9% variance
+PC2: 4.1% variance
+No. species
+p = 0.0075
+Veillonella
+Pre
+Post
+0.00
+0.01
+0.02
+0.03
+Staphylococcus
+Pre
+Post
+0.025
+0.050
+0.075
+p = <2e−16
+Streptococcus
+Pre
+Post
+0.000
+0.025
+0.050
+0.075
+0.100
+0.125
+p = 0.00021
+Pseudomonas_E
+Pre
+Post
+0.000
+0.002
+0.004
+0.006
+Mycobacterium
+Pre
+Post
+0.00
+0.03
+0.06
+0.09
+p = 1.2e−11
+Gemella
+Pre
+Post
+0.0000
+0.0025
+0.0050
+0.0075
+Cutibacterium
+Pre
+Post
+0.2
+0.4
+0.6
+0.8
+Bradyrhizobium
+Pre
+Post
+0.00
+0.02
+0.04
+0.06
+0.08
+p = 0.16
+p = <2e−16
+p = 0.016
+p = 0.43
+Timepoint
+d
+−50
+0
+50
+100
+−100
+−50
+0
+50
+0
+2000
+4000
+6000
+8000
+0
+500
+1000
+C001 C002 C003 C004
+crew
+Metagenomics
+Metatranscriptomics
+Pre
+Post
+Post
+Pre
+Post
+Pre
+Post
+Pre
+Post
+Pre
+Actinobacteriota
+Bacteroidota
+Cyanobacteria
+Dependentiae
+Firmicutes
+Firmicutes_A
+Firmicutes_C
+Fusobacteriota
+Gemmatimonadota
+Patescibacteria
+Proteobacteria
+0.00
+0.25
+0.50
+0.75
+1.00
+Relative abundances
+C001
+C002
+C003
+C004
+e
+STAT3
+STAT5B
+JAK1
+FLG
+SPINK5
+DSG1
+DSP
+CDSN
+ADAM17
+Acetobacteraceae
+Acidaminococcaceae
+Acutalibacteraceae
+Anaerovoracaceae
+Bacillaceae_C
+Bacteroidaceae
+Beijerinckiaceae
+Bifidobacteriaceae
+Brevibacteriaceae
+Burkholderiaceae
+Cardiobacteriaceae
+Carnobacteriaceae
+Caulobacteraceae
+Dermabacteraceae
+Dermatophilaceae
+Dialisteraceae
+Enterobacteriaceae
+Erysipelotrichaceae
+Fusobacteriaceae
+Gemellaceae
+Gemmatimonadaceae
+Halomonadaceae
+Kineococcaceae
+Lachnospiraceae
+Lactobacillaceae
+Leptotrichiaceae
+Microbacteriaceae
+Micrococcaceae
+Microcoleaceae
+Micromonosporaceae
+Moraxellaceae
+Mycobacteriaceae
+Nakamurellaceae
+Nanogingivalaceae
+Nanosynbacteraceae
+Nitrosomonadaceae
+Oleiphilaceae
+Oscillospiraceae
+Pasteurellaceae
+Peptoniphilaceae
+Porphyromonadaceae
+Propionibacteriaceae
+Pseudomonadaceae
+Rhizobiaceae
+Rhodobacteraceae
+Rhodocyclaceae
+Ruminococcaceae
+Sphingomonadaceae
+Staphylococcaceae
+Streptococcaceae
+Streptomycetaceae
+Streptosporangiaceae
+Veillonellaceae
+Weeksellaceae
+Xanthobacteraceae
+Xanthomonadaceae
+Thiotrichaceae
+Alteromonadaceae
+Solirubrobacteraceae
+Vermiphilaceae
+Actinomycetaceae
+Bacillaceae_H
+Aerococcaceae
+Negativicoccaceae
+Neisseriaceae
+−1.0 −0.5 0.0 0.5 1.0
+Corr
+Fig. 4 | Skin metagenomics and transcriptomics analysis for skin-microbiota
+interaction map. a PCA across all metagenomic and metatranscriptomic (bacterial
+and viral reads) relative abundance features and all crew members pre- and post-
+ﬂight, b Total number of bacterial and viral species with nonzero counts, c Relative
+abundances by sample and timepoint, grouped by family, d Changes in relative
+abundance before and after spaceﬂight, grouped by genus; statistically signiﬁcant
+or previously reported microbes are visualized (two-sided Wilcoxon test across
+four crew members was performed to compare means between pre- and post-ﬂight
+samples and to obtain p values, and error bars represent the standard error of the
+mean), and e Correlation across relative abundance of bacterial phyla identiﬁed by
+metagenomics data and known barrier/immune genes associated with skin diseases
+and disruptions. Source data are provided as a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+6
+
+microbe diversity35–37 (Fig. 4e and Supplementary Fig. 6c). When sub-
+setting previously reported bacterial species and associated genes, we
+found Staphylococcus species show an inverse relationship with JAK1
+(Fig. 4e). In particular, Staphylococcus correlates closely to FLG,
+SPINK5, and DSG1, all of which are related with epithelial barriers
+(stratum corneum and junctional barriers)38. Also, microbes belong to
+Carnobacteriaceae, Lactobacillaceae, Nanosynbacteraceae, and Week-
+sellaceae families showed high correlation with both barrier and
+immune genes (CDSN, DSP, DSG1, SPINK5, FLG, and JAK1), whereas
+common skin microbes from Dermatophilaceae and Dermabacter-
+aceae families showed no correlation. Although larger sample size is
+needed, it is possible that skin microbiome disruptions, such as those
+observed in these bacterial families, also contribute to barrier dis-
+ruption and immune activation during short-term spaceﬂight.
+In addition, from alignment to known viral assemblies we found
+statistically signiﬁcant decrease in abundance of reads associated with
+those
+from
+Uroviricota
+(i.e.,
+Fromanvirus,
+Acadianvirus,
+Arm-
+strongvirus, Amginevirus, Bixzunavirus) and Naldaviricetes (i.e., Alpha-
+baculovirus), and increased abundance of reads associated with those
+from Negarnaviricota (i.e., Almendravirus, Orthotospovirus) and Cos-
+saviricota (i.e., Betapapillomavirus, Betapolyomavirus) (p values <
+0.05). Virome changes are limited by the depth of the sequencing and
+skin virome knowledge, however we also report relative abundances of
+both bacterial and viral species (Supplementary Data 3). To explore
+microbiota-skin interactions, we also identiﬁed potential associations
+between microbiome shifts from metagenomics/metatranscriptomics
+data and human gene expression from skin spatial transcriptomics
+data; these included associations were with viral phyla (i.e., Uroviricota,
+Cressdnaviricota, Phixviricota), which is a potentially interesting area
+to explore as more crew samples are collected. (Supplementary
+Fig. 6d, e and Supplementary Data 3).
+Immune changes in response to spaceﬂight
+To investigate immune changes that occur beneath the epidermis we
+also examined changes in immune cells in the proﬁled vascular regions
+vs. PBMCs. We saw overall decrease of T cells and increase of macro-
+phage DCs in VA ROIs (Fig. 3b), indicating an immune-epidermis
+interaction. Related to this, we also observed increased cytokines and
+inﬂammatory signals including IL4, IL5, and IFNG in the inner regions
+(VA and OD ROIs) of the tissue (Fig. 5a)39,40. As a conﬁrmation, we
+observed that these speciﬁc cytokines are also shown to be increased
+in cytokine assays from the crew members’ serum samples (Fig. 5b). To
+compare immune change observations from VA ROIs to system-wide
+immune system changes, we performed leveraged 10X multiome
+sequencing (dual snRNA and ATAC sequencing from each cell) on
+timepoint-matched PBMCs from the crew members (Supplementary
+Fig. 7a). We analyzed 151,411 cells across 9 gross cell types and per-
+formed differential expression analysis (Supplementary Fig. 7b, c).
+Overall, we observed ﬂuctuations of T-cells across timepoints, con-
+sistent to the observations from skin spatial transcriptomics data
+(Fig. 5c, d and Supplementary Fig. 7d). Among 555 DEGs from multi-
+ome samples and 446 DEGs from GeoMx VA ROIs, 12 overlapping DEGs
+were found (both log2FC > 0.1 and p values < 0.01, DESeq2), including
+ATP11A, CEP85L, CEPT1, DMXL1, DOP1A, EVI5, GSAP, MDFIC, SENP7,
+TBCK, VAV3, and VPS13C (Fig. 5c and Supplementary Fig. 7c). Several of
+these genes are related to cellular metabolism and cytosolic trans-
+ports. In particular, VAV3, one of signaling adapters in NK/T cell acti-
+vation, has been previously reported to be associated with atopic
+dermatitis onset41–43. While all these overlapping DEGs were temporary
+in PBMCs, i.e., upregulated in the immediate postﬂight samples (R + 1
+timepoint) and returned to pre-ﬂight expression levels, the chromatin
+accessibility of these genes stayed slightly longer, up to R + 45 time-
+point (Fig. 5d).
+Finally, we derived cell type- and spaceﬂight-speciﬁc gene sig-
+natures from the multiome data, to examine any enrichment in the
+GeoMx samples (using single-sample gene set enrichment analysis, or
+ssGSEA approach) (Fig. 5e). Most of the immune cell speciﬁc postﬂight
+DEGs enrichments were near the innermost ROIs (OD and VA), except
+for T cells (both CD4+ and CD8+), which showed enrichment in the
+postﬂight OE ROIs. While it was previously reported that spaceﬂight
+stressors change the immune system, increased enrichment of the
+T cells in the epidermal region correlates with activated T cell activity
+and connects to inﬂammatory responses and barrier disruptions44–48.
+Lastly, we found that these increased T cell signatures in the OE region
+may not have direct connection to Th17 T cells or psoriasis, rather have
+closer connection to the antigen-associated and lymphatic T cells
+inﬁltrated from inner layers of the skin (Fig. 5f)49,50. Also, the ssGSEA
+analysis using skin disease-associated gene signatures showed a slight
+increase in melanoma signatures. The slight increase can be explained
+with previous observations throughout this manuscript, including
+increase in cell death, immune activation, and stress response (Sup-
+plementary Fig. 7e, f), but more research is needed to prove the direct
+connection or causality of gene expression shifts.
+Discussion
+In this study, we applied a battery of omics methods of the Inspiration4
+crew to discern the impact of spaceﬂight on the skin, collecting and
+integrating skin spatial transcriptomics data with clinical, metage-
+nomic, metatranscriptomic, and single-cell sequencing data. By per-
+forming spatially resolved sequencing of astronaut skin biopsies
+before and after short-term spaceﬂight, we see varying transcriptomic
+and cellular changes and responses speciﬁc with their four skin layers
+(outer and inner epidermis, dermis, and vasculature) across 95 ROIs
+from all four crew members. To provide a more comprehensive view of
+these changes in response to the spaceﬂight environment and stres-
+sors, we correlated the spatial expression proﬁles with the metage-
+nomics and metatranscriptomics data with the skin swab and PBMC
+single-cell sequencing data collected from the same crew member and
+from the same biopsy locations.
+The Inspiration4 mission was a short-term (3-day ﬂight) space-
+ﬂight, with minimal exposure to radiation (about 2.7 mGy-Eq based on
+NASA Q quality factors and 50% FAX ModelEffective dose). Most of
+these changes are expected to be temporary, based on prior missions’
+data, and due to ﬂuid redistribution and stress from the spaceﬂight
+itself. At the molecular level, we observed consistent changes in
+immune signals and extracellular matrix and junction proteins in the
+postﬂight samples relative to preﬂight. Most evidently, we see a strong
+increase in gene expression of the KRAS pathway, which has previously
+been discussed in the context of space radiation51. In the context of
+skin, KRAS is known to alter epidermis homeostasis and induces
+redundant skin, papillomas, defective skin cell proliferation and dif-
+ferentiation and associated with many skin diseases such as melor-
+heostosis, lymphangiomatosis, and vascular stenosis52–54. Activated
+KRAS, as a part of RAS/MAPK signaling pathway, is responsible for
+many angiogenic pathways, cytokine/chemokine productions, bio-
+chemical pathways (e.g., PI3K, RAF, etc.), and cellular proliferation/
+renewals55. When activated, the KRAS oncogene has the greatest
+mutation rate of all cancers, and is linked to several difﬁcult to treat,
+highly lethal cancers, such as pancreatic ductal adenocarcinoma, non-
+small-cell lung cancer, and colorectal cancer56.
+In the context of keratinocyte biology, KRAS plays various roles
+including proliferation, survival, cell-cell adhesion, and polarity and
+redox balance, and the Ras pathway is also activated by integrins and
+negatively regulated by cell-cell adhesion57. KRAS has many roles
+across three key cell types, including: (1) endothelial cells (i.e.,
+mechanotransduction pathways and integrin-associated events58), (2)
+ﬁbroblast reprogramming (i.e., inﬂammatory gene expression and
+tissue extracellular signaling effectors, which polarizes immune
+populations while preventing tissue repair59), and (3) pericytes (i.e.,
+wound healing and scarformation, and endothelial tubulogenesis, plus
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+7
+
+a
+e
+c
+GeoMx 
+VA ROI
+446
+Multiome
+PBMCs
+555
+12
+PBMCmultiome_other_T
+PBMCmultiome_CD4_T
+PBMCmultiome_CD8_T
+PBMCmultiome_DC
+PBMCmultiome_B
+PBMCmultiome_other
+PBMCmultiome_Mono
+PBMCmultiome_NK
+Post_OE
+Pre_OE
+Post_IE
+Pre_IE
+Post_OD
+Pre_OD
+Post_VA
+Pre_VA
+−1.5
+−1
+−0.5
+0
+0.5
+1
+1.5
+f
+enrichment score
+Gen.disease
+Melanoma
+0.0
+0.1
+0.2
+0.3
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+Psoriasis
+0.00
+0.05
+0.10
+0.15
+0.20
+OE
+IE
+OD
+VA
+Pre Post Pre Post Pre Post Pre Post
+Enrichment score
+IL13
+TSLP
+IL25
+IL4
+TNF
+IL5
+IFNG
+OE
+IE
+OD
+VA
+−1 −0.5
+0
+0.5
+1
+FC
+IL−4
+IL−5
+IL−13
+TSLP
+IFNG
+TNFa
+Preflight
+R+1
+R+45
+R+82
+R+194
+Sig.
+1.5
+1
+0.5
+0
+-0.5
+-1
+-1.5
+b
+ATP11A
+CEP85L
+CEPT1
+DMXL1
+EVI5
+GSAP
+MDFIC
+SENP7
+TBCK
+VAV3
+VPS13C
+Pre−flight
+R+1
+R+45
+R+82
+PBMCs ATAC
+ATP11A
+CEP85L
+CEPT1
+DMXL1
+DOP1A
+EVI5
+GSAP
+MDFIC
+SENP7
+TBCK
+VAV3
+VPS13C
+Pre−flight
+R+1
+R+45
+R+82
+Genes
+−1.0
+−0.5
+0.0
+0.5
+1.0
+Average Exp
+% Expressed
+20
+40
+60
+80
+PBMCs RNA
+d
+Fig. 5 | Changes in the skin immune system relates to peripheral blood immune
+cell changes. a Notable cytokine changes and locations from (a) skin tran-
+scriptomics data by region and, b cytokine assay from serum samples (sig. Indicates
+overall statistical signiﬁcance of the cytokine levels in the postﬂight samples rela-
+tive to the preﬂight samples, where red indicates signiﬁcantly increased, and green
+means stable/no change; two-sided Wilcoxon test was done with the p value cutoff
+of 0.05), c Comparison of DEGs between PBMC multiome data and spatial tran-
+scriptomics data from VA ROIs, d Dot plots visualizing mRNA transcript expression
+levels (left) and gene activity score from ATAC signals (right), where preﬂight
+samples were collected 44 days before launch (L-44) and postﬂight samples were
+collected 1, 45, and 82 days post return (R + 1, R + 45, and R + 82, respectively),
+e Flight and cell type speciﬁc gene signature enrichment in spatial data by time-
+point and ROI types, f gene signature enrichment analysis using gene signatures
+built from skin disease-related gene expression proﬁles; two-sided Wilcoxon test
+across four crew members and 95 ROIs was performed to obtain p value, where
+*p ≤0.05 and **p ≤0.01, and error bars represents standard deviation of the mean.
+Source data are provided as a Source Data ﬁle.
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+8
+
+apical membrane and cytoskeletal polarization, which mediates the
+interaction between endothelial cells and pericytes60,61). From our
+results, we also see changes in various cell populations, including
+melanocyte, pericyte, ﬁbroblast, and lymphatic endothelial cells, with
+KRAS being a likely mechanistic pathway being altered from space-
+ﬂight exposure within these cell populations leading to their pheno-
+type changes. The impairment of skin cell proliferation is consistent
+with relative decrease in melanocytes and ﬁbroblasts in postﬂight
+samples.
+Related to this observation, other non-inﬂammatory pathways
+such as WNT-βcatenin, TGFβ, Notch, ROS, glycolysis, apoptosis, oxi-
+dative phosphorylation, G2M checkpoints, also show signiﬁcant
+changes. These pathways may provide more context as to why KRAS is
+changing, as well as the phenotypic adaptations and distribution
+changes seen with the cell populations. For example, from a metabolic
+perspective, an increase in glycolysis and a decrease in oxidative
+phosphorylation is tied with apoptotic events, decreased oxygen
+supply/hypoxia (e.g., change in cardiovascular function, increased
+inﬂammation, increased wound healing, etc.), as a compensatory
+response to the environmental insult. TGFβ is involved with ECM
+remodeling, inﬂammatory pathways, and these various cell types
+affect these biological events. Notch and WNT-βcatenin are involved
+with cytoskeletal/cell-cell adhesion processes. Furthermore, looking at
+the host of inﬂammatory pathways changing (interferon, TNFα, com-
+plement, interleukin), primarily pro-inﬂammatory given the timeframe
+of this mission as well as environmental insults (e.g., radiation expo-
+sure, weightlessness) that also exacerbate the biochemical pathways
+that are being shifted after spaceﬂight (e.g., metabolic, cell pheno-
+typic, increased apoptosis, etc.).
+The spatial analysis enabled a unique study of gene expression
+changes, at higher resolution across the layers of skin, plus also within
+distinct tissue compartments. While all regions show varying but
+consistent enrichment in inﬂammation-related pathways, we are able
+to locate damage and repair related pathways (i.e., DNA repair, apop-
+tosis, and UV response, reactive oxygen species) in epidermal (mostly
+outer layers) regions, suggesting that the skin’s stressors from space-
+ﬂight occur primarily in the outermost region. Space radiation can
+cause damage to DNA directly through interaction of charged particles
+with DNA itself or indirectly through the production of free radicals
+(which we also see from the increased oxidative stress transcripts)62.
+The type of DNA damage can also differ, from single-strand to double-
+strand breaks, chromosome aberrations, copy number variation, and
+other genomic changes. The level of DNA repair depends on the cell
+type and its capacity for repair as well, with more rapidly replicating
+cell types (e.g., epithelial cells vs. endothelial cells) having more active
+DNA repair mechanisms63. Of note, spaceﬂight can also cause
+increased reactive oxygen species production, likely also from radia-
+tion exposure64–68. We also identify speciﬁc keratin (KRT) transcripts in
+dermal layer and loss of ﬁbroblast and cell junction transcripts
+including DES, ACTA2, TLN1, and TAGLN in vascular regions, which may
+be related to epithelial barrier disruptions and hindered regeneration.
+Various spaceﬂight and ground-analog studies have shown spaceﬂight
+induces oxidative damage to cell junctional proteins and adhesion.
+Further supporting epithelial barrier disruptions, we show
+decrease in barrier-related transcripts (i.e., FLG, HAS, OCLN, CLDN) and
+relate the loss of these proteins to microbiome changes using meta-
+genomics and metatranscriptomics data from the swabs. Some of
+these changes may be related to the changes in skin microbiota.
+Consistent to previous reports from the International Space Station
+(ISS), we ﬁnd changes in microbes such as Corynebacterium, Actino-
+myces, and Staphylococcus in the Inspiration4 crew skin samples,
+despite the small sample size69. We then correlated microbiome
+changes with gene expression ﬂuctuations and identiﬁed gene-
+microbe clusters. While many of these changes are known to be
+associated with the microbial composition within the capsule,
+systematic studies spanning spaceﬂight environment, skin surface,
+and gene expression will provide additional insights to which coun-
+termeasures are needed70,71.
+Connecting the ﬁndings in the immune system, we cross-validated
+these results with 10X multiome proﬁling of PBMCs and reported
+consistent immunological changes. We identify overall loss of immune
+cells in vascular ROIs, while T-cell signature increases in the outermost
+epidermal layers. T-cell migration and inﬁltration in epidermal layers
+have been previously associated with skin inﬂammation and several
+disease conditions72, and several other studies have connected
+immune system dysregulation and adaptations to spaceﬂight expo-
+sure. For example, consistent adaptive immune system changes (for
+example, T cells generally shift toward a Th2 phenotype) are consistent
+with our observation that T cells shifts can lead to ﬂuctuations in
+cytokine concentration44,73. We also found increases in macrophages
+and various chemotactic markers (e.g., CCL2, CCL4, CXCL5), which are
+previously associated with spaceﬂight. These changes, which were
+predicted in peripheral, circulating blood cells, are shown within the
+vasculatures of the skin tissue microenvironment. Furthermore, by
+taking intersections of DEGs from both skin spatial proﬁling and PBMC
+single-cell, we saw an enrichment of genes related to neutrophils. Such
+observation is consistent with previous observations from space
+shuttle ﬂights studies74. It has been shown that neutrophils increase in
+postﬂight
+samples,
+likely
+due
+to
+inﬂight
+stress
+rather
+than
+microgravity.
+Related to this observation, the changes in the microvascular
+network seen (both blood and lymphatic), may also be suggestive of
+local tissue adaptations resulting from ﬂuid redistribution and inter-
+stitial
+pressure
+changes.
+It
+has
+been
+previously
+shown
+that
+microgravity-induced capillary transmural pressure (blood to tissue)
+change may reduce lymphatic ﬂow and is discussed in the context of
+ocular health8,75. These changes in lymphatic ﬂow and cellular micro-
+environment are also crucial for immune and stem cell interactions
+and turnovers, therefore deeper investigations to characterize the
+changes and develop countermeasures are crucial76,77.
+Overall, we present a thorough model of skin tissue (1) inter-
+acting with microbes and viruses on the surface, (2) changing
+expression proﬁles layer-by-layer, and (3) signaling from circulating
+PBMCs that likely interact with the peripheral skin vasculature. Our
+study is limited by four crew members, two timepoints, and a short-
+term mission, but to mediate this limitation, the data has been
+compared with other research and analog models (Henry Cope and
+Jonas Elsborg et al., Nature Communications, in review). In addition,
+some limitations are due to the unique challenges associated with
+the
+astronaut
+samples,
+including:
+their
+difﬁcult
+procurement
+(biopsy), their rarity (there are few missions being conducted), and
+limited
+infrastructure
+for
+on-site
+sample
+collection
+and
+processing78–83. Nonetheless, these ﬁrst structural and molecular
+views into the epidermal response to spaceﬂight highlight key KRAS,
+immune, and related pathways that can be integrated in the future
+missions and on-site monitoring of crews84 to help researchers
+understand the long-term effects of the spaceﬂight stressors and
+cellular changes we identiﬁed in this study.
+Methods
+IRB statement
+The research in this manuscript complies with all relevant ethical
+regulations. Tissue samples were provided by SpaceX Inspiration4
+crew members (n = 4, two males and two females) after consent for
+research use of the biopsies, swabs, and biological materials. The
+procedure followed guidelines set by Health Insurance Portability and
+Accountability Act (HIPAA) and operated under Institutional Review
+Board (IRB) approved protocols. Experiments were conducted in
+accordance with local regulations and with the approval of the IRB at
+the Weill Cornell Medicine (IRB #21-05023569).
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+9
+
+Sample collection
+Skin biopsy and swabs. The biopsies were collected from all four crew
+members’ right (preﬂight) and left (postﬂight) deltoid (or upper arm)
+that were anatomically the same, matched locations, except for one
+crew member. For this crew member, both timepoints were collected
+from the right arm, approximately 1.5 inches away from one another.
+The average age of the crew members was 41.5 and consisted of two
+males and two females. Prior to biopsy, the selected areas were
+swabbed for 30 s with pressure using an Isohelix Swab dampened with
+DNase and RNase free water. The swabs were stored in the pre-labeled
+Thermo Fisher 2D barcoded tubes with DNA/RNA Shield Stabilization
+Solution (Zymo Research, cat# R1100-250) added. After the swab, the
+area was disinfected using CloraPrep (BD Biosciences) followed by
+injection of 1% lidocaine and 1/100,000 epinephrine. The biopsies were
+performed using a trephine punch (Miltex). If desired, the surgical sites
+were either closed with two 5-0 Vicryl sutures or applied pressure to
+stop bleeding. To prevent infection and allow healing, bacitracin
+ointment or sterile petrolatum was applied to the biopsied site fol-
+lowed by Band-Aids and after-care instructions. The resected piece was
+cut into approximately 1/3 and 2/3 sections. The smaller piece was
+ﬁxed with formalin and stored at room temperature for histology and
+pathology. The larger piece was ﬂash frozen for GeoMx analysis.
+PBMC isolations. For each crew member, 8 ml of venous blood was
+collected in Ethylenediaminetetraacetic acid (EDTA) anticoagulant
+tubes. Depletion of granulocytes was performed either directly from
+whole blood using the RosetteSepTM granulocyte depletion cocktail or
+by cell sorting after PBMC isolation. Whole blood was incubated in a
+granulocyte depletion cocktail (50 µl/ml of blood) for 20 min at room
+temperature. Next, Ficoll-Paque Plus (Cytiva) was utilized to isolate
+PBMCs by density gradient centrifugation. After washes in PBS with 2%
+FBS (GIBCO) were completed, isolated PBMCs were cell sorted to
+remove granulocytes only if the RosetteSepTM granulocyte depletion
+cocktail was not added to whole blood prior to density gradient cen-
+trifugation. Granulocytes were identiﬁed using side scatter and the
+lymphocyte and monocyte fractions were sorted using a 100 µm noz-
+zle (BD Aria). Following granulocyte depletion, PBMCs were split into
+two fractions to generate single-cell V(D)J T-cell and B-cell libraries or
+Multiome (GEX and ATAC) libraries.
+Spatial transcriptomics analysis
+GeoMx digital spatial proﬁling. Skin biopsy samples from four crew
+members were collected and frozen in cryovials pre and post ﬂight.
+Collected skin was ﬂash embedded in OCT blocks. Three or four
+replicate of OCT-embedded tissues were placed on a single slide per
+subject including pre and post ﬂight replicates. Tissues were then
+cryosectioned at 5 µm thickness and attached to glass microscope
+slides (Fisher Scientiﬁc, cat# 22-037-246).
+Immunoﬂuorescent visualization marker for Pan-Cytokeratin
+(PanCK, Novus cat# NBP2-33200AF532, Alexa Fluor® 532, clone ID
+AE1 + AE3, 1:40 dilution), ﬁbroblast activation protein (FAP, Abcam
+cat# ab222924, clone ID EPR20021, conjugated to Alexa Fluor® 594
+using Thermo Fisher antibody labeling kit cat# A20185, 1:20 dilution)
+and smooth muscle actin (SMA, R&D Systems cat# IC1420R, Alexa
+Fluor® 647, clone 1A4, 1:200 dilution) were used for region or interest
+(ROI) selection. The DSP whole transcriptome assay (WTA) was used to
+assess genes collected in each ROI. For DSP processing, OCT slides
+were thawed overnight in 10% neutral-buffered formalin (NBF) at 4 °C
+followed by PBS washes for thorough ﬁxation. After washes, slides
+were prepared following the automated Leica Bond RNA Slide Pre-
+paration Protocol for ﬁxed frozen samples, digesting samples with
+1.0 µg/ml proteinase K for 15 min, and antigen retrieval for 20 min at
+100 °C (NanoString, no. MAN-10115-05). In situ hybridizations with the
+GeoMx Whole Transcriptome Atlas Panel (WTA, 18,677 genes) at 4 nM
+ﬁnal concentration were done in Buffer R (NanoString). Morphology
+markers were prepared for four slides concurrently using Syto13
+(DNA), PanCK, FAP and SMA in Buffer W for a total volume of 225 μl per
+slide. Slides incubated with 225 μl of morphology marker solution at
+RT for 1 h, then washed in SSC and loaded onto the NanoString DSP
+instrument. The 20x scan was used to select freeform ROIs to guide
+selection of outer epidermal (OE), inner epidermal (IE), outer dermal
+(OD) and vascular (VA) regions. OE ROIs covered spinous and granular
+layers, while IE ROIs covered the basal layer, identiﬁed from the
+staining of the tissue. To ensure proper selection and to avoid overlaps
+across different ROI types, small gaps between each ROI type were
+made, as shown in Supplementary Fig. 1.
+GeoMx WTA sequencing reads from NovaSeq6000 were com-
+piled into FASTQ ﬁles corresponding to each ROI. FASTQ ﬁles were
+then converted to digital count conversion ﬁles using the NanoString
+GeoMx NGS DnD Pipeline. From the normalized count matrix, DESeq2
+was used to perform differential expression analysis (Supplementary
+Data 1), and FGSEA was used for pathway enrichment analysis, which
+uses Kolmogorov-Smirnov-like enrichment score test to obtain statis-
+tics (Supplementary Data 2). GSVA was used to run ssGSEA analysis
+with custom gene signatures obtained from published single-cell and
+bulk skin datasets25,26. The methods used to perform data exploration
+and visualization have been published previously78.
+PBMC single-cell sequencing analysis
+Library preparation and sequencing. To capture T cell and B cell
+variability, diversity, and joining (VDJ) repertoire, single-cell gel beads-
+in-emulsion and libraries were performed according to the manu-
+facturer’s instructions (Chromium Next GEM Single Cell 5’ v2, 10x
+Genomics). Prior to single-cell Multiome ATAC and gene expression
+sequencing, nuclei isolation was performed by resuspending PBMCs in
+100 µl of cold lysis buffer containing 10 mM Tris-HCl (pH 7.4), 10 mM
+NaCl, 3 mM MgCl2, 0.1% Tween-20, 0.1% Nonidet P40, 0.01% digitonin,
+1% BSA, 1 mM DTT and 1 U/µl RNAse inhibitor. Cells were incubated for
+4 min on ice, followed by the addition of 1 ml cold wash buffer (10 mM
+Tris-HCl (pH 7.4), 10 mM NaCl, 3 mM MgCl2, 0.1% Tween-20, 1% BSA,
+0.1% Tween-20, 1 mM DTT, 1 U/µl RNAse inhibitor). After centrifugation
+(1000 × g for 5 min at 4 °C), nuclei were resuspended in diluted nuclei
+buffer (10x Genomics Single-Cell Multiome ATAC kit A) at a con-
+centration of 6000 nuclei per µl. Single-cell libraries were generated
+via the Chromium Next GEM Single-Cell Multiome ATAC and Gene
+Expression kit (10X Genomics) according to the manufacturer’s
+instructions.
+The
+libraries
+were
+sequenced
+on
+the
+NovaSeq
+6000 sequencing system. GEX and ATAC libraries were processed
+using Cell Ranger arc v2.0.0. VDJ libraries were processed using Cell
+Ranger v6.1.1. Reads were aligned to the GRCh38 human genome.
+Metagenomics and metatranscriptomics analysis
+DNA/RNA library preparation and sequencing. Samples were col-
+lected prior to processing as isohelix swabs stored in 400 ul of Zymo
+Research DNA/RNA shield (cat# R1100) in Thermo Fisher Matrix 1.0 ml
+ScrewTop Tubes (cat# 3741-WP1D-BR). Prior to beginning the extrac-
+tion protocol, samples were vortexed for 5 s using the MO BIO Vortex
+Adapter tube holder (cat# 13000-V1-24) to ensure maximum biomo-
+lecular yield from the collected swabs. Due to loss in DNA/RNA shield
+during sample collection, sample volume was transferred into AllPrep
+Bacterial Bead Tubes provided by the Qiagen Allprep Bacterial DNA/
+RNA/Protein Kit (cat# 47054) and the volume of samples were adjus-
+ted to 350 ul prior to further processing to ensure sufﬁcient input
+volume for the extraction protocol. DNA/RNA/Protein extraction was
+performed using the Qiagen Allprep Bacterial DNA/RNA/Protein Kit
+(cat# 47054). Steps one and two were omitted from the Qiagen Allprep
+Bacterial DNA/RNA/Protein Kit manufacturer’s protocol as these
+samples were not generated through bacterial culture. Aside from this
+omission, samples were extracted following the manufacturer’s pro-
+tocol. Following the completion of the extraction protocol, the
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+10
+
+extracted DNA was quantiﬁed using Thermo Fisher Qubit 1X dsDNA HS
+Assay (cat# Q33231), extracted RNA was quantiﬁed using Thermo
+Fisher Qubit RNA HS Assay Kit (cat# Q32855), and extracted protein
+was measured using the Thermo Fisher Rapid Gold BCA Protein Assay
+(cat # A53225). All quantiﬁcation protocols were conducted per man-
+ufacturer’s instructions.
+Illumina DNA Library prep kit was used for preparing all extracted
+DNA and cDNA (from RNA) samples for Illumina Whole genome
+sequencing per manufacturer’s instructions. Adapters used were IDT®
+for Illumina® DNA/RNA UD Indexes, Tagmentation (96 Indexes, 96
+Samples). In total, 408 DNA samples (4 × 96-well plates and 24 samples
+on a 5th 96-well plate) were library prepared and pooled into a total of
+4 pools—96 samples were pooled into 1 (for plates 1, 2 and 3), except
+for plates 4 and 5, where 120 libraries were pooled into 1. Each library
+pool was sequenced using 2 × 150 Paired end sequencing on S4 ﬂow
+cell using NovaSeq 6000 sequencer, one pool per lane of the S4
+ﬂow cell.
+Genomic data preprocessing and quality control. All metagenomic
+and metatranscriptomic samples underwent the same quality control
+pipeline prior to downstream analysis. Software used was run with the
+default settings unless otherwise speciﬁed. The majority of our quality
+control pipeline makes use of bbtools (V38.92), starting with clumpify
+[parameters: optical = f, dupesubs = 2, dedupe = t] to group reads,
+bbduk [parameters: qout = 33 trd = t hdist = 1 k = 27 ktrim = “r” mink = 8
+overwrite = true trimq = 10 qtrim = “rl” threads = 10 minlength = 51
+maxns = −1 minbasefrequency = 0.05 ecco = f] to remove adapter
+contamination, and tadpole [parameters: mode = correct, ecc = t,
+ecco = t] to remove sequencing error79. Unmatching reads were
+removed using bbtool’s repair function. Alignment to the human
+genome with Bowtie2 (parameters: --very-sensitive-local) was done to
+remove potentially human-contaminating reads80.
+Taxonomic abundance quantiﬁcation. We used the XTree (https://
+github.com/GabeAl/UTree) [parameters: –redistribute] to quantify the
+bacterial and viral taxonomic compositions of the metagenomic and
+metatranscriptomic samples. XTree is the recent version of Utree81; it
+implements an optimized alignment approach and increased ease of
+use. In brief, XTree is a k-mer based aligner (akin to Kraken282, but
+faster and designed for larger databases) that uses capitalist read
+redistribution in order to pick the highest-likelihood mapping between
+a read and a given reference based on the overall support of all reads in
+a sample for said reference83. Notably, it reports the total coverage of a
+given query genome, as well as total unique coverage, which refers to
+coverage of regions found in only one genome of an entire genome
+database.
+We generated an XTree k-mer database [parameters: XTree BUILD
+k 29 comp 0] from the Genome Taxonomy Database representative
+species dataset (Release 207) and aligned both metagenomic and
+metatranscriptomic samples. For the metagenomic sequencing, we
+ﬁltered for genomes that had at least 0.5% coverage (i.e., approxi-
+mately 15 genes in 3000 genes, each 1000 bp) and/or 0.25% unique
+coverage. Relative abundances were calculated by dividing the total
+reads assigned to a given genome by the total number of reads
+assigned to all genomes in each sample.
+Cytokine assay
+Biochemical assays from the serum samples obtained from the same i4
+crew members was performed using the bead-based multiplexed assay
+protocols
+provided
+by
+Eve
+Technologies
+(https://www.
+evetechnologies.com/cytokine/). Two biomarker proﬁling panels
+were used: (1) Human Cytokine/Chemokine 71-Plex Discovery Assay®
+Array (HD71) and (2) Human Cardiovascular Disease Panel 3 9-Plex
+Discovery Assay® Array (HDCVD9). Concentration values from the
+assay were extrapolated using a 4 of 5 parameter logic standard curve.
+Chromogenic in situ hybridization
+Using additional sections from the same FFPE blocks, AP3B1 tran-
+scripts were quantiﬁed using custom RNA probe. Five-micron thick
+sections were cut from the parafﬁn blocks and mounted on glass
+slides. For each block two duplicate serial sections were mounted on a
+single slide, stained, and analyzed. Chromogenic in situ hybridization
+was performed on an automated stainer (Leica Bond RX, Leica Bio-
+systems, Deer Park, IL) with RNAscope 2.5 LS Assay Reagent Kit-Red
+(Cat. # 322150, Advanced Cell Diagnostics, Newark, CA) and Bond
+Polymer Reﬁne Red Detection (Cat. # DS9390, Leica Biosystems) fol-
+lowing manufacturer’s standard protocol. A probe was designed to
+detect region 301-1333 of human AP3B1 gene, NCBI Reference
+Sequence 126221 (Cat. # 1262218-C1; Advanced Cell Diagnostics).
+Positive control probe detecting a housekeeping gene (human PPIB,
+cat # 313908, Advanced Cell Diagnostics) and a negative control probe
+detecting bacterial (Bacillus subtilis) dapB gene (cat #312038,
+Advanced Cell Diagnostics) were used to conﬁrm adequate RNA pre-
+servation and detection, and absence of non-speciﬁc signal, respec-
+tively. The chromogen was fast red and the counterstain hematoxylin.
+Positive RNA hybridization was identiﬁed as discrete, punctate chro-
+mogenic red dots under brightﬁeld microscopy. Images were acquired
+with an Olympus VS200 slides scanner and VS200 ASW 3.4.1 software
+(Evident Scientiﬁc, Hamburg, Germany) using a 40X/0.95NA objective
+and extended focal imaging mode to generate whole slide images with
+a pixel size of 0.1369 µm. Images were analyzed using Halo
+3.5.3577 software and ISH module 4.2.3 (Indica Labs, Albuquerque,
+NM). The entire epidermis region was annotated manually and ana-
+lyzed. As melanin pigment was observed in the epidermis it was set as
+an exclusion stain in order to avoid its false detection as red stain.
+Probe size was set at 1.0000 µm2. Average probe copy number per cell
+was reported. Image acquisition and analysis were performed by a
+board-certiﬁed veterinary pathologist.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+All the raw sequencing data (skin spatial transcriptomics, swab meta-
+genomics and metatranscriptomics) as well as images, processed data,
+and associated metadata are submitted to NASA GeneLab data sharing
+platform with submission ID OSD-574. PBMC single-cell multiome data
+are also available via NASA GeneLab platform under OSD-570.
+Individual-level data are only identiﬁable with IRB, however, aggre-
+gated data and interactive online visualization tools are available at:
+https://soma.weill.cornell.edu/apps/SOMA_Browser/. Source data are
+provided with this paper.
+Code availability
+Codes used to analyze skin spatial transcriptomics, processed data
+used to generated ﬁgures, and skin-speciﬁc custom gene sets are
+accessible
+in
+GitHub
+repository:
+https://github.com/jpark-lab/
+SpatialAnalysis/85. All other data analyses including single-cell multi-
+ome and metagenomics data analysis can be found in https://github.
+com/eliah-o/inspiration4-omics.
+References
+1.
+Clément, G. Fundamentals of Space Medicine (Springer, 2011).
+2.
+Stepanek, J., Blue, R. S. & Parazynski, S. Space medicine in the era of
+civilian spaceﬂight. N. Engl. J. Med. 380, 1053–1060 (2019).
+3.
+Radstake, W. E., Baselet, B., Baatout, S. & Verslegers, M. Spaceﬂight
+stressors and skin health. Biomedicines 10, 364 (2022).
+4.
+Garrett-Bakelman, F. E. et al. The NASA Twins Study: a multi-
+dimensional analysis of a year-long human spaceﬂight. Science
+364, eaau8650 (2019).
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+11
+
+5.
+da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals
+mitochondrial stress as a central biological hub for spaceﬂight
+impact. Cell 183, 1185–1201.e20 (2020).
+6.
+Shiraishi, M. et al. Periodic structures and diurnal variation in blood
+pressure and heart rate in relation to microgravity on space station
+MIR. Biomed. Pharmacother. 58, S31–S34 (2004).
+7.
+Tanaka, K., Nishimura, N. & Kawai, Y. Adaptation to microgravity,
+deconditioning, and countermeasures. J. Physiol. Sci. 67,
+271–281 (2017).
+8.
+Ly, V., Velichala, S. R. & Hargens, A. R. Cardiovascular, lymphatic,
+and ocular health in space. Life 12, 268 (2022).
+9.
+Delp, M. D., Charvat, J. M., Limoli, C. L., Globus, R. K. & Ghosh, P.
+Apollo lunar astronauts show higher cardiovascular disease mor-
+tality: possible deep space radiation effects on the vascular endo-
+thelium. Sci. Rep. 6, 29901 (2016).
+10.
+Zhang, L.-F. & Hargens, A. R. Spaceﬂight-induced intracranial
+hypertension and visual impairment: pathophysiology and coun-
+termeasures. Physiol. Rev. 98, 59–87 (2018).
+11.
+Marshall-Goebel, K. et al. Assessment of jugular venous blood ﬂow
+stasis and thrombosis during spaceﬂight. JAMA Netw. Open 2,
+e1915011 (2019).
+12.
+Hughson, R. L. et al. Increased postﬂight carotid artery stiffness and
+inﬂight insulin resistance resulting from 6-mo spaceﬂight in male
+and female astronauts. Am. J. Physiol. Heart Circ. Physiol. 310,
+H628–H638 (2016).
+13.
+Lefèvre-Utile, A., Braun, C., Haftek, M. & Aubin, F. Five functional
+aspects of the epidermal barrier. Int. J. Mol. Sci. 22, 11676 (2021).
+14.
+Burge, S., Matin, R. & Wallis, D. Oxford Handbook of Medical Der-
+matology (Oxford University Press, 2016).
+15.
+Farkas, Á. & Farkas, G. Effects of spaceﬂight on human skin. Ski.
+Pharmacol. Physiol. 34, 239–245 (2021).
+16.
+Braun, N. et al. Current data on effects of long-term missions on the
+international space station on skin physiological parameters. Ski.
+Pharmacol. Physiol. 32, 43–51 (2019).
+17.
+Tronnier, H., Wiebusch, M. & Heinrich, U. Change in skin physiolo-
+gical parameters in space—report on and results of the ﬁrst study
+on man. Ski. Pharmacol. Physiol. 21, 283–292 (2008).
+18.
+Bacci, S. & Bani, D. The epidermis in microgravity and unloading
+conditions and their effects on wound healing. Front. Bioeng. Bio-
+technol. 10, 666434 (2022).
+19.
+Burgdorf, W. H. C. & Hoenig, L. J. Dermatology and the American
+experience in space. JAMA Dermatol. 151, 877 (2015).
+20. Yudovsky, D. & Pilon, L. Rapid and accurate estimation of blood
+saturation, melanin content, and epidermis thickness from spectral
+diffuse reﬂectance. Appl. Opt. 49, 1707–1719 (2010).
+21.
+Neutelings, T. et al. Skin physiology in microgravity: a 3-month
+stay aboard ISS induces dermal atrophy and affects cutaneous
+muscle and hair follicles cycling in mice. NPJ Microgravity 1,
+15002 (2015).
+22. Barravecchia, I. et al. A comprehensive molecular and morpholo-
+gical study of the effects of space ﬂight on human capillary endo-
+thelial cells: sample quality assessment and preliminary results.
+Front. Physiol. 9, https://doi.org/10.3389/conf.fphys.2018.26.
+00050 (2018).
+23. de Jesus, A. A., Canna, S. W., Liu, Y. & Goldbach-Mansky, R. Mole-
+cular mechanisms in genetically deﬁned autoinﬂammatory dis-
+eases: disorders of ampliﬁed danger signaling. Annu. Rev. Immunol.
+33, 823–874 (2015).
+24. Wang, S. et al. Single cell transcriptomics of human epidermis
+identiﬁes basal stem cell transition states. Nat. Commun. 11,
+4239 (2020).
+25. Solé-Boldo, L. et al. Single-cell transcriptomes of the human skin
+reveal age-related loss of ﬁbroblast priming. Commun. Biol. 3,
+188 (2020).
+26. Zou, Z. et al. A single-cell transcriptomic atlas of human skin aging.
+Dev. Cell 56, 383–397.e8 (2021).
+27.
+Wlaschek, M., Maity, P., Makrantonaki, E. & Scharffetter-Kochanek,
+K. Connective tissue and ﬁbroblast senescence in skin aging. J.
+Invest. Dermatol. 141, 985–992 (2021).
+28. el-Ghalbzouri, A., Gibbs, S., Lamme, E., Van Blitterswijk, C. A. &
+Ponec, M. Effect of ﬁbroblasts on epidermal regeneration. Br. J.
+Dermatol. 147, 230–243 (2002).
+29. Sandilands, A., Sutherland, C., Irvine, A. D. & McLean, W. H. I.
+Filaggrin in the frontline: role in skin barrier function and disease. J.
+Cell Sci. 122, 1285–1294 (2009).
+30. Piipponen, M., Li, D. & Landén, N. X. The immune functions of ker-
+atinocytes in skin wound healing. Int. J. Mol. Sci. 21, 8790 (2020).
+31.
+Janson, D., Saintigny, G., Mahé, C. & El Ghalbzouri, A. Papillary
+ﬁbroblasts differentiate into reticular ﬁbroblasts after prolonged
+in vitro culture. Exp. Dermatol. 22, 48–53 (2013).
+32. Janson, D. G., Saintigny, G., van Adrichem, A., Mahé, C. & El
+Ghalbzouri, A. Different gene expression patterns in human papil-
+lary and reticular ﬁbroblasts. J. Invest. Dermatol. 132,
+2565–2572 (2012).
+33. Martin, P. & Nunan, R. Cellular and molecular mechanisms of repair
+in acute and chronic wound healing. Br. J. Dermatol. 173,
+370–378 (2015).
+34. Beheshti, A. et al. Countermeasures for cardiac ﬁbrosis in
+space travel: It takes more than a towel for a hitchhiker’s guide
+to the galaxy. Res. Sq. https://doi.org/10.21203/rs.3.rs-
+2351744/v1 (2023).
+35. Steidl, O., Starr, N. L., Smith, J., Kalan, L. & Singh, A. M. Staphylo-
+coccus aureus disruption of keratinocytes in atopic dermatitis. J.
+Allergy Clin. Immunol. 149, AB230 (2022).
+36. Hülpüsch, C. et al. Skin pH-dependent Staphylococcus aureus
+abundance as predictor for increasing atopic dermatitis severity.
+Allergy 75, 2888–2898 (2020).
+37. Geoghegan, J. A., Irvine, A. D. & Foster, T. J. Staphylococcus aureus
+and atopic dermatitis: a complex and evolving relationship. Trends
+Microbiol. 26, 484–497 (2018).
+38. Kobayashi, T. & Imanishi, I. Epithelial-immune crosstalk with the skin
+microbiota in homeostasis and atopic dermatitis—a mini review.
+Vet. Dermatol. 32, 533–e147 (2021).
+39. Fedenko, E. S. et al. Cytokine gene expression in the skin and per-
+ipheral blood of atopic dermatitis patients and healthy individuals.
+Self Nonself 2, 120–124 (2011).
+40. Hänel, K. H., Cornelissen, C., Lüscher, B. & Baron, J. M. Cytokines
+and the skin barrier. Int. J. Mol. Sci. 14, 6720–6745 (2013).
+41.
+Aguilar, D. et al. Computational analysis of multimorbidity between
+asthma, eczema and rhinitis. PLoS ONE 12, e0179125 (2017).
+42. Vély, F. & Vivier, E. Natural killer cell receptor signaling pathway.
+Sci. STKE 2005, cm6 (2005).
+43. Bankova, L. G. et al. GM-CSF pathway defects may account for
+reduced neutrophil chemotaxis in atopic dermatitis. J. Allergy Clin.
+Immunol. 119, S238 (2007).
+44. Akiyama, T. et al. How does spaceﬂight affect the acquired immune
+system? NPJ Microgravity 6, 14 (2020).
+45. Crucian, B. E. et al. Immune system dysregulation during space-
+ﬂight: potential countermeasures for deep space exploration mis-
+sions. Front. Immunol. 9, 1437 (2018).
+46. Kumar, A., Tahimic, C. G. T., Almeida, E. A. C. & Globus, R. K.
+Spaceﬂight modulates the expression of key oxidative stress and
+cell cycle related genes in heart. Int. J. Mol. Sci. 22, 9088 (2021).
+47. Clark, R. A. Skin-resident T cells: the ups and downs of on site
+immunity. J. Invest. Dermatol. 130, 362–370 (2010).
+48. Ho, A. W. & Kupper, T. S. T cells and the skin: from protective
+immunity to inﬂammatory skin disorders. Nat. Rev. Immunol. 19,
+490–502 (2019).
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+12
+
+49. Boon, T., Coulie, P. G., Van den Eynde, B. J. & van der Bruggen, P.
+Human T cell responses against melanoma. Annu. Rev. Immunol.
+24, 175–208 (2006).
+50. Nussbaum, L., Chen, Y. L. & Ogg, G. S. Role of regulatory T cells in
+psoriasis pathogenesis and treatment. Br. J. Dermatol. 184, 14–24
+(2021).
+51.
+McDonald, J. T. et al. NASA genelab platform utilized for biological
+response to space radiation in animal models. Cancers 12,
+381 (2020).
+52. Mukhopadhyay, A., Krishnaswami, S. R. & Yu, B. D.-Y. Activated Kras
+alters epidermal homeostasis of mouse skin, resulting in redundant
+skin and defective hair cycling. J. Invest. Dermatol. 131, 311–319
+(2011).
+53. Drosten, M., Lechuga, C. G. & Barbacid, M. Ras signaling is essential
+for skin development. Oncogene 33, 2857–2865 (2014).
+54. Lacasta-Plasin, C. et al. KRAS mutation identiﬁed in a patient with
+melorheostosis and extended lymphangiomatosis treated with sir-
+olimus and trametinib. Clin. Genet. 100, 484–485 (2021).
+55. Ternet, C. & Kiel, C. Signaling pathways in intestinal homeostasis
+and colorectal cancer: KRAS at centre stage. Cell Commun. Signal.
+19, 31 (2021).
+56. Huang, L., Guo, Z., Wang, F. & Fu, L. KRAS mutation: from undrug-
+gable to druggable in cancer. Signal Transduct. Target. Ther. 6,
+386 (2021).
+57. Kern, F., Niault, T. & Baccarini, M. Ras and Raf pathways in epidermis
+development and carcinogenesis. Br. J. Cancer 104, 229–234
+(2011).
+58. Shyy, J. Y.-J. & Chien, S. Role of integrins in endothelial mechan-
+osensing of shear stress. Circ. Res. 91, 769–775 (2002).
+59. Velez-Delgado, A. et al. Extrinsic KRAS signaling shapes the pan-
+creatic microenvironment through ﬁbroblast reprogramming. Cell.
+Mol. Gastroenterol. Hepatol. 13, 1673–1699 (2022).
+60. Ayazi, M., Zivkovic, S., Hammel, G., Stefanovic, B. & Ren, Y.
+Fibrotic scar in CNS injuries: from the cellular origins of
+ﬁbroblasts to the molecular processes of ﬁbrotic scar forma-
+tion. Cells 11, 2371 (2022).
+61.
+Norden, P. R., Kim, D. J., Barry, D. M., Cleaver, O. B. & Davis, G. E.
+Cdc42 and k-Ras control endothelial tubulogenesis through apical
+membrane and cytoskeletal polarization: novel stimulatory roles for
+GTPase effectors, the small GTPases, Rac2 and Rap1b, and inhibi-
+tory inﬂuence of Arhgap31 and Rasa1. PLoS ONE 11, e0147758
+(2016).
+62. Afshinnekoo, E. et al. Fundamental biological features of space-
+ﬂight: advancing the ﬁeld to enable deep-space exploration. Cell
+183, 1162–1184 (2020).
+63. Moreno-Villanueva, M., Wong, M., Lu, T., Zhang, Y. & Wu, H. Inter-
+play of space radiation and microgravity in DNA damage and DNA
+damage response. NPJ Microgravity 3, 14 (2017).
+64. Beheshti, A., McDonald, J. T., Miller, J., Grabham, P. & Costes, S. V.
+GeneLab database analyses suggest long-term impact of space
+radiation on the cardiovascular system by the activation of FYN
+through reactive oxygen species. Int. J. Mol. Sci. 20, 661 (2019).
+65. Mao, X. W. et al. Spaceﬂight environment induces mitochondrial
+oxidative damage in ocular tissue. Radiat. Res. 180, 340–350
+(2013).
+66. Pecaut, M. J. et al. Is spaceﬂight-induced immune dysfunction
+linked to systemic changes in metabolism? PLoS ONE 12,
+e0174174 (2017).
+67. Baluchamy, S. et al. Reactive oxygen species mediated tissue
+damage in high energy proton irradiated mouse brain. Mol. Cell.
+Biochem. 360, 189–195 (2012).
+68. Mao, X. W. et al. Biological and metabolic response in STS-135
+space-ﬂown mouse skin. Free Radic. Res. 48, 890–897 (2014).
+69. Morrison, M. D. et al. Investigation of spaceﬂight induced changes
+to astronaut microbiomes. Front. Microbiol. 12, 659179 (2021).
+70. Voorhies, A. A. et al. Study of the impact of long-duration space
+missions at the International Space Station on the astronaut
+microbiome. Sci. Rep. 9, 9911 (2019).
+71.
+Avila-Herrera, A. et al. Crewmember microbiome may inﬂuence
+microbial composition of ISS habitable surfaces. PLoS ONE 15,
+e0231838 (2020).
+72.
+Lorthois, I., Simard, M., Morin, S. & Pouliot, R. Inﬁltration of T cells
+into a three-dimensional psoriatic skin model mimics pathological
+key features. Int. J. Mol. Sci. 20, 1670 (2019).
+73. Crucian, B. E., Stowe, R. P., Pierson, D. L. & Sams, C. F. Immune
+system dysregulation following short- vs long-duration spaceﬂight.
+Aviat. Space Environ. Med. 79, 835–843 (2008).
+74. Barrila, J. et al. Evaluating the effect of spaceﬂight on the host-
+pathogen interaction between human intestinal epithelial cells and
+Salmonella Typhimurium. NPJ Microgravity 7, 9 (2021).
+75. Nelson, E. S., Mulugeta, L. & Myers, J. G. Microgravity-induced ﬂuid
+shift and ophthalmic changes. Life 4, 621–665 (2014).
+76. Peña-Jimenez, D. et al. Lymphatic vessels interact dynamically with
+the hair follicle stem cell niche during skin regeneration in vivo.
+EMBO J. 38, e101688 (2019).
+77.
+Lund, A. W., Medler, T. R., Leachman, S. A. & Coussens, L. M.
+Lymphatic vessels, inﬂammation, and immunity in skin cancer.
+Cancer Discov. 6, 22–35 (2016).
+78. Park, J. et al. System-wide transcriptome damage and tissue identity
+loss in COVID-19 patients. Cell Rep. Med. 3, 100522 (2022).
+79. Bushnell, B. BBMap: A Fast, Accurate, Splice-Aware Aligner (Con-
+ference) | OSTI.GOV. (2014).
+80. Yost, J. et al. The effectiveness of knowledge translation interven-
+tions for promoting evidence-informed decision-making among
+nurses in tertiary care: a systematic review and meta-analysis.
+Implement. Sci. 10, 98 (2015).
+81.
+Hillmann, B. et al. Evaluating the information content of shallow
+shotgun metagenomics. mSystems 3, e00069-18 (2018).
+82. Wood, D. E., Lu, J. & Langmead, B. Improved metagenomic analysis
+with Kraken 2. Genome Biol. 20, 257 (2019).
+83. Al-Ghalith, G. & Knights, D. BURST enables mathematically optimal
+short-read alignment for big data. BioRxiv https://doi.org/10.1101/
+2020.09.08.287128 (2020).
+84. Nangle, S. N. et al. The case for biotech on Mars. Nat. Biotechnol. 38,
+401–407 (2020).
+85. Park J. et al. jpark-lab/SpatialAnalysis. https://doi.org/10.5281/
+zenodo.10016141 (2023).
+Acknowledgements
+We thank Igor Tulchinsky and WorldQuant, The GI Research Foundation,
+NASA (NNX14AH50G, NNX17AB26G, 80NSSC22K0254,
+NNH18ZTT001N-FG2, 80NSSC22K0254), the National Institutes of
+Health (R01MH117406, P01CA214274 R01CA249054), and the LLS
+(MCL7001-18, LLS 9238-16, 7029-23). We also would like to acknowl-
+edge the Laboratory of Comparative Pathology (supported by Cancer
+Center Support Grant P30 CA008748) for histology and RNA scope
+analysis. Additionally, the authors would like to thank following grants
+and/or fellowships: Bumrungrad International Hospital (J.P.), MOGAM
+Science Foundation (J.P., J.K.), NASA Space Biology Postdoctoral Fel-
+lowship (80NSSC19K0426, S.A.N.), Human Research Program Aug-
+mentation Award (80NSSC19K1322, S.A.N.), and the Boryung Care in
+Space (CIS) Award.
+Author contributions
+C.E.M., E.G.O., and J.P. conceived and designed the experiments.
+GeoMx data were processed by A.R., B.M.H., and S.E.C. with the help
+from J.P., E.G.O., N.D., D.N., K.R., J.Pr., A.K., J.G., and J.W.H. Spatial
+transcriptomic dataanalysis and statistical investigation was done by J.P.
+with B.M.H. and S.E.C. R.G. and E.A. processed and analyzed tissue
+samples with S.M. and J.M. Data analysis, interpretation, and ﬁgures
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+13
+
+were made by J.P. with the inputs from J.K., S.N., and B.T. Initial manu-
+script was written by J.P. with the help from J.K., S.N., B.T., N.D., D.N.,
+E.G.O., C.M., J.Pr., A.K., J.W.H., G.C., A.B., M.M., and C.E.M. All authors
+discussed the results and contributed to the ﬁnal manuscript.
+Competing interests
+C.E.M. is a scientiﬁc advisor of NanoString Inc. A.R., B.M.H., and S.E.C.
+are employees of NanoString Technologies, and J.M. and S.M. are
+employees of SpaceX. The remaining authors declare no competing or
+relevant interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-48625-2.
+Correspondence and requests for materials should be addressed to
+Christopher E. Mason.
+Peer review information Nature Communications thanks Georgios
+Theocharidis, and the other, anonymous, reviewer(s) for their contribu-
+tion to the peer review of this work. A peer review ﬁle is available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+1Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA. 2The HRH Prince Alwaleed Bin Talal Bin Abdulaziz
+Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA. 3Department of Nutrition & Integrative Physiology, Florida State
+University, Tallahassee, FL, USA. 4Department of Dermatology, Weill Cornell Medicine, New York, NY, USA. 5NanoString Technologies, Inc., Seattle, WA, USA.
+6SpaceX, Hawthorne, CA, USA. 7Department of Genetics, Harvard Medical School, Boston, MA 02115, USA. 8Wyss Institute for Biologically Inspired Engi-
+neering, Harvard University, Boston, MA, USA. 9Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA. 10Blue
+Marble Space Institute of Science, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA, USA. 11The Feil Family Brain and Mind Research
+Institute, Weill Cornell Medicine, New York, NY, USA.
+e-mail: chm2042@med.cornell.edu
+Article
+https://doi.org/10.1038/s41467-024-48625-2
+Nature Communications|   (2024) 15:4773 
+14

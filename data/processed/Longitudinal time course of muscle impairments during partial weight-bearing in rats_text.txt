@@ -1,0 +1,801 @@
+ARTICLE
+OPEN
+Longitudinal time course of muscle impairments during partial
+weight-bearing in rats
+Marie Mortreux
+1, Frank C. Ko2, Daniela Riveros1, Mary L. Bouxsein2 and Seward B. Rutkove1
+In the near future, space agencies plan to send the ﬁrst crews for extended stays on the Moon and Mars, where gravity is
+signiﬁcantly reduced compared to Earth (0.16×g and 0.38×g, respectively). However, the long-term effects of partial gravity have
+not yet been elucidated, and ensuring astronauts’ health and performance is crucial to the success of these missions. Using a
+quadrupedal partial weight-bearing (PWB) model in rats that we designed, we investigated the longitudinal time course of muscle
+function at three different PWB levels. We demonstrated that both muscle mass and muscle function are signiﬁcantly impaired in
+reduced weight-bearing environments as early as after 7 days of suspension. Moreover, we showed that muscular alterations are
+correlated to the PWB level and do not reach a plateau during a 1-month exposure to reduced weight-bearing, emphasizing the
+need for mitigating countermeasures for safe and successful extraterrestrial exploration.
+npj Microgravity  (2019) 5:20 ; https://doi.org/10.1038/s41526-019-0080-5
+INTRODUCTION
+By providing a sustained mechanical load, gravity is crucial for the
+maintenance and health of the musculoskeletal system. Micro-
+gravity, accordingly, markedly alters musculoskeletal physiology.1–3
+For example, the soleus mass decreases by over 30% after 3 weeks
+in microgravity,4 and femoral bone strength declines by ~2% for
+every 100 days in space.5,6 But the most important consequences
+lie in the risks encountered when astronauts return to Earth and
+are subjected to standard gravity; indeed, the dramatic decrease
+in muscle size, strength, and endurance7 produces long-term
+consequences including chronic muscle fatigue and persistent low
+back pain.8,9
+While considerable information has been gathered concerning
+the physiological adaptations of the human body to weightless-
+ness,10,11 long-term studies are rare and longitudinal assessments
+remain limited due to the difﬁculty to obtain muscle biopsy data
+on astronauts in-ﬂight. For this reason, researchers have relied on
+several animal models, most notably the rat hindlimb unloading
+(HLU) protocol developed in 1979 by Morey et al. which has been
+established as the standard approach12,13 for ground-based
+research. However, this model puts considerable stress on the
+rat tail, which can lead to blood ﬂow restriction, inﬂammation, and
+necrosis. More importantly, the HLU model is not suitable to
+investigate the effects of partial gravity that will be encountered
+when astronauts reach extra-terrestrial targets such as Mars (38%
+of Earth gravity, or 0.38×g) and the Moon (16% of Earth gravity, or
+0.16×g), or when they are exposed to artiﬁcial gravity induced by
+continuous centrifugation.14 An innovative partial weight-bearing
+(PWB) model, incorporating a tail-suspension and body harness,
+has been developed in mice, allowing normal activity for up to
+3 weeks at several different levels of PWB.15,16 However, rats are
+generally considered a better animal model for spaceﬂight studies
+since their physiological processes, including drug metabolism,
+are
+considered
+more
+analogous
+to
+those
+of
+humans.17
+Accordingly, we recently modiﬁed this mouse PWB model for
+rats18 by substituting a pelvic harness for the tail suspension,
+thereby providing a less stressful experience with improved
+reliability.
+In the present study, we sought to extend our initial18 work for
+up to 4 weeks and assessed the functional muscle alterations that
+occur in three different PWB levels (70%, 40%, and 20% of normal
+loading). Additionally, we harvested muscle tissues on days 7, 14,
+and 28 to obtain a comprehensive timeline of muscle atrophy at
+these different levels of PWB. By doing so, we can provide a
+detailed picture of the muscle alterations induced by a reduction
+of the mechanical load. This longitudinal study provides the ﬁrst
+step for better understanding the impact of space missions in
+which stays on the Moon and Mars are planned.
+RESULTS
+The consistency of the PWB level achieved was high (Fig. 1a).
+Indeed, all unloaded
+groups displayed
+minimal differences
+between their achieved and desired PWB level, which was further
+demonstrated by low coefﬁcients of variation (PWB70: 0.54%,
+PWB40: 1.20%, PWB20: 0.95%). Actual body mass without the
+harness was recorded weekly (Fig. 1b), and at all time-points, PWB
+animals displayed a signiﬁcantly different body mass change
+compared to the normal loading (PWB100) controls. Despite
+exhibiting a transient and signiﬁcant loss of body mass in the ﬁrst
+14 days, all groups reached a body mass signiﬁcantly above their
+baseline but lower than the PWB100 control rats after 28 days of
+suspension.
+Calf circumference (Fig. 2) steadily increased over time in the
+control (PWB100) group, while it decreased signiﬁcantly during
+the ﬁrst 2 weeks in all PWB groups compared to their baseline (Fig.
+2a). After 28 days of suspension, all animals displayed a calf
+circumference greater than their baseline, but control group
+Received: 8 December 2018 Accepted: 31 July 2019
+1Department of Neurology, Harvard Medical School – Beth Israel Deaconess Medical Center, Boston, MA, USA and 2Department of Orthopedics, Center for Advanced Orthopaedic
+Studies, Harvard Medical School – Beth Israel Deaconess Medical Center, Boston, MA, USA
+Correspondence: Marie Mortreux (mmortreu@bidmc.harvard.edu)
+www.nature.com/npjmgrav
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+values remained signiﬁcantly higher than all other values. From 1-
+week onward, all PWB groups displayed a signiﬁcantly lower grip
+force compared both to the controls (PWB100) and their
+respective baseline values (Fig. 2b).
+Nerve-stimulated plantar ﬂexion force was measured only on
+days 0 and 28 (Fig. 2c). The control animals (PWB100) showed an
+increase in their area under curve (AUC) after 4 weeks (+5.1 mN s),
+which was signiﬁcantly greater than in all the other PWB groups.
+Each unloaded group displayed a reduction of the AUC in a dose-
+dependent manner after 28 days of suspension, ranging from
+−2.7 mN s for the PWB70 groups and −5.9 mN s for the PWB40
+group, to −6.7 mN.s for the PWB20 animals. This dose-dependent
+decrease over a 1-month period was assessed by performing a
+linear regression
+among the groups (R2 = 0.98,
+p < 0.0001).
+Additionally, the maximal impulse recorded at 28 days of
+suspension can be normalized by the combined wet mass of
+the gastrocnemius and soleus muscles (triceps surae) in order to
+determine muscle quality (Supplementary Table 1). This parameter
+highlighted the linear correlation (p = 0.043 using a one-way
+ANOVA followed by a post hoc test for trend) between the
+different groups, ranging from 9.87 ± 1.64 mN s g−1 for the control
+group to 6.14 ± 1.25 mN s g−1 for the rats exposed to PWB20,
+suggesting a reduction in the intrinsic force generating capability
+of the muscle due to PWB.
+At each time point (i.e., 7, 14, and 28 days) hind limb muscles
+were dissected and wet mass was recorded (Fig. 3). After 7 days,
+the PWB20 group showed a signiﬁcant reduction in soleus mass
+compared to controls (−14.89 ± 2.87%, p < 0.05); PWB70 and
+PWB40 animals displayed substantial but non-signiﬁcant reduc-
+tions (−10.24 ± 3.20% and −8.54 ± 3.35%, respectively, Fig. 3a).
+After 14 days, all unloaded groups had a signiﬁcantly lower soleus
+mass as compared to the PWB100 controls in a dose-dependent
+fashion. This ﬁnding remained observable at 28 days for the
+PWB20 and PWB40 groups but not for the PWB70 group despite a
+mean reduction of −9.53 ± 2.96% (p = 0.11, using a two-way
+ANOVA followed by Tukey’s post hoc test).
+In contrast, the mass of the gastrocnemius muscle did not differ
+signiﬁcantly for any PWB group as compared to PWB100 control
+animals for the ﬁrst 2 weeks of the experiment (Fig. 3b). However,
+after 28 days of partial unloading, the animals exposed to PWB40
+displayed signiﬁcant muscle atrophy compared to the PWB100
+controls (−11.14 ± 2.41%, p = 0.013, using a two-way ANOVA
+followed by Tukey’s post hoc test), as did the animals exposed to
+PWB20 (−9.00 ± 4.27%, p < 0.05). On day 7, quadriceps femoris
+wet mass (Fig. 3c) was signiﬁcantly reduced only in the PWB20
+group compared to the controls (−10.69 ± 1.66%, p < 0.05, using a
+two-way ANOVA followed by Tukey’s post hoc test). On days 14
+and 28, all experimental groups displayed signiﬁcant quadriceps
+atrophy compared to the controls at PWB100 in a clear dose-
+dependent fashion.
+Using
+quantitative
+histomorphometry,
+we
+measured
+the
+average cross-sectional area (CSA) of the myoﬁbers in both soleus
+(Fig. 4a) and gastrocnemius (Fig. 4b) muscles, which have been
+extensively studied for their adaptation to microgravity. In both
+muscles and under all reduced PWB conditions and time points,
+i.e., 7 days (Fig. 4c), 14 days (Fig. 4d), and 28 days (Fig. 4e), the
+unloaded groups displayed a signiﬁcantly smaller myoﬁber CSA
+than the PWB100 controls. Moreover, myoﬁber atrophy followed a
+signiﬁcant linear trend across groups plotted against their degree
+of PWB (R2 values for the soleus are: 0.79, 0.89, and 0.83 for 7, 14,
+and 28 days, respectively. R2 values for the gastrocnemius are:
+0.39, 0.97, and 0.99 for 7, 14, and 28 days, respectively).
+Additionally, we observed a ﬁber type switch in these two
+muscles of the unloaded rats compared to the PWB100 controls
+(Supplementary Table 2). While accounting for only approximately
+40% of the soleus myoﬁbers in mice,19 type 1 ﬁbers (i.e., slow-
+twitch, oxidative) normally comprise from 80 to 94% of the
+myoﬁbers in the soleus muscle in humans and in rats20,21 We
+observed a similar percentage of type 1 myoﬁbers in the soleus
+muscle in our control PWB100 group, ranging from 90.96 ± 1.25%
+to 88.68 ± 1.81% between the different time points. In contrast,
+the number of type 1 ﬁbers decreased (and presumably the
+number of type 2 ﬁbers (i.e., fast-twitch, glycolytic) increased) in
+the soleus muscle with decreasing PWB level. For example, after
+14 days of suspension, the percentage of type 1 ﬁbers decreased
+in the soleus to 85.32 ± 2.65% for the rats at PWB70, 78.51 ± 2.07%
+at PWB40, and 84.08 ± 2.13% at PWB20. The opposite trend was
+observed in the gastrocnemius muscle, which is composed
+predominantly of type 2 ﬁbers in normal conditions (PWB100)
+and displayed an increasingly higher percentage of type 1 ﬁbers in
+the increasingly unloaded groups. The ﬁber-type switch that we
+observed has been reported previously in the literature,22,23 and
+has been described as a preferential atrophy according to muscle
+location and ﬁber-type. The extent of ﬁber-type switching
+increases with time (p = 0.0019, using a two-way ANOVA followed
+by Tukey’s post hoc test) and reduction in PWB level (p = 0.0484,
+using a two-way ANOVA followed by Tukey’s post hoc test).
+However, although we visually observed a consistent trend in
+ﬁber-type switching in the gastrocnemius, we did not detect
+statistically signiﬁcant differences between PWB groups in this
+muscle.
+DISCUSSION
+In this study, we demonstrate that our PWB model in rats shows
+excellent reliability and is effective in modeling the impact of
+a
+b
+Fig. 1
+Tolerability and stability of the PWB model over time. Daily achieved partial weight-bearing (a) and weekly change in body mass (b) of
+all the animals involved in the study for up to four weeks (n = 11–12 per group). Results are presented as mean ± SEM and Tukey’s post hoc
+tests following two-way ANOVA are represented as ***: p < 0.001, ****: p < 0.0001
+M. Mortreux et al.
+2
+npj Microgravity (2019)  20 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+1234567890():,;
+
+reduced mechanical loading on muscle health, with several
+muscle parameters presenting dose-dependent alterations. The
+multiple time points allowed us to observe alterations in muscle
+function and mass as early as 7 days after exposure to reduced
+loading that appeared to become greater over time (Fig. 2b). The
+early muscle deﬁcits that we observed here using our recently
+developed PWB model18,24 and are well described in the hindlimb
+unloading literature25–27 emphasize the need for mitigating
+strategies immediately after a reduction, even partial, in mechan-
+ical loading. Muscle impairment was further conﬁrmed with the
+dose-dependent diminution in both the maximal torque obtained
+after a tetanic stimulation of the tibial nerve on day 28 (Fig. 2c),
+and the normalized tetanic impulse values at 28 days (Supple-
+mentary Table 1), therefore stressing the intrinsic loss of muscle
+function that correlated with reduced load. These physiological
+changes were also conﬁrmed by the reduced hindlimb muscle
+mass (Fig. 3) and were associated with a reduction in myoﬁber
+cross sectional area (Fig. 4). These data are analogous to those
+previously observed after 21 days of PWB in mice.15,16 For
+example, when exposed to PWB20, soleus and gastrocnemius
+mass were reduced by 22% and 10%, respectively, compared to
+the control animals. Furthermore, similar to our ﬁndings, this
+previous work reported that the loss of muscle mass was dose-
+dependent and correlated to the PWB levels.
+As in prior human and animal studies, both in space or using
+ground-based analogues,4 we observed that the soleus muscle
+atrophied to a much greater extent than the gastrocnemius with a
+signiﬁcant
+decrease
+in
+type
+1
+slow-twitch
+oxidative
+ﬁbers
+(Supplementary Table 2). Based on this immunostaining, we
+assumed that this was correlated to an increase in the proportion
+of fast-twitch glycolytic myoﬁbers; however, this assumption
+should be conﬁrmed in future work by speciﬁcally staining for fast-
+twitch ﬁbers, which we did not do. This effect on muscle
+composition has been extensively studied in the context of
+microgravity1,28,29 although the changes do not always reach
+statistical signiﬁcance.30,31 However, the non-signiﬁcant trend we
+observed in the gastrocnemius (i.e., a visible increase in slow-
+twitch ﬁbers as seen in Fig. 4b), which is a mixed-ﬁber type
+muscle, has only been described in the context of neuromuscular
+disorders such as spinal bulbar muscular atrophy.32 In this
+disorder, the cellular shift often precedes symptoms including
+muscle atrophy, and is thought to be caused by a metabolic
+dysfunction. Indeed, in this pathology, early changes in gene
+expression seem to be responsible for the alteration of the
+glycolysis process, which in return, is contributing to the myoﬁber
+type shift by modifying skeletal muscle metabolism and substrate
+availability. Analogously, prediabetic and metabolic symptoms
+such as insulin resistance are often experienced by astronauts
+during their missions.33,34 Thus, it would be interesting to further
+investigate the metabolic changes that are induced in our model,
+including skeletal muscle insulin-resistance, mitochondrial respira-
+tion and overall energy homeostasis, to determine if these
+mechanisms, which are known to impact the muscle tissue,
+contribute to the shift in myoﬁber type or are a consequence of it.
+Our future studies based on RNA sequencing, and aiming at
+unraveling the modulation of gene expression during PWB, will
+need to assess these additional parameters to better understand
+the underlying mechanisms.
+Our PWB model offers the possibility of assessing the time-
+course of the musculoskeletal alterations across the spectrum of
+mechanical loading to better understand the underlying mechan-
+isms of muscle loss and performance deﬁcits. Muscle force, and
+therefore function, is a critical aspect of the astronaut health since
+it is essential for the efﬁcient performance of a wide range of tasks.
+While reductions in force production may cause only minor issues
+during
+periods
+of
+microgravity,
+such
+deconditioning
+could
+ AUC Plantar Flexion (mN.sec)
+7
+14
+28
+-50
+0
+50
+100
+Days of suspension
+PWB100
+PWB70
+PWB40
+PWB20
+****
+********
+****
+********
+****
+********
+b
+7
+14
+28
+-10
+-5
+0
+5
+10
+Days of suspension
+PWB100
+PWB70
+PWB40
+PWB20
+************
+************
+****
+**
+**
+a
+Calf Circumference (%change from baseline)
+PWB100
+PWB70
+PWB40
+PWB20
+Grip Force Rear Paw (%change)
+Change after 28 days of suspension
+***
+**
+*
+∇
+-10
+-5
+0
+5
+10
+c
+Fig. 2
+Longitudinal assessment of muscle function. Weekly change in calf circumference (a) and rear paw grip force (b) of all animals (n =
+11–12 per group). 4-weeks change in the area under curve (AUC) obtained during the tetanic plantar ﬂexion (c, n = 3–6 per group). Results are
+presented as mean ± SEM and Tukey’s post hoc tests following one-way ANOVA (c) or two-way ANOVA (a, b) are represented as *: p < 0.05, **:
+p < 0.01, ***: p < 0.001, and ****: p < 0.0001 vs PWB100
+M. Mortreux et al.
+3
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2019)  20 
+
+represent a major impairment after landing, when astronauts are
+suddenly re-exposed to gravity. Interestingly, our results highlight
+that even a 30% decrease in mechanical loading (i.e., PWB70)
+induces substantial reductions in muscle force and size that do not
+recover after a month of suspension (Fig. 2c). The effects of partial
+gravity, as would be experienced by astronauts visiting Mars or
+the Moon or via centrifugation-induced artiﬁcial gravity, are far
+less studied than the effects of complete weightlessness due to
+the prior lack of established animal and human models. The
+ground-based PWB model we developed will allow for further
+investigation of the potential health impacts of partial mechanical
+unloading and could represent the ﬁrst step toward ﬁnding
+solutions
+to
+protect
+astronauts
+during
+long-duration
+space
+missions.
+While successful, there remain several limitations to this model.
+First, we observed an initial transient decline in body mass; and
+although within an acceptable range (i.e., <10% of the initial body
+mass), as it is experienced in all ground-based models as well as in
+astronauts themselves,35–38 this body mass loss can create some
+bias in non-invasive assessments such as limb girth. Second, unlike
+humans, rats display constant growth, which also involves the
+musculoskeletal system. Indeed, the increase in muscle wet mass
+and in the average myoﬁber cross-sectional area was visible in our
+cohort of fully-loaded (PWB100) controls between different time-
+points. However, it has been described that after the initial and
+rapid growth period, male rats grow at a constant rate between 10
+and 30 weeks old before showing signs of aging,39 thus
+conﬁrming our choice in using 14–18-week-old animals.
+Another limitation of this work is that we did not attempt to
+quantify nocturnal or daytime behavior. However, in order to get
+some sense of their overall behavior, video monitoring was
+installed within the animal facility and qualitative differences in
+behavior among groups were not observed. Despite being
+quadrupedal animals, rats brieﬂy but regularly display some
+bipedal
+behavior,
+mainly
+occurring
+during
+environmental
+exploration and feeding, and such bipedal behavior was visible
+in all groups. While not noticeably greater in the reduced PWB
+groups, these brief bipedal occurrences represent a change in the
+animals’ unloading status that was not preventable. Moreover,
+due to their quadrupedal locomotion, many factors diverge
+between humans and rats, and this model cannot account for
+all such differences. Additionally, we also did not obtain a
+continuous measure of ground reaction forces. This should
+certainly be considered for future work. Finally, we have not fully
+characterized the stress levels in our animals. While our behavioral
+assessments, including food intake, grooming, and physical
+assessments were helpful and are widely used to identify whether
+animals are under stress, it will be necessary to sample blood and/
+or
+feces
+at
+different
+time
+points
+to
+assess
+the
+level
+of
+corticosterone for an accurate measurement of the animals’ stress.
+This model has a number of potential uses beyond simply
+providing a ground-based analogue for different levels of partial
+unloading. First, it can serve as a testing ground for studies of
+therapeutic agents or exercise countermeasures in partial unload-
+ing.40 This is especially true since, if needed, it is extremely easy to
+remove the animals from the PWB harness for short periods of time
+to administer medications by injection or perform other assess-
+ments. Similarly, for exercise countermeasures, the model allows for
+relatively normal positioning and thus it would be possible, for
+example, to outﬁt a cage with a treadmill apparatus, allowing
+animals to perform in normal or reduced loading conditions.
+Likewise, by incorporating other hazardous events that occur during
+space ﬂight, such as radiation exposure, the model could also
+address the impact of the combined effects of PWB and radiation
+exposure to muscle health.41,42 Moreover, the model could be used
+as a tool to assess the impact of sequentially altering loading levels.
+For example, a fully hind-limb suspended rat could then be placed
+in PWB40, so as to mimic an astronaut traveling from Earth to Mars
+and then landing on Mars, assessing the effect of partial unloading
+on an already compromised musculoskeletal system.24 Alternatively,
+7
+14
+28
+0.15
+0.20
+0.25
+0.30
+Days of suspension
+Soleus mass (g)
+PWB70
+PWB40
+PWB100
+PWB20
+*
+** ** ***
+***
+**
+a
+7
+14
+28
+2.0
+2.5
+3.0
+3.5
+4.0
+Days of suspension
+Gastrocnemius mass (g)
+PWB70
+PWB40
+PWB100
+PWB20
+*
+*
+b
+7
+14
+28
+2
+3
+4
+5
+Days of suspension
+Quadriceps Femoris mass (g)
+PWB100
+PWB70
+PWB40
+PWB20
+* *******
+***********
+c
+*
+Fig. 3
+Muscle wet mass after 7, 14, and 28 days of PWB. Wet mass of several hind limb muscles after exposure to PWB, including soleus (a, n =
+12–15 per group), gastrocnemius (b, n = 12–15 per group) and quadriceps femoris (c, n = 9–15 per group). Results are presented as mean ±
+SEM and Tukey’s post hoc tests following ANOVAs are represented as *: p < 0.05, **: p < 0.01, ***: p < 0.001 and ****: p < 0.0001 vs PWB100
+M. Mortreux et al.
+4
+npj Microgravity (2019)  20 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+the model could be used to assess the impact of the gradual
+mechanical
+reloading,
+via
+the
+progressive
+reintroduction
+of
+increased PWB, as means of re-acclimating safely to full Earth
+gravity after an extended period in space.
+In summary, we developed a PWB for rats capable of simulating
+various mechanical loading environments while maintaining a
+quadrupedal stance. This model, ﬁrst developed to investigate the
+impact of reduced weight-bearing environments observed at extra-
+terrestrial targets such as the Moon or Mars, additionally brings
+valuable insights about the potential mitigating effects of applying
+artiﬁcial gravity during spaceﬂight to preserve muscle health.
+METHODS
+Animals
+Wistar male rats, n = 149, (Charles River Laboratories Inc., Wilmington, MA,
+USA) weighing a mean ± standard error of 408 ± 0.15 g (14 weeks of age)
+were obtained and housed in a temperature-controlled (22 ± range of 2 °C)
+room with a 12:12-h light–dark cycle. Water and rat chow were provided
+ad libitum and monitored daily. Rats were regularly assessed for any signs
+of pain or discomfort (e.g., porphyric staining around the eyes, poor
+grooming, and hair loss), harness and jacket ﬁtting, ability to walk and
+move across the cage, food and water intake. Additionally, fully loaded and
+partially loaded mass measurements were recorded daily. All experimental
+G
+a
+b
+Gas
+Sol
+stroc
+eus
+cnemius
+PWB100
+DAPI - Collagen
+PW
+n VI 
+WB7
+- Slo
+70
+ow Skeletal Myosi
+PW
+n He
+WB
+eavy
+40
+y Chain
+PWB20
+Fig. 4
+Histomorphometric analysis of the triceps surae. Immunoﬂuorescence staining of the soleus (a) and the gastrocnemius (b) using
+antibodies targeting DAPI (blue), Collagen VI (red), and slow skeletal myosin heavy chain (green). Average cross-section area (CSA) of the
+soleus and gastrocnemius muscles after 7 days (c), 14 days (d), and 28 days (e) of PWB at all levels. Scale bars are indicated in the bottom right
+corner of each picture and represent 50 µm. Each muscle was analyzed across groups using a one-way ANOVA followed by a post hoc test for
+trend. Results are presented as mean ± SEM and post hoc tests for linear trend and R2 values of the ﬁts are as follow. a Soleus p < 0.01, R2 =
+0.79, Gastrocnemius p < 0.05, R2 = 0.39. b Soleus p < 0.01, R2 = 0.89, Gastrocnemius p < 0.01, R2 = 0.97. c Soleus p < 0.0001, R2 = 0.83,
+Gastrocnemius p < 0.0001, R2 = 0.99 (n = 11–12 per group)
+M. Mortreux et al.
+5
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2019)  20 
+
+protocols were approved by the Beth Israel Deaconess Medical Center
+Institutional Animal Care and Use Committee.
+For all experiments requiring anesthesia, vaporized isoﬂurane (1.5–3.5%)
++ oxygen was used and body temperature was maintained using a water-
+blanket (Gaymar, Inc., Orchard Park, NY) set at 37 °C (Fisher Scientiﬁc,
+Hampton, NH, USA). At the end of the study, rats were euthanized by CO2
+inhalation and hind limb muscles were harvested and weighed on a
+precision analytical balance (Fisher Scientiﬁc, Pittsburgh, PA).
+PWB suspension model
+Animals were placed in four different groups: normal loading (PWB100, n =
+38), 70% of normal loading (PWB70, n = 36), 40% of normal loading (PWB40,
+n = 36), and 20% of normal loading (PWB20, n = 39). In each group, 12
+animals were euthanized on day 7 and day 14 for ex vivo tissue analysis. On
+day 28, 12–15 animals per group were euthanized. At the beginning of the
+study, rats were distributed to ensure a balanced distribution of the body
+weights across all groups. Forty-eight hours prior to day 0 (baseline)
+assessment, rats were placed in custom cages and jackets for acclimation.
+Beginning on day 0, and after obtaining the pre-suspension measurements,
+animals were subjected to either normal loading (PWB100) or other PWB
+levels using the model designed in our previous work.18 Brieﬂy, rats were
+secured in a tether jacket and a pelvic harness and submitted to a 2-point
+suspension allowing them to maintain quadrupedal behavior while
+weighing 100, 70, 40, or 20% of their initial body weight. Animals were
+weighed daily and if necessary the PWB apparatus was adjusted to ensure
+that their achieved unloading level remained constant within a 5% margin
+error of their desired PWB level, by modulating the chain length of the
+suspension device. Rats were positioned over a digital animal scale (ZIEIS,
+Lakeville, MN, USA) and their mass at PWB100, including the mass of the
+suspension device, was recorded. Then, the “unloaded” mass was obtained
+and the recorded level of PWB was calculated every morning by using the
+ratio of these two measurements.
+Calf circumference
+Under isoﬂurane anesthesia, animals were placed in a prone position with
+the left hind limb positioned at a 45° angle to the spine. The left leg was
+shaved using a hair clipper (Braintree Scientiﬁc, Braintree, MA, USA), and
+three measurements of the calf circumference were obtained at the tibial
+mid-shaft using a suture thread at baseline and after 7, 14, and 28 days of
+suspension. Each thread was then measured with a micrometer (Fisher
+Scientiﬁc, Hampton, NH, USA) and the average of the three measurements
+was recorded.
+Rear paw grip force
+Rats rear paws were placed on a 50 N capacity digital grip force meter
+(Chatillon, Largo, FL, USA) and gently pulled backward until the animal
+released its grip. The peak force generated was measured by a force
+transducer linked to the bar. Three tests were performed with a short rest
+period of at least 30 s between each trial, and averaged. Results were
+expressed as the percentage of each animal’s grip force measured at
+baseline (i.e., pre-suspension).
+Foot plate plantar force generation
+Under anesthesia, rats were placed on a force plate (Dual Mode Muscle
+Lever System, Aurora Scientiﬁc, Aurora, ON, Canada), and their left foot was
+securely taped on the foot plate. Monopolar electrodes (28 G, Natus
+Medical Incorporated, Pleasanton, CA, USA) were used to deliver a tetanic,
+supramaxial stimulation of the tibial nerve at the popliteal fossa at a
+frequency of 200 Hz, for 200 ms. The maximal torque response was
+recorded and the AUC was calculated.
+Muscle histomorphometry
+After euthanasia, the left gastrocnemius, soleus, and quadriceps femoris
+muscles were harvested and the wet mass of each muscle was determined
+using a precision analytical balance. The soleus and gastrocnemius muscles
+were then placed in 10% buffered formalin and ﬁxed for 48 h (histological
+analysis was not performed on quadriceps femoris). Samples were
+embedded in parafﬁn blocks, sectioned into 10 micron slices and double
+immunoﬂuorescence staining was performed using anti-collagen VI
+antibody (ab6588, Abcam, Cambridge, MA, USA) and anti-slow skeletal
+myosin heavy chain antibody (ab11083, Abcam, Cambridge, MA, USA).
+Stained slides were subsequently imaged at 20× using a Zeiss Axio Imager
+M1 epiﬂuorescence microscope and ﬁber area was measured using the
+muscle morphometry plug-in (Anthony Sinadinos using Eclipse IDE) and
+FIJI (FIJI, ImageJ, NIH) with examiners blinded to PWB level and duration.
+Statistical analysis
+Data were analyzed with Graphpad Prism 7.2 (Graphpad Software, La Jolla,
+CA) using one-way ANOVA for terminal measurements, followed by
+Tukey’s post hoc test or the linear test for trend. Longitudinal data were
+analyzed using two-way ANOVA followed by Tukey’s post hoc test. Results
+are presented as mean ± SEM and considered signiﬁcant when p < 0.05.
+Reporting summary
+Further information on research design is available in the Nature Research
+Reporting Summary linked to this article.
+DATA AVAILABILITY
+The authors declare that data supporting the ﬁndings of this study are available
+within the paper and its supplementary information ﬁles.
+ACKNOWLEDGEMENTS
+The authors wish to thank Dr. J.A. Nagy for her careful editing of this article. This work
+was funded by the National Aeronautics and Space Administration (NASA:
+NNX16AL36G).
+AUTHOR CONTRIBUTIONS
+M.M., D.R., and F.C.K. performed experiments; M.M. and D.R. analyzed the data; M.M.
+interpreted the results; M.M. prepared the ﬁgures; M.M. drafted the manuscript; M.M.,
+D.R., F.C.K., M.L.B., and S.B.R. edited and revised the manuscript; all authors approved
+the ﬁnal version of the manuscript; M.L.B. and S.B.R. conceived and designed
+the study.
+ADDITIONAL INFORMATION
+Supplementary information accompanies the paper on the npj Microgravity website
+(https://doi.org/10.1038/s41526-019-0080-5).
+Competing interests: The authors declare no competing interests.
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+REFERENCES
+1. Desplanches, D. Structural and functional adaptations of skeletal muscle to
+weightlessness. Int. J. Sports Med. 18, S259–S264 (1997).
+2. Kozlovskaya, I. B. et al. Russian countermeasure systems for adverse effects of
+microgravity on long-duration ISS ﬂights. Aerosp. Med. Hum. Perform. 86, 24–31
+(2015).
+3. Narici, M. V. & De Boer, M. D. Disuse of the musculo-skeletal system in space and
+on earth. Eur. J. Appl. Physiol. 111, 403–420 (2011).
+4. Fitts, R. H., Riley, D. R. & Widrick, J. J. Physiology of a microgravity environment
+invited review: microgravity and skeletal muscle. J. Appl. Physiol. 89, 823–839
+(2000).
+5. Grimm, D. et al. The impact of microgravity on bone in humans. Bone 87, 44–56
+(2016).
+6. Keyak, J. H., Koyama, A. K., LeBlanc, A., Lu, Y. & Lang, T. F. Reduction in proximal
+femoral strength due to long-duration spaceﬂight. Bone 44, 449–453 (2009).
+7. Lambrecht, G. et al. The role of physiotherapy in the European Space Agency
+strategy for preparation and reconditioning of astronauts before and after long
+duration space ﬂight. Musculoskelet. Sci. Pract. 27, S15–S22 (2017).
+8. Bailey, J. F. et al. From the international space station to the clinic: how prolonged
+unloading may disrupt lumbar spine stability. Spine J. 18, 7–14 (2018).
+9. Pool-Goudzwaard, A. L., Belavý, D. L., Hides, J. A., Richardson, C. A. & Snijders, C. J.
+Low back pain in microgravity and bed rest studies. Aerosp. Med. Hum. Perform.
+86, 541–547 (2015).
+10. Vico, L. & Hargens, A. Skeletal changes during and after spaceﬂight. Nat. Rev.
+Rheuma. 14, 229–245 (2018).
+M. Mortreux et al.
+6
+npj Microgravity (2019)  20 
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+
+11. Payne, M. W. C., Williams, D. R. & Trudel, G. Space ﬂight rehabilitation. Am. J. Phys.
+Med. Rehabil. 86, 583–591 (2007).
+12. Morey, E. R., Sabelman, E. E., Turner, R. T. & Baylink, D. J. A new rat model
+simulating some aspects of space ﬂight. Physiologist 22, S23–S24 (1979).
+13. Morey-Holton, E., Globus, R. K., Kaplansky, A. & Durnova, G. The hindlimb
+unloading rat model: literature overview, technique update and comparison with
+space ﬂight data. Adv. Space Biol. Med. 10, 7–40 (2005).
+14. Shiba, D. et al. Development of new experimental platform ‘MARS’-multiple
+artiﬁcial-gravity research system-to elucidate the impacts of micro/partial gravity
+on mice. Sci. Rep. 7, 1–10 (2017).
+15. Wagner, E. B. et al. Partial weight suspension: a novel murine model for inves-
+tigating adaptation to reduced musculoskeletal loading. J. Appl. Physiol. 109,
+350–357 (2010).
+16. Ellman, R. et al. Partial reductions in mechanical loading yield proportional
+changes in bone density, bone architecture, and muscle mass. J. Bone Miner. Res.
+28, 875–885 (2013).
+17. Iannaccone, P. M. & Jacob, H. J. Rats! Dis. Model. Mech. 2, 206–210 (2009).
+18. Mortreux, M., Nagy, J. A., Ko, F. C., Bouxsein, M. L. & Rutkove, S. B. A novel partial
+gravity ground-based analog for rats via quadrupedal unloading. J. Appl. Physiol.
+125, 175–182 (2018).
+19. Tyagi, S., Beqollari, D., Lee, C. S., Walker, L. A. & Bannister, R. A. Semi-automated
+analysis of mouse skeletal muscle morphology and ﬁber-type composition. J. Vis.
+Exp. e56024 (2017). https://doi.org/10.3791/56024.
+20. Armstrong, R. B. & Phelps, R. O. Muscle ﬁber type composition of the rat hindlimb.
+Am. J. Anat. 171, 259–272 (1984).
+21. Gollnick, P. D., Sjödin, B., Karlsson, J., Jansson, E. & Saltin, B. Human soleus muscle:
+a comparison of ﬁber composition and enzyme activities with other leg muscles.
+Pﬂügers Arch. Eur. J. Physiol. 348, 247–255 (1974).
+22. Ulanova, A. et al. Isoform composition and gene expression of thick and thin
+ﬁlament proteins in striated muscles of mice after 30-day space ﬂight. Biomed.
+Res. Int. 2015, 1–13 (2015).
+23. Shenkman, B. S. From slow to fast: hypogravity-induced remodeling of muscle
+ﬁber myosin phenotype. Acta Nat. 8, 47–59 (2016).
+24. Mortreux, M., Riveros, D., Bouxsein, M. L. & Rutkove, S. B. Mimicking a space
+mission to mars using hindlimb unloading and partial weight bearing in rats. J.
+Vis. Exp. e59327 (2019). https://doi.org/10.3791/59327.
+25. Haddad, F., Herrick, R. E., Adams, G. R. & Baldwin, K. M. Myosin heavy chain
+expression in rodent skeletal muscle: effects of exposure to zero gravity. J. Appl.
+Physiol. 75, 2471–2477 (2017).
+26. Caiozzo, V. J., Baker, M. J., Herrick, R. E., Tao, M. & Baldwin, K. M. Effect of
+spaceﬂight on skeletal muscle: mechanical properties and myosin isoform con-
+tent of a slow muscle. J. Appl. Physiol. 76, 1764–1773 (2017).
+27. Baldwin, K. M., Haddad, F., Pandorf, C. E., Roy, R. R. & Edgerton, V. R. Alterations
+in muscle mass and contractile phenotype in response to unloading models:
+role of transcriptional/pretranslational mechanisms. Front. Physiol. 4, 284
+(2013).
+28. McDonald, K. S., Blaser, C. A. & Fitts, R. H. Force-velocity and power characteristics
+of rat soleus muscle ﬁbers after hindlimb suspension. J. Appl. Physiol. 77,
+1609–1616 (2017).
+29. Lomonosova, Y. N., Turtikova, O. V. & Shenkman, B. S. Reduced expression of
+MyHC slow isoform in rat soleus during unloading is accompanied by alterations
+of endogenous inhibitors of calcineurin/NFAT signaling pathway. J. Muscle Res.
+Cell Motil. 37, 7–16 (2016).
+30. Kraemer, W. J. et al. The effects of 10 days of spaceﬂight on the shuttle endeavour
+on predominantly fast-twitch muscles in the rat. Histochem. Cell Biol. 114,
+349–355 (2000).
+31. Schuenke, M. D. et al. Effects of 14 days of microgravity on fast hindlimb and
+diaphragm muscles of the rat. Eur. J. Appl. Physiol. 106, 885–892 (2009).
+32. Rocchi, A. et al. Glycolytic-to-oxidative ﬁber-type switch and mTOR signaling
+activation are early-onset features of SBMA muscle modiﬁed by high-fat diet.
+Acta Neuropathol. 132, 127–144 (2016).
+33. Tobin, B. W., Uchakin, P. N. & Leeper-Woodford, S. K. Insulin secretion and sen-
+sitivity in space ﬂight. Nutrition 18, 842–848 (2002).
+34. Hughson, R. L. et al. Increased postﬂight carotid artery stiffness and inﬂight
+insulin resistance resulting from 6-mo spaceﬂight in male and female astronauts.
+Am. J. Physiol. Circ. Physiol. 310, H628–H638 (2016).
+35. Matsumoto, A. et al. Weight loss in humans in space. Aviat. Sp. Environ. Med. 82,
+615–621 (2011).
+36. Stein, T. P. Weight, muscle and bone loss during space ﬂight: another perspective.
+Eur. J. Appl. Physiol. 113, 2171–2181 (2013).
+37. Madokoro, S., Inaoka, P. T., Tanaka, S. & Yamazaki, T. Effect of hindlimb unloading
+and reloading on the soleus and plantaris muscles in diabetic rats. J. Phys. Ther.
+Sci. 30, 1150–1155 (2018).
+38. Momken, I. et al. Resveratrol prevents the wasting disorders of mechanical
+unloading by acting as a physical exercise mimetic in the rat. FASEB J. 25,
+3646–3660 (2011).
+39. Tamaki, T. & Uchiyama, S. Absolute and relative growth of rat skeletal muscle.
+Physiol. Behav. 57, 913–919 (1995).
+40. Spatz, J. M. et al. Sclerostin antibody inhibits skeletal deterioration in mice
+exposed to partial weight-bearing. Life Sci. Sp. Res. 12, 32–38 (2017).
+41. Prisby, R. D. et al. Effects of hindlimb unloading and ionizing radiation on skeletal
+muscle resistance artery vasodilation and its relation to cancellous bone in mice.
+J. Appl. Physiol. 120, 97–106 (2015).
+42. Yu, K. et al. Mimicking the effects of spaceﬂight on bone: Combined effects of
+disuse and chronic low-dose rate radiation exposure on bone mass in mice. Life
+Sci. Sp. Res. 15, 62–68 (2017).
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2019
+M. Mortreux et al.
+7
+Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA
+npj Microgravity (2019)  20 

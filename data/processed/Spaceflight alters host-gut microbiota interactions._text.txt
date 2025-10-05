@@ -1,0 +1,1961 @@
+npj | bioﬁlms and microbiomes
+Article
+Published in partnership with Nanyang Technological University
+https://doi.org/10.1038/s41522-024-00545-1
+Spaceﬂight alters host-gut microbiota
+interactions
+Check for updates
+E. Gonzalez1,2, M. D. Lee
+3,4, B. T. Tierney
+5,6, N. Lipieta7, P. Flores
+8, M. Mishra9, L. Beckett
+10,
+A. Finkelstein11, A. Mo11, P. Walton11, F. Karouia3,4,12, R. Barker4,13,14, R. J. Jansen15,16, S. J. Green
+17,
+S. Weging18, J. Kelliher19, N. K. Singh20, D. Bezdan14,21,22, J. Galazska23 & N. J. B. Brereton
+24
+The ISS rodent habitat has provided crucial insights into the impact of spaceﬂight on mammals,
+inducing symptoms characteristic of liver disease, insulin resistance, osteopenia, and myopathy.
+Although these physiological responses can involve the microbiome on Earth, host-microbiota
+interactions during spaceﬂight are still being elucidated. We explore murine gut microbiota and host
+gene expression in the colon and liver after 29 and 56 days of spaceﬂight using multiomics.
+Metagenomics revealed signiﬁcant changes in 44 microbiome species, including relative reductions in
+bile acid and butyrate metabolising bacteria like Extibacter muris and Dysosmobacter welbionis.
+Functional prediction indicate over-representation of fatty acid and bile acid metabolism, extracellular
+matrix interactions, and antibiotic resistance genes. Host gene expression described corresponding
+changes to bile acid and energy metabolism, and immune suppression. These changes imply that
+interactions at the host-gut microbiome interface contribute to spaceﬂight pathology and that these
+interactions might critically inﬂuence human health and long-duration spaceﬂight feasibility.
+The International Space Exploration Coordination Group, representing 27
+of Earth’s space agencies, has outlined a clear target for a crewed mission to
+MarsintheGlobalExplorationRoadmap1,2,andsustainablelong-termlunar
+exploration as a platform to develop the capabilities necessary to enable this
+ambitious goal. These guiding objectives have driven development of the
+imminentcommerciallowEarthorbit(LEO)destinationsand Gateway,and
+the Artemis mission goal of a permanent lunar surface habitat by the early
+2030 s3. Major challenges associated to longer duration spaceﬂight and
+habitation off-Earth are identiﬁed in the NASA Moon to Mars Objectives4,
+including the goal to advance understanding of how biology responds to the
+Moon, Mars, and deep space to support safe human space missions.
+Consistently observed spaceﬂight-associated pathologies, notably dis-
+rupted glucose metabolism characterised by insulin resistance and lipid
+metabolism dysregulation, pose signiﬁcant risks to astronaut health5,6.
+Research in tissue culture using the high aspect ratio vessel simulated
+microgravity model system developed at the NASA Johnson Space Centre
+characterised increases in pancreatic production of α-TNF, which increased
+insulin resistance and decreased glucose utilisation in adipocytes7. In mice, a
+reduction of insulin sensitivity has been observed after microgravity
+simulation using hindlimb unloading8. This is reﬂected in the muscle
+transcriptome after spaceﬂight, where insulin receptor signalling is sug-
+gestive of disrupted glucose homoeostasis9.
+Similarly, simulated microgravity on human oligodendrocyte10 and
+mesenchymal stem11 cell cultures increases production of fatty acids and
+complex lipids. In the nematode Caenorhabditis elegans, the intestinal lipid
+metabolic sensors SBP-1 and MDT-15 respond to simulated microgravity,
+with RNAi knockdown of sbp-1 and mdt-15 reducing lipid toxicity12.
+Spaceﬂight metabolic studies from the Bion space program (Kosmos 605,
+690, 782, 936 and 1887 (1973-87))13–15 characterised rats as hyperlipidemic,
+with spaceﬂight inducing elevated serum or hepatic fatty acids, and sub-
+stantial increases in cholesterol (67%). Similar lipid dysregulation, sugges-
+tive of non-alcoholic fatty liver disease (NFALD), has been a consistently
+observed mammalian response to spaceﬂight alongside aligned disruption
+of insulin metabolism and glucose homoeostasis16–20. These observations in
+mice and humans on the ISS include widespread changes in the hepatic
+proteins which drive lipid metabolism, signiﬁcant increases in steatosis,
+cholesterol and low-density lipids and reduced high-density lipids.
+The immune system can be compromised by spaceﬂight, both in space
+and after return to Earth. Despite quarantine before ﬂight, infection with
+inﬂuenza and Pseudomonas aeruginosa have been observed in astronauts21.
+Up to 50% of astronauts also exhibit immunodeﬁciency upon returning to
+Earth22, leaving them vulnerable to infection. This dysregulation manifests
+through decreased T cell and B cell abundance23, and impaired natural killer
+celland macrophage function24,25.Theunderlyingcause of thesechanges are
+thought to be driven by microgravity, isolation, and stress associated with
+spaceﬂight26, as well asshiftsin the gut microbiome27. On Earth, comparable
+changes in muscle integrity, glucose homoeostasis, lipid metabolism,
+immune and psychophysiological function have been associated to gut
+A full list of afﬁliations appears at the end of the paper.
+e-mail: nicholas.brereton@ucd.ie
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+1
+1234567890():,;
+1234567890():,;
+
+microbiota28–32. Similarly, unique built environment surface microbiology
+arises from long-duration conﬁnement, reshaping the bidirectional
+exchangesbetweenusuallydiverseenvironmentalmicrobialecosystemsand
+the gut microbiome to promote opportunistic pathogenicity33–37.
+Given the potential involvement of gut microbiota in spaceﬂight
+pathology, and their essential role in mediating healthy human metabolic
+function on Earth, there has been increasing research into gut microbiome
+dynamics associated withspaceﬂight. Using 16 S ribosomal RNA gene (16 S
+rRNA) amplicon sequencing, Jiang et al.38 identiﬁed signiﬁcant changes in
+the relative abundance of 16OTUs in the gutmicrobiome of mice inRodent
+Research (RR) 1 (RR-1) mission, some of which were annotated as within
+the genera Staphylococcus and Tyzzerella, and were lower in mice after
+spaceﬂight compared to ground controls. More recently, Bedree et al.39
+explored the gut microbiome of BALB/c mice ﬂown in the RR-5 mission
+using 16 S rRNA amplicon sequencing and reference-based whole meta-
+genome sequencing (WMS). Amplicon analysis identiﬁed 14 ASVs as dif-
+ferent in relative abundance (p <0.1) between spaceﬂight (ISS) and ground
+controls after 9 weeks of spaceﬂight, including increases in the genera
+Clostridium, Romboutsia, Ruminiclostridium, and Shuttleworthia, and
+decreases in Hungatella, while WMS identiﬁed signiﬁcant enrichment of
+Dorea sp. and the species Lactobacillus murinus.
+In this study, species-resolved 16 S rRNA amplicon sequencing and de
+novo co-assembled WMS were employed to capture metagenomic changes
+in the murine gut microbiome associated with spaceﬂight across multiple
+samples as part of the RR-6 mission (Fig. 1). Intestinal and hepatic tran-
+scriptomicswerethenusedtoassesstheassociatedgeneexpressionresponse
+of mice to spaceﬂight.
+Results
+Spaceﬂight increased total body weight
+Four treatment groups from a single cohort of 32 weeks-old female mice
+included two spaceﬂight groups ﬂown to the ISS on SpaceX-13: FLT_LAR,
+returned to Earth after 29 days of spaceﬂight as part of the Live Animal
+Return mission, and FLT_ISS, sampled on the ISS by the crew after 56 days
+ofspaceﬂight.TwocontrolgroupsincludedGC_LARandGC_ISS,rearedin
+identical habitats at the Kennedy Space Centre and sampled after 29 and
+56 days of the mission, respectively. Although reduced muscle mass and
+bone density in astronauts and mice during spaceﬂight are commonly
+observed40,41, in this study, total mouse body weight was trending to increase
+after 29 days of spaceﬂight in Live Animal Return mice (FLT_LAR; n = 9)
+and signiﬁcantly increased after56 days of spaceﬂight in ISS mice (FLT_ISS;
+n = 7, p <0.05). Carcass mass did not differ signiﬁcantly (t-test, p > 0.05)
+between Ground Control Live Animal Return (GC_LAR; n = 7) and
+FLT_LAR mice, which weighed 28.9 g−1 (±1.6) and 30.1 g−1 (±1.4),
+respectively, but did signiﬁcantly (t-test, p <0.05) increase from 28.4 g−1
+(±1.4) in Ground Control ISS (GC_ISS; n = 9) mice to 32.9 g−1 (±1.0) in
+0
+29
+56
+Day
+//
+//
+B]
+Fig. 1 | Experimental design. A Analysis design of data from the Rodent Research 6 mission and B multiomic data analysis strategy. Figure created with BioRender.com.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+2
+
+FLT_ISS mice (Supplementary Fig. 1). Suzuki et al.42 observed similar
+increasesinthemousehabitatunit3missionandattributedthesechangesto
+substantial increases in both white and brown adipose tissue, and large
+increases in total plasma cholesterol and triglyceride levels. While healthy
+adipose cells play an important role in maintaining insulin sensitivity,
+dysregulated adipose can lead to production of pro-inﬂammatory and
+insulin-antagonistic molecules43,44.
+Spaceﬂight alters murine gut microbiota
+Insulin resistance and lipid accumulation are common spaceﬂight
+phenotypes45 which are inﬂuenced by short chain fatty acids (SCFAs)
+and can be improved through butyrate dietary interventions in
+ground-based murine studies46,47. As butyrate and other SCFAs are
+predominantly produced by bacteria within the gut48, alterations in
+RR6 gut microbiome composition were explored. Characterisation of
+microbiota used 16 S rRNA amplicon sequencing as well as WMS
+sequencing from faecal samples collected from GC_LAR and
+FLT_LAR (after 29 days of spaceﬂight) as well as GC_ISS and FLT_ISS
+mice (after 56 days of spaceﬂight).
+Sequencing of amplicon libraries generated 2,146,311 sequences after
+quality control, with an average of 77,015 ± 853 per sample (Fig. 2A–E;
+Supplementary Figs. 2, 3 and Data 1). A total of 133 exact sequence variants
+(ESVs) were inferred across all samples; these ESVs accounted for 1,959,722
+(91.32%) of reads. Thirty-ﬁve ESVs were annotated as putative bacterial
+species, 12 at genera level and 11 at family level, with an average of > 99.9%
+nucleotide identity, while 74 ESVs were dissimilar to any well-characterised
+taxa (<99% nucleotide identity; 14 of which were ﬂagged as putative
+chimeras). Most counts (73.1%) were captured by ESVs annotated as
+putative species, 24 of these could be assigned to a single species and 11 to
+multiple species which share identical rRNA gene sequences at the V4
+region of the 16 S rRNA gene. Bacterial species putatively identiﬁed across
+all mice using amplicons belonged to the phyla Firmicutes (28), Proteo-
+bacteria (4), Actinobacteria (1), Deferribacteres (1) and Bacteroidetes (1).
+Parabacteroides goldsteinii had the highest relative abundance throughout
+the samples and accounted for 53.7% of sequence counts.
+WMS of faecal DNA generated 277,294,078 reads after quality
+control, with an average of 8,665,440 ± 1,423,541 per sample (Fig. 2F–I;
+Supplementary Fig. 4 and Data 2). Co-assembly across all 32 mice
+generated 219,259 contigs and back-mapping captured 85.1% of raw
+counts after ﬁltering out reads using the mouse genome (154,692,460
+counts). This included 22,318 contigs which could be provisionally
+annotated (>90% nucleotide identity) from 175 species and shared an
+average of 99.1% average nucleotide identity (ANI) with known species
+or strains (and capturing 84.5% of total counts) (Fig. 2G, H). After
+sparsity (>90% counts in a single sample) and minimum sample (<3)
+occurrence ﬁltering to allow statistical detection of spaceﬂight associated
+differences across biological replicates, 45,890 contigs remained which
+captured 154,238,826 counts. These contigs were provisionally anno-
+tated as putative bacteria (50.6%), viruses (0.9%) and metazoa (3.0%), or
+were unknown (45.4%). Grouping WMS contigs by species annotation
+and ﬁltering for high conﬁdence (>97% ANI, and > 3000 nt total length)
+identiﬁed 97 putative species representing 81 bacterial species within
+Firmicutes, and 7 Proteobacteria, 4 Actinobacteria, 1 Bacteroidetes, and
+1 Deferribacteres, as well as the helminths, Trichinella nativa and Tri-
+chinella pseudospiralis (Supplementary Data 3). These species groups
+ranged from 2–2734 contigs, with an average total alignment length
+of > 880,000 nt and an ANI of 98.8%. Prevalent taxa included P. gold-
+stienii representing 73.1%, Enterocloster clostridioformis representing
+1.47% and all other species representing below 1% of relative abundance
+across all mice, including non-bacterial species such as T. nativa,
+representing 0.03% of relative abundance and present in all mice. P.
+goldsteinii is a ubiquitous commensal gut microbiome inhabitant in
+mice, and the species includes strains that play a role in reducing
+intestinal
+inﬂammation
+and
+maintaining
+intestinal
+epithelial
+integrity49,50.
+Microbial alpha diversity indices did not signiﬁcantly differ between
+mice groups using 16 S rRNA amplicon sequencing or WMS data (Fig. 2D;
+Supplementary Figs. 2, 3 and Data 1). Canonical Analysis of Principal
+Coordinates showed both FLT_ISS and GC_ISS as well as FLT_LAR and
+GC_LAR samples segregated by group, and the ﬁrst axes explained 25.46%
+and 17.63% of variation using 16 S rRNA gene ampliﬁcation and 19.41%
+and 11.49% of variation using WMS, respectively. ANOVA-like permuta-
+tion tests conﬁrmed signiﬁcant variation between groups under constraint
+forbothampliconandWMSdata(Fig.2E,I;p <0.05;SupplementaryFigs.2,
+3), suggesting spaceﬂight inﬂuenced gut microbiota in both comparisons
+regardless of the metagenomic approach taken.
+Signiﬁcant spaceﬂight microbiome changes are associated with
+short-chain fatty acid metabolism, bile acid conversion and
+pathogenicity
+Differential abundance analysis of amplicon data identiﬁed 45 ESVs that
+were signiﬁcantly different in relative abundance between spaceﬂight and
+ground control mice, including 34 ESVs between GC_LAR and FLT_LAR
+and 18 ESVs between GC_ISS and FLT_ISS (Fig. 3A, B; av p-value = 0.004,
+av padj = 0.02, Supplementary Figs. 5, 6, Data 1). Although there were
+divergent changes in the relative abundance of H. xylanolytica, the common
+signiﬁcant enrichment of E. muris and D. welbionis in mice after 29 and
+56 days of spaceﬂight, compared to separate matched control groups, sug-
+gests spaceﬂight had some common inﬂuence of gut microbiota which
+persisted overthe29–56 daysonboard theISSaswellassomedistincteffects
+over time.
+Differential abundance analysis of WMS identiﬁed 13,996 contigs
+that were signiﬁcantly different (DESeq2 FDR <0.1) in relative abun-
+dance between spaceﬂight and ground control mice, including 11,087
+between GC_LAR and FLT_LAR, and 3,997 between GC_ISS and
+FLT_ISS (Fig. 3C–H). From these, 35 putative species (99.0% ANI;
+Supplementary Note, Data 3) identiﬁed as signiﬁcantly differentially
+abundant between GC_LAR and FLT_LAR (Fig. 3I) with an average
+total length of 390,616nt per species, while 34 species (99.0% ANI)
+signiﬁcantly differed between GC_ISS and FLT_ISS (Fig. 3J) with an
+average total length of 180,554 nt.
+D. welbionis was recently characterised by Roy et al.51,52 as a butyrate
+producer likely present in the gut of most humans and was negatively
+correlated with BMI in obese individuals with metabolic syndrome. The
+same team used murine supplementation experiments to illustrate that D.
+welbionis could partially counteract insulin resistance, adipose tissue
+hypertrophy and inﬂammation as well as suggest a potential association
+with mitochondrial content and activity in adipose tissue after high fat diet
+inductionofobesity52.Inmice,changesinmicrobiallyproducedbutyrateare
+also know to directly inﬂuence expression of hepatic circadian clock reg-
+ulating genes, such as Per2 and Bmal1, in a bidirectional interaction which
+candisrupt hostmetabolism53. Enrichment of D. welbionisinboth groupsof
+spaceﬂight mice (Fig. 3A, B, I, J) compared to their respective ground
+controls here is therefore noteworthy given the high lipid accumulation,
+liver and mitochondrial dysfunction phenotype repeatedly observed in
+rodent research missions and astronauts17,18,45. Whether the relative increase
+of this species might be counteracting or contributing towards spaceﬂight
+pathology is unclear and merits further study. Conversely, other butyrate
+producers, such as Intestinimonas butyriciproducens54, were depleted after
+29 days of spaceﬂight.
+L. murinus and Acutalibacter muris were depleted in mice during
+spaceﬂight (Fig. 3A, I), as well as some Enterocloster species after
+29 days of spaceﬂight, which can have high expression of bile salt
+hydrolases (BSHs), able to deconjugate bile salts into less toxic bile
+acids, and can promote microbially mediated 7α-dehydroxylation of
+host primary bile acids into secondary bile acids55–59. Conversion of
+the major human primary bile acids in humans, cholic acid (CA) and
+chenodeoxycholic acid (CDCA), to the secondary BAs deoxycholic
+acid (DCA) and lithocholic acid (LCA), is mediated by a limited
+number of closely related clostridia containing the bile acid inducible
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+3
+
+Fig. 2 | Ground control, live animal return and ISS murine gut microbiome
+capture. A Amplicon reads retained for GC_LAR, ISS_LAR, GC_ISS and FLT_ISS.
+B Flower diagram illustrating amplicon phyla diversity. C Amplicon annotation and
+count distribution summary statistics. D Amplicon (ESV) alpha diversity (Shannon
+Index) comparing GC_LAR to ISS_LAR, and GC_ISS to FLT_ISS. E Amplicon beta
+diversity using constrained ordination (Canonical Analysis of Principal
+Coordinates, CAP). F WMS (Whole Metagenome Sequencing) back-mapping
+percentages for GC_LAR, ISS_LAR, GC_ISS and FLT_ISS. G Flower diagram
+illustrating WMS taxonomic diversity. H WMS annotation and count distribution
+summary statistics. I WMS beta diversity using constrained ordination (CAP).
+Extended details in Supplementary data 1–3.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+4
+
+(bai) operon, such as Clostridium scindens60,61 which was signiﬁcantly
+reduced in abundance after spaceﬂight (Fig. 3I, J). The major murine
+primary bile acids also include α- and β-muricholic acid (αMCA and
+βMCA), which are transformed by 7α-dehydroxylation to mur-
+ideoxycholic acid (MDCA).
+E. muris, which signiﬁcantly increased in both spaceﬂight groups of
+mice compared to ground controls (Fig. 3A, B, I, J), has been recently
+characterised as 7α-dehydroxylating in mice62, containing the bile acid
+inducible operons BaiBCDEFGI and BaiJKL, and BaiA, homologous to
+Clostridium scindens. The Bai operon enables E. muris and C. scindens to
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+5
+
+increase concentrations of 7α-dehydroxylated secondary BAs that alter the
+host bile acid pool and act as ligands to bile acid receptors to inﬂuence host
+inﬂammation, glucose and lipid metabolism62–66. For example, bile sensor
+farnesoid-X-receptor(FXR)modulatesenterohepaticrecirculationandhost
+cholesterol metabolism through bile acid regulation of cyp7A166. Similarly,
+secondary bile acids such as DCA and LCA are potent agonists of the bile
+acid receptor TGR5, which controls glucose homoeostasis in adipose tissue
+andmusclebyalteringintestinalcellreleaseoftheinsulinsecretionregulator
+glucagon-like peptide-1 (GLP-1)67–69. Liver production of α-MCA and
+β-MCA
+(in
+mice)
+is
+mediated
+by
+cyp2c70
+genes70,71
+but
+7α/
+β-dehydroxylation mediated by microbes such as E.muris can modify
+MCAs after epimerization into HDCA72, and critically regulate lipid
+metabolism73,74. Interestingly, E. clostridioformis, signiﬁcantly higher in
+relative abundance after both 29 and 56 days of spaceﬂight (Fig. 3), is
+reported as increasing in the presence of E. muris62 and harbours 7α/β
+hydroxysteroid dehydrogenases (HSDH)59,75, which can also transform
+primary and secondary BAs into oxo-bile acids64. This agrees with ﬁndings
+fromtheRR-5mission39,whichfoundsigniﬁcantlyincreasedlevelsofserum
+choline in mice after spaceﬂight, suggesting a broad impact on lipid
+metabolism.
+Immune suppression has previously been described as a response to
+spaceﬁght76 and could result as bile acid dysregulation77,78. So increased
+relative abundance of C. difﬁcile after both29 and 56 days of spaceﬂight is of
+potential concern if toxigenic.
+Changes in spaceﬂight associated metagenome functional
+prediction
+Metagenomic functional prediction identiﬁed 4,583,759 genes in the co-
+assembly generated from all 32 mice, 392,631 of which were annotated by
+Kegg database (Supplementary Data 4). Thus, a high proportion (91.4%)
+of genes, including differentially abundant genes, remain unannotated.
+Kegg annotated genes included the pathogenicity locus (including
+tcdAB) from C. difﬁcile, suggesting signiﬁcant enrichment of the species
+after 29 and 56 days (Fig. 3I, J) could include a toxigenic strain. Bile acid
+metabolism genes were identiﬁed, including 17 bile salt hydrolases,
+including that from spaceﬂight enriched A. muris (Cbh), and 57 non-
+redundant Bai genes, including from C. scindens (BaiABCDEFGI) and I.
+butyriciproducens (BaiA and BaiCD), species which were signiﬁcantly
+depleted after spaceﬂight as well as A. muris (BaiCD), Eisenbergiella
+massiliensis (BaiA) and Blautia pseudococcoides (BaiCD), species which
+were signiﬁcantly enriched after spaceﬂight (Supplementary Data
+2 and 3). E. aldenensis and S. arabinosiphila both contained the impor-
+tant BaiCD gene and were signiﬁcantly enriched in mice after 29 days of
+spaceﬂight but signiﬁcantly depleted after 56 days. Alongside signiﬁcant
+enrichment of the rare 7α-dehydroxylating E. muris, these shifts suggest
+dynamic changes in secondary bile acid production and potential
+inﬂuence on the composition of the host bile acid pool56,79.
+Differential abundance analysis inferred 52,370 genes were sig-
+niﬁcantly different (FDR <0.1) in abundance after 29 days and 37,068 genes
+after 56 days of spaceﬂight, which could be assigned to 2,811 and 2,572
+unique KEGG ontology terms, respectively (Fig. 4A). Over-representation
+analysis identiﬁed signiﬁcant (FDR <0.1) increases in pathways of interest
+related to fatty acid metabolism, bile acid metabolism, antimicrobial resis-
+tance and potential host interactions (ECM, carbohydrates and patho-
+genicity), after both 29 days and 56 days of spaceﬂight compared to ground
+controls (Fig. 4B, C; Supplementary Table 1). Taken together, these sig-
+niﬁcant changes in metagenomic gene inventories, and speciﬁc bacterial
+species with well-characterised functions, due to spaceﬂight suggest gut
+microbiome changes which should inﬂuence lipid and bile acid homo-
+eostasis, and the immune system of the murine host.
+Spaceﬂight alters host intestinal gene expression
+Faecal or serum fatty acid or bile acid concentrations were not measured
+within the Rodent Research 6 mission; however, host colon and liver gene
+expression were assessed from all four groups of mice, allowing host
+responses to spaceﬂight at the host-gut microbiome interface to be
+investigated.
+Host intestinal gene expression revealed extensive signiﬁcant
+(FDR <0.1)changesafter29 daysand56 daysofspaceﬂightwhencompared
+to ground controls, including 4613 differentially expressed (DE) genes
+between GC_LARand FLT_LAR, and 4,476DEgenesbetweenGC_ISSand
+FLT_ISS (Fig. 5A–H; Supplementary Figs. 7, 8 and Data 5). Of these, 43%
+and 44% were increased due to ﬂight in LAR and ISS mice, respectively.
+Gene set enrichment analysis (GSEA) revealed consistent responses at a
+pathway level after 29 days and 56 days of spaceﬂight (Fig. 5I, J), including
+immune suppression, dysregulation off cholesterol and bile acid, and
+extracellular matrix (ECM) remodelling.
+Intestinal bile acid and circadian rhythm gene expression
+Signiﬁcant
+microbiome
+alteration
+in
+some
+of
+the
+few
+well-
+characterised 7α-dehydroxylating bacterial species, including increa-
+ses in E. muris after 29 days and 56 days of spaceﬂight (below detection
+in ground controls) as well as depletion of C. scindens, suggests sec-
+ondary bile acid production and the bile acid pool is likely altered in the
+murine gut during spaceﬂight. In the host intestine, bile acids are
+passively absorbed or actively taken up through the apical membrane
+by the apical sodium-dependent bile acid transporter, ASBT (Slc10A2),
+bound to the cytosolic ileal bile acid binding protein, IBABP (Fabp6),
+Fig. 3 | Spaceﬂight-associated signiﬁcant microbiome alterations. Signiﬁcantly
+differentially abundant (DESeq2) ESVs between (A) GC_LAR and ISS_LAR, and
+(B) GC_ISS and FLT_ISS. Fold change (FC log2) in relative abundance. +/−INF
+(demarcated by the dashed red line) indicates ‘inﬁnite’ fold change, where an ESV
+had detectable counts in samples from only one condition (structural zero).
+C Comparison of whole metagenome sequencing (WMS) detected species between
+LAR and ISS samples. D Distribution of counts across WMS taxonomy (Species to
+Kingdom, U = unknown). E, F Contig WMS MA plots with signiﬁcantly differen-
+tially abundant (DESeq2) highlighted. G, H UMAP diagrams used to visualise contig
+clustering of selected species and (I, J) Signiﬁcantly differentially abundant
+(DESeq2) species detected with WMS, node size illustrates contig number. Extended
+details in Supplementary Data 1–3. Amplicon sequencing: Species enriched in
+FLT_LAR mice compared to controls included Coprobacillus cateniformis, Dysos-
+mobacter welbionis, Enterocloster aldenensis, Extibacter muris and Hungatella
+xylanolytica, while depleted species included Intestinimonas butyriciproducens and
+ESVs ambiguous to multiple Enterocloster species (including E.lavalensis) and
+Ligilactobacillus species (including L.murinus). Species enriched in FLT_ISS mice
+included D.welbionis, Eisenbergiella massiliensis, Enterocloster clostridioformis,
+E.muris, Guopingia tenuis, Romboutsia ilealis and Romboutsia timonensis, while
+depleted species included H.xylanolytica. WMS: Microbiome species signiﬁcantly
+enriched in after 29 days of spaceﬂight comprised 14 Firmicutes, including Blautia
+pseudococcoides, Clostridioides difﬁcile, C.cateniformis, D.welbionis, E.aldenensis,
+E.clostridioformis, E.muris, G.tenuis, Hungatella hathewayi, Ruthenibacterium lac-
+tatiformans, Schaedlerella arabinosiphila and the proteobacteria Delftia lacustris.
+Signiﬁcantly depleted species included 20 ﬁrmicutes, including Acutalibacter muris,
+Anaerostipes caccae, Blautia wexlerae, Clostridium scindens, Enterococcus faecalis,
+Ligilactobacillus murinus, Enterocloster bolteae, E.lavalensis, Flavonifractor plautii,
+I.butyriciproducens, Lactococcus lactis and Staphylococcus xylosus, and the Proteo-
+bacteria Providencia rettgeri. These ﬁndings agreed with signiﬁcant differential
+abundance of C.cateniformis, D.welbionis, E.aldenensis, E.clostridioformis, E.muris
+and I.butyriciproducens inferred from 16 S rRNA amplicon analysis and resolved
+species ambiguity for E.bolteae, E.lavalensis and L.murinus. Microbiome species
+which were signiﬁcantly enriched in after 56 days of spaceﬂight comprised 14 Fir-
+micutes, including B.pseudococcoides, C.difﬁcile, D.welbionis, E.clostridioformis,
+Eisenbergiella massiliensis, E.muris, F.plautii, G.tenuis, H.hathewayi and R.lactati-
+formans. Signiﬁcantly depleted species included 17 Firmicutes, including A.muris,
+Anaerostipes caccae, B.wexlerae, C.scindens, C.cateniformis, E.aldenensis, E.bolteae,
+E.lavalensis, L.lactis, S.arabinosiphila and as well as the Proteobacteria Escherichia
+coli, Shigella ﬂexneri and Delftia lacustris.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+6
+
+and then transported across the basolateral membrane by organic
+solute transporters, Ostα and Ostβ (Slc51A and Slc51B), or glucur-
+onidated by UGTs (such as Ugt1a1) and exported back to the lumen by
+multidrug
+resistance-associated
+protein
+2,
+MRP2
+(Abcc2
+transporter)80,81. Increases in intestinal bile acid also activate the
+farnesoid X receptor (FXR) and retinoid X receptor α (RXRα) het-
+erodimer which regulates production and secretion of ﬁbroblast
+growth factor FGF15/19, the negative feedback hormone which travels
+through portal circulation to bind hepatic FGFR4 receptors which
+suppress liver bile acid biosynthesis via inhibition of Cyp7A182.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+7
+
+After 29 days of spaceﬂight, Abcc2 was signiﬁcantly downregulated,
+suggestingreducedBAexporttothecolon,whileAsbt,Ibabp,Ostα,Ostβand
+Ugt1a1 were all signiﬁcantly upregulated as well as Rxrα (not Fxr), Fgf15/19
+and Fgfr4 (Fig. 5C; Supplementary Figs. 9–14 and Data 5). Taken together,
+these changessuggest spaceﬂight led to an alteration in bile acid metabolism
+in the intestine whichwould lead to bile acid suppression of hepatic Cyp7A1
+and accumulation of cholesterol or hypercholesterolaemia83. Interestingly,
+intestinal Cyp7A1 expression was identiﬁed as signiﬁcantly repressed after
+29 days of spaceﬂight. Previous proteomic research in Biom-1M mice
+suggested a decrease in bile secretion during spaceﬂight84 while hepatic
+metabolite assessment of mice after spaceﬂight in the Space Shuttle Atlantis
+measured increased accumulation of cholate and taurodeoxycholate16. As
+the major cholesterol degradation mechanism in humans and mice is
+conversion to bile acids, cholesterol accumulation, alongside bile acid dys-
+regulation and suppression of Cyp71A, should increase direct intestinal
+cholesterol excretion85. Supporting this extrapolation, both cholesterol
+excretion transporter genes, Abcg5 and Abcg8, were signiﬁcantly upregu-
+lated in the intestine after 29 days of spaceﬂight.
+After 56 days, intestinal Cyp7A1 was still signiﬁcantly repressed and
+both Abcg5 and Abcg8 upregulated, but GSEA indicated a further shift in
+intestinal bile acid metabolism (Fig. 5I, J; Supplementary Figs. 9–14). This
+was underlined by signiﬁcant downregulation of the apical bile acid trans-
+porter Asbt compared to ground controls as well as Ntcp (Slc10a1)86, indi-
+cating a switch to active reduction in bile acid uptake. Coinciding with this
+was signiﬁcant increases in expression of Lxrβ, the liver x receptor gene
+expressed widely in different tissues, which can help prevent bile acid
+toxicity through induction of Abcg5 and Abcg8 mediated cholesterol
+excretion87–90.
+In gene expression analysis of multiple tissues in mice after space-
+ﬂight, da Silveira et al.18 found that enrichment within the circadian
+rhythm pathway of the kidney, liver, eye, adrenal gland and various
+muscle tissues. Within the intestine here, the major clock genes, the cir-
+cadian locomotor output cycles kaput (Clock) and brain and muscle
+ARNT-like protein-1 (Bmal1; Arntl) transcription factors, were sig-
+niﬁcantly upregulated after 29 days and 56 days of spaceﬂight, and the
+neuronal PAS Domain Protein 2 (Npas2) was upregulated after 56 days
+(Fig. 5D; Supplementary Figs. 9–14 and Data 5). These regulate the major
+clock-controlled genes reverse-erythroblastosis (Rev-Erbα and β) and
+retinoic acid receptor-related orphan receptors, including gamma
+(Rorc)91, as well as Period (Per1, Per2 and Per3), Cryptochrome (Cry1 and
+Cry2) and basic Helix-Loop-Helix (bHLH) protein (Dec1 and Dec2)
+genes92,93, all of which were signiﬁcantly downregulated after 56 days of
+spaceﬂight except for Rev-Erbα (Nr1d1) (only downregulated after
+29 days). These genes can feedback to inhibit Clock/Npas2 and Bmal1 as
+part of a feedback loop94,95, and also regulate other the clock controlled
+genes such as DBP, HLF and TEF, signiﬁcantly downregulated, and Nﬁl3
+(E4BP4), signiﬁcantly upregulated after 56 days of spaceﬂight. These
+spaceﬂight-associated changes in core clock genes, suchas upregulation of
+Bmal1, Arntl and Npas2, largely agree with those found in murine muscle
+tissue after longer-term spaceﬂight which were characterised as similar to
+age-related gene expression on earth96.
+These clock genes regulate nutrient absorption, gut motility, intestinal
+barrier function and immunity92 and have also been shown to require and
+interact with the microbiome, including in response to microbially-derived
+molecules, such as butyrate and bile acids, and in direct response to
+microbial associated molecular patterns (MAMPs)53,92,97–99. In addition to
+the widespread intestinal gene expression responses to bile acids, the major
+butyrate receptorfreefattyacid receptor2(Ffar2;Gpr43)100wassigniﬁcantly
+upregulated after 56 days of spaceﬂight. Similarly, the archetypal intestinal
+MAMP recognising mannose-binding lectin genes, Mbl-1 and Mbl-2101,
+were signiﬁcantly downregulated. Furthermore, Wang et al.102 reported host
+immune responses to microbial ﬂagellin and lipopolysaccharide in the
+intestine increased expression of Il-23, and Il-22, leading to a down-
+regulation of Rev-Erb and subsequent upregulation of Nﬁl3, which in turn
+canregulateclock-associatednutrientabsorptionandimmunity.Here,mice
+followed this speciﬁc expression pattern after spaceﬂight (Supplementary
+Data 5), implying the spaceﬂight associated microbiome alterations could
+havebeenrecognisedandinﬂuencedthesechangesinclockgeneexpression.
+Intestinal extracellular matrix remodelling and immune com-
+promise during spaceﬂight
+Changes in the extracellular matrix-receptor interactions pathway were
+underpinned by signiﬁcant upregulation of collagens (Col1a1-2, Col3a1,
+Col4a1-2, Col5a1-2, Col5a3, Col6a2-3, Col12a1, Col26a1), laminins
+(Lama3), thrombospondin (Thbs1) and tenascins (Tnc) in mice after
+29 days of spaceﬂight, which became more pronounced after 56 days of
+spaceﬂight (Fig. 5E; Supplementary Data 5). This coincided with upregu-
+lation of integrin (Itga5 and Itga7) and matrix glycoprotein (Sdc4 and Gp5)
+receptors, collectively implying extensive extracellular matrix remodelling
+duringspaceﬂight. The ECM and mucosal collagenscaffold in particular are
+known to be shaped by microbiota103, as are mucins, which make up the
+intestinal mucus layer and have a dynamic relationship with commensal
+bacteria as well as serving as a critical barrier against colonisation by
+pathogenic bacteria104. Signiﬁcant increase in the secretory mucin gene
+Muc2 and signiﬁcant decreases in the membrane bound Muc3 and mucosal
+pentraxin 1 (Mptx1), three of the mostly highly abundant transcripts in the
+murine intestine here, were observed after 56 days of spaceﬂight, suggesting
+alterations to mucin within the intestinal lumen in direct contact with
+microbiota. Mucin 2 (Muc2) is well characterised as regulated by intestinal
+bacteria, with O-glycans serving as nutrients and adhesion sites for
+microbiota105, but are also differentially expressed in response to
+pathogens104, including Trichinella106, identiﬁed here.
+Extensive changes to mucosa were indicated by widespread
+downregulation of cell adhesion molecules during spaceﬂight,
+including downregulation of CD8a and CD8b1 genes, genes encoding
+costimulatory molecules CD2,6,80,86,40 and ICOSL within intestinal
+antigen presenting cells as well as their T cell activating binding
+partners CD48,166,28 and ICOS107–109 (Fig. 5G; Supplementary Data 5).
+Fig. 4 | Metagenomic functional prediction. A Summary statistics from metage-
+nomics functional prediction (further detail in Supplementary data 4). B GC_LAR vs
+FLT_LAR Over-representation analysis (ORA) of KEGG ontology (Brite, pathway
+and module) and (C) GC_ISS vs FLT_ISS ORA KEGG ontology. Changes in fatty
+acid pathways included Fatty acid biosynthesis (00061), Fatty acid metabolism
+(01212), Fatty acid degradation (00071) and Butanoate metabolism (00650),
+including butyryl CoA:acetate CoA transferase (EC 2.8.3.8) and butyrate kinase
+(EC:2.7.2.7). Over-representation of bile acid metabolism was reﬂected in Bile
+secretion (04976) and Cholesterol metabolism (04979) and Secondary bile acid
+biosynthesis pathways, including bile salt hydrolase (cbh, EC:3.5.1.24) and 3-
+oxocholoyl-CoA 4-desaturase (baiCD, EC:1.3.1.115). Over-representation of the
+antimicrobial resistance was represented in Brite ontology Antimicrobial resistance
+genes (ko01504) and the pathways for beta-Lactam resistance (01501), Biosynthesis
+of various antibiotics (00998) and Biosynthesis of vancomycin group antibiotics
+(01055). The Brite ontology Bacterial toxins (ko02042) was over-represented,
+including tight junction interacting zona occludens toxin (K10954), as well as the
+pathways Pathogenic Escherichia coli infection (05130) and Bacterial invasion of
+epithelial cells (05100). Diverse carbohydrate metabolism and ECM interacting
+pathways were represented by Galactose metabolism (00052), Mannose type
+O-glycan biosynthesis (00515), Glycosaminoglycan degradation (00531), Other
+glycan degradation (00511), ECM-receptor interaction (04512) as well as the Brite
+ontology of Glycosaminoglycan binding proteins (ko00536), Peptidoglycan bio-
+synthesis and degradation proteins (ko01011) and Glycosyltransferases (ko01003).
+These included putative Mucin-associated glycosyl hydrolases (GHs)185, GH2s:
+β-galactosidase (EC:3.2.1.23), β-mannosidase (EC:3.2.1.25), β-glucuronidase
+(EC:3.2.1.31), α-l-arabinofuranosidase (EC:3.2.1.55), β-xylosidase (EC:3.2.1.37),
+β-glucosidase (EC:3.2.1.21), GH20: β-hexosaminidase (EC:3.2.1.52), GH29: α-l-
+fucosidase (EC:3.2.1.51), and GH84: N-acetyl β-glucosaminidase (EC:3.2.1.52).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+8
+
+Cytokine genes, such as the chemokine Ccl22 and receptor Ccr4
+involved in the intestinal immune response to enteric bacterial
+pathogens in murine mucosa110, were also uniformly downregulated
+(Fig. 5F), alongside others111–113: Ccl3,5,6 and 22, Ccr4,7 and 9, Cxcr2,3
+and 6, Il-5,7,12 and 16, and Il-2r,5r,7r,10r,12r,18r,21r,23r and 27r. An
+exception to this pattern of cytokine downregulation was upregulation
+IL-23 and IL-22, which interact with circadian regulation95, and spe-
+ciﬁc members of the mucosal homoeostasis critical interleukin 17
+family114, Il-17d, which promotes pathogenicity during infection
+through suppression of CD8 + T cells115, and Il-17rc, which increases
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+9
+
+expression
+during
+compromised
+epithelial
+barrier
+integrity
+(wounding)116.
+These expression proﬁles, alongside consistent downregulation of
+genes within the Intestinal IgA pathway (Fig. 5H), suggest suppression of
+immunity and widespread tissue remodelling at the host-gut microbiome
+interface in mice after spaceﬂight. This agrees with reports of reduced
+cytokine production in mice after simulated microgravity117, immune dys-
+function in splenic tissue of mice after 13 days of spaceﬂight on the Space
+Shuttle Atlantis118 and in astronauts, alongside increases in plasma cortisol
+concentration
+which
+reached
+Cushing
+syndrome
+levels,
+during
+spaceﬂight119. Taken together, this provides an insight into the role the host-
+gut-microbiome interface might play in the current broad consensus of
+immune dysregulation in spaceﬂight environments120.
+Spaceﬂight alters gene expression in the liver
+Hepatic gene differential expression analysis comparing mice after 29 days
+and 56 days in space to their relative ground controls identiﬁed 4029 DE
+genes and 4068 DE genes, respectively (FDR <0.1; Fig. 6A, H; Supplemen-
+tary Figs. 15, 16 and Data 5). Of these, 48% and 49% were increased due to
+29 days and 56 days of spaceﬂight, respectively. GSEA of liver tissue
+responses also revealed highly consistent responses at the pathway level to
+29and56 daysofspaceﬂight(Fig.6I,J),includingdisruptionofbileacid and
+energy metabolism.
+Bile acid disruption underlies hepatic cholesterol accumulation
+Themostabundantintestinaltranscriptsinmiceafter56daysofspaceﬂight,
+differentially expressed and representing 8% and 9% of normalised counts,
+were from the non-coding RNA Rn7s1 and Rn7s2 genes (7 S RNA 1 and 2;
+Supplementary Data 5), respectively, which were recently characterised as
+inhibitors of global mitochondrial transcription in mammals121. This is
+consistent with the mitochondrial dysfunction highlighted as characteristic
+of spaceﬂight pathogenicity in recent multiomic analysis performed by de
+Silveira et al.18, who also characterised compromised liver function in mice
+and astronauts after spaceﬂight compared ground controls, including
+upregulation of Fgf21, a negative repressor of bile synthesis122, and accu-
+mulation of total cholesterol (higher low-density lipoprotein cholesterol but
+decreased high-density lipoprotein cholesterol). Here, another potent
+repressor of Cyp7A1 bile synthesis, ﬁbroblast growth factor 1 (fgf1)123, was
+upregulated in the liver of mice after 29 days of spaceﬂight, and the more
+well known Fgf2116 was signiﬁcantly upregulated in the liver after both
+29 days and 56 days of spaceﬂight.
+Within the liver, Sterol 14-demethylase (Cyp51) catalyses the trans-
+formation of lanosterol into cholesterol and Cyp7A1 is then the ﬁrst (and
+rate-limiting) enzymatic step in transformation of cholesterol in primary
+bile acid biosynthesis, which itself is strictly inhibited by bile acid
+concentrations124. The production of bile salts is then a stepwise transfor-
+mation process dependent on gene expression of 3 beta-hydroxysteroid
+dehydrogenase type 7 (Hsd3b7) gene, cholic acid-speciﬁc Cyp8b1 gene and
+acyl-CoenzymeAoxidase2(Acox2)beforeconjugationbyBaat,Acnat1and
+Acnat2, and subsequent excretion in the bile ductby bile salt exporter pump
+(BSEP)125,126. Cyp51,Cyp8b1 and Acox2 genes were signiﬁcantly upregulated
+and Cyp7a1andFxr(Nr1h4)weresigniﬁcantlydownregulatedintheliverof
+mice after 56 days on the ISS (Fig. 6C; Supplementary Figs. 17–21 and Data
+5). The cholesterol transporter genes Abcg5 and Abcg8 (intestinally upre-
+gulatedafter29and56 daysofspaceﬂight)wereupregulatedintheliverafter
+29 days,butnolongersigniﬁcantlyupregulatedafter56 days,andAbcg8was
+signiﬁcantly downregulated. This reduction is surprising given the uniform
+accumulation of cholesterol observed afterextended spaceﬂight; in contrast,
+Bsep and the bile acid conjugating acyl-coenzyme A:amino acid
+N-acyltransferase 1 and 2 (Acnat1 and Acnat2; Baatp1/2) genes were sig-
+niﬁcantly upregulated. Taken together, these expression proﬁles suggest
+hepatic accumulation of cholesterol, characteristic of glucose and lipid
+metabolic dysruption97, and describe a subsequent increase in the produc-
+tion bile acids in the liver, preferentially cholic acid, their subsequent con-
+jugation and export as bile salts, with the seemingly contradictory reduction
+in Cyp7A1 consistent with feedback inhibition.
+The other major mechanism for detoxiﬁcation during cholesterol and
+bileacidaccumulationintheliverissulfonationofbileacids,thetransferofa
+sulfonate group to a hydroxyl (OH) by a subfamily of cytosolic sulfo-
+transferases (Sult2a genes) which increases their solubility, decreases
+enterohepatic recirculation, and increase excretion127. After 29 days of
+spaceﬂight, hepatic Sult2a1, Sult2a4 and Sult2a5 were downregulated,
+which shifted to downregulation of Sult2a7 and Sult2a8 after 56 days
+(Supplementary Data 5). In humans, bile acid sulfonation is catalysed by
+Sult2a1, which sulfonates the 3-OH of bile acids. In contrast, mice have 8
+Sult2a genes, with Sult2a1-6 sharing close homology to Sult2a1 but Sult2a8
+being recently characterised as having major function in sulfonating 7α-OH
+of bile acids128,129, of particular relevance here due to spaceﬂight microbiome
+changes in 7α-dehydroxylating E. muris and C. scindens. Notably, during
+acute phase immune responses, alterations to fatty acid, cholesterol, and bile
+acid metabolism, Sult2a1 is known to be suppressed by cholesterol and bile
+acidregulatingnuclearFxr(Nr1h4)andCar(Nr1i3)nuclearreceptors130,the
+latter of which also regulates bile acid responsive transporter gene Mdr1
+(ABCB1)131, all three of which were downregulated after 56 days of space-
+ﬂight (Fig. 6C) and provide further evidence of bile acid dysregulation and
+toxic stress consistent with extensive disruption of the gut-liver axis132.
+Hepatic energy homoeostasis disruption after spaceﬂight
+Beheshti et al.17 observed signiﬁcant depletion in Cyp7A1 protein levels in
+mice after spaceﬂight (RR1 and RR3), alongside disruption in glucose and
+lipid metabolism133 as well as NAFLD134. Here, pathways related to energy
+homoeostasis consistently altered in gene expression due to spaceﬂight after
+29 and 56 days included enrichment of fatty acid degradation, insulin sig-
+nalling and insulin resistance (Fig. 6D, E; Supplementary Figs. 17–21 and
+Data 5). The highest relative abundance (CPM) of transcripts signiﬁcantly
+increased in the liver of mice after 56 days of spaceﬂight included fatty acid
+synthase (Fasn), the liver fat accumulation-associated carbonic anhydrase 3
+(Car3)135, and the rate limiting enzyme for fatty acid desaturation, Stearoyl-
+Fig. 5 | Microbiome-host interface: spaceﬂight alters colon gene expression. MA
+plots showing (A) GC_LAR vs FLT_LAR (29 days of spaceﬂight) and (B) GC_ISS vs
+FLT_ISS (56 days of spaceﬂight) differentially expressed genes in the colon
+(FDR <0.1). C–H Differentially expressed gene from select KEGG pathways of
+interest, (I) Signiﬁcant Gene Set Enrichment Analysis (GSEA) 29 days (modiﬁed
+from WebGestalt182) and (J) Signiﬁcant GSEA 56 days spaceﬂight. Full DE gene list is
+available in Supplementary data 5 and select KEGG pathways of interest with dif-
+ferentially expressed gene highlighted are available in Supplementary Figs. 9–14.
+Gene set enrichment analysis (GSEA) revealed consistent responses at a pathway
+level between 29 days and 56 days of spaceﬂight. This included widespread down-
+regulation of the components of the intestinal immune system after spaceﬂight,
+including intestinal immune network for IgA production, antigen processing and
+presentation, Th1 and Th2 cell differentiation, PARR signalling metabolism of
+xenobiotics, Staphylococcus aureus infection, T cell receptor signalling, natural killer
+cell mediated cytotoxicity, graft-vs-host disease and cytokine-cytokine receptor
+interactions pathways, as well as downregulation of cholesterol pathways, including
+cholesterol metabolism and steroid hormone biosynthesis. Spaceﬂight also led to
+common upregulation of pathways associated to intestinal extracellular matrix
+(ECM) remodelling, including ECM-receptor interactions, focal adhesion, tight
+junction, gap junction pathways, and cortisol production represented through the
+Cushing syndrome pathway. The bile secretion pathway was signiﬁcantly upregu-
+lated after 29 days of spaceﬂight, but downregulated after 56 days, suggesting bile
+acid dynamics should be explored at the gene level. Similarly, mucin type O-glycan
+biosynthesis, pathways in cancer and insulin resistance were only upregulated at the
+pathway level after 29 days of spaceﬂight, while bacterial invasion of epithelial cells,
+NAFLD, butonoate metabolism, insulin secretion and insulin signalling pathways
+were upregulated and the circadian rhythm pathway was downregulated after only
+56 days of spaceﬂight.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+10
+
+CoA desaturase (SCD), recently identiﬁed as a key role at the crossroads of
+immune response and lipid metabolism through interplay with PPARγ136,
+also signiﬁcantly upregulated here (Fig. 6F). Glucose metabolism was also
+disrupted by spaceﬂight as the glucose transporter Glut2 (Slc2a2) gene,
+required forglucose-stimulatedinsulinsecretion137,andglycogensynthase2
+(Gys2) gene, the rate limiting enzyme for glycogenesis138, were down-
+regulated in the liver (and intestine) after both 29 days and 56 days of
+spaceﬂight. The free fatty acid and glycolysis regulating PPARα was also
+downregulated, and liver glycogen phosphorylase (Pygl) and glycogen
+synthase kinase 3 beta (Gsk3β) were signiﬁcantly upregulated after 56 days
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+11
+
+of spaceﬂight (Fig. 6G). Taken together, the indicated decrease in glycogen
+synthesisand increase in glycogenolysisischaracteristicofinsulinresistance
+leading to the elevated fasting plasma glucose to pre-diabetic levels pre-
+viously observed in crew of the Mars500 analogue mission and during
+spaceﬂight139–141. Interestingly, in light of spaceﬂight induced changes to gut
+microbiota, upregulation of Gsk3β is also known to be activated by
+microbial-associated molecular patterns142 and promotes acute liver failure
+through inhibition of the PPARα pathway143.
+OtherpathwaysenrichedintheliverafterspaceﬂightincludedCushing
+Syndrome, hypercortisolism consistent with elevation of cholesterol levels,
+and hepatocellular cancer pathways. Notably, claudins, which were largely
+downregulated in the intestine where they are commonly expressed within
+tight junctions, were upregulated in liver tissue after 56 days of spaceﬂight
+(Supplementary Data 5), including highly signiﬁcant and high relative
+abundance increases in CLDN1 and CLDN2. So-called non-tight junction
+claudins have only recently been experimentally explored and, in hepatic
+cells, CLDN1 is implicated in hepatocellular carcinoma (HCC)144. More
+broadly, signiﬁcant upregulation of Tgf-α and genes involved in complex
+Tgf-β signalling (Tgfb2, Tgfb3, Tab2, Tgfbrap, Smad3), alongside other
+markers(Dapk2,Vegfa,Dvl3)145,146areassociatedtoHCC,aswellasimmune
+suppression through the cyclin-dependent kinase inhibitor 1 A (p21cip1;
+Cdkn1a)147,alsosigniﬁcantlyupregulated after 29and 56 daysof spaceﬂight.
+Previous gene expression analysis of mice exposed to high-energy ion
+particle radiation to simulate exposure to Galactic Cosmic Rays reported
+induction of spontaneous HCC146. These prominent transcriptomic shifts
+after 56 days of spaceﬂight, if reﬂected in longer term studies in humans,
+could represent a serious health concern.
+Discussion
+A challenge for biological experimentation conducted in space is low
+replication, compared to model studies using mice on Earth. An important
+associated shortfall of this research is the lack of assessment of inter-cage
+variation. The commonalities between LAR and ISS mice groups and use of
+distinct metagenomic methodologies, 16 S rRNA gene barcoding and co-
+assembled WMS, helped provide some biological and technical conﬁdence
+in the spaceﬂight-associated changes in microbiome species detected here;
+however, it is likely that low n reduced statistical power and that important
+microbiome associations were missed, particularly those of low abundance
+bacteria. It is important that the imminent commercial low Earth orbit
+destinations (CLDs), Gateway, and Lunar Base Camp increase the capacity
+of their experimental habitats and growth facilities to support replicate
+numbersformultiomic science,inorderto maximisediscoveriesand enable
+future interventional microbiome studies.
+This research also lacked truly independent cohorts of mice, as Liver
+Animal Return (29 days spaceﬂight) and ISS (56 days spaceﬂight), and their
+respective ground controls, derived from the same initial cohort of mice.
+Future studies should ensure common data gathering approaches to enable
+high resolution multiomic data to be directly compared across missions and
+different cohorts of mice. Integration of metagenomic and host tran-
+scriptomic data here provided a highly complementary picture of the mul-
+tiomic response to spaceﬂight, and is a strength of an Open Science culture
+andpublicmultiomicresourcessuchasGeneLab.Theadditionofuntargeted
+serum and faecal metabolomics would have further strengthened this
+research and future studies should aim to quantitatively proﬁle the speciﬁc
+deconjugated, dehydroxylated, oxidated, and epimerised bile acids in the
+system. Alongside metatranscriptomic analysis of the gut microbiome, this
+wouldrepresentanimportantnextsteplikelytohelpclarifythedirectionality
+of the host-gut microbiome responses associated to spaceﬂight pathology.
+Conclusions
+Through metagenomic assessment of the murine gut microbiome, sig-
+niﬁcant spaceﬂight-associated changes in bacteria linked to bile and fatty
+acid metabolism were identiﬁed. These changes in relative abundance were
+largely consistent in two groups of mice after spaceﬂight when compared to
+different on-Earth control groups at different timepoints as well as when
+using distinct metagenomic methodologies. The microbiome changes
+coincided with substantial changes to gene expression at the host-gut
+microbiome interface which are critical to barrier function, microbe inter-
+actions and bile acid transport in the intestine. These interactions suggest
+disruptionofthesignals,metabolites,and immunefactorsexchanged across
+the gut-liver axis which are likely to drive glucose and lipid dysregulation.
+Collectively, these multiomic ﬁndings suggest host-gut microbiome inter-
+actions during spaceﬂight are likely to underly widespread changes to host
+physiology which could pose a risk to health.
+Methods
+Experimental design
+Female 32 weeks-old C57BL/6NTac mice (Taconic Biosciences sources)
+from four treatment groups of the Rodent Research 6 mission were com-
+pared: ﬂight live animal return (FLT_LAR), ground control for live animal
+return (GC_LAR), ﬂight ISS (FLT_ISS) and ground control for ISS
+(GC_ISS) (Fig. 1). FLT_ISS and FLT_LAR mice comprised 40 mice that
+were launched on SpaceX-13 and transferred to the rodent research habitat
+on the ISS whereas their matched ground controls, GC_ISS and GC_LAR,
+were 40mice kept in identical rodent habitats at Kennedy Space Centre. Not
+all mice were available to NASA GeneLab for DNA and RNA extractions
+(replicate numbers provided below). Diet (LabDiet Rodent 5001) and
+deionized autoclaved water were provided ad libitum, and a 12:12 h dark/
+light cycle maintained. After 29 days of ﬂight onboard the ISS, FLT_LAR
+mice were returned to earth as part of the Live Animal Return (13/1/18)and
+sacriﬁced alongside GC_LAR using common processing at ages of 41 weeks
+old (16/1/18). FLT_ISS mice were sacriﬁced after 53–56 days of ﬂight
+onboard the ISS at the same time as GC_ISS mice at the Kennedy Space
+Centre at 44 weeks old using a common timeline and methodology.
+During this period in the Destiny module (US laboratory) on the ISS,
+the mice were exposed to an average daily 165.8 µGy d−1 Galactic Cosmic
+Ray (GCR) dose and 117.3 µGy d−1 South Atlantic Anomaly (energetic
+protons) dose (data provided by Ames Life Sciences Data Archive -
+ALSDA). This is in line with standard range of exposure on the ISS148, and
+represents around a 100% increase to common exposure on earth. The
+temperature, relative humidity and elevated carbon dioxide levels on the ISS
+were mimicked in the ground control rodent habitats at the Kennedy Space
+over the 56 days of spaceﬂight, so were not signiﬁcantly different (t-test,
+p > 0.05)betweenﬂightandgroundcontrols,andaveraged22.75(±0.35)°C,
+41.49 (±2.28) % and 3219 (±340) CO2 ppm, respectively.
+The study followed recommendations in the Guide for the Care and
+Use of Laboratory Animals, and the protocol (Protocol number RR6) was
+approved on October 24, 2017, by the NASA Flight Institutional Animal
+Fig. 6 | Microbiome-host metabolism: spaceﬂight alters liver gene expression.
+MA plots showing (A) GC_LAR vs FLT_LAR (29 days of spaceﬂight) and (B)
+GC_ISS vs FLT_ISS (56 days of spaceﬂight) differentially expressed genes in the liver
+(FDR <0.1). C–H Differentially expressed gene from select KEGG pathways of
+interest, (I) Signiﬁcant Gene Set Enrichment Analysis (GSEA) 29 days (modiﬁed
+from WebGestalt182), and (J) Signiﬁcant GSEA 56 days spaceﬂight. Full DE gene list
+is available in Supplementary data 5 and select KEGG pathways of interest with
+differentially expressed gene highlighted are available in Supplementary Figs. 17–21.
+GSEA of liver tissue responses also revealed highly consistent responses at the
+pathway level to 29 and 56 days of spaceﬂight. These comprised downregulation of
+immune response pathways, similar to those seen in the intestine, as well as steroid
+metabolism, type I diabetes mellitus, inﬂammatory bowel disease and NAFLD.
+Spaceﬂight also led to common upregulation of insulin resistance, Hippo signalling,
+inositol phosphate metabolism, Cushing syndrome and hepatocellular cancer
+pathways at both 29 and 56 days. Certain pathways were different over time. After
+29 days of spaceﬂight, long-term depression and maturity onset diabetes of the
+young pathways were upregulated, whereas after 56 days, bile secretion and circa-
+dian rhythm were downregulated, while glycolysis/gluconeogenesis pathway were
+upregulated.
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+12
+
+Care and Use Committee (IACUC). As outlined in the NASA Genelab
+record (OSD-249), Anaesthesia for the LAR mice groups was induced using
+isoﬂurane. For the ISS mice groups, anaesthesia was administered via
+intraperitoneal injection of ketamine, xylazine, and acepromazine during
+the dissection period, which occurred 53–56 days post-launch. Blood
+samples were obtained via closed-chest cardiac puncture,though these were
+not used in this study. Euthanasia was performed by exsanguination fol-
+lowed by thoracotomy. The ISS spaceﬂight mice carcasses underwent hind
+limb dissection, which was not used in this study, then were wrapped in
+aluminium foil, placed in Ziploc bags, and stored at −80 °C or colder until
+return. The ISS Ground Control followed the same euthanasia methods and
+preservation timeline at Kennedy Space Center (KSC). Experimental end-
+points included the collection of blood samples, completion of hind limb
+dissection, and collection of faecal samples. Faecal samples were extruded
+from the colon during dissection, snap frozen in liquid nitrogen, and stored
+at −80 °C. Additionally, liver and colon (RNASeq explored here), and
+spleen, lung, thymus, and dorsal skin samples were collected for further
+analysis.
+DNA extraction
+Faecal samples from 32 RR6 mice were available for DNA extraction: n = 9
+mice from FLT_LAR, n = 7 mice from GC_LAR, n = 7 mice from FLT_ISS
+and n = 9 mice from GC_ISS. DNA was extracted using the Maxwell RSC
+Purefood GMO and Authentication Kit (Promega, Madison, WI) (OSD-
+249). Half of a frozen faecal pellet was placed into a tube with 940 uL CTAB
+solution and homogenised using tissue homogenising bead mix (Navy
+RINO Lysis, Next Advance) on Bullet Blender Gold 24 (Next Advance) for
+4 min at 4 °C. Homogenates were centrifuged for 3 min at 10 °C and
+21,000 g to deﬂate foam. The supernatant from each sample was then used
+to isolate and purify DNA following the manufacturer’s protocol. DNA was
+eluted in 105 µL RNAse free H2O and was further cleaned using OneStep
+PCR Inhibitor Removal Kit (Zymo Research). Concentrations for all DNA
+samples were measured using Qubit 3.0 Fluorometer (Thermo Fisher Sci-
+entiﬁc, Waltham, MA) with a Qubit DNA HS kit. DNA quality and size
+were assessed using an Agilent 4200 TapeStation with a gDNA ScreenTape
+Kit (Agilent Technologies, Santa Clara, CA). All DNA sequence data is
+available in the NASA GeneLab record OSD-249.
+16S rRNA gene ampliﬁcation
+DNA library preparation was performed by the Genome Research Core
+(GRC) at the University of Illinois at Chicago. 10 ng of genomic DNA was
+used as input to a two-stage PCR ampliﬁcation protocol149,150. In the ﬁrst
+stage, primers 515 F/806 R (Earth Microbiome Project, V4 targeting) con-
+taining Fluidigm ‘Common Sequence’ linkers (CS1 and CS2) were used to
+amplify gDNA. In the second stage, Fluidigm AccessArray barcoded pri-
+mers were used to amplify PCR products from the ﬁrst stage and incor-
+porateIllumina sequencing adaptors and a sample barcode. Sequencingwas
+performedon an Illumina MiniSeq mid-output ﬂow cell, employing paired-
+end 2 × 153 base reads.
+Whole metagenome sequencing
+Whole metagenome sequence libraries were prepared using an Illumina
+Nextera DNA Flex Library Prep kit (Illumina, San Diego, CA) according to
+the manufacturer’s instructions. Input DNA was ~100 ng per reaction, and
+ﬁve cycles of PCR were performed. Index adaptors used were IDT for
+Illumina,96-wellNextera Flex DualIndexAdapters,setA.Libraryfragment
+sizes (~550 bp) were assessed using an Agilent 4200 TapeStation with
+D1000 DNA ScreenTapes (Agilent Technologies, Santa Clara, CA). Pooled
+library concentration was measured with a KAPA Library quantiﬁcation kit
+(Roche, Wilmington, MA). Library quality control was performed on an
+Illumina iSeq100sequencer(Illumina,San Diego, CA). Wholemetagenome
+shotgun sequencing was performed on an Illumina NovaSeq6000 instru-
+mentwitha 500-cycleSPﬂowcell.Librarypreparationandsequencingwere
+performed by the GeneLab Sample Processing Lab (NASA Ames Research
+Center).
+RNA extraction and sequencing
+Colon samples from 36 RR6 mice were available for RNA extraction: n = 10
+mice from FLT_LAR, n = 8 mice from GC_LAR, n = 9 mice from FLT_ISS
+and n = 9 mice from GC_ISS. Liver samples from 39 mice were available for
+RNA extraction: n = 10 mice from FLT_LAR, n = 9 mice from GC_LAR,
+n = 10 mice from FLT_ISS and n = 10 mice from GC_ISS. RNA was
+extracted from mouse tissue samples using an AllPrep DNA/RNA Mini Kit
+(Qiagen, Valencia, CA). Homogenisation buffer for RNA puriﬁcation was
+made by adding 1:100 beta-mercaptoethanol to Buffer RLT (Qiagen,
+Valencia, CA) and kept on ice until use. Approximately 30 mg of frozen
+colon (OSD-247) or liver (OSD-245) tissue was isolated using a scalpel,
+weighed and immediately placed in 600 uL of the Buffer RLT solution.
+Homogenisation was performed using tissue homogenising bead mix
+(Zirconium Oxide 2.0 mm Beads, Next Advance) on Bullet Blender Gold 24
+(Next Advance) for 5 min at 4 °C. Homogenates were centrifuged for 3 min
+at RT and 14,000 g to remove cell debris. The supernatant from each sample
+was then used to isolate and purify RNA following the manufacturer’s
+protocol. RNA was eluted in 50 µL RNAse free H2O. Concentrations for all
+RNA samples were measured using a Qubit 3.0 Fluorometer (Thermo
+FisherScientiﬁc,Waltham,MA).RNAqualitywasassessedusinganAgilent
+2100 Bioanalyzer with an RNA 6000 Nano Kit or RNA 6000 Pico Kit
+(Agilent Technologies, Santa Clara, CA). ERCC ExFold RNA Spike-In
+Mixes (Thermo Fisher Scientiﬁc, Waltham, MA Cat 4456739, v92) at 1:100
+dilution of either Mix 1 or Mix 2 were added on the day of library prepat the
+concentrations suggested by the manufacturer’s protocol.
+Ribosomal RNA depletion was performed using an Illumina TruSeq
+Stranded Total RNA Library Prep Gold kit. Input RNA amounts were
+~500 ng; RNA RIN values were > 4. Index adaptors were 1.5 µM (IDT, 384-
+well xGen Dual Index UMI Adapters). 15 cycles of PCR were performed.
+Library fragment sizes (~300 bp) were assessed using an Agilent 4200
+TapeStation with a D1000 DNA ScreenTape (Agilent Technologies, Santa
+Clara, CA). Pooled library concentration was measured by Universal qPCR
+Master Mix (Kapa Biosystems, Wilmington, MA). Library quality control
+was performed on an Illumina iSeq100 sequencer (Illumina, San Diego,
+CA). Whole metagenome sequencing was performed on an Illumina
+NovaSeq6000 instrument with a 500-cycle SP ﬂow cell. Library preparation
+and sequencing were performed by the GeneLab Sample Processing Lab
+(NASAAmesResearchCenter)andallRNAsequencingdataisprovidedfor
+in the NASA GeneLab records OSD-247 (colon) or OSD-245 (liver).
+16S rRNA gene barcoding
+Amplicon
+sequence
+reads
+were
+processed
+and
+annotated
+using
+Anchor28,35,139,151,152.Exactsequencevariants(ESV)wereidentiﬁedinplaceof
+operational taxonomic units (OTUs)153,154. Sequences were aligned and
+dereplicated using Mothur155 and a count threshold parameter of 96.
+Annotation at family, genus or species-level used BLASTn criteria of >99%
+identity and coverage to the NCBI 16 S curated and NCBI nr/nt databases
+(January 2022 versions). Differentially abundant ESVs were manually
+assessed for quality. When the highest identity/coverage was shared
+amongst multiple different references, all annotations were retained and
+reported.
+Differential abundance analysis was performed using DESeq2156,157,
+which performs well with sparse data and uneven library sizes158. Sparsity
+and count thresholds were applied whereby an ESV count in a single sample
+was required to be <90% of the count in all samples, and ESV counts were
+required to be >0 in at least 3 samples from the same group35. A false
+discovery rate (FDR; Benjamini-Hochberg procedure) <0.1 correction was
+applied159.
+Whole metagenome sequencing co-assembly and annotation
+Quality control used Trim Galore! (v0.6.6)160, a wrapper script to automate
+quality and adaptor trimming as well as quality control. Trim Galore is
+based on cutadapt (v2.10)161 and fastqc (v0.11.5)162. Trim Galore! PARA-
+METERS : --trim-n --max_n 0 --paired --retain_unpaired --phred33
+--length 75 -q 5 --stringency 1 -e 0.1 -j 1. BBMAP163 was used to remove
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+13
+
+potential contamination from human using the masked version of hg19
+human assembly. To remove redundancy in read dataset and reduce the
+computational load, reads were normalised using ORNA164 with the fol-
+lowing parameters: -sorting 1 -base 1.7 -kmer 21.
+MEGAHIT v1.2.9165 was used to assemble reads from all samples into
+one co-assembly using meta-large option. Kallisto (v0.46.2)166 expectation
+maximisation algorithm was used to complete metagenomics read assign-
+ment and infer contig abundance167. Prodigal (v2.6.3)168 was used with the
+option meta to predict open reading frames (ORFs) and BLAST v2.3.0169
+was used to annotate contigs sequence.
+To assign contig taxonomy, a ﬁrst alignment iteration was run using
+full contig lengths against the NCBI nr/nt database (January 2022) and
+Reference Viral Database (RVDB v v25.0). To further resolve nucleotide
+taxonomic annotation, a second alignment was run against all databases
+which included selected genomes (additional 1148 sequences) from NCBI
+refseq informed by ﬁrst iteration. BLASTn was run using the following
+parameters: -evalue 1e-50 -word_size 128 -perc_identity 97. Contig align-
+ment scores were compared between the three databases and the best bit-
+score was selected as the best alignment for a given contig. Descriptive
+statistics were also provided for contigs with a common species annotation
+that
+had
+an
+average
+alignment
+identity
+> 97%,
+total
+alignment
+length > 3000 nt and an average query coverage > 20%. To validate ESV
+sequences using the metagenomics de novo assembly, ESVs were aligned to
+WMS contigs using BLASTn.
+To annotate genes, three protein databases (NCBI nr, UniProtKB
+Swiss-Prot, and TrEMBL; January 2022) were searched using the translated
+sequences of the predicted proteins. BLASTx was run with the following
+parameters: -evalue 1e-10 -word_size 6 -threshold 21. Alignment scores
+were compared between the three databases and the best bitscore was
+selectedas the best alignment for a given orf. GO, pfam, PANTHER, EMBL,
+InterPro, HAMAP, TIGRFAMs, STRING, HOGENOM, SUPFAM terms
+were mined from UniProtKB database. Amino acid sequences were used as
+input in the GhostKOALA webserver170 to add functional genes and path-
+ways information. KEGG functional and taxonomic annotation was
+retrieved using complete and incomplete pathways. Extibacter muris strain
+DSM28560 bile acid-inducible operon sequence (baiBCDEFGHI)62, were
+manually added to default KEGG database. One bai sequencedid not have a
+KEGG term associated to it (baiG MFS transporter; bile acid transporter)
+and a temporary KEGG term was assigned to it (K9999).
+Metagenome assembled genomes (MAGs)
+Using metagenome co-assembly from 3.4.2, genome binning was per-
+formed using MetaBAT2171. Genome quality estimation of all bins was
+performed using CheckM (version v1.1.6)172. Taxonomic classiﬁcation was
+performed with Bin Annotation Tool (BAT) a pipeline for the taxonomic
+classiﬁcation of metagenome assembled genomes173.
+Murine transcriptome reference mapping
+Mouse liver and colon RNA-Seq reads were processed and assembled fol-
+lowing NASA GeneLab consensus pipeline, as described previously174.
+Alpha and beta diversity
+To estimate and compare microbial richness within samples, alpha diversity
+was measured using diversity indices using Phyloseq R library175 and was
+compared between groups with t-tests (parametric) or Mann-Whitney U
+(non-parametric) tests. Unsupervised multivariate analysis (ordination)
+was performed using Principal Coordinate Analysis (PCoA) with normal-
+isedcounts(SupplementaryData 1)whileconstrainedordinationwasbased
+on distance-based Canonical Analysis of Principal Coordinates (CCA).
+Signiﬁcance of constraints were assessed using ANOVA-like permutation
+testing for CCA (anova.cca). Vegan R library176 was used to conduct these
+analyses, statistics, and to produce graphs and draw dispersion ellipses. As
+an exploratory visualisation of annotated WMS contigs, Uniform Manifold
+Approximation and Projection (UMAP) was used to reduce the dimen-
+sionality of beta diversity WMS contig count matrices. CPM normalised
+counts of differentially abundant species (30 in each comparison) were
+selectedasinputandumapfunctionfromtheumapRpackage(v0.2.10)was
+used for each comparison with default parameters. Care should be taken
+when interpreting relative abundances as amplicon-based and WMS
+microbiome proﬁling lacks absolute quantiﬁcation and is vulnerable to
+biases from PCR ampliﬁcation and/or sequencing depth.
+Differential abundance/expression analysis
+Prior to differential abundance analysis, sparsity and count thresholds were
+applied whereby an ESV/contig/transcript count in a single sample must
+be <90% of the count across all samples and ESV/contig occurrence must be
+at least ≥3 in samples within the same design factor.
+Differential abundance (or expression) analysis was performed
+using DESeq2159 based on pre-processed raw abundance of ESVs/con-
+tigs/ORFs/transcripts.
+A
+false
+discovery
+rate
+(FDR;
+Benjamini-
+Hochberg procedure) <0.1 was applied for statistical signiﬁcance156.
+Missingness is a known challenge for negative binomial regression
+models (such as used in DESeq2) when analyzing zero-inﬂated abun-
+dance tables177,178, contigs with an absolute zero across all replicated
+samples belonging to a same factor were assumed to be structural zeros
+and ﬂagged as signiﬁcantly differentially abundant. To address con-
+servative p-value distribution179 of RNA-Seq differential expression
+analysis, local FDR values were computed from DESeq2 p-values using
+fdrtool (v1.2.17)180 R library.
+Functional enrichment analysis
+Ghostkoala output was organised into a gene count table using WMS ORF
+raw count table and used as input for over-representation analysis (ORA) of
+WMS data. ORA was used to statistically test the overlap between DA ORFs
+(FDR <0.1) and a geneset using pathways of interest (Supplementary Data
+4).p-valueswerecalculatedusingahypergeometrictestusingclusterProﬁler
+(v4.7.1.003) R library181.
+Gene-set enrichment analysis (GSEA) of RNASeq data was performed
+on the Webgestalt182 platform using the entire gene list, rank-ordered
+combining signiﬁcance and effect size from DESeq2 differential expression
+analysis, i.e. log2(FC)*-log(pValue)183. Gene symbols were inferred from
+assembly transcripts using org.Mm.eg.db (v3.16)184 R annotation library.
+Data availability
+All datasets generated and/or analysed during the study are available in
+supplementary materials or are accessible in publicly repositories. DNA
+sequence data is available in the NASA GeneLab record OSD-249. RNA
+sequencingdataisavailableintheNASAGeneLabrecordsOSD-247(colon)
+or OSD-245 (liver).
+Code availability
+All bespoke code used in these analyses is available at: https://github.com/
+gonzalezem/Spaceﬂight_host_microbiome_interactions.
+Received: 7 February 2024; Accepted: 31 July 2024;
+References
+1.
+ISECG. 3. The International Space Exploration Coordination Group.
+https://www.globalspaceexploration.org/ (2018).
+2.
+ISECG. Washington National Aeronautics and Space Administration
+Headquarters. https://www.nasa.gov (2022).
+3.
+National Aeronautics and Space Administration (NASA). Fiscal Year
+2023 Budget Estimates. Retrieved from https://www.nasa.gov/wp-
+content/uploads/2023/07/nasa-fy-2023-agencyfact-sheet.pdf
+(Washington, D.C.: NASA, 2022).
+4.
+National Aeronautics and Space Administration (NASA). Moon to
+Mars Objectives. Washington, D.C.:NASA. Retrieved from https://
+www.nasa.gov/sites/default/ﬁles/atoms/ﬁles/m2m-objectives-
+exec-summary.pdf (Washington, D.C.:NASA, 2022).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+14
+
+5.
+Stein, T., Schulter, M. & Boden, G. Development of insulin resistance
+by astronauts during spaceﬂight. Aviat. Space Environ. Med. 65,
+1091–1096 (1994).
+6.
+Hughson, R. L. et al. Increased postﬂight carotid artery stiffness and
+inﬂight insulin resistance resulting from 6-mo spaceﬂight in male and
+female astronauts. Am. J. Physiol. Heart CirC. Physiol. 310,
+H628–H638 (2016).
+7.
+Tobin, B. W., Leeper-Woodford, S. K., Hashemi, B. B., Smith, S. M. &
+Sams, C. F. Altered TNF-α, glucose, insulin, and amino acids in islets
+of Langerhans cultured in a microgravity model system. Am. J.
+Physiol. Endocrinol. Metab. 280, E92–E102 (2001).
+8.
+Mondon, C., Rodnick, K., Dolkas, C., Azhar, S. & Reaven, G.
+Alterations in glucose and protein metabolism in animals subjected
+to simulated microgravity. Adv. Space Res. 12, 169–177 (1992).
+9.
+Gambara, G. et al. Microgravity-induced transcriptome adaptation
+in mouse paraspinal longissimus dorsi muscle highlights insulin
+resistance-linked genes. Front. Physiol. 8, 279 (2017).
+10.
+Espinosa‐Jeffrey, A. et al. Simulated microgravity enhances
+oligodendrocyte mitochondrial function and lipid metabolism. J.
+Neurosci. Res. 94, 1434–1450 (2016).
+11.
+Meyers, V. E., Zayzafoon, M., Douglas, J. T. & McDonald, J. M.
+RhoA and cytoskeletal disruption mediate reduced
+osteoblastogenesis and enhanced adipogenesis of human
+mesenchymal stem cells in modeled microgravity. J. Bone Miner.
+Res. 20, 1858–1866 (2005).
+12.
+Liu, H., Li, D., Zhang, R., Sun, L. & Wang, D. Lipid metabolic sensors
+of MDT-15 and SBP-1 regulated the response to simulated
+microgravity in the intestine of Caenorhabditis elegans. Biochem.
+Biophys. Res. Commun. 528, 28–34 (2020).
+13.
+Abraham, S., Lin, C., Klein, H. & Volkmann, C. The effects of space
+ﬂight on some rat liver enzymes regulating carbohydrate and lipid
+metabolism. Adv. Space Res. 1, 199–217 (1981).
+14.
+Merrill, A. H. Jr et al. Altered carbohydrate, lipid, and xenobiotic
+metabolism by liver from rats ﬂown on Cosmos 1887. FASEB J. 4,
+95–100 (1990).
+15.
+Yakovleva, V. Arkhiv Anat gistologli i. Embriologii 73, 39 (1977).
+16.
+Jonscher, K. R. et al. Spaceﬂight activates lipotoxic pathways in
+mouse liver. PLoS One 11, e0152877 (2016).
+17.
+Beheshti, A. et al. Multi-omics analysis of multiple missions to space
+reveal a theme of lipid dysregulation in mouse liver. Sci. Rep. 9,
+1–13 (2019).
+18.
+da Silveira, W. A. et al. Comprehensive multi-omics analysis reveals
+mitochondrial stress as a central biological hub for spaceﬂight
+impact. Cell 183, 1185–1201.e1120 (2020).
+19.
+Blaber, E. A., Pecaut, M. J. & Jonscher, K. R. Spaceﬂight activates
+autophagy programs and the proteasome in mouse liver. Int. J. Mol.
+Sci. 18, 2062 (2017).
+20.
+Suzuki, N. et al. Gene expression changes related to bone
+mineralization, blood pressure and lipid metabolism in mouse
+kidneys after space travel. Kidney Int. 101, 92–105 (2022).
+21.
+Sonnenfeld, G. The immune system in space and microgravity. Med.
+Sci. Sports Exerc. 34, 2021–2027 (2002).
+22.
+ElGindi, M. et al. May the force be with you (or not): the immune
+system under microgravity. Cells 10, 1941 (2021).
+23.
+Stervbo, U. et al. Gravitational stressduring parabolicﬂights reduces
+the number of circulating innate and adaptive leukocyte subsets in
+human blood. Plos One 13, e0206272 (2018).
+24.
+Bigley, A. B. et al. NK cell function is impaired during long-duration
+spaceﬂight. J. Appl. Physiol. 126, 842–853 (2019).
+25.
+Paulsen, K. et al. Severe disruption of the cytoskeleton and
+immunologically relevant surface molecules in a human
+macrophageal cell line in microgravity—results of an in vitro
+experiment on board of the Shenzhou-8 space mission. Acta
+Astronaut. 94, 277–292 (2014).
+26.
+Crucian, B. et al. Alterations in adaptive immunity persist during
+long-duration spaceﬂight. npj Microgravity 1, 1–10 (2015).
+27.
+Garrett-Bakelman, F. E. et al. The NASA twins study: a
+multidimensional analysis of a year-long human spaceﬂight.
+Science 364, eaau8650 (2019).
+28.
+Minerbi, A. et al. Altered microbiome composition in individuals with
+ﬁbromyalgia. Pain 160, 2589–2602 (2019).
+29.
+Collins, K. et al. Relationship between inﬂammation, the gut
+microbiota, and metabolic osteoarthritis development: studies in a
+rat model. Osteoarthr. Cartil. 23, 1989–1998 (2015).
+30.
+Zheng, D., Liwinski, T. & Elinav, E. Interaction between microbiota
+and immunity in health and disease. Cell Res. 30, 492–506 (2020).
+31.
+Howard, E. J., Lam, T. K. & Duca, F. A. The gut microbiome:
+connecting diet, glucose homeostasis, and disease. Annu. Rev.
+Med. 73, 469–481 (2022).
+32.
+Utzschneider, K. M., Kratz, M., Damman, C. J. & Hullarg, M.
+Mechanisms linking the gut microbiome and glucose metabolism. J.
+Clin. Endocrinol. Metab. 101, 1445–1454 (2016).
+33.
+Nadia H. A et al. Stress Challenges and Immunity in Space 2nd edn,
+Vol. 771 (Springer International Publishing, 2020).
+34.
+Mora, M. et al. Microorganisms in conﬁned habitats: microbial
+monitoring and control of intensive care units, operating rooms,
+cleanrooms and the international space station. Front. Microbiol. 7,
+1573 (2016).
+35.
+Gonzalez, E., Pitre, F. & Brereton, N. ANCHOR: A 16S rRNA gene
+amplicon pipeline for microbial analysis of multiple environmental
+samples. Environ. Microbiol. 21, 2440–2468 (2019).
+36.
+Singh, N. K., Wood, J. M., Karouia, F. & Venkateswaran, K.
+Succession and persistence of microbial communities and
+antimicrobial resistance genes associated with international space
+Sstation environmental surfaces. Microbiome 6, 204 (2018).
+37.
+Lang, J. M. et al. A microbial survey of the international space station
+(ISS). PeerJ. 5, e4029 (2017).
+38.
+Jiang, P., Green, S. J., Chlipala, G. E., Turek, F. W. & Vitaterna, M. H.
+Reproducible changes in the gut microbiome suggest a shift in
+microbial and host metabolism during spaceﬂight. Microbiome 7,
+1–18 (2019).
+39.
+Bedree, J. K. et al. Speciﬁc host metabolite and gut microbiome
+alterations are associated with bone loss during spaceﬂight. Cell
+Rep. 42, 112299 (2023).
+40.
+Stavnichuk, M. et al. A systematic review and meta-analysis of bone
+loss in space travelers. npj Microgravity 6, 1–9 (2020).
+41.
+Comfort, P. et al. Effects of spaceﬂight on musculoskeletal health: a
+systematic review and meta-analysis, considerations for
+interplanetary travel. Sports Med. 51, 2097–2114 (2021).
+42.
+Suzuki, T. et al. Nrf2 contributes to the weight gain of mice during
+space travel. Commun. Biol. 3, 1–14 (2020).
+43.
+Smith, U. & Kahn, B. B. Adipose tissue regulates insulin sensitivity:
+role of adipogenesis, de novo lipogenesis and novel lipids. J. Intern.
+Med. 280, 465–475 (2016).
+44.
+Gutierrez, D. A., Puglisi, M. J. & Hasty, A. H. Impact of increased
+adipose tissue mass on inﬂammation, insulin resistance, and
+dyslipidemia. Curr. Diabetes Rep. 9, 26–32 (2009).
+45.
+Vitry, G. et al. Muscle atrophy phenotype gene expression during
+spaceﬂight is linked to a metabolic crosstalk in both the liver and the
+muscle in mice. Iscience 25, 105213 (2022).
+46.
+Gao, Z. et al. Butyrate improves insulin sensitivity and increases
+energy expenditure in mice. Diabetes 58, 1509–1517 (2009).
+47.
+Zhang, T. et al. Butyrate ameliorates alcoholic fatty liver disease via
+reducing endotoxemia and inhibiting liver gasdermin D-mediated
+pyroptosis. Ann. Trans. Med. 9, 873 (2021).
+48.
+Priyadarshini, M., Kotlo, K. U., Dudeja, P. K. & Layden, B. T. Role of
+short chain fatty acid receptors in intestinal physiology and
+pathophysiology. Compr. Physiol. 8, 1091 (2018).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+15
+
+49.
+Lai, H.-C. et al. Gut microbiota modulates COPD pathogenesis: role
+of anti-inﬂammatory Parabacteroides goldsteinii
+lipopolysaccharide. Gut 71, 309–321 (2022).
+50.
+Hajjar, R. et al. Gut microbiota inﬂuence anastomotic healing in
+colorectal cancer surgery through modulation of mucosal
+proinﬂammatory cytokines. Gut 72, 1143–1154 (2022).
+51.
+Le Roy, T. et al. Dysosmobacter welbionis gen. nov., sp. nov.,
+isolated from human faeces and emended description of the genus
+Oscillibacter. Int J. Syst. Evol. Micr 70, 4851–4858 (2020).
+52.
+Le Roy, T. et al. Dysosmobacter welbionis is a newly isolated human
+commensal bacterium preventing diet-induced obesity and
+metabolic disorders in mice. Gut 71, 534–543 (2022).
+53.
+Leone, V. et al. Effects of diurnal variation of gut microbes and high-
+fat feeding on host circadian clock function and metabolism. Cell
+Host microbe 17, 681–689 (2015).
+54.
+Klaering, K. et al. Intestinimonas butyriciproducens gen. nov., sp.
+nov.,a butyrate-producingbacteriumfrom themouseintestine. IntJ.
+Syst. Evol. Micr 63, 4606–4612 (2013).
+55.
+Wang, Z. et al. Identiﬁcation and characterization of a bile salt
+hydrolase from Lactobacillus salivarius for development of novel
+alternatives to antibiotic growth promoters. Appl. Environ. Microbiol.
+78, 8795–8802 (2012).
+56.
+Guzior, D. & Quinn, R. A. Review: microbial transformations of
+human bile acids. Microbiome 9, 140 (2021).
+57.
+Morinaga, K., Kusada, H. & Tamaki, H. Bile salt hydrolases with
+extended substrate speciﬁcity confer a high level of resistance to
+bile toxicity on atopobiaceae bacteria. Int J. Mol. Sci. 23,
+10980 (2022).
+58.
+Ferrell, J. M. & Chiang, J. Y. Bile acid receptors and signaling
+crosstalk in the liver, gut and brain. Liver Res. 5, 105–118 (2021).
+59.
+Marion, S. et al. Biogeography of microbial bile acid transformations
+along the murine gut. J. lipid Res. 61, 1450–1463 (2020).
+60.
+Winter, J. et al. Mode of action of steroid desmolase and reductases
+synthesized by Clostridium” scindens”(formerly Clostridium strain
+19). J. Lipid Res. 25, 1124–1131 (1984).
+61.
+Kitahara, M., Takamine, F., Imamura, T. & Benno, Y. Assignment of
+Eubacterium sp. VPI 12708 and related strains with high bile acid
+7alpha-dehydroxylating activity to Clostridium scindens and
+proposal of Clostridium hylemonae sp. nov., isolated from human
+faeces. Int J. Syst. Evol. Micr. 50, 971–978 (2000).
+62.
+Streidl, T. et al. The gut bacterium Extibacter muris produces
+secondary bile acids and inﬂuences liver physiology in gnotobiotic
+mice. Gut Microb. 13, 1854008 (2021).
+63.
+Zagoskin, P. & Erlykina, E. Bile acids as a new type of steroid
+hormones regulating nonspeciﬁc energy expenditure of the body.
+Современные технологии в медицине 12, 114–127 (2020).
+64.
+Thibaut, M. M. & Bindels, L. B. Crosstalk between bile acid-activated
+receptors and microbiome in entero-hepatic inﬂammation. Trends
+Mol. Med. 28, 223–236 (2022).
+65.
+Molinaro, A., Wahlström, A. & Marschall, H.-U. Role of bile acids in
+metabolic control. Trends Endocrinol. Metab. 29, 31–41 (2018).
+66.
+Wahlström, A., Sayin, S. I., Marschall, H.-U. & Bäckhed, F. Intestinal
+crosstalk between bile acids and microbiota and its impact on host
+metabolism. Cell Metab. 24, 41–50 (2016).
+67.
+Watanabe, M. et al. Bile acids induce energy expenditure by
+promoting intracellular thyroid hormone activation. Nature 439,
+484–489 (2006).
+68.
+Thomas, C. et al. TGR5-mediated bile acid sensing controls glucose
+homeostasis. Cell Metab. 10, 167–177 (2009).
+69.
+MacDonald,P.E. et al.The multipleactionsofGLP-1onthe processof
+glucose-stimulated insulin secretion. Diabetes 51, S434–S442 (2002).
+70.
+Honda, A. et al. Regulation of bile acid metabolism in mouse models
+withhydrophobicbileacidcomposition. J.LipidRes. 61, 54–69(2020).
+71.
+Guo,G.L.& Chiang,J.Y.IsCYP2C70 thekeytonewmouse modelsto
+understand bile acids in humans? 1. J. Lipid Res. 61, 269–271 (2020).
+72.
+Jiao, T.-Y., Ma, Y.-D., Guo, X.-Z., Ye, Y.-F. & Xie, C. Bile acid and
+receptors: biology and drug discovery for nonalcoholic fatty liver
+disease. Acta Pharmacol. Sin. 43, 1103–1119 (2022).
+73.
+Watanabe, S. & Fujita, K. Dietary hyodeoxycholic acid exerts
+hypolipidemic effects by reducing farnesoid X receptor antagonist
+bileacidsinmouse enterohepatic tissues.Lipids49,963–973(2014).
+74.
+De Marino, S. et al. Hyodeoxycholic acid derivatives as liver X
+receptor α and G-protein-coupled bile acid receptor agonists. Sci.
+Rep. 7, 1–13 (2017).
+75.
+Lepercq, P. et al. Isolates from normal human intestinal ﬂora but not
+lactic acid bacteria exhibit 7α-and 7β-hydroxysteroid dehydrogenase
+activities. Microb. Ecol. Health Dis. 16, 195–201 (2004).
+76.
+Crucian, B. E. et al. Immune system dysregulation during
+spaceﬂight: potential countermeasures for deep space exploration
+missions. Front. Immunol. 9, 1437 (2018).
+77.
+Bufﬁe, C. G. et al. Precision microbiome reconstitution restores bile
+acid mediated resistance to Clostridium difﬁcile. Nature 517,
+205 (2015).
+78.
+Sun, R., Xu, C., Feng, B., Gao, X. & Liu, Z. Critical roles of bile acids in
+regulating intestinal mucosal immune responses. Therap. Adv.
+Gastroenterol. 14, 17562848211018098 (2021).
+79.
+Kuno, T., Hirayama-Kurogi, M., Ito, S. & Ohtsuki, S. Reduction in
+hepatic secondary bile acids caused by short-term antibiotic-
+induced dysbiosis decreases mouse serum glucose and triglyceride
+levels. Sci. Rep. 8, 1253 (2018).
+80.
+Dawson, P. A. & Karpen, S. J. Intestinal transport and metabolism of
+bile acids. J. Lipid Res. 56, 1085–1099 (2015).
+81.
+Buckley, D. B. & Klaassen, C. D. Induction of mouse UDP-
+glucuronosyltransferase mRNA expression in liver and intestine by
+activators of aryl-hydrocarbon receptor, constitutive androstane
+receptor, pregnane X receptor, peroxisome proliferator-activated
+receptor α, and nuclear factor erythroid 2-related factor 2. Drug
+Metab. Dispos. 37, 847–856 (2009).
+82.
+Katafuchi, T. & Makishima, M. Molecular basis of bile acid-FXR-
+FGF15/19 signaling axis. Int J. Mol. Sci. 23, 6046 (2022).
+83.
+Erickson, S. K. et al. Hypercholesterolemia and changes in lipid and
+bile acid metabolism in male and female cyp7A1-deﬁcient mice. J.
+lipid Res. 44, 1001–1009 (2003).
+84.
+Anselm, V., Novikova, S. & Zgoda, V. Re-adaption on Earth after
+spaceﬂights affects the mouse liver proteome. Int J. Mol. Sci. 18,
+1763 (2017).
+85.
+Jakulj, L. et al. Transintestinal cholesterol transport is active in mice
+and humans and controls ezetimibe-induced fecal neutral sterol
+excretion. Cell Metab. 24, 783–794 (2016).
+86.
+Da Silva, T. C., Polli, J. E. & Swaan, P. W. The solute carrier family 10
+(SLC10):beyondbileacidtransport.Mol.Asp.Med.34,252–269(2013).
+87.
+Zhao, C. & Dahlman-Wright, K. Liver X receptor in cholesterol
+metabolism. J. Endocrinol. 204, 233–240 (2010).
+88.
+Peet, D. J. et al. Cholesterol and bile acid metabolism are impaired in
+mice lacking the nuclear oxysterol receptor LXRα. Cell 93,
+693–704 (1998).
+89.
+Uppal, H. et al. Activation of LXRs prevents bile acid toxicity and
+cholestasis in female mice. Hepatology 45, 422–432 (2007).
+90.
+Repa, J. J. et al. Regulation of ATP-binding cassette sterol
+transporters ABCG5 and ABCG8 by the liver X receptors α and β. J.
+Biol. Chem. 277, 18793–18800 (2002).
+91.
+Fan, J. et al. Retinoic acid receptor-related orphan receptors: critical
+roles in tumorigenesis. Front. Immunol. 9, 1187 (2018).
+92.
+Voigt, R. M., Forsyth, C. B. & Keshavarzian, A. Circadian rhythms: a
+regulator of gastrointestinal health and dysfunction. Expert Rev.
+Gastroenterol. Hepatol. 13, 411–424 (2019).
+93.
+Nakashima, A. et al. DEC1 modulates the circadian phase of clock
+gene expression. Mol. Cell Biol. 28, 4080–4092 (2008).
+94.
+Pearson, J. A., Wong, F. S. & Wen, L. Crosstalk between circadian
+rhythms and the microbiota. Immunology 161, 278–290 (2020).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+16
+
+95.
+Butler, T. D. & Gibbs, J. E. Circadian host-microbiome interactions in
+immunity. Front. Immunol. 11, 1783 (2020).
+96.
+Malhan, D., Yalçin, M., Schoenrock, B., Blottner, D. & Relógio, A.
+Skeletal muscle gene expression dysregulation in long-term
+spaceﬂights and aging is clock-dependent. npj Microgravity 9,
+30 (2023).
+97.
+Yu, Z. et al. Circadian rhythms and bile acid homeostasis: a
+comprehensive review. Chronobiol. Int. 37, 618–628 (2020).
+98.
+Frazier, K. & Chang, E. B. Intersection of the gut microbiome and
+circadian rhythms in metabolism. Trends Endocrinol. Metab. 31,
+25–36 (2020).
+99.
+Mukherji, A., Kobiita, A., Ye, T. & Chambon, P. Homeostasis in
+intestinal epithelium is orchestrated by the circadian clock
+and microbiota cues transduced by TLRs. Cell 153, 812–827 (2013).
+100.
+Kim, M. H., Kang, S. G., Park, J. H., Yanagisawa, M. & Kim, C. H.
+Short-chain fatty acids activate GPR41 and GPR43 on intestinal
+epithelial cells to promote inﬂammatory responses in mice.
+Gastroenterology 145, 396–406. e310 (2013).
+101.
+Takahashi, K., Ip, W. E., Michelow, I. C. & Ezekowitz, R. A. B. The
+mannose-binding lectin: a prototypic pattern recognition molecule.
+Curr. Opin. Immunol. 18, 16–23 (2006).
+102.
+Wang, Y. et al. The intestinal microbiota regulates body composition
+through NFIL3 and the circadian clock. Science 357, 912–916 (2017).
+103.
+Čaja, F. et al. Immune activation by microbiome shapes the colon
+mucosa: comparison between healthy rat mucosa under
+conventional and germ-free conditions. J. Immunotoxicol. 18,
+37–49 (2021).
+104.
+Cornick, S., Tawiah, A. & Chadee, K. Roles and regulation of the
+mucus barrier in the gut. Tissue Barriers 3, e982426 (2015).
+105.
+Johansson, M. E., Larsson, J. M. H. & Hansson, G. C. The two mucus
+layers of colon are organized by the MUC2 mucin, whereas the outer
+layer is a legislator of host–microbial interactions. Proc. Natl Acad.
+Sci. USA 108, 4659–4665 (2011).
+106.
+Khan, W. & Collins, S. Immune‐mediated alteration in gut physiology
+and its role in host defence in nematode infection. Parasite Immunol.
+26, 319–326 (2004).
+107.
+Hubo, M. et al. Costimulatory molecules on immunogenic versus
+tolerogenic human dendritic cells. Front. Immunol. 4, 82 (2013).
+108.
+Kato, K. et al. CD48 is a counter-receptor for mouse CD2 and is
+involved in T cell activation. J. Exp. Med. 176, 1241–1249 (1992).
+109.
+Kim, Y. et al. Activated leucocyte cell adhesion molecule (ALCAM/
+CD166) regulates T cell responses in a murine model of food allergy.
+Clin. Exp. Immunol. 192, 151–164 (2018).
+110.
+Hirata, Y., Egea, L., Dann, S. M., Eckmann, L. & Kagnoff, M. F. GM-
+CSF-facilitated dendritic cell recruitment and survival govern the
+intestinal mucosal response to a mouse enteric bacterial pathogen.
+Cell Host Microbe. 7, 151–163 (2010).
+111.
+Ajuebor, M. N. & Swain, M. G. Role of chemokines and chemokine
+receptorsinthegastrointestinaltract.Immunology105,137–143(2002).
+112.
+Andrews, C., McLean, M. H. & Durum, S. K. Cytokine tuning of
+intestinal epithelial function. Front. Immunol. 9, 1270 (2018).
+113.
+Kulkarni, N., Pathak, M. & Lal, G. Role of chemokine receptors and
+intestinal epithelial cells in the mucosal inﬂammation and tolerance.
+J. Leucoc. Biol. 101, 377–394 (2017).
+114.
+Song, X., He, X., Li, X. & Qian, Y. The roles and functional
+mechanisms of interleukin-17 family cytokines in mucosal immunity.
+Cell. Mol. Immunol. 13, 418–431 (2016).
+115.
+Lee, Y., Clinton, J., Yao, C. & Chang, S. H. Interleukin-17D promotes
+pathogenicity during infection by suppressing CD8 T cell activity.
+Front. Immunol. 10, 1172 (2019).
+116.
+Konieczny, P. et al. Interleukin-17 governs hypoxic adaptation of
+injured epithelium. Science 377, eabg9302 (2022).
+117.
+Wang, J. et al. Simulated microgravity suppresses MAPK pathway‐
+mediated innate immune responseto bacterial infectionand induces
+gut microbiota dysbiosis. FASEB J. 34, 14631–14644 (2020).
+118.
+Pecaut, M. J. et al. Is spaceﬂight-induced immune dysfunction linked to
+systemic changes in metabolism? PLoS One 12, e0174174 (2017).
+119.
+Benjamin, C. L. et al. Decreases in thymopoiesis of astronauts
+returning from space ﬂight. JCI Insight 1, e88787 (2016).
+120.
+Akiyama, T. et al. How does spaceﬂight affect the acquired immune
+system? npj Microgravity 6, 14 (2020).
+121.
+Zhu,X.et al.Non-coding7SRNAinhibitstranscriptionviamitochondrial
+RNA polymerase dimerization. Cell 185, 2309–2323. e2324 (2022).
+122.
+Chen, M. M., Hale, C., Stanislaus, S., Xu, J. & Véniant, M. M. FGF21
+acts as a negative regulator of bile acid synthesis. J. Endocrinol. 237,
+139–152 (2018).
+123.
+Lin, H. et al. Paracrine ﬁbroblast growth factor 1 functions as potent
+therapeutic agent for intrahepatic cholestasis by downregulating
+synthesis of bile acid. Front. Pharmacol. 10, 1515 (2019).
+124.
+Repa, J. J. & Mangelsdorf, D. J. The role of orphan nuclear receptors
+in the regulation of cholesterol homeostasis. Annu. Rev. Cell Dev.
+Biol. 16, 459–481 (2000).
+125.
+Kubitz, R., Dröge, C., Stindt, J., Weissenberger, K. & Häussinger, D.
+The bile salt export pump (BSEP) in health and disease. Clin. Res.
+Hepatol. Gastroenterol. 36, 536–553 (2012).
+126.
+Hajeyah, A. A., Grifﬁths, W. J., Wang, Y., Finch, A. J. & O’Donnell, V.
+B. The biosynthesis of enzymatically oxidized lipids. Front.
+Endocrinol. 11, 591819 (2020).
+127.
+Alnouti, Y. Bile acid sulfation: a pathway of bile acid elimination and
+detoxiﬁcation. Toxicol. Sci. 108, 225–246 (2009).
+128.
+Wang, K. et al. Structure of mouse cytosolic sulfotransferase
+SULT2A8 provides insight into sulfonation of 7α-hydroxyl bile acids.
+J. Lipid Res. 62, 100074 (2021).
+129.
+Shimohira, T., Kurogi, K., Liu, M.-C., Suiko, M. & Sakakibara, Y. The
+critical role of His48 in mouse cytosolic sulfotransferase SULT2A8
+for the 7α-hydroxyl sulfation of bile acids. Biosci. Biotechnol.
+Biochem. 82, 1359–1365 (2018).
+130.
+Kim, M. S., Shigenaga, J., Moser, A., Grunfeld, C. & Feingold, K.
+R. Suppression of DHEA sulfotransferase (Sult2A1) during the
+acute-phase response. Am. J. Physiol. Endocrinol. Metab. 287,
+E731–E738 (2004).
+131.
+Chen, M. L. et al. CAR directs T cell adaptation to bile acids in the
+small intestine. Nature 593, 147–151 (2021).
+132.
+Tripathi, A. et al. The gut–liver axis and the intersection with the
+microbiome. Nat. Rev. Gastroenterol. Hepatol. 15, 397–411 (2018).
+133.
+Qi, Y. et al. Bile acid signaling in lipid metabolism: metabolomic and
+lipidomic analysis of lipid and bile acid markers linked to anti-obesity
+and anti-diabetes in mice. Biochim. et. Biophys. Acta (BBA) 1851,
+19–29 (2015).
+134.
+Chiang, J. Y. Targeting bile acids and lipotoxicity for NASH
+treatment. Hepatol. Commun. 1, 1002 (2017).
+135.
+Yamamoto, H., Uramaru, N., Kawashima, A. & Higuchi, T. Carbonic
+anhydrase 3 increases during liver adipogenesis even in pre‐obesity,
+and its inhibitors reduce liver adipose accumulation. FEBS Open Bio
+12, 827–834 (2022).
+136.
+Grajchen, E. et al. Fatty acid desaturation by stearoyl-CoA
+desaturase-1 controls regulatory T cell differentiation and
+autoimmunity. Cell. Mol. Immunol. 20, 666–679 (2023).
+137.
+Thorens, B. GLUT2, glucose sensing and glucose homeostasis.
+Diabetologia 58, 221–232 (2015).
+138.
+Mandard, S. et al. Glycogen synthase 2 is a novel target gene of
+peroxisome proliferator-activated receptors. Cell Mol. Life Sci. 64,
+1145–1157 (2007).
+139.
+Brereton, N., Pitre, F. & Gonzalez, E. Reanalysis of the Mars500
+experiment reveals common gut microbiome alterations in
+astronauts induced by long-duration conﬁnement. Comput. Struct.
+Biotechnol. J. 19, 2223–2235 (2021).
+140.
+Strollo, F. et al. Space ﬂight-promoted insulin resistance as a
+possible disruptor of wound healing. Front. Bioeng. Biotechnol. 10,
+868999 (2022).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+17
+
+141.
+Vinken, M. Hepatology in space: effects of spaceﬂight and simulated
+microgravity on the liver. Liver Int. 42, 2599–2606 (2022).
+142.
+Cortés-Vieyra, R. et al. Glycogen synthase kinase 3β modulates the
+inﬂammatory response activated by bacteria, viruses, and parasites.
+Front. Immunol. 12, 675751 (2021).
+143.
+Ren, F. et al. Inhibition of glycogen synthase kinase 3β promotes
+autophagy to protect mice from acute liver failure mediated by
+peroxisome proliferator-activated receptor α. Cell Death Dis. 7,
+e2151–e2151 (2016).
+144.
+Roehlen, N. et al. Treatment of HCC with claudin-1-speciﬁc
+antibodies suppresses carcinogenic signaling and reprograms the
+tumor microenvironment. J. Hepatol. 78, 343–355 (2023).
+145.
+Mei, J. et al. Systematic summarization of the expression proﬁles
+and prognostic roles of the dishevelled gene family in hepatocellular
+carcinoma. Mol. Genet. Genomic. Med. 8, e1384 (2020).
+146.
+Chen, J., Gingold, J. A. & Su, X. Immunomodulatory TGF-β
+signaling in hepatocellular carcinoma. Trends Mol. Med. 25,
+1010–1023 (2019).
+147.
+Wolfraim, L. A., Walz, T. M., James, Z., Fernandez, T. & Letterio, J. J.
+p21Cip1 and p27Kip1 act in synergy to alter the sensitivity of naive
+T cells to TGF-β-mediated G1 arrest through modulation of IL-2
+responsiveness. J. Immunol. 173, 3093–3102 (2004).
+148.
+Reitz, G. et al. Space radiation measurements on-board ISS—the
+DOSMAP experiment. Radiat. Prot. Dosim. 116, 374–379 (2005).
+149.
+Naqib, A. et al. PCR effects of melting temperature adjustment of
+individual primers in degenerate primer pools. PeerJ 7, e6570(2019).
+150.
+Naqib, A. et al. Making and sequencing heavily multiplexed, high-
+throughput 16S ribosomal RNA gene amplicon libraries using a
+ﬂexible, two-stage PCR protocol. Gene Expr. Anal. Methods Protoc.
+1783, 149–169 (2018).
+151.
+Gonzalez, E. et al. Distinct changes occur in the human breast milk
+microbiome between early and established lactation in breastfeeding
+Guatemalan mothers. Front. Microbiol. 12, 194 (2021).
+152.
+Brereton, N., Gonzalez, E., Desjardins, D., Labrecque, M. & Pitre, F.
+Co-cropping with three phytoremediation crops inﬂuences
+rhizosphere microbiome community in contaminated soil. Sci. Total
+Environ. 711, 135067 (2019).
+153.
+Porter, T. M. & Hajibabaei, M. Scaling up: a guide to high‐throughput
+genomic approaches for biodiversity analysis. Mol. Ecol. 27,
+313–338 (2018).
+154.
+Knight, R. et al. Best practices for analysing microbiomes. Nat. Rev.
+Microbiol. 16, 410–422 (2018).
+155.
+Schloss, P. D. et al. Introducing Mothur: open-source, platform-
+independent, community-supported software for describing and
+comparing microbial communities. Appl. Environ. Microbiol. 75,
+7537–7541 (2009).
+156.
+Love, M., Anders, S. & Huber, W. Differential analysis of count
+data–the DESeq2 package. Genome Biol. 15, 550 (2014).
+157.
+Thorsen, J. et al. Large-scale benchmarking reveals false
+discoveries and count transformation sensitivity in 16S rRNA gene
+amplicon data analysis methods used in microbiome studies.
+Microbiome 4, 62 (2016).
+158.
+Weiss, S. et al. Normalization and microbial differential abundance
+strategies depend upondata characteristics. Microbiome 5, 27 (2017).
+159.
+Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold
+change and dispersion for RNA-seq data with DESeq2. Genome
+Biol. 15, 550 (2014).
+160.
+Krueger, F. Trim Galore!. https://www.bioinformatics.babraham.ac.
+uk/projects/trim_galore/ (2012).
+161.
+Martin, M. Cutadapt removes adapter sequences from high-
+throughput sequencing reads. EMBnet. J. 17, 10–12 (2011).
+162.
+Andrews, S. FastQC: A Quality Control Tool for High Throughput
+Sequence Data. https://www.bioinformatics.babraham.ac.uk/
+projects/fastqc/ (2010).
+163.
+Bushnell, B. BBMap:A Fast, Accurate,Splice-Aware Aligner. https://
+www.osti.gov/biblio/1241166 (2014).
+164.
+Durai, D. A. & Schulz, M. H. In silico read normalization using set
+multi-cover optimization. Bioinformatics 34, 3273–3280 (2018).
+165.
+Li, D. et al. MEGAHIT v1.0: A fast and scalable metagenome
+assembler driven by advanced methodologies and community
+practices. Methods 102, 3–11 (2016).
+166.
+Bray, N. L., Pimentel, H., Melsted, P. & Pachter, L. Near-optimal
+probabilistic RNA-seq quantiﬁcation. Nat. Biotechnol. 34,
+525–527 (2016).
+167.
+Schaeffer, L., Pimentel, H., Bray, N., Melsted, P. & Pachter, L.
+Pseudoalignment for metagenomic read assignment.
+Bioinformatics 33, 2082–2088 (2017).
+168.
+Hyatt, D. et al. Prodigal: prokaryotic gene recognition and translation
+initiation site identiﬁcation. BMC Bioinform. 11, 119 (2010).
+169.
+Altschul, S. F., Gish,W., Miller, W., Myers,E. W. & Lipman, D. J. Basic
+local alignment search tool. J. Mol. Biol. 215, 403–410 (1990).
+170.
+Kanehisa, M., Sato, Y. & Morishima, K. BlastKOALA and
+GhostKOALA: KEGG tools for functional characterization of genome
+and metagenome sequences. J. Mol. Biol. 428, 726–731 (2016).
+171.
+Kang, D. D. et al. MetaBAT 2: an adaptive binning algorithm for
+robust and efﬁcient genome reconstruction from metagenome
+assemblies. PeerJ. 7, e7359 (2019).
+172.
+Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson,
+G. W. CheckM: assessing the quality of microbial genomes
+recovered from isolates, single cells, and metagenomes. Genome
+Res. 25, 1043–1055 (2015).
+173.
+von Meijenfeldt, F. A. B., Arkhipova, K., Cambuy, D. D., Coutinho, F.
+H. & Dutilh, B. E. Robust taxonomic classiﬁcation of uncharted
+microbial sequences and bins with CAT and BAT. Genome Biol. 20,
+217 (2019).
+174.
+Overbey, E. G. et al. NASA GeneLab RNA-seq consensus pipeline:
+standardized processing of short-read RNA-seq data. iScience 24,
+102361 (2021).
+175.
+McMurdie, P. J. & Holmes, S. phyloseq: an R package for
+reproducible interactive analysis and graphics of microbiome
+census data. PLoS One 8, e61217 (2013).
+176.
+Laitinen, J., Rehell, S. & Oksanen, J. Community and species
+responses to water level ﬂuctuations with reference to soil layers in
+different habitats of mid-boreal mire complexes. Plant. Ecol. 194,
+17–36 (2008)
+177.
+Kaul, A., Davidov, O. & Peddada, S. D. Structural zeros in high-
+dimensional data with applications to microbiome studies.
+Biostatistics 18, 422–433 (2017).
+178.
+Ye, P., Qiao, X., Tang, W., Wang, C. & He, H. Testing latent class of
+subjects with structural zeros in negative binomial models with
+applications to gut microbiome data. Stat. Methods Med. Res 31,
+2237–2254 (2022).
+179.
+Strimmer, K. A uniﬁed approach to false discovery rate estimation.
+BMC Bioinform. 9, 303 (2008).
+180.
+fdrtool.Estimationof(Local)FalseDiscoveryRatesandHigher Criticism.
+https://cran.r-project.org/web/packages/fdrtool/fdrtool.pdf (2021).
+181.
+Wu, T. et al. clusterProﬁler 4.0: a universal enrichment tool for
+interpreting omics data. Innovative (Camb.) 2, 100141 (2021).
+182.
+Liao, Y., Wang, J., Jaehnig, E. J., Shi, Z. & Zhang, B. WebGestalt
+2019: gene set analysis toolkit with revamped UIs and APIs. Nucleic
+Acids Res 47, W199–W205 (2019).
+183.
+Xiao, Y. et al. A novel signiﬁcance score for gene selection and
+ranking. Bioinformatics 30, 801–807 (2014).
+184.
+Bioconductor. org.Mm.eg.db: Genome Wide Annotation for Mouse.
+https://doi.org/10.18129/B9.bioc.org.Mm.eg.db (2022).
+185.
+Glover, J. S., Ticer, T. D. & Engevik, M. A. Characterizing the mucin-
+degrading capacity of the human gut microbiota. Sci. Rep. 12,
+8456 (2022).
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+18
+
+Acknowledgements
+ThisresearchwasgeneratedbytheNASAGeneLabAnalysisWorkingGroup
+for Microbes. The team would like to acknowledge the GeneLab for School
+(GL4S) team for supporting young scientists. NB would like to acknowledge
+support from the University College Dublin Ad Astra program. Genelab is
+funded by the Space Biology Program (Science Mission Directorate,
+Biological and Physical Sciences Division) of the National Aeronautics and
+Space Administration. Open access was funded by NASA GeneLab.
+Author contributions
+Conceived and designed the analysis: E.G., M.D.L., B.T.T., A.F., A.M., P.W.,
+F.K.,R.B.,R.J.J.,S.J.G.,S.W.,J.K.,N.K.S.,D.B.,J.G.,N.J.B.B.,Bioinformatics,
+data analysis: E.G., M.D.L., J.G., N.J.B.B., A.F., A.M., P.W., Figure design: EG,
+N.J.B.B.,Allauthorsdiscussedtheresults,interpretationandcontributedtothe
+ﬁnal manuscript. All authors read and approved the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41522-024-00545-1.
+Correspondence and requests for materials should be addressed to
+N. J. B. Brereton.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modiﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+isnot includedin thearticle’s CreativeCommons licenceandyour intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/.
+© The Author(s) 2024
+1Microbiome Unit, Canadian Centre for Computational Genomics, Department of Human Genetics, McGill University, Montréal, Canada. 2Centre for Microbiome
+Research, McGill University, Montréal, Canada. 3Exobiology Branch, NASA Ames Research Centre, Moffett Field, CA, USA. 4Blue Marble Space Institute of Science,
+Seattle, WA, USA. 5Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, USA. 6Department of Genetics, Harvard Medical School, Boston,
+MA, USA. 7Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142, USA. 8BioServe Space Technologies, University of Colorado
+Boulder, Boulder, CO, USA. 9Grossman School of Medicine, New York University, New York, USA. 10University of Nottingham, Nottingham NG7 2RD, UK. 11NASA
+GeneLab for HighSchools (GL4HS) program, NASA Ames Research Centre, Moffett Field,CA, USA. 12CentreforSpace Medicine, BaylorCollege ofMedicine, Houston,
+TX,USA. 13Yuri GmbH, Wiesentalstr. 40, 88074 Meckenbeuren,Germany. 14University of Wisconsin-Madison,Madison,WI,USA. 15Department of PublicHealth, North
+Dakota State University, Fargo, ND, USA. 16Genomics, Phenomics, and Bioinformatics Program, North Dakota State University, Fargo, ND, USA. 17Genomics and
+Microbiome Core Facility, Rush University Medical Centre, 1653 W. Congress Parkway, Chicago, IL 60612, USA. 18Institute of Computer Science, Martin-Luther
+University Halle-Wittenberg, Halle, Germany. 19Bioscience Division, Los Alamos National Laboratory, Los Alamos, NM, USA. 20Department of Industrial Relations,
+Division of Occupational Safety and Health, Oakland, USA. 21Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany. 22NGS
+Competence Centre Tübingen (NCCT), University of Tübingen, Tübingen, Germany. 23Space Biosciences Research Branch, NASA Ames Research Centre, Moffett
+Field, CA, USA. 24School of Biology and Environmental Science, University College Dublin, Dublin, Ireland.
+e-mail: nicholas.brereton@ucd.ie
+https://doi.org/10.1038/s41522-024-00545-1
+Article
+npj Bioﬁlms and Microbiomes |  (2024) 10:71 
+19

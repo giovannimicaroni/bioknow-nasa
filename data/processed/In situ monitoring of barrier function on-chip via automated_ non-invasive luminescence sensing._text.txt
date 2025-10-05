@@ -1,0 +1,231 @@
+Supplementary Materials
+Supplementary Methods
+Photometry platform assembly
+The required materials for complete setup and use of the photometry platform are provided in Table S1. 
+Figure S1 may be used as a visual guide for assembly and approximate size. Note that the system shown 
+in Figure S1 utilizes Thorlabs’ 30 mm cage system for additional alignment of optical components: this is 
+not strictly required for assembly or operation and is entirely optional. The system is mounted to an 
+aluminum optical breadboard (MB3030/M, Thorlabs) using optical posts (TR50/M, Thorlabs). Depending 
+on application requirements, other optical mounting approaches may be preferred. 
+To assemble the platform we prefer to follow the direction of the beam path, inserting components as 
+follows. 
+1.
+Connect one end of the fiber optic patch cable (M59L01, Thorlabs) to the 430 nm LED (M430F1, 
+Thorlabs). 
+2.
+Attach the other end of the patch cable to the fiber-coupled collimator (F671SMA-405, 
+Thorlabs). 
+3.
+Mount the collimator within the collimator adapter (AD15F, Thorlabs) using the provided set 
+screws. The collimator should sit approximately in the middle of the adapter. 
+4.
+Connect the collimator adapter to one of the filter holders (SM1-QP, Thorlabs).
+5.
+Place the excitation filter (65-682, Edmund) into the filter holder. 
+6.
+Separately, insert the dichroic mirror (86-332, Edmund) into the optical filter cube (CM1-
+DCH/M). 
+NOTE: The orientation of the dichroic mirror in the filter cube will dictate the position of the other 
+optical components. The dichroic mirror will reflect wavelengths below 488 nm and transmit light 
+above 515 nm. As a result, we assemble the platform such that light delivered by the LED (~430 nm) 
+is reflected to the objective and light received from the objective (~520 nm) is transmitted to the 
+CMOS camera. 
+7.
+Connect the collimator assembly to the assembled optical filter cube such that the delivered 
+light is reflected in a preferred direction. 
+8.
+Attach the 20X objective (1-U2B225, Olympus) to the receiving side of the reflected light. A 
+thread adapter may be required depending on the objective used, such as an RMS to SM1 
+thread adapter (SM1A3, Thorlabs). 
+9.
+Opposite to the objective, connect the other filter holder to the optical filter cube. Place the 
+emission filter (FB520-10, Thorlabs) into the filter holder. Emitted light collected from the 
+objective will be transmitted through the dichroic mirror to this filter. 
+10. Position the achromatic doublet (AC254-035-A-ML, Thorlabs) after the emission filter, at the 
+tube length of the objective. We use Olympus objectives with a tube length of 180 mm; note 
+that depending on the brand of objective used, the tube length will vary. 
+11. Place the CMOS camera (BFS-PGE-31S4M-C, FLIR) at the focal distance of the achromatic 
+doublet. For our system, the CMOS sensor should be located approximately 35 mm from the 
+doublet. 
+Supplementary Information (SI) for Lab on a Chip.
+This journal is © The Royal Society of Chemistry 2025
+
+12. Separately, connect the 1-to-7 fiber cable bundle (F671SMA-405, Thorlabs) to the kinematic 
+mount (KC1T, Thorlabs). Align the proximal end of the fiber bundle with the objective lens. 
+13. Adjust the position of the kinematic mount such that the proximal end of the fiber bundle is 
+located at, or slightly further than, the objective working distance. 
+Optical alignment
+1.
+Loosen all adjustment screws on the kinematic mount.
+2.
+Turn on the 430 nm LED on low power. We use 10 mA power from the 4-channel LED driver 
+(DC4104, Thorlabs). 
+3.
+Start a live recording with the CMOS camera. We use SpinView software (Spinnaker SDK, FLIR) 
+for live recording and automated image capture. 
+4.
+Place the distal end(s) of the optical fibers facing a dim light white light source or an 
+autofluorescent plastic slide. 
+5.
+Adjust the camera gain until an image appears. Decrease the gain if saturated pixels are 
+observed. If no image appears, adjust the position of the kinematic mount and/or the CMOS 
+camera. Starting at the objective working distance and at the objective tube length will typically 
+yield an acceptable starting image.
+6.
+Use the adjustment screws on the kinematic mount to sharpen the recorded image. The 
+excitation light should be centered on the fiber cable(s) and fill all fibers once focused 
+appropriately.
+7.
+If the recorded image cannot be resolved to acceptable levels, carefully adjust the CMOS camera 
+position until improved. 
+8.
+When properly adjusted, all fibers should be visualized as equivalently sized circles. If the fiber 
+ends are ovular or misshapen, further adjustment with the kinematic mount is required. 
+Automated recordings
+We use an Arduino microcontroller (Mega 2560 Rev3, Arduino) to automate light delivery and image 
+capture. TTL triggers sent to the LED driver and CMOS camera are aligned to capture fluorescence 
+emission at 10 minute intervals. Adjustments to the script will enable full customization of recording 
+intervals, excitation exposure times, and excitation intensity (GitHub link: https://github.com/LNNR-and-
+ABNEL/In-situ-monitoring-of-barrier-inflammation-on-chip).  
+
+Table S1: Complete parts list required for assembly and use of the photometry platform. The reported number of parts needed 
+is reported for independent, dual-channel sensing of apical and basal compartments described in the main manuscript. If only a 
+single sensing channel is required, all parts quantities may be halved except for the LED driver, LED connector hub, and Arduino 
+microcontroller. Between 2 and 14 parts may be used depending on the sensing requirements of the system. Each additional set 
+of indicated components allows for one additional fiber end to be used for sensing, up to a maximum of 14. 
+Part
+Part Number
+Vendor
+Number Needed*
+430 nm LED
+M430F1
+Thorlabs
+2
+Fiber-coupled collimator
+F671SMA-405
+Thorlabs
+2
+Collimator adapter
+AD15F
+Thorlabs
+2
+Fiber optic patch cable
+M59L01
+Thorlabs
+2
+1-to-7 fiber optic bundle
+BF74LS01
+Thorlabs
+2
+Excitation filter
+65-682
+Edmund Optics
+2
+Emission filter
+FB520-10
+Thorlabs
+2
+Filter holder
+SM1-QP
+Thorlabs
+4
+Dichroic mirror
+86-332
+Edmund Optics
+2
+Optical filter cube
+CM1-DCH/M
+Thorlabs
+2
+Achromatic doublet
+AC254-035-A-ML
+Thorlabs
+2
+Kinematic mount
+KC1T
+Thorlabs
+2
+Low-autofluorescence patch cable
+MAF3L1
+Thorlabs
+2-14
+SMA to FC/PC adapter
+ADAFCSMA1
+Thorlabs
+2-14
+Quick-disconnect ferrule
+ADAF2
+Thorlabs
+2-14
+Fiber optic stub
+CFMC54L10
+Thorlabs
+2-14
+20X Objective
+1-U2B225
+Olympus
+2
+CMOS camera
+BFS-PGE-31S4M-C
+FLIR
+2
+4-channel LED driver
+DC4104
+Thorlabs
+1
+LED connector hub
+DC4100-HUB
+Thorlabs
+1
+Arduino microcontroller
+Mega 2560 Rev3
+Arduino
+1
+Fig. S1: Top-down (left) and side view (right) of the fiber photometry platform used for real-time, non-invasive barrier function 
+sensing. Duplicate optical components are used to enable independent readout of apical and basal flow compartments. Base plate 
+dimensions are 30 cm x 30 cm.
+
+Optical readout analysis
+For further analysis of Caco-2 and HUVEC optical sensing data, CSV files exported from our custom 
+Python scripts (GitHub link: https://github.com/LNNR-and-ABNEL/In-situ-monitoring-of-barrier-
+inflammation-on-chip) were used. Data was collected from at least one control sample and at least one 
+experimental sample per independent experiment. 
+To normalize the sensed data, control dF/F values were subtracted from trial-matched experimental 
+data. To account for signal-to-noise mismatch and intrinsic chip-to-chip differences, the data was further 
+normalized by shifting the baseline sensed dF/F to zero. For both Caco-2 and HUVEC experimental 
+samples, all data points collected between 0 and 12 hours of recording were averaged. The average 
+value was then subtracted from all control-normalized values to obtain experimental values as a 
+normalized difference from control, adjusted to a baseline dF/F of zero. 
+To obtain time-specific sensed differences from control samples, as shown in Figure 4C, a 2-hour 
+average window was applied to each experimental timepoint. For example, the average sensed dF/F 
+difference from control between 23 and 25 hours was used as the value for the 24 hour timepoint. This 
+approach was applied to all sensed data for all experimental samples. 
+
+Fig. S2: Fiber photometry system for dual-color sensing on-chip A) The optical setup consists of high-powered LEDs, optical 
+filters, fiber optic cables, and CMOS cameras that simultaneously deliver excitation light and record emission from fluorophores 
+on-chip. B) Top-down view of the fiber photometry platform used for real-time, dual color diffusion sensing. Emitted light from 
+each fluorophore is directed to independent CMOS cameras to separate the emission signal. Base plate dimensions are 30 cm x 
+30 cm.
+
+Fig. S3: Distribution of 430 nm intensity values measured from each of 
+the 6 sensing fibers used for non-invasive optical sensing on-chip. 
+Individual data points are shown with mean +/- standard deviation.
+
+Fig. S4: Relative fluorescence measured by our optical platform at known concentrations of lucifer 
+yellow in blank organ-chips. Data shown as circles, with line of best fit from linear regression. n = 3, 
+m = 5 replicates per concentration.
+
+Fig. S5: Relative permeability of HUVEC monolayers exposed to the cytokine cocktail (TNF-a, 
+IFN-g, IL-1b) on Day 0 measured by fluorescence plate reader. One-way ANOVA with Tukey’s 
+multiple comparisons. n = 1, m = 4 control, 8 experimental replicates.
+
+Fig. S6: Representative immunocytochemistry results from control (left column), 24-hour cytokine exposure (center 
+column), and 48-hour cytokine exposure (right column) groups. Comparison of tight-junction expression (ZO-1) shows 
+more diffuse expression in inflamed monolayers compared to control. Images taken at 40X magnification, maximum 
+intensity projection of 10-slice z-stack. Scale bar = 40 um. 
+
+Fig. S7: Representative immunocytochemistry results from on-chip control (left 
+column) and 48-hour cytokine exposure (right column) groups. Comparison of tight-
+junction expression (ZO-1) shows more diffuse expression in inflamed monolayers 
+compared to control. Images taken at 40X magnification, maximum intensity 
+projection of 10-slice z-stack. Scale bar = 40 um. 

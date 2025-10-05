@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BioKnowdes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .about-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .about-header h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .about-header p {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .columns-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .column {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 40px 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .column:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 112, 243, 0.3);
+        }
+
+        .column-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .column h2 {
+            font-size: 2rem;
+            color: #0070f3;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .column p {
+            color: #d0d0d0;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .column ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .column ul li {
+            color: #d0d0d0;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .column ul li:last-child {
+            border-bottom: none;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 40px auto;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #0070f3, #00c9ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="{{ url_for('static', filename='images/nasa-logo.png') }}" alt="NASA Logo">
+            </a>
+            <span>NASA Space Apps - BioKnowdes</span>
+        </div>
+
+        <nav class="dropdown-nav">
+            <div class="dropdown">
+                <button class="dropdown-toggle">Explore ▾</button>
+                    <div class="dropdown-menu">
+                    <a href="/">Home</a>
+                    <a href="/heatmap_cosine" class="heatmap-link">Heatmap</a>
+                    <a href="/ask-lumi">Ask Lumi</a>
+                    <a href="/ask-lumi/articles">Browse Articles</a>
+                    <a href="about"> About us </a>
+                    <a href="/help"> Help</a>
+        </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-container">
+            <div class="about-header">
+                <h1>About Us</h1>
+                <p>Connecting scientific knowledge through innovative data visualization and AI-powered insights</p>
+            </div>
+
+            <div class="columns-container">
+                <!-- Team Column -->
+                <div class="column">
+                    <div class="column-icon">👥</div>
+                    <h2>Team</h2>
+                    <p>We are a group of students from PUC-Campinas, Unicamp, and USP, united by a common purpose: to make scientific knowledge more accessible, connected, and visually engaging. With diverse backgrounds and a collaborative mindset, we combine technology, science, and creativity to transform information into understanding — and ideas into real impact.</p>
+                </div>
+
+                <!-- Vision Column -->
+                <div class="column">
+                    <div class="column-icon">🔭</div>
+                    <h2>Vision</h2>
+                    <p>We believe in open, integrated, and discovery-driven science. </p>
+                    <p style="margin-top: 20px;">Our vision is to transform the way we interact with knowledge — taking research from search to insight, turning scattered data into meaningful connections that drive innovation.</p>
+                </div>
+
+                <!-- Mission Column -->
+                <div class="column">
+                    <div class="column-icon">🚀</div>
+                    <h2>Mission</h2>
+                    <p>Our mission is to create tools that make scientific knowledge easier to explore, interpret, and apply. We aim to accelerate learning, reveal hidden patterns, and enable research to evolve in a smarter, more collaborative, and impactful way.</p>
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <a href="/" class="back-btn">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

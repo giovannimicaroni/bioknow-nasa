@@ -1,0 +1,1126 @@
+Contributions of Spore Secondary Metabolites to UV-C
+Protection and Virulence Vary in Different Aspergillus
+fumigatus Strains
+Adriana Blachowicz,a,b Nicholas Raffa,c Jin Woo Bok,c Tsokyi Choera,c Benjamin Knox,c Fang Yun Lim,c
+Anna Huttenlocher,c,d Clay C. C. Wang,b,e Kasthuri Venkateswaran,a
+Nancy P. Kellerc,f
+aBiotechnology and Planetary Protection Group, Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+bDepartment of Pharmacology and Pharmaceutical Sciences, School of Pharmacy, University of Southern California, Los Angeles, California, USA
+cDepartment of Medical Microbiology and Immunology, University of Wisconsin—Madison, Madison, Wisconsin, USA
+dDepartment of Pediatrics, University of Wisconsin—Madison, Madison, Wisconsin, USA
+eDepartment of Chemistry, Dornsife College of Letters, Arts, and Sciences, University of Southern California, Los Angeles, California, USA
+fDepartment of Bacteriology, University of Wisconsin—Madison, Madison, Wisconsin, USA
+ABSTRACT
+Fungi are versatile organisms which thrive in hostile environments, in-
+cluding the International Space Station (ISS). Several isolates of the human pathogen
+Aspergillus fumigatus have been found contaminating the ISS, an environment with
+increased exposure to UV radiation. Secondary metabolites (SMs) in spores, such as
+melanins, have been shown to protect spores from UV radiation in other fungi. To
+test the hypothesis that melanin and other known spore SMs provide UV protection
+to A. fumigatus isolates, we subjected SM spore mutants to UV-C radiation. We
+found that 1,8-dihydroxynaphthalene (DHN)-melanin mutants of two clinical A. fu-
+migatus strains (Af293 and CEA17) but not an ISS-isolated strain (IF1SW-F4) were
+more sensitive to UV-C than their respective wild-type (WT) strains. Because DHN-
+melanin has been shown to shield A. fumigatus from the host immune system, we
+examined all DHN mutants for virulence in the zebraﬁsh model of invasive aspergil-
+losis. Following recent studies highlighting the pathogenic variability of different A.
+fumigatus isolates, we found DHN-melanin to be a virulence factor in CEA17 and
+IF1SW-F4 but not Af293. Three additional spore metabolites were examined in
+Af293, where fumiquinazoline also showed UV-C-protective properties, but two other
+spore metabolites, monomethylsulochrin and fumigaclavine, provided no UV-C-
+protective properties. Virulence tests of these three SM spore mutants indicated a
+slight increase in virulence of the monomethylsulochrin deletion strain. Taken to-
+gether, this work suggests differential roles of speciﬁc spore metabolites across
+Aspergillus isolates and by types of environmental stress.
+IMPORTANCE Fungal spores contain secondary metabolites that can protect them
+from a multitude of abiotic and biotic stresses. Conidia (asexual spores) of the hu-
+man pathogen Aspergillus fumigatus synthesize several metabolites, including mela-
+nin, which has been reported to be important for virulence in this species and to be
+protective against UV radiation in other fungi. Here, we investigate the role of mela-
+nin in diverse isolates of A. fumigatus and ﬁnd variability in its ability to protect
+spores from UV-C radiation or impact virulence in a zebraﬁsh model of invasive
+aspergillosis in two clinical strains and one ISS strain. Further, we assess the role of
+other spore metabolites in a clinical strain of A. fumigatus and identify fumiquinazo-
+line as an additional UV-C-protective molecule but not a virulence determinant. The
+results show differential roles of secondary metabolites in spore protection depen-
+dent on the environmental stress and strain of A. fumigatus. As protection from ele-
+vated levels of radiation is of paramount importance for future human outer space
+Citation Blachowicz A, Raffa N, Bok JW, Choera
+T, Knox B, Lim FY, Huttenlocher A, Wang CCC,
+Venkateswaran K, Keller NP. 2020.
+Contributions of spore secondary metabolites
+to UV-C protection and virulence vary in
+different Aspergillus fumigatus strains. mBio
+11:e03415-19. https://doi.org/10.1128/mBio
+.03415-19.
+Editor J. Andrew Alspaugh, Duke University
+Medical Center
+Copyright © 2020 Blachowicz et al. This is an
+open-access article distributed under the terms
+of the Creative Commons Attribution 4.0
+International license.
+Address correspondence to Nancy P. Keller,
+npkeller@wisc.edu.
+This article is a direct contribution from Nancy
+P. Keller, a Fellow of the American Academy of
+Microbiology, who arranged for and secured
+reviews by Gustavo Goldman, Universidade de
+São Paulo, and Wen-Bing Yin, State Key
+Laboratory of Mycology, Institute of
+Microbiology, Chinese Academy of Sciences.
+Received 29 December 2019
+Accepted 8 January 2020
+Published
+RESEARCH ARTICLE
+Applied and Environmental Science
+crossm
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+®
+mbio.asm.org
+1
+18 February 2020
+
+explorations, the discovery of small molecules with radiation-protective potential
+may result in developing novel safety measures for astronauts.
+KEYWORDS Aspergillus fumigatus, space station, UV-C, melanin, secondary
+metabolite, spore, virulence determinants
+R
+ecent revitalization of the interest in human outer space explorations has brought
+attention to the question of whether and how microbes, particularly pathogenic
+microbes, respond and adapt to space conditions (1–4). Being ubiquitous in the
+environment and isolated from a variety of extreme and built environments, fungi are
+compelling microorganisms to evaluate such adaptive responses (5–9). Further, fungal
+presence aboard spacecraft, including the International Space Station (ISS), has been
+documented (10–12). Of concern is the occurrence of potential human pathogens, such
+as Aspergillus fumigatus, the causal agent of invasive aspergillosis, in the ISS (1).
+UV radiation is known to be enhanced in spacecraft and stations (13). UV may be
+detrimental to living organisms since it causes DNA damage and induces mutations in
+both direct and indirect ways by forming pyrimidine dimers and inducing oxidative
+stress via the generation of reactive oxygen species (ROS), respectively (14, 15). Among
+three wave bands, UV-A (320 to 400 nm), UV-B (290 to 320 nm), and UV-C (100 to
+290 nm), UV-C is known for its germicidal properties and is used as a sanitizing agent
+(14, 16, 17). In order to protect from damaging UV exposure, fungi have developed
+various defense mechanisms, including enzymes degrading ROS, DNA repair mecha-
+nisms like photoreactivation and nucleotide excision repair, and the production of
+UV-protective compounds like melanins and other secondary metabolites (SMs) (18).
+Fungi produce a diverse variety of SMs that can protect a fungus from harmful
+environmental factors or from competing microorganisms (19). Several studies have
+correlated increased conidial melanin content with UV protection in highly irradiated
+areas, including Chernobyl Power Plant accident sites, the ISS, and “Evolution Canyon”
+(20–22). Further, albino mutants have been shown to have less ﬁtness in the ﬁeld,
+presumably due to the loss of melanin (23). In addition to protecting fungi from UV
+radiation, fungal melanins are potent virulence factors in both human-pathogenic (e.g.,
+Cryptococcus neoformans [24], Fonsecaea pedrosoi [25], and A. fumigatus [26]) and
+plant-pathogenic (e.g., Venturia inaequalis [27] and Verticillium dahliae [28]) fungi.
+The A. fumigatus conidial melanin, 1,8-dihydroxynaphthalene (DHN)-melanin, thwarts
+immune cell attack through various mechanisms, including masking of fungal
+pathogen-associated molecular patterns (PAMPs) and sequestration of signaling mol-
+ecules such as calcium (29, 30). However, it is unknown if this pigment provides
+protection to A. fumigatus from UV radiation. The ﬁndings that two ISS-isolated strains
+of A. fumigatus showed increased virulence in a zebraﬁsh model of invasive aspergillosis
+(IA) (1) and also presented an increase in proteins associated with SM biosynthesis,
+including trypacidin, Asp-hemolysin, and melanin (3), compared to clinical strains
+CEA10 and Af293, suggested a possible correlation between conidium-associated SMs,
+UV-C sensitivity, and virulence.
+To address any possible linkage of increased UV-C resistance and virulence mech-
+anisms of pathogenic fungi aboard the ISS, the UV-C sensitivity and pathogenicity of
+DHN-melanin mutants in three diverse strains of A. fumigatus, including one ISS strain,
+were evaluated. Because UV is also absorbed by additional aromatic fungal SMs and
+certain amino acids such as tryptophan and tyrosine (31, 32), any role for three aromatic
+conidial SMs (trypacidin, fumiquinazoline, and fumigaclavine) for protection from UV-C
+or impact on virulence in one A. fumigatus strain were also examined. Finally, we
+examined any role of the DNA repair ku70 and ku80 mutants on UV-C sensitivity, as
+these mutants are frequently used for molecular manipulation of the A. fumigatus
+genome due to the ease of gene replacement in these backgrounds and the general
+robust nature of these mutants (33). Due to an existing gap in our understanding of
+UV-C resistance and virulence mechanisms and to the persistence of fungi aboard the
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+2
+
+ISS, it was prudent to investigate any possible correlations which may result in
+developing preventive measures for outer space explorations.
+RESULTS
+Loss of aku leads to enhanced UV-C sensitivity but has no effect on secondary
+metabolite production. Three control strains, namely, Af293, an ΔakuA mutant, and a
+ΔakuA -mluc mutant, were examined to demonstrate the impact of the disruption of
+akuA in UV-C response. This deletion allows for homologous recombination and thus
+creates a fungus that is easy to genetically manipulate and allows for faster creation of
+speciﬁc mutant strains (33). However, AkuA is involved in DNA repair (34) and would be
+expected to show enhanced sensitivity to UV treatment. The disruption of akuA
+signiﬁcantly decreased the survival rate, at 90%, in contrast to 60% decrease in survival
+of wild-type (WT) Af293 upon UV-C exposure (Fig. 1A); however, there were no
+differences in UV-C sensitivity between the ΔakuA mutant and the ΔakuA mluc strain
+(35), which was also used for gene deletion studies (see Table S1 in the supplemental
+material). Despite an increase in sensitivity to UV-C, the ΔakuA mutant strains still
+demonstrated a dose response to increasing UV-C and thus were deemed suitable for
+this study. There were no differences in SM proﬁles between the WT Af293, ΔakuA
+mutant, and ΔakuA -mluc mutant strains (Fig. 1B).
+DHN-melanin is a UV-C protectant in some A. fumigatus isolates. Fungal mel-
+anins are derived either from an L-dopa biosynthetic pathway (e.g., C. neoformans)
+or a polyketide biosynthetic pathway (A. fumigatus DHN-melanin) (36). DHN-
+melanin was tested as a protective molecule from UV-C radiation by deleting pksP
+encoding the polyketide synthase required for DHN-melanin biosynthesis (37) in
+both WT Af293 and in the Af293 ΔakuA background. As shown in Fig. 2A, the loss
+Af293
+ΔakuA
+ΔakuA/-mluc
+Relative 
+Absorbance
+Relative 
+Absorbance
+Relative 
+Absorbance
+A 
+B
+Time (min)
+10
+40
+25
+15
+20
+35
+30
+100
+50
+0
+100
+50
+0
+100
+50
+0
+1
+2
+3
+1 Fumigaclavine C
+2 Fumiquinazolines
+3 Monomethylsulochrin
+1
+2
+3
+1
+2
+3
+0
+10
+15
+20
+0
+20
+40
+60
+60
+80
+100
+120
+Dose (mJ/cm2)
+Percent Viability
+Af293
+akuA
+akuA/-mluc
+*
+*
+*
+FIG 1 UV-C sensitivity and secondary metabolite proﬁles of Af293, ΔakuA mutant, and ΔakuA -mluc mutant strains. (A) Percent viability
+following exposure to various doses of UV-C radiation of control strains. (B) Secondary metabolite proﬁles of control strains.
+ Relative Absorbance 
+A 
+B
+Time (min)
+25
+15
+20
+35
+30
+100
+50
+0
+100
+50
+0
+100
+50
+0
+Dose (mJ/cm2)
+0
+10
+15
+20
+0
+20
+40
+60
+60
+80
+100
+120
+Percent Viability
+Af293
+ΔpksP, ΔakuA 
+ΔpksP 
+ΔakuA 
+Af293
+ΔpksP, ΔakuA 
+ΔpksP 
+ ΔakuA 
+100
+50
+0
+*
+*
+*
+*
+*
+*
+*
+FIG 2 UV-C sensitivity and secondary metabolite proﬁles of Af293 and Af293 DHN-melanin mutants in the intact and disrupted akuA
+backgrounds. (A) Percent viability following exposure to various doses of UV-C radiation for Af293 and the pksP, akuA, and pksP
+akuA mutants. (B) Secondary metabolite proﬁles of Af293 and the pksP, akuA, and pksP akuA mutants. Asterisks (*) indicate
+statistical signiﬁcance using Welch’s corrected t test (details in Table S2).
+Spore Metabolites and UV-C Protection in A. fumigatus
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+3
+
+of pksP resulted in strains more sensitive to UV-C regardless of the presence or
+absence of akuA. This increase in sensitivity was seen at all UV-C doses in a
+comparison of the WT to the ΔpksP mutant (50% versus 25% survival rate at 10
+mJ/cm2, 23% versus 3.5% at 15 mJ/cm2, and 7% versus 0.9% at 20 mJ/cm2,
+respectively) and in a comparison of the ΔakuA mutant to the ΔakuA ΔpksP double
+mutant (7% versus 3% at 10 mJ/cm2, 2% versus 0.5% at 15 mJ/cm2, and 1%
+versus 0.1% at 20 mJ/cm2, respectively) (Table S2A). Chemical proﬁling of these
+strains did not show any differences in the production of other SMs due to the loss
+of pksP (Fig. 2B), but, as expected, both ΔpksP and ΔakuA ΔpksP conidia showed a
+lack of DHN-melanin pigmentation (Fig. S1).
+Since DHN-melanin was critical in protecting conidia from UV-C radiation in the
+Af293 background, it was further examined whether this role was conserved in other A.
+fumigatus isolates, including the ISS-isolated strain IF1SW-F4. Upon exposure to UV-C,
+it was observed that PksP loss did not signiﬁcantly diminish the survival of the ISS
+isolate compared to respective control strain producing DHN-melanin (Fig. 3A and
+Table S2C). SMs were quantiﬁed in these strains and showed no differences in the
+IF1SW-F4 WT or ΔpksP strains (Fig. 3B). Simultaneously, the impact of DHN-melanin on
+UV-C sensitivity was tested in CEA17 (CEA17 is a CEA10 derivative deleted for AkuB,
+which forms the functional heterodimer with AkuA [38, 39]). Unlike the IF1SW-F4 ΔpksP
+mutant but similar to the Af293 ΔpksP mutants, the CEA17 ΔpksP strain showed a
+signiﬁcantly decreased survival rate compared to that of the CEA17 control (Fig. 3C and
+Table S2B), with values similar to those observed in Af293 with the disrupted AkuA
+background (5% versus 2% survival rate at 10 mJ/cm2 and 0.6% versus 0.4% at
+15 mJ/cm2, respectively). Further, the CEA17 ΔpksP strain showed alterations in its SM
+A 
+B
+Dose (mJ/cm2)
+Percent Viability
+IF1SW-F4
+IF1SW-F4, ΔpksP 
+150000
+100000
+0
+50000
+150000
+100000
+0
+50000
+10
+30
+20
+40
+Time (min)
+15
+25
+35
+IF1SW-F4
+IF1SW-F4, ΔpksP 
+Absorbance
+1
+2
+3
+1 Fumigaclavine A
+2 Fumiquinazolines C/D
+3 Monomethylsulochrin
+1
+2
+3
+0
+10
+15
+20
+0
+20
+40
+60
+60
+80
+100
+120
+D 
+Absorbance
+10
+30
+20
+40
+Time (min)
+15
+25
+35
+200000
+100000
+0
+200000
+100000
+0
+CEA17
+ΔpksP, ∆akuB 
+1
+2
+3
+1
+2
+3
+4
+4
+1 Fumigaclavine C
+2 Fumiquinazolines C/D
+3 Pyripyropene A
+4 Fumagillin
+* Unknown
+*
+*
+0
+20
+0
+5
+10
+50
+100
+Percent Viability
+CEA17
+∆pksP, ∆akuB 
+*
+C 
+Dose (mJ/cm2)
+FIG 3 UV-C sensitivity and secondary metabolite proﬁles of ISS-isolated IF1SW-F4, CEA17, and their DHN-melanin mutants. (A) Percent
+viability following exposure to various doses of UV-C radiation for IF1SW-F4 and IF1SW-F4 pksP. (B) Secondary metabolite proﬁles of
+IF1SW-F4 and IF1SW-F4 pksP. (C) Percent viability following exposure to various doses of UV-C radiation for CEA17 and CEA17 pksP. (D)
+Secondary metabolite proﬁles of CEA17 and CEA17 pksP. Asterisks (*) indicate statistical signiﬁcance using Welch’s corrected t test (details
+in Table S2).
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+4
+
+proﬁle, including decreased yields of pyripyropene A and fumagillin compared to the
+control strain (Fig. 3D, peaks 3 and 4, respectively).
+Fumiquinazoline provides protection from UV radiation. Aspergillus fumigatus
+produces other conidial metabolites, including fumigaclavine, trypacidin, and fumiquina-
+zoline (40–42) (Fig. S2). Due to their synthesis in the spore as well as aromatic structure
+and incorporation of tryptophan in two of these metabolites (fumigaclavine and
+fumiquinazoline), they were tested to determine if they might also provide protection
+from UV-C in Af293. Mutants were created for all three metabolites in both WT akuA
+and ΔakuA mutant backgrounds (Fig. S3). SM analysis of these deletion mutants
+conﬁrmed that they did not synthesize the targeted metabolite. Speciﬁcally, fumiga-
+clavine C (366.5 g/mol), monomethylsulochrin (346.3 g/mol), and fumiquinazolines C
+and D (443.5 g/mol) were not detected in extracted ion chromatograms (EICs) of the
+respective deletion mutants (Fig. S4). Considering that trypacidin is not detectable until
+9 to 10 days of growth, monomethylsulochrin (the ﬁnal intermediate of the trypacidin
+biosynthetic pathway) was used to conﬁrm the disruption of the trypacidin biosynthetic
+pathway. In the WT background, the fumiquinazoline mutant (ΔfmqA) was more
+sensitive to UV-C (35%) (Fig. 4C and Table S2D), but the loss of either fumigaclavine
+(ΔdmaW mutant) or trypacidin (ΔtpcC mutant) pathway metabolites had no impact on
+spore survival (Fig. 4A and B and Table S2D). However, examination of these same SM
+mutations in the ΔakuA background gave different results, where strains deﬁcient in
+fumigaclavine A (ΔakuA ΔdmaW mutant) and trypacidin (ΔakuA ΔtpcC mutant) were
+slightly more resistant to UV-C than was the ΔakuA control after exposure to 10 mJ/cm2
+(P  0.0043 and 0.0006, respectively) (Fig. 4D and E and Table S2E) and the fumiquina-
+zoline null strain (ΔakuA ΔfmqA mutant) showed no signiﬁcant change in UV-C resis-
+tance compared to ΔakuA (Fig. 4F and Table S2D compared to 2E). These ﬁndings
+suggested that akuA loss alters the UV-C-protective properties of some conidial pig-
+ments and may allow for the identiﬁcation of mutants that can enhance UV-C resis-
+tance.
+A 
+B
+0
+10
+15
+20
+0
+10
+20
+30
+40
+60
+80
+100
+120
+Percent Viability
+ΔakuA 
+ΔfmqA, ΔakuA 
+Dose (mJ/cm2)
+0
+10
+15
+20
+0
+10
+20
+30
+60
+80
+100
+120
+Percent Viability
+*
+ΔakuA 
+ΔtpcC, ΔakuA 
+0
+10
+15
+20
+0
+10
+20
+30
+60
+80
+100
+120
+Percent Viability
+*
+ΔakuA 
+ΔdmaW, ΔakuA 
+C
+Dose (mJ/cm2)
+Dose (mJ/cm2)
+Af293 
+ΔfmqA 
+0
+10
+15
+20
+0
+20
+40
+60
+60
+80
+100
+120
+Percent Viability
+*
+*
+0
+10
+15
+20
+0
+20
+40
+60
+80
+100
+120
+Percent Viability
+Af293
+ΔtpcC 
+0
+10
+15
+20
+0
+20
+40
+60
+80
+100
+120
+Percent Viability
+Dose (mJ/cm2)
+Dose (mJ/cm2)
+Dose (mJ/cm2)
+Af293
+ΔdmaW 
+D 
+E
+F
+FIG 4 UV-C sensitivity and secondary metabolite proﬁles of conidium-associated SM mutants of Af293 in backgrounds with disrupted and intact akuA. (A to
+C) Percent viability following exposure to various doses of UV-C radiation for dmaW (A), tpcC (B), and fmqA (C) mutants in Af293 with intact akuA. (D to
+F) Percent viability following exposure to various doses of UV-C radiation for dmaW (D), tpcC (E), and fmqA (F) in Af293 with disrupted akuA. Asterisks (*)
+indicate statistical signiﬁcance using Welch’s corrected t test (details in Table S2).
+Spore Metabolites and UV-C Protection in A. fumigatus
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+5
+
+DHN-melanin role in virulence in three A. fumigatus isolates does not correlate
+with its role in UV-C protection. Considering the differential role of DHN-melanin
+in shielding the three strains from UV-C damage (Fig. 2 and 3), the known role of
+DHN-melanin in the virulence of some A. fumigatus strains (35), and differences in
+virulence between Af293 and CEA10 strains (43–46), we thought it important to
+assess the virulence of the three ΔpksP mutants. pksP deletion mutants were
+examined for changes in virulence relative to their respective WT controls using an
+established neutrophil-defective (rac2D57N) zebraﬁsh model of invasive aspergillo-
+sis (46, 47). Whereas both the CEA17 and IF1SW-F4 ΔpksP mutant strains were
+signiﬁcantly decreased in virulence, the Af293 ΔpksP mutant was not (Fig. 5).
+We also assessed the virulence of the ΔtpcC, ΔfmqA, and ΔdmaW mutants in the
+same zebraﬁsh model. The loss of either fmqA or dmaW showed no difference in
+zebraﬁsh deaths in comparison to the Af293 WT; however, the ΔtpcC mutant had a 10%
+increase in zebraﬁsh deaths (Fig. 6). Together, our results suggest that the involvement
+of spore SMs in virulence is strain dependent and that their protective roles in fungal
+biology vary with the type of environmental stress.
+FIG 5 Virulence of DHN-melanin mutants of three Aspergillus fumigatus strains in a zebraﬁsh model of
+invasive aspergillosis. (A) Percent survival of zebraﬁsh upon infection with Af293 and the pksP mutant.
+(B) Percent survival of zebraﬁsh upon infection with CEA17 and the pksP mutant. (C) Percent survival
+of zebraﬁsh upon infection with IF1SW-F4 and pksP mutant. P values were generated by Cox propor-
+tional hazards regression analysis. DPI, days postinfection.
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+6
+
+DISCUSSION
+While the radiation-protective properties of melanin in fungi have been previously
+documented (21, 22, 48, 49), little is known about the UV-C-protective features of other
+SMs or of DHN-melanin in A. fumigatus. Since A. fumigatus strains have been isolated
+from space station environments characterized by high UV-C levels (12) and increased
+virulence (1), it was prudent to investigate the UV-C properties of conidial SMs and their
+plausible correlation with pathogenicity. Here, we found that DHN-melanin protects
+some but not all A. fumigatus isolates from UV-C radiation and that fumiquinazolines
+are UV-C protectants in WT Af293.
+This study demonstrated that akuA, which plays fundamental role in the nonho-
+mologous end-joining (NHEJ) pathway, a preferred DNA repair pathway of DNA double-
+strand breaks (DSBs) in fungi (50–52), is critical in protection from UV-C. The disruption
+of akuA gene, which increases the transformation success rate via homologous recom-
+bination (HR), led to a ca. 90% decrease in survival upon exposure to the lowest UV-C
+dose, 10 mJ/cm2, while the Af293 WT showed a decrease of 60% for the same dose
+(Fig. 1A). Such discrepancy in the survival rates between the ΔakuA mutant and the WT
+was of no surprise, as previous reports showed that UV-C exposure signiﬁcantly induces
+DSB incidence in exposed organisms and cells (53, 54). Further, no signiﬁcant differ-
+ences were observed in the SM proﬁles of the tested control strains (Fig. 1B), suggesting
+that akuA gene disruption was the main cause of the observed drop in strain survival
+upon UV-C exposure. However, we found that using an akuA null background could
+mask the ability to identify UV-C-protective SMs, possibly dependent on the relative
+contributions of each metabolite. For instance, the deletion of pksP in Af293 resulted in
+increased sensitivity to UV-C regardless of the akuA background (Fig. 2), but the
+protective property of fumiquinazoline was masked in the ΔakuA background (Fig. 4C
+versus F).
+Unexpectedly, during the study, it was noticed that the UV-C-protective property of
+DHN-melanin was strain dependent. Previous studies with other fungi have demon-
+strated the importance of DHN-melanin in UV protection (21, 22, 48), but an examina-
+tion of melanin in different isolates within a species has not been reported, to our
+knowledge. Af293, CEA10, and CEA17 are commonly studied clinical strains of A.
+fumigatus (33, 45, 55) and in IF1SW-F4, a strain previously reported as being isolated
+from the ISS (1). Further, DHN-melanin-deﬁcient strain CEA17, but not strain IF1SW-F4,
+was more sensitive to UV-C (Fig. 3). These data suggest that there might be other
+metabolites which are important for tolerating the UV-C stress in IF1SW-F4. We also
+note that different A. fumigatus strains synthesize different SMs and different amounts
+of each SM which could contribute to differences in UV-C sensitivity (Fig. 3) (1, 42). Such
+UV-C-protective compounds are of paramount importance during future outer space
+explorations, as they may be implemented to protect other organisms, including
+humans and plants (56).
+0
+1
+2
+3
+4
+5
+6
+7
+0
+20
+40
+60
+80
+100
+Rac2D57N Larvae
+DPI
+PBS (n = 73)
+Af293 WT (n = 68)
+ΔfmqA (n = 71)
+ΔdmaW (n = 67)
+ΔtpcC (n = 71)
+*
+p = 0.0031
+Percent survival
+FIG 6 Virulence of three conidial SM mutants of Aspergillus fumigatus in a zebraﬁsh model of invasive
+aspergillosis. Percent survival of zebraﬁsh upon infection with Af293 WT and the dmaW, tpcC, and
+fmqA mutants. P values were generated by Cox proportional hazards regression analysis.
+Spore Metabolites and UV-C Protection in A. fumigatus
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+7
+
+Considering the differential role of DHN-melanin in UV protection coupled with the
+already-known differences in Af293, CEA10, and CEA17 virulence (43–46, 57, 58), we
+speculated that PksP might also play a differential role in virulence dependent on A.
+fumigatus strains. Using the neutrophil-deﬁcient zebraﬁsh model of invasive aspergil-
+losis (46), we found this to be true but not in the manner we had anticipated. We had
+hypothesized that there might be a correlation between the importance of DHN-
+melanin in UV-C protection (where PksP protected Af293 and CEA17; Fig. 2 and 3) and
+virulence, but instead, we found that the CEA17 and IF1SW-F4 ΔpksP mutants (but not
+the Af293 mutant) showed a loss in virulence as measured by zebraﬁsh mortality
+(Fig. 5). CEA17 showed the most signiﬁcant attenuation of virulence of the two isolates.
+Different strains of A. fumigatus, including CEA10 (and derivatives such as CEA17) and
+Af293, have previously been shown to vary in virulence (in human cells [55], Drosophila
+melanogaster [43], murine [44, 59] and zebraﬁsh [1, 40] models). DHN-melanin is an
+important cell wall component that impacts cell wall morphology and assembly (60)
+and has been shown to be involved in the protection of conidia from the host immune
+cells in A. fumigatus ATCC 46645 (61). The results from both the UV-C sensitivity tests
+together with the virulence assessment suggest that the role of DHN-melanin in
+conidial protection varies with the type of environmental stress.
+This work also presented the ﬁndings that other conidial SMs, in this case,
+fumiquinazoline, can protect from UV-C radiation. Fumiquinazoline C is composed of
+three residues, including the aromatic amino acid tryptophan and its precursor anthra-
+nilic acid (62). We hypothesize that this metabolite may contribute to UV production,
+possibly through tryptophan- and anthranilic acid-absorbing properties, and that its
+protective properties were masked in the highly UV-sensitive ΔakuA background
+(Fig. 4). We found that the loss of fumigaclavine or trypacidin intermediates had no
+impact on UV-C protection in an AkuA WT background, and these strains were actually
+more resistant to UV-C in the akuA background than control strains (Fig. 4). The
+increased resistance might possibly be explained by ﬁndings where the loss of one SM
+often results in increased synthesis of another SM (63), possibly one with some UV-C
+protection in this case. We had thought that trypacidin loss would result in increased
+sensitivity to UV-C, as several of its precursors (e.g., emodin and questin) are pigmented
+anthraquinones that have been shown to protect Xanthoria elegans and Cetraria
+islandica against UV (42, 64). Possibly, there are not enough anthraquinones synthe-
+sized in Af293 to have a measurable effect on UV sensitivity. We further assessed the
+impact of the loss of these SMs on virulence in the zebraﬁsh model and found no
+correlation to sensitivity to UV-C (Fig. 4 and 6). These results parallel our observations
+on DHN-melanin loss, namely, that each SM may have differential role dependent on
+environmental stress.
+This study is the ﬁrst comprehensive report to show the impact of conidium-
+associated SMs of A. fumigatus on UV-C protection and virulence. The results demon-
+strated strain-dependent involvement of DHN-melanin in both UV-C protection and
+virulence, highlighting that the role of fungal SMs cannot be generalized across a
+species. We also identify fumiquinazoline as playing a role in UV-C protection in strain
+Af293. In-depth analyses with regard to A. fumigatus virulence factors and UV-C
+resistance are important especially in isolated environments such as the space station.
+IF1SW-F4, isolated from the ISS and shown to be more virulent than both Af293 and
+CEA10 (1), but possibly, the molecules and properties leading to increased virulence are
+different from those of Af293 or CEA10. Such understanding may help develop and
+promote safety precautions for astronauts during long-term space explorations.
+MATERIALS AND METHODS
+Fungal strains and growth conditions. The strains used in this study are listed in Table S1. The
+generated mutants were stored in 30% (vol/vol) glycerol in 0.01% (vol/vol) Tween 80 at 80°C. Strains
+were activated and grown at 37°C on glucose minimal medium (GMM; 6 g/liter NaNO3, 0.52 g/liter KCl,
+0.52 g/liter MgSO4·7H2O, 1.52 g/liter KH2PO4, 10 g/liter D-glucose, 15 g/liter agar supplemented with
+1 ml/liter trace elements) for 3 days to collect and enumerate conidia in 0.01% (vol/vol) Tween 80. For
+UV-C exposure and secondary metabolite (SM) analysis, approximately 102 conidia per plate (diameter,
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+8
+
+10 cm) were suspended in 5 ml of GMM agar containing half of the agar concentration (top agar) and
+grown at 37°C for 7 days. For assessment of virulence in larval zebraﬁsh, plates were inoculated with
+1  106 conidia of the appropriate fungal strain and incubated at 37°C for 3 days. Conidia were harvested
+in 0.01% (vol/vol) Tween 80 using a cell spreader and ﬁltered through Miracloth. Conidial stocks for
+microinjection were resuspended in Dulbecco’s phosphate-buffered saline (PBS) at a concentration of
+1.5  108 conidia/ml.
+Construction of mutants. To create the ΔpksP mutant in IF1SW-F4, the CRISPR-Cas9 system
+developed by the Mortensen lab was used (65). In brief, the IF1SW-F4 was tested for antibiotic sensitivity
+against hygromycin (hyg) and phleomycin (ble) to determine the selection marker and associated
+plasmid for targeting pksP. The strain showed sensitivity to 80 g/ml hyg; hence, the plasmid pFC332
+containing the hyg cassette was used for fungal transformation. Further, the 20-bp sequence 5=-ATC GCC
+AGC AAC GCC ACG CA-3=, a protospacer targeting pksP, was selected within the pksP gene and
+introduced to the pFC332 plasmid using the custom primers Fw1 (5=-TAG CTG TTT CCG CTG A-3=), Rev1
+(5=-TGC GTG GCG TTG CTG GCG ATG ACG AGC TTA CTC GTT TCG TCC TCA CGG ACT CAT CAG ATC GCC
+CGG TGA TGT CTG CTC AAG-3=), Fw2 (5=-TCG TCA TCG CCA GCA ACG CCA CGC AGT TTT AGA GCT AGA
+AAT AGC AAG TTA A-3=), and Rev2 (5=-ATT CTG CTG TCT CGG CTG-3=). Upon this step, plasmid was
+propagated into Escherichia coli DH5, puriﬁed using the QIAprep Spin miniprep kit (Qiagen, Hilden,
+Germany), and used for transformation. Correct transformants were selected based on the loss of the
+pigment and used for downstream analyses. For gene deletion mutants, construction of the gene
+deletion cassette, production of protoplasts, and subsequent polyethylene glycol (PEG) transformation
+were performed as described previously (66). Brieﬂy, primers (Table S3) were designed containing a 20-
+to 30-bp overlap were used to amplify 1,000-bp homologous regions of the gene of interest using
+SeqBuilder (DNAStar, Madison, WI).
+These ﬂanks were fused to a selectable marker containing either the A. fumigatus pyrG or Aspergillus
+parasiticus pyrG gene, ampliﬁed from the pKJA12 or pJW24 plasmids, respectively, and the resulting
+cassette was then transformed into the parent strain via PEG transformation (45). Strains were trans-
+formed using either Af293.1, providing a background with an intact akuA, or TFYL 80.1 for the ΔakuA
+background. Transformants were screened by selecting transformants that were able to grow in the
+absence of the appropriate supplements. Loss of the gene of interest and proper integration of the
+deletion construct were conﬁrmed via PCR and Southern blot analysis (Fig. S3).
+UV-C exposure and survival evaluation. To evaluate the UV-C sensitivity of studied mutants,
+approximately 102 conidia/plate were exposed to various UV-C doses. Conidia were suspended in top
+GMM cooled to 55°C, and 5 ml of this suspension was added to plates with 20 ml of GMM (100% of the
+agar). Triplicates of each strain were exposed to 10-, 15-, and 20-mJ/cm2 doses of UV-C using a Hoefer
+UVC 500 crosslinker (Amersham Biosciences, Little Chalfont, UK). Upon exposure, treated and untreated
+(control plates) were incubated at 37°C. After 7 days, CFU were enumerated, and the percent survival was
+calculated using the following formula: no. of CFU exposed to any given dose (N)/CFU in control
+plate (N0)  100. The results from three biological replicates were pooled and used for statistical analysis
+with GraphPad Prism 8 using Welch’s corrected t test.
+Secondary metabolite extraction and analysis. To examine the production of SMs of interest, agar
+plugs in triplicate were collected from unexposed plates. Plugs were extracted with 3 ml of methanol
+(MeOH) and 1:1 MeOH-DCM each, followed by 1 h of sonication. Crude extracts were evaporated in vacuo
+and extracted with 3 ml of ethyl acetate (EtOAc). The EtOAc layer was evaporated in vacuo to yield a
+residue suspended in 1 ml of 20% dimethyl sulfoxide (DMSO)-MeOH, and 10 l was examined by
+high-performance liquid chromatography–photodiode array detection–mass spectrometry (HPLC-DAD-
+MS) analysis. HPLC-MS was carried out using a Thermo Finnigan LCQ Advantage ion trap mass
+spectrometer with a reverse-phase (RP) C18 column (Alltech Prevail C18, 3 mm, 2.1 by 100 mm) at a ﬂow
+rate 125 l/min. The solvent gradient for LC-MS was 95% methyl cyanide (MeCN)-H2O (solvent B) in 5%
+MeCN-H2O (solvent A), both containing 0.05% formic acid, as follows: 0% solvent B from 0 to 5 min, 0%
+to 100% solvent B from 5 min to 35 min, 100% solvent B from 35 to 40 min, 100% to 0% solvent B from
+40 to 45 min, and reequilibration with 0% solvent B from 45 to 50 min.
+Zebraﬁsh care and maintenance. Adult zebraﬁsh were reared as described previously (46). Brieﬂy,
+adults were maintained on a dedicated aquatic system and subjected to a light/dark cycle of 14 h/10 h
+and fed twice a day. After spawning, embryos were collected in E3 buffer supplemented with methylene
+blue (MB) to inhibit fungal growth and incubated at 28.5°C. At 24 h postfertilization, embryos were
+manually decoryonated and transferred to E3 buffer lacking MB. Prior to microinjection, larvae were
+anesthetized in E3 buffer containing 0.2 mg/ml Tricaine (ethyl 3-aminobenzoate; Sigma-Aldrich). Larval
+zebraﬁsh procedures and adult handling were performed in compliance with NIH guidelines and
+approved by the University of Wisconsin—Madison Institutional Animal Care and Use Committee.
+Larval zebraﬁsh virulence assay. Virulence assays were performed using the larval zebraﬁsh model
+of invasive aspergillosis, as described previously (46), with slight modiﬁcations. Neutrophil-defective
+larvae were obtained genetically through the use of transgenic mpx:mCherry-2A-rac2D57N larvae (47).
+Prior to infection, larvae were screened and selected for mCherry expression in neutrophils to identify
+individuals harboring the dominant negative allele. Brieﬂy, hindbrain ventricle infections were performed
+at 48 h postfertilization using conidial stocks that were mixed 2:1 with 1% phenol red (used to visualize
+injection success) to a ﬁnal concentration of 1  108 conidia/ml stock. Larvae were anesthetized in E3
+lacking MB and supplemented with 0.2 mg/ml Tricaine prior to microinjection of 3 nl conidia stock or PBS
+vehicle control into the hindbrain ventricle through the otic vesicle. Following microinjection, larvae
+were rinsed several times to remove the anesthetic and transferred to individual wells of a 96-well plate
+in 200 l E3 lacking MB. The survival of individual larvae was scored daily using a loss of heartbeat as
+Spore Metabolites and UV-C Protection in A. fumigatus
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+9
+
+a readout of mortality. Survival analysis for larval zebraﬁsh infection experiments was performed as
+previously described (46) by pooling experimental replicates and generating P values by the Cox
+proportional hazards regression analysis.
+SUPPLEMENTAL MATERIAL
+Supplemental material is available online only.
+FIG S1, TIF ﬁle, 0.5 MB.
+FIG S2, PDF ﬁle, 0.9 MB.
+FIG S3, PDF ﬁle, 2.5 MB.
+FIG S4, PDF ﬁle, 1.5 MB.
+TABLE S1, DOCX ﬁle, 0.1 MB.
+TABLE S2, XLSX ﬁle, 0.1 MB.
+TABLE S3, PDF ﬁle, 0.9 MB.
+ACKNOWLEDGMENTS
+Part of the research described in this publication was carried out at the Jet
+Propulsion Laboratory (JPL), California Institute of Technology, under a contract with
+the National Aeronautics and Space Administration (NASA). This research was funded
+by NASA’s Space Biology grant NNH16ZTT001N NRA awarded to N.P.K. and funded
+student fellowships to A.B. and N.R.
+We thank Bangyan L. Stiles for enabling the Hoefer UV-C crosslinker to conduct the
+UV-C exposure experiment.
+A.B. drafted the manuscript, conducted UV-C experiments, and contributed to data
+analysis and interpretation. N.R. drafted parts of the manuscript and performed in vivo
+virulence assays. F.Y.L. helped with the experimental design of UV-C testing and created
+several genetically transformed strains. J.W.B., T.C., and B.K. created the genetically
+modiﬁed strains used in the study. A.H. provided reagents and aided experimental
+design of the zebraﬁsh virulence testing. N.P.K., C.C.C.W., and K.V. formulated the
+concept of the study and were involved in experiment execution and manuscript
+drafting. All authors read and approved the ﬁnal manuscript.
+We declare no competing interests.
+REFERENCES
+1. Knox BP, Blachowicz A, Palmer JM, Romsdahl J, Huttenlocher A, Wang CCC,
+Keller NP, Venkateswaran K. 2016. Characterization of Aspergillus fumigatus
+isolates from air and surfaces of the International Space Station. mSphere
+1:e00227-16. https://doi.org/10.1128/mSphere.00227-16.
+2. Romsdahl J, Blachowicz A, Chiang AJ, Chiang Y-M, Masonjones S, Yae-
+gashi J, Countryman S, Karouia F, Kalkum M, Stajich JE, Venkateswaran K,
+Wang CCC. 2019. International Space Station conditions alter genomics,
+proteomics, and metabolomics in Aspergillus nidulans. Appl Microbiol
+Biotechnol 103:1363–1377. https://doi.org/10.1007/s00253-018-9525-0.
+3. Blachowicz A, Chiang AJ, Romsdahl J, Kalkum M, Wang CCC, Ven-
+kateswaran K. 2019. Proteomic characterization of Aspergillus fumigatus
+isolated from air and surfaces of the International Space Station. Fungal
+Genet Biol 124:39–46. https://doi.org/10.1016/j.fgb.2019.01.001.
+4. Crabbé A, Nielsen-Preiss SM, Woolley CM, Barrila J, Buchanan K, Mc-
+Cracken J, Inglis DO, Searles SC, Nelman-Gonzalez MA, Ott CM, Wilson
+JW, Pierson DL, Stefanyshyn-Piper HM, Hyman LE, Nickerson CA. 2013.
+Spaceﬂight enhances cell aggregation and random budding in Candida
+albicans. PLoS One 8:e80677. https://doi.org/10.1371/journal.pone
+.0080677.
+5. Gonçalves VN, Oliveira FS, Carvalho CR, Schaefer C, Rosa CA, Rosa LH.
+2017. Antarctic rocks from continental Antarctica as source of potential
+human opportunistic fungi. Extremophiles 21:851–860. https://doi.org/
+10.1007/s00792-017-0947-x.
+6. Gunde-Cimerman N, Ramos J, Plemenitas A. 2009. Halotolerant and
+halophilic fungi. Mycol Res 113:1231–1241. https://doi.org/10.1016/j
+.mycres.2009.09.002.
+7. Gonsalves V. 2012. Halophilic fungi in a polyhaline estuarine habitat. J
+Yeast Fungal Res 3:30–36. https://doi.org/10.5897/JYFR12.007.
+8. Zhdanova NN, Tugay T, Dighton J, Zheltonozhsky V, Mcdermott P. 2004.
+Ionizing radiation attracts soil fungi. Mycol Res 108:1089–1096. https://
+doi.org/10.1017/s0953756204000966.
+9. Blachowicz A, Mayer T, Bashir M, Pieber TR, De León P, Venkateswaran K.
+2017. Human presence impacts fungal diversity of inﬂated lunar/Mars
+analog habitat. Microbiome 5:62. https://doi.org/10.1186/s40168-017
+-0280-8.
+10. Checinska A, Probst AJ, Vaishampayan P, White JR, Kumar D, Stepanov
+VG, Fox GE, Nilsson HR, Pierson DL, Perry J, Venkateswaran K. 2015.
+Microbiomes of the dust particles collected from the International Space
+Station and spacecraft assembly facilities. Microbiome 3:50. https://doi
+.org/10.1186/s40168-015-0116-3.
+11. Venkateswaran K, Vaishampayan P, Cisneros J, Pierson DL, Rogers SO,
+Perry J. 2014. International Space Station environmental microbiome—
+microbial inventories of ISS ﬁlter debris. Appl Microbiol Biotechnol
+98:6453–6466. https://doi.org/10.1007/s00253-014-5650-6.
+12. Checinska Sielaff A, Urbaniak C, Mohan GBM, Stepanov VG, Tran Q,
+Wood JM, Minich J, McDonald D, Mayer T, Knight R, Karouia F, Fox GE,
+Venkateswaran K. 2019. Characterization of the total and viable bacterial
+and fungal communities associated with the International Space Station
+surfaces. Microbiome 7:50. https://doi.org/10.1186/s40168-019-0666-x.
+13. Van Houdt R, Mijnendonckx K, Leys N. 2012. Microbial contamination
+monitoring and control during human space missions. Planet Space Sci
+60:115–120. https://doi.org/10.1016/j.pss.2011.09.001.
+14. Ikehata H, Ono T. 2011. The mechanisms of UV mutagenesis. J Radiat Res
+52:115–125. https://doi.org/10.1269/jrr.10175.
+15. Silva-Júnior ACT, Asad L, Felzenszwalb I, Asad NR. 2011. Mutagenicity
+induced by UVC in Escherichia coli cells: reactive oxygen species involve-
+ment. Redox Rep 16:187–192. https://doi.org/10.1179/1351000211Y
+.0000000010.
+16. Muangkaew W, Suwanmanee S, Singkum P, Pumeesat P, Luplertlop N.
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+10
+
+2018. Effects of UVC irradiation on growth and apoptosis of Scedospo-
+rium apiospermum and Lomentospora proliﬁcans. Interdiscip Perspect
+Infect Dis 2018:3748594. https://doi.org/10.1155/2018/3748594.
+17. Valero A, Begum M, Leong SL, Hocking AD, Ramos AJ, Sanchis V, Marín
+S. 2007. Effect of germicidal UVC light on fungi isolated from grapes and
+raisins. Lett Appl Microbiol 45:238–243. https://doi.org/10.1111/j.1472
+-765X.2007.02175.x.
+18. Braga GUL, Rangel DEN, Fernandes ÉKK, Flint SD, Roberts DW. 2015.
+Molecular and physiological effects of environmental UV radiation on
+fungal conidia. Curr Genet 61:405–425. https://doi.org/10.1007/s00294
+-015-0483-0.
+19. Keller NP. 2019. Fungal secondary metabolism: regulation, function and
+drug discovery. Nat Rev Microbiol 17:167–180. https://doi.org/10.1038/
+s41579-018-0121-1.
+20. Dadachova E, Casadevall A. 2008. Ionizing radiation: how fungi cope,
+adapt, and exploit with the help of melanin. Curr Opin Microbiol 11:
+525–531. https://doi.org/10.1016/j.mib.2008.09.013.
+21. Romsdahl J, Blachowicz A, Chiang AJ, Singh N, Stajich JE, Kalkum M,
+Venkateswaran K, Wang CCC. 2018. Characterization of Aspergillus niger
+isolated from the International Space Station. mSystems 3:e00112-18.
+https://doi.org/10.1128/mSystems.00112-18.
+22. Singaravelan N, Grishkan I, Beharav A, Wakamatsu K, Ito S, Nevo E. 2008.
+Adaptive melanin response of the soil fungus Aspergillus niger to UV
+radiation stress at “Evolution Canyon,” Mount Carmel, Israel. PLoS One
+3:e2993. https://doi.org/10.1371/journal.pone.0002993.
+23. Leonard KJ. 1977. Virulence, temperature optima, and competitive abil-
+ities of isolines of races T and 0 of Bipolaris maydis. Phytopathology
+67:1273–1279. https://doi.org/10.1094/Phyto-67-1273.
+24. Wang Y, Aisen P, Casadevall A. 1995. Cryptococcus neoformans melanin
+and virulence: mechanism of action. Infect Immun 63:3131–3136.
+https://doi.org/10.1128/IAI.63.8.3131-3136.1995.
+25. Farbiarz SR, de Carvalho TU, Alviano C, de Souza W. 1992. Inhibitory
+effect of melanin on the interaction of Fonsecaea pedrosoi with mam-
+malian cells in vitro. Med Mycol 30:265–273. https://doi.org/10.1080/
+02681219280000351.
+26. Heinekamp T, Thywißen A, Macheleidt J, Keller S, Valiante V, Brakhage
+AA. 2012. Aspergillus fumigatus melanins: interference with the host
+endocytosis pathway and impact on virulence. Front Microbiol 3:440.
+https://doi.org/10.3389/fmicb.2012.00440.
+27. Steiner U, Oerke E-C. 2007. Localized melanization of appressoria is
+required for pathogenicity of Venturia inaequalis. Phytopathology 97:
+1222–1230. https://doi.org/10.1094/PHYTO-97-10-1222.
+28. Zhang T, Zhang B, Hua C, Meng P, Wang S, Chen Z, Du Y, Gao F, Huang
+J. 2017. VdPKS1 is required for melanin formation and virulence in a
+cotton wilt pathogen Verticillium dahliae. Sci China Life Sci 60:868–879.
+https://doi.org/10.1007/s11427-017-9075-3.
+29. Chai LYA, Netea MG, Sugui J, Vonk AG, van de Sande WWJ, Warris A,
+Kwon-Chung KJ, Kullberg BJ. 2010. Aspergillus fumigatus conidial mela-
+nin modulates host cytokine response. Immunobiology 215:915–920.
+https://doi.org/10.1016/j.imbio.2009.10.002.
+30. Kyrmizi I, Ferreira H, Carvalho A, Figueroa JAL, Zarmpas P, Cunha C,
+Akoumianaki T, Stylianou K, Deepe GS, Samonis G, Lacerda JF, Campos
+A, Kontoyiannis DP, Mihalopoulos N, Kwon-Chung KJ, El-Benna J, Valsec-
+chi I, Beauvais A, Brakhage AA, Neves NM, Latge J-P, Chamilos G. 2018.
+Calcium sequestration by fungal melanin inhibits calcium-calmodulin
+signalling to prevent LC3-associated phagocytosis. Nat Microbiol
+3:791–803. https://doi.org/10.1038/s41564-018-0167-x.
+31. Caswell DS, Spiro TG. 1986. Tyrosine and tryptophan modiﬁcation mon-
+itored by ultraviolet resonance Raman spectroscopy. Biochim Biophys
+Acta 873:73–78. https://doi.org/10.1016/0167-4838(86)90191-3.
+32. Nguyen K-H, Chollet-Krugler M, Gouault N, Tomasi S. 2013. UV-protectant
+metabolites from lichens and their symbiotic partners. Nat Prod Rep 30:
+1490–1508. https://doi.org/10.1039/c3np70064j.
+33. Álvarez-Escribano I, Sasse C, Bok JW, Na H, Amirebrahimi M, Lipzen A,
+Schackwitz W, Martin J, Barry K, Gutiérrez G, Cea-Sánchez S, Marcos AT,
+Grigoriev IV, Keller NP, Braus GH, Cánovas D. 2019. Genome sequencing
+of evolved aspergilli populations reveals robust genomes, transversions
+in A. ﬂavus, and sexual aberrancy in non-homologous end-joining mu-
+tants. BMC Biol 17:88. https://doi.org/10.1186/s12915-019-0702-0.
+34. Pannunzio NR, Watanabe G, Lieber MR. 2018. Nonhomologous DNA
+end-joining for repair of DNA double-strand breaks. J Biol Chem 293:
+10512–10523. https://doi.org/10.1074/jbc.TM117.000374.
+35. Chang MH, Cirillo SLG, Cirillo JD. 2011. Using luciferase to image bacte-
+rial infections in mice. J Vis Exp pii(48):2547. https://doi.org/10.3791/
+2547.
+36. Bell AA, Wheeler MH. 1986. Biosynthesis and functions of fungal melanins.
+Annu Rev Phytopathol 24:411–451. https://doi.org/10.1146/annurev.py.24
+.090186.002211.
+37. Langfelder K, Jahn B, Gehringer H, Schmidt A, Wanner G, Brakhage AA.
+1998. Identiﬁcation of a polyketide synthase gene (pksP) of Aspergillus
+fumigatus involved in conidial pigment biosynthesis and virulence. Med
+Microbiol Immunol 187:79–89. https://doi.org/10.1007/s004300050077.
+38. da Silva Ferreira ME, Kress MRVZ, Savoldi M, Goldman MHS, Härtl A,
+Heinekamp T, Brakhage AA, Goldman GH. 2006. The akuB(KU80) mutant
+deﬁcient for nonhomologous end joining is a powerful tool for analyzing
+pathogenicity in Aspergillus fumigatus. Eukaryot Cell 5:207–211. https://
+doi.org/10.1128/EC.5.1.207-211.2006.
+39. d’Enfert C. 1996. Selection of multiple disruption events in Aspergillus
+fumigatus using the orotidine-5=-decarboxylase gene, pyrG, as a unique
+transformation marker. Curr Genet 30:76–82. https://doi.org/10.1007/
+s002940050103.
+40. Panaccione DG, Arnold SL. 2017. Ergot alkaloids contribute to virulence
+in an insect model of invasive aspergillosis. Sci Rep 7:1–9. https://doi
+.org/10.1038/s41598-017-09107-2.
+41. Raffa N, Keller NP. 2019. A call to arms: mustering secondary metabolites
+for success and survival of an opportunistic pathogen. PLoS Pathog
+15:e1007606. https://doi.org/10.1371/journal.ppat.1007606.
+42. Throckmorton K, Lim FY, Kontoyiannis DP, Zheng W, Keller NP. 2016.
+Redundant synthesis of a conidial polyketide by two distinct secondary
+metabolite clusters in Aspergillus fumigatus. Environ Microbiol 18:
+246–259. https://doi.org/10.1111/1462-2920.13007.
+43. Ben-Ami R, Lamaris GA, Lewis RE, Kontoyiannis DP. 2010. Interstrain
+variability in the virulence of Aspergillus fumigatus and Aspergillus terreus
+in a Toll-deﬁcient Drosophila ﬂy model of invasive aspergillosis. Med
+Mycol 48:310–317. https://doi.org/10.3109/13693780903148346.
+44. Mondon P, De Champs C, Donadille A, Ambroise-Thomas P, Grillot R.
+1996. Variation in virulence of Aspergillus fumigatus strains in a murine
+model of invasive pulmonary aspergillosis. J Med Microbiol 45:186–191.
+https://doi.org/10.1099/00222615-45-3-186.
+45. Rosowski EE, Raffa N, Knox BP, Golenberg N, Keller NP, Huttenlocher A.
+2018. Macrophages inhibit Aspergillus fumigatus germination and
+neutrophil-mediated fungal killing. PLoS Pathog 14:e1007229. https://
+doi.org/10.1371/journal.ppat.1007229.
+46. Knox BP, Deng Q, Rood M, Eickhoff JC, Keller NP, Huttenlocher A. 2014.
+Distinct innate immune phagocyte responses to Aspergillus fumigatus
+conidia and hyphae in zebraﬁsh larvae. Eukaryot Cell 13:1266–1277.
+https://doi.org/10.1128/EC.00080-14.
+47. Deng Q, Yoo SK, Cavnar PJ, Green JM, Huttenlocher A. 2011. Dual roles
+for Rac2 in neutrophil motility and active retention in zebraﬁsh hema-
+topoietic tissue. Dev Cell 21:735–745. https://doi.org/10.1016/j.devcel
+.2011.07.013.
+48. Casadevall A, Cordero RJB, Bryan R, Nosanchuk J, Dadachova E. 2017.
+Melanin, radiation, and energy transduction in fungi. Microbiol Spectr
+5:FUNK-0037-2016. https://doi.org/10.1128/microbiolspec.FUNK-0037-2016.
+49. Geib E, Gressler M, Viediernikova I, Hillmann F, Jacobsen ID, Nietzsche S,
+Hertweck C, Brock M. 2016. A non-canonical melanin biosynthesis path-
+way protects Aspergillus terreus conidia from environmental stress. Cell
+Chem Biol 23:587–597. https://doi.org/10.1016/j.chembiol.2016.03.014.
+50. Krappmann S. 2007. Gene targeting in ﬁlamentous fungi: the beneﬁts of
+impaired repair. Fungal Biol Rev 1:25–29. https://doi.org/10.1016/j.fbr
+.2007.02.004.
+51. Deriano L, Roth DB. 2013. Modernizing the nonhomologous end-joining
+repertoire: alternative and classical NHEJ share the stage. Annu Rev Genet
+47:433–455. https://doi.org/10.1146/annurev-genet-110711-155540.
+52. Panier S, Boulton SJ. 2014. Double-strand break repair: 53BP1 comes into
+focus. Nat Rev Mol Cell Biol 15:7–18. https://doi.org/10.1038/nrm3719.
+53. Cadet J, Sage E, Douki T. 2005. Ultraviolet radiation-mediated damage to
+cellular DNA. Mutat Res 571:3–17. https://doi.org/10.1016/j.mrfmmm
+.2004.09.012.
+54. Rolfsmeier ML, Laughery MF, Haseltine CA. 2010. Repair of DNA double-
+strand breaks following UV damage in three Sulfolobus solfataricus
+strains. J Bacteriol 192:4954–4962. https://doi.org/10.1128/JB.00667-10.
+55. Rizzetto L, Giovannini G, Bromley M, Bowyer P, Romani L, Cavalieri D.
+2013. Strain dependent variation of immune responses to A. fumigatus:
+deﬁnition of pathogenic species. PLoS One 8:e56651. https://doi.org/10
+.1371/journal.pone.0056651.
+56. Gabani P, Singh OV. 2013. Radiation-resistant extremophiles and their
+Spore Metabolites and UV-C Protection in A. fumigatus
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+11
+
+potential in biotechnology and therapeutics. Appl Microbiol Biotechnol
+97:993–1004. https://doi.org/10.1007/s00253-012-4642-7.
+57. Kowalski CH, Beattie SR, Fuller KK, McGurk EA, Tang Y-W, Hohl TM, Obar
+JJ, Cramer RA. 2016. Heterogeneity among isolates reveals that ﬁtness in
+low oxygen correlates with Aspergillus fumigatus virulence. mBio
+7:e01515-16. https://doi.org/10.1128/mBio.01515-16.
+58. Bultman KM, Kowalski CH, Cramer RA. 2017. Aspergillus fumigatus viru-
+lence through the lens of transcription factors. Med Mycol 55:24–38.
+https://doi.org/10.1093/mmy/myw120.
+59. Caffrey-Carr AK, Kowalski CH, Beattie SR, Blaseg NA, Upshaw CR, Tham-
+mahong A. 2017. Interleukin 1 is critical for resistance against highly
+virulent Aspergillus fumigatus isolates. Infect Immun 85:e00661-17.
+https://doi.org/10.1128/IAI.00661-17.
+60. Pihet M, Vandeputte P, Tronchin G, Renier G, Saulnier P, Georgeault S,
+Mallet R, Chabasse D, Symoens F, Bouchara J-P. 2009. Melanin is an
+essential component for the integrity of the cell wall of Aspergillus
+fumigatus conidia. BMC Microbiol 9:177. https://doi.org/10.1186/1471
+-2180-9-177.
+61. Jahn B, Boukhallouk F, Lotz J, Langfelder K, Wanner G, Brakhage AA.
+2000. Interaction of human phagocytes with pigmentless Aspergillus
+conidia. Infect Immun 68:3736–3739. https://doi.org/10.1128/iai.68.6
+.3736-3739.2000.
+62. Lim FY, Ames B, Walsh CT, Keller NP. 2014. Co-ordination between BrlA
+regulation and secretion of the oxidoreductase FmqD directs selective
+accumulation of fumiquinazoline C to conidial tissues in Aspergillus fumiga-
+tus. Cell Microbiol 16:1267–1283. https://doi.org/10.1111/cmi.12284.
+63. Chiang Y-M, Ahuja M, Oakley CE, Entwistle R, Asokan A, Zutz C, Wang CCC,
+Oakley BR. 2016. Development of genetic dereplication strains in Aspergillus
+nidulans results in the discovery of aspercryptin. Angew Chem Int Ed Engl
+55:1662–1665. https://doi.org/10.1002/anie.201507097.
+64. Nybakken L, Solhaug KA, Bilger W, Gauslaa Y. 2004. The lichens Xantho-
+ria elegans and Cetraria islandica maintain a high protection against
+UV-B radiation in Arctic habitats. Oecologia 140:211–216. https://doi
+.org/10.1007/s00442-004-1583-6.
+65. Nødvig CS, Nielsen JB, Kogle ME, Mortensen UH. 2015. A CRISPR-Cas9
+system for genetic engineering of ﬁlamentous fungi. PLoS One 10:
+e0133085. https://doi.org/10.1371/journal.pone.0133085.
+66. Szewczyk E, Nayak T, Oakley CE, Edgerton H, Xiong Y, Taheri-Talesh N,
+Osmani SA, Oakley BR, Oakley B. 2006. Fusion PCR and gene targeting in
+Aspergillus nidulans. Nat Protoc 1:3111–3120. https://doi.org/10.1038/
+nprot.2006.405.
+Blachowicz et al.
+®
+January/February 2020
+Volume 11
+Issue 1
+e03415-19
+mbio.asm.org
+12

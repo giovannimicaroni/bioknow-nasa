@@ -1,0 +1,832 @@
+1
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+Dietary countermeasure mitigates 
+simulated spaceflight-induced 
+osteopenia in mice
+Sonette Steczina1,2, Candice G. T. Tahimic2,3, Megan Pendleton4, Ons M’Saad5, 
+Moniece Lowe1,2, Joshua S. Alwood2, Bernard P. Halloran6, Ruth K. Globus2 &  
+Ann-Sofie Schreurs2,7*
+Spaceflight is a unique environment that includes at least two factors which can negatively 
+impact skeletal health: microgravity and ionizing radiation. We have previously shown that a diet 
+supplemented with dried plum powder (DP) prevented radiation-induced bone loss in mice. In this 
+study, we investigated the capacity of the DP diet to prevent bone loss in mice following exposure 
+to simulated spaceflight, combining microgravity (by hindlimb unloading) and radiation exposure. 
+The DP diet was effective at preventing most decrements in bone micro-architectural and mechanical 
+properties due to hindlimb unloading alone and simulated spaceflight. Furthermore, we show that the 
+DP diet can protect osteoprogenitors from impairments resulting from simulated microgravity. Based 
+on our findings, a dietary supplementation with DP could be an effective countermeasure against the 
+skeletal deficits observed in astronauts during spaceflight.
+Alterations in the gravity vector and exposure to ionizing radiation can disrupt skeletal homeostasis in mice1–3. 
+There are multiple stressors associated with spaceflight, including microgravity and radiation which are known 
+to cause bone loss4–6. Decrements in bone mineral density (BMD) have been observed in astronauts from the 
+Mir missions as well as missions to the International Space Station (ISS)7–9. While much research has focused 
+on the detrimental effects of microgravity on skeletal tissue, less is known about the impact of spaceflight radi-
+ation. Crewed missions have, to this point, primarily remained within low-Earth orbit (LEO). While sources of 
+ionizing space radiation within LEO include galactic cosmic radiation and charged particles from unpredictable 
+solar particle events (SPE)10,11, the presence of the Earth’s magnetosphere reduces exposure to ionizing space 
+radiation. Missions beyond LEO pose the greatest risk of radiation exposure and is of significant concern for 
+crew health12–14. Spaceflight-relevant radiation includes a mix of low-linear energy transfer (LET) species such 
+as protons and helium ions as well as high-LET species such as iron15,16. Beyond LEO, for example, astronauts 
+may be exposed to up to 0.7 Sv of ionizing radiation12,15,17 during a multi-year mission to the Moon or Mars14,15,18.
+On Earth, bone homeostasis is effectively maintained by the controlled remodeling activity of bone-forming 
+osteoblasts and bone-resorbing osteoclasts. However, exposure to low-LET radiation (137Cs or X-ray, 1–2 Gy) 
+leads to a transient increase in the number of osteoclasts, accompanied by an increase in trabecular separation 
+(Tb.Sp) and decrease in trabecular thickness (Tb.Th), overall leading to a reduction in bone volume fraction 
+(BV/TV)19–22. Together, this early increase in bone resorption and decrease in bone formation due to radiation 
+exposure can result in a state of osteopenia, potentially leading to an increased risk of bone fracture16,23,24. A 
+possible mechanism of action responsible for these changes in bone homeostasis is the generation of reactive oxy-
+gen species (ROS) due to radiation exposure2,25. Furthermore, reduction of antioxidant defense mechanisms26,27 
+and activation of pro-inflammatory cytokines16,28 have been associated with altered redox-balance due to radi-
+ation exposure. Together, these critical changes in cellular signaling lead to compromised bone strength and 
+increased fracture risk25,29. Due to the involvement of redox-signaling in radiation-induced bone loss, antioxi-
+dants have been considered as candidate countermeasures to mitigate spaceflight-induced bone loss30. Proposed 
+1Blue Marble Space Institute of Science, Seattle, WA, 98154, USA. 2Space Biosciences Division, NASA Ames Research 
+Center, Moffett Field, CA, 94035, USA. 3KBR, Moffett Field, California, USA. 4Department of Mechanical Engineering, 
+University of California, Berkeley, Berkeley, CA, 94720, USA. 5Space Life Sciences Training Program, NASA Ames 
+Research Center, Moffett Field, CA, 94035, USA. 6Department of Medicine, University of California, San Francisco, 
+San Francisco, CA, 94143, USA. 7Universities Space Research Association, Moffett Field, CA, USA. *email: ann-sofie.
+schreurs@nasa.gov
+OPEN
+
+2
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+mechanisms by which antioxidants exert protective effects include the quenching of ROS via an increase in anti-
+oxidant activity and decreasing pro-inflammatory signaling cascades29.
+Dried plum, Prunus domestica L., has been shown to have beneficial effects against bone loss31 (reviewed in 
+Wallace et al. 2017). Dried plum’s positive effects on bone health markers have been investigated in multiple mod-
+els of osteopenia, in both human clinical trials32–36 and rodent studies37,38. While the mechanism of action of dried 
+plum is still unknown, it has been hypothesized that the high antioxidant capacity and high polyphenolic content 
+of this fruit scavenges free-radicals as well as promotes bone formation and inhibits bone resorption39–42. Our lab 
+has reported that mice fed a diet composed of Dried Plum (DP) prevented cancellous bone loss caused by ionizing 
+radiation (IR), both low-LET such as gamma (137Cs) and a mixture of both low-LET and high-LET (sequential 
+beam of proton, 1H and iron, 56Fe). The proposed mechanism for DP’s protective effect is via the prevention of 
+radiation-induced increases in markers of bone resorption, inflammation and oxidative stress43.
+Since the spaceflight environment includes exposure to both IR and microgravity, we sought to extend our 
+hypothesis that DP could be a countermeasure for both radiation- and microgravity-induced bone loss. The 
+current literature indicates that simulated microgravity and IR each have detrimental effects on cancellous bone 
+structure, although there is no consensus on whether simulated microgravity and IR cause additive or syner-
+gistic effects when combined20,44,45. Thus, more studies are needed to determine whether combining simulated 
+microgravity and IR leads to cumulative effects compared to simulated microgravity and IR alone. Hindlimb 
+unloading (HU) is widely used to simulate the effects of the microgravity environment in rodents46. This model 
+allows for a simulation of the cephalad fluid shift47 and removal of load-bearing forces typically experienced by 
+the hindlimbs, which can lead to increased numbers of bone-resorbing osteoclasts and decreased numbers of 
+bone-forming osteoblasts48. Together, these events result in bone loss as well as reduced bone mechanical proper-
+ties in rodents49–52. In addition, exposure to microgravity in mice adversely affects osteoprogenitors53,54. The bone 
+marrow niche contains osteoblast progenitors cells4 and it has been shown that exposure to microgravity alters 
+the cells proliferation capacity and impairs their ability to produce extracellular matrix, in turn inhibiting the 
+maturation of the bone matrix. Thus, the ability to maintain bone homeostasis is diminished16,54–56.
+To address these knowledge gaps related to spaceflight-induced bone loss and candidate countermeasures, 
+we sought to evaluate the potentially distinct effects of microgravity and ionizing radiation when applied inde-
+pendently, or in combination. For this study, we utilized the HU model and exposure to total body irradiation 
+(137Cs gamma radiation, at 2 Gy dose) as analogs of weightlessness and radiation exposure, respectively. A rela-
+tively high dose of radiation (2 Gy) was chosen as a positive control dose to ensure bone loss in rodents and to 
+allow for testing of DP as a countermeasure, as previously described43. We sought to determine whether DP diet 
+prevents simulated microgravity-induced bone loss alone, and in combination with radiation, as compared to 
+respective control diet controls. We also assessed the ability of DP to mitigate simulated weightlessness- and/
+or radiation-induced changes to the axial skeleton57, specifically the lumbar 4 (L4) vertebrae. We analyzed both 
+cancellous and cortical bone microarchitecture as well as mechanical properties of skeletal tissue. Additionally, 
+we determined whether the DP diet had the capacity to protect osteoprogenitors after exposure to simulated 
+microgravity, an essential part in the healthy maintenance of skeletal tissue.
+Results
+Body weight. 
+Skeletally mature, male mice, 14 weeks of age, were assigned to groups (n = 10/group) and 
+pre-fed for 14 days with either a control diet (CD) or dried plum diet (DP) (Fig. 1). Mice were assigned to the 
+following groups at the start of the experiment: normally loaded (NL) or hindlimb unloaded (HU) for a total of 
+14 days at 16 weeks of age, with either sham radiation or IR exposure on day 3. The experiment was completed on 
+day 14 and samples of interest were collected (Fig. 1).
+Body weights were recorded during the experiment to assess the overall health of the mice. As expected, HU 
+mice showed decrements body weights starting from day 3 until day 9, at which point the body weights stabilize 
+(Supplementary Table 1). In contrast, exposure to IR did not result in significant changes in body weights.
+Figure 1.  Experimental treatment groups and experiment design. (a) Male mice were assigned to groups 
+(n = 10/group) and pre-fed with either a control diet (CD) or dried plum diet (DP). Mice were assigned to the 
+following groups: 14 days of normally loaded conditions (NL) (Groups 1,2), hindlimb unloading (HU) alone 
+(Groups 3,4), or HU in combination with ionizing radiation (IR), at a dose of 2 Gy 137Cs (0.8 Gy/min) (Groups 
+5, 6, 7, 8). (b) Mice were pre-fed with either CD or DP diets 14 days before onset of HU treatment, mice were 
+exposed to IR 3 days after onset of HU, and samples were collected 14 days after initiation of HU treatment. At 
+time of tissue collection (day 14), bone marrow cells were flushed from the femora’s of groups 1, 2, 3, 4 (n = 5/
+group) and cultured for 30 days for osteoblastogenesis (OB).
+
+3
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+Prevention of bone loss after exposure to simulated spaceflight. 
+Micro-computed tomography 
+(microCT) was utilized to quantify differences in bone microarchitecture after HU, IR or the combination of both 
+treatments. We performed this analysis on both the cancellous and cortical regions of the appendicular (i.e. tibia) 
+and axial (i.e. vertebra) skeleton.
+Appendicular Skeleton.  Mice exposed to simulated spaceflight factors, alone or combined, and fed a DP diet did 
+not exhibit significant deficits in cancellous microarchitecture of the tibia compared to NL control mice, whereas 
+mice fed the CD diet showed structural deficits in cancellous microarchitecture. In CD-fed mice, exposure to 
+IR alone led to a 20% decrease in percent bone volume (BV/TV) and a modest but statistically significant 7% 
+increase in trabecular separation (Tb.Sp) (Fig. 2, panels a and c), but did not decrease trabecular thickness (Tb.
+Th), nor trabecular numbers (Tb.N) compared to NL controls (Fig. 2, panels b and d). Similarly, exposure of 
+CD-fed mice to HU alone resulted in an 11% decrease in Tb.Th (Fig. 2, panel b), but did not significantly affect 
+the other parameters. In CD-fed mice, the combined treatment (HU and IR) led to a 25% decrease in BV/TV, 
+accompanied by a modest but statistically significant 9% decrease in Tb.Th as well as an 8% increase in Tb.Sp 
+when compared to NL controls (Fig. 2). Overall, mice fed the CD diet and exposed to simulated spaceflight led 
+to a thinning of the trabeculae and greater separation between trabeculae, leading to a significant decrease in the 
+BV/TV within the cancellous compartment. In DP-fed mice, the combination of HU and IR led to a statistically 
+significant decline in Tb.Th relative to HU or IR alone. Together, these results indicate both a radioprotective 
+effect of the DP diet on BV/TV and Tb.Sp, as well as a partial protection against HU-induced trabecular thinning. 
+Of the cancellous parameters analyzed in the tibia, there were no significant differences due to diet alone between 
+NL mice. Representative images are shown from each group in Fig. 3, with coronal view of the tibiae (panel a) 
+and 3D reconstruction of the cancellous volume of interest (panel b), in which the skeletal decrements due to 
+simulated spaceflight were observed in mice fed CD diet, but not in mice fed the DP diet.
+To assess possible effects of a period of prefeeding mice with either CD or DP on microarchitecture, (and 
+prior to initiating hindimb unloading), mice were prefed the diets for 17 days and the cancellous tibia analyzed 
+by microCT. Mice fed the DP diet showed no effect of diet in BV/TV, Tb.N or Tb.Sp although a modest increase 
+(+7%) in Tb.Th was observed (Supplementary table 2) which has been published before35,37,58.
+To determine changes in cortical bone morphometry, two different locations of the tibia were analyzed, and 
+the lengths of the tibiae were measured (Table 1). Tibiae lengths were unchanged after exposure to the treatments 
+or diets. In CD-fed mice, cortical thickness at the proximal tibia was lower in mice exposed to HU (−10%) and 
+Figure 2.  Effect of DP diet on cancellous bone loss induced by simulated spaceflight. Mice were separated 
+into groups (n = 10/group), fed specific diets (either Control Diet, CD or Dried Plum diet, DP) and then were 
+either unloaded to simulate weightlessness (HU), irradiated with 2 Gy 137Cs (IR), or a combination of the two 
+(HU + IR). Tibiae were analyzed by microCT for cancellous bone parameters such as bone volume fraction 
+(BV/TV, Panel a), trabecular thickness (Tb.Th, Panel b), trabecular separation (Tb.Sp, Panel c), and trabecular 
+number (Tb.N, Panel d). Data shown are mean + /− S.D. Different letters indicate p < 0.05,1-factor ANOVA 
+with all pairs Tukey Kramer.
+
+4
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+the combination of HU and IR (−9%) compared to NL controls (Table 1). In DP-fed diet cortical thickness was 
+lower only with combined treatment, not after exposure to HU alone when compared to the CD,NL group. No 
+significant changes were observed in the cortical parameters measured at the distal tibia for mice fed either diet 
+(Table 1).
+Axial Skeleton.  Feeding mice the DP diet prevented bone loss in both cancellous and cortical compartments 
+of the L4 vertebrae which was evident in CD-fed mice (Fig. 4). For vertebrae, the cortical shell and cancellous 
+tissue were integrated to discern changes in total (Tt) vertebral body bone parameters. Whole vertebral body 
+analysis revealed that CD-fed mice exposed to HU or HU + IR resulted in a 10% and 11% decrease in Tt.BV/TV, 
+respectively (Fig. 4, panel a). Trabeculae showed reduced thickness after exposure to HU and HU + IR (−11% 
+and −10%, respectively, Fig. 4, panel b), but Tb.Sp and Tb.N were not significantly affected (data not shown).
+The posterior cortical shell of the vertebral body was computationally isolated from cancellous tissue to assess 
+specific cortical parameters. Mice fed the CD diet showed decreased Ct.Th and Ct.Ar after exposure to HU (Ct.
+Th: −18% and Ct.Ar: −24%) and HU + IR (Ct.Th: −14% and Ct.Ar: −18%) (Fig. 4, panels c and d). In DP mice, 
+the NL group had a 9% greater Tt.BV/TV compared to the CD, NL group, demonstrating an anabolic effect of the 
+DP diet on cortical bone volume (Fig. 4, panel a). Mice fed the DP diet did not show any HU-induced decrements. 
+Exposure to IR did not result in any changes to the microarchitecture of the vertebrae. No changes were observed 
+in terms of vertebrae height (data not shown).
+Effects of the Dried Plum diet on vertebral strength. 
+Monotonic compression testing of L4 vertebrae 
+was performed to determine differences in mechanical properties of the bone tissue. Mechanical properties of 
+interest included maximum load (i.e. the greatest force endured by the material before failure), and stiffness (i.e. 
+the force needed to displace the material a standard distance). The maximum load for mice on the CD diet was 
+35% and 36% lower after exposure to HU and HU + IR respectively, compared to NL controls (Fig. 5, panel a). 
+Based on our analysis, stiffness normalized to vertebral height in the CD fed groups did not meet criteria for a 
+Figure 3.  Coronal-slice microCT images and 3D reconstructions of cancellous bone of the tibia after 
+exposure to simulated spaceflight. Mice were fed either CD or DP and then were either unloaded to simulate 
+weightlessness (HU), irradiated with 2 Gy 137Cs (IR), or a combination of the two (HU + IR). Tibiae were 
+imaged using microCT and 3D reconstructions were performed. (a) Representative coronal bone slices and 
+(b) representative microCT images of cancellous bone after 3D reconstruction are illustrated for all treatment 
+groups.
+
+5
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+Control Diet
+Dried Plum Diet
+NL
+IR
+HU
+HU + 
+IR
+NL
+IR
+HU
+HU + 
+IR
+Tibia Cortical
+Tibia length (mm)
+10.74 ± 
+0.18
+10.80 ± 
+0.21
+10.80 ± 
+0.19
+10.90 ± 
+0.21
+10.97 ± 
+0.23
+10.90 ± 
+0.19
+10.99 ± 
+0.21
+10.89 ± 
+0.13
+Proximal tibia
+Cortical thickness (mm)
+0.167 
+± 0.006 
+(a,b)
+0.160 
+± 0.008 
+(b,c)
+0.150 
+± 0.008 
+(c)
+0.152 ± 
+0.01 (c)
+0.172 
+± 0.004 
+(a)
+0.169 
+± 0.009 
+(a,b)
+0.160 
+± 0.008 
+(b,c)
+0.156 
+± 0.009 
+(c)
+Distal tibia
+TMD (g/cm3)
+1.47 ± 
+0.04
+1.46 ± 
+0.04
+1.47 ± 
+0.04
+1.47 ± 
+0.04
+1.48 ± 
+0.05
+1.47 ± 
+0.03
+1.47 ± 
+0.04
+1.47 ± 
+0.03
+Periosteal perimeter (mm)
+4.42 ± 
+0.26
+4.30 ± 
+0.29
+4.31 ± 
+0.17
+4.41 ± 
+0.16
+4.52 ± 
+0.18
+4.36 ± 
+0.11
+4.34 ± 
+0.23
+4.38 ± 
+0.22
+Endosteal perimeter (mm)
+2.85 ± 
+0.26
+2.83 ± 
+0.20
+2.77 ± 
+0.11
+2.84 ± 
+0.15
+2.93 ± 
+0.14
+2.82 ± 
+0.10
+2.79 ± 
+0.14
+2.85 ± 
+0.18
+Cortical thickness (mm)
+0.22 ± 
+0.01
+0.21 ± 
+0.01
+0.21 ± 
+0.01
+0.22 ± 
+0.01
+0.22 ± 
+0.01
+0.21 ± 
+0.00
+0.22 ± 
+0.01
+0.21 ± 
+0.01
+Moment of inertia (mm4)
+0.21 ± 
+0.04
+0.19 ± 
+0.04
+0.19 ± 
+0.03
+0.20 ± 
+0.02
+0.22 ± 
+0.03
+0.19 ± 
+0.02
+0.20 ± 
+0.04
+0.20 ± 
+0.04
+Cortical bone volume (mm3)
+0.21 ± 
+0.02
+0.20 ± 
+0.02
+0.20 ± 
+0.02
+0.21 ± 
+0.01
+0.22 ± 
+0.02
+0.20 ± 
+0.01
+0.21 ± 
+0.02
+0.21 ± 
+0.02
+Table 1.  Cortical bone architecture of the tibia after exposure to simulated spaceflight. Tibiae were analyzed by 
+microCT for cortical bone parameters including periosteal perimeter, endosteal perimeter, cortical thickness, 
+moment of inertia, cortical bone volume, and tissue mineral density (TMD). Data shown are mean + /− S.D. 
+(n = 7–10/group). Different letters indicate p < 0.05,1-factor ANOVA with all pairs Tukey Kramer.
+Figure 4.  Cancellous and cortical bone loss of the vertebrae after exposure to simulated spaceflight. Mice were 
+fed either CD or DP diets, and either unloaded to simulate weightlessness (HU), irradiated with 2 Gy 137Cs (IR), 
+or a combination of the two treatments (HU + IR). Vertebrae were analyzed by microCT for changes in bone 
+microarchitectural parameters such as total (Tt) vertebral body bone volume fraction (Tt.BV/TV, Panel a) and 
+total vertebral body trabecular thickness (Tt.Tb.Th, Panel b) as well as for changes in cortical bone parameters 
+including cortical thickness (Ct.Th, Panel c) and cortical bone area (Ct.Ar, panel d). Data shown are mean + /− 
+S.D. (n = 7–10/group). Different letters indicate p < 0.05,1-factor ANOVA with all pairs Tukey Kramer.
+
+6
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+significant decrease when exposed to HU or HU + IR (Fig. 5, panel b). There was however a notable trend that 
+HU (−40%) and HU + IR (−25%) led to decreased vertebral stiffness. We did however, see that there is an 85% 
+greater stiffness in the DP fed, HU group compared to the CD-fed, HU group indicating that when exposed to 
+HU, DP alone improved the stiffness of the vertebrae. Representative force-displacement curves are shown in 
+Fig. 5 for the mice fed the CD diet (panel c) versus mice fed the DP diet (panel d). Mice fed the DP diet did not 
+show significant decrements in maximum load or stiffness relative to CD-fed, NL mice. This suggests simulated 
+microgravity reduced the strength of the vertebrae in CD-fed mice while mice fed the DP diet were protected 
+against such deficits.
+Prevention of osteoblastogenesis impairment after exposure to hindlimb unloading. 
+Bone 
+marrow cells were flushed from the femur and cultured with an osteoblastogenic media to differentiate the cells 
+into bone-forming osteoblasts. Colonies formed by the osteoblasts in culture were counted on day 10 to quantify 
+osteogenic cell growth and evaluated for osteogenic differentiation after 30 days in culture. Osteoblast mineral-
+ization was quantified as a percent area. Mice fed the CD diet had a significant decrease (49%) in colony counts 
+(Fig. 6, panel a). CD-fed mice displayed a reduction in percent area mineralized after exposure to HU compared 
+to the NL mice (97%). In contrast, mice fed the DP diet did not sustain any decrease in their osteoblast colony 
+formation despite exposure to HU (Fig. 6, panel a). In addition, mice fed the DP diet did not show a significant 
+decrement in percent mineralized area after exposure to HU (Fig. 6, panel b). Representative images of the min-
+eralization are shown in Fig. 6, panel c. Taken together, the DP diet show a protective effect against HU-induced 
+decrease in osteoblast cell proliferation and differentiation.
+Discussion
+In this study, we investigated the bone protective potential of DP against independent and combined effects of 
+simulated microgravity and ionizing radiation on the microarchitecture and mechanical properties of skeletal 
+tissue. A diet supplemented with DP prevented most of the simulated spaceflight-induced damages to both the 
+appendicular (i.e. tibia) and axial (i.e. vertebrae) skeleton. When mice were fed the control diet, a relatively high 
+dose (2 Gy) of low-LET gamma radiation exclusively decreased the BV/TV and Tb.Sp of cancellous tissue in 
+Figure 5.  Differences in vertebrae compressive strength after exposure to simulated spaceflight. Mice were fed 
+either the control diet (CD) or dried plum diet (DP), and were either irradiated with 2 Gy 137Cs (IR), hindlimb 
+unloaded (HU), or treated with both (HU + IR). Monotonic compression testing was performed on the L4 
+vertebrae to obtain information about differences in maximum load (a) and vertebral stiffness (b). Stiffness was 
+normalized to vertebral height. Representative force-displacement curves are shown for compression of the L4 
+vertebrae when mice were fed the CD diet (c) versus the DP diet (d). Data shown are mean + /− S.D. (n = 5–10/
+group). Different letters indicate p < 0.05,1-factor ANOVA with all pairs Tukey Kramer.
+
+7
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+the tibia. Based on our results, cancellous bone loss was caused by a thinning, not a decrease in the number, of 
+existing trabeculae, which overall, expanded the space between trabeculae. HU for 14 days caused bone loss 
+within both cancellous and cortical regions of the tibia and the L4 vertebrae. HU also led to reduced compressive 
+strength of the vertebral body. The independent effects of HU and IR remained of similar magnitude in each 
+tissue compartment when mice were exposed to HU and IR simultaneously. Regardless of the treatment (with 
+one exception, Ct.Th proximal tibia), consumption of the dried plum diet prevented detrimental skeletal changes.
+Mice fed the control diet and exposed solely to IR displayed a 20% decrement in BV/TV and a 7% increase 
+in the Tb.Sp of the tibia’s cancellous region relative to the sham control. These parameters were unaffected by 
+HU alone. HU groups exhibited a lesser 11% decrement in Tb.Th. When IR was combined with HU, BV/TV 
+decreased by another 5%. These results indicate that HU and IR were not clearly additive in this experiment. 
+Among the parameters analyzed, IR only induced changes in Tb.Th and Tb.Sp. Unlike reports by others, there 
+were no significant changes in Tb.N from any of the treatment groups relative to the sham-irradiated control 
+group21,43,44. When HU was combined with IR, Tb.Th decreased by 9%.
+Our results indicate bone loss was caused by a thinning, not a decrease in the number, of existing trabeculae, 
+which expanded the space between trabeculae. The trabeculae contribute to percent bone volume and microar-
+chitectural integrity. Since HU affects the cortical as well as cancellous tissue, we also determined the extent of 
+cortical bone loss. The cortical region (cortical shell) exhibited a decrease in cortical thickness when mice fed the 
+control diet were exposed to HU, either independently or in combination with IR.
+When mice were fed the DP diet, IR-induced cancellous bone loss was entirely prevented, consistent with the 
+radio-protective results reported in our previous study43. DP also protected the tibia when IR was combined with 
+HU, which is a novel finding in this report. The decrease in trabecular thickness incurred by HU and HU + IR was 
+entirely prevented by consumption of the DP diet. The DP diet also protected from HU-induced decrease in cor-
+tical thickness. Unlike the proximal tibia, the distal tibia did not show changes in cortical structure. In contrast, 
+in the proximal tibia HU and IR together, not each treatment alone, caused a decrease in cortical thickness of the 
+proximal tibia. This finding suggests that DP diet cannot fully prevent from all aspects of bone structural deficits 
+induced by simulated spaceflight.
+In order to confirm our results, we examined another skeletal site, the vertebra, which is a representative 
+axial bone. Under conditions of simulated weightlessness and consumption of control diet, BV/TV and Tt.Tb.
+Th of the vertebral body were reduced accompanied by a reduction in cortical thickness and cortical bone area. 
+Collectively, these findings indicate an overall deterioration of bone via thinning of the vertebrae’s trabeculae 
+and cortical tissue. This deterioration of the microarchitecture directly impacted the overall strength of the tis-
+sue57,59,60, as reflected in the decrease in maximum load tolerable by the vertebral body, as well as the decrease 
+in material stiffness as measured by mechanical compression testing. Taken together, these changes in both 
+microarchitecture and strength have the potential to lead to fracture. However, these changes were not observed 
+when mice were exposed to IR alone. In contrast to other studies where high-LET 56Fe radiation was utilized in 
+combination with HU, our results did not indicate an additive effect of IR on the deterioration of strength and 
+structure of the L4 vertebrae57. HU-induced damage to the vertebral body was entirely prevented when mice con-
+sumed the DP diet. Interestingly, there was a statistically significant increase in Tt.BV/TV (9%, Fig. 4, panel a) for 
+sham-irradiated, NL mice fed the DP compared to the sham-irradiated, NL mice fed the CD. This elevated Tt.BV/
+TV was consistent for all treatment groups fed DP when compared to NL, CD-fed mice, suggesting a potential 
+anabolic effect of DP.
+Treatments that are currently in use to mitigate the effects of mechanical unloading are not without limitations 
+and risks. Exercise in combination with drug treatments such as bisphosphonates have shown beneficial effects in 
+astronauts61,62. However, in patients with osteoporosis, the use of bisphosphonates can increase the risk for atyp-
+ical femoral fractures possibly due to suppressed bone turnover which may lead to cracks at the microscale and 
+loss of mechanical strength63,64. Although rare, other notable side effects that have been reported to accompany 
+Figure 6.  Simulated weightlessness induced decrement in ex-vivo osteoblastogenesis was prevented by DP. (a) 
+Osteoblast colony counts at day 10 normalized to area of well (cm2). (b) Osteoblast percent mineralization at 
+day 30. (c) Representative images of osteoblast mineralization at day 30 in the control diet (CD) and dried plum 
+diet (DP) fed mice, after normally loading (NL) or hindlimb unloading (HU) for 14 days. Values are represented 
+mean + /− S.D. (n = 5/group) and analyzed by 1-factor ANOVA for (a) and analyzed by nonparametric control 
+Steel test for (b). *indicates p < 0.05 for appropriate statistical test.
+
+8
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+bisphosphonate therapy including osteonecrosis of the jaw65 and atrial fibrillation66. Another limitation of bis-
+phosphonates is that they act mostly on osteoclasts61.
+Osteoblastogenesis from flushed bone marrow cells of the femur was strongly inhibited by exposure to HU, 
+indicating that HU directly damages osteoblast progenitors, potentially affecting in situ bone formation (Fig. 6). 
+Mineralization of the osteoblast cells from DP-fed mice was partially restored and taken together with the cell 
+growth data, indicates that DP could prevent the loss of structure and strength by protecting the marrow-derived 
+osteoprogenitors. Ex vivo osteoblastogenesis was only performed on mice exposed to HU because it has been 
+shown previously that low-LET in vivo gamma radiation does not negatively impact osteoblasts57,67.
+These data points toward dried plum playing an active role in protecting osteoprogenitors, possibly by 
+maintaining the osteoblast’s growth and differentiation. Recently, Graef et al.42 showed that treatment of bone 
+marrow-derived osteoblast cells with particular fractions of DP polyphenols led to an increase in gene expression 
+of Runx2 one hour after treatment as well as an increase in mineralized nodules42. When evaluated in combina-
+tion with our findings, this supports the potential mechanism that dried plum activates osteoblasts, which may 
+lead to an increase in bone formation. It should be noted, however, that another paper published by the same 
+group showed that fractions of dried plum polyphenols were not as effective at preventing bone loss in a rodent 
+model of ovariectomy-induced osteoporosis in comparison to a diet supplemented with whole dried plum41. 
+Thus, follow-up studies are needed to compare the potential protective effect of these polyphenol fractions on 
+bone exposed to simulated microgravity and ionizing radiation. In addition, establishing the efficacy of formu-
+lations of DP (dried whole fruit vs defined components) may facilitate the further development of DP as a coun-
+termeasure for spaceflight.
+One limitation in our study is the lack of data on osteoclasts, and therefore we cannot determine if bone 
+resorbing osteoclasts also contribute to the observed protective effects of the DP diet. Since HU and radiation can 
+each increase osteoclasts, and a stimulation of bone resorption may contribute to the observed bone loss, DP may 
+exert protective effects by inhibiting resorption, increasing formation, or both.
+Overall, the ability of DP to protect osteoblast progenitor cells from HU-induced damage, as shown in this 
+study, holds much promise for development of next generation anti-osteoporotic drugs due to the possibility that 
+DP to act on both osteoblasts and osteoclasts. Our current study is limited to short-duration HU (2 weeks); since 
+astronauts on long-term space missions may require a countermeasure for bone loss throughout the entirety of 
+a multi-year mission beyond LEO, it is important in future studies to determine if DP is protective for long-term 
+exposure to simulated, or actual, spaceflight. Further studies also are needed to gain more insight into any poten-
+tial long-term side effects of consuming a dried plum diet. Dried plum’s potential as a countermeasure against 
+both radiation- and microgravity-induced osteopenia such as loss of bone strength and structure in the tibia and 
+vertebrae has important implications for astronauts in space as well as radiation workers, radiotherapy patients, 
+and individuals with osteoporosis.
+Methods
+Animals and treatments. 
+Male C57BL/6 J mice (Jackson Labs, Sacramento, CA) at 14 weeks of age were 
+weight matched, assigned to groups (n = 10/group), and individually housed in standard vivarium cages or cus-
+tom-designed HU cages as previously described46. Our justification for using mice of this age is that they are 
+considered skeletally mature at the time of initiating treatment (HU and/or IR) so that the effects of HU and/or IR 
+on the 16 week old mice can be attributed to dietary effects on the adult, rather than rather than on the growing 
+skeleton. We have extensive previous reports showing this age and duration of HU and IR treatment yields the 
+predicted bone loss (45,57,68–70). 14 week old mice were used to allow for a 2 week pre-feeding period. Two weeks 
+of prefeeding period was selected to provide sufficient time for animals to adapt to the diet prior to initiating 
+exposure to simulated spaceflight, while avoiding a lengthy pre-feeding period, which may potentially affect bone 
+structural and/or mechanical properties prior to initiating treatments.
+Animals assigned to the HU group were suspended with traction tape based on previously established pro-
+cedures46,71. The room conditions was maintained at an average 73.3°F, 31% humidity, 12 hours light/dark cycle), 
+with food and water provided ad libitum. Animal weights (Supplementary table 1) were monitored throughout 
+the duration of the experiment to asses health of the mice. The NASA Ames Research Center Institutional Animal 
+Care and Use Committee (IACUC) approved all procedures. All experiments were performed in accordance with 
+relevant guidelines and regulations.
+Diets. 
+Two diets were used for this study: The control diet (CD) was a defined formulation (AIN93M, 
+Teklad, Madison, WI) while the DP diet was composed of the AIN93M diet supplemented with 25% by weight 
+dried plum powder (from the California Dried Plum Board) and was compounded by Teklad as described 
+previously35,37,38,43,58,72,73.
+Experimental protocol. 
+Animals were pre-fed with either CD or DP diet for a period of 14 days in standard 
+vivarium cages prior to undergoing sham-unloading or HU. Animals undergoing HU were allowed to acclimate 
+to their new cage environment three days prior to initiating HU. Initiation of HU was considered to be day 0 of 
+the experiment (Fig. 1, panel b). Sham-unloaded animals were handled similarly to HU mice, without under-
+going actual tail suspension, followed by housing in NL conditions in vivarium cages. On day 3, animals were 
+either exposed to sham-irradiation or total body IR. Mice were fed their respective diets until time of euthanasia 
+(day 14). At time of euthanasia, tibiae, femora, and vertebrae were collected and processed for micro-computed 
+tomography (microCT) or ex vivo cell culture.
+Radiation exposure. 
+At 16 weeks of age, mice were exposed to 2 Gy Gamma of whole-body IR (137Cs at 
+0.83 Gy/min, JL Shepherd Mark I, San Gabriel, CA) as used in Schreurs et al.43. For this treatment, mice were 
+
+9
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+housed individually in a custom animal holding cage, maintaining HU mice in a head-down position. Mice were 
+placed in the irradiator chamber and exposed to TBI. The unloading of mice was maintained during irradiation 
+by custom small HU cages. Sham-irradiated controls were handled similarly and placed in the irradiation cham-
+ber with the radiation source turned off.
+MicroCT. 
+At the time of sample collection, tibiae were cut distal to the tibio-fibular junction (TFJ) to allow 
+complete infiltration of fixative (4% paraformaldehyde, Sigma). After 24 hours at 4 °C, samples were transferred to 
+70% ethanol for long-term storage. The day before imaging, bones were rehydrated in phosphate buffered saline 
+(PBS, Gibco 1×, pH 7.4). MicroCT was then conducted using SkyScan 1272 (Bruker, Kontich, Belgium), with a 
+0.25 mm aluminum filter, x-ray tube potential of 60 kV and x-ray intensity of 166 μA.
+For the analysis of cancellous bone, scans were performed with a resolution of 3.5 μm/voxel resolution (inte-
+gration time = 840 ms, frame averaging = 3, rotation step = 0.600°). A 1.0mm-thick region of cancellous bone 
+located 0.5 mm distal to the proximal growth plate of the tibia was selected and auto-contoured as detailed by 
+Buie et al.74, with minor modifications (SkyScan, CT Analyzer). From this auto-contouring program, bone vol-
+ume fraction (BV/TV, %), trabecular thickness (Tb.Th, mm), trabecular number (Tb.N, 1/mm), and trabecular 
+separation (Tb.Sp, mm) were calculated to assess bone microarchitecture and reported following conventional 
+guidelines75. An automated contouring program was used to select and measure the microarchitecture of the 
+cortical shell surrounding the abovementioned cancellous region. From this auto-contouring program, cortical 
+thickness (Ct.Th, mm) and cortical bone area (Ct.Ar, mm2) were calculated.
+To assess microarchitecture of the cortical compartment of the distal tibia, bones were scanned with a res-
+olution of 12μm/voxel (integration time = 420 ms, frame averaging = 3, rotation step = 0.400°), and a 0.3 mm 
+thick region located 2 mm proximal to the TFJ was selected and auto-contoured. Cortical parameters of interest 
+included periosteal (Peri.P,mm) and endosteal (Endo.P, mm) perimeters, cortical thickness (Ct.Th, mm), mean 
+polar moment of inertia (J, mm4), cortical bone volume (BV, mm3), marrow volume (mm3), marrow area (mm2), 
+and volumetric tissue mineral density (TMD, g/cm3). Calcium hydroxyapatite phantoms (Bruker, Kontich, 
+Belgium) were utilized to validate TMD by converting linear-attenuation coefficient of the material to TMD of 
+the phantom75.
+MicroCT analysis was also performed on the fourth lumbar (L4) vertebrae. Before scanning, vertebrae were 
+processed to remove all transverse processes that project posteriorly in preparation for mechanical testing, as 
+detailed below76. If a vertebral body was at all compromised during sample preparation, sample was removed 
+from further analysis. Vertebrae were then scanned at 6μm/voxel resolution (integration time = 840 ms, frame 
+averaging = 2, rotation step = 0.600°). Height of the vertebrae, in millimeters, was determined using the recon-
+structed scans. Analysis was performed on the entire, post-processed vertebral body77. An auto-contouring pro-
+gram was utilized to determine total (Tt)78 vertebral body bone volume fraction (Tt.BV/TV, %), total vertebral 
+body trabecular thickness (Tt.Tb.Th, mm), total vertebral body trabecular number (Tt.Tb.N, 1/mm), and total 
+vertebral body trabecular separation (Tt.Tb.Sp, mm). Total vertebral body is a measure of the microarchitec-
+ture of both the cortical and cancellous bone compartments. The geometry of the cortical shell was assessed 
+separately at the posterior side of the vertebral body, as this region displays concentrated stress during uniaxial 
+compression57.
+Mechanical testing – monotonic compression. 
+The vertebral column was processed to isolate the L4 
+vertebra and further prepared for mechanical testing as described previously76. In brief, all soft tissue was carefully 
+removed, and endplates and posterior elements were removed using a diamond-saw microtome (Leica SP1600 
+Microtome, Wetzlar, Germany) to isolate the vertebral body and ensure plano-parallel testing surfaces. Uniaxial 
+compressive monotonic testing was performed as described previously76. In brief, after microCT was performed 
+as detailed above, uniaxial compressive testing was performed at ambient temperature at a platen displacement 
+rate of 0.01 mm/sec. Force (N) and displacement (mm) data were collected during testing (1,000 Hz; WinTest 7, 
+version 7.01). Mechanical testing was not performed on samples in which the vertebral body was compromised 
+during sample preparation. Thus, the sample size per group was as follows: n = 10 (CD, NL), n = 5 (CD, IR), n = 8 
+(CD, HU), n = 7 (CD, HU + IR), n = 8 (DP, NL), n = 6 (DP, IR), n = 9 (DP, HU), and n = 6 (DP, HU + IR). Custom 
+MATLAB code (Version R2017a, The Mathworks, Inc., Natick, MA) was used to analyze the data and obtain max-
+imum load at failure (N) and stiffness (N/mm). Stiffness is defined as the force required to displace a specimen a 
+set distance, or the slope of the specimen’s force-displacement curve. Thus, stiffness was calculated as the slope of 
+a line that best fit the middle 80% of data points in the range between the force at displacement = 0 and maximum 
+load (i.e. a consistently linear region of the curve for all specimens). Reported stiffness (N/strain) was normalized 
+by the height of the vertebra, as determined by microCT (Fig. 5, panel b). Due to the variation in cross-sectional 
+area of the vertebral body from cranial to caudal ends, the elastic modulus and ultimate stress were not calculated.
+Ex vivo osteoblastogenic cell culture. 
+Bone marrow cells were flushed and collected from the femur at 
+time of euthanasia (n = 5 each for NL and HU groups). The limited number of samples per group were the result 
+of the experimental design. Bone marrow cells were then plated at a density of 300,000 cells/cm2 in osteogenic 
+media (α-MEM, FBS, Ascorbic Acid and beta-glycerophosphate), as described previously2. Media was changed 
+every 2–3 days. On day 10 in culture, colonies consisting of at least 30 cells were scored. Colony counts were 
+normalized to area of culture plate (3.8 cm2). Cells were grown for a total of 30 days to allow for mineralization, 
+which was then stained using the Von Kossa method2 and quantified using ImageJ (Version 1.52a, NIH, USA).
+Statistical analysis. 
+Data were presented as mean and standard deviations (S.D.). If the variances between 
+groups were equal and parametric, a one-way analysis of variance (ANOVA) analysis was performed. When 
+a main effect by one-way ANOVA (p < 0.05) was evident, an all pairs Tukey Kramers post-hoc analysis was 
+
+10
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+performed (software JMP Version 13.0). We selected this formalism to allow for multiple and direct comparisons 
+within each diet (CD or DP) and also across the diets (i.e CD HU + IR vs DP HU + IR) to assess our specific 
+research objective, namely determining the efficacy of dried plum as a countermeasure of bone loss against the 
+age-matched negative control. If the data were non-parametric, Steel or Wilcoxon post-hoc analysis was per-
+formed as needed.
+Received: 25 November 2019; Accepted: 26 February 2020;
+Published: xx xx xxxx
+References
+	 1.	 Sibonga, J., R. Spector, E., L. Johnston, S. & Tarver, W. Evaluating Bone Loss in ISS Astronauts. Vol. 86 (2015).
+	 2.	 Alwood, J. S. et al. Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the 
+Skeletal System. International Journal of Molecular Sciences 18, 2117, https://doi.org/10.3390/ijms18102117 (2017).
+	 3.	 Gerbaix, M. et al. One-month spaceflight compromises the bone microstructure, tissue-level mechanical properties, osteocyte 
+survival and lacunae volume in mature mice skeletons. Scientific Reports 7, 2659, https://doi.org/10.1038/s41598-017-03014-2 
+(2017).
+	 4.	 Blaber, E. A. et al. Mechanical unloading of bone in microgravity reduces mesenchymal and hematopoietic stem cell-mediated tissue 
+regeneration. Stem Cell Research 13, 181–201, https://doi.org/10.1016/j.scr.2014.05.005 (2014).
+	 5.	 Cervinka, T., Sievänen, H., Hyttinen, J. & Rittweger, J. Bone loss patterns in cortical, subcortical, and trabecular compartments 
+during simulated microgravity. Journal of Applied Physiology 117, 80–88, https://doi.org/10.1152/japplphysiol.00021.2014 (2014).
+	 6.	 Zhang, Y. N. et al. Bone Loss Induced by Simulated Microgravity, Ionizing Radiation and/or Ultradian Rhythms in the Hindlimbs 
+of Rats. Biomedical and Environmental Sciences 31, 126–135, https://doi.org/10.3967/bes2018.015 (2018).
+	 7.	 Vico, L. & Hargens, A. Skeletal changes during and after spaceflight. Nature Reviews Rheumatology 14, 229, 10.1038/
+nrrheum.2018.37, https://www.nature.com/articles/nrrheum.2018.37#supplementary-information (2018).
+	 8.	 Vico, L. et al. Osteobiology, strain, and microgravity. Part II: Studies at the tissue level. Calcified tissue international 68, 1–10, https://
+doi.org/10.1007/BF02684996 (2001).
+	 9.	 LeBlanc, A. D., Spector, E., Evans, H. J. & Sibonga, J. Skeletal responses to space flight and the bed rest analog: A review. Vol. 7 
+(2007).
+	10.	 Benton, E. R. & Benton, E. V. Space radiation dosimetry in low-Earth orbit and beyond. Nuclear instruments & methods in physics 
+research. Section B, Beam interactions with materials and atoms 184, 255–294 (2001).
+	11.	 Reitz, G. Characteristic of the radiation field in low Earth orbit and in deep space. Zeitschrift fur medizinische Physik 18, 233–243 
+(2008).
+	12.	 Chancellor, J. C., Scott, G. B. I. & Sutton, J. P. Space Radiation: The Number One Risk to Astronaut Health beyond Low Earth Orbit. 
+Life: Open Access Journal 4, 491–510, https://doi.org/10.3390/life4030491 (2014).
+	13.	 Norbury, J. W. et al. Galactic cosmic ray simulation at the NASA Space Radiation Laboratory. Life Sci Space Res (Amst) 8, 38–51, 
+https://doi.org/10.1016/j.lssr.2016.02.001 (2016).
+	14.	 Townsend, L. W. Implications of the space radiation environment for human exploration in deep space. Radiation Protection 
+Dosimetry 115, 44–50, https://doi.org/10.1093/rpd/nci141 (2005).
+	15.	 Ehresmann, B. et al. The charged particle radiation environment on Mars measured by MSL/RAD from November 15, 2015 to 
+January 15, 2016. Life Sci Space Res (Amst) 14, 3–11, https://doi.org/10.1016/j.lssr.2017.07.004 (2017).
+	16.	 Willey, J. S., Lloyd, S. A. J., Nelson, G. A. & Bateman, T. A. Ionizing Radiation and Bone Loss: Space Exploration and Clinical 
+Therapy Applications. Clinical reviews in bone and mineral metabolism 9, 54–62, https://doi.org/10.1007/s12018-011-9092-8 (2011).
+	17.	 Guo, J. et al. MSL-RAD radiation environment measurements. Radiation Protection Dosimetry 166, 290–294, https://doi.
+org/10.1093/rpd/ncv297 (2015).
+	18.	 Cucinotta, F. A. Review of NASA Approach to Space Radiation Risk Assessments for Mars Exploration. Health Physics 108, 131–142, 
+https://doi.org/10.1097/hp.0000000000000255 (2015).
+	19.	 Lima, F. et al. Exposure to Low-Dose X-Ray Radiation Alters Bone Progenitor Cells and Bone Microarchitecture. Radiat Res 188, 
+433–442, https://doi.org/10.1667/RR14414.1 (2017).
+	20.	 Yu, K. et al. Mimicking the effects of spaceflight on bone: Combined effects of disuse and chronic low-dose rate radiation exposure 
+on bone mass in mice. Life Sci Space Res (Amst) 15, 62–68, https://doi.org/10.1016/j.lssr.2017.08.004 (2017).
+	21.	 Kondo, H. et al. Total-body irradiation of postpubertal mice with (137)Cs acutely compromises the microarchitecture of cancellous 
+bone and increases osteoclasts. Radiat Res 171, 283–289, https://doi.org/10.1667/RR1463.1 (2009).
+	22.	 Willey, J. S. et al. Early increase in osteoclast number in mice after whole-body irradiation with 2 Gy X rays. Radiat Res 170, 388–392, 
+https://doi.org/10.1667/rr1388.1 (2008).
+	23.	 Sibonga, J. D. Spaceflight-induced Bone Loss: Is there an Osteoporosis Risk? Current Osteoporosis Reports 11, 92–98, https://doi.
+org/10.1007/s11914-013-0136-5 (2013).
+	24.	 Orwoll, E. S. et al. Skeletal health in long-duration astronauts: Nature, assessment, and management recommendations from the 
+NASA bone summit. Journal of Bone and Mineral Research 28, 1243–1255, https://doi.org/10.1002/jbmr.1948 (2013).
+	25.	 Domazetovic, V., Marcucci, G., Iantomasi, T., Brandi, M. L. & Vincenzini, M. T. Oxidative stress in bone remodeling: role of 
+antioxidants. Clinical cases in mineral and bone metabolism: the official journal of the Italian Society of Osteoporosis, Mineral 
+Metabolism, and Skeletal Diseases 14, 209–216, https://doi.org/10.11138/ccmbm/2017.14.1.209 (2017).
+	26.	 Alwood, J. S. et al. Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue. Journal 
+of Interferon & Cytokine Research 35, 480–487, https://doi.org/10.1089/jir.2014.0152 (2015).
+	27.	 Willey, J. S. et al. Risedronate Prevents Early Radiation-Induced Osteoporosis in Mice at Multiple Skeletal Locations. Bone 46, 101, 
+https://doi.org/10.1016/j.bone.2009.09.002 (2010).
+	28.	 Gao, Y. et al. IFN-gamma stimulates osteoclast formation and bone loss in vivo via antigen-driven T cell activation. The Journal of 
+clinical investigation 117, 122–132, https://doi.org/10.1172/JCI30074 (2007).
+	29.	 Tian, Y. et al. The Impact of Oxidative Stress on the Bone System in Response to the Space Special Environment. International 
+Journal of Molecular Sciences 18, 2132, https://doi.org/10.3390/ijms18102132 (2017).
+	30.	 Kennedy, A. R. Biological effects of space radiation and development of effective countermeasures. Life Sci Space Res (Amst) 1, 
+10–43, https://doi.org/10.1016/j.lssr.2014.02.004 (2014).
+	31.	 Wallace, T. C. D. P. Prunes and Bone Health: A Comprehensive Review. Nutrients 9, 401, https://doi.org/10.3390/nu9040401 (2017).
+	32.	 Arjmandi, B. H. et al. Bone-Protective Effects of Dried Plum in Postmenopausal Women: Efficacy and Possible Mechanisms. 
+Nutrients 9, 496, https://doi.org/10.3390/nu9050496 (2017).
+	33.	 Delgado Cuenca, P., Almaiman, L., Schenk, S., Kern, M. & Hooshmand, S. Dried Plum Ingestion Increases the Osteoblastogenic 
+Capacity of Human Serum. Journal of medicinal food 20, 653–658, https://doi.org/10.1089/jmf.2016.0158 (2017).
+	34.	 Hooshmand, S. et al. Comparative effects of dried plum and dried apple on bone in postmenopausal women. The British journal of 
+nutrition 106, 923–930, https://doi.org/10.1017/S000711451100119X (2011).
+
+11
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+	35.	 Smith, B. J. et al. Effects of Dried Plum Supplementation on Bone Metabolism in Adult C57BL/6 Male Mice. Calcified tissue 
+international 94, 442–453, https://doi.org/10.1007/s00223-013-9819-2 (2014).
+	36.	 Hooshmand, S. et al. The effect of two doses of dried plum on bone density and bone biomarkers in osteopenic postmenopausal 
+women: a randomized, controlled trial. Osteoporosis international: a journal established as result of cooperation between the European 
+Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA 27, 2271–2279, https://doi.org/10.1007/s00198-
+016-3524-8 (2016).
+	37.	 Halloran, B. P. et al. Dietary Dried Plum Increases Bone Mass in Adult and Aged Male Mice. The Journal of nutrition 140, 1781–1787, 
+https://doi.org/10.3945/jn.110.124198 (2010).
+	38.	 Rendina, E. et al. Dietary supplementation with dried plum prevents ovariectomy-induced bone loss while modulating the immune 
+response in C57BL/6J mice. The Journal of nutritional biochemistry 23, 60–68, https://doi.org/10.1016/j.jnutbio.2010.10.010 (2012).
+	39.	 Bu, S. et al. Dried Plum Polyphenols Inhibit Osteoclastogenesis by Downregulating NFATc1 and Inflammatory Mediators. Calcified 
+tissue international 82, 475–488, https://doi.org/10.1007/s00223-008-9139-0 (2008).
+	40.	 Bu, S. Y., Hunt, T. S. & Smith, B. J. Dried plum polyphenols attenuate the detrimental effects of TNF-α on osteoblast function 
+coincident with up-regulation of Runx2, Osterix and IGF-I. The Journal of nutritional biochemistry 20, 35–44, https://doi.
+org/10.1016/j.jnutbio.2007.11.012 (2009).
+	41.	 Graef, J. L. et al. Select polyphenolic fractions from dried plum enhance osteoblast activity through BMP-2 signaling. The Journal of 
+nutritional biochemistry 55, 59–67, https://doi.org/10.1016/j.jnutbio.2017.09.014 (2018).
+	42.	 Graef, J. L. et al. Osteoclast Differentiation is Downregulated by Select Polyphenolic Fractions from Dried Plum via Suppression of 
+MAPKs and Nfatc1 in Mouse C57BL/6 Primary Bone Marrow Cells. Current Developments in Nutrition 1, e000406–e000406, 
+https://doi.org/10.3945/cdn.117.000406 (2017).
+	43.	 Schreurs, A. S. et al. Dried plum diet protects from bone loss caused by ionizing radiation. Sci Rep 6, 21343, https://doi.org/10.1038/
+srep21343 (2016).
+	44.	 Prisby, R. D. et al. Effects of hindlimb unloading and ionizing radiation on skeletal muscle resistance artery vasodilation and its 
+relation to cancellous bone in mice. Journal of Applied Physiology 120, 97-106, 10.1152/japplphysiol.00423.2015 (2015).
+	45.	 Ghosh, P. et al. Effects of High-LET Radiation Exposure and Hindlimb Unloading on Skeletal Muscle Resistance Artery Vasomotor 
+Properties and Cancellous Bone Microarchitecture in Mice. Radiation Research 185, 257–266, https://doi.org/10.1667/RR4308.1 
+(2016).
+	46.	 Globus, R. K. & Morey-Holton, E. Hindlimb unloading: rodent analog for microgravity. Journal of Applied Physiology 120, 
+1196–1206, https://doi.org/10.1152/japplphysiol.00997.2015 (2016).
+	47.	 Hargens, A., Steskal, J., Johansson, C. & Tipton, C. Tissue fluid shift, forelimb loading, and tail tension in tail-suspended rats. (1984).
+	48.	 Wronski, T. J. & Morey, E. R. Skeletal abnormalities in rats induced by simulated weightlessness. Metabolic Bone Disease and Related 
+Research 4, 69–75, https://doi.org/10.1016/0221-8747(82)90011-X (1982).
+	49.	 Globus, R. K., Bikle, D. D. & Morey-Holton, E. The Temporal Response of Bone to Unloading*. Endocrinology 118, 733–742, https://
+doi.org/10.1210/endo-118-2-733 (1986).
+	50.	 Simske, S. J., Greenberg, A. R. & Luttges, M. W. Effects of suspension-induced osteopenia on the mechanical behaviour of mouse 
+long bones. Journal of Materials Science: Materials in Medicine 2, 43–50, https://doi.org/10.1007/BF00701686 (1991).
+	51.	 Machwate, M. et al. Skeletal unloading in rat decreases proliferation of rat bone and marrow-derived osteoblastic cells. American 
+Journal of Physiology-Endocrinology and Metabolism 264, E790–E799, https://doi.org/10.1152/ajpendo.1993.264.5.E790 (1993).
+	52.	 Grano, M. et al. Rat Hindlimb Unloading by Tail Suspension Reduces Osteoblast Differentiation, Induces IL-6 Secretion, and 
+Increases Bone Resorption in Ex Vivo Cultures. Calcified tissue international 70, 176–185, https://doi.org/10.1007/s00223-001-2034-
+6 (2002).
+	53.	 Hughes-Fulford, M., Tjandrawinata, R., Fitzgerald, J., Gasuad, K. & Gilbertson, V. Effects of microgravity on osteoblast growth. 
+Gravit Space Biol Bull 11, 51–60 (1998).
+	54.	 Shi, W. et al. Microgravity induces inhibition of osteoblastic differentiation and mineralization through abrogating primary cilia. 
+Scientific Reports 7, 1866, https://doi.org/10.1038/s41598-017-02049-9 (2017).
+	55.	 Camirand, A. et al. The Role of Parathyroid Hormone-Related Protein (PTHrP) in Osteoblast Response to Microgravity: 
+Mechanistic Implications for Osteoporosis Development. PLoS One 11, e0160034, https://doi.org/10.1371/journal.pone.0160034 
+(2016).
+	56.	 Globus, R. K., Bikle, D. D. & Morey-Holton, E. Effects of Simulated Weightlessness on Bone Mineral Metabolism. Endocrinology 
+2264-2270, https://doi.org/10.1210/endo-114-6-2264 (1984).
+	57.	 Alwood, J. S. et al. Heavy ion irradiation and unloading effects on mouse lumbar vertebral microarchitecture, mechanical properties 
+and tissue stresses. Bone 47, 248–255, https://doi.org/10.1016/j.bone.2010.05.004 (2010).
+	58.	 Shahnazari, M. et al. Dietary dried plum increases bone mass, suppresses proinflammatory cytokines and promotes attainment of 
+peak bone mass in male mice. The Journal of nutritional biochemistry 34, 73–82, https://doi.org/10.1016/j.jnutbio.2016.04.007 
+(2016).
+	59.	 Eswaran Senthil, K., Gupta, A., Adams Mark, F. & Keaveny Tony, M. Cortical and Trabecular Load Sharing in the Human Vertebral 
+Body. Journal of Bone and Mineral Research 21, 307–314, https://doi.org/10.1359/jbmr.2006.21.2.307 (2009).
+	60.	 Silva, M. J., Brodt, M. D. & Uthgenannt, B. A. Morphological and mechanical properties of caudal vertebrae in the SAMP6 mouse 
+model of senile osteoporosis. Bone 35, 425–431, https://doi.org/10.1016/j.bone.2004.03.027 (2004).
+	61.	 LeBlanc, A. et al. Bisphosphonates as a supplement to exercise to protect bone during long-duration spaceflight. Osteoporosis 
+International 24, 2105–2114, https://doi.org/10.1007/s00198-012-2243-z (2013).
+	62.	 Vargas-Franco, J. W. et al. Paradoxical side effects of bisphosphonates on the skeleton: What do we know and what can we do? 
+Journal of Cellular Physiology 233, 5696–5715, https://doi.org/10.1002/jcp.26465 (2018).
+	63.	 Kharwadkar, N., Mayne, B., Lawrence, J. E. & Khanduja, V. Bisphosphonates and atypical subtrochanteric fractures of the femur. 
+Bone & joint research 6, 144–153, https://doi.org/10.1302/2046-3758.63.BJR-2016-0125.R1 (2017).
+	64.	 Ma, S. et al. Long-term effects of bisphosphonate therapy: perforations, microcracks and mechanical properties. Scientific Reports 7, 
+43399, https://doi.org/10.1038/srep43399 (2017).
+	65.	 Goodwin, J. S., Zhou, J., Kuo, Y.-F. & Baillargeon, J. Risk of Jaw Osteonecrosis After Intravenous Bisphosphonates in Cancer Patients 
+and Patients Without Cancer. Mayo Clinic proceedings 92, 106–113, https://doi.org/10.1016/j.mayocp.2016.09.015 (2017).
+	66.	 Herrera, L. et al. Risk of atrial fibrillation among bisphosphonate users: a multicenter, population-based, Italian study. Osteoporosis 
+international: a journal established as result of cooperation between the European Foundation for Osteoporosis and the National 
+Osteoporosis Foundation of the USA 26, 1499–1506, https://doi.org/10.1007/s00198-014-3020-y (2015).
+	67.	 Kondo, H. et al. Shared oxidative pathways in response to gravity-dependent loading and gamma-irradiation of bone marrow-
+derived skeletal cell progenitors. Radiats Biol Radioecol 47, 281–285 (2007).
+	68.	 Kondo, H. et al. Oxidative stress and gamma radiation-induced cancellous bone loss with musculoskeletal disuse. J Appl Physiol 108, 
+152–161, https://doi.org/10.1152/japplphysiol.00294.2009 (2010).
+	69.	 Prisby, R. D. et al. Effects of hindlimb unloading and ionizing radiation on skeletal muscle resistance artery vasodilation and its 
+relation to cancellous bone in mice. Journal of applied physiology (Bethesda, Md.: 1985) 120, 97–106, https://doi.org/10.1152/
+japplphysiol.00423.2015 (2016).
+	70.	 Yumoto, K. et al. Short-term effects of whole-body exposure to (56)fe ions in combination with musculoskeletal disuse on bone cells. 
+Radiat Res 173, 494–504, https://doi.org/10.1667/RR1754.1 (2010).
+
+12
+Scientific Reports |         (2020) 10:6484  | https://doi.org/10.1038/s41598-020-63404-x
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+	71.	 Morey-Holton, E. R. & Globus, R. K. Hindlimb unloading rodent model: technical aspects. Journal of applied physiology (Bethesda, 
+Md.: 1985) 92, 1367–1377, https://doi.org/10.1152/japplphysiol.00969.2001 (2002).
+	72.	 Deyhim, F., Stoecker, B. J., Brusewitz, G. H., Devareddy, L. & Arjmandi, B. H. Dried plum reverses bone loss in an osteopenic rat 
+model of osteoporosis. Menopause (New York, N.Y.) 12, 755–762, https://doi.org/10.1097/01.gme.0000185486.55758.5b (2005).
+	73.	 Graef, J. L. et al. Dried Plum Polyphenolic Extract Combined with Vitamin K and Potassium Restores Trabecular and Cortical Bone 
+in Osteopenic Model of Postmenopausal Bone Loss. Journal of functional foods 42, 262–270, https://doi.org/10.1016/j.jff.2017.12.057 
+(2018).
+	74.	 Buie, H. R., Campbell, G. M., Klinck, R. J., MacNeil, J. A. & Boyd, S. K. Automatic segmentation of cortical and trabecular 
+compartments based on a dual threshold technique for in vivo micro-CT bone analysis. Bone 41, 505–515, https://doi.org/10.1016/j.
+bone.2007.07.007 (2007).
+	75.	 Bouxsein Mary, L. et al. Guidelines for assessment of bone microstructure in rodents using micro–computed tomography. Journal 
+of Bone and Mineral Research 25, 1468–1486, https://doi.org/10.1002/jbmr.141 (2010).
+	76.	 Pendleton, M. M. et al. High-precision method for cyclic loading of small-animal vertebrae to assess bone quality. Bone reports 9, 
+165–172, https://doi.org/10.1016/j.bonr.2018.10.002 (2018).
+	77.	 Campbell, G. M. & Sophocleous, A. Quantitative analysis of bone and soft tissue by micro-computed tomography: applications to 
+ex vivo and in vivo studies. BoneKEy reports 3, 564, https://doi.org/10.1038/bonekey.2014.59 (2014).
+	78.	 Dempster, D. W. et al. Standardized Nomenclature, Symbols, and Units for Bone Histomorphometry: A 2012 Update of the Report 
+of the ASBMR Histomorphometry Nomenclature Committee. Journal of bone and mineral research: the official journal of the 
+American Society for Bone and Mineral Research 28, 2–17, https://doi.org/10.1002/jbmr.1805 (2013).
+Acknowledgements
+This work was supported by a NASA Human Research Program (HRP) Human Health Countermeasure (HHC) 
+omnibus (15–15Omni2–0039, PI: Ann-Sofie Schreurs). Funding was also provided through NASA Space 
+Biology with NASA Post-Doctoral Program (NPP) and Space Life Science Training Program (SLSTP) support. 
+The authors would like to kindly acknowledge members of the Bone and Signaling Laboratory at NASA Ames 
+Research Center including Samantha Torres, Masahiro Terada, Julia Adams, Shannon Emerzian, and Marianne 
+Sowa at NASA Ames Research Center for their assistance and valuable guidance during the course of this study 
+and the preparation of the manuscript. We would like to thank Sulekha Anand from San Jose State University for 
+her advice on statistics. The authors would also like to acknowledge the California Dried Plum Board for their 
+generous donation of the dried plum powder utilized for this study.
+Author contributions
+A.S. designed the original experiment and R.K.G., C.G.T.T. and J.S.A. provided original input. B.P.H. consulted 
+in the design and execution of the experiments. S.S., M.L., and A.S. contributed to organizing and performing 
+of the experiment. S.S. completed the microCT analysis on cancellous tibia, cortical tibia, and cortical vertebrae. 
+O.M. performed mechanical testing of the vertebrae, performed microCT analysis of the total vertebral body, 
+and performed osteoblastogenesis cell culture. M.P. wrote the code to assess max load and stiffness, contributed 
+guidance and assistance with mechanical testing. C.G.T.T. and J.S.A. provided guidance on microCT scanning 
+and analysis. J.S.A. provided guidance on the statistics methods utilized. S.S. and A.S. generated the figures and 
+wrote the manuscript. All authors contributed to the editing and revising of the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information is available for this paper at https://doi.org/10.1038/s41598-020-63404-x.
+Correspondence and requests for materials should be addressed to A.-S.S.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2020
