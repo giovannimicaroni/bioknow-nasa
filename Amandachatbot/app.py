@@ -196,17 +196,20 @@ TOOL USAGE:
 - Always provide article IDs and relevance scores in your responses
 
 RESPONSE FORMAT:
-1. Briefly acknowledge the question
-2. Search for relevant articles using extracted keywords
-3. Summarize findings with specific article references
-4. Include relevance scores and key keywords from top results
-5. Suggest follow-up questions if appropriate
+1. **SUMÁRIO DO TEMA**: Start by providing a comprehensive overview of what the NASA research articles say about the topic the user is asking about, highlighting key findings, research areas, and scientific insights from the database
+2. **BUSCA POR ARTIGOS**: Search for relevant articles using extracted keywords
+3. **RECOMENDAÇÕES**: Present the most relevant articles with specific references and relevance scores
+4. **ANÁLISE**: Explain how the recommended articles support and expand on the topic summary
+5. **PRÓXIMOS PASSOS**: Suggest follow-up questions or additional research directions if appropriate
 
 IMPORTANT:
-- Always cite article names and their relevance scores
+- Always start with a comprehensive summary of what the NASA research articles say about the user's topic
+- This summary should synthesize the collective knowledge from the articles, not just restate the user's question
+- Cite article names and their relevance scores
 - Be specific about which articles support your answers
 - If relevance is LOW or VERY_LOW, mention this uncertainty
-- Keep responses professional and research-focused"""
+- Keep responses professional and research-focused
+- The topic summary should give users a broad understanding of the research landscape on their subject"""
 
         return ChatPromptTemplate.from_messages([
             ("system", system_message),

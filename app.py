@@ -332,11 +332,11 @@ TOOL USAGE:
 - Always search for and cite specific articles with their relevance scores
 
 RESPONSE FORMAT:
-1. Provide a helpful answer based on the found articles
-2. Always search for relevant articles using extracted keywords
-3. Mention the most relevant articles by name with their relevance scores
-4. Explain why these articles are particularly useful for the question
-5. Keep responses informative but concise
+1. **THEME SUMMARY**: Start by providing a comprehensive overview of what the NASA research articles say about the topic the user is asking about, highlighting key findings, research areas, and scientific insights from the database
+2. **ARTICLE SEARCH**: Always search for relevant articles using extracted keywords
+3. **RECOMENDAÇÕES**: Mention the most relevant articles by name with their relevance scores
+4. **ANALYSIS**: Explain why these articles are particularly useful and how they support the topic summary
+5. **NEXT STEPS**: Keep responses informative but concise, suggest follow-up research directions if appropriate
 
 ARTICLE RECOMMENDATIONS:
 - ALWAYS recommend 2-5 specific articles that are most relevant to the question
@@ -409,59 +409,44 @@ IMPORTANT:
         context = self.create_context_from_articles(selected_articles)
         
         # Prepare messages for API call
-        system_prompt = f"""You are a NASA Research Assistant specialized in helping researchers find and understand relevant scientific articles.
+        system_prompt = f"""You are Lumi, a NASA Research Assistant specialized in helping researchers find and understand relevant scientific articles.
+
+RESPONSE FORMAT - Always follow this structure:
+1. **THEME SUMMARY**: Start by providing a comprehensive overview of what the NASA research articles say about the topic the user is asking about, highlighting key findings, research areas, and scientific insights from the database
+2. **ARTICLE SEARCH**: Search for relevant articles using extracted keywords
+3. **RECOMMENDATIONS**: Present the most relevant articles with specific references and relevance scores
+4. **ANALYSIS**: Explain how the recommended articles support and expand on the topic summary
+5. **NEXT STEPS**: Suggest follow-up questions or additional research directions if appropriate
 
 Based on the following relevant articles from the NASA database, answer the user's question:
 
 {context}
 
-Always cite the specific articles you're referencing and mention their relevance scores when applicable."""
+IMPORTANT:
+- Always start with a comprehensive summary of what the NASA research articles say about the user's topic
+- This summary should synthesize the collective knowledge from the articles, not just restate the user's question
+- Cite the specific articles you're referencing and mention their relevance scores
+- Be specific about which articles support your answers
+- If relevance is LOW or VERY_LOW, mention this uncertainty
+- Keep responses professional and research-focused
+- The topic summary should give users a broad understanding of the research landscape on their subject"""
 
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": question}
         ]
         
-        # Call the appropriate API based on settings with automatic fallback
-        provider = settings.get('provider', 'lm_studio')
-        providers_to_try = [provider]
-        
-        # Add fallback providers if primary fails
-        if provider != 'lm_studio':
-            providers_to_try.append('lm_studio')
-        
-        response = None
-        last_error = None
-        
-        for current_provider in providers_to_try:
-            try:
-                print(f"🔄 [ASK-LUMI] Trying provider: {current_provider}")
-                
-                if current_provider == 'openai':
-                    response = call_openai_api(messages, settings)
-                elif current_provider == 'anthropic':
-                    response = call_anthropic_api(messages, settings)
-                elif current_provider == 'gemini':
-                    response = call_gemini_api(messages, settings)
-                else:
-                    response = call_lm_studio_api(messages)
-                
-                print(f"✅ [ASK-LUMI] Successfully got response from {current_provider}")
-                break
-                
-            except Exception as e:
-                last_error = e
-                print(f"❌ [ASK-LUMI] Failed with {current_provider}: {str(e)}")
-                continue
-        
-        if response is not None:
+        # Use universal AI connector (automatically chooses OpenAI or LM Studio)
+        try:
+            response = call_ai_api(messages, settings)
+            
             return {
                 "answer": response,
                 "retrieved_article_ids": [article['id'] for article in relevant_articles],
                 "retrieved_articles": relevant_articles
             }
-        else:
-            print(f"🔄 [ASK-LUMI] All providers failed, falling back to Langchain")
+        except Exception as e:
+            print(f"❌ [ASK-LUMI] AI connector failed: {str(e)}, falling back to Langchain")
             # Fallback to Langchain if all API providers fail
             return self.research(question)
     
@@ -729,6 +714,12 @@ When to provide articles:
 - After you've helped them narrow down their interests
 - NOT for general greetings or casual questions
 
+When providing articles, ALWAYS follow this format:
+1. **SUMÁRIO DO TEMA**: Provide a comprehensive overview of what the NASA research articles say about the user's topic
+2. **RECOMENDAÇÕES**: Present the relevant articles with scores
+3. **ANÁLISE**: Explain why these articles are useful for their research and how they support the topic summary
+4. **PRÓXIMOS PASSOS**: Suggest follow-up questions or directions
+
 Conversation examples:
 User: "Hi there" 
 You: "Hello! I'm Lumi, your NASA research assistant. 🚀 What space research topic sparks your curiosity today?"
@@ -746,40 +737,8 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
             {"role": "user", "content": question}
         ]
         
-        # Call the appropriate API based on settings with automatic fallback
-        provider = settings.get('provider', 'lm_studio')
-        providers_to_try = [provider]
-        
-        # Add fallback providers if primary fails
-        if provider != 'lm_studio':
-            providers_to_try.append('lm_studio')
-        
-        response = None
-        last_error = None
-        
-        for current_provider in providers_to_try:
-            try:
-                print(f"🔄 Trying provider: {current_provider}")
-                
-                if current_provider == 'openai':
-                    response = call_openai_api(messages, settings)
-                elif current_provider == 'anthropic':
-                    response = call_anthropic_api(messages, settings)
-                elif current_provider == 'gemini':
-                    response = call_gemini_api(messages, settings)
-                else:
-                    response = call_lm_studio_api(messages)
-                
-                print(f"✅ Successfully got response from {current_provider}")
-                break
-                
-            except Exception as e:
-                last_error = e
-                print(f"❌ Failed with {current_provider}: {str(e)}")
-                continue
-        
-        if response is None:
-            raise Exception(f"All providers failed. Last error: {str(last_error)}")
+        # Use universal AI connector (automatically chooses OpenAI or LM Studio)
+        response = call_ai_api(messages, settings)
             
         # Determine if we should show articles based on conversation context
         keywords = self._extract_keywords(question)
@@ -794,7 +753,11 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
                 articles = article_data.get('articles', [])
                 
                 if articles and articles[0].get('score', 0) > 0.3:  # Only show if good relevance
-                    enhanced_response = f"{response}\n\n📚 I found {len(articles)} relevant NASA articles for your research:"
+                    # Generate a superficial summary based on the articles
+                    article_summary = self._generate_article_summary(question, articles, settings)
+                    
+                    # Combine: superficial answer + article list
+                    enhanced_response = f"{article_summary}\n\n📚 I found {len(articles)} relevant NASA articles for your research:"
                     
                     return {
                         "answer": enhanced_response,
@@ -810,6 +773,42 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
             "answer": response,
             "retrieved_articles": []
         }
+    
+    def _generate_article_summary(self, question: str, articles: list, settings: dict) -> str:
+        """Generate a superficial summary of what the articles say about the topic."""
+        # Create a brief context from article titles and keywords
+        article_titles = [a['article'].replace('.pdf', '') for a in articles[:3]]
+        article_keywords = []
+        for a in articles[:3]:
+            article_keywords.extend(a.get('keywords', [])[:3])
+        
+        # Deduplicate keywords
+        unique_keywords = list(dict.fromkeys(article_keywords))[:10]
+        
+        # Create prompt for superficial summary
+        summary_prompt = f"""Based on these NASA research article titles and keywords, provide a brief, superficial answer (2-3 sentences) to the user's question.
+
+User's question: {question}
+
+Article titles:
+{chr(10).join(f'- {title}' for title in article_titles)}
+
+Key research keywords: {', '.join(unique_keywords)}
+
+Provide a concise, informative summary of what these NASA articles generally discuss about this topic. Keep it friendly and conversational. Do not list articles - just synthesize the general knowledge."""
+
+        messages = [
+            {"role": "system", "content": "You are Lumi, a friendly NASA research assistant. Provide brief, superficial summaries of research topics based on article metadata."},
+            {"role": "user", "content": summary_prompt}
+        ]
+        
+        try:
+            summary = call_ai_api(messages, settings)
+            return summary.strip()
+        except Exception as e:
+            print(f"⚠️  Error generating article summary: {e}")
+            # Fallback to a generic response
+            return f"Based on NASA research, here's what the articles show about {question.lower()}:"
     
     def _extract_keywords(self, question: str):
         """Extract meaningful keywords from the question."""
@@ -863,21 +862,41 @@ amanda_agent = None
 homepage_agent = None
 
 def initialize_amanda_agent():
-    """Initialize the AmandaChatbot agent and homepage chat agent."""
+    """
+    Initialize the AmandaChatbot agent and homepage chat agent.
+    Now uses the unified AI connector (OpenAI/LM Studio) instead of hard-coded Ollama.
+    """
     global amanda_agent, homepage_agent
     try:
         print("Initializing AmandaChatbot...")
         ranker = ArticleRanker("keywords_resultados.jsonl")
-        amanda_agent = NASAResearchAgent(
-            article_ranker=ranker,
-            model="llama3.1:8b",
-            base_url="http://localhost:11434"
-        )
         
-        # Initialize homepage chat agent
+        # Try to initialize with Ollama (optional, for Langchain agent)
+        # This is only used if settings are not provided in research() call
+        try:
+            amanda_agent = NASAResearchAgent(
+                article_ranker=ranker,
+                model=os.getenv('OLLAMA_MODEL', 'llama3.1:8b'),
+                base_url=os.getenv('OLLAMA_URL', 'http://localhost:11434')
+            )
+            print("✓ AmandaChatbot initialized with Ollama support")
+        except Exception as e:
+            print(f"⚠️  Ollama not available: {e}")
+            print("✓ AmandaChatbot will use unified AI connector (OpenAI/LM Studio)")
+            # Create a minimal agent that only uses research_with_settings
+            amanda_agent = type('MinimalAgent', (), {
+                'ranker': ranker,
+                'research': lambda self, q, s=None: self.research_with_settings(q, s or {}),
+                'research_with_settings': lambda self, q, s: NASAResearchAgent.research_with_settings(
+                    type('obj', (), {'ranker': ranker, 'last_retrieved_articles': []})(),
+                    q, s
+                )
+            })()
+        
+        # Initialize homepage chat agent (always uses unified connector)
         homepage_agent = HomePageChatAgent(ranker)
         
-        print("✓ AmandaChatbot and Homepage Agent ready!")
+        print("✓ All agents ready!")
         return True
     except Exception as e:
         print(f"❌ Error initializing agents: {e}")
@@ -1043,8 +1062,68 @@ def process_ai_response(ai_response):
         'has_thinking': bool(thinking_content)
     })
 
+def call_ai_api(messages, settings=None):
+    """
+    Universal AI connector that automatically chooses between OpenAI and local LM Studio.
+    Priority: OpenAI (if configured) -> LM Studio (fallback)
+    """
+    if settings is None:
+        settings = {}
+    
+    # Try OpenAI first if API key is available
+    openai_key = os.getenv('OPENAI_API_KEY')
+    if openai_key and openai and openai_key != 'your_openai_api_key_here':
+        try:
+            openai_settings = settings.get('openai', {})
+            api_key = openai_settings.get('api_key', openai_key)
+            model = openai_settings.get('model', 'gpt-4o-mini')
+            
+            print(f"🔄 [AI-CONNECTOR] Using OpenAI ({model})...")
+            
+            # Create client with only the API key (no other parameters that might cause issues)
+            # Don't pass any settings that might contain unsupported parameters like 'proxies'
+            client = openai.OpenAI(api_key=api_key)
+            
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=0.7,
+                max_tokens=16000
+            )
+            
+            print(f"✅ [AI-CONNECTOR] OpenAI response received")
+            return clean_thinking_tags(response.choices[0].message.content)
+        except Exception as e:
+            print(f"⚠️  [AI-CONNECTOR] OpenAI failed: {str(e)}, falling back to LM Studio...")
+    
+    # Fallback to LM Studio
+    try:
+        print(f"🔄 [AI-CONNECTOR] Using LM Studio...")
+        response = requests.post(
+            LM_STUDIO_URL,
+            json={
+                "model": LM_STUDIO_MODEL,
+                "messages": messages,
+                "temperature": 0.7,
+                "max_tokens": 8192
+            },
+            headers={"Content-Type": "application/json"},
+            timeout=120
+        )
+        
+        if response.status_code == 200:
+            data = response.json()
+            content = data['choices'][0]['message']['content']
+            print(f"✅ [AI-CONNECTOR] LM Studio response received")
+            return clean_thinking_tags(content)
+        else:
+            raise Exception(f"LM Studio API error: {response.status_code}")
+    
+    except Exception as e:
+        raise Exception(f"All AI providers failed. OpenAI: {openai_key is None}, LM Studio: {str(e)}")
+
 def call_openai_api(messages, settings):
-    """Call OpenAI API"""
+    """Call OpenAI API (deprecated, use call_ai_api instead)"""
     if not openai:
         raise Exception("OpenAI library not installed")
     
@@ -1673,14 +1752,8 @@ def ask_lumi():
             }
         ]
         
-        if provider == 'openai':
-            ai_response = call_openai_api(messages, settings)
-        elif provider == 'anthropic':
-            ai_response = call_anthropic_api(messages, settings)
-        elif provider == 'gemini':
-            ai_response = call_gemini_api(messages, settings)
-        else:
-            ai_response = call_lm_studio_api(messages)
+        # Use universal AI connector (automatically chooses OpenAI or LM Studio)
+        ai_response = call_ai_api(messages, settings)
         
         return process_ai_response(ai_response)
     

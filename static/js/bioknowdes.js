@@ -283,14 +283,15 @@ class BioKnowdes {
 
     addMessage(type, content) {
         const messageDiv = document.createElement('div');
-        messageDiv.className = `message ${type}-message`;
+        // User messages on the right, assistant on the left
+        messageDiv.className = `message ${type === 'user' ? 'user-message' : 'assistant-message'}`;
         
         if (type === 'assistant') {
             const processedContent = this.processAIResponse(content);
             messageDiv.innerHTML = `
                 <div class="message-header">
                     <i class="fas fa-robot"></i>
-                    <span>BioKnowdes AI</span>
+                    <span>Lumi</span>
                 </div>
                 <div class="message-content">${processedContent}</div>
             `;
@@ -386,11 +387,33 @@ class BioKnowdes {
     }
 
     showLoading() {
-        this.loadingOverlay.classList.remove('hidden');
+        // Instead of overlay, show typing indicator
+        const typingDiv = document.createElement('div');
+        typingDiv.className = 'message assistant-message typing-indicator';
+        typingDiv.id = 'typingIndicator';
+        typingDiv.innerHTML = `
+            <div class="message-header">
+                <i class="fas fa-robot"></i>
+                <span>Lumi</span>
+            </div>
+            <div class="message-content">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        `;
+        this.chatMessages.appendChild(typingDiv);
+        this.chatMessages.scrollTop = this.chatMessages.scrollHeight;
     }
 
     hideLoading() {
-        this.loadingOverlay.classList.add('hidden');
+        // Remove typing indicator
+        const typingIndicator = document.getElementById('typingIndicator');
+        if (typingIndicator) {
+            typingIndicator.remove();
+        }
     }
 }
 

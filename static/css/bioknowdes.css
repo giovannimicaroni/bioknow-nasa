@@ -516,10 +516,27 @@ body {
 .message {
     margin-bottom: 1.5rem;
     animation: fadeIn 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-.message.user {
-    text-align: right;
+/* User messages on the RIGHT */
+.message.user-message {
+    align-items: flex-end;
+}
+
+/* Assistant (Lumi) messages on the LEFT */
+.message.assistant-message {
+    align-items: flex-start;
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
 }
 
 .message-content {
@@ -531,15 +548,58 @@ body {
     line-height: 1.5;
 }
 
-.message.user .message-content {
+/* User message styles - RIGHT side, blue background */
+.message.user-message .message-content {
     background: var(--accent-primary);
     color: var(--bg-primary);
+    border-radius: 18px 18px 4px 18px;
 }
 
-.message.ai .message-content {
+/* Assistant message styles - LEFT side, dark background */
+.message.assistant-message .message-content {
     background: var(--bg-tertiary);
     color: var(--text-primary);
     border: 1px solid var(--border-primary);
+    border-radius: 18px 18px 18px 4px;
+}
+
+/* Typing indicator animation */
+.typing-indicator .message-content {
+    padding: 1rem 1.5rem;
+}
+
+.typing-dots {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 20px;
+}
+
+.typing-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    animation: typingAnimation 1.4s infinite;
+}
+
+.typing-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typingAnimation {
+    0%, 60%, 100% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
 }
 
 .message-time {
