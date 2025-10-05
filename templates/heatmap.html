@@ -6,7 +6,7 @@
     <title>BioKnowdes - Heatmap</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-<body>
+<body class="heatmap-body">
     <header>
         <div class="logo">
             <a href="/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
@@ -21,7 +21,7 @@
                 <div class="dropdown-menu">
                     <a href="/">Home</a>
                     <a href="/graph">Search</a>
-                    <a href="/heatmap" class="heatmap-link">Heatmap</a>
+                    <a href="/heatmap_cosine" class="heatmap-link">Heatmap</a>
                     <a href="/ask-lumi">Ask Lumi</a>
                 </div>
             </div>
@@ -31,10 +31,9 @@
     <main class="content-section">
         <div class="heatmap-container">
             <div class="heatmap-header">
-                <h1 class="heatmap-title">Similarity Heatmap</h1>
-                <p class="heatmap-subtitle">Interactive visualization of the similarity between the 30 most connected articles in the network</p>
+                <h1 class="heatmap-title"></h1>
+                <p class="heatmap-subtitle"></p>
             </div>
-            
             <div class="heatmap-chart">
                 {{ heatmap_div|safe }}
             </div>

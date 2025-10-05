@@ -15,6 +15,9 @@ import subprocess
 from werkzeug.utils import secure_filename
 import PyPDF2
 import docx
+from sklearn.metrics.pairwise import cosine_similarity
+import random 
+
 
 # AI Provider imports
 try:
@@ -543,36 +546,56 @@ def create_graph(query="", filters=None):
     graph_cache[cache_key] = graph_html
     
     return graph_html
-def create_interactive_heatmap(top_n=30):
+
+# Sua função, agora revisada
+def create_interactive_heatmap_cosine(top_n=30, gpickle_path="grafo_keywords.gpickle"):
     """
-    Cria um heatmap interativo com os 'top_n' nós mais conectados.
+    Cria um heatmap interativo de similaridade de cosseno entre 'top_n' nós 
+    selecionados aleatoriamente de um pool dos mais conectados.
     """
     try:
-        print("--- Iniciando create_interactive_heatmap ---")
-        
-        with open("grafo_keywords.gpickle", "rb") as f:
+        # Carrega o grafo
+        with open(gpickle_path, "rb") as f:
             g = pickle.load(f)
-        print(f"Grafo carregado com {g.number_of_nodes()} nós.")
-        
+        print(f"Grafo carregado com {g.number_of_nodes()} nós e {g.number_of_edges()} arestas.")
+
+        # Ajusta top_n se houver menos nós
         if g.number_of_nodes() < top_n:
             top_n = g.number_of_nodes()
 
-        top_nodes = sorted(g.degree, key=lambda item: item[1], reverse=True)[:top_n]
-        top_node_names = [node for node, degree in top_nodes]
-        print(f"Encontrados {len(top_node_names)} nós principais.")
+        # --- INÍCIO DA MODIFICAÇÃO ---
+        # 1. Defina o tamanho do grupo de onde vamos sortear. 100 é um bom número.
+        pool_size = 100
+        if g.number_of_nodes() < pool_size:
+            pool_size = g.number_of_nodes()
+
+        # 2. Seleciona o grupo maior de nós com maior grau
+        top_nodes_pool = sorted(g.degree, key=lambda item: item[1], reverse=True)[:pool_size]
+        top_node_names_pool = [node for node, _ in top_nodes_pool]
+
+        # 3. Sorteia 'top_n' nós DE DENTRO desse grupo
+        top_node_names = random.sample(top_node_names_pool, top_n)
         
+        print(f"{len(top_node_names)} nós principais selecionados aleatoriamente de um pool de {pool_size}.")
+        # --- FIM DA MODIFICAÇÃO ---
+
+
+        # O restante da função continua exatamente igual
         subgraph = g.subgraph(top_node_names)
-        print("Subgrafo criado.")
+        print("Subgrafo criado com sucesso.")
+
+        adj_matrix = nx.to_numpy_array(subgraph, nodelist=top_node_names)
+        print("Matriz de adjacência criada. Shape:", adj_matrix.shape)
+
+        cosine_sim = cosine_similarity(adj_matrix)
+        print("Matriz de similaridade de cosseno calculada.")
         
-        dist_matrix = pd.DataFrame(nx.floyd_warshall_numpy(subgraph),
-                                   index=subgraph.nodes(), columns=subgraph.nodes())
-        similarity_matrix = 1 / (1 + dist_matrix)
-        print("Matriz de similaridade calculada. Shape:", similarity_matrix.shape)
-        
+        similarity_matrix = pd.DataFrame(cosine_sim, index=top_node_names, columns=top_node_names)
+
         short_labels = [label.replace('.pdf', '')[:40] for label in similarity_matrix.index]
         similarity_matrix.index = short_labels
         similarity_matrix.columns = short_labels
-        
+
         fig = go.Figure(data=go.Heatmap(
             z=similarity_matrix.values,
             x=similarity_matrix.columns,
@@ -581,10 +604,9 @@ def create_interactive_heatmap(top_n=30):
             hoverongaps=False,
             hovertemplate='Artigo 1: %{y}<br>Artigo 2: %{x}<br>Similaridade: %{z:.2f}<extra></extra>'
         ))
-        print("Figura do Plotly criada.")
-        
+
         fig.update_layout(
-            title=f'Heatmap de Similaridade entre os {top_n} Artigos Principais',
+            title=f'Heatmap de Similaridade de Cosseno (Top {top_n} Artigos Amostrados)',
             template='plotly_dark',
             width=800,
             height=800,
@@ -593,18 +615,26 @@ def create_interactive_heatmap(top_n=30):
             yaxis_showgrid=False,
             yaxis_autorange='reversed'
         )
-        print("Layout da figura atualizado.")
-        
-        heatmap_div = fig.to_html(full_html=False, include_plotlyjs='cdn')
-        print("--- Finalizado: Convertido para HTML div com sucesso. ---")
-        return heatmap_div
+
+        print("Heatmap de cosseno criado com sucesso.")
+        return fig.to_html(full_html=False, include_plotlyjs='cdn')
 
     except Exception as e:
-        print(f"!!!!!! OCORREU UM ERRO DENTRO DE create_interactive_heatmap !!!!!!")
-        print(f"Erro: {e}")
+        print("!!!!!! ERRO em create_interactive_heatmap_cosine !!!!!!")
+        print("Erro:", e)
         import traceback
         traceback.print_exc()
-        return "<h1>Ocorreu um erro ao gerar o gráfico. Verifique o terminal do servidor.</h1>"
+        return "<h1>Erro ao gerar o heatmap de similaridade de cosseno. Verifique o log do servidor.</h1>"
+
+# Sua rota Flask não precisa de nenhuma alteração
+@app.route('/heatmap_cosine')
+def heatmap_cosine_page():
+    """
+    Rota Flask para exibir o heatmap de similaridade de cosseno.
+    """
+    heatmap_div = create_interactive_heatmap_cosine()
+    return render_template('heatmap.html', heatmap_div=heatmap_div)
+
 
 # ============================================================================
 # ROUTES - Original Project (Graph/Heatmap)
@@ -644,14 +674,6 @@ def get_keywords():
     }
     
     return jsonify(categorized_keywords)
-
-@app.route('/heatmap')
-def heatmap_page():
-    """
-    Renderiza a página que exibe o heatmap interativo.
-    """
-    heatmap_div = create_interactive_heatmap()
-    return render_template('heatmap.html', heatmap_div=heatmap_div)
 
 # ============================================================================
 # ROUTES - BioKnowdes (AI Chat, Articles, Settings)
@@ -1083,5 +1105,5 @@ def api_settings():
 
 if __name__ == '__main__':
     create_graph("")
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 3000))
     app.run(host='0.0.0.0', port=port, debug=False)

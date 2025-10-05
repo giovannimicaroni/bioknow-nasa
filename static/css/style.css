@@ -33,7 +33,7 @@ body {
     overflow: hidden !important;
 }
 
-body:not(.graph-body) {
+body:not(.graph-body, .heatmap-body) {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/gif_tunnel.gif');
     background-size: cover;
     background-position: center;
