@@ -317,11 +317,11 @@ def call_lm_studio_api(messages):
 
 def create_graph(query="", filters=None):
     """
-    Cria o grafo com busca e filtros
+    Creates graph with search and filters
     
     Args:
-        query: termo de busca para destacar nós
-        filters: dict com filtros, ex: {'keywords': ['mars', 'biology']}
+        query: search term to highlight nodes
+        filters: dict with filters, e.g., {'keywords': ['mars', 'biology']}
     """
     filter_key = str(sorted(filters.items())) if filters else ""
     cache_key = f"{query.lower()}_{filter_key}"
@@ -334,23 +334,28 @@ def create_graph(query="", filters=None):
     
     filtered_graph = g.copy()
     
+    # Apply keyword filters if present
     if filters and 'keywords' in filters and filters['keywords']:
-        keywords = [k.lower() for k in filters['keywords']]
+        keywords = [k.lower().strip() for k in filters['keywords']]
         
         nodes_to_keep = set()
         for node in g.nodes():
             node_lower = node.lower()
             
+            # Check if keyword matches node title/name
             title_match = any(keyword in node_lower for keyword in keywords)
             
+            # Check node attributes for keyword matches
             attribute_match = False
             node_data = g.nodes[node]
             
+            # Check 'keywords' attribute
             if 'keywords' in node_data:
                 keyword_attr = node_data['keywords']
                 
                 if isinstance(keyword_attr, dict):
-                    all_keyword_phrases = ' '.join(keyword_attr.keys()).lower()
+                    # Join all keys and check
+                    all_keyword_phrases = ' '.join(str(k).lower() for k in keyword_attr.keys())
                     attribute_match = any(keyword in all_keyword_phrases for keyword in keywords)
                 
                 elif isinstance(keyword_attr, str):
@@ -358,31 +363,45 @@ def create_graph(query="", filters=None):
                     attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
                 
                 elif isinstance(keyword_attr, list):
-                    keyword_attr_lower = [k.lower() for k in keyword_attr]
-                    attribute_match = any(keyword in ' '.join(keyword_attr_lower) for keyword in keywords)
+                    # Join all list items and check
+                    keyword_attr_lower = ' '.join(str(k).lower() for k in keyword_attr)
+                    attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
             
+            # Check 'keyword' attribute (singular)
             if 'keyword' in node_data and not attribute_match:
                 keyword_attr = node_data['keyword']
                 if isinstance(keyword_attr, str):
                     keyword_attr_lower = keyword_attr.lower()
                     attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
                 elif isinstance(keyword_attr, list):
-                    keyword_attr_lower = [k.lower() for k in keyword_attr]
-                    attribute_match = any(keyword in ' '.join(keyword_attr_lower) for keyword in keywords)
+                    keyword_attr_lower = ' '.join(str(k).lower() for k in keyword_attr)
+                    attribute_match = any(keyword in keyword_attr_lower for keyword in keywords)
             
+            # Check 'full_name' attribute
             if 'full_name' in node_data and not title_match and not attribute_match:
-                full_name_lower = node_data['full_name'].lower()
+                full_name_lower = str(node_data['full_name']).lower()
                 title_match = any(keyword in full_name_lower for keyword in keywords)
             
+            # Keep node if any match found
             if title_match or attribute_match:
                 nodes_to_keep.add(node)
         
+        # Remove nodes that don't match
         nodes_to_remove = set(g.nodes()) - nodes_to_keep
         filtered_graph.remove_nodes_from(nodes_to_remove)
     
+    # Handle empty results
     if len(filtered_graph.nodes()) == 0:
-        return "<html><body style='background:#000;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:system-ui;'><h2>No results found for the selected filters</h2></body></html>"
+        return """
+        <html>
+        <body style='background:#000;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:system-ui;flex-direction:column;'>
+            <h2>No results found for the selected filters</h2>
+            <p style='color:#888;margin-top:1rem;'>Try different keywords or clear filters</p>
+        </body>
+        </html>
+        """
     
+    # Create visualization network
     net = Network(height="100vh", width="100%", bgcolor="#000000", font_color="white")
     
     search_term = query.lower() if query else ""
@@ -393,16 +412,56 @@ def create_graph(query="", filters=None):
             if search_term in node.lower():
                 matching_nodes.append(node)
     
+    # Add nodes to network
     for node in filtered_graph.nodes():
         title = node.replace(".pdf", "")
+        node_data = filtered_graph.nodes[node]
         
+        # Build tooltip with title and keywords
+        tooltip_parts = [f"<div style='max-width:400px;'><b style='font-size:14px;color:#87ceff;'>{title}</b>"]
+        
+        # Extract keywords from node
+        keywords_list = []
+        if 'keywords' in node_data:
+            keyword_attr = node_data['keywords']
+            if isinstance(keyword_attr, dict):
+                keywords_list = list(keyword_attr.keys())
+            elif isinstance(keyword_attr, str):
+                keywords_list = [keyword_attr]
+            elif isinstance(keyword_attr, list):
+                keywords_list = keyword_attr
+        elif 'keyword' in node_data:
+            keyword_attr = node_data['keyword']
+            if isinstance(keyword_attr, str):
+                keywords_list = [keyword_attr]
+            elif isinstance(keyword_attr, list):
+                keywords_list = keyword_attr
+        
+        # Add keywords to tooltip if they exist
+        if keywords_list:
+            tooltip_parts.append("<div style='margin-top:8px;padding-top:8px;border-top:1px solid #444;'>")
+            tooltip_parts.append("<b style='color:#ff6e54;font-size:12px;'>Keywords:</b>")
+            tooltip_parts.append("<ul style='margin:4px 0;padding-left:20px;font-size:11px;line-height:1.4;'>")
+            for kw in keywords_list[:10]:  # Limit to 10 keywords
+                tooltip_parts.append(f"<li>{kw}</li>")
+            if len(keywords_list) > 10:
+                tooltip_parts.append(f"<li><i>... and {len(keywords_list)-10} more keywords</i></li>")
+            tooltip_parts.append("</ul></div>")
+        
+        tooltip_parts.append("</div>")
+        tooltip_html = "".join(tooltip_parts)
+        
+        # Highlight matching nodes
         if node in matching_nodes:
-            net.add_node(node, label=title, color='#ff6e54', size=30, title=f"<b>MATCH:</b><br>{title}")
+            tooltip_html = f"<div style='max-width:400px;'><b style='color:#ff6e54;'>🔍 MATCH</b><br>{tooltip_html}</div>"
+            net.add_node(node, label=title, color='#ff6e54', size=30, title=tooltip_html)
         else:
-            net.add_node(node, label=title, color='#87ceff', size=15, title=title)
+            net.add_node(node, label=title, color='#87ceff', size=15, title=tooltip_html)
     
+    # Add edges
     net.add_edges(filtered_graph.edges())
     
+    # Set physics options
     net.set_options("""
     {
       "physics": {
@@ -433,8 +492,10 @@ def create_graph(query="", filters=None):
     }
     """)
     
+    # Generate HTML
     graph_html = net.generate_html()
     
+    # Add custom CSS
     custom_css = """
     <style>
         #loadingBar {
@@ -443,9 +504,19 @@ def create_graph(query="", filters=None):
         #mynetwork {
             background-color: #000000;
         }
+        .vis-tooltip {
+            background-color: #1a1a1a !important;
+            border: 1px solid #444 !important;
+            color: #fff !important;
+            font-family: system-ui, -apple-system, sans-serif !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+            padding: 12px !important;
+            border-radius: 6px !important;
+        }
     </style>
     """
     
+    # Add custom JS
     custom_js = """
     <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -468,10 +539,10 @@ def create_graph(query="", filters=None):
     graph_html = graph_html.replace('</head>', custom_css + '</head>')
     graph_html = graph_html.replace('</body>', custom_js)
     
+    # Cache the result
     graph_cache[cache_key] = graph_html
     
     return graph_html
-
 def create_interactive_heatmap(top_n=30):
     """
     Cria um heatmap interativo com os 'top_n' nós mais conectados.

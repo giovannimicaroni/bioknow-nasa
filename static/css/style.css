@@ -388,6 +388,96 @@ nav a:hover {
 .keywords-container::-webkit-scrollbar-thumb:hover {
     background: #6b7280;
 }
+/* Custom Keywords Input Group */
+.custom-keyword-input-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.custom-keyword-input-group .filter-input {
+    flex: 1;
+}
+
+.btn-add-keyword {
+    background: linear-gradient(135deg, #22a7c5 0%, #155e80 100%);
+    border: none;
+    color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.btn-add-keyword:hover {
+    background: linear-gradient(135deg, #155e80 0%, #0d3a52 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(34, 167, 197, 0.4);
+}
+
+.btn-add-keyword i {
+    font-size: 1rem;
+}
+
+/* Custom Keywords List */
+.custom-keywords-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(31, 41, 55, 0.4);
+    border-radius: 6px;
+    min-height: 44px;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+}
+
+.custom-keywords-list:empty {
+    display: none;
+}
+
+.custom-keyword-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #22a7c5 0%, #155e80 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.remove-custom {
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.2s ease;
+    margin-left: 2px;
+    line-height: 1;
+}
+
+.remove-custom:hover {
+    color: #ff6b6b;
+}
 
 /* --- Category Styles --- */
 .category-header {

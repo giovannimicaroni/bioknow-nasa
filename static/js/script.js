@@ -2,6 +2,7 @@
 let preloadedBlobUrl = null;
 let allKeywords = [];
 let selectedKeywords = new Set();
+let customKeywords = new Set(); // ADD THIS LINE
 
 // Preload graph data on landing page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
@@ -60,6 +61,70 @@ function initializeFilters() {
     
     // Setup event listeners
     setupFilterListeners();
+    
+    // Setup custom keywords listeners
+    setupCustomKeywordsListeners();
+}
+
+function setupCustomKeywordsListeners() {
+    const customInput = document.getElementById('custom-keyword-input');
+    const addBtn = document.getElementById('add-custom-keyword');
+    
+    if (customInput && addBtn) {
+        // Add keyword on button click
+        addBtn.addEventListener('click', () => {
+            addCustomKeyword();
+        });
+        
+        // Add keyword on Enter key
+        customInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                addCustomKeyword();
+            }
+        });
+    }
+}
+
+function addCustomKeyword() {
+    const input = document.getElementById('custom-keyword-input');
+    const keyword = input.value.trim();
+    
+    if (keyword && keyword.length > 0) {
+        customKeywords.add(keyword);
+        input.value = '';
+        renderCustomKeywords();
+        updateSelectedCount();
+    }
+}
+
+function removeCustomKeyword(keyword) {
+    customKeywords.delete(keyword);
+    renderCustomKeywords();
+    updateSelectedCount();
+}
+
+function renderCustomKeywords() {
+    const container = document.getElementById('custom-keywords-container');
+    
+    if (!container) return;
+    
+    if (customKeywords.size === 0) {
+        container.innerHTML = '';
+        return;
+    }
+    
+    container.innerHTML = '';
+    
+    customKeywords.forEach(keyword => {
+        const tag = document.createElement('div');
+        tag.className = 'custom-keyword-tag';
+        tag.innerHTML = `
+            <span>${keyword}</span>
+            <span class="remove-custom" onclick="removeCustomKeyword('${keyword}')">&times;</span>
+        `;
+        container.appendChild(tag);
+    });
 }
 
 function loadKeywords() {
@@ -197,7 +262,8 @@ function toggleKeywordSelection(keyword, isSelected) {
 
 function updateSelectedCount() {
     const countBadge = document.getElementById('selected-count');
-    countBadge.textContent = `${selectedKeywords.size} selected`;
+    const totalSelected = selectedKeywords.size + customKeywords.size;
+    countBadge.textContent = `${totalSelected} selected`;
 }
 
 function setupFilterListeners() {
@@ -280,31 +346,53 @@ function applyFilters() {
     let url = '/get_graph_data';
     const params = new URLSearchParams();
     
+    // Add search query if exists
     if (query && query !== 'N/A') {
         params.append('query', query);
     }
     
+    // Combine selected keywords from checkboxes AND custom keywords
+    const allSelectedKeywords = new Set();
+    
+    // Add checked keywords from the list
     selectedKeywords.forEach(keyword => {
-        params.append('filter_keywords[]', keyword);
+        allSelectedKeywords.add(keyword);
+    });
+    
+    // Add custom keywords
+    customKeywords.forEach(keyword => {
+        allSelectedKeywords.add(keyword);
+    });
+    
+    // Add all keywords as filter parameters
+    allSelectedKeywords.forEach(keyword => {
+        params.append('filter_keywords[]', keyword.trim());
     });
     
     if (params.toString()) {
         url += '?' + params.toString();
     }
     
-    console.log('Applying filters:', url);
+    console.log('Applying filters with URL:', url);
+    console.log('Selected keywords:', Array.from(selectedKeywords));
+    console.log('Custom keywords:', Array.from(customKeywords));
+    console.log('All keywords being sent:', Array.from(allSelectedKeywords));
+    
+    // Reload iframe with new filters
     iframe.src = url;
 }
 
 function clearFilters() {
     // Uncheck all checkboxes
     selectedKeywords.clear();
+    customKeywords.clear();
     
     const checkboxes = document.querySelectorAll('.keyword-checkbox');
     checkboxes.forEach(checkbox => {
         checkbox.checked = false;
     });
     
+    renderCustomKeywords();
     updateSelectedCount();
     
     // Reload graph without filters
