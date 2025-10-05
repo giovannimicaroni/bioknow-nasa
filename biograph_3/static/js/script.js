@@ -310,21 +310,95 @@ function clearFilters() {
     // Reload graph without filters
     loadInitialGraph();
 }
+
 // Dropdown menu toggle
 document.addEventListener('DOMContentLoaded', () => {
     const dropdown = document.querySelector('.dropdown');
     const toggle = document.querySelector('.dropdown-toggle');
 
-    toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        dropdown.classList.toggle('open');
-    });
+    if (toggle && dropdown) {
+        toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdown.classList.toggle('open');
+        });
 
-    // Fechar menu se clicar fora
-    document.addEventListener('click', () => {
-        dropdown.classList.remove('open');
-    });
+        // Close menu if clicking outside
+        document.addEventListener('click', () => {
+            dropdown.classList.remove('open');
+        });
+    }
 });
 
+// === Chat Bot Functionality ===
+document.addEventListener('DOMContentLoaded', () => {
+    const chatBalloon = document.getElementById('chat-bot-balloon');
+    const chatWindow = document.getElementById('chat-bot-window');
+    const chatClose = document.getElementById('chat-close');
+    const chatInput = document.getElementById('chat-input');
+    const chatSend = document.getElementById('chat-send');
+    const chatMessages = document.getElementById('chat-messages');
 
+    // Toggle chat window
+    if (chatBalloon) {
+        chatBalloon.addEventListener('click', () => {
+            chatWindow.classList.toggle('active');
+            if (chatWindow.classList.contains('active')) {
+                chatInput.focus();
+            }
+        });
+    }
 
+    // Close chat window
+    if (chatClose) {
+        chatClose.addEventListener('click', (e) => {
+            e.stopPropagation();
+            chatWindow.classList.remove('active');
+        });
+    }
+
+    // Send message function
+    function sendMessage() {
+        const message = chatInput.value.trim();
+        if (!message) return;
+
+        // Remove empty state if it exists
+        const emptyState = chatMessages.querySelector('.chat-empty-state');
+        if (emptyState) {
+            emptyState.remove();
+        }
+
+        // Add user message
+        addMessage(message, 'user');
+        chatInput.value = '';
+        // INTEGRAR O CHATBOT AQUI
+        // Simulate bot response (replace with actual API call)
+        setTimeout(() => {
+            addMessage('Thanks for your message! I\'m still learning. Check back soon for full chat capabilities!', 'bot');
+        }, 1000);
+    }
+
+    // Add message to chat
+    function addMessage(text, sender) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${sender}`;
+        messageDiv.textContent = text;
+        chatMessages.appendChild(messageDiv);
+        
+        // Scroll to bottom
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // Send button click
+    if (chatSend) {
+        chatSend.addEventListener('click', sendMessage);
+    }
+
+    // Enter key to send
+    if (chatInput) {
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    }
+});

@@ -40,16 +40,27 @@
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
-    <!-- Chat Bot Balloon -->
+    <!-- Chat Bot -->
     <div id="chat-bot-container">
         <div id="chat-bot-balloon"></div>
         <div id="chat-bot-window">
             <div id="chat-header">
-                Chat with Lumi
-                <span id="chat-close">✖</span>
+                <h3>Chat with Lumi</h3>
+                <button id="chat-close">✕</button>
             </div>
-            <div id="chat-messages"></div>
-            <input type="text" id="chat-input" placeholder="Type your message..." />
+            <div id="chat-messages">
+                <div class="chat-empty-state">
+                    <div class="chat-empty-state-icon">🤖</div>
+                    <div class="chat-empty-state-text">
+                        Hi! I'm Lumi, your space research assistant.<br>
+                        Ask me anything about the experiments!
+                    </div>
+                </div>
+            </div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask a question..." />
+                <button id="chat-send">➤</button>
+            </div>
         </div>
     </div>
 
