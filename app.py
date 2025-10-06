@@ -98,8 +98,10 @@ windows_ip = get_windows_host_ip()
 LM_STUDIO_URL = os.getenv('LM_STUDIO_URL', f'http://{windows_ip}:3000/v1/chat/completions')
 LM_STUDIO_MODEL = os.getenv('LM_STUDIO_MODEL', 'deepseek/deepseek-r1-0528-qwen3-8b')
 
-print(f"🔗 LM Studio URL: {LM_STUDIO_URL}")
-print(f"🤖 Model: {LM_STUDIO_MODEL}")
+# Disabled for production - using OpenAI only
+# print(f"🔗 LM Studio URL: {LM_STUDIO_URL}")
+# print(f"🤖 Model: {LM_STUDIO_MODEL}")
+print("🔗 AI Provider: OpenAI (production mode)")
 
 # Cache global para o grafo HTML
 graph_cache = {}
@@ -1086,6 +1088,14 @@ def initialize_amanda_agent():
         import traceback
         traceback.print_exc()
         return False
+
+# Initialize agents at module import time (for production deployment)
+print("🚀 Starting BioKnowdes with AmandaChatbot integration...")
+amanda_initialized = initialize_amanda_agent()
+if amanda_initialized:
+    print("✅ AmandaChatbot successfully integrated!")
+else:
+    print("⚠️  AmandaChatbot not available - continuing without it")
 
 # ============================================================================
 # AWS S3 FUNCTIONS
@@ -2330,14 +2340,5 @@ def homepage_chat():
 
 if __name__ == '__main__':
     create_graph("")
-    
-    # Initialize AmandaChatbot
-    print("🚀 Starting BioKnowdes with AmandaChatbot integration...")
-    amanda_initialized = initialize_amanda_agent()
-    if amanda_initialized:
-        print("✅ AmandaChatbot successfully integrated!")
-    else:
-        print("⚠️  AmandaChatbot not available (Ollama not running or dependencies missing)")
-    
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
