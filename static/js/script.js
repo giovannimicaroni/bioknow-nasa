@@ -1,24 +1,9 @@
 // Global variables
-let preloadedBlobUrl = null;
 let allKeywords = [];
 let selectedKeywords = new Set();
 let customKeywords = new Set(); // ADD THIS LINE
 
-// Preload graph data on landing page
-if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-    console.log('Starting graph preload...');
-    
-    fetch('/get_graph_data')
-        .then(response => response.blob())
-        .then(blob => {
-            preloadedBlobUrl = URL.createObjectURL(blob);
-            sessionStorage.setItem('graphBlobUrl', preloadedBlobUrl);
-            console.log('Graph preloaded successfully!');
-        })
-        .catch(error => {
-            console.error('Preload failed:', error);
-        });
-}
+// No preloading needed - removed for security compliance
 
 // Load graph on graph page
 document.addEventListener('DOMContentLoaded', () => {
@@ -39,15 +24,8 @@ function loadInitialGraph() {
         console.log('Loading searched graph for:', query);
         iframe.src = `/get_graph_data?query=${encodeURIComponent(query)}`;
     } else {
-        const cachedBlobUrl = sessionStorage.getItem('graphBlobUrl');
-        
-        if (cachedBlobUrl) {
-            console.log('Using preloaded graph from blob URL!');
-            iframe.src = cachedBlobUrl;
-        } else {
-            console.log('No cache found, loading normally...');
-            iframe.src = '/get_graph_data';
-        }
+        console.log('Loading graph normally...');
+        iframe.src = '/get_graph_data';
     }
 
     iframe.addEventListener('load', () => {
