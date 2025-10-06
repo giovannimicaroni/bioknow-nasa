@@ -46,21 +46,62 @@ class ArticleRanker:
                 })
     
     def load_embeddings_cache(self):
-        """Load embeddings cache from file."""
+        """Load embeddings cache from file or external URL."""
+        # Try local cache first
         try:
             with open(self.cache_file, 'r') as f:
                 self.embeddings_cache = json.load(f)
-            print(f"✓ Loaded {len(self.embeddings_cache)} cached embeddings")
+            print(f"✓ Loaded {len(self.embeddings_cache)} cached embeddings from local file")
+            return
         except FileNotFoundError:
-            print("📦 Creating new embeddings cache...")
-            self.embeddings_cache = {}
+            pass
+        
+        # Try downloading from external URL (for Heroku)
+        import os
+        cache_url = os.getenv('EMBEDDINGS_CACHE_URL')
+        if cache_url:
+            print(f"📥 Downloading embeddings cache from {cache_url}...")
+            try:
+                import requests
+                response = requests.get(cache_url, timeout=30)
+                response.raise_for_status()
+                self.embeddings_cache = response.json()
+                print(f"✓ Loaded {len(self.embeddings_cache)} cached embeddings from external URL")
+                return
+            except Exception as e:
+                print(f"❌ Failed to download cache: {e}")
+        
+        # Fallback: create new cache if possible
+        print("📦 No cache found. Checking if we can create one...")
+        self.embeddings_cache = {}
+        
+        # Check if we're in a read-only environment (like Heroku)
+        if self.openai_api_key and self._can_write_cache():
+            print("🔄 Precomputing embeddings cache...")
             self.precompute_article_embeddings()
+        else:
+            print("⚠️ Read-only environment detected. Using on-demand embeddings.")
+    
+    def _can_write_cache(self):
+        """Check if we can write to the filesystem."""
+        try:
+            test_file = f"{self.cache_file}.test"
+            with open(test_file, 'w') as f:
+                f.write('test')
+            import os
+            os.remove(test_file)
+            return True
+        except (OSError, PermissionError):
+            return False
     
     def save_embeddings_cache(self):
         """Save embeddings cache to file."""
-        with open(self.cache_file, 'w') as f:
-            json.dump(self.embeddings_cache, f)
-        print(f"💾 Saved {len(self.embeddings_cache)} embeddings to cache")
+        try:
+            with open(self.cache_file, 'w') as f:
+                json.dump(self.embeddings_cache, f)
+            print(f"💾 Saved {len(self.embeddings_cache)} embeddings to cache")
+        except (OSError, PermissionError):
+            print("⚠️ Cannot save cache in read-only environment")
     
     def precompute_article_embeddings(self):
         """Precompute embeddings for all articles."""
@@ -113,32 +154,43 @@ class ArticleRanker:
     
     def rank_by_embeddings(self, query_keywords: List[str], top_n: int = 5) -> List[Dict]:
         """
-        Rank articles using cached OpenAI embeddings.
+        Rank articles using cached OpenAI embeddings, with fallback for read-only environments.
         
         Returns:
             List of dicts with article metadata and relevance scores
         """
         query_text = " ".join(query_keywords)
         
-        # Cache query embeddings too
+        # Cache query embeddings if possible
         query_cache_key = f"query_{hash(query_text)}"
         if query_cache_key in self.embeddings_cache:
             query_embedding = self.embeddings_cache[query_cache_key]
         else:
             query_embedding = self.get_openai_embedding(query_text)
-            self.embeddings_cache[query_cache_key] = query_embedding
+            if self._can_write_cache():
+                self.embeddings_cache[query_cache_key] = query_embedding
+        
+        # If we don't have cached embeddings and can't write cache (Heroku), 
+        # use keyword matching for pre-filtering to reduce API calls
+        if not self.embeddings_cache or len([k for k in self.embeddings_cache.keys() if k.startswith('article_')]) < len(self.articles) // 2:
+            # Pre-filter articles using keyword matching to reduce embeddings needed
+            candidate_articles = self._prefilter_articles_by_keywords(query_keywords, top_n * 3)
+        else:
+            # Use all articles if we have good cache coverage
+            candidate_articles = [(idx, article) for idx, article in enumerate(self.articles)]
         
         scores = []
-        for idx, article in enumerate(self.articles):
-            # Use cached article embedding
+        for idx, article in candidate_articles:
+            # Use cached article embedding if available
             cache_key = f"article_{idx}"
             if cache_key in self.embeddings_cache:
                 article_embedding = self.embeddings_cache[cache_key]
             else:
-                # Fallback: compute if not cached (shouldn't happen)
+                # Compute embedding on-demand
                 article_text = " ".join(article['keywords'])
                 article_embedding = self.get_openai_embedding(article_text)
-                self.embeddings_cache[cache_key] = article_embedding
+                if self._can_write_cache():
+                    self.embeddings_cache[cache_key] = article_embedding
             
             similarity = self.cosine_similarity(query_embedding, article_embedding)
             scores.append({
@@ -151,6 +203,21 @@ class ArticleRanker:
         
         scores.sort(key=lambda x: x['score'], reverse=True)
         return scores[:top_n]
+    
+    def _prefilter_articles_by_keywords(self, query_keywords: List[str], limit: int = 15) -> List[tuple]:
+        """Pre-filter articles by keyword overlap to reduce embedding API calls."""
+        query_words = set(word.lower() for word in query_keywords)
+        
+        scores = []
+        for idx, article in enumerate(self.articles):
+            article_words = set(word.lower() for word in article['keywords'])
+            overlap = len(query_words.intersection(article_words))
+            if overlap > 0:
+                scores.append((overlap, idx, article))
+        
+        # Sort by keyword overlap and return top candidates
+        scores.sort(reverse=True, key=lambda x: x[0])
+        return [(idx, article) for _, idx, article in scores[:limit]]
     
     def get_article_by_id(self, article_id: int) -> Dict:
         """Retrieve full article metadata by ID."""
