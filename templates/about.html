@@ -6,6 +6,18 @@
     <title>About Us - BioKnowdes</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        main {
+            margin-top: 80px;
+        }
+        
         .about-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -15,6 +27,8 @@
         .about-header {
             text-align: center;
             margin-bottom: 60px;
+            margin-top: 80px;
+
         }
 
         .about-header h1 {
@@ -107,6 +121,26 @@
             text-align: center;
             margin-top: 60px;
         }
+
+        html, body {
+            height: 100%;
+            overflow-y: auto; /* permite rolagem vertical */
+            overflow-x: hidden; /* evita rolagem lateral */
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* garante altura mínima de tela */
+        }
+
+        main {
+            flex: 1;
+            overflow-y: auto; /* rola o conteúdo do main se precisar */
+        }
+
     </style>
 </head>
 <body>
