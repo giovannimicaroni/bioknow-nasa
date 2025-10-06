@@ -31,6 +31,9 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from pydantic import BaseModel, Field
 import numpy as np
 
+# Import unified session manager
+from session_manager import session_manager
+
 # AI Provider imports
 try:
     import openai
@@ -1770,6 +1773,10 @@ def chat():
     external_session_id = request.args.get('session_id')
     if external_session_id:
         session['session_id'] = external_session_id
+    elif not session.get('session_id'):
+        # Create new session if none exists
+        session['session_id'] = str(uuid.uuid4())
+    
     return render_template('chat.html')
 
 @app.route('/ask-lumi/settings')
@@ -1812,16 +1819,8 @@ def upload_file():
             session_id = str(uuid.uuid4())
             session['session_id'] = session_id
         
-        session_file = f'sessions/{session_id}.json'
-        
-        documents = []
-        if os.path.exists(session_file):
-            try:
-                with open(session_file, 'r', encoding='utf-8') as f:
-                    existing_data = json.load(f)
-                    documents = existing_data.get('documents', [])
-            except:
-                documents = []
+        # Get existing documents using session manager
+        documents = session_manager.get_session_documents(session_id)
         
         document_id = str(uuid.uuid4())
         new_document = {
@@ -1837,12 +1836,8 @@ def upload_file():
         if len(documents) > 10:
             documents = documents[-10:]
         
-        session_data = {
-            'documents': documents
-        }
-        
-        with open(session_file, 'w', encoding='utf-8') as f:
-            json.dump(session_data, f, ensure_ascii=False)
+        # Save documents using session manager
+        session_manager.save_session_documents(session_id, documents)
         
         return jsonify({
             'success': True,
@@ -1866,21 +1861,15 @@ def ask_lumi():
         
         session_id = session.get('session_id')
         if not session_id:
-            return jsonify({'error': 'No session found'}), 400
+            # Create new session if none exists
+            session_id = str(uuid.uuid4())
+            session['session_id'] = session_id
         
-        # Ensure sessions directory exists
-        sessions_dir = 'sessions'
-        if not os.path.exists(sessions_dir):
-            os.makedirs(sessions_dir)
-        
-        session_file = f'sessions/{session_id}.json'
-        if not os.path.exists(session_file):
+        # Get documents using session manager
+        documents = session_manager.get_session_documents(session_id)
+        if not documents:
             return jsonify({'error': 'No documents loaded. Please load some articles first.'}), 400
         
-        with open(session_file, 'r', encoding='utf-8') as f:
-            session_data = json.load(f)
-        
-        documents = session_data.get('documents', [])
         selected_docs = [doc for doc in documents if doc.get('selected', False)]
         
         if not selected_docs:
@@ -1894,11 +1883,8 @@ def ask_lumi():
         # Validate total context size to prevent API errors
         context = validate_total_context(context)
         
-        settings_file = f'sessions/{session_id}_settings.json'
-        settings = {}
-        if os.path.exists(settings_file):
-            with open(settings_file, 'r') as f:
-                settings = json.load(f)
+        # Get settings using session manager
+        settings = session_manager.get_session_settings(session_id)
         
         provider = settings.get('provider', 'lm_studio')
         
@@ -1927,14 +1913,9 @@ def get_documents():
     if not session_id:
         return jsonify({'documents': []})
     
-    session_file = f'sessions/{session_id}.json'
-    if not os.path.exists(session_file):
-        return jsonify({'documents': []})
-    
     try:
-        with open(session_file, 'r', encoding='utf-8') as f:
-            session_data = json.load(f)
-        documents = session_data.get('documents', [])
+        # Get documents using session manager
+        documents = session_manager.get_session_documents(session_id)
         
         doc_list = []
         for doc in documents:
@@ -2263,8 +2244,8 @@ def homepage_chat():
     # Use the AI-driven homepage agent for intelligent conversation flow
     if homepage_agent:
         try:
-            # Get current settings from session or use defaults
-            settings = session.get('chat_settings', {'provider': 'lm_studio'})
+            # Use default settings for homepage chat (no session dependency)
+            settings = {'provider': 'lm_studio'}
             
             # Let the AI handle the entire conversation flow
             result = homepage_agent.research_with_settings(question, settings)
