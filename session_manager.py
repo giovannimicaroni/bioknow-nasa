@@ -40,28 +40,53 @@ class SessionManager:
         self.use_postgres = False
         self.db_session = None
         
-        # Try to initialize PostgreSQL (Heroku)
+        # Try to initialize PostgreSQL (local or Heroku)
         database_url = os.getenv('DATABASE_URL')
         if database_url and POSTGRES_AVAILABLE:
             try:
+                print(f"🔗 [SESSION] Connecting to PostgreSQL: {database_url[:50]}...")
+                
                 # Fix for Heroku PostgreSQL URL
                 if database_url.startswith('postgres://'):
                     database_url = database_url.replace('postgres://', 'postgresql://', 1)
                 
-                self.engine = create_engine(database_url)
+                # Create engine with explicit connection settings
+                self.engine = create_engine(
+                    database_url,
+                    pool_pre_ping=True,
+                    pool_recycle=300,
+                    echo=False  # Set to True for SQL debugging
+                )
+                
+                # Test connection
+                with self.engine.connect() as conn:
+                    print("🔗 [SESSION] PostgreSQL connection test successful")
+                
+                # Create tables
                 Base.metadata.create_all(self.engine)
+                print("📋 [SESSION] Database tables created/verified")
+                
+                # Create session
                 SessionLocal = sessionmaker(bind=self.engine)
                 self.db_session = SessionLocal()
                 self.use_postgres = True
-                print("✅ PostgreSQL session storage initialized")
+                print("✅ [SESSION] PostgreSQL session storage initialized successfully")
+                
             except Exception as e:
-                print(f"⚠️ PostgreSQL init failed: {e}. Falling back to file storage.")
+                print(f"❌ [SESSION] PostgreSQL init failed: {e}")
+                print("📁 [SESSION] Falling back to file storage")
                 self.use_postgres = False
+        else:
+            if not database_url:
+                print("⚠️ [SESSION] No DATABASE_URL found in environment")
+            if not POSTGRES_AVAILABLE:
+                print("⚠️ [SESSION] PostgreSQL dependencies not available")
+            print("📁 [SESSION] Using file-based storage")
         
-        # Ensure local sessions directory exists
+        # Ensure local sessions directory exists (fallback only)
         if not self.use_postgres:
             os.makedirs('sessions', exist_ok=True)
-            print("✅ File-based session storage initialized")
+            print("📁 [SESSION] File-based session storage initialized (fallback)")
     
     def get_session_documents(self, session_id: str) -> List[Dict]:
         """Get documents for a session."""
@@ -101,21 +126,29 @@ class SessionManager:
     # PostgreSQL implementations
     def _get_documents_postgres(self, session_id: str) -> List[Dict]:
         try:
+            print(f"🔍 [POSTGRES] Looking for documents for session: {session_id}")
             session_data = self.db_session.query(SessionData).filter_by(session_id=session_id).first()
             if session_data and session_data.documents:
-                return json.loads(session_data.documents)
-            return []
+                documents = json.loads(session_data.documents)
+                print(f"📄 [POSTGRES] Found {len(documents)} documents")
+                return documents
+            else:
+                print(f"⚠️ [POSTGRES] No documents found for session: {session_id}")
+                return []
         except Exception as e:
-            print(f"Error getting documents from PostgreSQL: {e}")
+            print(f"❌ [POSTGRES] Error getting documents: {e}")
             return []
     
     def _save_documents_postgres(self, session_id: str, documents: List[Dict]):
         try:
+            print(f"💾 [POSTGRES] Saving {len(documents)} documents for session: {session_id}")
             session_data = self.db_session.query(SessionData).filter_by(session_id=session_id).first()
             if session_data:
+                print(f"📝 [POSTGRES] Updating existing session record")
                 session_data.documents = json.dumps(documents)
                 session_data.updated_at = datetime.utcnow()
             else:
+                print(f"🆕 [POSTGRES] Creating new session record")
                 session_data = SessionData(
                     session_id=session_id,
                     documents=json.dumps(documents),
@@ -123,8 +156,9 @@ class SessionManager:
                 )
                 self.db_session.add(session_data)
             self.db_session.commit()
+            print(f"✅ [POSTGRES] Successfully saved documents")
         except Exception as e:
-            print(f"Error saving documents to PostgreSQL: {e}")
+            print(f"❌ [POSTGRES] Error saving documents: {e}")
             self.db_session.rollback()
     
     def _get_settings_postgres(self, session_id: str) -> Dict:
@@ -216,5 +250,13 @@ class SessionManager:
             if os.path.exists(file_path):
                 os.remove(file_path)
 
-# Global session manager instance
-session_manager = SessionManager()
+# Global session manager instance  
+# Initialize after load_dotenv() is called in app.py
+session_manager = None
+
+def get_session_manager():
+    """Get or create the global session manager instance."""
+    global session_manager
+    if session_manager is None:
+        session_manager = SessionManager()
+    return session_manager

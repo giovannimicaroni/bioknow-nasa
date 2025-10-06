@@ -21,6 +21,12 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv() 
 
+# Import unified session manager (after load_dotenv)
+from session_manager import get_session_manager
+
+# Initialize session manager after environment variables are loaded
+session_manager = get_session_manager()
+
 # AmandaChatbot imports
 from typing import List, Dict, Any
 from langchain.agents import AgentExecutor, create_openai_tools_agent
@@ -31,8 +37,6 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from pydantic import BaseModel, Field
 import numpy as np
 
-# Import unified session manager
-from session_manager import session_manager
 
 # AI Provider imports
 try:
@@ -51,8 +55,8 @@ except ImportError:
     genai = None
 
 app = Flask(__name__)
-# Use environment variable for secret key in production, fallback to random for development
-app.secret_key = os.getenv('FLASK_SECRET_KEY', os.urandom(24))
+# Use environment variable for secret key in production, fallback to fixed key for development
+app.secret_key = os.getenv('FLASK_SECRET_KEY', 'bioknow-dev-secret-key-2024')
 
 # Enable CORS for external integrations
 CORS(app, resources={
@@ -1271,7 +1275,7 @@ def call_ai_api(messages, settings=None):
                 "max_tokens": 8192
             },
             headers={"Content-Type": "application/json"},
-            timeout=120
+            timeout=300  # Increased to 5 minutes
         )
         
         if response.status_code == 200:
@@ -1283,7 +1287,13 @@ def call_ai_api(messages, settings=None):
             raise Exception(f"LM Studio API error: {response.status_code}")
     
     except Exception as e:
-        raise Exception(f"All AI providers failed. OpenAI: {openai_key is None}, LM Studio: {str(e)}")
+        error_msg = str(e)
+        if "Broken pipe" in error_msg:
+            raise Exception(f"Connection lost to AI provider. Please try again. Details: {error_msg}")
+        elif "timeout" in error_msg.lower():
+            raise Exception(f"AI provider is taking too long to respond. Please try again. Details: {error_msg}")
+        else:
+            raise Exception(f"All AI providers failed. OpenAI: {openai_key is None}, LM Studio: {error_msg}")
 
 def call_openai_api(messages, settings):
     """Call OpenAI API (deprecated, use call_ai_api instead)"""
@@ -1381,7 +1391,7 @@ def call_lm_studio_api(messages):
                 "max_tokens": 8192
             },
             headers={"Content-Type": "application/json"},
-            timeout=120
+            timeout=300  # Increased to 5 minutes
         )
         
         if response.status_code == 200:
@@ -1771,13 +1781,38 @@ def get_keywords():
 @app.route('/ask-lumi')
 def chat():
     external_session_id = request.args.get('session_id')
+    current_session_id = session.get('session_id')
+    cookie_session_id = request.cookies.get('bioknow_session_id')
+    
+    print(f"🏠 [CHAT-PAGE] Current session: {current_session_id}")
+    print(f"🔗 [CHAT-PAGE] External session: {external_session_id}")
+    print(f"🍪 [CHAT-PAGE] Cookie session: {cookie_session_id}")
+    
+    # Priority: external > current session > cookie > new
     if external_session_id:
         session['session_id'] = external_session_id
-    elif not session.get('session_id'):
+        print(f"✅ [CHAT-PAGE] Using external session: {external_session_id}")
+    elif current_session_id:
+        print(f"♻️ [CHAT-PAGE] Keeping current session: {current_session_id}")
+    elif cookie_session_id:
+        # Restore from cookie if Flask session was lost
+        session['session_id'] = cookie_session_id
+        print(f"🍪 [CHAT-PAGE] Restored from cookie: {cookie_session_id}")
+    else:
         # Create new session if none exists
-        session['session_id'] = str(uuid.uuid4())
+        new_session_id = str(uuid.uuid4())
+        session['session_id'] = new_session_id
+        print(f"🆕 [CHAT-PAGE] Created new session: {new_session_id}")
     
-    return render_template('chat.html')
+    # Verify documents exist in this session
+    final_session_id = session.get('session_id')
+    documents = session_manager.get_session_documents(final_session_id)
+    print(f"📄 [CHAT-PAGE] Session {final_session_id} has {len(documents)} documents")
+    
+    response = app.make_response(render_template('chat.html'))
+    # Update cookie with current session
+    response.set_cookie('bioknow_session_id', final_session_id, max_age=24*60*60)
+    return response
 
 @app.route('/ask-lumi/settings')
 def settings():
@@ -1861,13 +1896,24 @@ def ask_lumi():
         
         session_id = session.get('session_id')
         if not session_id:
-            # Create new session if none exists
-            session_id = str(uuid.uuid4())
-            session['session_id'] = session_id
+            # Try to restore from cookie
+            cookie_session_id = request.cookies.get('bioknow_session_id')
+            if cookie_session_id:
+                session_id = cookie_session_id
+                session['session_id'] = session_id
+                print(f"🍪 [ASK-LUMI-CHAT] Restored session from cookie: {session_id}")
+            else:
+                # Create new session if none exists
+                session_id = str(uuid.uuid4())
+                session['session_id'] = session_id
+                print(f"🆕 [ASK-LUMI-CHAT] Created new session: {session_id}")
         
         # Get documents using session manager
+        print(f"🔍 [ASK-LUMI] Getting documents for session: {session_id}")
         documents = session_manager.get_session_documents(session_id)
+        print(f"📄 [ASK-LUMI] Found {len(documents)} documents in session")
         if not documents:
+            print(f"⚠️ [ASK-LUMI] No documents found for session {session_id}")
             return jsonify({'error': 'No documents loaded. Please load some articles first.'}), 400
         
         selected_docs = [doc for doc in documents if doc.get('selected', False)]
@@ -1884,7 +1930,9 @@ def ask_lumi():
         context = validate_total_context(context)
         
         # Get settings using session manager
+        print(f"⚙️ [ASK-LUMI] Getting settings for session: {session_id}")
         settings = session_manager.get_session_settings(session_id)
+        print(f"🔧 [ASK-LUMI] Settings loaded: {settings.get('provider', 'default')}")
         
         provider = settings.get('provider', 'lm_studio')
         
@@ -2036,19 +2084,29 @@ def load_articles():
         session_id = session.get('session_id', str(uuid.uuid4()))
         session['session_id'] = session_id
         
+        print(f"🔄 [LOAD-ARTICLES] Session ID: {session_id}")
+        print(f"📥 [LOAD-ARTICLES] Loading {len(session_docs)} new documents")
+        
         # Get existing documents and add new ones
         existing_docs = session_manager.get_session_documents(session_id)
+        print(f"📄 [LOAD-ARTICLES] Found {len(existing_docs)} existing documents")
         all_docs = existing_docs + session_docs
         
         # Save all documents
         session_manager.save_session_documents(session_id, all_docs)
+        print(f"💾 [LOAD-ARTICLES] Saved {len(all_docs)} total documents to session")
         
-        return jsonify({
+        response = jsonify({
             'success': True,
             'loaded_count': len(session_docs),
             'documents': session_docs,
             'session_id': session_id
         })
+        
+        # Also set session_id in cookie as backup
+        response.set_cookie('bioknow_session_id', session_id, max_age=24*60*60)  # 24 hours
+        
+        return response
     
     except Exception as e:
         return jsonify({'error': str(e)}), 500
