@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bioknowdes.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/articles.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
     <style>
-        /* Force styles to ensure they're applied */
         body { background: #1a1a1a !important; }
         .app-container { background: #1a1a1a !important; }
         .main-content { 
@@ -22,18 +22,11 @@
             gap: 2rem;
             width: 100%;
         }
-        .search-section {
+        .search-section, .results-section {
             background: #2d2d2d;
             border-radius: 16px;
             padding: 1.5rem;
             border: 1px solid #404040;
-        }
-        .results-section {
-            background: #2d2d2d;
-            border-radius: 16px;
-            padding: 1.5rem;
-            border: 1px solid #404040;
-            flex: 1;
         }
         .article-card {
             background: #3a3a3a;
@@ -41,57 +34,9 @@
             border-radius: 8px;
             padding: 1rem;
         }
-        
-        /* Load Selected Button - Override circular style */
-        #loadSelectedBtn {
-            background: #60a5fa !important;
-            color: white !important;
-            border-radius: 8px !important;
-            width: auto !important;
-            height: auto !important;
-            padding: 0.75rem 1.5rem !important;
-            justify-content: flex-start !important;
-            border: none !important;
-            font-weight: 500 !important;
-            transition: all 0.3s ease !important;
-        }
-        
-        #loadSelectedBtn:hover:not(:disabled) {
-            background: #3b82f6 !important;
-            transform: translateY(-1px) !important;
-        }
-        
-        #loadSelectedBtn:disabled {
-            background: #666666 !important;
-            cursor: not-allowed !important;
-            transform: none !important;
-        }
-        
-        #selectedCount {
-            font-weight: 600 !important;
-        }
-        
-        /* Back to Chat Button - Override circular style */
-        .header-actions .btn-secondary {
-            background: #3a3a3a !important;
-            color: #ffffff !important;
-            border: 1px solid #404040 !important;
-            border-radius: 8px !important;
-            width: auto !important;
-            height: auto !important;
-            padding: 0.75rem 1.5rem !important;
-            justify-content: flex-start !important;
-            font-weight: 500 !important;
-            transition: all 0.3s ease !important;
-        }
-        
-        .header-actions .btn-secondary:hover {
-            background: #404040 !important;
-            border-color: #525252 !important;
-            transform: translateY(-1px) !important;
-        }
-        
-        /* Search Buttons - Override circular style */
+
+        /* --- Botões Gerais --- */
+        #loadSelectedBtn,
         #searchBtn {
             background: #60a5fa !important;
             color: white !important;
@@ -99,72 +44,117 @@
             width: auto !important;
             height: auto !important;
             padding: 0.75rem 1.5rem !important;
-            justify-content: flex-start !important;
             border: none !important;
             font-weight: 500 !important;
             transition: all 0.3s ease !important;
         }
-        
-        #searchBtn:hover {
-            background: #3b82f6 !important;
-            transform: translateY(-1px) !important;
-        }
-        
-        /* Clear Search Button */
-        #clearSearchBtn {
+        #loadSelectedBtn:hover:not(:disabled),
+        #searchBtn:hover { background: #3b82f6 !important; transform: translateY(-1px) !important; }
+        #loadSelectedBtn:disabled { background: #666 !important; cursor: not-allowed !important; }
+
+        #clearSearchBtn,
+        #selectAllBtn, #deselectAllBtn,
+        .header-actions .btn-secondary {
             background: #3a3a3a !important;
-            color: #ffffff !important;
+            color: #fff !important;
             border: 1px solid #404040 !important;
             border-radius: 8px !important;
             width: auto !important;
             height: auto !important;
             padding: 0.75rem 1.5rem !important;
-            justify-content: flex-start !important;
             font-weight: 500 !important;
             transition: all 0.3s ease !important;
         }
-        
-        #clearSearchBtn:hover {
+        #clearSearchBtn:hover,
+        #selectAllBtn:hover, #deselectAllBtn:hover,
+        .header-actions .btn-secondary:hover {
             background: #404040 !important;
             border-color: #525252 !important;
             transform: translateY(-1px) !important;
         }
-        
-        /* Select All / Deselect All Buttons */
-        #selectAllBtn, #deselectAllBtn {
-            background: #3a3a3a !important;
-            color: #ffffff !important;
-            border: 1px solid #404040 !important;
-            border-radius: 8px !important;
-            width: auto !important;
-            height: auto !important;
-            padding: 0.5rem 1rem !important;
-            justify-content: flex-start !important;
-            font-weight: 500 !important;
-            transition: all 0.3s ease !important;
-            font-size: 0.8rem !important;
+
+        /* --- Dropdown Explore --- */
+        .dropdown-nav {
+            position: relative;
+            display: inline-block;
+            margin-right: 1rem;
         }
-        
-        #selectAllBtn:hover, #deselectAllBtn:hover {
-            background: #404040 !important;
-            border-color: #525252 !important;
-            transform: translateY(-1px) !important;
+        .dropdown-toggle {
+            background: #3a3a3a;
+            color: #ffffff;
+            border: 1px solid #404040;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .dropdown-toggle:hover {
+            background: #404040;
+            border-color: #525252;
+            transform: translateY(-1px);
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 105%;
+            left: 0;
+            background-color: #2d2d2d;
+            border: 1px solid #404040;
+            border-radius: 8px;
+            min-width: 180px;
+            z-index: 1000;
+            overflow: hidden;
+        }
+        .dropdown-menu a {
+            display: block;
+            padding: 0.75rem 1rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+        .dropdown-menu a:hover {
+            background-color: #3a3a3a;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
         }
     </style>
 </head>
+
 <body>
     <div class="app-container">
         <!-- Header -->
         <header class="header">
             <div class="header-content">
                 <h1><i class="fas fa-newspaper"></i> Article Browser</h1>
+                
                 <div class="header-actions">
+                    <!-- 🔹 Dropdown Explore -->
+
                     <a href="/ask-lumi" class="btn btn-secondary">
                         <i class="fas fa-arrow-left"></i> Back to Chat
                     </a>
+
                     <button id="loadSelectedBtn" class="btn btn-primary" disabled>
                         <i class="fas fa-download"></i> Load Selected (<span id="selectedCount">0</span>)
                     </button>
+
+                    <nav class="dropdown-nav">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle">Explore ▾</button>
+                            <div class="dropdown-menu">
+                                <a href="/">Home</a>
+                                <a href="/heatmap_cosine" class="heatmap-link">Heatmap</a>
+                                <a href="/ask-lumi">Ask Lumi</a>
+                                <a href="/ask-lumi/articles">Browse Articles</a>
+                                <a href="/about">About us</a>
+                                <a href="/help">Help</a>
+                            </div>
+                        </div>
+                    </nav>
+                    
                 </div>
             </div>
         </header>
@@ -205,7 +195,6 @@
                         <span id="resultsCount">Loading...</span>
                     </div>
                 </div>
-                
                 <div class="articles-grid" id="articlesGrid">
                     <div class="loading-articles">
                         <i class="fas fa-spinner fa-spin"></i>

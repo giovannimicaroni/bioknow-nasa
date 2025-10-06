@@ -149,11 +149,11 @@ nav a:hover {
     align-items: center;
 }
 
-/* .heatmap-header {
+.heatmap-header {
     text-align: center;
     margin-bottom: 40px;
-    animation: fadeInDown 0.6s ease-out; */
-/* } */
+    animation: fadeInDown 0.6s ease-out;
+}
 
 @keyframes fadeInDown {
     from {
