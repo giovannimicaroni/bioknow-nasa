@@ -2268,7 +2268,7 @@ def homepage_chat():
     if homepage_agent:
         try:
             # Use default settings for homepage chat (no session dependency)
-            settings = {'provider': 'lm_studio'}
+            settings = {'provider': 'openai'}
             
             # Let the AI handle the entire conversation flow
             result = homepage_agent.research_with_settings(question, settings)
