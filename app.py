@@ -900,6 +900,7 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
         should_show_articles = self._should_show_articles(question, response, keywords)
         
         if should_show_articles and keywords:
+            print(f"🔍 [HOMEPAGE-AGENT] Searching for articles with keywords: {keywords}")
             tool_result = self.tools[0]._run(keywords, 5)
             
             if tool_result != "NO_ARTICLES_FOUND":
@@ -907,13 +908,19 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
                 article_data = json.loads(tool_result)
                 articles = article_data.get('articles', [])
                 
-                if articles and articles[0].get('score', 0) > 0.3:  # Only show if good relevance
+                print(f"📄 [HOMEPAGE-AGENT] Found {len(articles)} articles")
+                if articles:
+                    print(f"📊 [HOMEPAGE-AGENT] Top article score: {articles[0].get('score', 0)}")
+                
+                # Lowered threshold from 0.3 to 0.2 to show more articles
+                if articles and articles[0].get('score', 0) > 0.2:
                     # Generate a superficial summary based on the articles
                     article_summary = self._generate_article_summary(question, articles, settings)
                     
                     # Combine: superficial answer + article list
                     enhanced_response = f"{article_summary}\n\n📚 I found {len(articles)} relevant NASA articles for your research:"
                     
+                    print(f"✅ [HOMEPAGE-AGENT] Returning {len(articles)} articles with enhanced response")
                     return {
                         "answer": enhanced_response,
                         "retrieved_articles": [
@@ -923,7 +930,12 @@ Remember: Your goal is to help users discover and explore NASA research in a nat
                             } for a in articles
                         ]
                     }
+                else:
+                    print(f"❌ [HOMEPAGE-AGENT] Articles found but score too low or no articles")
+        else:
+            print(f"🚫 [HOMEPAGE-AGENT] should_show_articles: {should_show_articles}, keywords: {keywords}")
         
+        print(f"🔄 [HOMEPAGE-AGENT] Returning basic response without articles")
         return {
             "answer": response,
             "retrieved_articles": []
@@ -994,11 +1006,18 @@ Provide a concise, informative summary of what these NASA articles generally dis
         research_indicators = [
             'research', 'study', 'studies', 'experiment', 'experiments', 'effects', 'impact', 
             'radiation', 'gravity', 'microgravity', 'astronaut', 'space', 'mars', 'moon',
-            'mission', 'missions', 'data', 'results', 'findings', 'analysis', 'testing'
+            'mission', 'missions', 'data', 'results', 'findings', 'analysis', 'testing',
+            'want to know', 'tell me', 'learn about', 'microbiotics', 'microbe', 'bacteria',
+            'biology', 'biological', 'health', 'iss', 'station', 'orbit'
         ]
         
         # Show if question contains research indicators AND has meaningful keywords
         if any(indicator in question_lower for indicator in research_indicators) and len(keywords) > 0:
+            return True
+        
+        # Also show if question asks specifically about something (more liberal check)
+        want_patterns = ['want to know', 'tell me about', 'learn about', 'about the', 'more about']
+        if any(pattern in question_lower for pattern in want_patterns) and len(keywords) >= 2:
             return True
         
         # Show if AI response suggests we should show articles
@@ -2261,28 +2280,37 @@ def homepage_chat():
     data = request.json
     question = data.get('question', '')
     
+    print(f"🏠 [HOMEPAGE-CHAT] Received question: {question}")
+    print(f"🏠 [HOMEPAGE-CHAT] homepage_agent available: {homepage_agent is not None}")
+    
     if not question:
         return jsonify({'error': 'No question provided'}), 400
     
     # Use the AI-driven homepage agent for intelligent conversation flow
     if homepage_agent:
         try:
-            # Use default settings for homepage chat (no session dependency)
-            settings = {'provider': 'openai'}
+            # Use environment variable for AI provider, fallback to openai
+            ai_provider = os.getenv('AI_PROVIDER', 'openai')
+            settings = {'provider': ai_provider}
+            
+            print(f"🏠 [HOMEPAGE-CHAT] Using provider: {ai_provider}")
             
             # Let the AI handle the entire conversation flow
             result = homepage_agent.research_with_settings(question, settings)
+            
+            print(f"🏠 [HOMEPAGE-CHAT] Got result: {len(result.get('answer', ''))} chars")
             
             return jsonify({
                 'answer': result['answer'],
                 'retrieved_articles': result.get('retrieved_articles', [])
             })
         except Exception as e:
-            print(f"❌ Homepage chat error: {e}")
+            print(f"❌ [HOMEPAGE-CHAT] Error: {e}")
             import traceback
             traceback.print_exc()
     
     # Fallback responses if AmandaChatbot is not available
+    print(f"⚠️ [HOMEPAGE-CHAT] Using fallback response - homepage_agent not available")
     fallback_responses = [
         "Hello! I'm Lumi, your space research assistant. 🚀\n\nI'm currently learning about NASA experiments. You can explore the connections graph or visit the 'Ask Lumi' page for a more complete experience!",
         "Interesting question! 🌟\n\nFor detailed analysis, I recommend using the 'Ask Lumi' page where I can access a more complete database of scientific articles.",
