@@ -1680,11 +1680,11 @@ def create_interactive_heatmap_cosine(top_n=30, gpickle_path="grafo_keywords.gpi
             y=similarity_matrix.index,
             colorscale='YlOrRd',
             hoverongaps=False,
-            hovertemplate='Artigo 1: %{y}<br>Artigo 2: %{x}<br>Similaridade: %{z:.2f}<extra></extra>'
+            hovertemplate='Article 1: %{y}<br>Article 2: %{x}<br>Cosine Similarity: %{z:.2f}<extra></extra>'
         ))
 
         fig.update_layout(
-            title=f'Heatmap de Similaridade de Cosseno (Top {top_n} Artigos Amostrados)',
+            title=f'Similarity Heat Map (Top {top_n} Articles)',
             template='plotly_dark',
             width=800,
             height=800,
