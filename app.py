@@ -844,7 +844,7 @@ class HomePageChatAgent:
     def research_with_settings(self, question: str, settings=None):
         """Use AI to handle homepage chat with access to article tools."""
         if not settings:
-            settings = {'provider': 'lm_studio'}
+            settings = {'provider': 'openai'}
         
         # Create system prompt for homepage chat
         system_prompt = """You are Lumi, a friendly NASA space research assistant on the BioKnowdes homepage.
@@ -1045,6 +1045,8 @@ def initialize_amanda_agent():
         print("Initializing AmandaChatbot...")
         # Get OpenAI API key for embeddings
         openai_key = os.getenv('OPENAI_API_KEY')
+        print(f"🔑 OpenAI key available: {openai_key is not None}")
+        
         if not openai_key:
             # Try to get from settings
             try:
@@ -1052,40 +1054,37 @@ def initialize_amanda_agent():
                     settings = json.load(f)
                     openai_settings = settings.get('openai', {})
                     openai_key = openai_settings.get('api_key')
-            except:
-                pass
+                    print(f"🔑 OpenAI key from settings: {openai_key is not None}")
+            except Exception as e:
+                print(f"⚠️ Could not load settings file: {e}")
         
+        print("📊 Initializing ArticleRanker...")
         ranker = ArticleRanker("keywords_resultados.jsonl", openai_api_key=openai_key)
+        print("✅ ArticleRanker initialized!")
         
-        # Try to initialize with Ollama (optional, for Langchain agent)
-        # This is only used if settings are not provided in research() call
-        try:
-            amanda_agent = NASAResearchAgent(
-                article_ranker=ranker,
-                model=os.getenv('OLLAMA_MODEL', 'llama3.1:8b'),
-                base_url=os.getenv('OLLAMA_URL', 'http://localhost:11434')
+        # Create minimal agent that only uses OpenAI via research_with_settings
+        print("🤖 Creating minimal agent for unified AI connector...")
+        amanda_agent = type('MinimalAgent', (), {
+            'ranker': ranker,
+            'research': lambda self, q, s=None: self.research_with_settings(q, s or {}),
+            'research_with_settings': lambda self, q, s: NASAResearchAgent.research_with_settings(
+                type('obj', (), {'ranker': ranker, 'last_retrieved_articles': []})(),
+                q, s
             )
-            print("✓ AmandaChatbot initialized with Ollama support")
-        except Exception as e:
-            print(f"⚠️  Ollama not available: {e}")
-            print("✓ AmandaChatbot will use unified AI connector (OpenAI/LM Studio)")
-            # Create a minimal agent that only uses research_with_settings
-            amanda_agent = type('MinimalAgent', (), {
-                'ranker': ranker,
-                'research': lambda self, q, s=None: self.research_with_settings(q, s or {}),
-                'research_with_settings': lambda self, q, s: NASAResearchAgent.research_with_settings(
-                    type('obj', (), {'ranker': ranker, 'last_retrieved_articles': []})(),
-                    q, s
-                )
-            })()
+        })()
+        print("✅ AmandaChatbot initialized with unified AI connector (OpenAI)")
         
         # Initialize homepage chat agent (always uses unified connector)
+        print("🏠 Initializing homepage agent...")
         homepage_agent = HomePageChatAgent(ranker)
+        print("✅ Homepage agent initialized successfully!")
         
         print("✓ All agents ready!")
         return True
     except Exception as e:
         print(f"❌ Error initializing agents: {e}")
+        import traceback
+        traceback.print_exc()
         return False
 
 # ============================================================================
@@ -1953,7 +1952,7 @@ def ask_lumi():
         settings = session_manager.get_session_settings(session_id)
         print(f"🔧 [ASK-LUMI] Settings loaded: {settings.get('provider', 'default')}")
         
-        provider = settings.get('provider', 'lm_studio')
+        provider = settings.get('provider', 'openai')
         
         messages = [
             {
@@ -2208,7 +2207,7 @@ def api_settings():
         # Get settings using session manager
         settings = session_manager.get_session_settings(session_id)
         if not settings:
-            settings = {'provider': 'lm_studio'}
+            settings = {'provider': 'openai'}
         return jsonify(settings)
     
     elif request.method == 'POST':
