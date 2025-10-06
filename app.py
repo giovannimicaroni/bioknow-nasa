@@ -106,6 +106,10 @@ print("🔗 AI Provider: OpenAI (production mode)")
 # Cache global para o grafo HTML
 graph_cache = {}
 
+# Clear cache on startup to ensure fresh tooltips
+graph_cache.clear()
+print("🗑️ Graph cache cleared for fresh tooltips")
+
 # ============================================================================
 # AMANDACHATBOT CLASSES
 # ============================================================================
@@ -1445,7 +1449,8 @@ def create_graph(query="", filters=None):
         filters: dict with filters, e.g., {'keywords': ['mars', 'biology']}
     """
     filter_key = str(sorted(filters.items())) if filters else ""
-    cache_key = f"{query.lower()}_{filter_key}"
+    # Added version to cache key to invalidate old tooltips  
+    cache_key = f"v3_{query.lower()}_{filter_key}"
     
     if cache_key in graph_cache:
         return graph_cache[cache_key]
@@ -1538,46 +1543,15 @@ def create_graph(query="", filters=None):
         title = node.replace(".pdf", "")
         node_data = filtered_graph.nodes[node]
         
-        # Build tooltip with title and keywords
-        tooltip_parts = [f"<div style='max-width:400px;'><b style='font-size:14px;color:#87ceff;'>{title}</b>"]
-        
-        # Extract keywords from node
-        keywords_list = []
-        if 'keywords' in node_data:
-            keyword_attr = node_data['keywords']
-            if isinstance(keyword_attr, dict):
-                keywords_list = list(keyword_attr.keys())
-            elif isinstance(keyword_attr, str):
-                keywords_list = [keyword_attr]
-            elif isinstance(keyword_attr, list):
-                keywords_list = keyword_attr
-        elif 'keyword' in node_data:
-            keyword_attr = node_data['keyword']
-            if isinstance(keyword_attr, str):
-                keywords_list = [keyword_attr]
-            elif isinstance(keyword_attr, list):
-                keywords_list = keyword_attr
-        
-        # Add keywords to tooltip if they exist
-        if keywords_list:
-            tooltip_parts.append("<div style='margin-top:8px;padding-top:8px;border-top:1px solid #444;'>")
-            tooltip_parts.append("<b style='color:#ff6e54;font-size:12px;'>Keywords:</b>")
-            tooltip_parts.append("<ul style='margin:4px 0;padding-left:20px;font-size:11px;line-height:1.4;'>")
-            for kw in keywords_list[:10]:  # Limit to 10 keywords
-                tooltip_parts.append(f"<li>{kw}</li>")
-            if len(keywords_list) > 10:
-                tooltip_parts.append(f"<li><i>... and {len(keywords_list)-10} more keywords</i></li>")
-            tooltip_parts.append("</ul></div>")
-        
-        tooltip_parts.append("</div>")
-        tooltip_html = "".join(tooltip_parts)
+        # Simple tooltip - just the article title (no HTML)
+        tooltip_text = title
         
         # Highlight matching nodes
         if node in matching_nodes:
-            tooltip_html = f"<div style='max-width:400px;'><b style='color:#ff6e54;'>🔍 MATCH</b><br>{tooltip_html}</div>"
-            net.add_node(node, label=title, color='#ff6e54', size=30, title=tooltip_html)
+            match_tooltip = f"🔍 MATCH: {title}"
+            net.add_node(node, label=title, color='#ff6e54', size=30, title=match_tooltip)
         else:
-            net.add_node(node, label=title, color='#87ceff', size=15, title=tooltip_html)
+            net.add_node(node, label=title, color='#87ceff', size=15, title=tooltip_text)
     
     # Add edges
     net.add_edges(filtered_graph.edges())
