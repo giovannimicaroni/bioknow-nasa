@@ -1,114 +1,114 @@
-# 🔄 Atualização de Rotas - BioKnowdes
+# 🔄 Route Update - BioKnowdes
 
-## 🔧 Configuração de Variáveis de Ambiente
+## 🔧 Environment Variable Configuration
 
-### 📋 Configuração Inicial
+### 📋 Initial Setup
 
-1. **Copie o template de variáveis de ambiente:**
+1. **Copy the environment variable template:**
    ```bash
    cp env.template .env
    ```
 
-2. **Configure suas chaves de API no arquivo `.env`:**
+2. **Set your API keys in the file `.env`:**
    ```bash
-   # Edite o arquivo .env com suas chaves reais
+   # Edit the .env file with your real keys
    nano .env
    ```
 
-3. **Variáveis obrigatórias para produção:**
+3. **Mandatory variables for production:**
    ```env
-   # OpenAI API (obrigatório para funcionalidade completa)
+   # OpenAI API (mandatory for full functionality)
    OPENAI_API_KEY=sk-your-openai-key-here
    
-   # Chave secreta do Flask (obrigatório para sessões)
+   # Flask secret key (mandatory for sessions)
    FLASK_SECRET_KEY=your-secret-key-here
    
-   # Outras APIs (opcionais)
+   # Other APIs (Optional)
    ANTHROPIC_API_KEY=your-anthropic-key-here
    GEMINI_API_KEY=your-gemini-key-here
    ```
 
-### 🔒 Segurança em Produção
+### 🔒 Production Security
 
-- ✅ **Nunca commite o arquivo `.env`** (já está no `.gitignore`)
-- ✅ **Use chaves diferentes** para desenvolvimento e produção
-- ✅ **Rotacione suas chaves** periodicamente
-- ✅ **Configure variáveis de ambiente** no seu provedor de hosting
+- ✅ **Never commit the file `.env`** (its already on `.gitignore`)
+- ✅ **Use different keys** for development and production
+- ✅ **Rotate your keys** periodically
+- ✅ **Set environment variables** on your hosting provider
 
-### 🚀 Deploy em Produção
+### 🚀 Production Deployment
 
-Para plataformas como Heroku, Railway, ou Vercel:
+For platforms such as Heroku, Railway, or Vercel:
 ```bash
-# Configure as variáveis de ambiente no painel do provedor
+#Configure the environment variables on the provider panel
 OPENAI_API_KEY=sk-your-production-key
 FLASK_SECRET_KEY=your-production-secret-key
 FLASK_ENV=production
 ```
 
-## ✅ Mudanças Aplicadas
+## ✅ Applied Changes
 
-Todas as rotas do BioKnowdes agora estão sob o prefixo `/ask-lumi`:
+All of the BioKnowdes routes are now under the prefix `/ask-lumi`: 
 
-### 📋 Mapeamento de Rotas
+### 📋 Route Mapping
 
-| Rota Antiga | Rota Nova | Descrição |
+| Old Route | New Route | Description |
 |-------------|-----------|-----------|
-| `/chat` | `/ask-lumi` | Página principal do chat |
-| `/articles` | `/ask-lumi/articles` | Navegador de artigos |
-| `/settings` | `/ask-lumi/settings` | Configurações de IA |
-| `/upload` | `/ask-lumi/upload` | Upload de documentos |
-| `/documents` | `/ask-lumi/documents` | Listar documentos |
-| `/documents/toggle/:id` | `/ask-lumi/documents/toggle/:id` | Toggle seleção |
-| `/documents/delete/:id` | `/ask-lumi/documents/delete/:id` | Deletar documento |
-| `/clear` | `/ask-lumi/clear` | Limpar sessão |
-| `/external-demo` | `/ask-lumi/external-demo` | Exemplo externo |
+| `/chat` | `/ask-lumi` | Main chat page |
+| `/articles` | `/ask-lumi/articles` | Article browser |
+| `/settings` | `/ask-lumi/settings` | AI settings |
+| `/upload` | `/ask-lumi/upload` | Document upload |
+| `/documents` | `/ask-lumi/documents` | List documents |
+| `/documents/toggle/:id` | `/ask-lumi/documents/toggle/:id` | Toggle selection |
+| `/documents/delete/:id` | `/ask-lumi/documents/delete/:id` | Delete document |
+| `/clear` | `/ask-lumi/clear` | Clear session |
+| `/external-demo` | `/ask-lumi/external-demo` | External example |
 
 ### 🔌 API Endpoints
 
-| Rota Antiga | Rota Nova | Método | Descrição |
+| Old Route | New Route | Method | Description |
 |-------------|-----------|--------|-----------|
-| `/chat` (POST) | `/ask-lumi/chat` | POST | Chat com IA |
-| `/api/load-articles` | `/ask-lumi/api/load-articles` | POST | Carregar artigos |
-| `/api/articles-list` | `/ask-lumi/api/articles-list` | GET | Listar artigos |
-| `/api/search-articles` | `/ask-lumi/api/search-articles` | POST | Buscar artigos |
-| `/api/settings` | `/ask-lumi/api/settings` | GET/POST | Config da IA |
+| `/chat` (POST) | `/ask-lumi/chat` | POST | AI Chat |
+| `/api/load-articles` | `/ask-lumi/api/load-articles` | POST | Load articles |
+| `/api/articles-list` | `/ask-lumi/api/articles-list` | GET | List articles |
+| `/api/search-articles` | `/ask-lumi/api/search-articles` | POST | Search articles |
+| `/api/settings` | `/ask-lumi/api/settings` | GET/POST | AI Config |
 
-### 🌐 Rotas Originais (Mantidas)
+### 🌐 Original Routes (Kept)
 
-Estas rotas do projeto original **não foram alteradas**:
+These are the original project routes that **were not changed**:
 
-- `/` - Home com grafo
-- `/graph` - Busca no grafo
-- `/heatmap` - Análise térmica
-- `/get_graph_data` - Dados do grafo
-- `/api/keywords` - Lista de keywords
+- `/` - Home with graph
+- `/graph` - Graph search
+- `/heatmap` - Thermal analysis
+- `/get_graph_data` - Graph data
+- `/api/keywords` - Keywords list
 
-## 📁 Arquivos Atualizados
+## 📁 Updated Files
 
 ### Backend:
-- ✅ `app.py` - Todas as rotas do BioKnowdes alteradas
-- ✅ CORS atualizado para `/ask-lumi/api/*`
+- ✅ `app.py` - All of the BioKnowdes routes altered
+- ✅ CORS updated to `/ask-lumi/api/*`
 
 ### Templates:
-- ✅ `templates/index.html` - Links do menu
-- ✅ `templates/chat.html` - Links de navegação
+- ✅ `templates/index.html` - Menu links 
+- ✅ `templates/chat.html` - Navigation links
 - ✅ `templates/articles.html` - Link "Back to Chat"
 - ✅ `templates/settings.html` - Link "Back to Chat"
 
 ### JavaScript:
-- ✅ `static/js/bioknowdes.js` - Todas as chamadas fetch
-- ✅ `static/js/articles.js` - API calls e redirecionamentos
-- ✅ `static/js/settings.js` - API calls e redirecionamentos
+- ✅ `static/js/bioknowdes.js` - All fetch calls
+- ✅ `static/js/articles.js` - API calls and redirections
+- ✅ `static/js/settings.js` - API calls and redirections
 
 ### Outros:
-- ✅ `external_button_example.html` - URL da API e redirect
+- ✅ `external_button_example.html` - API URL and redirect
 
-## 🚀 Como Acessar
+## 🚀 How to Access
 
-### Páginas Principais:
+### Main Pages:
 
 ```
-Home (Grafo):        http://localhost:5000/
+Home (Graph):        http://localhost:5000/
 AI Chat:             http://localhost:5000/ask-lumi
 Browse Articles:     http://localhost:5000/ask-lumi/articles
 Settings:            http://localhost:5000/ask-lumi/settings
@@ -118,22 +118,22 @@ Heatmap:             http://localhost:5000/heatmap
 ### API Endpoints:
 
 ```bash
-# Chat com IA
+# AI Chat
 POST http://localhost:5000/ask-lumi/chat
 {
   "message": "Your question here"
 }
 
-# Carregar artigos
+# Load articles
 POST http://localhost:5000/ask-lumi/api/load-articles
 {
   "filenames": ["article1_text.txt", "article2_text.txt"]
 }
 
-# Listar todos os artigos
+# List all articles
 GET http://localhost:5000/ask-lumi/api/articles-list
 
-# Configurações
+# Settings
 GET http://localhost:5000/ask-lumi/api/settings
 POST http://localhost:5000/ask-lumi/api/settings
 {
@@ -145,9 +145,9 @@ POST http://localhost:5000/ask-lumi/api/settings
 }
 ```
 
-## 🧪 Testando
+## 🧪 Testing
 
-Execute o servidor:
+Execute the server:
 
 ```bash
 cd /home/jabs/development/personal/Nasa-Space-Apps_25/bioknow-nasa
@@ -155,25 +155,25 @@ source venv/bin/activate
 python app.py
 ```
 
-Teste cada rota:
+Test each route:
 
 ```bash
-# Home original
+# Original home
 curl http://localhost:5000/
 
-# Chat (deve retornar HTML)
+# Chat (must return HTML)
 curl http://localhost:5000/ask-lumi
 
-# API de artigos
+# Articles API
 curl http://localhost:5000/ask-lumi/api/articles-list
 ```
 
-## 📊 Estrutura de Navegação
+## 📊 Navigation Structure
 
 ```
 ┌─────────────┐
-│    Home     │ (Grafo - /)
-│   (Grafo)   │
+│    Home     │ (Graph - /)
+│   (Graph)   │
 └──────┬──────┘
        │
        ├─────────────┐
@@ -191,72 +191,72 @@ curl http://localhost:5000/ask-lumi/api/articles-list
                 └─────────────┘ └───────────┘ └────────────┘
 ```
 
-## 🔄 Fluxo de Trabalho
+## 🔄 Workflow
 
-1. **Usuário acessa home** (`/`)
-   - Vê visualização do grafo
-   - Menu dropdown com todas as opções
+1. **User acess home** (`/`)
+   - Sees graph visualization
+   - Dropdown menu with all options
 
-2. **Clica em "AI Chat"** → Vai para `/ask-lumi`
-   - Pode carregar documentos
-   - Pode ir para `/ask-lumi/articles` ou `/ask-lumi/settings`
+2. **Clicks "AI Chat"** → Goes to `/ask-lumi`
+   - Can load documents
+   - Can go to `/ask-lumi/articles` or `/ask-lumi/settings`
 
-3. **Carrega artigos em** `/ask-lumi/articles`
-   - Seleciona artigos
-   - Clica "Load Selected"
+3. **Loads articles on** `/ask-lumi/articles`
+   - Selects articles
+   - Clicks "Load Selected"
    - API: `POST /ask-lumi/api/load-articles`
-   - Redireciona para `/ask-lumi` com session_id
+   - Redirects to `/ask-lumi` with session_id
 
-4. **Faz perguntas no chat**
+4. **Asks questions on the chat**
    - API: `POST /ask-lumi/chat`
-   - IA responde baseada nos documentos
+   - AI answers based on documents
 
-## 🎯 Benefícios da Nova Estrutura
+## 🎯 Benefits of the New Structure
 
-✅ **Organização**: Todas as rotas do BioKnowdes agrupadas sob `/ask-lumi`
+✅ **Organization**: All BioKnowdes routes grouped under `/ask-lumi` 
 
-✅ **Separação**: Clara distinção entre:
-   - Visualização de grafos (original)
-   - IA e análise de documentos (BioKnowdes)
+✅ **Separation**: Clear distinction between:
+   - Graph visualization (original)
+   - AI and document analysis (BioKnowdes)
 
-✅ **Escalabilidade**: Fácil adicionar novas features sob `/ask-lumi`
+✅ **Scalability**: Each to add new features under `/ask-lumi`
 
-✅ **API Externa**: CORS configurado para `/ask-lumi/api/*`
+✅ **External API**: CORS configured to `/ask-lumi/api/*`
 
-## 📝 Notas Importantes
+## 📝 Important Notes
 
-1. **Session ID**: Sempre incluído nas respostas da API para manter estado
+1. **Session ID**: Always included in API responses
 
-2. **CORS**: Habilitado apenas para `/ask-lumi/api/*` para segurança
+2. **CORS**: Allowed only for `/ask-lumi/api/*`, for security 
 
-3. **Navegação**: Todos os templates têm links atualizados
+3. **Navigation**: All templates have updated links
 
-4. **Redirecionamentos**: Após carregar artigos ou salvar settings, redireciona para `/ask-lumi`
+4. **redirects**: After loading articles or saving settings, redirects to `/ask-lumi`
 
 ## 🐛 Troubleshooting
 
-### Erro 404 nas rotas
+### 404 Error in routes
 ```bash
-# Verifique se está acessando com o prefixo correto
-# ERRADO:  /articles
-# CORRETO: /ask-lumi/articles
+# Verify if its accessing with the correct prefix
+# WRONG:  /articles
+# CORRECT: /ask-lumi/articles
 ```
 
 ### CORS Error
 ```bash
-# Certifique-se que está fazendo requisição para /ask-lumi/api/*
-# O CORS está configurado apenas para este prefixo
+# Make sure its requisition goes to /ask-lumi/api/*
+# CORS is configured only for this prefix
 ```
 
-### Session não persiste
+### Session not persisting
 ```bash
-# Verifique se o session_id está sendo passado corretamente
-# na URL após carregar artigos
+# Verify if the session_id is being passed correctly
+# On the URL after loading articles
 ```
 
 ---
 
-**Atualização completa! 🎉**
+**Full Update! 🎉**
 
-Todas as rotas do BioKnowdes agora estão organizadas sob `/ask-lumi`.
+All routes are now organized under `/ask-lumi`. 
 
