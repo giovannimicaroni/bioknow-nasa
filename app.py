@@ -1950,24 +1950,16 @@ def toggle_document(document_id):
     if not session_id:
         return jsonify({'error': 'No session'}), 400
     
-    session_file = f'sessions/{session_id}.json'
-    if not os.path.exists(session_file):
-        return jsonify({'error': 'Session not found'}), 400
-    
-    with open(session_file, 'r', encoding='utf-8') as f:
-        session_data = json.load(f)
-    
-    documents = session_data.get('documents', [])
+    # Get documents using session manager
+    documents = session_manager.get_session_documents(session_id)
     
     for doc in documents:
         if doc['id'] == document_id:
             doc['selected'] = not doc.get('selected', False)
             break
     
-    session_data['documents'] = documents
-    
-    with open(session_file, 'w', encoding='utf-8') as f:
-        json.dump(session_data, f, ensure_ascii=False)
+    # Save updated documents
+    session_manager.save_session_documents(session_id, documents)
     
     return jsonify({'success': True})
 
@@ -1977,20 +1969,12 @@ def delete_document(document_id):
     if not session_id:
         return jsonify({'error': 'No session'}), 400
     
-    session_file = f'sessions/{session_id}.json'
-    if not os.path.exists(session_file):
-        return jsonify({'error': 'Session not found'}), 400
-    
-    with open(session_file, 'r', encoding='utf-8') as f:
-        session_data = json.load(f)
-    
-    documents = session_data.get('documents', [])
+    # Get documents using session manager
+    documents = session_manager.get_session_documents(session_id)
     documents = [doc for doc in documents if doc['id'] != document_id]
     
-    session_data['documents'] = documents
-    
-    with open(session_file, 'w', encoding='utf-8') as f:
-        json.dump(session_data, f, ensure_ascii=False)
+    # Save updated documents
+    session_manager.save_session_documents(session_id, documents)
     
     return jsonify({'success': True})
 
@@ -1998,9 +1982,8 @@ def delete_document(document_id):
 def clear_session():
     session_id = session.get('session_id')
     if session_id:
-        session_file = f'sessions/{session_id}.json'
-        if os.path.exists(session_file):
-            os.remove(session_file)
+        # Clear session using session manager
+        session_manager.clear_session(session_id)
     
     return jsonify({'success': True})
 
@@ -2053,23 +2036,12 @@ def load_articles():
         session_id = session.get('session_id', str(uuid.uuid4()))
         session['session_id'] = session_id
         
-        os.makedirs('sessions', exist_ok=True)
-        
-        session_file = f'sessions/{session_id}.json'
-        existing_docs = []
-        if os.path.exists(session_file):
-            try:
-                with open(session_file, 'r', encoding='utf-8') as f:
-                    session_data = json.load(f)
-                    existing_docs = session_data.get('documents', [])
-            except:
-                existing_docs = []
-        
+        # Get existing documents and add new ones
+        existing_docs = session_manager.get_session_documents(session_id)
         all_docs = existing_docs + session_docs
         
-        session_data = {'documents': all_docs}
-        with open(session_file, 'w', encoding='utf-8') as f:
-            json.dump(session_data, f, ensure_ascii=False)
+        # Save all documents
+        session_manager.save_session_documents(session_id, all_docs)
         
         return jsonify({
             'success': True,
@@ -2155,22 +2127,17 @@ def api_settings():
         session_id = str(uuid.uuid4())
         session['session_id'] = session_id
     
-    settings_file = f'sessions/{session_id}_settings.json'
-    
     if request.method == 'GET':
-        if os.path.exists(settings_file):
-            with open(settings_file, 'r') as f:
-                settings = json.load(f)
-            return jsonify(settings)
-        else:
-            return jsonify({'provider': 'lm_studio'})
+        # Get settings using session manager
+        settings = session_manager.get_session_settings(session_id)
+        if not settings:
+            settings = {'provider': 'lm_studio'}
+        return jsonify(settings)
     
     elif request.method == 'POST':
         settings = request.get_json()
-        
-        with open(settings_file, 'w') as f:
-            json.dump(settings, f)
-        
+        # Save settings using session manager
+        session_manager.save_session_settings(session_id, settings)
         return jsonify({'success': True})
 
 
@@ -2196,10 +2163,8 @@ def amanda_chat():
         settings = {}
         
         if session_id:
-            settings_file = f'sessions/{session_id}_settings.json'
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            # Get settings using session manager
+            settings = session_manager.get_session_settings(session_id)
         
         # Use settings if available, otherwise fallback to default Langchain
         result = amanda_agent.research(question, settings if settings else None)
